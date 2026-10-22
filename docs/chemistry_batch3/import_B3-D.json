@@ -1,0 +1,342 @@
+{
+  "items": [
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "钠的氧化物与过氧化物",
+        "description": "钠常温与O2主要生成Na2O（白色）；燃烧生成Na2O2（淡黄色）。Na2O是碱性氧化物，与水生成NaOH。Na2O2中氧为−1价，与H2O、CO2反应都放出O2，常作供氧剂理解。易错：把燃烧产物写成Na2O；混淆氧化钠与过氧化钠的颜色与氧的化合价。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.Na.oxide] batch3导入 pending_review id=27"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "碳酸钠与碳酸氢钠",
+        "description": "Na2CO3（纯碱）热稳定性强；NaHCO3（小苏打）受热易分解生成Na2CO3、CO2、H2O。二者都能与酸放CO2。Na2CO3溶液通足量CO2可转化为NaHCO3。鉴别可用加热法或滴酸快慢/现象结合题设。易错：写错分解方程式计量数；忽略CO2用量对产物的影响。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.Na.carbonate] batch3导入 pending_review id=28"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "铝及其化合物的两性",
+        "description": "Al、Al2O3、Al(OH)3都能与强酸、强碱反应。Al与NaOH溶液反应放H2并生成偏铝酸盐。Al(OH)3加酸或过量强碱沉淀均溶解，是两性核心证据。溶液中偏铝酸根常写[Al(OH)4]-（了解）。易错：认为只有Al(OH)3两性而忽略Al与Al2O3；把Mg(OH)2也当成可溶于过量NaOH。",
+        "difficulty": 3,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.Al.amphoteric] batch3导入 pending_review id=29"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "铁的化学性质",
+        "description": "铁可与O2点燃生成Fe3O4；与稀酸生成Fe2+盐与H2；能置换活动性较弱的金属离子。潮湿空气中易生锈。铁在反应中常见+2、+3价。易错：铁与稀酸写生成Fe3+；点燃产物写成Fe2O3。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.Fe.property] batch3导入 pending_review id=30"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "金属活动性顺序",
+        "description": "金属活动性顺序可用于判断：金属与酸/水反应难易、置换反应能否发生、盐溶液中金属与离子反应方向等。顺序越靠前越活泼。教材常见顺序（以课本为准）：K Ca Na Mg Al Zn Fe Sn Pb (H) Cu Hg Ag Pt Au。易错：用金属硬度、熔点直接代替活动性；忽略氢前氢后金属与酸反应差异。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.metal.activity] batch3导入 pending_review id=31"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "金属冶炼思路",
+        "description": "冶炼本质是把化合态金属还原为单质。活泼金属常用电解法（如熔融Al2O3炼铝，了解）；较不活泼可用热还原（CO、C、H2等还原氧化物，如炼铁）；更不活泼可热分解等。易错：把所有金属都写成同一种冶炼方法。",
+        "difficulty": 3,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.metal.smelting] batch3导入 pending_review id=32"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "Fe2+的性质",
+        "description": "Fe2+水溶液常呈浅绿色，具还原性，易被氧化为Fe3+。与碱生成白色Fe(OH)2，在空气中迅速变灰绿最终红褐。可用氧化后再加KSCN的方法间接检验。易错：把Fe2+溶液颜色说成黄色；忽略隔绝空气保存。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.Fe.fe2_property] 增补；还原性、浅绿色水溶液等; batch3导入 pending_review id=33"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "Fe3+的性质",
+        "description": "Fe3+水溶液常呈黄至棕黄色，具一定氧化性；与碱生成红褐色Fe(OH)3；与KSCN呈血红色。可氧化I-、S2-等（了解/题设，不进默认基础训练）。易错：与Fe2+颜色、沉淀颜色混淆。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.Fe.fe3_property] 增补；氧化性、黄色/棕黄色溶液等; batch3导入 pending_review id=34"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "Fe2+与Fe3+的转化",
+        "description": "Fe2+可被适当氧化剂氧化为Fe3+；Fe3+可被适当还原剂还原为Fe2+，须写明具体试剂与条件，不可省略。必修核心示例：Fe2+→Fe3+可用Cl2、空气中O2等；Fe3+→Fe2+可用Fe、Cu等（按教材例）。酸性KMnO4、H2O2、I-等作了解/题设试剂，不进默认基础训练。易错：氧化剂与还原剂、氧化产物与还原产物对调；离子方程式不守恒。",
+        "difficulty": 3,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.Fe.fe2_fe3] B3整改:核心剂与了解剂分开;排除未标记深剂默认训练"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "Fe2+与Fe3+的检验",
+        "description": "Fe3+：KSCN血红色；加碱红褐色沉淀。Fe2+：加碱白色沉淀并变色；先加KSCN无明显血红，再加氧化剂后变血红。注意排除干扰与题设条件。易错：直接对Fe2+加KSCN就报阳性。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.Fe.test] 增补；KSCN、碱沉淀颜色等；实验细节见 exp.Fe3_SCN; batch3导入 pending_review id=36"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "亚铁盐与铁盐",
+        "description": "亚铁盐含Fe2+（如FeSO4，溶液浅绿，还原性）；铁盐含Fe3+（如FeCl3，溶液黄/棕黄，氧化性更强）。保存亚铁盐常需防氧化。易错：两类盐性质混记；忽视水解酸性。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.Fe.salt] 增补；概括两类盐；代表物见 sub.FeSO4 / sub.FeCl3; batch3导入 pending_review id=37"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "生铁",
+        "description": "生铁是铁碳合金，含碳量高于钢（了解）。质硬而脆，可铸不可锻（了解）。用于铸造等。含碳量具体数值以所用教材为准（常见资料约2%–4.3%，待核实），默认基础训练不考具体百分数。易错：把生铁当成纯铁；与钢含碳量说反。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.metal.pig_iron] 了解级;含碳量待教材核实;排除默认百分数题"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "钢",
+        "description": "钢是含碳量低于生铁的铁碳合金（了解）。具有良好的塑性和强度，可锻造轧制。通过调整成分与处理获得不同性能。含碳量具体数值以所用教材为准（常见资料约0.03%–2%，待核实），默认基础训练不考具体百分数。易错：认为钢是纯净物；与生铁含碳量说反。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.metal.steel] 了解级;含碳量待教材核实;排除默认百分数题"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "不锈钢",
+        "description": "不锈钢是加入铬等元素提高抗腐蚀能力的钢（了解级，不进默认高一核心训练池）。日常器皿常用。勿展开铬酸盐深度氧化还原。易错：以为不锈钢绝对不锈、永不腐蚀。",
+        "difficulty": 1,
+        "importance": 2,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.metal.stainless] 了解级;排除默认核心训练"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "铝盐与偏铝酸盐转化",
+        "description": "Al3+加适量碱得Al(OH)3，碱过量转化为AlO2-（高中简化）或[Al(OH)4]-（了解/待核实）；向偏铝酸盐溶液加酸先沉淀后溶解。双向转化体现两性，常考图像题与离子共存。命题须指定离子写法。易错：酸碱过量不足导致沉淀量分析错误。",
+        "difficulty": 3,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.Al.salt_aluminate] 待核实:AlO2-与[Al(OH)4]-口径"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "合金",
+        "definition": "合金是由两种或两种以上的金属（或金属与非金属）熔合而成的具有金属特性的物质，一般属于混合物。",
+        "principle": "合金的性能通常与其组成和结构有关。与组成它的纯金属相比，许多常见合金的硬度更大，熔点往往较低；抗腐蚀性等也可能改善，但须看具体合金种类。不能将所有合金概括为具有相同性质，不得使用“所有合金硬度都更大”“所有合金熔点都更低”等绝对化表述。",
+        "applicableConditions": "讨论金属材料组成与性能比较时（必修金属材料部分）。",
+        "judgeMethods": "看是否由多种金属（或金属与非金属）熔合且具金属特性；纯金属单质不是合金；注意合金一般是混合物，无固定化学式。",
+        "examples": "生铁、钢、黄铜、不锈钢、镁铝合金等。",
+        "commonMistakes": "把合金当成纯净物或化合物；认为所有合金熔点一定更高或一定更低；用“一定更硬”绝对化而不看具体种类。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.alloy] B3整改P0:熔点/硬度分述;禁绝对化"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch3",
+    "pack": "B3-D",
+    "inventoryCodes": [
+      "kp.Na.oxide",
+      "kp.Na.carbonate",
+      "kp.Al.amphoteric",
+      "kp.Fe.property",
+      "kp.metal.activity",
+      "kp.metal.smelting",
+      "kp.Fe.fe2_property",
+      "kp.Fe.fe3_property",
+      "kp.Fe.fe2_fe3",
+      "kp.Fe.test",
+      "kp.Fe.salt",
+      "kp.metal.pig_iron",
+      "kp.metal.steel",
+      "kp.metal.stainless",
+      "kp.Al.salt_aluminate",
+      "concept.alloy"
+    ],
+    "specialtyByCode": {
+      "kp.Na.oxide": [
+        "substance",
+        "equation"
+      ],
+      "kp.Na.carbonate": [
+        "substance",
+        "equation"
+      ],
+      "kp.Al.amphoteric": [
+        "substance",
+        "equation"
+      ],
+      "kp.Fe.property": [
+        "substance",
+        "equation"
+      ],
+      "kp.metal.activity": [
+        "substance",
+        "equation"
+      ],
+      "kp.metal.smelting": [
+        "substance",
+        "equation"
+      ],
+      "kp.Fe.fe2_property": [
+        "ion",
+        "redox",
+        "substance"
+      ],
+      "kp.Fe.fe3_property": [
+        "ion",
+        "redox",
+        "substance"
+      ],
+      "kp.Fe.fe2_fe3": [
+        "redox",
+        "ion",
+        "equation"
+      ],
+      "kp.Fe.test": [
+        "ion",
+        "experiment",
+        "memory"
+      ],
+      "kp.Fe.salt": [
+        "substance",
+        "memory",
+        "ion"
+      ],
+      "kp.metal.pig_iron": [
+        "substance",
+        "memory"
+      ],
+      "kp.metal.steel": [
+        "substance",
+        "memory"
+      ],
+      "kp.metal.stainless": [
+        "substance",
+        "memory"
+      ],
+      "kp.Al.salt_aluminate": [
+        "substance",
+        "equation",
+        "ion"
+      ],
+      "concept.alloy": [
+        "substance",
+        "memory"
+      ]
+    },
+    "categoryByCode": {
+      "kp.Na.oxide": [
+        "substance.chem_property"
+      ],
+      "kp.Na.carbonate": [
+        "substance.chem_property"
+      ],
+      "kp.Al.amphoteric": [
+        "substance.chem_property"
+      ],
+      "kp.Fe.property": [
+        "substance.chem_property"
+      ],
+      "kp.metal.activity": [
+        "substance.chem_property"
+      ],
+      "kp.metal.smelting": [
+        "substance.chem_property"
+      ],
+      "kp.Fe.fe2_property": [
+        "ion.ion_test",
+        "redox.ox_re_ability",
+        "substance.chem_property"
+      ],
+      "kp.Fe.fe3_property": [
+        "ion.ion_test",
+        "redox.ox_re_ability",
+        "substance.chem_property"
+      ],
+      "kp.Fe.fe2_fe3": [
+        "redox.identify",
+        "equation.redox_analysis",
+        "ion.mixed"
+      ],
+      "kp.Fe.test": [
+        "ion.ion_test",
+        "experiment.substance_test",
+        "memory.color"
+      ],
+      "kp.Fe.salt": [
+        "substance.chem_property",
+        "memory.ions"
+      ],
+      "kp.metal.pig_iron": [
+        "substance.chem_property",
+        "memory.common_name"
+      ],
+      "kp.metal.steel": [
+        "substance.chem_property",
+        "memory.common_name"
+      ],
+      "kp.metal.stainless": [
+        "substance.chem_property",
+        "memory.common_name"
+      ],
+      "kp.Al.salt_aluminate": [
+        "substance.conversion",
+        "equation.conversion",
+        "ion.mixed"
+      ],
+      "concept.alloy": [
+        "substance.chem_property",
+        "memory.rules"
+      ]
+    }
+  }
+}

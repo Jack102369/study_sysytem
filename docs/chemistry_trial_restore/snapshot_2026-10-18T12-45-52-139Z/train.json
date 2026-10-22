@@ -1,0 +1,310 @@
+{
+  "chem_train_items": [
+    {
+      "id": 1,
+      "code": "train.test.eq.tf.01",
+      "pool": "test",
+      "qtype": "judge",
+      "stem": "【测试题】化学反应前后原子种类与数目守恒。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "answer_aliases_json": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "质量守恒定律：原子守恒。",
+      "difficulty": 1,
+      "specialty_id": 1,
+      "category_id": 25,
+      "status": "approved",
+      "is_active": 1,
+      "curriculum_ok": 1,
+      "verify_blocked": 0,
+      "ban_default_train": 0,
+      "gate_note": "phase1 test seed; not formal",
+      "created_by": null,
+      "updated_by": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-18T11:41:56.853Z",
+      "updated_at": "2026-10-18T11:41:56.853Z"
+    },
+    {
+      "id": 2,
+      "code": "train.test.eq.tf.02",
+      "pool": "test",
+      "qtype": "judge",
+      "stem": "【测试题】所有化学反应都是氧化还原反应。判断正误。",
+      "options_json": null,
+      "answer": "错误",
+      "answer_aliases_json": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "analysis": "中和、复分解等可无化合价变化。",
+      "difficulty": 1,
+      "specialty_id": 1,
+      "category_id": 25,
+      "status": "approved",
+      "is_active": 1,
+      "curriculum_ok": 1,
+      "verify_blocked": 0,
+      "ban_default_train": 0,
+      "gate_note": "phase1 test seed; not formal",
+      "created_by": null,
+      "updated_by": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-18T11:41:57.020Z",
+      "updated_at": "2026-10-18T11:41:57.020Z"
+    },
+    {
+      "id": 3,
+      "code": "train.test.eq.single.01",
+      "pool": "test",
+      "qtype": "single",
+      "stem": "【测试题】下列属于化学变化的是？",
+      "options_json": [
+        {
+          "key": "A",
+          "text": "冰融化成水"
+        },
+        {
+          "key": "B",
+          "text": "镁条燃烧"
+        },
+        {
+          "key": "C",
+          "text": "食盐溶于水"
+        },
+        {
+          "key": "D",
+          "text": "液态氧变成气态氧"
+        }
+      ],
+      "answer": "B",
+      "answer_aliases_json": null,
+      "analysis": "燃烧有新物质生成。",
+      "difficulty": 1,
+      "specialty_id": 1,
+      "category_id": 25,
+      "status": "approved",
+      "is_active": 1,
+      "curriculum_ok": 1,
+      "verify_blocked": 0,
+      "ban_default_train": 0,
+      "gate_note": "phase1 test seed; not formal",
+      "created_by": null,
+      "updated_by": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-18T11:41:57.153Z",
+      "updated_at": "2026-10-18T11:41:57.153Z"
+    },
+    {
+      "id": 4,
+      "code": "train.test.mem.blank.01",
+      "pool": "test",
+      "qtype": "blank",
+      "stem": "【测试题】氧元素的元素符号是____。（填符号）",
+      "options_json": null,
+      "answer": "O",
+      "answer_aliases_json": [],
+      "analysis": "氧元素符号为 O。",
+      "difficulty": 1,
+      "specialty_id": 11,
+      "category_id": 64,
+      "status": "approved",
+      "is_active": 1,
+      "curriculum_ok": 1,
+      "verify_blocked": 0,
+      "ban_default_train": 0,
+      "gate_note": "phase1 test seed; not formal",
+      "created_by": null,
+      "updated_by": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-18T11:41:57.303Z",
+      "updated_at": "2026-10-18T11:41:57.303Z"
+    },
+    {
+      "id": 5,
+      "code": "train.test.sub.single.01",
+      "pool": "test",
+      "qtype": "single",
+      "stem": "【测试题】水的化学式是？",
+      "options_json": [
+        {
+          "key": "A",
+          "text": "H2O"
+        },
+        {
+          "key": "B",
+          "text": "HO"
+        },
+        {
+          "key": "C",
+          "text": "H2O2"
+        },
+        {
+          "key": "D",
+          "text": "OH"
+        }
+      ],
+      "answer": "A",
+      "answer_aliases_json": null,
+      "analysis": "水分子由两个氢原子与一个氧原子构成。",
+      "difficulty": 1,
+      "specialty_id": 3,
+      "category_id": 128,
+      "status": "approved",
+      "is_active": 1,
+      "curriculum_ok": 1,
+      "verify_blocked": 0,
+      "ban_default_train": 0,
+      "gate_note": "phase1 test seed; not formal",
+      "created_by": null,
+      "updated_by": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-18T11:41:57.427Z",
+      "updated_at": "2026-10-18T11:41:57.427Z"
+    },
+    {
+      "id": 6,
+      "code": "train.test.exp.judge.01",
+      "pool": "test",
+      "qtype": "judge",
+      "stem": "【测试题】危险化学实验可以在家自行操作。判断正误。",
+      "options_json": null,
+      "answer": "错误",
+      "answer_aliases_json": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "analysis": "危险实验须在实验室由教师指导。",
+      "difficulty": 1,
+      "specialty_id": 2,
+      "category_id": 43,
+      "status": "approved",
+      "is_active": 1,
+      "curriculum_ok": 1,
+      "verify_blocked": 0,
+      "ban_default_train": 0,
+      "gate_note": "phase1 test seed; not formal",
+      "created_by": null,
+      "updated_by": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-18T11:41:57.625Z",
+      "updated_at": "2026-10-18T11:41:57.625Z"
+    },
+    {
+      "id": 7,
+      "code": "train.test.eq.blank.01",
+      "pool": "test",
+      "qtype": "blank",
+      "stem": "【测试题】氯化钠的化学式是____。",
+      "options_json": null,
+      "answer": "NaCl",
+      "answer_aliases_json": [
+        "NaCl(s)"
+      ],
+      "analysis": "氯化钠化学式 NaCl。",
+      "difficulty": 1,
+      "specialty_id": 1,
+      "category_id": 25,
+      "status": "approved",
+      "is_active": 1,
+      "curriculum_ok": 1,
+      "verify_blocked": 0,
+      "ban_default_train": 0,
+      "gate_note": "phase1 test seed; not formal",
+      "created_by": null,
+      "updated_by": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-18T11:41:58.061Z",
+      "updated_at": "2026-10-18T11:41:58.061Z"
+    },
+    {
+      "id": 8,
+      "code": "train.test.eq.single.02",
+      "pool": "test",
+      "qtype": "single",
+      "stem": "【测试题】配平化学方程式时必须遵守的是？",
+      "options_json": [
+        {
+          "key": "A",
+          "text": "只保证质量相等即可随意改化学式"
+        },
+        {
+          "key": "B",
+          "text": "原子种类与数目守恒"
+        },
+        {
+          "key": "C",
+          "text": "可以改变生成物种类"
+        },
+        {
+          "key": "D",
+          "text": "不需要考虑原子守恒"
+        }
+      ],
+      "answer": "B",
+      "answer_aliases_json": null,
+      "analysis": "配平依据原子守恒。",
+      "difficulty": 1,
+      "specialty_id": 1,
+      "category_id": 25,
+      "status": "approved",
+      "is_active": 1,
+      "curriculum_ok": 1,
+      "verify_blocked": 0,
+      "ban_default_train": 0,
+      "gate_note": "phase1 test seed; not formal",
+      "created_by": null,
+      "updated_by": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-18T11:41:58.419Z",
+      "updated_at": "2026-10-18T11:41:58.419Z"
+    },
+    {
+      "id": 9,
+      "code": "train.test.mem.blank.02",
+      "pool": "test",
+      "qtype": "blank",
+      "stem": "【测试题】氢元素的元素符号是____。",
+      "options_json": null,
+      "answer": "H",
+      "answer_aliases_json": [],
+      "analysis": "氢元素符号为 H。",
+      "difficulty": 1,
+      "specialty_id": 11,
+      "category_id": 64,
+      "status": "approved",
+      "is_active": 1,
+      "curriculum_ok": 1,
+      "verify_blocked": 0,
+      "ban_default_train": 0,
+      "gate_note": "phase1 test seed; not formal",
+      "created_by": null,
+      "updated_by": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-18T11:41:58.761Z",
+      "updated_at": "2026-10-18T11:41:58.761Z"
+    }
+  ],
+  "chem_train_item_links": [],
+  "chem_train_test_grants": [],
+  "chem_train_sessions": [],
+  "chem_train_session_items": []
+}

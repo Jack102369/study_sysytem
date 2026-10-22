@@ -1,0 +1,35 @@
+{
+  "changed": [
+    "sub.C2H2",
+    "sub.C6H6",
+    "rxn.CH4_Cl2",
+    "rxn.C2H4_Br2",
+    "rxn.C2H4_H2O",
+    "rxn.C2H4_H2",
+    "rxn.C2H5OH_O2",
+    "rxn.C2H5OH_burn",
+    "rxn.esterification",
+    "rxn.CH3COOH_NaOH",
+    "rxn.CH3COOH_Na2CO3",
+    "concept.functional_group",
+    "concept.substitution",
+    "concept.addition",
+    "concept.esterification_rule",
+    "q.eq.Na_water",
+    "kp.energy.galvanic",
+    "concept.heat_of_reaction",
+    "kp.organic.cracking",
+    "kp.organic.pyrolysis",
+    "kp.sustain.atom_economy",
+    "kp.organic.biomolecule",
+    "rxn.C2H4_KMnO4"
+  ],
+  "afterCount": 377,
+  "verifyNeeded": [
+    "concept.heat_of_reaction",
+    "kp.organic.cracking",
+    "kp.organic.pyrolysis",
+    "kp.sustain.atom_economy",
+    "kp.organic.biomolecule"
+  ]
+}

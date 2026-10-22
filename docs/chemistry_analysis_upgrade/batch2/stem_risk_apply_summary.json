@@ -1,0 +1,206 @@
+{
+  "generatedAt": "2026-10-20T03:13:21.370Z",
+  "mode": "apply",
+  "gradeCount26": {
+    "CONFIRMED_BLOCK": 13,
+    "FIXABLE": 0,
+    "FALSE_POSITIVE": 13,
+    "NEEDS_VERIFICATION": 0
+  },
+  "confirmedBlockPlanned": [
+    "211",
+    "215",
+    "220",
+    "238",
+    "242",
+    "246",
+    "250",
+    "263",
+    "265",
+    "267",
+    "271",
+    "275",
+    "288"
+  ],
+  "apply": {
+    "blocked": 13,
+    "skipped": 0,
+    "results": [
+      {
+        "id": "211",
+        "decision": "BLOCKED",
+        "code": "train.ai_trial.pa.kp_misconception_judge.kp.calc.excess",
+        "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.calc.excess [qa:PASS] [verify_class:none] [trial_access:allow]",
+        "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.calc.excess [qa:PASS] [verify_class:none] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+      },
+      {
+        "id": "215",
+        "decision": "BLOCKED",
+        "code": "train.ai_trial.pa.kp_misconception_judge.kp.calc.solution",
+        "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.calc.solution [qa:PASS] [verify_class:none] [trial_access:allow]",
+        "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.calc.solution [qa:PASS] [verify_class:none] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+      },
+      {
+        "id": "220",
+        "decision": "BLOCKED",
+        "code": "train.ai_trial.pa.kp_misconception_judge.kp.Cl.prep",
+        "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.Cl.prep [qa:PASS] [verify_class:none] [trial_access:allow]",
+        "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.Cl.prep [qa:PASS] [verify_class:none] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+      },
+      {
+        "id": "238",
+        "decision": "BLOCKED",
+        "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.fe2_fe3",
+        "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.fe2_fe3 [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+        "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.fe2_fe3 [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+      },
+      {
+        "id": "242",
+        "decision": "BLOCKED",
+        "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.fe3_property",
+        "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.fe3_property [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+        "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.fe3_property [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+      },
+      {
+        "id": "246",
+        "decision": "BLOCKED",
+        "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.salt",
+        "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.salt [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+        "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.salt [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+      },
+      {
+        "id": "250",
+        "decision": "BLOCKED",
+        "code": "train.ai_trial.pa.kp_misconception_judge.kp.halogen.compare",
+        "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.halogen.compare [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+        "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.halogen.compare [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+      },
+      {
+        "id": "263",
+        "decision": "BLOCKED",
+        "code": "train.ai_trial.pa.kp_misconception_judge.kp.N.ammonia",
+        "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.N.ammonia [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+        "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.N.ammonia [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+      },
+      {
+        "id": "265",
+        "decision": "BLOCKED",
+        "code": "train.ai_trial.pa.kp_misconception_judge.kp.N.ammonium",
+        "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.N.ammonium [qa:PASS] [verify_class:none] [trial_access:allow]",
+        "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.N.ammonium [qa:PASS] [verify_class:none] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+      },
+      {
+        "id": "267",
+        "decision": "BLOCKED",
+        "code": "train.ai_trial.pa.kp_misconception_judge.kp.N.cycle",
+        "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.N.cycle [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+        "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.N.cycle [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+      },
+      {
+        "id": "271",
+        "decision": "BLOCKED",
+        "code": "train.ai_trial.pa.kp_misconception_judge.kp.Na.carbonate",
+        "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.Na.carbonate [qa:PASS] [verify_class:none] [trial_access:allow]",
+        "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.Na.carbonate [qa:PASS] [verify_class:none] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+      },
+      {
+        "id": "275",
+        "decision": "BLOCKED",
+        "code": "train.ai_trial.pa.kp_misconception_judge.kp.nonmetal.test",
+        "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.nonmetal.test [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+        "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.nonmetal.test [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+      },
+      {
+        "id": "288",
+        "decision": "BLOCKED",
+        "code": "train.ai_trial.pa.kp_misconception_judge.kp.redox.e_conserve",
+        "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.redox.e_conserve [qa:PASS] [verify_class:none] [trial_access:allow]",
+        "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.redox.e_conserve [qa:PASS] [verify_class:none] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+      }
+    ]
+  },
+  "whitelistCrossCheck": {
+    "overlapped": false,
+    "overlapIds": [],
+    "beforeCount": 116,
+    "afterCount": 116,
+    "note": "无交叉，保留原白名单/备份/干跑"
+  },
+  "verify": {
+    "bankTotal": 638,
+    "formal": 0,
+    "trainable": 621,
+    "blockedTotal": 17,
+    "dailyCandidateApprox": 561,
+    "sessionItemsUnchangedMetric": 199,
+    "blockedLive": [
+      {
+        "id": "211",
+        "blocked": true,
+        "hasOurMarker": true
+      },
+      {
+        "id": "215",
+        "blocked": true,
+        "hasOurMarker": true
+      },
+      {
+        "id": "220",
+        "blocked": true,
+        "hasOurMarker": true
+      },
+      {
+        "id": "238",
+        "blocked": true,
+        "hasOurMarker": true
+      },
+      {
+        "id": "242",
+        "blocked": true,
+        "hasOurMarker": true
+      },
+      {
+        "id": "246",
+        "blocked": true,
+        "hasOurMarker": true
+      },
+      {
+        "id": "250",
+        "blocked": true,
+        "hasOurMarker": true
+      },
+      {
+        "id": "263",
+        "blocked": true,
+        "hasOurMarker": true
+      },
+      {
+        "id": "265",
+        "blocked": true,
+        "hasOurMarker": true
+      },
+      {
+        "id": "267",
+        "blocked": true,
+        "hasOurMarker": true
+      },
+      {
+        "id": "271",
+        "blocked": true,
+        "hasOurMarker": true
+      },
+      {
+        "id": "275",
+        "blocked": true,
+        "hasOurMarker": true
+      },
+      {
+        "id": "288",
+        "blocked": true,
+        "hasOurMarker": true
+      }
+    ],
+    "blockedStillEligibleCount": 0,
+    "ok": true
+  }
+}

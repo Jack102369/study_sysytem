@@ -1,0 +1,103 @@
+{
+  "total": 594,
+  "formal": 0,
+  "fillerTotal": 18,
+  "fillerActive": 0,
+  "trialAllow": 574,
+  "trialBlock": 20,
+  "itemsWithLinks": 573,
+  "linkCheck": [
+    {
+      "code": "train.ai_trial.eq.balance.01",
+      "n": 1
+    },
+    {
+      "code": "train.ai_trial.eq.conversion.01",
+      "n": 0
+    },
+    {
+      "code": "train.ai_trial.eq.write.02",
+      "n": 1
+    },
+    {
+      "code": "train.test.eq.single.01",
+      "n": 0
+    },
+    {
+      "code": "train.test.eq.tf.01",
+      "n": 1
+    }
+  ],
+  "write02AnswerType": "chem_formula",
+  "specialtiesWithTrial": 12,
+  "bySpec": [
+    {
+      "code": "equation",
+      "n": 218
+    },
+    {
+      "code": "redox",
+      "n": 111
+    },
+    {
+      "code": "substance",
+      "n": 92
+    },
+    {
+      "code": "memory",
+      "n": 68
+    },
+    {
+      "code": "periodic",
+      "n": 21
+    },
+    {
+      "code": "comprehensive",
+      "n": 20
+    },
+    {
+      "code": "ion",
+      "n": 18
+    },
+    {
+      "code": "calculation",
+      "n": 8
+    },
+    {
+      "code": "experiment",
+      "n": 7
+    },
+    {
+      "code": "organic",
+      "n": 6
+    },
+    {
+      "code": "structure",
+      "n": 3
+    },
+    {
+      "code": "inference",
+      "n": 2
+    }
+  ],
+  "byDiff": [
+    {
+      "difficulty": 1,
+      "n": 407
+    },
+    {
+      "difficulty": 2,
+      "n": 167
+    }
+  ],
+  "categoriesWithTrial": 34,
+  "sessions": 8,
+  "sessionItems": 27,
+  "verifyClass": {
+    "kb_pending": "223",
+    "science": "0",
+    "qtype_limit": "11",
+    "curriculum": "0",
+    "qa_verify": "223"
+  }
+}

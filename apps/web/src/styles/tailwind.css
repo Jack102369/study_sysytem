@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --animate-aurora: aurora 60s linear infinite;
+  --color-background: var(--app-bg);
+  --color-foreground: var(--app-text);
+  --color-card: var(--app-card-bg);
+  --color-border: var(--app-border);
+  --color-muted: var(--app-text-secondary);
+  --color-primary: var(--app-primary);
+  --radius-lg: var(--app-radius-lg);
+}
+
+@keyframes aurora {
+  from {
+    background-position:
+      50% 50%,
+      50% 50%;
+  }
+  to {
+    background-position:
+      350% 50%,
+      350% 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-aurora,
+  .after\:animate-aurora::after {
+    animation: none !important;
+  }
+}

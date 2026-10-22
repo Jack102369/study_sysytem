@@ -1,0 +1,18 @@
+{
+  "planned": 79,
+  "seeded": [
+    "q.eq.Na_water"
+  ],
+  "seededCount": 1,
+  "toImport": 78,
+  "packs": {
+    "B6-A": 9,
+    "B6-B": 10,
+    "B6-C": 7,
+    "B6-D": 10,
+    "B6-E": 33,
+    "B6-F": 9
+  },
+  "productNote": "experiment specialty = paper-based Q training only; no hands-on / lab booking / virtual lab",
+  "generatedAt": "2026-10-18T09:03:46.447Z"
+}

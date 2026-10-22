@@ -1,0 +1,2768 @@
+{
+  "generatedAt": "2026-10-19T13:48:22.582Z",
+  "summary": {
+    "total": 60,
+    "byGrade": {
+      "PASS": 56,
+      "NEEDS_FIX": 4
+    },
+    "byDifficultyPass": {
+      "raise": 35,
+      "challenge": 21
+    },
+    "bySpecialty": {
+      "calculation": {
+        "PASS": 12,
+        "NEEDS_FIX": 0,
+        "HOLD": 0,
+        "REJECT": 0
+      },
+      "redox": {
+        "PASS": 12,
+        "NEEDS_FIX": 0,
+        "HOLD": 0,
+        "REJECT": 0
+      },
+      "ion": {
+        "PASS": 7,
+        "NEEDS_FIX": 3,
+        "HOLD": 0,
+        "REJECT": 0
+      },
+      "experiment": {
+        "PASS": 10,
+        "NEEDS_FIX": 0,
+        "HOLD": 0,
+        "REJECT": 0
+      },
+      "inference": {
+        "PASS": 8,
+        "NEEDS_FIX": 0,
+        "HOLD": 0,
+        "REJECT": 0
+      },
+      "comprehensive": {
+        "PASS": 7,
+        "NEEDS_FIX": 1,
+        "HOLD": 0,
+        "REJECT": 0
+      }
+    },
+    "quotas": {
+      "got": {
+        "calculation": {
+          "raise": 7,
+          "challenge": 5,
+          "total": 12
+        },
+        "redox": {
+          "raise": 7,
+          "challenge": 5,
+          "total": 12
+        },
+        "ion": {
+          "raise": 6,
+          "challenge": 4,
+          "total": 10
+        },
+        "experiment": {
+          "raise": 6,
+          "challenge": 4,
+          "total": 10
+        },
+        "inference": {
+          "raise": 5,
+          "challenge": 3,
+          "total": 8
+        },
+        "comprehensive": {
+          "raise": 5,
+          "challenge": 3,
+          "total": 8
+        }
+      },
+      "mismatches": []
+    },
+    "structIssueCount": 0,
+    "dedupHitCount": 0,
+    "deepseekReviewed": 60,
+    "deepseekFailed": 0,
+    "deepseekSkipped": false,
+    "trialReadyIds": [
+      "S60.calculation.01",
+      "S60.calculation.02",
+      "S60.calculation.03",
+      "S60.calculation.04",
+      "S60.calculation.05",
+      "S60.calculation.06",
+      "S60.calculation.07",
+      "S60.calculation.08",
+      "S60.calculation.09",
+      "S60.calculation.10",
+      "S60.calculation.11",
+      "S60.calculation.12",
+      "S60.redox.01",
+      "S60.redox.02",
+      "S60.redox.03",
+      "S60.redox.04",
+      "S60.redox.05",
+      "S60.redox.06",
+      "S60.redox.07",
+      "S60.redox.08",
+      "S60.redox.09",
+      "S60.redox.10",
+      "S60.redox.11",
+      "S60.redox.12",
+      "S60.ion.01",
+      "S60.ion.02",
+      "S60.ion.03",
+      "S60.ion.04",
+      "S60.ion.05",
+      "S60.ion.06",
+      "S60.ion.08",
+      "S60.experiment.01",
+      "S60.experiment.02",
+      "S60.experiment.03",
+      "S60.experiment.04",
+      "S60.experiment.05",
+      "S60.experiment.06",
+      "S60.experiment.07",
+      "S60.experiment.08",
+      "S60.experiment.09",
+      "S60.experiment.10",
+      "S60.inference.01",
+      "S60.inference.02",
+      "S60.inference.03",
+      "S60.inference.04",
+      "S60.inference.05",
+      "S60.inference.06",
+      "S60.inference.07",
+      "S60.inference.08",
+      "S60.comprehensive.01",
+      "S60.comprehensive.02",
+      "S60.comprehensive.03",
+      "S60.comprehensive.04",
+      "S60.comprehensive.05",
+      "S60.comprehensive.06",
+      "S60.comprehensive.07"
+    ]
+  },
+  "structIssues": [],
+  "science": [
+    {
+      "id": "S60.calculation.01",
+      "mode": "calc",
+      "status": "PASS",
+      "independentAnswer": "A"
+    },
+    {
+      "id": "S60.calculation.02",
+      "mode": "calc",
+      "status": "PASS",
+      "independentAnswer": "B"
+    },
+    {
+      "id": "S60.calculation.03",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.calculation.04",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.calculation.05",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.calculation.06",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.calculation.07",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.calculation.08",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.calculation.09",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.calculation.10",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.calculation.11",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.calculation.12",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.redox.01",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.redox.02",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.redox.03",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.redox.04",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.redox.05",
+      "mode": "calc",
+      "status": "PASS",
+      "independentAnswer": "C"
+    },
+    {
+      "id": "S60.redox.06",
+      "mode": "calc",
+      "status": "PASS",
+      "independentAnswer": "B"
+    },
+    {
+      "id": "S60.redox.07",
+      "mode": "calc",
+      "status": "PASS",
+      "independentAnswer": "A"
+    },
+    {
+      "id": "S60.redox.08",
+      "mode": "calc",
+      "status": "PASS",
+      "independentAnswer": "B"
+    },
+    {
+      "id": "S60.redox.09",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.redox.10",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.redox.11",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.redox.12",
+      "mode": "calc",
+      "status": "PASS",
+      "independentAnswer": "A"
+    },
+    {
+      "id": "S60.ion.01",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.ion.02",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.ion.03",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.ion.04",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.ion.05",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.ion.06",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.ion.07",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.ion.08",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.ion.09",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.ion.10",
+      "mode": "calc",
+      "status": "PASS",
+      "independentAnswer": "B"
+    },
+    {
+      "id": "S60.experiment.01",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.experiment.02",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.experiment.03",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.experiment.04",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.experiment.05",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.experiment.06",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.experiment.07",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.experiment.08",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.experiment.09",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.experiment.10",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.inference.01",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.inference.02",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.inference.03",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.inference.04",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.inference.05",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.inference.06",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.inference.07",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.inference.08",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.comprehensive.01",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.comprehensive.02",
+      "mode": "calc",
+      "status": "PASS",
+      "independentAnswer": "A"
+    },
+    {
+      "id": "S60.comprehensive.03",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.comprehensive.04",
+      "mode": "calc",
+      "status": "PASS",
+      "independentAnswer": "A"
+    },
+    {
+      "id": "S60.comprehensive.05",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.comprehensive.06",
+      "mode": "calc",
+      "status": "PASS",
+      "independentAnswer": "A"
+    },
+    {
+      "id": "S60.comprehensive.07",
+      "mode": "manual_logic",
+      "status": "CHECKED_LOGIC",
+      "note": "无独立数值复算脚本；按化学逻辑人工结构化核验字段保留"
+    },
+    {
+      "id": "S60.comprehensive.08",
+      "mode": "calc",
+      "status": "PASS",
+      "independentAnswer": "A"
+    }
+  ],
+  "uniqueness": [
+    {
+      "id": "S60.calculation.01",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.calculation.02",
+      "status": "PASS",
+      "note": "",
+      "answer": "B",
+      "auditCorrectKeys": [
+        "B"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.calculation.03",
+      "status": "PASS",
+      "note": "",
+      "answer": "B",
+      "auditCorrectKeys": [
+        "B"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.calculation.04",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.calculation.05",
+      "status": "PASS",
+      "note": "",
+      "answer": "B",
+      "auditCorrectKeys": [
+        "B"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.calculation.06",
+      "status": "PASS",
+      "note": "",
+      "answer": "B",
+      "auditCorrectKeys": [
+        "B"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.calculation.07",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.calculation.08",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.calculation.09",
+      "status": "PASS",
+      "note": "",
+      "answer": "B",
+      "auditCorrectKeys": [
+        "B"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.calculation.10",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.calculation.11",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.calculation.12",
+      "status": "PASS",
+      "note": "",
+      "answer": "B",
+      "auditCorrectKeys": [
+        "B"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.redox.01",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.redox.02",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.redox.03",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.redox.04",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.redox.05",
+      "status": "PASS",
+      "note": "",
+      "answer": "C",
+      "auditCorrectKeys": [
+        "C"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.redox.06",
+      "status": "PASS",
+      "note": "",
+      "answer": "B",
+      "auditCorrectKeys": [
+        "B"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.redox.07",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.redox.08",
+      "status": "PASS",
+      "note": "",
+      "answer": "B",
+      "auditCorrectKeys": [
+        "B"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.redox.09",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.redox.10",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.redox.11",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.redox.12",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.ion.01",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.ion.02",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.ion.03",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.ion.04",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.ion.05",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.ion.06",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.ion.07",
+      "status": "PASS",
+      "note": "",
+      "answer": "C",
+      "auditCorrectKeys": [
+        "C"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.ion.08",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.ion.09",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.ion.10",
+      "status": "PASS",
+      "note": "",
+      "answer": "B",
+      "auditCorrectKeys": [
+        "B"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.experiment.01",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.experiment.02",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.experiment.03",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.experiment.04",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": [
+        "必须有颜色"
+      ]
+    },
+    {
+      "id": "S60.experiment.05",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": [
+        "收集到的一定是氧气",
+        "一定无法收集到任何气体"
+      ]
+    },
+    {
+      "id": "S60.experiment.06",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.experiment.07",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.experiment.08",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.experiment.09",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.experiment.10",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.inference.01",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.inference.02",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.inference.03",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.inference.04",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.inference.05",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.inference.06",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.inference.07",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.inference.08",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.comprehensive.01",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.comprehensive.02",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.comprehensive.03",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.comprehensive.04",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.comprehensive.05",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.comprehensive.06",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.comprehensive.07",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    },
+    {
+      "id": "S60.comprehensive.08",
+      "status": "PASS",
+      "note": "",
+      "answer": "A",
+      "auditCorrectKeys": [
+        "A"
+      ],
+      "absurdHeuristicHits": []
+    }
+  ],
+  "dedupHits": [],
+  "grades": [
+    {
+      "id": "S60.calculation.01",
+      "specialtyCode": "calculation",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.calculation.001",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.calculation.01",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为“提高”，但实际仅为基础物质的量换算，难度真实性不足"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "计算与答案均正确；A项正确，B、C、D均为常见错误换算，干扰项合理。建议将难度调整为“基础”。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.calculation.02",
+      "specialtyCode": "calculation",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.calculation.002",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.calculation.02",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为“提高”，但实际为单步化学计量基础题，难度真实性不足"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "n(H₂)=1.5 mol，生成H₂O 1.5 mol，质量27 g，答案B正确。干扰项覆盖常见错误。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.calculation.03",
+      "specialtyCode": "calculation",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.calculation.002",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.calculation.03",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 5,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "含杂质样品计算，需先求有效Zn质量再按计量关系求H₂体积，符合“挑战”难度。答案B正确，解析完整。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.calculation.04",
+      "specialtyCode": "calculation",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.calculation.003",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.calculation.04",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "H₂与O₂恰好完全反应，生成18 g水，答案A正确。解析指出“恰好完全”，但breakthrough写“比较谁过量”与本题恰好完全略有出入，不影响答案。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.calculation.05",
+      "specialtyCode": "calculation",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.calculation.003",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.calculation.05",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 5,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "n(H₂)=2.0 mol，n(O₂)=0.5 mol，O₂不足��耗H₂ 1.0 mol，剩余H₂ 1.0 mol，答案B正确。解析清晰。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.calculation.06",
+      "specialtyCode": "calculation",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.calculation.004",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.calculation.06",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为raise，但仅为基础单位换算与c=n/V直接计算，挑战性不足"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "计算正确：0.25 mol / 0.50 L = 0.50 mol·L⁻¹；干扰项覆盖未换算体积、除以2等常见错误。难度标注偏高但不影响科学性。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.calculation.07",
+      "specialtyCode": "calculation",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.calculation.004",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.calculation.07",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "稀释计算正确：n=0.060 mol，c₂=0.060/0.300=0.20 mol·L⁻¹；干扰项合理，符合挑战难度。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.calculation.08",
+      "specialtyCode": "calculation",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.calculation.005",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.calculation.08",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "A正确：同温同压下同体积气体分子数相等；B缺状况限制，C水为液体，D表述绝对化。解析覆盖关键判断。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.calculation.09",
+      "specialtyCode": "calculation",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.calculation.005",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.calculation.09",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为raise，但属于n=m/M与V=n·Vm的基础直接应用，挑战性不足"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "计算正确：n=0.5 mol，V=11.2 L；干扰项对应常见计算错误。难度标注偏高但不影响科学性。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.calculation.10",
+      "specialtyCode": "calculation",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.calculation.006",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.calculation.10",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为raise，但仅需质量差一步减法，挑战性不足",
+          "解析过于简略，未说明敞口容器中逸出气体仅为CO₂、水蒸气影响忽略等前提"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "质量差法计算正确：85.0−71.8=13.2 g；但解析质量一般，且难度标注与实际不符。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.calculation.11",
+      "specialtyCode": "calculation",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.calculation.006",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.calculation.11",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [
+          "题干依赖“上题”情境，单独呈现时缺少 CO₂ 来源信息，但本题核心为质量-体积一致性判断，不影响作答",
+          "难度标注为 challenge，但实际仅需一次 n=m/M 与 V=nVm 的常规换算，挑战性不足"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "计算正确：13.2 g CO₂ 为 0.30 mol，标准状况下 6.72 L，答案唯一。干扰项能覆盖常见误解。建议将难度调整为基础或提高。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.calculation.12",
+      "specialtyCode": "calculation",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.calculation.008",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.calculation.12",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 5,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "差减法得 NaCl 质量 5.85 g，n=0.100 mol，定容 250 mL 得 c=0.400 mol·L⁻¹，计算与解析均正确。干��项覆盖未除以体积、差减错误等典型错误，难度符合提高/挑战定位。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.redox.01",
+      "specialtyCode": "redox",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.redox.001",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.redox.01",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "Mg 由 0 价升至 +2 价被氧化，O 由 0 价降至 −2 价被还原，属于氧化还原反应。答案唯一，干扰项合理。解析可再明确标注化合价变化。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.redox.02",
+      "specialtyCode": "redox",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.redox.001",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.redox.02",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "中和反应中各元素化合价均未变化，不属于氧化还原反应。答案唯一，干扰项针对常见误判设置合理。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.redox.03",
+      "specialtyCode": "redox",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.redox.002",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.redox.03",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "Cl₂ 中 Cl 由 0 价降至 −1 价，作氧化剂；Na 由 0 价升至 +1 价，作还原剂。答案唯一，干扰项合理。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.redox.04",
+      "specialtyCode": "redox",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.redox.007",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.redox.04",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "NaCl中Na来自Na被氧化、Cl来自Cl₂被还原，故NaCl既是氧化产物又是还原产物，A正确；B、C、D均错误。解析思路清晰，符合必修氧化还原概念。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.redox.05",
+      "specialtyCode": "redox",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.redox.003",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.redox.05",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "按方程式2 mol Al失6 mol e⁻，3 mol Cl₂得6 mol e⁻，转移6 mol，C正确。计算正确，干扰项为常见误算。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.redox.06",
+      "specialtyCode": "redox",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.redox.003",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.redox.06",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "3 mol Cl₂对应6 mol e⁻，1.5 mol Cl₂对应3.0 mol e⁻，B正确。比例计算无误，难度略高于基础题但仍在必修范围。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.redox.07",
+      "specialtyCode": "redox",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.redox.004",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.redox.07",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "R失2e、T得5e，电子守恒得2n(R)=5n(T)，n(R):n(T)=5:2，A正确。干扰项为比例颠倒或误算，合理。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.redox.08",
+      "specialtyCode": "redox",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.redox.004",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.redox.08",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "生成1 mol Cl₂需2 mol Cl⁻被氧化，B正确。注意MnO₂中Mn得电子与Cl⁻失电子守恒，解析虽简但结论正确，干扰项合理。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.redox.09",
+      "specialtyCode": "redox",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.redox.002",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.redox.09",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "Cl₂歧化反应，Cl₂既作氧化剂又作还原剂，A正确；B、C、D均错误。解析简明，符合必修氧化还原内容。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.redox.10",
+      "specialtyCode": "redox",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.redox.001",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.redox.10",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "A中Cl由+5降至−1、O由−2升至0，属氧化还原；B、C、D无化合价变化。答案唯一，干扰项合理。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.redox.11",
+      "specialtyCode": "redox",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.redox.007",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.redox.11",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "标注为raise难度，但C+O₂→CO₂的化合价判断属基础题，难度标注偏高"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "科学正确，C由0升至+4被氧化作还原剂，A正确。难度标注与实际不符，建议降为基础难度。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.redox.12",
+      "specialtyCode": "redox",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.redox.003",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.redox.12",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "n(Na)=0.10 mol，n(Cl₂)=0.05 mol，恰好完全反应；Na失电子0.10 mol，转移电子0.10 mol，A正确。计算无误，需先判断过量，具挑战性。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.ion.01",
+      "specialtyCode": "ion",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.ion.001",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.ion.01",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "等物质的量BaCl₂与Na₂SO₄恰好完全反应，Na⁺、Cl⁻为旁观离子，离子方程式为Ba²⁺+SO₄²⁻=BaSO₄↓，A正确。B为化学方程式，C未删旁观离子，D配平错误，干扰项合理。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.ion.02",
+      "specialtyCode": "ion",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.ion.001",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.ion.02",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为 raise，但该题属于离子方程式书写的基础题，难度真实性不足",
+          "解析过于简略，未说明 HCl、NaOH、NaCl 均为强电解质且 Na⁺、Cl⁻ 为旁观离子"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "答案 A 正确，B 为化学方程式，C 未删旁观离子，D 未配平且多出 H⁺；科学无误，但难度标注偏高、解析偏简。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.ion.03",
+      "specialtyCode": "ion",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.ion.002",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.ion.03",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为 raise，但离子共存判断属常规基础题，难度真实性一般"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "A 中四种离子互不反应可大量共存；B、C、D 分别生成 BaSO₄、AgCl、CaCO₃ 沉淀，答案唯一，���析清晰。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.ion.04",
+      "specialtyCode": "ion",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.ion.002",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.ion.04",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为 raise，但强酸性条件下离子共存判断属基础应用题，难度真实性一般"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "A 中离子在强酸性下互不反应；B 中 CO₃²⁻、C 中 SO₃²⁻ 与 H⁺ 反应，D 中 Ag⁺ 与 Cl⁻ 生成沉淀，答案唯一，解析到位。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.ion.05",
+      "specialtyCode": "ion",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.ion.003",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.ion.05",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "解析较简略，未说明 Na⁺、Cl⁻ 为旁观离子以及为何需 2 个 H⁺"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "逐滴加盐酸至恰好完全生成 CO₂，总反应为 CO₃²⁻ + 2H⁺ = CO₂↑ + H₂O，A 正确；B 为第一步、C 为化学方程式、D 产物错误。难度标注 challenge 基本合理。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.ion.06",
+      "specialtyCode": "ion",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.ion.003",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.ion.06",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "解析过简，未说明 Na⁺、Cl⁻ 为旁观离子及少量酸时 CO₃²⁻ 优先结合一个 H⁺"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "足量 Na₂CO₃ 中滴入少量盐酸只发生第一步，CO₃²⁻ + H⁺ = HCO₃⁻，A 正确；B 为酸足量时反应，C 为化学方程式，D 为后续反应。难度标注 challenge 合理。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.ion.07",
+      "specialtyCode": "ion",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.ion.005",
+      "grade": "NEEDS_FIX",
+      "reasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "trainingReadyCandidate": false,
+      "deepseekAssist": {
+        "id": "S60.ion.07",
+        "scienceOk": false,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 2,
+        "ambiguity": false,
+        "issues": [
+          "A项离子方程式未配平：Ba²⁺ + 2OH⁻ + 2H⁺ + SO₄²⁻ = BaSO₄↓ + 2H₂O，题干所写系数错误，本身即为错误选项，但解析仅笼统称“电荷与原子不守恒”，未指出正确配平形式",
+          "B项解析“未删Cl⁻”表述不准确，实质是HCl为强酸应拆为H⁺和Cl⁻，Cl⁻为旁观离子应删去，且方程式中Cl⁻两边未约简",
+          "解析过于简略，未逐项说明错误原因"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案C正确，但A项方程式系数错误（应为2OH⁻、2H⁺、2H₂O），解析质量偏低，建议完善各项错误分析。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.ion.08",
+      "specialtyCode": "ion",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.ion.002",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.ion.08",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "解析较简略，未说明NH₄⁺在碱性条件下生成NH₃·H₂O的具体反应",
+          "未明确说明“强碱性溶液”隐含大量OH⁻的前提"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "答案A正确，B、D因Mg²⁺、Al³⁺与OH⁻沉淀，C因NH₄⁺与OH⁻反应，干扰项合理，属必修离子共存内容。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.ion.09",
+      "specialtyCode": "ion",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.ion.001",
+      "grade": "NEEDS_FIX",
+      "reasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "trainingReadyCandidate": false,
+      "deepseekAssist": {
+        "id": "S60.ion.09",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为challenge偏高，本题为离子方程式书写基础题，属常规难度",
+          "解析未说明C项为化学方程式而非离子方程式",
+          "解析未说明D项Ca²⁺为旁观离子应删去"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案A科学正确，但难度标注与实际不符，解析可补充C、D项错误原因。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.ion.10",
+      "specialtyCode": "ion",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.ion.006",
+      "grade": "NEEDS_FIX",
+      "reasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "trainingReadyCandidate": false,
+      "deepseekAssist": {
+        "id": "S60.ion.10",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为challenge偏高，电荷守恒检查属基础技能",
+          "B项除电荷不守恒外，Fe与稀酸反应生成Fe²⁺而非Fe³⁺，产物本身也不符合反应事实，解析仅提电荷问题"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案B正确，电荷检查无误，但难度标注偏高，且B项存在双重错误（电荷+产物价态），解析可更全面。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.experiment.01",
+      "specialtyCode": "experiment",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.experiment.001",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.experiment.01",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "解析过于简略，未逐项说明B、C、D错误原因",
+          "A项包含两个知识点（外焰加热、热仪器不能骤冷），表述略复合但可接受"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "答案A正确，外焰温度最高、热试管骤冷易炸裂、灯帽盖灭、酒精不超2/3均为必修实验基本操作，干扰项合理。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.experiment.02",
+      "specialtyCode": "experiment",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.experiment.001",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.experiment.02",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为 raise，但该题属于基础实验操作常识，难度真实性不足",
+          "解析过于简略，未说明浓硫酸稀释放热及酸入水的原因"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "科学正确、答案唯一、干扰项合理；仅难度标注偏高、解析可再充实，不影响使用。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.experiment.03",
+      "specialtyCode": "experiment",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.experiment.002",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.experiment.03",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为 raise，但排水法条件属基础识记，难度真实性不足",
+          "解析较简略，未说明气体不与水反应的具体含义"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "科学正确、答案唯一��干扰项合理；难度标注偏高，解析可补充。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.experiment.04",
+      "specialtyCode": "experiment",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.experiment.002",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.experiment.04",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为 raise，但向上排空气法条件属基础内容，难度真实性不足",
+          "解析简略，未说明收集时导管伸入瓶底等操作要点"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "科学正确、答案唯一、干扰项合理；难度标注偏高，解析可补充。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.experiment.05",
+      "specialtyCode": "experiment",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.experiment.003",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.experiment.05",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "解析未讨论氧化铜与稀硫酸反应生成 CuSO4 及可能被 Zn 置换等次级反应，论证略单薄",
+          "选项 B/C/D 明显错误，干扰性偏弱，挑战性略打折扣"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "主反应判断正确、答案唯一；解析可补充杂质反应的讨论以增强严谨性。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.experiment.06",
+      "specialtyCode": "experiment",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.experiment.004",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.experiment.06",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为 raise，但过滤口诀属基础识记，难度真实性不足",
+          "解析较简略，未逐条解释“三靠”的具体接触位置"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "科学正确、答案唯一、干扰项合理；难度标注偏高，解析可细化。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.experiment.07",
+      "specialtyCode": "experiment",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.experiment.003",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.experiment.07",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "仰视读数偏小，实际体积偏大，逻辑正确；解析简洁但可补充量筒刻度方向说明。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.experiment.08",
+      "specialtyCode": "experiment",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.experiment.005",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.experiment.08",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为 raise 偏高，本题属于基础识记题"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "澄清石灰水检验 CO₂ 正确；但难度标注与实际不符，解析较简略。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.experiment.09",
+      "specialtyCode": "experiment",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.experiment.005",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.experiment.09",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "先 NaOH 除 HCl 再浓硫酸干燥，顺序合理；B 项先干燥后经水溶液会重新带水汽，干扰项有效。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.experiment.10",
+      "specialtyCode": "experiment",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.experiment.004",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.experiment.10",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "出现较多晶体后停止加热、利用余热蒸干并搅拌，符合蒸发操作规范。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.inference.01",
+      "specialtyCode": "inference",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.inference.001",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.inference.01",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "解析未充分解释白色沉淀及溶于盐酸产气对 OH⁻ 的印证，推理链不完整"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "酚酞变红说明碱性，通 CO₂ 生成可溶于盐酸并产气的碳酸盐沉淀，与 OH⁻ 大量存在一致；答案唯一，但解析可更完整。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.inference.02",
+      "specialtyCode": "inference",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.inference.001",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.inference.02",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为raise，但该题属于初中/高一基础识记内容，挑战性不足"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "科学正确，答案唯一，干扰项合理；仅难度标注偏高，不影响使用。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.inference.03",
+      "specialtyCode": "inference",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.inference.002",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.inference.03",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [
+          "解析中'排除未加银盐的AgCl'表述略不严谨：加入BaCl₂引入Cl⁻，若原溶液含Ag⁺也可能生成AgCl，但AgCl为白色且不溶于稀硝酸，严格说需考虑；不过题干问'最可能'且AgCl非钡盐，A仍为最佳答案"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "答案A正确；AgCl干扰在'最可能'语境下可接受，但解析可更严谨说明。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.inference.04",
+      "specialtyCode": "inference",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.inference.002",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.inference.04",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "难度标注raise偏高，属基础金属活动性判断",
+          "解析过于简略，未说明N可能为氢后金属或完全不反应物质"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "科学正确、答案唯一；解析质量一般，难度标注偏高。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.inference.05",
+      "specialtyCode": "inference",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.inference.003",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.inference.05",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "推理链完整，SO₂与CO₂的鉴别点设置合理，符合挑战难度。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.inference.06",
+      "specialtyCode": "inference",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.inference.003",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.inference.06",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [
+          "难度标注raise偏高，属基础转化关系识记"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "科学正确、答案唯一、干扰项合理；难度标注略高。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.inference.07",
+      "specialtyCode": "inference",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.inference.004",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.inference.07",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "滤渣加盐酸产气说明含CaCO₃，溶液蓝色说明含Cu²⁺（来自CuO），NaCl是否含未知，故一定含CaCO₃和CuO，答案唯一。解析简洁但逻辑完整。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.inference.08",
+      "specialtyCode": "inference",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.inference.006",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.inference.08",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 3,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为challenge偏高，实际为基础离子共存判断",
+          "解析过于简略，未逐项说明B中H⁺与OH⁻不能大量共存、C/D有色离子排除"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "答案A正确：无色排除Fe³⁺、Cu²⁺，中性且大量共存排除H⁺/OH⁻同组。科学无误，但难度标注与解析质量可改进。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.comprehensive.01",
+      "specialtyCode": "comprehensive",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.comprehensive.001",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.comprehensive.01",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "A为溶液中氧化还原反应，可写离子方程式；B为气相反应不写离子方程式；C非氧化还原；D非溶液反应。答案唯一，干扰项合理。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.comprehensive.02",
+      "specialtyCode": "comprehensive",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.comprehensive.001",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.comprehensive.02",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "n(H₂)=0.224/22.4=0.01 mol，Zn~H₂，m=0.01×65=0.65 g，计算正确，答案唯一。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.comprehensive.03",
+      "specialtyCode": "comprehensive",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.comprehensive.002",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.comprehensive.03",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "A中Fe³⁺氧化I⁻不能大量共存；B、C、D在酸性条件下均可共存。答案唯一，解析点明关键。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.comprehensive.04",
+      "specialtyCode": "comprehensive",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.comprehensive.002",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.comprehensive.04",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "Ba(OH)₂与H₂SO₄等物质的量恰好完全反应生成BaSO₄沉淀和水，溶液中四种离子均几乎不存在，A正确；B、C、D均与恰好反应事实矛盾。解析可再补充离子方程式Ba²⁺+2OH⁻+2H⁺+SO₄²⁻=BaSO₄↓+2H₂O以提升质量。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.comprehensive.05",
+      "specialtyCode": "comprehensive",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.comprehensive.003",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.comprehensive.05",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "Na₂CO₃与盐酸反应产生CO₂，可使澄清石灰水变浑浊，NaCl不反应，A合理且现象明确；B两者均可溶、C酚酞对Na₂CO₃显碱性但NaCl中性也可区分但不如A特征明显、D加热均无明显现象，干扰项设置合理。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.comprehensive.06",
+      "specialtyCode": "comprehensive",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.comprehensive.003",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.comprehensive.06",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "反应中2 mol FeCl₃被还原对应1 mol Fe被氧化，故0.2 mol FeCl₃对应0.1 mol Fe，A正确。解析可补充电子守恒说明（Fe³⁺得1e⁻，Fe失2e⁻）以增强严谨性。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.comprehensive.07",
+      "specialtyCode": "comprehensive",
+      "difficulty": "raise",
+      "sourceModelId": "ADV.comprehensive.004",
+      "grade": "PASS",
+      "reasons": [],
+      "trainingReadyCandidate": true,
+      "deepseekAssist": {
+        "id": "S60.comprehensive.07",
+        "scienceOk": true,
+        "calcOk": null,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": true,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "加NaOH中和H⁺，H⁺数目逐渐减少；过量碱后溶液呈碱性，H⁺数目维持在极低水平，A正确。B、C、D明显与中和过程矛盾，干扰项合理。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    },
+    {
+      "id": "S60.comprehensive.08",
+      "specialtyCode": "comprehensive",
+      "difficulty": "challenge",
+      "sourceModelId": "ADV.comprehensive.005",
+      "grade": "NEEDS_FIX",
+      "reasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "trainingReadyCandidate": false,
+      "deepseekAssist": {
+        "id": "S60.comprehensive.08",
+        "scienceOk": true,
+        "calcOk": true,
+        "uniqueAnswer": true,
+        "distractorsReasonable": true,
+        "curriculumOk": true,
+        "difficultyCredible": false,
+        "solutionQuality": 4,
+        "ambiguity": false,
+        "issues": [
+          "难度标注为challenge，但本题仅为n=m/M与化学计量1:1的直接换算���实际难度偏低，与challenge不符"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "12 g碳为1 mol，充分燃烧且氧气过量生成1 mol CO₂，A正确，计算无误。但难度标注为challenge不真实，建议降为raise或基础难度；解析可补充C+O₂→CO₂的计量关系。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      },
+      "deepseekReviewed": true
+    }
+  ]
+}

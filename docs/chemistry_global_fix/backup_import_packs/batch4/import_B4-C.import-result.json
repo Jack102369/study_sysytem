@@ -1,0 +1,72 @@
+{
+  "successCount": 8,
+  "failCount": 0,
+  "linkOk": 8,
+  "linkFail": 0,
+  "results": [
+    {
+      "index": 0,
+      "type": "experiment",
+      "ok": true,
+      "id": "9",
+      "inventoryCode": "exp.Cl2_prep",
+      "errors": []
+    },
+    {
+      "index": 1,
+      "type": "experiment",
+      "ok": true,
+      "id": "10",
+      "inventoryCode": "exp.Cl2_property",
+      "errors": []
+    },
+    {
+      "index": 2,
+      "type": "experiment",
+      "ok": true,
+      "id": "11",
+      "inventoryCode": "exp.HCl_prep",
+      "errors": []
+    },
+    {
+      "index": 3,
+      "type": "experiment",
+      "ok": true,
+      "id": "12",
+      "inventoryCode": "exp.SO2_property",
+      "errors": []
+    },
+    {
+      "index": 4,
+      "type": "experiment",
+      "ok": true,
+      "id": "13",
+      "inventoryCode": "exp.NH3_prep",
+      "errors": []
+    },
+    {
+      "index": 5,
+      "type": "experiment",
+      "ok": true,
+      "id": "14",
+      "inventoryCode": "exp.HNO3_Cu",
+      "errors": []
+    },
+    {
+      "index": 6,
+      "type": "experiment",
+      "ok": true,
+      "id": "15",
+      "inventoryCode": "exp.CO2_property",
+      "errors": []
+    },
+    {
+      "index": 7,
+      "type": "experiment",
+      "ok": true,
+      "id": "16",
+      "inventoryCode": "exp.SiO2_glass",
+      "errors": []
+    }
+  ]
+}

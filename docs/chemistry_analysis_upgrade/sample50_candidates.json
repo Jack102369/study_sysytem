@@ -1,0 +1,3767 @@
+{
+  "generatedAt": "2026-10-20T02:06:28.460Z",
+  "readonly": true,
+  "noDbWrite": true,
+  "selection": {
+    "count": 50,
+    "specialtyCount": 10,
+    "specialties": [
+      "equation",
+      "redox",
+      "ion",
+      "calculation",
+      "experiment",
+      "substance",
+      "memory",
+      "inference",
+      "comprehensive",
+      "organic"
+    ],
+    "basicCount": 30,
+    "raiseCount": 20,
+    "gradeACount": 46,
+    "minSpecialtiesTarget": 8,
+    "specialtyCoverageOk": true,
+    "note": "已覆盖至少8个一级专项"
+  },
+  "items": [
+    {
+      "id": "307",
+      "code": "train.ai_trial.pa.rxn_cond_judge.rxn.2Fe_3Cl2",
+      "specialtyCode": "equation",
+      "specialtyName": "化学方程式",
+      "categoryCode": "condition",
+      "categoryName": "反应条件",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】反应「2Fe + 3Cl2 =点燃= 2FeCl3」在知识库中标注的反应条件为「点燃（或加热）」。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 rxn.2Fe_3Cl2 字段 conditions",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 3,
+      "abilityLabel": "简单条件分析",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【考查知识点】化学方程式正误/配平\n【解题突破口】先核对化学式，再核对系数（原子守恒）\n【关键条件】题干给出的反应物、生成物与条件\n【分析过程】以「2Fe + 3Cl2 =点燃= 2FeCl3」为参照，对照选项或判断句，确认与标准答案「正确」一致。\n【核心方法】化学式正确 → 原子守恒配平\n【易错点】改化学式凑平；忽略题干限制条件",
+      "analysisStructure": "structured_6",
+      "knowledgePoints": [
+        "化学方程式书写/正误"
+      ],
+      "chemicalBasis": [
+        "参考方程式：2Fe + 3Cl2 =点燃= 2FeCl3"
+      ],
+      "commonMistakes": [
+        "漏配系数",
+        "产物写错",
+        "忽略反应条件文字干扰"
+      ],
+      "usedSource": {
+        "entityType": "reaction",
+        "id": "36",
+        "code": null,
+        "name": "铁与氯气"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "307",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": false,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "解析未针对「反应条件标注为点燃（或加热）」这一判断点展开，仅泛泛核对化学式与配平",
+          "易错点「改化学式凑平」与本题判断反应条件正误无关",
+          "未说明Fe与Cl2反应需点燃或加热的条件依据"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案正确，但解析未围绕反应条件这一核心判断点，易错点偏离题干。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "309",
+      "code": "train.ai_trial.pa.rxn_is_redox_judge.rxn.2Fe_3Cl2",
+      "specialtyCode": "redox",
+      "specialtyName": "氧化还原反应",
+      "categoryCode": "identify",
+      "categoryName": "氧化还原反应识别",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】反应「2Fe + 3Cl2 =点燃= 2FeCl3」属于氧化还原反应（知识库已标注氧化剂/还原剂）。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 rxn.2Fe_3Cl2；oxidant=Cl2 reductant=Fe",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 2,
+      "abilityLabel": "单步知识识别",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查还原剂的判断。还原剂是在反应中失去电子、元素化合价升高的物质，自身发生氧化反应。对反应「2Fe + 3Cl2 =点燃= 2FeCl3」，知识库标注还原剂为「Fe」，与标准答案一致。\n【易错点】不要把「被还原的物质（氧化剂）」说成还原剂；还原剂自身被氧化。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "氧化还原反应",
+        "还原剂定义"
+      ],
+      "chemicalBasis": [
+        "还原剂是反应中失去电子、所含元素化合价升高的物质",
+        "还原剂自身发生氧化反应"
+      ],
+      "commonMistakes": [
+        "把发生还原反应的物质误当作还原剂",
+        "把氧化剂与还原剂弄反"
+      ],
+      "usedSource": {
+        "entityType": "reaction",
+        "id": "36",
+        "code": null,
+        "name": "铁与氯气"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "309",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 4,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "正确判断氧化还原反应并说明还原剂Fe失电子被氧化，易错点真实相关。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "22",
+      "code": "train.ai_trial.013.con_j",
+      "specialtyCode": "ion",
+      "specialtyName": "离子反应",
+      "categoryCode": "electrolyte",
+      "categoryName": "电解质判断",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】电解质是在水溶液里或熔融状态下能够导电的化合物。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 concept.electrolyte",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】离子反应书写与判断需遵守拆写规则，并检查原子守恒与电荷守恒。结合题干，标准答案为「正确」。\n【易错点】把弱电解质或沉淀拆成离子；只顾原子守恒忘了电荷守恒。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "离子反应 / 离子方程式"
+      ],
+      "chemicalBasis": [
+        "拆写规则：强电解质拆，沉淀/气体/弱电解质不拆",
+        "电荷与原子守恒"
+      ],
+      "commonMistakes": [
+        "弱酸拆成离子",
+        "漏写电荷"
+      ],
+      "usedSource": {
+        "entityType": "concept",
+        "id": "5",
+        "code": null,
+        "name": "电解质"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "22",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": false,
+        "noExtraConditions": false,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 1,
+        "issues": [
+          "解析内容为离子反应拆写规则，与电解质定义判断无关，属答非所问",
+          "引入题干未涉及的离子方程式书写与电荷守恒等题外条件",
+          "易错点「弱电解质或沉淀拆成离子」与本题无关"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案正确但解析完全偏离电解质概念，需重写为围绕化合物在水溶液或熔融状态导电的定义。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "208",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.calc.amount",
+      "specialtyCode": "calculation",
+      "specialtyName": "化学计算",
+      "categoryCode": "amount",
+      "categoryName": "物质的量",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】物质的量三公式：n=m/M；n=N/NA；仅当气体处于标准状况时可用 n=V/22.4（V单位L）。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.calc.amount description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 2,
+      "abilityLabel": "单步知识识别",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「物质的量三公式：n=m/M；n=N/NA；仅当气体处于标准状况时可用 n=V/22.4（V单位L）。先判断已知量与条件再选式；非标况气体不可用22.4。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质的量三公式"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "21",
+        "code": null,
+        "name": "物质的量三公式"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "calc_steps_incomplete_for_numeric_stem"
+      ],
+      "deepseekAssist": {
+        "id": "208",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [
+          "解析较模板化，未具体解释n=V/22.4仅适用于标准状况气体的原因"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "判断正确，公式表述无误，但解析可更具体。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "234",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.exp.design",
+      "specialtyCode": "experiment",
+      "specialtyName": "化学实验",
+      "categoryCode": "safety",
+      "categoryName": "实验安全",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】书面评价实验方案：目的明确→原理可行→试剂与仪器匹配→步骤顺序合理（先气密性等）→现象可检验结论→安全与尾气/废液。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.exp.design description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「书面评价实验方案：目的明确→原理可行→试剂与仪器匹配→步骤顺序合理（先气密性等）→现象可检验结论→安全与尾气/废液。比较方案时看是否干扰、是否可操作、是否过量或不足。本产品只做方案评价，不要求动手。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "实验方案设计要点"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "59",
+        "code": null,
+        "name": "实验方案设计要点"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "234",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [
+          "解析较模板化，未对评价维度逐项说明"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "实验方案评价维度表述合理，判断正确。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "109",
+      "code": "train.ai_trial.pa.sub_common_name_judge.sub.C2H5OH",
+      "specialtyCode": "substance",
+      "specialtyName": "化学物质性质",
+      "categoryCode": "name",
+      "categoryName": "物质名称",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】「酒精」可作为「乙醇」的常见名称记载。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 sub.C2H5OH 字段 common_names",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查物质性质识记/判断。相关记载：「可燃烧：C2H5OH+3O2→2CO2+3H2O。催化氧化（Cu或Ag作催化剂、加热）：2CH3CH2OH+O2→2CH3CHO+2H2O（教材常见写法）。与乙酸在浓硫酸催化加热下发生酯化。羟基氢可与」。标准答案为「正确」。\n【易错点】把相似物质的颜色、状态或用途记混。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质性质"
+      ],
+      "chemicalBasis": [
+        "以物质的组成、结构与记载性质为依据"
+      ],
+      "commonMistakes": [
+        "相近物质性质张冠李戴"
+      ],
+      "usedSource": {
+        "entityType": "substance",
+        "id": "65",
+        "code": null,
+        "name": "乙醇"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "109",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": false,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "解析内容与题干不匹配：题干仅判断「酒精」是否为「乙醇」的常见名称，解析却大段罗列燃烧、催化氧化、酯化等性质，未直接说明「酒精是乙醇的俗称」这一判断依据。",
+          "易错点「把相似物质的颜色、状态或用途记混」与本题（名称与俗名对应）无关，属于套话。"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案正确，但解析未围绕「酒精=乙醇俗称」展开，且易错点不相关，建议精简并补充俗名对应关系。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "10",
+      "code": "train.ai_trial.001.el_sym",
+      "specialtyCode": "memory",
+      "specialtyName": "化学基础记忆",
+      "categoryCode": "symbol",
+      "categoryName": "元素符号",
+      "difficulty": 1,
+      "qtype": "blank",
+      "answerType": "chem_formula",
+      "stem": "【AI试运行】氦的元素符号是____。",
+      "options": null,
+      "answer": "He",
+      "answerAliases": [
+        "HE",
+        "he"
+      ],
+      "originalAnalysis": "来源 el.He",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】He\n【为什么正确】本题属于基础记忆。按化学符号/名称/基本事实的标准对应关系，答案为「He」。\n【易错点】元素符号大小写错误；中文名与符号不对应。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "基础记忆"
+      ],
+      "chemicalBasis": [
+        "符号、名称、基本事实的准确对应"
+      ],
+      "commonMistakes": [
+        "大小写、名称与符号混淆"
+      ],
+      "usedSource": {
+        "entityType": "element",
+        "id": "5",
+        "code": null,
+        "name": null
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "10",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "元素符号He对应正确，易错点（大小写、中英文对应）真实相关，解析简洁可用。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "251",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.inference.block",
+      "specialtyCode": "inference",
+      "specialtyName": "化学推断",
+      "categoryCode": "color",
+      "categoryName": "颜色推断",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】框图推断：先找特征转化（气、沉淀、颜色、焰色、酸碱性），再确定突破口物质，最后用箭头关系验证全局自洽。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.inference.block description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 4,
+      "abilityLabel": "多步骤推理",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「框图推断：先找特征转化（气、沉淀、颜色、焰色、酸碱性），再确定突破口物质，最后用箭头关系验证全局自洽。注意过量与气体通入顺序对产物的影响。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "无机框图推断策略"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "71",
+        "code": null,
+        "name": "无机框图推断策略"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "251",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "易错点「不要加入题干未给出的额外条件；以定义/事实本身为准」过于笼统，与框图推断方法这一具体内容关联弱。",
+          "解析基本是复述题干，未对推断方法作任何实质说明，教学价值有限。"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "判断正确，但解析为套话复述，建议补充框图推断的具体思路示例或说明突破口选择的意义。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "204",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.Al.amphoteric",
+      "specialtyCode": "equation",
+      "specialtyName": "化学方程式",
+      "categoryCode": "true_false",
+      "categoryName": "方程式正误判断",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】Al、Al2O3、Al(OH)3都能与强酸、强碱反应。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.Al.amphoteric description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「Al、Al2O3、Al(OH)3都能与强酸、强碱反应。Al与NaOH溶液反应放H2并生成偏铝酸盐。Al(OH)3加酸或过量强碱沉淀均溶解，是两性核心证据。溶液中偏铝酸根常写[Al(OH)4]-（了解）。易错：认为只有Al(OH)3两性而忽略」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "铝及其化合物的两性"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "29",
+        "code": null,
+        "name": "铝及其化合物的两性"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "204",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [
+          "解析中「[Al(OH)4]-（了解）」属拓展内容，但已标注「了解」，未超纲。",
+          "易错点表述较笼统，可更具体指向「误认为Al不与强碱反应」等。"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "Al、Al2O3、Al(OH)3两性判断正确，解析要点基本到位，易错点方向正确。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "24",
+      "code": "train.ai_trial.015.con_j",
+      "specialtyCode": "redox",
+      "specialtyName": "氧化还原反应",
+      "categoryCode": "e_conserve",
+      "categoryName": "电子守恒",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】氧化还原反应中，还原剂失电子总数等于氧化剂得电子总数。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 concept.electron_conserve",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查还原剂的判断。还原剂是在反应中失去电子、元素化合价升高的物质，自身发生氧化反应。结合题干反应，按化合价升高的物质确定还原剂，与标准答案一致。\n【易错点】不要把「被还原的物质（氧化剂）」说成还原剂；还原剂自身被氧化。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "氧化还原反应",
+        "还原剂定义"
+      ],
+      "chemicalBasis": [
+        "还原剂是反应中失去电子、所含元素化合价升高的物质",
+        "还原剂自身发生氧化反应"
+      ],
+      "commonMistakes": [
+        "把发生还原反应的物质误当作还原剂",
+        "把氧化剂与还原剂弄反"
+      ],
+      "usedSource": {
+        "entityType": "concept",
+        "id": "21",
+        "code": null,
+        "name": "电子守恒"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "24",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": false,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "解析答非所问：题干考查「还原剂失电子总数=氧化剂得电子总数」（电子守恒），解析却讲「如何判断还原剂」，未涉及电子守恒这一核心。",
+          "「结合题干反应」表述不当，题干并无具体反应。",
+          "易错点「不要把被还原的物质说成还原剂」与电子守恒主题不匹配。"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案正确，但解析偏离电子守恒考点，需围绕得失电子总数相等重新组织。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "23",
+      "code": "train.ai_trial.014.con_j",
+      "specialtyCode": "ion",
+      "specialtyName": "离子反应",
+      "categoryCode": "nonelectrolyte",
+      "categoryName": "非电解质判断",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】蔗糖是电解质。判断正误。",
+      "options": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "originalAnalysis": "来源 concept.nonelectrolyte",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】错误\n【为什么正确】离子反应书写与判断需遵守拆写规则，并检查原子守恒与电荷守恒。结合题干，标准答案为「错误」。\n【易错点】把弱电解质或沉淀拆成离子；只顾原子守恒忘了电荷守恒。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "离子反应 / 离子方程式"
+      ],
+      "chemicalBasis": [
+        "拆写规则：强电解质拆，沉淀/气体/弱电解质不拆",
+        "电荷与原子守恒"
+      ],
+      "commonMistakes": [
+        "弱酸拆成离子",
+        "漏写电荷"
+      ],
+      "usedSource": {
+        "entityType": "concept",
+        "id": "6",
+        "code": null,
+        "name": "非电解质"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "23",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": false,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 1,
+        "issues": [
+          "解析内容与题干无关：题干判断蔗糖是否为电解质，解析却讲离子方程式拆写规则与原子/电荷守恒",
+          "未说明蔗糖是非电解质的原因（蔗糖溶于水不电离），核心知识缺失",
+          "易错点（拆写离子、电荷守恒）与本题无关"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案正确，但解析完全跑题，需围绕电解质定义（水溶液或熔融状态能否导电/自身电离）说明蔗糖为非电解质。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "48",
+      "code": "train.ai_trial.046.fm_c",
+      "specialtyCode": "calculation",
+      "specialtyName": "化学计算",
+      "categoryCode": "concentration",
+      "categoryName": "物质的量浓度",
+      "difficulty": 1,
+      "qtype": "single",
+      "answerType": "text",
+      "stem": "【AI试运行】物质的量浓度 c 的常用单位是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "mol/L"
+        },
+        {
+          "key": "B",
+          "text": "g/mol"
+        },
+        {
+          "key": "C",
+          "text": "L/mol"
+        },
+        {
+          "key": "D",
+          "text": "mol"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "originalAnalysis": "来源 formula.c_n_V",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 2,
+      "abilityLabel": "单步知识识别",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【考查知识点】化学计算基本关系\n【解题突破口】先找已知量与所求量之间的桥梁（常为 n）\n【关键条件】题干数据与单位；若遇过量需先比较\n【分析过程】按题意建立等式或比例，计算结果与标准答案「A」一致。本题为解析升级样本，数值步骤以题干为准核验。\n【核心方法】统一单位 → 求 n → 再求目标量\n【易错点】混用 g 与 kg、L 与 mL；过量题用错反应物",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质的量及相关计算"
+      ],
+      "chemicalBasis": [
+        "n=m/M 等基本关系；过量题先判断不足量"
+      ],
+      "commonMistakes": [
+        "用过量物的量直接算产物",
+        "单位未统一"
+      ],
+      "usedSource": {
+        "entityType": "formula",
+        "id": "4",
+        "code": null,
+        "name": "物质的量浓度"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "48",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": false,
+        "noExtraConditions": false,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "解析为通用计算模板，未针对“物质的量浓度单位”这一概念题作答",
+          "引入题干未涉及的过量比较、g与kg换算等题外条件",
+          "易错点（过量题用错反应物）与本题无关"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案A正确，但解析未解释c=n/V及mol/L的含义，且套用无关计算模板，应改为概念辨析。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "235",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.exp.error",
+      "specialtyCode": "experiment",
+      "specialtyName": "化学实验",
+      "categoryCode": "safety",
+      "categoryName": "实验安全",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】误差分析必须对应具体操作阶段与测定量，禁止脱离条件直接写“偏大/偏小”。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.exp.error description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 3,
+      "abilityLabel": "简单条件分析",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「误差分析必须对应具体操作阶段与测定量，禁止脱离条件直接写“偏大/偏小”。以配制一定物质的量浓度溶液（c=n/V）为例（书面分析）：①洁净容量瓶内残留少量蒸馏水，随后按规范定容且无其他错误时，一般不改变溶质的物质的量n，也不改变最终溶液体积V」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "实验误差分析"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "60",
+        "code": null,
+        "name": "实验误差分析"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "235",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": false,
+        "noExtraConditions": false,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "解析引入容量瓶残留蒸馏水等题干未给出的具体情境，属题外条件",
+          "未直接解释“误差分析须对应操作阶段与测定量”这一原则本身",
+          "易错点表述空泛，与题干关联弱"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案正确，但解析用配制溶液例子替代了对题干原则的说明，且例子为额外条件，建议直接阐释误差分析需结合具体操作与c=n/V关系。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "51",
+      "code": "train.ai_trial.049.kp_j",
+      "specialtyCode": "substance",
+      "specialtyName": "化学物质性质",
+      "categoryCode": "chem_property",
+      "categoryName": "化学性质",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】金属活动性顺序可用于判断金属与酸、盐溶液能否发生置换反应。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.metal.activity",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查物质性质识记/判断。标准答案为「正确」。\n【易错点】把相似物质的颜色、状态或用途记混。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质性质"
+      ],
+      "chemicalBasis": [
+        "以物质的组成、结构与记载性质为依据"
+      ],
+      "commonMistakes": [
+        "相近物质性质张冠李戴"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "31",
+        "code": null,
+        "name": "金属活动性顺序"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "51",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": false,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "解析仅重复标准答案，未说明金属活动性顺序如何判断置换反应",
+          "易错点“颜色、状态、用途记混”与本题无关"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案正确，但解析缺乏实质推理，应说明排在H前的金属可置换酸中氢、排在前面的金属可置换后面金属的盐。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "96",
+      "code": "train.ai_trial.pa.sub_color_judge.sub.Al",
+      "specialtyCode": "memory",
+      "specialtyName": "化学基础记忆",
+      "categoryCode": "color",
+      "categoryName": "物质颜色",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】知识库记载：铝的颜色为「银白色」。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 sub.Al 字段 color",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查物质性质识记/判断。相关记载：「表面易生成致密Al2O3氧化膜；可与酸放H2；也可与NaOH溶液反应：2Al+2NaOH+2H2O=2NaAlO2+3H2↑（溶液中常写[Al(OH)4]-，了解）。」。标准答案为「正确」。\n【易错点】把相似物质的颜色、状态或用途记混。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质性质"
+      ],
+      "chemicalBasis": [
+        "以物质的组成、结构与记载性质为依据"
+      ],
+      "commonMistakes": [
+        "相近物质性质张冠李戴"
+      ],
+      "usedSource": {
+        "entityType": "substance",
+        "id": "13",
+        "code": null,
+        "name": "铝"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "96",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": false,
+        "noExtraConditions": false,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "解析引用铝的化学性质（氧化膜、与酸碱反应），与“颜色为银白色”这一记载无关",
+          "引入题干未涉及的化学反应方程式，属题外内容",
+          "未直接确认铝的银白色外观"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案正确，但解析答非所问，应直接说明铝为银白色金属并提示表面氧化膜不影响其颜色判断。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "252",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.inference.color",
+      "specialtyCode": "inference",
+      "specialtyName": "化学推断",
+      "categoryCode": "color",
+      "categoryName": "颜色推断",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】利用物质或离子的特征颜色、溶液褪色/变色作为突破口：如酸性KMnO4紫红、溴水橙红、Cu2+蓝、Fe3+黄棕、沉淀颜色等。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.inference.color description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「利用物质或离子的特征颜色、溶液褪色/变色作为突破口：如酸性KMnO4紫红、溴水橙红、Cu2+蓝、Fe3+黄棕、沉淀颜色等。须结合题设试剂与条件，避免单一线索武断。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "颜色推断方法"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "70",
+        "code": null,
+        "name": "颜色推断方法"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "252",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干及标准答案一致，颜色事实正确，未引入题外条件，易错点提示合理。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "223",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.comprehensive.basic",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCode": "basic",
+      "categoryName": "基础综合",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】综合题一般路径：审清已知与设问→定位知识模块（元素/有机/能量/实验）→写关键方程式或关系式→检查计量、条件与单位→回代题设验证。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.comprehensive.basic description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 4,
+      "abilityLabel": "多步骤推理",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「综合题一般路径：审清已知与设问→定位知识模块（元素/有机/能量/实验）→写关键方程式或关系式→检查计量、条件与单位→回代题设验证。先易后难，避免跳步丢条件。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "基础综合解题框架"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "73",
+        "code": null,
+        "name": "基础综合解题框架"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "223",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "综合题一般路径表述正确，解析与题干一致，方法性提示合理。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "224",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.bond_change",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCode": "basic",
+      "categoryName": "基础综合",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】化学反应中：断裂化学键吸收能量，形成化学键放出能量。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.energy.bond_change description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 4,
+      "abilityLabel": "多步骤推理",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「化学反应中：断裂化学键吸收能量，形成化学键放出能量。反应吸热还是放热，取决于二者总效果的相对大小，不能仅凭是否加热判断。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "化学键与能量变化"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "74",
+        "code": null,
+        "name": "化学键与能量变化"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "224",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 4,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "键能与反应热关系表述正确，补充吸放热取决于总效果、不能仅凭是否加热判断，易错点真实且教学价值较高。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "225",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.chem_electric",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCode": "basic",
+      "categoryName": "基础综合",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】原电池等装置可把化学能转化为电能；电解则是电能转化为化学能（了解对比）。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.energy.chem_electric description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 4,
+      "abilityLabel": "多步骤推理",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「原电池等装置可把化学能转化为电能；电解则是电能转化为化学能（了解对比）。认识能量转化形式是必修要点。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "化学能与电能"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "75",
+        "code": null,
+        "name": "化学能与电能"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "225",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "原电池与电解的能量转化对比正确，符合必修要求，解析无问题。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "226",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.chem_power",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCode": "basic",
+      "categoryName": "基础综合",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】了解常见化学电源（如干电池、蓄电池、锂电池等名称与用途层次，以教材为准）。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.energy.chem_power description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 4,
+      "abilityLabel": "多步骤推理",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「了解常见化学电源（如干电池、蓄电池、锂电池等名称与用途层次，以教材为准）。勿展开复杂电化学工程与电极材料细节作为默认训练。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "常见化学电源"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "80",
+        "code": null,
+        "name": "常见化学电源"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "226",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 2,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "常见化学电源名称与用途层次表述正确，未超纲；但内容较浅，教学价值一般。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "228",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.electron_flow",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCode": "basic",
+      "categoryName": "基础综合",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】外电路中电子由负极流向正极；电流方向与电子流向相反。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.energy.electron_flow description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 4,
+      "abilityLabel": "多步骤推理",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「外电路中电子由负极流向正极；电流方向与电子流向相反。溶液中阳离子向正极迁移、阴离子向负极迁移，不可说电子在溶液中流动。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "原电池电子流向"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "78",
+        "code": null,
+        "name": "原电池电子流向"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "228",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干、标准答案一致，化学事实正确；补充的离子迁移方向属于相关知识，未改变判断。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "229",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.galvanic",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCode": "basic",
+      "categoryName": "基础综合",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】原电池是将化学能转化为电能的装置。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.energy.galvanic description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 4,
+      "abilityLabel": "多步骤推理",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「原电池是将化学能转化为电能的装置。一般需：自发氧化还原反应、电极、电解质溶液（或离子导体）、形成闭合回路。电子在外电路迁移，离子在电解质中迁移。并非所有原电池都必须由两种不同金属构成，电极组合以题设与构成条件为准。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "原电池"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "76",
+        "code": null,
+        "name": "原电池"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "229",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干、标准答案一致，原电池能量转化表述正确；补充构成条件属于相关知识，未引入题外判断条件。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "230",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.galvanic_poles",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCode": "basic",
+      "categoryName": "基础综合",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】负极：发生氧化反应（失电子），通常是较活泼金属电极。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.energy.galvanic_poles description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 4,
+      "abilityLabel": "多步骤推理",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「负极：发生氧化反应（失电子），通常是较活泼金属电极。正极：发生还原反应（得电子）。正负极判断要结合电极材料与电解质中的氧化剂。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "原电池正负极"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "77",
+        "code": null,
+        "name": "原电池正负极"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "230",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干、标准答案一致，负极氧化反应及通常为较活泼金属电极的表述正确。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "231",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.thermo_eq",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCode": "basic",
+      "categoryName": "基础综合",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】热化学方程式须注明物质聚集状态，并给出ΔH（符号与单位口径随教材）。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.energy.thermo_eq description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 4,
+      "abilityLabel": "多步骤推理",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「热化学方程式须注明物质聚集状态，并给出ΔH（符号与单位口径随教材）。计量数与ΔH对应；同一反应计量数翻倍则ΔH相应变化。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "热化学方程式书写"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "81",
+        "code": null,
+        "name": "热化学方程式书写"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "231",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干、标准答案一致，热化学方程式须注明聚集状态并给出ΔH的表述正确。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "232",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.enviro.acid_rain",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCode": "basic",
+      "categoryName": "基础综合",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】酸雨主要与SO2、NOx等排放有关；可酸化水体与土壤、腐蚀建筑。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.enviro.acid_rain description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 4,
+      "abilityLabel": "多步骤推理",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「酸雨主要与SO2、NOx等排放有关；可酸化水体与土壤、腐蚀建筑。防治：脱硫脱硝、清洁能源、节能等。与硫、氮氧化物知识综合。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "酸雨"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "93",
+        "code": null,
+        "name": "酸雨"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "232",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干、标准答案一致，酸雨成因与危害表述正确；防治措施属于相关知识，未影响判断。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "276",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.acetic",
+      "specialtyCode": "organic",
+      "specialtyName": "有机化学",
+      "categoryCode": "basic",
+      "categoryName": "有机物基础概念",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】乙酸CH3COOH，官能团羧基，弱酸但具酸通性；酸性强于碳酸（与碳酸盐放CO2）。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.organic.acetic description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「乙酸CH3COOH，官能团羧基，弱酸但具酸通性；酸性强于碳酸（与碳酸盐放CO2）。可发生酯化。食醋中含乙酸（了解）。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "乙酸结构与性质"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "68",
+        "code": null,
+        "name": "乙酸结构与性质"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "276",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干、标准答案一致，化学事实正确，未引入题外条件；但解析较模板化，仅复述知识点，教学价值一般。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "277",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.alkane",
+      "specialtyCode": "organic",
+      "specialtyName": "有机化学",
+      "categoryCode": "basic",
+      "categoryName": "有机物基础概念",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】烷烃通式CnH2n+2（链状），为饱和烃。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.organic.alkane description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「烷烃通式CnH2n+2（链状），为饱和烃。化学性质较稳定，可发生取代与燃烧；一般不能因加成使溴水褪色。同系物物理性质递变。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "烷烃通式与性质"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "65",
+        "code": null,
+        "name": "烷烃通式与性质"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "277",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干、标准答案一致，烷烃通式与饱和性表述正确；解析偏模板化，教学价值一般。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "278",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.ethanol",
+      "specialtyCode": "organic",
+      "specialtyName": "有机化学",
+      "categoryCode": "basic",
+      "categoryName": "有机物基础概念",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】乙醇CH3CH2OH，官能团羟基。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.organic.ethanol description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「乙醇CH3CH2OH，官能团羟基。可燃烧；Cu/Ag催化加热下氧化为乙醛；与乙酸酯化。物理性质：无色液体、与水互溶、易燃。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "乙醇结构与性质"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "67",
+        "code": null,
+        "name": "乙醇结构与性质"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "278",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干、标准答案一致，乙醇官能团表述正确；解析较模板化，教学价值一般。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "279",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.ethene",
+      "specialtyCode": "organic",
+      "specialtyName": "有机化学",
+      "categoryCode": "basic",
+      "categoryName": "有机物基础概念",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】乙烯结构简式CH2=CH2，含碳碳双键。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.organic.ethene description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「乙烯结构简式CH2=CH2，含碳碳双键。易加成（Br2、H2、H2O等）；使酸性KMnO4褪色但不指定唯一氧化产物；可加聚。实验室可由乙醇浓硫酸加热制取（认知）。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "乙烯结构与性质"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "66",
+        "code": null,
+        "name": "乙烯结构与性质"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "279",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干、标准答案一致，乙烯结构与双键性质表述正确；解析偏模板化，教学价值一般。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "280",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.isomer_skill",
+      "specialtyCode": "organic",
+      "specialtyName": "有机化学",
+      "categoryCode": "basic",
+      "categoryName": "有机物基础概念",
+      "difficulty": 1,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】先固定分子式，再按碳链异构、官能团位置等有序列举，检查重复与遗漏。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 kp.organic.isomer_skill description 首句事实",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 4,
+      "abilityLabel": "多步骤推理",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题属于知识事实正误判断。相关知识要点：「先固定分子式，再按碳链异构、官能团位置等有序列举，检查重复与遗漏。高一以简单烷烃/烯烃/醇醚等基础题型为主，复杂推断不作为默认训练。」。结合题干表述与标准答案「正确」判定。\n【易错点】不要加入题干未给出的额外条件；以定义/事实本身为准。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "同分异构体书写技能"
+      ],
+      "chemicalBasis": [
+        "题目考查知识库记载的基础事实正误"
+      ],
+      "commonMistakes": [
+        "凭印象改写知识点导致判断失误"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "69",
+        "code": null,
+        "name": "同分异构体书写技能"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "280",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干、标准答案一致，同分异构体有序书写方法表述正确；解析较模板化，教学价值一般。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "308",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2Fe_3Cl2",
+      "specialtyCode": "equation",
+      "specialtyName": "化学方程式",
+      "categoryCode": "true_false",
+      "categoryName": "方程式正误判断",
+      "difficulty": 2,
+      "qtype": "single",
+      "answerType": "text",
+      "stem": "【AI试运行】下列哪一项是知识库中「铁与氯气」的化学方程式？",
+      "options": [
+        {
+          "key": "A",
+          "text": "2Fe + 3Cl2 =点燃= 2FeCl3"
+        },
+        {
+          "key": "B",
+          "text": "H2O =点燃= 2FeCl3"
+        },
+        {
+          "key": "C",
+          "text": "H2 + O2 = H2O（无关反应）"
+        },
+        {
+          "key": "D",
+          "text": "无法确定"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "originalAnalysis": "来源 rxn.2Fe_3Cl2 字段 equation",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】A\n【为什么正确】本题考查化学方程式相关判断。对应反应可写为「2Fe + 3Cl2 =点燃= 2FeCl3」。按原子守恒与题干信息，标准答案为「A」。\n【易错点】配平只改系数不改化学式；条件文字不一定改变方程式本身。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "化学方程式书写/正误"
+      ],
+      "chemicalBasis": [
+        "参考方程式：2Fe + 3Cl2 =点燃= 2FeCl3"
+      ],
+      "commonMistakes": [
+        "漏配系数",
+        "产物写错",
+        "忽略反应条件文字干扰"
+      ],
+      "usedSource": {
+        "entityType": "reaction",
+        "id": "36",
+        "code": null,
+        "name": "铁与氯气"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "308",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "方程式正确，配平与条件无误；解析与标准答案一致，易错点真实相关。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "310",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2Fe_3Cl2",
+      "specialtyCode": "redox",
+      "specialtyName": "氧化还原反应",
+      "categoryCode": "oxidant",
+      "categoryName": "氧化剂判断",
+      "difficulty": 2,
+      "qtype": "single",
+      "answerType": "text",
+      "stem": "【AI试运行】对于反应「2Fe + 3Cl2 =点燃= 2FeCl3」，氧化剂是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cl2"
+        },
+        {
+          "key": "B",
+          "text": "Fe"
+        },
+        {
+          "key": "C",
+          "text": "H2O"
+        },
+        {
+          "key": "D",
+          "text": "N2"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "originalAnalysis": "来源 rxn.2Fe_3Cl2 字段 oxidant",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 2,
+      "abilityLabel": "单步知识识别",
+      "difficultyInflated": true,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】A\n【为什么正确】本题考查氧化剂的判断。氧化剂得到电子、元素化合价降低，自身发生还原反应。对反应「2Fe + 3Cl2 =点燃= 2FeCl3」，知识库标注氧化剂为「Cl2」，与标准答案一致。\n【易错点】氧化剂自身被还原；勿与还原剂混淆。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "氧化还原反应",
+        "氧化剂定义"
+      ],
+      "chemicalBasis": [
+        "氧化剂是反应中得到电子、所含元素化合价降低的物质",
+        "氧化剂自身发生还原反应"
+      ],
+      "commonMistakes": [
+        "氧化剂与还原剂颠倒",
+        "把被氧化的物质误当作氧化剂"
+      ],
+      "usedSource": {
+        "entityType": "reaction",
+        "id": "36",
+        "code": null,
+        "name": "铁与氯气"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "310",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "Cl2为氧化剂判断正确，化合价变化分析合理，易错点提示到位。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "215",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.calc.solution",
+      "specialtyCode": "ion",
+      "specialtyName": "离子反应",
+      "categoryCode": "electrolyte",
+      "categoryName": "电解质判断",
+      "difficulty": 2,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】下列说法正确：V用溶剂体积。判断正误。",
+      "options": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "originalAnalysis": "来源 kp.calc.solution 「易错」标注，考查易错点辨析",
+      "originalAnalysisGrade": "B",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": true,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【考查知识点】相关概念的易错点辨析\n【解题突破口】先明确正确概念，再对照题干说法\n【关键条件】以题干表述为准，不外加条件\n【分析过程】对照标准答案「错误」：正确说法应与定义/规律一致；错误说法通常偷换概念或忽略适用条件。\n【核心方法】定义核对 + 条件核对\n【易错点】看到熟悉字词就判对，未检查是否偷换了适用范围",
+      "analysisStructure": "structured_6",
+      "knowledgePoints": [
+        "易错概念辨析"
+      ],
+      "chemicalBasis": [
+        "针对常见错误认识进行正误判断"
+      ],
+      "commonMistakes": [
+        "把常见误解当成正确结论"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "58",
+        "code": null,
+        "name": "溶液浓度综合"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "HOLD",
+      "qualityReasons": [
+        "deepseek_assist_science_or_answer"
+      ],
+      "deepseekAssist": {
+        "id": "215",
+        "stemConsistent": false,
+        "answerConsistent": false,
+        "scienceOk": false,
+        "reasoningOk": false,
+        "noExtraConditions": true,
+        "curriculumOk": false,
+        "mistakesRelevant": false,
+        "teachingValue": 1,
+        "issues": [
+          "题干表述残缺：『V用溶剂体积』语义不明，无法构成可判断的���误命题",
+          "解析为通用模板套话，未针对具体概念展开，缺乏实质推理",
+          "无法核验与标准答案『错误』的一致性，题干本身信息不足"
+        ],
+        "suggestedGrade": "HOLD",
+        "note": "题干信息严重不足且语义不清，解析为空洞模板，无法有效复核，建议补充完整题干后重审。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "49",
+      "code": "train.ai_trial.047.fm_stp",
+      "specialtyCode": "calculation",
+      "specialtyName": "化学计算",
+      "categoryCode": "molar_volume",
+      "categoryName": "气体摩尔体积",
+      "difficulty": 2,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】气体摩尔体积 22.4 L/mol 适用于任何温度和压强下的气体。判断正误。",
+      "options": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "originalAnalysis": "仅标况；来源 formula.gas_STP",
+      "originalAnalysisGrade": "B",
+      "abilityLevel": 3,
+      "abilityLabel": "简单条件分析",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【考查知识点】化学计算基本关系\n【解题突破口】先找已知量与所求量之间的桥梁（常为 n）\n【关键条件】题干数据与单位；若遇过量需先比较\n【分析过程】按题意建立等式或比例，计算结果与标准答案「错误」一致。本题为解析升级样本，数值步骤以题干为准核验。\n【核心方法】统一单位 → 求 n → 再求目标量\n【易错点】混用 g 与 kg、L 与 mL；过量题用错反应物",
+      "analysisStructure": "structured_6",
+      "knowledgePoints": [
+        "物质的量及相关计算"
+      ],
+      "chemicalBasis": [
+        "n=m/M 等基本关系；过量题先判断不足量"
+      ],
+      "commonMistakes": [
+        "用过量物的量直接算产物",
+        "单位未统一"
+      ],
+      "usedSource": {
+        "entityType": "formula",
+        "id": "11",
+        "code": null,
+        "name": "标况气体体积"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "HOLD",
+      "qualityReasons": [
+        "calc_steps_incomplete_for_numeric_stem",
+        "deepseek_assist_science_or_answer"
+      ],
+      "deepseekAssist": {
+        "id": "49",
+        "stemConsistent": false,
+        "answerConsistent": false,
+        "scienceOk": false,
+        "reasoningOk": false,
+        "noExtraConditions": true,
+        "curriculumOk": false,
+        "mistakesRelevant": false,
+        "teachingValue": 1,
+        "issues": [
+          "解析未针对『22.4 L/mol仅适用于标准状况』这一核心知识点展开，答非所问",
+          "解析套用计算题模板（求n、过量比较等），与本题正误判断题型不符",
+          "未说明标准状况条件，推理过程缺失"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "标准答案『错误』正确，但解析完全偏离考点，套用无关计算模板，需重写为针对气体摩尔体积适用条件的辨析。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "248",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.test",
+      "specialtyCode": "experiment",
+      "specialtyName": "化学实验",
+      "categoryCode": "safety",
+      "categoryName": "实验安全",
+      "difficulty": 2,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】下列说法正确：直接对Fe2+加KSCN就报阳性。判断正误。",
+      "options": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "originalAnalysis": "来源 kp.Fe.test 「易错」标注，考查易错点辨析",
+      "originalAnalysisGrade": "B",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": true,
+      "historicalWrongCount": 1,
+      "candidateAnalysis": "【考查知识点】相关概念的易错点辨析\n【解题突破口】先明确正确概念，再对照题干说法\n【关键条件】以题干表述为准，不外加条件\n【分析过程】对照标准答案「错误」：正确说法应与定义/规律一致；错误说法通常偷换概念或忽略适用条件。\n【核心方法】定义核对 + 条件核对\n【易错点】看到熟悉字词就判对，未检查是否偷换了适用范围",
+      "analysisStructure": "structured_6",
+      "knowledgePoints": [
+        "易错概念辨析"
+      ],
+      "chemicalBasis": [
+        "针对常见错误认识进行正误判断"
+      ],
+      "commonMistakes": [
+        "把常见误解当成正确结论"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "36",
+        "code": null,
+        "name": "Fe2+与Fe3+的检验"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "HOLD",
+      "qualityReasons": [
+        "deepseek_assist_science_or_answer"
+      ],
+      "deepseekAssist": {
+        "id": "248",
+        "stemConsistent": false,
+        "answerConsistent": false,
+        "scienceOk": false,
+        "reasoningOk": false,
+        "noExtraConditions": true,
+        "curriculumOk": false,
+        "mistakesRelevant": false,
+        "teachingValue": 1,
+        "issues": [
+          "解析为通用模板套话，未涉及Fe2+与KSCN显色反应的具体化学原理",
+          "未说明Fe2+与KSCN不显红色、需先氧化为Fe3+的关键知识点",
+          "题干『直接对Fe2+加KSCN就报阳性』表述略简，但解析未做任何针对性分析"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "标准答案『错误』正确，但解析空洞无针对性，需补充Fe2+不与KSCN显色、须氧化为Fe3+的原理说明。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "95",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Al",
+      "specialtyCode": "substance",
+      "specialtyName": "化学物质性质",
+      "categoryCode": "chem_property",
+      "categoryName": "化学性质",
+      "difficulty": 2,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】知识库对「铝」记载：表面易生成致密Al2O3氧化膜。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 sub.Al 字段 chemical_props 原文片段",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查物质性质识记/判断。相关记载：「表面易生成致密Al2O3氧化膜；可与酸放H2；也可与NaOH溶液反应：2Al+2NaOH+2H2O=2NaAlO2+3H2↑（溶液中常写[Al(OH)4]-，了解）。」。标准答案为「正确」。\n【易错点】把相似物质的颜色、状态或用途记混。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质性质"
+      ],
+      "chemicalBasis": [
+        "以物质的组成、结构与记载性质为依据"
+      ],
+      "commonMistakes": [
+        "相近物质性质张冠李戴"
+      ],
+      "usedSource": {
+        "entityType": "substance",
+        "id": "13",
+        "code": null,
+        "name": "铝"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "95",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 3,
+        "issues": [
+          "易错点表述泛化，与本题铝表面氧化膜的具体判断关联不强"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干、标准答案一致，化学事实正确；易错点较笼统，可更贴合铝的钝化与两性性质，但不影响结论。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "250",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.halogen.compare",
+      "specialtyCode": "memory",
+      "specialtyName": "化学基础记忆",
+      "categoryCode": "rules",
+      "categoryName": "化学规律",
+      "difficulty": 2,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】下列说法正确：递变顺序记反。判断正误。",
+      "options": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "originalAnalysis": "来源 kp.halogen.compare 「易错」标注，考查易错点辨析",
+      "originalAnalysisGrade": "B",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": true,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【考查知识点】相关概念的易错点辨析\n【解题突破口】先明确正确概念，再对照题干说法\n【关键条件】以题干表述为准，不外加条件\n【分析过程】对照标准答案「错误」：正确说法应与定义/规律一致；错误说法通常偷换概念或忽略适用条件。\n【核心方法】定义核对 + 条件核对\n【易错点】看到熟悉字词就判对，未检查是否偷换了适用范围",
+      "analysisStructure": "structured_6",
+      "knowledgePoints": [
+        "易错概念辨析"
+      ],
+      "chemicalBasis": [
+        "针对常见错误认识进行正误判断"
+      ],
+      "commonMistakes": [
+        "把常见误解当成正确结论"
+      ],
+      "usedSource": {
+        "entityType": "knowledge",
+        "id": "52",
+        "code": null,
+        "name": "卤族元素性质比较"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "250",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": false,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "题干信息过于空泛，未给出具体递变顺序内容",
+          "解析未针对具体错误说法展开，仅套用通用模板",
+          "易错点与题干“递变顺序记反”关联不具体"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案方向可接受，但解析缺乏对具体递变规律的说明，教学价值低，建议补充具体内容。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "113",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CH3COOCH2CH3",
+      "specialtyCode": "substance",
+      "specialtyName": "化学物质性质",
+      "categoryCode": "chem_property",
+      "categoryName": "化学性质",
+      "difficulty": 2,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】知识库对「乙酸乙酯」记载：由乙酸与乙醇在浓硫酸催化、加热下酯化生成（可逆）。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 sub.CH3COOCH2CH3 字段 chemical_props 原文片段",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查物质性质识记/判断。相关记载：「由乙酸与乙醇在浓硫酸催化、加热下酯化生成（可逆）。在水中溶解度小，常浮于上层；可用于认识酯的物理性质与酯化实验现象。水解等深度按教材题设，勿默认展开复杂机理。」。标准答案为「正确」。\n【易错点】把相似物质的颜色、状态或用途记混。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质性质"
+      ],
+      "chemicalBasis": [
+        "以物质的组成、结构与记载性质为依据"
+      ],
+      "commonMistakes": [
+        "相近物质性质张冠李戴"
+      ],
+      "usedSource": {
+        "entityType": "substance",
+        "id": "67",
+        "code": null,
+        "name": "乙酸乙酯"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "113",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 3,
+        "issues": [
+          "易错点表述泛化，与乙酸乙酯酯化生成的具体判断关联不强"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干、标准答案一致，酯化反应条件与可逆性表述正确；易错点可更具体。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "119",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CH3COOH",
+      "specialtyCode": "substance",
+      "specialtyName": "化学物质性质",
+      "categoryCode": "chem_property",
+      "categoryName": "化学性质",
+      "difficulty": 2,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】知识库对「乙酸」记载：弱酸，具酸的通性：使紫色石蕊变红。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 sub.CH3COOH 字段 chemical_props 原文片段",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查物质性质识记/判断。相关记载：「弱酸，具酸的通性：使紫色石蕊变红；与活泼金属、碱、碱性氧化物、某些盐反应。酸性强于碳酸：可与Na2CO3反应放出CO2。与乙醇酯化生成乙酸乙酯。」。标准答案为「正确」。\n【易错点】把相似物质的颜色、状态或用途记混。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质性质"
+      ],
+      "chemicalBasis": [
+        "以物质的组成、结构与记载性质为依据"
+      ],
+      "commonMistakes": [
+        "相近物质性质张冠李戴"
+      ],
+      "usedSource": {
+        "entityType": "substance",
+        "id": "66",
+        "code": null,
+        "name": "乙酸"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "119",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 3,
+        "issues": [
+          "易错点表述泛化，与乙酸酸性及石蕊变色的具体判断关联不强"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干、标准答案一致，乙酸弱酸性及与碳酸钠反应等事实正确；易错点可更贴合酸性比较。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "140",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CuOH2",
+      "specialtyCode": "substance",
+      "specialtyName": "化学物质性质",
+      "categoryCode": "chem_property",
+      "categoryName": "化学性质",
+      "difficulty": 2,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】知识库对「氢氧化铜」记载：由Cu2+与碱生成。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 sub.CuOH2 字段 chemical_props 原文片段",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查物质性质识记/判断。相关记载：「由Cu2+与碱生成；可溶于酸；受热分解为黑色CuO（了解）。弱碱性。」。标准答案为「正确」。\n【易错点】把相似物质的颜色、状态或用途记混。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质性质"
+      ],
+      "chemicalBasis": [
+        "以物质的组成、结构与记载性质为依据"
+      ],
+      "commonMistakes": [
+        "相近物质性质张冠李戴"
+      ],
+      "usedSource": {
+        "entityType": "substance",
+        "id": "23",
+        "code": null,
+        "name": "氢氧化铜"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "140",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 3,
+        "issues": [
+          "易错点表述泛化，与氢氧化铜生成及性质的具体判断关联不强"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "解析与题干、标准答案一致，Cu2+与碱生成氢氧化铜及溶于酸等事实正确；易错点可更具体。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "149",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Fe",
+      "specialtyCode": "substance",
+      "specialtyName": "化学物质性质",
+      "categoryCode": "chem_property",
+      "categoryName": "化学性质",
+      "difficulty": 2,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】知识库对「铁」记载：与O2点燃生成Fe3O4。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 sub.Fe 字段 chemical_props 原文片段",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查物质性质识记/判断。相关记载：「与O2点燃生成Fe3O4；与稀H2SO4/HCl生成Fe2+盐与H2；可置换活动性较弱的金属离子（如Cu2+）。潮湿空气中易生锈。」。标准答案为「正确」。\n【易错点】把相似物质的颜色、状态或用途记混。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质性质"
+      ],
+      "chemicalBasis": [
+        "以物质的组成、结构与记载性质为依据"
+      ],
+      "commonMistakes": [
+        "相近物质性质张冠李戴"
+      ],
+      "usedSource": {
+        "entityType": "substance",
+        "id": "16",
+        "code": null,
+        "name": "铁"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "149",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "易错点表述为“把相似物质的颜色、状态或用途记混”，与本题“铁与O2点燃生成Fe3O4”的性质判断不直接相关，属于泛化套话。"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案与化学事实一致：铁在氧气中点燃生成Fe3O4。解析能对应题干，但易错点与本题不匹配，建议改为“误认为铁燃烧生成Fe2O3”等真实易错点。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "158",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Fe3O4",
+      "specialtyCode": "substance",
+      "specialtyName": "化学物质性质",
+      "categoryCode": "chem_property",
+      "categoryName": "化学性质",
+      "difficulty": 2,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】知识库对「四氧化三铁」记载：可看作FeO·Fe2O3（了解）。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 sub.Fe3O4 字段 chemical_props 原文片段",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查物质性质识记/判断。相关记载：「可看作FeO·Fe2O3（了解）；铁在氧气中点燃的产物。与酸反应较复杂，高中以认识为主。」。标准答案为「正确」。\n【易错点】把相似物质的颜色、状态或用途记混。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质性质"
+      ],
+      "chemicalBasis": [
+        "以物质的组成、结构与记载性质为依据"
+      ],
+      "commonMistakes": [
+        "相近物质性质张冠李戴"
+      ],
+      "usedSource": {
+        "entityType": "substance",
+        "id": "18",
+        "code": null,
+        "name": "四氧化三铁"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "158",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "易错点“把相似物质的颜色、状态或用途记混”与“Fe3O4可看作FeO·Fe2O3”的判断不直接相关。",
+          "解析中“与酸反应较复杂，高中以认识为主”表述较模糊，但未造成科学性错误。"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "记载“可看作FeO·Fe2O3（了解）”在高中必修层面可接受，答案正确。主要问题是易错点泛化，未针对Fe3O4组成理解设置真实易错点。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "163",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.FeOH2",
+      "specialtyCode": "substance",
+      "specialtyName": "化学物质性质",
+      "categoryCode": "chem_property",
+      "categoryName": "化学性质",
+      "difficulty": 2,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】知识库对「氢氧化亚铁」记载：由Fe2+与碱生成。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 sub.FeOH2 字段 chemical_props 原文片段",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查物质性质识记/判断。相关记载：「由Fe2+与碱生成；易被空气中O2氧化：4Fe(OH)2+O2+2H2O=4Fe(OH)3（高中常用总式，写法待核实可接受）。可溶于酸。」。标准答案为「正确」。\n【易错点】把相似物质的颜色、状态或用途记混。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质性质"
+      ],
+      "chemicalBasis": [
+        "以物质的组成、结构与记载性质为依据"
+      ],
+      "commonMistakes": [
+        "相近物质性质张冠李戴"
+      ],
+      "usedSource": {
+        "entityType": "substance",
+        "id": "30",
+        "code": null,
+        "name": "氢氧化亚铁"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "163",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "易错点“把相似物质的颜色、状态或用途记混”与“Fe2+与碱生成Fe(OH)2”不直接相关。",
+          "解析中“写法待核实可接受”属于对化学方程式的不确定表述，虽方程式本身正确，但措辞不够严谨。"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案正确，Fe2+与碱生成Fe(OH)2符合高中化学。建议删除“写法待核实”的不确定措辞，并将易错点改为Fe(OH)2白色沉淀迅速变灰绿最终红褐色等真实易错点。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "168",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.FeOH3",
+      "specialtyCode": "substance",
+      "specialtyName": "化学物质性质",
+      "categoryCode": "chem_property",
+      "categoryName": "化学性质",
+      "difficulty": 2,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】知识库对「氢氧化铁」记载：由Fe3+与碱生成。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 sub.FeOH3 字段 chemical_props 原文片段",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查物质性质识记/判断。相关记载：「由Fe3+与碱生成；可溶于酸。Fe(OH)2在空气中氧化最终可得红褐色Fe(OH)3。受热分解为Fe2O3（了解）。」。标准答案为「正确」。\n【易错点】把相似物质的颜色、状态或用途记混。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质性质"
+      ],
+      "chemicalBasis": [
+        "以物质的组成、结构与记载性质为依据"
+      ],
+      "commonMistakes": [
+        "相近物质性质张冠李戴"
+      ],
+      "usedSource": {
+        "entityType": "substance",
+        "id": "19",
+        "code": null,
+        "name": "氢氧化铁"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "168",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "易错点“把相似物质的颜色、状态或用途记混”与“Fe3+与碱生成Fe(OH)3”不直接相关。"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案正确，Fe3+与碱生成红褐色Fe(OH)3。解析补充内容基本合理，但易错点泛化，建议改为与Fe(OH)2、Fe(OH)3颜色和氧化关系相关的真实易错点。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "173",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.FeSO4",
+      "specialtyCode": "substance",
+      "specialtyName": "化学物质性质",
+      "categoryCode": "chem_property",
+      "categoryName": "化学性质",
+      "difficulty": 2,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】知识库对「硫酸亚铁」记载：提供Fe2+，具还原性。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 sub.FeSO4 字段 chemical_props 原文片段",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查物质性质识记/判断。相关记载：「提供Fe2+，具还原性；可被Cl2、O2等氧化为Fe3+（必修常见）。酸性KMnO4、H2O2等亦可氧化（了解/题设，不进默认基础训练）。与碱得白色Fe(OH)2并迅速变色。」。标准答案为「正确」。\n【易错点】把相似物质的颜色、状态或用途记混。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质性质"
+      ],
+      "chemicalBasis": [
+        "以物质的组成、结构与记载性质为依据"
+      ],
+      "commonMistakes": [
+        "相近物质性质张冠李戴"
+      ],
+      "usedSource": {
+        "entityType": "substance",
+        "id": "31",
+        "code": null,
+        "name": "硫酸亚铁"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": false,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "NEEDS_FIX",
+      "qualityReasons": [
+        "deepseek_assist_needs_fix"
+      ],
+      "deepseekAssist": {
+        "id": "173",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "易错点“把相似物质的颜色、状态或用途记混”与“FeSO4提供Fe2+、具还原性”不直接相关。",
+          "解析中“酸性KMnO4、H2O2等亦可氧化（了解/题设，不进默认基础训练）”表述略冗杂，但不构成科学性错误。"
+        ],
+        "suggestedGrade": "NEEDS_FIX",
+        "note": "答案正确，FeSO4提供Fe2+且具还原性。主要问题是易错点未针对Fe2+还原性及氧化产物设置，建议改为“误认为Fe2+只有氧化性”或“忽视Fe2+易被空气氧化”等真实易错点。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "183",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.HCl_aq",
+      "specialtyCode": "substance",
+      "specialtyName": "化学物质性质",
+      "categoryCode": "chem_property",
+      "categoryName": "化学性质",
+      "difficulty": 2,
+      "qtype": "judge",
+      "answerType": "text",
+      "stem": "【AI试运行】知识库对「盐酸」记载：强酸通性：与活泼金属、碱、碱性氧化物、部分盐反应。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "originalAnalysis": "来源 sub.HCl_aq 字段 chemical_props 原文片段",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】正确\n【为什么正确】本题考查物质性质识记/判断。相关记载：「强酸通性：与活泼金属、碱、碱性氧化物、部分盐反应。浓盐酸有挥发性；可与MnO2加热制Cl2。」。标准答案为「正确」。\n【易错点】把相似物质的颜色、状态或用途记混。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "物质性质"
+      ],
+      "chemicalBasis": [
+        "以物质的组成、结构与记载性质为依据"
+      ],
+      "commonMistakes": [
+        "相近物质性质张冠李戴"
+      ],
+      "usedSource": {
+        "entityType": "substance",
+        "id": "36",
+        "code": null,
+        "name": "盐酸"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "183",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": false,
+        "teachingValue": 2,
+        "issues": [
+          "易错点与本题判断强酸通性正误的考查点关联较弱，属于泛泛表述"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "记载内容符合盐酸的强酸通性，判断正确；解析基本到位，但易错点针对性不足。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "312",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.2Fe_3Cl2",
+      "specialtyCode": "redox",
+      "specialtyName": "氧化还原反应",
+      "categoryCode": "reductant",
+      "categoryName": "还原剂判断",
+      "difficulty": 2,
+      "qtype": "single",
+      "answerType": "text",
+      "stem": "【AI试运行】对于反应「2Fe + 3Cl2 =点燃= 2FeCl3」，还原剂是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fe"
+        },
+        {
+          "key": "B",
+          "text": "Cl2"
+        },
+        {
+          "key": "C",
+          "text": "H2O"
+        },
+        {
+          "key": "D",
+          "text": "CO2"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "originalAnalysis": "来源 rxn.2Fe_3Cl2 字段 reductant",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 2,
+      "abilityLabel": "单步知识识别",
+      "difficultyInflated": true,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】A\n【为什么正确】本题考查还原剂的判断。还原剂是在反应中失去电子、元素化合价升高的物质，自身发生氧化反应。对反应「2Fe + 3Cl2 =点燃= 2FeCl3」，知识库标注还原剂为「Fe」，与标准答案一致。\n【易错点】不要把「被还原的物质（氧化剂）」说成还原剂；还原剂自身被氧化。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "氧化还原反应",
+        "还原剂定义"
+      ],
+      "chemicalBasis": [
+        "还原剂是反应中失去电子、所含元素化合价升高的物质",
+        "还原剂自身发生氧化反应"
+      ],
+      "commonMistakes": [
+        "把发生还原反应的物质误当作还原剂",
+        "把氧化剂与还原剂弄反"
+      ],
+      "usedSource": {
+        "entityType": "reaction",
+        "id": "36",
+        "code": null,
+        "name": "铁与氯气"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "312",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 4,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "Fe在反应中失电子化合价升高，作还原剂，答案与解析一致，易错点切中氧化剂/还原剂混淆。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "314",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2Fe2_Cl2",
+      "specialtyCode": "equation",
+      "specialtyName": "化学方程式",
+      "categoryCode": "true_false",
+      "categoryName": "方程式正误判断",
+      "difficulty": 2,
+      "qtype": "single",
+      "answerType": "text",
+      "stem": "【AI试运行】下列哪一项是知识库中「亚铁离子被氯气氧化」的化学方程式？",
+      "options": [
+        {
+          "key": "A",
+          "text": "2Fe2+ + Cl2 = 2Fe3+ + 2Cl-"
+        },
+        {
+          "key": "B",
+          "text": "H2O = 2Fe3+ + 2Cl-"
+        },
+        {
+          "key": "C",
+          "text": "H2 + O2 = H2O（无关反应）"
+        },
+        {
+          "key": "D",
+          "text": "无法确定"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "originalAnalysis": "来源 rxn.2Fe2_Cl2 字段 equation",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 1,
+      "abilityLabel": "基础记忆",
+      "difficultyInflated": false,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】A\n【为什么正确】本题考查化学方程式相关判断。对应反应可写为「2Fe2+ + Cl2 = 2Fe3+ + 2Cl-」。按原子守恒与题干信息，标准答案为「A」。\n【易错点】配平只改系数不改化学式；条件文字不一定改变方程式本身。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "化学方程式书写/正误"
+      ],
+      "chemicalBasis": [
+        "参考方程式：2Fe2+ + Cl2 = 2Fe3+ + 2Cl-"
+      ],
+      "commonMistakes": [
+        "漏配系数",
+        "产物写错",
+        "忽略反应条件文字干扰"
+      ],
+      "usedSource": {
+        "entityType": "reaction",
+        "id": "31",
+        "code": null,
+        "name": "亚铁离子被氯气氧化"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "314",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 3,
+        "issues": [
+          "解析中“按原子守恒与题干信息”表述略笼统，未点明电荷守恒"
+        ],
+        "suggestedGrade": "PASS",
+        "note": "离子方程式正确，选项设置合理；解析可更明确指出电荷守恒，但整体可用。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "316",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2Fe2_Cl2",
+      "specialtyCode": "redox",
+      "specialtyName": "氧化还原反应",
+      "categoryCode": "oxidant",
+      "categoryName": "氧化剂判断",
+      "difficulty": 2,
+      "qtype": "single",
+      "answerType": "text",
+      "stem": "【AI试运行】对于反应「2Fe2+ + Cl2 = 2Fe3+ + 2Cl-」，氧化剂是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cl2"
+        },
+        {
+          "key": "B",
+          "text": "Fe2+"
+        },
+        {
+          "key": "C",
+          "text": "H2O"
+        },
+        {
+          "key": "D",
+          "text": "N2"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "originalAnalysis": "来源 rxn.2Fe2_Cl2 字段 oxidant",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 2,
+      "abilityLabel": "单步知识识别",
+      "difficultyInflated": true,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】A\n【为什么正确】本题考查氧化剂的判断。氧化剂得到电子、元素化合价降低，自身发生还原反应。对反应「2Fe2+ + Cl2 = 2Fe3+ + 2Cl-」，知识库标注氧化剂为「Cl2」，与标准答案一致。\n【易错点】氧化剂自身被还原；勿与还原剂混淆。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "氧化还原反应",
+        "氧化剂定义"
+      ],
+      "chemicalBasis": [
+        "氧化剂是反应中得到电子、所含元素化合价降低的物质",
+        "氧化剂自身发生还原反应"
+      ],
+      "commonMistakes": [
+        "氧化剂与还原剂颠倒",
+        "把被氧化的物质误当作氧化剂"
+      ],
+      "usedSource": {
+        "entityType": "reaction",
+        "id": "31",
+        "code": null,
+        "name": "亚铁离子被氯气氧化"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "316",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 4,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "Cl2得电子化合价降低作氧化剂，判断正确，易错点明确。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    },
+    {
+      "id": "318",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.2Fe2_Cl2",
+      "specialtyCode": "redox",
+      "specialtyName": "氧化还原反应",
+      "categoryCode": "reductant",
+      "categoryName": "还原剂判断",
+      "difficulty": 2,
+      "qtype": "single",
+      "answerType": "text",
+      "stem": "【AI试运行】对于反应「2Fe2+ + Cl2 = 2Fe3+ + 2Cl-」，还原剂是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fe2+"
+        },
+        {
+          "key": "B",
+          "text": "Cl2"
+        },
+        {
+          "key": "C",
+          "text": "H2O"
+        },
+        {
+          "key": "D",
+          "text": "CO2"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "originalAnalysis": "来源 rxn.2Fe2_Cl2 字段 reductant",
+      "originalAnalysisGrade": "A",
+      "abilityLevel": 2,
+      "abilityLabel": "单步知识识别",
+      "difficultyInflated": true,
+      "historicalWrongCount": 0,
+      "candidateAnalysis": "【正确答案】A\n【为什么正确】本题考查还原剂的判断。还原剂是在反应中失去电子、元素化合价升高的物质，自身发生氧化反应。对反应「2Fe2+ + Cl2 = 2Fe3+ + 2Cl-」，知识库标注还原剂为「Fe2+」，与标准答案一致。\n【易错点】不要把「被还原的物质（氧化剂）」说成还原剂；还原剂自身被氧化。",
+      "analysisStructure": "concise_3",
+      "knowledgePoints": [
+        "氧化还原反应",
+        "还原剂定义"
+      ],
+      "chemicalBasis": [
+        "还原剂是反应中失去电子、所含元素化合价升高的物质",
+        "还原剂自身发生氧化反应"
+      ],
+      "commonMistakes": [
+        "把发生还原反应的物质误当作还原剂",
+        "把氧化剂与还原剂弄反"
+      ],
+      "usedSource": {
+        "entityType": "reaction",
+        "id": "31",
+        "code": null,
+        "name": "亚铁离子被氯气氧化"
+      },
+      "riskFlags": [],
+      "suggestDbUpdateLater": true,
+      "protection": {
+        "stemUnchanged": true,
+        "optionsUnchanged": true,
+        "answerUnchanged": true,
+        "difficultyUnchanged": true,
+        "analysisNotWrittenToDb": true
+      },
+      "qualityGrade": "PASS",
+      "qualityReasons": [],
+      "deepseekAssist": {
+        "id": "318",
+        "stemConsistent": true,
+        "answerConsistent": true,
+        "scienceOk": true,
+        "reasoningOk": true,
+        "noExtraConditions": true,
+        "curriculumOk": true,
+        "mistakesRelevant": true,
+        "teachingValue": 4,
+        "issues": [],
+        "suggestedGrade": "PASS",
+        "note": "Fe2+失电子化合价升高作还原剂，答案与解析一致，易错点有效。",
+        "reviewSource": "deepseek_assist",
+        "isHumanSubjectReview": false
+      }
+    }
+  ]
+}

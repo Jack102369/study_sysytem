@@ -1,0 +1,929 @@
+{
+  "items": [
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "氯气",
+        "testMethods": "湿润淀粉KI试纸变蓝（氧化I-）；颜色气味结合题设。",
+        "storageMethods": "钢瓶或发生装置现制；通风。",
+        "safetyNotes": "有毒，刺激呼吸道；禁止家用；通风橱操作。",
+        "tags": [
+          "elemental",
+          "hazard"
+        ],
+        "name": "氯气",
+        "canonicalFormula": "Cl2",
+        "color": "黄绿色",
+        "stateLabel": "气",
+        "solubility": "可溶于水，部分与水反应",
+        "physicalProps": "黄绿色有刺激性气味的气体，密度比空气大，有毒。",
+        "chemicalProps": "强氧化性。与H2光照或点燃生成HCl；与多数金属反应生成氯化物；与水：Cl2+H2O⇌HCl+HClO（可逆，有限）。与碱须分条件：冷的稀碱常用Cl2+2NaOH=NaCl+NaClO+H2O；热的浓碱另有反应（可生成氯酸盐等），不得与冷稀碱式混用。与石灰乳反应可制漂白粉（了解，见sub.bleaching_powder）。湿润氯气有漂白性（实质为HClO）。",
+        "commonUses": "消毒、漂白、制盐酸与含氯化合物（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.Cl2] batch4导入 pending_review id=34"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "氯化氢",
+        "testMethods": "遇浓氨水产生白烟；溶于水后显酸性。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "刺激呼吸道与眼睛；防潮收集。",
+        "tags": [
+          "acid",
+          "hazard"
+        ],
+        "name": "氯化氢",
+        "canonicalFormula": "HCl",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "极易溶于水形成盐酸",
+        "physicalProps": "无色有刺激性气味气体；密度比空气大。",
+        "chemicalProps": "溶于水得盐酸；与NH3生成白烟NH4Cl；干燥HCl一般不表现盐酸的酸性离子反应。",
+        "commonUses": "制盐酸；有机合成原料（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.HCl] batch4导入 pending_review id=35"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "盐酸、氢氯酸",
+        "testMethods": "使紫色石蕊变红；检Cl-：硝酸酸化后加AgNO3得白色AgCl沉淀（酸化可排除CO3 2-等干扰；沉淀不溶于稀HNO3）。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "腐蚀性；浓盐酸挥发刺激。",
+        "tags": [
+          "acid"
+        ],
+        "name": "盐酸",
+        "canonicalFormula": "HCl",
+        "color": "无色（工业盐酸可因杂质发黄）",
+        "stateLabel": "液",
+        "solubility": "本身为水溶液",
+        "physicalProps": "氯化氢的水溶液（常写作HCl或HCl(aq)）；挥发性强酸。",
+        "chemicalProps": "强酸通性：与活泼金属、碱、碱性氧化物、部分盐反应。浓盐酸有挥发性；可与MnO2加热制Cl2。",
+        "commonUses": "实验室常用酸；工业清洗等（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.HCl_aq] canonical写HCl=水溶液;Cl-检验须硝酸酸化"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "次氯酸",
+        "testMethods": "漂白有色物质（不可逆，与SO2对比）。",
+        "storageMethods": "避光、低温；现用现配为宜。",
+        "safetyNotes": "氧化性/刺激性；按规范操作。",
+        "tags": [
+          "acid",
+          "oxide"
+        ],
+        "name": "次氯酸",
+        "canonicalFormula": "HClO",
+        "color": "无色（稀溶液）",
+        "stateLabel": "液（仅水溶液常见）",
+        "solubility": "存在于水溶液中，不稳定",
+        "physicalProps": "弱酸；仅存在于溶液中，不稳定。",
+        "chemicalProps": "弱酸性；强氧化性与漂白性；见光易分解：2HClO=光照=2HCl+O2↑。故氯水、次氯酸应避光保存（了解保存条件）。",
+        "commonUses": "消毒漂白相关（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.HClO] batch4导入 pending_review id=37"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "次氯酸钠",
+        "testMethods": "漂白；加酸可产生Cl2（危险，教师演示）。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "腐蚀/氧化性；勿与酸随意混合。",
+        "tags": [
+          "salt"
+        ],
+        "name": "次氯酸钠",
+        "canonicalFormula": "NaClO",
+        "color": "白色（固体）；溶液近无色或淡黄",
+        "stateLabel": "固/溶液",
+        "solubility": "易溶于水",
+        "physicalProps": "常见为溶液；具氧化性。",
+        "chemicalProps": "由Cl2与NaOH反应生成。水解显碱性；表现氧化性与漂白性（实质与HClO相关，了解）。与酸反应可放出Cl2（题设）。",
+        "commonUses": "漂白剂、消毒剂（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.NaClO] batch4导入 pending_review id=38"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "硫、硫磺",
+        "testMethods": "淡黄色；燃烧有刺激性SO2气味。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "粉尘燃烧风险；SO2有毒。",
+        "tags": [
+          "elemental"
+        ],
+        "name": "硫",
+        "canonicalFormula": "S",
+        "color": "淡黄色",
+        "stateLabel": "固",
+        "solubility": "难溶于水；易溶于CS2（了解）",
+        "physicalProps": "淡黄色固体；可燃烧。",
+        "chemicalProps": "点燃生成SO2：S+O2=点燃=SO2。可与金属、氢气等反应（按教材深度）。",
+        "commonUses": "制硫酸、橡胶硫化等（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.S] batch4导入 pending_review id=39"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "二氧化硫",
+        "testMethods": "刺激性气味；使品红褪色，加热恢复；与CO2区分常用漂白/还原性题设。",
+        "storageMethods": "现制或钢瓶；通风。",
+        "safetyNotes": "有毒，刺激呼吸道；禁止家用。",
+        "tags": [
+          "oxide",
+          "hazard"
+        ],
+        "name": "二氧化硫",
+        "canonicalFormula": "SO2",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "易溶于水生成亚硫酸",
+        "physicalProps": "无色有刺激性气味气体；有毒；密度比空气大。",
+        "chemicalProps": "酸性氧化物；水溶液显酸性。具还原性（可使酸性KMnO4等褪色，了解/题设）。具漂白性（与有色物质生成不稳定无色物质，加热可恢复，与HClO漂白不同）。可被催化氧化为SO3。",
+        "commonUses": "漂白、杀菌、制硫酸中间产物（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.SO2] batch4导入 pending_review id=40"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "三氧化硫",
+        "testMethods": "遇水放热生成硫酸（危险演示）。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "腐蚀性强；遇水剧烈。",
+        "tags": [
+          "oxide",
+          "hazard"
+        ],
+        "name": "三氧化硫",
+        "canonicalFormula": "SO3",
+        "color": "无色（固体常见）",
+        "stateLabel": "固/液（了解）",
+        "solubility": "与水剧烈反应生成H2SO4",
+        "physicalProps": "易吸水；与水反应放热。",
+        "chemicalProps": "酸性氧化物；SO3+H2O=H2SO4。由SO2催化氧化得到（工业了解）。",
+        "commonUses": "制硫酸关键（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.SO3] batch4导入 pending_review id=41"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "硫酸",
+        "testMethods": "酸性；钡盐生成白色BaSO4沉淀（加稀HNO3不溶）。",
+        "storageMethods": "密封；浓硫酸防潮容器。",
+        "safetyNotes": "强腐蚀；稀释顺序严禁颠倒；浓硫酸氧化性实验教师指导。",
+        "tags": [
+          "acid",
+          "hazard"
+        ],
+        "name": "硫酸",
+        "canonicalFormula": "H2SO4",
+        "color": "无色油状液体（纯）",
+        "stateLabel": "液",
+        "solubility": "与水任意比混溶，稀释剧烈放热",
+        "physicalProps": "高沸点难挥发强酸；浓硫酸黏稠。",
+        "chemicalProps": "稀硫酸：强酸通性。浓硫酸：吸水性、脱水性、强氧化性（加热时更明显，如与Cu、C反应）。稀释必须将浓硫酸沿器壁缓慢注入水中并搅拌。",
+        "commonUses": "实验室常用酸；工业制化肥等（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.H2SO4] batch4导入 pending_review id=42"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "亚硫酸",
+        "testMethods": "酸性；加热放出SO2。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "与SO2毒性相关。",
+        "tags": [
+          "acid"
+        ],
+        "name": "亚硫酸",
+        "canonicalFormula": "H2SO3",
+        "color": "无色",
+        "stateLabel": "液（仅水溶液）",
+        "solubility": "SO2水溶液中存在",
+        "physicalProps": "弱酸；不稳定，易分解放出SO2。",
+        "chemicalProps": "弱酸性；具还原性（了解）。由SO2溶于水：SO2+H2O⇌H2SO3。",
+        "commonUses": "高中认识SO2水溶液酸性即可。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.H2SO3] batch4导入 pending_review id=43"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "氮气",
+        "testMethods": "一般不助燃；结合题设。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "高浓度窒息风险（了解）。",
+        "tags": [
+          "elemental"
+        ],
+        "name": "氮气",
+        "canonicalFormula": "N2",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "难溶于水",
+        "physicalProps": "无色无味；空气主要成分；化学性质稳定。",
+        "chemicalProps": "常温稳定；高温高压催化剂下可与H2合成NH3（工业，了解条件）。",
+        "commonUses": "保护气、合成氨原料（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.N2] batch4导入 pending_review id=44"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "氨、氨气",
+        "testMethods": "湿润红色石蕊试纸变蓝；遇浓盐酸白烟。",
+        "storageMethods": "钢瓶或发生装置；注意腐蚀与刺激。",
+        "safetyNotes": "刺激眼鼻；防倒吸（溶于水）。",
+        "tags": [
+          "base",
+          "hazard"
+        ],
+        "name": "氨",
+        "canonicalFormula": "NH3",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "极易溶于水，水溶液显碱性（氨水）",
+        "physicalProps": "无色有刺激性气味；密度比空气小。",
+        "chemicalProps": "与酸反应生成铵盐（如NH3+HCl=NH4Cl，产生白烟）。水溶液显碱性。可被催化氧化：4NH3+5O2=催化剂△=4NO+6H2O（了解工业）。",
+        "commonUses": "制冷、制化肥、喷泉实验等。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.NH3] batch4导入 pending_review id=45"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "一氧化氮",
+        "testMethods": "遇空气变红棕色（生成NO2）。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "有毒；通风。",
+        "tags": [
+          "oxide",
+          "hazard"
+        ],
+        "name": "一氧化氮",
+        "canonicalFormula": "NO",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "难溶于水",
+        "physicalProps": "无色气体；有毒。",
+        "chemicalProps": "易与O2反应：2NO+O2=2NO2（迅速变为红棕色是常见现象链）。不支持燃烧通常表述需按题设。",
+        "commonUses": "氮氧化物转化认识；大气污染相关了解。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.NO] batch4导入 pending_review id=46"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "二氧化氮",
+        "testMethods": "红棕色；与水反应后溶液显酸性。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "有毒；刺激性强。",
+        "tags": [
+          "oxide",
+          "hazard"
+        ],
+        "name": "二氧化氮",
+        "canonicalFormula": "NO2",
+        "color": "红棕色",
+        "stateLabel": "气",
+        "solubility": "与水反应",
+        "physicalProps": "红棕色有刺激性气味气体；有毒。",
+        "chemicalProps": "3NO2+H2O=2HNO3+NO（歧化）。可由NO氧化得到。浓硝酸与铜等反应可生成NO2。",
+        "commonUses": "硝酸相关；大气污染了解。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.NO2] batch4导入 pending_review id=47"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "硝酸",
+        "testMethods": "酸性；与铜反应气体颜色/产物区分浓稀。",
+        "storageMethods": "棕色瓶、阴凉（了解）。",
+        "safetyNotes": "强腐蚀强氧化；氮氧化物有毒；禁止家用。",
+        "tags": [
+          "acid",
+          "hazard"
+        ],
+        "name": "硝酸",
+        "canonicalFormula": "HNO3",
+        "color": "无色（久置/工业可发黄）",
+        "stateLabel": "液",
+        "solubility": "与水混溶",
+        "physicalProps": "挥发性强酸；见光易分解（了解）。",
+        "chemicalProps": "强酸性；强氧化性。稀硝酸与Cu：3Cu+8HNO3=3Cu(NO3)2+2NO↑+4H2O；浓硝酸与Cu：Cu+4HNO3=Cu(NO3)2+2NO2↑+2H2O。条件（浓/稀）决定气态产物，不可混写。",
+        "commonUses": "实验室氧化性酸；工业用途了解。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.HNO3] batch4导入 pending_review id=48"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "碳（石墨/金刚石等同素异形体了解）",
+        "testMethods": "燃烧产物检验（澄清石灰水等）。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "粉尘爆炸风险（了解）；CO有毒。",
+        "tags": [
+          "elemental"
+        ],
+        "name": "碳",
+        "canonicalFormula": "C",
+        "color": "黑色（石墨等）",
+        "stateLabel": "固",
+        "solubility": "单质不溶于水",
+        "physicalProps": "多种同素异形体；石墨导电等（了解）。",
+        "chemicalProps": "可燃：氧气充足C+O2=点燃=CO2；不充足2C+O2=点燃=2CO。可还原金属氧化物；与浓硫酸加热反应等。",
+        "commonUses": "燃料、还原剂、材料（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.C] batch4导入 pending_review id=49"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "一氧化碳",
+        "testMethods": "燃烧淡蓝色火焰；还原黑色CuO变红等（实验条件）。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "剧毒，无味更危险；通风；禁止家用制取。",
+        "tags": [
+          "oxide",
+          "hazard"
+        ],
+        "name": "一氧化碳",
+        "canonicalFormula": "CO",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "难溶于水",
+        "physicalProps": "无色无味有毒气体；密度与空气接近。",
+        "chemicalProps": "可燃生成CO2；具还原性（如还原CuO、Fe2O3，加热）。不使澄清石灰水变浑浊（与CO2区别）。",
+        "commonUses": "燃料、还原剂（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.CO] batch4导入 pending_review id=50"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "硅",
+        "testMethods": "高中以材料认识为主。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "粉尘防护。",
+        "tags": [
+          "elemental"
+        ],
+        "name": "硅",
+        "canonicalFormula": "Si",
+        "color": "灰黑色",
+        "stateLabel": "固",
+        "solubility": "单质不溶于水、一般酸（可与氢氟酸等，了解勿展开）",
+        "physicalProps": "半导体材料基础；晶体硅（了解）。",
+        "chemicalProps": "常温较稳定；高温可与O2等反应。粗硅可由SiO2与C高温制取（了解）。",
+        "commonUses": "半导体、合金等（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.Si] batch4导入 pending_review id=51"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "二氧化硅、硅石",
+        "testMethods": "与强碱反应（对比普通酸性氧化物）。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "粉尘；碱腐蚀玻璃仪器警示。",
+        "tags": [
+          "oxide"
+        ],
+        "name": "二氧化硅",
+        "canonicalFormula": "SiO2",
+        "color": "白色/无色（水晶等了解）",
+        "stateLabel": "固",
+        "solubility": "难溶于水；不溶于一般酸（HF除外，了解）",
+        "physicalProps": "原子晶体（高中了解表述）；硬度大、熔点高。",
+        "chemicalProps": "酸性氧化物。SiO2+2NaOH=Na2SiO3+H2O（故热的浓碱可腐蚀玻璃，警示）。高温与C反应制粗硅。",
+        "commonUses": "玻璃、光导纤维、建筑材料等（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.SiO2] batch4导入 pending_review id=52"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "硅酸钠、泡花碱（了解）",
+        "testMethods": "碱性；加酸浑浊（硅酸）。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "碱性腐蚀。",
+        "tags": [
+          "salt"
+        ],
+        "name": "硅酸钠",
+        "canonicalFormula": "Na2SiO3",
+        "color": "无色/白色",
+        "stateLabel": "固/溶液",
+        "solubility": "可溶于水，水溶液显碱性",
+        "physicalProps": "可形成黏稠溶液（水玻璃，了解）。",
+        "chemicalProps": "由SiO2与NaOH反应生成。水溶液显碱性；可与酸反应生成硅酸沉淀（了解）。",
+        "commonUses": "黏合、防火等（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.Na2SiO3] batch4导入 pending_review id=53"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "白磷、红磷（同素异形体）",
+        "testMethods": "同素异形体对比以教材为准。",
+        "storageMethods": "白磷需水封避光（教师保管）；红磷干燥。",
+        "safetyNotes": "白磷剧毒易燃，禁止学生操作与家用。",
+        "tags": [
+          "elemental",
+          "hazard"
+        ],
+        "name": "白磷/红磷",
+        "canonicalFormula": "P",
+        "color": "白磷淡黄；红磷暗红",
+        "stateLabel": "固",
+        "solubility": "白磷不溶于水，溶于CS2（了解）",
+        "physicalProps": "同素异形体性质差异大：白磷着火点低、剧毒；红磷较稳定（高中对比了解）。",
+        "chemicalProps": "可燃烧生成P4O10（教材亦常见写作P2O5，口径以课本为准，二者不可未经说明等同）。白磷可自燃（具体自燃条件与同素异形体对比细节以所用教材为准）。严禁学生接触白磷。",
+        "commonUses": "火柴等（了解红磷）；白磷剧毒禁常规实验。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.P] 待核实:同素异形体对比细节;了解/拓展级;禁默认细对比绝对题;白磷禁操作题"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "五氧化二磷；分子式常写P4O10，经验式/教材亦写P2O5",
+        "testMethods": "吸水放热（演示谨慎）。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "腐蚀性；遇水放热。",
+        "tags": [
+          "oxide"
+        ],
+        "name": "五氧化二磷",
+        "canonicalFormula": "P4O10",
+        "color": "白色",
+        "stateLabel": "固",
+        "solubility": "与水剧烈反应生成磷酸",
+        "physicalProps": "白色固体；强干燥剂（了解）。",
+        "chemicalProps": "酸性氧化物；与水生成磷酸。高中以磷燃烧产物认识为主。注意：P4O10为常见分子式写法，P2O5多为经验式/教材简写，题干须指定写法，不得默认二者完全等同。",
+        "commonUses": "干燥剂等（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.P4O10] 待核实:教材主写法;题干须指定P4O10或P2O5;禁混同绝对填空"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "硫化氢",
+        "testMethods": "臭鸡蛋气味（微量）；湿润Pb(Ac)2试纸变黑（了解）。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "剧毒；禁止大量制取与家用；通风。",
+        "tags": [
+          "acid",
+          "hazard"
+        ],
+        "name": "硫化氢",
+        "canonicalFormula": "H2S",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "可溶于水，水溶液显弱酸性",
+        "physicalProps": "无色有臭鸡蛋气味；有毒。",
+        "chemicalProps": "弱酸；具还原性（了解）。可与某些金属离子生成硫化物沉淀（题设）。",
+        "commonUses": "高中以性质与安全认识为主；大气污染了解。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.H2S] batch4导入 pending_review id=56"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "碳酸钙、石灰石/大理石主要成分（了解）",
+        "testMethods": "加盐酸有气泡，气体使澄清石灰水变浑浊。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "粉尘防护。",
+        "tags": [
+          "salt"
+        ],
+        "name": "碳酸钙",
+        "canonicalFormula": "CaCO3",
+        "color": "白色",
+        "stateLabel": "固",
+        "solubility": "难溶于水",
+        "physicalProps": "白色固体；高温可分解（了解）。",
+        "chemicalProps": "与酸反应放CO2：CaCO3+2HCl=CaCl2+CO2↑+H2O。是制CO2常见原料。",
+        "commonUses": "建筑、制CO2、补钙等（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.CaCO3] batch4导入 pending_review id=57"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "氢氧化钙、熟石灰、消石灰",
+        "testMethods": "碱性；与CO2变浑浊。",
+        "storageMethods": "按试剂规范密封保存",
+        "safetyNotes": "腐蚀皮肤眼睛。",
+        "tags": [
+          "base"
+        ],
+        "name": "氢氧化钙",
+        "canonicalFormula": "Ca(OH)2",
+        "color": "白色",
+        "stateLabel": "固",
+        "solubility": "微溶于水，水溶液称澄清石灰水",
+        "physicalProps": "白色粉末；碱。",
+        "chemicalProps": "中强碱。澄清石灰水检验CO2：CO2+Ca(OH)2=CaCO3↓+H2O（变浑浊）；过量CO2可变清（生成Ca(HCO3)2，了解/题设）。",
+        "commonUses": "建筑、改良酸性土壤、检验CO2。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.CaOH2] batch4导入 pending_review id=58"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "溴、液溴",
+        "testMethods": "深红棕色；溴水颜色。",
+        "storageMethods": "密封、水封或按试剂要求；避光。",
+        "safetyNotes": "腐蚀挥发有毒；禁止家用。",
+        "tags": [
+          "elemental",
+          "hazard"
+        ],
+        "name": "溴",
+        "canonicalFormula": "Br2",
+        "color": "深红棕色",
+        "stateLabel": "液",
+        "solubility": "微溶于水（溴水），易溶于有机溶剂（了解）",
+        "physicalProps": "深红棕色液体；易挥发；有刺激性。",
+        "chemicalProps": "卤族单质；氧化性弱于Cl2、强于I2（递变，必修比较）。溴水可氧化性褪色等按题设。勿展开复杂溴含氧酸体系。",
+        "commonUses": "有机合成等（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.Br2] 增补;勿展开溴含氧酸深度;默认训练限单质递变与颜色"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "碘",
+        "testMethods": "淀粉变蓝。",
+        "storageMethods": "密封避光。",
+        "safetyNotes": "刺激性；按规范。",
+        "tags": [
+          "elemental"
+        ],
+        "name": "碘",
+        "canonicalFormula": "I2",
+        "color": "紫黑色",
+        "stateLabel": "固",
+        "solubility": "微溶于水；易溶于KI溶液、有机溶剂（了解）",
+        "physicalProps": "紫黑色固体；易升华（了解）。",
+        "chemicalProps": "卤族单质；氧化性弱于Br2。遇淀粉变蓝（特征检验）。价态以−1与单质I2为主；+5/+7勿作默认必修核心。",
+        "commonUses": "消毒、检验淀粉等（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.I2] 增补;淀粉变蓝;正价不进默认核心;可训淀粉检验"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "commonNames": "漂白粉",
+        "testMethods": "漂白作用；加酸可产生Cl2（危险）。",
+        "storageMethods": "密封防潮避光。",
+        "safetyNotes": "腐蚀/氧化；勿与酸随意混合。",
+        "tags": [
+          "salt",
+          "mixture"
+        ],
+        "name": "漂白粉",
+        "canonicalFormula": "Ca(ClO)2为主（混合物）",
+        "color": "白色",
+        "stateLabel": "固",
+        "solubility": "部分溶于水",
+        "physicalProps": "工业产品为混合物，不是严格唯一组成的纯净物；教材常简化表述。",
+        "chemicalProps": "由氯气与石灰乳反应制得（了解）。有效成分常表述为次氯酸钙Ca(ClO)2（以所用教材为准）；另含氯化钙等。有效成分具氧化漂白性；久置失效（了解）。精确主要成分/组成比不得写成唯一绝对答案。",
+        "commonUses": "漂白、消毒（了解）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.bleaching_powder] 待核实:教材成分口径;混合物;禁精确组成绝对填空;excludeDefaultCompositionFill"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch4",
+    "pack": "B4-A",
+    "inventoryCodes": [
+      "sub.Cl2",
+      "sub.HCl",
+      "sub.HCl_aq",
+      "sub.HClO",
+      "sub.NaClO",
+      "sub.S",
+      "sub.SO2",
+      "sub.SO3",
+      "sub.H2SO4",
+      "sub.H2SO3",
+      "sub.N2",
+      "sub.NH3",
+      "sub.NO",
+      "sub.NO2",
+      "sub.HNO3",
+      "sub.C",
+      "sub.CO",
+      "sub.Si",
+      "sub.SiO2",
+      "sub.Na2SiO3",
+      "sub.P",
+      "sub.P4O10",
+      "sub.H2S",
+      "sub.CaCO3",
+      "sub.CaOH2",
+      "sub.Br2",
+      "sub.I2",
+      "sub.bleaching_powder"
+    ],
+    "specialtyByCode": {
+      "sub.Cl2": [
+        "substance",
+        "memory"
+      ],
+      "sub.HCl": [
+        "substance",
+        "memory"
+      ],
+      "sub.HCl_aq": [
+        "substance",
+        "memory"
+      ],
+      "sub.HClO": [
+        "substance",
+        "memory"
+      ],
+      "sub.NaClO": [
+        "substance",
+        "memory"
+      ],
+      "sub.S": [
+        "substance",
+        "memory"
+      ],
+      "sub.SO2": [
+        "substance",
+        "memory"
+      ],
+      "sub.SO3": [
+        "substance",
+        "memory"
+      ],
+      "sub.H2SO4": [
+        "substance",
+        "memory"
+      ],
+      "sub.H2SO3": [
+        "substance",
+        "memory"
+      ],
+      "sub.N2": [
+        "substance",
+        "memory"
+      ],
+      "sub.NH3": [
+        "substance",
+        "memory"
+      ],
+      "sub.NO": [
+        "substance",
+        "memory"
+      ],
+      "sub.NO2": [
+        "substance",
+        "memory"
+      ],
+      "sub.HNO3": [
+        "substance",
+        "memory"
+      ],
+      "sub.C": [
+        "substance",
+        "memory"
+      ],
+      "sub.CO": [
+        "substance",
+        "memory"
+      ],
+      "sub.Si": [
+        "substance",
+        "memory"
+      ],
+      "sub.SiO2": [
+        "substance",
+        "memory"
+      ],
+      "sub.Na2SiO3": [
+        "substance",
+        "memory"
+      ],
+      "sub.P": [
+        "substance",
+        "memory"
+      ],
+      "sub.P4O10": [
+        "substance",
+        "memory"
+      ],
+      "sub.H2S": [
+        "substance",
+        "memory"
+      ],
+      "sub.CaCO3": [
+        "substance",
+        "memory"
+      ],
+      "sub.CaOH2": [
+        "substance",
+        "memory"
+      ],
+      "sub.Br2": [
+        "substance",
+        "memory",
+        "periodic"
+      ],
+      "sub.I2": [
+        "substance",
+        "memory",
+        "experiment"
+      ],
+      "sub.bleaching_powder": [
+        "substance",
+        "memory"
+      ]
+    },
+    "categoryByCode": {
+      "sub.Cl2": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.HCl": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.HCl_aq": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.HClO": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.NaClO": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.S": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.SO2": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.SO3": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.H2SO4": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.H2SO3": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.N2": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.NH3": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.NO": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.NO2": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.HNO3": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.C": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.CO": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.Si": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.SiO2": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.Na2SiO3": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.P": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.P4O10": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.H2S": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.CaCO3": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.CaOH2": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "sub.Br2": [
+        "substance.formula",
+        "substance.color",
+        "substance.state",
+        "memory.color"
+      ],
+      "sub.I2": [
+        "substance.formula",
+        "substance.color",
+        "substance.test",
+        "memory.color"
+      ],
+      "sub.bleaching_powder": [
+        "substance.chem_property",
+        "substance.usage",
+        "memory.common_name"
+      ]
+    }
+  }
+}

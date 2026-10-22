@@ -1,0 +1,32 @@
+{
+  "applied": true,
+  "backupDir": "D:\\adu\\wj\\拉总\\学习系统代码\\study_sysytem\\docs\\chemistry_personal_open\\backup_2026-10-19T12-05-04-451Z",
+  "physicalDeleted": 16,
+  "softDisabled": 4,
+  "remainingTotal": 578,
+  "trialAllow": 574,
+  "deletedCodes": [
+    "train.ai_trial.cov.experiment.1",
+    "train.ai_trial.cov.calculation.1",
+    "train.ai_trial.cov.ion.1",
+    "train.ai_trial.cov.periodic.1",
+    "train.ai_trial.cov.periodic.2",
+    "train.ai_trial.cov.periodic.3",
+    "train.ai_trial.cov.structure.1",
+    "train.ai_trial.cov.structure.2",
+    "train.ai_trial.cov.structure.3",
+    "train.ai_trial.cov.organic.1",
+    "train.ai_trial.cov.organic.2",
+    "train.ai_trial.cov.organic.3",
+    "train.ai_trial.cov.inference.1",
+    "train.ai_trial.cov.inference.2",
+    "train.ai_trial.cov.inference.3",
+    "train.ai_trial.eq.conversion.01"
+  ],
+  "softCodes": [
+    "train.ai_trial.cov.comprehensive.1",
+    "train.ai_trial.cov.comprehensive.2",
+    "train.ai_trial.cov.comprehensive.3",
+    "train.test.eq.single.01"
+  ]
+}

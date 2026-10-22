@@ -1,0 +1,212 @@
+{
+  "items": [
+    {
+      "type": "question",
+      "data": {
+        "qtype": "single",
+        "stem": "（骨架）标准状况下，11.2 L O2 的物质的量是多少？（选项示例：A.0.25 mol  B.0.5 mol  C.1 mol  D.2 mol）",
+        "answer": "B",
+        "optionsJson": [
+          {
+            "key": "A",
+            "text": "0.25 mol"
+          },
+          {
+            "key": "B",
+            "text": "0.5 mol"
+          },
+          {
+            "key": "C",
+            "text": "1 mol"
+          },
+          {
+            "key": "D",
+            "text": "2 mol"
+          }
+        ],
+        "analysis": "标况 V=n×22.4，n=11.2/22.4=0.5 mol。非标况不可套用。",
+        "scoring": "选对得分；须强调单位 mol 与标况条件。",
+        "difficulty": 1,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.calc.amount_basic] 骨架；可替换数据后充实为正式训练题"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "blank",
+        "stem": "（骨架）将 0.1 mol NaOH 溶于水并配成 500 mL 溶液，该溶液的物质的量浓度为______ mol/L。",
+        "answer": "0.2",
+        "analysis": "c=n/V=0.1 mol / 0.5 L=0.2 mol/L。注意 V 用溶液体积且换算为 L。",
+        "scoring": "填数值；单位在题干已给时可不写，评分关注数值与单位一致性。",
+        "difficulty": 1,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.calc.concentration] 骨架；单位得分点：mol/L"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "calc",
+        "stem": "（骨架）已知 2H2+O2=2H2O。标准状况下 4.48 L H2 完全反应，生成水的质量为多少克？（写出计算过程）",
+        "answer": "3.6 g（过程：n(H2)=4.48/22.4=0.2 mol；由计量关系生成 n(H2O)=0.2 mol；m=0.2×18=3.6 g）",
+        "analysis": "先在标况下求 n，再按方程式计量比，最后 m=nM。",
+        "scoring": "过程分+结果分；单位 g 必写；未说明标况却用22.4不得分。",
+        "difficulty": 2,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.calc.equation] 骨架；计算短答模板"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "calc",
+        "stem": "（骨架）反应：Zn + H2SO4 = ZnSO4 + H2↑（稀硫酸，不可逆按完全反应计，无副反应）。现有 Zn 13.0 g 与 H2SO4 0.15 mol 混合充分反应。已知 M(Zn)=65 g/mol。求生成 H2 的物质的量（单位 mol）。要求：先判断过量，再按不足量计算。",
+        "answer": "0.15 mol（过程：n(Zn)=13.0/65=0.20 mol；计量数均为1，n(Zn)/1=0.20 > n(H2SO4)/1=0.15，故 H2SO4 不足；n(H2)=n(不足量)=0.15 mol）",
+        "analysis": "先算 n(Zn) 与 n(H2SO4)，用 n/计量数比较；小者为不足量，按不足量得 n(H2)。本骨架条件唯一，禁止再混入第二组对照数据。",
+        "scoring": "过量判断过程分+结果 0.15 mol；单位 mol 必写；未判断过量直接代算不得满分。",
+        "difficulty": 2,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.calc.excess] B5整改:单一数据组过量骨架;可作模板"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "single",
+        "stem": "（骨架）下列仪器中，不能用来加热的是？A.试管  B.烧杯  C.量筒  D.蒸发皿",
+        "answer": "C",
+        "optionsJson": [
+          {
+            "key": "A",
+            "text": "试管"
+          },
+          {
+            "key": "B",
+            "text": "烧杯"
+          },
+          {
+            "key": "C",
+            "text": "量筒"
+          },
+          {
+            "key": "D",
+            "text": "蒸发皿"
+          }
+        ],
+        "analysis": "量筒用于量取液体体积，不可加热。烧杯加热需垫石棉网（按教材）。",
+        "scoring": "选对得分。",
+        "difficulty": 1,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.exp.instrument] 骨架；仪器识别选择题模板"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "single",
+        "stem": "（骨架）实验室收集CO2常用的方法是？A.向下排空气法  B.向上排空气法  C.排水法（最佳首选）  D.向下排空气法并排水",
+        "answer": "B",
+        "optionsJson": [
+          {
+            "key": "A",
+            "text": "向下排空气法"
+          },
+          {
+            "key": "B",
+            "text": "向上排空气法"
+          },
+          {
+            "key": "C",
+            "text": "排水法（作为首选）"
+          },
+          {
+            "key": "D",
+            "text": "向下排空气法并排水"
+          }
+        ],
+        "analysis": "CO2密度比空气大，常用向上排空气法；可溶于水，一般不用排水法作为首选。",
+        "scoring": "选对得分。",
+        "difficulty": 1,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.exp.gas_collect] 骨架；气体收集方法判断模板"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "judge",
+        "stem": "（骨架）判断：可以在家中用锌粒和稀硫酸制取氢气并点燃检验。",
+        "answer": "错误",
+        "analysis": "H2为易燃气体，不纯时点燃有爆炸危险；本系统与实验室规范均禁止家用自行制取与点燃。相关内容仅作书面安全判断训练。",
+        "scoring": "判断正确得分；若要求改错，写出“禁止家用、须验纯、仅书面训练”等要点。",
+        "difficulty": 1,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.exp.safety] 骨架；安全判断题；强化禁家用"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "blank",
+        "stem": "（骨架）配平：Fe + HCl → FeCl2 + H2（将系数填在各物质前：__ Fe + __ HCl → __ FeCl2 + __ H2）",
+        "answer": "1,2,1,1",
+        "analysis": "原子守恒：Fe+2HCl=FeCl2+H2。",
+        "scoring": "系数全对得分；未配平不得分。",
+        "difficulty": 1,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.eq.balance] 骨架；方程式配平填空模板"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch5",
+    "pack": "B5-D",
+    "inventoryCodes": [
+      "q.calc.amount_basic",
+      "q.calc.concentration",
+      "q.calc.equation",
+      "q.calc.excess",
+      "q.exp.instrument",
+      "q.exp.gas_collect",
+      "q.exp.safety",
+      "q.eq.balance"
+    ],
+    "specialtyByCode": {
+      "q.calc.amount_basic": [
+        "calculation"
+      ],
+      "q.calc.concentration": [
+        "calculation"
+      ],
+      "q.calc.equation": [
+        "equation"
+      ],
+      "q.calc.excess": [
+        "calculation"
+      ],
+      "q.exp.instrument": [
+        "experiment"
+      ],
+      "q.exp.gas_collect": [
+        "experiment"
+      ],
+      "q.exp.safety": [
+        "experiment"
+      ],
+      "q.eq.balance": [
+        "equation"
+      ]
+    },
+    "categoryByCode": {
+      "q.calc.amount_basic": [],
+      "q.calc.concentration": [],
+      "q.calc.equation": [],
+      "q.calc.excess": [],
+      "q.exp.instrument": [],
+      "q.exp.gas_collect": [],
+      "q.exp.safety": [],
+      "q.eq.balance": []
+    }
+  }
+}

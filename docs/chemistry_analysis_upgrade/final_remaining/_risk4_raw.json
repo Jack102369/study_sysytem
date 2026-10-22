@@ -1,0 +1,102 @@
+[
+  {
+    "id": "50",
+    "code": "train.ai_trial.048.kp_j",
+    "stem": "【AI试运行】氧化还原反应中得失电子数必须相等。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "analysis": "来源 kp.redox.e_conserve",
+    "difficulty": 1,
+    "qtype": "judge",
+    "specialty_code": "redox",
+    "category_code": "e_conserve",
+    "gate_note": "ai_trial source=kp.redox.e_conserve [qa:PASS] [verify_class:none] [trial_access:allow]",
+    "sources": [
+      {
+        "entityType": "knowledge",
+        "id": 9,
+        "name": "电子守恒",
+        "equation": null,
+        "oxidant": null,
+        "reductant": null,
+        "description": "电子守恒：失电子总数=得电子总数，用于配平与计算。易错：只配平原子个数。",
+        "review_note": "[ai_trial][human_unreviewed][trial_run][source:deepseek_r1] [inv:kp.redox.e_conserve] parent=kp.redox"
+      }
+    ]
+  },
+  {
+    "id": "379",
+    "code": "train.ai_trial.pa.rxn_not_marked_redox.rxn.Al2O3_6HCl",
+    "stem": "【AI试运行】仅根据「知识库未标注氧化剂/还原剂」，可断定反应「Al2O3 + 6HCl = 2AlCl3 + 3H2O」一定不是氧化还原反应。判断正误。",
+    "options_json": null,
+    "answer": "错误",
+    "analysis": "来源 rxn.Al2O3_6HCl：字段缺失≠科学否定；本题考查「证据不足不可妄下结论」",
+    "difficulty": 2,
+    "qtype": "judge",
+    "specialty_code": "equation",
+    "category_code": "true_false",
+    "gate_note": "ai_trial phase_a template=rxn_not_marked_redox source=rxn.Al2O3_6HCl [qa:PASS] [verify_class:qtype_limit] [trial_access:allow]",
+    "sources": [
+      {
+        "entityType": "reaction",
+        "id": 17,
+        "name": "氧化铝与盐酸",
+        "equation": "Al2O3 + 6HCl = 2AlCl3 + 3H2O",
+        "oxidant": null,
+        "reductant": null,
+        "description": null,
+        "review_note": "[ai_trial][human_unreviewed][trial_run][source:deepseek_r1] [inv:rxn.Al2O3_6HCl] canonical=Al2O3+6HCl=2AlCl3+3H2O; batch3导入 pending_review id=17"
+      }
+    ]
+  },
+  {
+    "id": "398",
+    "code": "train.ai_trial.pa.rxn_not_marked_redox.rxn.C2H4_H2",
+    "stem": "【AI试运行】仅根据「知识库未标注氧化剂/还原剂」，可断定反应「CH2=CH2 + H2 =催化剂、加热= CH3CH3」一定不是氧化还原反应。判断正误。",
+    "options_json": null,
+    "answer": "错误",
+    "analysis": "来源 rxn.C2H4_H2：字段缺失≠科学否定；本题考查「证据不足不可妄下结论」",
+    "difficulty": 2,
+    "qtype": "judge",
+    "specialty_code": "equation",
+    "category_code": "true_false",
+    "gate_note": "ai_trial phase_a template=rxn_not_marked_redox source=rxn.C2H4_H2 [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+    "sources": [
+      {
+        "entityType": "reaction",
+        "id": 62,
+        "name": "乙烯加氢",
+        "equation": "CH2=CH2 + H2 =催化剂、加热= CH3CH3",
+        "oxidant": null,
+        "reductant": null,
+        "description": null,
+        "review_note": "[ai_trial][human_unreviewed][trial_run][source:deepseek_r1] [inv:rxn.C2H4_H2] canonical~C2H4+H2→C2H6; batch6导入 pending_review id=62"
+      }
+    ]
+  },
+  {
+    "id": "401",
+    "code": "train.ai_trial.pa.rxn_not_marked_redox.rxn.C2H4_H2O",
+    "stem": "【AI试运行】仅根据「知识库未标注氧化剂/还原剂」，可断定反应「CH2=CH2 + H2O =催化剂、加热加压= CH3CH2OH」一定不是氧化还原反应。判断正误。",
+    "options_json": null,
+    "answer": "错误",
+    "analysis": "来源 rxn.C2H4_H2O：字段缺失≠科学否定；本题考查「证据不足不可妄下结论」",
+    "difficulty": 2,
+    "qtype": "judge",
+    "specialty_code": "equation",
+    "category_code": "true_false",
+    "gate_note": "ai_trial phase_a template=rxn_not_marked_redox source=rxn.C2H4_H2O [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+    "sources": [
+      {
+        "entityType": "reaction",
+        "id": 61,
+        "name": "乙烯水化制乙醇",
+        "equation": "CH2=CH2 + H2O =催化剂、加热加压= CH3CH2OH",
+        "oxidant": null,
+        "reductant": null,
+        "description": null,
+        "review_note": "[ai_trial][human_unreviewed][trial_run][source:deepseek_r1] [inv:rxn.C2H4_H2O] 条件:催化剂+加热加压;催化剂写法随教材(如磷酸)"
+      }
+    ]
+  }
+]

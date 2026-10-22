@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-10-20T03:18:35.468Z",
+  "ok": true,
+  "checks": [
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=16 item=69"
+    },
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=22 item=26"
+    },
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=23 item=28"
+    },
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=26 item=69"
+    },
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=28 item=69"
+    },
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=32 item=52"
+    },
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=38 item=73"
+    },
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=40 item=97"
+    },
+    {
+      "name": "batch1_sample_still_new",
+      "pass": true,
+      "detail": "matched 5/5"
+    },
+    {
+      "name": "s60_seven_section_present",
+      "pass": true,
+      "detail": "train.ai_trial.s60.S60.calculation.01"
+    },
+    {
+      "name": "hold_50_not_in_batch2_wl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "hold_379_not_in_batch2_wl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "hold_398_not_in_batch2_wl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "hold_401_not_in_batch2_wl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked13_not_eligible",
+      "pass": true,
+      "detail": "stillEligible=0"
+    },
+    {
+      "name": "bank_sample_has_new_analysis",
+      "pass": true,
+      "detail": "id=313"
+    },
+    {
+      "name": "create_session",
+      "pass": true,
+      "detail": "status=201 id=42"
+    },
+    {
+      "name": "session_excludes_blocked",
+      "pass": true,
+      "detail": "hit=0"
+    },
+    {
+      "name": "new_session_has_batch2_analysis",
+      "pass": true,
+      "detail": "item=313"
+    },
+    {
+      "name": "submit_ok",
+      "pass": true,
+      "detail": "status=201"
+    },
+    {
+      "name": "result_shows_analysis",
+      "pass": true,
+      "detail": "【正确答案】正确\n【为什么正确】本题判断的是知识库对反应条件的记载，不是方程式配平。铁与氯气反应需要"
+    },
+    {
+      "name": "grade_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "daily_status",
+      "pass": true,
+      "detail": "cand=561"
+    },
+    {
+      "name": "daily_session_excludes_blocked",
+      "pass": true,
+      "detail": "hit=0"
+    },
+    {
+      "name": "nogrant_denied",
+      "pass": true,
+      "detail": "status=403"
+    },
+    {
+      "name": "history_not_shrunk",
+      "pass": true,
+      "detail": "sess 39->41 items 199->214"
+    },
+    {
+      "name": "dhm_not_used",
+      "pass": true,
+      "detail": "smoke used chem_batch2_upd_smoke@local.test only"
+    },
+    {
+      "name": "bank_total_638",
+      "pass": true,
+      "detail": "638"
+    },
+    {
+      "name": "trainable_621",
+      "pass": true,
+      "detail": "621"
+    },
+    {
+      "name": "formal_0",
+      "pass": true,
+      "detail": "0"
+    }
+  ]
+}

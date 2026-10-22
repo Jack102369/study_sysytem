@@ -1,0 +1,432 @@
+{
+  "generatedAt": "2026-10-20T01:11:05.477Z",
+  "backupDir": "D:\\adu\\wj\\拉总\\学习系统代码\\study_sysytem\\docs\\chemistry_advanced_first_import\\backup_2026-10-20T01-11-05-431Z",
+  "imported": [],
+  "skipped": [
+    {
+      "sampleId": "S60.calculation.01",
+      "id": "595",
+      "code": "train.ai_trial.s60.S60.calculation.01"
+    },
+    {
+      "sampleId": "S60.calculation.02",
+      "id": "596",
+      "code": "train.ai_trial.s60.S60.calculation.02"
+    },
+    {
+      "sampleId": "S60.calculation.03",
+      "id": "597",
+      "code": "train.ai_trial.s60.S60.calculation.03"
+    },
+    {
+      "sampleId": "S60.calculation.04",
+      "id": "598",
+      "code": "train.ai_trial.s60.S60.calculation.04"
+    },
+    {
+      "sampleId": "S60.calculation.05",
+      "id": "599",
+      "code": "train.ai_trial.s60.S60.calculation.05"
+    },
+    {
+      "sampleId": "S60.calculation.06",
+      "id": "600",
+      "code": "train.ai_trial.s60.S60.calculation.06"
+    },
+    {
+      "sampleId": "S60.calculation.07",
+      "id": "601",
+      "code": "train.ai_trial.s60.S60.calculation.07"
+    },
+    {
+      "sampleId": "S60.calculation.08",
+      "id": "602",
+      "code": "train.ai_trial.s60.S60.calculation.08"
+    },
+    {
+      "sampleId": "S60.calculation.09",
+      "id": "603",
+      "code": "train.ai_trial.s60.S60.calculation.09"
+    },
+    {
+      "sampleId": "S60.calculation.10",
+      "id": "604",
+      "code": "train.ai_trial.s60.S60.calculation.10"
+    },
+    {
+      "sampleId": "S60.calculation.11",
+      "id": "605",
+      "code": "train.ai_trial.s60.S60.calculation.11"
+    },
+    {
+      "sampleId": "S60.calculation.12",
+      "id": "606",
+      "code": "train.ai_trial.s60.S60.calculation.12"
+    },
+    {
+      "sampleId": "S60.redox.01",
+      "id": "607",
+      "code": "train.ai_trial.s60.S60.redox.01"
+    },
+    {
+      "sampleId": "S60.redox.02",
+      "id": "608",
+      "code": "train.ai_trial.s60.S60.redox.02"
+    },
+    {
+      "sampleId": "S60.redox.03",
+      "id": "609",
+      "code": "train.ai_trial.s60.S60.redox.03"
+    },
+    {
+      "sampleId": "S60.redox.04",
+      "id": "610",
+      "code": "train.ai_trial.s60.S60.redox.04"
+    },
+    {
+      "sampleId": "S60.redox.05",
+      "id": "611",
+      "code": "train.ai_trial.s60.S60.redox.05"
+    },
+    {
+      "sampleId": "S60.redox.06",
+      "id": "612",
+      "code": "train.ai_trial.s60.S60.redox.06"
+    },
+    {
+      "sampleId": "S60.redox.07",
+      "id": "613",
+      "code": "train.ai_trial.s60.S60.redox.07"
+    },
+    {
+      "sampleId": "S60.redox.08",
+      "id": "614",
+      "code": "train.ai_trial.s60.S60.redox.08"
+    },
+    {
+      "sampleId": "S60.redox.09",
+      "id": "615",
+      "code": "train.ai_trial.s60.S60.redox.09"
+    },
+    {
+      "sampleId": "S60.redox.10",
+      "id": "616",
+      "code": "train.ai_trial.s60.S60.redox.10"
+    },
+    {
+      "sampleId": "S60.redox.11",
+      "id": "617",
+      "code": "train.ai_trial.s60.S60.redox.11"
+    },
+    {
+      "sampleId": "S60.redox.12",
+      "id": "618",
+      "code": "train.ai_trial.s60.S60.redox.12"
+    },
+    {
+      "sampleId": "S60.ion.01",
+      "id": "619",
+      "code": "train.ai_trial.s60.S60.ion.01"
+    },
+    {
+      "sampleId": "S60.ion.02",
+      "id": "620",
+      "code": "train.ai_trial.s60.S60.ion.02"
+    },
+    {
+      "sampleId": "S60.ion.03",
+      "id": "621",
+      "code": "train.ai_trial.s60.S60.ion.03"
+    },
+    {
+      "sampleId": "S60.ion.04",
+      "id": "622",
+      "code": "train.ai_trial.s60.S60.ion.04"
+    },
+    {
+      "sampleId": "S60.ion.05",
+      "id": "623",
+      "code": "train.ai_trial.s60.S60.ion.05"
+    },
+    {
+      "sampleId": "S60.ion.06",
+      "id": "624",
+      "code": "train.ai_trial.s60.S60.ion.06"
+    },
+    {
+      "sampleId": "S60.ion.07",
+      "id": "625",
+      "code": "train.ai_trial.s60.S60.ion.07"
+    },
+    {
+      "sampleId": "S60.ion.08",
+      "id": "626",
+      "code": "train.ai_trial.s60.S60.ion.08"
+    },
+    {
+      "sampleId": "S60.ion.09",
+      "id": "627",
+      "code": "train.ai_trial.s60.S60.ion.09"
+    },
+    {
+      "sampleId": "S60.ion.10",
+      "id": "628",
+      "code": "train.ai_trial.s60.S60.ion.10"
+    },
+    {
+      "sampleId": "S60.experiment.01",
+      "id": "629",
+      "code": "train.ai_trial.s60.S60.experiment.01"
+    },
+    {
+      "sampleId": "S60.experiment.02",
+      "id": "630",
+      "code": "train.ai_trial.s60.S60.experiment.02"
+    },
+    {
+      "sampleId": "S60.experiment.03",
+      "id": "631",
+      "code": "train.ai_trial.s60.S60.experiment.03"
+    },
+    {
+      "sampleId": "S60.experiment.04",
+      "id": "632",
+      "code": "train.ai_trial.s60.S60.experiment.04"
+    },
+    {
+      "sampleId": "S60.experiment.05",
+      "id": "633",
+      "code": "train.ai_trial.s60.S60.experiment.05"
+    },
+    {
+      "sampleId": "S60.experiment.06",
+      "id": "634",
+      "code": "train.ai_trial.s60.S60.experiment.06"
+    },
+    {
+      "sampleId": "S60.experiment.07",
+      "id": "635",
+      "code": "train.ai_trial.s60.S60.experiment.07"
+    },
+    {
+      "sampleId": "S60.experiment.08",
+      "id": "636",
+      "code": "train.ai_trial.s60.S60.experiment.08"
+    },
+    {
+      "sampleId": "S60.experiment.09",
+      "id": "637",
+      "code": "train.ai_trial.s60.S60.experiment.09"
+    },
+    {
+      "sampleId": "S60.experiment.10",
+      "id": "638",
+      "code": "train.ai_trial.s60.S60.experiment.10"
+    },
+    {
+      "sampleId": "S60.inference.01",
+      "id": "639",
+      "code": "train.ai_trial.s60.S60.inference.01"
+    },
+    {
+      "sampleId": "S60.inference.02",
+      "id": "640",
+      "code": "train.ai_trial.s60.S60.inference.02"
+    },
+    {
+      "sampleId": "S60.inference.03",
+      "id": "641",
+      "code": "train.ai_trial.s60.S60.inference.03"
+    },
+    {
+      "sampleId": "S60.inference.04",
+      "id": "642",
+      "code": "train.ai_trial.s60.S60.inference.04"
+    },
+    {
+      "sampleId": "S60.inference.05",
+      "id": "643",
+      "code": "train.ai_trial.s60.S60.inference.05"
+    },
+    {
+      "sampleId": "S60.inference.06",
+      "id": "644",
+      "code": "train.ai_trial.s60.S60.inference.06"
+    },
+    {
+      "sampleId": "S60.inference.07",
+      "id": "645",
+      "code": "train.ai_trial.s60.S60.inference.07"
+    },
+    {
+      "sampleId": "S60.inference.08",
+      "id": "646",
+      "code": "train.ai_trial.s60.S60.inference.08"
+    },
+    {
+      "sampleId": "S60.comprehensive.01",
+      "id": "647",
+      "code": "train.ai_trial.s60.S60.comprehensive.01"
+    },
+    {
+      "sampleId": "S60.comprehensive.02",
+      "id": "648",
+      "code": "train.ai_trial.s60.S60.comprehensive.02"
+    },
+    {
+      "sampleId": "S60.comprehensive.03",
+      "id": "649",
+      "code": "train.ai_trial.s60.S60.comprehensive.03"
+    },
+    {
+      "sampleId": "S60.comprehensive.04",
+      "id": "650",
+      "code": "train.ai_trial.s60.S60.comprehensive.04"
+    },
+    {
+      "sampleId": "S60.comprehensive.05",
+      "id": "651",
+      "code": "train.ai_trial.s60.S60.comprehensive.05"
+    },
+    {
+      "sampleId": "S60.comprehensive.06",
+      "id": "652",
+      "code": "train.ai_trial.s60.S60.comprehensive.06"
+    },
+    {
+      "sampleId": "S60.comprehensive.07",
+      "id": "653",
+      "code": "train.ai_trial.s60.S60.comprehensive.07"
+    },
+    {
+      "sampleId": "S60.comprehensive.08",
+      "id": "654",
+      "code": "train.ai_trial.s60.S60.comprehensive.08"
+    }
+  ],
+  "failed": [],
+  "before": {
+    "total": 638,
+    "active": 634,
+    "trialAllow": 634,
+    "trialBlock": 4,
+    "formalApproved": 0,
+    "s60Count": 60,
+    "raiseActive": 203,
+    "challengeActive": 24,
+    "dailyEligibleTest": 574,
+    "dailyEligibleFormal": 0,
+    "bySpecialtyActive": [
+      {
+        "code": "calculation",
+        "n": 20
+      },
+      {
+        "code": "comprehensive",
+        "n": 28
+      },
+      {
+        "code": "equation",
+        "n": 218
+      },
+      {
+        "code": "experiment",
+        "n": 17
+      },
+      {
+        "code": "inference",
+        "n": 10
+      },
+      {
+        "code": "ion",
+        "n": 28
+      },
+      {
+        "code": "memory",
+        "n": 68
+      },
+      {
+        "code": "organic",
+        "n": 6
+      },
+      {
+        "code": "periodic",
+        "n": 21
+      },
+      {
+        "code": "redox",
+        "n": 123
+      },
+      {
+        "code": "structure",
+        "n": 3
+      },
+      {
+        "code": "substance",
+        "n": 92
+      }
+    ]
+  },
+  "after": {
+    "total": 638,
+    "active": 634,
+    "trialAllow": 634,
+    "trialBlock": 4,
+    "formalApproved": 0,
+    "s60Count": 60,
+    "raiseActive": 203,
+    "challengeActive": 24,
+    "dailyEligibleTest": 574,
+    "dailyEligibleFormal": 0,
+    "bySpecialtyActive": [
+      {
+        "code": "calculation",
+        "n": 20
+      },
+      {
+        "code": "comprehensive",
+        "n": 28
+      },
+      {
+        "code": "equation",
+        "n": 218
+      },
+      {
+        "code": "experiment",
+        "n": 17
+      },
+      {
+        "code": "inference",
+        "n": 10
+      },
+      {
+        "code": "ion",
+        "n": 28
+      },
+      {
+        "code": "memory",
+        "n": 68
+      },
+      {
+        "code": "organic",
+        "n": 6
+      },
+      {
+        "code": "periodic",
+        "n": 21
+      },
+      {
+        "code": "redox",
+        "n": 123
+      },
+      {
+        "code": "structure",
+        "n": 3
+      },
+      {
+        "code": "substance",
+        "n": 92
+      }
+    ]
+  }
+}

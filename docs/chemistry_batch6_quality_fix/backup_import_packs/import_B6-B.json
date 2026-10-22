@@ -1,0 +1,749 @@
+{
+  "items": [
+    {
+      "type": "reaction",
+      "data": {
+        "name": "甲烷与氯气取代",
+        "canonicalEquation": "CH4+Cl2=CH3Cl+HCl",
+        "equation": "CH4 + Cl2 =光照= CH3Cl + HCl（第一步示例）",
+        "ionicEquation": null,
+        "conditions": "光照（注意：氯气有毒、混合气有爆炸风险，仅书面分析）",
+        "phenomenon": "黄绿色氯气颜色逐渐变浅；可出现油状液滴（多种氯代烃混合物，题设）；生成HCl可用湿润蓝色石蕊试纸变红等检验（题设）。",
+        "principle": "取代反应：甲烷分子中的氢原子被氯原子逐步取代。可生成CH3Cl、CH2Cl2、CHCl3、CCl4等多种氯代产物及HCl，不得将某一种氯代物写成该反应的唯一产物。canonical式仅表示第一步示例。高中通常按有机取代分类，一般不作为氧化还原分析训练重点。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": "N/A（高中有机取代分类；不作默认氧化还原归属）",
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "substitution",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,organic.substitution",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "CH4",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "Cl2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CH3Cl",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "HCl",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.CH4_Cl2] CRITICAL:多种氯代产物CH3Cl/CH2Cl2/CHCl3/CCl4;canonical仅第一步示例;禁写唯一产物"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "乙烯与溴加成",
+        "canonicalEquation": "CH2=CH2+Br2=CH2BrCH2Br",
+        "equation": "CH2=CH2 + Br2 =常温= CH2BrCH2Br",
+        "ionicEquation": null,
+        "conditions": "常温（溴水或Br2的CCl4溶液，题设）",
+        "phenomenon": "溴水（或溴的有机溶液）橙红色/棕红色褪去，生成无色的1,2-二溴乙烷。",
+        "principle": "加成反应：双键中的π键断裂，两个溴原子分别加到两个碳原子上。常用于检验不饱和键。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "addition",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,organic.addition",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "C2H4",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "Br2",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CH2BrCH2Br",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.C2H4_Br2] canonical~C2H4+Br2→C2H4Br2"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "乙烯水化制乙醇",
+        "canonicalEquation": "CH2=CH2+H2O=CH3CH2OH",
+        "equation": "CH2=CH2 + H2O =催化剂、加热加压= CH3CH2OH",
+        "ionicEquation": null,
+        "conditions": "催化剂（如磷酸等，以教材为准）、加热、加压",
+        "phenomenon": "工业条件下乙烯与水加成生成乙醇（实验室少做，以方程式与条件认知为主）。",
+        "principle": "加成（水化）反应：水分子加到双键上，生成乙醇。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 2,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "addition",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,equation.condition",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "C2H4",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "C2H5OH",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.C2H4_H2O] 条件:催化剂+加热加压;催化剂写法随教材(如磷酸)"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "乙烯加氢",
+        "canonicalEquation": "CH2=CH2+H2=CH3CH3",
+        "equation": "CH2=CH2 + H2 =催化剂、加热= CH3CH3",
+        "ionicEquation": null,
+        "conditions": "催化剂、加热",
+        "phenomenon": "乙烯与氢气在催化剂加热条件下转化为乙烷（工业/题设认知）。",
+        "principle": "加成反应：氢原子加到双键碳上，乙烯变为饱和的乙烷。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 2,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "addition",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,equation.condition",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "C2H4",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "H2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "C2H6",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.C2H4_H2] canonical~C2H4+H2→C2H6"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "乙醇催化氧化",
+        "canonicalEquation": "2CH3CH2OH+O2=2CH3CHO+2H2O",
+        "equation": "2CH3CH2OH + O2 =Cu或Ag、加热= 2CH3CHO + 2H2O",
+        "ionicEquation": null,
+        "conditions": "Cu或Ag作催化剂并加热（教材常见：灼热铜丝伸入乙醇）",
+        "phenomenon": "铜丝表面黑色CuO变为红色Cu（循环催化常见演示表述）；可闻到刺激性气味（乙醛，题设）。",
+        "principle": "乙醇被氧气氧化为乙醛，水为另一产物；Cu/Ag起催化作用。属氧化还原：氧化剂O2，还原剂乙醇。",
+        "oxidant": "O2",
+        "reductant": "CH3CH2OH",
+        "oxProduct": "H2O",
+        "reProduct": "CH3CHO",
+        "electronTransfer": "乙醇中与羟基相连的碳被氧化；O2被还原为H2O（高中定性）",
+        "difficulty": 3,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "redox",
+          "oxidation"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify,equation.condition",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "C2H5OH",
+            "coefficient": 2,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "O2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CH3CHO",
+            "coefficient": 2,
+            "stateSymbol": "g",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 2,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.C2H5OH_O2] 条件必须写清Cu或Ag催化剂加热;教材常见写法"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "乙醇燃烧",
+        "canonicalEquation": "C2H5OH+3O2=2CO2+3H2O",
+        "equation": "C2H5OH + 3O2 =点燃= 2CO2 + 3H2O",
+        "ionicEquation": null,
+        "conditions": "点燃",
+        "phenomenon": "燃烧，发出淡蓝色火焰（题设）；生成CO2和H2O，放热。",
+        "principle": "乙醇完全燃烧的氧化还原反应；氧化剂O2，还原剂C2H5OH。",
+        "oxidant": "O2",
+        "reductant": "C2H5OH",
+        "oxProduct": "H2O",
+        "reProduct": "CO2",
+        "electronTransfer": "C、H被氧化；O被还原（高中定性）",
+        "difficulty": 1,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "redox",
+          "combustion"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "C2H5OH",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "O2",
+            "coefficient": 3,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CO2",
+            "coefficient": 2,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 3,
+            "stateSymbol": "g",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.C2H5OH_burn] canonical~C2H5OH+3O2→2CO2+3H2O"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "乙酸乙酯酯化",
+        "canonicalEquation": "CH3COOH+C2H5OH⇌CH3COOC2H5+H2O",
+        "equation": "CH3COOH + C2H5OH ⇌浓硫酸、加热⇌ CH3COOC2H5 + H2O",
+        "ionicEquation": null,
+        "conditions": "浓硫酸作催化剂（兼吸水）、加热；可逆反应",
+        "phenomenon": "生成有香味的乙酸乙酯；产物难溶于水，常以油状液体浮于饱和碳酸钠溶液上层（题设装置）。",
+        "principle": "酯化：酸脱羟基、醇脱氢（教材规律表述）生成酯和水；浓硫酸催化并促进平衡移动；反应可逆，用⇌表示。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 3,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "esterification",
+          "non-redox",
+          "reversible"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,equation.condition,organic.esterification",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "CH3COOH",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "C2H5OH",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CH3COOC2H5",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.esterification] 可逆;浓硫酸催化加热;species含酸与醇两侧"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "乙酸与氢氧化钠",
+        "canonicalEquation": "CH3COOH+NaOH=CH3COONa+H2O",
+        "equation": "CH3COOH + NaOH = CH3COONa + H2O",
+        "ionicEquation": "CH3COOH + OH- = CH3COO- + H2O",
+        "conditions": "常温水溶液中和",
+        "phenomenon": "酸性减弱/指示剂颜色变化（题设）；生成乙酸钠和水。",
+        "principle": "弱酸与强碱的中和反应；非氧化还原。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 1,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "acid-base",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,ion.ionic_eq",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "CH3COOH",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "NaOH",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CH3COONa",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.CH3COOH_NaOH] canonical~CH3COOH+NaOH→CH3COONa+H2O"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "乙酸与碳酸钠",
+        "canonicalEquation": "2CH3COOH+Na2CO3=2CH3COONa+CO2+H2O",
+        "equation": "2CH3COOH + Na2CO3 = 2CH3COONa + CO2↑ + H2O",
+        "ionicEquation": "2CH3COOH + CO3 2- = 2CH3COO- + CO2↑ + H2O",
+        "conditions": "常温水溶液",
+        "phenomenon": "产生使澄清石灰水变浑浊的无色气体（CO2）。",
+        "principle": "乙酸酸性强于碳酸，可与碳酸盐反应放出CO2；非氧化还原。用于证明乙酸酸性强于碳酸。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "acid-base",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,ion.ionic_eq",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "CH3COOH",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "Na2CO3",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CH3COONa",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "CO2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 5
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.CH3COOH_Na2CO3] 酸性强于碳酸;气体CO2↑"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "乙烯使酸性高锰酸钾褪色",
+        "canonicalEquation": "C2H4 + 酸性KMnO4 → 氧化产物(条件依赖)",
+        "equation": "C2H4 + 酸性KMnO4 → 氧化产物（随条件变化，不指定唯一）",
+        "ionicEquation": null,
+        "conditions": "酸性KMnO4溶液，常温（题设）",
+        "phenomenon": "酸性KMnO4紫红色褪去（或变浅）。",
+        "principle": "乙烯具有不饱和性，可被酸性KMnO4氧化，使溶液紫红色褪去。用于鉴别不饱和烃与饱和烃。氧化产物随反应条件变化，不得指定唯一氧化产物，也不要求配平复杂离子方程式为默认训练。",
+        "oxidant": "酸性KMnO4",
+        "reductant": "C2H4",
+        "oxProduct": "氧化产物(条件依赖，不指定)",
+        "reProduct": "氧化产物(条件依赖，不指定)",
+        "electronTransfer": "乙烯被氧化；MnO4-被还原（高中定性，不要求详细电子数默认训练）",
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "redox",
+          "oxidation"
+        ],
+        "trainTypes": "phenomenon.judge,organic.unsaturation,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "C2H4",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "KMnO4",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "氧化产物",
+            "coefficient": 1,
+            "stateSymbol": "",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.C2H4_KMnO4] 产物随条件变化不指定唯一;canonical描述性≤255;禁唯一氧化产物填空"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch6",
+    "pack": "B6-B",
+    "inventoryCodes": [
+      "rxn.CH4_Cl2",
+      "rxn.C2H4_Br2",
+      "rxn.C2H4_H2O",
+      "rxn.C2H4_H2",
+      "rxn.C2H5OH_O2",
+      "rxn.C2H5OH_burn",
+      "rxn.esterification",
+      "rxn.CH3COOH_NaOH",
+      "rxn.CH3COOH_Na2CO3",
+      "rxn.C2H4_KMnO4"
+    ],
+    "specialtyByCode": {
+      "rxn.CH4_Cl2": [
+        "organic",
+        "equation"
+      ],
+      "rxn.C2H4_Br2": [
+        "organic",
+        "equation"
+      ],
+      "rxn.C2H4_H2O": [
+        "organic",
+        "equation"
+      ],
+      "rxn.C2H4_H2": [
+        "organic",
+        "equation"
+      ],
+      "rxn.C2H5OH_O2": [
+        "organic",
+        "equation"
+      ],
+      "rxn.C2H5OH_burn": [
+        "organic",
+        "equation"
+      ],
+      "rxn.esterification": [
+        "organic",
+        "equation"
+      ],
+      "rxn.CH3COOH_NaOH": [
+        "organic",
+        "equation"
+      ],
+      "rxn.CH3COOH_Na2CO3": [
+        "organic",
+        "equation"
+      ],
+      "rxn.C2H4_KMnO4": [
+        "organic",
+        "equation",
+        "experiment"
+      ]
+    },
+    "categoryByCode": {
+      "rxn.CH4_Cl2": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "rxn.C2H4_Br2": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "rxn.C2H4_H2O": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "rxn.C2H4_H2": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "rxn.C2H5OH_O2": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "rxn.C2H5OH_burn": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "rxn.esterification": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "rxn.CH3COOH_NaOH": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "rxn.CH3COOH_Na2CO3": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "rxn.C2H4_KMnO4": [
+        "organic.oxidation",
+        "equation.write_from_text",
+        "experiment.phenomenon_judge"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1146 @@
+{
+  "at": "2026-10-18T05:40:19.459Z",
+  "count": 74,
+  "items": [
+    {
+      "code": "sub.Cl2",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=34",
+      "dbId": "34"
+    },
+    {
+      "code": "sub.HCl",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=35",
+      "dbId": "35"
+    },
+    {
+      "code": "sub.HCl_aq",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=36",
+      "dbId": "36"
+    },
+    {
+      "code": "sub.HClO",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=37",
+      "dbId": "37"
+    },
+    {
+      "code": "sub.NaClO",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=38",
+      "dbId": "38"
+    },
+    {
+      "code": "sub.S",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=39",
+      "dbId": "39"
+    },
+    {
+      "code": "sub.SO2",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=40",
+      "dbId": "40"
+    },
+    {
+      "code": "sub.SO3",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=41",
+      "dbId": "41"
+    },
+    {
+      "code": "sub.H2SO4",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=42",
+      "dbId": "42"
+    },
+    {
+      "code": "sub.H2SO3",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=43",
+      "dbId": "43"
+    },
+    {
+      "code": "sub.N2",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=44",
+      "dbId": "44"
+    },
+    {
+      "code": "sub.NH3",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=45",
+      "dbId": "45"
+    },
+    {
+      "code": "sub.NO",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=46",
+      "dbId": "46"
+    },
+    {
+      "code": "sub.NO2",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=47",
+      "dbId": "47"
+    },
+    {
+      "code": "sub.HNO3",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=48",
+      "dbId": "48"
+    },
+    {
+      "code": "sub.C",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=49",
+      "dbId": "49"
+    },
+    {
+      "code": "sub.CO",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=50",
+      "dbId": "50"
+    },
+    {
+      "code": "sub.Si",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=51",
+      "dbId": "51"
+    },
+    {
+      "code": "sub.SiO2",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=52",
+      "dbId": "52"
+    },
+    {
+      "code": "sub.Na2SiO3",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=53",
+      "dbId": "53"
+    },
+    {
+      "code": "sub.P",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=54",
+      "dbId": "54"
+    },
+    {
+      "code": "sub.P4O10",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=55",
+      "dbId": "55"
+    },
+    {
+      "code": "sub.H2S",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=56",
+      "dbId": "56"
+    },
+    {
+      "code": "sub.CaCO3",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=57",
+      "dbId": "57"
+    },
+    {
+      "code": "sub.CaOH2",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.chem_property",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=58",
+      "dbId": "58"
+    },
+    {
+      "code": "rxn.H2_Cl2",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=H2+Cl2=2HCl; batch4导入 pending_review id=34",
+      "dbId": "34"
+    },
+    {
+      "code": "rxn.2Na_Cl2",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=2Na+Cl2=2NaCl; batch4导入 pending_review id=35",
+      "dbId": "35"
+    },
+    {
+      "code": "rxn.2Fe_3Cl2",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=2Fe+3Cl2=2FeCl3; batch4导入 pending_review id=36",
+      "dbId": "36"
+    },
+    {
+      "code": "rxn.Cl2_H2O",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=Cl2+H2O=HCl+HClO; batch4导入 pending_review id=37",
+      "dbId": "37"
+    },
+    {
+      "code": "rxn.Cl2_2NaOH",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=Cl2+2NaOH=NaCl+NaClO+H2O; batch4导入 pending_review id=38",
+      "dbId": "38"
+    },
+    {
+      "code": "rxn.MnO2_4HCl",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=MnO2+4HCl(conc)=MnCl2+Cl2+2H2O; batch4导入 pending_review id=39",
+      "dbId": "39"
+    },
+    {
+      "code": "rxn.S_O2",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=S+O2=SO2; batch4导入 pending_review id=40",
+      "dbId": "40"
+    },
+    {
+      "code": "rxn.2SO2_O2",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=2SO2+O2=2SO3; batch4导入 pending_review id=41",
+      "dbId": "41"
+    },
+    {
+      "code": "rxn.SO3_H2O",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=SO3+H2O=H2SO4; batch4导入 pending_review id=42",
+      "dbId": "42"
+    },
+    {
+      "code": "rxn.Cu_2H2SO4",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=Cu+2H2SO4(conc)=CuSO4+SO2+2H2O; batch4导入 pending_review id=43",
+      "dbId": "43"
+    },
+    {
+      "code": "rxn.C_2H2SO4",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=C+2H2SO4(conc)=CO2+2SO2+2H2O; batch4导入 pending_review id=44",
+      "dbId": "44"
+    },
+    {
+      "code": "rxn.N2_3H2",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=N2+3H2=2NH3; batch4导入 pending_review id=45",
+      "dbId": "45"
+    },
+    {
+      "code": "rxn.NH3_HCl",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=NH3+HCl=NH4Cl; batch4导入 pending_review id=46",
+      "dbId": "46"
+    },
+    {
+      "code": "rxn.4NH3_5O2",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=4NH3+5O2=4NO+6H2O; batch4导入 pending_review id=47",
+      "dbId": "47"
+    },
+    {
+      "code": "rxn.2NO_O2",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=2NO+O2=2NO2; batch4导入 pending_review id=48",
+      "dbId": "48"
+    },
+    {
+      "code": "rxn.3NO2_H2O",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=3NO2+H2O=2HNO3+NO; batch4导入 pending_review id=49",
+      "dbId": "49"
+    },
+    {
+      "code": "rxn.Cu_4HNO3",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=3Cu+8HNO3=3Cu(NO3)2+2NO+4H2O; batch4导入 pending_review id=50",
+      "dbId": "50"
+    },
+    {
+      "code": "rxn.Cu_4HNO3c",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=Cu+4HNO3(conc)=Cu(NO3)2+2NO2+2H2O; batch4导入 pending_review id=51",
+      "dbId": "51"
+    },
+    {
+      "code": "rxn.C_O2_incomplete",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=2C+O2=2CO; batch4导入 pending_review id=52",
+      "dbId": "52"
+    },
+    {
+      "code": "rxn.C_O2_complete",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=C+O2=CO2; batch4导入 pending_review id=53",
+      "dbId": "53"
+    },
+    {
+      "code": "rxn.CO2_CaOH2",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=CO2+Ca(OH)2=CaCO3+H2O; batch4导入 pending_review id=54",
+      "dbId": "54"
+    },
+    {
+      "code": "rxn.SiO2_2NaOH",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=SiO2+2NaOH=Na2SiO3+H2O; batch4导入 pending_review id=55",
+      "dbId": "55"
+    },
+    {
+      "code": "rxn.SiO2_2C",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=SiO2+2C=Si+2CO; batch4导入 pending_review id=56",
+      "dbId": "56"
+    },
+    {
+      "code": "rxn.CaCO3_2HCl",
+      "specialtyCodes": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "redox.identify",
+        "substance.test"
+      ],
+      "status": "imported",
+      "note": "canonical=CaCO3+2HCl=CaCl2+CO2+H2O; batch4导入 pending_review id=57",
+      "dbId": "57"
+    },
+    {
+      "code": "exp.Cl2_prep",
+      "specialtyCodes": [
+        "experiment",
+        "substance"
+      ],
+      "categoryCodes": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "危险气体实验禁止家用; batch4导入 pending_review id=9",
+      "dbId": "9"
+    },
+    {
+      "code": "exp.Cl2_property",
+      "specialtyCodes": [
+        "experiment",
+        "substance"
+      ],
+      "categoryCodes": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "危险气体实验禁止家用; batch4导入 pending_review id=10",
+      "dbId": "10"
+    },
+    {
+      "code": "exp.HCl_prep",
+      "specialtyCodes": [
+        "experiment",
+        "substance"
+      ],
+      "categoryCodes": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "危险气体实验禁止家用; batch4导入 pending_review id=11",
+      "dbId": "11"
+    },
+    {
+      "code": "exp.SO2_property",
+      "specialtyCodes": [
+        "experiment",
+        "substance"
+      ],
+      "categoryCodes": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "危险气体实验禁止家用; batch4导入 pending_review id=12",
+      "dbId": "12"
+    },
+    {
+      "code": "exp.NH3_prep",
+      "specialtyCodes": [
+        "experiment",
+        "substance"
+      ],
+      "categoryCodes": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "危险气体实验禁止家用; batch4导入 pending_review id=13",
+      "dbId": "13"
+    },
+    {
+      "code": "exp.HNO3_Cu",
+      "specialtyCodes": [
+        "experiment",
+        "substance"
+      ],
+      "categoryCodes": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "危险气体实验禁止家用; batch4导入 pending_review id=14",
+      "dbId": "14"
+    },
+    {
+      "code": "exp.CO2_property",
+      "specialtyCodes": [
+        "experiment",
+        "substance"
+      ],
+      "categoryCodes": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "危险气体实验禁止家用; batch4导入 pending_review id=15",
+      "dbId": "15"
+    },
+    {
+      "code": "exp.SiO2_glass",
+      "specialtyCodes": [
+        "experiment",
+        "substance"
+      ],
+      "categoryCodes": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "危险气体实验禁止家用; batch4导入 pending_review id=16",
+      "dbId": "16"
+    },
+    {
+      "code": "kp.Cl.property",
+      "specialtyCodes": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "categoryCodes": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=42",
+      "dbId": "42"
+    },
+    {
+      "code": "kp.Cl.prep",
+      "specialtyCodes": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "categoryCodes": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=43",
+      "dbId": "43"
+    },
+    {
+      "code": "kp.S.oxide",
+      "specialtyCodes": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "categoryCodes": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=44",
+      "dbId": "44"
+    },
+    {
+      "code": "kp.N.cycle",
+      "specialtyCodes": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "categoryCodes": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=45",
+      "dbId": "45"
+    },
+    {
+      "code": "kp.N.ammonia",
+      "specialtyCodes": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "categoryCodes": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=46",
+      "dbId": "46"
+    },
+    {
+      "code": "kp.C.oxide",
+      "specialtyCodes": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "categoryCodes": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=47",
+      "dbId": "47"
+    },
+    {
+      "code": "kp.Si.property",
+      "specialtyCodes": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "categoryCodes": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=48",
+      "dbId": "48"
+    },
+    {
+      "code": "kp.nonmetal.test",
+      "specialtyCodes": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "categoryCodes": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "status": "imported",
+      "note": "batch4导入 pending_review id=49",
+      "dbId": "49"
+    },
+    {
+      "code": "sub.Br2",
+      "specialtyCodes": [
+        "substance",
+        "memory",
+        "periodic"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.color",
+        "substance.state",
+        "memory.color"
+      ],
+      "status": "imported",
+      "note": "增补；单质枢纽；勿展开复杂溴含氧酸体系; batch4导入 pending_review id=59",
+      "dbId": "59"
+    },
+    {
+      "code": "sub.I2",
+      "specialtyCodes": [
+        "substance",
+        "memory",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "substance.formula",
+        "substance.color",
+        "substance.test",
+        "memory.color"
+      ],
+      "status": "imported",
+      "note": "增补；淀粉变蓝；勿把 +5/+7 作为默认必修训练核心; batch4导入 pending_review id=60",
+      "dbId": "60"
+    },
+    {
+      "code": "sub.bleaching_powder",
+      "specialtyCodes": [
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "substance.chem_property",
+        "substance.usage",
+        "memory.common_name"
+      ],
+      "status": "imported",
+      "note": "增补；主要成分表述（次氯酸钙等）建设时待核实教材口径; batch4导入 pending_review id=61",
+      "dbId": "61"
+    },
+    {
+      "code": "kp.S.conc_H2SO4",
+      "specialtyCodes": [
+        "substance",
+        "equation",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "substance.chem_property",
+        "equation.condition",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "增补；吸水性、脱水性、强氧化性；与稀硫酸对比; batch4导入 pending_review id=50",
+      "dbId": "50"
+    },
+    {
+      "code": "kp.N.ammonium",
+      "specialtyCodes": [
+        "substance",
+        "equation",
+        "ion"
+      ],
+      "categoryCodes": [
+        "substance.chem_property",
+        "equation.write_from_text",
+        "ion.mixed"
+      ],
+      "status": "imported",
+      "note": "增补；受热分解、与碱反应等; batch4导入 pending_review id=51",
+      "dbId": "51"
+    },
+    {
+      "code": "rxn.NH4Cl_NaOH",
+      "specialtyCodes": [
+        "equation",
+        "substance",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "experiment.substance_test"
+      ],
+      "status": "imported",
+      "note": "增补；加热生成氨气的代表反应; batch4导入 pending_review id=58",
+      "dbId": "58"
+    },
+    {
+      "code": "kp.halogen.compare",
+      "specialtyCodes": [
+        "periodic",
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "periodic.nonmetal_compare",
+        "substance.chem_property",
+        "memory.rules"
+      ],
+      "status": "imported",
+      "note": "增补；单质氧化性、氢化物稳定性等递变；深度含氧酸标了解/勿超纲; batch4导入 pending_review id=52",
+      "dbId": "52"
+    },
+    {
+      "code": "kp.N.synth_ammonia",
+      "specialtyCodes": [
+        "equation",
+        "substance"
+      ],
+      "categoryCodes": [
+        "equation.condition",
+        "substance.chem_property"
+      ],
+      "status": "imported",
+      "note": "增补；挂接已有 rxn.N2_3H2；条件与限度表述勿写成选修平衡计算; batch4导入 pending_review id=53",
+      "dbId": "53"
+    },
+    {
+      "code": "kp.Cl.bleach",
+      "specialtyCodes": [
+        "substance",
+        "equation",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "substance.chem_property",
+        "equation.condition"
+      ],
+      "status": "imported",
+      "note": "增补；次氯酸漂白；与 SO2 漂白对比见 batch4 实验; batch4导入 pending_review id=54",
+      "dbId": "54"
+    }
+  ]
+}

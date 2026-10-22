@@ -1,0 +1,1283 @@
+{
+  "dryRun": false,
+  "generated": 51,
+  "skipped": [],
+  "byQtype": {
+    "single": 14,
+    "judge": 25,
+    "blank": 12
+  },
+  "bySpecialty": {
+    "memory": 20,
+    "ion": 2,
+    "redox": 13,
+    "equation": 11,
+    "experiment": 1,
+    "calculation": 2,
+    "substance": 2
+  },
+  "fixSkipCount": 12,
+  "items": [
+    {
+      "code": "train.ai_trial.001.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "blank",
+      "stem": "【AI试运行】氦的元素符号是____。",
+      "optionsJson": null,
+      "answer": "He",
+      "answerAliases": [
+        "HE",
+        "he"
+      ],
+      "analysis": "来源 el.He",
+      "difficulty": 1,
+      "sourceCode": "el.He",
+      "sourceType": "element",
+      "sourceId": "5",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.002.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "blank",
+      "stem": "【AI试运行】锂的元素符号是____。",
+      "optionsJson": null,
+      "answer": "Li",
+      "answerAliases": [
+        "LI",
+        "li"
+      ],
+      "analysis": "来源 el.Li",
+      "difficulty": 1,
+      "sourceCode": "el.Li",
+      "sourceType": "element",
+      "sourceId": "6",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.003.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "blank",
+      "stem": "【AI试运行】铍的元素符号是____。",
+      "optionsJson": null,
+      "answer": "Be",
+      "answerAliases": [
+        "BE",
+        "be"
+      ],
+      "analysis": "来源 el.Be",
+      "difficulty": 1,
+      "sourceCode": "el.Be",
+      "sourceType": "element",
+      "sourceId": "7",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.004.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "blank",
+      "stem": "【AI试运行】硼的元素符号是____。",
+      "optionsJson": null,
+      "answer": "B",
+      "answerAliases": [
+        "b"
+      ],
+      "analysis": "来源 el.B",
+      "difficulty": 1,
+      "sourceCode": "el.B",
+      "sourceType": "element",
+      "sourceId": "8",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.005.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "blank",
+      "stem": "【AI试运行】碳的元素符号是____。",
+      "optionsJson": null,
+      "answer": "C",
+      "answerAliases": [
+        "c"
+      ],
+      "analysis": "来源 el.C",
+      "difficulty": 1,
+      "sourceCode": "el.C",
+      "sourceType": "element",
+      "sourceId": "9",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.006.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "blank",
+      "stem": "【AI试运行】氮的元素符号是____。",
+      "optionsJson": null,
+      "answer": "N",
+      "answerAliases": [
+        "n"
+      ],
+      "analysis": "来源 el.N",
+      "difficulty": 1,
+      "sourceCode": "el.N",
+      "sourceType": "element",
+      "sourceId": "10",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.007.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "blank",
+      "stem": "【AI试运行】氟的元素符号是____。",
+      "optionsJson": null,
+      "answer": "F",
+      "answerAliases": [
+        "f"
+      ],
+      "analysis": "来源 el.F",
+      "difficulty": 1,
+      "sourceCode": "el.F",
+      "sourceType": "element",
+      "sourceId": "11",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.008.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "blank",
+      "stem": "【AI试运行】氖的元素符号是____。",
+      "optionsJson": null,
+      "answer": "Ne",
+      "answerAliases": [
+        "NE",
+        "ne"
+      ],
+      "analysis": "来源 el.Ne",
+      "difficulty": 1,
+      "sourceCode": "el.Ne",
+      "sourceType": "element",
+      "sourceId": "12",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.009.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "blank",
+      "stem": "【AI试运行】镁的元素符号是____。",
+      "optionsJson": null,
+      "answer": "Mg",
+      "answerAliases": [
+        "MG",
+        "mg"
+      ],
+      "analysis": "来源 el.Mg",
+      "difficulty": 1,
+      "sourceCode": "el.Mg",
+      "sourceType": "element",
+      "sourceId": "13",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.010.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "blank",
+      "stem": "【AI试运行】铝的元素符号是____。",
+      "optionsJson": null,
+      "answer": "Al",
+      "answerAliases": [
+        "AL",
+        "al"
+      ],
+      "analysis": "来源 el.Al",
+      "difficulty": 1,
+      "sourceCode": "el.Al",
+      "sourceType": "element",
+      "sourceId": "14",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.011.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "blank",
+      "stem": "【AI试运行】硅的元素符号是____。",
+      "optionsJson": null,
+      "answer": "Si",
+      "answerAliases": [
+        "SI",
+        "si"
+      ],
+      "analysis": "来源 el.Si",
+      "difficulty": 1,
+      "sourceCode": "el.Si",
+      "sourceType": "element",
+      "sourceId": "15",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.012.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "blank",
+      "stem": "【AI试运行】磷的元素符号是____。",
+      "optionsJson": null,
+      "answer": "P",
+      "answerAliases": [
+        "p"
+      ],
+      "analysis": "来源 el.P",
+      "difficulty": 1,
+      "sourceCode": "el.P",
+      "sourceType": "element",
+      "sourceId": "16",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.013.con_j",
+      "specialtyCode": "ion",
+      "categoryCode": "electrolyte",
+      "qtype": "judge",
+      "stem": "【AI试运行】电解质是在水溶液里或熔融状态下能够导电的化合物。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 concept.electrolyte",
+      "difficulty": 1,
+      "sourceCode": "concept.electrolyte",
+      "sourceType": "concept",
+      "sourceId": "5",
+      "specialtyId": "5",
+      "categoryId": "54"
+    },
+    {
+      "code": "train.ai_trial.014.con_j",
+      "specialtyCode": "ion",
+      "categoryCode": "nonelectrolyte",
+      "qtype": "judge",
+      "stem": "【AI试运行】蔗糖是电解质。判断正误。",
+      "optionsJson": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "analysis": "来源 concept.nonelectrolyte",
+      "difficulty": 1,
+      "sourceCode": "concept.nonelectrolyte",
+      "sourceType": "concept",
+      "sourceId": "6",
+      "specialtyId": "5",
+      "categoryId": "55"
+    },
+    {
+      "code": "train.ai_trial.015.con_j",
+      "specialtyCode": "redox",
+      "categoryCode": "e_conserve",
+      "qtype": "judge",
+      "stem": "【AI试运行】氧化还原反应中，还原剂失电子总数等于氧化剂得电子总数。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 concept.electron_conserve",
+      "difficulty": 1,
+      "sourceCode": "concept.electron_conserve",
+      "sourceType": "concept",
+      "sourceId": "21",
+      "specialtyId": "6",
+      "categoryId": "113"
+    },
+    {
+      "code": "train.ai_trial.016.rxn_cond",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「4Na + O2 = 2Na2O」在知识库中标注了反应条件。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "条件：常温（表面生成）；来源 rxn.4Na_O2",
+      "difficulty": 1,
+      "sourceCode": "rxn.4Na_O2",
+      "sourceType": "reaction",
+      "sourceId": "2",
+      "specialtyId": "1",
+      "categoryId": "25"
+    },
+    {
+      "code": "train.ai_trial.017.rxn_redox",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "qtype": "single",
+      "stem": "【AI试运行】对于反应「4Na + O2 = 2Na2O」，下列哪一项是氧化剂？",
+      "optionsJson": [
+        {
+          "key": "A",
+          "text": "O2"
+        },
+        {
+          "key": "B",
+          "text": "Na"
+        },
+        {
+          "key": "C",
+          "text": "水"
+        },
+        {
+          "key": "D",
+          "text": "氮气"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "氧化剂：O2；来源 rxn.4Na_O2",
+      "difficulty": 2,
+      "sourceCode": "rxn.4Na_O2",
+      "sourceType": "reaction",
+      "sourceId": "2",
+      "specialtyId": "6",
+      "categoryId": "103"
+    },
+    {
+      "code": "train.ai_trial.018.rxn_cond",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「2Na + O2 = Na2O2」在知识库中标注了反应条件。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "条件：加热点燃（燃烧）；来源 rxn.2Na_O2_heat",
+      "difficulty": 1,
+      "sourceCode": "rxn.2Na_O2_heat",
+      "sourceType": "reaction",
+      "sourceId": "3",
+      "specialtyId": "1",
+      "categoryId": "25"
+    },
+    {
+      "code": "train.ai_trial.019.rxn_redox",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "qtype": "single",
+      "stem": "【AI试运行】对于反应「2Na + O2 = Na2O2」，下列哪一项是氧化剂？",
+      "optionsJson": [
+        {
+          "key": "A",
+          "text": "O2"
+        },
+        {
+          "key": "B",
+          "text": "Na"
+        },
+        {
+          "key": "C",
+          "text": "水"
+        },
+        {
+          "key": "D",
+          "text": "氮气"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "氧化剂：O2；来源 rxn.2Na_O2_heat",
+      "difficulty": 2,
+      "sourceCode": "rxn.2Na_O2_heat",
+      "sourceType": "reaction",
+      "sourceId": "3",
+      "specialtyId": "6",
+      "categoryId": "103"
+    },
+    {
+      "code": "train.ai_trial.020.rxn_cond",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「Na2O + H2O = 2NaOH」在知识库中标注了反应条件。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "条件：常温；来源 rxn.Na2O_H2O",
+      "difficulty": 1,
+      "sourceCode": "rxn.Na2O_H2O",
+      "sourceType": "reaction",
+      "sourceId": "6",
+      "specialtyId": "1",
+      "categoryId": "25"
+    },
+    {
+      "code": "train.ai_trial.021.rxn_nr",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「Na2O + H2O = 2NaOH」一定是氧化还原反应。判断正误。",
+      "optionsJson": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "analysis": "该条目未关联氧化还原专项；来源 rxn.Na2O_H2O",
+      "difficulty": 1,
+      "sourceCode": "rxn.Na2O_H2O",
+      "sourceType": "reaction",
+      "sourceId": "6",
+      "specialtyId": "6",
+      "categoryId": "103"
+    },
+    {
+      "code": "train.ai_trial.022.rxn_cond",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「NaOH + HCl = NaCl + H2O」在知识库中标注了反应条件。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "条件：常温，溶液中进行；来源 rxn.NaOH_HCl",
+      "difficulty": 1,
+      "sourceCode": "rxn.NaOH_HCl",
+      "sourceType": "reaction",
+      "sourceId": "8",
+      "specialtyId": "1",
+      "categoryId": "25"
+    },
+    {
+      "code": "train.ai_trial.023.rxn_nr",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「NaOH + HCl = NaCl + H2O」一定是氧化还原反应。判断正误。",
+      "optionsJson": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "analysis": "该条目未关联氧化还原专项；来源 rxn.NaOH_HCl",
+      "difficulty": 1,
+      "sourceCode": "rxn.NaOH_HCl",
+      "sourceType": "reaction",
+      "sourceId": "8",
+      "specialtyId": "6",
+      "categoryId": "103"
+    },
+    {
+      "code": "train.ai_trial.024.rxn_cond",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「2NaHCO3 =△= Na2CO3 + CO2↑ + H2O」在知识库中标注了反应条件。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "条件：加热；来源 rxn.NaHCO3_heat",
+      "difficulty": 1,
+      "sourceCode": "rxn.NaHCO3_heat",
+      "sourceType": "reaction",
+      "sourceId": "9",
+      "specialtyId": "1",
+      "categoryId": "25"
+    },
+    {
+      "code": "train.ai_trial.025.rxn_nr",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「2NaHCO3 =△= Na2CO3 + CO2↑ + H2O」一定是氧化还原反应。判断正误。",
+      "optionsJson": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "analysis": "该条目未关联氧化还原专项；来源 rxn.NaHCO3_heat",
+      "difficulty": 1,
+      "sourceCode": "rxn.NaHCO3_heat",
+      "sourceType": "reaction",
+      "sourceId": "9",
+      "specialtyId": "6",
+      "categoryId": "103"
+    },
+    {
+      "code": "train.ai_trial.026.rxn_cond",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「Na2CO3 + 2HCl = 2NaCl + CO2↑ + H2O」在知识库中标注了反应条件。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "条件：常温，酸足量；来源 rxn.Na2CO3_2HCl",
+      "difficulty": 1,
+      "sourceCode": "rxn.Na2CO3_2HCl",
+      "sourceType": "reaction",
+      "sourceId": "10",
+      "specialtyId": "1",
+      "categoryId": "25"
+    },
+    {
+      "code": "train.ai_trial.027.rxn_nr",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「Na2CO3 + 2HCl = 2NaCl + CO2↑ + H2O」一定是氧化还原反应。判断正误。",
+      "optionsJson": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "analysis": "该条目未关联氧化还原专项；来源 rxn.Na2CO3_2HCl",
+      "difficulty": 1,
+      "sourceCode": "rxn.Na2CO3_2HCl",
+      "sourceType": "reaction",
+      "sourceId": "10",
+      "specialtyId": "6",
+      "categoryId": "103"
+    },
+    {
+      "code": "train.ai_trial.028.rxn_cond",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「2Mg + O2 =点燃= 2MgO」在知识库中标注了反应条件。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "条件：点燃；来源 rxn.2Mg_O2",
+      "difficulty": 1,
+      "sourceCode": "rxn.2Mg_O2",
+      "sourceType": "reaction",
+      "sourceId": "11",
+      "specialtyId": "1",
+      "categoryId": "25"
+    },
+    {
+      "code": "train.ai_trial.029.rxn_redox",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "qtype": "single",
+      "stem": "【AI试运行】对于反应「2Mg + O2 =点燃= 2MgO」，下列哪一项是氧化剂？",
+      "optionsJson": [
+        {
+          "key": "A",
+          "text": "O2"
+        },
+        {
+          "key": "B",
+          "text": "Mg"
+        },
+        {
+          "key": "C",
+          "text": "水"
+        },
+        {
+          "key": "D",
+          "text": "氮气"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "氧化剂：O2；来源 rxn.2Mg_O2",
+      "difficulty": 2,
+      "sourceCode": "rxn.2Mg_O2",
+      "sourceType": "reaction",
+      "sourceId": "11",
+      "specialtyId": "6",
+      "categoryId": "103"
+    },
+    {
+      "code": "train.ai_trial.030.rxn_cond",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「Mg + 2HCl = MgCl2 + H2↑」在知识库中标注了反应条件。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "条件：常温，稀盐酸；来源 rxn.Mg_2HCl",
+      "difficulty": 1,
+      "sourceCode": "rxn.Mg_2HCl",
+      "sourceType": "reaction",
+      "sourceId": "12",
+      "specialtyId": "1",
+      "categoryId": "25"
+    },
+    {
+      "code": "train.ai_trial.031.rxn_redox",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "qtype": "single",
+      "stem": "【AI试运行】对于反应「Mg + 2HCl = MgCl2 + H2↑」，下列哪一项是氧化剂？",
+      "optionsJson": [
+        {
+          "key": "A",
+          "text": "HCl"
+        },
+        {
+          "key": "B",
+          "text": "Mg"
+        },
+        {
+          "key": "C",
+          "text": "水"
+        },
+        {
+          "key": "D",
+          "text": "氮气"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "氧化剂：HCl；来源 rxn.Mg_2HCl",
+      "difficulty": 2,
+      "sourceCode": "rxn.Mg_2HCl",
+      "sourceType": "reaction",
+      "sourceId": "12",
+      "specialtyId": "6",
+      "categoryId": "103"
+    },
+    {
+      "code": "train.ai_trial.032.rxn_cond",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「4Al + 3O2 =点燃= 2Al2O3」在知识库中标注了反应条件。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "条件：本条方程式对应点燃或高温燃烧条件。另：常温下铝表面可缓慢生成致密Al2O3氧化膜（化学式相同，但不属于本条“点燃燃烧”现象，训练时须分条件命题）。；来源 rxn.4Al_3O2",
+      "difficulty": 1,
+      "sourceCode": "rxn.4Al_3O2",
+      "sourceType": "reaction",
+      "sourceId": "14",
+      "specialtyId": "1",
+      "categoryId": "25"
+    },
+    {
+      "code": "train.ai_trial.033.rxn_redox",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "qtype": "single",
+      "stem": "【AI试运行】对于反应「4Al + 3O2 =点燃= 2Al2O3」，下列哪一项是氧化剂？",
+      "optionsJson": [
+        {
+          "key": "A",
+          "text": "O2"
+        },
+        {
+          "key": "B",
+          "text": "Al"
+        },
+        {
+          "key": "C",
+          "text": "水"
+        },
+        {
+          "key": "D",
+          "text": "氮气"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "氧化剂：O2；来源 rxn.4Al_3O2",
+      "difficulty": 2,
+      "sourceCode": "rxn.4Al_3O2",
+      "sourceType": "reaction",
+      "sourceId": "14",
+      "specialtyId": "6",
+      "categoryId": "103"
+    },
+    {
+      "code": "train.ai_trial.034.rxn_cond",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「Al2O3 + 6HCl = 2AlCl3 + 3H2O」在知识库中标注了反应条件。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "条件：常温或加热；来源 rxn.Al2O3_6HCl",
+      "difficulty": 1,
+      "sourceCode": "rxn.Al2O3_6HCl",
+      "sourceType": "reaction",
+      "sourceId": "17",
+      "specialtyId": "1",
+      "categoryId": "25"
+    },
+    {
+      "code": "train.ai_trial.035.rxn_nr",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「Al2O3 + 6HCl = 2AlCl3 + 3H2O」一定是氧化还原反应。判断正误。",
+      "optionsJson": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "analysis": "该条目未关联氧化还原专项；来源 rxn.Al2O3_6HCl",
+      "difficulty": 1,
+      "sourceCode": "rxn.Al2O3_6HCl",
+      "sourceType": "reaction",
+      "sourceId": "17",
+      "specialtyId": "6",
+      "categoryId": "103"
+    },
+    {
+      "code": "train.ai_trial.036.rxn_cond",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「Al(OH)3 + 3HCl = AlCl3 + 3H2O」在知识库中标注了反应条件。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "条件：常温；来源 rxn.AlOH3_3HCl",
+      "difficulty": 1,
+      "sourceCode": "rxn.AlOH3_3HCl",
+      "sourceType": "reaction",
+      "sourceId": "20",
+      "specialtyId": "1",
+      "categoryId": "25"
+    },
+    {
+      "code": "train.ai_trial.037.rxn_nr",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "qtype": "judge",
+      "stem": "【AI试运行】反应「Al(OH)3 + 3HCl = AlCl3 + 3H2O」一定是氧化还原反应。判断正误。",
+      "optionsJson": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "analysis": "该条目未关联氧化还原专项；来源 rxn.AlOH3_3HCl",
+      "difficulty": 1,
+      "sourceCode": "rxn.AlOH3_3HCl",
+      "sourceType": "reaction",
+      "sourceId": "20",
+      "specialtyId": "6",
+      "categoryId": "103"
+    },
+    {
+      "code": "train.ai_trial.038.exp_safe",
+      "specialtyCode": "experiment",
+      "categoryCode": "safety",
+      "qtype": "judge",
+      "stem": "【AI试运行】危险化学实验可以在家自行操作完成。判断正误。",
+      "optionsJson": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "analysis": "书面训练原则；关联实验 exp.Na_O2",
+      "difficulty": 1,
+      "sourceCode": "exp.Na_O2",
+      "sourceType": "experiment",
+      "sourceId": "2",
+      "specialtyId": "2",
+      "categoryId": "43"
+    },
+    {
+      "code": "train.ai_trial.046.fm_c",
+      "specialtyCode": "calculation",
+      "categoryCode": "concentration",
+      "qtype": "single",
+      "stem": "【AI试运行】物质的量浓度 c 的常用单位是？",
+      "optionsJson": [
+        {
+          "key": "A",
+          "text": "mol/L"
+        },
+        {
+          "key": "B",
+          "text": "g/mol"
+        },
+        {
+          "key": "C",
+          "text": "L/mol"
+        },
+        {
+          "key": "D",
+          "text": "mol"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 formula.c_n_V",
+      "difficulty": 1,
+      "sourceCode": "formula.c_n_V",
+      "sourceType": "formula",
+      "sourceId": "4",
+      "specialtyId": "4",
+      "categoryId": "7"
+    },
+    {
+      "code": "train.ai_trial.047.fm_stp",
+      "specialtyCode": "calculation",
+      "categoryCode": "molar_volume",
+      "qtype": "judge",
+      "stem": "【AI试运行】气体摩尔体积 22.4 L/mol 适用于任何温度和压强下的气体。判断正误。",
+      "optionsJson": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "analysis": "仅标况；来源 formula.gas_STP",
+      "difficulty": 2,
+      "sourceCode": "formula.gas_STP",
+      "sourceType": "formula",
+      "sourceId": "11",
+      "specialtyId": "4",
+      "categoryId": "6"
+    },
+    {
+      "code": "train.ai_trial.048.kp_j",
+      "specialtyCode": "redox",
+      "categoryCode": "e_conserve",
+      "qtype": "judge",
+      "stem": "【AI试运行】氧化还原反应中得失电子数必须相等。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 kp.redox.e_conserve",
+      "difficulty": 1,
+      "sourceCode": "kp.redox.e_conserve",
+      "sourceType": "knowledge",
+      "sourceId": "9",
+      "specialtyId": "6",
+      "categoryId": "113"
+    },
+    {
+      "code": "train.ai_trial.049.kp_j",
+      "specialtyCode": "substance",
+      "categoryCode": "chem_property",
+      "qtype": "judge",
+      "stem": "【AI试运行】金属活动性顺序可用于判断金属与酸、盐溶液能否发生置换反应。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 kp.metal.activity",
+      "difficulty": 1,
+      "sourceCode": "kp.metal.activity",
+      "sourceType": "knowledge",
+      "sourceId": "31",
+      "specialtyId": "3",
+      "categoryId": "132"
+    },
+    {
+      "code": "train.ai_trial.050.kp_j",
+      "specialtyCode": "substance",
+      "categoryCode": "test",
+      "qtype": "judge",
+      "stem": "【AI试运行】Fe³⁺可用 KSCN 溶液检验，溶液变血红色。判断正误。",
+      "optionsJson": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 kp.Fe.test",
+      "difficulty": 1,
+      "sourceCode": "kp.Fe.test",
+      "sourceType": "knowledge",
+      "sourceId": "36",
+      "specialtyId": "3",
+      "categoryId": "133"
+    },
+    {
+      "code": "train.ai_trial.051.el_sc",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "single",
+      "stem": "【AI试运行】氦的元素符号是？",
+      "optionsJson": [
+        {
+          "key": "A",
+          "text": "He"
+        },
+        {
+          "key": "B",
+          "text": "Be"
+        },
+        {
+          "key": "C",
+          "text": "B"
+        },
+        {
+          "key": "D",
+          "text": "C"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 el.He",
+      "difficulty": 1,
+      "sourceCode": "el.He",
+      "sourceType": "element",
+      "sourceId": "5",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.052.el_sc",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "single",
+      "stem": "【AI试运行】锂的元素符号是？",
+      "optionsJson": [
+        {
+          "key": "A",
+          "text": "Li"
+        },
+        {
+          "key": "B",
+          "text": "B"
+        },
+        {
+          "key": "C",
+          "text": "C"
+        },
+        {
+          "key": "D",
+          "text": "N"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 el.Li",
+      "difficulty": 1,
+      "sourceCode": "el.Li",
+      "sourceType": "element",
+      "sourceId": "6",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.053.el_sc",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "single",
+      "stem": "【AI试运行】铍的元素符号是？",
+      "optionsJson": [
+        {
+          "key": "A",
+          "text": "Be"
+        },
+        {
+          "key": "B",
+          "text": "C"
+        },
+        {
+          "key": "C",
+          "text": "N"
+        },
+        {
+          "key": "D",
+          "text": "F"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 el.Be",
+      "difficulty": 1,
+      "sourceCode": "el.Be",
+      "sourceType": "element",
+      "sourceId": "7",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.054.el_sc",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "single",
+      "stem": "【AI试运行】硼的元素符号是？",
+      "optionsJson": [
+        {
+          "key": "A",
+          "text": "B"
+        },
+        {
+          "key": "B",
+          "text": "N"
+        },
+        {
+          "key": "C",
+          "text": "F"
+        },
+        {
+          "key": "D",
+          "text": "Ne"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 el.B",
+      "difficulty": 1,
+      "sourceCode": "el.B",
+      "sourceType": "element",
+      "sourceId": "8",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.055.el_sc",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "single",
+      "stem": "【AI试运行】碳的元素符号是？",
+      "optionsJson": [
+        {
+          "key": "A",
+          "text": "C"
+        },
+        {
+          "key": "B",
+          "text": "F"
+        },
+        {
+          "key": "C",
+          "text": "Ne"
+        },
+        {
+          "key": "D",
+          "text": "Mg"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 el.C",
+      "difficulty": 1,
+      "sourceCode": "el.C",
+      "sourceType": "element",
+      "sourceId": "9",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.056.el_sc",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "single",
+      "stem": "【AI试运行】氮的元素符号是？",
+      "optionsJson": [
+        {
+          "key": "A",
+          "text": "N"
+        },
+        {
+          "key": "B",
+          "text": "Ne"
+        },
+        {
+          "key": "C",
+          "text": "Mg"
+        },
+        {
+          "key": "D",
+          "text": "Al"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 el.N",
+      "difficulty": 1,
+      "sourceCode": "el.N",
+      "sourceType": "element",
+      "sourceId": "10",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.057.el_sc",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "single",
+      "stem": "【AI试运行】氟的元素符号是？",
+      "optionsJson": [
+        {
+          "key": "A",
+          "text": "F"
+        },
+        {
+          "key": "B",
+          "text": "Mg"
+        },
+        {
+          "key": "C",
+          "text": "Al"
+        },
+        {
+          "key": "D",
+          "text": "Si"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 el.F",
+      "difficulty": 1,
+      "sourceCode": "el.F",
+      "sourceType": "element",
+      "sourceId": "11",
+      "specialtyId": "11",
+      "categoryId": "64"
+    },
+    {
+      "code": "train.ai_trial.058.el_sc",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "qtype": "single",
+      "stem": "【AI试运行】氖的元素符号是？",
+      "optionsJson": [
+        {
+          "key": "A",
+          "text": "Ne"
+        },
+        {
+          "key": "B",
+          "text": "Al"
+        },
+        {
+          "key": "C",
+          "text": "Si"
+        },
+        {
+          "key": "D",
+          "text": "P"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 el.Ne",
+      "difficulty": 1,
+      "sourceCode": "el.Ne",
+      "sourceType": "element",
+      "sourceId": "12",
+      "specialtyId": "11",
+      "categoryId": "64"
+    }
+  ]
+}

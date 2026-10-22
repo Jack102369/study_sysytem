@@ -1,0 +1,379 @@
+{
+  "startedAt": "2026-10-18T04:57:35.551Z",
+  "packs": {
+    "B3-A": {
+      "exitCode": 0,
+      "successCount": 29,
+      "failCount": 0,
+      "linkOk": 29,
+      "linkFail": 0
+    },
+    "B3-B": {
+      "exitCode": 0,
+      "successCount": 32,
+      "failCount": 0,
+      "linkOk": 32,
+      "linkFail": 0
+    },
+    "B3-C": {
+      "exitCode": 0,
+      "successCount": 7,
+      "failCount": 0,
+      "linkOk": 7,
+      "linkFail": 0
+    },
+    "B3-D": {
+      "exitCode": 0,
+      "successCount": 16,
+      "failCount": 0,
+      "linkOk": 16,
+      "linkFail": 0
+    }
+  },
+  "totals": {
+    "success": 84,
+    "fail": 0,
+    "linkOk": 84,
+    "linkFail": 0
+  },
+  "codeToEntity": {
+    "sub.Na2O": {
+      "type": "substance",
+      "id": "5"
+    },
+    "sub.Na2O2": {
+      "type": "substance",
+      "id": "6"
+    },
+    "sub.Na2CO3": {
+      "type": "substance",
+      "id": "7"
+    },
+    "sub.NaHCO3": {
+      "type": "substance",
+      "id": "8"
+    },
+    "sub.NaCl": {
+      "type": "substance",
+      "id": "9"
+    },
+    "sub.Mg": {
+      "type": "substance",
+      "id": "10"
+    },
+    "sub.MgO": {
+      "type": "substance",
+      "id": "11"
+    },
+    "sub.MgOH2": {
+      "type": "substance",
+      "id": "12"
+    },
+    "sub.Al": {
+      "type": "substance",
+      "id": "13"
+    },
+    "sub.Al2O3": {
+      "type": "substance",
+      "id": "14"
+    },
+    "sub.AlOH3": {
+      "type": "substance",
+      "id": "15"
+    },
+    "sub.Fe": {
+      "type": "substance",
+      "id": "16"
+    },
+    "sub.Fe2O3": {
+      "type": "substance",
+      "id": "17"
+    },
+    "sub.Fe3O4": {
+      "type": "substance",
+      "id": "18"
+    },
+    "sub.FeOH3": {
+      "type": "substance",
+      "id": "19"
+    },
+    "sub.FeCl3": {
+      "type": "substance",
+      "id": "20"
+    },
+    "sub.Cu": {
+      "type": "substance",
+      "id": "21"
+    },
+    "sub.CuO": {
+      "type": "substance",
+      "id": "22"
+    },
+    "sub.CuOH2": {
+      "type": "substance",
+      "id": "23"
+    },
+    "sub.CuSO4": {
+      "type": "substance",
+      "id": "24"
+    },
+    "sub.Zn": {
+      "type": "substance",
+      "id": "25"
+    },
+    "sub.Ag": {
+      "type": "substance",
+      "id": "26"
+    },
+    "sub.O2": {
+      "type": "substance",
+      "id": "27"
+    },
+    "sub.CO2": {
+      "type": "substance",
+      "id": "28"
+    },
+    "sub.FeO": {
+      "type": "substance",
+      "id": "29"
+    },
+    "sub.FeOH2": {
+      "type": "substance",
+      "id": "30"
+    },
+    "sub.FeSO4": {
+      "type": "substance",
+      "id": "31"
+    },
+    "sub.NaAlO2": {
+      "type": "substance",
+      "id": "32"
+    },
+    "sub.AlCl3": {
+      "type": "substance",
+      "id": "33"
+    },
+    "rxn.4Na_O2": {
+      "type": "reaction",
+      "id": "2"
+    },
+    "rxn.2Na_O2_heat": {
+      "type": "reaction",
+      "id": "3"
+    },
+    "rxn.2Na2O2_2H2O": {
+      "type": "reaction",
+      "id": "4"
+    },
+    "rxn.2Na2O2_2CO2": {
+      "type": "reaction",
+      "id": "5"
+    },
+    "rxn.Na2O_H2O": {
+      "type": "reaction",
+      "id": "6"
+    },
+    "rxn.NaOH_CO2": {
+      "type": "reaction",
+      "id": "7"
+    },
+    "rxn.NaOH_HCl": {
+      "type": "reaction",
+      "id": "8"
+    },
+    "rxn.NaHCO3_heat": {
+      "type": "reaction",
+      "id": "9"
+    },
+    "rxn.Na2CO3_2HCl": {
+      "type": "reaction",
+      "id": "10"
+    },
+    "rxn.2Mg_O2": {
+      "type": "reaction",
+      "id": "11"
+    },
+    "rxn.Mg_2HCl": {
+      "type": "reaction",
+      "id": "12"
+    },
+    "rxn.Mg_CO2": {
+      "type": "reaction",
+      "id": "13"
+    },
+    "rxn.4Al_3O2": {
+      "type": "reaction",
+      "id": "14"
+    },
+    "rxn.2Al_6HCl": {
+      "type": "reaction",
+      "id": "15"
+    },
+    "rxn.2Al_2NaOH": {
+      "type": "reaction",
+      "id": "16"
+    },
+    "rxn.Al2O3_6HCl": {
+      "type": "reaction",
+      "id": "17"
+    },
+    "rxn.Al2O3_2NaOH": {
+      "type": "reaction",
+      "id": "18"
+    },
+    "rxn.AlOH3_NaOH": {
+      "type": "reaction",
+      "id": "19"
+    },
+    "rxn.AlOH3_3HCl": {
+      "type": "reaction",
+      "id": "20"
+    },
+    "rxn.3Fe_2O2": {
+      "type": "reaction",
+      "id": "21"
+    },
+    "rxn.Fe_H2SO4": {
+      "type": "reaction",
+      "id": "22"
+    },
+    "rxn.Fe_CuSO4": {
+      "type": "reaction",
+      "id": "23"
+    },
+    "rxn.Fe2O3_3CO": {
+      "type": "reaction",
+      "id": "24"
+    },
+    "rxn.Cu_O2_heat": {
+      "type": "reaction",
+      "id": "25"
+    },
+    "rxn.CuO_H2": {
+      "type": "reaction",
+      "id": "26"
+    },
+    "rxn.CuO_2HCl": {
+      "type": "reaction",
+      "id": "27"
+    },
+    "rxn.Zn_H2SO4": {
+      "type": "reaction",
+      "id": "28"
+    },
+    "rxn.Zn_CuSO4": {
+      "type": "reaction",
+      "id": "29"
+    },
+    "rxn.FeOH2_O2": {
+      "type": "reaction",
+      "id": "30"
+    },
+    "rxn.2Fe2_Cl2": {
+      "type": "reaction",
+      "id": "31"
+    },
+    "rxn.Na2CO3_CO2_H2O": {
+      "type": "reaction",
+      "id": "32"
+    },
+    "rxn.2Na_2HCl": {
+      "type": "reaction",
+      "id": "33"
+    },
+    "exp.Na_O2": {
+      "type": "experiment",
+      "id": "2"
+    },
+    "exp.Na2O2_H2O": {
+      "type": "experiment",
+      "id": "3"
+    },
+    "exp.Al_amphoteric": {
+      "type": "experiment",
+      "id": "4"
+    },
+    "exp.Fe_rust": {
+      "type": "experiment",
+      "id": "5"
+    },
+    "exp.metal_activity": {
+      "type": "experiment",
+      "id": "6"
+    },
+    "exp.CuO_H2_reduce": {
+      "type": "experiment",
+      "id": "7"
+    },
+    "exp.Fe3_SCN": {
+      "type": "experiment",
+      "id": "8"
+    },
+    "kp.Na.oxide": {
+      "type": "knowledge",
+      "id": "27"
+    },
+    "kp.Na.carbonate": {
+      "type": "knowledge",
+      "id": "28"
+    },
+    "kp.Al.amphoteric": {
+      "type": "knowledge",
+      "id": "29"
+    },
+    "kp.Fe.property": {
+      "type": "knowledge",
+      "id": "30"
+    },
+    "kp.metal.activity": {
+      "type": "knowledge",
+      "id": "31"
+    },
+    "kp.metal.smelting": {
+      "type": "knowledge",
+      "id": "32"
+    },
+    "kp.Fe.fe2_property": {
+      "type": "knowledge",
+      "id": "33"
+    },
+    "kp.Fe.fe3_property": {
+      "type": "knowledge",
+      "id": "34"
+    },
+    "kp.Fe.fe2_fe3": {
+      "type": "knowledge",
+      "id": "35"
+    },
+    "kp.Fe.test": {
+      "type": "knowledge",
+      "id": "36"
+    },
+    "kp.Fe.salt": {
+      "type": "knowledge",
+      "id": "37"
+    },
+    "kp.metal.pig_iron": {
+      "type": "knowledge",
+      "id": "38"
+    },
+    "kp.metal.steel": {
+      "type": "knowledge",
+      "id": "39"
+    },
+    "kp.metal.stainless": {
+      "type": "knowledge",
+      "id": "40"
+    },
+    "kp.Al.salt_aluminate": {
+      "type": "knowledge",
+      "id": "41"
+    },
+    "concept.alloy": {
+      "type": "concept",
+      "id": "25"
+    }
+  },
+  "failures": [],
+  "finishedAt": "2026-10-18T04:59:31.420Z"
+}

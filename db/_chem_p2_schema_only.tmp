@@ -1,0 +1,320 @@
+﻿-- 楂樹竴鍖栧涓撻」璁粌涓績 路 闃舵浜岋細缁撴瀯鍖栫煡璇嗗簱
+USE study_system;
+
+-- ========== 鍏叡锛氬唴瀹圭姸鎬?==========
+-- draft | pending_review | published | rejected | archived
+
+CREATE TABLE IF NOT EXISTS chem_elements (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  symbol VARCHAR(8) NOT NULL,
+  name_zh VARCHAR(32) NOT NULL,
+  name_en VARCHAR(64) NOT NULL DEFAULT '',
+  atomic_number INT UNSIGNED NOT NULL,
+  atomic_mass DECIMAL(12,6) NULL,
+  period_no TINYINT UNSIGNED NULL,
+  group_label VARCHAR(16) NULL,
+  category VARCHAR(32) NULL COMMENT '閲戝睘/闈為噾灞?鎯版€ф皵浣撶瓑',
+  common_valences VARCHAR(64) NULL COMMENT '濡?+1,-1',
+  atom_structure TEXT NULL,
+  electron_config VARCHAR(128) NULL,
+  common_compounds TEXT NULL,
+  key_properties TEXT NULL,
+  common_uses TEXT NULL,
+  status VARCHAR(32) NOT NULL DEFAULT 'draft',
+  review_note VARCHAR(255) NOT NULL DEFAULT '',
+  created_by BIGINT UNSIGNED NULL,
+  updated_by BIGINT UNSIGNED NULL,
+  reviewed_by BIGINT UNSIGNED NULL,
+  reviewed_at DATETIME(3) NULL,
+  created_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+  updated_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3),
+  UNIQUE KEY uk_chem_element_symbol (symbol),
+  UNIQUE KEY uk_chem_element_atomic_number (atomic_number),
+  KEY idx_chem_element_status (status),
+  KEY idx_chem_element_name (name_zh)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_substances (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(128) NOT NULL,
+  canonical_formula VARCHAR(64) NOT NULL,
+  common_names VARCHAR(255) NOT NULL DEFAULT '' COMMENT '淇楃О锛岄€楀彿鍒嗛殧',
+  color VARCHAR(64) NOT NULL DEFAULT '',
+  state_label VARCHAR(32) NOT NULL DEFAULT '' COMMENT '鍥?娑?姘?,
+  solubility TEXT NULL,
+  physical_props TEXT NULL,
+  chemical_props TEXT NULL,
+  common_uses TEXT NULL,
+  test_methods TEXT NULL,
+  storage_methods TEXT NULL,
+  safety_notes TEXT NULL,
+  status VARCHAR(32) NOT NULL DEFAULT 'draft',
+  review_note VARCHAR(255) NOT NULL DEFAULT '',
+  created_by BIGINT UNSIGNED NULL,
+  updated_by BIGINT UNSIGNED NULL,
+  reviewed_by BIGINT UNSIGNED NULL,
+  reviewed_at DATETIME(3) NULL,
+  created_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+  updated_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3),
+  UNIQUE KEY uk_chem_substance_formula_name (canonical_formula, name),
+  KEY idx_chem_substance_status (status),
+  KEY idx_chem_substance_name (name)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_substance_tags (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  substance_id BIGINT UNSIGNED NOT NULL,
+  tag VARCHAR(32) NOT NULL COMMENT 'elemental|oxide|acid|base|salt|organic|other',
+  UNIQUE KEY uk_chem_sub_tag (substance_id, tag),
+  CONSTRAINT fk_chem_sub_tag FOREIGN KEY (substance_id) REFERENCES chem_substances(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_substance_elements (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  substance_id BIGINT UNSIGNED NOT NULL,
+  element_id BIGINT UNSIGNED NOT NULL,
+  atom_count INT UNSIGNED NOT NULL DEFAULT 1,
+  UNIQUE KEY uk_chem_sub_el (substance_id, element_id),
+  CONSTRAINT fk_chem_sub_el_sub FOREIGN KEY (substance_id) REFERENCES chem_substances(id) ON DELETE CASCADE,
+  CONSTRAINT fk_chem_sub_el_el FOREIGN KEY (element_id) REFERENCES chem_elements(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_reactions (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(128) NOT NULL,
+  canonical_equation VARCHAR(255) NOT NULL COMMENT '瑙勮寖鍖栭厤骞虫柟绋嬪紡锛屽幓閲嶇敤',
+  equation VARCHAR(255) NOT NULL COMMENT '瀹屾暣閰嶅钩鏂圭▼寮忓睍绀?,
+  ionic_equation VARCHAR(255) NULL,
+  conditions VARCHAR(255) NOT NULL DEFAULT '',
+  phenomenon TEXT NULL,
+  principle TEXT NULL,
+  oxidant VARCHAR(128) NULL,
+  reductant VARCHAR(128) NULL,
+  ox_product VARCHAR(128) NULL,
+  re_product VARCHAR(128) NULL,
+  electron_transfer TEXT NULL,
+  difficulty TINYINT UNSIGNED NOT NULL DEFAULT 2 COMMENT '1-5',
+  importance TINYINT UNSIGNED NOT NULL DEFAULT 3 COMMENT '1-5',
+  is_verified TINYINT(1) NOT NULL DEFAULT 0 COMMENT '浜哄伐纭鐪熷疄鎴愮珛',
+  train_types VARCHAR(255) NOT NULL DEFAULT '' COMMENT '閫傜敤璁粌绫诲瀷锛岄€楀彿鍒嗛殧',
+  status VARCHAR(32) NOT NULL DEFAULT 'draft',
+  review_note VARCHAR(255) NOT NULL DEFAULT '',
+  created_by BIGINT UNSIGNED NULL,
+  updated_by BIGINT UNSIGNED NULL,
+  reviewed_by BIGINT UNSIGNED NULL,
+  reviewed_at DATETIME(3) NULL,
+  created_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+  updated_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3),
+  UNIQUE KEY uk_chem_reaction_canonical (canonical_equation),
+  KEY idx_chem_reaction_status (status),
+  KEY idx_chem_reaction_name (name)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_reaction_tags (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  reaction_id BIGINT UNSIGNED NOT NULL,
+  tag VARCHAR(32) NOT NULL,
+  UNIQUE KEY uk_chem_rxn_tag (reaction_id, tag),
+  CONSTRAINT fk_chem_rxn_tag FOREIGN KEY (reaction_id) REFERENCES chem_reactions(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_reaction_species (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  reaction_id BIGINT UNSIGNED NOT NULL,
+  role VARCHAR(16) NOT NULL COMMENT 'reactant|product|catalyst',
+  substance_id BIGINT UNSIGNED NULL,
+  formula VARCHAR(64) NOT NULL,
+  coefficient DECIMAL(10,4) NOT NULL DEFAULT 1,
+  state_symbol VARCHAR(8) NULL COMMENT 's|l|g|aq',
+  is_gas TINYINT(1) NOT NULL DEFAULT 0,
+  is_precipitate TINYINT(1) NOT NULL DEFAULT 0,
+  sort_order INT NOT NULL DEFAULT 0,
+  KEY idx_chem_rxn_sp_rxn (reaction_id, role, sort_order),
+  CONSTRAINT fk_chem_rxn_sp_rxn FOREIGN KEY (reaction_id) REFERENCES chem_reactions(id) ON DELETE CASCADE,
+  CONSTRAINT fk_chem_rxn_sp_sub FOREIGN KEY (substance_id) REFERENCES chem_substances(id) ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_experiments (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(128) NOT NULL,
+  category VARCHAR(32) NOT NULL DEFAULT 'other' COMMENT 'basic_ops|prep|test|property|gas_prep|gas_collect|inquiry|other',
+  purpose TEXT NULL,
+  principle TEXT NULL,
+  instruments TEXT NULL,
+  reagents TEXT NULL,
+  steps TEXT NULL,
+  phenomenon TEXT NULL,
+  conclusion TEXT NULL,
+  precautions TEXT NULL,
+  safety_notes TEXT NULL,
+  is_hazardous TINYINT(1) NOT NULL DEFAULT 0,
+  home_forbidden_note VARCHAR(255) NOT NULL DEFAULT '鍗遍櫓瀹為獙璇峰湪瀹為獙瀹ょ敱鏁欏笀鎸囧涓嬪畬鎴愶紝绂佹鍦ㄥ鑷鎿嶄綔銆?,
+  status VARCHAR(32) NOT NULL DEFAULT 'draft',
+  review_note VARCHAR(255) NOT NULL DEFAULT '',
+  created_by BIGINT UNSIGNED NULL,
+  updated_by BIGINT UNSIGNED NULL,
+  reviewed_by BIGINT UNSIGNED NULL,
+  reviewed_at DATETIME(3) NULL,
+  created_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+  updated_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3),
+  KEY idx_chem_exp_status (status),
+  KEY idx_chem_exp_name (name),
+  KEY idx_chem_exp_cat (category)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_experiment_images (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  experiment_id BIGINT UNSIGNED NOT NULL,
+  attachment_id BIGINT UNSIGNED NOT NULL,
+  caption VARCHAR(255) NOT NULL DEFAULT '',
+  sort_order INT NOT NULL DEFAULT 0,
+  KEY idx_chem_exp_img (experiment_id, sort_order),
+  CONSTRAINT fk_chem_exp_img_exp FOREIGN KEY (experiment_id) REFERENCES chem_experiments(id) ON DELETE CASCADE,
+  CONSTRAINT fk_chem_exp_img_att FOREIGN KEY (attachment_id) REFERENCES attachments(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_formulas (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(128) NOT NULL,
+  expression VARCHAR(255) NOT NULL,
+  variables TEXT NULL COMMENT '鍙橀噺璇存槑',
+  units VARCHAR(128) NOT NULL DEFAULT '',
+  applicable_conditions TEXT NULL,
+  examples TEXT NULL,
+  common_mistakes TEXT NULL,
+  status VARCHAR(32) NOT NULL DEFAULT 'draft',
+  review_note VARCHAR(255) NOT NULL DEFAULT '',
+  created_by BIGINT UNSIGNED NULL,
+  updated_by BIGINT UNSIGNED NULL,
+  reviewed_by BIGINT UNSIGNED NULL,
+  reviewed_at DATETIME(3) NULL,
+  created_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+  updated_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3),
+  KEY idx_chem_formula_status (status),
+  KEY idx_chem_formula_name (name)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_concepts (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(128) NOT NULL,
+  definition TEXT NULL,
+  principle TEXT NULL,
+  applicable_conditions TEXT NULL,
+  judge_methods TEXT NULL,
+  examples TEXT NULL,
+  common_mistakes TEXT NULL,
+  status VARCHAR(32) NOT NULL DEFAULT 'draft',
+  review_note VARCHAR(255) NOT NULL DEFAULT '',
+  created_by BIGINT UNSIGNED NULL,
+  updated_by BIGINT UNSIGNED NULL,
+  reviewed_by BIGINT UNSIGNED NULL,
+  reviewed_at DATETIME(3) NULL,
+  created_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+  updated_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3),
+  KEY idx_chem_concept_status (status),
+  KEY idx_chem_concept_name (name)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_knowledge_points (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  parent_id BIGINT UNSIGNED NULL,
+  name VARCHAR(128) NOT NULL,
+  description TEXT NULL,
+  difficulty TINYINT UNSIGNED NOT NULL DEFAULT 2,
+  importance TINYINT UNSIGNED NOT NULL DEFAULT 3,
+  status VARCHAR(32) NOT NULL DEFAULT 'draft',
+  review_note VARCHAR(255) NOT NULL DEFAULT '',
+  created_by BIGINT UNSIGNED NULL,
+  updated_by BIGINT UNSIGNED NULL,
+  reviewed_by BIGINT UNSIGNED NULL,
+  reviewed_at DATETIME(3) NULL,
+  created_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+  updated_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3),
+  KEY idx_chem_kp_status (status),
+  KEY idx_chem_kp_parent (parent_id),
+  KEY idx_chem_kp_name (name),
+  CONSTRAINT fk_chem_kp_parent FOREIGN KEY (parent_id) REFERENCES chem_knowledge_points(id) ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_questions (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  qtype VARCHAR(32) NOT NULL COMMENT 'single|multi|judge|blank|equation|ionic|calc|experiment|short|inference|image',
+  stem TEXT NOT NULL,
+  options_json JSON NULL,
+  answer TEXT NOT NULL,
+  analysis TEXT NULL,
+  scoring TEXT NULL,
+  difficulty TINYINT UNSIGNED NOT NULL DEFAULT 2,
+  status VARCHAR(32) NOT NULL DEFAULT 'draft',
+  review_note VARCHAR(255) NOT NULL DEFAULT '',
+  created_by BIGINT UNSIGNED NULL,
+  updated_by BIGINT UNSIGNED NULL,
+  reviewed_by BIGINT UNSIGNED NULL,
+  reviewed_at DATETIME(3) NULL,
+  created_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+  updated_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3),
+  KEY idx_chem_q_status (status),
+  KEY idx_chem_q_type (qtype)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- ========== 涓庝笓椤?鍒嗙被鍏宠仈 ==========
+CREATE TABLE IF NOT EXISTS chem_entity_specialties (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  entity_type VARCHAR(32) NOT NULL COMMENT 'element|substance|reaction|experiment|formula|concept|knowledge|question',
+  entity_id BIGINT UNSIGNED NOT NULL,
+  specialty_id BIGINT UNSIGNED NOT NULL,
+  UNIQUE KEY uk_chem_ent_spec (entity_type, entity_id, specialty_id),
+  KEY idx_chem_ent_spec_spec (specialty_id),
+  CONSTRAINT fk_chem_ent_spec_s FOREIGN KEY (specialty_id) REFERENCES chem_specialties(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_entity_categories (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  entity_type VARCHAR(32) NOT NULL,
+  entity_id BIGINT UNSIGNED NOT NULL,
+  category_id BIGINT UNSIGNED NOT NULL,
+  UNIQUE KEY uk_chem_ent_cat (entity_type, entity_id, category_id),
+  KEY idx_chem_ent_cat_cat (category_id),
+  CONSTRAINT fk_chem_ent_cat_c FOREIGN KEY (category_id) REFERENCES chem_categories(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- ========== 鐭ヨ瘑鐐逛笌鍚勫疄浣撳叧鑱?==========
+CREATE TABLE IF NOT EXISTS chem_kp_links (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  knowledge_point_id BIGINT UNSIGNED NOT NULL,
+  target_type VARCHAR(32) NOT NULL COMMENT 'element|substance|reaction|experiment|formula|concept|knowledge',
+  target_id BIGINT UNSIGNED NOT NULL,
+  UNIQUE KEY uk_chem_kp_link (knowledge_point_id, target_type, target_id),
+  KEY idx_chem_kp_link_tgt (target_type, target_id),
+  CONSTRAINT fk_chem_kp_link_kp FOREIGN KEY (knowledge_point_id) REFERENCES chem_knowledge_points(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_question_kps (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  question_id BIGINT UNSIGNED NOT NULL,
+  knowledge_point_id BIGINT UNSIGNED NOT NULL,
+  UNIQUE KEY uk_chem_q_kp (question_id, knowledge_point_id),
+  CONSTRAINT fk_chem_q_kp_q FOREIGN KEY (question_id) REFERENCES chem_questions(id) ON DELETE CASCADE,
+  CONSTRAINT fk_chem_q_kp_kp FOREIGN KEY (knowledge_point_id) REFERENCES chem_knowledge_points(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_reaction_substances (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  reaction_id BIGINT UNSIGNED NOT NULL,
+  substance_id BIGINT UNSIGNED NOT NULL,
+  UNIQUE KEY uk_chem_rxn_sub (reaction_id, substance_id),
+  CONSTRAINT fk_chem_rxn_sub_r FOREIGN KEY (reaction_id) REFERENCES chem_reactions(id) ON DELETE CASCADE,
+  CONSTRAINT fk_chem_rxn_sub_s FOREIGN KEY (substance_id) REFERENCES chem_substances(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_reaction_elements (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  reaction_id BIGINT UNSIGNED NOT NULL,
+  element_id BIGINT UNSIGNED NOT NULL,
+  UNIQUE KEY uk_chem_rxn_el (reaction_id, element_id),
+  CONSTRAINT fk_chem_rxn_el_r FOREIGN KEY (reaction_id) REFERENCES chem_reactions(id) ON DELETE CASCADE,
+  CONSTRAINT fk_chem_rxn_el_e FOREIGN KEY (element_id) REFERENCES chem_elements(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS chem_experiment_reactions (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,

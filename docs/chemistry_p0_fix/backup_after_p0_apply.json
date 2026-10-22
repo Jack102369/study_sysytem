@@ -1,0 +1,52 @@
+{
+  "appliedAt": "2026-10-18T04:04:18.984Z",
+  "kpAfter": [
+    {
+      "id": 14,
+      "name": "原子组成与三粒子",
+      "description": "原子组成：质子数=核电荷数=原子序数；质量数 A = 质子数 Z + 中子数 N（定义用等号，不是近似）；核外电子数=质子数（原子）。注意：质量数是整数，相对原子质量是加权平均值，二者不可混淆。离子的电子数随所带电荷变化。",
+      "status": "pending_review",
+      "reviewNote": "[inv:kp.structure.atom] | P0fix:质量数改用A=Z+N等号，区分相对原子质量"
+    }
+  ],
+  "fmAfter": [
+    {
+      "id": 7,
+      "name": "密度与浓度换算",
+      "expression": "c = 1000ρω/M",
+      "variables": "ρ:溶液密度；ω:溶质质量分数（小数）；M:溶质摩尔质量；c:物质的量浓度",
+      "units": "当 ρ 取 g/cm³（或 g/mL，二者数值相同）且 ω 为小数时：c 单位为 mol/L，M 单位为 g/mol。若密度改用 g/L，则公式改为 c = ρω/M（不再乘 1000）。",
+      "applicableConditions": "由溶液密度与溶质质量分数换算物质的量浓度；ω 必须用小数（如 98% 写作 0.98），不能直接代入百分数；ρ 与公式系数必须匹配（g/cm³ 用含 1000 的式，g/L 用不含 1000 的式）。",
+      "examples": "浓硫酸标签：ρ=1.84 g/cm³，ω=0.98，M(H2SO4)=98 g/mol，则 c=1000×1.84×0.98/98≈18.4 mol/L。",
+      "commonMistakes": "把 ω 直接写成 98；ρ 用 g/L 却仍乘 1000；混淆溶剂体积与溶液体积；把相对分子质量数值当摩尔质量却漏写单位 g/mol。",
+      "status": "pending_review",
+      "reviewNote": "[inv:formula.rho_c_M] P0已修:明确 ρ(g/cm³)+ω(小数)+1000 系数；g/L 时用 c=ρω/M"
+    }
+  ],
+  "rxAfter": [
+    {
+      "id": 1,
+      "name": "钠与水反应",
+      "oxidant": "H2O",
+      "reductant": "Na",
+      "oxProduct": "NaOH",
+      "reProduct": "H2",
+      "electronTransfer": "Na 失 1e-；H 得 1e-（按原子计）",
+      "status": "published"
+    }
+  ],
+  "validate": {
+    "kpEquals": true,
+    "kpNoApprox": true,
+    "kpDistinguishesAr": true,
+    "fmExpression": true,
+    "fmOmegaDecimal": true,
+    "fmGcm3": true,
+    "fmGLAlt": true,
+    "rxOxidant": true,
+    "rxReductant": true,
+    "rxOxProduct": true,
+    "rxReProduct": true,
+    "allPass": true
+  }
+}

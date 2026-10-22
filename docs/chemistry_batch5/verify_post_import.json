@@ -1,0 +1,632 @@
+{
+  "verifiedAt": "2026-10-18T06:14:19.750Z",
+  "planned": 42,
+  "mapped": 42,
+  "missing": 0,
+  "wrongStatus": 0,
+  "noInvTag": 8,
+  "specialtyLinkOk": 42,
+  "specialtyLinkMismatch": 0,
+  "paperChecks": [
+    {
+      "code": "exp.H2_prep_Zn",
+      "purpose": "书面分析题训练：分析Zn与稀硫酸制H2的发生装置、收集方法、验纯与安全判断；不要求也不允许实际操作。",
+      "home_forbidden_note": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+      "is_hazardous": 1
+    },
+    {
+      "code": "exp.instrument_basic",
+      "purpose": "书面分析题训练：识别试管、烧杯、量筒、酒精灯、漏斗、铁架台、集气瓶等常见仪器，并判断其主要用途与选用正误。",
+      "home_forbidden_note": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+      "is_hazardous": 0
+    },
+    {
+      "code": "exp.ops_volumetric_flask",
+      "purpose": "书面分析题训练：掌握配制一定物质的量浓度溶液时容量瓶定容步骤、误差阶段分析，并关联 c=n/V 计算。",
+      "home_forbidden_note": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+      "is_hazardous": 0
+    }
+  ],
+  "rows": [
+    {
+      "code": "exp.instrument_basic",
+      "type": "experiment",
+      "id": "17",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.ops_weigh",
+      "type": "experiment",
+      "id": "18",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.ops_dissolve",
+      "type": "experiment",
+      "id": "19",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.ops_filter",
+      "type": "experiment",
+      "id": "20",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.ops_evaporate",
+      "type": "experiment",
+      "id": "21",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.ops_distill",
+      "type": "experiment",
+      "id": "22",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.ops_extract",
+      "type": "experiment",
+      "id": "23",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.gas_collect_upward",
+      "type": "experiment",
+      "id": "24",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.gas_collect_downward",
+      "type": "experiment",
+      "id": "25",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.gas_collect_water",
+      "type": "experiment",
+      "id": "26",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.O2_prep_KMnO4",
+      "type": "experiment",
+      "id": "27",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.O2_prep_H2O2",
+      "type": "experiment",
+      "id": "28",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.H2_prep_Zn",
+      "type": "experiment",
+      "id": "29",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.CO2_prep_marble",
+      "type": "experiment",
+      "id": "30",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.check_airtight",
+      "type": "experiment",
+      "id": "31",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.safety_rules",
+      "type": "experiment",
+      "id": "32",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "formula.mixed_stoich",
+      "type": "formula",
+      "id": "13",
+      "status": "pending_review",
+      "specs": [
+        "calculation"
+      ],
+      "expectedSpecs": [
+        "calculation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "formula.excess_reactant",
+      "type": "formula",
+      "id": "14",
+      "status": "pending_review",
+      "specs": [
+        "calculation"
+      ],
+      "expectedSpecs": [
+        "calculation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "formula.purity",
+      "type": "formula",
+      "id": "15",
+      "status": "pending_review",
+      "specs": [
+        "calculation"
+      ],
+      "expectedSpecs": [
+        "calculation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "formula.ion_conc",
+      "type": "formula",
+      "id": "16",
+      "status": "pending_review",
+      "specs": [
+        "calculation"
+      ],
+      "expectedSpecs": [
+        "calculation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "kp.calc.stoich",
+      "type": "knowledge",
+      "id": "55",
+      "status": "pending_review",
+      "specs": [
+        "calculation"
+      ],
+      "expectedSpecs": [
+        "calculation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "kp.calc.excess",
+      "type": "knowledge",
+      "id": "56",
+      "status": "pending_review",
+      "specs": [
+        "calculation"
+      ],
+      "expectedSpecs": [
+        "calculation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "kp.calc.gas",
+      "type": "knowledge",
+      "id": "57",
+      "status": "pending_review",
+      "specs": [
+        "calculation"
+      ],
+      "expectedSpecs": [
+        "calculation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "kp.calc.solution",
+      "type": "knowledge",
+      "id": "58",
+      "status": "pending_review",
+      "specs": [
+        "calculation"
+      ],
+      "expectedSpecs": [
+        "calculation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "kp.exp.design",
+      "type": "knowledge",
+      "id": "59",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "kp.exp.error",
+      "type": "knowledge",
+      "id": "60",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "q.calc.amount_basic",
+      "type": "question",
+      "id": "2",
+      "status": "pending_review",
+      "specs": [
+        "calculation"
+      ],
+      "expectedSpecs": [
+        "calculation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "q.calc.concentration",
+      "type": "question",
+      "id": "3",
+      "status": "pending_review",
+      "specs": [
+        "calculation"
+      ],
+      "expectedSpecs": [
+        "calculation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "q.calc.equation",
+      "type": "question",
+      "id": "4",
+      "status": "pending_review",
+      "specs": [
+        "equation"
+      ],
+      "expectedSpecs": [
+        "equation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "q.calc.excess",
+      "type": "question",
+      "id": "5",
+      "status": "pending_review",
+      "specs": [
+        "calculation"
+      ],
+      "expectedSpecs": [
+        "calculation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "q.exp.instrument",
+      "type": "question",
+      "id": "6",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "q.exp.gas_collect",
+      "type": "question",
+      "id": "7",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "q.exp.safety",
+      "type": "question",
+      "id": "8",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "q.eq.balance",
+      "type": "question",
+      "id": "9",
+      "status": "pending_review",
+      "specs": [
+        "equation"
+      ],
+      "expectedSpecs": [
+        "equation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "kp.exp.gas_wash_dry",
+      "type": "knowledge",
+      "id": "61",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.ops_volumetric_flask",
+      "type": "experiment",
+      "id": "33",
+      "status": "pending_review",
+      "specs": [
+        "calculation",
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment",
+        "calculation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.ops_burette",
+      "type": "experiment",
+      "id": "34",
+      "status": "pending_review",
+      "specs": [
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "exp.flame_test",
+      "type": "experiment",
+      "id": "35",
+      "status": "pending_review",
+      "specs": [
+        "experiment",
+        "memory",
+        "substance"
+      ],
+      "expectedSpecs": [
+        "experiment",
+        "substance",
+        "memory"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "formula.rate_v",
+      "type": "formula",
+      "id": "17",
+      "status": "pending_review",
+      "specs": [
+        "calculation"
+      ],
+      "expectedSpecs": [
+        "calculation"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "kp.rate.factors",
+      "type": "knowledge",
+      "id": "62",
+      "status": "pending_review",
+      "specs": [
+        "comprehensive",
+        "experiment"
+      ],
+      "expectedSpecs": [
+        "experiment",
+        "comprehensive"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "concept.reversible",
+      "type": "concept",
+      "id": "26",
+      "status": "pending_review",
+      "specs": [
+        "equation",
+        "memory"
+      ],
+      "expectedSpecs": [
+        "equation",
+        "memory"
+      ],
+      "specMatch": true,
+      "ok": true
+    },
+    {
+      "code": "kp.extent.le_chatelier_basic",
+      "type": "knowledge",
+      "id": "63",
+      "status": "pending_review",
+      "specs": [
+        "comprehensive"
+      ],
+      "expectedSpecs": [
+        "comprehensive"
+      ],
+      "specMatch": true,
+      "ok": true
+    }
+  ],
+  "basicCheckPassed": true,
+  "note": "基础覆盖检查通过 ≠ 专项质量审查通过 ≠ 人工审核"
+}

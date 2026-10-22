@@ -1,0 +1,293 @@
+{
+  "items": [
+    {
+      "type": "substance",
+      "data": {
+        "name": "甲烷",
+        "canonicalFormula": "CH4",
+        "commonNames": "沼气主要成分、天然气主要成分（了解）",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "难溶于水",
+        "physicalProps": "无色无味气体（纯）；密度比空气小；极易燃烧。分子为正四面体结构，碳原子位于中心，四个氢原子位于顶点，键角约109°28′。",
+        "chemicalProps": "最简单烷烃。稳定，一般不与强酸强碱、强氧化剂反应（常温）。可发生取代反应：光照下与Cl2逐步取代，可生成CH3Cl、CH2Cl2、CHCl3、CCl4等多种氯代产物及HCl，不得把某一种氯代物写成唯一产物。可燃烧生成CO2和H2O。",
+        "commonUses": "燃料；有机化工原料（了解）。",
+        "testMethods": "可燃性；与氯气光照取代（现象：黄绿色褪去、油状液滴等，题设）；结合来源题设判断。",
+        "storageMethods": "气瓶或管道输送；远离火源；通风。",
+        "safetyNotes": "易燃易爆；与空气混合遇火源有爆炸危险；禁止家用制取与点燃实验。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.CH4] 正四面体;取代多种氯代产物勿写唯一"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "name": "乙烯",
+        "canonicalFormula": "C2H4",
+        "commonNames": "乙烯",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "难溶于水",
+        "physicalProps": "无色气体，略带气味；密度与空气接近（题设为准）。结构简式CH2=CH2，含碳碳双键。",
+        "chemicalProps": "不饱和烃代表。易发生加成反应（如与Br2、H2、H2O等）。可使酸性KMnO4溶液褪色（被氧化，产物随条件变化，不指定唯一氧化产物）。可燃烧。可发生加聚反应生成聚乙烯（了解）。",
+        "commonUses": "石化重要原料；制聚乙烯、乙醇等（了解）。",
+        "testMethods": "使溴水（或Br2的CCl4溶液）褪色；使酸性KMnO4褪色（与饱和烃对比，题设）。",
+        "storageMethods": "钢瓶或现制；远离火源。",
+        "safetyNotes": "易燃；实验室制取涉及浓硫酸加热等危险操作，仅书面分析，禁止家用。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.C2H4] 结构简式CH2=CH2;KMnO4褪色不指定唯一氧化产物"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "name": "乙烷",
+        "canonicalFormula": "C2H6",
+        "commonNames": "乙烷",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "难溶于水",
+        "physicalProps": "无色气体；结构简式CH3CH3（或CH3−CH3），饱和烷烃。",
+        "chemicalProps": "烷烃通性：较稳定；可发生取代（如与Cl2光照，了解）；可燃烧。一般不能使溴水或酸性KMnO4因加成/氧化而明显褪色（与乙烯对比）。可由乙烯加氢得到。",
+        "commonUses": "燃料与化工原料（了解）。",
+        "testMethods": "与乙烯对比：通常不能使溴水/酸性KMnO4因不饱和性而褪色（题设条件）。",
+        "storageMethods": "气瓶；远离火源。",
+        "safetyNotes": "易燃；禁止家用危险实验。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.C2H6] batch6导入 pending_review id=64"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "name": "乙醇",
+        "canonicalFormula": "C2H5OH",
+        "commonNames": "酒精",
+        "color": "无色",
+        "stateLabel": "液",
+        "solubility": "与水任意比互溶",
+        "physicalProps": "无色透明有特殊气味的液体；易挥发；密度小于水。结构简式CH3CH2OH，官能团为羟基（−OH）。",
+        "chemicalProps": "可燃烧：C2H5OH+3O2→2CO2+3H2O。催化氧化（Cu或Ag作催化剂、加热）：2CH3CH2OH+O2→2CH3CHO+2H2O（教材常见写法）。与乙酸在浓硫酸催化加热下发生酯化。羟基氢可与活泼金属反应（了解/题设）。",
+        "commonUses": "燃料、溶剂、消毒、饮料与化工原料（了解）。",
+        "testMethods": "燃烧；催化氧化时铜丝由黑变红等现象（题设）；酯化香味（结合条件）。",
+        "storageMethods": "密封，远离火源；易燃液体规范存放。",
+        "safetyNotes": "易燃；禁止家用蒸馏或催化氧化危险操作；本系统仅书面训练。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.C2H5OH] 官能团羟基;催化氧化条件须写清Cu/Ag加热"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "name": "乙酸",
+        "canonicalFormula": "CH3COOH",
+        "commonNames": "醋酸、古称醋酸",
+        "color": "无色",
+        "stateLabel": "液",
+        "solubility": "与水互溶",
+        "physicalProps": "无色有刺激性酸味的液体；纯乙酸低温可凝成冰状（冰醋酸，了解）。官能团为羧基（−COOH）。",
+        "chemicalProps": "弱酸，具酸的通性：使紫色石蕊变红；与活泼金属、碱、碱性氧化物、某些盐反应。酸性强于碳酸：可与Na2CO3反应放出CO2。与乙醇酯化生成乙酸乙酯。",
+        "commonUses": "食醋主要成分（稀）；有机合成与溶剂（了解）。",
+        "testMethods": "酸性（石蕊）；与Na2CO3产生使澄清石灰水变浑浊的气体；酯化实验现象（题设）。",
+        "storageMethods": "密封；腐蚀性试剂规范存放。",
+        "safetyNotes": "浓乙酸有腐蚀性与刺激性；禁止家用危险实验。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.CH3COOH] 弱酸;羧基;酸性强于碳酸"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "name": "乙酸乙酯",
+        "canonicalFormula": "CH3COOCH2CH3",
+        "commonNames": "醋酸乙酯；亦可写作CH3COOC2H5",
+        "color": "无色",
+        "stateLabel": "液",
+        "solubility": "难溶于水，密度比水小（了解/题设）",
+        "physicalProps": "无色液体，有特殊香味。结构简式CH3COOCH2CH3或CH3COOC2H5，属酯类。",
+        "chemicalProps": "由乙酸与乙醇在浓硫酸催化、加热下酯化生成（可逆）。在水中溶解度小，常浮于上层；可用于认识酯的物理性质与酯化实验现象。水解等深度按教材题设，勿默认展开复杂机理。",
+        "commonUses": "溶剂、香料等（了解）。",
+        "testMethods": "酯化产物有香味；难溶于水、油状液体浮于水面（题设装置）。",
+        "storageMethods": "密封，远离火源。",
+        "safetyNotes": "易燃有机液体；酯化实验仅书面分析，禁止家用。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.CH3COOCH2CH3] 可写CH3COOCH2CH3或CH3COOC2H5"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "name": "乙炔",
+        "canonicalFormula": "C2H2",
+        "commonNames": "电石气（粗乙炔，了解）",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "微溶于水（了解）",
+        "physicalProps": "无色气体；结构简式HC≡CH，含碳碳三键。",
+        "chemicalProps": "不饱和烃。可发生加成、燃烧等（深度以所用必修教材为准）。可使溴水、酸性KMnO4褪色（与不饱和性相关，题设）。实验室由电石与水制取等属了解/题设。",
+        "commonUses": "焊接气焰、有机合成原料（了解）。",
+        "testMethods": "不饱和性褪色实验（题设）；燃烧火焰等（了解）。",
+        "storageMethods": "钢瓶或现制；远离火源。",
+        "safetyNotes": "易燃易爆；电石反应放热，禁止家用制取。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.C2H2] curriculumScope:必修了解/待核实深度;结构HC≡CH;勿默认深度选修炔烃训练"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "name": "丙烷",
+        "canonicalFormula": "C3H8",
+        "commonNames": "丙烷",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "难溶于水",
+        "physicalProps": "无色气体；烷烃同系物，分子式C3H8。",
+        "chemicalProps": "烷烃通性：可燃烧；可发生取代（了解）。用于认识同系物通式CnH2n+2及同系物比较。",
+        "commonUses": "液化石油气组分、燃料（了解）。",
+        "testMethods": "燃烧；与不饱和烃对比（题设）。",
+        "storageMethods": "液化气瓶；远离火源。",
+        "safetyNotes": "易燃易爆；禁止家用危险实验。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.C3H8] batch6导入 pending_review id=69"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "name": "苯",
+        "canonicalFormula": "C6H6",
+        "commonNames": "苯",
+        "color": "无色",
+        "stateLabel": "液",
+        "solubility": "难溶于水，易溶于有机溶剂（了解）",
+        "physicalProps": "无色有特殊气味的液体；有毒。分子具平面正六边形碳环结构（教材表述），结构较稳定。",
+        "chemicalProps": "必修层面：认识结构稳定、不易使溴水因加成而褪色、不易被酸性KMnO4氧化褪色等对比结论（以所用教材为准）。芳香取代等深度属选修，不得作为默认高一训练核心。",
+        "commonUses": "有机溶剂与化工原料（了解）。",
+        "testMethods": "与烯烃对比：溴水/KMnO4褪色行为不同（题设，勿超纲展开机理）。",
+        "storageMethods": "密封，远离火源；有毒试剂规范管理。",
+        "safetyNotes": "有毒、易燃；禁止家用接触与实验。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.C6H6] curriculumScope:必修了解结构稳定性;不要默认深度选修芳香取代训练;scope限了解"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch6",
+    "pack": "B6-A",
+    "inventoryCodes": [
+      "sub.CH4",
+      "sub.C2H4",
+      "sub.C2H6",
+      "sub.C2H5OH",
+      "sub.CH3COOH",
+      "sub.CH3COOCH2CH3",
+      "sub.C2H2",
+      "sub.C3H8",
+      "sub.C6H6"
+    ],
+    "specialtyByCode": {
+      "sub.CH4": [
+        "organic",
+        "substance"
+      ],
+      "sub.C2H4": [
+        "organic",
+        "substance"
+      ],
+      "sub.C2H6": [
+        "organic",
+        "substance"
+      ],
+      "sub.C2H5OH": [
+        "organic",
+        "substance"
+      ],
+      "sub.CH3COOH": [
+        "organic",
+        "substance"
+      ],
+      "sub.CH3COOCH2CH3": [
+        "organic",
+        "substance"
+      ],
+      "sub.C2H2": [
+        "organic",
+        "substance"
+      ],
+      "sub.C3H8": [
+        "organic",
+        "substance"
+      ],
+      "sub.C6H6": [
+        "organic",
+        "substance"
+      ]
+    },
+    "categoryByCode": {
+      "sub.CH4": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "sub.C2H4": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "sub.C2H6": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "sub.C2H5OH": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "sub.CH3COOH": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "sub.CH3COOCH2CH3": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "sub.C2H2": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "sub.C3H8": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "sub.C6H6": [
+        "organic.basic",
+        "substance.formula"
+      ]
+    }
+  }
+}

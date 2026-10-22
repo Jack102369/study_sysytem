@@ -1,0 +1,21 @@
+{
+  "planned": 91,
+  "seeded": 7,
+  "toImport": 84,
+  "packs": {
+    "B3-A": 29,
+    "B3-B": 32,
+    "B3-C": 7,
+    "B3-D": 16
+  },
+  "seededCodes": [
+    "sub.Na",
+    "sub.NaOH",
+    "sub.H2",
+    "sub.H2O",
+    "rxn.2Na_2H2O",
+    "exp.Na_H2O",
+    "kp.Na.property"
+  ],
+  "generatedAt": "2026-10-18T05:10:44.625Z"
+}

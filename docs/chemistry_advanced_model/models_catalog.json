@@ -1,0 +1,5323 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-19T13:06:47.951Z",
+  "curriculumScope": "高中化学必修（高一范围）；选择性必修标 HOLD/风险",
+  "statusEnum": [
+    "READY",
+    "NEEDS_ENGINE",
+    "HOLD"
+  ],
+  "summary": {
+    "modelCount": 45,
+    "statusCount": {
+      "READY": 38,
+      "NEEDS_ENGINE": 3,
+      "HOLD": 4
+    },
+    "sampleCount": {
+      "raise": 38,
+      "challenge": 30
+    },
+    "bySpecialty": {
+      "calculation": 8,
+      "redox": 7,
+      "ion": 6,
+      "experiment": 6,
+      "inference": 6,
+      "comprehensive": 6,
+      "equation": 1,
+      "substance": 1,
+      "periodic": 1,
+      "structure": 1,
+      "organic": 1,
+      "memory": 1
+    },
+    "priorityBatch1ModelIds": [
+      "ADV.calculation.001",
+      "ADV.calculation.002",
+      "ADV.calculation.003",
+      "ADV.calculation.004",
+      "ADV.calculation.005",
+      "ADV.calculation.006",
+      "ADV.calculation.008",
+      "ADV.redox.001",
+      "ADV.redox.002",
+      "ADV.redox.003",
+      "ADV.redox.004",
+      "ADV.redox.007",
+      "ADV.ion.001",
+      "ADV.ion.002",
+      "ADV.ion.003",
+      "ADV.ion.005",
+      "ADV.ion.006",
+      "ADV.experiment.001",
+      "ADV.experiment.002",
+      "ADV.experiment.003",
+      "ADV.experiment.004",
+      "ADV.experiment.005",
+      "ADV.inference.001",
+      "ADV.inference.002",
+      "ADV.inference.003",
+      "ADV.inference.004",
+      "ADV.inference.006",
+      "ADV.comprehensive.001",
+      "ADV.comprehensive.002",
+      "ADV.comprehensive.003",
+      "ADV.comprehensive.004",
+      "ADV.comprehensive.005"
+    ],
+    "priorityBatch1Ready": [
+      "ADV.calculation.001",
+      "ADV.calculation.002",
+      "ADV.calculation.003",
+      "ADV.calculation.004",
+      "ADV.calculation.005",
+      "ADV.calculation.006",
+      "ADV.calculation.008",
+      "ADV.redox.001",
+      "ADV.redox.002",
+      "ADV.redox.003",
+      "ADV.redox.004",
+      "ADV.redox.007",
+      "ADV.ion.001",
+      "ADV.ion.002",
+      "ADV.ion.003",
+      "ADV.ion.005",
+      "ADV.ion.006",
+      "ADV.experiment.001",
+      "ADV.experiment.002",
+      "ADV.experiment.003",
+      "ADV.experiment.004",
+      "ADV.experiment.005",
+      "ADV.inference.001",
+      "ADV.inference.002",
+      "ADV.inference.003",
+      "ADV.inference.004",
+      "ADV.inference.006",
+      "ADV.comprehensive.001",
+      "ADV.comprehensive.002",
+      "ADV.comprehensive.003",
+      "ADV.comprehensive.004",
+      "ADV.comprehensive.005"
+    ],
+    "needsEngineIds": [
+      "ADV.redox.006",
+      "ADV.experiment.006",
+      "ADV.comprehensive.006"
+    ],
+    "holdIds": [
+      "ADV.calculation.007",
+      "ADV.redox.005",
+      "ADV.ion.004",
+      "ADV.inference.005"
+    ]
+  },
+  "batch500Plan": {
+    "raiseTarget": 350,
+    "challengeTarget": 150,
+    "quotas": {
+      "calculation": 100,
+      "redox": 90,
+      "ion": 70,
+      "experiment": 70,
+      "inference": 80,
+      "comprehensive": 90
+    },
+    "productionOrder": [
+      "ADV.calculation.001-006,008 (READY first)",
+      "ADV.redox.001-004,007",
+      "ADV.ion.001-003,005-006",
+      "ADV.experiment.001-005",
+      "ADV.inference.001-004,006",
+      "ADV.comprehensive.001-005",
+      "Then NEEDS_ENGINE after numeric/equation grading ready",
+      "HOLD only after science review gate"
+    ]
+  },
+  "models": [
+    {
+      "id": "ADV.calculation.001",
+      "name": "物质的量—质量与微粒数换算",
+      "specialtyCode": "calculation",
+      "specialtyName": "化学计算",
+      "categoryCodes": [
+        "amount"
+      ],
+      "knowledgePoints": [
+        "n=m/M",
+        "N=n·NA"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "两步量关系",
+        "单位追踪"
+      ],
+      "stemStructure": "给纯净物质量→求n或粒子数",
+      "variableConditions": [
+        "物质",
+        "所求目标"
+      ],
+      "reasoningSteps": [
+        "求n",
+        "再求N或反推"
+      ],
+      "breakthrough": "先统一到物质的量",
+      "coreMethods": [
+        "关系式法"
+      ],
+      "commonErrors": [
+        "M用错",
+        "把原子数当分子数"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ],
+        "note": "开放数值需numeric"
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "改所求",
+          "改物质"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同物质同所求仅改数字=低价值重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "以单选包装即可生产",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "18 g H₂O 中水分子数目约为（NA为阿伏加德罗常数的值）",
+          "options": [
+            {
+              "key": "A",
+              "text": "NA"
+            },
+            {
+              "key": "B",
+              "text": "2NA"
+            },
+            {
+              "key": "C",
+              "text": "0.5NA"
+            },
+            {
+              "key": "D",
+              "text": "18NA"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "n=18/18=1 mol",
+            "N=n·NA=NA"
+          ],
+          "coreMethod": "先求n再求微粒数",
+          "commonMistakes": [
+            "误选2NA"
+          ],
+          "knowledgePoints": [
+            "n=m/M",
+            "N=n·NA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.calculation.002",
+      "name": "方程式计量—已知反应物求产物",
+      "specialtyCode": "calculation",
+      "specialtyName": "化学计算",
+      "categoryCodes": [
+        "amount"
+      ],
+      "knowledgePoints": [
+        "化学计量数",
+        "n与m换算"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "计量比",
+        "多步衔接"
+      ],
+      "stemStructure": "明确反应+已知量→求另一物质质量",
+      "variableConditions": [
+        "反应",
+        "已知/所求对调",
+        "纯度"
+      ],
+      "reasoningSteps": [
+        "已知→n",
+        "按系数换算",
+        "求目标"
+      ],
+      "breakthrough": "全部换成n再按系数比",
+      "coreMethods": [
+        "物质的量桥梁"
+      ],
+      "commonErrors": [
+        "质量比当物质的量比"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ],
+        "note": "开放填空NEEDS_ENGINE"
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "仅KB核实反应"
+      },
+      "variantDirections": {
+        "raise": [
+          "改反应",
+          "改求解目标"
+        ],
+        "challenge": [
+          "引入纯度"
+        ]
+      },
+      "dedupRules": [
+        "同反应同已知所求结构仅改数=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "单选形式READY；数值填空需引擎",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "2H₂+O₂=2H₂O。完全反应消耗4 g H₂时，生成水的质量为",
+          "options": [
+            {
+              "key": "A",
+              "text": "18 g"
+            },
+            {
+              "key": "B",
+              "text": "36 g"
+            },
+            {
+              "key": "C",
+              "text": "4 g"
+            },
+            {
+              "key": "D",
+              "text": "32 g"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "n(H₂)=2 mol",
+            "n(H₂O)=2 mol",
+            "m=36 g"
+          ],
+          "coreMethod": "物质的量桥梁",
+          "commonMistakes": [
+            "按质量1:1得4 g"
+          ],
+          "knowledgePoints": [
+            "方程式计算"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "同上反应。氢气样品纯度80%（杂质不反应），取样品5 g与足量O₂完全反应，生成水的质量最接近",
+          "options": [
+            {
+              "key": "A",
+              "text": "36 g"
+            },
+            {
+              "key": "B",
+              "text": "45 g"
+            },
+            {
+              "key": "C",
+              "text": "18 g"
+            },
+            {
+              "key": "D",
+              "text": "22.5 g"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "有效H₂=4 g",
+            "同raise得36 g"
+          ],
+          "coreMethod": "先纯度再计量",
+          "commonMistakes": [
+            "用5 g直接算45 g"
+          ],
+          "knowledgePoints": [
+            "纯度",
+            "方程式计算"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.calculation.003",
+      "name": "过量判断—限制反应物与产物/剩余",
+      "specialtyCode": "calculation",
+      "specialtyName": "化学计算",
+      "categoryCodes": [
+        "amount"
+      ],
+      "knowledgePoints": [
+        "过量判断",
+        "限制反应物"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "比较所需与所有",
+        "求剩余"
+      ],
+      "stemStructure": "两反应物量+反应→判断过量→求产物或剩余",
+      "variableConditions": [
+        "过量方",
+        "所求类型"
+      ],
+      "reasoningSteps": [
+        "算n",
+        "按系数比较",
+        "用不足量计算"
+      ],
+      "breakthrough": "先判断谁不足",
+      "coreMethods": [
+        "过量判断法"
+      ],
+      "commonErrors": [
+        "用过量物算产物"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "改过量方"
+        ],
+        "challenge": [
+          "求剩余气体"
+        ]
+      },
+      "dedupRules": [
+        "同反应同问题类型仅改数=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "2H₂+O₂=2H₂O。4 g H₂与16 g O₂混合点燃完全，生成水的质量为",
+          "options": [
+            {
+              "key": "A",
+              "text": "18 g"
+            },
+            {
+              "key": "B",
+              "text": "36 g"
+            },
+            {
+              "key": "C",
+              "text": "20 g"
+            },
+            {
+              "key": "D",
+              "text": "32 g"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "n(H₂)=2 mol，n(O₂)=0.5 mol",
+            "O₂不足",
+            "生成H₂O 1 mol=18 g"
+          ],
+          "coreMethod": "过量判断",
+          "commonMistakes": [
+            "用H₂算得36 g"
+          ],
+          "knowledgePoints": [
+            "过量判断"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "同上，反应后剩余气体的物质的量为",
+          "options": [
+            {
+              "key": "A",
+              "text": "0"
+            },
+            {
+              "key": "B",
+              "text": "1 mol"
+            },
+            {
+              "key": "C",
+              "text": "0.5 mol"
+            },
+            {
+              "key": "D",
+              "text": "2 mol"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "O₂不足0.5 mol耗H₂ 1 mol",
+            "剩余H₂=1 mol"
+          ],
+          "coreMethod": "过量判断+剩余",
+          "commonMistakes": [
+            "认为无剩余"
+          ],
+          "knowledgePoints": [
+            "过量判断",
+            "剩余量"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.calculation.004",
+      "name": "溶液浓度与稀释",
+      "specialtyCode": "calculation",
+      "specialtyName": "化学计算",
+      "categoryCodes": [
+        "concentration"
+      ],
+      "knowledgePoints": [
+        "c=n/V",
+        "稀释溶质守恒"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "定义应用",
+        "稀释守恒"
+      ],
+      "stemStructure": "给n、V或稀释数据→求c",
+      "variableConditions": [
+        "是否稀释",
+        "所求量"
+      ],
+      "reasoningSteps": [
+        "识别稀释",
+        "n守恒或n=cV",
+        "求解"
+      ],
+      "breakthrough": "稀释抓溶质n不变",
+      "coreMethods": [
+        "定义式",
+        "稀释守恒"
+      ],
+      "commonErrors": [
+        "mL未换L"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "改所求"
+        ],
+        "challenge": [
+          "先求浓再稀释"
+        ]
+      },
+      "dedupRules": [
+        "同结构仅改数=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "0.2 mol NaCl配成0.5 L溶液，浓度为",
+          "options": [
+            {
+              "key": "A",
+              "text": "0.1 mol·L⁻¹"
+            },
+            {
+              "key": "B",
+              "text": "0.2 mol·L⁻¹"
+            },
+            {
+              "key": "C",
+              "text": "0.4 mol·L⁻¹"
+            },
+            {
+              "key": "D",
+              "text": "0.5 mol·L⁻¹"
+            }
+          ],
+          "answer": "C",
+          "steps": [
+            "c=0.2/0.5=0.4"
+          ],
+          "coreMethod": "c=n/V",
+          "commonMistakes": [
+            "得0.2"
+          ],
+          "knowledgePoints": [
+            "物质的量浓度"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "100 mL 2.0 mol·L⁻¹ NaCl加水稀释至500 mL，稀释后浓度为",
+          "options": [
+            {
+              "key": "A",
+              "text": "0.2 mol·L⁻¹"
+            },
+            {
+              "key": "B",
+              "text": "0.4 mol·L⁻¹"
+            },
+            {
+              "key": "C",
+              "text": "1.0 mol·L⁻¹"
+            },
+            {
+              "key": "D",
+              "text": "2.0 mol·L⁻¹"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "n=0.1×2.0=0.2 mol",
+            "c=0.2/0.5=0.4"
+          ],
+          "coreMethod": "稀释守恒",
+          "commonMistakes": [
+            "体积单位错误"
+          ],
+          "knowledgePoints": [
+            "稀释"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.calculation.005",
+      "name": "气体摩尔体积（标准状况）",
+      "specialtyCode": "calculation",
+      "specialtyName": "化学计算",
+      "categoryCodes": [
+        "molar_volume"
+      ],
+      "knowledgePoints": [
+        "Vm≈22.4 L·mol⁻¹",
+        "适用条件"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "条件判断",
+        "V与n换算"
+      ],
+      "stemStructure": "标明标准状况→V与n换算",
+      "variableConditions": [
+        "所求V/n",
+        "气体种类"
+      ],
+      "reasoningSteps": [
+        "确认标况",
+        "用Vm换算"
+      ],
+      "breakthrough": "先确认能否用22.4",
+      "coreMethods": [
+        "气体摩尔体积关系"
+      ],
+      "commonErrors": [
+        "非标况仍用22.4"
+      ],
+      "grading": {
+        "modes": [
+          "single",
+          "judge"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": "必须写明标准状况"
+      },
+      "variantDirections": {
+        "raise": [
+          "改所求",
+          "结合质量"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同所求类型仅改气体数字=低价值"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "标准状况下，11.2 L O₂的物质的量为",
+          "options": [
+            {
+              "key": "A",
+              "text": "0.25 mol"
+            },
+            {
+              "key": "B",
+              "text": "0.5 mol"
+            },
+            {
+              "key": "C",
+              "text": "1 mol"
+            },
+            {
+              "key": "D",
+              "text": "2 mol"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "n=11.2/22.4=0.5 mol"
+          ],
+          "coreMethod": "V=n·Vm",
+          "commonMistakes": [
+            "得2 mol"
+          ],
+          "knowledgePoints": [
+            "气体摩尔体积"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.calculation.006",
+      "name": "质量守恒—体系质量差求逸出气体",
+      "specialtyCode": "calculation",
+      "specialtyName": "化学计算",
+      "categoryCodes": [
+        "amount"
+      ],
+      "knowledgePoints": [
+        "质量守恒"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "选守恒对象",
+        "交叉检验"
+      ],
+      "stemStructure": "反应前后总质量→求逸出气体质量",
+      "variableConditions": [
+        "数据给法",
+        "是否交叉用Vm"
+      ],
+      "reasoningSteps": [
+        "找不变/差值",
+        "对应物理量"
+      ],
+      "breakthrough": "逸出气体质量=反应前总质量−反应后总质量",
+      "coreMethods": [
+        "质量守恒"
+      ],
+      "commonErrors": [
+        "用22.4干扰"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "改数据"
+        ],
+        "challenge": [
+          "与Vm交叉判断"
+        ]
+      },
+      "dedupRules": [
+        "同差值结构仅改数=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "密闭称量体系中碳酸钙与足量稀盐酸反应。反应前总质量120.0 g，气体逸出后98.0 g。生成CO₂质量为",
+          "options": [
+            {
+              "key": "A",
+              "text": "12.0 g"
+            },
+            {
+              "key": "B",
+              "text": "22.0 g"
+            },
+            {
+              "key": "C",
+              "text": "22.4 g"
+            },
+            {
+              "key": "D",
+              "text": "44.0 g"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "120.0−98.0=22.0 g"
+          ],
+          "coreMethod": "质量守恒",
+          "commonMistakes": [
+            "选22.4 g"
+          ],
+          "knowledgePoints": [
+            "质量守恒"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "若该CO₂在标准状况下约为11.2 L，与质量22.0 g是否一致？",
+          "options": [
+            {
+              "key": "A",
+              "text": "一致：约0.5 mol，标况约11.2 L"
+            },
+            {
+              "key": "B",
+              "text": "不一致"
+            },
+            {
+              "key": "C",
+              "text": "任意气体11.2 L都是22 g"
+            },
+            {
+              "key": "D",
+              "text": "无法判断"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "22/44=0.5 mol",
+            "0.5×22.4=11.2 L"
+          ],
+          "coreMethod": "守恒与Vm交叉检验",
+          "commonMistakes": [
+            "选C"
+          ],
+          "knowledgePoints": [
+            "质量守恒",
+            "气体摩尔体积"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.calculation.007",
+      "name": "混合物组成—产物反推有效成分",
+      "specialtyCode": "calculation",
+      "specialtyName": "化学计算",
+      "categoryCodes": [
+        "amount"
+      ],
+      "knowledgePoints": [
+        "混合物",
+        "计量反推"
+      ],
+      "difficulties": [
+        "challenge"
+      ],
+      "abilities": [
+        "设未知",
+        "唯一性控制"
+      ],
+      "stemStructure": "混合物+足量试剂→气体质量→求质量分数",
+      "variableConditions": [
+        "组分对",
+        "观测量"
+      ],
+      "reasoningSteps": [
+        "确认只有一成分产气",
+        "反推n",
+        "求分数"
+      ],
+      "breakthrough": "观测量只对应有效成分",
+      "coreMethods": [
+        "产物反推"
+      ],
+      "commonErrors": [
+        "把总质量当有效成分"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "ai_assist",
+        "aiAssist": true
+      },
+      "scienceRisk": {
+        "level": "high",
+        "curriculum": "必修",
+        "notes": "须保证杂质不产同种气体且答案唯一"
+      },
+      "variantDirections": {
+        "raise": [],
+        "challenge": [
+          "改组分",
+          "改观测量"
+        ]
+      },
+      "dedupRules": [
+        "同组分同观测量结构仅改数=重复"
+      ],
+      "productionStatus": "HOLD",
+      "priorityBatch1": false,
+      "notes": "唯一性与干扰难自动保证，暂缓",
+      "samples": [
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "（样例·生产前须复核）Na₂CO₃与NaCl混合物10.6 g，与足量稀盐酸反应得CO₂ 2.2 g。Na₂CO₃质量分数最接近",
+          "options": [
+            {
+              "key": "A",
+              "text": "25%"
+            },
+            {
+              "key": "B",
+              "text": "50%"
+            },
+            {
+              "key": "C",
+              "text": "75%"
+            },
+            {
+              "key": "D",
+              "text": "100%"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "n(CO₂)=0.05 mol=n(Na₂CO₃)",
+            "m=5.3 g",
+            "5.3/10.6=50%"
+          ],
+          "coreMethod": "产物反推",
+          "commonMistakes": [
+            "100%"
+          ],
+          "knowledgePoints": [
+            "混合物计算"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.calculation.008",
+      "name": "实验数据表—称量差减求浓度",
+      "specialtyCode": "calculation",
+      "specialtyName": "化学计算",
+      "categoryCodes": [
+        "concentration",
+        "amount"
+      ],
+      "knowledgePoints": [
+        "数据读取",
+        "c=n/V"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "读表",
+        "筛选有效数据"
+      ],
+      "stemStructure": "给出称量/体积记录→计算c",
+      "variableConditions": [
+        "是否需差减",
+        "冗余数据"
+      ],
+      "reasoningSteps": [
+        "求溶质质量",
+        "求n",
+        "求c"
+      ],
+      "breakthrough": "先对应表头含义",
+      "coreMethods": [
+        "实验数据计算"
+      ],
+      "commonErrors": [
+        "未扣空皿质量"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": "书面题非实操"
+      },
+      "variantDirections": {
+        "raise": [
+          "直接给溶质质量"
+        ],
+        "challenge": [
+          "需差减+定容体积"
+        ]
+      },
+      "dedupRules": [
+        "同表结构同所求仅改数=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "溶质NaCl 5.85 g，定容0.250 L（M=58.5）。浓度为",
+          "options": [
+            {
+              "key": "A",
+              "text": "0.100 mol·L⁻¹"
+            },
+            {
+              "key": "B",
+              "text": "0.200 mol·L⁻¹"
+            },
+            {
+              "key": "C",
+              "text": "0.400 mol·L⁻¹"
+            },
+            {
+              "key": "D",
+              "text": "1.00 mol·L⁻¹"
+            }
+          ],
+          "answer": "C",
+          "steps": [
+            "n=0.100 mol",
+            "c=0.400"
+          ],
+          "coreMethod": "称量→n→c",
+          "commonMistakes": [
+            "得0.100"
+          ],
+          "knowledgePoints": [
+            "物质的量浓度"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "空烧杯50.00 g；加粗盐后55.85 g；定容0.250 L。按纯NaCl计浓度约为",
+          "options": [
+            {
+              "key": "A",
+              "text": "0.100 mol·L⁻¹"
+            },
+            {
+              "key": "B",
+              "text": "0.400 mol·L⁻¹"
+            },
+            {
+              "key": "C",
+              "text": "0.234 mol·L⁻¹"
+            },
+            {
+              "key": "D",
+              "text": "无法计算"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "溶质=5.85 g",
+            "同raise"
+          ],
+          "coreMethod": "差减得溶质质量",
+          "commonMistakes": [
+            "用55.85 g"
+          ],
+          "knowledgePoints": [
+            "实验数据",
+            "物质的量浓度"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.redox.001",
+      "name": "氧化还原识别—化合价升降综合判断",
+      "specialtyCode": "redox",
+      "specialtyName": "氧化还原反应",
+      "categoryCodes": [
+        "identify"
+      ],
+      "knowledgePoints": [
+        "化合价",
+        "氧化还原定义"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "标价",
+        "判断是否氧化还原"
+      ],
+      "stemStructure": "给反应或微粒变化→判断有无升降",
+      "variableConditions": [
+        "反应选择",
+        "设问角度"
+      ],
+      "reasoningSteps": [
+        "标关键元素化合价",
+        "看是否升降"
+      ],
+      "breakthrough": "先标价再下结论",
+      "coreMethods": [
+        "化合价分析法"
+      ],
+      "commonErrors": [
+        "把非氧化还原当氧化还原"
+      ],
+      "grading": {
+        "modes": [
+          "judge",
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "有机反应勿机械套用"
+      },
+      "variantDirections": {
+        "raise": [
+          "改反应",
+          "改问法"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同反应同问法=重复；仅改选项序不算新题"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "高于现有字段识别：要求学生自己标价",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "judge",
+          "stem": "反应 2Na + Cl₂ = 2NaCl 中，钠元素化合价升高，氯元素化合价降低，该反应属于氧化还原反应。判断正误。",
+          "options": null,
+          "answer": "正确",
+          "steps": [
+            "Na: 0→+1 升高",
+            "Cl: 0→−1 降低",
+            "有升降即为氧化还原"
+          ],
+          "coreMethod": "化合价升降法",
+          "commonMistakes": [
+            "认为复分解才是氧化还原"
+          ],
+          "knowledgePoints": [
+            "氧化还原识别"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.redox.002",
+      "name": "氧化剂还原剂—结合价变定位",
+      "specialtyCode": "redox",
+      "specialtyName": "氧化还原反应",
+      "categoryCodes": [
+        "oxidant",
+        "reductant"
+      ],
+      "knowledgePoints": [
+        "氧化剂",
+        "还原剂",
+        "得失去电子"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "对应氧化/还原剂",
+        "区分产物"
+      ],
+      "stemStructure": "给反应→指出氧化剂/还原剂或氧化/还原产物",
+      "variableConditions": [
+        "问氧化剂或还原剂",
+        "问产物"
+      ],
+      "reasoningSteps": [
+        "标价",
+        "降价方为氧化剂",
+        "升价方为还原剂"
+      ],
+      "breakthrough": "降价得电子→氧化剂",
+      "coreMethods": [
+        "化合价定位法"
+      ],
+      "commonErrors": [
+        "氧化剂还原剂颠倒",
+        "把产物当试剂"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "产物须符合真实反应"
+      },
+      "variantDirections": {
+        "raise": [
+          "改设问：试剂↔产物"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同反应同设问仅改措辞=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "反应 2Na + Cl₂ = 2NaCl 中，氧化剂是",
+          "options": [
+            {
+              "key": "A",
+              "text": "Na"
+            },
+            {
+              "key": "B",
+              "text": "Cl₂"
+            },
+            {
+              "key": "C",
+              "text": "NaCl"
+            },
+            {
+              "key": "D",
+              "text": "无法判断"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "Cl 化合价降低得电子",
+            "Cl₂ 为氧化剂"
+          ],
+          "coreMethod": "降价→氧化剂",
+          "commonMistakes": [
+            "选Na"
+          ],
+          "knowledgePoints": [
+            "氧化剂"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.redox.003",
+      "name": "电子转移数目—简单反应计数",
+      "specialtyCode": "redox",
+      "specialtyName": "氧化还原反应",
+      "categoryCodes": [
+        "e_conserve"
+      ],
+      "knowledgePoints": [
+        "电子转移",
+        "化合价变化×系数"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "计算转移电子",
+        "与计量系数结合"
+      ],
+      "stemStructure": "给反应→求转移电子总数或每摩某物转移数",
+      "variableConditions": [
+        "所求口径",
+        "反应"
+      ],
+      "reasoningSteps": [
+        "标价变",
+        "乘系数得总转移",
+        "注意问法"
+      ],
+      "breakthrough": "升降总数必须相等",
+      "coreMethods": [
+        "电子守恒核对"
+      ],
+      "commonErrors": [
+        "忘记乘系数",
+        "只算一侧"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "问总转移"
+        ],
+        "challenge": [
+          "问生成1 mol产物对应转移"
+        ]
+      },
+      "dedupRules": [
+        "同反应同问法仅改数=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "反应 2Na + Cl₂ = 2NaCl 中，转移电子的物质的量为",
+          "options": [
+            {
+              "key": "A",
+              "text": "1 mol"
+            },
+            {
+              "key": "B",
+              "text": "2 mol"
+            },
+            {
+              "key": "C",
+              "text": "3 mol"
+            },
+            {
+              "key": "D",
+              "text": "4 mol"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "2 mol Na 共失 2 mol e⁻",
+            "Cl₂ 得 2 mol e⁻"
+          ],
+          "coreMethod": "价变×系数",
+          "commonMistakes": [
+            "答1 mol"
+          ],
+          "knowledgePoints": [
+            "电子转移"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "同上反应，若生成 1 mol NaCl，转移电子的物质的量为",
+          "options": [
+            {
+              "key": "A",
+              "text": "0.5 mol"
+            },
+            {
+              "key": "B",
+              "text": "1 mol"
+            },
+            {
+              "key": "C",
+              "text": "2 mol"
+            },
+            {
+              "key": "D",
+              "text": "4 mol"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "方程式生成2 mol NaCl转移2 mol e⁻",
+            "生成1 mol NaCl对应1 mol e⁻"
+          ],
+          "coreMethod": "按产物比例缩放",
+          "commonMistakes": [
+            "仍答2 mol"
+          ],
+          "knowledgePoints": [
+            "电子转移",
+            "计量关系"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.redox.004",
+      "name": "电子守恒—配平思路选择题",
+      "specialtyCode": "redox",
+      "specialtyName": "氧化还原反应",
+      "categoryCodes": [
+        "e_conserve",
+        "identify"
+      ],
+      "knowledgePoints": [
+        "电子守恒",
+        "配平思想"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "用守恒确定系数关系"
+      ],
+      "stemStructure": "给未配平骨架或价变信息→选正确系数关系",
+      "variableConditions": [
+        "元素价态对",
+        "设问"
+      ],
+      "reasoningSteps": [
+        "算升/降电子",
+        "令相等得系数比"
+      ],
+      "breakthrough": "得失电子数相等定系数",
+      "coreMethods": [
+        "电子守恒配平"
+      ],
+      "commonErrors": [
+        "只配原子数忘电子"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": "optional"
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "不要求超纲配平技巧"
+      },
+      "variantDirections": {
+        "raise": [
+          "给价变求系数比"
+        ],
+        "challenge": [
+          "多元素价变需合并"
+        ]
+      },
+      "dedupRules": [
+        "同价变对同问法=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "开放写配平方程→NEEDS_ENGINE，本模型用选择",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "某氧化还原反应中，元素A由+2→+3，元素B由+5→+2。若只有这两种元素价变，则A、B原子计量数之比最合理的是",
+          "options": [
+            {
+              "key": "A",
+              "text": "1:1"
+            },
+            {
+              "key": "B",
+              "text": "3:1"
+            },
+            {
+              "key": "C",
+              "text": "1:3"
+            },
+            {
+              "key": "D",
+              "text": "2:3"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "A失1e⁻，B得3e⁻",
+            "3A~1B"
+          ],
+          "coreMethod": "电子守恒定比",
+          "commonMistakes": [
+            "选1:3颠倒"
+          ],
+          "knowledgePoints": [
+            "电子守恒"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "若同时还有元素C由0→−1（得电子），且已知B仍+5→+2，则在仅考虑B与C得电子、A失电子时，要先做什么？",
+          "options": [
+            {
+              "key": "A",
+              "text": "把B、C得电子合并再与A失电子守恒"
+            },
+            {
+              "key": "B",
+              "text": "只配平B与A"
+            },
+            {
+              "key": "C",
+              "text": "忽略C"
+            },
+            {
+              "key": "D",
+              "text": "任意系数均可"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "多氧化剂/还原剂时合并电子再守恒"
+          ],
+          "coreMethod": "多通道电子合并",
+          "commonMistakes": [
+            "只配一对"
+          ],
+          "knowledgePoints": [
+            "电子守恒"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.redox.005",
+      "name": "陌生信息—给出价态规则分析简单转化",
+      "specialtyCode": "redox",
+      "specialtyName": "氧化还原反应",
+      "categoryCodes": [
+        "identify",
+        "oxidant"
+      ],
+      "knowledgePoints": [
+        "信息迁移",
+        "氧化剂还原剂"
+      ],
+      "difficulties": [
+        "challenge"
+      ],
+      "abilities": [
+        "读新信息",
+        "迁移必修概念"
+      ],
+      "stemStructure": "题干给出陌生微粒价态/性质要点→判断氧化/还原行为",
+      "variableConditions": [
+        "信息内容",
+        "设问"
+      ],
+      "reasoningSteps": [
+        "提取价态信息",
+        "判断升降",
+        "对应概念"
+      ],
+      "breakthrough": "不要用超纲知识，只用题给信息+必修定义",
+      "coreMethods": [
+        "信息迁移"
+      ],
+      "commonErrors": [
+        "引入未给的选必机理"
+      ],
+      "grading": {
+        "modes": [
+          "single",
+          "judge"
+        ]
+      },
+      "generation": {
+        "primary": "ai_assist",
+        "aiAssist": true
+      },
+      "scienceRisk": {
+        "level": "high",
+        "curriculum": "必修",
+        "notes": "信息必须自洽且不超纲"
+      },
+      "variantDirections": {
+        "raise": [],
+        "challenge": [
+          "改信息角度"
+        ]
+      },
+      "dedupRules": [
+        "同信息骨架同设问=重复"
+      ],
+      "productionStatus": "HOLD",
+      "priorityBatch1": false,
+      "notes": "科学性与信息充分性需人工把关",
+      "samples": [
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "题给信息：某元素X在化合物中常见化合价为+2与+4。现有转化 X(+2)→X(+4)。该过程中X元素",
+          "options": [
+            {
+              "key": "A",
+              "text": "被氧化，作还原剂"
+            },
+            {
+              "key": "B",
+              "text": "被还原，作氧化剂"
+            },
+            {
+              "key": "C",
+              "text": "化合价不变"
+            },
+            {
+              "key": "D",
+              "text": "无法判断"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "+2→+4 升高失电子",
+            "被氧化，作还原剂"
+          ],
+          "coreMethod": "题给价态+定义",
+          "commonMistakes": [
+            "选B"
+          ],
+          "knowledgePoints": [
+            "氧化还原概念迁移"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.redox.006",
+      "name": "连续反应—电子转移关系追踪",
+      "specialtyCode": "redox",
+      "specialtyName": "氧化还原反应",
+      "categoryCodes": [
+        "e_conserve"
+      ],
+      "knowledgePoints": [
+        "多步反应",
+        "电子守恒"
+      ],
+      "difficulties": [
+        "challenge"
+      ],
+      "abilities": [
+        "跨反应追踪",
+        "守恒"
+      ],
+      "stemStructure": "两步反应共享中间价态→求总转移或试剂关系",
+      "variableConditions": [
+        "两步价态链"
+      ],
+      "reasoningSteps": [
+        "分步标价",
+        "看净转移",
+        "守恒"
+      ],
+      "breakthrough": "中间价态可能抵消，看净变化",
+      "coreMethods": [
+        "分步标价",
+        "净电子核算"
+      ],
+      "commonErrors": [
+        "把两步电子简单相加重复计算"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "ai_assist",
+        "aiAssist": true
+      },
+      "scienceRisk": {
+        "level": "high",
+        "curriculum": "必修",
+        "notes": "反应链须真实"
+      },
+      "variantDirections": {
+        "raise": [],
+        "challenge": [
+          "改中间价态"
+        ]
+      },
+      "dedupRules": [
+        "同价态链同设问=重复"
+      ],
+      "productionStatus": "NEEDS_ENGINE",
+      "priorityBatch1": false,
+      "notes": "生成与校验成本高，需样题人工审后再扩",
+      "samples": [
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "示意：某元素经历 0→+2→+4 两步氧化。若每步都失去相应电子，从0到+4净失去电子数为（对1 mol该原子）",
+          "options": [
+            {
+              "key": "A",
+              "text": "2 mol"
+            },
+            {
+              "key": "B",
+              "text": "4 mol"
+            },
+            {
+              "key": "C",
+              "text": "6 mol"
+            },
+            {
+              "key": "D",
+              "text": "8 mol"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "净价变+4",
+            "失4 mol e⁻"
+          ],
+          "coreMethod": "看净价变",
+          "commonMistakes": [
+            "把两步2+2再另加"
+          ],
+          "knowledgePoints": [
+            "电子转移"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.redox.007",
+      "name": "氧化产物还原产物—多选项辨析",
+      "specialtyCode": "redox",
+      "specialtyName": "氧化还原反应",
+      "categoryCodes": [
+        "oxidant",
+        "reductant"
+      ],
+      "knowledgePoints": [
+        "氧化产物",
+        "还原产物"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "产物归属"
+      ],
+      "stemStructure": "给反应→选氧化产物/还原产物",
+      "variableConditions": [
+        "问氧化或还原产物"
+      ],
+      "reasoningSteps": [
+        "定位试剂角色",
+        "对应产物"
+      ],
+      "breakthrough": "还原剂→氧化产物；氧化剂→还原产物",
+      "coreMethods": [
+        "角色-产物对应"
+      ],
+      "commonErrors": [
+        "产物名称对调"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "改设问"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同反应同设问=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "2Na+Cl₂=2NaCl 中，还原产物是",
+          "options": [
+            {
+              "key": "A",
+              "text": "Na"
+            },
+            {
+              "key": "B",
+              "text": "Cl₂"
+            },
+            {
+              "key": "C",
+              "text": "NaCl"
+            },
+            {
+              "key": "D",
+              "text": "无法判断"
+            }
+          ],
+          "answer": "C",
+          "steps": [
+            "Cl₂是氧化剂，其对应产物NaCl为还原产物"
+          ],
+          "coreMethod": "氧化剂→还原产物",
+          "commonMistakes": [
+            "选Na"
+          ],
+          "knowledgePoints": [
+            "还原产物"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.ion.001",
+      "name": "离子方程式正误—拆写与守恒检查",
+      "specialtyCode": "ion",
+      "specialtyName": "离子反应",
+      "categoryCodes": [
+        "ionic_correct",
+        "ionic_write"
+      ],
+      "knowledgePoints": [
+        "离子方程式书写规则",
+        "电荷守恒",
+        "原子守恒"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "识别拆写错误",
+        "守恒检查"
+      ],
+      "stemStructure": "给出离子方程式→判断正误或指出错误类型",
+      "variableConditions": [
+        "错误类型",
+        "反应"
+      ],
+      "reasoningSteps": [
+        "查是否该拆",
+        "查原子守恒",
+        "查电荷守恒"
+      ],
+      "breakthrough": "强酸强碱可溶盐拆，沉淀气体弱电解质不拆",
+      "coreMethods": [
+        "三查法"
+      ],
+      "commonErrors": [
+        "弱酸拆成离子",
+        "漏电荷"
+      ],
+      "grading": {
+        "modes": [
+          "judge",
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": "optional"
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "不做复杂水解平衡"
+      },
+      "variantDirections": {
+        "raise": [
+          "单一错误类型"
+        ],
+        "challenge": [
+          "复合错误需指出类型"
+        ]
+      },
+      "dedupRules": [
+        "同错误模板同反应=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "开放书写离子方程式→NEEDS_ENGINE；本模型用判断/选择",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "judge",
+          "stem": "盐酸与NaOH反应的离子方程式写成 H⁺+OH⁻=H₂O。判断正误。",
+          "options": null,
+          "answer": "正确",
+          "steps": [
+            "HCl、NaOH、NaCl均可拆",
+            "实质H⁺与OH⁻"
+          ],
+          "coreMethod": "拆写规则",
+          "commonMistakes": [
+            "写成分子方程式才对"
+          ],
+          "knowledgePoints": [
+            "离子方程式"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "下列离子方程式错误的是",
+          "options": [
+            {
+              "key": "A",
+              "text": "H⁺+OH⁻=H₂O"
+            },
+            {
+              "key": "B",
+              "text": "Ag⁺+Cl⁻=AgCl↓"
+            },
+            {
+              "key": "C",
+              "text": "CaCO₃+2H⁺=Ca²⁺+H₂O+CO₂↑"
+            },
+            {
+              "key": "D",
+              "text": "H₂CO₃+2OH⁻=CO₃²⁻+2H₂O（把H₂CO₃拆成2H⁺+CO₃²⁻后再写）"
+            }
+          ],
+          "answer": "D",
+          "steps": [
+            "H₂CO₃为弱酸不应先拆成离子再写该式的错误表述",
+            "正确应保留H₂CO₃分子"
+          ],
+          "coreMethod": "弱电解质不拆",
+          "commonMistakes": [
+            "误选C"
+          ],
+          "knowledgePoints": [
+            "离子方程式正误"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.ion.002",
+      "name": "离子共存—酸性/碱性条件",
+      "specialtyCode": "ion",
+      "specialtyName": "离子反应",
+      "categoryCodes": [
+        "coexist"
+      ],
+      "knowledgePoints": [
+        "离子共存",
+        "酸碱条件"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "条件约束下判断共存"
+      ],
+      "stemStructure": "给出离子组+溶液酸碱性→能否大量共存",
+      "variableConditions": [
+        "酸性/碱性/中性",
+        "离子组合"
+      ],
+      "reasoningSteps": [
+        "看条件",
+        "查两两是否反应",
+        "下结论"
+      ],
+      "breakthrough": "先应用题给酸碱条件再查反应",
+      "coreMethods": [
+        "条件+反应矩阵"
+      ],
+      "commonErrors": [
+        "忽略条件",
+        "漏掉弱酸根与H⁺"
+      ],
+      "grading": {
+        "modes": [
+          "single",
+          "judge"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "只用常见离子反应"
+      },
+      "variantDirections": {
+        "raise": [
+          "固定酸性"
+        ],
+        "challenge": [
+          "无色透明等附加条件"
+        ]
+      },
+      "dedupRules": [
+        "同离子组同条件=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "judge",
+          "stem": "在酸性溶液中，Fe³⁺与OH⁻可以大量共存。判断正误。",
+          "options": null,
+          "answer": "错误",
+          "steps": [
+            "酸性中H⁺大量，OH⁻不能大量存在",
+            "即便不论沉淀，条件已不允许"
+          ],
+          "coreMethod": "条件优先",
+          "commonMistakes": [
+            "只想Fe(OH)₃沉淀而忽略酸性定义"
+          ],
+          "knowledgePoints": [
+            "离子共存"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "某无色溶液中大量存在H⁺，下列离子组一定不能大量共存的是",
+          "options": [
+            {
+              "key": "A",
+              "text": "Na⁺、Cl⁻、K⁺"
+            },
+            {
+              "key": "B",
+              "text": "Na⁺、NO₃⁻、SO₄²⁻"
+            },
+            {
+              "key": "C",
+              "text": "Na⁺、HCO₃⁻、Cl⁻"
+            },
+            {
+              "key": "D",
+              "text": "K⁺、Cl⁻、Na⁺"
+            }
+          ],
+          "answer": "C",
+          "steps": [
+            "H⁺与HCO₃⁻反应",
+            "不能大量共存"
+          ],
+          "coreMethod": "酸性与弱酸根",
+          "commonMistakes": [
+            "忽略HCO₃⁻"
+          ],
+          "knowledgePoints": [
+            "离子共存",
+            "弱酸根"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.ion.003",
+      "name": "少量与过量—离子反应产物差异",
+      "specialtyCode": "ion",
+      "specialtyName": "离子反应",
+      "categoryCodes": [
+        "ionic_write",
+        "ionic_correct"
+      ],
+      "knowledgePoints": [
+        "少量过量",
+        "产物不同"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "按量书写不同离子式"
+      ],
+      "stemStructure": "明确少量/过量→选择正确离子方程式",
+      "variableConditions": [
+        "谁少量",
+        "碱与酸式盐等"
+      ],
+      "reasoningSteps": [
+        "确认少量方",
+        "按计量写产物"
+      ],
+      "breakthrough": "少量试剂完全反应，按少量计量",
+      "coreMethods": [
+        "定量书写"
+      ],
+      "commonErrors": [
+        "少量过量写反"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": "optional"
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "典型如Ca(OH)₂与CO₂"
+      },
+      "variantDirections": {
+        "raise": [
+          "二选一少量过量"
+        ],
+        "challenge": [
+          "连续两问"
+        ]
+      },
+      "dedupRules": [
+        "同体系同少量方=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "向Ca(OH)₂溶液中通入少量CO₂，正确的离子方程式倾向为",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ca²⁺+2OH⁻+CO₂=CaCO₃↓+H₂O"
+            },
+            {
+              "key": "B",
+              "text": "Ca²⁺+2OH⁻+2CO₂=Ca²⁺+2HCO₃⁻"
+            },
+            {
+              "key": "C",
+              "text": "OH⁻+CO₂=HCO₃⁻"
+            },
+            {
+              "key": "D",
+              "text": "无法反应"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "少量CO₂生成碳酸钙沉淀"
+          ],
+          "coreMethod": "少量试剂决定产物",
+          "commonMistakes": [
+            "写成过量生成HCO₃⁻"
+          ],
+          "knowledgePoints": [
+            "少量过量"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "若改为通入过量CO₂，更合理的是",
+          "options": [
+            {
+              "key": "A",
+              "text": "仍生成CaCO₃↓"
+            },
+            {
+              "key": "B",
+              "text": "最终主要得到Ca²⁺与HCO₃⁻"
+            },
+            {
+              "key": "C",
+              "text": "不反应"
+            },
+            {
+              "key": "D",
+              "text": "只生成H₂O"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "过量CO₂使碳酸钙转化为碳酸氢钙"
+          ],
+          "coreMethod": "过量改变产物",
+          "commonMistakes": [
+            "仍选沉淀"
+          ],
+          "knowledgePoints": [
+            "少量过量"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.ion.004",
+      "name": "反应先后—氧化性/结合力定性比较（必修范围）",
+      "specialtyCode": "ion",
+      "specialtyName": "离子反应",
+      "categoryCodes": [
+        "coexist"
+      ],
+      "knowledgePoints": [
+        "反应先后",
+        "常见离子反应"
+      ],
+      "difficulties": [
+        "challenge"
+      ],
+      "abilities": [
+        "定性排序"
+      ],
+      "stemStructure": "多种离子可能反应→判断优先沉淀/反应",
+      "variableConditions": [
+        "离子组合"
+      ],
+      "reasoningSteps": [
+        "列出可能反应",
+        "按已知规则排序"
+      ],
+      "breakthrough": "用教材常见顺序，不引入复杂平衡常数计算",
+      "coreMethods": [
+        "定性比较"
+      ],
+      "commonErrors": [
+        "引入Ksp计算超纲"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "ai_assist",
+        "aiAssist": true
+      },
+      "scienceRisk": {
+        "level": "high",
+        "curriculum": "必修边缘",
+        "notes": "避免Ksp定量"
+      },
+      "variantDirections": {
+        "raise": [],
+        "challenge": [
+          "改离子组"
+        ]
+      },
+      "dedupRules": [
+        "同离子组同问法=重复"
+      ],
+      "productionStatus": "HOLD",
+      "priorityBatch1": false,
+      "notes": "易滑向选必沉淀溶解平衡，暂缓",
+      "samples": [
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "（样例·须人工定序依据）溶液中同时有Ag⁺、Ba²⁺，滴加稀硫酸时首先明显生成的沉淀更可能是",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ag₂SO₄"
+            },
+            {
+              "key": "B",
+              "text": "BaSO₄"
+            },
+            {
+              "key": "C",
+              "text": "同时等量生成"
+            },
+            {
+              "key": "D",
+              "text": "无沉淀"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "BaSO₄为难溶硫酸盐典型沉淀，优先讨论Ba²⁺与SO₄²⁻"
+          ],
+          "coreMethod": "常见沉淀优先（定性）",
+          "commonMistakes": [
+            "选Ag₂SO₄"
+          ],
+          "knowledgePoints": [
+            "沉淀"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.ion.005",
+      "name": "离子反应与实验现象结合",
+      "specialtyCode": "ion",
+      "specialtyName": "离子反应",
+      "categoryCodes": [
+        "coexist"
+      ],
+      "knowledgePoints": [
+        "现象",
+        "离子反应"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "现象↔离子过程"
+      ],
+      "stemStructure": "给操作与现象→推断发生的离子反应或反之",
+      "variableConditions": [
+        "试剂",
+        "现象"
+      ],
+      "reasoningSteps": [
+        "由现象锁定产物",
+        "写离子实质"
+      ],
+      "breakthrough": "沉淀/气体/颜色对应关键离子",
+      "coreMethods": [
+        "现象反推"
+      ],
+      "commonErrors": [
+        "张冠李戴试剂"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "给现象选离子式"
+        ],
+        "challenge": [
+          "多步滴加现象链"
+        ]
+      },
+      "dedupRules": [
+        "同试剂同现象同设问=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "向AgNO₃溶液滴加稀盐酸，产生白色沉淀。该过程的离子方程式是",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ag⁺+Cl⁻=AgCl↓"
+            },
+            {
+              "key": "B",
+              "text": "Ag⁺+NO₃⁻=AgNO₃↓"
+            },
+            {
+              "key": "C",
+              "text": "H⁺+OH⁻=H₂O"
+            },
+            {
+              "key": "D",
+              "text": "无离子反应"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "白色沉淀为AgCl",
+            "实质Ag⁺与Cl⁻"
+          ],
+          "coreMethod": "现象对应离子",
+          "commonMistakes": [
+            "选B"
+          ],
+          "knowledgePoints": [
+            "离子反应",
+            "沉淀"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "某溶液滴加BaCl₂出现白色沉淀，再加足量稀硝酸沉淀不溶解。原溶液中最可能大量存在",
+          "options": [
+            {
+              "key": "A",
+              "text": "SO₄²⁻"
+            },
+            {
+              "key": "B",
+              "text": "CO₃²⁻"
+            },
+            {
+              "key": "C",
+              "text": "OH⁻"
+            },
+            {
+              "key": "D",
+              "text": "Na⁺"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "不溶于稀硝酸的钡盐沉淀指向硫酸钡",
+            "对应SO₄²⁻"
+          ],
+          "coreMethod": "沉淀溶解性鉴别",
+          "commonMistakes": [
+            "选CO₃²⁻（可溶）"
+          ],
+          "knowledgePoints": [
+            "离子检验"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.ion.006",
+      "name": "电解质与导电—条件分析",
+      "specialtyCode": "ion",
+      "specialtyName": "离子反应",
+      "categoryCodes": [
+        "electrolyte",
+        "nonelectrolyte"
+      ],
+      "knowledgePoints": [
+        "电解质",
+        "电离"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "概念辨析+简单情境"
+      ],
+      "stemStructure": "给物质状态/溶解情况→判断导电或电解质类别",
+      "variableConditions": [
+        "熔融/溶液",
+        "物质"
+      ],
+      "reasoningSteps": [
+        "是否有自由移动离子",
+        "下结论"
+      ],
+      "breakthrough": "电解质≠溶液一定导电的混淆要拆开",
+      "coreMethods": [
+        "定义拆分"
+      ],
+      "commonErrors": [
+        "金属单质当电解质"
+      ],
+      "grading": {
+        "modes": [
+          "judge",
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "改状态条件"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同物质同状态=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "judge",
+          "stem": "固体NaCl不导电，因此NaCl不是电解质。判断正误。",
+          "options": null,
+          "answer": "错误",
+          "steps": [
+            "电解质看能否在水溶液或熔融电离",
+            "固体不导电不否定其电解质身份"
+          ],
+          "coreMethod": "定义辨析",
+          "commonMistakes": [
+            "认为不导电就不是电解质"
+          ],
+          "knowledgePoints": [
+            "电解质"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.experiment.001",
+      "name": "实验操作正误—书面判断",
+      "specialtyCode": "experiment",
+      "specialtyName": "化学实验",
+      "categoryCodes": [
+        "safety",
+        "operation"
+      ],
+      "knowledgePoints": [
+        "基本操作",
+        "安全规范"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "识别错误操作",
+        "说明理由"
+      ],
+      "stemStructure": "描述操作→判断正误或选正确操作",
+      "variableConditions": [
+        "仪器",
+        "错误类型"
+      ],
+      "reasoningSteps": [
+        "识别关键动作",
+        "对照规范",
+        "结论"
+      ],
+      "breakthrough": "抓住“量取/加热/引流”等关键动作是否合规",
+      "coreMethods": [
+        "对照实验规范"
+      ],
+      "commonErrors": [
+        "凭感觉忽略安全"
+      ],
+      "grading": {
+        "modes": [
+          "judge",
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": "optional"
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": "书面题非实操"
+      },
+      "variantDirections": {
+        "raise": [
+          "改仪器与错误点"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同操作同错误点=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "judge",
+          "stem": "用嘴吸取移液管中的试剂是正确的取液操作。判断正误。",
+          "options": null,
+          "answer": "错误",
+          "steps": [
+            "应用洗耳球等工具",
+            "禁止用嘴吸取"
+          ],
+          "coreMethod": "安全规范对照",
+          "commonMistakes": [
+            "认为方便即可"
+          ],
+          "knowledgePoints": [
+            "实验安全",
+            "移液"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.experiment.002",
+      "name": "现象与结论—能否推出",
+      "specialtyCode": "experiment",
+      "specialtyName": "化学实验",
+      "categoryCodes": [
+        "phenomenon_judge",
+        "conclusion"
+      ],
+      "knowledgePoints": [
+        "实验现象",
+        "逻辑推理"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "现象→结论充分性"
+      ],
+      "stemStructure": "给操作+现象+结论→判断结论是否一定成立",
+      "variableConditions": [
+        "试剂",
+        "结论强度"
+      ],
+      "reasoningSteps": [
+        "现象可说明什么",
+        "是否有反例",
+        "判断"
+      ],
+      "breakthrough": "区分“可能”与“一定”",
+      "coreMethods": [
+        "充分性检验"
+      ],
+      "commonErrors": [
+        "把必要条件当充分"
+      ],
+      "grading": {
+        "modes": [
+          "judge",
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": "optional"
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "单一现象结论"
+        ],
+        "challenge": [
+          "多现象联合是否充分"
+        ]
+      },
+      "dedupRules": [
+        "同现象同结论=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "judge",
+          "stem": "某无色气体能使澄清石灰水变浑浊，因此该气体一定是二氧化碳。判断正误。",
+          "options": null,
+          "answer": "错误",
+          "steps": [
+            "SO₂等也可能使石灰水浑浊",
+            "不能唯一确定为CO₂"
+          ],
+          "coreMethod": "结论充分性",
+          "commonMistakes": [
+            "认为只有CO₂"
+          ],
+          "knowledgePoints": [
+            "气体检验"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "无色气体：①通入澄清石灰水变浑浊；②通入品红溶液褪色。对该气体最合理的判断是",
+          "options": [
+            {
+              "key": "A",
+              "text": "一定是CO₂"
+            },
+            {
+              "key": "B",
+              "text": "一定是SO₂"
+            },
+            {
+              "key": "C",
+              "text": "可能含SO₂，不能仅由此排除CO₂混有"
+            },
+            {
+              "key": "D",
+              "text": "一定是O₂"
+            }
+          ],
+          "answer": "C",
+          "steps": [
+            "品红褪色强烈指向SO₂",
+            "但混合物情形需更严谨表述",
+            "选最合理项C"
+          ],
+          "coreMethod": "多现象联合仍要谨慎唯一性",
+          "commonMistakes": [
+            "直接选B忽略混合物"
+          ],
+          "knowledgePoints": [
+            "气体鉴别"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.experiment.003",
+      "name": "装置与连接—气体制取书面分析",
+      "specialtyCode": "experiment",
+      "specialtyName": "化学实验",
+      "categoryCodes": [
+        "apparatus"
+      ],
+      "knowledgePoints": [
+        "发生装置",
+        "收集方法"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "选装置",
+        "连接顺序理由"
+      ],
+      "stemStructure": "给气体制取情境→选装置或连接顺序",
+      "variableConditions": [
+        "气体性质",
+        "发生条件"
+      ],
+      "reasoningSteps": [
+        "看反应物状态与条件",
+        "看密度/溶解性选收集"
+      ],
+      "breakthrough": "先定发生再定收集",
+      "coreMethods": [
+        "性质决定装置"
+      ],
+      "commonErrors": [
+        "忽略气体溶于水"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": "optional"
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "选收集方法"
+        ],
+        "challenge": [
+          "多装置排序"
+        ]
+      },
+      "dedupRules": [
+        "同气体同设问=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "实验室用锌与稀硫酸制氢气，气体收集方法通常采用",
+          "options": [
+            {
+              "key": "A",
+              "text": "排水法"
+            },
+            {
+              "key": "B",
+              "text": "向上排空气法"
+            },
+            {
+              "key": "C",
+              "text": "只能用向下排空气法且不能排水"
+            },
+            {
+              "key": "D",
+              "text": "用浓硫酸干燥后必须用向上排空气法"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "H₂难溶于水，常用排水法收集"
+          ],
+          "coreMethod": "溶解性决定收集",
+          "commonMistakes": [
+            "选向上排空气"
+          ],
+          "knowledgePoints": [
+            "氢气制取"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "制取并收集一瓶干燥氧气（KMnO₄加热），装置连接顺序的思考起点应是",
+          "options": [
+            {
+              "key": "A",
+              "text": "先考虑收集再考虑发生"
+            },
+            {
+              "key": "B",
+              "text": "先发生装置，再除杂/干燥，再收集，最后尾气（若需要）"
+            },
+            {
+              "key": "C",
+              "text": "任意顺序"
+            },
+            {
+              "key": "D",
+              "text": "只需要收集装置"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "气体制取通用逻辑：发生→处理→收集"
+          ],
+          "coreMethod": "连接顺序总原则",
+          "commonMistakes": [
+            "先收集后发生"
+          ],
+          "knowledgePoints": [
+            "装置连接"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.experiment.004",
+      "name": "步骤排序—书面流程题",
+      "specialtyCode": "experiment",
+      "specialtyName": "化学实验",
+      "categoryCodes": [
+        "procedure"
+      ],
+      "knowledgePoints": [
+        "实验步骤逻辑"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "排序",
+        "因果"
+      ],
+      "stemStructure": "打乱步骤→选正确顺序",
+      "variableConditions": [
+        "实验主题"
+      ],
+      "reasoningSteps": [
+        "找必须先后关系",
+        "排除矛盾序"
+      ],
+      "breakthrough": "先做有依赖的步骤（如先检查气密性）",
+      "coreMethods": [
+        "依赖排序"
+      ],
+      "commonErrors": [
+        "加热后再检查气密性"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": "optional"
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "4步排序"
+        ],
+        "challenge": [
+          "含可并行步骤的干扰"
+        ]
+      },
+      "dedupRules": [
+        "同实验同步骤集合=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "用固态试剂加热制气体时，下列顺序最合理的是",
+          "options": [
+            {
+              "key": "A",
+              "text": "加热→装药品→检查气密性"
+            },
+            {
+              "key": "B",
+              "text": "检查气密性→装药品→加热"
+            },
+            {
+              "key": "C",
+              "text": "装药品→加热→检查气密性"
+            },
+            {
+              "key": "D",
+              "text": "加热→检查气密性→装药品"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "先保证装置气密，再装药加热"
+          ],
+          "coreMethod": "气密性优先",
+          "commonMistakes": [
+            "选A"
+          ],
+          "knowledgePoints": [
+            "实验步骤"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "若步骤中还有“连接导气管到收集装置”，它通常应在",
+          "options": [
+            {
+              "key": "A",
+              "text": "加热之后再连接"
+            },
+            {
+              "key": "B",
+              "text": "加热前完成装置连接与气密检查相关准备"
+            },
+            {
+              "key": "C",
+              "text": "收集满后再连接"
+            },
+            {
+              "key": "D",
+              "text": "可随时连接不影响"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "加热前装置应就绪"
+          ],
+          "coreMethod": "流程依赖",
+          "commonMistakes": [
+            "加热后再连"
+          ],
+          "knowledgePoints": [
+            "实验步骤"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.experiment.005",
+      "name": "误差来源—称量与体积读数",
+      "specialtyCode": "experiment",
+      "specialtyName": "化学实验",
+      "categoryCodes": [
+        "error_analysis"
+      ],
+      "knowledgePoints": [
+        "误差方向",
+        "天平/量筒"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "判断结果偏大偏小"
+      ],
+      "stemStructure": "指出某错误操作→对测定值影响方向",
+      "variableConditions": [
+        "测定目标",
+        "错误类型"
+      ],
+      "reasoningSteps": [
+        "错误如何影响读数",
+        "代入公式看趋势"
+      ],
+      "breakthrough": "把错误映射到公式中的量变大还是变小",
+      "coreMethods": [
+        "误差传导分析"
+      ],
+      "commonErrors": [
+        "方向判断反了"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "单一误差"
+        ],
+        "challenge": [
+          "两误差综合"
+        ]
+      },
+      "dedupRules": [
+        "同测定同错误=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "用天平称量固体时，砝码与药品放反（左码右物，且用了游码），称得质量值通常",
+          "options": [
+            {
+              "key": "A",
+              "text": "偏大"
+            },
+            {
+              "key": "B",
+              "text": "偏小"
+            },
+            {
+              "key": "C",
+              "text": "无影响"
+            },
+            {
+              "key": "D",
+              "text": "无法判断"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "放反且用游码时读数偏小（经典结论）"
+          ],
+          "coreMethod": "天平误差规则",
+          "commonMistakes": [
+            "选偏大"
+          ],
+          "knowledgePoints": [
+            "称量误差"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "配制一定物质的量浓度溶液：定容时俯视刻度线，所配溶液浓度将",
+          "options": [
+            {
+              "key": "A",
+              "text": "偏高"
+            },
+            {
+              "key": "B",
+              "text": "偏低"
+            },
+            {
+              "key": "C",
+              "text": "不变"
+            },
+            {
+              "key": "D",
+              "text": "无法判断"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "俯视使溶液体积偏小",
+            "c=n/V 中V偏小→c偏高"
+          ],
+          "coreMethod": "误差代入定义式",
+          "commonMistakes": [
+            "选偏低"
+          ],
+          "knowledgePoints": [
+            "溶液配制误差"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.experiment.006",
+      "name": "方案评价—控制变量与对照",
+      "specialtyCode": "experiment",
+      "specialtyName": "化学实验",
+      "categoryCodes": [
+        "evaluation"
+      ],
+      "knowledgePoints": [
+        "实验设计",
+        "对照"
+      ],
+      "difficulties": [
+        "challenge"
+      ],
+      "abilities": [
+        "评价方案合理性"
+      ],
+      "stemStructure": "给出方案→指出缺陷或改进",
+      "variableConditions": [
+        "探究目的"
+      ],
+      "reasoningSteps": [
+        "明确目的",
+        "看变量是否唯一",
+        "评价"
+      ],
+      "breakthrough": "一次只改变一个关键因素",
+      "coreMethods": [
+        "控制变量法"
+      ],
+      "commonErrors": [
+        "多因素同时改变"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "ai_assist",
+        "aiAssist": true
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "避免复杂仪器超纲"
+      },
+      "variantDirections": {
+        "raise": [],
+        "challenge": [
+          "改探究目的"
+        ]
+      },
+      "dedupRules": [
+        "同目的同缺陷=重复"
+      ],
+      "productionStatus": "NEEDS_ENGINE",
+      "priorityBatch1": false,
+      "notes": "开放评价表述需更强调选择题干；生成质量控制要求高",
+      "samples": [
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "探究温度对反应速率的影响时，下列方案最不合理的是",
+          "options": [
+            {
+              "key": "A",
+              "text": "其他条件相同，只改变温度"
+            },
+            {
+              "key": "B",
+              "text": "同时改变温度和浓度"
+            },
+            {
+              "key": "C",
+              "text": "记录相同时间内产物生成量作比较"
+            },
+            {
+              "key": "D",
+              "text": "做重复实验减小偶然误差"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "同时改两个变量无法归因"
+          ],
+          "coreMethod": "控制变量",
+          "commonMistakes": [
+            "认为多改变更全面"
+          ],
+          "knowledgePoints": [
+            "实验设计"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.inference.001",
+      "name": "现象推断物质—单条件唯一化",
+      "specialtyCode": "inference",
+      "specialtyName": "化学推断",
+      "categoryCodes": [
+        "color",
+        "phenomenon"
+      ],
+      "knowledgePoints": [
+        "特征现象",
+        "物质鉴别"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "由现象锁定物质"
+      ],
+      "stemStructure": "给充分特征现象→推断物质",
+      "variableConditions": [
+        "现象组合",
+        "候选集合"
+      ],
+      "reasoningSteps": [
+        "列出可能",
+        "用特征排除",
+        "唯一确定"
+      ],
+      "breakthrough": "找“只对应一种物质”的特征",
+      "coreMethods": [
+        "排除法"
+      ],
+      "commonErrors": [
+        "特征不足仍下唯一结论"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "必须答案唯一"
+      },
+      "variantDirections": {
+        "raise": [
+          "改候选集"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同现象同答案=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "某固体溶于水得蓝色溶液，滴加NaOH产生蓝色沉淀。该固体最可能含",
+          "options": [
+            {
+              "key": "A",
+              "text": "Cu²⁺"
+            },
+            {
+              "key": "B",
+              "text": "Fe²⁺"
+            },
+            {
+              "key": "C",
+              "text": "Fe³⁺"
+            },
+            {
+              "key": "D",
+              "text": "Al³⁺"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "蓝色溶液+蓝色沉淀指向Cu(OH)₂",
+            "对应Cu²⁺"
+          ],
+          "coreMethod": "特征颜色锁定",
+          "commonMistakes": [
+            "选Fe³⁺（红褐色）"
+          ],
+          "knowledgePoints": [
+            "离子颜色",
+            "沉淀颜色"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.inference.002",
+      "name": "转化关系框图—单线推断",
+      "specialtyCode": "inference",
+      "specialtyName": "化学推断",
+      "categoryCodes": [
+        "transformation"
+      ],
+      "knowledgePoints": [
+        "物质转化",
+        "反应关系"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "读框图",
+        "逐步锁定"
+      ],
+      "stemStructure": "A→B→C 转化条件→推断字母物质",
+      "variableConditions": [
+        "转化链",
+        "已知突破口"
+      ],
+      "reasoningSteps": [
+        "找突破口物质",
+        "顺推/逆推",
+        "验证全链"
+      ],
+      "breakthrough": "从特征条件最多的节点入手",
+      "coreMethods": [
+        "突破口法"
+      ],
+      "commonErrors": [
+        "中途不验证导致多解"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": "optional"
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "框图须唯一解"
+      },
+      "variantDirections": {
+        "raise": [
+          "短链+强突破口"
+        ],
+        "challenge": [
+          "支链干扰需验证"
+        ]
+      },
+      "dedupRules": [
+        "同框图同问字母=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "转化：CaCO₃ --高温--> A(气体) --通入澄清石灰水--> 变浑浊。A是",
+          "options": [
+            {
+              "key": "A",
+              "text": "CO₂"
+            },
+            {
+              "key": "B",
+              "text": "O₂"
+            },
+            {
+              "key": "C",
+              "text": "H₂"
+            },
+            {
+              "key": "D",
+              "text": "N₂"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "碳酸钙高温分解产生CO₂",
+            "CO₂使石灰水浑浊"
+          ],
+          "coreMethod": "突破口+验证",
+          "commonMistakes": [
+            "选O₂"
+          ],
+          "knowledgePoints": [
+            "碳酸盐分解",
+            "CO₂性质"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "A(气体)既能支持燃烧，又能使带火星木条复燃。则A最可能是",
+          "options": [
+            {
+              "key": "A",
+              "text": "O₂"
+            },
+            {
+              "key": "B",
+              "text": "CO₂"
+            },
+            {
+              "key": "C",
+              "text": "N₂"
+            },
+            {
+              "key": "D",
+              "text": "H₂"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "复燃是O₂特征"
+          ],
+          "coreMethod": "特征现象突破口",
+          "commonMistakes": [
+            "选H₂"
+          ],
+          "knowledgePoints": [
+            "氧气性质"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.inference.003",
+      "name": "多条件联合推断—交叉约束",
+      "specialtyCode": "inference",
+      "specialtyName": "化学推断",
+      "categoryCodes": [
+        "multi_condition"
+      ],
+      "knowledgePoints": [
+        "多条件约束",
+        "排除法"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "信息整合"
+      ],
+      "stemStructure": "给出2～3条独立条件→唯一确定物质/离子",
+      "variableConditions": [
+        "条件集合"
+      ],
+      "reasoningSteps": [
+        "每条条件缩小集合",
+        "求交"
+      ],
+      "breakthrough": "先用最强条件缩小范围",
+      "coreMethods": [
+        "交集法"
+      ],
+      "commonErrors": [
+        "条件未用尽导致多解"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": "optional"
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "生成时必须验证唯一解"
+      },
+      "variantDirections": {
+        "raise": [
+          "两条件"
+        ],
+        "challenge": [
+          "三条件含一条干扰冗余"
+        ]
+      },
+      "dedupRules": [
+        "同条件集合同答案=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "某阳离子：①溶液呈浅绿色；②加NaOH先白色沉淀后变灰绿。该离子最可能是",
+          "options": [
+            {
+              "key": "A",
+              "text": "Fe²⁺"
+            },
+            {
+              "key": "B",
+              "text": "Fe³⁺"
+            },
+            {
+              "key": "C",
+              "text": "Cu²⁺"
+            },
+            {
+              "key": "D",
+              "text": "Al³⁺"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "浅绿+氢氧化亚铁氧化变色指向Fe²⁺"
+          ],
+          "coreMethod": "条件交集",
+          "commonMistakes": [
+            "选Fe³⁺"
+          ],
+          "knowledgePoints": [
+            "Fe²⁺检验"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "另加条件③：与KSCN无明显血红色。对上题结论",
+          "options": [
+            {
+              "key": "A",
+              "text": "支持Fe²⁺而非Fe³⁺"
+            },
+            {
+              "key": "B",
+              "text": "支持Fe³⁺"
+            },
+            {
+              "key": "C",
+              "text": "无影响"
+            },
+            {
+              "key": "D",
+              "text": "否定一切铁盐"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "KSCN血红色是Fe³⁺特征，无明显则支持非Fe³⁺"
+          ],
+          "coreMethod": "追加条件验证",
+          "commonMistakes": [
+            "选B"
+          ],
+          "knowledgePoints": [
+            "Fe³⁺检验"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.inference.004",
+      "name": "元素推断—周期表位置与性质（必修）",
+      "specialtyCode": "inference",
+      "specialtyName": "化学推断",
+      "categoryCodes": [
+        "element"
+      ],
+      "knowledgePoints": [
+        "原子结构",
+        "主族通性(入门)"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "由结构推元素"
+      ],
+      "stemStructure": "给质子数/最外层电子等→推元素或性质",
+      "variableConditions": [
+        "给出的结构信息"
+      ],
+      "reasoningSteps": [
+        "定电子层结构",
+        "定位元素",
+        "答性质"
+      ],
+      "breakthrough": "先确定是哪一元素再谈性质",
+      "coreMethods": [
+        "结构定位法"
+      ],
+      "commonErrors": [
+        "超纲用选必能级细节"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "限主族常见元素"
+      },
+      "variantDirections": {
+        "raise": [
+          "给质子数推符号"
+        ],
+        "challenge": [
+          "给性质反推可能元素"
+        ]
+      },
+      "dedupRules": [
+        "同结构信息同问法=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "某原子质子数为11，该元素是",
+          "options": [
+            {
+              "key": "A",
+              "text": "Na"
+            },
+            {
+              "key": "B",
+              "text": "Mg"
+            },
+            {
+              "key": "C",
+              "text": "Al"
+            },
+            {
+              "key": "D",
+              "text": "Ne"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "质子数=原子序数=11→Na"
+          ],
+          "coreMethod": "质子数定位",
+          "commonMistakes": [
+            "选Mg"
+          ],
+          "knowledgePoints": [
+            "原子结构"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "某主族元素原子最外层电子数为1，且是短周期金属，与水反应生成碱和氢气。该元素最可能是",
+          "options": [
+            {
+              "key": "A",
+              "text": "Na"
+            },
+            {
+              "key": "B",
+              "text": "Cl"
+            },
+            {
+              "key": "C",
+              "text": "C"
+            },
+            {
+              "key": "D",
+              "text": "Ne"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "IA短周期金属且与水反应→Na（或Li，选项中为Na）"
+          ],
+          "coreMethod": "性质反推",
+          "commonMistakes": [
+            "选Cl"
+          ],
+          "knowledgePoints": [
+            "碱金属通性入门"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.inference.005",
+      "name": "陌生信息推断—必须答案唯一",
+      "specialtyCode": "inference",
+      "specialtyName": "化学推断",
+      "categoryCodes": [
+        "multi_condition"
+      ],
+      "knowledgePoints": [
+        "信息迁移"
+      ],
+      "difficulties": [
+        "challenge"
+      ],
+      "abilities": [
+        "只用题给信息推理"
+      ],
+      "stemStructure": "给新定义/新反应信息→推断结果",
+      "variableConditions": [
+        "信息包"
+      ],
+      "reasoningSteps": [
+        "提取规则",
+        "应用到实例",
+        "得唯一结论"
+      ],
+      "breakthrough": "禁止引入题外超纲知识",
+      "coreMethods": [
+        "信息约束推理"
+      ],
+      "commonErrors": [
+        "题外知识造成多解"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "ai_assist",
+        "aiAssist": true
+      },
+      "scienceRisk": {
+        "level": "high",
+        "curriculum": "必修",
+        "notes": "多解风险高"
+      },
+      "variantDirections": {
+        "raise": [],
+        "challenge": [
+          "改信息规则"
+        ]
+      },
+      "dedupRules": [
+        "同信息规则同实例=重复"
+      ],
+      "productionStatus": "HOLD",
+      "priorityBatch1": false,
+      "notes": "答案唯一性难自动保证",
+      "samples": [
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "题给：若定义“活泼金属M与酸反应生成盐和氢气”。已知M能与稀盐酸反应产生气体。则该气体一定是",
+          "options": [
+            {
+              "key": "A",
+              "text": "H₂"
+            },
+            {
+              "key": "B",
+              "text": "O₂"
+            },
+            {
+              "key": "C",
+              "text": "CO₂"
+            },
+            {
+              "key": "D",
+              "text": "无法由题给定义确定"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "按题给定义产物为氢气"
+          ],
+          "coreMethod": "严格按题给定义",
+          "commonMistakes": [
+            "引入其他反应可能产物"
+          ],
+          "knowledgePoints": [
+            "信息推断"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.inference.006",
+      "name": "实验流程推断—分离提纯逻辑",
+      "specialtyCode": "inference",
+      "specialtyName": "化学推断",
+      "categoryCodes": [
+        "lab_inference"
+      ],
+      "knowledgePoints": [
+        "过滤",
+        "蒸发",
+        "除杂逻辑"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "流程目的推断"
+      ],
+      "stemStructure": "给分离步骤→推断目的或下一步",
+      "variableConditions": [
+        "混合物类型"
+      ],
+      "reasoningSteps": [
+        "看每步改变什么",
+        "对应分离原理"
+      ],
+      "breakthrough": "溶解性/沸点差异决定操作",
+      "coreMethods": [
+        "分离原理匹配"
+      ],
+      "commonErrors": [
+        "过滤与蒸发颠倒目的"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "问某步目的"
+        ],
+        "challenge": [
+          "选完整流程"
+        ]
+      },
+      "dedupRules": [
+        "同混合物同流程问法=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "从食盐溶液得到食盐固体，关键操作是",
+          "options": [
+            {
+              "key": "A",
+              "text": "蒸发结晶"
+            },
+            {
+              "key": "B",
+              "text": "蒸馏"
+            },
+            {
+              "key": "C",
+              "text": "升华"
+            },
+            {
+              "key": "D",
+              "text": "过滤（无需蒸发）"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "可溶性固体从溶液析出用蒸发结晶"
+          ],
+          "coreMethod": "分离方法匹配",
+          "commonMistakes": [
+            "选过滤"
+          ],
+          "knowledgePoints": [
+            "蒸发"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "泥沙与食盐初步分离后，要得到较纯食盐溶液，合理顺序更接近",
+          "options": [
+            {
+              "key": "A",
+              "text": "溶解→过滤→蒸发"
+            },
+            {
+              "key": "B",
+              "text": "蒸发→过滤→溶解"
+            },
+            {
+              "key": "C",
+              "text": "过滤→不溶解直接食用"
+            },
+            {
+              "key": "D",
+              "text": "只加热泥沙"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "先溶解食盐，过滤除泥沙，再蒸发得固体（问溶液则停在过滤后）"
+          ],
+          "coreMethod": "除杂流程",
+          "commonMistakes": [
+            "选B"
+          ],
+          "knowledgePoints": [
+            "过滤",
+            "溶解"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.comprehensive.001",
+      "name": "计算+氧化还原—计量与电子转移联合",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCodes": [
+        "basic",
+        "cross_calc_redox"
+      ],
+      "knowledgePoints": [
+        "方程式计算",
+        "电子转移"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "跨知识点衔接",
+        "选突破口"
+      ],
+      "stemStructure": "给反应与已知量→先求n再问转移电子",
+      "variableConditions": [
+        "反应",
+        "设问组合"
+      ],
+      "reasoningSteps": [
+        "完成计量",
+        "再算电子",
+        "回答"
+      ],
+      "breakthrough": "先算清楚物质的量，再谈电子",
+      "coreMethods": [
+        "分步综合"
+      ],
+      "commonErrors": [
+        "未求n直接猜电子"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "两问串联选一"
+        ],
+        "challenge": [
+          "加入过量判断再问电子"
+        ]
+      },
+      "dedupRules": [
+        "同反应同设问链仅改数=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "2Na+Cl₂=2NaCl。消耗2 mol Na完全反应时，转移电子为",
+          "options": [
+            {
+              "key": "A",
+              "text": "1 mol"
+            },
+            {
+              "key": "B",
+              "text": "2 mol"
+            },
+            {
+              "key": "C",
+              "text": "3 mol"
+            },
+            {
+              "key": "D",
+              "text": "4 mol"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "2 mol Na失2 mol e⁻"
+          ],
+          "coreMethod": "计量与电子衔接",
+          "commonMistakes": [
+            "答1 mol"
+          ],
+          "knowledgePoints": [
+            "电子转移",
+            "计量"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "同上反应，若Na过量、Cl₂为0.5 mol且完全反应，转移电子为",
+          "options": [
+            {
+              "key": "A",
+              "text": "0.5 mol"
+            },
+            {
+              "key": "B",
+              "text": "1 mol"
+            },
+            {
+              "key": "C",
+              "text": "2 mol"
+            },
+            {
+              "key": "D",
+              "text": "4 mol"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "以Cl₂ 0.5 mol计得1 mol e⁻"
+          ],
+          "coreMethod": "过量判断+电子",
+          "commonMistakes": [
+            "按Na算"
+          ],
+          "knowledgePoints": [
+            "过量",
+            "电子转移"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.comprehensive.002",
+      "name": "实验+物质性质—现象解释",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCodes": [
+        "basic",
+        "cross_exp_property"
+      ],
+      "knowledgePoints": [
+        "实验现象",
+        "物质性质"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "用性质解释现象"
+      ],
+      "stemStructure": "给实验操作与现象→选正确解释",
+      "variableConditions": [
+        "试剂",
+        "现象"
+      ],
+      "reasoningSteps": [
+        "确认现象",
+        "匹配性质",
+        "排除干扰"
+      ],
+      "breakthrough": "解释必须同时符合试剂与现象",
+      "coreMethods": [
+        "性质-现象对应"
+      ],
+      "commonErrors": [
+        "用错性质"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "改试剂现象对"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同试剂同现象同解释点=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "钠投入水中熔成小球并四处游动，主要因为",
+          "options": [
+            {
+              "key": "A",
+              "text": "钠密度小于水且反应放热使钠熔化，氢气推动"
+            },
+            {
+              "key": "B",
+              "text": "钠密度远大于水"
+            },
+            {
+              "key": "C",
+              "text": "钠不与水反应"
+            },
+            {
+              "key": "D",
+              "text": "生成氧气推动"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "密度小浮于水面",
+            "放热熔化",
+            "生成H₂推动"
+          ],
+          "coreMethod": "性质综合解释现象",
+          "commonMistakes": [
+            "选B"
+          ],
+          "knowledgePoints": [
+            "钠的性质"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.comprehensive.003",
+      "name": "离子反应+实验现象—鉴别综合",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCodes": [
+        "basic",
+        "cross_ion_exp"
+      ],
+      "knowledgePoints": [
+        "离子检验",
+        "实验现象"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "选择试剂",
+        "解释现象"
+      ],
+      "stemStructure": "要鉴别离子→选试剂与预期现象",
+      "variableConditions": [
+        "待检离子组"
+      ],
+      "reasoningSteps": [
+        "选特征试剂",
+        "预期现象",
+        "排除干扰"
+      ],
+      "breakthrough": "选现象差异最大的试剂",
+      "coreMethods": [
+        "鉴别设计"
+      ],
+      "commonErrors": [
+        "试剂无区分度"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": "optional"
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "二选一试剂"
+        ],
+        "challenge": [
+          "多种离子鉴别顺序"
+        ]
+      },
+      "dedupRules": [
+        "同离子组同试剂方案=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "鉴别Cl⁻与SO₄²⁻，选用试剂更合适的是",
+          "options": [
+            {
+              "key": "A",
+              "text": "AgNO₃溶液和稀硝酸"
+            },
+            {
+              "key": "B",
+              "text": "只加水"
+            },
+            {
+              "key": "C",
+              "text": "酚酞"
+            },
+            {
+              "key": "D",
+              "text": "石蕊"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "AgCl沉淀、Ag₂SO₄相对可溶或结合Ba²⁺更典型；选项中A可形成区分路径"
+          ],
+          "coreMethod": "沉淀鉴别",
+          "commonMistakes": [
+            "选指示剂"
+          ],
+          "knowledgePoints": [
+            "离子鉴别"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "若要确认白色沉淀是否为AgCl，下一步更合理的是",
+          "options": [
+            {
+              "key": "A",
+              "text": "观察是否溶于稀硝酸（AgCl不溶）"
+            },
+            {
+              "key": "B",
+              "text": "加热至沸腾即可确认"
+            },
+            {
+              "key": "C",
+              "text": "加水稀释必溶"
+            },
+            {
+              "key": "D",
+              "text": "无需验证"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "AgCl不溶于稀硝酸是重要判据"
+          ],
+          "coreMethod": "沉淀验证",
+          "commonMistakes": [
+            "选B"
+          ],
+          "knowledgePoints": [
+            "AgCl性质"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.comprehensive.004",
+      "name": "推断+方程式—转化中写关键反应类型",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCodes": [
+        "basic",
+        "cross_infer_eq"
+      ],
+      "knowledgePoints": [
+        "物质推断",
+        "反应类型"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "推断后归类反应"
+      ],
+      "stemStructure": "短转化→判断某步反应类型或产物",
+      "variableConditions": [
+        "转化链"
+      ],
+      "reasoningSteps": [
+        "推断物质",
+        "判断反应类型"
+      ],
+      "breakthrough": "先定物质再定类型",
+      "coreMethods": [
+        "推断+归类"
+      ],
+      "commonErrors": [
+        "未定物质就选类型"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "问产物"
+        ],
+        "challenge": [
+          "问反应类型+理由要点"
+        ]
+      },
+      "dedupRules": [
+        "同转化同设问=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "S燃烧生成SO₂。该反应属于",
+          "options": [
+            {
+              "key": "A",
+              "text": "化合反应且氧化还原反应"
+            },
+            {
+              "key": "B",
+              "text": "复分解反应"
+            },
+            {
+              "key": "C",
+              "text": "非氧化还原"
+            },
+            {
+              "key": "D",
+              "text": "只有物理变化"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "S+O₂→SO₂为化合",
+            "S、O化合价变化为氧化还原"
+          ],
+          "coreMethod": "类型双重判断",
+          "commonMistakes": [
+            "只看成化合忽略氧化还原"
+          ],
+          "knowledgePoints": [
+            "反应类型",
+            "氧化还原"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "若继续：SO₂→SO₃（催化氧化），关于该步正确的是",
+          "options": [
+            {
+              "key": "A",
+              "text": "S元素化合价升高，SO₂表现还原性"
+            },
+            {
+              "key": "B",
+              "text": "非氧化还原"
+            },
+            {
+              "key": "C",
+              "text": "S化合价降低"
+            },
+            {
+              "key": "D",
+              "text": "一定是复分解"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "SO₂中S为+4，SO₃中为+6，升高失电子，SO₂作还原剂"
+          ],
+          "coreMethod": "转化中的氧化还原分析",
+          "commonMistakes": [
+            "选C"
+          ],
+          "knowledgePoints": [
+            "氧化还原",
+            "硫的氧化物"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.comprehensive.005",
+      "name": "数据+文字—信息综合判断",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCodes": [
+        "basic",
+        "data_text"
+      ],
+      "knowledgePoints": [
+        "读表",
+        "概念应用"
+      ],
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "abilities": [
+        "筛选信息",
+        "综合判断"
+      ],
+      "stemStructure": "短表+文字条件→单选结论",
+      "variableConditions": [
+        "表内容",
+        "设问"
+      ],
+      "reasoningSteps": [
+        "读有效数据",
+        "结合概念",
+        "选结论"
+      ],
+      "breakthrough": "先丢掉无关数据",
+      "coreMethods": [
+        "信息筛选"
+      ],
+      "commonErrors": [
+        "被冗余数据误导"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": "optional"
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "表内直接计算"
+        ],
+        "challenge": [
+          "冗余列干扰"
+        ]
+      },
+      "dedupRules": [
+        "同表结构同结论=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "notes": "",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "表：样品质量10.0 g；碳元素质量2.4 g。若其余为杂质不含碳，样品中碳的质量分数为",
+          "options": [
+            {
+              "key": "A",
+              "text": "12%"
+            },
+            {
+              "key": "B",
+              "text": "24%"
+            },
+            {
+              "key": "C",
+              "text": "48%"
+            },
+            {
+              "key": "D",
+              "text": "76%"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "2.4/10.0=24%"
+          ],
+          "coreMethod": "质量分数定义",
+          "commonMistakes": [
+            "选12%"
+          ],
+          "knowledgePoints": [
+            "组成计算"
+          ]
+        },
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "同上另给“灰分3.0 g、水分0.5 g”。求碳质量分数时",
+          "options": [
+            {
+              "key": "A",
+              "text": "仍用碳质量/样品总质量"
+            },
+            {
+              "key": "B",
+              "text": "必须先减去灰分再算"
+            },
+            {
+              "key": "C",
+              "text": "水分必须计入碳"
+            },
+            {
+              "key": "D",
+              "text": "无法计算"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "题目求样品中碳的质量分数，分母仍为样品总质量"
+          ],
+          "coreMethod": "识别冗余信息",
+          "commonMistakes": [
+            "选B"
+          ],
+          "knowledgePoints": [
+            "信息筛选"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.comprehensive.006",
+      "name": "多知识点策略选择—先做什么",
+      "specialtyCode": "comprehensive",
+      "specialtyName": "化学综合训练",
+      "categoryCodes": [
+        "basic",
+        "strategy"
+      ],
+      "knowledgePoints": [
+        "解题策略",
+        "跨章概念"
+      ],
+      "difficulties": [
+        "challenge"
+      ],
+      "abilities": [
+        "选择突破口"
+      ],
+      "stemStructure": "复杂情境→选择第一步最合理分析",
+      "variableConditions": [
+        "情境类型"
+      ],
+      "reasoningSteps": [
+        "识别题型",
+        "选突破口",
+        "排除无效第一步"
+      ],
+      "breakthrough": "先定性/先守恒/先标价等策略匹配",
+      "coreMethods": [
+        "策略元认知"
+      ],
+      "commonErrors": [
+        "上来就硬算"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "ai_assist",
+        "aiAssist": true
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "策略题需人工润色"
+      },
+      "variantDirections": {
+        "raise": [],
+        "challenge": [
+          "不同情境匹配不同突破口"
+        ]
+      },
+      "dedupRules": [
+        "同情境同正确策略=重复"
+      ],
+      "productionStatus": "NEEDS_ENGINE",
+      "priorityBatch1": false,
+      "notes": "生成质量控制依赖人工，适合后期小样",
+      "samples": [
+        {
+          "difficulty": "challenge",
+          "qtype": "single",
+          "stem": "题干同时给出两反应物质量与氧化还原反应。求解产物质量时，第一步最合理的是",
+          "options": [
+            {
+              "key": "A",
+              "text": "先做过量判断，确定限制反应物"
+            },
+            {
+              "key": "B",
+              "text": "先随便用其中一个量计算"
+            },
+            {
+              "key": "C",
+              "text": "先求电子转移再忽略计量"
+            },
+            {
+              "key": "D",
+              "text": "先改写为离子方程式即可得质量"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "两量给定必须先判断限制反应物"
+          ],
+          "coreMethod": "策略选择",
+          "commonMistakes": [
+            "选B"
+          ],
+          "knowledgePoints": [
+            "过量判断",
+            "综合策略"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.equation.001",
+      "name": "方程式配平—原子守恒选择（规划）",
+      "specialtyCode": "equation",
+      "specialtyName": "化学方程式",
+      "categoryCodes": [
+        "balance"
+      ],
+      "knowledgePoints": [
+        "配平",
+        "原子守恒"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "配平思想"
+      ],
+      "stemStructure": "给未配平式→选系数",
+      "variableConditions": [
+        "反应"
+      ],
+      "reasoningSteps": [
+        "原子守恒试配"
+      ],
+      "breakthrough": "先配复杂微粒",
+      "coreMethods": [
+        "观察法配平"
+      ],
+      "commonErrors": [
+        "乱改化学式"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": "开放书写配平→NEEDS_ENGINE"
+      },
+      "variantDirections": {
+        "raise": [
+          "改反应"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同反应同问法=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": false,
+      "notes": "非本阶段重点，仅规划+1样例",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "配平 _Fe + _O₂ → _Fe₃O₄，氧的系数应为",
+          "options": [
+            {
+              "key": "A",
+              "text": "1"
+            },
+            {
+              "key": "B",
+              "text": "2"
+            },
+            {
+              "key": "C",
+              "text": "3"
+            },
+            {
+              "key": "D",
+              "text": "4"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "3Fe+2O₂=Fe₃O₄"
+          ],
+          "coreMethod": "原子守恒",
+          "commonMistakes": [
+            "选4"
+          ],
+          "knowledgePoints": [
+            "配平"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.substance.001",
+      "name": "性质比较—条件变化（规划）",
+      "specialtyCode": "substance",
+      "specialtyName": "化学物质性质",
+      "categoryCodes": [
+        "chem_property"
+      ],
+      "knowledgePoints": [
+        "通性",
+        "通性例外"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "性质迁移"
+      ],
+      "stemStructure": "给条件变化→判断性质是否仍成立",
+      "variableConditions": [
+        "物质",
+        "条件"
+      ],
+      "reasoningSteps": [
+        "回忆通性",
+        "看条件是否改变结论"
+      ],
+      "breakthrough": "条件是否触及反应发生前提",
+      "coreMethods": [
+        "条件敏感分析"
+      ],
+      "commonErrors": [
+        "忽略浓度/温度条件"
+      ],
+      "grading": {
+        "modes": [
+          "judge",
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "改条件"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同物质同条件=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": false,
+      "notes": "规划卡",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "judge",
+          "stem": "铜与稀盐酸在常温下剧烈反应放出氢气。判断正误。",
+          "options": null,
+          "answer": "错误",
+          "steps": [
+            "Cu在金属活动性顺序中H后，与稀盐酸不反应放H₂"
+          ],
+          "coreMethod": "活动性顺序",
+          "commonMistakes": [
+            "与锌混淆"
+          ],
+          "knowledgePoints": [
+            "金属与酸"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.periodic.001",
+      "name": "周期律—同主族递变（规划）",
+      "specialtyCode": "periodic",
+      "specialtyName": "元素周期表",
+      "categoryCodes": [
+        "trend"
+      ],
+      "knowledgePoints": [
+        "同主族递变"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "递变规律应用"
+      ],
+      "stemStructure": "给主族元素→比较半径/金属性等",
+      "variableConditions": [
+        "比较量"
+      ],
+      "reasoningSteps": [
+        "定位",
+        "用递变规律"
+      ],
+      "breakthrough": "同主族从上到下金属性增强等",
+      "coreMethods": [
+        "周期律"
+      ],
+      "commonErrors": [
+        "与同周期规律混淆"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "避免选必能级细节"
+      },
+      "variantDirections": {
+        "raise": [
+          "改比较对象"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同元素对同比较量=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": false,
+      "notes": "规划卡",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "同主族Na与K，金属性更强的是",
+          "options": [
+            {
+              "key": "A",
+              "text": "Na"
+            },
+            {
+              "key": "B",
+              "text": "K"
+            },
+            {
+              "key": "C",
+              "text": "相同"
+            },
+            {
+              "key": "D",
+              "text": "无法比较"
+            }
+          ],
+          "answer": "B",
+          "steps": [
+            "同主族从上到下金属性增强"
+          ],
+          "coreMethod": "同主族递变",
+          "commonMistakes": [
+            "选Na"
+          ],
+          "knowledgePoints": [
+            "周期律"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.structure.001",
+      "name": "原子组成—粒子关系（规划）",
+      "specialtyCode": "structure",
+      "specialtyName": "物质结构",
+      "categoryCodes": [
+        "atom_compose"
+      ],
+      "knowledgePoints": [
+        "质子",
+        "中子",
+        "电子"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "粒子数关系"
+      ],
+      "stemStructure": "给质量数与质子数→求中子等",
+      "variableConditions": [
+        "所求粒子"
+      ],
+      "reasoningSteps": [
+        "用定义关系计算"
+      ],
+      "breakthrough": "质量数=质子+中子",
+      "coreMethods": [
+        "定义式"
+      ],
+      "commonErrors": [
+        "质量数当质子数"
+      ],
+      "grading": {
+        "modes": [
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "改所求"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同核素同所求=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": false,
+      "notes": "规划卡",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "single",
+          "stem": "¹²C 的中子数为",
+          "options": [
+            {
+              "key": "A",
+              "text": "6"
+            },
+            {
+              "key": "B",
+              "text": "12"
+            },
+            {
+              "key": "C",
+              "text": "18"
+            },
+            {
+              "key": "D",
+              "text": "4"
+            }
+          ],
+          "answer": "A",
+          "steps": [
+            "质量数12，质子6，中子6"
+          ],
+          "coreMethod": "质量数关系",
+          "commonMistakes": [
+            "选12"
+          ],
+          "knowledgePoints": [
+            "原子组成"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.organic.001",
+      "name": "甲烷基本性质—必修范围（规划）",
+      "specialtyCode": "organic",
+      "specialtyName": "有机化学",
+      "categoryCodes": [
+        "basic"
+      ],
+      "knowledgePoints": [
+        "甲烷燃烧",
+        "取代概念入门"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "基本有机事实"
+      ],
+      "stemStructure": "给甲烷反应→判断类型/产物",
+      "variableConditions": [
+        "设问"
+      ],
+      "reasoningSteps": [
+        "回忆甲烷性质",
+        "作答"
+      ],
+      "breakthrough": "限必修甲烷内容，不扩展选必官能团",
+      "coreMethods": [
+        "事实识记+简单判断"
+      ],
+      "commonErrors": [
+        "引入乙烯等超范围"
+      ],
+      "grading": {
+        "modes": [
+          "judge",
+          "single"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "medium",
+        "curriculum": "必修",
+        "notes": "严格限甲烷"
+      },
+      "variantDirections": {
+        "raise": [
+          "燃烧/取代辨析"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同设问=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": false,
+      "notes": "规划卡；挑战暂缓防超纲",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "judge",
+          "stem": "甲烷在空气中点燃可生成二氧化碳和水。判断正误。",
+          "options": null,
+          "answer": "正确",
+          "steps": [
+            "甲烷燃烧通式产物CO₂与H₂O"
+          ],
+          "coreMethod": "甲烷燃烧事实",
+          "commonMistakes": [
+            "认为只生成碳"
+          ],
+          "knowledgePoints": [
+            "甲烷"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ADV.memory.001",
+      "name": "规律记忆—条件化判断（规划）",
+      "specialtyCode": "memory",
+      "specialtyName": "化学基础记忆",
+      "categoryCodes": [
+        "rules"
+      ],
+      "knowledgePoints": [
+        "化学规律"
+      ],
+      "difficulties": [
+        "raise"
+      ],
+      "abilities": [
+        "规律在条件下应用"
+      ],
+      "stemStructure": "给规律应用情境→判断正误",
+      "variableConditions": [
+        "规律条目"
+      ],
+      "reasoningSteps": [
+        "回忆规律",
+        "看条件"
+      ],
+      "breakthrough": "提高不是换数字背诵，而是加条件",
+      "coreMethods": [
+        "条件化记忆"
+      ],
+      "commonErrors": [
+        "绝对化规律"
+      ],
+      "grading": {
+        "modes": [
+          "judge"
+        ]
+      },
+      "generation": {
+        "primary": "local_rule",
+        "aiAssist": false
+      },
+      "scienceRisk": {
+        "level": "low",
+        "curriculum": "必修",
+        "notes": ""
+      },
+      "variantDirections": {
+        "raise": [
+          "加例外条件"
+        ],
+        "challenge": []
+      },
+      "dedupRules": [
+        "同规律同条件=重复"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": false,
+      "notes": "规划：记忆专项以提高“条件化”为主，不做挑战堆砌",
+      "samples": [
+        {
+          "difficulty": "raise",
+          "qtype": "judge",
+          "stem": "金属活动性顺序中，排在氢前的金属一定能与水剧烈反应放出氢气。判断正误。",
+          "options": null,
+          "answer": "错误",
+          "steps": [
+            "氢前金属与酸反应规律更直接；与水反应需额外条件，不能绝对化"
+          ],
+          "coreMethod": "规律适用范围",
+          "commonMistakes": [
+            "绝对化"
+          ],
+          "knowledgePoints": [
+            "金属活动性"
+          ]
+        }
+      ]
+    }
+  ]
+}

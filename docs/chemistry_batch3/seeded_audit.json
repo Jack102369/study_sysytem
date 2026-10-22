@@ -1,0 +1,16 @@
+{
+  "seededCount": 7,
+  "seededCodes": [
+    "sub.Na",
+    "sub.NaOH",
+    "sub.H2",
+    "sub.H2O",
+    "rxn.2Na_2H2O",
+    "exp.Na_H2O",
+    "kp.Na.property"
+  ],
+  "notes": [
+    "sub.Na/NaOH/H2/H2O、rxn.2Na_2H2O、exp.Na_H2O、kp.Na.property：阶段二已入库，本批复用，不重复导入、不覆盖 published。",
+    "钠与水反应 ox/re 产物已在 P0 修复；本批导入不得改写该反应。"
+  ]
+}

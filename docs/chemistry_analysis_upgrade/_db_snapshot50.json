@@ -1,0 +1,624 @@
+{
+  "rows": [
+    {
+      "id": 10,
+      "code": "train.ai_trial.001.el_sym",
+      "stem": "【AI试运行】氦的元素符号是____。",
+      "options_json": null,
+      "answer": "He",
+      "analysis": "来源 el.He",
+      "difficulty": 1,
+      "qtype": "blank"
+    },
+    {
+      "id": 22,
+      "code": "train.ai_trial.013.con_j",
+      "stem": "【AI试运行】电解质是在水溶液里或熔融状态下能够导电的化合物。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 concept.electrolyte",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 23,
+      "code": "train.ai_trial.014.con_j",
+      "stem": "【AI试运行】蔗糖是电解质。判断正误。",
+      "options_json": null,
+      "answer": "错误",
+      "analysis": "来源 concept.nonelectrolyte",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 24,
+      "code": "train.ai_trial.015.con_j",
+      "stem": "【AI试运行】氧化还原反应中，还原剂失电子总数等于氧化剂得电子总数。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 concept.electron_conserve",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 48,
+      "code": "train.ai_trial.046.fm_c",
+      "stem": "【AI试运行】物质的量浓度 c 的常用单位是？",
+      "options_json": [
+        {
+          "key": "A",
+          "text": "mol/L"
+        },
+        {
+          "key": "B",
+          "text": "g/mol"
+        },
+        {
+          "key": "C",
+          "text": "L/mol"
+        },
+        {
+          "key": "D",
+          "text": "mol"
+        }
+      ],
+      "answer": "A",
+      "analysis": "来源 formula.c_n_V",
+      "difficulty": 1,
+      "qtype": "single"
+    },
+    {
+      "id": 49,
+      "code": "train.ai_trial.047.fm_stp",
+      "stem": "【AI试运行】气体摩尔体积 22.4 L/mol 适用于任何温度和压强下的气体。判断正误。",
+      "options_json": null,
+      "answer": "错误",
+      "analysis": "仅标况；来源 formula.gas_STP",
+      "difficulty": 2,
+      "qtype": "judge"
+    },
+    {
+      "id": 51,
+      "code": "train.ai_trial.049.kp_j",
+      "stem": "【AI试运行】金属活动性顺序可用于判断金属与酸、盐溶液能否发生置换反应。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.metal.activity",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 95,
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Al",
+      "stem": "【AI试运行】知识库对「铝」记载：表面易生成致密Al2O3氧化膜。判断该记载正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 sub.Al 字段 chemical_props 原文片段",
+      "difficulty": 2,
+      "qtype": "judge"
+    },
+    {
+      "id": 96,
+      "code": "train.ai_trial.pa.sub_color_judge.sub.Al",
+      "stem": "【AI试运行】知识库记载：铝的颜色为「银白色」。判断该记载正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 sub.Al 字段 color",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 109,
+      "code": "train.ai_trial.pa.sub_common_name_judge.sub.C2H5OH",
+      "stem": "【AI试运行】「酒精」可作为「乙醇」的常见名称记载。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 sub.C2H5OH 字段 common_names",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 113,
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CH3COOCH2CH3",
+      "stem": "【AI试运行】知识库对「乙酸乙酯」记载：由乙酸与乙醇在浓硫酸催化、加热下酯化生成（可逆）。判断该记载正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 sub.CH3COOCH2CH3 字段 chemical_props 原文片段",
+      "difficulty": 2,
+      "qtype": "judge"
+    },
+    {
+      "id": 119,
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CH3COOH",
+      "stem": "【AI试运行】知识库对「乙酸」记载：弱酸，具酸的通性：使紫色石蕊变红。判断该记载正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 sub.CH3COOH 字段 chemical_props 原文片段",
+      "difficulty": 2,
+      "qtype": "judge"
+    },
+    {
+      "id": 140,
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CuOH2",
+      "stem": "【AI试运行】知识库对「氢氧化铜」记载：由Cu2+与碱生成。判断该记载正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 sub.CuOH2 字段 chemical_props 原文片段",
+      "difficulty": 2,
+      "qtype": "judge"
+    },
+    {
+      "id": 149,
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Fe",
+      "stem": "【AI试运行】知识库对「铁」记载：与O2点燃生成Fe3O4。判断该记载正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 sub.Fe 字段 chemical_props 原文片段",
+      "difficulty": 2,
+      "qtype": "judge"
+    },
+    {
+      "id": 158,
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Fe3O4",
+      "stem": "【AI试运行】知识库对「四氧化三铁」记载：可看作FeO·Fe2O3（了解）。判断该记载正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 sub.Fe3O4 字段 chemical_props 原文片段",
+      "difficulty": 2,
+      "qtype": "judge"
+    },
+    {
+      "id": 163,
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.FeOH2",
+      "stem": "【AI试运行】知识库对「氢氧化亚铁」记载：由Fe2+与碱生成。判断该记载正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 sub.FeOH2 字段 chemical_props 原文片段",
+      "difficulty": 2,
+      "qtype": "judge"
+    },
+    {
+      "id": 168,
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.FeOH3",
+      "stem": "【AI试运行】知识库对「氢氧化铁」记载：由Fe3+与碱生成。判断该记载正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 sub.FeOH3 字段 chemical_props 原文片段",
+      "difficulty": 2,
+      "qtype": "judge"
+    },
+    {
+      "id": 173,
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.FeSO4",
+      "stem": "【AI试运行】知识库对「硫酸亚铁」记载：提供Fe2+，具还原性。判断该记载正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 sub.FeSO4 字段 chemical_props 原文片段",
+      "difficulty": 2,
+      "qtype": "judge"
+    },
+    {
+      "id": 183,
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.HCl_aq",
+      "stem": "【AI试运行】知识库对「盐酸」记载：强酸通性：与活泼金属、碱、碱性氧化物、部分盐反应。判断该记载正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 sub.HCl_aq 字段 chemical_props 原文片段",
+      "difficulty": 2,
+      "qtype": "judge"
+    },
+    {
+      "id": 204,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.Al.amphoteric",
+      "stem": "【AI试运行】Al、Al2O3、Al(OH)3都能与强酸、强碱反应。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.Al.amphoteric description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 208,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.calc.amount",
+      "stem": "【AI试运行】物质的量三公式：n=m/M；n=N/NA；仅当气体处于标准状况时可用 n=V/22.4（V单位L）。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.calc.amount description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 215,
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.calc.solution",
+      "stem": "【AI试运行】下列说法正确：V用溶剂体积。判断正误。",
+      "options_json": null,
+      "answer": "错误",
+      "analysis": "来源 kp.calc.solution 「易错」标注，考查易错点辨析",
+      "difficulty": 2,
+      "qtype": "judge"
+    },
+    {
+      "id": 223,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.comprehensive.basic",
+      "stem": "【AI试运行】综合题一般路径：审清已知与设问→定位知识模块（元素/有机/能量/实验）→写关键方程式或关系式→检查计量、条件与单位→回代题设验证。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.comprehensive.basic description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 224,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.bond_change",
+      "stem": "【AI试运行】化学反应中：断裂化学键吸收能量，形成化学键放出能量。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.energy.bond_change description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 225,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.chem_electric",
+      "stem": "【AI试运行】原电池等装置可把化学能转化为电能；电解则是电能转化为化学能（了解对比）。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.energy.chem_electric description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 226,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.chem_power",
+      "stem": "【AI试运行】了解常见化学电源（如干电池、蓄电池、锂电池等名称与用途层次，以教材为准）。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.energy.chem_power description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 228,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.electron_flow",
+      "stem": "【AI试运行】外电路中电子由负极流向正极；电流方向与电子流向相反。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.energy.electron_flow description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 229,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.galvanic",
+      "stem": "【AI试运行】原电池是将化学能转化为电能的装置。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.energy.galvanic description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 230,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.galvanic_poles",
+      "stem": "【AI试运行】负极：发生氧化反应（失电子），通常是较活泼金属电极。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.energy.galvanic_poles description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 231,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.thermo_eq",
+      "stem": "【AI试运行】热化学方程式须注明物质聚集状态，并给出ΔH（符号与单位口径随教材）。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.energy.thermo_eq description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 232,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.enviro.acid_rain",
+      "stem": "【AI试运行】酸雨主要与SO2、NOx等排放有关；可酸化水体与土壤、腐蚀建筑。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.enviro.acid_rain description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 234,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.exp.design",
+      "stem": "【AI试运行】书面评价实验方案：目的明确→原理可行→试剂与仪器匹配→步骤顺序合理（先气密性等）→现象可检验结论→安全与尾气/废液。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.exp.design description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 235,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.exp.error",
+      "stem": "【AI试运行】误差分析必须对应具体操作阶段与测定量，禁止脱离条件直接写“偏大/偏小”。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.exp.error description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 248,
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.test",
+      "stem": "【AI试运行】下列说法正确：直接对Fe2+加KSCN就报阳性。判断正误。",
+      "options_json": null,
+      "answer": "错误",
+      "analysis": "来源 kp.Fe.test 「易错」标注，考查易错点辨析",
+      "difficulty": 2,
+      "qtype": "judge"
+    },
+    {
+      "id": 250,
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.halogen.compare",
+      "stem": "【AI试运行】下列说法正确：递变顺序记反。判断正误。",
+      "options_json": null,
+      "answer": "错误",
+      "analysis": "来源 kp.halogen.compare 「易错」标注，考查易错点辨析",
+      "difficulty": 2,
+      "qtype": "judge"
+    },
+    {
+      "id": 251,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.inference.block",
+      "stem": "【AI试运行】框图推断：先找特征转化（气、沉淀、颜色、焰色、酸碱性），再确定突破口物质，最后用箭头关系验证全局自洽。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.inference.block description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 252,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.inference.color",
+      "stem": "【AI试运行】利用物质或离子的特征颜色、溶液褪色/变色作为突破口：如酸性KMnO4紫红、溴水橙红、Cu2+蓝、Fe3+黄棕、沉淀颜色等。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.inference.color description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 276,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.acetic",
+      "stem": "【AI试运行】乙酸CH3COOH，官能团羧基，弱酸但具酸通性；酸性强于碳酸（与碳酸盐放CO2）。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.organic.acetic description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 277,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.alkane",
+      "stem": "【AI试运行】烷烃通式CnH2n+2（链状），为饱和烃。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.organic.alkane description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 278,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.ethanol",
+      "stem": "【AI试运行】乙醇CH3CH2OH，官能团羟基。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.organic.ethanol description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 279,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.ethene",
+      "stem": "【AI试运行】乙烯结构简式CH2=CH2，含碳碳双键。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.organic.ethene description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 280,
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.isomer_skill",
+      "stem": "【AI试运行】先固定分子式，再按碳链异构、官能团位置等有序列举，检查重复与遗漏。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 kp.organic.isomer_skill description 首句事实",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 307,
+      "code": "train.ai_trial.pa.rxn_cond_judge.rxn.2Fe_3Cl2",
+      "stem": "【AI试运行】反应「2Fe + 3Cl2 =点燃= 2FeCl3」在知识库中标注的反应条件为「点燃（或加热）」。判断该记载正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 rxn.2Fe_3Cl2 字段 conditions",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 308,
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2Fe_3Cl2",
+      "stem": "【AI试运行】下列哪一项是知识库中「铁与氯气」的化学方程式？",
+      "options_json": [
+        {
+          "key": "A",
+          "text": "2Fe + 3Cl2 =点燃= 2FeCl3"
+        },
+        {
+          "key": "B",
+          "text": "H2O =点燃= 2FeCl3"
+        },
+        {
+          "key": "C",
+          "text": "H2 + O2 = H2O（无关反应）"
+        },
+        {
+          "key": "D",
+          "text": "无法确定"
+        }
+      ],
+      "answer": "A",
+      "analysis": "来源 rxn.2Fe_3Cl2 字段 equation",
+      "difficulty": 2,
+      "qtype": "single"
+    },
+    {
+      "id": 309,
+      "code": "train.ai_trial.pa.rxn_is_redox_judge.rxn.2Fe_3Cl2",
+      "stem": "【AI试运行】反应「2Fe + 3Cl2 =点燃= 2FeCl3」属于氧化还原反应（知识库已标注氧化剂/还原剂）。判断正误。",
+      "options_json": null,
+      "answer": "正确",
+      "analysis": "来源 rxn.2Fe_3Cl2；oxidant=Cl2 reductant=Fe",
+      "difficulty": 1,
+      "qtype": "judge"
+    },
+    {
+      "id": 310,
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2Fe_3Cl2",
+      "stem": "【AI试运行】对于反应「2Fe + 3Cl2 =点燃= 2FeCl3」，氧化剂是？",
+      "options_json": [
+        {
+          "key": "A",
+          "text": "Cl2"
+        },
+        {
+          "key": "B",
+          "text": "Fe"
+        },
+        {
+          "key": "C",
+          "text": "H2O"
+        },
+        {
+          "key": "D",
+          "text": "N2"
+        }
+      ],
+      "answer": "A",
+      "analysis": "来源 rxn.2Fe_3Cl2 字段 oxidant",
+      "difficulty": 2,
+      "qtype": "single"
+    },
+    {
+      "id": 312,
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.2Fe_3Cl2",
+      "stem": "【AI试运行】对于反应「2Fe + 3Cl2 =点燃= 2FeCl3」，还原剂是？",
+      "options_json": [
+        {
+          "key": "A",
+          "text": "Fe"
+        },
+        {
+          "key": "B",
+          "text": "Cl2"
+        },
+        {
+          "key": "C",
+          "text": "H2O"
+        },
+        {
+          "key": "D",
+          "text": "CO2"
+        }
+      ],
+      "answer": "A",
+      "analysis": "来源 rxn.2Fe_3Cl2 字段 reductant",
+      "difficulty": 2,
+      "qtype": "single"
+    },
+    {
+      "id": 314,
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2Fe2_Cl2",
+      "stem": "【AI试运行】下列哪一项是知识库中「亚铁离子被氯气氧化」的化学方程式？",
+      "options_json": [
+        {
+          "key": "A",
+          "text": "2Fe2+ + Cl2 = 2Fe3+ + 2Cl-"
+        },
+        {
+          "key": "B",
+          "text": "H2O = 2Fe3+ + 2Cl-"
+        },
+        {
+          "key": "C",
+          "text": "H2 + O2 = H2O（无关反应）"
+        },
+        {
+          "key": "D",
+          "text": "无法确定"
+        }
+      ],
+      "answer": "A",
+      "analysis": "来源 rxn.2Fe2_Cl2 字段 equation",
+      "difficulty": 2,
+      "qtype": "single"
+    },
+    {
+      "id": 316,
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2Fe2_Cl2",
+      "stem": "【AI试运行】对于反应「2Fe2+ + Cl2 = 2Fe3+ + 2Cl-」，氧化剂是？",
+      "options_json": [
+        {
+          "key": "A",
+          "text": "Cl2"
+        },
+        {
+          "key": "B",
+          "text": "Fe2+"
+        },
+        {
+          "key": "C",
+          "text": "H2O"
+        },
+        {
+          "key": "D",
+          "text": "N2"
+        }
+      ],
+      "answer": "A",
+      "analysis": "来源 rxn.2Fe2_Cl2 字段 oxidant",
+      "difficulty": 2,
+      "qtype": "single"
+    },
+    {
+      "id": 318,
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.2Fe2_Cl2",
+      "stem": "【AI试运行】对于反应「2Fe2+ + Cl2 = 2Fe3+ + 2Cl-」，还原剂是？",
+      "options_json": [
+        {
+          "key": "A",
+          "text": "Fe2+"
+        },
+        {
+          "key": "B",
+          "text": "Cl2"
+        },
+        {
+          "key": "C",
+          "text": "H2O"
+        },
+        {
+          "key": "D",
+          "text": "CO2"
+        }
+      ],
+      "answer": "A",
+      "analysis": "来源 rxn.2Fe2_Cl2 字段 reductant",
+      "difficulty": 2,
+      "qtype": "single"
+    }
+  ],
+  "kps": []
+}

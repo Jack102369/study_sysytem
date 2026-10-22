@@ -1,0 +1,19 @@
+-- 电子宠物助手：日限 + 用户偏好
+SET NAMES utf8mb4;
+
+CREATE TABLE IF NOT EXISTS pet_chat_daily (
+  user_id BIGINT UNSIGNED NOT NULL,
+  day_date DATE NOT NULL,
+  chat_count INT UNSIGNED NOT NULL DEFAULT 0,
+  PRIMARY KEY (user_id, day_date),
+  CONSTRAINT fk_pcd_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS user_pet_prefs (
+  user_id BIGINT UNSIGNED PRIMARY KEY,
+  skin_id VARCHAR(32) NOT NULL DEFAULT 'robin',
+  pet_enabled TINYINT(1) NOT NULL DEFAULT 1,
+  wake_word_overrides JSON NULL,
+  updated_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3),
+  CONSTRAINT fk_upp_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

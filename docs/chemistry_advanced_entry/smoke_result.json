@@ -1,0 +1,121 @@
+{
+  "generatedAt": "2026-10-20T01:41:01.365Z",
+  "ok": true,
+  "checks": [
+    {
+      "name": "dhm_user_exists",
+      "pass": true,
+      "detail": "id=1"
+    },
+    {
+      "name": "db_equation_balance_basic",
+      "pass": true,
+      "detail": "d1=5 d2=0 d3=0"
+    },
+    {
+      "name": "specialty_avail_eq_balance_d1",
+      "pass": true,
+      "detail": "status=200 avail=5 expect=5"
+    },
+    {
+      "name": "specialty_avail_eq_balance_d2",
+      "pass": true,
+      "detail": "status=200 avail=0 expect=0"
+    },
+    {
+      "name": "specialty_avail_eq_balance_d3",
+      "pass": true,
+      "detail": "status=200 avail=0 expect=0"
+    },
+    {
+      "name": "dhm_adv_raise_gt0",
+      "pass": true,
+      "detail": "{\"sessionKind\":\"advanced\",\"specialtyCode\":\"all\",\"specialtyName\":\"全部专项\",\"categoryCode\":\"all\",\"categoryName\":\"跨专项\",\"difficultyMode\":\"raise\",\"difficultyLabel\":\"提高\",\"itemScope\":\"all\",\"poolMode\":\"test\",\"raiseCount\":203,\"challengeCount\":24,\"mixCount\":227,\"availableCount\":203,\"plannedHint\":\"可用题量与计划训练题量分开；无对应难度时显示 0，不会回退到基础题。\",\"emptyMessage\":null}"
+    },
+    {
+      "name": "dhm_adv_challenge_gt0",
+      "pass": true,
+      "detail": "{\"sessionKind\":\"advanced\",\"specialtyCode\":\"all\",\"specialtyName\":\"全部专项\",\"categoryCode\":\"all\",\"categoryName\":\"跨专项\",\"difficultyMode\":\"challenge\",\"difficultyLabel\":\"挑战\",\"itemScope\":\"all\",\"poolMode\":\"test\",\"raiseCount\":203,\"challengeCount\":24,\"mixCount\":227,\"availableCount\":24,\"plannedHint\":\"可用题量与计划训练题量分开；无对应难度时显示 0，不会回退到基础题。\",\"emptyMessage\":null}"
+    },
+    {
+      "name": "dhm_adv_mix_sum",
+      "pass": true,
+      "detail": "mix=227 raise=203 chal=24"
+    },
+    {
+      "name": "dhm_adv_s60_le_60",
+      "pass": true,
+      "detail": "s60mix=60"
+    },
+    {
+      "name": "dhm_s60_counts",
+      "pass": true,
+      "detail": "raise=36 chal=24"
+    },
+    {
+      "name": "create_raise_session",
+      "pass": true,
+      "detail": "status=201 kind=advanced n=5 msg="
+    },
+    {
+      "name": "raise_items_diff2_only",
+      "pass": true,
+      "detail": "2,2,2,2,2"
+    },
+    {
+      "name": "raise_items_have_spec_labels",
+      "pass": true,
+      "detail": "化学方程式·方程式正误判断 | 化学推断·实验现象推断 | 化学基础记忆·化学规律"
+    },
+    {
+      "name": "create_challenge_s60_session",
+      "pass": true,
+      "detail": "status=201 n=5"
+    },
+    {
+      "name": "challenge_items_diff3_only",
+      "pass": true,
+      "detail": "3,3,3,3,3"
+    },
+    {
+      "name": "create_mix_session",
+      "pass": true,
+      "detail": "n=10 pick={\"basic\":0,\"raise\":7,\"challenge\":3}"
+    },
+    {
+      "name": "mix_no_basic",
+      "pass": true,
+      "detail": "2,2,3,3,2,3,2,2,2,2"
+    },
+    {
+      "name": "mix_cross_specialty_soft",
+      "pass": true,
+      "detail": "specialties=comprehensive,calculation,experiment,memory,inference,equation,substance"
+    },
+    {
+      "name": "daily_status_ok",
+      "pass": true,
+      "detail": "cand=574 completed=0"
+    },
+    {
+      "name": "advanced_not_in_daily_count",
+      "pass": true,
+      "detail": "api=0 dbDaily=0"
+    },
+    {
+      "name": "history_specialty_excludes_advanced",
+      "pass": true,
+      "detail": "n=0"
+    },
+    {
+      "name": "history_advanced_only",
+      "pass": true,
+      "detail": "n=3"
+    },
+    {
+      "name": "bank_total_638",
+      "pass": true,
+      "detail": "n=638"
+    }
+  ]
+}

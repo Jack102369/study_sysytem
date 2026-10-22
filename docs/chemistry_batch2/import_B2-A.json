@@ -1,0 +1,846 @@
+{
+  "items": [
+    {
+      "type": "element",
+      "data": {
+        "symbol": "He",
+        "nameZh": "氦",
+        "nameEn": "Helium",
+        "atomicNumber": 2,
+        "atomicMass": "4.003",
+        "periodNo": 1,
+        "groupLabel": "0",
+        "category": "惰性气体",
+        "commonValences": "0",
+        "atomStructure": "质子数2，核外2个电子（第一层满）",
+        "electronConfig": "1s2",
+        "commonCompounds": "一般不形成稳定化合物（高中范围）",
+        "keyProperties": "最轻的稀有气体（惰性气体），化学性质极不活泼",
+        "commonUses": "填充气球、冷却剂、保护气",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.He] B2整改:修正“之一”为最轻稀有气体"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Li",
+        "nameZh": "锂",
+        "nameEn": "Lithium",
+        "atomicNumber": 3,
+        "atomicMass": "6.94",
+        "periodNo": 2,
+        "groupLabel": "IA",
+        "category": "金属",
+        "commonValences": "+1",
+        "atomStructure": "质子数3，电子层2，最外层1个电子",
+        "electronConfig": "1s2 2s1",
+        "commonCompounds": "Li2O, LiOH, Li2CO3",
+        "keyProperties": "最轻金属，还原性强",
+        "commonUses": "电池、合金",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Li]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Be",
+        "nameZh": "铍",
+        "nameEn": "Beryllium",
+        "atomicNumber": 4,
+        "atomicMass": "9.012",
+        "periodNo": 2,
+        "groupLabel": "IIA",
+        "category": "金属",
+        "commonValences": "+2",
+        "atomStructure": "质子数4，最外层2个电子",
+        "electronConfig": "1s2 2s2",
+        "commonCompounds": "BeO, BeCl2",
+        "keyProperties": "IIA族元素；高一以周期表基础了解为主，复杂两性/用途细节作了解",
+        "commonUses": "合金等（了解，不进默认基础训练）",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Be] [el.Be] 范围:保留基础信息；复杂性质/用途=了解，不进默认基础训练"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "B",
+        "nameZh": "硼",
+        "nameEn": "Boron",
+        "atomicNumber": 5,
+        "atomicMass": "10.81",
+        "periodNo": 2,
+        "groupLabel": "IIIA",
+        "category": "非金属",
+        "commonValences": "+3",
+        "atomStructure": "质子数5，最外层3个电子",
+        "electronConfig": "1s2 2s2 2p1",
+        "commonCompounds": "B2O3, H3BO3",
+        "keyProperties": "非金属，可形成共价化合物",
+        "commonUses": "玻璃、半导体相关（了解）",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.B]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "C",
+        "nameZh": "碳",
+        "nameEn": "Carbon",
+        "atomicNumber": 6,
+        "atomicMass": "12.01",
+        "periodNo": 2,
+        "groupLabel": "IVA",
+        "category": "非金属",
+        "commonValences": "+2,+4,-4",
+        "atomStructure": "质子数6，最外层4个电子",
+        "electronConfig": "1s2 2s2 2p2",
+        "commonCompounds": "CO, CO2, CaCO3, 有机物",
+        "keyProperties": "形成共价键能力强，同素异形体多",
+        "commonUses": "燃料、材料、有机化学基础",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.C]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "N",
+        "nameZh": "氮",
+        "nameEn": "Nitrogen",
+        "atomicNumber": 7,
+        "atomicMass": "14.01",
+        "periodNo": 2,
+        "groupLabel": "VA",
+        "category": "非金属",
+        "commonValences": "-3,+1,+2,+3,+4,+5",
+        "atomStructure": "质子数7，最外层5个电子",
+        "electronConfig": "1s2 2s2 2p3",
+        "commonCompounds": "N2, NH3, NO, NO2, HNO3",
+        "keyProperties": "单质N2稳定；化合物氧化态多样",
+        "commonUses": "制氨、保护气、硝酸工业",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.N] B2整改:补常见化合价+1,+3"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "F",
+        "nameZh": "氟",
+        "nameEn": "Fluorine",
+        "atomicNumber": 9,
+        "atomicMass": "19.00",
+        "periodNo": 2,
+        "groupLabel": "VIIA",
+        "category": "非金属",
+        "commonValences": "-1",
+        "atomStructure": "质子数9，最外层7个电子",
+        "electronConfig": "1s2 2s2 2p5",
+        "commonCompounds": "HF, NaF, CaF2",
+        "keyProperties": "非金属性最强，单质氧化性极强",
+        "commonUses": "含氟材料（高中了解）",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.F]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Ne",
+        "nameZh": "氖",
+        "nameEn": "Neon",
+        "atomicNumber": 10,
+        "atomicMass": "20.18",
+        "periodNo": 2,
+        "groupLabel": "0",
+        "category": "惰性气体",
+        "commonValences": "0",
+        "atomStructure": "质子数10，最外层8电子稳定结构",
+        "electronConfig": "1s2 2s2 2p6",
+        "commonCompounds": "一般不形成化合物（高中范围）",
+        "keyProperties": "惰性气体，化学性质极不活泼",
+        "commonUses": "霓虹灯",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Ne]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Mg",
+        "nameZh": "镁",
+        "nameEn": "Magnesium",
+        "atomicNumber": 12,
+        "atomicMass": "24.31",
+        "periodNo": 3,
+        "groupLabel": "IIA",
+        "category": "金属",
+        "commonValences": "+2",
+        "atomStructure": "质子数12，最外层2个电子",
+        "electronConfig": "1s2 2s2 2p6 3s2",
+        "commonCompounds": "MgO, Mg(OH)2, MgCl2",
+        "keyProperties": "活泼金属，可燃烧发出耀眼白光",
+        "commonUses": "合金、烟火、还原剂",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Mg]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Al",
+        "nameZh": "铝",
+        "nameEn": "Aluminium",
+        "atomicNumber": 13,
+        "atomicMass": "26.98",
+        "periodNo": 3,
+        "groupLabel": "IIIA",
+        "category": "金属",
+        "commonValences": "+3",
+        "atomStructure": "质子数13，最外层3个电子",
+        "electronConfig": "1s2 2s2 2p6 3s2 3p1",
+        "commonCompounds": "Al2O3, Al(OH)3, AlCl3",
+        "keyProperties": "两性金属；表面易形成致密氧化膜",
+        "commonUses": "建筑、电线、包装",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Al]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Si",
+        "nameZh": "硅",
+        "nameEn": "Silicon",
+        "atomicNumber": 14,
+        "atomicMass": "28.09",
+        "periodNo": 3,
+        "groupLabel": "IVA",
+        "category": "非金属",
+        "commonValences": "+4,-4",
+        "atomStructure": "质子数14，最外层4个电子",
+        "electronConfig": "1s2 2s2 2p6 3s2 3p2",
+        "commonCompounds": "SiO2, Na2SiO3",
+        "keyProperties": "地壳中含量高；半导体原料",
+        "commonUses": "芯片、玻璃、建筑材料",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Si]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "P",
+        "nameZh": "磷",
+        "nameEn": "Phosphorus",
+        "atomicNumber": 15,
+        "atomicMass": "30.97",
+        "periodNo": 3,
+        "groupLabel": "VA",
+        "category": "非金属",
+        "commonValences": "-3,+3,+5",
+        "atomStructure": "质子数15，最外层5个电子",
+        "electronConfig": "1s2 2s2 2p6 3s2 3p3",
+        "commonCompounds": "P4O10, H3PO4",
+        "keyProperties": "有白磷、红磷等同素异形体",
+        "commonUses": "火柴、化肥（了解）",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.P]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "S",
+        "nameZh": "硫",
+        "nameEn": "Sulfur",
+        "atomicNumber": 16,
+        "atomicMass": "32.06",
+        "periodNo": 3,
+        "groupLabel": "VIA",
+        "category": "非金属",
+        "commonValences": "-2,+4,+6",
+        "atomStructure": "质子数16，最外层6个电子",
+        "electronConfig": "1s2 2s2 2p6 3s2 3p4",
+        "commonCompounds": "SO2, SO3, H2SO4, H2S",
+        "keyProperties": "可燃烧；氧化物与硫酸重要",
+        "commonUses": "制硫酸、硫化橡胶",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.S]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Ar",
+        "nameZh": "氩",
+        "nameEn": "Argon",
+        "atomicNumber": 18,
+        "atomicMass": "39.95",
+        "periodNo": 3,
+        "groupLabel": "0",
+        "category": "惰性气体",
+        "commonValences": "0",
+        "atomStructure": "质子数18，最外层8电子稳定结构",
+        "electronConfig": "1s2 2s2 2p6 3s2 3p6",
+        "commonCompounds": "一般不形成化合物（高中范围）",
+        "keyProperties": "惰性气体，空气中含量较高",
+        "commonUses": "电灯泡保护气、焊接保护气",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Ar] [el.Ar] 范围:保留基础信息；相对原子质量待所用教材附录核实(当前库约39.95)"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "K",
+        "nameZh": "钾",
+        "nameEn": "Potassium",
+        "atomicNumber": 19,
+        "atomicMass": "39.10",
+        "periodNo": 4,
+        "groupLabel": "IA",
+        "category": "金属",
+        "commonValences": "+1",
+        "atomStructure": "质子数19，最外层1个电子",
+        "electronConfig": "1s2 2s2 2p6 3s2 3p6 4s1",
+        "commonCompounds": "KOH, KCl, K2CO3",
+        "keyProperties": "比钠更活泼，与水反应更剧烈",
+        "commonUses": "化肥、实验室试剂",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.K]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Ca",
+        "nameZh": "钙",
+        "nameEn": "Calcium",
+        "atomicNumber": 20,
+        "atomicMass": "40.08",
+        "periodNo": 4,
+        "groupLabel": "IIA",
+        "category": "金属",
+        "commonValences": "+2",
+        "atomStructure": "质子数20，最外层2个电子",
+        "electronConfig": "1s2 2s2 2p6 3s2 3p6 4s2",
+        "commonCompounds": "CaO, Ca(OH)2, CaCO3, CaCl2",
+        "keyProperties": "活泼金属；石灰、硬水相关",
+        "commonUses": "建筑、冶金、补钙（了解）",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Ca]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Fe",
+        "nameZh": "铁",
+        "nameEn": "Iron",
+        "atomicNumber": 26,
+        "atomicMass": "55.85",
+        "periodNo": 4,
+        "groupLabel": "VIII",
+        "category": "金属",
+        "commonValences": "+2,+3",
+        "atomStructure": "过渡金属；常见Fe2+、Fe3+",
+        "electronConfig": "高一默认训练以Fe2+/Fe3+及化合物为主；完整[Ar] 3d6 4s2记号不进入默认基础训练（了解/待对教材）",
+        "commonCompounds": "Fe2O3, Fe3O4, FeCl3, FeSO4",
+        "keyProperties": "可生锈；与酸、盐溶液反应",
+        "commonUses": "钢铁、建筑、工具",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Fe] [el.Fe] 范围:Fe2+/Fe3+核心；复杂电子排布不进默认高一基础训练"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Cu",
+        "nameZh": "铜",
+        "nameEn": "Copper",
+        "atomicNumber": 29,
+        "atomicMass": "63.55",
+        "periodNo": 4,
+        "groupLabel": "IB",
+        "category": "金属",
+        "commonValences": "+1,+2",
+        "atomStructure": "过渡金属；Cu2+溶液常呈蓝色",
+        "electronConfig": "[Ar] 3d10 4s1（高中侧重化合价与性质）",
+        "commonCompounds": "CuO, Cu(OH)2, CuSO4, CuCl2",
+        "keyProperties": "导电导热好；活动性较弱",
+        "commonUses": "电线、合金",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Cu]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Zn",
+        "nameZh": "锌",
+        "nameEn": "Zinc",
+        "atomicNumber": 30,
+        "atomicMass": "65.38",
+        "periodNo": 4,
+        "groupLabel": "IIB",
+        "category": "金属",
+        "commonValences": "+2",
+        "atomStructure": "常见Zn2+",
+        "electronConfig": "[Ar] 3d10 4s2",
+        "commonCompounds": "ZnO, ZnCl2, ZnSO4",
+        "keyProperties": "可与酸反应放氢；常用于镀锌",
+        "commonUses": "镀锌、电池、合金",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Zn]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Ag",
+        "nameZh": "银",
+        "nameEn": "Silver",
+        "atomicNumber": 47,
+        "atomicMass": "107.9",
+        "periodNo": 5,
+        "groupLabel": "IB",
+        "category": "金属",
+        "commonValences": "+1",
+        "atomStructure": "常见Ag+",
+        "electronConfig": "高中以化合价与性质为主",
+        "commonCompounds": "AgNO3, AgCl, AgBr",
+        "keyProperties": "导电好；卤化银见光分解（了解）",
+        "commonUses": "首饰、感光、电极",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Ag]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Ba",
+        "nameZh": "钡",
+        "nameEn": "Barium",
+        "atomicNumber": 56,
+        "atomicMass": "137.3",
+        "periodNo": 6,
+        "groupLabel": "IIA",
+        "category": "金属",
+        "commonValences": "+2",
+        "atomStructure": "常见Ba2+",
+        "electronConfig": "高中以化合价与离子检验为主",
+        "commonCompounds": "BaCl2, BaSO4, Ba(OH)2",
+        "keyProperties": "Ba2+与SO42-生成白色沉淀BaSO4",
+        "commonUses": "检验SO42-；医疗造影（了解）",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Ba]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "I",
+        "nameZh": "碘",
+        "nameEn": "Iodine",
+        "atomicNumber": 53,
+        "atomicMass": "126.9",
+        "periodNo": 5,
+        "groupLabel": "VIIA",
+        "category": "非金属",
+        "commonValences": "-1(必修常见);+5,+7(拓展)",
+        "atomStructure": "卤族；常见I-",
+        "electronConfig": "高中侧重卤族性质递变",
+        "commonCompounds": "I2, KI, HI",
+        "keyProperties": "卤族；I2紫黑、淀粉变蓝可按必修使用；复杂正价作拓展，不进默认基础训练",
+        "commonUses": "消毒、检验淀粉",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.I] [el.I] 范围:I2/-1/淀粉变蓝可用；复杂正价=拓展，不进默认基础训练"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Mn",
+        "nameZh": "锰",
+        "nameEn": "Manganese",
+        "atomicNumber": 25,
+        "atomicMass": "54.94",
+        "periodNo": 4,
+        "groupLabel": "VIIB",
+        "category": "金属",
+        "commonValences": "+2,+4,+7",
+        "atomStructure": "过渡金属，价态多样",
+        "electronConfig": "高中常见MnO2、KMnO4相关",
+        "commonCompounds": "MnO2, KMnO4, MnCl2",
+        "keyProperties": "MnO2可催化过氧化氢分解、参与制氯气",
+        "commonUses": "催化剂、电池（了解）",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Mn]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Cr",
+        "nameZh": "铬",
+        "nameEn": "Chromium",
+        "atomicNumber": 24,
+        "atomicMass": "52.00",
+        "periodNo": 4,
+        "groupLabel": "VIB",
+        "category": "金属",
+        "commonValences": "+3,+6",
+        "atomStructure": "过渡金属",
+        "electronConfig": "高中了解即可",
+        "commonCompounds": "不锈钢相关(了解)",
+        "keyProperties": "保留元素基础；不锈钢了解。重铬酸盐等复杂性质不得进入默认高一专项训练",
+        "commonUses": "电镀、合金",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Cr] [el.Cr] 范围:基础+不锈钢了解；重铬酸盐不进默认高一专项训练"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Br",
+        "nameZh": "溴",
+        "nameEn": "Bromine",
+        "atomicNumber": 35,
+        "atomicMass": "79.90",
+        "periodNo": 4,
+        "groupLabel": "VIIA",
+        "category": "非金属",
+        "commonValences": "-1,+1,+5",
+        "atomStructure": "常温深红棕色液体",
+        "electronConfig": "卤族；高中侧重性质递变",
+        "commonCompounds": "Br2, HBr, NaBr",
+        "keyProperties": "卤族；可置换等（与氯比较）",
+        "commonUses": "有机反应、工业原料（了解）",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Br]"
+      }
+    },
+    {
+      "type": "element",
+      "data": {
+        "symbol": "Hg",
+        "nameZh": "汞",
+        "nameEn": "Mercury",
+        "atomicNumber": 80,
+        "atomicMass": "200.6",
+        "periodNo": 6,
+        "groupLabel": "IIB",
+        "category": "金属",
+        "commonValences": "+1(as Hg2^2+),+2",
+        "atomStructure": "常温液态金属；+1价实际以Hg2^2+存在，勿写成Hg+",
+        "electronConfig": "高中了解液态金属",
+        "commonCompounds": "HgO, HgCl2（毒性，禁止接触实验）",
+        "keyProperties": "常温液态；有毒；禁止接触实验",
+        "commonUses": "历史温度计（已限制）",
+        "status": "pending_review",
+        "reviewNote": "[inv:el.Hg] B2整改:明确Hg2^2+；强调毒性禁用"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch2",
+    "pack": "B2-A",
+    "inventoryCodes": [
+      "el.He",
+      "el.Li",
+      "el.Be",
+      "el.B",
+      "el.C",
+      "el.N",
+      "el.F",
+      "el.Ne",
+      "el.Mg",
+      "el.Al",
+      "el.Si",
+      "el.P",
+      "el.S",
+      "el.Ar",
+      "el.K",
+      "el.Ca",
+      "el.Fe",
+      "el.Cu",
+      "el.Zn",
+      "el.Ag",
+      "el.Ba",
+      "el.I",
+      "el.Mn",
+      "el.Cr",
+      "el.Br",
+      "el.Hg"
+    ],
+    "specialtyByCode": {
+      "el.He": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Li": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Be": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.B": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.C": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.N": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.F": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Ne": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Mg": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Al": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Si": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.P": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.S": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Ar": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.K": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Ca": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Fe": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Cu": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Zn": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Ag": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Ba": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.I": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Mn": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Cr": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Br": [
+        "periodic",
+        "memory",
+        "structure"
+      ],
+      "el.Hg": [
+        "periodic",
+        "memory",
+        "structure"
+      ]
+    },
+    "categoryByCode": {
+      "el.He": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Li": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Be": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.B": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.C": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.N": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.F": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Ne": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Mg": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Al": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Si": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.P": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.S": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Ar": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.K": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Ca": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Fe": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Cu": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Zn": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Ag": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Ba": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.I": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Mn": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Cr": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Br": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ],
+      "el.Hg": [
+        "periodic.symbol",
+        "periodic.elem_name",
+        "memory.symbol"
+      ]
+    }
+  }
+}

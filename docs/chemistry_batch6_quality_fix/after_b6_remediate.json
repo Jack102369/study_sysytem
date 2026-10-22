@@ -1,0 +1,59 @@
+{
+  "appliedAt": "2026-10-18T10:46:56.179Z",
+  "appliedCount": 78,
+  "linkUnresolved": [],
+  "samples": {
+    "rxn.C2H5OH_O2": {
+      "ox_product": "CH3CHO",
+      "re_product": "H2O",
+      "oxidant": "O2",
+      "reductant": "CH3CH2OH",
+      "conditions": "Cu或Ag作催化剂并加热（教材常见：灼热铜丝伸入乙醇）",
+      "principle": "乙醇被氧气氧化为乙醛，水为另一产物；Cu/Ag起催化作用。属氧化还原：氧化剂O2，还原剂乙醇（CH3CH2OH）。判定依据：与羟基相连的碳（—CH2OH中的C）被氧化为醛基碳（—CHO），氧分子被还原为水。"
+    },
+    "rxn.C2H5OH_O2_links": {
+      "cats": "equation.condition,organic.ethanol,organic.oxidation,redox.identify,redox.ox_product,redox.re_product",
+      "specs": "equation,organic,redox"
+    },
+    "rxn.C2H5OH_burn": {
+      "ox_product": "CO2",
+      "re_product": "H2O",
+      "oxidant": "O2",
+      "reductant": "C2H5OH",
+      "conditions": "点燃（完全燃烧；氧气充足。缺氧气/不完全燃烧不在本条默认范围）",
+      "principle": "乙醇完全燃烧的氧化还原反应。氧化剂O2，还原剂C2H5OH。本条针对“点燃、完全燃烧生成CO2和H2O”这一典型情形：有机物中碳被氧化为CO2（氧化产物记CO2），氧气被还原为H2O（还原产物记H2O）。水中的氢来自乙醇，氧主要来自O2；高"
+    },
+    "rxn.C2H5OH_burn_links": {
+      "cats": "equation.write_from_text,organic.ethanol,organic.oxidation,redox.identify,redox.ox_product,redox.re_product",
+      "specs": "equation,organic,redox"
+    },
+    "rxn.C2H4_KMnO4": {
+      "ox_product": "有机氧化产物(条件依赖，不指定唯一)",
+      "re_product": "Mn的还原产物(条件依赖，不指定唯一)",
+      "oxidant": "酸性KMnO4",
+      "reductant": "C2H4",
+      "conditions": "酸性KMnO4溶液，常温（题设）",
+      "principle": "乙烯具有不饱和性，可被酸性KMnO4氧化，使溶液紫红色褪去。用于鉴别不饱和烃与饱和烃。氧化产物随反应条件变化，不得指定唯一氧化产物，也不要求配平复杂离子方程式为默认训练。"
+    },
+    "rxn.C2H4_KMnO4_links": {
+      "cats": "equation.write_from_text,experiment.phenomenon_judge,organic.ethene,organic.oxidation",
+      "specs": "equation,experiment,organic"
+    },
+    "kp.energy.galvanic": {
+      "d": "原电池是将化学能转化为电能的装置。一般需：自发氧化还原反应、电极、电解质溶液（或离子导体）、形成闭合回路。电子在外电路迁移，离子在电解质中迁移。并非所有原电池都必须由两种不同金属构成，电极组合以题设与",
+      "review_note": "[inv:kp.energy.galvanic] B6整改:收窄专项去掉experiment主挂;电子外电路;离子在电解质;不必须两种不同金属"
+    },
+    "kp.energy.galvanic_links": {
+      "cats": "comprehensive.basic,redox.e_direction",
+      "specs": "comprehensive,redox"
+    }
+  },
+  "priorOk": true,
+  "naWaterUnchanged": {
+    "id": 1,
+    "status": "published",
+    "stem": "钠与水反应的生成物是？",
+    "answer": "NaOH 和 H2",
+    "review_note": ""
+  }
+}

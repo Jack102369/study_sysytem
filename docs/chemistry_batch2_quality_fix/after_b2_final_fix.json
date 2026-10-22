@@ -1,0 +1,113 @@
+{
+  "appliedAt": "2026-10-18T04:26:18.611Z",
+  "elements": [
+    {
+      "id": 18,
+      "symbol": "Ar",
+      "common_valences": "0",
+      "key_properties": "惰性气体，空气中含量较高",
+      "common_compounds": "一般不形成化合物（高中范围）",
+      "common_uses": "电灯泡保护气、焊接保护气",
+      "electron_config": "1s2 2s2 2p6 3s2 3p6",
+      "status": "pending_review",
+      "review_note": "[el.Ar] 范围:保留基础信息；相对原子质量待所用教材附录核实(当前库约39.95)"
+    },
+    {
+      "id": 7,
+      "symbol": "Be",
+      "common_valences": "+2",
+      "key_properties": "IIA族元素；高一以周期表基础了解为主，复杂两性/用途细节作了解",
+      "common_compounds": "BeO, BeCl2",
+      "common_uses": "合金等（了解，不进默认基础训练）",
+      "electron_config": "1s2 2s2",
+      "status": "pending_review",
+      "review_note": "[el.Be] 范围:保留基础信息；复杂性质/用途=了解，不进默认基础训练"
+    },
+    {
+      "id": 4,
+      "symbol": "Cl",
+      "common_valences": "-1,+1,+3,+5,+7",
+      "key_properties": "卤族典型元素。注意区分元素与单质：单质Cl2为黄绿色有毒气体，具漂白性等（见氯气物质条），不可把Cl2性质直接写成氯元素性质。",
+      "common_compounds": "Cl2,HCl,NaCl",
+      "common_uses": "消毒、制盐酸",
+      "electron_config": "1s2 2s2 2p6 3s2 3p5",
+      "status": "published",
+      "review_note": "[el.Cl] 最终整改:区分氯元素与Cl2单质性质"
+    },
+    {
+      "id": 28,
+      "symbol": "Cr",
+      "common_valences": "+3,+6",
+      "key_properties": "保留元素基础；不锈钢了解。重铬酸盐等复杂性质不得进入默认高一专项训练",
+      "common_compounds": "不锈钢相关(了解)",
+      "common_uses": "电镀、合金",
+      "electron_config": "高中了解即可",
+      "status": "pending_review",
+      "review_note": "[el.Cr] 范围:基础+不锈钢了解；重铬酸盐不进默认高一专项训练"
+    },
+    {
+      "id": 21,
+      "symbol": "Fe",
+      "common_valences": "+2,+3",
+      "key_properties": "可生锈；与酸、盐溶液反应",
+      "common_compounds": "Fe2O3, Fe3O4, FeCl3, FeSO4",
+      "common_uses": "钢铁、建筑、工具",
+      "electron_config": "高一默认训练以Fe2+/Fe3+及化合物为主；完整[Ar] 3d6 4s2记号不进入默认基础训练（了解/待对教材）",
+      "status": "pending_review",
+      "review_note": "[el.Fe] 范围:Fe2+/Fe3+核心；复杂电子排布不进默认高一基础训练"
+    },
+    {
+      "id": 26,
+      "symbol": "I",
+      "common_valences": "-1(必修常见);+5,+7(拓展)",
+      "key_properties": "卤族；I2紫黑、淀粉变蓝可按必修使用；复杂正价作拓展，不进默认基础训练",
+      "common_compounds": "I2, KI, HI",
+      "common_uses": "消毒、检验淀粉",
+      "electron_config": "高中侧重卤族性质递变",
+      "status": "pending_review",
+      "review_note": "[el.I] 范围:I2/-1/淀粉变蓝可用；复杂正价=拓展，不进默认基础训练"
+    },
+    {
+      "id": 3,
+      "symbol": "Na",
+      "common_valences": "+1",
+      "key_properties": "银白色软金属，还原性强，与水剧烈反应",
+      "common_compounds": "NaOH,NaCl,Na2O,Na2O2,Na2CO3",
+      "common_uses": "还原剂、散热、合金",
+      "electron_config": "1s2 2s2 2p6 3s1",
+      "status": "published",
+      "review_note": "[el.Na] 最终整改:common_compounds删除单质Na"
+    },
+    {
+      "id": 2,
+      "symbol": "O",
+      "common_valences": "-2(通常);-1(过氧化物);+2(如OF2,拓展不进默认训练)",
+      "key_properties": "助燃、氧化性强",
+      "common_compounds": "H2O,O2,氧化物",
+      "common_uses": "呼吸、冶炼",
+      "electron_config": "1s2 2s2 2p4",
+      "status": "published",
+      "review_note": "[el.O] 最终整改:补过氧化物-1;OF2中+2标拓展不进默认基础训练"
+    }
+  ],
+  "kp_redox": {
+    "id": 1,
+    "name": "氧化还原反应",
+    "description": "氧化还原反应：有化合价升降（本质是电子转移）的反应。化合价升高、失电子→被氧化，该物质是还原剂；化合价降低、得电子→被还原，该物质是氧化剂。判断方法：看化合价是否变化，再找升/降对应还原剂/氧化剂。注意：氧化剂≠氧化产物，还原剂≠还原产物。属高一必修核心。",
+    "status": "published",
+    "review_note": "[kp.redox] 最终整改:完善定义/升降/电子转移/氧化剂还原剂/判断"
+  },
+  "validate": {
+    "O_has_minus1": true,
+    "O_of2_marked": true,
+    "Cl_distinguishes": true,
+    "Na_no_elemental": true,
+    "kp_has_oxidant": true,
+    "Fe_scope": true,
+    "I_extent": true,
+    "Cr_scope": true,
+    "published_still": true,
+    "kp_published": true,
+    "allPass": true
+  }
+}

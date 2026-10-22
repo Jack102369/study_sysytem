@@ -1,0 +1,5843 @@
+{
+  "generatedAt": "2026-10-18T12:47:13.505Z",
+  "count": 119,
+  "note": "可提交管理员人工确认；不是已发布",
+  "items": [
+    {
+      "code": "el.He",
+      "type": "element",
+      "name": "氦",
+      "batch": "batch2",
+      "dbId": "5",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "memory, periodic, structure",
+          "issue": "structure 专项对氦而言仅涉及原子结构（核外电子排布），关联较弱但可接受；无机械挂靠 redox 问题",
+          "fixHint": "可保留，或明确 structure 仅指原子结构层面",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "el.Li",
+      "type": "element",
+      "name": "锂",
+      "batch": "batch2",
+      "dbId": "6",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": null,
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "el.C",
+      "type": "element",
+      "name": "碳",
+      "batch": "batch2",
+      "dbId": "9",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "memory, periodic, structure",
+          "issue": "元素条目挂 structure 专项偏宽泛，碳的原子结构属基础记忆，非结构化学核心考点；但无科学性错误",
+          "fixHint": "可保留 memory/periodic，structure 视题库结构专项定义决定是否保留",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "el.F",
+      "type": "element",
+      "name": "氟",
+      "batch": "batch2",
+      "dbId": "11",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "memory, periodic, structure",
+          "issue": "structure 专项对单质元素条目偏泛，但元素符号/原子序数与原子结构相关，可接受；无机械挂靠 redox 问题",
+          "fixHint": "可保留，或细化为 atomic_structure",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "el.Ne",
+      "type": "element",
+      "name": "氖",
+      "batch": "batch2",
+      "dbId": "12",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "memory, periodic, structure",
+          "issue": "structure 专项对稀有气体条目关联较弱，但原子序数与电子排布相关，可接受",
+          "fixHint": "可保留或标注为识记类",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "el.Mg",
+      "type": "element",
+      "name": "镁",
+      "batch": "batch2",
+      "dbId": "13",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "memory, periodic, structure",
+          "issue": "元素条目挂 structure 专项偏宽泛，元素符号/名称记忆与周期表定位为核心，结构（原子结构）关联较弱但可接受",
+          "fixHint": "可保留 memory、periodic；structure 建议仅在含原子结构信息时保留",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.99
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "el.Al",
+      "type": "element",
+      "name": "铝",
+      "batch": "batch2",
+      "dbId": "14",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "memory, periodic, structure",
+          "issue": "structure 专项对纯元素符号条目关联偏弱",
+          "fixHint": "可保留 memory、periodic；structure 视是否含原子结构字段而定",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.99
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "el.Ca",
+      "type": "element",
+      "name": "钙",
+      "batch": "batch2",
+      "dbId": "20",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"memory\",\"periodic\",\"structure\"]",
+          "issue": "structure 专项缺乏对应字段支撑（无电子层/排布信息），属关键词机械挂靠风险",
+          "fixHint": "若仅作元素符号/名称记忆，移除 structure；若保留需补充结构相关字段",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "memory.symbol / periodic.elem_name / periodic.symbol",
+          "issue": "分类与字段基本匹配，但 periodic 类目下无周期/族数据，出题只能限于名称-符号对应",
+          "fixHint": "补充周期、族信息或限定题型为符号-名称互认",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "el.Fe",
+      "type": "element",
+      "name": "铁",
+      "batch": "batch2",
+      "dbId": "21",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"memory\",\"periodic\",\"structure\"]",
+          "issue": "structure 专项无对应数据字段（无电子排布、无价态），存在机械挂靠；且 reviewNote 中 Fe2+/Fe3+ 内容未在条目字段体现",
+          "fixHint": "移除 structure 或补充价态/排布字段；若保留 Fe2+/Fe3+ 相关出题，需新增价态属性",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "memory.symbol / periodic.elem_name / periodic.symbol",
+          "issue": "periodic 类目缺周期/族数据，自动出题仅限符号-名称互认，避免涉及铁的多价态反应",
+          "fixHint": "限定题型为识记类；涉及 Fe2+/Fe3+ 转化需另设反应条目",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "el.Cu",
+      "type": "element",
+      "name": "铜",
+      "batch": "batch2",
+      "dbId": "22",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"memory\",\"periodic\",\"structure\"]",
+          "issue": "structure 专项缺乏对应字段支撑，属机械挂靠",
+          "fixHint": "移除 structure 或补充电子排布/晶体结构字段后再挂",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.99
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "el.Zn",
+      "type": "element",
+      "name": "锌",
+      "batch": "batch2",
+      "dbId": "23",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"memory\",\"periodic\",\"structure\"]",
+          "issue": "structure 专项缺乏对应字段支撑，属机械挂靠",
+          "fixHint": "移除 structure 或补充电子排布/晶体结构字段后再挂",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.99
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "el.Ag",
+      "type": "element",
+      "name": "银",
+      "batch": "batch2",
+      "dbId": "24",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"memory\",\"periodic\",\"structure\"]",
+          "issue": "structure 专项缺乏对应字段支撑（无电子排布/周期位置），属关键词机械挂靠风险",
+          "fixHint": "移除 structure 或补充原子结构/周期表位置字段后再挂靠",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "el.Ba",
+      "type": "element",
+      "name": "钡",
+      "batch": "batch2",
+      "dbId": "25",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"memory\",\"periodic\",\"structure\"]",
+          "issue": "structure 专项缺乏对应字段支撑，属关键词机械挂靠风险",
+          "fixHint": "移除 structure 或补充结构字段",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "autoQuestionEligibility",
+          "original": "钡及其化合物",
+          "issue": "钡离子检验、BaSO4 沉淀、BaCl2 毒性等涉及实验与离子检验，若自动出题易引入实验干扰与多答案；且钡化合物毒性属安全敏感内容",
+          "fixHint": "仅限元素符号/名称/原子序数客观题；实验分析题需人工审核，禁止要求学生接触可溶性钡盐",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.75
+      }
+    },
+    {
+      "code": "el.Br",
+      "type": "element",
+      "name": "溴",
+      "batch": "batch2",
+      "dbId": "29",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "specialties: memory, periodic, structure",
+          "issue": "structure 专项无对应 categories，且溴原子结构细节非高一必修核心",
+          "fixHint": "可保留 structure 但仅限最外层电子数等基础，或移除",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "concept.elemental_compound",
+      "type": "concept",
+      "name": "单质与化合物",
+      "batch": "batch2",
+      "dbId": "4",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "examples",
+          "original": "O2、金刚石是单质；CO2、NaCl是化合物。",
+          "issue": "示例均为常见物质，无歧义；但“由同种元素组成的纯净物”对O2/O3等同素异形体混合物场景需注意，定义本身已含“纯净物”限定，无科学问题。",
+          "fixHint": "可补充说明同种元素组成的混合物（如O2与O3混合）不是单质，以强化“纯净物”限定。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "concept.ion_coexist",
+      "type": "concept",
+      "name": "离子共存条件",
+      "batch": "batch2",
+      "dbId": "9",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "取决于它们之间是否会发生反应而使某些离子大量减少",
+          "issue": "表述基本正确，但未提及隐含条件（如溶液酸碱性、氧化还原、络合、双水解等）以及“大量共存”的浓度限定；作为定义可接受，但覆盖不完整",
+          "fixHint": "可补充：还需考虑溶液酸碱性、氧化还原反应、络合反应、双水解等因素，以及题目中隐含条件（无色、pH等）",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "definition",
+          "original": "取决于它们之间是否会发生反应而使某些离子大量减少",
+          "issue": "定义未涵盖隐含限制条件（如无色溶液排除有色离子、酸性/碱性环境、氧化还原型共存如NO3-与Fe2+在酸性条件），自动出题若仅按“是否反应”判定，易出现多答案或条件缺失导致的判题歧义",
+          "fixHint": "在题干中明确附加条件（溶液酸碱性、颜色、是否因氧化还原反应），或限定为“因复分解反应不能大量共存”的单一判定口径",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "examples",
+          "original": "H+与OH-不能大量共存；Ba2+与SO42-不能大量共存",
+          "issue": "示例仅覆盖复分解型，未提示氧化还原型共存，出题时若涉及需补充条件",
+          "fixHint": "可补充说明共存还包括氧化还原、络合等情况，出题时明确反应类型",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "concept.oxidant_reductant",
+      "type": "concept",
+      "name": "氧化剂与还原剂",
+      "batch": "batch2",
+      "dbId": "10",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "氧化剂是得到电子（化合价降低）的物质；还原剂是失去电子（化合价升高）的物质",
+          "issue": "定义正确，但未强调“在氧化还原反应中”这一前提，也未说明氧化剂被还原、还原剂被氧化",
+          "fixHint": "建议补充“在氧化还原反应中”，并说明氧化剂本身被还原、还原剂本身被氧化",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "氧化剂是得到电子（化合价降低）的物质；还原剂是失去电子（化合价升高）的物质",
+          "issue": "定义以“物质”表述，教材口径通常为“反应物中化合价降低/升高的物质”，对同一物质既作氧化剂又作还原剂（歧化反应）未说明，出题若涉及需注意",
+          "fixHint": "可补充说明同一物质可兼作氧化剂和还原剂的情形，避免判断题歧义",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "concept.metal_trend",
+      "type": "concept",
+      "name": "金属性递变",
+      "batch": "batch2",
+      "dbId": "13",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "同周期从左到右金属性减弱；同主族从上到下金属性增强（主族规律）。",
+          "issue": "表述基本正确，但“主族规律”限定略含糊；金属性递变规律对主族元素成立，副族/过渡元素不适用，建议明确限定为主族元素。",
+          "fixHint": "改为“对主族元素：同周期从左到右金属性减弱；同主族从上到下金属性增强”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "同周期从左到右金属性减弱；同主族从上到下金属性增强（主族规律）。",
+          "issue": "规律本身正确，但“金属性”强弱判断依据（如与水/酸反应剧烈程度、最高价氧化物对应水化物碱性、置换反应）未说明；自动出题若涉及判断依据需另设条件，否则可能出现多依据歧义。",
+          "fixHint": "可在定义或备注中补充金属性强弱的常见判断依据。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "concept.ionic_bond",
+      "type": "concept",
+      "name": "离子键",
+      "batch": "batch2",
+      "dbId": "15",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "阴、阳离子之间通过静电作用所形成的化学键叫做离子键。",
+          "issue": "定义本身正确；但“静电作用”宜明确为静电吸引与排斥的平衡（教材常表述为阴、阳离子间的静电作用），当前表述不构成科学错误。",
+          "fixHint": "可保留；若追求严谨可写“阴、阳离子之间通过静电作用（吸引与排斥的平衡）形成的化学键”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "阴、阳离子之间通过静电作用所形成的化学键叫做离子键。",
+          "issue": "定义正确；但“静电作用”包含吸引与排斥，部分教材强调“静电作用（包括吸引和排斥）”，若出题要求逐字匹配可能产生判题歧义。",
+          "fixHint": "判题时按语义判定，不要求逐字匹配；可补充“静电作用包括吸引和排斥”的说明。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.93
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "concept.covalent_bond",
+      "type": "concept",
+      "name": "共价键",
+      "batch": "batch2",
+      "dbId": "16",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "examples",
+          "original": "H—H，H—O，C=O。",
+          "issue": "示例书写不规范：H—O 不是完整分子片段，应为 H—O—H（或 H₂O 中的 O—H 键）；C=O 单独书写也宜注明为 CO₂ 或醛酮中的 C=O 双键。作为共价键示例本身不构成科学错误，但表述不严谨。",
+          "fixHint": "改为 H—H、H—O—H（水分子中的 O—H 键）、O=C=O（CO₂ 中的 C=O 双键）等完整结构片段。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "原子间通过共用电子对所形成的化学键叫做共价键。",
+          "issue": "定义未区分极性/非极性共价键，也未说明成键条件（电负性差、原子轨道重叠），但作为基础概念定义本身无科学性错误；若出题涉及极性判断需补充说明。",
+          "fixHint": "可补充极性/非极性共价键的区分说明，或明确本条仅为基础定义。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "examples",
+          "original": "H—H，H—O，C=O。",
+          "issue": "示例中H—O、C=O为极性键，H—H为非极性键，混列未标注，若用于自动出题判断极性可能产生歧义。",
+          "fixHint": "标注各例的极性类型，或仅作结构式书写示例。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "concept.reaction_extent",
+      "type": "concept",
+      "name": "化学反应限度",
+      "batch": "batch2",
+      "dbId": "18",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "可逆反应进行的程度（限度）与反应速率是不同概念；限度讨论反应能进行到什么程度。",
+          "issue": "定义侧重辨析“限度与速率不同”，但未正面给出“化学反应限度”的实质（一定条件下可逆反应达到平衡时反应物转化率/生成物产率所反映的最大进行程度），作为定义条目信息不完整。",
+          "fixHint": "补充：化学反应限度是指在一定条件下可逆反应所能达到的最大进行程度，通常用平衡时反应物的转化率或生成物的产率来衡量；达到限度时正逆反应速率相等、各组分浓度不再变化。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "specialties/categories",
+          "original": "specialties: [calculation]; categories: [calculation.mixed]",
+          "issue": "化学反应限度是概念性内容，与反应速率区分，非计算专项；机械挂靠calculation会导致自动出题误配计算题。",
+          "fixHint": "改为概念类专项（如reaction_equilibrium/concept），移除calculation挂靠。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "可逆反应进行的程度（限度）与反应速率是不同概念；限度讨论反应能进行到什么程度。",
+          "issue": "定义侧重辨析，未给出限度与平衡状态、转化率的关系，若出题涉及定量限度判断需补充条件。",
+          "fixHint": "可补充限度与化学平衡、转化率的关系说明。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.75
+      }
+    },
+    {
+      "code": "concept.electron_conserve",
+      "type": "concept",
+      "name": "电子守恒",
+      "batch": "batch2",
+      "dbId": "21",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "examples",
+          "original": "MnO2与浓盐酸制Cl2时电子守恒。",
+          "issue": "示例涉及MnO2与浓盐酸反应制Cl2，该反应为实验室制氯气，条件（浓盐酸、加热）在自动出题中若作为计算题背景需明确给出，否则学生可能误判；但作为电子守恒示例本身科学正确。",
+          "fixHint": "若用于自动出题，需在题干中完整给出反应条件与方程式，或改用更简单的电子守恒示例。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "formula.N_n_NA",
+      "type": "formula",
+      "name": "粒子数与物质的量",
+      "batch": "batch2",
+      "dbId": "2",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"calculation\",\"memory\"]",
+          "issue": "公式类条目挂memory专项偏机械，核心是计算应用而非记忆背诵",
+          "fixHint": "建议specialties仅保留calculation，或改为calculation+understanding",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "formula.c_n_V",
+      "type": "formula",
+      "name": "物质的量浓度",
+      "batch": "batch2",
+      "dbId": "4",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "variables",
+          "original": "V:溶液体积",
+          "issue": "未强调V为溶液体积而非溶剂体积，自动出题若题干给溶剂体积易产生判题歧义",
+          "fixHint": "在variables或备注中明确V为溶液体积，出题时题干须给出溶液体积",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"calculation\",\"memory\"]",
+          "issue": "记忆专项挂靠偏机械",
+          "fixHint": "建议仅保留calculation",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.88
+      }
+    },
+    {
+      "code": "formula.dilution",
+      "type": "formula",
+      "name": "溶液稀释",
+      "batch": "batch2",
+      "dbId": "5",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "variables",
+          "original": "稀释前后溶质的物质的量不变",
+          "issue": "表述正确但未说明适用条件（适用于稀释过程溶质不反应、不挥发、不析出；且c1、c2为物质的量浓度，V1、V2为溶液体积）。作为公式条目缺少变量符号定义（c1、V1、c2、V2未逐一说明）。",
+          "fixHint": "补充变量定义：c1、c2为稀释前后溶质的物质的量浓度（mol/L），V1、V2为稀释前后溶液体积；并注明适用条件：稀释过程中溶质的物质的量守恒。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"calculation\",\"memory\"]",
+          "issue": "稀释公式核心是计算应用，memory 标签机械挂靠，易导致出记忆型题而非计算题",
+          "fixHint": "移除 memory，保留 calculation；categories 同步调整",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "expression",
+          "original": "c1V1 = c2V2",
+          "issue": "公式仅适用于溶质物质的量守恒的稀释，未注明适用条件（如不涉及反应、溶质不挥发/不析出），自动出题若给反应场景会误用",
+          "fixHint": "variables 中补充适用条件说明",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "formula.M_m_n",
+      "type": "formula",
+      "name": "摩尔质量",
+      "batch": "batch2",
+      "dbId": "6",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "variables",
+          "original": "M:摩尔质量；m:质量；n:物质的量",
+          "issue": "公式正确，但未标注单位（M: g/mol；m: g；n: mol），且未说明摩尔质量在数值上等于相对分子/原子质量。dbReviewNote称已补单位，但variables字段中未见单位。",
+          "fixHint": "在variables中补充单位：M:摩尔质量(g/mol)；m:质量(g)；n:物质的量(mol)，并说明M数值上等于相对分子质量。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"calculation\",\"memory\"]",
+          "issue": "摩尔质量公式为计算关系，memory 标签关联较弱",
+          "fixHint": "可保留 calculation，memory 视需要移除",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "formula.rho_c_M",
+      "type": "formula",
+      "name": "密度与浓度换算",
+      "batch": "batch2",
+      "dbId": "7",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "variables",
+          "original": "ρ:溶液密度；ω:溶质质量分数（小数）；M:溶质摩尔质量；c:物质的量浓度",
+          "issue": "公式 c=1000ρω/M 仅在 ρ 以 g/cm³（g/mL）、ω 以小数、M 以 g/mol、c 以 mol/L 时成立；variables 字段未标注 ρ 的单位与 ω 的取值形式，而 dbReviewNote 已说明需明确，字段本身仍缺限定，易导致单位误用。",
+          "fixHint": "在 variables 中补注：ρ 单位 g/cm³（或 g/mL），ω 为小数（非百分数），M 单位 g/mol，c 单位 mol/L；并说明若 ρ 用 g/L 则改用 c=ρω/M。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "specialties/categories",
+          "original": "specialties:[calculation,memory]; categories:[calculation.amount,memory.chem_formula]",
+          "issue": "memory 标签与公式换算条目关联弱，属关键词机械挂靠",
+          "fixHint": "保留 calculation/calculation.amount，移除 memory 相关标签",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "variables",
+          "original": "ρ:溶液密度；ω:溶质质量分数（小数）；M:溶质摩尔质量",
+          "issue": "公式 c=1000ρω/M 仅在 ρ 以 g/cm³、ω 为小数时成立；若 ρ 用 g/L 需改用 c=ρω/M。变量说明未标注单位条件，自动出题易因单位混用产生歧义",
+          "fixHint": "在 variables 中明确 ρ 单位 g/cm³ 且 ω 为小数，并注明 g/L 情形另用 c=ρω/M",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "expression",
+          "original": "c = 1000ρω/M",
+          "issue": "未标注适用单位条件，与 dbReviewNote 中 g/L 情形并存，需在题干中强制给出单位",
+          "fixHint": "出题时题干必须给出 ρ 单位与 ω 表示形式",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "formula.electron_transfer",
+      "type": "formula",
+      "name": "电子转移计量",
+      "batch": "batch2",
+      "dbId": "10",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "variables",
+          "original": "氧化还原配平依据",
+          "issue": "表述过简，未说明该等式是配平的必要条件而非充分条件，也未提示需结合质量守恒与电荷守恒；作为独立条目信息量偏低。",
+          "fixHint": "补充：电子守恒是氧化还原配平的核心依据，但须与原子守恒（质量守恒）及离子方程式的电荷守恒联合使用。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "specialties/categories",
+          "original": "specialties:[calculation,memory]; categories:[calculation.amount,memory.chem_formula]",
+          "issue": "memory 标签机械挂靠，电子守恒属氧化还原原理与计算依据，非记忆条目",
+          "fixHint": "保留 calculation/calculation.amount，移除 memory 相关标签",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "expression",
+          "original": "失电子总数 = 得电子总数",
+          "issue": "表述为定性守恒关系，自动出题若要求具体数值需题干给出完整氧化还原反应及物质的量，否则答案不唯一",
+          "fixHint": "出题时须给出完整反应方程式与已知量，确保电子转移数唯一",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.92
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "formula.gas_STP",
+      "type": "formula",
+      "name": "标况气体体积",
+      "batch": "batch2",
+      "dbId": "11",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "expression",
+          "original": "V = n · 22.4 L/mol（标准状况近似）",
+          "issue": "22.4 L/mol为近似值，且仅适用于标准状况（0℃、101kPa）下的气体；若题目未明确标注标准状况或物质非气体，直接套用会产生歧义",
+          "fixHint": "在题干模板中强制要求标注“标准状况”且限定气体；答案保留近似说明",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"calculation\",\"memory\"]",
+          "issue": "memory专项与公式计算关联较弱，存在关键词机械挂靠风险",
+          "fixHint": "建议仅保留calculation，或说明memory指公式记忆",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "kp.redox.ox_product",
+      "type": "knowledge",
+      "name": "氧化产物判断",
+      "batch": "batch2",
+      "dbId": "6",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "例：2Na+Cl2=2NaCl中，NaCl对钠而言是氧化产物",
+          "issue": "同一产物NaCl既是氧化产物又是还原产物（对Cl而言），表述“对钠而言”虽限定但仍易引起判题歧义；自动出题若要求唯一答案需明确限定视角",
+          "fixHint": "题干中明确“从某元素角度判断”或改为单元素变价反应示例",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "[]",
+          "issue": "categories为空，与specialties不一致，可能影响分类检索",
+          "fixHint": "补充redox相关category",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.88
+      }
+    },
+    {
+      "code": "kp.redox.e_transfer",
+      "type": "knowledge",
+      "name": "电子转移",
+      "batch": "batch2",
+      "dbId": "8",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "易错：只看氧元素是否参加。",
+          "issue": "表述含糊，未说明具体易错点（如误认为只有氧元素参与才是氧化还原反应），可能造成理解歧义",
+          "fixHint": "改为明确表述，如“易错：误认为必须有氧元素参加才是氧化还原反应”",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "kp.redox.e_conserve",
+      "type": "knowledge",
+      "name": "电子守恒",
+      "batch": "batch2",
+      "dbId": "9",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "用于配平与计算。易错：只配平原子个数。",
+          "issue": "电子守恒用于配平与计算时，自动出题若涉及多步计算或复杂氧化还原方程式，可能存在多解或条件不完整风险；计算题需明确已知量",
+          "fixHint": "计算题须给出完整已知条件并确保答案唯一；配平题应限定单一确定产物",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.88
+      }
+    },
+    {
+      "code": "kp.ion.electrolyte",
+      "type": "knowledge",
+      "name": "电解质与非电解质",
+      "batch": "batch2",
+      "dbId": "10",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "电解质：在水溶液中或熔融状态下能够导电的化合物",
+          "issue": "定义表述基本正确，但“或”与“和”的教材口径需注意：人教版表述为“在水溶液里或熔融状态下能够导电的化合物”，与条目一致，无实质争议",
+          "fixHint": "可保留；建议补充“必须是化合物”的强调",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "kp.ion.ionization_eq",
+      "type": "knowledge",
+      "name": "电离方程式书写",
+      "batch": "batch2",
+      "dbId": "11",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "强电解质完全电离用“=”，弱电解质用“⇌”",
+          "issue": "表述基本正确，但未区分强弱电解质中难溶盐等情形；强电解质包括难溶强电解质（如BaSO4），其电离方程式仍用“=”，此点未提及但不构成错误",
+          "fixHint": "可补充说明强电解质包括难溶强电解质，其电离仍用“=”，以增强覆盖",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "强电解质完全电离用“=”，弱电解质用“⇌”；注意原子守恒与电荷守恒；多元弱酸分步电离",
+          "issue": "书写规则本身正确，但自动出题时若要求书写具体物质的电离方程式，需明确物质与条件（如NaHSO4在水溶液中与熔融状态下电离方式不同），否则标准答案不唯一",
+          "fixHint": "出题时须指定具体物质及状态（水溶液/熔融），避免多答案歧义",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.structure.isotope",
+      "type": "knowledge",
+      "name": "核素与同位素",
+      "batch": "batch2",
+      "dbId": "15",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "同位素：质子数相同中子数不同的同一元素不同核素。化学性质几乎相同。",
+          "issue": "表述基本正确，但“化学性质几乎相同”宜明确为“化学性质基本相同（物理性质有差异）”，且核素定义中“具有一定质子数和中子数的原子”宜说明是“一种原子”，属表述规范问题，非科学错误。",
+          "fixHint": "可改为：核素是具有一定质子数和中子数的一种原子；同位素是质子数相同、中子数不同的同一元素的不同核素，化学性质基本相同，物理性质有差异。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "化学性质几乎相同",
+          "issue": "表述基本正确，但“几乎相同”需注意同位素化学性质差异极小、物理性质不同，出题时若涉及性质比较需明确区分化学/物理性质",
+          "fixHint": "可补充“物理性质有差异”，避免出题歧义",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "kp.periodic.position",
+      "type": "knowledge",
+      "name": "周期与族定位",
+      "batch": "batch2",
+      "dbId": "18",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "周期数=电子层数；主族序数=最外层电子数（主族）。",
+          "issue": "表述基本正确，但“主族序数=最外层电子数”仅对主族元素成立，条目已用括号限定“主族”，可接受；未提及0族、副族、Ⅷ族不适用，属覆盖性提示，非科学错误。",
+          "fixHint": "可补充“仅适用于主族元素；0族、副族、Ⅷ族不按此规律”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "主族序数=最外层电子数（主族）",
+          "issue": "表述正确但未说明副族/0族不适用，若自动出题涉及过渡元素可能产生歧义",
+          "fixHint": "明确限定主族元素，或补充副族定位需用价电子/电子排布",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "kp.calc.amount",
+      "type": "knowledge",
+      "name": "物质的量三公式",
+      "batch": "batch2",
+      "dbId": "21",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "仅当气体处于标准状况时可用 n=V/22.4（V单位L）",
+          "issue": "表述基本正确，但未明确 22.4 L/mol 是标准状况（0 ℃、101 kPa）下气体摩尔体积的近似值，也未说明该式仅适用于气体且需 V 与 Vm 单位匹配；作为公式条目可接受，但严谨性可提升。",
+          "fixHint": "可补充“标准状况指 0 ℃、101 kPa；22.4 L/mol 为近似值，仅适用于气体”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "仅当气体处于标准状况时可用 n=V/22.4",
+          "issue": "表述正确但需注意22.4 L/mol为近似值，部分教材用22.4 L/mol、部分用22.4 L·mol⁻¹，数值口径一致，无实质争议",
+          "fixHint": "可保留；建议注明'标准状况(0℃,101kPa)'以明确条件",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "kp.calc.dilution",
+      "type": "knowledge",
+      "name": "稀释计算",
+      "batch": "batch2",
+      "dbId": "23",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "稀释前后溶质n不变：c1V1=c2V2。混合若反应则不能直接套用。",
+          "issue": "公式正确；未说明 c1V1=c2V2 要求 V1、V2 单位一致（通常为 L 或 mL 同单位），也未说明适用于溶质物质的量守恒的稀释/混合不反应情形。",
+          "fixHint": "可补充“V1、V2 单位需一致；仅适用于溶质不反应、物质的量守恒的稀释或混合”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "混合若反应则不能直接套用",
+          "issue": "表述正确但较简略，未说明稀释公式仅适用于非反应性稀释且忽略体积收缩",
+          "fixHint": "可补充'适用于溶质不反应、体积近似加和的情形'",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "kp.memory.ion_table",
+      "type": "knowledge",
+      "name": "常见离子速记",
+      "batch": "batch2",
+      "dbId": "25",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "检验与共存题常考上述离子",
+          "issue": "离子共存/检验涉及溶解性表与反应条件，自动出题若条件不完整（浓度、酸碱性、是否生成沉淀气体）易出现多答案或判题歧义",
+          "fixHint": "自动出题须给出完整条件（如“在无色透明溶液中”“强酸性条件”），并确保唯一答案",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "电荷写在右上角",
+          "issue": "书写规范属记忆性提示，作为知识点可保留，但不宜单独出判断题造成歧义",
+          "fixHint": "出题聚焦离子符号与电荷，避免仅考书写位置",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "sub.Al",
+      "type": "substance",
+      "name": "铝",
+      "batch": "batch3",
+      "dbId": "13",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.chem_property, substance.formula",
+          "issue": "铝条目仅给出颜色“银白色”，未提供化学性质与化学式字段内容，categories 中 chem_property/formula 可能缺乏对应数据支撑",
+          "fixHint": "补充铝的化学式 Al 与典型化学性质（如与酸、碱反应）字段，或调整 categories 仅保留已填内容",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "（无 description 字段）",
+          "issue": "物质条目缺少描述，自动出题缺少条件与答案依据",
+          "fixHint": "补充铝的基本性质描述，明确考查范围",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "sub.Fe",
+      "type": "substance",
+      "name": "铁",
+      "batch": "batch3",
+      "dbId": "16",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "color",
+          "original": "银白色（粉末可呈灰黑）",
+          "issue": "颜色描述含括注，若自动出题以颜色为唯一判据，'灰黑'与'银白'可能造成判题歧义",
+          "fixHint": "出题时明确限定块状铁为银白色，或避免以粉末颜色作唯一答案",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "substance.chem_property, substance.formula",
+          "issue": "未标注铁的常见价态/反应类别，自动生成方程式题时可能缺条件（如与酸、盐溶液、氧气反应条件）",
+          "fixHint": "出方程式题须在题干给出反应物与条件，避免多产物歧义",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "sub.Fe3O4",
+      "type": "substance",
+      "name": "四氧化三铁",
+      "batch": "batch3",
+      "dbId": "18",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.chem_property, substance.formula",
+          "issue": "四氧化三铁为混合价态氧化物（FeO·Fe2O3），性质涉及与酸反应、磁性等，但categories未体现其特殊性；若自动出题涉及与酸反应产物（Fe2+与Fe3+共存）需明确条件，否则答案可能不唯一",
+          "fixHint": "补充说明与酸反应生成Fe2+和Fe3+，避免单一产物歧义；calc/equation题型需谨慎",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "sub.FeOH3",
+      "type": "substance",
+      "name": "氢氧化铁",
+      "batch": "batch3",
+      "dbId": "19",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": null,
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.92
+      }
+    },
+    {
+      "code": "sub.CuO",
+      "type": "substance",
+      "name": "氧化铜",
+      "batch": "batch3",
+      "dbId": "22",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.chem_property",
+          "issue": "氧化铜的化学性质涉及与酸反应、被还原等，若自动出题涉及还原产物（Cu 或 Cu2O）可能多答案",
+          "fixHint": "出题限定'与稀硫酸反应'等单一条件，避免还原产物歧义",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "color",
+          "original": "黑色",
+          "issue": "CuO 颜色'黑色'为教材常见口径，但需与 Cu2O（砖红色）区分，防止混淆出题",
+          "fixHint": "出题时明确物质为 CuO",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "sub.CuOH2",
+      "type": "substance",
+      "name": "氢氧化铜",
+      "batch": "batch3",
+      "dbId": "23",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.chem_property, substance.formula",
+          "issue": "仅给出颜色字段，未提供化学性质与化学式字段，chem_property/formula 分类缺乏数据支撑，自动出题时可能无据可依",
+          "fixHint": "补充化学式 Cu(OH)2、与酸反应/受热分解等性质字段，或暂不挂 chem_property",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "color",
+          "original": "蓝色",
+          "issue": "氢氧化铜为蓝色沉淀，描述基本正确；但若出题涉及'蓝色沉淀'需明确状态（沉淀），否则判题可能歧义",
+          "fixHint": "补充状态字段（难溶蓝色固体/沉淀）",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "sub.CuSO4",
+      "type": "substance",
+      "name": "硫酸铜",
+      "batch": "batch3",
+      "dbId": "24",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "color",
+          "original": "无水白色；五水合物蓝色",
+          "issue": "颜色描述正确，但条目名'硫酸铜'未区分无水物与五水合物，自动出题若问'硫酸铜颜色'存在多答案歧义",
+          "fixHint": "明确条目为无水硫酸铜或拆分五水硫酸铜条目，出题时限定物质形态",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.chem_property, substance.formula",
+          "issue": "未提供化学式与性质字段，formula/chem_property 分类缺乏数据支撑",
+          "fixHint": "补充 CuSO4、CuSO4·5H2O 化学式及与碱反应等性质",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "rxn.4Na_O2",
+      "type": "reaction",
+      "name": "钠常温与氧气",
+      "batch": "batch3",
+      "dbId": "2",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "常温（表面生成）",
+          "issue": "条件描述可更明确为常温下与氧气反应生成氧化钠，避免与加热产物混淆",
+          "fixHint": "建议写为常温（缓慢氧化，表面生成Na2O）",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "rxn.2Na_O2_heat",
+      "type": "reaction",
+      "name": "钠加热与氧气",
+      "batch": "batch3",
+      "dbId": "3",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "加热点燃（燃烧）",
+          "issue": "加热与点燃条件表述并列，可能造成条件判定歧义",
+          "fixHint": "建议统一为加热（或点燃）条件下反应生成Na2O2",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "rxn.Na2O_H2O",
+      "type": "reaction",
+      "name": "氧化钠与水",
+      "batch": "batch3",
+      "dbId": "6",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "species.state",
+          "original": "NaOH state=aq",
+          "issue": "Na2O与水反应生成NaOH，若水量有限产物可为固体NaOH；标注aq为常见溶液情境，但状态与条件'常温'未明确水量，严格判题时状态可能不唯一",
+          "fixHint": "条件补充'溶于水/水溶液中'或产物状态按情境标注；出题时避免对产物状态设唯一答案",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.NaOH_HCl",
+      "type": "reaction",
+      "name": "氢氧化钠与盐酸",
+      "batch": "batch3",
+      "dbId": "8",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": null,
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.92
+      }
+    },
+    {
+      "code": "rxn.2Mg_O2",
+      "type": "reaction",
+      "name": "镁与氧气",
+      "batch": "batch3",
+      "dbId": "11",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "2Mg + O2 =点燃= 2MgO",
+          "issue": "条件标注格式含多余等号，机器解析可能歧义",
+          "fixHint": "规范为 2Mg+O2 点燃 2MgO 或统一条件字段",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.4Al_3O2",
+      "type": "reaction",
+      "name": "铝与氧气",
+      "batch": "batch3",
+      "dbId": "14",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "本条方程式对应点燃或高温燃烧条件。另：常温下铝表面可缓慢生成致密Al2O3氧化膜",
+          "issue": "同一化学式对应点燃燃烧与常温成膜两种不同条件/现象，若自动出题未锁定条件，可能出现条件与现象不匹配的判题歧义",
+          "fixHint": "自动出题时须在题干明确条件（点燃/燃烧 vs 常温成膜），并分别设置标准答案",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "equation.balance",
+          "issue": "配平类题目本身可出，但需注意条件标注（点燃）为答案组成部分，判题时应容错或明确要求",
+          "fixHint": "配平题标准答案需包含条件标注规则说明",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.Al2O3_6HCl",
+      "type": "reaction",
+      "name": "氧化铝与盐酸",
+      "batch": "batch3",
+      "dbId": "17",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "常温或加热",
+          "issue": "Al2O3与盐酸反应条件表述较宽泛，教材通常不特别强调加热，但作为反应条件不影响配平与产物判断",
+          "fixHint": "可保留，或改为“常温（可加热）”以更贴近教材表述",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.AlOH3_3HCl",
+      "type": "reaction",
+      "name": "氢氧化铝与盐酸",
+      "batch": "batch3",
+      "dbId": "20",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": null,
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.Fe_CuSO4",
+      "type": "reaction",
+      "name": "铁与硫酸铜",
+      "batch": "batch3",
+      "dbId": "23",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "oxidant/reductant",
+          "original": "oxidant=CuSO4, reductant=Fe",
+          "issue": "严格说氧化剂是CuSO4中的Cu2+、还原剂是Fe；以CuSO4整体标注在中学语境可接受，但若用于氧化还原判断题需明确氧化剂为Cu2+。",
+          "fixHint": "可保留CuSO4，但建议在解析中说明氧化剂为Cu2+。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "常温，溶液中",
+          "issue": "条件描述较笼统，未明确CuSO4为溶液、Fe为单质固体，自动出题时若题干省略状态可能产生歧义",
+          "fixHint": "建议条件写为“常温，CuSO4溶液中”，并在species中保留状态标注",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "rxn.Cu_O2_heat",
+      "type": "reaction",
+      "name": "铜加热与氧气",
+      "batch": "batch3",
+      "dbId": "25",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "加热",
+          "issue": "条件仅写“加热”，未区分“△”符号与具体加热方式；对自动判题影响小，但书写方程式时条件标注需统一。",
+          "fixHint": "统一条件表述为“△（加热）”，并在答案中允许“加热/△”等价。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "rxn.CuO_2HCl",
+      "type": "reaction",
+      "name": "氧化铜与盐酸",
+      "batch": "batch3",
+      "dbId": "27",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "常温或微热",
+          "issue": "条件表述较宽泛，但该反应常温即可进行，不影响判题",
+          "fixHint": "可保留，或统一为“常温”",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "rxn.Zn_H2SO4",
+      "type": "reaction",
+      "name": "锌与稀硫酸",
+      "batch": "batch3",
+      "dbId": "28",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "oxidant",
+          "original": "H2SO4",
+          "issue": "氧化剂标为H2SO4整体，严格应为H2SO4中+1价H得电子；作为氧化剂物质标注可接受，但若出题问“氧化剂是什么”标准答案唯一为H2SO4，无歧义",
+          "fixHint": "可保留；若细分可注明氧化剂为H2SO4（H元素被还原）",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "rxn.Zn_CuSO4",
+      "type": "reaction",
+      "name": "锌与硫酸铜",
+      "batch": "batch3",
+      "dbId": "29",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "常温，溶液中",
+          "issue": "条件描述可更精确为“常温下，CuSO4溶液中”，但当前表述不构成科学错误",
+          "fixHint": "可改为“常温，CuSO4溶液中”",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "equation.balance",
+          "issue": "该反应系数均为1，配平训练价值低，但作为配平示例仍成立",
+          "fixHint": "保留但不宜作为配平专项主例",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "exp.Na2O2_H2O",
+      "type": "experiment",
+      "name": "过氧化钠与水/二氧化碳",
+      "batch": "batch3",
+      "dbId": "3",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "2Na2O2+2H2O=4NaOH+O2↑；2Na2O2+2CO2=2Na2CO3+O2",
+          "issue": "方程式正确，但条目未说明酚酞检验碱时先变红后褪色（Na2O2的漂白性）这一常见现象，若自动出题涉及现象判断可能产生歧义",
+          "fixHint": "在 principle 或现象描述中补充酚酞先变红后褪色的说明，或明确题目只考'变红'",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "reagents",
+          "original": "二氧化碳（或呼出气体）",
+          "issue": "'呼出气体'含CO2和水蒸气，与Na2O2反应时水蒸气也参与，现象解释存在多因素干扰",
+          "fixHint": "若用呼出气体需注明干燥或说明干扰；建议自动出题限定为纯净CO2",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "exp.Al_amphoteric",
+      "type": "experiment",
+      "name": "铝及氧化铝两性验证",
+      "batch": "batch3",
+      "dbId": "4",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "Al(OH)3沉淀在酸或过量强碱中溶解是两性关键实验现象",
+          "issue": "未明确'过量'强碱条件，Al(OH)3溶于强碱需过量NaOH，若题目条件不完整易产生'少量碱是否溶解'的判题歧义",
+          "fixHint": "在 principle 中明确'过量NaOH'，自动出题时条件须写明碱过量",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "reagents",
+          "original": "铝片或铝粉、Al2O3、AlCl3溶液、NaOH溶液、盐酸、氨水等",
+          "issue": "铝粉表面积大、与强碱反应放氢剧烈，存在安全风险；氨水用于制备Al(OH)3需说明'氨水过量'才能保证沉淀完全且不溶解",
+          "fixHint": "安全提示中注明铝粉慎用、通风；氨水沉淀条件写明过量氨水",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.88
+      }
+    },
+    {
+      "code": "kp.Na.oxide",
+      "type": "knowledge",
+      "name": "钠的氧化物与过氧化物",
+      "batch": "batch3",
+      "dbId": "27",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "钠常温与O2主要生成Na2O（白色）；燃烧生成Na2O2（淡黄色）",
+          "issue": "表述基本正确，但“常温与O2主要生成Na2O”严格说钠在常温干燥空气中主要生成Na2O，而在潮湿空气中会进一步转化为NaOH等；教材通常表述为“常温下缓慢氧化生成Na2O”，此处未提“缓慢氧化/干燥条件”，属条件限定略欠。",
+          "fixHint": "建议改为“钠在常温下与O2缓慢氧化主要生成Na2O（白色）；在空气中燃烧生成Na2O2（淡黄色）”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "Na2O2中氧为−1价，与H2O、CO2反应都放出O2，常作供氧剂理解",
+          "issue": "Na2O2中氧为−1价正确；与H2O、CO2反应放出O2正确。但“常作供氧剂理解”表述略含糊，供氧剂依据是反应产生O2，建议明确。",
+          "fixHint": "可改为“因与H2O、CO2反应均放出O2，故可作供氧剂”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "Na2O2中氧为−1价，与H2O、CO2反应都放出O2",
+          "issue": "描述正确但未给出完整反应方程式，自动出题若要求写方程式需明确产物与配平，存在多写法（如是否写O2↑、条件）判题歧义",
+          "fixHint": "在题目中固定方程式书写要求（化学方程式/离子方程式、是否标气体符号）",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "equation, substance",
+          "issue": "equation 专项合理；但若自动生成计算题（如Na2O2与CO2供氧计算）涉及物质的量，属高一后续内容，需限制",
+          "fixHint": "calc 题型默认禁止或仅在明确给出完整数据时允许",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.93
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.Na.carbonate",
+      "type": "knowledge",
+      "name": "碳酸钠与碳酸氢钠",
+      "batch": "batch3",
+      "dbId": "28",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "鉴别可用加热法或滴酸快慢/现象结合题设",
+          "issue": "“滴酸快慢/现象”表述不够严谨：向Na2CO3溶液中逐滴加酸，开始无气泡（生成HCO3−），继续滴加才放气；向NaHCO3中滴酸立即放气。该鉴别需控制滴加顺序与量，原文未明确，属表述规范问题。",
+          "fixHint": "建议明确“向二者溶液中分别逐滴加入稀盐酸，NaHCO3立即产生气泡，Na2CO3开始无明显气泡、后产生气泡”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "鉴别可用加热法或滴酸快慢/现象结合题设",
+          "issue": "滴酸快慢鉴别受滴加顺序、浓度影响，属实验干扰因素，自动出题若作为唯一标准答案存在判题歧义",
+          "fixHint": "鉴别题需明确操作条件（如逐滴加入、等浓度），或改为加热法单一答案",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "Na2CO3溶液通足量CO2可转化为NaHCO3",
+          "issue": "描述正确，但自动出题若涉及CO2用量不足的产物判断，需给出定量条件，否则多答案",
+          "fixHint": "涉及CO2用量的题目须明确足量/少量",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.92
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "sub.FeSO4",
+      "type": "substance",
+      "name": "硫酸亚铁",
+      "batch": "batch3",
+      "dbId": "31",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"ion\",\"memory\",\"substance\"]",
+          "issue": "硫酸亚铁作为具体物质，其性质涉及离子反应和氧化还原，但专项未挂靠redox，可能遗漏相关出题点；不过当前专项未机械挂靠，可接受。",
+          "fixHint": "可考虑增加redox专项以覆盖Fe2+还原性，但非必须。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "kp.Fe.fe2_property",
+      "type": "knowledge",
+      "name": "Fe²⁺的性质",
+      "batch": "batch3",
+      "dbId": "33",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "可用氧化后再加KSCN的方法间接检验。",
+          "issue": "检验方法描述正确，但自动出题若要求写出具体氧化剂和反应方程式，可能因条件不唯一导致答案不唯一。",
+          "fixHint": "出题时限定为方法选择或现象判断，避免开放式的方程式书写。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "rxn.2Fe2_Cl2",
+      "type": "reaction",
+      "name": "亚铁离子被氯气氧化",
+      "batch": "batch3",
+      "dbId": "31",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "2Fe2+ + Cl2 = 2Fe3+ + 2Cl-",
+          "issue": "离子方程式书写规范：Fe2+、Fe3+电荷上标在纯文本中未标出，需确保渲染/判题时电荷正确",
+          "fixHint": "确认电荷上标显示正确，判题时按规范离子式比对",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "kp.metal.stainless",
+      "type": "knowledge",
+      "name": "不锈钢",
+      "batch": "batch3",
+      "dbId": "40",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "不锈钢是加入铬等元素提高抗腐蚀能力的钢",
+          "issue": "表述正确但略简；不锈钢抗腐蚀主要依赖铬在表面形成致密氧化膜（钝化膜），未提机制不影响科学性，属了解级可接受。",
+          "fixHint": "可在了解级范围内补充“铬使表面形成致密氧化膜”，但不展开铬酸盐氧化还原。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "加入铬等元素提高抗腐蚀能力的钢（了解级，不进默认高一核心训练池）",
+          "issue": "了解级定位与curriculumScopeHint一致，但“不进默认核心训练池”与autoQuestionEligibility需协调；若允许出题应限制为识记类",
+          "fixHint": "自动出题仅限识记/判断，不出计算、方程式或深度氧化还原题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "勿展开铬酸盐深度氧化还原",
+          "issue": "铬酸盐涉及Cr(VI)氧化还原，属超范围，出题若涉及会超纲",
+          "fixHint": "禁止出铬的氧化还原、电极反应等题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "rxn.Na2CO3_CO2_H2O",
+      "type": "reaction",
+      "name": "碳酸钠转化为碳酸氢钠",
+      "batch": "batch3",
+      "dbId": "32",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "species.state",
+          "original": "Na2CO3 aq, NaHCO3 aq",
+          "issue": "反应通常在Na2CO3溶液中通CO2进行，产物NaHCO3因溶解度较小可能结晶析出；将产物一律标为aq不够严谨，但作为溶液转化描述可接受。",
+          "fixHint": "可保留aq，或在说明中注明NaHCO3可能析出；若强调析出可标s。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "通入足量CO2",
+          "issue": "条件描述基本完整，但未说明溶液状态（Na2CO3溶液）；若出题要求写离子方程式需另行区分",
+          "fixHint": "可补充“Na2CO3溶液”以明确体系；不影响化学方程式书写",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "sub.Cl2",
+      "type": "substance",
+      "name": "氯气",
+      "batch": "batch4",
+      "dbId": "34",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "氯气检验涉及湿润淀粉碘化钾试纸等操作，书面分析可行，但若自动出题要求描述实验现象需注意表述唯一性",
+          "fixHint": "实验类题目限定为书面现象/原理分析，避免开放操作描述",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "sub.HCl",
+      "type": "substance",
+      "name": "氯化氢",
+      "batch": "batch4",
+      "dbId": "35",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "氯化氢检验（如遇氨气生白烟、湿润石蕊变红）多方法并存，自动出题需明确指定方法否则答案不唯一",
+          "fixHint": "检验类题目须在题干限定具体试剂/现象",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.88
+      }
+    },
+    {
+      "code": "sub.HCl_aq",
+      "type": "substance",
+      "name": "盐酸",
+      "batch": "batch4",
+      "dbId": "36",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "Cl⁻检验需硝酸酸化，若自动出题涉及检验试剂选择，需明确条件（如是否酸化、干扰离子），否则答案可能不唯一",
+          "fixHint": "出题时补充酸化条件与干扰说明，或限定为书面实验分析",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "color",
+          "original": "无色（工业盐酸可因杂质发黄）",
+          "issue": "颜色描述含工业品杂质说明，纯物质与工业品口径需区分，避免判断题歧义",
+          "fixHint": "出题区分纯净盐酸与工业盐酸",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "sub.NO",
+      "type": "substance",
+      "name": "一氧化氮",
+      "batch": "batch4",
+      "dbId": "46",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "NO检验依赖与O₂反应生成红棕色NO₂，自动出题若涉及现象描述需条件完整（是否接触空气），否则判题歧义",
+          "fixHint": "出题明确接触空气条件，限定书面分析",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "memory,substance",
+          "issue": "NO与O₂反应属氧化还原，若题库按redox专项检索可能漏挂；但当前未挂redox不构成错误，仅提示",
+          "fixHint": "如需氧化还原专项题，另行挂靠并审核",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.88
+      }
+    },
+    {
+      "code": "rxn.H2_Cl2",
+      "type": "reaction",
+      "name": "氢气与氯气",
+      "batch": "batch4",
+      "dbId": "34",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "H2 + Cl2 =光照或点燃= 2HCl",
+          "issue": "条件表述“光照或点燃”并列，但两者反应剧烈程度与机理不同（光照为自由基链式反应，点燃为燃烧/爆炸），作为唯一产物HCl均成立，无科学性错误；仅表述可更规范。",
+          "fixHint": "可写为“光照或点燃（均生成HCl）”，并保留安全提示。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "specialties/categories",
+          "original": "specialties:[equation,redox,substance]; categories:[equation.write_from_text,redox.identify,substance.test]",
+          "issue": "substance 与 substance.test 与本反应无实质关联，属机械挂靠",
+          "fixHint": "删除 substance 与 substance.test，仅保留 equation 与 redox 相关",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "光照或点燃；注意爆炸极限与安全（教师指导）",
+          "issue": "H2/Cl2 光照或点燃反应存在爆炸极限与强光危险，自动出题若涉及实验操作会诱导危险行为",
+          "fixHint": "仅允许书面分析（现象、方程式、氧化还原判断），禁止实验操作类题目",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "H2 + Cl2 =光照或点燃= 2HCl",
+          "issue": "条件表述含两种条件，书写题需明确指定条件，否则判题可能歧义",
+          "fixHint": "出题时明确条件（光照或点燃），答案接受两种条件写法",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "rxn.2Na_Cl2",
+      "type": "reaction",
+      "name": "钠与氯气",
+      "batch": "batch4",
+      "dbId": "35",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "点燃或加热",
+          "issue": "钠与氯气常温即可反应，点燃/加热是常见条件描述，不构成错误；但“加热”并非必需条件，表述可更精确。",
+          "fixHint": "可注明“点燃（常温也可缓慢反应）”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "specialties/categories",
+          "original": "specialties:[equation,redox,substance]; categories:[equation.write_from_text,redox.identify,substance.test]",
+          "issue": "substance 与 substance.test 与本反应无实质关联，属机械挂靠",
+          "fixHint": "删除 substance 与 substance.test，保留 equation 与 redox",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "点燃或加热",
+          "issue": "钠与氯气反应条件表述为点燃或加热，书写题需明确，避免判题歧义",
+          "fixHint": "出题时明确条件，答案接受点燃/加热",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "2Na + Cl2 =点燃= 2NaCl",
+          "issue": "钠与氯气反应剧烈，实验操作类题目存在安全风险",
+          "fixHint": "仅允许书面分析，禁止实验操作题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "rxn.2Fe_3Cl2",
+      "type": "reaction",
+      "name": "铁与氯气",
+      "batch": "batch4",
+      "dbId": "36",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "点燃（或加热）",
+          "issue": "条件表述可接受，但教材通常写点燃；加热亦可，属口径宽松，不影响判题",
+          "fixHint": "可保留，建议注明点燃为主",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.Cl2_2NaOH",
+      "type": "reaction",
+      "name": "氯气与氢氧化钠",
+      "batch": "batch4",
+      "dbId": "38",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P1",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "species",
+          "original": "NaOH state=aq；NaCl/NaClO state=aq",
+          "issue": "方程式中NaOH写作aq，而条件限定为“冷的稀NaOH溶液”，状态标注与条件基本一致；但教材常写为NaOH(aq)或直接写NaOH溶液，此处无实质错误。",
+          "fixHint": "可保留aq；若强调稀溶液，可在conditions中已说明，无需改动。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P1",
+          "field": "conditions",
+          "original": "本条仅适用：常温、冷的稀NaOH溶液。禁止无条件套用。热的浓碱另有反应",
+          "issue": "条件已明确冷/稀，但自动出题若题干只写“氯气与氢氧化钠反应”而不给温度/浓度，学生可能写热浓碱产物（氯酸盐），标准答案不唯一",
+          "fixHint": "自动出题题干必须显式给出“常温/冷、稀NaOH”，否则禁止出方程式题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "该反应与物质检验的关联非直接，作为 substance.test 类别可能造成关键词机械挂靠",
+          "fixHint": "若保留 substance.test，需在题干中明确检验目的（如检验Cl2吸收），否则移除该类别",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.MnO2_4HCl",
+      "type": "reaction",
+      "name": "二氧化锰与浓盐酸制氯气",
+      "batch": "batch4",
+      "dbId": "39",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P1",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "species",
+          "original": "HCl state=aq；MnCl2 state=aq",
+          "issue": "反应物为浓盐酸，HCl标注为aq合理；生成物MnCl2在反应体系中为溶液，标注aq可接受。",
+          "fixHint": "无需修改；若严格按教材可保留。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P1",
+          "field": "conditions",
+          "original": "浓盐酸，加热；实验室制Cl2经典反应",
+          "issue": "自动出题若题干未强调“浓盐酸、加热”，学生可能写稀盐酸不反应或产物不同，标准答案依赖条件完整性",
+          "fixHint": "方程式题题干必须写明“浓盐酸、加热”，否则判为条件不完整",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "实验室制法与物质检验类别不匹配，存在关键词机械挂靠",
+          "fixHint": "移除 substance.test 或改为制备类类别",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "equation",
+          "original": "MnO2 + 4HCl(浓) =△= MnCl2 + Cl2↑ + 2H2O",
+          "issue": "HCl 系数4中仅2被氧化，氧化还原电子守恒分析需注意“部分氧化”，自动出题若问“被氧化的HCl比例”需明确",
+          "fixHint": "涉及氧化还原定量时题干明确问“被氧化的HCl”，避免歧义",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.S_O2",
+      "type": "reaction",
+      "name": "硫与氧气",
+      "batch": "batch4",
+      "dbId": "40",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "硫燃烧反应本身不直接对应物质检验，substance.test 关联偏机械",
+          "fixHint": "如无检验情境，移除 substance.test 或改为性质描述类",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "S + O2 =点燃= SO2",
+          "issue": "产物 SO2 为气体，species 已标 g，但方程未标状态；自动判题若要求状态需统一",
+          "fixHint": "明确是否要求标注状态符号",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.NH3_HCl",
+      "type": "reaction",
+      "name": "氨与氯化氢",
+      "batch": "batch4",
+      "dbId": "46",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "常温气体相遇",
+          "issue": "条件描述可，但产物NH4Cl为白烟（固体小颗粒），若出题涉及现象需明确'白烟'而非'白雾'，避免判题歧义",
+          "fixHint": "可在conditions或备注中补充现象：产生白烟",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.2NO_O2",
+      "type": "reaction",
+      "name": "一氧化氮与氧气",
+      "batch": "batch4",
+      "dbId": "48",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "常温迅速反应",
+          "issue": "条件描述可更精确（常温下即可迅速反应），但不影响判题",
+          "fixHint": "可保留；如需严谨可写“常温下迅速反应”",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.3NO2_H2O",
+      "type": "reaction",
+      "name": "二氧化氮与水",
+      "batch": "batch4",
+      "dbId": "49",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "该反应本身不是物质检验的典型依据，substance.test挂靠偏机械；NO2与水反应可涉及气体检验/尾气处理，但作为检验专项依据不充分",
+          "fixHint": "建议移除substance.test或改为更贴切的“性质/制备”类目",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "equation",
+          "original": "3NO2 + H2O = 2HNO3 + NO",
+          "issue": "该反应为歧化反应，同一物质NO2既作氧化剂又作还原剂，自动出题若要求“指出氧化剂/还原剂”需明确允许同一物质，否则易产生判题歧义",
+          "fixHint": "出题时明确说明歧化反应特点，或避免单一氧化剂/还原剂填空",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "rxn.C_O2_incomplete",
+      "type": "reaction",
+      "name": "碳不完全燃烧",
+      "batch": "batch4",
+      "dbId": "52",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "该反应条目本身不承载物质检验知识，机械挂靠 substance.test 会误导组卷",
+          "fixHint": "移除 substance.test，或改为独立物质检验条目",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "oxProduct/reProduct",
+          "original": "oxProduct=CO, reProduct=CO",
+          "issue": "氧化产物与还原产物为同一物质 CO，若自动出题要求分别填写氧化产物与还原产物，答案重复易造成判题歧义",
+          "fixHint": "出题时避免要求区分氧化产物/还原产物，或明确说明二者相同",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "点燃，氧气不充足",
+          "issue": "条件表述为定性描述，自动判题时对“氧气不充足/不足量”表述的接受范围需设定同义答案",
+          "fixHint": "判题时接受“氧气不足/不充足/少量氧气”等同义表述",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "rxn.C_O2_complete",
+      "type": "reaction",
+      "name": "碳完全燃烧",
+      "batch": "batch4",
+      "dbId": "53",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "该反应条目本身不承载物质检验知识，机械挂靠 substance.test 会误导组卷",
+          "fixHint": "移除 substance.test，或改为独立物质检验条目",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "oxProduct/reProduct",
+          "original": "oxProduct=CO2, reProduct=CO2",
+          "issue": "氧化产物与还原产物为同一物质 CO2，若自动出题要求分别填写易造成判题歧义",
+          "fixHint": "出题时避免要求区分氧化产物/还原产物，或明确说明二者相同",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "点燃，氧气充足",
+          "issue": "条件表述为定性描述，自动判题需设定同义答案接受范围",
+          "fixHint": "判题时接受“氧气充足/足量/过量氧气”等同义表述",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "rxn.CaCO3_2HCl",
+      "type": "reaction",
+      "name": "碳酸钙与盐酸",
+      "batch": "batch4",
+      "dbId": "57",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "常温，酸足量",
+          "issue": "CaCO3为难溶固体，与盐酸反应速率受接触面积影响，'常温'表述可接受但未强调固体；非科学性错误",
+          "fixHint": "可保留；如需更严谨可注明'常温下与稀盐酸'",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "该反应可用于检验碳酸盐/CO2，substance.test有一定合理性，但需明确检验对象，避免歧义",
+          "fixHint": "保留但限定为CO2检验或碳酸盐检验语境",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "CaCO3 + 2HCl = CaCl2 + CO2↑ + H2O",
+          "issue": "离子方程式书写时CaCO3不拆，需在出题时明确要求分子式还是离子式",
+          "fixHint": "分设分子方程式与离子方程式题型，避免混判",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.93
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "kp.Cl.prep",
+      "type": "knowledge",
+      "name": "氯气的实验室制取",
+      "batch": "batch4",
+      "dbId": "43",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P1",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "experiment.substance_test",
+          "issue": "氯气实验室制取属气体制备，非物质检验专项，分类挂靠不准确",
+          "fixHint": "改为气体制备类分类；若无对应分类应留空而非挂靠检验",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "MnO2+4HCl(浓)=△=MnCl2+Cl2↑+2H2O",
+          "issue": "方程式中HCl未标注部分被氧化，且‘4HCl’与浓盐酸条件需强调；自动判题若要求配平与条件可能产生格式歧义",
+          "fixHint": "出题明确要求配平并注明‘浓’与加热条件；判题容忍常见书写格式",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P1",
+          "field": "description",
+          "original": "向上排空气法收集，NaOH吸收尾气",
+          "issue": "实验涉及有毒气体Cl2制备，自动出题仅限书面分析，禁止要求学生实际操作；若题型含实验操作指令需限制",
+          "fixHint": "仅保留实验原理、装置、尾气处理的书面分析题；禁止实操类题目",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.S.conc_H2SO4",
+      "type": "knowledge",
+      "name": "浓硫酸的特性",
+      "batch": "batch4",
+      "dbId": "50",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "浓硫酸三大特性：吸水性、脱水性、强氧化性（常需加热才显著表现氧化性，如与Cu、C）",
+          "issue": "表述基本正确，但“常需加热才显著表现氧化性”略笼统：浓硫酸在常温下也能氧化某些还原性物质（如Fe2+、I-、H2S等），并非所有氧化作用都需加热；与Cu、C反应需加热是特定实例。",
+          "fixHint": "可改为“与Cu、C等反应需加热；对Fe2+、I-、H2S等还原性物质常温即可表现氧化性”，或明确限定“与Cu、C反应需加热”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"equation\",\"experiment\",\"substance\"]",
+          "issue": "equation 专项关联过宽：浓硫酸强氧化性反应（如与 Cu、C）条件要求严格，产物可能因条件不同而变化，自动出题标准答案不唯一",
+          "fixHint": "移除 equation 专项，或仅保留为人工出题参考；自动出题禁止方程式书写",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "常需加热才显著表现氧化性，如与Cu、C",
+          "issue": "表述基本正确，但“常需加热”可能被误解为所有氧化性反应均需加热（如与某些还原剂常温反应），建议明确典型实例条件",
+          "fixHint": "可补充“与Cu、C等反应需加热，与HI、H2S等可常温反应”以增强严谨性",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "kp.N.ammonium",
+      "type": "knowledge",
+      "name": "铵盐的性质",
+      "batch": "batch4",
+      "dbId": "51",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "某些铵盐受热可分解（如NH4Cl受热分解为NH3和HCl，冷却又结合，了解）",
+          "issue": "NH4Cl受热分解为NH3和HCl、冷却重新结合的说法正确，但“某些铵盐受热可分解”过于笼统：不同铵盐分解产物不同（如NH4HCO3分解为NH3、CO2、H2O；NH4NO3分解复杂），未说明差异，易被误认为所有铵盐都像NH4Cl一样分解。",
+          "fixHint": "补充说明不同铵盐分解产物不同，NH4Cl的分解-化合是可逆过程，仅作了解。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"equation\",\"ion\",\"substance\"]",
+          "issue": "equation 专项关联可能引发自动出题时方程式书写条件不完整（如未注明加热、浓碱等），标准答案不唯一；ion 专项若涉及离子方程式或离子共存，超出本条核心范围",
+          "fixHint": "自动出题禁止方程式书写和离子共存判断；可保留 substance 专项用于性质选择题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "某些铵盐受热可分解（如NH4Cl受热分解为NH3和HCl，冷却又结合，了解）",
+          "issue": "NH4Cl受热分解为NH3和HCl，冷却又结合，属于了解内容，但表述“冷却又结合”可能被误解为可逆反应，实际是分解与化合两个过程",
+          "fixHint": "建议改为“NH4Cl受热分解生成NH3和HCl，冷却时NH3和HCl又重新化合生成NH4Cl”，避免可逆反应误解",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.88
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "kp.Cl.bleach",
+      "type": "knowledge",
+      "name": "氯水与漂白原理",
+      "batch": "batch4",
+      "dbId": "54",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "新制氯水含HClO而有漂白性；久置氯水HClO分解，漂白性减弱，主要剩盐酸。",
+          "issue": "表述基本正确，但“主要剩盐酸”略欠严谨：久置氯水除盐酸外还含少量水及溶解氧等，且HClO分解为HCl与O2，说“主要成分是盐酸和水”更规范。",
+          "fixHint": "可改为“久置氯水HClO分解，漂白性减弱甚至消失，溶液主要成分为盐酸（和水）”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "HClO漂白不可逆（有色物质被氧化），SO2漂白加热可恢复",
+          "issue": "表述基本正确，但“不可逆”宜限定为“加热不能恢复”，避免与化学平衡可逆性混淆；SO2漂白可恢复也需注明是化合漂白被破坏",
+          "fixHint": "改为“HClO 漂白后加热不能恢复（氧化破坏）；SO2 漂白加热可恢复（化合漂白分解）”",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "equation",
+          "issue": "equation 专项若自动出题需限定为氯水成分/次氯酸分解等有唯一方程式的场景，避免漂白对比类开放题",
+          "fixHint": "equation 题型仅用于 HClO 分解、Cl2+H2O 等标准方程式",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "exp.ops_dissolve",
+      "type": "experiment",
+      "name": "溶解与搅拌",
+      "batch": "batch5",
+      "dbId": "19",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "搅拌可加快溶解，加热（若允许）也可加速，但须符合试剂性质与后续实验要求。",
+          "issue": "“加热可加速溶解”对多数固体成立，但对气体溶解度或受热易分解/水解的溶质不适用；已用“若允许”限定，科学性可接受，但可进一步明确适用对象为多数固体溶质。",
+          "fixHint": "可补充“对多数固体溶质，加热可加速溶解；对气体或受热易分解物质不适用”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "加热（若允许）也可加速，但须符合试剂性质与后续实验要求",
+          "issue": "“若允许”条件不完整，自动出题时加热加速溶解的适用性依赖具体试剂，易产生多答案/歧义",
+          "fixHint": "出题时明确试剂与是否允许加热，或限定为“搅拌加速溶解”单一结论",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "purpose",
+          "original": "判断固体溶解操作（烧杯、玻璃棒搅拌、加水顺序）及加速溶解措施的正误",
+          "issue": "“加水顺序”在一般溶解中无统一标准答案，仅浓硫酸稀释等特定场景有顺序要求，自动判题易歧义",
+          "fixHint": "将加水顺序题限定为浓硫酸稀释等有明确规范的场景，其余仅考搅拌/烧杯使用",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "safetyNotes",
+          "original": "禁止家用危险操作",
+          "issue": "表述笼统，书面分析题应明确不要求学生实际操作",
+          "fixHint": "改为“仅书面分析，不安排学生实际操作强酸强碱”",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "exp.ops_filter",
+      "type": "experiment",
+      "name": "过滤操作",
+      "batch": "batch5",
+      "dbId": "20",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "experiment.error_fix, experiment.step_order",
+          "issue": "过滤操作包含步骤顺序和错误纠正，但自动出题时若题干条件不完整（如未给出具体操作情境），标准答案可能不唯一。",
+          "fixHint": "出题时需明确操作情境或错误描述，确保答案唯一。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "exp.ops_distill",
+      "type": "experiment",
+      "name": "蒸馏操作认知",
+      "batch": "batch5",
+      "dbId": "22",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "experiment.apparatus_id, experiment.apparatus_link, experiment.basic_ops, experiment.safety",
+          "issue": "蒸馏装置认知涉及多个装置部件和操作要点，自动出题时若题干描述不完整，可能产生歧义（如温度计位置、水流方向等）。",
+          "fixHint": "出题时需配图或详细文字描述装置，确保答案唯一。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.93
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "exp.O2_prep_KMnO4",
+      "type": "experiment",
+      "name": "高锰酸钾制氧气",
+      "batch": "batch5",
+      "dbId": "27",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "2KMnO4=△=K2MnO4+MnO2+O2↑",
+          "issue": "方程式本身配平正确（K、Mn、O原子数守恒），但“=△=”书写不规范，且未说明该反应为固体加热分解、试管口需略向下倾斜等条件；作为原理字段可接受，但表述可更规范。",
+          "fixHint": "建议写作 2KMnO4 --△--> K2MnO4 + MnO2 + O2↑，并注明固体加热、试管口略向下倾斜。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "2KMnO4=△=K2MnO4+MnO2+O2↑",
+          "issue": "化学方程式书写格式不规范（“=△=”非标准表示），自动判题若按字符串匹配可能误判；且未标注气体符号条件格式统一",
+          "fixHint": "规范为 2KMnO4 --△--> K2MnO4+MnO2+O2↑，并在判题中允许合理格式变体",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "purpose",
+          "original": "导管进出顺序等正误",
+          "issue": "“导管进出顺序”表述含糊（涉及加热前/后、撤导管与熄灯顺序），若出题不明确具体情境，标准答案可能不唯一",
+          "fixHint": "出题时明确情境（如“实验结束时应先撤导管后熄灭酒精灯”），避免笼统问“顺序正误”",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "experiment.apparatus_link 等",
+          "issue": "分类挂靠基本合理，未见机械挂靠redox等问题；KMnO4分解属氧化还原但本条未挂redox，符合“非氧化还原勿挂”原则",
+          "fixHint": "无需修改",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "exp.O2_prep_H2O2",
+      "type": "experiment",
+      "name": "过氧化氢制氧气",
+      "batch": "batch5",
+      "dbId": "28",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "2H2O2=MnO2=2H2O+O2↑（MnO2为催化剂）",
+          "issue": "化学方程式书写不规范：催化剂MnO2应写在等号上方（或箭头上方），当前用“=MnO2=”表示，易被误读为反应物或计量关系的一部分；方程式本身配平正确（2H2O2→2H2O+O2↑）。",
+          "fixHint": "改为 2H2O2 --MnO2--> 2H2O+O2↑，并注明MnO2为催化剂、反应条件为常温。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "2H2O2=MnO2=2H2O+O2↑（MnO2为催化剂）",
+          "issue": "化学方程式书写不规范，等号与条件混用，易造成判题歧义",
+          "fixHint": "改为标准形式：2H2O2 --MnO2--> 2H2O + O2↑",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "safetyNotes",
+          "original": "H2O2对皮肤有刺激/腐蚀性（浓度相关）；禁止家用随意催化制气；仅书面训练。",
+          "issue": "安全提示已明确书面训练，但未禁止实验操作类题型，自动出题需限定为书面分析",
+          "fixHint": "在自动出题规则中明确禁止任何要求学生实际操作的题型",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "exp.check_airtight",
+      "type": "experiment",
+      "name": "装置气密性检查",
+      "batch": "batch5",
+      "dbId": "31",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "封闭体系内气压变化（微热或移动）会使导管口气泡/水柱出现可观察现象",
+          "issue": "表述较笼统，未区分“微热法”（导管口冒气泡、冷却后水柱上升）与“液差法/注水法”等不同检漏方法的现象判据，作为书面分析题训练可能不够明确。",
+          "fixHint": "可分别说明微热法（气泡→冷却水柱上升）与注水/液差法（形成稳定液面差）的现象判据。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "微热或移动会使导管口气泡/水柱出现可观察现象",
+          "issue": "气密性检查方法多样（微热法、液差法、抽气法等），现象描述依赖具体装置，自动出题若不给装置图/描述易出现多答案或判题歧义",
+          "fixHint": "出题须给出明确装置描述或图示文字，并限定“微热法”等具体方法",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "experiment.step_order",
+          "issue": "“先检后装”操作顺序评价合理，但需注意与“先装后检”争议不大，属教材共识；出题时避免绝对化表述",
+          "fixHint": "以“加入试剂前检查气密性”为标准表述",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.85
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "formula.excess_reactant",
+      "type": "formula",
+      "name": "过量计算判断",
+      "batch": "batch5",
+      "dbId": "14",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "expression",
+          "original": "比较 n(实)/计量数：较小者为不足量（限量），按不足量计算产物",
+          "issue": "表述基本正确，但“不足量”一词在过量计算语境下易与“恰好完全反应”混淆；严格说应称“限量试剂/控制试剂”，且需强调按化学方程式计量数比换算后比较。",
+          "fixHint": "建议改为：将各反应物实际物质的量除以其化学计量数，比值最小者为限量试剂，按该试剂的量计算产物。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "expression",
+          "original": "比较 n(实)/计量数：较小者为不足量（限量），按不足量计算产物",
+          "issue": "过量计算本身方法唯一，但自动出题需保证反应物种类、方程式、已知量完整且产物唯一，否则可能出现多解或条件不足",
+          "fixHint": "出题模板须固定单一反应、明确各反应物物质的量或质量，确保标准答案唯一",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.85
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "formula.purity",
+      "type": "formula",
+      "name": "纯度与产率",
+      "batch": "batch5",
+      "dbId": "15",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "calculation.equation_calc, calculation.mixed",
+          "issue": "纯度/产率属于计算类公式，挂 equation_calc 可接受，但 mixed 过于宽泛，易造成分类噪声；且未标注是否涉及多步反应或过量判断，自动出题时条件完整性风险高。",
+          "fixHint": "保留 calculation.equation_calc，移除或细化 calculation.mixed；补充适用条件说明（如产率需理论产量唯一、纯度需样品质量明确）。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "expression",
+          "original": "纯度=纯物质质量/样品质量×100%；产率=实际产量/理论产量×100%",
+          "issue": "公式本身正确，但自动出题若未限定“理论产量按计量关系唯一确定”“样品质量不含杂质干扰”等条件，可能出现多答案或歧义。",
+          "fixHint": "在出题模板中强制给出完整数据链，并声明理论产量唯一；避免开放型产率估算题。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.calc.stoich",
+      "type": "knowledge",
+      "name": "化学方程式计算步骤",
+      "batch": "batch5",
+      "dbId": "55",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "气体仅在标况用22.4",
+          "issue": "表述略简，22.4 L/mol 仅适用于标准状况（0 ℃、101 kPa）下的气体，且为近似值；原文已限定“标况”，科学性无误，仅建议明确标准状况条件。",
+          "fixHint": "可补充“标准状况（0 ℃、101 kPa）下气体摩尔体积约22.4 L/mol”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "[]",
+          "issue": "categories 为空，但 specialties 为 calculation，分类挂靠不完整，可能影响检索与专项训练匹配。",
+          "fixHint": "补充 calculation.equation_calc 等具体分类，避免仅靠 specialty 关键词。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "气体仅在标况用22.4",
+          "issue": "表述正确但自动出题时若未明确“标准状况”条件，学生可能误用于非标况；需在题干中显式给出条件。",
+          "fixHint": "出题模板强制标注气体是否处于标准状况，非标况不得使用22.4 L/mol。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.93
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "kp.calc.excess",
+      "type": "knowledge",
+      "name": "过量问题分析方法",
+      "batch": "batch5",
+      "dbId": "56",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "用 n/计量数比较大小，小的为不足量，按不足量计算生成物；剩余量=过量投料−按不足量消耗",
+          "issue": "方法表述基本正确，但“剩余量=过量投料−按不足量消耗”未说明这里的“消耗”须按不足量反应物的计量比换算成过量反应物的消耗量，表述略含混，易被误读为直接减去不足量反应物的投料量。",
+          "fixHint": "建议改为“剩余量=过量反应物投料量−按不足量反应物计量比换算出的过量反应物消耗量”，并补充说明该比较法仅适用于各反应物按同一化学方程式计量关系反应的情形。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "用 n/计量数比较大小，小的为不足量，按不足量计算生成物",
+          "issue": "该判据仅在反应物按同一化学计量方程且各物质计量数对应时成立；若存在多组平行反应或反应物间可发生多个反应，单一n/计量数比较不能唯一确定不足量，自动出题若不加限定可能产生歧义",
+          "fixHint": "在题干中限定单一反应方程式、各反应物计量数已知且只发生一个反应",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"calculation\"]",
+          "issue": "专项挂靠合理，但categories为空，未标注所属计算子类，检索与组卷时可能匹配不足",
+          "fixHint": "可补充 calculation.stoichiometry 等子类（若库中存在）",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "sub.CH4",
+      "type": "substance",
+      "name": "甲烷",
+      "batch": "batch6",
+      "dbId": "62",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "dbReviewNote",
+          "original": "取代多种氯代产物勿写唯一",
+          "issue": "甲烷与氯气取代生成多种氯代产物（CH3Cl、CH2Cl2、CHCl3、CCl4及HCl），若自动出题要求写单一产物或唯一方程式会判题歧义",
+          "fixHint": "出题时明确指定条件（如'第一步取代的主要有机产物'）或改为选择题/判断题；禁止开放式方程式自动判题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "substance.formula",
+          "issue": "甲烷为简单分子，'化学式'类考点价值低，但无科学性错误",
+          "fixHint": "可保留，出题侧重结构（正四面体）与取代反应",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "sub.C2H4",
+      "type": "substance",
+      "name": "乙烯",
+      "batch": "batch6",
+      "dbId": "63",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "dbReviewNote",
+          "original": "KMnO4褪色不指定唯一氧化产物",
+          "issue": "乙烯被酸性KMnO4氧化产物不唯一（CO2等），若自动出题要求写氧化方程式或唯一产物会判题歧义",
+          "fixHint": "仅出'能否使KMnO4褪色/鉴别'类选择题或判断题；氧化方程式不作自动判题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "substance.formula",
+          "issue": "结构简式CH2=CH2书写为常见考点，但'化学式'类挂靠略机械",
+          "fixHint": "可保留，出题侧重加成反应与鉴别",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "sub.CH3COOCH2CH3",
+      "type": "substance",
+      "name": "乙酸乙酯",
+      "batch": "batch6",
+      "dbId": "67",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "dbReviewNote",
+          "original": "可写CH3COOCH2CH3或CH3COOC2H5",
+          "issue": "两种写法均可，需在判题时接受等价简式，避免仅匹配单一字符串",
+          "fixHint": "判题规则允许CH3COOCH2CH3与CH3COOC2H5两种分子式写法",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "rxn.CH4_Cl2",
+      "type": "reaction",
+      "name": "甲烷与氯气取代",
+      "batch": "batch6",
+      "dbId": "59",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P1",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "CH4 + Cl2 =光照= CH3Cl + HCl（第一步示例）",
+          "issue": "已标注“第一步示例”，但若作为独立方程式条目，需确保展示时始终保留“示例/第一步”限定，避免被误读为唯一产物。",
+          "fixHint": "保留“第一步示例”标注，并在题目生成时禁止输出“唯一产物”表述。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P1",
+          "field": "equation",
+          "original": "CH4 + Cl2 =光照= CH3Cl + HCl（第一步示例）",
+          "issue": "甲烷与氯气取代为连续多产物反应（CH3Cl/CH2Cl2/CHCl3/CCl4及HCl），若自动判题要求写唯一方程式会与科学事实冲突",
+          "fixHint": "自动出题仅限判断反应类型、条件、产物种类等，禁止要求书写唯一产物方程式；若出方程式题须明确限定'第一步'并接受多产物说明",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "光照（注意：氯气有毒、混合气有爆炸风险，仅书面分析）",
+          "issue": "实验条件涉及有毒气体与爆炸风险，仅可书面分析，禁止学生实操",
+          "fixHint": "实验类题目限定为书面分析/装置原理讨论，禁止操作步骤题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "rxn.CH3COOH_NaOH",
+      "type": "reaction",
+      "name": "乙酸与氢氧化钠",
+      "batch": "batch6",
+      "dbId": "66",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "CH3COOH + NaOH = CH3COONa + H2O",
+          "issue": "分子方程式正确，但 categories 含 equation.ionic_write，条目未给出离子方程式；若用于离子方程式训练需补充 CH3COOH + OH⁻ = CH3COO⁻ + H2O（弱酸不拆）。",
+          "fixHint": "补充规范离子方程式：CH3COOH + OH⁻ = CH3COO⁻ + H2O。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "equation.ionic_write",
+          "issue": "该反应为弱酸与强碱中和，离子方程式应写为CH3COOH+OH⁻=CH3COO⁻+H2O，而条目equation字段为化学方程式；若挂靠ionic_write专项，需明确区分化学方程式与离子方程式两种答案，否则自动判题存在答案不唯一风险",
+          "fixHint": "在条目中补充离子方程式字段或注明ionic_write题型需单独给出离子方程式标准答案",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.CH3COOH_Na2CO3",
+      "type": "reaction",
+      "name": "乙酸与碳酸钠",
+      "batch": "batch6",
+      "dbId": "67",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"equation\",\"organic\"]",
+          "issue": "specialties 中 'organic' 为宽泛标签，但 categories 已明确指向有机弱酸性质，关联合理，无机械挂靠。",
+          "fixHint": "可保留，或细化为 'organic.acid_property' 以更精确。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "exp.CH4_property",
+      "type": "experiment",
+      "name": "甲烷性质实验认知",
+      "batch": "batch6",
+      "dbId": "36",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "autoQuestionEligibility",
+          "original": "实验条目，涉及甲烷与氯气取代多种产物",
+          "issue": "取代反应产物不唯一（CH3Cl、CH2Cl2、CHCl3、CCl4及HCl），若自动出题要求写单一产物方程式或判断唯一产物，易产生判题歧义；且氯气实验高危，仅限书面分析。",
+          "fixHint": "自动出题仅限现象判断、操作正误、安全判断、结论推断等书面分析题型；禁止要求书写唯一取代产物方程式或计算题。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.93
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "exp.ethanol_oxid",
+      "type": "experiment",
+      "name": "乙醇催化氧化",
+      "batch": "batch6",
+      "dbId": "39",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "2CH3CH2OH+O2=Cu或Ag、加热=2CH3CHO+2H2O",
+          "issue": "方程式本身配平正确、条件标注合理；但“Cu或Ag、加热”作为条件写在等号处，表述略不规范，建议用箭头或文字说明催化条件。",
+          "fixHint": "可改为：2CH3CH2OH + O2 --Cu(或Ag)/Δ--> 2CH3CHO + 2H2O，并注明Cu先被氧化为CuO再氧化乙醇的循环机理。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "experiment.safety",
+          "issue": "该条目核心是乙醇催化氧化的性质与演示实验，安全标签仅作辅助；若自动出题大量挂靠安全类，会偏离有机性质主线。",
+          "fixHint": "保留 organic.property 为主类，experiment.safety 仅用于安全判断题。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "2CH3CH2OH+O2=Cu或Ag、加热=2CH3CHO+2H2O",
+          "issue": "方程式条件写作“Cu或Ag、加热”在自动判题中易与“催化剂”“Δ”等写法不一致，存在判题歧义。",
+          "fixHint": "标准答案统一为“Cu/Ag 催化、加热”，并允许等价表述。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "exp.acetic_acid",
+      "type": "experiment",
+      "name": "乙酸酸性验证",
+      "batch": "batch6",
+      "dbId": "41",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "2CH3COOH+Na2CO3=2CH3COONa+CO2↑+H2O，可证明酸性强于碳酸",
+          "issue": "方程式本身配平且成立，但“强于碳酸”的结论依据表述可更严谨：该反应成立是因乙酸酸性强于碳酸（强酸制弱酸），建议明确写出比较依据，避免学生误认为“产生气体”本身即唯一证明。",
+          "fixHint": "补充说明：依据强酸制弱酸原理，乙酸与碳酸钠反应放出CO2，说明乙酸酸性强于碳酸；并提示需排除其他产气干扰。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "2CH3COOH+Na2CO3=2CH3COONa+CO2↑+H2O，可证明酸性强于碳酸",
+          "issue": "用Na2CO3与乙酸反应产生CO2证明酸性强于碳酸，需注意乙酸易挥发，挥发出的乙酸也可使石灰水变浑浊，存在实验干扰；作为书面结论推断题需明确装置除杂或说明干扰",
+          "fixHint": "补充说明需排除乙酸挥发干扰（如先通过饱和NaHCO3或控制条件），或将该结论限定为理论比较而非直接由该实验现象唯一推出",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "reagents",
+          "original": "镁条（或锌）",
+          "issue": "活泼金属与乙酸反应可放氢，但镁反应较剧烈，书面分析可行；若出操作题需注意安全表述",
+          "fixHint": "书面题中避免要求学生实际取用镁条，仅作现象与方程式分析",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.organic.alkane",
+      "type": "knowledge",
+      "name": "烷烃通式与性质",
+      "batch": "batch6",
+      "dbId": "65",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P3",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "烷烃通式CnH2n+2（链状），为饱和烃",
+          "issue": "通式CnH2n+2仅适用于链状（无环）烷烃，环烷烃通式为CnH2n；原文已用“（链状）”限定，表述基本准确，但“饱和烃”一词在部分教材中涵盖环烷烃，可能引起歧义。",
+          "fixHint": "可改为“链状烷烃（饱和链烃）通式CnH2n+2”，明确限定为链状。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "一般不能因加成使溴水褪色",
+          "issue": "表述正确但易与取代反应（光照下与溴蒸气/溴水中的溴发生取代）混淆，自动出题若考查“能否使溴水褪色”需明确条件（光照、溴水浓度），否则存在判题歧义",
+          "fixHint": "补充条件说明：烷烃与溴水在通常条件下不反应，与溴蒸气在光照下发生取代",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"organic\"]",
+          "issue": "专项仅挂 organic，合理；未误挂 redox，无问题",
+          "fixHint": "无需修改",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.organic.ethanol",
+      "type": "knowledge",
+      "name": "乙醇结构与性质",
+      "batch": "batch6",
+      "dbId": "67",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "Cu/Ag催化加热下氧化为乙醛",
+          "issue": "表述基本正确，但严格说乙醇催化氧化需要氧气参与，描述中未明确写出O2为反应物，作为性质概述可接受，但若用于方程式推导需补充O2。",
+          "fixHint": "可补充为“在Cu/Ag催化并加热条件下被O2氧化为乙醛”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "Cu/Ag催化加热下氧化为乙醛",
+          "issue": "乙醇催化氧化产物表述基本正确，但自动出题若要求写方程式需明确条件（Cu或Ag、加热）与配平，且产物唯一为乙醛；若题目未给条件易产生歧义",
+          "fixHint": "出题时明确催化剂与加热条件，方程式题限定产物为乙醛",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"organic\"]",
+          "issue": "专项仅挂organic，合理；未误挂redox，但乙醇燃烧与催化氧化涉及氧化还原，若后续扩展需注意勿机械挂靠",
+          "fixHint": "保持organic，若增加redox需确认题目确为氧化还原判断",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.energy.electron_flow",
+      "type": "knowledge",
+      "name": "原电池电子流向",
+      "batch": "batch6",
+      "dbId": "78",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties/categories",
+          "original": "specialties: comprehensive, redox; categories: redox.e_direction",
+          "issue": "电子流向属于电化学/原电池内容，非氧化还原反应判断，redox 挂靠不准确",
+          "fixHint": "移除 redox 专项，改挂电化学或原电池相关专项；categories 用 electrochemistry 类",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "kp.energy.electrode_rxn",
+      "type": "knowledge",
+      "name": "原电池电极反应",
+      "batch": "batch6",
+      "dbId": "79",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P1",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "Zn-Cu原电池：电解质为CuSO4时正极多为Cu2+得电子；为稀H2SO4时正极多为H+得电子。",
+          "issue": "表述基本正确，但“多为”略含糊；Zn-Cu在CuSO4中正极主要为Cu2+得电子，在稀H2SO4中正极主要为H+得电子，且Zn与H+可能直接反应，属条件限定问题，非明确错误。",
+          "fixHint": "可改为“电解质为CuSO4时正极反应为Cu2+ + 2e- = Cu；为稀H2SO4时正极反应为2H+ + 2e- = H2↑”，并提示按题设书写。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P1",
+          "field": "description/autoQuestion",
+          "original": "Zn-Cu原电池：电解质为CuSO4时正极多为Cu2+得电子；为稀H2SO4时正极多为H+得电子。须按题设书写。",
+          "issue": "电极反应式依赖电解质环境，若题干未明确电解质，标准答案不唯一，自动判题存在多答案风险",
+          "fixHint": "自动出题时题干必须明确电极材料与电解质溶液；否则仅作书面分析题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "equation.ionic_write",
+          "issue": "电极反应式通常写为半反应式，与离子方程式书写规范不同，分类易误导",
+          "fixHint": "改用 electrochemistry.electrode_equation 类分类",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.sustain.coal",
+      "type": "knowledge",
+      "name": "煤的综合利用",
+      "batch": "batch6",
+      "dbId": "83",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties/categories",
+          "original": "specialties: comprehensive, organic; categories: comprehensive.basic, organic.basic",
+          "issue": "organic 关联机械，煤干馏/气化/液化不属于有机化学基本概念专项",
+          "fixHint": "移除 organic 专项，或改挂 comprehensive.basic 与资源利用类专项",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "煤可通过干馏、气化、液化等途径综合利用",
+          "issue": "干馏、气化、液化涉及多产物与工艺条件，若自动出题要求写产物或方程式易出现多答案/超范围",
+          "fixHint": "限定为名称与意义识记类题型，禁止工艺计算与产物方程式",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "kp.organic.petroleum",
+      "type": "knowledge",
+      "name": "石油分馏",
+      "batch": "batch6",
+      "dbId": "84",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "specialties: comprehensive, organic",
+          "issue": "organic 关联偏机械，分馏本质为物理变化，非有机反应专项",
+          "fixHint": "可保留但建议以 comprehensive 为主，避免误挂有机反应类专项",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "与裂化、裂解等化学加工区分",
+          "issue": "若自动出题涉及裂化裂解产物或方程式，超出本条目了解层次且多产物",
+          "fixHint": "出题限定分馏为物理变化、馏分概念辨析，禁止裂化裂解方程式",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.92
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.82
+      }
+    },
+    {
+      "code": "kp.sustain.fertilizer",
+      "type": "knowledge",
+      "name": "化肥合理使用",
+      "batch": "batch6",
+      "dbId": "88",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "认识氮、磷、钾肥等作用与合理施用，避免过量导致污染",
+          "issue": "“合理施用”为开放性问题，若出简答/分析题标准答案不唯一，判题歧义风险",
+          "fixHint": "自动出题限定为分类识别、作用匹配等客观题型",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.93
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.75
+      }
+    },
+    {
+      "code": "kp.sustain.pesticide",
+      "type": "knowledge",
+      "name": "农药合理使用",
+      "batch": "batch6",
+      "dbId": "89",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "comprehensive",
+          "issue": "专项标签过于泛化，未体现'化学与可持续发展/社会责任'主题，存在关键词机械挂靠风险",
+          "fixHint": "建议补充或替换为与可持续发展、STSE 相关的专项标签",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "农药有助于防治病虫害，但须合理使用，减少残留与生态危害",
+          "issue": "属态度/社会责任类认知条目，缺乏可判定的唯一标准答案，自动出题易产生主观歧义",
+          "fixHint": "自动出题仅限概念辨析型单选/判断，避免开放性简答",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.75
+      }
+    },
+    {
+      "code": "kp.sustain.medicine",
+      "type": "knowledge",
+      "name": "药物合理使用",
+      "batch": "batch6",
+      "dbId": "90",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "comprehensive",
+          "issue": "专项标签泛化，未体现药物合理使用/STSE 主题，存在机械挂靠风险",
+          "fixHint": "建议补充 STSE 或社会责任相关专项标签",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "认识药物按说明书与医嘱使用的重要性，了解滥用抗生素等危害",
+          "issue": "态度类认知条目，标准答案主观性强，自动判题易歧义；且涉及用药内容需避免诊疗指导",
+          "fixHint": "自动出题限概念辨析单选/判断，题干不得要求给出具体用药建议",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.75
+      }
+    },
+    {
+      "code": "kp.sustain.green_chem",
+      "type": "knowledge",
+      "name": "绿色化学",
+      "batch": "batch6",
+      "dbId": "94",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "提高原子利用率，选用更安全的原料、溶剂与反应路径（概念认识）",
+          "issue": "概念性条目，标准答案多为定性表述；若出填空题易因表述多样产生判题歧义，原子利用率计算属延伸，不宜自动出计算题",
+          "fixHint": "自动出题限于单选/判断/概念填空，答案需唯一化；禁止原子利用率计算与方程式题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.92
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.calc.solution",
+      "type": "knowledge",
+      "name": "溶液浓度综合",
+      "batch": "batch5",
+      "dbId": "58",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "severity": "P2",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "密度换算见已有公式条目",
+          "issue": "描述引用外部条目，若该条目不存在或编号不一致，会造成知识链断裂；且密度与质量分数、物质的量浓度的换算公式未在本条目给出，自动出题若涉及换算则条件不完整",
+          "fixHint": "补充换算公式 c=1000ρw/M 或明确标注为拓展不作自动出题依据",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"calculation\"]",
+          "issue": "专项仅挂 calculation，合理；categories 为空，未挂 redox 等无关专项，无机械挂靠问题",
+          "fixHint": "无需修改",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.exp.design",
+      "type": "knowledge",
+      "name": "实验方案设计要点",
+      "batch": "batch5",
+      "dbId": "59",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P1",
+      "reasons": [
+        "两轮未见明确科学性错误，范围相对明确，可提交人工确认（≠已发布/≠人工通过）"
+      ],
+      "problems": [
+        {
+          "level": "P1",
+          "field": "description",
+          "original": "书面评价实验方案：目的明确→原理可行→试剂与仪器匹配→步骤顺序合理（先气密性等）→现象可检验结论→安全与尾气/废液",
+          "issue": "条目为通用方法论，缺乏具体实验情境，自动出题若要求'设计'方案则答案不唯一、判题歧义大；仅适合方案评价类选择题或书面分析",
+          "fixHint": "自动出题限定为给定方案的评价/纠错选择题，禁止开放式'设计实验'题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "本产品只做方案评价，不要求动手",
+          "issue": "已明确禁止动手实验，符合安全要求；但需在题型层面同步禁止实验操作类题目",
+          "fixHint": "bannedQuestionTypes 中排除任何要求实际操作或危险试剂的题型",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.75
+      }
+    }
+  ]
+}

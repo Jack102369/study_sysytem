@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-10-20T04:14:05.130Z",
+  "readonly": true,
+  "noDbWrite": true,
+  "remainingScoped": 397,
+  "workItems": 396,
+  "questionRiskExcluded": 1,
+  "gradeCount": {
+    "PASS": 377,
+    "NEEDS_FIX": 0,
+    "HOLD": 20,
+    "REJECT": 0
+  },
+  "whitelistCount": 377,
+  "dryRun": {
+    "whitelistCount": 377,
+    "wouldUpdate": 377,
+    "skipCount": 0,
+    "conflictCount": 0
+  },
+  "bankSnapshot": {
+    "total": 638,
+    "trainable": 621,
+    "formal": 0,
+    "dailyCandidateApprox": 561
+  },
+  "risk4": [
+    {
+      "id": "50",
+      "grade": "SAFE",
+      "allowAnalysisUpgrade": true
+    },
+    {
+      "id": "379",
+      "grade": "SAFE",
+      "allowAnalysisUpgrade": true
+    },
+    {
+      "id": "398",
+      "grade": "SAFE",
+      "allowAnalysisUpgrade": true
+    },
+    {
+      "id": "401",
+      "grade": "HOLD",
+      "allowAnalysisUpgrade": false
+    }
+  ],
+  "deepseek": {
+    "reviewed": 396,
+    "failed": 0,
+    "skipped": false
+  },
+  "deepseekRuleConflicts": 1,
+  "remainingAfterThisWhitelistIfApplied": 20,
+  "upgradedAlready": 164
+}

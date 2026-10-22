@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-10-20T03:13:21.277Z",
+  "results": [
+    {
+      "id": "211",
+      "decision": "BLOCKED",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.calc.excess",
+      "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.calc.excess [qa:PASS] [verify_class:none] [trial_access:allow]",
+      "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.calc.excess [qa:PASS] [verify_class:none] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+    },
+    {
+      "id": "215",
+      "decision": "BLOCKED",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.calc.solution",
+      "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.calc.solution [qa:PASS] [verify_class:none] [trial_access:allow]",
+      "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.calc.solution [qa:PASS] [verify_class:none] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+    },
+    {
+      "id": "220",
+      "decision": "BLOCKED",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Cl.prep",
+      "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.Cl.prep [qa:PASS] [verify_class:none] [trial_access:allow]",
+      "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.Cl.prep [qa:PASS] [verify_class:none] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+    },
+    {
+      "id": "238",
+      "decision": "BLOCKED",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.fe2_fe3",
+      "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.fe2_fe3 [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.fe2_fe3 [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+    },
+    {
+      "id": "242",
+      "decision": "BLOCKED",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.fe3_property",
+      "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.fe3_property [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.fe3_property [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+    },
+    {
+      "id": "246",
+      "decision": "BLOCKED",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.salt",
+      "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.salt [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.salt [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+    },
+    {
+      "id": "250",
+      "decision": "BLOCKED",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.halogen.compare",
+      "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.halogen.compare [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.halogen.compare [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+    },
+    {
+      "id": "263",
+      "decision": "BLOCKED",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.N.ammonia",
+      "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.N.ammonia [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.N.ammonia [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+    },
+    {
+      "id": "265",
+      "decision": "BLOCKED",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.N.ammonium",
+      "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.N.ammonium [qa:PASS] [verify_class:none] [trial_access:allow]",
+      "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.N.ammonium [qa:PASS] [verify_class:none] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+    },
+    {
+      "id": "267",
+      "decision": "BLOCKED",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.N.cycle",
+      "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.N.cycle [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.N.cycle [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+    },
+    {
+      "id": "271",
+      "decision": "BLOCKED",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Na.carbonate",
+      "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.Na.carbonate [qa:PASS] [verify_class:none] [trial_access:allow]",
+      "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.Na.carbonate [qa:PASS] [verify_class:none] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+    },
+    {
+      "id": "275",
+      "decision": "BLOCKED",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.nonmetal.test",
+      "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.nonmetal.test [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.nonmetal.test [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+    },
+    {
+      "id": "288",
+      "decision": "BLOCKED",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.redox.e_conserve",
+      "gate_note_before": "ai_trial phase_a template=kp_misconception_judge source=kp.redox.e_conserve [qa:PASS] [verify_class:none] [trial_access:allow]",
+      "gate_note_after": "ai_trial phase_a template=kp_misconception_judge source=kp.redox.e_conserve [qa:PASS] [verify_class:none] [trial_access:allow] [trial_access:block] [stem_risk:confirmed_block_20261020]"
+    }
+  ]
+}

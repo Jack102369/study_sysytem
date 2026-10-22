@@ -1,0 +1,1109 @@
+{
+  "before": {
+    "meta": {
+      "trainItemsTotal": 394,
+      "testActive": 376,
+      "fillerActive": 0
+    },
+    "utilization": {
+      "whitelistTotal": 239,
+      "byType": {
+        "element": {
+          "total": 24,
+          "used": 12
+        },
+        "concept": {
+          "total": 21,
+          "used": 3
+        },
+        "formula": {
+          "total": 10,
+          "used": 2
+        },
+        "knowledge": {
+          "total": 74,
+          "used": 72
+        },
+        "substance": {
+          "total": 24,
+          "used": 24
+        },
+        "reaction": {
+          "total": 59,
+          "used": 21
+        },
+        "experiment": {
+          "total": 27,
+          "used": 1
+        }
+      }
+    }
+  },
+  "previewId": "6b9277e4-574b-4c4c-9bc0-2b1774249196",
+  "expiresAt": "2026-10-19T11:50:57.634Z",
+  "stats": {
+    "candidateCount": 200,
+    "skipCount": 644,
+    "byKbType": {
+      "reaction": 158,
+      "element": 42
+    },
+    "bySpecialty": {
+      "equation": 109,
+      "redox": 49,
+      "memory": 22,
+      "periodic": 20
+    },
+    "byQtype": {
+      "judge": 98,
+      "single": 72,
+      "blank": 30
+    },
+    "byDifficulty": {
+      "1": 123,
+      "2": 77
+    },
+    "byTemplate": {
+      "rxn_phenomenon_judge": 34,
+      "rxn_reductant_single": 17,
+      "rxn_cond_judge": 31,
+      "rxn_not_marked_redox": 17,
+      "rxn_is_redox_judge": 16,
+      "rxn_oxidant_single": 16,
+      "rxn_eq_identify": 27,
+      "el_symbol_blank": 10,
+      "el_symbol_single": 12,
+      "el_z_blank": 20
+    }
+  },
+  "safety": {
+    "maxPerConfirm": 500,
+    "note": "确认前不会写库；达不到目标题量时按实际候选写入，绝不复制凑数"
+  },
+  "candidatesSample": [
+    {
+      "templateId": "rxn_phenomenon_judge",
+      "qtype": "judge",
+      "answerType": "text",
+      "stemBody": "知识库记载反应「碳不完全燃烧」的现象：可能产生有毒CO；火焰等按题设。。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 rxn.C_O2_incomplete 字段 phenomenon",
+      "difficulty": 1,
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "sourceCode": "rxn.C_O2_incomplete",
+      "sourceType": "reaction",
+      "sourceId": "52",
+      "sourceName": "碳不完全燃烧",
+      "stem": "【AI试运行】知识库记载反应「碳不完全燃烧」的现象：可能产生有毒CO；火焰等按题设。。判断该记载正误。",
+      "code": "train.ai_trial.pa.rxn_phenomenon_judge.rxn.C_O2_incomplete",
+      "angleKey": "rxn.C_O2_incomplete::rxn_phenomenon_judge",
+      "contentFingerprint": "rxn_phenomenon_judge::rxn.C_O2_incomplete::judge::正确::::知识库记载反应「碳不完全燃烧」的现象：可能产生有毒CO；火焰等按题设。。判断该记载正误。"
+    },
+    {
+      "templateId": "rxn_reductant_single",
+      "qtype": "single",
+      "answerType": "text",
+      "stemBody": "对于反应「2C + O2 =点燃= 2CO」，还原剂是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "C"
+        },
+        {
+          "key": "B",
+          "text": "O2"
+        },
+        {
+          "key": "C",
+          "text": "H2O"
+        },
+        {
+          "key": "D",
+          "text": "CO2"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 rxn.C_O2_incomplete 字段 reductant",
+      "difficulty": 2,
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "sourceCode": "rxn.C_O2_incomplete",
+      "sourceType": "reaction",
+      "sourceId": "52",
+      "sourceName": "碳不完全燃烧",
+      "stem": "【AI试运行】对于反应「2C + O2 =点燃= 2CO」，还原剂是？",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.C_O2_incomplete",
+      "angleKey": "rxn.C_O2_incomplete::rxn_reductant_single",
+      "contentFingerprint": "rxn_reductant_single::rxn.C_O2_incomplete::single::A::C|CO2|H2O|O2::对于反应「2C+O2=点燃=2CO」，还原剂是？"
+    },
+    {
+      "templateId": "rxn_cond_judge",
+      "qtype": "judge",
+      "answerType": "text",
+      "stemBody": "反应「CH2=CH2 + H2 =催化剂、加热= CH3CH3」在知识库中标注的反应条件为「催化剂、加热」。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 rxn.C2H4_H2 字段 conditions",
+      "difficulty": 1,
+      "specialtyCode": "equation",
+      "categoryCode": "condition",
+      "sourceCode": "rxn.C2H4_H2",
+      "sourceType": "reaction",
+      "sourceId": "62",
+      "sourceName": "乙烯加氢",
+      "stem": "【AI试运行】反应「CH2=CH2 + H2 =催化剂、加热= CH3CH3」在知识库中标注的反应条件为「催化剂、加热」。判断该记载正误。",
+      "code": "train.ai_trial.pa.rxn_cond_judge.rxn.C2H4_H2",
+      "angleKey": "rxn.C2H4_H2::rxn_cond_judge",
+      "contentFingerprint": "rxn_cond_judge::rxn.C2H4_H2::judge::正确::::反应「CH2=CH2+H2=催化剂、加热=CH3CH3」在知识库中标注的反应条件为「催化剂、加热」。判断该记载正误。"
+    },
+    {
+      "templateId": "rxn_not_marked_redox",
+      "qtype": "judge",
+      "answerType": "text",
+      "stemBody": "仅根据「知识库未标注氧化剂/还原剂」，可断定反应「CH2=CH2 + H2 =催化剂、加热= CH3CH3」一定不是氧化还原反应。判断正误。",
+      "options": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "analysis": "来源 rxn.C2H4_H2：字段缺失≠科学否定；本题考查「证据不足不可妄下结论」",
+      "difficulty": 2,
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "sourceCode": "rxn.C2H4_H2",
+      "sourceType": "reaction",
+      "sourceId": "62",
+      "sourceName": "乙烯加氢",
+      "stem": "【AI试运行】仅根据「知识库未标注氧化剂/还原剂」，可断定反应「CH2=CH2 + H2 =催化剂、加热= CH3CH3」一定不是氧化还原反应。判断正误。",
+      "code": "train.ai_trial.pa.rxn_not_marked_redox.rxn.C2H4_H2",
+      "angleKey": "rxn.C2H4_H2::rxn_not_marked_redox",
+      "contentFingerprint": "rxn_not_marked_redox::rxn.C2H4_H2::judge::错误::::仅根据「知识库未标注氧化剂/还原剂」，可断定反应「CH2=CH2+H2=催化剂、加热=CH3CH3」一定不是氧化还原反应。判断正误。"
+    },
+    {
+      "templateId": "rxn_phenomenon_judge",
+      "qtype": "judge",
+      "answerType": "text",
+      "stemBody": "知识库记载反应「乙烯加氢」的现象：乙烯与氢气在催化剂加热条件下转化为乙烷（工业/题设认知）。。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 rxn.C2H4_H2 字段 phenomenon",
+      "difficulty": 1,
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "sourceCode": "rxn.C2H4_H2",
+      "sourceType": "reaction",
+      "sourceId": "62",
+      "sourceName": "乙烯加氢",
+      "stem": "【AI试运行】知识库记载反应「乙烯加氢」的现象：乙烯与氢气在催化剂加热条件下转化为乙烷（工业/题设认知）。。判断该记载正误。",
+      "code": "train.ai_trial.pa.rxn_phenomenon_judge.rxn.C2H4_H2",
+      "angleKey": "rxn.C2H4_H2::rxn_phenomenon_judge",
+      "contentFingerprint": "rxn_phenomenon_judge::rxn.C2H4_H2::judge::正确::::知识库记载反应「乙烯加氢」的现象：乙烯与氢气在催化剂加热条件下转化为乙烷（工业/题设认知）。。判断该记载正误。"
+    },
+    {
+      "templateId": "rxn_cond_judge",
+      "qtype": "judge",
+      "answerType": "text",
+      "stemBody": "反应「CH2=CH2 + H2O =催化剂、加热加压= CH3CH2OH」在知识库中标注的反应条件为「催化剂（如磷酸等，以教材为准）、加热、加压」。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 rxn.C2H4_H2O 字段 conditions",
+      "difficulty": 1,
+      "specialtyCode": "equation",
+      "categoryCode": "condition",
+      "sourceCode": "rxn.C2H4_H2O",
+      "sourceType": "reaction",
+      "sourceId": "61",
+      "sourceName": "乙烯水化制乙醇",
+      "stem": "【AI试运行】反应「CH2=CH2 + H2O =催化剂、加热加压= CH3CH2OH」在知识库中标注的反应条件为「催化剂（如磷酸等，以教材为准）、加热、加压」。判断该记载正误。",
+      "code": "train.ai_trial.pa.rxn_cond_judge.rxn.C2H4_H2O",
+      "angleKey": "rxn.C2H4_H2O::rxn_cond_judge",
+      "contentFingerprint": "rxn_cond_judge::rxn.C2H4_H2O::judge::正确::::反应「CH2=CH2+H2O=催化剂、加热加压=CH3CH2OH」在知识库中标注的反应条件为「催化剂（如磷酸等，以教材为准）、加热、加压」。判断该记载正误。"
+    },
+    {
+      "templateId": "rxn_not_marked_redox",
+      "qtype": "judge",
+      "answerType": "text",
+      "stemBody": "仅根据「知识库未标注氧化剂/还原剂」，可断定反应「CH2=CH2 + H2O =催化剂、加热加压= CH3CH2OH」一定不是氧化还原反应。判断正误。",
+      "options": null,
+      "answer": "错误",
+      "answerAliases": [
+        "错",
+        "F",
+        "false",
+        "×"
+      ],
+      "analysis": "来源 rxn.C2H4_H2O：字段缺失≠科学否定；本题考查「证据不足不可妄下结论」",
+      "difficulty": 2,
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "sourceCode": "rxn.C2H4_H2O",
+      "sourceType": "reaction",
+      "sourceId": "61",
+      "sourceName": "乙烯水化制乙醇",
+      "stem": "【AI试运行】仅根据「知识库未标注氧化剂/还原剂」，可断定反应「CH2=CH2 + H2O =催化剂、加热加压= CH3CH2OH」一定不是氧化还原反应。判断正误。",
+      "code": "train.ai_trial.pa.rxn_not_marked_redox.rxn.C2H4_H2O",
+      "angleKey": "rxn.C2H4_H2O::rxn_not_marked_redox",
+      "contentFingerprint": "rxn_not_marked_redox::rxn.C2H4_H2O::judge::错误::::仅根据「知识库未标注氧化剂/还原剂」，可断定反应「CH2=CH2+H2O=催化剂、加热加压=CH3CH2OH」一定不是氧化还原反应。判断正误。"
+    },
+    {
+      "templateId": "rxn_phenomenon_judge",
+      "qtype": "judge",
+      "answerType": "text",
+      "stemBody": "知识库记载反应「乙烯水化制乙醇」的现象：工业条件下乙烯与水加成生成乙醇（实验室少做，以方程式与条件认知为主）。。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 rxn.C2H4_H2O 字段 phenomenon",
+      "difficulty": 1,
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "sourceCode": "rxn.C2H4_H2O",
+      "sourceType": "reaction",
+      "sourceId": "61",
+      "sourceName": "乙烯水化制乙醇",
+      "stem": "【AI试运行】知识库记载反应「乙烯水化制乙醇」的现象：工业条件下乙烯与水加成生成乙醇（实验室少做，以方程式与条件认知为主）。。判断该记载正误。",
+      "code": "train.ai_trial.pa.rxn_phenomenon_judge.rxn.C2H4_H2O",
+      "angleKey": "rxn.C2H4_H2O::rxn_phenomenon_judge",
+      "contentFingerprint": "rxn_phenomenon_judge::rxn.C2H4_H2O::judge::正确::::知识库记载反应「乙烯水化制乙醇」的现象：工业条件下乙烯与水加成生成乙醇（实验室少做，以方程式与条件认知为主）。。判断该记载正误。"
+    },
+    {
+      "templateId": "rxn_cond_judge",
+      "qtype": "judge",
+      "answerType": "text",
+      "stemBody": "反应「C2H5OH + 3O2 =点燃= 2CO2 + 3H2O」在知识库中标注的反应条件为「点燃（完全燃烧；氧气充足。缺氧气/不完全燃烧不在本条默认范围）」。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 rxn.C2H5OH_burn 字段 conditions",
+      "difficulty": 1,
+      "specialtyCode": "equation",
+      "categoryCode": "condition",
+      "sourceCode": "rxn.C2H5OH_burn",
+      "sourceType": "reaction",
+      "sourceId": "64",
+      "sourceName": "乙醇燃烧",
+      "stem": "【AI试运行】反应「C2H5OH + 3O2 =点燃= 2CO2 + 3H2O」在知识库中标注的反应条件为「点燃（完全燃烧；氧气充足。缺氧气/不完全燃烧不在本条默认范围）」。判断该记载正误。",
+      "code": "train.ai_trial.pa.rxn_cond_judge.rxn.C2H5OH_burn",
+      "angleKey": "rxn.C2H5OH_burn::rxn_cond_judge",
+      "contentFingerprint": "rxn_cond_judge::rxn.C2H5OH_burn::judge::正确::::反应「C2H5OH+3O2=点燃=2CO2+3H2O」在知识库中标注的反应条件为「点燃（完全燃烧；氧气充足。缺氧气/不完全燃烧不在本条默认范围）」。判断该记载正"
+    },
+    {
+      "templateId": "rxn_is_redox_judge",
+      "qtype": "judge",
+      "answerType": "text",
+      "stemBody": "反应「C2H5OH + 3O2 =点燃= 2CO2 + 3H2O」属于氧化还原反应（知识库已标注氧化剂/还原剂）。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 rxn.C2H5OH_burn；oxidant=O2 reductant=C2H5OH",
+      "difficulty": 1,
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "sourceCode": "rxn.C2H5OH_burn",
+      "sourceType": "reaction",
+      "sourceId": "64",
+      "sourceName": "乙醇燃烧",
+      "stem": "【AI试运行】反应「C2H5OH + 3O2 =点燃= 2CO2 + 3H2O」属于氧化还原反应（知识库已标注氧化剂/还原剂）。判断正误。",
+      "code": "train.ai_trial.pa.rxn_is_redox_judge.rxn.C2H5OH_burn",
+      "angleKey": "rxn.C2H5OH_burn::rxn_is_redox_judge",
+      "contentFingerprint": "rxn_is_redox_judge::rxn.C2H5OH_burn::judge::正确::::反应「C2H5OH+3O2=点燃=2CO2+3H2O」属于氧化还原反应（知识库已标注氧化剂/还原剂）。判断正误。"
+    },
+    {
+      "templateId": "rxn_oxidant_single",
+      "qtype": "single",
+      "answerType": "text",
+      "stemBody": "对于反应「C2H5OH + 3O2 =点燃= 2CO2 + 3H2O」，氧化剂是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "O2"
+        },
+        {
+          "key": "B",
+          "text": "C2H5OH"
+        },
+        {
+          "key": "C",
+          "text": "H2O"
+        },
+        {
+          "key": "D",
+          "text": "N2"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 rxn.C2H5OH_burn 字段 oxidant",
+      "difficulty": 2,
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "sourceCode": "rxn.C2H5OH_burn",
+      "sourceType": "reaction",
+      "sourceId": "64",
+      "sourceName": "乙醇燃烧",
+      "stem": "【AI试运行】对于反应「C2H5OH + 3O2 =点燃= 2CO2 + 3H2O」，氧化剂是？",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.C2H5OH_burn",
+      "angleKey": "rxn.C2H5OH_burn::rxn_oxidant_single",
+      "contentFingerprint": "rxn_oxidant_single::rxn.C2H5OH_burn::single::A::C2H5OH|H2O|N2|O2::对于反应「C2H5OH+3O2=点燃=2CO2+3H2O」，氧化剂是？"
+    },
+    {
+      "templateId": "rxn_phenomenon_judge",
+      "qtype": "judge",
+      "answerType": "text",
+      "stemBody": "知识库记载反应「乙醇燃烧」的现象：燃烧，发出淡蓝色火焰（题设）；生成CO2和H2O，放热。。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 rxn.C2H5OH_burn 字段 phenomenon",
+      "difficulty": 1,
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "sourceCode": "rxn.C2H5OH_burn",
+      "sourceType": "reaction",
+      "sourceId": "64",
+      "sourceName": "乙醇燃烧",
+      "stem": "【AI试运行】知识库记载反应「乙醇燃烧」的现象：燃烧，发出淡蓝色火焰（题设）；生成CO2和H2O，放热。。判断该记载正误。",
+      "code": "train.ai_trial.pa.rxn_phenomenon_judge.rxn.C2H5OH_burn",
+      "angleKey": "rxn.C2H5OH_burn::rxn_phenomenon_judge",
+      "contentFingerprint": "rxn_phenomenon_judge::rxn.C2H5OH_burn::judge::正确::::知识库记载反应「乙醇燃烧」的现象：燃烧，发出淡蓝色火焰（题设）；生成CO2和H2O，放热。。判断该记载正误。"
+    },
+    {
+      "templateId": "rxn_reductant_single",
+      "qtype": "single",
+      "answerType": "text",
+      "stemBody": "对于反应「C2H5OH + 3O2 =点燃= 2CO2 + 3H2O」，还原剂是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "C2H5OH"
+        },
+        {
+          "key": "B",
+          "text": "O2"
+        },
+        {
+          "key": "C",
+          "text": "H2O"
+        },
+        {
+          "key": "D",
+          "text": "CO2"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 rxn.C2H5OH_burn 字段 reductant",
+      "difficulty": 2,
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "sourceCode": "rxn.C2H5OH_burn",
+      "sourceType": "reaction",
+      "sourceId": "64",
+      "sourceName": "乙醇燃烧",
+      "stem": "【AI试运行】对于反应「C2H5OH + 3O2 =点燃= 2CO2 + 3H2O」，还原剂是？",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.C2H5OH_burn",
+      "angleKey": "rxn.C2H5OH_burn::rxn_reductant_single",
+      "contentFingerprint": "rxn_reductant_single::rxn.C2H5OH_burn::single::A::C2H5OH|CO2|H2O|O2::对于反应「C2H5OH+3O2=点燃=2CO2+3H2O」，还原剂是？"
+    },
+    {
+      "templateId": "rxn_cond_judge",
+      "qtype": "judge",
+      "answerType": "text",
+      "stemBody": "反应「2CH3CH2OH + O2 =Cu或Ag、加热= 2CH3CHO + 2H2O」在知识库中标注的反应条件为「Cu或Ag作催化剂并加热（教材常见：灼热铜丝伸入乙醇）」。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 rxn.C2H5OH_O2 字段 conditions",
+      "difficulty": 1,
+      "specialtyCode": "equation",
+      "categoryCode": "condition",
+      "sourceCode": "rxn.C2H5OH_O2",
+      "sourceType": "reaction",
+      "sourceId": "63",
+      "sourceName": "乙醇催化氧化",
+      "stem": "【AI试运行】反应「2CH3CH2OH + O2 =Cu或Ag、加热= 2CH3CHO + 2H2O」在知识库中标注的反应条件为「Cu或Ag作催化剂并加热（教材常见：灼热铜丝伸入乙醇）」。判断该记载正误。",
+      "code": "train.ai_trial.pa.rxn_cond_judge.rxn.C2H5OH_O2",
+      "angleKey": "rxn.C2H5OH_O2::rxn_cond_judge",
+      "contentFingerprint": "rxn_cond_judge::rxn.C2H5OH_O2::judge::正确::::反应「2CH3CH2OH+O2=Cu或Ag、加热=2CH3CHO+2H2O」在知识库中标注的反应条件为「Cu或Ag作催化剂并加热（教材常见：灼热铜丝伸入乙醇）」"
+    },
+    {
+      "templateId": "rxn_is_redox_judge",
+      "qtype": "judge",
+      "answerType": "text",
+      "stemBody": "反应「2CH3CH2OH + O2 =Cu或Ag、加热= 2CH3CHO + 2H2O」属于氧化还原反应（知识库已标注氧化剂/还原剂）。判断正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 rxn.C2H5OH_O2；oxidant=O2 reductant=CH3CH2OH",
+      "difficulty": 1,
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "sourceCode": "rxn.C2H5OH_O2",
+      "sourceType": "reaction",
+      "sourceId": "63",
+      "sourceName": "乙醇催化氧化",
+      "stem": "【AI试运行】反应「2CH3CH2OH + O2 =Cu或Ag、加热= 2CH3CHO + 2H2O」属于氧化还原反应（知识库已标注氧化剂/还原剂）。判断正误。",
+      "code": "train.ai_trial.pa.rxn_is_redox_judge.rxn.C2H5OH_O2",
+      "angleKey": "rxn.C2H5OH_O2::rxn_is_redox_judge",
+      "contentFingerprint": "rxn_is_redox_judge::rxn.C2H5OH_O2::judge::正确::::反应「2CH3CH2OH+O2=Cu或Ag、加热=2CH3CHO+2H2O」属于氧化还原反应（知识库已标注氧化剂/还原剂）。判断正误。"
+    },
+    {
+      "templateId": "rxn_oxidant_single",
+      "qtype": "single",
+      "answerType": "text",
+      "stemBody": "对于反应「2CH3CH2OH + O2 =Cu或Ag、加热= 2CH3CHO + 」，氧化剂是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "O2"
+        },
+        {
+          "key": "B",
+          "text": "CH3CH2OH"
+        },
+        {
+          "key": "C",
+          "text": "H2O"
+        },
+        {
+          "key": "D",
+          "text": "N2"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 rxn.C2H5OH_O2 字段 oxidant",
+      "difficulty": 2,
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "sourceCode": "rxn.C2H5OH_O2",
+      "sourceType": "reaction",
+      "sourceId": "63",
+      "sourceName": "乙醇催化氧化",
+      "stem": "【AI试运行】对于反应「2CH3CH2OH + O2 =Cu或Ag、加热= 2CH3CHO + 」，氧化剂是？",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.C2H5OH_O2",
+      "angleKey": "rxn.C2H5OH_O2::rxn_oxidant_single",
+      "contentFingerprint": "rxn_oxidant_single::rxn.C2H5OH_O2::single::A::CH3CH2OH|H2O|N2|O2::对于反应「2CH3CH2OH+O2=Cu或Ag、加热=2CH3CHO+」，氧化剂是？"
+    },
+    {
+      "templateId": "rxn_phenomenon_judge",
+      "qtype": "judge",
+      "answerType": "text",
+      "stemBody": "知识库记载反应「乙醇催化氧化」的现象：铜丝表面黑色CuO变为红色Cu（循环催化常见演示表述）；可闻到刺激性气味（乙醛，题设）。。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 rxn.C2H5OH_O2 字段 phenomenon",
+      "difficulty": 1,
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "sourceCode": "rxn.C2H5OH_O2",
+      "sourceType": "reaction",
+      "sourceId": "63",
+      "sourceName": "乙醇催化氧化",
+      "stem": "【AI试运行】知识库记载反应「乙醇催化氧化」的现象：铜丝表面黑色CuO变为红色Cu（循环催化常见演示表述）；可闻到刺激性气味（乙醛，题设）。。判断该记载正误。",
+      "code": "train.ai_trial.pa.rxn_phenomenon_judge.rxn.C2H5OH_O2",
+      "angleKey": "rxn.C2H5OH_O2::rxn_phenomenon_judge",
+      "contentFingerprint": "rxn_phenomenon_judge::rxn.C2H5OH_O2::judge::正确::::知识库记载反应「乙醇催化氧化」的现象：铜丝表面黑色CuO变为红色Cu（循环催化常见演示表述）；可闻到刺激性气味（乙醛，题设）。。判断该记载正误。"
+    },
+    {
+      "templateId": "rxn_reductant_single",
+      "qtype": "single",
+      "answerType": "text",
+      "stemBody": "对于反应「2CH3CH2OH + O2 =Cu或Ag、加热= 2CH3CHO + 」，还原剂是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "CH3CH2OH"
+        },
+        {
+          "key": "B",
+          "text": "O2"
+        },
+        {
+          "key": "C",
+          "text": "H2O"
+        },
+        {
+          "key": "D",
+          "text": "CO2"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 rxn.C2H5OH_O2 字段 reductant",
+      "difficulty": 2,
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "sourceCode": "rxn.C2H5OH_O2",
+      "sourceType": "reaction",
+      "sourceId": "63",
+      "sourceName": "乙醇催化氧化",
+      "stem": "【AI试运行】对于反应「2CH3CH2OH + O2 =Cu或Ag、加热= 2CH3CHO + 」，还原剂是？",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.C2H5OH_O2",
+      "angleKey": "rxn.C2H5OH_O2::rxn_reductant_single",
+      "contentFingerprint": "rxn_reductant_single::rxn.C2H5OH_O2::single::A::CH3CH2OH|CO2|H2O|O2::对于反应「2CH3CH2OH+O2=Cu或Ag、加热=2CH3CHO+」，还原剂是？"
+    },
+    {
+      "templateId": "rxn_cond_judge",
+      "qtype": "judge",
+      "answerType": "text",
+      "stemBody": "反应「CaCO3 + 2HCl = CaCl2 + CO2↑ + H2O」在知识库中标注的反应条件为「常温，酸足量」。判断该记载正误。",
+      "options": null,
+      "answer": "正确",
+      "answerAliases": [
+        "对",
+        "T",
+        "true",
+        "√"
+      ],
+      "analysis": "来源 rxn.CaCO3_2HCl 字段 conditions",
+      "difficulty": 1,
+      "specialtyCode": "equation",
+      "categoryCode": "condition",
+      "sourceCode": "rxn.CaCO3_2HCl",
+      "sourceType": "reaction",
+      "sourceId": "57",
+      "sourceName": "碳酸钙与盐酸",
+      "stem": "【AI试运行】反应「CaCO3 + 2HCl = CaCl2 + CO2↑ + H2O」在知识库中标注的反应条件为「常温，酸足量」。判断该记载正误。",
+      "code": "train.ai_trial.pa.rxn_cond_judge.rxn.CaCO3_2HCl",
+      "angleKey": "rxn.CaCO3_2HCl::rxn_cond_judge",
+      "contentFingerprint": "rxn_cond_judge::rxn.CaCO3_2HCl::judge::正确::::反应「CaCO3+2HCl=CaCl2+CO2↑+H2O」在知识库中标注的反应条件为「常温，酸足量」。判断该记载正误。"
+    },
+    {
+      "templateId": "rxn_eq_identify",
+      "qtype": "single",
+      "answerType": "text",
+      "stemBody": "下列哪一项是知识库中「碳酸钙与盐酸」的化学方程式？",
+      "options": [
+        {
+          "key": "A",
+          "text": "CaCO3 + 2HCl = CaCl2 + CO2↑ + H2O"
+        },
+        {
+          "key": "B",
+          "text": "H2O = CaCl2 + CO2↑ + H2O"
+        },
+        {
+          "key": "C",
+          "text": "H2 + O2 = H2O（无关反应）"
+        },
+        {
+          "key": "D",
+          "text": "无法确定"
+        }
+      ],
+      "answer": "A",
+      "answerAliases": [],
+      "analysis": "来源 rxn.CaCO3_2HCl 字段 equation",
+      "difficulty": 2,
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "sourceCode": "rxn.CaCO3_2HCl",
+      "sourceType": "reaction",
+      "sourceId": "57",
+      "sourceName": "碳酸钙与盐酸",
+      "stem": "【AI试运行】下列哪一项是知识库中「碳酸钙与盐酸」的化学方程式？",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.CaCO3_2HCl",
+      "angleKey": "rxn.CaCO3_2HCl::rxn_eq_identify",
+      "contentFingerprint": "rxn_eq_identify::rxn.CaCO3_2HCl::single::A::CaCO3+2HCl=CaCl2+CO2↑+H2O|H2+O2=H2O（无关反应）|H2O=CaCl2+CO2↑+H2O|无法确定::下列哪一项是知识库中「碳酸钙与盐酸」的化学方程式？"
+    }
+  ],
+  "skippedSample": [
+    {
+      "sourceCode": "el.He",
+      "templateId": "el_symbol_blank",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.He",
+      "templateId": "el_symbol_single",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.Li",
+      "templateId": "el_symbol_blank",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.Li",
+      "templateId": "el_symbol_single",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.Be",
+      "templateId": "el_symbol_blank",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.Be",
+      "templateId": "el_symbol_single",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.B",
+      "templateId": "el_symbol_blank",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.B",
+      "templateId": "el_symbol_single",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.C",
+      "templateId": "el_symbol_blank",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.C",
+      "templateId": "el_symbol_single",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.N",
+      "templateId": "el_symbol_blank",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.N",
+      "templateId": "el_symbol_single",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.F",
+      "templateId": "el_symbol_blank",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.F",
+      "templateId": "el_symbol_single",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.Ne",
+      "templateId": "el_symbol_blank",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.Ne",
+      "templateId": "el_symbol_single",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.Mg",
+      "templateId": "el_symbol_blank",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.Al",
+      "templateId": "el_symbol_blank",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.Si",
+      "templateId": "el_symbol_blank",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "el.P",
+      "templateId": "el_symbol_blank",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "concept.periodic_law",
+      "templateId": "concept_fact_judge",
+      "reason": "分类不存在 undefined.undefined，拒绝挂靠"
+    },
+    {
+      "sourceCode": "concept.metal_trend",
+      "templateId": "concept_fact_judge",
+      "reason": "分类不存在 undefined.undefined，拒绝挂靠"
+    },
+    {
+      "sourceCode": "concept.nonmetal_trend",
+      "templateId": "concept_fact_judge",
+      "reason": "分类不存在 undefined.undefined，拒绝挂靠"
+    },
+    {
+      "sourceCode": "concept.ionic_bond",
+      "templateId": "concept_fact_judge",
+      "reason": "分类不存在 undefined.undefined，拒绝挂靠"
+    },
+    {
+      "sourceCode": "concept.covalent_bond",
+      "templateId": "concept_fact_judge",
+      "reason": "分类不存在 undefined.undefined，拒绝挂靠"
+    },
+    {
+      "sourceCode": "concept.reaction_extent",
+      "templateId": "concept_fact_judge",
+      "reason": "分类不存在 undefined.undefined，拒绝挂靠"
+    },
+    {
+      "sourceCode": "concept.electron_conserve",
+      "templateId": "concept_fact_judge",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "concept.solution_colloid",
+      "templateId": "concept_fact_judge",
+      "reason": "分类不存在 undefined.undefined，拒绝挂靠"
+    },
+    {
+      "sourceCode": "formula.N_n_NA",
+      "sourceType": "formula",
+      "reason": "阶段A仅覆盖 STP/Vm/c 等安全公式模板"
+    },
+    {
+      "sourceCode": "formula.c_n_V",
+      "templateId": "fm_c_unit_single",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "formula.dilution",
+      "sourceType": "formula",
+      "reason": "阶段A仅覆盖 STP/Vm/c 等安全公式模板"
+    },
+    {
+      "sourceCode": "formula.M_m_n",
+      "sourceType": "formula",
+      "reason": "阶段A仅覆盖 STP/Vm/c 等安全公式模板"
+    },
+    {
+      "sourceCode": "formula.rho_c_M",
+      "sourceType": "formula",
+      "reason": "阶段A仅覆盖 STP/Vm/c 等安全公式模板"
+    },
+    {
+      "sourceCode": "formula.electron_transfer",
+      "sourceType": "formula",
+      "reason": "阶段A仅覆盖 STP/Vm/c 等安全公式模板"
+    },
+    {
+      "sourceCode": "formula.gas_STP",
+      "templateId": "fm_stp_judge",
+      "reason": "题干重复"
+    },
+    {
+      "sourceCode": "kp.redox.ox_product",
+      "sourceType": "knowledge",
+      "templateId": "kp_term_blank",
+      "reason": "无安全的术语定义填空模式"
+    },
+    {
+      "sourceCode": "kp.redox.ox_product",
+      "sourceType": "knowledge",
+      "templateId": "kp_random_cloze",
+      "reason": "禁止随意挖空 description 生成填空"
+    },
+    {
+      "sourceCode": "kp.redox.ox_product",
+      "templateId": "kp_fact_judge",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.redox.ox_product",
+      "templateId": "kp_misconception_judge",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.redox.e_transfer",
+      "sourceType": "knowledge",
+      "templateId": "kp_term_blank",
+      "reason": "无安全的术语定义填空模式"
+    },
+    {
+      "sourceCode": "kp.redox.e_transfer",
+      "sourceType": "knowledge",
+      "templateId": "kp_random_cloze",
+      "reason": "禁止随意挖空 description 生成填空"
+    },
+    {
+      "sourceCode": "kp.redox.e_transfer",
+      "templateId": "kp_fact_judge",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.redox.e_transfer",
+      "templateId": "kp_misconception_judge",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.redox.e_conserve",
+      "sourceType": "knowledge",
+      "templateId": "kp_random_cloze",
+      "reason": "禁止随意挖空 description 生成填空"
+    },
+    {
+      "sourceCode": "kp.redox.e_conserve",
+      "templateId": "kp_fact_judge",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.redox.e_conserve",
+      "templateId": "kp_misconception_judge",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.redox.e_conserve",
+      "templateId": "kp_term_blank",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.ion.electrolyte",
+      "sourceType": "knowledge",
+      "templateId": "kp_misconception_judge",
+      "reason": "无「易错：」可抽取句"
+    },
+    {
+      "sourceCode": "kp.ion.electrolyte",
+      "sourceType": "knowledge",
+      "templateId": "kp_random_cloze",
+      "reason": "禁止随意挖空 description 生成填空"
+    },
+    {
+      "sourceCode": "kp.ion.electrolyte",
+      "templateId": "kp_fact_judge",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.ion.electrolyte",
+      "templateId": "kp_term_blank",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.ion.ionization_eq",
+      "sourceType": "knowledge",
+      "templateId": "kp_misconception_judge",
+      "reason": "无「易错：」可抽取句"
+    },
+    {
+      "sourceCode": "kp.ion.ionization_eq",
+      "sourceType": "knowledge",
+      "templateId": "kp_term_blank",
+      "reason": "无安全的术语定义填空模式"
+    },
+    {
+      "sourceCode": "kp.ion.ionization_eq",
+      "sourceType": "knowledge",
+      "templateId": "kp_random_cloze",
+      "reason": "禁止随意挖空 description 生成填空"
+    },
+    {
+      "sourceCode": "kp.ion.ionization_eq",
+      "templateId": "kp_fact_judge",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.ion.ionic_eq",
+      "sourceType": "knowledge",
+      "templateId": "kp_misconception_judge",
+      "reason": "无「易错：」可抽取句"
+    },
+    {
+      "sourceCode": "kp.ion.ionic_eq",
+      "sourceType": "knowledge",
+      "templateId": "kp_term_blank",
+      "reason": "无安全的术语定义填空模式"
+    },
+    {
+      "sourceCode": "kp.ion.ionic_eq",
+      "sourceType": "knowledge",
+      "templateId": "kp_random_cloze",
+      "reason": "禁止随意挖空 description 生成填空"
+    },
+    {
+      "sourceCode": "kp.ion.ionic_eq",
+      "templateId": "kp_fact_judge",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.structure.atom",
+      "sourceType": "knowledge",
+      "templateId": "kp_misconception_judge",
+      "reason": "无「易错：」可抽取句"
+    },
+    {
+      "sourceCode": "kp.structure.atom",
+      "sourceType": "knowledge",
+      "templateId": "kp_term_blank",
+      "reason": "无安全的术语定义填空模式"
+    },
+    {
+      "sourceCode": "kp.structure.atom",
+      "sourceType": "knowledge",
+      "templateId": "kp_random_cloze",
+      "reason": "禁止随意挖空 description 生成填空"
+    },
+    {
+      "sourceCode": "kp.structure.atom",
+      "templateId": "kp_fact_judge",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.structure.isotope",
+      "sourceType": "knowledge",
+      "templateId": "kp_misconception_judge",
+      "reason": "无「易错：」可抽取句"
+    },
+    {
+      "sourceCode": "kp.structure.isotope",
+      "sourceType": "knowledge",
+      "templateId": "kp_term_blank",
+      "reason": "无安全的术语定义填空模式"
+    },
+    {
+      "sourceCode": "kp.structure.isotope",
+      "sourceType": "knowledge",
+      "templateId": "kp_random_cloze",
+      "reason": "禁止随意挖空 description 生成填空"
+    },
+    {
+      "sourceCode": "kp.structure.isotope",
+      "templateId": "kp_fact_judge",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.structure.electron_formula",
+      "sourceType": "knowledge",
+      "templateId": "kp_misconception_judge",
+      "reason": "无「易错：」可抽取句"
+    },
+    {
+      "sourceCode": "kp.structure.electron_formula",
+      "sourceType": "knowledge",
+      "templateId": "kp_term_blank",
+      "reason": "无安全的术语定义填空模式"
+    },
+    {
+      "sourceCode": "kp.structure.electron_formula",
+      "sourceType": "knowledge",
+      "templateId": "kp_random_cloze",
+      "reason": "禁止随意挖空 description 生成填空"
+    },
+    {
+      "sourceCode": "kp.structure.electron_formula",
+      "templateId": "kp_fact_judge",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.periodic.position",
+      "sourceType": "knowledge",
+      "templateId": "kp_misconception_judge",
+      "reason": "无「易错：」可抽取句"
+    },
+    {
+      "sourceCode": "kp.periodic.position",
+      "sourceType": "knowledge",
+      "templateId": "kp_term_blank",
+      "reason": "无安全的术语定义填空模式"
+    },
+    {
+      "sourceCode": "kp.periodic.position",
+      "sourceType": "knowledge",
+      "templateId": "kp_random_cloze",
+      "reason": "禁止随意挖空 description 生成填空"
+    },
+    {
+      "sourceCode": "kp.periodic.position",
+      "templateId": "kp_fact_judge",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.periodic.trend",
+      "sourceType": "knowledge",
+      "templateId": "kp_misconception_judge",
+      "reason": "无「易错：」可抽取句"
+    },
+    {
+      "sourceCode": "kp.periodic.trend",
+      "sourceType": "knowledge",
+      "templateId": "kp_term_blank",
+      "reason": "无安全的术语定义填空模式"
+    },
+    {
+      "sourceCode": "kp.periodic.trend",
+      "sourceType": "knowledge",
+      "templateId": "kp_random_cloze",
+      "reason": "禁止随意挖空 description 生成填空"
+    },
+    {
+      "sourceCode": "kp.periodic.trend",
+      "templateId": "kp_fact_judge",
+      "reason": "同知识同考查角度已存在（含库内）"
+    },
+    {
+      "sourceCode": "kp.calc.amount",
+      "sourceType": "knowledge",
+      "templateId": "kp_misconception_judge",
+      "reason": "无「易错：」可抽取句"
+    }
+  ],
+  "candidateCount": 200
+}

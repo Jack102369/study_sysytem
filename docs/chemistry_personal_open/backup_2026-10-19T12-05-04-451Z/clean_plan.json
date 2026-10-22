@@ -1,0 +1,149 @@
+{
+  "backupDir": "D:\\adu\\wj\\拉总\\学习系统代码\\study_sysytem\\docs\\chemistry_personal_open\\backup_2026-10-19T12-05-04-451Z",
+  "fillerCount": 18,
+  "extraCount": 2,
+  "targets": [
+    {
+      "id": "77",
+      "code": "train.ai_trial.cov.experiment.1",
+      "action": "physical_delete"
+    },
+    {
+      "id": "78",
+      "code": "train.ai_trial.cov.calculation.1",
+      "action": "physical_delete"
+    },
+    {
+      "id": "79",
+      "code": "train.ai_trial.cov.ion.1",
+      "action": "physical_delete"
+    },
+    {
+      "id": "80",
+      "code": "train.ai_trial.cov.periodic.1",
+      "action": "physical_delete"
+    },
+    {
+      "id": "81",
+      "code": "train.ai_trial.cov.periodic.2",
+      "action": "physical_delete"
+    },
+    {
+      "id": "82",
+      "code": "train.ai_trial.cov.periodic.3",
+      "action": "physical_delete"
+    },
+    {
+      "id": "83",
+      "code": "train.ai_trial.cov.structure.1",
+      "action": "physical_delete"
+    },
+    {
+      "id": "84",
+      "code": "train.ai_trial.cov.structure.2",
+      "action": "physical_delete"
+    },
+    {
+      "id": "85",
+      "code": "train.ai_trial.cov.structure.3",
+      "action": "physical_delete"
+    },
+    {
+      "id": "86",
+      "code": "train.ai_trial.cov.organic.1",
+      "action": "physical_delete"
+    },
+    {
+      "id": "87",
+      "code": "train.ai_trial.cov.organic.2",
+      "action": "physical_delete"
+    },
+    {
+      "id": "88",
+      "code": "train.ai_trial.cov.organic.3",
+      "action": "physical_delete"
+    },
+    {
+      "id": "89",
+      "code": "train.ai_trial.cov.inference.1",
+      "action": "physical_delete"
+    },
+    {
+      "id": "90",
+      "code": "train.ai_trial.cov.inference.2",
+      "action": "physical_delete"
+    },
+    {
+      "id": "91",
+      "code": "train.ai_trial.cov.inference.3",
+      "action": "physical_delete"
+    },
+    {
+      "id": "92",
+      "code": "train.ai_trial.cov.comprehensive.1",
+      "action": "soft_disable"
+    },
+    {
+      "id": "93",
+      "code": "train.ai_trial.cov.comprehensive.2",
+      "action": "soft_disable"
+    },
+    {
+      "id": "94",
+      "code": "train.ai_trial.cov.comprehensive.3",
+      "action": "soft_disable"
+    },
+    {
+      "id": "76",
+      "code": "train.ai_trial.eq.conversion.01",
+      "action": "physical_delete"
+    },
+    {
+      "id": "3",
+      "code": "train.test.eq.single.01",
+      "action": "soft_disable"
+    }
+  ],
+  "physicalDelete": [
+    "train.ai_trial.cov.experiment.1",
+    "train.ai_trial.cov.calculation.1",
+    "train.ai_trial.cov.ion.1",
+    "train.ai_trial.cov.periodic.1",
+    "train.ai_trial.cov.periodic.2",
+    "train.ai_trial.cov.periodic.3",
+    "train.ai_trial.cov.structure.1",
+    "train.ai_trial.cov.structure.2",
+    "train.ai_trial.cov.structure.3",
+    "train.ai_trial.cov.organic.1",
+    "train.ai_trial.cov.organic.2",
+    "train.ai_trial.cov.organic.3",
+    "train.ai_trial.cov.inference.1",
+    "train.ai_trial.cov.inference.2",
+    "train.ai_trial.cov.inference.3",
+    "train.ai_trial.eq.conversion.01"
+  ],
+  "softDisable": [
+    "train.ai_trial.cov.comprehensive.1",
+    "train.ai_trial.cov.comprehensive.2",
+    "train.ai_trial.cov.comprehensive.3",
+    "train.test.eq.single.01"
+  ],
+  "referenced": [
+    {
+      "item_id": 3,
+      "code": "train.test.eq.single.01"
+    },
+    {
+      "item_id": 92,
+      "code": "train.ai_trial.cov.comprehensive.1"
+    },
+    {
+      "item_id": 93,
+      "code": "train.ai_trial.cov.comprehensive.2"
+    },
+    {
+      "item_id": 94,
+      "code": "train.ai_trial.cov.comprehensive.3"
+    }
+  ]
+}

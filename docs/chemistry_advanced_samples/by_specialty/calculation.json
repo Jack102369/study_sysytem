@@ -1,0 +1,1030 @@
+[
+  {
+    "id": "S60.calculation.01",
+    "sourceModelId": "ADV.calculation.001",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "amount"
+    ],
+    "knowledgePoints": [
+      "n=m/M",
+      "N=n·NA"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "取 9.0 g H₂O（摩尔质量 18 g·mol⁻¹）。关于其中水分子数目与氢原子数目，下列说法正确的是（NA 表示阿伏加德罗常数的值）",
+    "options": [
+      {
+        "key": "A",
+        "text": "水分子数为 0.5NA，氢原子数为 NA"
+      },
+      {
+        "key": "B",
+        "text": "水分子数为 NA，氢原子数为 0.5NA"
+      },
+      {
+        "key": "C",
+        "text": "水分子数为 0.5NA，氢原子数为 0.5NA"
+      },
+      {
+        "key": "D",
+        "text": "水分子数为 9NA，氢原子数为 18NA"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "先求 n(H₂O)，再分别求分子数与原子数",
+    "conditionAnalysis": [
+      "9.0 g 与 M=18 用于求 n",
+      "一分子 H₂O 含 2 个 H 原子"
+    ],
+    "steps": [
+      "n(H₂O)=9.0/18=0.5 mol",
+      "水分子数=0.5NA",
+      "氢原子数=0.5×2×NA=NA"
+    ],
+    "coreMethod": "物质的量桥梁：先 n 再分支求微粒数",
+    "commonMistakes": [
+      "把氢原子数当成与分子数相同",
+      "用 9 直接乘 NA"
+    ],
+    "similarFeatures": [
+      "给质量求分子/原子数",
+      "注意化学式中原子个数"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "two_step_amount",
+      "particle_count"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "n=0.5 mol，分子 0.5NA，H 原子 NA",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "分子数与原子数颠倒且分子数算错",
+        "possibleWrongThinking": "可能把 9/18 算成 1，或把原子数公式用反"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "忽略每分子含 2 个 H",
+        "possibleWrongThinking": "未乘化学式中 H 的个数"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "未先求 n，直接用质量数值乘 NA",
+        "possibleWrongThinking": "混淆质量数值与物质的量"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.02",
+    "sourceModelId": "ADV.calculation.002",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "amount"
+    ],
+    "knowledgePoints": [
+      "方程式计量",
+      "n=m/M"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应：2H₂ + O₂ = 2H₂O。若有 3.0 g H₂（M=2 g·mol⁻¹）与足量 O₂ 完全反应，理论上生成水的质量为",
+    "options": [
+      {
+        "key": "A",
+        "text": "13.5 g"
+      },
+      {
+        "key": "B",
+        "text": "27 g"
+      },
+      {
+        "key": "C",
+        "text": "54 g"
+      },
+      {
+        "key": "D",
+        "text": "3.0 g"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "H₂→n→按计量比得 H₂O 的 n→质量",
+    "conditionAnalysis": [
+      "足量 O₂ 说明以 H₂ 为限制反应物",
+      "计量数 2H₂～2H₂O"
+    ],
+    "steps": [
+      "n(H₂)=3/2=1.5 mol",
+      "n(H₂O)=1.5 mol",
+      "m=1.5×18=27 g"
+    ],
+    "coreMethod": "物质的量桥梁 + 计量比",
+    "commonMistakes": [
+      "按质量 1:1 得 3 g",
+      "系数用成 2H₂～H₂O 得 13.5 g"
+    ],
+    "similarFeatures": [
+      "已知一反应物求产物质量",
+      "足量另一方"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "equation_stoich",
+      "two_step"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "相当于 n(H₂O)=0.75，计量比用错",
+        "possibleWrongThinking": "把 2H₂～2H₂O 误当成 2H₂～H₂O"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "1.5 mol 水对应 27 g",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "把 n(H₂) 算成 3 mol 或 M 用错",
+        "possibleWrongThinking": "用 M(H₂)=1 或未除以 2"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "质量比当物质的量比",
+        "possibleWrongThinking": "认为生成水质量等于氢气质量"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.03",
+    "sourceModelId": "ADV.calculation.002",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "amount"
+    ],
+    "knowledgePoints": [
+      "纯度",
+      "方程式计量"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "含杂质的锌粒样品 13.0 g，其中 Zn 的质量分数为 80%（杂质不与酸反应）。与足量稀硫酸完全反应：Zn + H₂SO₄ = ZnSO₄ + H₂↑。标准状况下生成 H₂ 的体积约为（Vm=22.4 L·mol⁻¹，M(Zn)=65 g·mol⁻¹）",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.24 L"
+      },
+      {
+        "key": "B",
+        "text": "3.58 L"
+      },
+      {
+        "key": "C",
+        "text": "4.48 L"
+      },
+      {
+        "key": "D",
+        "text": "1.79 L"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "先算有效 Zn 质量，再求 n(H₂)=n(Zn)，最后 V=n·Vm",
+    "conditionAnalysis": [
+      "80% 用于求有效质量",
+      "足量酸→Zn 限制",
+      "标况 Vm 可用"
+    ],
+    "steps": [
+      "m(Zn)=13.0×0.80=10.4 g",
+      "n(Zn)=10.4/65=0.16 mol",
+      "n(H₂)=0.16 mol",
+      "V=0.16×22.4=3.584 L≈3.58 L"
+    ],
+    "coreMethod": "纯度处理 + 计量 + 气体体积",
+    "commonMistakes": [
+      "用 13 g 直接算得 4.48 L",
+      "忘记×0.8 得到更大体积"
+    ],
+    "similarFeatures": [
+      "纯度→有效量→气体体积"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "purity",
+      "gas_volume",
+      "multi_step"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "相当于 0.1 mol H₂",
+        "possibleWrongThinking": "用错 Zn 质量或摩尔质量"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "0.16×22.4≈3.58",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "用全部 13 g：13/65=0.2，0.2×22.4=4.48",
+        "possibleWrongThinking": "忽略纯度，把样品全当 Zn"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "约为正确答案一半",
+        "possibleWrongThinking": "误用 1:2 计量或 Vm 用 11.2"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.04",
+    "sourceModelId": "ADV.calculation.003",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "amount"
+    ],
+    "knowledgePoints": [
+      "过量判断",
+      "方程式计量"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应 2H₂ + O₂ = 2H₂O。将 2.0 g H₂ 与 16 g O₂ 混合点燃至完全（M(H₂)=2，M(O₂)=32）。生成水的质量为",
+    "options": [
+      {
+        "key": "A",
+        "text": "18 g"
+      },
+      {
+        "key": "B",
+        "text": "36 g"
+      },
+      {
+        "key": "C",
+        "text": "9 g"
+      },
+      {
+        "key": "D",
+        "text": "16 g"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "先比较谁过量，再用不足量计算",
+    "conditionAnalysis": [
+      "两反应物都给定量",
+      "必须判断限制反应物"
+    ],
+    "steps": [
+      "n(H₂)=1.0 mol，n(O₂)=0.5 mol",
+      "按 2H₂～O₂，1 mol H₂ 需 0.5 mol O₂，恰好完全",
+      "n(H₂O)=1.0 mol，m=18 g"
+    ],
+    "coreMethod": "过量判断（本题恰好）",
+    "commonMistakes": [
+      "只用 H₂ 却把计量搞错得 36 g",
+      "只用 O₂ 质量当水"
+    ],
+    "similarFeatures": [
+      "双给定量必须先判断"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "excess_check",
+      "stoich"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "恰好完全，生成 1 mol 水",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "按 2 mol 水计算",
+        "possibleWrongThinking": "把 n(H₂) 当成 2 mol 或系数用错"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "半量水",
+        "possibleWrongThinking": "误判某方过量并算半"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "用 O₂ 质量充数",
+        "possibleWrongThinking": "未进行计量换算"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.05",
+    "sourceModelId": "ADV.calculation.003",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "amount"
+    ],
+    "knowledgePoints": [
+      "过量判断",
+      "剩余量"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "反应 2H₂ + O₂ = 2H₂O。将 4.0 g H₂ 与 16 g O₂ 混合点燃至完全。反应后剩余气体的物质的量为",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1.0 mol"
+      },
+      {
+        "key": "C",
+        "text": "0.5 mol"
+      },
+      {
+        "key": "D",
+        "text": "2.0 mol"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "判断 O₂ 不足，再算剩余 H₂",
+    "conditionAnalysis": [
+      "求剩余而非产物",
+      "水为液态不计入剩余气体"
+    ],
+    "steps": [
+      "n(H₂)=2.0 mol，n(O₂)=0.5 mol",
+      "2H₂～O₂：0.5 mol O₂ 耗 1.0 mol H₂",
+      "剩余 H₂=2.0−1.0=1.0 mol"
+    ],
+    "coreMethod": "过量判断 + 求剩余",
+    "commonMistakes": [
+      "认为无剩余",
+      "剩余算成 O₂"
+    ],
+    "similarFeatures": [
+      "产物为液体时剩余气体=过量反应物"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "excess",
+      "remainder",
+      "multi_step"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "并非恰好",
+        "possibleWrongThinking": "未做过量判断"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "剩余 H₂ 1 mol",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "把剩余当成 O₂ 或算错耗量",
+        "possibleWrongThinking": "误判 H₂ 不足"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "把初始 H₂ 全当剩余",
+        "possibleWrongThinking": "认为 O₂ 未反应"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.06",
+    "sourceModelId": "ADV.calculation.004",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "concentration"
+    ],
+    "knowledgePoints": [
+      "c=n/V"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "将 0.25 mol NaCl 溶于水并定容至 500 mL，所得溶液的物质的量浓度为",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.25 mol·L⁻¹"
+      },
+      {
+        "key": "B",
+        "text": "0.50 mol·L⁻¹"
+      },
+      {
+        "key": "C",
+        "text": "0.125 mol·L⁻¹"
+      },
+      {
+        "key": "D",
+        "text": "2.0 mol·L⁻¹"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "体积必须换成升：500 mL=0.50 L",
+    "conditionAnalysis": [
+      "n=0.25 mol",
+      "V=0.50 L"
+    ],
+    "steps": [
+      "V=500 mL=0.50 L",
+      "c=n/V=0.25/0.50=0.50 mol·L⁻¹"
+    ],
+    "coreMethod": "浓度定义式 + 单位统一",
+    "commonMistakes": [
+      "用 500 不换算得 0.0005",
+      "用 0.25/0.25"
+    ],
+    "similarFeatures": [
+      "定容体积给 mL"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "concentration",
+      "unit_convert"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "相当于 V 当成 1 L",
+        "possibleWrongThinking": "忽略实际体积或当成 1 L"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "0.25/0.5=0.5",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "0.25/2",
+        "possibleWrongThinking": "体积单位换算错误（如当成 2 L）"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "0.25 除以 0.125 或颠倒",
+        "possibleWrongThinking": "公式写成 V/n"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.07",
+    "sourceModelId": "ADV.calculation.004",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "concentration"
+    ],
+    "knowledgePoints": [
+      "稀释守恒"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "将 50.0 mL 1.20 mol·L⁻¹ 的 NaOH 溶液加水稀释至 300 mL。稀释后溶液浓度为",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.20 mol·L⁻¹"
+      },
+      {
+        "key": "B",
+        "text": "0.40 mol·L⁻¹"
+      },
+      {
+        "key": "C",
+        "text": "0.60 mol·L⁻¹"
+      },
+      {
+        "key": "D",
+        "text": "1.20 mol·L⁻¹"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "稀释前后溶质 n 不变",
+    "conditionAnalysis": [
+      "稀前后 n=cV",
+      "V1=0.050 L，V2=0.300 L"
+    ],
+    "steps": [
+      "n=0.050×1.20=0.060 mol",
+      "c2=0.060/0.300=0.20 mol·L⁻¹"
+    ],
+    "coreMethod": "稀释守恒定律",
+    "commonMistakes": [
+      "按 1.20×50/300 以外错误算法",
+      "认为浓度不变"
+    ],
+    "similarFeatures": [
+      "稀溶液求新浓度"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "dilution",
+      "conservation"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "稀释 6 倍，1.20/6=0.20",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "相当于稀释 3 倍",
+        "possibleWrongThinking": "体积比用错（如用 150 mL）"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "减半",
+        "possibleWrongThinking": "只看到大约稀释一倍量级"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "认为加水不改变浓度",
+        "possibleWrongThinking": "混淆质量分数与物质的量浓度直觉"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.08",
+    "sourceModelId": "ADV.calculation.005",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "molar_volume"
+    ],
+    "knowledgePoints": [
+      "气体摩尔体积",
+      "适用条件"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "下列叙述正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "标准状况下，11.2 L N₂ 与 11.2 L O₂ 所含分子数一定相等"
+      },
+      {
+        "key": "B",
+        "text": "任何状况下，22.4 L 气体都是 1 mol"
+      },
+      {
+        "key": "C",
+        "text": "标准状况下，22.4 L 水所含分子数为 NA"
+      },
+      {
+        "key": "D",
+        "text": "非标准状况下绝不能用 V=n·Vm 估算"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "Vm≈22.4 仅对气体且需标明状况；同况同体积气体分子数相等",
+    "conditionAnalysis": [
+      "A 同为标况气体",
+      "C 水不是气体"
+    ],
+    "steps": [
+      "标况下同体积气体 n 相同，分子数相同→A 正确",
+      "B 缺少状况限制→错",
+      "C 水为液体→错"
+    ],
+    "coreMethod": "气体摩尔体积适用条件辨析",
+    "commonMistakes": [
+      "把液体水当气体用 22.4"
+    ],
+    "similarFeatures": [
+      "Vm 条件判断题"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "Vm_condition",
+      "concept_analysis"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "标况同体积气体物质的量相等",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "未限定标准状况（或同温同压）",
+        "possibleWrongThinking": "机械记忆 22.4 L=1 mol"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "水不是气体，不能用气体摩尔体积",
+        "possibleWrongThinking": "忽略“气体”前提"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "表述绝对化；非标况可用对应条件下的 Vm",
+        "possibleWrongThinking": "把“标况常用值”理解成“只有标况有 Vm”"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.09",
+    "sourceModelId": "ADV.calculation.005",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "molar_volume"
+    ],
+    "knowledgePoints": [
+      "V=n·Vm",
+      "n=m/M"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "标准状况下，16 g O₂（M=32 g·mol⁻¹）的体积约为",
+    "options": [
+      {
+        "key": "A",
+        "text": "5.6 L"
+      },
+      {
+        "key": "B",
+        "text": "11.2 L"
+      },
+      {
+        "key": "C",
+        "text": "22.4 L"
+      },
+      {
+        "key": "D",
+        "text": "32 L"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "先求 n 再 V=n·22.4",
+    "conditionAnalysis": [
+      "标明标准状况",
+      "O₂ 为气体"
+    ],
+    "steps": [
+      "n=16/32=0.5 mol",
+      "V=0.5×22.4=11.2 L"
+    ],
+    "coreMethod": "质量→n→体积",
+    "commonMistakes": [
+      "当成 1 mol 得 22.4 L"
+    ],
+    "similarFeatures": [
+      "标况气体体积计算"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "two_step",
+      "Vm"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "0.25 mol 对应体积",
+        "possibleWrongThinking": "n 算成 0.25"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "0.5×22.4=11.2",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "按 1 mol 计",
+        "possibleWrongThinking": "把 16 g 当成 1 mol O₂（误用 M=16）"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "用质量数值当体积",
+        "possibleWrongThinking": "未换算"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.10",
+    "sourceModelId": "ADV.calculation.006",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "amount"
+    ],
+    "knowledgePoints": [
+      "质量守恒"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "敞口容器中，碳酸钙与足量稀盐酸反应。反应前容器与试剂总质量 85.0 g，反应结束并静置后总质量 71.8 g（气体已逸出）。生成 CO₂ 的质量为",
+    "options": [
+      {
+        "key": "A",
+        "text": "13.2 g"
+      },
+      {
+        "key": "B",
+        "text": "22.4 g"
+      },
+      {
+        "key": "C",
+        "text": "44 g"
+      },
+      {
+        "key": "D",
+        "text": "85.0 g"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "逸出气体质量=反应前总质量−反应后总质量",
+    "conditionAnalysis": [
+      "足量酸保证碳酸钙反应完全相关讨论简化为质量差即 CO₂",
+      "无其他挥发假设"
+    ],
+    "steps": [
+      "逸出气体质量=反应前总质量−反应后总质量",
+      "m(CO₂)=85.0−71.8=13.2 g"
+    ],
+    "coreMethod": "质量守恒（体系质量差）",
+    "commonMistakes": [
+      "选 22.4 受摩尔体积干扰"
+    ],
+    "similarFeatures": [
+      "称量差求气体质量"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "mass_conservation"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "质量差 13.2 g",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "与计算无关的 Vm 数值",
+        "possibleWrongThinking": "看到气体就联想到 22.4"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "CO₂ 摩尔质量干扰",
+        "possibleWrongThinking": "直接填 M(CO₂)"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "未做差减",
+        "possibleWrongThinking": "把总质量当气体"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.11",
+    "sourceModelId": "ADV.calculation.006",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "amount",
+      "molar_volume"
+    ],
+    "knowledgePoints": [
+      "质量守恒",
+      "气体摩尔体积"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "上题若生成的 CO₂ 在标准状况下体积为 6.72 L，则与质量 13.2 g 是否一致？最合理的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "一致：n=13.2/44=0.30 mol，V=0.30×22.4=6.72 L"
+      },
+      {
+        "key": "B",
+        "text": "不一致，因为质量守恒与体积无关"
+      },
+      {
+        "key": "C",
+        "text": "一致：任意气体 6.72 L 都是 13.2 g"
+      },
+      {
+        "key": "D",
+        "text": "无法比较"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "用 M 求 n，再用 Vm 求 V 交叉检验",
+    "conditionAnalysis": [
+      "标况",
+      "CO₂ 的 M=44"
+    ],
+    "steps": [
+      "n=13.2/44=0.3 mol",
+      "V=0.3×22.4=6.72 L，一致"
+    ],
+    "coreMethod": "守恒结果与 Vm 交叉验证",
+    "commonMistakes": [
+      "认为任意气体同体积同质量"
+    ],
+    "similarFeatures": [
+      "双路径检验"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "cross_check",
+      "Vm",
+      "conservation"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "计算吻合",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "两者可通过 n 联系",
+        "possibleWrongThinking": "割裂质量与体积关系"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "不同气体同体积质量不同",
+        "possibleWrongThinking": "忽略摩尔质量差异"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "数据足够比较",
+        "possibleWrongThinking": "未尝试换算"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.12",
+    "sourceModelId": "ADV.calculation.008",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "concentration"
+    ],
+    "knowledgePoints": [
+      "实验数据",
+      "c=n/V"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "配制溶液记录：空烧杯 36.20 g；加入 NaCl 后 42.05 g；溶解并定容至 250 mL。按纯净 NaCl 计（M=58.5 g·mol⁻¹），浓度最接近",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.100 mol·L⁻¹"
+      },
+      {
+        "key": "B",
+        "text": "0.400 mol·L⁻¹"
+      },
+      {
+        "key": "C",
+        "text": "0.234 mol·L⁻¹"
+      },
+      {
+        "key": "D",
+        "text": "1.00 mol·L⁻¹"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "先差减得溶质质量，再求 n 与 c",
+    "conditionAnalysis": [
+      "溶质=42.05−36.20=5.85 g",
+      "V=0.250 L"
+    ],
+    "steps": [
+      "m=5.85 g",
+      "n=5.85/58.5=0.100 mol",
+      "c=0.100/0.250=0.400 mol·L⁻¹"
+    ],
+    "coreMethod": "实验数据差减 + 浓度定义",
+    "commonMistakes": [
+      "用 42.05 g 当溶质",
+      "体积未换升"
+    ],
+    "similarFeatures": [
+      "称量数据求浓度"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "data_table",
+      "multi_step",
+      "concentration"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "只算到 n 未除以体积",
+        "possibleWrongThinking": "把 n 当成 c"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "差减后计算正确",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "用 42.05 或错误差减",
+        "possibleWrongThinking": "未扣空杯或算错"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "数量级错误",
+        "possibleWrongThinking": "体积用 0.1 L 等"
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+# nginx 示例：静态前端 + 反代 API（同域名，避免跨域）
+# 用法：把 root 改成服务器上 web 目录；把 upstream 端口改成 API 端口
+
+upstream study_api {
+  server 127.0.0.1:3000;
+  keepalive 16;
+}
+
+server {
+  listen 80;
+  server_name _;
+
+  client_max_body_size 520m;
+
+  # 前端静态资源
+  root /opt/study-system/web;
+  index index.html;
+
+  # API / 上传（须放在 SPA fallback 之前）
+  location ^~ /uploads/ {
+    proxy_pass http://study_api;
+    proxy_http_version 1.1;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_read_timeout 600s;
+  }
+
+  location ~ ^/(auth|meta|health|subjects|tags|error-categories|assessment-types|error-questions|extension-materials|listening-materials|ai-reference|writing-coach|reviews|attachments|assessments|dashboard|settings|admin|feature-flags|study-prefs|points|knowledge-cards|pet-assistant|chemistry)(/|$) {
+    proxy_pass http://study_api;
+    proxy_http_version 1.1;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_read_timeout 600s;
+  }
+
+  location / {
+    try_files $uri $uri/ /index.html;
+  }
+}

@@ -1,0 +1,763 @@
+{
+  "specialties": {
+    "equation": {
+      "knowledgeLinks": 96,
+      "questionLinks": 3,
+      "autoQuizReady": false,
+      "note": "有知识且有question关联，仍非正式题库"
+    },
+    "experiment": {
+      "knowledgeLinks": 64,
+      "questionLinks": 3,
+      "autoQuizReady": false,
+      "note": "有知识且有question关联，仍非正式题库"
+    },
+    "substance": {
+      "knowledgeLinks": 178,
+      "questionLinks": 2,
+      "autoQuizReady": false,
+      "note": "有知识且有question关联，仍非正式题库"
+    },
+    "calculation": {
+      "knowledgeLinks": 31,
+      "questionLinks": 3,
+      "autoQuizReady": false,
+      "note": "有知识且有question关联，仍非正式题库"
+    },
+    "ion": {
+      "knowledgeLinks": 25,
+      "questionLinks": 0,
+      "autoQuizReady": false,
+      "note": "有知识无question骨架，不足以认定可自动出题"
+    },
+    "redox": {
+      "knowledgeLinks": 71,
+      "questionLinks": 0,
+      "autoQuizReady": false,
+      "note": "有知识无question骨架，不足以认定可自动出题"
+    },
+    "periodic": {
+      "knowledgeLinks": 35,
+      "questionLinks": 0,
+      "autoQuizReady": false,
+      "note": "有知识无question骨架，不足以认定可自动出题"
+    },
+    "structure": {
+      "knowledgeLinks": 35,
+      "questionLinks": 0,
+      "autoQuizReady": false,
+      "note": "有知识无question骨架，不足以认定可自动出题"
+    },
+    "organic": {
+      "knowledgeLinks": 49,
+      "questionLinks": 5,
+      "autoQuizReady": false,
+      "note": "有知识且有question关联，仍非正式题库"
+    },
+    "inference": {
+      "knowledgeLinks": 5,
+      "questionLinks": 2,
+      "autoQuizReady": false,
+      "note": "有知识且有question关联，仍非正式题库"
+    },
+    "memory": {
+      "knowledgeLinks": 117,
+      "questionLinks": 0,
+      "autoQuizReady": false,
+      "note": "有知识无question骨架，不足以认定可自动出题"
+    },
+    "comprehensive": {
+      "knowledgeLinks": 30,
+      "questionLinks": 1,
+      "autoQuizReady": false,
+      "note": "有知识且有question关联，仍非正式题库"
+    }
+  },
+  "categories": {
+    "equation.write_from_text": {
+      "specialty": "equation",
+      "knowledgeLinks": 66,
+      "empty": false
+    },
+    "equation.balance": {
+      "specialty": "equation",
+      "knowledgeLinks": 30,
+      "empty": false
+    },
+    "equation.complete_reactant": {
+      "specialty": "equation",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "equation.complete_product": {
+      "specialty": "equation",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "equation.condition": {
+      "specialty": "equation",
+      "knowledgeLinks": 11,
+      "empty": false
+    },
+    "equation.true_false": {
+      "specialty": "equation",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "equation.ionic_write": {
+      "specialty": "equation",
+      "knowledgeLinks": 4,
+      "empty": false
+    },
+    "equation.ionic_correct": {
+      "specialty": "equation",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "equation.redox_analysis": {
+      "specialty": "equation",
+      "knowledgeLinks": 4,
+      "empty": false
+    },
+    "equation.conversion": {
+      "specialty": "equation",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "experiment.instrument_id": {
+      "specialty": "experiment",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "experiment.instrument_use": {
+      "specialty": "experiment",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "experiment.basic_ops": {
+      "specialty": "experiment",
+      "knowledgeLinks": 13,
+      "empty": false
+    },
+    "experiment.apparatus_id": {
+      "specialty": "experiment",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "experiment.apparatus_link": {
+      "specialty": "experiment",
+      "knowledgeLinks": 4,
+      "empty": false
+    },
+    "experiment.gas_prep": {
+      "specialty": "experiment",
+      "knowledgeLinks": 12,
+      "empty": false
+    },
+    "experiment.gas_collect": {
+      "specialty": "experiment",
+      "knowledgeLinks": 8,
+      "empty": false
+    },
+    "experiment.substance_test": {
+      "specialty": "experiment",
+      "knowledgeLinks": 21,
+      "empty": false
+    },
+    "experiment.phenomenon_judge": {
+      "specialty": "experiment",
+      "knowledgeLinks": 7,
+      "empty": false
+    },
+    "experiment.phenomenon_desc": {
+      "specialty": "experiment",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "experiment.step_order": {
+      "specialty": "experiment",
+      "knowledgeLinks": 4,
+      "empty": false
+    },
+    "experiment.conclusion": {
+      "specialty": "experiment",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "experiment.error_fix": {
+      "specialty": "experiment",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "experiment.safety": {
+      "specialty": "experiment",
+      "knowledgeLinks": 26,
+      "empty": false
+    },
+    "experiment.plan_design": {
+      "specialty": "experiment",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "experiment.inquiry": {
+      "specialty": "experiment",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "substance.name": {
+      "specialty": "substance",
+      "knowledgeLinks": 5,
+      "empty": false
+    },
+    "substance.formula": {
+      "specialty": "substance",
+      "knowledgeLinks": 65,
+      "empty": false
+    },
+    "substance.color": {
+      "specialty": "substance",
+      "knowledgeLinks": 4,
+      "empty": false
+    },
+    "substance.state": {
+      "specialty": "substance",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "substance.solubility": {
+      "specialty": "substance",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "substance.chem_property": {
+      "specialty": "substance",
+      "knowledgeLinks": 82,
+      "empty": false
+    },
+    "substance.test": {
+      "specialty": "substance",
+      "knowledgeLinks": 51,
+      "empty": false
+    },
+    "substance.usage": {
+      "specialty": "substance",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "substance.storage": {
+      "specialty": "substance",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "substance.identify": {
+      "specialty": "substance",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "substance.conversion": {
+      "specialty": "substance",
+      "knowledgeLinks": 3,
+      "empty": false
+    },
+    "calculation.atomic_mass": {
+      "specialty": "calculation",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "calculation.molecular_mass": {
+      "specialty": "calculation",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "calculation.molar_mass": {
+      "specialty": "calculation",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "calculation.amount": {
+      "specialty": "calculation",
+      "knowledgeLinks": 12,
+      "empty": false
+    },
+    "calculation.avogadro": {
+      "specialty": "calculation",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "calculation.molar_volume": {
+      "specialty": "calculation",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "calculation.concentration": {
+      "specialty": "calculation",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "calculation.dilution": {
+      "specialty": "calculation",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "calculation.equation_calc": {
+      "specialty": "calculation",
+      "knowledgeLinks": 3,
+      "empty": false
+    },
+    "calculation.mass_conserve": {
+      "specialty": "calculation",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "calculation.electron_conserve": {
+      "specialty": "calculation",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "calculation.mixed": {
+      "specialty": "calculation",
+      "knowledgeLinks": 7,
+      "empty": false
+    },
+    "ion.electrolyte": {
+      "specialty": "ion",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "ion.nonelectrolyte": {
+      "specialty": "ion",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "ion.ionization": {
+      "specialty": "ion",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "ion.ionic_write": {
+      "specialty": "ion",
+      "knowledgeLinks": 3,
+      "empty": false
+    },
+    "ion.formula_split": {
+      "specialty": "ion",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "ion.ionic_balance": {
+      "specialty": "ion",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "ion.ionic_correct": {
+      "specialty": "ion",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "ion.coexist": {
+      "specialty": "ion",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "ion.ion_test": {
+      "specialty": "ion",
+      "knowledgeLinks": 4,
+      "empty": false
+    },
+    "ion.mixed": {
+      "specialty": "ion",
+      "knowledgeLinks": 4,
+      "empty": false
+    },
+    "redox.valence": {
+      "specialty": "redox",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "redox.identify": {
+      "specialty": "redox",
+      "knowledgeLinks": 52,
+      "empty": false
+    },
+    "redox.oxidant": {
+      "specialty": "redox",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "redox.reductant": {
+      "specialty": "redox",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "redox.ox_product": {
+      "specialty": "redox",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "redox.re_product": {
+      "specialty": "redox",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "redox.e_direction": {
+      "specialty": "redox",
+      "knowledgeLinks": 5,
+      "empty": false
+    },
+    "redox.e_count": {
+      "specialty": "redox",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "redox.double_bridge": {
+      "specialty": "redox",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "redox.single_bridge": {
+      "specialty": "redox",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "redox.ox_re_ability": {
+      "specialty": "redox",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "redox.e_conserve": {
+      "specialty": "redox",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "periodic.elem_name": {
+      "specialty": "periodic",
+      "knowledgeLinks": 26,
+      "empty": false
+    },
+    "periodic.symbol": {
+      "specialty": "periodic",
+      "knowledgeLinks": 26,
+      "empty": false
+    },
+    "periodic.atomic_number": {
+      "specialty": "periodic",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "periodic.atomic_mass": {
+      "specialty": "periodic",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "periodic.period": {
+      "specialty": "periodic",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "periodic.group_col": {
+      "specialty": "periodic",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "periodic.atom_structure": {
+      "specialty": "periodic",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "periodic.electron_config": {
+      "specialty": "periodic",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "periodic.common_valence": {
+      "specialty": "periodic",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "periodic.metal_compare": {
+      "specialty": "periodic",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "periodic.nonmetal_compare": {
+      "specialty": "periodic",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "periodic.periodic_law": {
+      "specialty": "periodic",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "structure.atom_compose": {
+      "specialty": "structure",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "structure.proton": {
+      "specialty": "structure",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "structure.neutron": {
+      "specialty": "structure",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "structure.electron": {
+      "specialty": "structure",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "structure.atom_diagram": {
+      "specialty": "structure",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "structure.ion_diagram": {
+      "specialty": "structure",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "structure.nuclide": {
+      "specialty": "structure",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "structure.isotope": {
+      "specialty": "structure",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "structure.ionic_bond": {
+      "specialty": "structure",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "structure.covalent_bond": {
+      "specialty": "structure",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "structure.electron_formula": {
+      "specialty": "structure",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "structure.ionic_compound": {
+      "specialty": "structure",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "structure.covalent_compound": {
+      "specialty": "structure",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "organic.basic": {
+      "specialty": "organic",
+      "knowledgeLinks": 16,
+      "empty": false
+    },
+    "organic.methane": {
+      "specialty": "organic",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "organic.alkane": {
+      "specialty": "organic",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "organic.ethene": {
+      "specialty": "organic",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "organic.ethanol": {
+      "specialty": "organic",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "organic.acetic": {
+      "specialty": "organic",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "organic.homolog": {
+      "specialty": "organic",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "organic.isomer": {
+      "specialty": "organic",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "organic.substitution": {
+      "specialty": "organic",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "organic.addition": {
+      "specialty": "organic",
+      "knowledgeLinks": 5,
+      "empty": false
+    },
+    "organic.oxidation": {
+      "specialty": "organic",
+      "knowledgeLinks": 3,
+      "empty": false
+    },
+    "organic.esterification": {
+      "specialty": "organic",
+      "knowledgeLinks": 2,
+      "empty": false
+    },
+    "organic.structure_formula": {
+      "specialty": "organic",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "organic.property": {
+      "specialty": "organic",
+      "knowledgeLinks": 6,
+      "empty": false
+    },
+    "inference.color": {
+      "specialty": "inference",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "inference.phenomenon": {
+      "specialty": "inference",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "inference.relation": {
+      "specialty": "inference",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "inference.composition": {
+      "specialty": "inference",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "inference.valence": {
+      "specialty": "inference",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "inference.conversion": {
+      "specialty": "inference",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "inference.block_diagram": {
+      "specialty": "inference",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "inference.mixed": {
+      "specialty": "inference",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "memory.symbol": {
+      "specialty": "memory",
+      "knowledgeLinks": 26,
+      "empty": false
+    },
+    "memory.valence": {
+      "specialty": "memory",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "memory.ions": {
+      "specialty": "memory",
+      "knowledgeLinks": 1,
+      "empty": false
+    },
+    "memory.formula": {
+      "specialty": "memory",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "memory.color": {
+      "specialty": "memory",
+      "knowledgeLinks": 4,
+      "empty": false
+    },
+    "memory.precipitate": {
+      "specialty": "memory",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "memory.gas": {
+      "specialty": "memory",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "memory.common_name": {
+      "specialty": "memory",
+      "knowledgeLinks": 4,
+      "empty": false
+    },
+    "memory.phenomenon": {
+      "specialty": "memory",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "memory.equation": {
+      "specialty": "memory",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "memory.chem_formula": {
+      "specialty": "memory",
+      "knowledgeLinks": 11,
+      "empty": false
+    },
+    "memory.rules": {
+      "specialty": "memory",
+      "knowledgeLinks": 7,
+      "empty": false
+    },
+    "comprehensive.basic": {
+      "specialty": "comprehensive",
+      "knowledgeLinks": 28,
+      "empty": false
+    },
+    "comprehensive.medium": {
+      "specialty": "comprehensive",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "comprehensive.advanced": {
+      "specialty": "comprehensive",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "comprehensive.mistakes": {
+      "specialty": "comprehensive",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "comprehensive.weak": {
+      "specialty": "comprehensive",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "comprehensive.timed": {
+      "specialty": "comprehensive",
+      "knowledgeLinks": 0,
+      "empty": true
+    },
+    "comprehensive.mock": {
+      "specialty": "comprehensive",
+      "knowledgeLinks": 0,
+      "empty": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "successCount": 5,
+  "failCount": 0,
+  "linkOk": 5,
+  "linkFail": 0,
+  "results": [
+    {
+      "index": 0,
+      "type": "formula",
+      "ok": true,
+      "id": "13",
+      "inventoryCode": "formula.mixed_stoich",
+      "errors": []
+    },
+    {
+      "index": 1,
+      "type": "formula",
+      "ok": true,
+      "id": "14",
+      "inventoryCode": "formula.excess_reactant",
+      "errors": []
+    },
+    {
+      "index": 2,
+      "type": "formula",
+      "ok": true,
+      "id": "15",
+      "inventoryCode": "formula.purity",
+      "errors": []
+    },
+    {
+      "index": 3,
+      "type": "formula",
+      "ok": true,
+      "id": "16",
+      "inventoryCode": "formula.ion_conc",
+      "errors": []
+    },
+    {
+      "index": 4,
+      "type": "formula",
+      "ok": true,
+      "id": "17",
+      "inventoryCode": "formula.rate_v",
+      "errors": []
+    }
+  ]
+}

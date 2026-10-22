@@ -1,0 +1,166 @@
+{
+  "items": [
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "化学方程式计算步骤",
+        "description": "一般步骤：写对并配平方程式→理清已知与待求→将质量/体积等换算为n（气体仅在标况用22.4）→按计量数关系列比例→回代单位作答。有纯度、产率、过量时先处理实际反应的量。易错：未配平；用质量比直接当计量比。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.calc.stoich] batch5导入 pending_review id=55"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "过量问题分析方法",
+        "description": "给出多种反应物用量时，先把各量化为n，用 n/计量数比较大小，小的为不足量，按不足量计算生成物；剩余量=过量投料−按不足量消耗。易错：不判断过量；剩余量算错。可与 formula.excess_reactant 对照训练。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.calc.excess] batch5导入 pending_review id=56"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "气体相关计算",
+        "description": "气体物质的量与体积换算：仅当题目明确标准状况（标况，教材定义的0℃、101 kPa）时，才可用 Vm≈22.4 L/mol，即 V=n×22.4 L/mol。未指明标况、或非常温常压默认，都不得使用22.4。同温同压下气体体积比≈物质的量比（阿伏加德罗定律思想）。易错：任何温度压强都套22.4。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.calc.gas] Vm=22.4仅标况；禁非标况套用"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "溶液浓度综合",
+        "description": "物质的量浓度 c=n/V，V为溶液体积（L）。稀释：溶质n不变，c1V1=c2V2（只加水）。勿与质量分数w=m溶质/m溶液混淆；密度换算见已有公式条目。配制与定容误差见实验误差知识点。易错：V用溶剂体积；百分浓度与mol/L混用。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.calc.solution] batch5导入 pending_review id=58"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "实验方案设计要点",
+        "description": "书面评价实验方案：目的明确→原理可行→试剂与仪器匹配→步骤顺序合理（先气密性等）→现象可检验结论→安全与尾气/废液。比较方案时看是否干扰、是否可操作、是否过量或不足。本产品只做方案评价，不要求动手。",
+        "difficulty": 3,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.exp.design] batch5导入 pending_review id=59"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "实验误差分析",
+        "description": "误差分析必须对应具体操作阶段与测定量，禁止脱离条件直接写“偏大/偏小”。以配制一定物质的量浓度溶液（c=n/V）为例（书面分析）：①洁净容量瓶内残留少量蒸馏水，随后按规范定容且无其他错误时，一般不改变溶质的物质的量n，也不改变最终溶液体积V，故c通常不变；②定容时俯视刻度线→读得V偏小→c偏大；仰视→V偏大→c偏小；③烧杯/玻璃棒未洗涤或洗涤液未转入→n偏小→c偏小；④溶解未冷却即定容→冷却后液面低于刻度→V偏小→c偏大；⑤定容摇匀后发现液面低于刻度又加水→V偏大且相当于稀释→c偏小；⑥超过刻度线后用胶头滴管吸出部分溶液→溶质与溶剂同时损失，n偏小→c通常偏小。过滤、称量、气体收集不纯等亦须先定位操作再谈影响。",
+        "difficulty": 3,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.exp.error] B5整改:容量瓶分阶段对照;禁无阶段绝对偏向题"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "气体的洗涤与干燥",
+        "description": "洗气除杂：选能反应或吸收杂质、尽量不吸收目标气体的试剂；注意气体通过顺序（如先除杂再干燥，避免干燥后再通入水溶液）。干燥剂选择：酸性/碱性/中性气体与浓硫酸、碱石灰、无水CaCl2等匹配（按教材常见组合）。装置：洗气瓶导管长进短出。",
+        "difficulty": 3,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.exp.gas_wash_dry] 增补；试剂选择与顺序; batch5导入 pending_review id=61"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "影响化学反应速率的因素",
+        "description": "必修层面定性认识：增大反应物浓度、升高温度、使用催化剂、增大固体接触面积等，一般可加快反应速率（见 concept.reaction_rate）。催化剂改变化学反应速率，不改变化学反应限度（与 concept.reaction_extent 区分）。易错：把催化剂当成提高产率/转化率的因素。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.rate.factors] 关联 concept.reaction_rate"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "化学反应限度与条件影响（定性）",
+        "description": "可逆反应存在一定限度（转化不能按“进行到底”理解）。高一以定性认识为主：条件改变可能影响转化方向/限度的认识层次以所用必修教材为准；不把“勒夏特列原理”命名与选修化学平衡常数、复杂图像定量作为默认核心训练。禁止选修深度计算。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.extent.le_chatelier_basic] 待核实:教材深度与命名;仅极浅定性;excludeDefaultEquilibriumCalc"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch5",
+    "pack": "B5-C",
+    "inventoryCodes": [
+      "kp.calc.stoich",
+      "kp.calc.excess",
+      "kp.calc.gas",
+      "kp.calc.solution",
+      "kp.exp.design",
+      "kp.exp.error",
+      "kp.exp.gas_wash_dry",
+      "kp.rate.factors",
+      "kp.extent.le_chatelier_basic"
+    ],
+    "specialtyByCode": {
+      "kp.calc.stoich": [
+        "calculation"
+      ],
+      "kp.calc.excess": [
+        "calculation"
+      ],
+      "kp.calc.gas": [
+        "calculation"
+      ],
+      "kp.calc.solution": [
+        "calculation"
+      ],
+      "kp.exp.design": [
+        "experiment"
+      ],
+      "kp.exp.error": [
+        "experiment"
+      ],
+      "kp.exp.gas_wash_dry": [
+        "experiment"
+      ],
+      "kp.rate.factors": [
+        "comprehensive"
+      ],
+      "kp.extent.le_chatelier_basic": [
+        "comprehensive"
+      ]
+    },
+    "categoryByCode": {
+      "kp.calc.stoich": [],
+      "kp.calc.excess": [],
+      "kp.calc.gas": [],
+      "kp.calc.solution": [],
+      "kp.exp.design": [],
+      "kp.exp.error": [],
+      "kp.exp.gas_wash_dry": [
+        "experiment.apparatus_link",
+        "experiment.gas_collect",
+        "experiment.plan_design"
+      ],
+      "kp.rate.factors": [
+        "comprehensive.basic"
+      ],
+      "kp.extent.le_chatelier_basic": [
+        "comprehensive.basic"
+      ]
+    }
+  }
+}

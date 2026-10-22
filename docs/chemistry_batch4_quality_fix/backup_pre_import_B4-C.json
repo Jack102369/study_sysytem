@@ -1,0 +1,254 @@
+{
+  "items": [
+    {
+      "type": "experiment",
+      "data": {
+        "name": "氯气的实验室制法",
+        "category": "gas_prep",
+        "purpose": "学习用MnO2与浓盐酸加热制取氯气，并认识收集与尾气处理。",
+        "principle": "MnO2+4HCl(浓)=△=MnCl2+Cl2↑+2H2O；Cl2密度比空气大，可用向上排空气法；尾气用NaOH吸收。",
+        "instruments": "圆底烧瓶、分液漏斗、酒精灯、导管、集气瓶、尾气吸收装置等",
+        "reagents": "MnO2、浓盐酸、NaOH溶液（尾气）",
+        "steps": "1.检查气密性；2.加入MnO2，分液漏斗加浓盐酸，加热；3.向上排空气法收集；4.多余Cl2用NaOH吸收；5.规范处理残液。",
+        "phenomenon": "产生黄绿色气体；集气瓶逐渐呈黄绿色。",
+        "conclusion": "可用MnO2与浓盐酸加热制Cl2；必须处理尾气。",
+        "precautions": "浓盐酸过量与加热控制；全通风；尾气吸收不可缺失。",
+        "safetyNotes": "Cl2有毒；禁止家用；必须在通风橱由教师指导完成。",
+        "isHazardous": true,
+        "homeForbiddenNote": "危险气体实验禁止在家操作。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.Cl2_prep] 危险气体实验禁止家用"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "name": "氯气性质实验",
+        "category": "property",
+        "purpose": "观察氯气氧化性、与水/碱反应及漂白相关现象（教师演示为主）。",
+        "principle": "Cl2具强氧化性；Cl2+H2O⇌HCl+HClO；Cl2+2NaOH=NaCl+NaClO+H2O；湿润氯气漂白实质为HClO。",
+        "instruments": "集气瓶、胶头滴管、有色布条、试管等",
+        "reagents": "氯气、水、NaOH溶液、干燥/湿润有色布条、淀粉KI试纸等",
+        "steps": "1.对比干燥与湿润有色布条在Cl2中的现象；2.氯水滴加指示剂或观察颜色；3.Cl2通入NaOH观察气体吸收；4.湿润淀粉KI试纸检验（按教材）。",
+        "phenomenon": "湿润布条褪色、干燥布条通常不褪色（或褪色不明显）；氯水浅黄绿；通入碱液气体被吸收；淀粉KI试纸变蓝。",
+        "conclusion": "氯气氧化性强；漂白与HClO相关；可与碱反应。",
+        "precautions": "用量少；通风；区分现象与结论。",
+        "safetyNotes": "有毒气体；禁止家用。",
+        "isHazardous": true,
+        "homeForbiddenNote": "危险气体实验禁止在家操作。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.Cl2_property] 危险气体实验禁止家用"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "name": "氯化氢/盐酸相关实验",
+        "category": "gas_prep",
+        "purpose": "认识HCl气体的制取思路、溶解性及与氨的白烟检验（按教材选取）。",
+        "principle": "浓硫酸与氯化钠加热可制HCl（了解）；HCl极易溶于水得盐酸；NH3+HCl=NH4Cl产生白烟。",
+        "instruments": "发生装置、导管、集气瓶或检验用品等",
+        "reagents": "NaCl、浓硫酸（若制取）、浓氨水、蒸馏水、指示剂等",
+        "steps": "1.若做白烟检验：浓盐酸与浓氨水靠近观察白烟；2.盐酸性质：石蕊变红、与活泼金属等（按教材）；3.注意防倒吸与腐蚀。",
+        "phenomenon": "白烟；盐酸使石蕊变红；与活泼金属有气泡等。",
+        "conclusion": "HCl与NH3可生成NH4Cl；盐酸具强酸通性。",
+        "precautions": "浓酸腐蚀；气体实验防倒吸。",
+        "safetyNotes": "刺激性/腐蚀性；禁止家用危险操作。",
+        "isHazardous": true,
+        "homeForbiddenNote": "危险实验禁止在家操作。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.HCl_prep] 危险气体实验禁止家用"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "name": "二氧化硫漂白与还原性",
+        "category": "property",
+        "purpose": "观察SO2使品红褪色及加热恢复，并认识其还原性表现（与Cl2漂白对比）。",
+        "principle": "SO2漂白：与有色物质生成不稳定无色物质，加热可恢复。还原性：可使某些氧化剂褪色（如酸性KMnO4，了解/题设）。与HClO漂白不可逆不同。",
+        "instruments": "试管、导管、酒精灯、品红溶液等",
+        "reagents": "SO2（现制或通入）、品红溶液、酸性KMnO4（可选了解）",
+        "steps": "1.SO2通入品红，观察褪色；2.加热褪色后的溶液，观察是否恢复；3.可选：通入酸性KMnO4观察褪色（了解）；4.尾气吸收处理。",
+        "phenomenon": "品红褪色；加热后红色可恢复；KMnO4可褪色（若做）。",
+        "conclusion": "SO2具漂白性（可逆恢复）和还原性；与次氯酸漂白不同。",
+        "precautions": "SO2有毒，通风；尾气处理。",
+        "safetyNotes": "有毒气体；禁止家用。",
+        "isHazardous": true,
+        "homeForbiddenNote": "危险气体实验禁止在家操作。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.SO2_property] 危险气体实验禁止家用"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "name": "氨的实验室制法与喷泉",
+        "category": "gas_prep",
+        "purpose": "学习铵盐与碱共热制氨，并认识氨极易溶于水的喷泉实验原理。",
+        "principle": "NH4Cl+NaOH=△=NaCl+NH3↑+H2O；氨密度比空气小，向下排空气法收集；喷泉体现极易溶于水且水溶液显碱性。",
+        "instruments": "大试管、酒精灯、导管、圆底烧瓶、胶头滴管、水槽等",
+        "reagents": "NH4Cl、Ca(OH)2或NaOH、酚酞、水",
+        "steps": "1.铵盐与碱混匀加热制NH3；2.向下排空气法收集；3.湿润红色石蕊试纸检验；4.喷泉：烧瓶充满NH3，滴管挤入水，打开止水夹形成喷泉，酚酞变红。",
+        "phenomenon": "刺激性气味；石蕊试纸变蓝；喷泉，溶液变红。",
+        "conclusion": "可用铵盐与碱制NH3；氨极易溶于水，水溶液显碱性。",
+        "precautions": "防倒吸；加热均匀；收集方法正确。",
+        "safetyNotes": "刺激性气体；教师指导；禁止家用。",
+        "isHazardous": true,
+        "homeForbiddenNote": "危险实验禁止在家操作。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.NH3_prep] 危险气体实验禁止家用"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "name": "硝酸与铜反应对比",
+        "category": "property",
+        "purpose": "对比稀硝酸与浓硝酸和铜反应的产物气体差异（教师演示）。",
+        "principle": "稀：3Cu+8HNO3=3Cu(NO3)2+2NO↑+4H2O；浓：Cu+4HNO3=Cu(NO3)2+2NO2↑+2H2O。条件不同产物不同。",
+        "instruments": "试管、导管、通风橱等",
+        "reagents": "铜片、稀硝酸、浓硝酸",
+        "steps": "1.通风橱中分别进行稀/浓硝酸与铜反应；2.观察气体颜色与溶液颜色；3.稀硝酸产生的NO遇空气变红棕；4.规范处理废液尾气。",
+        "phenomenon": "稀硝酸：无色气体遇空气变红棕，溶液变蓝；浓硝酸：立即大量红棕色气体，溶液变蓝。",
+        "conclusion": "浓稀硝酸氧化产物气态氮氧化物不同，必须分条件书写。",
+        "precautions": "氮氧化物有毒；用量少；通风。",
+        "safetyNotes": "强腐蚀与有毒气体；禁止家用。",
+        "isHazardous": true,
+        "homeForbiddenNote": "危险实验禁止在家操作。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.HNO3_Cu] 危险气体实验禁止家用"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "name": "二氧化碳性质与检验",
+        "category": "property",
+        "purpose": "检验CO2并使澄清石灰水变浑浊，认识不支持燃烧等性质（镁等例外另述）。",
+        "principle": "CO2+Ca(OH)2=CaCO3↓+H2O；一般不燃烧也不支持燃烧（镁等例外见金属章）。",
+        "instruments": "集气瓶、导管、火柴、澄清石灰水等",
+        "reagents": "CO2（大理石与稀盐酸制取）、澄清石灰水",
+        "steps": "1.制取并收集CO2；2.通入澄清石灰水观察浑浊；3.燃烧着的木条伸入集气瓶观察熄灭；4.与SO2区分时结合漂白等题设。",
+        "phenomenon": "石灰水变浑浊；木条熄灭。",
+        "conclusion": "可用澄清石灰水检验CO2；一般不支持燃烧。",
+        "precautions": "制取防倒吸；废液处理。",
+        "safetyNotes": "高浓度窒息；实验室规范操作。",
+        "isHazardous": false,
+        "homeForbiddenNote": "建议在教师指导下完成；勿使用不明化学品。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.CO2_property] 危险气体实验禁止家用"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "name": "二氧化硅与玻璃仪器腐蚀警示",
+        "category": "safety",
+        "purpose": "认识玻璃含SiO2，热的强碱溶液可腐蚀玻璃，强化仪器使用安全。",
+        "principle": "SiO2+2NaOH=Na2SiO3+H2O；长期盛放碱液会腐蚀玻璃磨口等。",
+        "instruments": "玻璃仪器（展示说明为主）",
+        "reagents": "NaOH溶液（教师说明，不必真实长时间腐蚀演示）",
+        "steps": "1.讲解玻璃成分含SiO2；2.写出与NaOH反应方程式；3.强调碱液不宜长期存放于玻璃试剂瓶磨口；4.讨论塑料瓶等替代（了解）。",
+        "phenomenon": "本实验以讲解警示为主；若观察长期存放碱液的瓶塞黏结等现象按实物说明。",
+        "conclusion": "SiO2显酸性氧化物性质；使用强碱需注意保护玻璃仪器。",
+        "precautions": "勿为“看腐蚀”故意损坏仪器。",
+        "safetyNotes": "碱腐蚀皮肤；规范取用。",
+        "isHazardous": false,
+        "homeForbiddenNote": "安全教育内容；勿自行用强碱破坏器皿。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.SiO2_glass] 危险气体实验禁止家用"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch4",
+    "pack": "B4-C",
+    "inventoryCodes": [
+      "exp.Cl2_prep",
+      "exp.Cl2_property",
+      "exp.HCl_prep",
+      "exp.SO2_property",
+      "exp.NH3_prep",
+      "exp.HNO3_Cu",
+      "exp.CO2_property",
+      "exp.SiO2_glass"
+    ],
+    "specialtyByCode": {
+      "exp.Cl2_prep": [
+        "experiment",
+        "substance"
+      ],
+      "exp.Cl2_property": [
+        "experiment",
+        "substance"
+      ],
+      "exp.HCl_prep": [
+        "experiment",
+        "substance"
+      ],
+      "exp.SO2_property": [
+        "experiment",
+        "substance"
+      ],
+      "exp.NH3_prep": [
+        "experiment",
+        "substance"
+      ],
+      "exp.HNO3_Cu": [
+        "experiment",
+        "substance"
+      ],
+      "exp.CO2_property": [
+        "experiment",
+        "substance"
+      ],
+      "exp.SiO2_glass": [
+        "experiment",
+        "substance"
+      ]
+    },
+    "categoryByCode": {
+      "exp.Cl2_prep": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "exp.Cl2_property": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "exp.HCl_prep": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "exp.SO2_property": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "exp.NH3_prep": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "exp.HNO3_Cu": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "exp.CO2_property": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ],
+      "exp.SiO2_glass": [
+        "experiment.gas_prep",
+        "experiment.substance_test",
+        "experiment.safety"
+      ]
+    }
+  }
+}

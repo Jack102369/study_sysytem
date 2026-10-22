@@ -1,0 +1,5200 @@
+[
+  {
+    "id": "S60.calculation.01",
+    "sourceModelId": "ADV.calculation.001",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "amount"
+    ],
+    "knowledgePoints": [
+      "n=m/M",
+      "N=n·NA"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "取 9.0 g H₂O（摩尔质量 18 g·mol⁻¹）。关于其中水分子数目与氢原子数目，下列说法正确的是（NA 表示阿伏加德罗常数的值）",
+    "options": [
+      {
+        "key": "A",
+        "text": "水分子数为 0.5NA，氢原子数为 NA"
+      },
+      {
+        "key": "B",
+        "text": "水分子数为 NA，氢原子数为 0.5NA"
+      },
+      {
+        "key": "C",
+        "text": "水分子数为 0.5NA，氢原子数为 0.5NA"
+      },
+      {
+        "key": "D",
+        "text": "水分子数为 9NA，氢原子数为 18NA"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "先求 n(H₂O)，再分别求分子数与原子数",
+    "conditionAnalysis": [
+      "9.0 g 与 M=18 用于求 n",
+      "一分子 H₂O 含 2 个 H 原子"
+    ],
+    "steps": [
+      "n(H₂O)=9.0/18=0.5 mol",
+      "水分子数=0.5NA",
+      "氢原子数=0.5×2×NA=NA"
+    ],
+    "coreMethod": "物质的量桥梁：先 n 再分支求微粒数",
+    "commonMistakes": [
+      "把氢原子数当成与分子数相同",
+      "用 9 直接乘 NA"
+    ],
+    "similarFeatures": [
+      "给质量求分子/原子数",
+      "注意化学式中原子个数"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "two_step_amount",
+      "particle_count"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "n=0.5 mol，分子 0.5NA，H 原子 NA",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "分子数与原子数颠倒且分子数算错",
+        "possibleWrongThinking": "可能把 9/18 算成 1，或把原子数公式用反"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "忽略每分子含 2 个 H",
+        "possibleWrongThinking": "未乘化学式中 H 的个数"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "未先求 n，直接用质量数值乘 NA",
+        "possibleWrongThinking": "混淆质量数值与物质的量"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.02",
+    "sourceModelId": "ADV.calculation.002",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "amount"
+    ],
+    "knowledgePoints": [
+      "方程式计量",
+      "n=m/M"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应：2H₂ + O₂ = 2H₂O。若有 3.0 g H₂（M=2 g·mol⁻¹）与足量 O₂ 完全反应，理论上生成水的质量为",
+    "options": [
+      {
+        "key": "A",
+        "text": "13.5 g"
+      },
+      {
+        "key": "B",
+        "text": "27 g"
+      },
+      {
+        "key": "C",
+        "text": "54 g"
+      },
+      {
+        "key": "D",
+        "text": "3.0 g"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "H₂→n→按计量比得 H₂O 的 n→质量",
+    "conditionAnalysis": [
+      "足量 O₂ 说明以 H₂ 为限制反应物",
+      "计量数 2H₂～2H₂O"
+    ],
+    "steps": [
+      "n(H₂)=3/2=1.5 mol",
+      "n(H₂O)=1.5 mol",
+      "m=1.5×18=27 g"
+    ],
+    "coreMethod": "物质的量桥梁 + 计量比",
+    "commonMistakes": [
+      "按质量 1:1 得 3 g",
+      "系数用成 2H₂～H₂O 得 13.5 g"
+    ],
+    "similarFeatures": [
+      "已知一反应物求产物质量",
+      "足量另一方"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "equation_stoich",
+      "two_step"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "相当于 n(H₂O)=0.75，计量比用错",
+        "possibleWrongThinking": "把 2H₂～2H₂O 误当成 2H₂～H₂O"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "1.5 mol 水对应 27 g",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "把 n(H₂) 算成 3 mol 或 M 用错",
+        "possibleWrongThinking": "用 M(H₂)=1 或未除以 2"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "质量比当物质的量比",
+        "possibleWrongThinking": "认为生成水质量等于氢气质量"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.03",
+    "sourceModelId": "ADV.calculation.002",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "amount"
+    ],
+    "knowledgePoints": [
+      "纯度",
+      "方程式计量"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "含杂质的锌粒样品 13.0 g，其中 Zn 的质量分数为 80%（杂质不与酸反应）。与足量稀硫酸完全反应：Zn + H₂SO₄ = ZnSO₄ + H₂↑。标准状况下生成 H₂ 的体积约为（Vm=22.4 L·mol⁻¹，M(Zn)=65 g·mol⁻¹）",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.24 L"
+      },
+      {
+        "key": "B",
+        "text": "3.58 L"
+      },
+      {
+        "key": "C",
+        "text": "4.48 L"
+      },
+      {
+        "key": "D",
+        "text": "1.79 L"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "先算有效 Zn 质量，再求 n(H₂)=n(Zn)，最后 V=n·Vm",
+    "conditionAnalysis": [
+      "80% 用于求有效质量",
+      "足量酸→Zn 限制",
+      "标况 Vm 可用"
+    ],
+    "steps": [
+      "m(Zn)=13.0×0.80=10.4 g",
+      "n(Zn)=10.4/65=0.16 mol",
+      "n(H₂)=0.16 mol",
+      "V=0.16×22.4=3.584 L≈3.58 L"
+    ],
+    "coreMethod": "纯度处理 + 计量 + 气体体积",
+    "commonMistakes": [
+      "用 13 g 直接算得 4.48 L",
+      "忘记×0.8 得到更大体积"
+    ],
+    "similarFeatures": [
+      "纯度→有效量→气体体积"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "purity",
+      "gas_volume",
+      "multi_step"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "相当于 0.1 mol H₂",
+        "possibleWrongThinking": "用错 Zn 质量或摩尔质量"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "0.16×22.4≈3.58",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "用全部 13 g：13/65=0.2，0.2×22.4=4.48",
+        "possibleWrongThinking": "忽略纯度，把样品全当 Zn"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "约为正确答案一半",
+        "possibleWrongThinking": "误用 1:2 计量或 Vm 用 11.2"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.04",
+    "sourceModelId": "ADV.calculation.003",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "amount"
+    ],
+    "knowledgePoints": [
+      "过量判断",
+      "方程式计量"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应 2H₂ + O₂ = 2H₂O。将 2.0 g H₂ 与 16 g O₂ 混合点燃至完全（M(H₂)=2，M(O₂)=32）。生成水的质量为",
+    "options": [
+      {
+        "key": "A",
+        "text": "18 g"
+      },
+      {
+        "key": "B",
+        "text": "36 g"
+      },
+      {
+        "key": "C",
+        "text": "9 g"
+      },
+      {
+        "key": "D",
+        "text": "16 g"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "先比较谁过量，再用不足量计算",
+    "conditionAnalysis": [
+      "两反应物都给定量",
+      "必须判断限制反应物"
+    ],
+    "steps": [
+      "n(H₂)=1.0 mol，n(O₂)=0.5 mol",
+      "按 2H₂～O₂，1 mol H₂ 需 0.5 mol O₂，恰好完全",
+      "n(H₂O)=1.0 mol，m=18 g"
+    ],
+    "coreMethod": "过量判断（本题恰好）",
+    "commonMistakes": [
+      "只用 H₂ 却把计量搞错得 36 g",
+      "只用 O₂ 质量当水"
+    ],
+    "similarFeatures": [
+      "双给定量必须先判断"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "excess_check",
+      "stoich"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "恰好完全，生成 1 mol 水",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "按 2 mol 水计算",
+        "possibleWrongThinking": "把 n(H₂) 当成 2 mol 或系数用错"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "半量水",
+        "possibleWrongThinking": "误判某方过量并算半"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "用 O₂ 质量充数",
+        "possibleWrongThinking": "未进行计量换算"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.05",
+    "sourceModelId": "ADV.calculation.003",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "amount"
+    ],
+    "knowledgePoints": [
+      "过量判断",
+      "剩余量"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "反应 2H₂ + O₂ = 2H₂O。将 4.0 g H₂ 与 16 g O₂ 混合点燃至完全。反应后剩余气体的物质的量为",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1.0 mol"
+      },
+      {
+        "key": "C",
+        "text": "0.5 mol"
+      },
+      {
+        "key": "D",
+        "text": "2.0 mol"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "判断 O₂ 不足，再算剩余 H₂",
+    "conditionAnalysis": [
+      "求剩余而非产物",
+      "水为液态不计入剩余气体"
+    ],
+    "steps": [
+      "n(H₂)=2.0 mol，n(O₂)=0.5 mol",
+      "2H₂～O₂：0.5 mol O₂ 耗 1.0 mol H₂",
+      "剩余 H₂=2.0−1.0=1.0 mol"
+    ],
+    "coreMethod": "过量判断 + 求剩余",
+    "commonMistakes": [
+      "认为无剩余",
+      "剩余算成 O₂"
+    ],
+    "similarFeatures": [
+      "产物为液体时剩余气体=过量反应物"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "excess",
+      "remainder",
+      "multi_step"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "并非恰好",
+        "possibleWrongThinking": "未做过量判断"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "剩余 H₂ 1 mol",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "把剩余当成 O₂ 或算错耗量",
+        "possibleWrongThinking": "误判 H₂ 不足"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "把初始 H₂ 全当剩余",
+        "possibleWrongThinking": "认为 O₂ 未反应"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.06",
+    "sourceModelId": "ADV.calculation.004",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "concentration"
+    ],
+    "knowledgePoints": [
+      "c=n/V"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "将 0.25 mol NaCl 溶于水并定容至 500 mL，所得溶液的物质的量浓度为",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.25 mol·L⁻¹"
+      },
+      {
+        "key": "B",
+        "text": "0.50 mol·L⁻¹"
+      },
+      {
+        "key": "C",
+        "text": "0.125 mol·L⁻¹"
+      },
+      {
+        "key": "D",
+        "text": "2.0 mol·L⁻¹"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "体积必须换成升：500 mL=0.50 L",
+    "conditionAnalysis": [
+      "n=0.25 mol",
+      "V=0.50 L"
+    ],
+    "steps": [
+      "V=500 mL=0.50 L",
+      "c=n/V=0.25/0.50=0.50 mol·L⁻¹"
+    ],
+    "coreMethod": "浓度定义式 + 单位统一",
+    "commonMistakes": [
+      "用 500 不换算得 0.0005",
+      "用 0.25/0.25"
+    ],
+    "similarFeatures": [
+      "定容体积给 mL"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "concentration",
+      "unit_convert"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "相当于 V 当成 1 L",
+        "possibleWrongThinking": "忽略实际体积或当成 1 L"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "0.25/0.5=0.5",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "0.25/2",
+        "possibleWrongThinking": "体积单位换算错误（如当成 2 L）"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "0.25 除以 0.125 或颠倒",
+        "possibleWrongThinking": "公式写成 V/n"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.07",
+    "sourceModelId": "ADV.calculation.004",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "concentration"
+    ],
+    "knowledgePoints": [
+      "稀释守恒"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "将 50.0 mL 1.20 mol·L⁻¹ 的 NaOH 溶液加水稀释至 300 mL。稀释后溶液浓度为",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.20 mol·L⁻¹"
+      },
+      {
+        "key": "B",
+        "text": "0.40 mol·L⁻¹"
+      },
+      {
+        "key": "C",
+        "text": "0.60 mol·L⁻¹"
+      },
+      {
+        "key": "D",
+        "text": "1.20 mol·L⁻¹"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "稀释前后溶质 n 不变",
+    "conditionAnalysis": [
+      "稀前后 n=cV",
+      "V1=0.050 L，V2=0.300 L"
+    ],
+    "steps": [
+      "n=0.050×1.20=0.060 mol",
+      "c2=0.060/0.300=0.20 mol·L⁻¹"
+    ],
+    "coreMethod": "稀释守恒定律",
+    "commonMistakes": [
+      "按 1.20×50/300 以外错误算法",
+      "认为浓度不变"
+    ],
+    "similarFeatures": [
+      "稀溶液求新浓度"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "dilution",
+      "conservation"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "稀释 6 倍，1.20/6=0.20",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "相当于稀释 3 倍",
+        "possibleWrongThinking": "体积比用错（如用 150 mL）"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "减半",
+        "possibleWrongThinking": "只看到大约稀释一倍量级"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "认为加水不改变浓度",
+        "possibleWrongThinking": "混淆质量分数与物质的量浓度直觉"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.08",
+    "sourceModelId": "ADV.calculation.005",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "molar_volume"
+    ],
+    "knowledgePoints": [
+      "气体摩尔体积",
+      "适用条件"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "下列叙述正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "标准状况下，11.2 L N₂ 与 11.2 L O₂ 所含分子数一定相等"
+      },
+      {
+        "key": "B",
+        "text": "任何状况下，22.4 L 气体都是 1 mol"
+      },
+      {
+        "key": "C",
+        "text": "标准状况下，22.4 L 水所含分子数为 NA"
+      },
+      {
+        "key": "D",
+        "text": "非标准状况下绝不能用 V=n·Vm 估算"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "Vm≈22.4 仅对气体且需标明状况；同况同体积气体分子数相等",
+    "conditionAnalysis": [
+      "A 同为标况气体",
+      "C 水不是气体"
+    ],
+    "steps": [
+      "标况下同体积气体 n 相同，分子数相同→A 正确",
+      "B 缺少状况限制→错",
+      "C 水为液体→错"
+    ],
+    "coreMethod": "气体摩尔体积适用条件辨析",
+    "commonMistakes": [
+      "把液体水当气体用 22.4"
+    ],
+    "similarFeatures": [
+      "Vm 条件判断题"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "Vm_condition",
+      "concept_analysis"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "标况同体积气体物质的量相等",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "未限定标准状况（或同温同压）",
+        "possibleWrongThinking": "机械记忆 22.4 L=1 mol"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "水不是气体，不能用气体摩尔体积",
+        "possibleWrongThinking": "忽略“气体”前提"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "表述绝对化；非标况可用对应条件下的 Vm",
+        "possibleWrongThinking": "把“标况常用值”理解成“只有标况有 Vm”"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.09",
+    "sourceModelId": "ADV.calculation.005",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "molar_volume"
+    ],
+    "knowledgePoints": [
+      "V=n·Vm",
+      "n=m/M"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "标准状况下，16 g O₂（M=32 g·mol⁻¹）的体积约为",
+    "options": [
+      {
+        "key": "A",
+        "text": "5.6 L"
+      },
+      {
+        "key": "B",
+        "text": "11.2 L"
+      },
+      {
+        "key": "C",
+        "text": "22.4 L"
+      },
+      {
+        "key": "D",
+        "text": "32 L"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "先求 n 再 V=n·22.4",
+    "conditionAnalysis": [
+      "标明标准状况",
+      "O₂ 为气体"
+    ],
+    "steps": [
+      "n=16/32=0.5 mol",
+      "V=0.5×22.4=11.2 L"
+    ],
+    "coreMethod": "质量→n→体积",
+    "commonMistakes": [
+      "当成 1 mol 得 22.4 L"
+    ],
+    "similarFeatures": [
+      "标况气体体积计算"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "two_step",
+      "Vm"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "0.25 mol 对应体积",
+        "possibleWrongThinking": "n 算成 0.25"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "0.5×22.4=11.2",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "按 1 mol 计",
+        "possibleWrongThinking": "把 16 g 当成 1 mol O₂（误用 M=16）"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "用质量数值当体积",
+        "possibleWrongThinking": "未换算"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.10",
+    "sourceModelId": "ADV.calculation.006",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "amount"
+    ],
+    "knowledgePoints": [
+      "质量守恒"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "敞口容器中，碳酸钙与足量稀盐酸反应。反应前容器与试剂总质量 85.0 g，反应结束并静置后总质量 71.8 g（气体已逸出）。生成 CO₂ 的质量为",
+    "options": [
+      {
+        "key": "A",
+        "text": "13.2 g"
+      },
+      {
+        "key": "B",
+        "text": "22.4 g"
+      },
+      {
+        "key": "C",
+        "text": "44 g"
+      },
+      {
+        "key": "D",
+        "text": "85.0 g"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "逸出气体质量=反应前总质量−反应后总质量",
+    "conditionAnalysis": [
+      "足量酸保证碳酸钙反应完全相关讨论简化为质量差即 CO₂",
+      "无其他挥发假设"
+    ],
+    "steps": [
+      "逸出气体质量=反应前总质量−反应后总质量",
+      "m(CO₂)=85.0−71.8=13.2 g"
+    ],
+    "coreMethod": "质量守恒（体系质量差）",
+    "commonMistakes": [
+      "选 22.4 受摩尔体积干扰"
+    ],
+    "similarFeatures": [
+      "称量差求气体质量"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "mass_conservation"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "质量差 13.2 g",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "与计算无关的 Vm 数值",
+        "possibleWrongThinking": "看到气体就联想到 22.4"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "CO₂ 摩尔质量干扰",
+        "possibleWrongThinking": "直接填 M(CO₂)"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "未做差减",
+        "possibleWrongThinking": "把总质量当气体"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.11",
+    "sourceModelId": "ADV.calculation.006",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "amount",
+      "molar_volume"
+    ],
+    "knowledgePoints": [
+      "质量守恒",
+      "气体摩尔体积"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "上题若生成的 CO₂ 在标准状况下体积为 6.72 L，则与质量 13.2 g 是否一致？最合理的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "一致：n=13.2/44=0.30 mol，V=0.30×22.4=6.72 L"
+      },
+      {
+        "key": "B",
+        "text": "不一致，因为质量守恒与体积无关"
+      },
+      {
+        "key": "C",
+        "text": "一致：任意气体 6.72 L 都是 13.2 g"
+      },
+      {
+        "key": "D",
+        "text": "无法比较"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "用 M 求 n，再用 Vm 求 V 交叉检验",
+    "conditionAnalysis": [
+      "标况",
+      "CO₂ 的 M=44"
+    ],
+    "steps": [
+      "n=13.2/44=0.3 mol",
+      "V=0.3×22.4=6.72 L，一致"
+    ],
+    "coreMethod": "守恒结果与 Vm 交叉验证",
+    "commonMistakes": [
+      "认为任意气体同体积同质量"
+    ],
+    "similarFeatures": [
+      "双路径检验"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "cross_check",
+      "Vm",
+      "conservation"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "计算吻合",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "两者可通过 n 联系",
+        "possibleWrongThinking": "割裂质量与体积关系"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "不同气体同体积质量不同",
+        "possibleWrongThinking": "忽略摩尔质量差异"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "数据足够比较",
+        "possibleWrongThinking": "未尝试换算"
+      }
+    ]
+  },
+  {
+    "id": "S60.calculation.12",
+    "sourceModelId": "ADV.calculation.008",
+    "specialtyCode": "calculation",
+    "categoryCodes": [
+      "concentration"
+    ],
+    "knowledgePoints": [
+      "实验数据",
+      "c=n/V"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "配制溶液记录：空烧杯 36.20 g；加入 NaCl 后 42.05 g；溶解并定容至 250 mL。按纯净 NaCl 计（M=58.5 g·mol⁻¹），浓度最接近",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.100 mol·L⁻¹"
+      },
+      {
+        "key": "B",
+        "text": "0.400 mol·L⁻¹"
+      },
+      {
+        "key": "C",
+        "text": "0.234 mol·L⁻¹"
+      },
+      {
+        "key": "D",
+        "text": "1.00 mol·L⁻¹"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "先差减得溶质质量，再求 n 与 c",
+    "conditionAnalysis": [
+      "溶质=42.05−36.20=5.85 g",
+      "V=0.250 L"
+    ],
+    "steps": [
+      "m=5.85 g",
+      "n=5.85/58.5=0.100 mol",
+      "c=0.100/0.250=0.400 mol·L⁻¹"
+    ],
+    "coreMethod": "实验数据差减 + 浓度定义",
+    "commonMistakes": [
+      "用 42.05 g 当溶质",
+      "体积未换升"
+    ],
+    "similarFeatures": [
+      "称量数据求浓度"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "data_table",
+      "multi_step",
+      "concentration"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "只算到 n 未除以体积",
+        "possibleWrongThinking": "把 n 当成 c"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "差减后计算正确",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "用 42.05 或错误差减",
+        "possibleWrongThinking": "未扣空杯或算错"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "数量级错误",
+        "possibleWrongThinking": "体积用 0.1 L 等"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.01",
+    "sourceModelId": "ADV.redox.001",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "identify"
+    ],
+    "knowledgePoints": [
+      "化合价",
+      "氧化还原定义"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应：2Mg + O₂ = 2MgO。下列分析正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mg 化合价升高被氧化，O 化合价降低被还原，属于氧化还原反应"
+      },
+      {
+        "key": "B",
+        "text": "没有化合价变化，不属于氧化还原反应"
+      },
+      {
+        "key": "C",
+        "text": "只有 Mg 被还原"
+      },
+      {
+        "key": "D",
+        "text": "O₂ 作还原剂"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "先标价：Mg 0→+2，O 0→−2",
+    "conditionAnalysis": [
+      "单质到化合物必有价变"
+    ],
+    "steps": [
+      "Mg 升高失电子被氧化",
+      "O 降低得电子被还原",
+      "有升降即氧化还原"
+    ],
+    "coreMethod": "化合价升降法",
+    "commonMistakes": [
+      "认为化合反应不是氧化还原"
+    ],
+    "similarFeatures": [
+      "标价后判断类型"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "valence_analysis",
+      "two_step"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "价变分析正确",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "忽略价变",
+        "possibleWrongThinking": "只看反应类型名称"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "Mg 被氧化不是还原",
+        "possibleWrongThinking": "氧化/还原术语颠倒"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "O₂ 得电子是氧化剂",
+        "possibleWrongThinking": "氧化剂还原剂混淆"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.02",
+    "sourceModelId": "ADV.redox.001",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "identify"
+    ],
+    "knowledgePoints": [
+      "非氧化还原",
+      "复分解"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应：NaOH + HCl = NaCl + H₂O。正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "各元素化合价均未变化，不属于氧化还原反应"
+      },
+      {
+        "key": "B",
+        "text": "H 化合价变化，属于氧化还原反应"
+      },
+      {
+        "key": "C",
+        "text": "Cl 被氧化"
+      },
+      {
+        "key": "D",
+        "text": "Na 作还原剂"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "逐一核对 Na、O、H、Cl 化合价",
+    "conditionAnalysis": [
+      "复分解常见无价变"
+    ],
+    "steps": [
+      "Na 均为+1，Cl 均为−1，H 在酸与水中为+1，O 为−2",
+      "无升降→非氧化还原"
+    ],
+    "coreMethod": "标价排除法",
+    "commonMistakes": [
+      "看到有 H 就认为氧化还原"
+    ],
+    "similarFeatures": [
+      "区分复分解与氧化还原"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "valence_check",
+      "classification"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "无价变",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "H 价态未变",
+        "possibleWrongThinking": "误以为生成水必有价变"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "Cl 价态未变",
+        "possibleWrongThinking": "随意指定被氧化元素"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "非氧化还原无还原剂",
+        "possibleWrongThinking": "机械套用还原剂概念"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.03",
+    "sourceModelId": "ADV.redox.002",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "oxidant",
+      "reductant"
+    ],
+    "knowledgePoints": [
+      "氧化剂",
+      "还原剂"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应：2Na + Cl₂ = 2NaCl。氧化剂与还原剂分别是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cl₂、Na"
+      },
+      {
+        "key": "B",
+        "text": "Na、Cl₂"
+      },
+      {
+        "key": "C",
+        "text": "NaCl、Na"
+      },
+      {
+        "key": "D",
+        "text": "Cl₂、NaCl"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "降价得电子→氧化剂；升价失电子→还原剂",
+    "conditionAnalysis": [
+      "Cl 0→−1，Na 0→+1"
+    ],
+    "steps": [
+      "Cl₂ 降价为氧化剂",
+      "Na 升价为还原剂"
+    ],
+    "coreMethod": "价态定位氧化剂还原剂",
+    "commonMistakes": [
+      "颠倒二者"
+    ],
+    "similarFeatures": [
+      "问试剂角色"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "oxidant_reductant",
+      "two_step"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "氧化剂 Cl₂，还原剂 Na",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "二者颠倒",
+        "possibleWrongThinking": "记反定义"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "产物不是氧化剂",
+        "possibleWrongThinking": "把产物当试剂"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "还原剂应为 Na",
+        "possibleWrongThinking": "半对半错"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.04",
+    "sourceModelId": "ADV.redox.007",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "oxidant",
+      "reductant"
+    ],
+    "knowledgePoints": [
+      "氧化产物",
+      "还原产物"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应：2Na + Cl₂ = 2NaCl。下列说法正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "NaCl 既是氧化产物也是还原产物"
+      },
+      {
+        "key": "B",
+        "text": "氧化产物是 Cl₂"
+      },
+      {
+        "key": "C",
+        "text": "还原产物是 Na"
+      },
+      {
+        "key": "D",
+        "text": "没有氧化产物"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "还原剂对应氧化产物，氧化剂对应还原产物；同一产物可身兼两职（不同元素角度）",
+    "conditionAnalysis": [
+      "Na→Na⁺（氧化产物来自还原剂）",
+      "Cl₂→Cl⁻（还原产物来自氧化剂）",
+      "均存在于 NaCl"
+    ],
+    "steps": [
+      "Na 被氧化生成 NaCl 中的钠部分→氧化产物",
+      "Cl₂ 被还原生成 NaCl 中的氯部分→还原产物",
+      "故 NaCl 既是氧化产物也是还原产物"
+    ],
+    "coreMethod": "角色-产物对应",
+    "commonMistakes": [
+      "认为一种物质不能同时是两种产物"
+    ],
+    "similarFeatures": [
+      "产物归属辨析"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "product_role",
+      "analysis"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "同一化合物中不同元素分别对应氧化/还原产物",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "Cl₂ 是反应物氧化剂",
+        "possibleWrongThinking": "把氧化剂当氧化产物"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "Na 是还原剂",
+        "possibleWrongThinking": "术语混淆"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "存在价变必有产物归属",
+        "possibleWrongThinking": "概念缺失"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.05",
+    "sourceModelId": "ADV.redox.003",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "e_conserve"
+    ],
+    "knowledgePoints": [
+      "电子转移"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应：2Al + 3Cl₂ = 2AlCl₃（Al 0→+3，Cl 0→−1）。按方程式计量，转移电子的物质的量为",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 mol"
+      },
+      {
+        "key": "B",
+        "text": "3 mol"
+      },
+      {
+        "key": "C",
+        "text": "6 mol"
+      },
+      {
+        "key": "D",
+        "text": "1 mol"
+      }
+    ],
+    "answer": "C",
+    "breakthrough": "2 mol Al 各失 3e⁻，共失 6e⁻；与 Cl 侧守恒",
+    "conditionAnalysis": [
+      "用系数×价变"
+    ],
+    "steps": [
+      "Al：2×3=6 mol e⁻",
+      "Cl：3×2×1=6 mol e⁻",
+      "转移 6 mol"
+    ],
+    "coreMethod": "价变×系数 + 电子守恒核对",
+    "commonMistakes": [
+      "只算 3 或 2，忘记乘系数"
+    ],
+    "similarFeatures": [
+      "求转移电子总数"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "electron_count",
+      "conservation_check"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "只看 Al 系数",
+        "possibleWrongThinking": "未乘价变"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "只看 Cl₂ 系数",
+        "possibleWrongThinking": "未乘每个 Cl₂ 得 2e"
+      },
+      {
+        "key": "C",
+        "verdict": "correct",
+        "reason": "两侧均为 6",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "未乘系数与价变",
+        "possibleWrongThinking": "只看单价变"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.06",
+    "sourceModelId": "ADV.redox.003",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "e_conserve"
+    ],
+    "knowledgePoints": [
+      "电子转移",
+      "计量缩放"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "同上反应 2Al + 3Cl₂ = 2AlCl₃。若消耗 1.5 mol Cl₂ 且完全反应，转移电子的物质的量为",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.5 mol"
+      },
+      {
+        "key": "B",
+        "text": "3.0 mol"
+      },
+      {
+        "key": "C",
+        "text": "6.0 mol"
+      },
+      {
+        "key": "D",
+        "text": "0.5 mol"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "方程式中 3 mol Cl₂ 对应 6 mol e⁻，按比例缩放",
+    "conditionAnalysis": [
+      "以 Cl₂ 为已知量缩放"
+    ],
+    "steps": [
+      "3 mol Cl₂ ↔ 6 mol e⁻",
+      "1.5 mol Cl₂ ↔ 3.0 mol e⁻"
+    ],
+    "coreMethod": "电子转移随计量比例缩放",
+    "commonMistakes": [
+      "仍答 6 mol",
+      "按 1.5 直接当电子数"
+    ],
+    "similarFeatures": [
+      "非方程式整系数时的电子数"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "electron_scale",
+      "multi_step"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "未按 1:2（Cl₂:e）关系",
+        "possibleWrongThinking": "电子数等于 Cl₂ 物质的量"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "1.5×2=3",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "未缩放",
+        "possibleWrongThinking": "直接用方程式电子总数"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "比例算反",
+        "possibleWrongThinking": "除以 3 再处理错误"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.07",
+    "sourceModelId": "ADV.redox.004",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "e_conserve"
+    ],
+    "knowledgePoints": [
+      "电子守恒",
+      "系数比"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "某氧化还原反应中，元素 R 由 +2→+4，元素 T 由 +7→+2。若只有这两种元素价变，则 R、T 原子个数比最合理的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "5:2"
+      },
+      {
+        "key": "B",
+        "text": "2:5"
+      },
+      {
+        "key": "C",
+        "text": "1:1"
+      },
+      {
+        "key": "D",
+        "text": "5:1"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "R 失 2e，T 得 5e，令 2x=5y",
+    "conditionAnalysis": [
+      "只这两种元素价变"
+    ],
+    "steps": [
+      "失电子：2×n(R)",
+      "得电子：5×n(T)",
+      "2n(R)=5n(T)→n(R):n(T)=5:2"
+    ],
+    "coreMethod": "电子守恒定系数比",
+    "commonMistakes": [
+      "比倒置成 2:5"
+    ],
+    "similarFeatures": [
+      "抽象价变求原子比"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "e_balance_ratio"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "2×5=5×2",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "比颠倒",
+        "possibleWrongThinking": "把得失对应元素搞反"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "未守恒",
+        "possibleWrongThinking": "忽略电子数差异"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "未正确列式",
+        "possibleWrongThinking": "只用 T 得 5e 当分子"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.08",
+    "sourceModelId": "ADV.redox.004",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "e_conserve"
+    ],
+    "knowledgePoints": [
+      "电子守恒"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "配平思想：MnO₂ 与浓盐酸反应生成 MnCl₂、Cl₂ 和 H₂O（Mn:+4→+2；部分 Cl:−1→0）。若生成 1 mol Cl₂，则被氧化的 Cl⁻ 为",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 mol"
+      },
+      {
+        "key": "B",
+        "text": "2 mol"
+      },
+      {
+        "key": "C",
+        "text": "4 mol"
+      },
+      {
+        "key": "D",
+        "text": "0.5 mol"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "生成 1 mol Cl₂ 对应 2 mol Cl⁻ 被氧化（各失 1e）",
+    "conditionAnalysis": [
+      "Cl₂ 来自被氧化的 Cl⁻",
+      "不必先写出完整配平也能用电子守恒"
+    ],
+    "steps": [
+      "Cl₂ 中 2 个 Cl 均由 −1→0",
+      "生成 1 mol Cl₂ 需 2 mol Cl⁻ 被氧化"
+    ],
+    "coreMethod": "从产物反推被氧化微粒数",
+    "commonMistakes": [
+      "答 1 mol",
+      "与 Mn 电子数混淆"
+    ],
+    "similarFeatures": [
+      "实验室制氯气相关电子关系"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "lab_redox",
+      "electron_from_product"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "忽略 Cl₂ 含 2 个 Cl",
+        "possibleWrongThinking": "一分子一电子粗略对应"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "2 mol Cl⁻→1 mol Cl₂",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "与 Mn 得 2e 的倍数关系误用到 Cl",
+        "possibleWrongThinking": "把 Mn 与 Cl 电子数搅在一起"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "比例算反",
+        "possibleWrongThinking": "除以 2 错误"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.09",
+    "sourceModelId": "ADV.redox.002",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "oxidant"
+    ],
+    "knowledgePoints": [
+      "氧化剂",
+      "还原剂",
+      "双角色"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "反应：Cl₂ + 2NaOH = NaCl + NaClO + H₂O（部分 Cl 升价、部分 Cl 降价）。下列正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cl₂ 既是氧化剂又是还原剂"
+      },
+      {
+        "key": "B",
+        "text": "只有 NaOH 是还原剂"
+      },
+      {
+        "key": "C",
+        "text": "该反应不是氧化还原反应"
+      },
+      {
+        "key": "D",
+        "text": "NaClO 中 Cl 化合价低于 NaCl 中 Cl"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "同一反应物中元素既升又降→该物质既是氧化剂又是还原剂",
+    "conditionAnalysis": [
+      "歧化反应特征",
+      "必修可接受的氯气与碱反应"
+    ],
+    "steps": [
+      "Cl₂ 中部分 Cl→Cl⁻（降价）",
+      "部分 Cl→ClO⁻（升价）",
+      "故 Cl₂ 双重角色"
+    ],
+    "coreMethod": "歧化反应角色判断",
+    "commonMistakes": [
+      "认为一种物质不能身兼两职"
+    ],
+    "similarFeatures": [
+      "歧化反应"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "disproportionation",
+      "dual_role"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "歧化",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "Na、O、H 价态通常不变，还原剂是升价部分的氯",
+        "possibleWrongThinking": "把碱当成还原剂"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "有价变",
+        "possibleWrongThinking": "未标价"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "ClO⁻ 中 Cl 为+1，高于 NaCl 中 −1",
+        "possibleWrongThinking": "价态高低记反"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.10",
+    "sourceModelId": "ADV.redox.001",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "identify"
+    ],
+    "knowledgePoints": [
+      "氧化还原识别"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "下列反应中，属于氧化还原反应的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "2KClO₃ =[MnO₂]=> 2KCl + 3O₂↑"
+      },
+      {
+        "key": "B",
+        "text": "CaCO₃ =高温=> CaO + CO₂↑"
+      },
+      {
+        "key": "C",
+        "text": "Na₂CO₃ + 2HCl = 2NaCl + H₂O + CO₂↑"
+      },
+      {
+        "key": "D",
+        "text": "BaCl₂ + Na₂SO₄ = BaSO₄↓ + 2NaCl"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "找出有化合价变化的反应",
+    "conditionAnalysis": [
+      "A 中 Cl、O 价变",
+      "其余为分解/复分解常见无价变"
+    ],
+    "steps": [
+      "A：Cl +5→−1，O −2→0",
+      "B、C、D 无价变"
+    ],
+    "coreMethod": "对比筛选",
+    "commonMistakes": [
+      "把所有分解反应当氧化还原"
+    ],
+    "similarFeatures": [
+      "四选一识别"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "identify_among_options"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "有价变",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "无价变",
+        "possibleWrongThinking": "见分解就选"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "无价变",
+        "possibleWrongThinking": "见气体就选"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "复分解无价变",
+        "possibleWrongThinking": "见沉淀就选"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.11",
+    "sourceModelId": "ADV.redox.007",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "reductant"
+    ],
+    "knowledgePoints": [
+      "还原剂",
+      "被氧化"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应：C + O₂ = CO₂。关于碳元素，正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "化合价升高，碳被氧化，碳作还原剂"
+      },
+      {
+        "key": "B",
+        "text": "化合价降低，碳被还原"
+      },
+      {
+        "key": "C",
+        "text": "碳作氧化剂"
+      },
+      {
+        "key": "D",
+        "text": "碳既不被氧化也不被还原"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "C 0→+4 升高",
+    "conditionAnalysis": [
+      "燃烧氧化"
+    ],
+    "steps": [
+      "碳失电子被氧化",
+      "作还原剂"
+    ],
+    "coreMethod": "价变→角色",
+    "commonMistakes": [
+      "说碳是氧化剂"
+    ],
+    "similarFeatures": [
+      "单质燃烧分析"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "role_from_valence"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "升价→还原剂",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "价变方向错",
+        "possibleWrongThinking": "升降记反"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "氧化剂是 O₂",
+        "possibleWrongThinking": "角色颠倒"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "有价变",
+        "possibleWrongThinking": "未标价"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.12",
+    "sourceModelId": "ADV.redox.003",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "e_conserve"
+    ],
+    "knowledgePoints": [
+      "电子转移",
+      "过量"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "反应：2Na + Cl₂ = 2NaCl。将 2.3 g Na（M=23）与 3.55 g Cl₂（M=71）混合使其反应。关于电子转移，正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "转移电子 0.10 mol（以不足量 Na 计）"
+      },
+      {
+        "key": "B",
+        "text": "转移电子 0.20 mol"
+      },
+      {
+        "key": "C",
+        "text": "转移电子 0.05 mol"
+      },
+      {
+        "key": "D",
+        "text": "无法判断，因为未配平"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "先过量判断，再用限制反应物求电子",
+    "conditionAnalysis": [
+      "n(Na)=0.10 mol，n(Cl₂)=0.05 mol",
+      "2Na～Cl₂：0.10 mol Na 需 0.05 mol Cl₂，恰好",
+      "每 2 mol Na 转移 2 mol e⁻→0.10 mol Na 转移 0.10 mol e⁻"
+    ],
+    "steps": [
+      "恰好完全",
+      "0.10 mol Na 失 0.10 mol e⁻"
+    ],
+    "coreMethod": "过量判断 + 电子计量",
+    "commonMistakes": [
+      "按 Cl₂ 算成 0.10 却选错口径",
+      "认为未配平不能算"
+    ],
+    "similarFeatures": [
+      "量给全时电子数"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "excess_then_electron",
+      "challenge_combine"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "0.10 mol e⁻",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "电子数加倍",
+        "possibleWrongThinking": "把 Na 失电子算成每人 2e 或重复计算"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "减半",
+        "possibleWrongThinking": "只按 Cl₂ 分子数未乘 2"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "方程式已配平可用",
+        "possibleWrongThinking": "缺乏计量信心"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.01",
+    "sourceModelId": "ADV.ion.001",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "write_ion"
+    ],
+    "knowledgePoints": [
+      "离子方程式",
+      "沉淀"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "将等物质的量浓度、等体积的 BaCl₂ 溶液与 Na₂SO₄ 溶液混合，正确的离子方程式是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ba²⁺ + SO₄²⁻ = BaSO₄↓"
+      },
+      {
+        "key": "B",
+        "text": "BaCl₂ + Na₂SO₄ = BaSO₄↓ + 2NaCl"
+      },
+      {
+        "key": "C",
+        "text": "Ba²⁺ + 2Cl⁻ + 2Na⁺ + SO₄²⁻ = BaSO₄↓ + 2Na⁺ + 2Cl⁻"
+      },
+      {
+        "key": "D",
+        "text": "Ba²⁺ + Cl⁻ + Na⁺ + SO₄²⁻ = BaSO₄↓"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "删去未参加反应的 Na⁺、Cl⁻",
+    "conditionAnalysis": [
+      "强电解质拆",
+      "沉淀保留化学式"
+    ],
+    "steps": [
+      "写出完全离子式",
+      "删去旁观离子得 A"
+    ],
+    "coreMethod": "写全→删旁观",
+    "commonMistakes": [
+      "写成分子方程式",
+      "旁观离子未删净或乱删"
+    ],
+    "similarFeatures": [
+      "复分解沉淀离子式"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "ion_equation_write"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "净离子方程式",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "删旁观离子"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "化学方程式不是离子方程式",
+        "possibleWrongThinking": "题型要求未读清",
+        "knowledgePoint": "离子方程式定义"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "旁观离子未删",
+        "possibleWrongThinking": "停在完全离子式",
+        "knowledgePoint": "净离子式"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "电荷与原子都不守恒",
+        "possibleWrongThinking": "随意凑写",
+        "knowledgePoint": "守恒"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.02",
+    "sourceModelId": "ADV.ion.001",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "write_ion"
+    ],
+    "knowledgePoints": [
+      "酸碱中和",
+      "离子方程式"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "稀盐酸与稀 NaOH 溶液恰好完全中和，离子方程式正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "H⁺ + OH⁻ = H₂O"
+      },
+      {
+        "key": "B",
+        "text": "HCl + NaOH = NaCl + H₂O"
+      },
+      {
+        "key": "C",
+        "text": "H⁺ + Cl⁻ + Na⁺ + OH⁻ = Na⁺ + Cl⁻ + H₂O"
+      },
+      {
+        "key": "D",
+        "text": "2H⁺ + OH⁻ = H₂O + H⁺"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "强酸强碱中和实质是 H⁺ 与 OH⁻ 结合",
+    "conditionAnalysis": [
+      "恰好完全"
+    ],
+    "steps": [
+      "拆强电解质",
+      "删旁观得 A"
+    ],
+    "coreMethod": "实质离子反应",
+    "commonMistakes": [
+      "写分子式",
+      "写完全离子式当答案"
+    ],
+    "similarFeatures": [
+      "中和离子式"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "neutralization_ion"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "净离子式",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "中和实质"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "分子方程式",
+        "possibleWrongThinking": "未改写离子",
+        "knowledgePoint": "离子方程式"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "未删旁观",
+        "possibleWrongThinking": "完全离子式当答案",
+        "knowledgePoint": "删旁观"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "系数与物质不守恒",
+        "possibleWrongThinking": "乱配平",
+        "knowledgePoint": "守恒"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.03",
+    "sourceModelId": "ADV.ion.002",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "judge_ion"
+    ],
+    "knowledgePoints": [
+      "离子共存"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "室温下，下列各组离子在水溶液中能大量共存的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "H⁺、Cl⁻、Na⁺、NO₃⁻"
+      },
+      {
+        "key": "B",
+        "text": "Ba²⁺、SO₄²⁻、Na⁺、Cl⁻"
+      },
+      {
+        "key": "C",
+        "text": "Ag⁺、Cl⁻、K⁺、NO₃⁻"
+      },
+      {
+        "key": "D",
+        "text": "Ca²⁺、CO₃²⁻、Na⁺、Cl⁻"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "排除生成沉淀、气体或弱电解质的组合",
+    "conditionAnalysis": [
+      "无额外酸碱性/氧化还原条件"
+    ],
+    "steps": [
+      "B 生成 BaSO₄",
+      "C 生成 AgCl",
+      "D 生成 CaCO₃",
+      "A 无反应可大量共存"
+    ],
+    "coreMethod": "两两排查",
+    "commonMistakes": [
+      "漏判某一对沉淀"
+    ],
+    "similarFeatures": [
+      "四组共存判断"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "ion_coexistence"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "无沉淀气体弱电解质生成",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "共存"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "BaSO₄ 沉淀",
+        "possibleWrongThinking": "忘记钡与硫酸根",
+        "knowledgePoint": "沉淀反应"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "AgCl 沉淀",
+        "possibleWrongThinking": "忘记银与氯",
+        "knowledgePoint": "沉淀反应"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "CaCO₃ 沉淀",
+        "possibleWrongThinking": "忘记钙与碳酸根",
+        "knowledgePoint": "沉淀反应"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.04",
+    "sourceModelId": "ADV.ion.002",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "judge_ion"
+    ],
+    "knowledgePoints": [
+      "离子共存",
+      "酸性条件"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "在强酸性溶液中能大量共存的一组离子是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Na⁺、K⁺、Cl⁻、NO₃⁻"
+      },
+      {
+        "key": "B",
+        "text": "Na⁺、K⁺、CO₃²⁻、Cl⁻"
+      },
+      {
+        "key": "C",
+        "text": "Na⁺、K⁺、SO₃²⁻、Cl⁻"
+      },
+      {
+        "key": "D",
+        "text": "Na⁺、Ag⁺、Cl⁻、NO₃⁻"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "酸性下弱酸根不能大量存在",
+    "conditionAnalysis": [
+      "强酸性：大量 H⁺"
+    ],
+    "steps": [
+      "B：CO₃²⁻ 与 H⁺→CO₂",
+      "C：SO₃²⁻ 与 H⁺→SO₂",
+      "D：Ag⁺ 与 Cl⁻→AgCl",
+      "A 可共存"
+    ],
+    "coreMethod": "条件约束 + 共存排查",
+    "commonMistakes": [
+      "忽略酸性对弱酸根的影响"
+    ],
+    "similarFeatures": [
+      "指定酸碱性共存"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "acidic_coexistence"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "无弱酸根且无沉淀对",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "酸性共存"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "碳酸根与酸反应",
+        "possibleWrongThinking": "未读酸性条件",
+        "knowledgePoint": "弱酸根"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "亚硫酸根与酸反应",
+        "possibleWrongThinking": "未读酸性条件",
+        "knowledgePoint": "弱酸根"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "AgCl 沉淀",
+        "possibleWrongThinking": "只盯酸性忽略沉淀",
+        "knowledgePoint": "沉淀"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.05",
+    "sourceModelId": "ADV.ion.003",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "write_ion"
+    ],
+    "knowledgePoints": [
+      "过量",
+      "离子方程式"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "向 Na₂CO₃ 溶液中逐滴加入稀盐酸至恰好完全反应（生成 CO₂），离子方程式正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "CO₃²⁻ + 2H⁺ = CO₂↑ + H₂O"
+      },
+      {
+        "key": "B",
+        "text": "CO₃²⁻ + H⁺ = HCO₃⁻"
+      },
+      {
+        "key": "C",
+        "text": "Na₂CO₃ + 2HCl = 2NaCl + CO₂↑ + H₂O"
+      },
+      {
+        "key": "D",
+        "text": "CO₃²⁻ + H⁺ = CO₂↑ + OH⁻"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "恰好完全生成 CO₂ 对应碳酸根与足量 H⁺",
+    "conditionAnalysis": [
+      "不是只滴少量酸的第一步"
+    ],
+    "steps": [
+      "目标产物为 CO₂",
+      "需 2H⁺",
+      "选 A"
+    ],
+    "coreMethod": "按产物阶段选离子式",
+    "commonMistakes": [
+      "选生成 HCO₃⁻ 的分步式"
+    ],
+    "similarFeatures": [
+      "碳酸盐与酸分步/完全"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "stepwise_carbonate"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "完全生成 CO₂",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "碳酸盐与酸"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "对应酸不足阶段",
+        "possibleWrongThinking": "机械记分步第一步",
+        "knowledgePoint": "用量控制"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "分子方程式",
+        "possibleWrongThinking": "未改离子",
+        "knowledgePoint": "离子方程式"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "产物与电荷均不合理",
+        "possibleWrongThinking": "随意凑写",
+        "knowledgePoint": "守恒"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.06",
+    "sourceModelId": "ADV.ion.003",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "write_ion"
+    ],
+    "knowledgePoints": [
+      "少量酸",
+      "分步"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "向足量 Na₂CO₃ 溶液中滴入少量稀盐酸（只发生第一步），离子方程式正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "CO₃²⁻ + H⁺ = HCO₃⁻"
+      },
+      {
+        "key": "B",
+        "text": "CO₃²⁻ + 2H⁺ = CO₂↑ + H₂O"
+      },
+      {
+        "key": "C",
+        "text": "Na₂CO₃ + HCl = NaHCO₃ + NaCl"
+      },
+      {
+        "key": "D",
+        "text": "HCO₃⁻ + H⁺ = CO₂↑ + H₂O"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "少量酸、足量碳酸盐→优先生成 HCO₃⁻",
+    "conditionAnalysis": [
+      "与完全反应题对比：量不同阶段不同"
+    ],
+    "steps": [
+      "酸不足",
+      "CO₃²⁻→HCO₃⁻"
+    ],
+    "coreMethod": "按相对用量选阶段",
+    "commonMistakes": [
+      "直接写产气式"
+    ],
+    "similarFeatures": [
+      "量控制分步"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "amount_controlled_ion"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "酸少量第一步",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "用量控制"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "对应酸充足",
+        "possibleWrongThinking": "忽视少量",
+        "knowledgePoint": "用量控制"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "分子方程式",
+        "possibleWrongThinking": "未离子化",
+        "knowledgePoint": "离子方程式"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "对应 HCO₃⁻ 与酸反应",
+        "possibleWrongThinking": "阶段错位",
+        "knowledgePoint": "分步反应"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.07",
+    "sourceModelId": "ADV.ion.005",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "judge_ion"
+    ],
+    "knowledgePoints": [
+      "离子方程式正误",
+      "电荷守恒",
+      "旁观离子",
+      "金属活动性"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "下列离子方程式书写正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "稀硫酸与 Ba(OH)₂ 恰好完全反应：Ba²⁺ + OH⁻ + H⁺ + SO₄²⁻ = BaSO₄↓ + H₂O"
+      },
+      {
+        "key": "B",
+        "text": "稀盐酸与 CaCO₃：CaCO₃ + 2H⁺ + 2Cl⁻ = Ca²⁺ + 2Cl⁻ + CO₂↑ + H₂O"
+      },
+      {
+        "key": "C",
+        "text": "Fe 与稀盐酸：Fe + 2H⁺ = Fe²⁺ + H₂↑"
+      },
+      {
+        "key": "D",
+        "text": "Cu 与稀盐酸：Cu + 2H⁺ = Cu²⁺ + H₂↑"
+      }
+    ],
+    "answer": "C",
+    "breakthrough": "逐项用「原子守恒 + 电荷守恒 + 反应是否真实发生 + 是否删净旁观离子」四条标准审查",
+    "conditionAnalysis": [
+      "A 写的是稀硫酸与 Ba(OH)₂ 恰好完全，正确净离子式应为 Ba²⁺+2OH⁻+2H⁺+SO₄²⁻=BaSO₄↓+2H₂O",
+      "B 中 Cl⁻ 两边相同，属于旁观离子，净离子式应删去",
+      "D 铜在金属活动性顺序中位于氢后，不能与稀盐酸置换出 H₂"
+    ],
+    "steps": [
+      "审查 A：OH⁻、H⁺、H₂O 系数均为 1，与恰好完全所需的 2OH⁻、2H⁺、2H₂O 不符，原子不守恒，故 A 错误",
+      "审查 B：CaCO₃ 难溶保留化学式正确，但 2Cl⁻ 为旁观离子应删除，故 B 错误",
+      "审查 D：Cu 不能置换稀盐酸中的 H⁺，反应不发生，故 D 错误",
+      "审查 C：Fe + 2H⁺ = Fe²⁺ + H₂↑ 原子守恒、电荷守恒（左+2=右+2），反应真实，故 C 正确"
+    ],
+    "coreMethod": "离子方程式正误四步法：守恒（原子/电荷）→ 删旁观 → 难溶/气体写法 → 核对反应事实",
+    "commonMistakes": [
+      "漏看 A 的系数错误，误以为电荷数字相等就正确",
+      "把完全离子式（含旁观离子）当成净离子方程式",
+      "记错铜与稀酸能否反应而误选 D"
+    ],
+    "similarFeatures": [
+      "四选一离子方程式正误辨析",
+      "系数错误、旁观离子、不反应金属并存"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "ion_equation_judge"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "系数错误：恰好完全时应为 2OH⁻、2H⁺、2H₂O，原子不守恒",
+        "possibleWrongThinking": "可能只核对电荷数字未核对原子个数与计量系数",
+        "knowledgePoint": "守恒与系数"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "旁观离子 Cl⁻ 未删除，不是净离子方程式",
+        "possibleWrongThinking": "可能把完全离子式误当作最终答案",
+        "knowledgePoint": "删旁观离子"
+      },
+      {
+        "key": "C",
+        "verdict": "correct",
+        "reason": "Fe+2H⁺=Fe²⁺+H₂↑ 守恒且符合反应事实",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "置换反应离子式"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "铜不能与稀盐酸反应生成 H₂",
+        "possibleWrongThinking": "可能把铜误记为氢前金属",
+        "knowledgePoint": "金属活动性"
+      }
+    ],
+    "fixNote": "enrich_solution_optionAudit",
+    "fixedAt": "2026-10-20T01:04:55.037Z"
+  },
+  {
+    "id": "S60.ion.08",
+    "sourceModelId": "ADV.ion.002",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "judge_ion"
+    ],
+    "knowledgePoints": [
+      "离子共存",
+      "碱性"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "在强碱性溶液中能大量共存的一组是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Na⁺、K⁺、Cl⁻、NO₃⁻"
+      },
+      {
+        "key": "B",
+        "text": "Na⁺、K⁺、Mg²⁺、Cl⁻"
+      },
+      {
+        "key": "C",
+        "text": "Na⁺、NH₄⁺、Cl⁻、NO₃⁻"
+      },
+      {
+        "key": "D",
+        "text": "Na⁺、Al³⁺、Cl⁻、NO₃⁻"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "碱性下 Mg²⁺、Al³⁺ 沉淀；NH₄⁺ 生成 NH₃·H₂O",
+    "conditionAnalysis": [
+      "大量 OH⁻"
+    ],
+    "steps": [
+      "B、D 沉淀",
+      "C 生成弱碱",
+      "A 可共存"
+    ],
+    "coreMethod": "碱性约束共存",
+    "commonMistakes": [
+      "忽略 NH₄⁺ 与 OH⁻"
+    ],
+    "similarFeatures": [
+      "指定碱性共存"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "basic_coexistence"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "无沉淀弱电解质",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "碱性共存"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "Mg(OH)₂",
+        "possibleWrongThinking": "忘记镁离子与碱",
+        "knowledgePoint": "沉淀"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "NH₄⁺ 与 OH⁻",
+        "possibleWrongThinking": "忽略铵盐与碱",
+        "knowledgePoint": "弱电解质"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "Al(OH)₃",
+        "possibleWrongThinking": "忘记铝离子与碱",
+        "knowledgePoint": "沉淀"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.09",
+    "sourceModelId": "ADV.ion.001",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "write_ion"
+    ],
+    "knowledgePoints": [
+      "离子方程式",
+      "难溶物写法",
+      "旁观离子",
+      "碳酸盐与酸"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "向盛有足量大理石（主要成分为 CaCO₃）的烧杯中滴入少量稀盐酸，固体仍明显剩余。下列离子方程式中，同时满足「难溶物不拆开」「删除旁观离子」「符合大理石与盐酸制 CO₂ 的规范写法」要求的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "CaCO₃ + 2H⁺ = Ca²⁺ + CO₂↑ + H₂O"
+      },
+      {
+        "key": "B",
+        "text": "CO₃²⁻ + 2H⁺ = CO₂↑ + H₂O"
+      },
+      {
+        "key": "C",
+        "text": "CaCO₃ + H⁺ = Ca²⁺ + HCO₃⁻"
+      },
+      {
+        "key": "D",
+        "text": "CaCO₃ + 2H⁺ + 2Cl⁻ = Ca²⁺ + 2Cl⁻ + CO₂↑ + H₂O"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "先锁定难溶 CaCO₃ 必须写化学式；再排除拆成 CO₃²⁻、误套 HCO₃⁻ 分步模型、以及未删 Cl⁻ 的写法",
+    "conditionAnalysis": [
+      "大理石难溶，不能写成 CO₃²⁻",
+      "盐酸中的 Cl⁻ 为旁观离子",
+      "中学对固体碳酸钙与盐酸制 CO₂，离子式按 CaCO₃+2H⁺ 产气书写；C 把可溶碳酸盐“酸少量→HCO₃⁻”误套到难溶大理石"
+    ],
+    "steps": [
+      "B 将难溶盐拆成 CO₃²⁻，违反难溶物写法，排除",
+      "D 含未删除的旁观 Cl⁻，不是净离子方程式，排除",
+      "C 套用可溶碳酸盐酸少量生成 HCO₃⁻ 的模型，不符合大理石制 CO₂ 的规范情景，排除",
+      "A：难溶写 CaCO₃，酸拆为 H⁺，无旁观离子，原子与电荷守恒，符合题意"
+    ],
+    "coreMethod": "多重约束下的离子方程式选型：物态写法 × 旁观离子 × 反应情景",
+    "commonMistakes": [
+      "把可溶碳酸盐分步反应模型直接套到大理石",
+      "把难溶碳酸盐拆成离子",
+      "保留 Cl⁻ 写成完全离子式"
+    ],
+    "similarFeatures": [
+      "难溶物 + 酸制气 + 易混分步写法"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "insoluble_in_ion_eq"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "难溶不拆、无旁观、守恒，符合大理石与盐酸制 CO₂ 的规范写法",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "难溶物离子式"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "CaCO₃ 难溶不能拆成 CO₃²⁻",
+        "possibleWrongThinking": "可能误当成可溶性碳酸盐溶液",
+        "knowledgePoint": "难溶物写法"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "把可溶碳酸盐酸少量生成 HCO₃⁻ 的模型误套到难溶大理石制气",
+        "possibleWrongThinking": "可能只抓住“少量酸”而忽略物态与制气情景",
+        "knowledgePoint": "反应情景区分"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "旁观 Cl⁻ 未删",
+        "possibleWrongThinking": "可能停在完全离子式",
+        "knowledgePoint": "删旁观"
+      }
+    ],
+    "fixNote": "upgrade_to_real_challenge_amount_plus_rules",
+    "fixedAt": "2026-10-20T01:04:55.039Z"
+  },
+  {
+    "id": "S60.ion.10",
+    "sourceModelId": "ADV.ion.006",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "judge_ion"
+    ],
+    "knowledgePoints": [
+      "电荷守恒",
+      "铁与酸反应",
+      "离子方程式正误"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "下列离子方程式中，同时满足「电荷不守恒」且「不符合铁与稀酸反应事实（应生成 Fe²⁺）」的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fe + 2H⁺ = Fe²⁺ + H₂↑"
+      },
+      {
+        "key": "B",
+        "text": "Fe + 2H⁺ = Fe³⁺ + H₂↑"
+      },
+      {
+        "key": "C",
+        "text": "2Fe³⁺ + Fe = 3Fe²⁺"
+      },
+      {
+        "key": "D",
+        "text": "Zn + 2H⁺ = Zn²⁺ + H₂↑"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "先算各式电荷，再对照铁与稀酸的真实产物价态；要同时命中两个条件",
+    "conditionAnalysis": [
+      "题干是合取条件：既要电荷不守恒，又要违背 Fe→Fe²⁺ 事实",
+      "A、D 为正确置换写法；C 电荷守恒且为常见归中反应"
+    ],
+    "steps": [
+      "A：左电荷 +2，右 +2，电荷守恒，且产物 Fe²⁺ 符合事实 → 不是本题答案",
+      "C：左 2×(+3)=+6，右 3×(+2)=+6，电荷守恒 → 不满足“电荷不守恒”",
+      "D：左 +2 右 +2，电荷守恒且反应真实 → 排除",
+      "B：左 +2，右 Fe³⁺ 为 +3，电荷不守恒；且稀酸中 Fe 被氧化为 Fe²⁺ 而非 Fe³⁺，两条件同时满足 → 选 B"
+    ],
+    "coreMethod": "合取条件筛选：电荷审计 + 反应事实双重过滤",
+    "commonMistakes": [
+      "只看到产物价态不对却忽略题干还要求电荷不守恒",
+      "误以为 C 中 Fe³⁺/Fe²⁺ 电荷不平",
+      "把正确的 A 或 D 当成错误项"
+    ],
+    "similarFeatures": [
+      "指出特定错误类型的离子方程式题"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "charge_balance_audit"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "方程式正确：电荷守恒且产物为 Fe²⁺",
+        "possibleWrongThinking": "可能未理解题干在找错误项",
+        "knowledgePoint": "审题"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "左+2右+3电荷不守恒，且 Fe³⁺ 不符合稀酸反应事实",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "电荷守恒与反应事实"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "电荷守恒，不满足题干第一个条件",
+        "possibleWrongThinking": "可能对 Fe³⁺/Fe²⁺ 不熟而误判电荷",
+        "knowledgePoint": "电荷守恒"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "方程式正确",
+        "possibleWrongThinking": "随意排除",
+        "knowledgePoint": "审题"
+      }
+    ],
+    "fixNote": "upgrade_dual_condition_charge_and_fact",
+    "fixedAt": "2026-10-20T01:04:55.039Z"
+  },
+  {
+    "id": "S60.experiment.01",
+    "sourceModelId": "ADV.experiment.001",
+    "specialtyCode": "experiment",
+    "categoryCodes": [
+      "apparatus"
+    ],
+    "knowledgePoints": [
+      "仪器用途",
+      "加热"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "实验室用酒精灯加热时，正确的操作是",
+    "options": [
+      {
+        "key": "A",
+        "text": "用外焰加热，加热后的试管等不能立即用水冲洗"
+      },
+      {
+        "key": "B",
+        "text": "用焰心加热，效率更高"
+      },
+      {
+        "key": "C",
+        "text": "熄灭时用嘴吹灭灯焰"
+      },
+      {
+        "key": "D",
+        "text": "酒精灯内酒精应装满至瓶口"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "外焰温度最高；热仪器骤冷易炸裂；灯帽盖灭",
+    "conditionAnalysis": [
+      "基础加热规范"
+    ],
+    "steps": [
+      "外焰加热",
+      "禁止骤冷",
+      "灯帽盖灭",
+      "酒精不超 2/3"
+    ],
+    "coreMethod": "操作规范对照",
+    "commonMistakes": [
+      "用焰心",
+      "吹灭"
+    ],
+    "similarFeatures": [
+      "加热操作正误"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "heating_ops"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "外焰+防骤冷",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "加热规范"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "焰心温度最低",
+        "possibleWrongThinking": "火焰中心更集中的误解",
+        "knowledgePoint": "火焰分区"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "应用灯帽盖灭",
+        "possibleWrongThinking": "日常吹蜡烛习惯迁移",
+        "knowledgePoint": "安全熄灭"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "酒精过多易溢出着火",
+        "possibleWrongThinking": "装满更耐用误解",
+        "knowledgePoint": "酒精灯使用"
+      }
+    ]
+  },
+  {
+    "id": "S60.experiment.02",
+    "sourceModelId": "ADV.experiment.001",
+    "specialtyCode": "experiment",
+    "categoryCodes": [
+      "safety"
+    ],
+    "knowledgePoints": [
+      "实验安全",
+      "浓酸"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "稀释浓硫酸的正确操作是",
+    "options": [
+      {
+        "key": "A",
+        "text": "将浓硫酸沿器壁缓慢注入水中，并不断搅拌"
+      },
+      {
+        "key": "B",
+        "text": "将水迅速倒入浓硫酸中"
+      },
+      {
+        "key": "C",
+        "text": "将浓硫酸与水同时快速倒入烧杯"
+      },
+      {
+        "key": "D",
+        "text": "在密闭容器中直接混合以免吸水"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "酸入水，缓慢并搅拌，散热",
+    "conditionAnalysis": [
+      "放热剧烈"
+    ],
+    "steps": [
+      "水在下",
+      "酸沿壁慢加",
+      "搅拌"
+    ],
+    "coreMethod": "安全稀释规则",
+    "commonMistakes": [
+      "水倒入浓硫酸"
+    ],
+    "similarFeatures": [
+      "浓硫酸稀释"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "acid_dilution_safety"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "酸入水",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "稀释安全"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "易暴沸飞溅",
+        "possibleWrongThinking": "顺序颠倒",
+        "knowledgePoint": "稀释安全"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "无法控制放热",
+        "possibleWrongThinking": "图快",
+        "knowledgePoint": "稀释安全"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "密闭危险且不必要",
+        "possibleWrongThinking": "过度防吸潮",
+        "knowledgePoint": "安全"
+      }
+    ]
+  },
+  {
+    "id": "S60.experiment.03",
+    "sourceModelId": "ADV.experiment.002",
+    "specialtyCode": "experiment",
+    "categoryCodes": [
+      "gas_collect"
+    ],
+    "knowledgePoints": [
+      "气体收集",
+      "密度"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "实验室用排水法收集气体时，该气体必须满足",
+    "options": [
+      {
+        "key": "A",
+        "text": "难溶于水且不与水反应"
+      },
+      {
+        "key": "B",
+        "text": "密度比空气大"
+      },
+      {
+        "key": "C",
+        "text": "有颜色便于观察"
+      },
+      {
+        "key": "D",
+        "text": "有毒性必须排水"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "排水法核心是气体不溶于水、不反应",
+    "conditionAnalysis": [
+      "与排空气法条件对比"
+    ],
+    "steps": [
+      "排除密度条件（那是排空气法）",
+      "选 A"
+    ],
+    "coreMethod": "收集方法选型条件",
+    "commonMistakes": [
+      "用密度判断排水法"
+    ],
+    "similarFeatures": [
+      "收集方法选择"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "gas_collection_rule"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "排水法必要条件",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "排水法"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "排水法不要求密度",
+        "possibleWrongThinking": "与向上排空气法混淆",
+        "knowledgePoint": "收集方法"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "颜色非必要条件",
+        "possibleWrongThinking": "观察便利当条件",
+        "knowledgePoint": "收集方法"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "毒性与是否排水无必然",
+        "possibleWrongThinking": "安全刻板印象",
+        "knowledgePoint": "收集方法"
+      }
+    ]
+  },
+  {
+    "id": "S60.experiment.04",
+    "sourceModelId": "ADV.experiment.002",
+    "specialtyCode": "experiment",
+    "categoryCodes": [
+      "gas_collect"
+    ],
+    "knowledgePoints": [
+      "排空气法"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "用向上排空气法收集某气体，该气体通常应",
+    "options": [
+      {
+        "key": "A",
+        "text": "密度比空气大，且不与空气成分反应"
+      },
+      {
+        "key": "B",
+        "text": "密度比空气小"
+      },
+      {
+        "key": "C",
+        "text": "极易溶于水"
+      },
+      {
+        "key": "D",
+        "text": "必须有颜色"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "向上排空气：重气体沉于集气瓶底部赶走空气",
+    "conditionAnalysis": [
+      "对比向下排空气"
+    ],
+    "steps": [
+      "密度大→向上排",
+      "不与空气反应"
+    ],
+    "coreMethod": "密度决定排空气方向",
+    "commonMistakes": [
+      "方向与密度记反"
+    ],
+    "similarFeatures": [
+      "排空气法方向"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "upward_air_displace"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "重气体+不反应",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "向上排空气"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "轻气体用向下排",
+        "possibleWrongThinking": "方向记反",
+        "knowledgePoint": "排空气法"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "与排空气无直接关系",
+        "possibleWrongThinking": "与排水法条件混用",
+        "knowledgePoint": "收集方法"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "颜色非必须",
+        "possibleWrongThinking": "便于观察误解",
+        "knowledgePoint": "收集方法"
+      }
+    ]
+  },
+  {
+    "id": "S60.experiment.05",
+    "sourceModelId": "ADV.experiment.003",
+    "specialtyCode": "experiment",
+    "categoryCodes": [
+      "error_analysis"
+    ],
+    "knowledgePoints": [
+      "误差分析",
+      "制气"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "用锌粒与稀硫酸制取氢气并用排水法收集。若锌粒表面有少量氧化铜杂质但未洗净，下列关于收集气体的判断最合理的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "主反应仍生成氢气，收集到的气体仍主要是氢气"
+      },
+      {
+        "key": "B",
+        "text": "收集到的一定是氧气"
+      },
+      {
+        "key": "C",
+        "text": "一定无法收集到任何气体"
+      },
+      {
+        "key": "D",
+        "text": "气体一定是二氧化硫"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "主反应仍是 Zn 与酸生成 H₂；杂质影响属次级，不能推出必为 O₂/SO₂",
+    "conditionAnalysis": [
+      "杂质干扰判断，排除无依据结论"
+    ],
+    "steps": [
+      "主反应生成 H₂",
+      "排除 B/C/D"
+    ],
+    "coreMethod": "主次反应与证据充分性",
+    "commonMistakes": [
+      "一见杂质就改判气体种类"
+    ],
+    "similarFeatures": [
+      "杂质对结论的干扰"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "impurity_reasoning"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "主产物仍为 H₂",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "主反应判断"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "无生成 O₂ 依据",
+        "possibleWrongThinking": "氧化铜联想氧气",
+        "knowledgePoint": "证据推理"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "锌与酸仍反应",
+        "possibleWrongThinking": "杂质阻断一切反应",
+        "knowledgePoint": "反应事实"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "稀硫酸与锌不生成 SO₂",
+        "possibleWrongThinking": "硫酸根联想二氧化硫",
+        "knowledgePoint": "产物判断"
+      }
+    ]
+  },
+  {
+    "id": "S60.experiment.06",
+    "sourceModelId": "ADV.experiment.004",
+    "specialtyCode": "experiment",
+    "categoryCodes": [
+      "procedure"
+    ],
+    "knowledgePoints": [
+      "过滤",
+      "操作顺序"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "过滤操作中，“一贴、二低、三靠”指的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "滤纸紧贴漏斗内壁；滤纸边缘低于漏斗口、液面低于滤纸边缘；烧杯口、玻璃棒、漏斗尖端分别靠（触）相应位置"
+      },
+      {
+        "key": "B",
+        "text": "滤纸高于漏斗口以便多装液体"
+      },
+      {
+        "key": "C",
+        "text": "可以不用玻璃棒引流"
+      },
+      {
+        "key": "D",
+        "text": "漏斗尖端必须悬空不接触烧杯壁"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "回忆过滤操作口诀的完整含义",
+    "conditionAnalysis": [
+      "标准操作要点"
+    ],
+    "steps": [
+      "对照口诀逐项核对",
+      "B/C/D 与规范相反或不全"
+    ],
+    "coreMethod": "规范口诀还原",
+    "commonMistakes": [
+      "漏斗尖端不靠烧杯"
+    ],
+    "similarFeatures": [
+      "过滤要点"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "filtration_ops"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "完整正确",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "过滤操作"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "滤纸应低于漏斗口",
+        "possibleWrongThinking": "图多装液体",
+        "knowledgePoint": "二低"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "必须引流",
+        "possibleWrongThinking": "图省事",
+        "knowledgePoint": "三靠"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "尖端应靠烧杯内壁",
+        "possibleWrongThinking": "记反三靠",
+        "knowledgePoint": "三靠"
+      }
+    ]
+  },
+  {
+    "id": "S60.experiment.07",
+    "sourceModelId": "ADV.experiment.003",
+    "specialtyCode": "experiment",
+    "categoryCodes": [
+      "error_analysis"
+    ],
+    "knowledgePoints": [
+      "误差",
+      "量取"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "用量筒量取 20 mL 液体时，仰视读数（读数偏小）。若以此“20 mL”用于实验，实际取用液体体积将",
+    "options": [
+      {
+        "key": "A",
+        "text": "偏大"
+      },
+      {
+        "key": "B",
+        "text": "偏小"
+      },
+      {
+        "key": "C",
+        "text": "不变"
+      },
+      {
+        "key": "D",
+        "text": "无法判断"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "仰视读数偏小→实际液面更高→实际体积偏大",
+    "conditionAnalysis": [
+      "读数与真实体积关系"
+    ],
+    "steps": [
+      "仰视→读数 < 真实",
+      "要读到 20 时真实已 >20",
+      "实际偏大"
+    ],
+    "coreMethod": "读数误差方向推理",
+    "commonMistakes": [
+      "把读数偏小当成实际偏小"
+    ],
+    "similarFeatures": [
+      "量筒读数误差"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "reading_error_direction"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "实际体积偏大",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "读数误差"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "混淆读数与实际",
+        "possibleWrongThinking": "读数小则实际小",
+        "knowledgePoint": "读数误差"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "存在系统误差",
+        "possibleWrongThinking": "认为读数习惯不影响",
+        "knowledgePoint": "误差分析"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "方向可判断",
+        "possibleWrongThinking": "放弃推理",
+        "knowledgePoint": "误差分析"
+      }
+    ]
+  },
+  {
+    "id": "S60.experiment.08",
+    "sourceModelId": "ADV.experiment.005",
+    "specialtyCode": "experiment",
+    "categoryCodes": [
+      "design"
+    ],
+    "knowledgePoints": [
+      "检验",
+      "CO₂"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "检验某气体是否为二氧化碳，最合理的试剂是",
+    "options": [
+      {
+        "key": "A",
+        "text": "澄清石灰水"
+      },
+      {
+        "key": "B",
+        "text": "紫色石蕊溶液"
+      },
+      {
+        "key": "C",
+        "text": "氢氧化钠溶液"
+      },
+      {
+        "key": "D",
+        "text": "蒸馏水"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "CO₂ 使澄清石灰水变浑浊是特征检验",
+    "conditionAnalysis": [
+      "石蕊变红不唯一；NaOH 无明显现象"
+    ],
+    "steps": [
+      "特征现象优先",
+      "选 A"
+    ],
+    "coreMethod": "特征检验试剂选择",
+    "commonMistakes": [
+      "用石蕊当充分证据"
+    ],
+    "similarFeatures": [
+      "气体检验"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "co2_test"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "变浑浊特征",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "CO₂ 检验"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "酸性气体均可使其变红，不唯一",
+        "possibleWrongThinking": "酸性=二氧化碳",
+        "knowledgePoint": "检验唯一性"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "无明显特征现象",
+        "possibleWrongThinking": "知道反应但忽略可观察性",
+        "knowledgePoint": "检验现象"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "无明显特征",
+        "possibleWrongThinking": "溶解性当检验",
+        "knowledgePoint": "检验方法"
+      }
+    ]
+  },
+  {
+    "id": "S60.experiment.09",
+    "sourceModelId": "ADV.experiment.005",
+    "specialtyCode": "experiment",
+    "categoryCodes": [
+      "design"
+    ],
+    "knowledgePoints": [
+      "除杂",
+      "顺序"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "氢气中混有少量氯化氢和水蒸气，欲得到干燥纯净的氢气（最终干燥），合理除杂顺序是",
+    "options": [
+      {
+        "key": "A",
+        "text": "先通过 NaOH 溶液除 HCl，再通过浓硫酸干燥"
+      },
+      {
+        "key": "B",
+        "text": "先通过浓硫酸，再通过 NaOH 溶液"
+      },
+      {
+        "key": "C",
+        "text": "只通过蒸馏水"
+      },
+      {
+        "key": "D",
+        "text": "先灼烧再冷却"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "先除杂气，最后干燥；避免先干燥后又被水溶液带入水汽",
+    "conditionAnalysis": [
+      "HCl 用碱液吸收；H₂ 可用浓硫酸干燥"
+    ],
+    "steps": [
+      "先 NaOH 除 HCl",
+      "再浓硫酸干燥"
+    ],
+    "coreMethod": "除杂在前、干燥在后",
+    "commonMistakes": [
+      "先干燥后水洗"
+    ],
+    "similarFeatures": [
+      "气体除杂顺序"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "purification_order"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "除杂后干燥",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "除杂顺序"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "后接水溶液会重新带水",
+        "possibleWrongThinking": "干燥优先刻板",
+        "knowledgePoint": "除杂顺序"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "不能有效除 HCl 并干燥",
+        "possibleWrongThinking": "水能溶一切误解",
+        "knowledgePoint": "除杂试剂"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "氢气灼烧危险且非除杂常规",
+        "possibleWrongThinking": "燃烧纯化联想",
+        "knowledgePoint": "安全与方法"
+      }
+    ]
+  },
+  {
+    "id": "S60.experiment.10",
+    "sourceModelId": "ADV.experiment.004",
+    "specialtyCode": "experiment",
+    "categoryCodes": [
+      "procedure"
+    ],
+    "knowledgePoints": [
+      "蒸发",
+      "操作"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "蒸发食盐水溶液至析出较多晶体时，正确做法是",
+    "options": [
+      {
+        "key": "A",
+        "text": "出现较多晶体后停止加热，利用余热蒸干，并不断搅拌"
+      },
+      {
+        "key": "B",
+        "text": "必须加热至完全干涸才能停止"
+      },
+      {
+        "key": "C",
+        "text": "蒸发过程中禁止搅拌以免晶体破碎"
+      },
+      {
+        "key": "D",
+        "text": "用酒精灯焰心猛烈加热至液体溅出"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "余热蒸干防飞溅；搅拌防局部过热",
+    "conditionAnalysis": [
+      "蒸发结晶规范"
+    ],
+    "steps": [
+      "多晶体后停火",
+      "余热、搅拌"
+    ],
+    "coreMethod": "蒸发终点控制",
+    "commonMistakes": [
+      "蒸至干涸"
+    ],
+    "similarFeatures": [
+      "蒸发操作"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "evaporation_ops"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "余热+搅拌",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "蒸发操作"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "易迸溅且晶体可能飞出",
+        "possibleWrongThinking": "追求完全干",
+        "knowledgePoint": "蒸发终点"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "应搅拌",
+        "possibleWrongThinking": "怕搅碎晶体",
+        "knowledgePoint": "蒸发操作"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "焰心且猛烈不安全",
+        "possibleWrongThinking": "图快",
+        "knowledgePoint": "加热安全"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.01",
+    "sourceModelId": "ADV.inference.001",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "物质推断",
+      "酸碱盐"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "无色溶液 X 滴入酚酞变红；通入过量 CO₂ 后红色褪去并有白色沉淀；沉淀可溶于盐酸并产生气体。则 X 中大量存在的阴离子最可能是",
+    "options": [
+      {
+        "key": "A",
+        "text": "OH⁻"
+      },
+      {
+        "key": "B",
+        "text": "H⁺"
+      },
+      {
+        "key": "C",
+        "text": "仅有 Cl⁻ 而无 OH⁻"
+      },
+      {
+        "key": "D",
+        "text": "SO₄²⁻（且溶液显酸性）"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "酚酞变红→碱性→OH⁻；通 CO₂ 生成可溶于酸并产气的碳酸盐沉淀",
+    "conditionAnalysis": [
+      "无色",
+      "碱性",
+      "碳酸盐沉淀可溶于酸产气"
+    ],
+    "steps": [
+      "变红→碱性阴离子 OH⁻",
+      "排除酸性选项"
+    ],
+    "coreMethod": "现象→离子性质反推",
+    "commonMistakes": [
+      "忽略碱性指示"
+    ],
+    "similarFeatures": [
+      "短推断"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "phenomenon_to_ion"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "碱性指示剂指向 OH⁻",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "指示剂"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "酸性不应使酚酞变红",
+        "possibleWrongThinking": "指示剂记忆错误",
+        "knowledgePoint": "指示剂"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "仅 Cl⁻ 不使酚酞变红",
+        "possibleWrongThinking": "忽略指示剂信息",
+        "knowledgePoint": "现象推理"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "酸性与变红矛盾",
+        "possibleWrongThinking": "沉淀联想硫酸根",
+        "knowledgePoint": "酸碱性"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.02",
+    "sourceModelId": "ADV.inference.001",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "气体推断"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "气体 Y 能使澄清石灰水变浑浊，也能使燃着的木条熄灭。Y 最可能是",
+    "options": [
+      {
+        "key": "A",
+        "text": "CO₂"
+      },
+      {
+        "key": "B",
+        "text": "O₂"
+      },
+      {
+        "key": "C",
+        "text": "H₂"
+      },
+      {
+        "key": "D",
+        "text": "N₂"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "石灰水变浑浊是 CO₂ 特征；不支持燃烧",
+    "conditionAnalysis": [
+      "两现象合取"
+    ],
+    "steps": [
+      "O₂ 助燃排除",
+      "H₂ 可燃排除",
+      "N₂ 不使石灰水浑浊",
+      "选 CO₂"
+    ],
+    "coreMethod": "特征现象合取",
+    "commonMistakes": [
+      "只看熄灭选 N₂"
+    ],
+    "similarFeatures": [
+      "气体鉴别"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "gas_infer"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "两现象均符合",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "CO₂ 性质"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "助燃",
+        "possibleWrongThinking": "忽略木条熄灭",
+        "knowledgePoint": "气体性质"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "可燃且不使石灰水浑浊",
+        "possibleWrongThinking": "气体种类记忆混乱",
+        "knowledgePoint": "气体性质"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "不使石灰水变浑浊",
+        "possibleWrongThinking": "只依据熄灭",
+        "knowledgePoint": "特征检验"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.03",
+    "sourceModelId": "ADV.inference.002",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "沉淀推断"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "溶液中加入 BaCl₂ 产生不溶于稀硝酸的白色沉淀，该沉淀最可能是",
+    "options": [
+      {
+        "key": "A",
+        "text": "BaSO₄"
+      },
+      {
+        "key": "B",
+        "text": "BaCO₃"
+      },
+      {
+        "key": "C",
+        "text": "BaSO₃"
+      },
+      {
+        "key": "D",
+        "text": "AgCl"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "不溶于稀硝酸的钡盐白色沉淀→BaSO₄",
+    "conditionAnalysis": [
+      "碳酸钡、亚硫酸钡可溶于酸"
+    ],
+    "steps": [
+      "排除溶于酸的 BaCO₃、BaSO₃",
+      "排除未加银盐的 AgCl",
+      "选 BaSO₄"
+    ],
+    "coreMethod": "酸溶性质区分沉淀",
+    "commonMistakes": [
+      "选碳酸钡"
+    ],
+    "similarFeatures": [
+      "硫酸根检验"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "precipitate_infer"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "不溶于稀硝酸",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "硫酸根检验"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "溶于酸",
+        "possibleWrongThinking": "见钡白色沉淀就选碳酸盐",
+        "knowledgePoint": "沉淀溶解性"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "亚硫酸钡可溶于酸",
+        "possibleWrongThinking": "与硫酸钡混淆",
+        "knowledgePoint": "沉淀溶解性"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "试剂是 BaCl₂ 不是 AgNO₃",
+        "possibleWrongThinking": "不溶沉淀刻板联想到 AgCl",
+        "knowledgePoint": "试剂对应"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.04",
+    "sourceModelId": "ADV.inference.002",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "金属活动性"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "金属 M 能与稀盐酸反应产生氢气，金属 N 不能。则下列判断正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "在氢前/氢后框架下，M 的金属活动性比 N 强"
+      },
+      {
+        "key": "B",
+        "text": "N 一定比 M 活泼"
+      },
+      {
+        "key": "C",
+        "text": "M 一定是铜"
+      },
+      {
+        "key": "D",
+        "text": "N 一定是钾"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "能置换酸中氢→位于氢前；不能→氢后或不反应",
+    "conditionAnalysis": [
+      "相对活动性比较"
+    ],
+    "steps": [
+      "M 在 H 前，N 不在或更弱",
+      "选 A"
+    ],
+    "coreMethod": "置换氢判活动性",
+    "commonMistakes": [
+      "绝对指定具体金属"
+    ],
+    "similarFeatures": [
+      "活动性推断"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "activity_infer"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "相对活动性结论成立",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "金属活动性"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "与事实相反",
+        "possibleWrongThinking": "逻辑颠倒",
+        "knowledgePoint": "金属活动性"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "铜不与稀盐酸反应",
+        "possibleWrongThinking": "常见金属乱填",
+        "knowledgePoint": "金属活动性"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "钾能剧烈反应",
+        "possibleWrongThinking": "活泼金属乱填",
+        "knowledgePoint": "金属活动性"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.05",
+    "sourceModelId": "ADV.inference.003",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "框图推断",
+      "转化"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "单质 A 在氧气中燃烧生成气体 B；B 能使澄清石灰水变浑浊，且不能使品红溶液褪色。则 A、B 最可能是",
+    "options": [
+      {
+        "key": "A",
+        "text": "C、CO₂"
+      },
+      {
+        "key": "B",
+        "text": "S、SO₂"
+      },
+      {
+        "key": "C",
+        "text": "H₂、H₂O(g)"
+      },
+      {
+        "key": "D",
+        "text": "Fe、Fe₃O₄"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "石灰水变浑浊且品红不褪色→CO₂ 而非 SO₂；单质为碳",
+    "conditionAnalysis": [
+      "B 为气体",
+      "品红区分 CO₂/SO₂"
+    ],
+    "steps": [
+      "排除 Fe（产物非气体）",
+      "排除 H₂（不使石灰水浑浊）",
+      "SO₂ 使品红褪色排除",
+      "选 A：C、CO₂"
+    ],
+    "coreMethod": "特征试剂区分相似气体",
+    "commonMistakes": [
+      "忽略品红条件选硫"
+    ],
+    "similarFeatures": [
+      "燃烧产物推断"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "combustion_infer",
+      "gas_distinguish"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "CO₂ 使石灰水浑浊且通常不使品红褪色",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "气体鉴别"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "SO₂ 使品红褪色",
+        "possibleWrongThinking": "只看石灰水忽略品红",
+        "knowledgePoint": "SO₂ 性质"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "水蒸气不使石灰水变浑浊",
+        "possibleWrongThinking": "燃烧产物联想错误",
+        "knowledgePoint": "气体性质"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "产物不是气体",
+        "possibleWrongThinking": "忽略物态",
+        "knowledgePoint": "审题"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.06",
+    "sourceModelId": "ADV.inference.003",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "物质转化"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "物质转化：CaCO₃ --高温--> X --与水--> Y --通入 CO₂--> 又得 CaCO₃。则 X、Y 依次为",
+    "options": [
+      {
+        "key": "A",
+        "text": "CaO、Ca(OH)₂"
+      },
+      {
+        "key": "B",
+        "text": "Ca(OH)₂、CaO"
+      },
+      {
+        "key": "C",
+        "text": "CaCl₂、Ca(OH)₂"
+      },
+      {
+        "key": "D",
+        "text": "CO₂、H₂O"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "碳酸钙高温分解得 CaO；CaO 与水得石灰水；再通 CO₂ 沉淀",
+    "conditionAnalysis": [
+      "经典石灰转化链"
+    ],
+    "steps": [
+      "高温→CaO",
+      "与水→Ca(OH)₂",
+      "通 CO₂→CaCO₃"
+    ],
+    "coreMethod": "转化链还原",
+    "commonMistakes": [
+      "X/Y 颠倒"
+    ],
+    "similarFeatures": [
+      "钙循环"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "calcium_cycle"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "标准转化",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "钙化合物转化"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "顺序颠倒",
+        "possibleWrongThinking": "记混顺序",
+        "knowledgePoint": "转化顺序"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "高温不生成 CaCl₂",
+        "possibleWrongThinking": "随意掺氯",
+        "knowledgePoint": "分解反应"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "与后续与水步骤不匹配",
+        "possibleWrongThinking": "只盯气体产物",
+        "knowledgePoint": "转化链"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.07",
+    "sourceModelId": "ADV.inference.004",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "混合物分离推断"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "固体混合物可能含 NaCl、CaCO₃、CuO。加足量水搅拌过滤，滤渣加足量稀盐酸有气体产生且固体部分溶解、溶液呈蓝色。则原混合物一定含有",
+    "options": [
+      {
+        "key": "A",
+        "text": "CaCO₃ 和 CuO"
+      },
+      {
+        "key": "B",
+        "text": "仅 NaCl"
+      },
+      {
+        "key": "C",
+        "text": "仅 CuO"
+      },
+      {
+        "key": "D",
+        "text": "仅 CaCO₃"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "滤渣不溶→非 NaCl；产气→碳酸盐；蓝色→Cu²⁺→CuO",
+    "conditionAnalysis": [
+      "多步现象合取"
+    ],
+    "steps": [
+      "气体→CaCO₃",
+      "蓝色→CuO",
+      "NaCl 是否存在未知",
+      "一定有 CaCO₃ 与 CuO"
+    ],
+    "coreMethod": "过滤分段 + 现象锁定",
+    "commonMistakes": [
+      "断言必有 NaCl",
+      "漏 CuO"
+    ],
+    "similarFeatures": [
+      "固体混合物推断"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "mixture_infer"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "产气+蓝色同时需要二者",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "混合物推断"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "NaCl 不在滤渣",
+        "possibleWrongThinking": "忽略过滤",
+        "knowledgePoint": "溶解性"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "不能解释气体",
+        "possibleWrongThinking": "只看蓝色",
+        "knowledgePoint": "现象合取"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "不能解释蓝色",
+        "possibleWrongThinking": "只看气体",
+        "knowledgePoint": "现象合取"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.08",
+    "sourceModelId": "ADV.inference.006",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "离子推断"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "无色溶液中可能大量存在的离子组是（已知溶液呈中性）",
+    "options": [
+      {
+        "key": "A",
+        "text": "Na⁺、K⁺、Cl⁻、NO₃⁻"
+      },
+      {
+        "key": "B",
+        "text": "H⁺、OH⁻、Na⁺、Cl⁻"
+      },
+      {
+        "key": "C",
+        "text": "Fe³⁺、Cl⁻、Na⁺、SO₄²⁻"
+      },
+      {
+        "key": "D",
+        "text": "Cu²⁺、Cl⁻、Na⁺、NO₃⁻"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "无色排除 Fe³⁺、Cu²⁺；中性且大量共存排除 H⁺/OH⁻ 同组",
+    "conditionAnalysis": [
+      "颜色+共存"
+    ],
+    "steps": [
+      "排除有色",
+      "排除酸碱大量共存",
+      "选 A"
+    ],
+    "coreMethod": "约束条件下离子组筛选",
+    "commonMistakes": [
+      "忽略颜色"
+    ],
+    "similarFeatures": [
+      "有色+共存综合"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "color_coexistence_infer"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "无色可共存且可中性",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "离子共存"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "H⁺ 与 OH⁻ 大量生成水",
+        "possibleWrongThinking": "中性就两者都有的误解",
+        "knowledgePoint": "共存"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "Fe³⁺ 有色",
+        "possibleWrongThinking": "忽略颜色条件",
+        "knowledgePoint": "离子颜色"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "Cu²⁺ 有色",
+        "possibleWrongThinking": "忽略颜色条件",
+        "knowledgePoint": "离子颜色"
+      }
+    ]
+  },
+  {
+    "id": "S60.comprehensive.01",
+    "sourceModelId": "ADV.comprehensive.001",
+    "specialtyCode": "comprehensive",
+    "categoryCodes": [
+      "multi_concept"
+    ],
+    "knowledgePoints": [
+      "氧化还原",
+      "离子反应"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "下列反应既是氧化还原反应，又能写出离子方程式的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Zn + 2HCl = ZnCl₂ + H₂↑（溶液中）"
+      },
+      {
+        "key": "B",
+        "text": "2H₂ + O₂ = 2H₂O（点燃，气体反应）"
+      },
+      {
+        "key": "C",
+        "text": "NaOH + HCl = NaCl + H₂O"
+      },
+      {
+        "key": "D",
+        "text": "CaCO₃ =高温=> CaO + CO₂↑"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "先判氧化还原，再看是否在溶液中发生离子反应",
+    "conditionAnalysis": [
+      "A 有价变且在溶液",
+      "B 氧化还原但非溶液离子反应语境",
+      "C 离子反应但非氧化还原",
+      "D 非氧化还原"
+    ],
+    "steps": [
+      "价变：A、B",
+      "离子方程式适用溶液反应：A",
+      "选 A"
+    ],
+    "coreMethod": "双条件筛选",
+    "commonMistakes": [
+      "只看氧化还原选 B",
+      "只看离子选 C"
+    ],
+    "similarFeatures": [
+      "交叉概念综合"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "cross_redox_ion"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "氧化还原且可写 Zn+2H⁺=Zn²⁺+H₂↑",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "交叉概念"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "非溶液离子反应",
+        "possibleWrongThinking": "只盯氧化还原",
+        "knowledgePoint": "离子方程式适用条件"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "无价变",
+        "possibleWrongThinking": "只盯能写离子方程式",
+        "knowledgePoint": "氧化还原识别"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "无价变且非溶液离子反应",
+        "possibleWrongThinking": "分解反应误判",
+        "knowledgePoint": "反应类型"
+      }
+    ]
+  },
+  {
+    "id": "S60.comprehensive.02",
+    "sourceModelId": "ADV.comprehensive.001",
+    "specialtyCode": "comprehensive",
+    "categoryCodes": [
+      "multi_concept"
+    ],
+    "knowledgePoints": [
+      "化学计算",
+      "实验"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "用排水法收集到 224 mL（标准状况）氢气。若忽略溶解与测量误差，生成该氢气消耗的锌（与足量稀硫酸反应）质量约为（Zn=65，标准状况下气体摩尔体积 22.4 L/mol）",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.65 g"
+      },
+      {
+        "key": "B",
+        "text": "1.30 g"
+      },
+      {
+        "key": "C",
+        "text": "6.5 g"
+      },
+      {
+        "key": "D",
+        "text": "0.065 g"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "n(H₂)=0.01 mol；Zn～H₂ → m(Zn)=0.65 g",
+    "conditionAnalysis": [
+      "标准状况体积换算",
+      "足量酸"
+    ],
+    "steps": [
+      "0.224 L / 22.4 = 0.01 mol",
+      "m=0.01×65=0.65 g"
+    ],
+    "coreMethod": "气态摩尔体积 + 计量关系",
+    "commonMistakes": [
+      "忘记换成升",
+      "系数翻倍"
+    ],
+    "similarFeatures": [
+      "实验收集量反算"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "gas_mass_calc"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "0.01×65=0.65",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "气态摩尔体积"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "翻倍",
+        "possibleWrongThinking": "误用 2Zn 或体积单位错后补偿",
+        "knowledgePoint": "计量比"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "差 10 倍",
+        "possibleWrongThinking": "体积单位未换算",
+        "knowledgePoint": "单位换算"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "差 10 倍偏小",
+        "possibleWrongThinking": "摩尔质量用错",
+        "knowledgePoint": "计算"
+      }
+    ]
+  },
+  {
+    "id": "S60.comprehensive.03",
+    "sourceModelId": "ADV.comprehensive.002",
+    "specialtyCode": "comprehensive",
+    "categoryCodes": [
+      "multi_concept"
+    ],
+    "knowledgePoints": [
+      "离子共存",
+      "氧化还原意识"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "酸性条件下，下列离子组一定不能大量共存的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fe³⁺、I⁻、Na⁺、SO₄²⁻"
+      },
+      {
+        "key": "B",
+        "text": "Na⁺、K⁺、Cl⁻、NO₃⁻"
+      },
+      {
+        "key": "C",
+        "text": "Na⁺、K⁺、SO₄²⁻、Cl⁻"
+      },
+      {
+        "key": "D",
+        "text": "H⁺、Na⁺、Cl⁻、SO₄²⁻"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "酸性只是背景；关键是 Fe³⁺ 氧化 I⁻",
+    "conditionAnalysis": [
+      "常见氧化还原共存限制"
+    ],
+    "steps": [
+      "B/C/D 可共存",
+      "A 发生 2Fe³⁺+2I⁻=2Fe²⁺+I₂"
+    ],
+    "coreMethod": "共存 + 氧化还原排查",
+    "commonMistakes": [
+      "只查沉淀忽略氧化还原"
+    ],
+    "similarFeatures": [
+      "高级共存"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "coexistence_redox"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "Fe³⁺ 氧化 I⁻",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "氧化还原共存"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "可共存，不是答案",
+        "possibleWrongThinking": "过度排除硝酸根",
+        "knowledgePoint": "共存"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "可共存",
+        "possibleWrongThinking": "无依据排除",
+        "knowledgePoint": "共存"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "酸性下可共存",
+        "possibleWrongThinking": "看见 H⁺ 就否",
+        "knowledgePoint": "酸性共存"
+      }
+    ]
+  },
+  {
+    "id": "S60.comprehensive.04",
+    "sourceModelId": "ADV.comprehensive.002",
+    "specialtyCode": "comprehensive",
+    "categoryCodes": [
+      "multi_concept"
+    ],
+    "knowledgePoints": [
+      "过量计算",
+      "离子方程式"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "向 100 mL 0.1 mol/L Ba(OH)₂ 溶液中加入 100 mL 0.1 mol/L H₂SO₄，恰好反应后，下列说法正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "溶液中几乎无 Ba²⁺、OH⁻、H⁺、SO₄²⁻ 大量存在"
+      },
+      {
+        "key": "B",
+        "text": "溶液中仍有大量 Ba²⁺ 与 OH⁻"
+      },
+      {
+        "key": "C",
+        "text": "溶液中仍有大量 H⁺ 与 SO₄²⁻"
+      },
+      {
+        "key": "D",
+        "text": "溶液中仍有大量 Ba²⁺ 与 SO₄²⁻"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "n[Ba(OH)₂]=0.01 mol，n(H₂SO₄)=0.01 mol，恰好生成 BaSO₄ 与水",
+    "conditionAnalysis": [
+      "Ba²⁺+SO₄²⁻→沉淀；H⁺+OH⁻→水"
+    ],
+    "steps": [
+      "计量恰好",
+      "主要离子被消耗完"
+    ],
+    "coreMethod": "计量判断残留离子",
+    "commonMistakes": [
+      "认为仍有大量 Ba²⁺ 与 SO₄²⁻"
+    ],
+    "similarFeatures": [
+      "中和沉淀综合"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "stoich_residual_ions"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "恰好完全，主要离子残留可忽略",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "过量判断"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "碱已耗尽",
+        "possibleWrongThinking": "未算计量",
+        "knowledgePoint": "计量"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "酸已耗尽",
+        "possibleWrongThinking": "以为酸过量",
+        "knowledgePoint": "计量"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "二者生成沉淀不能大量共存",
+        "possibleWrongThinking": "忽略沉淀",
+        "knowledgePoint": "沉淀反应"
+      }
+    ]
+  },
+  {
+    "id": "S60.comprehensive.05",
+    "sourceModelId": "ADV.comprehensive.003",
+    "specialtyCode": "comprehensive",
+    "categoryCodes": [
+      "multi_concept"
+    ],
+    "knowledgePoints": [
+      "实验",
+      "推断"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "未知固体可能是 Na₂CO₃ 或 NaCl。为鉴别二者，最合理的试剂与方法是",
+    "options": [
+      {
+        "key": "A",
+        "text": "稀盐酸，观察是否产生使澄清石灰水变浑浊的气体"
+      },
+      {
+        "key": "B",
+        "text": "蒸馏水，观察是否溶解"
+      },
+      {
+        "key": "C",
+        "text": "酚酞试液"
+      },
+      {
+        "key": "D",
+        "text": "仅用酒精灯加热观察"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "碳酸盐与酸产 CO₂；氯化钠不产气",
+    "conditionAnalysis": [
+      "现象差异明显；酚酞依赖水解，不如产气直观"
+    ],
+    "steps": [
+      "加酸",
+      "有气体且石灰水验证→碳酸盐"
+    ],
+    "coreMethod": "鉴别试剂选择",
+    "commonMistakes": [
+      "只加水"
+    ],
+    "similarFeatures": [
+      "固体鉴别"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "identify_solid"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "产气差异清晰",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "鉴别"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "二者均易溶",
+        "possibleWrongThinking": "溶解性鉴别刻板",
+        "knowledgePoint": "溶解性"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "不如产气直观，且依赖水解知识",
+        "possibleWrongThinking": "指示剂万能",
+        "knowledgePoint": "鉴别方法比较"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "加热无明显区分",
+        "possibleWrongThinking": "加热万能",
+        "knowledgePoint": "鉴别方法"
+      }
+    ]
+  },
+  {
+    "id": "S60.comprehensive.06",
+    "sourceModelId": "ADV.comprehensive.003",
+    "specialtyCode": "comprehensive",
+    "categoryCodes": [
+      "multi_concept"
+    ],
+    "knowledgePoints": [
+      "守恒",
+      "氧化还原"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "在反应 2FeCl₃ + Fe = 3FeCl₂ 中，若有 0.2 mol FeCl₃ 被还原，则被氧化的 Fe 的物质的量为",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.1 mol"
+      },
+      {
+        "key": "B",
+        "text": "0.2 mol"
+      },
+      {
+        "key": "C",
+        "text": "0.3 mol"
+      },
+      {
+        "key": "D",
+        "text": "0.4 mol"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "2Fe³⁺～Fe；0.2 mol FeCl₃ 被还原对应 0.1 mol Fe 被氧化",
+    "conditionAnalysis": [
+      "电子守恒：Fe³⁺→Fe²⁺ 得 1e；Fe→Fe²⁺ 失 2e"
+    ],
+    "steps": [
+      "2 mol FeCl₃ 对应 1 mol Fe",
+      "0.2→0.1"
+    ],
+    "coreMethod": "计量比 + 电子守恒核对",
+    "commonMistakes": [
+      "1:1 答 0.2"
+    ],
+    "similarFeatures": [
+      "指定被还原量求被氧化量"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "redox_stoich_comp"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "2:1 关系",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "电子守恒"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "按 1:1",
+        "possibleWrongThinking": "忽略系数",
+        "knowledgePoint": "计量比"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "用产物系数 3",
+        "possibleWrongThinking": "乱乘 3",
+        "knowledgePoint": "计量比"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "加倍错误",
+        "possibleWrongThinking": "电子数算反再补偿",
+        "knowledgePoint": "电子守恒"
+      }
+    ]
+  },
+  {
+    "id": "S60.comprehensive.07",
+    "sourceModelId": "ADV.comprehensive.004",
+    "specialtyCode": "comprehensive",
+    "categoryCodes": [
+      "multi_concept"
+    ],
+    "knowledgePoints": [
+      "图像",
+      "过量"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "向一定量稀盐酸中逐滴加入 NaOH 溶液至过量，溶液中 H⁺ 数目随加入 NaOH 的物质的量变化的趋势是",
+    "options": [
+      {
+        "key": "A",
+        "text": "逐渐减少；过量碱后 H⁺ 数目保持在极低水平"
+      },
+      {
+        "key": "B",
+        "text": "一直增大"
+      },
+      {
+        "key": "C",
+        "text": "先增大后减小"
+      },
+      {
+        "key": "D",
+        "text": "始终不变"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "中和消耗 H⁺；过量碱后溶液呈碱性，H⁺ 极少",
+    "conditionAnalysis": [
+      "定性趋势题"
+    ],
+    "steps": [
+      "加碱中和→H⁺ 减少",
+      "过量后仍不是 H⁺ 增大"
+    ],
+    "coreMethod": "中和过程离子变化",
+    "commonMistakes": [
+      "认为一直不变"
+    ],
+    "similarFeatures": [
+      "滴加过程分析"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "titration_trend"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "H⁺ 被中和减少，过量碱后仍很低",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "中和过程"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "中和不会使 H⁺ 增大",
+        "possibleWrongThinking": "体积变化误解",
+        "knowledgePoint": "中和"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "趋势相反",
+        "possibleWrongThinking": "与某曲线记忆混淆",
+        "knowledgePoint": "过程分析"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "中和消耗 H⁺",
+        "possibleWrongThinking": "忽略反应",
+        "knowledgePoint": "中和"
+      }
+    ]
+  },
+  {
+    "id": "S60.comprehensive.08",
+    "sourceModelId": "ADV.comprehensive.005",
+    "specialtyCode": "comprehensive",
+    "categoryCodes": [
+      "multi_concept"
+    ],
+    "knowledgePoints": [
+      "过量计算",
+      "碳的氧化物",
+      "方程式计量"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "将 12 g 碳与 16 g 氧气置于密闭容器中点燃并充分反应（C=12，O₂=32）。已知氧气不足以把碳全部氧化为 CO₂，但按生成 CO 的计量恰好耗尽。下列判断正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "生成 1 mol CO₂"
+      },
+      {
+        "key": "B",
+        "text": "生成 1 mol CO"
+      },
+      {
+        "key": "C",
+        "text": "生成 0.5 mol CO₂，且碳有剩余"
+      },
+      {
+        "key": "D",
+        "text": "生成 2 mol CO"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "先算 n(C)、n(O₂)，再比较生成 CO₂ 与生成 CO 所需氧气，判断限制反应路径",
+    "conditionAnalysis": [
+      "n(C)=12/12=1 mol，n(O₂)=16/32=0.5 mol",
+      "若全部生成 CO₂：C+O₂=CO₂ 需 1 mol O₂，现仅 0.5 mol，不足",
+      "若全部生成 CO：C+1/2O₂=CO 需 0.5 mol O₂，与现有氧气恰好"
+    ],
+    "steps": [
+      "计算物质的量：n(C)=1 mol，n(O₂)=0.5 mol",
+      "按生成 CO₂ 检验：需 O₂ 1 mol > 0.5 mol，不能全部生成 CO₂，排除 A",
+      "按生成 CO 检验：1 mol C 需 0.5 mol O₂，恰好完全，生成 1 mol CO",
+      "C 未按充分反应下的产物路径处理；D 的 2 mol CO 缺少碳来源",
+      "故答案为 B"
+    ],
+    "coreMethod": "过量判断 + 不同产物路径的氧气需求比较",
+    "commonMistakes": [
+      "未判断氧气不足仍按 CO₂ 计量",
+      "把氧气 0.5 mol 直接当成 CO₂ 物质的量",
+      "忽略“按生成 CO 恰好耗尽”的条件"
+    ],
+    "similarFeatures": [
+      "密闭体系碳燃烧产物由氧气量决定"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "combustion_calc_comp"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "生成 CO₂ 需 1 mol O₂，实际只有 0.5 mol",
+        "possibleWrongThinking": "可能只算了碳为 1 mol 就当作 CO₂",
+        "knowledgePoint": "过量判断"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "按 C+1/2O₂=CO，1 mol C 与 0.5 mol O₂ 恰好生成 1 mol CO",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "限制反应物计量"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "未正确处理充分反应下的产物路径",
+        "possibleWrongThinking": "可能用 O₂ 直接当 CO₂ 物质的量",
+        "knowledgePoint": "燃烧产物判断"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "碳只有 1 mol，不可能生成 2 mol CO",
+        "possibleWrongThinking": "可能把质量数字误当成物质的量再翻倍",
+        "knowledgePoint": "原子守恒"
+      }
+    ],
+    "fixNote": "upgrade_oxygen_limiting_CO_vs_CO2",
+    "fixedAt": "2026-10-20T01:04:55.039Z"
+  }
+]

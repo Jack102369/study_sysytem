@@ -1,0 +1,698 @@
+[
+  {
+    "id": "S60.inference.01",
+    "sourceModelId": "ADV.inference.001",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "物质推断",
+      "酸碱盐"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "无色溶液 X 滴入酚酞变红；通入过量 CO₂ 后红色褪去并有白色沉淀；沉淀可溶于盐酸并产生气体。则 X 中大量存在的阴离子最可能是",
+    "options": [
+      {
+        "key": "A",
+        "text": "OH⁻"
+      },
+      {
+        "key": "B",
+        "text": "H⁺"
+      },
+      {
+        "key": "C",
+        "text": "仅有 Cl⁻ 而无 OH⁻"
+      },
+      {
+        "key": "D",
+        "text": "SO₄²⁻（且溶液显酸性）"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "酚酞变红→碱性→OH⁻；通 CO₂ 生成可溶于酸并产气的碳酸盐沉淀",
+    "conditionAnalysis": [
+      "无色",
+      "碱性",
+      "碳酸盐沉淀可溶于酸产气"
+    ],
+    "steps": [
+      "变红→碱性阴离子 OH⁻",
+      "排除酸性选项"
+    ],
+    "coreMethod": "现象→离子性质反推",
+    "commonMistakes": [
+      "忽略碱性指示"
+    ],
+    "similarFeatures": [
+      "短推断"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "phenomenon_to_ion"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "碱性指示剂指向 OH⁻",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "指示剂"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "酸性不应使酚酞变红",
+        "possibleWrongThinking": "指示剂记忆错误",
+        "knowledgePoint": "指示剂"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "仅 Cl⁻ 不使酚酞变红",
+        "possibleWrongThinking": "忽略指示剂信息",
+        "knowledgePoint": "现象推理"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "酸性与变红矛盾",
+        "possibleWrongThinking": "沉淀联想硫酸根",
+        "knowledgePoint": "酸碱性"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.02",
+    "sourceModelId": "ADV.inference.001",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "气体推断"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "气体 Y 能使澄清石灰水变浑浊，也能使燃着的木条熄灭。Y 最可能是",
+    "options": [
+      {
+        "key": "A",
+        "text": "CO₂"
+      },
+      {
+        "key": "B",
+        "text": "O₂"
+      },
+      {
+        "key": "C",
+        "text": "H₂"
+      },
+      {
+        "key": "D",
+        "text": "N₂"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "石灰水变浑浊是 CO₂ 特征；不支持燃烧",
+    "conditionAnalysis": [
+      "两现象合取"
+    ],
+    "steps": [
+      "O₂ 助燃排除",
+      "H₂ 可燃排除",
+      "N₂ 不使石灰水浑浊",
+      "选 CO₂"
+    ],
+    "coreMethod": "特征现象合取",
+    "commonMistakes": [
+      "只看熄灭选 N₂"
+    ],
+    "similarFeatures": [
+      "气体鉴别"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "gas_infer"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "两现象均符合",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "CO₂ 性质"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "助燃",
+        "possibleWrongThinking": "忽略木条熄灭",
+        "knowledgePoint": "气体性质"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "可燃且不使石灰水浑浊",
+        "possibleWrongThinking": "气体种类记忆混乱",
+        "knowledgePoint": "气体性质"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "不使石灰水变浑浊",
+        "possibleWrongThinking": "只依据熄灭",
+        "knowledgePoint": "特征检验"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.03",
+    "sourceModelId": "ADV.inference.002",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "沉淀推断"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "溶液中加入 BaCl₂ 产生不溶于稀硝酸的白色沉淀，该沉淀最可能是",
+    "options": [
+      {
+        "key": "A",
+        "text": "BaSO₄"
+      },
+      {
+        "key": "B",
+        "text": "BaCO₃"
+      },
+      {
+        "key": "C",
+        "text": "BaSO₃"
+      },
+      {
+        "key": "D",
+        "text": "AgCl"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "不溶于稀硝酸的钡盐白色沉淀→BaSO₄",
+    "conditionAnalysis": [
+      "碳酸钡、亚硫酸钡可溶于酸"
+    ],
+    "steps": [
+      "排除溶于酸的 BaCO₃、BaSO₃",
+      "排除未加银盐的 AgCl",
+      "选 BaSO₄"
+    ],
+    "coreMethod": "酸溶性质区分沉淀",
+    "commonMistakes": [
+      "选碳酸钡"
+    ],
+    "similarFeatures": [
+      "硫酸根检验"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "precipitate_infer"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "不溶于稀硝酸",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "硫酸根检验"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "溶于酸",
+        "possibleWrongThinking": "见钡白色沉淀就选碳酸盐",
+        "knowledgePoint": "沉淀溶解性"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "亚硫酸钡可溶于酸",
+        "possibleWrongThinking": "与硫酸钡混淆",
+        "knowledgePoint": "沉淀溶解性"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "试剂是 BaCl₂ 不是 AgNO₃",
+        "possibleWrongThinking": "不溶沉淀刻板联想到 AgCl",
+        "knowledgePoint": "试剂对应"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.04",
+    "sourceModelId": "ADV.inference.002",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "金属活动性"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "金属 M 能与稀盐酸反应产生氢气，金属 N 不能。则下列判断正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "在氢前/氢后框架下，M 的金属活动性比 N 强"
+      },
+      {
+        "key": "B",
+        "text": "N 一定比 M 活泼"
+      },
+      {
+        "key": "C",
+        "text": "M 一定是铜"
+      },
+      {
+        "key": "D",
+        "text": "N 一定是钾"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "能置换酸中氢→位于氢前；不能→氢后或不反应",
+    "conditionAnalysis": [
+      "相对活动性比较"
+    ],
+    "steps": [
+      "M 在 H 前，N 不在或更弱",
+      "选 A"
+    ],
+    "coreMethod": "置换氢判活动性",
+    "commonMistakes": [
+      "绝对指定具体金属"
+    ],
+    "similarFeatures": [
+      "活动性推断"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "activity_infer"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "相对活动性结论成立",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "金属活动性"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "与事实相反",
+        "possibleWrongThinking": "逻辑颠倒",
+        "knowledgePoint": "金属活动性"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "铜不与稀盐酸反应",
+        "possibleWrongThinking": "常见金属乱填",
+        "knowledgePoint": "金属活动性"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "钾能剧烈反应",
+        "possibleWrongThinking": "活泼金属乱填",
+        "knowledgePoint": "金属活动性"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.05",
+    "sourceModelId": "ADV.inference.003",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "框图推断",
+      "转化"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "单质 A 在氧气中燃烧生成气体 B；B 能使澄清石灰水变浑浊，且不能使品红溶液褪色。则 A、B 最可能是",
+    "options": [
+      {
+        "key": "A",
+        "text": "C、CO₂"
+      },
+      {
+        "key": "B",
+        "text": "S、SO₂"
+      },
+      {
+        "key": "C",
+        "text": "H₂、H₂O(g)"
+      },
+      {
+        "key": "D",
+        "text": "Fe、Fe₃O₄"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "石灰水变浑浊且品红不褪色→CO₂ 而非 SO₂；单质为碳",
+    "conditionAnalysis": [
+      "B 为气体",
+      "品红区分 CO₂/SO₂"
+    ],
+    "steps": [
+      "排除 Fe（产物非气体）",
+      "排除 H₂（不使石灰水浑浊）",
+      "SO₂ 使品红褪色排除",
+      "选 A：C、CO₂"
+    ],
+    "coreMethod": "特征试剂区分相似气体",
+    "commonMistakes": [
+      "忽略品红条件选硫"
+    ],
+    "similarFeatures": [
+      "燃烧产物推断"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "combustion_infer",
+      "gas_distinguish"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "CO₂ 使石灰水浑浊且通常不使品红褪色",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "气体鉴别"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "SO₂ 使品红褪色",
+        "possibleWrongThinking": "只看石灰水忽略品红",
+        "knowledgePoint": "SO₂ 性质"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "水蒸气不使石灰水变浑浊",
+        "possibleWrongThinking": "燃烧产物联想错误",
+        "knowledgePoint": "气体性质"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "产物不是气体",
+        "possibleWrongThinking": "忽略物态",
+        "knowledgePoint": "审题"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.06",
+    "sourceModelId": "ADV.inference.003",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "物质转化"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "物质转化：CaCO₃ --高温--> X --与水--> Y --通入 CO₂--> 又得 CaCO₃。则 X、Y 依次为",
+    "options": [
+      {
+        "key": "A",
+        "text": "CaO、Ca(OH)₂"
+      },
+      {
+        "key": "B",
+        "text": "Ca(OH)₂、CaO"
+      },
+      {
+        "key": "C",
+        "text": "CaCl₂、Ca(OH)₂"
+      },
+      {
+        "key": "D",
+        "text": "CO₂、H₂O"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "碳酸钙高温分解得 CaO；CaO 与水得石灰水；再通 CO₂ 沉淀",
+    "conditionAnalysis": [
+      "经典石灰转化链"
+    ],
+    "steps": [
+      "高温→CaO",
+      "与水→Ca(OH)₂",
+      "通 CO₂→CaCO₃"
+    ],
+    "coreMethod": "转化链还原",
+    "commonMistakes": [
+      "X/Y 颠倒"
+    ],
+    "similarFeatures": [
+      "钙循环"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "calcium_cycle"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "标准转化",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "钙化合物转化"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "顺序颠倒",
+        "possibleWrongThinking": "记混顺序",
+        "knowledgePoint": "转化顺序"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "高温不生成 CaCl₂",
+        "possibleWrongThinking": "随意掺氯",
+        "knowledgePoint": "分解反应"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "与后续与水步骤不匹配",
+        "possibleWrongThinking": "只盯气体产物",
+        "knowledgePoint": "转化链"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.07",
+    "sourceModelId": "ADV.inference.004",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "混合物分离推断"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "固体混合物可能含 NaCl、CaCO₃、CuO。加足量水搅拌过滤，滤渣加足量稀盐酸有气体产生且固体部分溶解、溶液呈蓝色。则原混合物一定含有",
+    "options": [
+      {
+        "key": "A",
+        "text": "CaCO₃ 和 CuO"
+      },
+      {
+        "key": "B",
+        "text": "仅 NaCl"
+      },
+      {
+        "key": "C",
+        "text": "仅 CuO"
+      },
+      {
+        "key": "D",
+        "text": "仅 CaCO₃"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "滤渣不溶→非 NaCl；产气→碳酸盐；蓝色→Cu²⁺→CuO",
+    "conditionAnalysis": [
+      "多步现象合取"
+    ],
+    "steps": [
+      "气体→CaCO₃",
+      "蓝色→CuO",
+      "NaCl 是否存在未知",
+      "一定有 CaCO₃ 与 CuO"
+    ],
+    "coreMethod": "过滤分段 + 现象锁定",
+    "commonMistakes": [
+      "断言必有 NaCl",
+      "漏 CuO"
+    ],
+    "similarFeatures": [
+      "固体混合物推断"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "mixture_infer"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "产气+蓝色同时需要二者",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "混合物推断"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "NaCl 不在滤渣",
+        "possibleWrongThinking": "忽略过滤",
+        "knowledgePoint": "溶解性"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "不能解释气体",
+        "possibleWrongThinking": "只看蓝色",
+        "knowledgePoint": "现象合取"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "不能解释蓝色",
+        "possibleWrongThinking": "只看气体",
+        "knowledgePoint": "现象合取"
+      }
+    ]
+  },
+  {
+    "id": "S60.inference.08",
+    "sourceModelId": "ADV.inference.006",
+    "specialtyCode": "inference",
+    "categoryCodes": [
+      "block_infer"
+    ],
+    "knowledgePoints": [
+      "离子推断"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "无色溶液中可能大量存在的离子组是（已知溶液呈中性）",
+    "options": [
+      {
+        "key": "A",
+        "text": "Na⁺、K⁺、Cl⁻、NO₃⁻"
+      },
+      {
+        "key": "B",
+        "text": "H⁺、OH⁻、Na⁺、Cl⁻"
+      },
+      {
+        "key": "C",
+        "text": "Fe³⁺、Cl⁻、Na⁺、SO₄²⁻"
+      },
+      {
+        "key": "D",
+        "text": "Cu²⁺、Cl⁻、Na⁺、NO₃⁻"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "无色排除 Fe³⁺、Cu²⁺；中性且大量共存排除 H⁺/OH⁻ 同组",
+    "conditionAnalysis": [
+      "颜色+共存"
+    ],
+    "steps": [
+      "排除有色",
+      "排除酸碱大量共存",
+      "选 A"
+    ],
+    "coreMethod": "约束条件下离子组筛选",
+    "commonMistakes": [
+      "忽略颜色"
+    ],
+    "similarFeatures": [
+      "有色+共存综合"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "color_coexistence_infer"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "无色可共存且可中性",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "离子共存"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "H⁺ 与 OH⁻ 大量生成水",
+        "possibleWrongThinking": "中性就两者都有的误解",
+        "knowledgePoint": "共存"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "Fe³⁺ 有色",
+        "possibleWrongThinking": "忽略颜色条件",
+        "knowledgePoint": "离子颜色"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "Cu²⁺ 有色",
+        "possibleWrongThinking": "忽略颜色条件",
+        "knowledgePoint": "离子颜色"
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "seededCount": 10,
+  "seededCodes": [
+    "el.H",
+    "el.O",
+    "el.Na",
+    "el.Cl",
+    "concept.redox",
+    "formula.n_m_M",
+    "kp.redox",
+    "kp.redox.valence_change",
+    "kp.redox.oxidant",
+    "kp.redox.reductant"
+  ],
+  "notes": [
+    "H/O/Na/Cl：已有 published 核心字段（符号/序数/质量/周期族/化合价/电子排布/用途）。建议补充：name_en 完整英文、atom_structure 更规范表述、common_compounds 列表；不自动覆盖。",
+    "concept.redox：定义较短，建议后续审核时补充“易混：氧化剂vs氧化产物”等，不自动覆盖。",
+    "formula.n_m_M：表达式已有，建议补充单位与更多例题字段（若库中为空）。",
+    "kp.redox 及子节点：描述偏短，建议审核时加长说明；parent 关系已存在。"
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "successCount": 21,
+  "failCount": 0,
+  "results": [
+    {
+      "index": 0,
+      "type": "knowledge",
+      "ok": true,
+      "id": "6",
+      "errors": []
+    },
+    {
+      "index": 1,
+      "type": "knowledge",
+      "ok": true,
+      "id": "7",
+      "errors": []
+    },
+    {
+      "index": 2,
+      "type": "knowledge",
+      "ok": true,
+      "id": "8",
+      "errors": []
+    },
+    {
+      "index": 3,
+      "type": "knowledge",
+      "ok": true,
+      "id": "9",
+      "errors": []
+    },
+    {
+      "index": 4,
+      "type": "knowledge",
+      "ok": true,
+      "id": "10",
+      "errors": []
+    },
+    {
+      "index": 5,
+      "type": "knowledge",
+      "ok": true,
+      "id": "11",
+      "errors": []
+    },
+    {
+      "index": 6,
+      "type": "knowledge",
+      "ok": true,
+      "id": "12",
+      "errors": []
+    },
+    {
+      "index": 7,
+      "type": "knowledge",
+      "ok": true,
+      "id": "13",
+      "errors": []
+    },
+    {
+      "index": 8,
+      "type": "knowledge",
+      "ok": true,
+      "id": "14",
+      "errors": []
+    },
+    {
+      "index": 9,
+      "type": "knowledge",
+      "ok": true,
+      "id": "15",
+      "errors": []
+    },
+    {
+      "index": 10,
+      "type": "knowledge",
+      "ok": true,
+      "id": "16",
+      "errors": []
+    },
+    {
+      "index": 11,
+      "type": "knowledge",
+      "ok": true,
+      "id": "17",
+      "errors": []
+    },
+    {
+      "index": 12,
+      "type": "knowledge",
+      "ok": true,
+      "id": "18",
+      "errors": []
+    },
+    {
+      "index": 13,
+      "type": "knowledge",
+      "ok": true,
+      "id": "19",
+      "errors": []
+    },
+    {
+      "index": 14,
+      "type": "knowledge",
+      "ok": true,
+      "id": "20",
+      "errors": []
+    },
+    {
+      "index": 15,
+      "type": "knowledge",
+      "ok": true,
+      "id": "21",
+      "errors": []
+    },
+    {
+      "index": 16,
+      "type": "knowledge",
+      "ok": true,
+      "id": "22",
+      "errors": []
+    },
+    {
+      "index": 17,
+      "type": "knowledge",
+      "ok": true,
+      "id": "23",
+      "errors": []
+    },
+    {
+      "index": 18,
+      "type": "knowledge",
+      "ok": true,
+      "id": "24",
+      "errors": []
+    },
+    {
+      "index": 19,
+      "type": "knowledge",
+      "ok": true,
+      "id": "25",
+      "errors": []
+    },
+    {
+      "index": 20,
+      "type": "knowledge",
+      "ok": true,
+      "id": "26",
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,7281 @@
+{
+  "updatedAt": "2026-10-18T12:15:30.319Z",
+  "done": 358,
+  "failures": [],
+  "results": [
+    {
+      "code": "el.He",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号He、原子序数2、中文名氦、英文名Helium均正确",
+        "分类为惰性气体（稀有气体）符合高一表述",
+        "dbReviewNote已修正为最轻稀有气体，表述准确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "element",
+      "name": "氦",
+      "batch": "batch2",
+      "dbId": "5",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:53.870Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Li",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号Li、原子序数3、中文名锂、英文名Lithium均正确",
+        "分类为金属符合碱金属族事实"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "element",
+      "name": "锂",
+      "batch": "batch2",
+      "dbId": "6",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:53.872Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Be",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号Be、原子序数4、中文名铍、英文名Beryllium均正确",
+        "dbReviewNote限定仅保留基础信息、复杂性质作了解，范围控制合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "element",
+      "name": "铍",
+      "batch": "batch2",
+      "dbId": "7",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:53.872Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.B",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号B、原子序数5、中文名硼、英文名Boron均正确",
+        "分类为非金属符合事实"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "element",
+      "name": "硼",
+      "batch": "batch2",
+      "dbId": "8",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:53.872Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.C",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "元素符号C、原子序数6、中文名碳、英文名Carbon均正确",
+        "分类为非金属，符合高一/高考表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.97,
+      "type": "element",
+      "name": "碳",
+      "batch": "batch2",
+      "dbId": "9",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:55.775Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.N",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "元素符号N、原子序数7、中文名氮、英文名Nitrogen均正确",
+        "dbReviewNote中补常见化合价+1,+3属氮的常见价态，无科学错误"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "element",
+      "name": "氮",
+      "batch": "batch2",
+      "dbId": "10",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:55.775Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.F",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "元素符号F、原子序数9、中文名氟、英文名Fluorine均正确",
+        "分类非金属符合规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.97,
+      "type": "element",
+      "name": "氟",
+      "batch": "batch2",
+      "dbId": "11",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:55.775Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Ne",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "元素符号Ne、原子序数10、中文名氖、英文名Neon均正确",
+        "惰性气体分类正确（人教版常称稀有气体，属同义表述）"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "element",
+      "name": "氖",
+      "batch": "batch2",
+      "dbId": "12",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:55.775Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Mg",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号Mg、原子序数12、中文名镁、英文名Magnesium均正确",
+        "分类为金属，符合高一元素知识表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.98,
+      "type": "element",
+      "name": "镁",
+      "batch": "batch2",
+      "dbId": "13",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:57.647Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Al",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号Al、原子序数13、中文名铝正确",
+        "英文名Aluminium为IUPAC通行拼写，可接受"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.97,
+      "type": "element",
+      "name": "铝",
+      "batch": "batch2",
+      "dbId": "14",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:57.647Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Si",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号Si、原子序数14、中文名硅、英文名Silicon均正确",
+        "分类为非金属，符合课标表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.98,
+      "type": "element",
+      "name": "硅",
+      "batch": "batch2",
+      "dbId": "15",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:57.647Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.P",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号P、原子序数15、中文名磷、英文名Phosphorus均正确",
+        "分类为非金属，符合高一元素知识"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.98,
+      "type": "element",
+      "name": "磷",
+      "batch": "batch2",
+      "dbId": "16",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:57.647Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.S",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号S、原子序数16、中文名硫、英文Sulfur均正确",
+        "分类为非金属，符合高一教材表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.97,
+      "type": "element",
+      "name": "硫",
+      "batch": "batch2",
+      "dbId": "17",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:59.631Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Ar",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "符号Ar、原子序数18、名称氩/Argon正确",
+        "dbReviewNote标注相对原子质量待教材附录核实，证据不足"
+      ],
+      "issues": [
+        "相对原子质量约39.95未与所用教材附录核实"
+      ],
+      "fixHints": [
+        "核对人教版必修教材附录中Ar的相对原子质量后再定稿"
+      ],
+      "confidence": 0.8,
+      "type": "element",
+      "name": "氩",
+      "batch": "batch2",
+      "dbId": "18",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:59.631Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.K",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号K、原子序数19、中文名钾、英文Potassium均正确",
+        "分类为金属，符合教材表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.97,
+      "type": "element",
+      "name": "钾",
+      "batch": "batch2",
+      "dbId": "19",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:59.631Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Ca",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号Ca、原子序数20、中文名钙、英文Calcium均正确",
+        "分类为金属，符合教材表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.97,
+      "type": "element",
+      "name": "钙",
+      "batch": "batch2",
+      "dbId": "20",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:10:59.631Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Fe",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "元素符号Fe、原子序数26、中文名铁、英文名Iron均正确",
+        "分类为金属，符合高一元素化合物知识范围",
+        "dbReviewNote限定Fe2+/Fe3+核心，未超纲"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.98,
+      "type": "element",
+      "name": "铁",
+      "batch": "batch2",
+      "dbId": "21",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:01.523Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Cu",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "元素符号Cu、原子序数29、中文名铜、英文名Copper均正确",
+        "分类为金属，符合高一元素化合物知识范围"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.98,
+      "type": "element",
+      "name": "铜",
+      "batch": "batch2",
+      "dbId": "22",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:01.523Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Zn",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "元素符号Zn、原子序数30、中文名锌、英文名Zinc均正确",
+        "分类为金属，符合高一元素化合物知识范围"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.98,
+      "type": "element",
+      "name": "锌",
+      "batch": "batch2",
+      "dbId": "23",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:01.523Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Ag",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "元素符号Ag、原子序数47、中文名银、英文名Silver均正确",
+        "分类为金属，符合高一元素化合物知识范围"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.98,
+      "type": "element",
+      "name": "银",
+      "batch": "batch2",
+      "dbId": "24",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:01.523Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Ba",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号Ba、原子序数56、中文名钡、英文名Barium、金属分类均正确",
+        "属于元素符号/名称记忆类基础内容，符合高一及高考表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "element",
+      "name": "钡",
+      "batch": "batch2",
+      "dbId": "25",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:03.630Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.I",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号I、原子序数53、中文名碘、英文名Iodine、非金属分类均正确",
+        "dbReviewNote已限定I2/-1/淀粉变蓝为基础范围，复杂正价作拓展，范围合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "element",
+      "name": "碘",
+      "batch": "batch2",
+      "dbId": "26",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:03.630Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Mn",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号Mn、原子序数25、中文名锰、英文名Manganese、金属分类均正确",
+        "元素符号与名称记忆属基础内容，无超纲问题"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "element",
+      "name": "锰",
+      "batch": "batch2",
+      "dbId": "27",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:03.630Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Cr",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "符号Cr、原子序数24、中文名铬、英文名Chromium、金属分类均正确",
+        "dbReviewNote已限定基础+不锈钢了解、重铬酸盐不进默认训练，范围合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "element",
+      "name": "铬",
+      "batch": "batch2",
+      "dbId": "28",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:03.630Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "el.Br",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "溴的元素符号Br、原子序数35、中文名溴、英文名Bromine均正确",
+        "分类为非金属符合高一/高考表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.97,
+      "type": "element",
+      "name": "溴",
+      "batch": "batch2",
+      "dbId": "29",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:05.617Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.substance_class",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "分类层级（纯净物/混合物→单质/化合物→氧化物、酸、碱、盐）符合人教版必修一表述",
+        "举例O2、H2O、空气、NaOH、HCl、NaCl均正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "物质的分类",
+      "batch": "batch2",
+      "dbId": "2",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:05.617Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.pure_mixture",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "纯净物与混合物定义准确，强调各成分保持原有性质符合教材表述",
+        "举例蒸馏水、海水、空气、合金恰当"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "纯净物与混合物",
+      "batch": "batch2",
+      "dbId": "3",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:05.617Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.elemental_compound",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义已补“纯净物”，单质/化合物概念准确",
+        "举例O2、金刚石、CO2、NaCl均正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.96,
+      "type": "concept",
+      "name": "单质与化合物",
+      "batch": "batch2",
+      "dbId": "4",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:05.617Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.electrolyte",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义与教材一致：水溶液或熔融状态能导电的化合物",
+        "举例NaCl、H2SO4、NaOH为电解质，蔗糖、酒精为非电解质，符合规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "电解质",
+      "batch": "batch2",
+      "dbId": "5",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:07.849Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.nonelectrolyte",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义准确：水溶液和熔融状态均不导电的化合物",
+        "举例蔗糖、酒精、尿素均为非电解质，符合教材表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "非电解质",
+      "batch": "batch2",
+      "dbId": "6",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:07.849Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.ionization",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "定义基本正确，但电离方程式书写不规范：NaCl=Na++Cl- 应为 NaCl=Na⁺+Cl⁻，H2SO4=2H++SO42- 应为 H2SO4=2H⁺+SO₄²⁻",
+        "离子电荷上下标缺失，易误导学生书写规范"
+      ],
+      "issues": [
+        "电离方程式离子符号未标注电荷上下标（Na+、Cl-、SO42-）"
+      ],
+      "fixHints": [
+        "改为 NaCl=Na⁺+Cl⁻；H2SO4=2H⁺+SO₄²⁻"
+      ],
+      "confidence": 0.85,
+      "type": "concept",
+      "name": "电离",
+      "batch": "batch2",
+      "dbId": "7",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:07.849Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.ionic_reaction",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "离子反应定义与实质（离子浓度减小）表述准确",
+        "举例Ag⁺+Cl⁻=AgCl↓正确，符合高一规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "concept",
+      "name": "离子反应本质",
+      "batch": "batch2",
+      "dbId": "8",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:07.849Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.ion_coexist",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义准确：离子共存取决于离子间是否发生反应使离子大量减少",
+        "示例H+与OH-、Ba2+与SO42-不能大量共存正确，符合高一表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "离子共存条件",
+      "batch": "batch2",
+      "dbId": "9",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:10.260Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.oxidant_reductant",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义准确：氧化剂得电子化合价降低，还原剂失电子化合价升高",
+        "示例2Na+Cl2=2NaCl中Cl2为氧化剂、Na为还原剂正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "氧化剂与还原剂",
+      "batch": "batch2",
+      "dbId": "10",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:10.260Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.valence_rules",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "定义表述笼统，'化合能力'非规范术语，未给出具体规则内容",
+        "示例H2O、Al2O3化合价正确，但条目缺乏可操作的规则说明"
+      ],
+      "issues": [
+        "定义过于模糊，未列出常见化合价规则（如化合物中各元素化合价代数和为零）"
+      ],
+      "fixHints": [
+        "补充规范表述：化合物中各元素化合价代数和为零；单质中元素化合价为0等"
+      ],
+      "confidence": 0.8,
+      "type": "concept",
+      "name": "化合价规则",
+      "batch": "batch2",
+      "dbId": "11",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:10.260Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.periodic_law",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义准确，符合人教版必修表述：性质随原子序数递增呈周期性变化",
+        "示例第三周期Na到Cl性质递变恰当"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "元素周期律",
+      "batch": "batch2",
+      "dbId": "12",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:10.260Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.metal_trend",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义准确：同周期从左到右金属性减弱、同主族从上到下金属性增强，符合人教版必修与高考表述。",
+        "示例K>Na>Li、Na>Mg>Al正确，均为同主族/同周期典型比较。"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "金属性递变",
+      "batch": "batch2",
+      "dbId": "13",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:12.480Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.nonmetal_trend",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义准确：同周期从左到右非金属性增强、同主族从上到下非金属性减弱，符合课标表述。",
+        "示例F>Cl>Br>I为同主族典型递变，正确。"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "非金属性递变",
+      "batch": "batch2",
+      "dbId": "14",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:12.480Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.ionic_bond",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义采用'阴、阳离子之间通过静电作用形成'，为人教版标准表述，准确。",
+        "示例NaCl、MgO、CaF2均为典型离子化合物，恰当。"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "离子键",
+      "batch": "batch2",
+      "dbId": "15",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:12.480Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.covalent_bond",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义'原子间通过共用电子对形成'符合教材标准表述。",
+        "示例H—H、H—O、C=O均为共价键典型实例，正确。"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "共价键",
+      "batch": "batch2",
+      "dbId": "16",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:12.480Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.reaction_rate",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "定义仅说“表示反应进行的快慢”，过于笼统，未给出高中通行表述（单位时间内反应物浓度减少或生成物浓度增加）",
+        "示例“块状锌与粉末锌和酸反应快慢不同”只体现接触面积影响速率，未说明速率概念本身，且缺“其他条件相同”的控制变量表述"
+      ],
+      "issues": [
+        "定义不完整，缺少浓度变化/时间这一核心定量表述",
+        "示例未体现控制变量，易误导为单纯现象描述"
+      ],
+      "fixHints": [
+        "定义补充：通常用单位时间内反应物浓度的减少量或生成物浓度的增加量来表示",
+        "示例改为：其他条件相同时，粉末状锌比块状锌与同浓度酸反应更快"
+      ],
+      "confidence": 0.8,
+      "type": "concept",
+      "name": "化学反应速率",
+      "batch": "batch2",
+      "dbId": "17",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:16.998Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.reaction_extent",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "明确区分反应限度与反应速率，符合高一必修对可逆反应限度的表述",
+        "示例合成氨可逆、存在限度，准确恰当"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "concept",
+      "name": "化学反应限度",
+      "batch": "batch2",
+      "dbId": "18",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:16.998Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.mass_conserve",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "定义表述准确，符合初中/高一质量守恒定律通行说法",
+        "示例仅写“2H2+O2=2H2O”，未配平（应为2H2+O2=2H2O，此处实际已配平但未标注条件），且未说明质量守恒的具体体现，示例支撑不足"
+      ],
+      "issues": [
+        "示例未标注反应条件（点燃），教学规范性不足",
+        "示例未体现“质量总和相等”的说明，支撑力弱"
+      ],
+      "fixHints": [
+        "示例改为：2H2+O2 点燃= 2H2O，反应前后各物质质量总和相等",
+        "可补充说明反应前后原子种类、数目、质量不变"
+      ],
+      "confidence": 0.75,
+      "type": "concept",
+      "name": "质量守恒定律",
+      "batch": "batch2",
+      "dbId": "19",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:16.998Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.charge_conserve",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "定义采用“正负电荷代数和守恒”表述，方向正确，符合整改说明",
+        "示例2H++CO32-=CO2↑+H2O电荷与原子均守恒，但未配平检查：左边电荷+2-2=0，右边0，电荷守恒成立；但该式实为H2O参与，书写不完整（应为2H++CO32-=CO2↑+H2O，已含H2O），表述可接受但示例偏简"
+      ],
+      "issues": [
+        "定义中“代数和为零或不改变”表述略含混，宜明确为“溶液中正电荷总数等于负电荷总数”",
+        "示例未说明是电荷守恒的体现，教学指向不明确"
+      ],
+      "fixHints": [
+        "定义改为：电解质溶液中，所有阳离子所带正电荷总数等于所有阴离子所带负电荷总数（电荷守恒）",
+        "示例后补充说明：反应前后电荷代数和均为零"
+      ],
+      "confidence": 0.7,
+      "type": "concept",
+      "name": "电荷守恒",
+      "batch": "batch2",
+      "dbId": "20",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:16.998Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.electron_conserve",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义准确：还原剂失电子总数等于氧化剂得电子总数，符合氧化还原反应本质。",
+        "示例MnO2与浓盐酸制Cl2为教材常见电子守恒应用，表述无科学性错误。"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "电子守恒",
+      "batch": "batch2",
+      "dbId": "21",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:20.321Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.solution_colloid",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "分散系按分散质粒子大小分类及胶体粒子直径1–100 nm表述准确，符合人教版必修一。",
+        "示例NaCl溶液、Fe(OH)3胶体、泥水浊液均正确。"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "溶液与胶体",
+      "batch": "batch2",
+      "dbId": "22",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:20.321Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.acid_base_salt",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "酸碱盐定义基于电离理论，符合高中表述，基本可用。",
+        "盐的定义“由金属阳离子（或铵根）与酸根离子构成”不够严谨，未涵盖全部盐类（如无金属阳离子的盐表述边界）。"
+      ],
+      "issues": [
+        "盐的定义表述偏窄，可能误导学生认为盐必须含金属阳离子或铵根。"
+      ],
+      "fixHints": [
+        "建议改为“由金属阳离子（或铵根离子）和酸根离子构成的化合物，也可广义理解为由酸根阴离子与阳离子构成的化合物”。"
+      ],
+      "confidence": 0.8,
+      "type": "concept",
+      "name": "酸碱盐概念",
+      "batch": "batch2",
+      "dbId": "23",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:20.321Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.oxide_class",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "氧化物定义准确：两种元素组成且一种为氧。",
+        "分类列举酸性、碱性、两性、不成盐氧化物符合高中常用分类。",
+        "examples字段为“见上。”，无实际示例，属关键内容缺失。"
+      ],
+      "issues": [
+        "examples字段无实质内容（“见上。”），缺少具体示例。"
+      ],
+      "fixHints": [
+        "补充具体示例，如CO2（酸性氧化物）、CaO（碱性氧化物）、Al2O3（两性氧化物）、CO（不成盐氧化物）。"
+      ],
+      "confidence": 0.85,
+      "type": "concept",
+      "name": "氧化物分类",
+      "batch": "batch2",
+      "dbId": "24",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:20.321Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.N_n_NA",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "表达式 N = n·NA 正确，变量说明清晰，符合人教版必修一物质的量内容"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "formula",
+      "name": "粒子数与物质的量",
+      "batch": "batch2",
+      "dbId": "2",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:22.513Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.Vm",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "Vm = V/n 为定义式，本身正确",
+        "dbReviewNote 提到需区分定义式与标况近似，但条目未体现标况下约22.4 L/mol 的说明，表述不完整"
+      ],
+      "issues": [
+        "缺少标况下 Vm≈22.4 L/mol 的适用条件说明，易被误用为任意条件"
+      ],
+      "fixHints": [
+        "补充说明：标准状况下气体 Vm≈22.4 L/mol，定义式 Vm=V/n 适用于任意条件"
+      ],
+      "confidence": 0.8,
+      "type": "formula",
+      "name": "气体摩尔体积",
+      "batch": "batch2",
+      "dbId": "3",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:22.513Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.c_n_V",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "c = n/V 正确，变量明确 V 为溶液体积而非溶剂体积，符合规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "formula",
+      "name": "物质的量浓度",
+      "batch": "batch2",
+      "dbId": "4",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:22.513Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.dilution",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "c1V1 = c2V2 稀释公式正确，变量说明体现溶质物质的量守恒"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "formula",
+      "name": "溶液稀释",
+      "batch": "batch2",
+      "dbId": "5",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:22.513Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.M_m_n",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "M=m/n 为摩尔质量定义式，符合高一必修表述",
+        "变量说明正确，dbReviewNote 已补单位与适用说明"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "formula",
+      "name": "摩尔质量",
+      "batch": "batch2",
+      "dbId": "6",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:24.831Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.rho_c_M",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "c=1000ρω/M 为质量分数与物质的量浓度换算标准式，系数1000与ρ(g/cm³)、ω(小数)配套正确",
+        "dbReviewNote 已明确单位条件，表述规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "formula",
+      "name": "密度与浓度换算",
+      "batch": "batch2",
+      "dbId": "7",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:24.831Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.mass_percent",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "w=m(溶质)/m(溶液) 定义正确",
+        "变量仅列 w，未说明 m(溶质)、m(溶液) 含义，字段说明不完整"
+      ],
+      "issues": [
+        "variables 字段缺少 m(溶质)、m(溶液) 的说明"
+      ],
+      "fixHints": [
+        "补充 variables：m(溶质):溶质质量；m(溶液):溶液质量"
+      ],
+      "confidence": 0.85,
+      "type": "formula",
+      "name": "质量分数",
+      "batch": "batch2",
+      "dbId": "8",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:24.831Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.equation_ratio",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "计量数之比等于物质的量之比表述正确",
+        "dbReviewNote 称已补过量与不足量条件，但 expression/variables 中未见该条件，证据与内容不一致"
+      ],
+      "issues": [
+        "过量/不足量适用条件未在条目正文体现，与整改说明不符"
+      ],
+      "fixHints": [
+        "在 variables 或说明中补充：适用于完全反应且按不足量计算的条件"
+      ],
+      "confidence": 0.8,
+      "type": "formula",
+      "name": "化学计量比",
+      "batch": "batch2",
+      "dbId": "9",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:24.831Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.electron_transfer",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "表述“失电子总数=得电子总数”是氧化还原配平的核心依据，准确且符合高一/高考规范",
+        "变量说明“氧化还原配平依据”与表达式一致，无科学错误"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "formula",
+      "name": "电子转移计量",
+      "batch": "batch2",
+      "dbId": "10",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:27.783Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.gas_STP",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "V=n·22.4 L/mol 为标准状况下气体摩尔体积的通行近似表述，符合高一教学",
+        "已注明标准状况为0℃(273K)、101kPa，范围界定清晰",
+        "标注“近似”恰当，未夸大精确性"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "formula",
+      "name": "标况气体体积",
+      "batch": "batch2",
+      "dbId": "11",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:27.783Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.Avogadro",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "NA≈6.02×10^23 mol^-1 数值正确，但条目名为“定义”，而定义应为“1 mol 粒子所含粒子数”，此处仅给近似值，名实略不符",
+        "未说明NA的精确值/定义表述，作为“定义”条目表述不完整"
+      ],
+      "issues": [
+        "名称“定义”与内容仅给近似数值不匹配",
+        "缺少“1 mol 任何粒子所含粒子数”的定义性表述"
+      ],
+      "fixHints": [
+        "补充定义：NA为1 mol 粒子所含的粒子数，近似取6.02×10^23 mol^-1",
+        "或将名称改为“阿伏加德罗常数近似值”"
+      ],
+      "confidence": 0.8,
+      "type": "formula",
+      "name": "阿伏加德罗常数定义",
+      "batch": "batch2",
+      "dbId": "12",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:27.783Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.redox.ox_product",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "氧化产物为还原剂被氧化（化合价升高）后的产物，定义准确",
+        "示例2Na+Cl2=2NaCl中NaCl对钠而言为氧化产物，正确",
+        "易错点提示“勿把氧化剂当氧化产物”有教学价值"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "knowledge",
+      "name": "氧化产物判断",
+      "batch": "batch2",
+      "dbId": "6",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:27.783Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.redox.re_product",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "还原产物定义正确（氧化剂得电子、化合价降低后的产物）",
+        "示例表述含糊：'同上反应中NaCl对氯而言是还原产物'缺少具体反应，且'对氯而言'表述不规范，易误导"
+      ],
+      "issues": [
+        "示例引用'同上反应'但无上下文，无法核验",
+        "'对氯而言是还原产物'表述不严谨，还原产物应针对氧化剂整体而非某元素"
+      ],
+      "fixHints": [
+        "补充完整反应方程式（如Cl2+2NaOH=NaCl+NaClO+H2O）",
+        "改为'NaCl是Cl2被还原后得到的产物（氯元素化合价由0降至-1）'"
+      ],
+      "confidence": 0.8,
+      "type": "knowledge",
+      "name": "还原产物判断",
+      "batch": "batch2",
+      "dbId": "7",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:30.149Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.redox.e_transfer",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "氧化还原本质为电子转移（含共用电子对偏移）表述准确",
+        "双线桥/单线桥表示方向与数目符合课标要求",
+        "易错提示合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "电子转移",
+      "batch": "batch2",
+      "dbId": "8",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:30.149Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.redox.e_conserve",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "电子守恒'失电子总数=得电子总数'表述准确",
+        "用于配平与计算的说明符合高考规范",
+        "易错点提示合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "knowledge",
+      "name": "电子守恒",
+      "batch": "batch2",
+      "dbId": "9",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:30.149Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.ion.electrolyte",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "电解质/非电解质定义准确（水溶液或熔融状态导电的化合物）",
+        "单质既非电解质也非电解质的边界说明正确",
+        "CO2、SO2本身为非电解质、水溶液导电因生成电解质的说明准确，符合高考易错点"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "knowledge",
+      "name": "电解质与非电解质",
+      "batch": "batch2",
+      "dbId": "10",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:30.149Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.ion.ionization_eq",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "强电解质用“=”、弱电解质用“⇌”符合高一教材表述",
+        "强调原子守恒与电荷守恒，正确",
+        "多元弱酸分步电离符合课标要求"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "电离方程式书写",
+      "batch": "batch2",
+      "dbId": "11",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:32.930Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.ion.coexist",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "判断角度（沉淀、气体、水、氧化还原、弱电解质）基本正确",
+        "表述过于简略，未提及隐含条件如“无色”“透明”等常见陷阱",
+        "未说明“透明”不等于“无色”等易错点，教学严谨性不足"
+      ],
+      "issues": [
+        "描述过简，缺少对题设隐含条件（如颜色、透明、酸碱性）的明确辨析",
+        "未提示常见易错点，作为独立知识条目信息量不足"
+      ],
+      "fixHints": [
+        "补充“透明≠无色”“无色排除有色离子”等常见陷阱说明",
+        "补充氧化还原、双水解等判断依据的简要示例"
+      ],
+      "confidence": 0.8,
+      "type": "knowledge",
+      "name": "离子共存判断",
+      "batch": "batch2",
+      "dbId": "12",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:32.930Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.ion.ionic_eq",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "拆分原则（强电解质拆、沉淀气体弱电解质单质氧化物不拆）表述准确",
+        "强调原子守恒与电荷守恒，正确",
+        "已补充微溶物、酸式盐、少量/过量等边界提示，符合高考规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "knowledge",
+      "name": "离子方程式书写",
+      "batch": "batch2",
+      "dbId": "13",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:32.930Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.structure.atom",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "质子数=核电荷数=原子序数表述正确",
+        "质量数A=Z+N用等号定义，并区分相对原子质量，准确",
+        "离子电子数随电荷变化的说明正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "原子组成与三粒子",
+      "batch": "batch2",
+      "dbId": "14",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:32.930Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.structure.isotope",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "核素定义（一定质子数和中子数的原子）准确",
+        "同位素定义（质子数相同、中子数不同的同一元素的不同核素）准确",
+        "化学性质几乎相同的表述符合高一教材"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "核素与同位素",
+      "batch": "batch2",
+      "dbId": "15",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:35.594Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.structure.bond",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "“活泼金属+活泼非金属倾向离子键、非金属之间倾向共价键”为经验性判断，表述偏绝对",
+        "未提及AlCl₃、NH₄Cl等例外，易误导学生机械套用"
+      ],
+      "issues": [
+        "化学键判断规则过于简化，缺少例外说明",
+        "“倾向”表述模糊，未说明需结合物质类别综合判断的具体方法"
+      ],
+      "fixHints": [
+        "补充AlCl₃为共价化合物、NH₄Cl含共价键等典型例外",
+        "明确该规则为经验规律，需结合电负性差与物质类别综合判断"
+      ],
+      "confidence": 0.8,
+      "type": "knowledge",
+      "name": "化学键类型判断",
+      "batch": "batch2",
+      "dbId": "16",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:35.594Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.structure.electron_formula",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "简单阳离子只写离子符号、阴离子与复杂阳离子（NH₄⁺）画电子式的区分准确",
+        "已按B2整改区分简单/复杂阳离子，符合高考电子式书写规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "电子式书写",
+      "batch": "batch2",
+      "dbId": "17",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:35.594Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.periodic.position",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "周期数=电子层数、主族序数=最外层电子数，符合高一教材表述",
+        "由原子序数推电子排布再定位的方法正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "周期与族定位",
+      "batch": "batch2",
+      "dbId": "18",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:35.594Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.periodic.e_config",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "核外电子排布基本规则（先内后外、每层最多2n^2、最外层≤8）符合高中口径",
+        "次外层不超过18的表述在高中教材中通常不单独强调，且未说明K层最多2、L层最多8等具体限制，规则不完整"
+      ],
+      "issues": [
+        "次外层不超过18的规则在高中阶段属拓展性表述，未标注适用范围",
+        "缺少对最外层为K层时最多2个电子的说明"
+      ],
+      "fixHints": [
+        "补充K层为最外层时不超过2个电子的特例",
+        "将次外层≤18标注为拓展规则或删除以贴合高中教材"
+      ],
+      "confidence": 0.75,
+      "type": "knowledge",
+      "name": "核外电子排布",
+      "batch": "batch2",
+      "dbId": "19",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:38.739Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.periodic.trend",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "同周期/同主族金属性、非金属性、原子半径递变方向正确",
+        "比较方法（与水/酸反应、最高价氧化物对应水化物酸碱性、氢化物稳定性、单质氧化性）符合高中教学口径",
+        "已限定主族教学口径，表述严谨"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "knowledge",
+      "name": "周期律递变规律",
+      "batch": "batch2",
+      "dbId": "20",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:38.739Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.calc.amount",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "n=m/M、n=N/NA、n=V/22.4（标况气体）三公式正确",
+        "明确强调非标况气体不可用22.4，符合高考规范",
+        "先判断条件再选式的提示准确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "物质的量三公式",
+      "batch": "batch2",
+      "dbId": "21",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:38.739Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.calc.concentration",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "c=n/V基本公式正确，体积单位L的提醒正确",
+        "与质量分数、密度换算仅笼统提及“分步”，未给出具体关系，作为知识条目信息不完整"
+      ],
+      "issues": [
+        "质量分数与物质的量浓度换算关系缺失，条目内容偏单薄"
+      ],
+      "fixHints": [
+        "补充c=1000ρw/M的换算关系或说明换算步骤"
+      ],
+      "confidence": 0.7,
+      "type": "knowledge",
+      "name": "物质的量浓度",
+      "batch": "batch2",
+      "dbId": "22",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:38.739Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.calc.dilution",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "稀释前后溶质物质的量不变，c1V1=c2V2 表述正确，符合高一与高考规范",
+        "补充“混合若反应则不能直接套用”是正确且必要的限定"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "稀释计算",
+      "batch": "batch2",
+      "dbId": "23",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:41.082Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.memory.valence_table",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "K/Na +1、Ca/Mg/Ba/Zn +2、Al +3、F −1、O 通常−2（过氧化物−1）等均正确",
+        "Fe +2/+3、Cu +1/+2、H 在氢化物中可为−1 的变价说明准确",
+        "N 常见价态列举合理，并提示硝酸等需按规则计算，无科学性错误"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "常见化合价速记",
+      "batch": "batch2",
+      "dbId": "24",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:41.083Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.memory.ion_table",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "所列 NH₄⁺、SO₄²⁻、CO₃²⁻、Fe²⁺/Fe³⁺、Al³⁺ 等离子符号与电荷书写正确",
+        "“电荷写在右上角”符合规范书写要求",
+        "提示检验与共存题常考，符合高一教学实际"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "knowledge",
+      "name": "常见离子速记",
+      "batch": "batch2",
+      "dbId": "25",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:41.083Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.memory.color_table",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Cl₂黄绿、Br₂深红棕、I₂紫黑、Cu²⁺蓝色、Fe²⁺浅绿、Fe³⁺黄/棕黄、Fe(OH)₂白、Fe(OH)₃红褐、Cu(OH)₂蓝均正确",
+        "MnO₄⁻紫红已明确标注为拓展/非默认必修表，范围处理得当"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "物质颜色速记",
+      "batch": "batch2",
+      "dbId": "26",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:41.083Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Na2O",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "氧化钠为白色固体，颜色描述正确",
+        "条目仅有名称/颜色/分类，缺化学式、性质等关键字段，且inventoryNote为pending_review，证据不足"
+      ],
+      "issues": [
+        "缺少化学式Na2O字段",
+        "缺少与Na2O2对比的性质说明",
+        "状态为pending_review，未完成审核"
+      ],
+      "fixHints": [
+        "补充化学式Na2O",
+        "补充与H2O、CO2反应的性质描述",
+        "完成pending_review流程后再发布"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "氧化钠",
+      "batch": "batch3",
+      "dbId": "5",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:43.671Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Na2O2",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "过氧化钠为淡黄色固体，颜色描述正确",
+        "缺化学式Na2O2及与H2O/CO2反应放出O2的关键性质，证据不足"
+      ],
+      "issues": [
+        "缺少化学式Na2O2字段",
+        "缺少与H2O、CO2反应生成O2的性质说明",
+        "状态为pending_review"
+      ],
+      "fixHints": [
+        "补充化学式Na2O2",
+        "补充与H2O、CO2反应及氧化性说明",
+        "完成审核流程"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "过氧化钠",
+      "batch": "batch3",
+      "dbId": "6",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:43.671Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Na2CO3",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "碳酸钠为白色固体，颜色正确",
+        "缺化学式Na2CO3及与NaHCO3转化等关键性质，证据不足"
+      ],
+      "issues": [
+        "缺少化学式Na2CO3字段",
+        "缺少与NaHCO3相互转化及热稳定性说明",
+        "状态为pending_review"
+      ],
+      "fixHints": [
+        "补充化学式Na2CO3",
+        "补充与NaHCO3转化、与酸反应性质",
+        "完成审核流程"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "碳酸钠",
+      "batch": "batch3",
+      "dbId": "7",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:43.671Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.NaHCO3",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "碳酸氢钠为白色固体，颜色正确",
+        "缺化学式NaHCO3及受热分解等关键性质，证据不足"
+      ],
+      "issues": [
+        "缺少化学式NaHCO3字段",
+        "缺少受热分解、与Na2CO3转化说明",
+        "状态为pending_review"
+      ],
+      "fixHints": [
+        "补充化学式NaHCO3",
+        "补充受热分解及与Na2CO3转化性质",
+        "完成审核流程"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "碳酸氢钠",
+      "batch": "batch3",
+      "dbId": "8",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:43.671Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.NaCl",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "名称、颜色（白色）符合高一/高考表述，无科学错误",
+        "但条目仅有名称与颜色，缺化学式、类别等关键字段，inventoryNote/dbReviewNote 均为 pending_review，证据不足"
+      ],
+      "issues": [
+        "关键字段缺失：无化学式（NaCl）、物质类别等",
+        "状态为 pending_review，未完成审核"
+      ],
+      "fixHints": [
+        "补充化学式 NaCl、类别（盐/离子化合物）等字段",
+        "完成 pending_review 审核后再发布"
+      ],
+      "confidence": 0.8,
+      "type": "substance",
+      "name": "氯化钠",
+      "batch": "batch3",
+      "dbId": "9",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:46.083Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Mg",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "名称、颜色（银白色）符合规范表述",
+        "缺化学式、类别等关键字段，且为 pending_review，证据不足"
+      ],
+      "issues": [
+        "关键字段缺失：无化学式（Mg）、类别（金属单质）",
+        "状态 pending_review"
+      ],
+      "fixHints": [
+        "补充化学式 Mg、类别（活泼金属）等字段",
+        "完成审核流程"
+      ],
+      "confidence": 0.8,
+      "type": "substance",
+      "name": "镁",
+      "batch": "batch3",
+      "dbId": "10",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:46.083Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.MgO",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "名称、颜色（白色）正确，符合高一表述",
+        "缺化学式、类别等关键字段，pending_review 证据不足"
+      ],
+      "issues": [
+        "关键字段缺失：无化学式（MgO）、类别（碱性氧化物）",
+        "状态 pending_review"
+      ],
+      "fixHints": [
+        "补充化学式 MgO、类别（碱性氧化物）等字段",
+        "完成审核流程"
+      ],
+      "confidence": 0.8,
+      "type": "substance",
+      "name": "氧化镁",
+      "batch": "batch3",
+      "dbId": "11",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:46.083Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.MgOH2",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "名称、颜色（白色）正确",
+        "缺化学式、类别等关键字段，pending_review 证据不足"
+      ],
+      "issues": [
+        "关键字段缺失：无化学式（Mg(OH)₂）、类别（难溶碱）",
+        "状态 pending_review"
+      ],
+      "fixHints": [
+        "补充化学式 Mg(OH)₂、类别（中强碱/难溶碱）等字段",
+        "完成审核流程"
+      ],
+      "confidence": 0.8,
+      "type": "substance",
+      "name": "氢氧化镁",
+      "batch": "batch3",
+      "dbId": "12",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:46.083Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Al",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "铝为银白色金属，颜色描述准确",
+        "属于高一必修常见物质，范围合适"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "铝",
+      "batch": "batch3",
+      "dbId": "13",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:48.357Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Al2O3",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "氧化铝为白色固体，颜色正确",
+        "verifyNeeded=true，且备注待核实与碱产物写法，最高只能HOLD"
+      ],
+      "issues": [
+        "verifyNeeded=true，与碱反应产物写法待核实"
+      ],
+      "fixHints": [
+        "核实Al2O3与强碱反应产物（偏铝酸盐/四羟基合铝酸盐）的规范写法后再发布"
+      ],
+      "confidence": 0.8,
+      "type": "substance",
+      "name": "氧化铝",
+      "batch": "batch3",
+      "dbId": "14",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:11:48.357Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.AlOH3",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "氢氧化铝为白色固体，颜色正确",
+        "verifyNeeded=true，与碱产物写法待核实，最高只能HOLD"
+      ],
+      "issues": [
+        "verifyNeeded=true，两性与碱反应产物写法待核实"
+      ],
+      "fixHints": [
+        "核实Al(OH)3与强碱反应生成偏铝酸盐/四羟基合铝酸盐的规范表述"
+      ],
+      "confidence": 0.8,
+      "type": "substance",
+      "name": "氢氧化铝",
+      "batch": "batch3",
+      "dbId": "15",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:11:48.357Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Fe",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "铁为银白色金属，粉末呈灰黑描述合理",
+        "属于必修常见物质，范围合适"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "铁",
+      "batch": "batch3",
+      "dbId": "16",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:48.357Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Fe2O3",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "氧化铁化学式Fe2O3正确，颜色红棕色符合人教版必修表述",
+        "类别formula/chem_property合理，无超纲内容"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "氧化铁",
+      "batch": "batch3",
+      "dbId": "17",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:50.564Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Fe3O4",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "四氧化三铁化学式Fe3O4正确，颜色黑色符合教材表述",
+        "属高一铁及其化合物常见物质，范围合适"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "四氧化三铁",
+      "batch": "batch3",
+      "dbId": "18",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:50.564Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.FeOH3",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "氢氧化铁化学式Fe(OH)3正确，颜色红褐色符合教材表述",
+        "为Fe(OH)2氧化产物，属必修常见物质"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "氢氧化铁",
+      "batch": "batch3",
+      "dbId": "19",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:50.564Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.FeCl3",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "氯化铁化学式FeCl3正确，颜色描述基本准确",
+        "dbReviewNote含“I-/S2-深度排除默认训练”，涉及氧化性/离子反应深度内容，超出高一必修范围，需人工再核"
+      ],
+      "issues": [
+        "dbReviewNote含超纲的I-/S2-深度排除训练标注，与高一必修范围不符"
+      ],
+      "fixHints": [
+        "删除或弱化dbReviewNote中I-/S2-深度排除训练表述，仅保留物质基本性质"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "氯化铁",
+      "batch": "batch3",
+      "dbId": "20",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:50.565Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Cu",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "铜为紫红色固体，颜色描述符合高一教材与高考规范",
+        "物质名称与类别字段一致，无科学错误"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "铜",
+      "batch": "batch3",
+      "dbId": "21",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:52.158Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.CuO",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "氧化铜为黑色固体，颜色描述准确",
+        "名称与类别字段一致，符合教材表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "氧化铜",
+      "batch": "batch3",
+      "dbId": "22",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:52.158Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.CuOH2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "氢氧化铜为蓝色沉淀，颜色描述准确",
+        "符合高一必修与高考对Cu(OH)2的表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "氢氧化铜",
+      "batch": "batch3",
+      "dbId": "23",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:52.158Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.CuSO4",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "无水硫酸铜白色、五水合硫酸铜蓝色，颜色描述准确且区分了水合状态",
+        "符合教材与高考规范表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "硫酸铜",
+      "batch": "batch3",
+      "dbId": "24",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:52.158Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Zn",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "锌为银白色金属，颜色描述基本正确",
+        "条目仅有颜色字段，缺少化学式、性质等关键教学内容",
+        "inventoryNote/dbReviewNote 显示 pending_review，尚未完成审核"
+      ],
+      "issues": [
+        "关键字段（化学式、化学性质）缺失",
+        "状态为 pending_review"
+      ],
+      "fixHints": [
+        "补充化学式 Zn 及与酸/氧气反应等性质",
+        "完成审核后去除 pending_review 标记"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "锌",
+      "batch": "batch3",
+      "dbId": "25",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:54.473Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Ag",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "银为银白色金属，颜色描述正确",
+        "缺少化学式、化学性质等关键字段",
+        "状态为 pending_review"
+      ],
+      "issues": [
+        "关键字段（化学式、化学性质）缺失",
+        "状态为 pending_review"
+      ],
+      "fixHints": [
+        "补充化学式 Ag 及稳定性、与硝酸反应等性质",
+        "完成审核后去除 pending_review 标记"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "银",
+      "batch": "batch3",
+      "dbId": "26",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:54.473Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.O2",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "氧气为无色气体，颜色描述正确",
+        "缺少化学式、化学性质等关键字段",
+        "状态为 pending_review"
+      ],
+      "issues": [
+        "关键字段（化学式、化学性质）缺失",
+        "状态为 pending_review"
+      ],
+      "fixHints": [
+        "补充化学式 O2 及助燃、氧化性等性质",
+        "完成审核后去除 pending_review 标记"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "氧气",
+      "batch": "batch3",
+      "dbId": "27",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:54.473Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.CO2",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "二氧化碳为无色气体，颜色描述正确",
+        "缺少化学式、化学性质等关键字段",
+        "状态为 pending_review"
+      ],
+      "issues": [
+        "关键字段（化学式、化学性质）缺失",
+        "状态为 pending_review"
+      ],
+      "fixHints": [
+        "补充化学式 CO2 及与碱、水反应等性质",
+        "完成审核后去除 pending_review 标记"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "二氧化碳",
+      "batch": "batch3",
+      "dbId": "28",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:54.473Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.4Na_O2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式4Na+O2=2Na2O配平正确，符合钠常温缓慢氧化的教材表述",
+        "条件标注“常温（表面生成）”准确，产物Na2O状态s合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "钠常温与氧气",
+      "batch": "batch3",
+      "dbId": "2",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:56.429Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.2Na_O2_heat",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式2Na+O2=Na2O2配平正确，符合钠加热燃烧生成过氧化钠的教材表述",
+        "条件“加热点燃（燃烧）”与产物Na2O2一致"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "钠加热与氧气",
+      "batch": "batch3",
+      "dbId": "3",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:56.429Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.2Na2O2_2H2O",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式2Na2O2+2H2O=4NaOH+O2↑配平正确，符合教材表述",
+        "产物NaOH标aq、O2标g并加↑，状态与气体符号规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "过氧化钠与水",
+      "batch": "batch3",
+      "dbId": "4",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:56.429Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.2Na2O2_2CO2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式2Na2O2+2CO2=2Na2CO3+O2↑配平正确，符合教材表述",
+        "产物Na2CO3标s、O2标g并加↑，状态与气体符号规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "过氧化钠与二氧化碳",
+      "batch": "batch3",
+      "dbId": "5",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:56.429Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Na2O_H2O",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式Na2O+H2O=2NaOH配平正确，符合高一必修钠的氧化物性质",
+        "条件常温、状态标注合理（NaOH为aq）"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "氧化钠与水",
+      "batch": "batch3",
+      "dbId": "6",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:58.771Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.NaOH_CO2",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "主方程式2NaOH+CO2=Na2CO3+H2O配平正确",
+        "verifyNeeded=true，按规则最高只能HOLD",
+        "conditions字段混入过量分支说明与待核实措辞，非规范条件表述"
+      ],
+      "issues": [
+        "verifyNeeded=true",
+        "conditions字段含教材措辞待核实及分支说明，超出条件字段用途"
+      ],
+      "fixHints": [
+        "核实教材对CO2过量的表述后置verifyNeeded=false",
+        "将过量分支说明移入备注/说明字段，conditions仅保留‘常温’等条件"
+      ],
+      "confidence": 0.9,
+      "type": "reaction",
+      "name": "氢氧化钠与二氧化碳",
+      "batch": "batch3",
+      "dbId": "7",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:11:58.771Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.NaOH_HCl",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "NaOH+HCl=NaCl+H2O配平正确，中和反应典型",
+        "状态标注aq/l合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "氢氧化钠与盐酸",
+      "batch": "batch3",
+      "dbId": "8",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:58.771Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.NaHCO3_heat",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "2NaHCO3=△=Na2CO3+CO2↑+H2O配平正确，符合必修碳酸氢钠受热分解",
+        "产物状态s/g/g标注合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "碳酸氢钠受热分解",
+      "batch": "batch3",
+      "dbId": "9",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:11:58.771Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Na2CO3_2HCl",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式 Na2CO3+2HCl=2NaCl+CO2↑+H2O 配平正确，系数与物种一致",
+        "条件标注常温、酸足量符合高一表述，CO2标↑合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "碳酸钠与盐酸",
+      "batch": "batch3",
+      "dbId": "10",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:01.632Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.2Mg_O2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "2Mg+O2=点燃=2MgO 配平正确，条件点燃准确",
+        "MgO为固体、Mg为固体状态标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "镁与氧气",
+      "batch": "batch3",
+      "dbId": "11",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:01.632Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Mg_2HCl",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Mg+2HCl=MgCl2+H2↑ 配平正确，稀盐酸条件合理",
+        "H2标↑、MgCl2为aq状态标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "镁与盐酸",
+      "batch": "batch3",
+      "dbId": "12",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:01.632Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Mg_CO2",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "方程式 2Mg+CO2=点燃=2MgO+C 配平正确，属高考常见反应",
+        "但镁在CO2中燃烧属拓展/超纲内容，高一必修正文未要求，宜作拓展不宜直接正式发布"
+      ],
+      "issues": [
+        "内容偏超纲：Mg在CO2中燃烧通常为高考拓展或选修内容，非高一必修核心"
+      ],
+      "fixHints": [
+        "标注为拓展/选学内容，或移至高考专题条目",
+        "可补充说明该反应体现Mg强还原性，但避免作为必修必考"
+      ],
+      "confidence": 0.8,
+      "type": "reaction",
+      "name": "镁与二氧化碳",
+      "batch": "batch3",
+      "dbId": "13",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:01.632Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.4Al_3O2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式4Al+3O2=点燃=2Al2O3配平正确，符合高一教材表述",
+        "conditions已区分点燃燃烧与常温成膜，避免混淆，处理得当",
+        "物种状态s/g/s标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "铝与氧气",
+      "batch": "batch3",
+      "dbId": "14",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:04.013Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.2Al_6HCl",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式2Al+6HCl=2AlCl3+3H2↑配平正确，符合高一教材",
+        "条件注明稀盐酸及氧化膜影响，表述严谨",
+        "物种状态标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "铝与盐酸",
+      "batch": "batch3",
+      "dbId": "15",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:04.013Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.2Al_2NaOH",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "verifyNeeded=true，按规则最高只能HOLD",
+        "方程式配平正确，但AlO2-与[Al(OH)4]-教材口径待核实统一",
+        "conditions已说明简化式与四羟基合铝酸根两种写法，但需人工确认教材口径"
+      ],
+      "issues": [
+        "产物写法NaAlO2/AlO2-与[Al(OH)4]-口径未最终统一，verifyNeeded未消除"
+      ],
+      "fixHints": [
+        "核实人教版教材对偏铝酸根/四羟基合铝酸根的表述，统一命题口径后置verifyNeeded=false"
+      ],
+      "confidence": 0.8,
+      "type": "reaction",
+      "name": "铝与氢氧化钠溶液",
+      "batch": "batch3",
+      "dbId": "16",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:12:04.013Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Al2O3_6HCl",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式Al2O3+6HCl=2AlCl3+3H2O配平正确，符合高一教材",
+        "条件常温或加热合理",
+        "物种状态标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "氧化铝与盐酸",
+      "batch": "batch3",
+      "dbId": "17",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:04.013Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Al2O3_2NaOH",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "方程式配平正确：Al2O3+2NaOH=2NaAlO2+H2O，原子与电荷守恒。",
+        "产物写法存在NaAlO2与Na[Al(OH)4]两种口径，条目自身标注待核实，verifyNeeded=true。"
+      ],
+      "issues": [
+        "产物铝酸盐写法未统一（NaAlO2/AlO2- 与 Na[Al(OH)4]/[Al(OH)4]-），命题口径需明确。",
+        "verifyNeeded=true，按规则不得PASS。"
+      ],
+      "fixHints": [
+        "明确默认口径并注明命题时须指定写法；若采用Na[Al(OH)4]则改为Al2O3+2NaOH+3H2O=2Na[Al(OH)4]。"
+      ],
+      "confidence": 0.9,
+      "type": "reaction",
+      "name": "氧化铝与氢氧化钠",
+      "batch": "batch3",
+      "dbId": "18",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:12:06.797Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.AlOH3_NaOH",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "方程式配平正确：Al(OH)3+NaOH=NaAlO2+2H2O，原子守恒。",
+        "产物写法同样存在NaAlO2与Na[Al(OH)4]口径差异，verifyNeeded=true。"
+      ],
+      "issues": [
+        "铝酸盐产物写法未统一，需命题指定口径。",
+        "verifyNeeded=true，不得PASS。"
+      ],
+      "fixHints": [
+        "统一产物写法；若用Na[Al(OH)4]则改为Al(OH)3+NaOH=Na[Al(OH)4]。"
+      ],
+      "confidence": 0.9,
+      "type": "reaction",
+      "name": "氢氧化铝与氢氧化钠",
+      "batch": "batch3",
+      "dbId": "19",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:12:06.797Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.AlOH3_3HCl",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式配平正确：Al(OH)3+3HCl=AlCl3+3H2O，原子守恒。",
+        "属高一必修铝的化合物性质，表述规范，verifyNeeded=false。"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "氢氧化铝与盐酸",
+      "batch": "batch3",
+      "dbId": "20",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:06.797Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.3Fe_2O2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式配平正确：3Fe+2O2=点燃=Fe3O4，原子守恒。",
+        "条件标注“点燃”符合铁丝在氧气中燃烧的教材表述，verifyNeeded=false。"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "铁与氧气",
+      "batch": "batch3",
+      "dbId": "21",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:06.797Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Fe_H2SO4",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式Fe+H2SO4=FeSO4+H2↑配平正确，符合高一金属与酸反应规范",
+        "条件标注稀硫酸、常温合理，产物为FeSO4（稀硫酸不钝化、生成亚铁）",
+        "物种状态s/aq/aq/g标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "铁与稀硫酸",
+      "batch": "batch3",
+      "dbId": "22",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:09.204Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Fe_CuSO4",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "置换反应Fe+CuSO4=FeSO4+Cu配平正确，符合高一金属活动性顺序教学",
+        "条件常温、溶液中合理，产物FeSO4与Cu状态标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "铁与硫酸铜",
+      "batch": "batch3",
+      "dbId": "23",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:09.204Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Fe2O3_3CO",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Fe2O3+3CO=高温=2Fe+3CO2配平正确，为高炉炼铁核心反应，符合课标",
+        "条件高温、物种状态s/g/s/g标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "氧化铁与一氧化碳",
+      "batch": "batch3",
+      "dbId": "24",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:09.204Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Cu_O2_heat",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "2Cu+O2=△=2CuO配平正确，铜加热氧化为高一常见反应",
+        "条件加热、状态s/g/s标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "铜加热与氧气",
+      "batch": "batch3",
+      "dbId": "25",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:09.204Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.CuO_H2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式CuO+H2=△=Cu+H2O配平正确，属置换/氧化还原反应",
+        "条件与操作（先通H2后加热、冷却后停H2）符合规范表述",
+        "物质状态标注s/g/s/l正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "氧化铜与氢气",
+      "batch": "batch3",
+      "dbId": "26",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:11.185Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.CuO_2HCl",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "CuO+2HCl=CuCl2+H2O配平正确，属碱性氧化物与酸反应",
+        "HCl、CuCl2标aq、H2O标l合理",
+        "条件“常温或微热”表述可接受"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "reaction",
+      "name": "氧化铜与盐酸",
+      "batch": "batch3",
+      "dbId": "27",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:11.185Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Zn_H2SO4",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Zn+H2SO4=ZnSO4+H2↑配平正确，属置换/氧化还原",
+        "注明稀硫酸、常温，H2标↑及g状态正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "锌与稀硫酸",
+      "batch": "batch3",
+      "dbId": "28",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:11.185Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Zn_CuSO4",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Zn+CuSO4=ZnSO4+Cu配平正确，属置换/氧化还原",
+        "条件“常温，溶液中”及状态标注合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "锌与硫酸铜",
+      "batch": "batch3",
+      "dbId": "29",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:11.185Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.Na_O2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "反应方程式2Na+O2=点燃=Na2O2正确，产物淡黄色固体表述准确",
+        "安全提示（吸干煤油、防强光飞溅）符合规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "experiment",
+      "name": "钠在空气中燃烧",
+      "batch": "batch3",
+      "dbId": "2",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:14.628Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.Na2O2_H2O",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "两个反应方程式配平正确，O2↑标注规范",
+        "带火星木条检验O2、酚酞检验碱的方法正确",
+        "强氧化剂/腐蚀性安全提示合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "experiment",
+      "name": "过氧化钠与水/二氧化碳",
+      "batch": "batch3",
+      "dbId": "3",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:14.628Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.Al_amphoteric",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "正确区分单质Al与酸碱反应放H2、Al2O3/Al(OH)3两性溶解两类内容",
+        "Al(OH)3在酸或过量强碱中溶解作为两性关键现象表述准确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "experiment",
+      "name": "铝及氧化铝两性验证",
+      "batch": "batch3",
+      "dbId": "4",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:14.628Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.Fe_rust",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "铁生锈需O2与H2O共同作用为高中定性结论，表述基本正确",
+        "但未说明对照实验设计（干燥剂组、隔绝氧气组），作为探究实验证据链不完整",
+        "食盐水、干燥剂仅标“可选/了解”，实验方案不够明确"
+      ],
+      "issues": [
+        "缺少对照实验组设计说明，探究逻辑不完整",
+        "试剂标注模糊，未明确各组变量控制"
+      ],
+      "fixHints": [
+        "补充三组对照：干燥空气组、隔绝O2的水组、潮湿空气组",
+        "明确食盐水、干燥剂在实验中的具体作用与用量"
+      ],
+      "confidence": 0.75,
+      "type": "experiment",
+      "name": "铁生锈条件探究",
+      "batch": "batch3",
+      "dbId": "5",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:14.628Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.metal_activity",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "目的、原理符合高一必修金属活动性顺序内容，表述准确",
+        "试剂与安全提示（酸腐蚀、重金属盐废液回收）合理，无科学错误"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "experiment",
+      "name": "金属活动性顺序实验",
+      "batch": "batch3",
+      "dbId": "6",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:16.783Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.CuO_H2_reduce",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "原理方程式CuO+H2=△=Cu+H2O正确",
+        "操作顺序（先通H2排空气再加热、冷却后停H2）符合防爆规范，安全提示到位"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "experiment",
+      "name": "氢气还原氧化铜",
+      "batch": "batch3",
+      "dbId": "7",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:16.783Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.Na.oxide",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Na2O白色、Na2O2淡黄色、Na2O为碱性氧化物、Na2O2中氧为−1价均正确",
+        "与H2O、CO2反应放O2及供氧剂用途表述符合教材"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "knowledge",
+      "name": "钠的氧化物与过氧化物",
+      "batch": "batch3",
+      "dbId": "27",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:16.783Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.Na.carbonate",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Na2CO3热稳定性强、NaHCO3受热分解生成Na2CO3/CO2/H2O正确",
+        "通足量CO2转化及鉴别方法表述符合高一要求"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "碳酸钠与碳酸氢钠",
+      "batch": "batch3",
+      "dbId": "28",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:16.783Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.Al.amphoteric",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Al、Al2O3、Al(OH)3均能与强酸强碱反应，表述准确",
+        "Al与NaOH生成偏铝酸盐并放H2正确",
+        "[Al(OH)4]-标注为'了解'，符合高一表述范围",
+        "易错点提示（Mg(OH)2不溶于过量NaOH）正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "铝及其化合物的两性",
+      "batch": "batch3",
+      "dbId": "29",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:19.184Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.Fe.property",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Fe与O2点燃生成Fe3O4正确",
+        "Fe与稀酸生成Fe2+和H2正确",
+        "铁常见+2、+3价表述准确",
+        "易错点（误写Fe3+、Fe2O3）符合教学实际"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "铁的化学性质",
+      "batch": "batch3",
+      "dbId": "30",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:19.184Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.metal.activity",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "金属活动性顺序内容与教材一致",
+        "应用范围（与酸/水反应、置换、盐溶液反应）表述准确",
+        "易错点提示合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "金属活动性顺序",
+      "batch": "batch3",
+      "dbId": "31",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:19.184Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.metal.smelting",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "冶炼本质为化合态还原为单质，正确",
+        "电解法、热还原法、热分解法分类基本符合教材",
+        "'熔融Al2O3炼铝'标注了解，但工业实际加冰晶石，表述略简",
+        "'更不活泼可热分解等'表述笼统，未指明如HgO、Ag2O，严谨性不足"
+      ],
+      "issues": [
+        "热分解法举例缺失，表述笼统",
+        "电解炼铝未提及冰晶石助熔，易造成误解"
+      ],
+      "fixHints": [
+        "补充热分解法典型实例（如HgO、Ag2O分解）",
+        "电解炼铝可注明需加冰晶石降低熔点（了解层面）"
+      ],
+      "confidence": 0.8,
+      "type": "knowledge",
+      "name": "金属冶炼思路",
+      "batch": "batch3",
+      "dbId": "32",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:19.184Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.FeO",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "FeO为黑色粉末、化学式FeO，符合教材表述",
+        "verifyNeeded=true，按规则最高只能HOLD_RESTRICTED",
+        "空气中氧化细节未核实，不宜作为考点直接发布"
+      ],
+      "issues": [
+        "verifyNeeded=true，氧化细节待核实"
+      ],
+      "fixHints": [
+        "核对课本对FeO在空气中不稳定/氧化的表述后再发布",
+        "避免考查未核实的氧化细节"
+      ],
+      "confidence": 0.9,
+      "type": "substance",
+      "name": "氧化亚铁",
+      "batch": "batch3",
+      "dbId": "29",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:12:21.602Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.FeOH2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Fe(OH)2白色，空气中迅速变灰绿最终红褐，符合必修第一册重点表述",
+        "颜色、化学性质分类与教材一致",
+        "verifyNeeded=false，无超纲或科学错误"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "氢氧化亚铁",
+      "batch": "batch3",
+      "dbId": "30",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:21.602Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.FeSO4",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "硫酸亚铁晶体常浅绿、溶液浅绿色，符合教材表述",
+        "作为亚铁盐代表物与铁盐对照合理",
+        "verifyNeeded=false，无科学错误"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "substance",
+      "name": "硫酸亚铁",
+      "batch": "batch3",
+      "dbId": "31",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:21.602Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.Fe.fe2_property",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Fe2+浅绿色、具还原性、易被氧化为Fe3+，符合教材",
+        "Fe(OH)2白色→灰绿→红褐及氧化后加KSCN间接检验表述正确",
+        "易错点提示（颜色误说黄色、需隔绝空气）符合高考规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "knowledge",
+      "name": "Fe²⁺的性质",
+      "batch": "batch3",
+      "dbId": "33",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:21.602Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.Fe.fe3_property",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Fe3+溶液黄/棕黄色、氧化性、与碱生成红褐色Fe(OH)3、与KSCN血红色均符合教材与高考表述",
+        "氧化I-、S2-标注为了解/题设，范围控制合理",
+        "易错点提示颜色混淆，符合教学需要"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "Fe³⁺的性质",
+      "batch": "batch3",
+      "dbId": "34",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:23.882Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.Fe.fe2_fe3",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Fe2+被氧化、Fe3+被还原的转化方向正确，强调须写明具体试剂与条件",
+        "核心示例Cl2、O2、Fe、Cu符合教材例",
+        "KMnO4、H2O2、I-标为了解/题设，范围合理",
+        "易错点（氧化剂/还原剂对调、离子方程式守恒）准确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "knowledge",
+      "name": "Fe²⁺与Fe³⁺的转化",
+      "batch": "batch3",
+      "dbId": "35",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:23.882Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.Fe.test",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Fe3+用KSCN血红色、加碱红褐色沉淀表述正确",
+        "Fe2+加碱白色沉淀并变色、先KSCN再加氧化剂变血红的检验逻辑正确",
+        "易错点（直接对Fe2+加KSCN报阳性）提示到位"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "Fe²⁺与Fe³⁺的检验",
+      "batch": "batch3",
+      "dbId": "36",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:23.882Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.Fe.salt",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "亚铁盐含Fe2+（浅绿、还原性）、铁盐含Fe3+（黄/棕黄、氧化性更强）表述准确",
+        "保存亚铁盐防氧化、注意水解酸性的提示合理",
+        "易错点（两类盐性质混记）符合教学实际"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "knowledge",
+      "name": "亚铁盐与铁盐",
+      "batch": "batch3",
+      "dbId": "37",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:23.882Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.FeOH2_O2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式4Fe(OH)2+O2+2H2O=4Fe(OH)3配平正确，符合必修第一册铁及其化合物表述",
+        "条件与现象（白色沉淀迅速变灰绿最终红褐）描述准确",
+        "物种角色、系数、状态齐全且一致"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "氢氧化亚铁被氧气氧化",
+      "batch": "batch3",
+      "dbId": "30",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:26.765Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.2Fe2_Cl2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "离子方程式2Fe2++Cl2=2Fe3++2Cl-电荷与原子均守恒，符合高考规范",
+        "条件“溶液中通入Cl2”表述恰当",
+        "categories含redox.identify与离子书写，与内容匹配"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "亚铁离子被氯气氧化",
+      "batch": "batch3",
+      "dbId": "31",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:26.766Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.Fe3_SCN",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "verifyNeeded=true，按硬性规则最高只能HOLD",
+        "现象“血红色”为通行表述，但dbReviewNote标注教材现象口径待核实",
+        "principle中“Fe(SCN)3或络离子了解即可”表述偏模糊，需统一口径"
+      ],
+      "issues": [
+        "verifyNeeded=true未核实",
+        "现象/产物口径（Fe(SCN)3 vs 络离子）需与教材统一"
+      ],
+      "fixHints": [
+        "核实教材对Fe3+与KSCN现象及产物写法口径后更新",
+        "明确principle中产物表述，避免“了解即可”模糊措辞"
+      ],
+      "confidence": 0.8,
+      "type": "experiment",
+      "name": "Fe³⁺与KSCN的检验",
+      "batch": "batch3",
+      "dbId": "8",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:12:26.766Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.alloy",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义准确：两种或以上金属（或金属与非金属）熔合、具金属特性、一般属混合物",
+        "examples列举生铁、钢、黄铜、不锈钢、镁铝合金均正确",
+        "未出现“性能一定优于纯金属”等绝对化表述，符合B3整改要求"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "合金",
+      "batch": "batch3",
+      "dbId": "25",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:26.766Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.metal.pig_iron",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "生铁为铁碳合金、含碳量高于钢、质硬而脆、可铸不可锻等表述符合教材口径",
+        "含碳量具体数值标注待核实，且verifyNeeded=true"
+      ],
+      "issues": [
+        "含碳量范围（约2%–4.3%）未与所用教材核实",
+        "verifyNeeded=true，不宜直接正式发布"
+      ],
+      "fixHints": [
+        "核对人教版必修第一册对生铁含碳量的表述后确定是否保留数值",
+        "确认后可将verifyNeeded置false再申请发布"
+      ],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "生铁",
+      "batch": "batch3",
+      "dbId": "38",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:12:29.866Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.metal.steel",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "钢为含碳量低于生铁的铁碳合金、塑性好、可锻造等表述正确",
+        "含碳量数值待核实且verifyNeeded=true"
+      ],
+      "issues": [
+        "含碳量范围（约0.03%–2%）未与教材核实",
+        "verifyNeeded=true，不宜直接发布"
+      ],
+      "fixHints": [
+        "核对教材对钢含碳量的表述",
+        "核实后更新verifyNeeded状态"
+      ],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "钢",
+      "batch": "batch3",
+      "dbId": "39",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:12:29.866Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.metal.stainless",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "不锈钢含铬提高抗腐蚀能力的表述准确，符合了解级要求",
+        "已明确不展开铬酸盐深度内容，易错点提示合理",
+        "verifyNeeded=false"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "knowledge",
+      "name": "不锈钢",
+      "batch": "batch3",
+      "dbId": "40",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:29.866Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.NaAlO2",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "偏铝酸钠作为铝两性转化枢纽的定位合理",
+        "溶液存在形式与教材写法待核实，verifyNeeded=true"
+      ],
+      "issues": [
+        "条目仅有color字段，缺少description等关键内容描述",
+        "溶液中AlO2⁻存在形式（如[Al(OH)4]⁻）与教材写法需核实"
+      ],
+      "fixHints": [
+        "补充description，说明与Al³⁺、Al(OH)3的转化关系",
+        "核对教材对偏铝酸钠溶液存在形式的表述后确定写法"
+      ],
+      "confidence": 0.85,
+      "type": "substance",
+      "name": "偏铝酸钠",
+      "batch": "batch3",
+      "dbId": "32",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:12:29.866Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.AlCl3",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "颜色描述基本正确：无水AlCl3为白色，水溶液近无色",
+        "条目为增补代表物质，inventoryNote标注pending_review，证据链未完成",
+        "未给出AlCl3的化学式、类别等关键字段，仅靠categories间接体现"
+      ],
+      "issues": [
+        "inventoryNote/dbReviewNote标注batch3导入pending_review id=33，尚未完成审核闭环",
+        "缺少formula等关键字段，教学条目信息不完整"
+      ],
+      "fixHints": [
+        "补充formula: AlCl3及物质类别（盐/共价化合物）",
+        "完成pending_review审核后去除待审标记"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "氯化铝",
+      "batch": "batch3",
+      "dbId": "33",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:33.441Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Na2CO3_CO2_H2O",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式Na2CO3+CO2+H2O=2NaHCO3配平正确，符合必修第一册钠盐转化内容",
+        "条件“通入足量CO2”表述准确，species状态标注合理（aq/g/l/aq）",
+        "属于课标要求的碳酸钠与碳酸氢钠相互转化，范围恰当"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "碳酸钠转化为碳酸氢钠",
+      "batch": "batch3",
+      "dbId": "32",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:33.441Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.2Na_2HCl",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式2Na+2HCl=2NaCl+H2↑配平正确，属置换/氧化还原反应",
+        "conditions明确课程定位为了解/纸笔对比，禁止学生实验，安全表述规范",
+        "与钠和水反应对比符合必修第一册教学逻辑"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "reaction",
+      "name": "钠与盐酸反应",
+      "batch": "batch3",
+      "dbId": "33",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:33.441Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.Al.salt_aluminate",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "verifyNeeded=true，按硬性规则最高只能HOLD_RESTRICTED",
+        "AlO2-与[Al(OH)4]-口径未定，dbReviewNote明确标注待核实",
+        "描述中“AlO2-（高中简化）或[Al(OH)4]-（了解/待核实）”本身承认口径不确定，不宜直接发布"
+      ],
+      "issues": [
+        "偏铝酸根离子写法（AlO2- vs [Al(OH)4]-）未统一，影响离子方程式与图像题命题",
+        "verifyNeeded=true未闭环"
+      ],
+      "fixHints": [
+        "明确统一采用高中通行AlO2-写法，[Al(OH)4]-仅作拓展注释",
+        "核实后置verifyNeeded=false再考虑发布"
+      ],
+      "confidence": 0.85,
+      "type": "knowledge",
+      "name": "铝盐与偏铝酸盐转化",
+      "batch": "batch3",
+      "dbId": "41",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:12:33.441Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Cl2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "氯气为黄绿色气体，颜色描述准确，符合人教版必修内容",
+        "分类涵盖化学性质、化学式、检验，符合高一要求"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "氯气",
+      "batch": "batch4",
+      "dbId": "34",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:36.246Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.HCl",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "氯化氢为无色气体，颜色描述准确",
+        "化学式与性质分类符合高一必修表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "氯化氢",
+      "batch": "batch4",
+      "dbId": "35",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:36.246Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.HCl_aq",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "盐酸为HCl水溶液，无色，工业盐酸因含Fe3+等杂质可发黄，描述准确",
+        "dbReviewNote中Cl-检验须硝酸酸化符合高考规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "substance",
+      "name": "盐酸",
+      "batch": "batch4",
+      "dbId": "36",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:36.246Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.HClO",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "次氯酸颜色描述为无色（稀溶液）基本合理，但HClO仅存在于水溶液中，作为独立物质条目表述不够严谨",
+        "缺少对HClO不稳定、见光分解等关键性质的说明，证据不足"
+      ],
+      "issues": [
+        "HClO不能以纯净物形式稳定存在，条目按一般物质处理易误导",
+        "颜色字段表述范围偏窄，未说明其仅存在于溶液中"
+      ],
+      "fixHints": [
+        "在性质说明中补充HClO仅存在于水溶液、弱酸性、不稳定见光分解",
+        "颜色字段改为“无色（仅存在于水溶液中）”或注明溶液状态"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "次氯酸",
+      "batch": "batch4",
+      "dbId": "37",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:36.246Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.NaClO",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "名称与颜色描述基本正确：NaClO为白色固体，溶液近无色",
+        "但条目仅有颜色字段，缺少化学式、性质、检验等关键内容，categories声明了formula/test却无对应数据"
+      ],
+      "issues": [
+        "关键字段缺失：无化学式(NaClO)、无性质/检验内容",
+        "颜色描述'淡黄'易与杂质或分解现象混淆，未说明原因"
+      ],
+      "fixHints": [
+        "补充化学式NaClO及主要性质（强氧化性、漂白性、与酸反应生成HClO）",
+        "补充检验方法（如与酸产生Cl2或漂白性检验）",
+        "颜色'淡黄'应注明为含杂质或分解所致，避免误导"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "次氯酸钠",
+      "batch": "batch4",
+      "dbId": "38",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:40.060Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.S",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "名称与颜色'淡黄色'正确，符合硫单质常见表述",
+        "但缺少化学式S、同素异形体、溶解性、与金属/氧气反应等关键性质字段"
+      ],
+      "issues": [
+        "关键字段缺失：无化学式、无性质与检验内容",
+        "未区分单质硫的多种同素异形体（斜方硫/单斜硫）"
+      ],
+      "fixHints": [
+        "补充化学式S及物理性质（难溶于水、易溶于CS2）",
+        "补充化学性质（与Fe、O2、H2反应）与检验要点"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "硫",
+      "batch": "batch4",
+      "dbId": "39",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:40.060Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.SO2",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "名称与颜色'无色'正确",
+        "但缺少化学式SO2、刺激性气味、还原性/漂白性、检验（品红褪色）等关键内容"
+      ],
+      "issues": [
+        "关键字段缺失：无化学式、无性质与检验内容",
+        "未提及有毒/刺激性气味等安全信息"
+      ],
+      "fixHints": [
+        "补充化学式SO2及物理性质（刺激性气味、有毒、易溶于水）",
+        "补充还原性、漂白性及品红检验方法"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "二氧化硫",
+      "batch": "batch4",
+      "dbId": "40",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:40.060Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.SO3",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "名称正确，但'无色（固体常见）'表述不严谨：SO3常温下为无色液体/易挥发，固态需低温",
+        "缺少化学式SO3、与水反应生成硫酸等关键性质"
+      ],
+      "issues": [
+        "颜色/状态描述不准确：常温SO3为无色液体（或气态），'固体常见'易误导",
+        "关键字段缺失：无化学式、无性质与检验内容"
+      ],
+      "fixHints": [
+        "改为'常温下为无色液体（或易挥发），低温可凝固为固体'",
+        "补充化学式SO3及与水反应生成H2SO4、酸性氧化物性质"
+      ],
+      "confidence": 0.65,
+      "type": "substance",
+      "name": "三氧化硫",
+      "batch": "batch4",
+      "dbId": "41",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:40.060Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.H2SO4",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "颜色描述“无色油状液体（纯）”基本正确，但未区分浓硫酸黏稠、吸水等关键性质，信息偏简",
+        "curriculumScope 为空，未标注高一/高考范围，需人工确认"
+      ],
+      "issues": [
+        "curriculumScope 缺失",
+        "仅给颜色，缺少化学性质/检验等关键字段内容"
+      ],
+      "fixHints": [
+        "补充 curriculumScope（如必修/高考范围）",
+        "补充浓硫酸吸水性、脱水性、强氧化性及稀释规范等要点"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "硫酸",
+      "batch": "batch4",
+      "dbId": "42",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:42.996Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.H2SO3",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "亚硫酸为弱酸、不稳定、易分解，仅标“无色”信息不足",
+        "curriculumScope 为空，需人工确认范围"
+      ],
+      "issues": [
+        "curriculumScope 缺失",
+        "缺少不稳定性、还原性、酸性氧化物性质等关键内容"
+      ],
+      "fixHints": [
+        "补充 curriculumScope",
+        "补充 H2SO3 不稳定易分解、还原性及 SO2 水溶液相关表述"
+      ],
+      "confidence": 0.65,
+      "type": "substance",
+      "name": "亚硫酸",
+      "batch": "batch4",
+      "dbId": "43",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:42.996Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.N2",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "“无色”正确，但氮气关键性质（难溶于水、化学性质稳定、N≡N）未体现",
+        "curriculumScope 为空"
+      ],
+      "issues": [
+        "curriculumScope 缺失",
+        "缺少化学性质与检验等关键字段"
+      ],
+      "fixHints": [
+        "补充 curriculumScope",
+        "补充 N2 稳定性、与 O2/H2 反应条件及检验要点"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "氮气",
+      "batch": "batch4",
+      "dbId": "44",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:42.996Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.NH3",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "“无色”正确，但未体现刺激性气味、极易溶于水、碱性等关键性质",
+        "curriculumScope 为空"
+      ],
+      "issues": [
+        "curriculumScope 缺失",
+        "缺少溶解性、碱性、喷泉实验等关键内容"
+      ],
+      "fixHints": [
+        "补充 curriculumScope",
+        "补充 NH3 刺激性气味、极易溶于水、与酸反应及喷泉实验要点"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "氨",
+      "batch": "batch4",
+      "dbId": "45",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:42.996Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.NO",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "一氧化氮为无色气体，颜色描述准确",
+        "属于高中必修氮及其化合物内容，范围合适"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "一氧化氮",
+      "batch": "batch4",
+      "dbId": "46",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:45.270Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.NO2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "二氧化氮为红棕色气体，颜色描述准确",
+        "属于高中必修氮及其化合物内容，范围合适"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "二氧化氮",
+      "batch": "batch4",
+      "dbId": "47",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:45.270Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.HNO3",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "纯硝酸无色，久置或工业品因溶有NO2而发黄，表述准确",
+        "符合高一/高考对硝酸性质的表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "substance",
+      "name": "硝酸",
+      "batch": "batch4",
+      "dbId": "48",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:45.270Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.C",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "碳存在金刚石、石墨、C60等同素异形体，颜色不能统一描述为黑色",
+        "仅以石墨代表碳的颜色，表述不严谨，易误导"
+      ],
+      "issues": [
+        "颜色字段“黑色（石墨等）”以偏概全，金刚石无色透明、C60为深黄色等未涵盖"
+      ],
+      "fixHints": [
+        "改为“因同素异形体不同而异：石墨黑色、金刚石无色透明”或注明具体单质形态"
+      ],
+      "confidence": 0.85,
+      "type": "substance",
+      "name": "碳",
+      "batch": "batch4",
+      "dbId": "49",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:45.270Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.CO",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "名称、颜色（无色）等基本属性正确，符合高一表述",
+        "但条目仅有名称与颜色，缺少化学式、性质、检验等关键字段内容，categories 声称包含 formula/chem_property/test 却无对应数据",
+        "inventoryNote/dbReviewNote 均为 pending_review，证据不足，需人工补全后再核"
+      ],
+      "issues": [
+        "关键字段（化学式、化学性质、检验方法）缺失",
+        "状态为 pending_review，未完成审核"
+      ],
+      "fixHints": [
+        "补充化学式 CO、可燃性/还原性/毒性等性质及检验方法",
+        "完成 pending_review 审核流程后再发布"
+      ],
+      "confidence": 0.8,
+      "type": "substance",
+      "name": "一氧化碳",
+      "batch": "batch4",
+      "dbId": "50",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:48.571Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Si",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "名称“硅”正确，颜色“灰黑色”与晶体硅外观基本相符",
+        "但缺少化学式、化学性质（与 HF、NaOH 反应等）、检验等关键字段",
+        "pending_review 状态，证据不足"
+      ],
+      "issues": [
+        "关键字段（化学式、性质、检验）缺失",
+        "pending_review 未完成审核"
+      ],
+      "fixHints": [
+        "补充化学式 Si 及与 HF/NaOH 反应、半导体用途等性质",
+        "完成审核流程"
+      ],
+      "confidence": 0.8,
+      "type": "substance",
+      "name": "硅",
+      "batch": "batch4",
+      "dbId": "51",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:48.571Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.SiO2",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "名称“二氧化硅”正确，颜色描述“白色/无色（水晶等了解）”基本合理",
+        "但缺少化学式、化学性质（与 HF、NaOH、CaO 反应等）、检验等关键字段",
+        "pending_review 状态，证据不足"
+      ],
+      "issues": [
+        "关键字段（化学式、性质、检验）缺失",
+        "pending_review 未完成审核"
+      ],
+      "fixHints": [
+        "补充化学式 SiO2 及与 HF/NaOH/CaO 反应等性质",
+        "完成审核流程"
+      ],
+      "confidence": 0.8,
+      "type": "substance",
+      "name": "二氧化硅",
+      "batch": "batch4",
+      "dbId": "52",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:48.571Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Na2SiO3",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "名称“硅酸钠”正确，颜色“无色/白色”合理",
+        "但缺少化学式、化学性质（水溶液黏性、与酸反应生成硅酸等）、检验等关键字段",
+        "pending_review 状态，证据不足"
+      ],
+      "issues": [
+        "关键字段（化学式、性质、检验）缺失",
+        "pending_review 未完成审核"
+      ],
+      "fixHints": [
+        "补充化学式 Na2SiO3 及与酸反应、黏合剂用途等性质",
+        "完成审核流程"
+      ],
+      "confidence": 0.8,
+      "type": "substance",
+      "name": "硅酸钠",
+      "batch": "batch4",
+      "dbId": "53",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:48.571Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.P",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "verifyNeeded=true，按硬性规则最高只能给HOLD_RESTRICTED",
+        "颜色描述“白磷淡黄；红磷暗红”基本符合事实，但同素异形体对比细节仍标注待核实",
+        "inventoryNote/dbReviewNote均提示禁默认细对比绝对题、白磷禁操作题，说明条目尚不宜直接正式发布"
+      ],
+      "issues": [
+        "verifyNeeded=true 未消除",
+        "同素异形体对比细节待核实",
+        "缺少教材主表述与适用范围的明确界定"
+      ],
+      "fixHints": [
+        "核实并补充白磷/红磷同素异形体的教材表述（物理性质差异、着火点、相互转化条件）",
+        "明确标注“了解/拓展级”，并注明禁出细对比绝对题、白磷禁操作题",
+        "核实完成后将verifyNeeded置false再考虑PASS"
+      ],
+      "confidence": 0.9,
+      "type": "substance",
+      "name": "白磷/红磷",
+      "batch": "batch4",
+      "dbId": "54",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:12:52.997Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.P4O10",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "verifyNeeded=true，按硬性规则最高只能给HOLD_RESTRICTED",
+        "P4O10与P2O5双写法并存，教材主写法待核实，存在混同风险",
+        "颜色“白色”无误，但化学式表述需题干指定"
+      ],
+      "issues": [
+        "verifyNeeded=true 未消除",
+        "教材主写法（P4O10还是P2O5）待核实",
+        "双写法易导致绝对填空歧义"
+      ],
+      "fixHints": [
+        "核实人教版/通行课标教材中五氧化二磷的主写法",
+        "在条目中注明P4O10与P2O5的关系及题干须指定写法",
+        "禁混同绝对填空，核实后置verifyNeeded=false"
+      ],
+      "confidence": 0.9,
+      "type": "substance",
+      "name": "五氧化二磷",
+      "batch": "batch4",
+      "dbId": "55",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:12:52.997Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.H2S",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "verifyNeeded=false，但dbReviewNote仅为batch4导入pending_review，缺乏实质审核证据",
+        "颜色“无色”正确，但性质/检验等分类内容未见具体表述支撑",
+        "证据不足，按规则不确定时选HOLD_RESTRICTED"
+      ],
+      "issues": [
+        "仅有导入记录，无实质审核结论",
+        "categories含chem_property/formula/test但条目未给出对应内容",
+        "curriculumScope为null，未界定超纲范围（如还原性、与SO2反应等）"
+      ],
+      "fixHints": [
+        "补充H2S的化学式、无色有臭鸡蛋气味、还原性、检验方法等教材级表述",
+        "明确curriculumScope，标注哪些性质属拓展/超纲",
+        "完成人工复核后再评估是否PASS"
+      ],
+      "confidence": 0.75,
+      "type": "substance",
+      "name": "硫化氢",
+      "batch": "batch4",
+      "dbId": "56",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:52.997Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.CaCO3",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "verifyNeeded=false，但dbReviewNote仅为batch4导入pending_review，无实质审核证据",
+        "颜色“白色”正确，但性质/检验分类内容缺失具体表述",
+        "证据不足，按规则选HOLD_RESTRICTED"
+      ],
+      "issues": [
+        "仅有导入记录，无实质审核结论",
+        "categories含chem_property/formula/test但条目未给出对应内容",
+        "curriculumScope为null，未界定范围"
+      ],
+      "fixHints": [
+        "补充CaCO3的化学式、白色难溶、与酸反应、高温分解、检验（CO2通石灰水）等教材级表述",
+        "明确curriculumScope与适用题型",
+        "完成人工复核后再评估是否PASS"
+      ],
+      "confidence": 0.75,
+      "type": "substance",
+      "name": "碳酸钙",
+      "batch": "batch4",
+      "dbId": "57",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:52.997Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.CaOH2",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "物质名称、化学式、颜色（白色）均正确，符合高一表述",
+        "但条目仅有颜色字段，缺少化学性质、检验方法等categories所声明的内容支撑，证据不足"
+      ],
+      "issues": [
+        "categories声明了chem_property/formula/test，但条目未提供相应内容",
+        "inventoryNote/dbReviewNote均为pending_review，尚未完成审核"
+      ],
+      "fixHints": [
+        "补充氢氧化钙的化学性质（如与CO2反应、微溶性）及检验方法说明",
+        "完成pending_review流程后再发布"
+      ],
+      "confidence": 0.6,
+      "type": "substance",
+      "name": "氢氧化钙",
+      "batch": "batch4",
+      "dbId": "58",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:55.356Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.H2_Cl2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式H2+Cl2=2HCl配平正确，条件（光照或点燃）符合教材表述",
+        "已注明爆炸极限与安全提示，符合教学规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "reaction",
+      "name": "氢气与氯气",
+      "batch": "batch4",
+      "dbId": "34",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:55.356Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.2Na_Cl2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式2Na+Cl2=2NaCl配平正确，条件点燃符合教材",
+        "物质状态标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "reaction",
+      "name": "钠与氯气",
+      "batch": "batch4",
+      "dbId": "35",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:55.356Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.2Fe_3Cl2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式2Fe+3Cl2=2FeCl3配平正确，产物为FeCl3符合氯气强氧化性",
+        "条件点燃/加热表述正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "reaction",
+      "name": "铁与氯气",
+      "batch": "batch4",
+      "dbId": "36",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:55.356Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Cl2_H2O",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式Cl2+H2O⇌HCl+HClO正确，可逆号使用恰当",
+        "条件说明'常温、可逆、氯水为混合物'准确，符合高一表述",
+        "物种状态g/l/aq标注合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "氯气与水",
+      "batch": "batch4",
+      "dbId": "37",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:57.365Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Cl2_2NaOH",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式Cl2+2NaOH=NaCl+NaClO+H2O配平正确",
+        "条件限定'常温、冷的稀NaOH'并提示热浓碱产物不同，严谨且符合高考规范",
+        "物种与状态标注合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "氯气与氢氧化钠",
+      "batch": "batch4",
+      "dbId": "38",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:57.365Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.MnO2_4HCl",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式MnO2+4HCl(浓)=△=MnCl2+Cl2↑+2H2O配平正确",
+        "条件'浓盐酸、加热'准确，为实验室制Cl2经典反应",
+        "气体符号与状态标注合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "二氧化锰与浓盐酸制氯气",
+      "batch": "batch4",
+      "dbId": "39",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:57.365Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.S_O2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式S+O2=点燃=SO2配平正确",
+        "条件'点燃'准确，符合高一硫燃烧表述",
+        "物种状态标注合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "硫与氧气",
+      "batch": "batch4",
+      "dbId": "40",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:57.365Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.2SO2_O2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式2SO2+O2⇌2SO3配平正确，条件标注催化剂、加热符合工业接触法表述",
+        "注明可逆且不展开选修平衡计算，符合高一范围",
+        "SO2、O2、SO3状态标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "二氧化硫催化氧化",
+      "batch": "batch4",
+      "dbId": "41",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:59.907Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.SO3_H2O",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "SO3+H2O=H2SO4配平正确，属非氧化还原反应，specialty已去redox正确",
+        "条件常温、放热剧烈表述准确",
+        "各物质状态标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "三氧化硫与水",
+      "batch": "batch4",
+      "dbId": "42",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:59.907Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Cu_2H2SO4",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Cu+2H2SO4(浓)=CuSO4+SO2↑+2H2O配平正确，加热条件正确",
+        "注明稀硫酸常温不与Cu反应，符合高一表述",
+        "状态标注合理（CuSO4为aq）"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "铜与浓硫酸",
+      "batch": "batch4",
+      "dbId": "43",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:59.908Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.C_2H2SO4",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "C+2H2SO4(浓)=CO2↑+2SO2↑+2H2O配平正确，加热条件正确",
+        "浓硫酸强氧化性体现正确，符合高一范围",
+        "状态标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "碳与浓硫酸",
+      "batch": "batch4",
+      "dbId": "44",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:12:59.908Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.N2_3H2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式 N2+3H2⇌2NH3 配平正确，条件标注催化剂、高温、高压符合工业合成氨表述",
+        "明确提示高一只认识条件与可逆性、不展开选修平衡计算，范围控制恰当",
+        "species 系数与状态(g)与方程式一致"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "氮气与氢气合成氨",
+      "batch": "batch4",
+      "dbId": "45",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:02.177Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.NH3_HCl",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "NH3+HCl=NH4Cl 配平正确，常温气体相遇生成白烟（NH4Cl 固体）表述合理",
+        "已去除 redox 标签，符合非氧化还原反应事实",
+        "species 状态 s 与产物氯化铵固体一致"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "氨与氯化氢",
+      "batch": "batch4",
+      "dbId": "46",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:02.177Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.4NH3_5O2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "4NH3+5O2=4NO+6H2O 配平正确，催化剂(Pt)、加热条件符合氨催化氧化",
+        "属氧化还原反应，redox 标签正确",
+        "产物 NO、H2O 状态标注合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "氨的催化氧化",
+      "batch": "batch4",
+      "dbId": "47",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:02.177Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.2NO_O2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "2NO+O2=2NO2 配平正确，常温迅速反应生成红棕色 NO2 表述符合高一内容",
+        "氧化还原标签正确，species 系数与状态一致"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "一氧化氮与氧气",
+      "batch": "batch4",
+      "dbId": "48",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:02.177Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.3NO2_H2O",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式3NO2+H2O=2HNO3+NO配平正确，符合高一氮氧化物性质表述",
+        "条件标注常温、物质状态(g/l/aq/g)合理",
+        "氧化还原与物质检验分类适用"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "二氧化氮与水",
+      "batch": "batch4",
+      "dbId": "49",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:05.387Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Cu_4HNO3",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "3Cu+8HNO3(稀)=3Cu(NO3)2+2NO↑+4H2O配平正确，符合高考规范",
+        "条件明确标注稀硝酸并与浓硝酸区分，避免混写",
+        "编码Cu_4HNO3易混但已在dbReviewNote提示，题干须写稀"
+      ],
+      "issues": [
+        "编码Cu_4HNO3与实际计量(8HNO3)不符，易引起混淆"
+      ],
+      "fixHints": [
+        "建议将code改为rxn.Cu_8HNO3_dilute以匹配计量"
+      ],
+      "confidence": 0.9,
+      "type": "reaction",
+      "name": "铜与稀硝酸",
+      "batch": "batch4",
+      "dbId": "50",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:05.387Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.Cu_4HNO3c",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Cu+4HNO3(浓)=Cu(NO3)2+2NO2↑+2H2O配平正确，符合规范",
+        "条件标注浓硝酸常温并与稀硝酸区分",
+        "产物NO2、状态标注合理"
+      ],
+      "issues": [
+        "HNO3状态标为l，浓硝酸通常为aq，状态标注可商榷"
+      ],
+      "fixHints": [
+        "可将HNO3状态改为aq以更贴合溶液实际"
+      ],
+      "confidence": 0.88,
+      "type": "reaction",
+      "name": "铜与浓硝酸",
+      "batch": "batch4",
+      "dbId": "51",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:05.387Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.C_O2_incomplete",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "2C+O2=点燃=2CO配平正确，符合碳不完全燃烧表述",
+        "条件标注点燃、氧气不充足合理",
+        "物质状态(s/g/g)正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "碳不完全燃烧",
+      "batch": "batch4",
+      "dbId": "52",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:05.387Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.C_O2_complete",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式 C+O2=点燃=CO2 配平正确，条件标注规范",
+        "物质状态 s/g/g 与系数一致，属高一常见反应"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "碳完全燃烧",
+      "batch": "batch4",
+      "dbId": "53",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:07.353Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.CO2_CaOH2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "CO2+Ca(OH)2=CaCO3↓+H2O 配平正确，沉淀符号规范",
+        "conditions 已明确区分适量/过量，避免与酸式盐反应混答，符合高考规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "reaction",
+      "name": "二氧化碳与澄清石灰水",
+      "batch": "batch4",
+      "dbId": "54",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:07.353Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.SiO2_2NaOH",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "SiO2+2NaOH=Na2SiO3+H2O 配平正确，非氧化还原判断正确",
+        "conditions 说明碱腐蚀玻璃，符合教材表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "reaction",
+      "name": "二氧化硅与氢氧化钠",
+      "batch": "batch4",
+      "dbId": "55",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:07.353Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.SiO2_2C",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "SiO2+2C=高温=Si+2CO↑ 配平正确，产物为CO而非CO2符合工业制粗硅",
+        "氧化还原特征正确，属高一拓展了解内容"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "reaction",
+      "name": "二氧化硅与碳制粗硅",
+      "batch": "batch4",
+      "dbId": "56",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:07.353Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.CaCO3_2HCl",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "化学方程式CaCO3+2HCl=CaCl2+CO2↑+H2O配平正确，产物与状态标注符合高一规范",
+        "属非氧化还原反应，specialties去redox合理，保留离子式与物质检验类别恰当",
+        "条件'常温、酸足量'与实验室制CO2实际相符"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "碳酸钙与盐酸",
+      "batch": "batch4",
+      "dbId": "57",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:10.534Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.Cl2_prep",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "原理式MnO2+4HCl(浓)=△=MnCl2+Cl2↑+2H2O正确，符合教材表述",
+        "收集方法向上排空气法、尾气NaOH吸收均正确",
+        "安全提示'有毒、禁止家用、通风橱教师指导'到位"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "experiment",
+      "name": "氯气的实验室制法",
+      "batch": "batch4",
+      "dbId": "9",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:10.534Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.Cl2_property",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Cl2+H2O⇌HCl+HClO、Cl2+2NaOH=NaCl+NaClO+H2O方程式正确",
+        "漂白实质为HClO的表述准确，符合高一课标",
+        "安全提示有毒、禁止家用合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "experiment",
+      "name": "氯气性质实验",
+      "batch": "batch4",
+      "dbId": "10",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:10.534Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.HCl_prep",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "浓硫酸与NaCl加热制HCl标注'了解'，属拓展内容，超出高一必修核心要求",
+        "NH3+HCl=NH4Cl白烟检验正确，但条目混合'制取'与'检验'两类实验，边界略模糊",
+        "principle中'若制取'表述含糊，需明确是否纳入教学范围"
+      ],
+      "issues": [
+        "含超纲拓展内容（浓硫酸制HCl）",
+        "实验目的与原理范围界定不清"
+      ],
+      "fixHints": [
+        "将浓硫酸制HCl明确标注为'选学/拓展'或移出必修条目",
+        "拆分制取与白烟检验为独立条目，明确各自教学定位"
+      ],
+      "confidence": 0.8,
+      "type": "experiment",
+      "name": "氯化氢/盐酸相关实验",
+      "batch": "batch4",
+      "dbId": "11",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:10.534Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.SO2_property",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "SO2漂白原理（生成不稳定无色物质、加热恢复）与还原性表述基本正确",
+        "inventoryNote/dbReviewNote标注batch4导入 pending_review id=12，属待审状态，不宜直接正式发布",
+        "酸性KMnO4褪色仅标为可选了解，未给具体现象数据，需人工再核"
+      ],
+      "issues": [
+        "条目处于pending_review待审状态",
+        "还原性实验现象描述较笼统"
+      ],
+      "fixHints": [
+        "完成pending_review人工复核后再发布",
+        "补充酸性KMnO4褪色的具体现象表述或明确标注为拓展了解"
+      ],
+      "confidence": 0.8,
+      "type": "experiment",
+      "name": "二氧化硫漂白与还原性",
+      "batch": "batch4",
+      "dbId": "12",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:14.013Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.NH3_prep",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "铵盐与碱共热制氨、向下排空气法收集、喷泉原理表述正确",
+        "inventoryNote标注pending_review id=13，属待审状态",
+        "原理式用NaOH，试剂又列Ca(OH)2，需统一说明"
+      ],
+      "issues": [
+        "条目处于pending_review待审状态",
+        "原理方程式与试剂列表不完全对应"
+      ],
+      "fixHints": [
+        "完成人工复核后发布",
+        "统一原理式与试剂（如以Ca(OH)2为主并注明NaOH可替代）"
+      ],
+      "confidence": 0.8,
+      "type": "experiment",
+      "name": "氨的实验室制法与喷泉",
+      "batch": "batch4",
+      "dbId": "13",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:14.013Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.HNO3_Cu",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "稀/浓硝酸与铜反应方程式及产物差异表述正确",
+        "inventoryNote标注pending_review id=14，属待审状态",
+        "未说明NO易被氧化为NO2的观察干扰，需补充"
+      ],
+      "issues": [
+        "条目处于pending_review待审状态",
+        "缺少NO氧化干扰的说明"
+      ],
+      "fixHints": [
+        "完成人工复核后发布",
+        "补充稀硝酸产生NO在空气中变红棕色的现象说明"
+      ],
+      "confidence": 0.8,
+      "type": "experiment",
+      "name": "硝酸与铜反应对比",
+      "batch": "batch4",
+      "dbId": "14",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:14.013Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.CO2_property",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "CO2使澄清石灰水变浑浊及不支持燃烧（镁例外）表述正确",
+        "inventoryNote标注pending_review id=15，属待审状态",
+        "检验用石灰水需说明过量CO2会生成可溶碳酸氢钙的局限"
+      ],
+      "issues": [
+        "条目处于pending_review待审状态",
+        "未提示过量CO2使沉淀溶解的检验局限"
+      ],
+      "fixHints": [
+        "完成人工复核后发布",
+        "补充过量CO2与CaCO3生成Ca(HCO3)2的说明"
+      ],
+      "confidence": 0.8,
+      "type": "experiment",
+      "name": "二氧化碳性质与检验",
+      "batch": "batch4",
+      "dbId": "15",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:14.013Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.SiO2_glass",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "原理正确：SiO2+2NaOH=Na2SiO3+H2O，热浓碱腐蚀玻璃符合教材表述",
+        "但条目类型为experiment，实际无操作步骤、无现象、无装置，仅警示说明，作为实验条目字段不完整",
+        "inventoryNote含'危险气体实验禁止家用'与本实验（碱腐蚀玻璃）不匹配，属导入残留信息"
+      ],
+      "issues": [
+        "实验条目缺少步骤/现象/装置等关键字段",
+        "inventoryNote与内容不符（危险气体、家用）"
+      ],
+      "fixHints": [
+        "补充或改为安全警示类知识条目，明确'不做真实长时间腐蚀演示'",
+        "清理inventoryNote中与本条无关的'危险气体/家用'描述"
+      ],
+      "confidence": 0.8,
+      "type": "experiment",
+      "name": "二氧化硅与玻璃仪器腐蚀警示",
+      "batch": "batch4",
+      "dbId": "16",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:17.782Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.Cl.property",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Cl2黄绿色有毒、强氧化性、与水/碱反应等表述准确",
+        "氯水为混合物（Cl2、H2O、HCl、HClO）及漂白源于HClO符合教材",
+        "易错点（干燥Cl2不漂白、歧化）表述正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "氯气的性质与用途",
+      "batch": "batch4",
+      "dbId": "42",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:17.782Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.Cl.prep",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "MnO2与浓盐酸加热制Cl2方程式及条件正确",
+        "向上排空气法收集、NaOH吸收尾气符合规范",
+        "易错点（稀盐酸、尾气处理、收集方法）准确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "氯气的实验室制取",
+      "batch": "batch4",
+      "dbId": "43",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:17.782Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.S.oxide",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "SO2酸性氧化物、还原性、漂白可恢复及浓硫酸三大特性表述基本正确",
+        "'稀硫酸强酸通性'与'浓硫酸与铜反应'易错提示正确",
+        "但条目名'硫的氧化物与硫酸'范围偏大，SO3与水得H2SO4表述过简（实际为放热剧烈、生成酸雾），且未提SO2催化氧化条件"
+      ],
+      "issues": [
+        "SO3与水反应表述过于简化，未说明条件与酸雾现象",
+        "SO2催化氧化缺催化剂/条件说明"
+      ],
+      "fixHints": [
+        "补充SO2催化氧化需催化剂、加热条件",
+        "SO3与水反应注明剧烈放热、易形成酸雾，工业用浓硫酸吸收"
+      ],
+      "confidence": 0.75,
+      "type": "knowledge",
+      "name": "硫的氧化物与硫酸",
+      "batch": "batch4",
+      "dbId": "44",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:17.782Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.N.cycle",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "转化链N2→NH3、NH3催化氧化→NO、NO→NO2、NO2与水生成HNO3+NO均正确",
+        "浓稀硝酸与铜产物不同表述准确",
+        "易错点（NO/NO2颜色、条件、浓稀硝酸方程式）符合高考规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "氮及其化合物转化",
+      "batch": "batch4",
+      "dbId": "45",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:20.445Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.N.ammonia",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "NH3物理性质、极易溶于水显碱性表述正确",
+        "实验室制法铵盐与碱共热、检验用湿润红色石蕊试纸、与HCl白烟均准确",
+        "喷泉实验与防倒吸提示符合教材"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "knowledge",
+      "name": "氨的性质与制取",
+      "batch": "batch4",
+      "dbId": "46",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:20.445Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.C.oxide",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "CO有毒、可燃、还原性、不使石灰水变浑浊正确",
+        "CO2酸性氧化物、使石灰水变浑浊、镁例外不支持燃烧表述准确",
+        "碳燃烧产物随氧气量变化正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "碳的氧化物",
+      "batch": "batch4",
+      "dbId": "47",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:20.445Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.Si.property",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "SiO2为原子晶体属了解性表述，教材通行表述为空间网状结构，措辞可再核",
+        "SiO2与NaOH反应、碱液腐蚀玻璃、粗硅制取均正确",
+        "整体可用但个别术语需人工再核，不宜直接正式发布"
+      ],
+      "issues": [
+        "“原子晶体”表述在人教版新教材中较少直接使用，建议核对课标用语"
+      ],
+      "fixHints": [
+        "将“原子晶体”改为“空间网状结构的共价晶体（了解）”或按教材原文表述"
+      ],
+      "confidence": 0.75,
+      "type": "knowledge",
+      "name": "硅与二氧化硅",
+      "batch": "batch4",
+      "dbId": "48",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:20.445Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.nonmetal.test",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "H2验纯、O2带火星木条复燃、CO2使石灰水变浑浊、Cl2黄绿色及湿润淀粉KI试纸变蓝、NH3使湿润红色石蕊试纸变蓝、SO2使品红褪色加热恢复，均符合高一必修与高考表述",
+        "已提示题设干扰与安全，并点出易错张冠李戴，教学导向正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "常见气体检验方法",
+      "batch": "batch4",
+      "dbId": "49",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:23.173Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.Br2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "溴单质深红棕色表述准确，符合必修卤族元素颜色递变",
+        "范围限定单质递变与颜色，未展开溴含氧酸，符合课标"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "溴",
+      "batch": "batch4",
+      "dbId": "59",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:23.173Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.I2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "碘单质紫黑色表述准确，淀粉变蓝为必修核心检验",
+        "已注明正价不进入默认核心，范围控制合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "碘",
+      "batch": "batch4",
+      "dbId": "60",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:23.173Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.bleaching_powder",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "verifyNeeded=true，按硬性规则最高只能HOLD_RESTRICTED",
+        "主要成分（次氯酸钙等）教材口径待核实，且已标注禁精确组成绝对填空",
+        "仅给颜色白色，未给错误成分，内容大体可用但不宜直接正式发布"
+      ],
+      "issues": [
+        "verifyNeeded=true，成分口径待核实",
+        "主要成分表述存在教材口径不确定性"
+      ],
+      "fixHints": [
+        "核实人教版必修第一册漂白粉成分表述后补充有效成分与混合物说明",
+        "明确标注为混合物，避免精确组成绝对填空"
+      ],
+      "confidence": 0.9,
+      "type": "substance",
+      "name": "漂白粉",
+      "batch": "batch4",
+      "dbId": "61",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:13:23.173Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.S.conc_H2SO4",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "三大特性（吸水性、脱水性、强氧化性）表述准确，符合必修与高考要求",
+        "与稀硫酸对比、常温不氧化Cu、稀释酸入水均正确",
+        "易错点提示合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "浓硫酸的特性",
+      "batch": "batch4",
+      "dbId": "50",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:26.157Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.N.ammonium",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "铵盐与碱共热放NH3、铵根检验方法（加碱加热、湿润红色石蕊试纸变蓝）表述准确",
+        "NH4Cl受热分解为NH3和HCl并注明了解，符合必修范围",
+        "易错点（不加热就写放氨）提示正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "knowledge",
+      "name": "铵盐的性质",
+      "batch": "batch4",
+      "dbId": "51",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:26.157Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.NH4Cl_NaOH",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "方程式 NH4Cl+NaOH=△=NaCl+NH3↑+H2O 配平与条件正确",
+        "species 中 NaOH 状态标为 s，实际应为溶液(aq)或固碱加热，状态标注不严谨",
+        "conditions 写“浓碱”表述模糊"
+      ],
+      "issues": [
+        "NaOH 状态标注为 s 不准确，与加热制氨的常见实验条件不符",
+        "conditions 中“浓碱”表述不够规范"
+      ],
+      "fixHints": [
+        "将 NaOH 状态改为 aq（溶液）或明确为固体加热条件",
+        "conditions 改为“加热（固体或浓溶液）”等规范表述"
+      ],
+      "confidence": 0.85,
+      "type": "reaction",
+      "name": "氯化铵与氢氧化钠反应",
+      "batch": "batch4",
+      "dbId": "58",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:26.157Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.halogen.compare",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "单质氧化性 F2>Cl2>Br2>I2、氢化物稳定性 HF>HCl>HBr>HI 递变正确",
+        "置换反应表述合理，深度含氧酸标为了解、不进默认核心，符合必修范围",
+        "易错点提示恰当"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "knowledge",
+      "name": "卤族元素性质比较",
+      "batch": "batch4",
+      "dbId": "52",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:26.157Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.N.synth_ammonia",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "反应式N2+3H2⇌2NH3及条件（催化剂、高温、高压）表述正确，符合必修要求",
+        "明确限定为必修认识（可逆、需条件、工业意义），并提示勿作选修平衡定量训练，范围恰当",
+        "易错点（常温大量合成、忽略可逆）符合学情"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "合成氨反应条件与可逆性",
+      "batch": "batch4",
+      "dbId": "53",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:29.693Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.Cl.bleach",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "新制氯水含HClO具漂白性、久置HClO分解剩盐酸、干燥Cl2无漂白性，均准确",
+        "HClO漂白不可逆与SO2漂白可逆的对比表述正确，符合必修与高考规范",
+        "易错点（Cl2分子直接漂白、混淆两种漂白）切中要害"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "氯水与漂白原理",
+      "batch": "batch4",
+      "dbId": "54",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:29.693Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.instrument_basic",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "内容为仪器识别与用途的书面训练，方向正确、无明显科学错误",
+        "curriculumScope为空，缺少课标归属，字段不完整",
+        "principle中“容量瓶定容”属配制一定物质的量浓度溶液内容，需确认与必修阶段匹配"
+      ],
+      "issues": [
+        "curriculumScope缺失",
+        "容量瓶定容表述可能超出本条基础仪器识别范围"
+      ],
+      "fixHints": [
+        "补充curriculumScope（如必修第一册·化学实验基础）",
+        "将容量瓶定容说明限定为仪器用途举例，或移至溶液配制条目"
+      ],
+      "confidence": 0.7,
+      "type": "experiment",
+      "name": "常见仪器识别与用途",
+      "batch": "batch5",
+      "dbId": "17",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:29.693Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.ops_weigh",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "左物右码、游码读数、腐蚀性药品放玻璃器皿称量等表述正确",
+        "curriculumScope为空，缺少课标归属",
+        "“物体质量≈砝码质量+游码读数”用约等号，未说明游码归零调平前提，表述可更严谨"
+      ],
+      "issues": [
+        "curriculumScope缺失",
+        "质量关系表述未强调调零前提，用≈略含糊"
+      ],
+      "fixHints": [
+        "补充curriculumScope",
+        "明确“调零调平后，物体质量=砝码质量+游码读数”"
+      ],
+      "confidence": 0.72,
+      "type": "experiment",
+      "name": "托盘天平称量",
+      "batch": "batch5",
+      "dbId": "18",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:29.693Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.ops_dissolve",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "溶解操作要点（烧杯、玻璃棒搅拌、加水顺序）符合高一必修实验基础表述",
+        "搅拌加速溶解、浓硫酸酸入水的安全顺序表述正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "experiment",
+      "name": "溶解与搅拌",
+      "batch": "batch5",
+      "dbId": "19",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:31.954Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.ops_filter",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "“一贴二低三靠”为教材通行过滤操作要点，表述准确",
+        "过滤原理（分离不溶性固体与液体）正确，滤液浑浊原因分析合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "experiment",
+      "name": "过滤操作",
+      "batch": "batch5",
+      "dbId": "20",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:31.954Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.ops_evaporate",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "蒸发皿加热是否垫石棉网表述含糊，未给出确定口径，易引起教学歧义",
+        "principle中“勿混写两种口径”属元表述，非知识内容，需规范化"
+      ],
+      "issues": [
+        "加热装置（是否垫石棉网）表述不确定，缺乏明确结论"
+      ],
+      "fixHints": [
+        "明确按人教版口径：蒸发皿可直接放在铁圈（泥三角）上加热，不垫石棉网",
+        "删除principle中的元表述，改为确定性知识描述"
+      ],
+      "confidence": 0.75,
+      "type": "experiment",
+      "name": "蒸发结晶",
+      "batch": "batch5",
+      "dbId": "21",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:31.954Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.ops_distill",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "温度计位置、冷凝管水流方向、防暴沸等蒸馏装置要点符合高一认知级要求",
+        "明确限定为认知级、不展开工业精馏，范围恰当"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.88,
+      "type": "experiment",
+      "name": "蒸馏操作认知",
+      "batch": "batch5",
+      "dbId": "22",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:31.954Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.ops_extract",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "萃取原理表述准确：利用溶质在互不相溶溶剂中溶解度差异，静置分层后分液。",
+        "分液漏斗操作要点与教材一致，安全提示（CCl4有毒、仅题设分析）恰当。"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "experiment",
+      "name": "分液与萃取认知",
+      "batch": "batch5",
+      "dbId": "23",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:34.295Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.gas_collect_upward",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "向上排空气法原理正确：密度大于空气，瓶口向上、导管伸入瓶底附近。",
+        "示例O2、CO2、Cl2密度均大于空气，Cl2毒性已注明仅分析。"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "experiment",
+      "name": "向上排空气法",
+      "batch": "batch5",
+      "dbId": "24",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:34.295Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.gas_collect_downward",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "向下排空气法原理正确：密度小于空气，瓶口向下、导管伸至瓶底（上方）。",
+        "H2、NH3示例恰当，H2验纯与禁明火安全提示到位。"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "experiment",
+      "name": "向下排空气法",
+      "batch": "batch5",
+      "dbId": "25",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:34.295Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.gas_collect_water",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "排水法适用条件（难溶/不易溶且不与水反应）表述正确。",
+        "reagents中列NO作排水法示例易误导：NO虽难溶于水但极易与O2反应，教材通常不以此作典型排水法示例，需人工再核。"
+      ],
+      "issues": [
+        "NO作为排水集气法示例易引起误解，未说明其遇空气变NO2的干扰。"
+      ],
+      "fixHints": [
+        "将NO示例改为O2、H2等典型气体，或明确注明NO仅限隔绝空气条件下讨论。"
+      ],
+      "confidence": 0.75,
+      "type": "experiment",
+      "name": "排水集气法",
+      "batch": "batch5",
+      "dbId": "26",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:34.295Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.O2_prep_KMnO4",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "化学方程式2KMnO4=△=K2MnO4+MnO2+O2↑书写正确，符合高一/初中衔接表述",
+        "O2可用排水法或向上排空气法收集，表述准确",
+        "安全提示合理，明确仅书面分析"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "experiment",
+      "name": "高锰酸钾制氧气",
+      "batch": "batch5",
+      "dbId": "27",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:36.367Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.O2_prep_H2O2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "2H2O2=MnO2=2H2O+O2↑正确，MnO2为催化剂表述准确",
+        "常温分解、分液漏斗/长颈漏斗加液表述符合规范",
+        "安全提示合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "experiment",
+      "name": "过氧化氢制氧气",
+      "batch": "batch5",
+      "dbId": "28",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:36.367Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.H2_prep_Zn",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "Zn+H2SO4=ZnSO4+H2↑正确",
+        "H2密度比空气小、难溶于水，向下排空气法或排水法收集表述准确",
+        "强调不可用浓硫酸简单代替、验纯与安全提示到位"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "experiment",
+      "name": "锌与稀硫酸制氢气",
+      "batch": "batch5",
+      "dbId": "29",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:36.368Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.CO2_prep_marble",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "CaCO3+2HCl=CaCl2+H2O+CO2↑正确",
+        "CO2密度比空气大用向上排空气法、一般不用排水法（可溶）表述准确",
+        "澄清石灰水检验、安全提示合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "experiment",
+      "name": "大理石与稀盐酸制二氧化碳",
+      "batch": "batch5",
+      "dbId": "30",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:36.368Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.check_airtight",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "原理表述正确：封闭体系气压变化引起气泡/水柱现象，符合教材检漏方法",
+        "操作顺序“先检后装”评价正确，属高一基础实验技能",
+        "仅书面分析，安全提示合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "experiment",
+      "name": "装置气密性检查",
+      "batch": "batch5",
+      "dbId": "31",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:39.142Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.safety_rules",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "安全通则内容为通用规范，符合课标与高考表述",
+        "明确禁止家庭危险实验，导向正确",
+        "仅作文案分析，无科学性错误"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "experiment",
+      "name": "实验室安全通则",
+      "batch": "batch5",
+      "dbId": "32",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:39.142Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.mixed_stoich",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "关系式法思路正确，但表述偏笼统，未说明仅适用于中间产物完全转化的连续反应",
+        "缺少示例或适用条件，作为独立条目证据不足"
+      ],
+      "issues": [
+        "未给出适用条件（中间产物需全部转化、无副反应）",
+        "variables字段仅罗列，未定义计算步骤"
+      ],
+      "fixHints": [
+        "补充适用条件：多步反应中中间产物完全转化方可消去",
+        "增加一个简单示例说明计量关系式建立过程"
+      ],
+      "confidence": 0.75,
+      "type": "formula",
+      "name": "多步方程式计算关系式法",
+      "batch": "batch5",
+      "dbId": "13",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:39.142Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.excess_reactant",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "过量判断方法正确：比较n(实)/计量数，按不足量计算",
+        "符合高一化学计算规范表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.88,
+      "type": "formula",
+      "name": "过量计算判断",
+      "batch": "batch5",
+      "dbId": "14",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:39.142Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.purity",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "纯度与产率定义式正确，符合高一/高考计算表述",
+        "变量说明清晰，未涉及超纲内容"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "formula",
+      "name": "纯度与产率",
+      "batch": "batch5",
+      "dbId": "15",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:41.366Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.ion_conc",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "表达式仅限强电解质简单情形，方向正确",
+        "dbReviewNote标注禁Ka平衡计算，但条目未在正文中明确限定适用范围，易被误用于弱电解质",
+        "curriculumScope为null，范围界定不足"
+      ],
+      "issues": [
+        "未在expression或variables中显式声明仅适用于强电解质、不涉及弱电解质电离平衡"
+      ],
+      "fixHints": [
+        "在expression或补充说明中明确“仅适用于强电解质完全电离，弱电解质及Ka平衡不适用”"
+      ],
+      "confidence": 0.8,
+      "type": "formula",
+      "name": "离子浓度计算入门",
+      "batch": "batch5",
+      "dbId": "16",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:41.366Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.calc.stoich",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "步骤描述准确：配平、换算n、按计量数比例、回代单位",
+        "标况22.4的限定表述正确，易错点提示到位"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "化学方程式计算步骤",
+      "batch": "batch5",
+      "dbId": "55",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:41.366Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.calc.excess",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "用n/计量数比较判断不足量的方法正确，符合高考规范",
+        "剩余量计算表述正确，易错点提示合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "knowledge",
+      "name": "过量问题分析方法",
+      "batch": "batch5",
+      "dbId": "56",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:41.366Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.calc.amount_basic",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "题干标注为骨架，inventoryNote与dbReviewNote均说明仅骨架、pending_review，不宜直接正式发布",
+        "题目本身科学正确：标准状况11.2 L O2为0.5 mol，答案B正确"
+      ],
+      "issues": [
+        "条目为骨架状态，未充实为正式训练题",
+        "curriculumScope为空，未标注课标范围"
+      ],
+      "fixHints": [
+        "补充完整题面与选项后转为正式题",
+        "填写curriculumScope并完成pending_review审核"
+      ],
+      "confidence": 0.9,
+      "type": "question",
+      "name": "物质的量基础选择题",
+      "batch": "batch5",
+      "dbId": "2",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:46.634Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.calc.concentration",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "题干标注为骨架，inventoryNote说明仅骨架、pending_review，不宜直接发布",
+        "计算正确：0.1 mol/0.5 L=0.2 mol/L，答案无误"
+      ],
+      "issues": [
+        "条目为骨架状态",
+        "curriculumScope为空"
+      ],
+      "fixHints": [
+        "充实为正式填空题并完成审核",
+        "补充curriculumScope"
+      ],
+      "confidence": 0.9,
+      "type": "question",
+      "name": "浓度计算填空题",
+      "batch": "batch5",
+      "dbId": "3",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:46.634Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.calc.equation",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "题干标注为骨架，inventoryNote说明仅骨架、pending_review",
+        "计算正确：n(H2)=0.2 mol，生成水0.2 mol，m=3.6 g，过程规范"
+      ],
+      "issues": [
+        "条目为骨架状态",
+        "curriculumScope为空"
+      ],
+      "fixHints": [
+        "充实为正式计算题并完成审核",
+        "补充curriculumScope"
+      ],
+      "confidence": 0.9,
+      "type": "question",
+      "name": "方程式计算题",
+      "batch": "batch5",
+      "dbId": "4",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:46.634Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.calc.excess",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "题干标注为骨架，dbReviewNote说明为B5整改骨架、可作模板，不宜直接正式发布",
+        "计算正确：n(Zn)=0.20 mol>n(H2SO4)=0.15 mol，硫酸不足，n(H2)=0.15 mol，过量判断与按不足量计算均正确"
+      ],
+      "issues": [
+        "条目为骨架状态",
+        "curriculumScope为空"
+      ],
+      "fixHints": [
+        "充实为正式过量计算题并完成审核",
+        "补充curriculumScope"
+      ],
+      "confidence": 0.9,
+      "type": "question",
+      "name": "过量计算题",
+      "batch": "batch5",
+      "dbId": "5",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:46.634Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.exp.instrument",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "题干与答案本身正确：量筒不能加热，试管/烧杯/蒸发皿可加热",
+        "但条目为骨架，inventoryNote标注仅骨架、pending_review，无完整题面，不宜直接正式发布"
+      ],
+      "issues": [
+        "骨架条目，无完整题面",
+        "pending_review 未完成审核"
+      ],
+      "fixHints": [
+        "补全完整题面与选项后重新审核",
+        "确认答案与解析完整"
+      ],
+      "confidence": 0.9,
+      "type": "question",
+      "name": "仪器识别选择题",
+      "batch": "batch5",
+      "dbId": "6",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:49.423Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.exp.gas_collect",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "CO2密度大于空气、能溶于水，向上排空气法正确，答案B无误",
+        "但为骨架条目，pending_review，无完整题面，不宜直接发布"
+      ],
+      "issues": [
+        "骨架条目，无完整题面",
+        "pending_review 未完成审核"
+      ],
+      "fixHints": [
+        "补全题面与解析",
+        "确认选项C表述（排水法最佳首选）不误导"
+      ],
+      "confidence": 0.88,
+      "type": "question",
+      "name": "气体收集方法判断",
+      "batch": "batch5",
+      "dbId": "7",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:49.423Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.exp.safety",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "家中用锌粒和稀硫酸制氢气并点燃检验存在安全隐患，判断为错误正确",
+        "但为骨架条目，pending_review，无完整题面，不宜直接发布"
+      ],
+      "issues": [
+        "骨架条目，无完整题面",
+        "pending_review 未完成审核"
+      ],
+      "fixHints": [
+        "补全题面与解析，说明氢气点燃前需验纯及家庭实验风险"
+      ],
+      "confidence": 0.88,
+      "type": "question",
+      "name": "实验安全判断题",
+      "batch": "batch5",
+      "dbId": "8",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:49.423Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.eq.balance",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "Fe+2HCl→FeCl2+H2 系数1,2,1,1正确",
+        "但为骨架条目，pending_review，无完整题面，不宜直接发布"
+      ],
+      "issues": [
+        "骨架条目，无完整题面",
+        "pending_review 未完成审核"
+      ],
+      "fixHints": [
+        "补全题面与解析后重新审核"
+      ],
+      "confidence": 0.9,
+      "type": "question",
+      "name": "方程式配平题骨架",
+      "batch": "batch5",
+      "dbId": "9",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:49.423Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.exp.gas_wash_dry",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "洗气试剂选择原则（吸收杂质、尽量不吸收目标气体）表述正确",
+        "先除杂再干燥的顺序说明正确，避免干燥后通入水溶液",
+        "干燥剂与酸性/碱性/中性气体匹配、洗气瓶长进短出均符合教材与高考规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "气体的洗涤与干燥",
+      "batch": "batch5",
+      "dbId": "61",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:51.820Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.ops_volumetric_flask",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定容至凹液面最低处与刻度线相切、摇匀后得目标体积表述准确",
+        "原理（标定温度下准确容纳一定体积）正确",
+        "与c=n/V计算联动、书面训练定位合理，无超纲"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.88,
+      "type": "experiment",
+      "name": "容量瓶定容操作",
+      "batch": "batch5",
+      "dbId": "33",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:51.820Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.ops_burette",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "verifyNeeded=true，按规则最高只能HOLD",
+        "酸式/碱式滴定管结构（玻璃活塞、橡胶管玻璃珠）描述正确",
+        "是否作为必修核心训练待核实，curriculumScope标注深度待核实"
+      ],
+      "issues": [
+        "verifyNeeded=true，必修核心地位未确认",
+        "curriculumScope标注“深度待核实”"
+      ],
+      "fixHints": [
+        "核实滴定管在人教版必修中的定位，明确是否仅作仪器认知",
+        "确认后更新verifyNeeded与curriculumScope"
+      ],
+      "confidence": 0.75,
+      "type": "experiment",
+      "name": "滴定管认知与基本操作",
+      "batch": "batch5",
+      "dbId": "34",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:13:51.820Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.flame_test",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "verifyNeeded=true，按规则最高只能HOLD",
+        "焰色反应属物理变化、观察K透过钴玻璃的表述正确",
+        "具体颜色措辞待对照所用教材核实"
+      ],
+      "issues": [
+        "verifyNeeded=true，教材颜色措辞未最终核对"
+      ],
+      "fixHints": [
+        "对照人教版必修第一册核实Na/K/Cu焰色表述",
+        "确认后更新verifyNeeded"
+      ],
+      "confidence": 0.8,
+      "type": "experiment",
+      "name": "焰色反应",
+      "batch": "batch5",
+      "dbId": "35",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:13:51.820Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "formula.rate_v",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义式 v=Δc/Δt 表述正确，符合必修第二册平均速率口径",
+        "变量说明清晰，未涉及选修瞬时速率深度"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "formula",
+      "name": "化学反应速率定义式",
+      "batch": "batch5",
+      "dbId": "17",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:54.168Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.rate.factors",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "浓度、温度、催化剂、接触面积等定性因素表述准确，符合必修层面",
+        "催化剂不改变限度、不提高产率的易错点提示正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "影响化学反应速率的因素",
+      "batch": "batch5",
+      "dbId": "62",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:54.168Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.reversible",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "可逆反应定义（同条件下双向进行）准确，⇌符号使用规范",
+        "合成氨、氯气与水示例均为教材常见实例"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "可逆反应",
+      "batch": "batch5",
+      "dbId": "26",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:54.168Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.extent.le_chatelier_basic",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "verifyNeeded=true，按规则最高只能给 HOLD_RESTRICTED",
+        "教材深度与命名待核实，勒夏特列原理命名归属需人工确认"
+      ],
+      "issues": [
+        "verifyNeeded 未落实，教材深度/命名待核实",
+        "标题含“勒夏特列”倾向，需确认是否超出必修表述"
+      ],
+      "fixHints": [
+        "核实所用必修教材对限度条件影响的表述深度后再定稿",
+        "若教材未涉及勒夏特列命名，建议标题与描述去除该命名，仅保留定性认识"
+      ],
+      "confidence": 0.7,
+      "type": "knowledge",
+      "name": "化学反应限度与条件影响（定性）",
+      "batch": "batch5",
+      "dbId": "63",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:13:54.168Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.CH4",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "甲烷为正四面体结构，表述正确",
+        "取代反应生成多种氯代产物，dbReviewNote提示勿写唯一，符合规范",
+        "无色、有机基本物质分类正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "甲烷",
+      "batch": "batch6",
+      "dbId": "62",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:56.282Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.C2H4",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "乙烯结构简式CH2=CH2正确",
+        "KMnO4褪色不指定唯一氧化产物，表述严谨",
+        "无色、有机基本物质分类正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "乙烯",
+      "batch": "batch6",
+      "dbId": "63",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:56.282Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.C2H6",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "乙烷名称、无色、有机分类基本正确",
+        "dbReviewNote仅为导入标记，无实质审核说明，证据不足"
+      ],
+      "issues": [
+        "缺少结构/性质等审核要点说明"
+      ],
+      "fixHints": [
+        "补充乙烷结构简式CH3CH3及典型性质说明后再发布"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "乙烷",
+      "batch": "batch6",
+      "dbId": "64",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:56.282Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.C2H5OH",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "乙醇官能团为羟基，正确",
+        "催化氧化条件需Cu/Ag加热，dbReviewNote提示合理",
+        "无色、有机基本物质分类正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "substance",
+      "name": "乙醇",
+      "batch": "batch6",
+      "dbId": "65",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:56.282Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.CH3COOH",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "乙酸为弱酸、含羧基、酸性强于碳酸，均符合高一必修有机内容与高考表述",
+        "分子式CH3COOH、无色液体描述正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "substance",
+      "name": "乙酸",
+      "batch": "batch6",
+      "dbId": "66",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:58.896Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.CH3COOCH2CH3",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "乙酸乙酯结构简式CH3COOCH2CH3与CH3COOC2H5等价，表述正确",
+        "无色、酯类基本性质符合必修有机内容"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "substance",
+      "name": "乙酸乙酯",
+      "batch": "batch6",
+      "dbId": "67",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:58.896Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.C2H2",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "结构HC≡CH正确，但curriculumScope为null且备注“待核实深度”，范围未定",
+        "炔烃深度属选修内容，需明确限定为必修了解层次后再发布"
+      ],
+      "issues": [
+        "curriculumScope缺失，深度待核实",
+        "易被误用于选修炔烃深度训练"
+      ],
+      "fixHints": [
+        "补充curriculumScope为“必修了解”",
+        "在条目中注明仅限乙炔结构与燃烧等必修层次，不扩展炔烃通性"
+      ],
+      "confidence": 0.8,
+      "type": "substance",
+      "name": "乙炔",
+      "batch": "batch6",
+      "dbId": "68",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:58.896Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.C3H8",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "丙烷名称与分子式C3H8对应正确，但dbReviewNote仅为导入占位信息，缺乏实质审核依据",
+        "curriculumScope为null，范围未明确"
+      ],
+      "issues": [
+        "dbReviewNote无实质内容，证据不足",
+        "curriculumScope缺失"
+      ],
+      "fixHints": [
+        "补充丙烷的结构简式、状态等基本性质说明",
+        "明确curriculumScope为必修了解层次"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "丙烷",
+      "batch": "batch6",
+      "dbId": "69",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:13:58.896Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "sub.C6H6",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "苯的基本信息（无色、有机物）正确，符合必修了解级要求",
+        "curriculumScope字段为null，但inventoryNote/dbReviewNote已限定为“了解结构稳定性”，范围说明依赖备注而非结构化字段",
+        "备注含“禁Kekulé性质误导默认题”等整改提示，属待人工确认的编辑约束，不宜直接正式发布"
+      ],
+      "issues": [
+        "curriculumScope字段缺失（null），范围约束仅存在于备注文本中",
+        "条目为pending_review状态，尚未完成正式审核"
+      ],
+      "fixHints": [
+        "将curriculumScope结构化填写为“必修：苯的组成与结构稳定性（了解级）”",
+        "确认不默认引入芳香取代等选修深度内容后再发布"
+      ],
+      "confidence": 0.7,
+      "type": "substance",
+      "name": "苯",
+      "batch": "batch6",
+      "dbId": "70",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:03.313Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.CH4_Cl2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式CH4+Cl2=光照=CH3Cl+HCl正确，条件标注“光照”符合教材表述",
+        "已明确标注“第一步示例”，并在备注中强调多种氯代产物、禁写唯一产物，避免误导",
+        "安全提示（氯气有毒、爆炸风险）恰当"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "reaction",
+      "name": "甲烷与氯气取代",
+      "batch": "batch6",
+      "dbId": "59",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:03.313Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.C2H4_Br2",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "主方程式CH2=CH2+Br2→CH2BrCH2Br正确，属加成反应",
+        "species中Br2状态标为aq，但conditions同时写“溴水或Br2的CCl4溶液”，状态与条件表述不一致",
+        "产物1,2-二溴乙烷状态标为l，溴水反应中产物实际为液态不溶物，尚可，但需与Br2状态统一"
+      ],
+      "issues": [
+        "Br2的state=aq与“Br2的CCl4溶液”条件不一致，状态字段不严谨"
+      ],
+      "fixHints": [
+        "统一条件与状态：若写溴水则Br2为aq；若写CCl4溶液则Br2为溶液态，建议分列或注明题设"
+      ],
+      "confidence": 0.75,
+      "type": "reaction",
+      "name": "乙烯与溴加成",
+      "batch": "batch6",
+      "dbId": "60",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:03.313Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.C2H4_H2O",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式CH2=CH2+H2O=催化剂、加热加压=CH3CH2OH正确，符合教材工业制乙醇表述",
+        "条件注明“催化剂（如磷酸等，以教材为准）、加热、加压”，表述规范",
+        "产物C2H5OH状态l合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "reaction",
+      "name": "乙烯水化制乙醇",
+      "batch": "batch6",
+      "dbId": "61",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:03.313Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.C2H4_H2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式CH2=CH2+H2→CH3CH3配平正确，属加成反应",
+        "条件'催化剂、加热'符合教材表述",
+        "物种系数与状态标注一致"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "乙烯加氢",
+      "batch": "batch6",
+      "dbId": "62",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:05.316Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.C2H5OH_O2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "2CH3CH2OH+O2→2CH3CHO+2H2O配平正确，为催化氧化",
+        "条件Cu/Ag加热符合教材灼热铜丝实验",
+        "氧化产物CH3CHO、还原产物H2O标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "reaction",
+      "name": "乙醇催化氧化",
+      "batch": "batch6",
+      "dbId": "63",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:05.316Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.C2H5OH_burn",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "C2H5OH+3O2→2CO2+3H2O配平正确",
+        "条件点燃、完全燃烧表述规范",
+        "氧化产物CO2、还原产物H2O正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "乙醇燃烧",
+      "batch": "batch6",
+      "dbId": "64",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:05.316Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.esterification",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "CH3COOH+C2H5OH⇌CH3COOC2H5+H2O配平正确",
+        "可逆符号与浓硫酸催化加热条件符合教材",
+        "物种两侧齐全、状态标注合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.94,
+      "type": "reaction",
+      "name": "乙酸乙酯酯化",
+      "batch": "batch6",
+      "dbId": "65",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:05.316Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.CH3COOH_NaOH",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "化学方程式CH3COOH+NaOH=CH3COONa+H2O配平正确，符合弱酸与强碱中和的教材表述",
+        "条件标注常温水溶液中和合理，物种状态aq/l标注正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "乙酸与氢氧化钠",
+      "batch": "batch6",
+      "dbId": "66",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:07.851Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.CH3COOH_Na2CO3",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方程式2CH3COOH+Na2CO3=2CH3COONa+CO2↑+H2O配平正确，符合乙酸酸性强于碳酸的教材结论",
+        "CO2标↑、状态g合理，dbReviewNote整改说明与内容一致"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "reaction",
+      "name": "乙酸与碳酸钠",
+      "batch": "batch6",
+      "dbId": "67",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:07.851Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.CH4_property",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "甲烷燃烧生成CO2和H2O、光照下与Cl2取代生成多种氯代产物的表述准确，符合教材",
+        "明确不得写唯一产物，安全提示强调仅书面训练、禁止动手，符合规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "experiment",
+      "name": "甲烷性质实验认知",
+      "batch": "batch6",
+      "dbId": "36",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:07.851Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.C2H4_prep",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "乙醇浓硫酸约170℃消去制乙烯的原理与教材一致，温度控制要点正确",
+        "提及乙醚等副产物作为了解/题设，未超纲误导；安全提示规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "experiment",
+      "name": "乙烯的实验室制法",
+      "batch": "batch6",
+      "dbId": "37",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:07.851Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.C2H4_Br2",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "加成反应方程式CH2=CH2+Br2→CH2BrCH2Br正确，褪色属化学变化表述准确",
+        "明确区分溴水（加成褪色）与Br2/CCl4（加成）及萃取干扰，符合高考有机检验题表述",
+        "仅作书面训练、禁止家用实验的安全说明合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "experiment",
+      "name": "乙烯使溴水褪色",
+      "batch": "batch6",
+      "dbId": "38",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:10.137Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.ethanol_oxid",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "催化氧化方程式2CH3CH2OH+O2→2CH3CHO+2H2O及Cu/Ag加热条件正确",
+        "铜丝变黑（CuO）再变红的循环催化现象描述符合教材演示",
+        "安全说明与书面训练定位恰当"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "experiment",
+      "name": "乙醇催化氧化",
+      "batch": "batch6",
+      "dbId": "39",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:10.137Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.esterification",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "酯化方程式及浓硫酸催化吸水作用表述正确",
+        "饱和Na2CO3吸收乙酸、溶解乙醇、降低酯溶解度的三重作用表述准确，符合高考常考点",
+        "产物分层现象分析合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "experiment",
+      "name": "乙酸乙酯制备",
+      "batch": "batch6",
+      "dbId": "40",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:10.137Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.acetic_acid",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "乙酸弱酸具酸通性表述正确",
+        "2CH3COOH+Na2CO3=2CH3COONa+CO2↑+H2O可证明酸性强于碳酸，逻辑与方程式均正确",
+        "试剂与现象对应合理，安全说明恰当"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "experiment",
+      "name": "乙酸酸性验证",
+      "batch": "batch6",
+      "dbId": "41",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:10.137Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.homolog",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "定义基本准确，但“通式相同”表述不严谨：同系物通式相同，但通式相同不一定是同系物（如环烷烃与烯烃通式相同）",
+        "举例CH2=CH2与CH3CH=CH2为同系物正确，但未说明结构相似的具体含义"
+      ],
+      "issues": [
+        "“同系物通式相同”易被误读为通式相同即同系物",
+        "缺少“结构相似”的判定说明（如官能团种类和数目相同）"
+      ],
+      "fixHints": [
+        "改为“同系物具有相同通式，但通式相同不一定是同系物”",
+        "补充结构相似的具体判定：官能团种类、数目相同，碳骨架类型相同"
+      ],
+      "confidence": 0.8,
+      "type": "concept",
+      "name": "同系物",
+      "batch": "batch6",
+      "dbId": "27",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:13.829Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.isomer",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "定义准确：分子式相同、结构不同",
+        "举例中“乙醇与二甲醚”属了解级，dbReviewNote已注明高一书写技能有限、复杂推断限默认训练，范围需再核"
+      ],
+      "issues": [
+        "乙醇与二甲醚示例超出高一必修常见要求，可能偏超纲",
+        "未说明同分异构体包括碳链异构、位置异构、官能团异构等类型"
+      ],
+      "fixHints": [
+        "将乙醇/二甲醚示例标注为“了解级”或替换为C4H10正丁烷/异丁烷等必修常见示例",
+        "补充同分异构类型说明（碳链异构、位置异构、官能团异构）"
+      ],
+      "confidence": 0.75,
+      "type": "concept",
+      "name": "同分异构体",
+      "batch": "batch6",
+      "dbId": "28",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:13.829Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.functional_group",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义准确：决定有机化合物主要化学性质的原子或原子团",
+        "举例乙烯含碳碳双键、乙醇含羟基、乙酸含羧基、乙酸乙酯含酯基均正确，符合必修表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "concept",
+      "name": "官能团初步",
+      "batch": "batch6",
+      "dbId": "29",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:13.829Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.substitution",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "定义准确：原子或原子团被其他原子或原子团替代",
+        "举例CH4与Cl2光照取代正确；但“苯的溴代等属更深层次，勿默认超纲”为编辑备注混入示例，表述不规范"
+      ],
+      "issues": [
+        "examples字段混入“勿默认超纲”等编辑性备注，不宜作为教学示例内容",
+        "苯的溴代在必修中通常不作默认要求，示例范围需明确"
+      ],
+      "fixHints": [
+        "删除examples中的编辑备注，仅保留CH4与Cl2光照取代等必修示例",
+        "如需提及苯的溴代，应标注为拓展/选修内容"
+      ],
+      "confidence": 0.8,
+      "type": "concept",
+      "name": "取代反应",
+      "batch": "batch6",
+      "dbId": "30",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:13.829Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.addition",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定义准确：不饱和键两端原子与其他原子或原子团直接结合生成新化合物，符合人教版必修表述",
+        "示例乙烯与溴、加氢、水化均为典型加成反应，无科学性错误"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "加成反应",
+      "batch": "batch6",
+      "dbId": "31",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:16.190Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.esterification_rule",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "定义基本正确，但名称'酯化反应规律'与内容不符，未体现'酸脱羟基、醇脱氢'的成键规律",
+        "示例方程式未标注浓硫酸、加热条件，且'⇌'使用可再规范"
+      ],
+      "issues": [
+        "名称与内容不匹配，缺少酯化反应成键规律（羧酸脱—OH、醇脱—H）",
+        "示例缺少反应条件（浓硫酸、加热）"
+      ],
+      "fixHints": [
+        "补充'酸脱羟基、醇脱氢'的成键规律说明",
+        "示例方程式注明浓硫酸、加热条件"
+      ],
+      "confidence": 0.8,
+      "type": "concept",
+      "name": "酯化反应规律",
+      "batch": "batch6",
+      "dbId": "32",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:16.190Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.organic.methane",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "正四面体结构、分子式CH4表述准确",
+        "强调光照下取代产物为多种氯代甲烷、不得写唯一产物，符合高考规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "甲烷结构与性质",
+      "batch": "batch6",
+      "dbId": "64",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:16.190Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.organic.alkane",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "通式CnH2n+2（链状）表述准确，注明饱和烃",
+        "性质描述（稳定、取代、燃烧、不能因加成使溴水褪色）符合高一及高考表述"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "烷烃通式与性质",
+      "batch": "batch6",
+      "dbId": "65",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:16.190Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.organic.ethene",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "结构简式CH2=CH2、碳碳双键表述正确",
+        "加成（Br2、H2、H2O）、加聚、使酸性KMnO4褪色均符合高一表述",
+        "乙醇浓硫酸加热制乙烯标注为认知层面，范围合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "乙烯结构与性质",
+      "batch": "batch6",
+      "dbId": "66",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:18.209Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.organic.ethanol",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "官能团羟基、燃烧、Cu/Ag催化氧化为乙醛、与乙酸酯化均准确",
+        "物理性质（无色液体、与水互溶、易燃）正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "乙醇结构与性质",
+      "batch": "batch6",
+      "dbId": "67",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:18.209Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.organic.acetic",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "羧基官能团、弱酸具酸通性表述正确",
+        "酸性强于碳酸（与碳酸盐放CO2）符合规范",
+        "酯化及食醋含乙酸表述准确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "乙酸结构与性质",
+      "batch": "batch6",
+      "dbId": "68",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:18.209Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.organic.isomer_skill",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "有序书写（碳链异构、官能团位置）方法正确",
+        "限定高一简单烷烃/烯烃/醇醚基础题型，范围合理",
+        "强调检查重复与遗漏，符合教学规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "同分异构体书写技能",
+      "batch": "batch6",
+      "dbId": "69",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:18.209Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.inference.color",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "特征颜色描述准确：酸性KMnO4紫红、溴水橙红、Cu2+蓝、Fe3+黄棕，符合高中教材表述。",
+        "强调结合题设条件、避免单一线索武断，方法学表述严谨。"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "颜色推断方法",
+      "batch": "batch6",
+      "dbId": "70",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:20.595Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.inference.block",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "框图推断策略（找特征转化→定突破口→箭头验证全局自洽）符合高考推断题通行方法。",
+        "提示过量与气体通入顺序影响产物，切中常见易错点。"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "无机框图推断策略",
+      "batch": "batch6",
+      "dbId": "71",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:20.595Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.inference.conversion",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "反应类型列举（置换、复分解、氧化还原、有机加成/取代）本身无误，但混入有机转化内容，与高一必修阶段范围略有交叉超纲。",
+        "表述较笼统，未指明适用学段，建议明确限定范围。"
+      ],
+      "issues": [
+        "有机加成/取代属选修内容，与必修推断条目范围不完全匹配"
+      ],
+      "fixHints": [
+        "注明有机转化部分为拓展/选修衔接内容，或在高一必修条目中删去有机表述"
+      ],
+      "confidence": 0.75,
+      "type": "knowledge",
+      "name": "物质转化推断",
+      "batch": "batch6",
+      "dbId": "72",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:20.595Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.comprehensive.basic",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "综合题解题路径（审题→定位模块→写方程式/关系式→检查计量条件单位→回代验证）表述准确、通用。",
+        "强调先易后难、避免跳步丢条件，符合教学规范。"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "基础综合解题框架",
+      "batch": "batch6",
+      "dbId": "73",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:20.595Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.organic.methane",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "答案B正确：甲烷分子呈正四面体，A、C、D均错",
+        "但条目为骨架题，inventoryNote/dbReviewNote标注pending_review、非正式训练题，证据不足"
+      ],
+      "issues": [
+        "骨架题未定稿，处于pending_review",
+        "选项C表述'只生成一种有机产物'易引起歧义（实为多种氯代物）"
+      ],
+      "fixHints": [
+        "定稿后去除骨架标记再发布",
+        "选项C改为'与Cl2光照只生成一种有机产物'并明确指一氯甲烷或改为多选辨析"
+      ],
+      "confidence": 0.8,
+      "type": "question",
+      "name": "甲烷选择题骨架",
+      "batch": "batch6",
+      "dbId": "10",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:23.182Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.organic.ethene",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "判断'正确'成立：乙烯与溴加成使溴水褪色",
+        "但为骨架题、pending_review，非正式训练题"
+      ],
+      "issues": [
+        "骨架题未定稿"
+      ],
+      "fixHints": [
+        "定稿后去除骨架标记再发布"
+      ],
+      "confidence": 0.8,
+      "type": "question",
+      "name": "乙烯加成判断题",
+      "batch": "batch6",
+      "dbId": "11",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:23.182Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.organic.ethanol",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "Cu或Ag作催化剂、产物CH3CHO均正确",
+        "但为骨架题、pending_review，非正式训练题"
+      ],
+      "issues": [
+        "骨架题未定稿",
+        "填空答案'Cu；Ag'并列，需明确二者任选其一"
+      ],
+      "fixHints": [
+        "定稿后去除骨架标记",
+        "答案表述为'Cu或Ag（任选其一）'"
+      ],
+      "confidence": 0.8,
+      "type": "question",
+      "name": "乙醇性质填空题",
+      "batch": "batch6",
+      "dbId": "12",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:23.182Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.organic.ester",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "酯化方程式及浓硫酸催化、吸水作用表述正确",
+        "但为骨架题、pending_review，非正式训练题",
+        "答案中可逆符号与条件符号排版混乱"
+      ],
+      "issues": [
+        "骨架题未定稿",
+        "方程式条件标注格式不规范"
+      ],
+      "fixHints": [
+        "定稿后去除骨架标记",
+        "规范书写：CH3COOH+C2H5OH ⇌(浓硫酸,Δ) CH3COOC2H5+H2O"
+      ],
+      "confidence": 0.8,
+      "type": "question",
+      "name": "酯化反应简答题",
+      "batch": "batch6",
+      "dbId": "13",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:23.182Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.organic.isomer",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "答案正确：C4H10只有正丁烷和异丁烷两种同分异构体，结构简式书写规范",
+        "但条目为骨架题（inventoryNote/dbReviewNote标注pending_review、非正式训练题），缺少选项/评分细则等完整字段"
+      ],
+      "issues": [
+        "条目状态为骨架、pending_review，非正式训练题",
+        "缺少完整题目字段（如评分标准、解析）"
+      ],
+      "fixHints": [
+        "补全题目解析与评分要点后再正式发布",
+        "确认题干与答案在正式题库中的版本一致"
+      ],
+      "confidence": 0.8,
+      "type": "question",
+      "name": "同分异构体书写题",
+      "batch": "batch6",
+      "dbId": "14",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:26.387Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.inference.block",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "推断合理：淡黄色固体单质为S，燃烧生成SO2，SO2使品红褪色且加热恢复，符合高一必修内容",
+        "但为骨架题、pending_review，字段不完整"
+      ],
+      "issues": [
+        "骨架题、pending_review，非正式训练题",
+        "缺少完整解析与评分细则"
+      ],
+      "fixHints": [
+        "补充完整解析与关键依据说明",
+        "确认正式发布前字段齐全"
+      ],
+      "confidence": 0.8,
+      "type": "question",
+      "name": "框图推断题骨架",
+      "batch": "batch6",
+      "dbId": "15",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:26.387Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.inference.phenomenon",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "结论正确：乙烯可使溴水及酸性KMnO4褪色，乙烷饱和通常不能",
+        "但题干中“Y与溴水混合长时间颜色变化不明显”表述略含糊，且为骨架题"
+      ],
+      "issues": [
+        "骨架题、pending_review",
+        "题干对Y现象的描述不够严谨（长时间变化不明显易引起歧义）"
+      ],
+      "fixHints": [
+        "明确Y与溴水不反应的表述，避免歧义",
+        "补全解析与评分细则"
+      ],
+      "confidence": 0.75,
+      "type": "question",
+      "name": "现象推断题骨架",
+      "batch": "batch6",
+      "dbId": "16",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:26.387Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.substance.NaOH",
+      "grade": "REJECT_FIX",
+      "reasons": [
+        "题干为“下列说法正确的是？”但未给出任何选项，答案却为“A,C”，关键字段缺失严重，无法作答",
+        "骨架题、pending_review，不宜直接教学使用"
+      ],
+      "issues": [
+        "缺少选项内容，答案A,C无对应依据",
+        "骨架题、pending_review"
+      ],
+      "fixHints": [
+        "补全A/B/C/D各选项内容",
+        "核对正确选项与答案一致后重新提交审核"
+      ],
+      "confidence": 0.9,
+      "type": "question",
+      "name": "烧碱俗称与性质题",
+      "batch": "batch6",
+      "dbId": "17",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:26.387Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "q.comprehensive.mock",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "题干与答案三小问均符合高一必修表述：甲烷氯代多产物、原电池正极随电解质不同、加热非吸热判据",
+        "但条目自述为骨架、非正式训练题，且引擎未实现、禁无约束自动组卷判题"
+      ],
+      "issues": [
+        "inventoryNote/dbReviewNote 标明为骨架、pending_review，非正式训练题",
+        "组卷判题引擎未实现，不宜作为正式题目发布"
+      ],
+      "fixHints": [
+        "补齐正式题干、评分点与解析后再发布",
+        "明确标注为骨架/占位，不进入正式题库"
+      ],
+      "confidence": 0.9,
+      "type": "question",
+      "name": "综合模拟题组骨架",
+      "batch": "batch6",
+      "dbId": "18",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:29.212Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.endothermic",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "定义“吸收热量的化学反应叫吸热反应”准确",
+        "examples 写“某些分解反应（题设）；以教材列举为准”，表述含糊、未给具体实例"
+      ],
+      "issues": [
+        "examples 字段含糊，未给出教材级具体例证",
+        "inventoryNote 为 pending_review 增补条目"
+      ],
+      "fixHints": [
+        "补充教材常见吸热反应实例（如Ba(OH)2·8H2O与NH4Cl、C与CO2等）",
+        "明确“加热≠吸热判据”的说明"
+      ],
+      "confidence": 0.85,
+      "type": "concept",
+      "name": "吸热反应",
+      "batch": "batch6",
+      "dbId": "33",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:29.212Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.exothermic",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "定义“放出热量的化学反应叫放热反应”准确",
+        "examples 仅列燃烧、中和，尚可但偏简，且条目为 pending_review 增补"
+      ],
+      "issues": [
+        "examples 较单薄，未覆盖教材常见放热反应",
+        "inventoryNote 为 pending_review 增补条目"
+      ],
+      "fixHints": [
+        "补充金属与酸、化合反应等常见放热实例",
+        "补充“总热效应看断键吸能与成键放能相对大小”的说明"
+      ],
+      "confidence": 0.85,
+      "type": "concept",
+      "name": "放热反应",
+      "batch": "batch6",
+      "dbId": "34",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:29.212Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.energy.bond_change",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "断键吸能、成键放能及相对大小决定吸放热的表述符合中学口径与课标",
+        "明确“不能仅凭是否加热判断”，科学准确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.92,
+      "type": "knowledge",
+      "name": "化学键与能量变化",
+      "batch": "batch6",
+      "dbId": "74",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:29.212Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.energy.chem_electric",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "原电池将化学能转化为电能、电解将电能转化为化学能，表述准确",
+        "能量转化形式为必修要点，符合课标范围"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "化学能与电能",
+      "batch": "batch6",
+      "dbId": "75",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:31.140Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.energy.galvanic",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "构成条件（自发氧化还原、电极、电解质、闭合回路）表述准确",
+        "电子外电路迁移、离子电解质迁移正确",
+        "明确并非必须两种不同金属，避免常见误区"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "原电池",
+      "batch": "batch6",
+      "dbId": "76",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:31.140Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.energy.galvanic_poles",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "负极氧化失电子、正极还原得电子表述正确",
+        "强调结合电极材料与电解质氧化剂判断，严谨"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "原电池正负极",
+      "batch": "batch6",
+      "dbId": "77",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:31.140Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.energy.electron_flow",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "外电路电子由负极到正极、电流方向相反，正确",
+        "阳离子向正极、阴离子向负极迁移正确，并强调电子不在溶液流动"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "原电池电子流向",
+      "batch": "batch6",
+      "dbId": "78",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:31.140Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.energy.electrode_rxn",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "负极氧化、正极还原、相加得总反应符合原电池电极反应书写规范",
+        "Zn-Cu在CuSO4中正极Cu2+得电子、稀H2SO4中H+得电子，表述准确且强调按题设判断"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "原电池电极反应",
+      "batch": "batch6",
+      "dbId": "79",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:33.755Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.energy.chem_power",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "定位为了解级，仅要求名称与用途层次，符合必修第二册课标",
+        "明确不展开复杂电化学工程与电极材料细节，范围控制得当"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "knowledge",
+      "name": "常见化学电源",
+      "batch": "batch6",
+      "dbId": "80",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:33.755Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "exp.galvanic_Zn_Cu",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "电子外电路负极→正极、溶液中阴阳离子定向迁移形成闭合回路，表述正确",
+        "区分CuSO4与稀H2SO4两种电解质下正极反应，并强调按题设判断，科学准确",
+        "指出并非必须两种不同金属，避免常见误区"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "experiment",
+      "name": "铜锌原电池实验",
+      "batch": "batch6",
+      "dbId": "42",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:33.755Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.heat_of_reaction",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "verifyNeeded=true，按硬性规则最高只能HOLD_RESTRICTED",
+        "反应热概念级定义基本正确，但燃烧热/中和热及计算深度标注待教材核实，证据不足"
+      ],
+      "issues": [
+        "verifyNeeded=true，燃烧热/中和热概念与计算深度未核实",
+        "inventoryNote标注excludeDefaultQuantitative，定量训练边界未明确"
+      ],
+      "fixHints": [
+        "核对教材确认反应热定义及是否涉及燃烧热/中和热概念",
+        "明确标注不做复杂定量计算，仅概念级认识"
+      ],
+      "confidence": 0.8,
+      "type": "concept",
+      "name": "反应热",
+      "batch": "batch6",
+      "dbId": "35",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:14:33.755Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.energy.thermo_eq",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "注明聚集状态、ΔH符号与单位、计量数与ΔH对应关系，符合必修与高考表述",
+        "计量数翻倍ΔH相应变化表述正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "热化学方程式书写",
+      "batch": "batch6",
+      "dbId": "81",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:35.482Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.sustain.seawater",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "海水含NaCl、镁、溴等资源表述准确",
+        "淡化与综合利用意义符合教材，深度限定以教材案例为准，未超纲"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "knowledge",
+      "name": "海水资源开发",
+      "batch": "batch6",
+      "dbId": "82",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:35.482Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.sustain.coal",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "干馏、气化、液化属煤综合利用正确途径",
+        "明确不展开复杂工艺计算，符合必修范围"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "knowledge",
+      "name": "煤的综合利用",
+      "batch": "batch6",
+      "dbId": "83",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:35.482Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.organic.petroleum",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "石油分馏为按沸点不同分离的物理变化，表述准确",
+        "与裂化、裂解化学加工区分正确"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "石油分馏",
+      "batch": "batch6",
+      "dbId": "84",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:35.482Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.organic.cracking",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "裂化定义（长链烃断裂为短链烃以提高轻质燃油产量）表述正确，符合必修层次",
+        "verifyNeeded=true，按硬性规则最高只能HOLD_RESTRICTED",
+        "与裂解的区分、反应深度与考法尚未经教材核实"
+      ],
+      "issues": [
+        "verifyNeeded=true且标注待教材核实",
+        "裂化与裂解的条件/目的差异未在描述中明确"
+      ],
+      "fixHints": [
+        "核实教材对裂化的表述深度，补充与裂解在目的（轻质燃油vs化工原料）和条件上的区分",
+        "核实后置verifyNeeded=false再考虑发布"
+      ],
+      "confidence": 0.85,
+      "type": "knowledge",
+      "name": "石油裂化",
+      "batch": "batch6",
+      "dbId": "85",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:14:37.886Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.organic.pyrolysis",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "裂解定义（深度断裂获得乙烯、丙烯等化工原料）表述正确",
+        "verifyNeeded=true，最高只能HOLD_RESTRICTED",
+        "细节待教材核实，暂不宜作默认核心训练"
+      ],
+      "issues": [
+        "verifyNeeded=true且标注待教材核实",
+        "裂解与裂化的条件差异未具体说明"
+      ],
+      "fixHints": [
+        "核实教材对裂解深度与产物的表述，明确与裂化的目的/条件对比",
+        "核实后置verifyNeeded=false再考虑发布"
+      ],
+      "confidence": 0.85,
+      "type": "knowledge",
+      "name": "石油裂解",
+      "batch": "batch6",
+      "dbId": "86",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:14:37.886Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.sustain.natural_gas",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "天然气主要成分为甲烷、较清洁化石燃料、可作化工原料，表述准确符合必修层次",
+        "安全使用与碳中和背景属教材了解级认知，无科学错误",
+        "verifyNeeded=false，无超纲或误导内容"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "天然气利用",
+      "batch": "batch6",
+      "dbId": "87",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:37.886Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.sustain.fertilizer",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "氮、磷、钾肥作用与合理施用、过量导致污染，符合必修第二册化学与可持续发展内容",
+        "表述准确，无科学错误，verifyNeeded=false"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "化肥合理使用",
+      "batch": "batch6",
+      "dbId": "88",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:37.886Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.sustain.pesticide",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "表述准确：农药防治病虫害与合理使用、减少残留和生态危害符合必修二'化学与可持续发展'要求",
+        "属社会责任与科学态度类认知条目，未涉及超纲内容"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "农药合理使用",
+      "batch": "batch6",
+      "dbId": "89",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:39.627Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.sustain.medicine",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "按说明书与医嘱用药、滥用抗生素危害属教材案例层次，表述准确",
+        "明确不涉及诊疗指导，范围恰当"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "药物合理使用",
+      "batch": "batch6",
+      "dbId": "90",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:39.627Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.sustain.food_additive",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "'规定范围与剂量内使用'与'抵制非法添加'表述准确，符合课标与高考规范",
+        "区分合法合规使用与安全，无科学性错误"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "食品添加剂",
+      "batch": "batch6",
+      "dbId": "91",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:39.627Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.enviro.pollution",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "大气、水、土壤污染类型及源头控制、达标排放、绿色工艺等防治思路准确",
+        "结合硫氧化物、氮氧化物、塑料等教材案例，范围符合必修二"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.88,
+      "type": "knowledge",
+      "name": "环境污染与防治认知",
+      "batch": "batch6",
+      "dbId": "92",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:39.627Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.enviro.acid_rain",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "酸雨成因SO2、NOx及危害（酸化水体土壤、腐蚀建筑）表述准确，符合必修硫氮氧化物内容",
+        "防治措施脱硫脱硝、清洁能源、节能属通行课标表述，无科学错误"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "酸雨",
+      "batch": "batch6",
+      "dbId": "93",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:41.965Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.sustain.green_chem",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "绿色化学强调源头减污、提高原子利用率、选用安全原料溶剂，符合必修可持续发展概念认识",
+        "表述为概念级，未超纲"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "绿色化学",
+      "batch": "batch6",
+      "dbId": "94",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:41.965Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.sustain.atom_economy",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "verifyNeeded=true，按硬性规则最高只能HOLD",
+        "描述已注明定量计算公式与训练深度待教材核实，证据不足"
+      ],
+      "issues": [
+        "verifyNeeded=true，概念级但计算深度未核实",
+        "已excludeDefaultTraining，尚未人工审定"
+      ],
+      "fixHints": [
+        "核实教材对原子经济性定量计算的深度要求后再定稿",
+        "确认是否保留计算关联，核实后关闭verifyNeeded"
+      ],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "原子经济性",
+      "batch": "batch6",
+      "dbId": "95",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:14:41.965Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "concept.addition_polymer",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "加聚定义（不饱和单体经加成结合成高分子）准确，符合必修有机聚合物初步",
+        "乙烯→聚乙烯示例正确，范围按必修了解，未超纲"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "concept",
+      "name": "加成聚合",
+      "batch": "batch6",
+      "dbId": "36",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:41.965Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.organic.biomolecule",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "内容为糖类、油脂、蛋白质、维生素的认知级介绍，符合必修第二册有机与可持续发展主题的表述范围",
+        "verifyNeeded=true，按硬性规则最高只能给HOLD_RESTRICTED",
+        "覆盖深度待教材核实，inventoryNote与dbReviewNote均标注pending_review/待核实"
+      ],
+      "issues": [
+        "verifyNeeded=true且覆盖深度未核实",
+        "excludeDefaultTrainingUntilVerified标记未解除，暂不宜直接进入正式训练/发布"
+      ],
+      "fixHints": [
+        "对照人教版必修第二册相关章节核实糖类油脂蛋白质的呈现深度，确认后置verifyNeeded=false",
+        "明确维生素是否属于该节必学内容，避免超纲"
+      ],
+      "confidence": 0.85,
+      "type": "knowledge",
+      "name": "生命中的基本有机物（了解）",
+      "batch": "batch6",
+      "dbId": "96",
+      "verifyNeeded": true,
+      "auditedAt": "2026-10-18T12:14:44.889Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "rxn.C2H4_KMnO4",
+      "grade": "HOLD_RESTRICTED",
+      "reasons": [
+        "乙烯使酸性KMnO4褪色作为现象与鉴别用途，符合必修第二册乙烯内容",
+        "方程式中产物标注为“条件依赖、不指定唯一”，避免超纲唯一产物填空，处理得当",
+        "但species中产物formula为描述性文字（有机氧化产物(条件依赖)），非规范化学式，作为反应条目字段不严谨"
+      ],
+      "issues": [
+        "产物species使用描述性文字而非化学式，equation字段为示意性而非配平方程式，字段规范性不足",
+        "若用于equation.write_from_text训练，可能诱导学生填写唯一产物，与“禁唯一产物填空”备注冲突"
+      ],
+      "fixHints": [
+        "将产物species改为占位说明或移除具体formula，明确该条目仅用于现象判断/鉴别，不用于方程式书写",
+        "在categories中弱化equation.write_from_text，或标注仅现象训练"
+      ],
+      "confidence": 0.8,
+      "type": "reaction",
+      "name": "乙烯使酸性高锰酸钾褪色",
+      "batch": "batch6",
+      "dbId": "68",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:14:44.889Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.calc.gas",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "明确限定Vm≈22.4 L/mol仅适用于标准状况（0℃、101 kPa），符合教材与高考规范",
+        "指出未指明标况不得套用22.4，纠正常见易错点",
+        "同温同压下气体体积比≈物质的量比表述正确，属阿伏加德罗定律思想，范围合适"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.95,
+      "type": "knowledge",
+      "name": "气体相关计算",
+      "batch": "batch5",
+      "dbId": "57",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:15:13.307Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.calc.solution",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "c=n/V中V为溶液体积（L）表述准确",
+        "稀释公式c1V1=c2V2仅加水时成立，条件说明正确",
+        "区分物质的量浓度与质量分数、指出V误用溶剂体积等易错点，符合高一/高考规范"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.93,
+      "type": "knowledge",
+      "name": "溶液浓度综合",
+      "batch": "batch5",
+      "dbId": "58",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:15:13.308Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.exp.design",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "方案评价要点（目的、原理、试剂仪器匹配、步骤顺序、现象与结论、安全与尾气废液）符合高一实验基础与高考实验评价表述",
+        "明确限定为书面方案评价、不要求动手，范围合理不超纲"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.9,
+      "type": "knowledge",
+      "name": "实验方案设计要点",
+      "batch": "batch5",
+      "dbId": "59",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:15:15.758Z",
+      "model": "deepseek-chat"
+    },
+    {
+      "code": "kp.exp.error",
+      "grade": "PASS_PUBLISH",
+      "reasons": [
+        "误差分析强调对应操作阶段与测定量，符合高考规范表述",
+        "容量瓶残留蒸馏水不影响c、俯视/仰视定容、未洗涤、未冷却、超刻度吸出等各条结论均正确",
+        "⑥超刻度吸出部分溶液导致n偏小、c偏小的判断合理"
+      ],
+      "issues": [],
+      "fixHints": [],
+      "confidence": 0.88,
+      "type": "knowledge",
+      "name": "实验误差分析",
+      "batch": "batch5",
+      "dbId": "60",
+      "verifyNeeded": false,
+      "auditedAt": "2026-10-18T12:15:15.758Z",
+      "model": "deepseek-chat"
+    }
+  ]
+}

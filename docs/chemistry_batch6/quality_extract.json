@@ -1,0 +1,5161 @@
+{
+  "extractedAt": "2026-10-18T09:18:04.493Z",
+  "total": 79,
+  "inventoryTotal": 377,
+  "readOnly": true,
+  "priorBatchSample": {
+    "b5_instrument": {
+      "id": 17,
+      "status": "pending_review",
+      "rn": "[inv:exp.instrument_basic] batch5导入 pending_review id=17"
+    },
+    "b4_Cl2": {
+      "id": 34,
+      "status": "pending_review",
+      "rn": "[inv:sub.Cl2] batch4导入 pending_review id=34"
+    }
+  },
+  "batch5QuestionReviewNotes": [
+    {
+      "id": "2",
+      "status": "pending_review",
+      "hasInv": true,
+      "review_note": "[inv:q.calc.amount_basic] 骨架；可替换数据后充实为正式训练题"
+    },
+    {
+      "id": "3",
+      "status": "pending_review",
+      "hasInv": true,
+      "review_note": "[inv:q.calc.concentration] 骨架；单位得分点：mol/L"
+    },
+    {
+      "id": "4",
+      "status": "pending_review",
+      "hasInv": true,
+      "review_note": "[inv:q.calc.equation] 骨架；计算短答模板"
+    },
+    {
+      "id": "5",
+      "status": "pending_review",
+      "hasInv": true,
+      "review_note": "[inv:q.calc.excess] B5整改:单一数据组过量骨架;可作模板"
+    },
+    {
+      "id": "6",
+      "status": "pending_review",
+      "hasInv": true,
+      "review_note": "[inv:q.exp.instrument] 骨架；仪器识别选择题模板"
+    },
+    {
+      "id": "7",
+      "status": "pending_review",
+      "hasInv": true,
+      "review_note": "[inv:q.exp.gas_collect] 骨架；气体收集方法判断模板"
+    },
+    {
+      "id": "8",
+      "status": "pending_review",
+      "hasInv": true,
+      "review_note": "[inv:q.exp.safety] 骨架；安全判断题；强化禁家用"
+    },
+    {
+      "id": "9",
+      "status": "pending_review",
+      "hasInv": true,
+      "review_note": "[inv:q.eq.balance] 骨架；方程式配平填空模板"
+    }
+  ],
+  "items": [
+    {
+      "code": "sub.CH4",
+      "type": "substance",
+      "inventoryName": "甲烷",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=62",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "pack": "B6-A",
+      "source": "imported",
+      "dbId": "62",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:sub.CH4] 正四面体;取代多种氯代产物勿写唯一",
+      "dbRow": {
+        "id": 62,
+        "status": "pending_review",
+        "review_note": "[inv:sub.CH4] 正四面体;取代多种氯代产物勿写唯一",
+        "name": "甲烷",
+        "canonical_formula": "CH4",
+        "color": "无色",
+        "state_label": "气",
+        "solubility": "难溶于水",
+        "physical_props": "无色无味气体（纯）；密度比空气小；极易燃烧。分子为正四面体结构，碳原子位于中心，四个氢原子位于顶点，键角约109°28′。",
+        "chemical_props": "最简单烷烃。稳定，一般不与强酸强碱、强氧化剂反应（常温）。可发生取代反应：光照下与Cl2逐步取代，可生成CH3Cl、CH2Cl2、CHCl3、CCl4等多种氯代产物及HCl，不得把某一种氯代物写成唯一产物。可燃烧生成CO2和H2O。",
+        "common_uses": "燃料；有机化工原料（了解）。",
+        "test_methods": "可燃性；与氯气光照取代（现象：黄绿色褪去、油状液滴等，题设）；结合来源题设判断。",
+        "storage_methods": "气瓶或管道输送；远离火源；通风。",
+        "safety_notes": "易燃易爆；与空气混合遇火源有爆炸危险；禁止家用制取与点燃实验。"
+      },
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "formula"
+      ],
+      "species": null,
+      "packData": {
+        "name": "甲烷",
+        "canonicalFormula": "CH4",
+        "commonNames": "沼气主要成分、天然气主要成分（了解）",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "难溶于水",
+        "physicalProps": "无色无味气体（纯）；密度比空气小；极易燃烧。分子为正四面体结构，碳原子位于中心，四个氢原子位于顶点，键角约109°28′。",
+        "chemicalProps": "最简单烷烃。稳定，一般不与强酸强碱、强氧化剂反应（常温）。可发生取代反应：光照下与Cl2逐步取代，可生成CH3Cl、CH2Cl2、CHCl3、CCl4等多种氯代产物及HCl，不得把某一种氯代物写成唯一产物。可燃烧生成CO2和H2O。",
+        "commonUses": "燃料；有机化工原料（了解）。",
+        "testMethods": "可燃性；与氯气光照取代（现象：黄绿色褪去、油状液滴等，题设）；结合来源题设判断。",
+        "storageMethods": "气瓶或管道输送；远离火源；通风。",
+        "safetyNotes": "易燃易爆；与空气混合遇火源有爆炸危险；禁止家用制取与点燃实验。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.CH4] 正四面体;取代多种氯代产物勿写唯一"
+      }
+    },
+    {
+      "code": "sub.C2H4",
+      "type": "substance",
+      "inventoryName": "乙烯",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=63",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "pack": "B6-A",
+      "source": "imported",
+      "dbId": "63",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:sub.C2H4] 结构简式CH2=CH2;KMnO4褪色不指定唯一氧化产物",
+      "dbRow": {
+        "id": 63,
+        "status": "pending_review",
+        "review_note": "[inv:sub.C2H4] 结构简式CH2=CH2;KMnO4褪色不指定唯一氧化产物",
+        "name": "乙烯",
+        "canonical_formula": "C2H4",
+        "color": "无色",
+        "state_label": "气",
+        "solubility": "难溶于水",
+        "physical_props": "无色气体，略带气味；密度与空气接近（题设为准）。结构简式CH2=CH2，含碳碳双键。",
+        "chemical_props": "不饱和烃代表。易发生加成反应（如与Br2、H2、H2O等）。可使酸性KMnO4溶液褪色（被氧化，产物随条件变化，不指定唯一氧化产物）。可燃烧。可发生加聚反应生成聚乙烯（了解）。",
+        "common_uses": "石化重要原料；制聚乙烯、乙醇等（了解）。",
+        "test_methods": "使溴水（或Br2的CCl4溶液）褪色；使酸性KMnO4褪色（与饱和烃对比，题设）。",
+        "storage_methods": "钢瓶或现制；远离火源。",
+        "safety_notes": "易燃；实验室制取涉及浓硫酸加热等危险操作，仅书面分析，禁止家用。"
+      },
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "formula"
+      ],
+      "species": null,
+      "packData": {
+        "name": "乙烯",
+        "canonicalFormula": "C2H4",
+        "commonNames": "乙烯",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "难溶于水",
+        "physicalProps": "无色气体，略带气味；密度与空气接近（题设为准）。结构简式CH2=CH2，含碳碳双键。",
+        "chemicalProps": "不饱和烃代表。易发生加成反应（如与Br2、H2、H2O等）。可使酸性KMnO4溶液褪色（被氧化，产物随条件变化，不指定唯一氧化产物）。可燃烧。可发生加聚反应生成聚乙烯（了解）。",
+        "commonUses": "石化重要原料；制聚乙烯、乙醇等（了解）。",
+        "testMethods": "使溴水（或Br2的CCl4溶液）褪色；使酸性KMnO4褪色（与饱和烃对比，题设）。",
+        "storageMethods": "钢瓶或现制；远离火源。",
+        "safetyNotes": "易燃；实验室制取涉及浓硫酸加热等危险操作，仅书面分析，禁止家用。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.C2H4] 结构简式CH2=CH2;KMnO4褪色不指定唯一氧化产物"
+      }
+    },
+    {
+      "code": "sub.C2H6",
+      "type": "substance",
+      "inventoryName": "乙烷",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=64",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 2,
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "pack": "B6-A",
+      "source": "imported",
+      "dbId": "64",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:sub.C2H6]",
+      "dbRow": {
+        "id": 64,
+        "status": "pending_review",
+        "review_note": "[inv:sub.C2H6]",
+        "name": "乙烷",
+        "canonical_formula": "C2H6",
+        "color": "无色",
+        "state_label": "气",
+        "solubility": "难溶于水",
+        "physical_props": "无色气体；结构简式CH3CH3（或CH3−CH3），饱和烷烃。",
+        "chemical_props": "烷烃通性：较稳定；可发生取代（如与Cl2光照，了解）；可燃烧。一般不能使溴水或酸性KMnO4因加成/氧化而明显褪色（与乙烯对比）。可由乙烯加氢得到。",
+        "common_uses": "燃料与化工原料（了解）。",
+        "test_methods": "与乙烯对比：通常不能使溴水/酸性KMnO4因不饱和性而褪色（题设条件）。",
+        "storage_methods": "气瓶；远离火源。",
+        "safety_notes": "易燃；禁止家用危险实验。"
+      },
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "formula"
+      ],
+      "species": null,
+      "packData": {
+        "name": "乙烷",
+        "canonicalFormula": "C2H6",
+        "commonNames": "乙烷",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "难溶于水",
+        "physicalProps": "无色气体；结构简式CH3CH3（或CH3−CH3），饱和烷烃。",
+        "chemicalProps": "烷烃通性：较稳定；可发生取代（如与Cl2光照，了解）；可燃烧。一般不能使溴水或酸性KMnO4因加成/氧化而明显褪色（与乙烯对比）。可由乙烯加氢得到。",
+        "commonUses": "燃料与化工原料（了解）。",
+        "testMethods": "与乙烯对比：通常不能使溴水/酸性KMnO4因不饱和性而褪色（题设条件）。",
+        "storageMethods": "气瓶；远离火源。",
+        "safetyNotes": "易燃；禁止家用危险实验。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.C2H6]"
+      }
+    },
+    {
+      "code": "sub.C2H5OH",
+      "type": "substance",
+      "inventoryName": "乙醇",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=65",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "pack": "B6-A",
+      "source": "imported",
+      "dbId": "65",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:sub.C2H5OH] 官能团羟基;催化氧化条件须写清Cu/Ag加热",
+      "dbRow": {
+        "id": 65,
+        "status": "pending_review",
+        "review_note": "[inv:sub.C2H5OH] 官能团羟基;催化氧化条件须写清Cu/Ag加热",
+        "name": "乙醇",
+        "canonical_formula": "C2H5OH",
+        "color": "无色",
+        "state_label": "液",
+        "solubility": "与水任意比互溶",
+        "physical_props": "无色透明有特殊气味的液体；易挥发；密度小于水。结构简式CH3CH2OH，官能团为羟基（−OH）。",
+        "chemical_props": "可燃烧：C2H5OH+3O2→2CO2+3H2O。催化氧化（Cu或Ag作催化剂、加热）：2CH3CH2OH+O2→2CH3CHO+2H2O（教材常见写法）。与乙酸在浓硫酸催化加热下发生酯化。羟基氢可与活泼金属反应（了解/题设）。",
+        "common_uses": "燃料、溶剂、消毒、饮料与化工原料（了解）。",
+        "test_methods": "燃烧；催化氧化时铜丝由黑变红等现象（题设）；酯化香味（结合条件）。",
+        "storage_methods": "密封，远离火源；易燃液体规范存放。",
+        "safety_notes": "易燃；禁止家用蒸馏或催化氧化危险操作；本系统仅书面训练。"
+      },
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "formula"
+      ],
+      "species": null,
+      "packData": {
+        "name": "乙醇",
+        "canonicalFormula": "C2H5OH",
+        "commonNames": "酒精",
+        "color": "无色",
+        "stateLabel": "液",
+        "solubility": "与水任意比互溶",
+        "physicalProps": "无色透明有特殊气味的液体；易挥发；密度小于水。结构简式CH3CH2OH，官能团为羟基（−OH）。",
+        "chemicalProps": "可燃烧：C2H5OH+3O2→2CO2+3H2O。催化氧化（Cu或Ag作催化剂、加热）：2CH3CH2OH+O2→2CH3CHO+2H2O（教材常见写法）。与乙酸在浓硫酸催化加热下发生酯化。羟基氢可与活泼金属反应（了解/题设）。",
+        "commonUses": "燃料、溶剂、消毒、饮料与化工原料（了解）。",
+        "testMethods": "燃烧；催化氧化时铜丝由黑变红等现象（题设）；酯化香味（结合条件）。",
+        "storageMethods": "密封，远离火源；易燃液体规范存放。",
+        "safetyNotes": "易燃；禁止家用蒸馏或催化氧化危险操作；本系统仅书面训练。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.C2H5OH] 官能团羟基;催化氧化条件须写清Cu/Ag加热"
+      }
+    },
+    {
+      "code": "sub.CH3COOH",
+      "type": "substance",
+      "inventoryName": "乙酸",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=66",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "pack": "B6-A",
+      "source": "imported",
+      "dbId": "66",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:sub.CH3COOH] 弱酸;羧基;酸性强于碳酸",
+      "dbRow": {
+        "id": 66,
+        "status": "pending_review",
+        "review_note": "[inv:sub.CH3COOH] 弱酸;羧基;酸性强于碳酸",
+        "name": "乙酸",
+        "canonical_formula": "CH3COOH",
+        "color": "无色",
+        "state_label": "液",
+        "solubility": "与水互溶",
+        "physical_props": "无色有刺激性酸味的液体；纯乙酸低温可凝成冰状（冰醋酸，了解）。官能团为羧基（−COOH）。",
+        "chemical_props": "弱酸，具酸的通性：使紫色石蕊变红；与活泼金属、碱、碱性氧化物、某些盐反应。酸性强于碳酸：可与Na2CO3反应放出CO2。与乙醇酯化生成乙酸乙酯。",
+        "common_uses": "食醋主要成分（稀）；有机合成与溶剂（了解）。",
+        "test_methods": "酸性（石蕊）；与Na2CO3产生使澄清石灰水变浑浊的气体；酯化实验现象（题设）。",
+        "storage_methods": "密封；腐蚀性试剂规范存放。",
+        "safety_notes": "浓乙酸有腐蚀性与刺激性；禁止家用危险实验。"
+      },
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "formula"
+      ],
+      "species": null,
+      "packData": {
+        "name": "乙酸",
+        "canonicalFormula": "CH3COOH",
+        "commonNames": "醋酸、古称醋酸",
+        "color": "无色",
+        "stateLabel": "液",
+        "solubility": "与水互溶",
+        "physicalProps": "无色有刺激性酸味的液体；纯乙酸低温可凝成冰状（冰醋酸，了解）。官能团为羧基（−COOH）。",
+        "chemicalProps": "弱酸，具酸的通性：使紫色石蕊变红；与活泼金属、碱、碱性氧化物、某些盐反应。酸性强于碳酸：可与Na2CO3反应放出CO2。与乙醇酯化生成乙酸乙酯。",
+        "commonUses": "食醋主要成分（稀）；有机合成与溶剂（了解）。",
+        "testMethods": "酸性（石蕊）；与Na2CO3产生使澄清石灰水变浑浊的气体；酯化实验现象（题设）。",
+        "storageMethods": "密封；腐蚀性试剂规范存放。",
+        "safetyNotes": "浓乙酸有腐蚀性与刺激性；禁止家用危险实验。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.CH3COOH] 弱酸;羧基;酸性强于碳酸"
+      }
+    },
+    {
+      "code": "sub.CH3COOCH2CH3",
+      "type": "substance",
+      "inventoryName": "乙酸乙酯",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=67",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "pack": "B6-A",
+      "source": "imported",
+      "dbId": "67",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:sub.CH3COOCH2CH3] 可写CH3COOCH2CH3或CH3COOC2H5",
+      "dbRow": {
+        "id": 67,
+        "status": "pending_review",
+        "review_note": "[inv:sub.CH3COOCH2CH3] 可写CH3COOCH2CH3或CH3COOC2H5",
+        "name": "乙酸乙酯",
+        "canonical_formula": "CH3COOCH2CH3",
+        "color": "无色",
+        "state_label": "液",
+        "solubility": "难溶于水，密度比水小（了解/题设）",
+        "physical_props": "无色液体，有特殊香味。结构简式CH3COOCH2CH3或CH3COOC2H5，属酯类。",
+        "chemical_props": "由乙酸与乙醇在浓硫酸催化、加热下酯化生成（可逆）。在水中溶解度小，常浮于上层；可用于认识酯的物理性质与酯化实验现象。水解等深度按教材题设，勿默认展开复杂机理。",
+        "common_uses": "溶剂、香料等（了解）。",
+        "test_methods": "酯化产物有香味；难溶于水、油状液体浮于水面（题设装置）。",
+        "storage_methods": "密封，远离火源。",
+        "safety_notes": "易燃有机液体；酯化实验仅书面分析，禁止家用。"
+      },
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "formula"
+      ],
+      "species": null,
+      "packData": {
+        "name": "乙酸乙酯",
+        "canonicalFormula": "CH3COOCH2CH3",
+        "commonNames": "醋酸乙酯；亦可写作CH3COOC2H5",
+        "color": "无色",
+        "stateLabel": "液",
+        "solubility": "难溶于水，密度比水小（了解/题设）",
+        "physicalProps": "无色液体，有特殊香味。结构简式CH3COOCH2CH3或CH3COOC2H5，属酯类。",
+        "chemicalProps": "由乙酸与乙醇在浓硫酸催化、加热下酯化生成（可逆）。在水中溶解度小，常浮于上层；可用于认识酯的物理性质与酯化实验现象。水解等深度按教材题设，勿默认展开复杂机理。",
+        "commonUses": "溶剂、香料等（了解）。",
+        "testMethods": "酯化产物有香味；难溶于水、油状液体浮于水面（题设装置）。",
+        "storageMethods": "密封，远离火源。",
+        "safetyNotes": "易燃有机液体；酯化实验仅书面分析，禁止家用。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.CH3COOCH2CH3] 可写CH3COOCH2CH3或CH3COOC2H5"
+      }
+    },
+    {
+      "code": "sub.C2H2",
+      "type": "substance",
+      "inventoryName": "乙炔",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=68",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 2,
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "pack": "B6-A",
+      "source": "imported",
+      "dbId": "68",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:sub.C2H2] curriculumScope:必修了解/待核实深度;结构HC≡CH;勿默认深度选修炔烃训练",
+      "dbRow": {
+        "id": 68,
+        "status": "pending_review",
+        "review_note": "[inv:sub.C2H2] curriculumScope:必修了解/待核实深度;结构HC≡CH;勿默认深度选修炔烃训练",
+        "name": "乙炔",
+        "canonical_formula": "C2H2",
+        "color": "无色",
+        "state_label": "气",
+        "solubility": "微溶于水（了解）",
+        "physical_props": "无色气体；结构简式HC≡CH，含碳碳三键。",
+        "chemical_props": "不饱和烃。可发生加成、燃烧等（深度以所用必修教材为准）。可使溴水、酸性KMnO4褪色（与不饱和性相关，题设）。实验室由电石与水制取等属了解/题设。",
+        "common_uses": "焊接气焰、有机合成原料（了解）。",
+        "test_methods": "不饱和性褪色实验（题设）；燃烧火焰等（了解）。",
+        "storage_methods": "钢瓶或现制；远离火源。",
+        "safety_notes": "易燃易爆；电石反应放热，禁止家用制取。"
+      },
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "formula"
+      ],
+      "species": null,
+      "packData": {
+        "name": "乙炔",
+        "canonicalFormula": "C2H2",
+        "commonNames": "电石气（粗乙炔，了解）",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "微溶于水（了解）",
+        "physicalProps": "无色气体；结构简式HC≡CH，含碳碳三键。",
+        "chemicalProps": "不饱和烃。可发生加成、燃烧等（深度以所用必修教材为准）。可使溴水、酸性KMnO4褪色（与不饱和性相关，题设）。实验室由电石与水制取等属了解/题设。",
+        "commonUses": "焊接气焰、有机合成原料（了解）。",
+        "testMethods": "不饱和性褪色实验（题设）；燃烧火焰等（了解）。",
+        "storageMethods": "钢瓶或现制；远离火源。",
+        "safetyNotes": "易燃易爆；电石反应放热，禁止家用制取。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.C2H2] curriculumScope:必修了解/待核实深度;结构HC≡CH;勿默认深度选修炔烃训练"
+      }
+    },
+    {
+      "code": "sub.C3H8",
+      "type": "substance",
+      "inventoryName": "丙烷",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=69",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 2,
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "pack": "B6-A",
+      "source": "imported",
+      "dbId": "69",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:sub.C3H8]",
+      "dbRow": {
+        "id": 69,
+        "status": "pending_review",
+        "review_note": "[inv:sub.C3H8]",
+        "name": "丙烷",
+        "canonical_formula": "C3H8",
+        "color": "无色",
+        "state_label": "气",
+        "solubility": "难溶于水",
+        "physical_props": "无色气体；烷烃同系物，分子式C3H8。",
+        "chemical_props": "烷烃通性：可燃烧；可发生取代（了解）。用于认识同系物通式CnH2n+2及同系物比较。",
+        "common_uses": "液化石油气组分、燃料（了解）。",
+        "test_methods": "燃烧；与不饱和烃对比（题设）。",
+        "storage_methods": "液化气瓶；远离火源。",
+        "safety_notes": "易燃易爆；禁止家用危险实验。"
+      },
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "formula"
+      ],
+      "species": null,
+      "packData": {
+        "name": "丙烷",
+        "canonicalFormula": "C3H8",
+        "commonNames": "丙烷",
+        "color": "无色",
+        "stateLabel": "气",
+        "solubility": "难溶于水",
+        "physicalProps": "无色气体；烷烃同系物，分子式C3H8。",
+        "chemicalProps": "烷烃通性：可燃烧；可发生取代（了解）。用于认识同系物通式CnH2n+2及同系物比较。",
+        "commonUses": "液化石油气组分、燃料（了解）。",
+        "testMethods": "燃烧；与不饱和烃对比（题设）。",
+        "storageMethods": "液化气瓶；远离火源。",
+        "safetyNotes": "易燃易爆；禁止家用危险实验。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.C3H8]"
+      }
+    },
+    {
+      "code": "sub.C6H6",
+      "type": "substance",
+      "inventoryName": "苯",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=70",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 3,
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "pack": "B6-A",
+      "source": "imported",
+      "dbId": "70",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:sub.C6H6] curriculumScope:必修了解结构稳定性;不要默认深度选修芳香取代训练;scope限了解",
+      "dbRow": {
+        "id": 70,
+        "status": "pending_review",
+        "review_note": "[inv:sub.C6H6] curriculumScope:必修了解结构稳定性;不要默认深度选修芳香取代训练;scope限了解",
+        "name": "苯",
+        "canonical_formula": "C6H6",
+        "color": "无色",
+        "state_label": "液",
+        "solubility": "难溶于水，易溶于有机溶剂（了解）",
+        "physical_props": "无色有特殊气味的液体；有毒。分子具平面正六边形碳环结构（教材表述），结构较稳定。",
+        "chemical_props": "必修层面：认识结构稳定、不易使溴水因加成而褪色、不易被酸性KMnO4氧化褪色等对比结论（以所用教材为准）。芳香取代等深度属选修，不得作为默认高一训练核心。",
+        "common_uses": "有机溶剂与化工原料（了解）。",
+        "test_methods": "与烯烃对比：溴水/KMnO4褪色行为不同（题设，勿超纲展开机理）。",
+        "storage_methods": "密封，远离火源；有毒试剂规范管理。",
+        "safety_notes": "有毒、易燃；禁止家用接触与实验。"
+      },
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "formula"
+      ],
+      "species": null,
+      "packData": {
+        "name": "苯",
+        "canonicalFormula": "C6H6",
+        "commonNames": "苯",
+        "color": "无色",
+        "stateLabel": "液",
+        "solubility": "难溶于水，易溶于有机溶剂（了解）",
+        "physicalProps": "无色有特殊气味的液体；有毒。分子具平面正六边形碳环结构（教材表述），结构较稳定。",
+        "chemicalProps": "必修层面：认识结构稳定、不易使溴水因加成而褪色、不易被酸性KMnO4氧化褪色等对比结论（以所用教材为准）。芳香取代等深度属选修，不得作为默认高一训练核心。",
+        "commonUses": "有机溶剂与化工原料（了解）。",
+        "testMethods": "与烯烃对比：溴水/KMnO4褪色行为不同（题设，勿超纲展开机理）。",
+        "storageMethods": "密封，远离火源；有毒试剂规范管理。",
+        "safetyNotes": "有毒、易燃；禁止家用接触与实验。",
+        "tags": [
+          "organic"
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:sub.C6H6] curriculumScope:必修了解结构稳定性;不要默认深度选修芳香取代训练;scope限了解"
+      }
+    },
+    {
+      "code": "rxn.CH4_Cl2",
+      "type": "reaction",
+      "inventoryName": "甲烷与氯气取代",
+      "inventoryStatus": "imported",
+      "note": "canonical~CH4+Cl2→CH3Cl+HCl; batch6导入 pending_review id=59",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "pack": "B6-B",
+      "source": "imported",
+      "dbId": "59",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:rxn.CH4_Cl2] CRITICAL:多种氯代产物CH3Cl/CH2Cl2/CHCl3/CCl4;canonical仅第一步示例;禁写唯一产物",
+      "dbRow": {
+        "id": 59,
+        "status": "pending_review",
+        "review_note": "[inv:rxn.CH4_Cl2] CRITICAL:多种氯代产物CH3Cl/CH2Cl2/CHCl3/CCl4;canonical仅第一步示例;禁写唯一产物",
+        "name": "甲烷与氯气取代",
+        "canonical_equation": "CH4+Cl2=CH3Cl+HCl",
+        "equation": "CH4 + Cl2 =光照= CH3Cl + HCl（第一步示例）",
+        "ionic_equation": null,
+        "conditions": "光照（注意：氯气有毒、混合气有爆炸风险，仅书面分析）",
+        "phenomenon": "黄绿色氯气颜色逐渐变浅；可出现油状液滴（多种氯代烃混合物，题设）；生成HCl可用湿润蓝色石蕊试纸变红等检验（题设）。",
+        "principle": "取代反应：甲烷分子中的氢原子被氯原子逐步取代。可生成CH3Cl、CH2Cl2、CHCl3、CCl4等多种氯代产物及HCl，不得将某一种氯代物写成该反应的唯一产物。canonical式仅表示第一步示例。高中通常按有机取代分类，一般不作为氧化还原分析训练重点。",
+        "oxidant": null,
+        "reductant": null,
+        "ox_product": null,
+        "re_product": null,
+        "electron_transfer": "N/A（高中有机取代分类；不作默认氧化还原归属）",
+        "difficulty": 2,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "substitution",
+        "addition",
+        "esterification"
+      ],
+      "species": [
+        {
+          "role": "reactant",
+          "formula": "CH4",
+          "coefficient": "1.0000",
+          "state_symbol": "g",
+          "is_gas": 1,
+          "is_precipitate": 0,
+          "sort_order": 1
+        },
+        {
+          "role": "reactant",
+          "formula": "Cl2",
+          "coefficient": "1.0000",
+          "state_symbol": "g",
+          "is_gas": 1,
+          "is_precipitate": 0,
+          "sort_order": 2
+        },
+        {
+          "role": "product",
+          "formula": "CH3Cl",
+          "coefficient": "1.0000",
+          "state_symbol": "g",
+          "is_gas": 1,
+          "is_precipitate": 0,
+          "sort_order": 3
+        },
+        {
+          "role": "product",
+          "formula": "HCl",
+          "coefficient": "1.0000",
+          "state_symbol": "g",
+          "is_gas": 1,
+          "is_precipitate": 0,
+          "sort_order": 4
+        }
+      ],
+      "packData": {
+        "name": "甲烷与氯气取代",
+        "canonicalEquation": "CH4+Cl2=CH3Cl+HCl",
+        "equation": "CH4 + Cl2 =光照= CH3Cl + HCl（第一步示例）",
+        "ionicEquation": null,
+        "conditions": "光照（注意：氯气有毒、混合气有爆炸风险，仅书面分析）",
+        "phenomenon": "黄绿色氯气颜色逐渐变浅；可出现油状液滴（多种氯代烃混合物，题设）；生成HCl可用湿润蓝色石蕊试纸变红等检验（题设）。",
+        "principle": "取代反应：甲烷分子中的氢原子被氯原子逐步取代。可生成CH3Cl、CH2Cl2、CHCl3、CCl4等多种氯代产物及HCl，不得将某一种氯代物写成该反应的唯一产物。canonical式仅表示第一步示例。高中通常按有机取代分类，一般不作为氧化还原分析训练重点。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": "N/A（高中有机取代分类；不作默认氧化还原归属）",
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "substitution",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,organic.substitution",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "CH4",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "Cl2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CH3Cl",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "HCl",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.CH4_Cl2] CRITICAL:多种氯代产物CH3Cl/CH2Cl2/CHCl3/CCl4;canonical仅第一步示例;禁写唯一产物"
+      }
+    },
+    {
+      "code": "rxn.C2H4_Br2",
+      "type": "reaction",
+      "inventoryName": "乙烯与溴加成",
+      "inventoryStatus": "imported",
+      "note": "canonical~C2H4+Br2→C2H4Br2; batch6导入 pending_review id=60",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "pack": "B6-B",
+      "source": "imported",
+      "dbId": "60",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:rxn.C2H4_Br2] canonical~C2H4+Br2→C2H4Br2",
+      "dbRow": {
+        "id": 60,
+        "status": "pending_review",
+        "review_note": "[inv:rxn.C2H4_Br2] canonical~C2H4+Br2→C2H4Br2",
+        "name": "乙烯与溴加成",
+        "canonical_equation": "CH2=CH2+Br2=CH2BrCH2Br",
+        "equation": "CH2=CH2 + Br2 =常温= CH2BrCH2Br",
+        "ionic_equation": null,
+        "conditions": "常温（溴水或Br2的CCl4溶液，题设）",
+        "phenomenon": "溴水（或溴的有机溶液）橙红色/棕红色褪去，生成无色的1,2-二溴乙烷。",
+        "principle": "加成反应：双键中的π键断裂，两个溴原子分别加到两个碳原子上。常用于检验不饱和键。",
+        "oxidant": null,
+        "reductant": null,
+        "ox_product": null,
+        "re_product": null,
+        "electron_transfer": null,
+        "difficulty": 2,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "substitution",
+        "addition",
+        "esterification"
+      ],
+      "species": [
+        {
+          "role": "reactant",
+          "formula": "C2H4",
+          "coefficient": "1.0000",
+          "state_symbol": "g",
+          "is_gas": 1,
+          "is_precipitate": 0,
+          "sort_order": 1
+        },
+        {
+          "role": "reactant",
+          "formula": "Br2",
+          "coefficient": "1.0000",
+          "state_symbol": "aq",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 2
+        },
+        {
+          "role": "product",
+          "formula": "CH2BrCH2Br",
+          "coefficient": "1.0000",
+          "state_symbol": "l",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 3
+        }
+      ],
+      "packData": {
+        "name": "乙烯与溴加成",
+        "canonicalEquation": "CH2=CH2+Br2=CH2BrCH2Br",
+        "equation": "CH2=CH2 + Br2 =常温= CH2BrCH2Br",
+        "ionicEquation": null,
+        "conditions": "常温（溴水或Br2的CCl4溶液，题设）",
+        "phenomenon": "溴水（或溴的有机溶液）橙红色/棕红色褪去，生成无色的1,2-二溴乙烷。",
+        "principle": "加成反应：双键中的π键断裂，两个溴原子分别加到两个碳原子上。常用于检验不饱和键。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "addition",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,organic.addition",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "C2H4",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "Br2",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CH2BrCH2Br",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.C2H4_Br2] canonical~C2H4+Br2→C2H4Br2"
+      }
+    },
+    {
+      "code": "rxn.C2H4_H2O",
+      "type": "reaction",
+      "inventoryName": "乙烯水化制乙醇",
+      "inventoryStatus": "imported",
+      "note": "canonical~C2H4+H2O→C2H5OH; batch6导入 pending_review id=61",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "pack": "B6-B",
+      "source": "imported",
+      "dbId": "61",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:rxn.C2H4_H2O] 条件:催化剂+加热加压;催化剂写法随教材(如磷酸)",
+      "dbRow": {
+        "id": 61,
+        "status": "pending_review",
+        "review_note": "[inv:rxn.C2H4_H2O] 条件:催化剂+加热加压;催化剂写法随教材(如磷酸)",
+        "name": "乙烯水化制乙醇",
+        "canonical_equation": "CH2=CH2+H2O=CH3CH2OH",
+        "equation": "CH2=CH2 + H2O =催化剂、加热加压= CH3CH2OH",
+        "ionic_equation": null,
+        "conditions": "催化剂（如磷酸等，以教材为准）、加热、加压",
+        "phenomenon": "工业条件下乙烯与水加成生成乙醇（实验室少做，以方程式与条件认知为主）。",
+        "principle": "加成（水化）反应：水分子加到双键上，生成乙醇。",
+        "oxidant": null,
+        "reductant": null,
+        "ox_product": null,
+        "re_product": null,
+        "electron_transfer": null,
+        "difficulty": 2,
+        "importance": 4
+      },
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "substitution",
+        "addition",
+        "esterification"
+      ],
+      "species": [
+        {
+          "role": "reactant",
+          "formula": "C2H4",
+          "coefficient": "1.0000",
+          "state_symbol": "g",
+          "is_gas": 1,
+          "is_precipitate": 0,
+          "sort_order": 1
+        },
+        {
+          "role": "reactant",
+          "formula": "H2O",
+          "coefficient": "1.0000",
+          "state_symbol": "g",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 2
+        },
+        {
+          "role": "product",
+          "formula": "C2H5OH",
+          "coefficient": "1.0000",
+          "state_symbol": "l",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 3
+        }
+      ],
+      "packData": {
+        "name": "乙烯水化制乙醇",
+        "canonicalEquation": "CH2=CH2+H2O=CH3CH2OH",
+        "equation": "CH2=CH2 + H2O =催化剂、加热加压= CH3CH2OH",
+        "ionicEquation": null,
+        "conditions": "催化剂（如磷酸等，以教材为准）、加热、加压",
+        "phenomenon": "工业条件下乙烯与水加成生成乙醇（实验室少做，以方程式与条件认知为主）。",
+        "principle": "加成（水化）反应：水分子加到双键上，生成乙醇。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 2,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "addition",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,equation.condition",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "C2H4",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "C2H5OH",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.C2H4_H2O] 条件:催化剂+加热加压;催化剂写法随教材(如磷酸)"
+      }
+    },
+    {
+      "code": "rxn.C2H4_H2",
+      "type": "reaction",
+      "inventoryName": "乙烯加氢",
+      "inventoryStatus": "imported",
+      "note": "canonical~C2H4+H2→C2H6; batch6导入 pending_review id=62",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "pack": "B6-B",
+      "source": "imported",
+      "dbId": "62",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:rxn.C2H4_H2] canonical~C2H4+H2→C2H6",
+      "dbRow": {
+        "id": 62,
+        "status": "pending_review",
+        "review_note": "[inv:rxn.C2H4_H2] canonical~C2H4+H2→C2H6",
+        "name": "乙烯加氢",
+        "canonical_equation": "CH2=CH2+H2=CH3CH3",
+        "equation": "CH2=CH2 + H2 =催化剂、加热= CH3CH3",
+        "ionic_equation": null,
+        "conditions": "催化剂、加热",
+        "phenomenon": "乙烯与氢气在催化剂加热条件下转化为乙烷（工业/题设认知）。",
+        "principle": "加成反应：氢原子加到双键碳上，乙烯变为饱和的乙烷。",
+        "oxidant": null,
+        "reductant": null,
+        "ox_product": null,
+        "re_product": null,
+        "electron_transfer": null,
+        "difficulty": 2,
+        "importance": 4
+      },
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "substitution",
+        "addition",
+        "esterification"
+      ],
+      "species": [
+        {
+          "role": "reactant",
+          "formula": "C2H4",
+          "coefficient": "1.0000",
+          "state_symbol": "g",
+          "is_gas": 1,
+          "is_precipitate": 0,
+          "sort_order": 1
+        },
+        {
+          "role": "reactant",
+          "formula": "H2",
+          "coefficient": "1.0000",
+          "state_symbol": "g",
+          "is_gas": 1,
+          "is_precipitate": 0,
+          "sort_order": 2
+        },
+        {
+          "role": "product",
+          "formula": "C2H6",
+          "coefficient": "1.0000",
+          "state_symbol": "g",
+          "is_gas": 1,
+          "is_precipitate": 0,
+          "sort_order": 3
+        }
+      ],
+      "packData": {
+        "name": "乙烯加氢",
+        "canonicalEquation": "CH2=CH2+H2=CH3CH3",
+        "equation": "CH2=CH2 + H2 =催化剂、加热= CH3CH3",
+        "ionicEquation": null,
+        "conditions": "催化剂、加热",
+        "phenomenon": "乙烯与氢气在催化剂加热条件下转化为乙烷（工业/题设认知）。",
+        "principle": "加成反应：氢原子加到双键碳上，乙烯变为饱和的乙烷。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 2,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "addition",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,equation.condition",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "C2H4",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "H2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "C2H6",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.C2H4_H2] canonical~C2H4+H2→C2H6"
+      }
+    },
+    {
+      "code": "rxn.C2H5OH_O2",
+      "type": "reaction",
+      "inventoryName": "乙醇催化氧化",
+      "inventoryStatus": "imported",
+      "note": "canonical~2C2H5OH+O2→2CH3CHO+2H2O; batch6导入 pending_review id=63",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "pack": "B6-B",
+      "source": "imported",
+      "dbId": "63",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:rxn.C2H5OH_O2] 条件必须写清Cu或Ag催化剂加热;教材常见写法",
+      "dbRow": {
+        "id": 63,
+        "status": "pending_review",
+        "review_note": "[inv:rxn.C2H5OH_O2] 条件必须写清Cu或Ag催化剂加热;教材常见写法",
+        "name": "乙醇催化氧化",
+        "canonical_equation": "2CH3CH2OH+O2=2CH3CHO+2H2O",
+        "equation": "2CH3CH2OH + O2 =Cu或Ag、加热= 2CH3CHO + 2H2O",
+        "ionic_equation": null,
+        "conditions": "Cu或Ag作催化剂并加热（教材常见：灼热铜丝伸入乙醇）",
+        "phenomenon": "铜丝表面黑色CuO变为红色Cu（循环催化常见演示表述）；可闻到刺激性气味（乙醛，题设）。",
+        "principle": "乙醇被氧气氧化为乙醛，水为另一产物；Cu/Ag起催化作用。属氧化还原：氧化剂O2，还原剂乙醇。",
+        "oxidant": "O2",
+        "reductant": "CH3CH2OH",
+        "ox_product": "H2O",
+        "re_product": "CH3CHO",
+        "electron_transfer": "乙醇中与羟基相连的碳被氧化；O2被还原为H2O（高中定性）",
+        "difficulty": 3,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "substitution",
+        "addition",
+        "esterification"
+      ],
+      "species": [
+        {
+          "role": "reactant",
+          "formula": "C2H5OH",
+          "coefficient": "2.0000",
+          "state_symbol": "l",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 1
+        },
+        {
+          "role": "reactant",
+          "formula": "O2",
+          "coefficient": "1.0000",
+          "state_symbol": "g",
+          "is_gas": 1,
+          "is_precipitate": 0,
+          "sort_order": 2
+        },
+        {
+          "role": "product",
+          "formula": "CH3CHO",
+          "coefficient": "2.0000",
+          "state_symbol": "g",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 3
+        },
+        {
+          "role": "product",
+          "formula": "H2O",
+          "coefficient": "2.0000",
+          "state_symbol": "l",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 4
+        }
+      ],
+      "packData": {
+        "name": "乙醇催化氧化",
+        "canonicalEquation": "2CH3CH2OH+O2=2CH3CHO+2H2O",
+        "equation": "2CH3CH2OH + O2 =Cu或Ag、加热= 2CH3CHO + 2H2O",
+        "ionicEquation": null,
+        "conditions": "Cu或Ag作催化剂并加热（教材常见：灼热铜丝伸入乙醇）",
+        "phenomenon": "铜丝表面黑色CuO变为红色Cu（循环催化常见演示表述）；可闻到刺激性气味（乙醛，题设）。",
+        "principle": "乙醇被氧气氧化为乙醛，水为另一产物；Cu/Ag起催化作用。属氧化还原：氧化剂O2，还原剂乙醇。",
+        "oxidant": "O2",
+        "reductant": "CH3CH2OH",
+        "oxProduct": "H2O",
+        "reProduct": "CH3CHO",
+        "electronTransfer": "乙醇中与羟基相连的碳被氧化；O2被还原为H2O（高中定性）",
+        "difficulty": 3,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "redox",
+          "oxidation"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify,equation.condition",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "C2H5OH",
+            "coefficient": 2,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "O2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CH3CHO",
+            "coefficient": 2,
+            "stateSymbol": "g",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 2,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.C2H5OH_O2] 条件必须写清Cu或Ag催化剂加热;教材常见写法"
+      }
+    },
+    {
+      "code": "rxn.C2H5OH_burn",
+      "type": "reaction",
+      "inventoryName": "乙醇燃烧",
+      "inventoryStatus": "imported",
+      "note": "canonical~C2H5OH+3O2→2CO2+3H2O; batch6导入 pending_review id=64",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "pack": "B6-B",
+      "source": "imported",
+      "dbId": "64",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:rxn.C2H5OH_burn] canonical~C2H5OH+3O2→2CO2+3H2O",
+      "dbRow": {
+        "id": 64,
+        "status": "pending_review",
+        "review_note": "[inv:rxn.C2H5OH_burn] canonical~C2H5OH+3O2→2CO2+3H2O",
+        "name": "乙醇燃烧",
+        "canonical_equation": "C2H5OH+3O2=2CO2+3H2O",
+        "equation": "C2H5OH + 3O2 =点燃= 2CO2 + 3H2O",
+        "ionic_equation": null,
+        "conditions": "点燃",
+        "phenomenon": "燃烧，发出淡蓝色火焰（题设）；生成CO2和H2O，放热。",
+        "principle": "乙醇完全燃烧的氧化还原反应；氧化剂O2，还原剂C2H5OH。",
+        "oxidant": "O2",
+        "reductant": "C2H5OH",
+        "ox_product": "H2O",
+        "re_product": "CO2",
+        "electron_transfer": "C、H被氧化；O被还原（高中定性）",
+        "difficulty": 1,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "substitution",
+        "addition",
+        "esterification"
+      ],
+      "species": [
+        {
+          "role": "reactant",
+          "formula": "C2H5OH",
+          "coefficient": "1.0000",
+          "state_symbol": "l",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 1
+        },
+        {
+          "role": "reactant",
+          "formula": "O2",
+          "coefficient": "3.0000",
+          "state_symbol": "g",
+          "is_gas": 1,
+          "is_precipitate": 0,
+          "sort_order": 2
+        },
+        {
+          "role": "product",
+          "formula": "CO2",
+          "coefficient": "2.0000",
+          "state_symbol": "g",
+          "is_gas": 1,
+          "is_precipitate": 0,
+          "sort_order": 3
+        },
+        {
+          "role": "product",
+          "formula": "H2O",
+          "coefficient": "3.0000",
+          "state_symbol": "g",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 4
+        }
+      ],
+      "packData": {
+        "name": "乙醇燃烧",
+        "canonicalEquation": "C2H5OH+3O2=2CO2+3H2O",
+        "equation": "C2H5OH + 3O2 =点燃= 2CO2 + 3H2O",
+        "ionicEquation": null,
+        "conditions": "点燃",
+        "phenomenon": "燃烧，发出淡蓝色火焰（题设）；生成CO2和H2O，放热。",
+        "principle": "乙醇完全燃烧的氧化还原反应；氧化剂O2，还原剂C2H5OH。",
+        "oxidant": "O2",
+        "reductant": "C2H5OH",
+        "oxProduct": "H2O",
+        "reProduct": "CO2",
+        "electronTransfer": "C、H被氧化；O被还原（高中定性）",
+        "difficulty": 1,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "redox",
+          "combustion"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "C2H5OH",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "O2",
+            "coefficient": 3,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CO2",
+            "coefficient": 2,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 3,
+            "stateSymbol": "g",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.C2H5OH_burn] canonical~C2H5OH+3O2→2CO2+3H2O"
+      }
+    },
+    {
+      "code": "rxn.esterification",
+      "type": "reaction",
+      "inventoryName": "乙酸乙酯酯化",
+      "inventoryStatus": "imported",
+      "note": "canonical~CH3COOH+C2H5OH⇌CH3COOC2H5+H2O; batch6导入 pending_review id=65",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "pack": "B6-B",
+      "source": "imported",
+      "dbId": "65",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:rxn.esterification] 可逆;浓硫酸催化加热;species含酸与醇两侧",
+      "dbRow": {
+        "id": 65,
+        "status": "pending_review",
+        "review_note": "[inv:rxn.esterification] 可逆;浓硫酸催化加热;species含酸与醇两侧",
+        "name": "乙酸乙酯酯化",
+        "canonical_equation": "CH3COOH+C2H5OH⇌CH3COOC2H5+H2O",
+        "equation": "CH3COOH + C2H5OH ⇌浓硫酸、加热⇌ CH3COOC2H5 + H2O",
+        "ionic_equation": null,
+        "conditions": "浓硫酸作催化剂（兼吸水）、加热；可逆反应",
+        "phenomenon": "生成有香味的乙酸乙酯；产物难溶于水，常以油状液体浮于饱和碳酸钠溶液上层（题设装置）。",
+        "principle": "酯化：酸脱羟基、醇脱氢（教材规律表述）生成酯和水；浓硫酸催化并促进平衡移动；反应可逆，用⇌表示。",
+        "oxidant": null,
+        "reductant": null,
+        "ox_product": null,
+        "re_product": null,
+        "electron_transfer": null,
+        "difficulty": 3,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "substitution",
+        "addition",
+        "esterification"
+      ],
+      "species": [
+        {
+          "role": "reactant",
+          "formula": "CH3COOH",
+          "coefficient": "1.0000",
+          "state_symbol": "l",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 1
+        },
+        {
+          "role": "reactant",
+          "formula": "C2H5OH",
+          "coefficient": "1.0000",
+          "state_symbol": "l",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 2
+        },
+        {
+          "role": "product",
+          "formula": "CH3COOC2H5",
+          "coefficient": "1.0000",
+          "state_symbol": "l",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 3
+        },
+        {
+          "role": "product",
+          "formula": "H2O",
+          "coefficient": "1.0000",
+          "state_symbol": "l",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 4
+        }
+      ],
+      "packData": {
+        "name": "乙酸乙酯酯化",
+        "canonicalEquation": "CH3COOH+C2H5OH⇌CH3COOC2H5+H2O",
+        "equation": "CH3COOH + C2H5OH ⇌浓硫酸、加热⇌ CH3COOC2H5 + H2O",
+        "ionicEquation": null,
+        "conditions": "浓硫酸作催化剂（兼吸水）、加热；可逆反应",
+        "phenomenon": "生成有香味的乙酸乙酯；产物难溶于水，常以油状液体浮于饱和碳酸钠溶液上层（题设装置）。",
+        "principle": "酯化：酸脱羟基、醇脱氢（教材规律表述）生成酯和水；浓硫酸催化并促进平衡移动；反应可逆，用⇌表示。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 3,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "esterification",
+          "non-redox",
+          "reversible"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,equation.condition,organic.esterification",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "CH3COOH",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "C2H5OH",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CH3COOC2H5",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.esterification] 可逆;浓硫酸催化加热;species含酸与醇两侧"
+      }
+    },
+    {
+      "code": "rxn.CH3COOH_NaOH",
+      "type": "reaction",
+      "inventoryName": "乙酸与氢氧化钠",
+      "inventoryStatus": "imported",
+      "note": "canonical~CH3COOH+NaOH→CH3COONa+H2O; batch6导入 pending_review id=66",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "pack": "B6-B",
+      "source": "imported",
+      "dbId": "66",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:rxn.CH3COOH_NaOH] canonical~CH3COOH+NaOH→CH3COONa+H2O",
+      "dbRow": {
+        "id": 66,
+        "status": "pending_review",
+        "review_note": "[inv:rxn.CH3COOH_NaOH] canonical~CH3COOH+NaOH→CH3COONa+H2O",
+        "name": "乙酸与氢氧化钠",
+        "canonical_equation": "CH3COOH+NaOH=CH3COONa+H2O",
+        "equation": "CH3COOH + NaOH = CH3COONa + H2O",
+        "ionic_equation": "CH3COOH + OH- = CH3COO- + H2O",
+        "conditions": "常温水溶液中和",
+        "phenomenon": "酸性减弱/指示剂颜色变化（题设）；生成乙酸钠和水。",
+        "principle": "弱酸与强碱的中和反应；非氧化还原。",
+        "oxidant": null,
+        "reductant": null,
+        "ox_product": null,
+        "re_product": null,
+        "electron_transfer": null,
+        "difficulty": 1,
+        "importance": 4
+      },
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "substitution",
+        "addition",
+        "esterification"
+      ],
+      "species": [
+        {
+          "role": "reactant",
+          "formula": "CH3COOH",
+          "coefficient": "1.0000",
+          "state_symbol": "aq",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 1
+        },
+        {
+          "role": "reactant",
+          "formula": "NaOH",
+          "coefficient": "1.0000",
+          "state_symbol": "aq",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 2
+        },
+        {
+          "role": "product",
+          "formula": "CH3COONa",
+          "coefficient": "1.0000",
+          "state_symbol": "aq",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 3
+        },
+        {
+          "role": "product",
+          "formula": "H2O",
+          "coefficient": "1.0000",
+          "state_symbol": "l",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 4
+        }
+      ],
+      "packData": {
+        "name": "乙酸与氢氧化钠",
+        "canonicalEquation": "CH3COOH+NaOH=CH3COONa+H2O",
+        "equation": "CH3COOH + NaOH = CH3COONa + H2O",
+        "ionicEquation": "CH3COOH + OH- = CH3COO- + H2O",
+        "conditions": "常温水溶液中和",
+        "phenomenon": "酸性减弱/指示剂颜色变化（题设）；生成乙酸钠和水。",
+        "principle": "弱酸与强碱的中和反应；非氧化还原。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 1,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "acid-base",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,ion.ionic_eq",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "CH3COOH",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "NaOH",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CH3COONa",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.CH3COOH_NaOH] canonical~CH3COOH+NaOH→CH3COONa+H2O"
+      }
+    },
+    {
+      "code": "rxn.CH3COOH_Na2CO3",
+      "type": "reaction",
+      "inventoryName": "乙酸与碳酸钠",
+      "inventoryStatus": "imported",
+      "note": "canonical~2CH3COOH+Na2CO3→2CH3COONa+CO2+H2O; batch6导入 pending_review id=67",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ],
+      "pack": "B6-B",
+      "source": "imported",
+      "dbId": "67",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:rxn.CH3COOH_Na2CO3] 酸性强于碳酸;气体CO2↑",
+      "dbRow": {
+        "id": 67,
+        "status": "pending_review",
+        "review_note": "[inv:rxn.CH3COOH_Na2CO3] 酸性强于碳酸;气体CO2↑",
+        "name": "乙酸与碳酸钠",
+        "canonical_equation": "2CH3COOH+Na2CO3=2CH3COONa+CO2+H2O",
+        "equation": "2CH3COOH + Na2CO3 = 2CH3COONa + CO2↑ + H2O",
+        "ionic_equation": "2CH3COOH + CO3 2- = 2CH3COO- + CO2↑ + H2O",
+        "conditions": "常温水溶液",
+        "phenomenon": "产生使澄清石灰水变浑浊的无色气体（CO2）。",
+        "principle": "乙酸酸性强于碳酸，可与碳酸盐反应放出CO2；非氧化还原。用于证明乙酸酸性强于碳酸。",
+        "oxidant": null,
+        "reductant": null,
+        "ox_product": null,
+        "re_product": null,
+        "electron_transfer": null,
+        "difficulty": 2,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "substitution",
+        "addition",
+        "esterification"
+      ],
+      "species": [
+        {
+          "role": "reactant",
+          "formula": "CH3COOH",
+          "coefficient": "2.0000",
+          "state_symbol": "aq",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 1
+        },
+        {
+          "role": "reactant",
+          "formula": "Na2CO3",
+          "coefficient": "1.0000",
+          "state_symbol": "aq",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 2
+        },
+        {
+          "role": "product",
+          "formula": "CH3COONa",
+          "coefficient": "2.0000",
+          "state_symbol": "aq",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 3
+        },
+        {
+          "role": "product",
+          "formula": "CO2",
+          "coefficient": "1.0000",
+          "state_symbol": "g",
+          "is_gas": 1,
+          "is_precipitate": 0,
+          "sort_order": 4
+        },
+        {
+          "role": "product",
+          "formula": "H2O",
+          "coefficient": "1.0000",
+          "state_symbol": "l",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 5
+        }
+      ],
+      "packData": {
+        "name": "乙酸与碳酸钠",
+        "canonicalEquation": "2CH3COOH+Na2CO3=2CH3COONa+CO2+H2O",
+        "equation": "2CH3COOH + Na2CO3 = 2CH3COONa + CO2↑ + H2O",
+        "ionicEquation": "2CH3COOH + CO3 2- = 2CH3COO- + CO2↑ + H2O",
+        "conditions": "常温水溶液",
+        "phenomenon": "产生使澄清石灰水变浑浊的无色气体（CO2）。",
+        "principle": "乙酸酸性强于碳酸，可与碳酸盐反应放出CO2；非氧化还原。用于证明乙酸酸性强于碳酸。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "acid-base",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,ion.ionic_eq",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "CH3COOH",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "Na2CO3",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CH3COONa",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "CO2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 5
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.CH3COOH_Na2CO3] 酸性强于碳酸;气体CO2↑"
+      }
+    },
+    {
+      "code": "exp.CH4_property",
+      "type": "experiment",
+      "inventoryName": "甲烷性质实验认知",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=36",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 2,
+      "specialtyCodes": [
+        "organic",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "organic.property",
+        "experiment.safety"
+      ],
+      "pack": "B6-C",
+      "source": "imported",
+      "dbId": "36",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:exp.CH4_property] 书面only;多种氯代产物",
+      "dbRow": {
+        "id": 36,
+        "status": "pending_review",
+        "review_note": "[inv:exp.CH4_property] 书面only;多种氯代产物",
+        "name": "甲烷性质实验认知",
+        "category": "property",
+        "purpose": "书面分析题训练：认识甲烷的可燃性及光照下与氯气取代的主要现象与结论，理解多种氯代产物可能并存。",
+        "principle": "甲烷可燃烧生成CO2和H2O。光照下与Cl2发生取代，可生成CH3Cl、CH2Cl2、CHCl3、CCl4等多种产物，不得写为唯一产物。",
+        "instruments": "集气瓶、导管、光源（题设）、燃烧匙或导管点燃装置（图示）等",
+        "reagents": "CH4、Cl2、空气/O2（燃烧题设）",
+        "steps": "1.对照图示判断气体验纯与点燃要点；2.分析CH4与Cl2混合光照的现象描述；3.判断产物是否可能为混合物；4.安全与尾气评价（书面）。",
+        "phenomenon": "燃烧；氯气黄绿色变浅、可能出现油状液滴；生成HCl使石蕊变红（题设）。",
+        "conclusion": "甲烷可燃；光照下可发生取代且产物多样；实验仅作现象与原理书面训练。",
+        "precautions": "混合气体遇火源危险；Cl2有毒须尾气处理；禁止家用。",
+        "safety_notes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 氯气与可燃气体实验高危，禁止动手。",
+        "is_hazardous": 0,
+        "home_forbidden_note": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。"
+      },
+      "dbSpecialtyCodes": [
+        "experiment",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "safety",
+        "property"
+      ],
+      "species": null,
+      "packData": {
+        "homeForbiddenNote": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "isHazardous": false,
+        "name": "甲烷性质实验认知",
+        "category": "property",
+        "purpose": "书面分析题训练：认识甲烷的可燃性及光照下与氯气取代的主要现象与结论，理解多种氯代产物可能并存。",
+        "principle": "甲烷可燃烧生成CO2和H2O。光照下与Cl2发生取代，可生成CH3Cl、CH2Cl2、CHCl3、CCl4等多种产物，不得写为唯一产物。",
+        "instruments": "集气瓶、导管、光源（题设）、燃烧匙或导管点燃装置（图示）等",
+        "reagents": "CH4、Cl2、空气/O2（燃烧题设）",
+        "steps": "1.对照图示判断气体验纯与点燃要点；2.分析CH4与Cl2混合光照的现象描述；3.判断产物是否可能为混合物；4.安全与尾气评价（书面）。",
+        "phenomenon": "燃烧；氯气黄绿色变浅、可能出现油状液滴；生成HCl使石蕊变红（题设）。",
+        "conclusion": "甲烷可燃；光照下可发生取代且产物多样；实验仅作现象与原理书面训练。",
+        "precautions": "混合气体遇火源危险；Cl2有毒须尾气处理；禁止家用。",
+        "safetyNotes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 氯气与可燃气体实验高危，禁止动手。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.CH4_property] 书面only;多种氯代产物"
+      }
+    },
+    {
+      "code": "exp.C2H4_prep",
+      "type": "experiment",
+      "inventoryName": "乙烯的实验室制法",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=37",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "organic.property",
+        "experiment.safety"
+      ],
+      "pack": "B6-C",
+      "source": "imported",
+      "dbId": "37",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:exp.C2H4_prep] 约170℃;书面装置分析",
+      "dbRow": {
+        "id": 37,
+        "status": "pending_review",
+        "review_note": "[inv:exp.C2H4_prep] 约170℃;书面装置分析",
+        "name": "乙烯的实验室制法",
+        "category": "gas_prep",
+        "purpose": "书面分析题训练：掌握乙醇浓硫酸加热制乙烯的原理、温度控制、装置与杂质干扰评价要点。",
+        "principle": "实验室常用乙醇与浓硫酸混合加热至约170℃制乙烯（消去，教材表述）：CH3CH2OH →浓H2SO4、170℃→ CH2=CH2↑ + H2O。温度不当可能生成乙醚等副产物（了解/题设）。",
+        "instruments": "圆底烧瓶、温度计、酒精灯、导管、集气瓶或后续性质检验装置等",
+        "reagents": "乙醇、浓硫酸；碎瓷片（防暴沸，题设）",
+        "steps": "1.检查气密性；2.按比例加入试剂与碎瓷片；3.迅速升温至约170℃；4.收集或通入后续试剂检验；5.评价尾气与废液处理（书面）。",
+        "phenomenon": "产生气体；后续可使溴水或酸性KMnO4褪色（性质联动题设）。",
+        "conclusion": "可用乙醇浓硫酸加热制乙烯；温度与防暴沸是常考点。",
+        "precautions": "温度计水银球位置；防暴沸；浓硫酸腐蚀；控制温度减少副反应。",
+        "safety_notes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 浓硫酸加热高危，禁止家用。",
+        "is_hazardous": 0,
+        "home_forbidden_note": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。"
+      },
+      "dbSpecialtyCodes": [
+        "experiment",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "safety",
+        "property"
+      ],
+      "species": null,
+      "packData": {
+        "homeForbiddenNote": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "isHazardous": false,
+        "name": "乙烯的实验室制法",
+        "category": "gas_prep",
+        "purpose": "书面分析题训练：掌握乙醇浓硫酸加热制乙烯的原理、温度控制、装置与杂质干扰评价要点。",
+        "principle": "实验室常用乙醇与浓硫酸混合加热至约170℃制乙烯（消去，教材表述）：CH3CH2OH →浓H2SO4、170℃→ CH2=CH2↑ + H2O。温度不当可能生成乙醚等副产物（了解/题设）。",
+        "instruments": "圆底烧瓶、温度计、酒精灯、导管、集气瓶或后续性质检验装置等",
+        "reagents": "乙醇、浓硫酸；碎瓷片（防暴沸，题设）",
+        "steps": "1.检查气密性；2.按比例加入试剂与碎瓷片；3.迅速升温至约170℃；4.收集或通入后续试剂检验；5.评价尾气与废液处理（书面）。",
+        "phenomenon": "产生气体；后续可使溴水或酸性KMnO4褪色（性质联动题设）。",
+        "conclusion": "可用乙醇浓硫酸加热制乙烯；温度与防暴沸是常考点。",
+        "precautions": "温度计水银球位置；防暴沸；浓硫酸腐蚀；控制温度减少副反应。",
+        "safetyNotes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 浓硫酸加热高危，禁止家用。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.C2H4_prep] 约170℃;书面装置分析"
+      }
+    },
+    {
+      "code": "exp.C2H4_Br2",
+      "type": "experiment",
+      "inventoryName": "乙烯使溴水褪色",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=38",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "organic.property",
+        "experiment.safety"
+      ],
+      "pack": "B6-C",
+      "source": "imported",
+      "dbId": "38",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:exp.C2H4_Br2]",
+      "dbRow": {
+        "id": 38,
+        "status": "pending_review",
+        "review_note": "[inv:exp.C2H4_Br2]",
+        "name": "乙烯使溴水褪色",
+        "category": "property",
+        "purpose": "书面分析题训练：用溴水（或溴的四氯化碳溶液）检验乙烯不饱和性，区分加成褪色与萃取等干扰。",
+        "principle": "CH2=CH2+Br2→CH2BrCH2Br（加成），溶液颜色褪去；属于化学变化导致的褪色。",
+        "instruments": "导管、试管或洗气瓶、集气装置（题设）",
+        "reagents": "乙烯、溴水（或Br2/CCl4）",
+        "steps": "1.将乙烯通入溴水；2.观察颜色变化；3.与甲烷/乙烷对照（题设）；4.判断褪色原因是否为加成。",
+        "phenomenon": "溴水橙红/棕红色褪去。",
+        "conclusion": "乙烯能与溴加成使溴水褪色，可用于检验不饱和键。",
+        "precautions": "溴水有腐蚀性与毒性；通入速率与装置气密性（书面评价）。",
+        "safety_notes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 溴试剂危险，禁止家用。",
+        "is_hazardous": 0,
+        "home_forbidden_note": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。"
+      },
+      "dbSpecialtyCodes": [
+        "experiment",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "safety",
+        "property"
+      ],
+      "species": null,
+      "packData": {
+        "homeForbiddenNote": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "isHazardous": false,
+        "name": "乙烯使溴水褪色",
+        "category": "property",
+        "purpose": "书面分析题训练：用溴水（或溴的四氯化碳溶液）检验乙烯不饱和性，区分加成褪色与萃取等干扰。",
+        "principle": "CH2=CH2+Br2→CH2BrCH2Br（加成），溶液颜色褪去；属于化学变化导致的褪色。",
+        "instruments": "导管、试管或洗气瓶、集气装置（题设）",
+        "reagents": "乙烯、溴水（或Br2/CCl4）",
+        "steps": "1.将乙烯通入溴水；2.观察颜色变化；3.与甲烷/乙烷对照（题设）；4.判断褪色原因是否为加成。",
+        "phenomenon": "溴水橙红/棕红色褪去。",
+        "conclusion": "乙烯能与溴加成使溴水褪色，可用于检验不饱和键。",
+        "precautions": "溴水有腐蚀性与毒性；通入速率与装置气密性（书面评价）。",
+        "safetyNotes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 溴试剂危险，禁止家用。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.C2H4_Br2]"
+      }
+    },
+    {
+      "code": "exp.ethanol_oxid",
+      "type": "experiment",
+      "inventoryName": "乙醇催化氧化",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=39",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "organic.property",
+        "experiment.safety"
+      ],
+      "pack": "B6-C",
+      "source": "imported",
+      "dbId": "39",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:exp.ethanol_oxid]",
+      "dbRow": {
+        "id": 39,
+        "status": "pending_review",
+        "review_note": "[inv:exp.ethanol_oxid]",
+        "name": "乙醇催化氧化",
+        "category": "property",
+        "purpose": "书面分析题训练：认识乙醇在Cu或Ag催化加热下被氧气氧化为乙醛的条件、现象与方程式。",
+        "principle": "2CH3CH2OH+O2=Cu或Ag、加热=2CH3CHO+2H2O。常见演示：铜丝加热变黑（CuO）后伸入乙醇，又变为红色，循环催化。",
+        "instruments": "酒精灯、铜丝（或银丝）、试管等（题设图示）",
+        "reagents": "乙醇、空气（O2）、Cu或Ag",
+        "steps": "1.加热铜丝至表面变黑；2.趁热伸入乙醇液面上方或按教材操作；3.观察铜丝颜色变化与气味；4.写出化学方程式并标明条件。",
+        "phenomenon": "铜丝由黑变红；可闻到刺激性气味（乙醛）。",
+        "conclusion": "乙醇可催化氧化为乙醛；条件必须写清催化剂与加热。",
+        "precautions": "乙醇易燃，远离明火隐患；仅书面分析操作正误。",
+        "safety_notes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 禁止家用加热有机物实验。",
+        "is_hazardous": 0,
+        "home_forbidden_note": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。"
+      },
+      "dbSpecialtyCodes": [
+        "experiment",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "safety",
+        "property"
+      ],
+      "species": null,
+      "packData": {
+        "homeForbiddenNote": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "isHazardous": false,
+        "name": "乙醇催化氧化",
+        "category": "property",
+        "purpose": "书面分析题训练：认识乙醇在Cu或Ag催化加热下被氧气氧化为乙醛的条件、现象与方程式。",
+        "principle": "2CH3CH2OH+O2=Cu或Ag、加热=2CH3CHO+2H2O。常见演示：铜丝加热变黑（CuO）后伸入乙醇，又变为红色，循环催化。",
+        "instruments": "酒精灯、铜丝（或银丝）、试管等（题设图示）",
+        "reagents": "乙醇、空气（O2）、Cu或Ag",
+        "steps": "1.加热铜丝至表面变黑；2.趁热伸入乙醇液面上方或按教材操作；3.观察铜丝颜色变化与气味；4.写出化学方程式并标明条件。",
+        "phenomenon": "铜丝由黑变红；可闻到刺激性气味（乙醛）。",
+        "conclusion": "乙醇可催化氧化为乙醛；条件必须写清催化剂与加热。",
+        "precautions": "乙醇易燃，远离明火隐患；仅书面分析操作正误。",
+        "safetyNotes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 禁止家用加热有机物实验。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.ethanol_oxid]"
+      }
+    },
+    {
+      "code": "exp.esterification",
+      "type": "experiment",
+      "inventoryName": "乙酸乙酯制备",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=40",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "organic.property",
+        "experiment.safety"
+      ],
+      "pack": "B6-C",
+      "source": "imported",
+      "dbId": "40",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:exp.esterification]",
+      "dbRow": {
+        "id": 40,
+        "status": "pending_review",
+        "review_note": "[inv:exp.esterification]",
+        "name": "乙酸乙酯制备",
+        "category": "organic_prep",
+        "purpose": "书面分析题训练：掌握酯化反应条件、装置要点、饱和碳酸钠溶液作用及产物分层现象分析。",
+        "principle": "CH3COOH+C2H5OH⇌浓硫酸、加热⇌CH3COOC2H5+H2O。浓硫酸催化并吸水；产物用饱和Na2CO3吸收乙酸、溶解乙醇并降低酯溶解度，便于分层观察。",
+        "instruments": "大试管、导管、酒精灯、接收试管等",
+        "reagents": "乙酸、乙醇、浓硫酸、饱和碳酸钠溶液",
+        "steps": "1.按顺序加入试剂（题设常考加料顺序）；2.加热；3.导管口在液面上防倒吸（题设）；4.观察上层油状有香味液体；5.评价可逆与提高产率措施（书面）。",
+        "phenomenon": "有香味；在饱和Na2CO3液面上出现油状液体层。",
+        "conclusion": "可制得乙酸乙酯；反应可逆；饱和碳酸钠有助于观察与分离酯。",
+        "precautions": "浓硫酸腐蚀；加热防暴沸/液体冲出；导管不可伸入碳酸钠液面下过深导致倒吸（题设）。",
+        "safety_notes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 禁止家用酯化实验。",
+        "is_hazardous": 0,
+        "home_forbidden_note": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。"
+      },
+      "dbSpecialtyCodes": [
+        "experiment",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "safety",
+        "property"
+      ],
+      "species": null,
+      "packData": {
+        "homeForbiddenNote": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "isHazardous": false,
+        "name": "乙酸乙酯制备",
+        "category": "organic_prep",
+        "purpose": "书面分析题训练：掌握酯化反应条件、装置要点、饱和碳酸钠溶液作用及产物分层现象分析。",
+        "principle": "CH3COOH+C2H5OH⇌浓硫酸、加热⇌CH3COOC2H5+H2O。浓硫酸催化并吸水；产物用饱和Na2CO3吸收乙酸、溶解乙醇并降低酯溶解度，便于分层观察。",
+        "instruments": "大试管、导管、酒精灯、接收试管等",
+        "reagents": "乙酸、乙醇、浓硫酸、饱和碳酸钠溶液",
+        "steps": "1.按顺序加入试剂（题设常考加料顺序）；2.加热；3.导管口在液面上防倒吸（题设）；4.观察上层油状有香味液体；5.评价可逆与提高产率措施（书面）。",
+        "phenomenon": "有香味；在饱和Na2CO3液面上出现油状液体层。",
+        "conclusion": "可制得乙酸乙酯；反应可逆；饱和碳酸钠有助于观察与分离酯。",
+        "precautions": "浓硫酸腐蚀；加热防暴沸/液体冲出；导管不可伸入碳酸钠液面下过深导致倒吸（题设）。",
+        "safetyNotes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 禁止家用酯化实验。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.esterification]"
+      }
+    },
+    {
+      "code": "exp.acetic_acid",
+      "type": "experiment",
+      "inventoryName": "乙酸酸性验证",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=41",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "organic.property",
+        "experiment.safety"
+      ],
+      "pack": "B6-C",
+      "source": "imported",
+      "dbId": "41",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:exp.acetic_acid]",
+      "dbRow": {
+        "id": 41,
+        "status": "pending_review",
+        "review_note": "[inv:exp.acetic_acid]",
+        "name": "乙酸酸性验证",
+        "category": "property",
+        "purpose": "书面分析题训练：通过石蕊、与活泼金属、碱、碳酸盐等反应验证乙酸酸性及“强于碳酸”的比较。",
+        "principle": "乙酸为弱酸但具酸通性；2CH3COOH+Na2CO3=2CH3COONa+CO2↑+H2O，可证明酸性强于碳酸。",
+        "instruments": "试管、胶头滴管、导管、澄清石灰水等",
+        "reagents": "乙酸、紫色石蕊、镁条（或锌）、NaOH、Na2CO3、澄清石灰水",
+        "steps": "1.石蕊变红；2.与活泼金属产生气泡；3.与NaOH中和；4.与Na2CO3反应，气体通入石灰水变浑浊；5.对比结论。",
+        "phenomenon": "石蕊变红；有气泡；石灰水变浑浊等。",
+        "conclusion": "乙酸具酸性；酸性强于碳酸。",
+        "precautions": "浓乙酸腐蚀刺激；气体检验注意量与装置。",
+        "safety_notes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "is_hazardous": 0,
+        "home_forbidden_note": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。"
+      },
+      "dbSpecialtyCodes": [
+        "experiment",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "safety",
+        "property"
+      ],
+      "species": null,
+      "packData": {
+        "homeForbiddenNote": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "isHazardous": false,
+        "name": "乙酸酸性验证",
+        "category": "property",
+        "purpose": "书面分析题训练：通过石蕊、与活泼金属、碱、碳酸盐等反应验证乙酸酸性及“强于碳酸”的比较。",
+        "principle": "乙酸为弱酸但具酸通性；2CH3COOH+Na2CO3=2CH3COONa+CO2↑+H2O，可证明酸性强于碳酸。",
+        "instruments": "试管、胶头滴管、导管、澄清石灰水等",
+        "reagents": "乙酸、紫色石蕊、镁条（或锌）、NaOH、Na2CO3、澄清石灰水",
+        "steps": "1.石蕊变红；2.与活泼金属产生气泡；3.与NaOH中和；4.与Na2CO3反应，气体通入石灰水变浑浊；5.对比结论。",
+        "phenomenon": "石蕊变红；有气泡；石灰水变浑浊等。",
+        "conclusion": "乙酸具酸性；酸性强于碳酸。",
+        "precautions": "浓乙酸腐蚀刺激；气体检验注意量与装置。",
+        "safetyNotes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.acetic_acid]"
+      }
+    },
+    {
+      "code": "concept.homolog",
+      "type": "concept",
+      "inventoryName": "同系物",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=27",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [
+        "organic.homolog",
+        "organic.isomer"
+      ],
+      "pack": "B6-D",
+      "source": "imported",
+      "dbId": "27",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:concept.homolog]",
+      "dbRow": {
+        "id": 27,
+        "status": "pending_review",
+        "review_note": "[inv:concept.homolog]",
+        "name": "同系物",
+        "definition": "结构相似、分子组成上相差一个或若干个CH2原子团的有机物互称为同系物；同系物通式相同（如烷烃CnH2n+2）。",
+        "principle": "同系物化学性质相似，物理性质随碳原子数增加呈规律变化（教材定性认识）。",
+        "applicable_conditions": "比较须结构相似且通式一致；官能团种类与数目须对应（高一常见：烷烃、烯烃等）。",
+        "judge_methods": "看结构是否相似、组成差是否为n个CH2、通式是否相同。",
+        "examples": "CH4、C2H6、C3H8为同系物；CH2=CH2与CH3CH=CH2为同系物（烯烃）。",
+        "common_mistakes": "仅看分子式相差CH2就判同系物而忽略结构不相似；把同分异构体当成同系物。"
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "homolog",
+        "isomer"
+      ],
+      "species": null,
+      "packData": {
+        "name": "同系物",
+        "definition": "结构相似、分子组成上相差一个或若干个CH2原子团的有机物互称为同系物；同系物通式相同（如烷烃CnH2n+2）。",
+        "principle": "同系物化学性质相似，物理性质随碳原子数增加呈规律变化（教材定性认识）。",
+        "applicableConditions": "比较须结构相似且通式一致；官能团种类与数目须对应（高一常见：烷烃、烯烃等）。",
+        "judgeMethods": "看结构是否相似、组成差是否为n个CH2、通式是否相同。",
+        "examples": "CH4、C2H6、C3H8为同系物；CH2=CH2与CH3CH=CH2为同系物（烯烃）。",
+        "commonMistakes": "仅看分子式相差CH2就判同系物而忽略结构不相似；把同分异构体当成同系物。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.homolog]"
+      }
+    },
+    {
+      "code": "concept.isomer",
+      "type": "concept",
+      "inventoryName": "同分异构体",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=28",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [
+        "organic.homolog",
+        "organic.isomer"
+      ],
+      "pack": "B6-D",
+      "source": "imported",
+      "dbId": "28",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:concept.isomer] 高一书写技能有限;复杂推断限默认训练",
+      "dbRow": {
+        "id": 28,
+        "status": "pending_review",
+        "review_note": "[inv:concept.isomer] 高一书写技能有限;复杂推断限默认训练",
+        "name": "同分异构体",
+        "definition": "分子式相同、结构不同的化合物互为同分异构体。",
+        "principle": "分子式相同而原子连接方式或官能团位置等不同，导致性质可能不同。",
+        "applicable_conditions": "高一以碳链异构、位置异构等基础书写为主；复杂立体异构、大量推断限默认训练。",
+        "judge_methods": "先确认分子式相同，再比较结构是否不同；可用结构简式列举。",
+        "examples": "C4H10的正丁烷与异丁烷；乙醇与二甲醚（分子式C2H6O，了解级示例以教材为准）。",
+        "common_mistakes": "把同系物当成同分异构体；重复书写同一结构；漏写或超纲展开。"
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "homolog",
+        "isomer"
+      ],
+      "species": null,
+      "packData": {
+        "name": "同分异构体",
+        "definition": "分子式相同、结构不同的化合物互为同分异构体。",
+        "principle": "分子式相同而原子连接方式或官能团位置等不同，导致性质可能不同。",
+        "applicableConditions": "高一以碳链异构、位置异构等基础书写为主；复杂立体异构、大量推断限默认训练。",
+        "judgeMethods": "先确认分子式相同，再比较结构是否不同；可用结构简式列举。",
+        "examples": "C4H10的正丁烷与异丁烷；乙醇与二甲醚（分子式C2H6O，了解级示例以教材为准）。",
+        "commonMistakes": "把同系物当成同分异构体；重复书写同一结构；漏写或超纲展开。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.isomer] 高一书写技能有限;复杂推断限默认训练"
+      }
+    },
+    {
+      "code": "concept.functional_group",
+      "type": "concept",
+      "inventoryName": "官能团初步",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=29",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [
+        "organic.homolog",
+        "organic.isomer"
+      ],
+      "pack": "B6-D",
+      "source": "imported",
+      "dbId": "29",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:concept.functional_group]",
+      "dbRow": {
+        "id": 29,
+        "status": "pending_review",
+        "review_note": "[inv:concept.functional_group]",
+        "name": "官能团初步",
+        "definition": "决定有机化合物主要化学性质的原子或原子团，叫做官能团。",
+        "principle": "相同官能团的化合物往往表现相似的化学性质；学习有机物常抓住官能团。",
+        "applicable_conditions": "必修常见：碳碳双键、羟基、羧基、酯基等；深度以教材为准。",
+        "judge_methods": "从结构简式中识别官能团，并联系典型反应（加成、酯化、酸性等）。",
+        "examples": "乙烯含碳碳双键；乙醇含羟基；乙酸含羧基；乙酸乙酯含酯基。",
+        "common_mistakes": "把碳碳单键或甲基当成官能团；混淆羟基与羧基。"
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "homolog",
+        "isomer"
+      ],
+      "species": null,
+      "packData": {
+        "name": "官能团初步",
+        "definition": "决定有机化合物主要化学性质的原子或原子团，叫做官能团。",
+        "principle": "相同官能团的化合物往往表现相似的化学性质；学习有机物常抓住官能团。",
+        "applicableConditions": "必修常见：碳碳双键、羟基、羧基、酯基等；深度以教材为准。",
+        "judgeMethods": "从结构简式中识别官能团，并联系典型反应（加成、酯化、酸性等）。",
+        "examples": "乙烯含碳碳双键；乙醇含羟基；乙酸含羧基；乙酸乙酯含酯基。",
+        "commonMistakes": "把碳碳单键或甲基当成官能团；混淆羟基与羧基。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.functional_group]"
+      }
+    },
+    {
+      "code": "concept.substitution",
+      "type": "concept",
+      "inventoryName": "取代反应",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=30",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [
+        "organic.homolog",
+        "organic.isomer"
+      ],
+      "pack": "B6-D",
+      "source": "imported",
+      "dbId": "30",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:concept.substitution]",
+      "dbRow": {
+        "id": 30,
+        "status": "pending_review",
+        "review_note": "[inv:concept.substitution]",
+        "name": "取代反应",
+        "definition": "有机物分子中的某些原子或原子团被其他原子或原子团所替代的反应，叫做取代反应。",
+        "principle": "取代不是简单“丢掉”，而是一种原子/基团被另一种替代；甲烷氯代是典型例子。",
+        "applicable_conditions": "烷烃光照氯代等；注意可生成多种取代产物。",
+        "judge_methods": "看是否有原子/基团被替代，并生成相应小分子（如HCl）。",
+        "examples": "CH4与Cl2光照取代；苯的溴代等属更深层次，勿默认超纲。",
+        "common_mistakes": "把加成当成取代；把甲烷氯代写成只有一种产物。"
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "homolog",
+        "isomer"
+      ],
+      "species": null,
+      "packData": {
+        "name": "取代反应",
+        "definition": "有机物分子中的某些原子或原子团被其他原子或原子团所替代的反应，叫做取代反应。",
+        "principle": "取代不是简单“丢掉”，而是一种原子/基团被另一种替代；甲烷氯代是典型例子。",
+        "applicableConditions": "烷烃光照氯代等；注意可生成多种取代产物。",
+        "judgeMethods": "看是否有原子/基团被替代，并生成相应小分子（如HCl）。",
+        "examples": "CH4与Cl2光照取代；苯的溴代等属更深层次，勿默认超纲。",
+        "commonMistakes": "把加成当成取代；把甲烷氯代写成只有一种产物。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.substitution]"
+      }
+    },
+    {
+      "code": "concept.addition",
+      "type": "concept",
+      "inventoryName": "加成反应",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=31",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [
+        "organic.homolog",
+        "organic.isomer"
+      ],
+      "pack": "B6-D",
+      "source": "imported",
+      "dbId": "31",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:concept.addition]",
+      "dbRow": {
+        "id": 31,
+        "status": "pending_review",
+        "review_note": "[inv:concept.addition]",
+        "name": "加成反应",
+        "definition": "有机物分子中不饱和键两端的原子与其他原子或原子团直接结合生成新化合物的反应，叫做加成反应。",
+        "principle": "不饱和键（如双键）断裂π键，试剂两部分分别加到不饱和碳上。",
+        "applicable_conditions": "烯烃与Br2、H2、H2O等；条件因试剂而异。",
+        "judge_methods": "不饱和键数目减少、原子利用率高、常使溴水褪色等。",
+        "examples": "乙烯与溴、乙烯加氢、乙烯水化。",
+        "common_mistakes": "与取代混淆；误以为加成一定需要光照。"
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "homolog",
+        "isomer"
+      ],
+      "species": null,
+      "packData": {
+        "name": "加成反应",
+        "definition": "有机物分子中不饱和键两端的原子与其他原子或原子团直接结合生成新化合物的反应，叫做加成反应。",
+        "principle": "不饱和键（如双键）断裂π键，试剂两部分分别加到不饱和碳上。",
+        "applicableConditions": "烯烃与Br2、H2、H2O等；条件因试剂而异。",
+        "judgeMethods": "不饱和键数目减少、原子利用率高、常使溴水褪色等。",
+        "examples": "乙烯与溴、乙烯加氢、乙烯水化。",
+        "commonMistakes": "与取代混淆；误以为加成一定需要光照。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.addition]"
+      }
+    },
+    {
+      "code": "concept.esterification_rule",
+      "type": "concept",
+      "inventoryName": "酯化反应规律",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=32",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [
+        "organic.homolog",
+        "organic.isomer"
+      ],
+      "pack": "B6-D",
+      "source": "imported",
+      "dbId": "32",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:concept.esterification_rule]",
+      "dbRow": {
+        "id": 32,
+        "status": "pending_review",
+        "review_note": "[inv:concept.esterification_rule]",
+        "name": "酯化反应规律",
+        "definition": "酸与醇反应生成酯和水的反应叫做酯化反应；乙酸与乙醇酯化是典型。",
+        "principle": "教材规律：酯化时羧酸提供羟基（−OH），醇提供羟基上的氢（−H），结合成水，其余部分结合成酯；反应可逆，常用浓硫酸催化并加热。",
+        "applicable_conditions": "浓硫酸、加热；可逆，注意产率与分离。",
+        "judge_methods": "反应物为酸+醇，产物为酯+水，条件含浓硫酸加热，箭头用⇌。",
+        "examples": "CH3COOH+C2H5OH⇌CH3COOC2H5+H2O",
+        "common_mistakes": "写成不可逆；漏写浓硫酸或加热；酸醇脱水部位记反（按教材规律记忆）。"
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "homolog",
+        "isomer"
+      ],
+      "species": null,
+      "packData": {
+        "name": "酯化反应规律",
+        "definition": "酸与醇反应生成酯和水的反应叫做酯化反应；乙酸与乙醇酯化是典型。",
+        "principle": "教材规律：酯化时羧酸提供羟基（−OH），醇提供羟基上的氢（−H），结合成水，其余部分结合成酯；反应可逆，常用浓硫酸催化并加热。",
+        "applicableConditions": "浓硫酸、加热；可逆，注意产率与分离。",
+        "judgeMethods": "反应物为酸+醇，产物为酯+水，条件含浓硫酸加热，箭头用⇌。",
+        "examples": "CH3COOH+C2H5OH⇌CH3COOC2H5+H2O",
+        "commonMistakes": "写成不可逆；漏写浓硫酸或加热；酸醇脱水部位记反（按教材规律记忆）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.esterification_rule]"
+      }
+    },
+    {
+      "code": "kp.organic.methane",
+      "type": "knowledge",
+      "inventoryName": "甲烷结构与性质",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=64",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "64",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.organic.methane]",
+      "dbRow": {
+        "id": 64,
+        "status": "pending_review",
+        "review_note": "[inv:kp.organic.methane]",
+        "name": "甲烷结构与性质",
+        "description": "甲烷分子为正四面体结构，分子式CH4。性质稳定，可燃烧；光照下与氯气发生取代，产物可为多种氯代甲烷，不得写唯一产物。是认识烷烃的典型代表。",
+        "difficulty": 2,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "name": "甲烷结构与性质",
+        "description": "甲烷分子为正四面体结构，分子式CH4。性质稳定，可燃烧；光照下与氯气发生取代，产物可为多种氯代甲烷，不得写唯一产物。是认识烷烃的典型代表。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.methane]"
+      }
+    },
+    {
+      "code": "kp.organic.alkane",
+      "type": "knowledge",
+      "inventoryName": "烷烃通式与性质",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=65",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "65",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.organic.alkane]",
+      "dbRow": {
+        "id": 65,
+        "status": "pending_review",
+        "review_note": "[inv:kp.organic.alkane]",
+        "name": "烷烃通式与性质",
+        "description": "烷烃通式CnH2n+2（链状），为饱和烃。化学性质较稳定，可发生取代与燃烧；一般不能因加成使溴水褪色。同系物物理性质递变。",
+        "difficulty": 2,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "name": "烷烃通式与性质",
+        "description": "烷烃通式CnH2n+2（链状），为饱和烃。化学性质较稳定，可发生取代与燃烧；一般不能因加成使溴水褪色。同系物物理性质递变。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.alkane]"
+      }
+    },
+    {
+      "code": "kp.organic.ethene",
+      "type": "knowledge",
+      "inventoryName": "乙烯结构与性质",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=66",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "66",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.organic.ethene]",
+      "dbRow": {
+        "id": 66,
+        "status": "pending_review",
+        "review_note": "[inv:kp.organic.ethene]",
+        "name": "乙烯结构与性质",
+        "description": "乙烯结构简式CH2=CH2，含碳碳双键。易加成（Br2、H2、H2O等）；使酸性KMnO4褪色但不指定唯一氧化产物；可加聚。实验室可由乙醇浓硫酸加热制取（认知）。",
+        "difficulty": 2,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "name": "乙烯结构与性质",
+        "description": "乙烯结构简式CH2=CH2，含碳碳双键。易加成（Br2、H2、H2O等）；使酸性KMnO4褪色但不指定唯一氧化产物；可加聚。实验室可由乙醇浓硫酸加热制取（认知）。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.ethene]"
+      }
+    },
+    {
+      "code": "kp.organic.ethanol",
+      "type": "knowledge",
+      "inventoryName": "乙醇结构与性质",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=67",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "67",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.organic.ethanol]",
+      "dbRow": {
+        "id": 67,
+        "status": "pending_review",
+        "review_note": "[inv:kp.organic.ethanol]",
+        "name": "乙醇结构与性质",
+        "description": "乙醇CH3CH2OH，官能团羟基。可燃烧；Cu/Ag催化加热下氧化为乙醛；与乙酸酯化。物理性质：无色液体、与水互溶、易燃。",
+        "difficulty": 2,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "name": "乙醇结构与性质",
+        "description": "乙醇CH3CH2OH，官能团羟基。可燃烧；Cu/Ag催化加热下氧化为乙醛；与乙酸酯化。物理性质：无色液体、与水互溶、易燃。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.ethanol]"
+      }
+    },
+    {
+      "code": "kp.organic.acetic",
+      "type": "knowledge",
+      "inventoryName": "乙酸结构与性质",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=68",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "68",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.organic.acetic]",
+      "dbRow": {
+        "id": 68,
+        "status": "pending_review",
+        "review_note": "[inv:kp.organic.acetic]",
+        "name": "乙酸结构与性质",
+        "description": "乙酸CH3COOH，官能团羧基，弱酸但具酸通性；酸性强于碳酸（与碳酸盐放CO2）。可发生酯化。食醋中含乙酸（了解）。",
+        "difficulty": 2,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "name": "乙酸结构与性质",
+        "description": "乙酸CH3COOH，官能团羧基，弱酸但具酸通性；酸性强于碳酸（与碳酸盐放CO2）。可发生酯化。食醋中含乙酸（了解）。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.acetic]"
+      }
+    },
+    {
+      "code": "kp.organic.isomer_skill",
+      "type": "knowledge",
+      "inventoryName": "同分异构体书写技能",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=69",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "69",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.organic.isomer_skill] 高一基础书写;复杂推断限默认",
+      "dbRow": {
+        "id": 69,
+        "status": "pending_review",
+        "review_note": "[inv:kp.organic.isomer_skill] 高一基础书写;复杂推断限默认",
+        "name": "同分异构体书写技能",
+        "description": "先固定分子式，再按碳链异构、官能团位置等有序列举，检查重复与遗漏。高一以简单烷烃/烯烃/醇醚等基础题型为主，复杂推断不作为默认训练。",
+        "difficulty": 3,
+        "importance": 4
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "name": "同分异构体书写技能",
+        "description": "先固定分子式，再按碳链异构、官能团位置等有序列举，检查重复与遗漏。高一以简单烷烃/烯烃/醇醚等基础题型为主，复杂推断不作为默认训练。",
+        "difficulty": 3,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.isomer_skill] 高一基础书写;复杂推断限默认"
+      }
+    },
+    {
+      "code": "kp.inference.color",
+      "type": "knowledge",
+      "inventoryName": "颜色推断方法",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=70",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "inference"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "70",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.inference.color]",
+      "dbRow": {
+        "id": 70,
+        "status": "pending_review",
+        "review_note": "[inv:kp.inference.color]",
+        "name": "颜色推断方法",
+        "description": "利用物质或离子的特征颜色、溶液褪色/变色作为突破口：如酸性KMnO4紫红、溴水橙红、Cu2+蓝、Fe3+黄棕、沉淀颜色等。须结合题设试剂与条件，避免单一线索武断。",
+        "difficulty": 2,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "inference"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "name": "颜色推断方法",
+        "description": "利用物质或离子的特征颜色、溶液褪色/变色作为突破口：如酸性KMnO4紫红、溴水橙红、Cu2+蓝、Fe3+黄棕、沉淀颜色等。须结合题设试剂与条件，避免单一线索武断。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.inference.color]"
+      }
+    },
+    {
+      "code": "kp.inference.block",
+      "type": "knowledge",
+      "inventoryName": "无机框图推断策略",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=71",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "inference"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "71",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.inference.block]",
+      "dbRow": {
+        "id": 71,
+        "status": "pending_review",
+        "review_note": "[inv:kp.inference.block]",
+        "name": "无机框图推断策略",
+        "description": "框图推断：先找特征转化（气、沉淀、颜色、焰色、酸碱性），再确定突破口物质，最后用箭头关系验证全局自洽。注意过量与气体通入顺序对产物的影响。",
+        "difficulty": 3,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "inference"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "name": "无机框图推断策略",
+        "description": "框图推断：先找特征转化（气、沉淀、颜色、焰色、酸碱性），再确定突破口物质，最后用箭头关系验证全局自洽。注意过量与气体通入顺序对产物的影响。",
+        "difficulty": 3,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.inference.block]"
+      }
+    },
+    {
+      "code": "kp.inference.conversion",
+      "type": "knowledge",
+      "inventoryName": "物质转化推断",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=72",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "inference"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "72",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.inference.conversion]",
+      "dbRow": {
+        "id": 72,
+        "status": "pending_review",
+        "review_note": "[inv:kp.inference.conversion]",
+        "name": "物质转化推断",
+        "description": "沿转化关系写可能反应类型（置换、复分解、氧化还原、有机加成/取代等），用计量与现象约束排除干扰。有机转化抓住官能团变化。",
+        "difficulty": 3,
+        "importance": 4
+      },
+      "dbSpecialtyCodes": [
+        "inference"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "name": "物质转化推断",
+        "description": "沿转化关系写可能反应类型（置换、复分解、氧化还原、有机加成/取代等），用计量与现象约束排除干扰。有机转化抓住官能团变化。",
+        "difficulty": 3,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.inference.conversion]"
+      }
+    },
+    {
+      "code": "kp.comprehensive.basic",
+      "type": "knowledge",
+      "inventoryName": "基础综合解题框架",
+      "inventoryStatus": "imported",
+      "note": "batch6导入 pending_review id=73",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 2,
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "73",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.comprehensive.basic]",
+      "dbRow": {
+        "id": 73,
+        "status": "pending_review",
+        "review_note": "[inv:kp.comprehensive.basic]",
+        "name": "基础综合解题框架",
+        "description": "综合题一般路径：审清已知与设问→定位知识模块（元素/有机/能量/实验）→写关键方程式或关系式→检查计量、条件与单位→回代题设验证。先易后难，避免跳步丢条件。",
+        "difficulty": 2,
+        "importance": 4
+      },
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "name": "基础综合解题框架",
+        "description": "综合题一般路径：审清已知与设问→定位知识模块（元素/有机/能量/实验）→写关键方程式或关系式→检查计量、条件与单位→回代题设验证。先易后难，避免跳步丢条件。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.comprehensive.basic]"
+      }
+    },
+    {
+      "code": "q.organic.methane",
+      "type": "question",
+      "inventoryName": "甲烷选择题骨架",
+      "inventoryStatus": "imported",
+      "note": "仅骨架; batch6导入 pending_review id=10",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-F",
+      "source": "imported",
+      "dbId": "10",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:q.organic.methane] 骨架非正式训练题;可充实选项",
+      "dbRow": {
+        "id": 10,
+        "status": "pending_review",
+        "review_note": "[inv:q.organic.methane] 骨架非正式训练题;可充实选项",
+        "qtype": "single",
+        "stem": "（骨架）关于甲烷的叙述正确的是？A.分子呈平面正方形  B.分子呈正四面体  C.与Cl2光照只生成一种有机产物  D.不能燃烧",
+        "answer": "B",
+        "analysis": "甲烷为正四面体；氯代可生成多种氯代产物，C错。",
+        "scoring": "选对得分。",
+        "difficulty": 1
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "qtype": "single",
+        "stem": "（骨架）关于甲烷的叙述正确的是？A.分子呈平面正方形  B.分子呈正四面体  C.与Cl2光照只生成一种有机产物  D.不能燃烧",
+        "answer": "B",
+        "optionsJson": [
+          {
+            "key": "A",
+            "text": "分子呈平面正方形"
+          },
+          {
+            "key": "B",
+            "text": "分子呈正四面体"
+          },
+          {
+            "key": "C",
+            "text": "与Cl2光照只生成一种有机产物"
+          },
+          {
+            "key": "D",
+            "text": "不能燃烧"
+          }
+        ],
+        "analysis": "甲烷为正四面体；氯代可生成多种氯代产物，C错。",
+        "scoring": "选对得分。",
+        "difficulty": 1,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.organic.methane] 骨架非正式训练题;可充实选项"
+      }
+    },
+    {
+      "code": "q.organic.ethene",
+      "type": "question",
+      "inventoryName": "乙烯加成判断题",
+      "inventoryStatus": "imported",
+      "note": "仅骨架; batch6导入 pending_review id=11",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-F",
+      "source": "imported",
+      "dbId": "11",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:q.organic.ethene] 骨架非正式训练题",
+      "dbRow": {
+        "id": 11,
+        "status": "pending_review",
+        "review_note": "[inv:q.organic.ethene] 骨架非正式训练题",
+        "qtype": "judge",
+        "stem": "（骨架）判断：乙烯能使溴水褪色，该反应属于加成反应。",
+        "answer": "正确",
+        "analysis": "CH2=CH2+Br2→CH2BrCH2Br，为加成，溴水褪色。",
+        "scoring": "判断正确得分。",
+        "difficulty": 1
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "qtype": "judge",
+        "stem": "（骨架）判断：乙烯能使溴水褪色，该反应属于加成反应。",
+        "answer": "正确",
+        "analysis": "CH2=CH2+Br2→CH2BrCH2Br，为加成，溴水褪色。",
+        "scoring": "判断正确得分。",
+        "difficulty": 1,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.organic.ethene] 骨架非正式训练题"
+      }
+    },
+    {
+      "code": "q.organic.ethanol",
+      "type": "question",
+      "inventoryName": "乙醇性质填空题",
+      "inventoryStatus": "imported",
+      "note": "仅骨架; batch6导入 pending_review id=12",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-F",
+      "source": "imported",
+      "dbId": "12",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:q.organic.ethanol] 骨架非正式训练题",
+      "dbRow": {
+        "id": 12,
+        "status": "pending_review",
+        "review_note": "[inv:q.organic.ethanol] 骨架非正式训练题",
+        "qtype": "blank",
+        "stem": "（骨架）乙醇催化氧化常用______或______作催化剂并加热，产物乙醛的化学式为______。",
+        "answer": "Cu；Ag；CH3CHO",
+        "analysis": "教材常见Cu或Ag催化加热；2CH3CH2OH+O2→2CH3CHO+2H2O。",
+        "scoring": "催化剂与产物均对得分。",
+        "difficulty": 2
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "qtype": "blank",
+        "stem": "（骨架）乙醇催化氧化常用______或______作催化剂并加热，产物乙醛的化学式为______。",
+        "answer": "Cu；Ag；CH3CHO",
+        "analysis": "教材常见Cu或Ag催化加热；2CH3CH2OH+O2→2CH3CHO+2H2O。",
+        "scoring": "催化剂与产物均对得分。",
+        "difficulty": 2,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.organic.ethanol] 骨架非正式训练题"
+      }
+    },
+    {
+      "code": "q.organic.ester",
+      "type": "question",
+      "inventoryName": "酯化反应简答题",
+      "inventoryStatus": "imported",
+      "note": "仅骨架; batch6导入 pending_review id=13",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-F",
+      "source": "imported",
+      "dbId": "13",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:q.organic.ester] 骨架非正式训练题",
+      "dbRow": {
+        "id": 13,
+        "status": "pending_review",
+        "review_note": "[inv:q.organic.ester] 骨架非正式训练题",
+        "qtype": "short",
+        "stem": "（骨架）写出乙酸与乙醇酯化的化学方程式（标明条件与可逆），并说明浓硫酸的作用。",
+        "answer": "CH3COOH+C2H5OH⇌浓硫酸、加热⇌CH3COOC2H5+H2O；浓硫酸作催化剂并吸水（促进平衡）。",
+        "analysis": "酯化可逆；条件与规律为得分点。",
+        "scoring": "方程式+条件+浓硫酸作用要点。",
+        "difficulty": 2
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "qtype": "short",
+        "stem": "（骨架）写出乙酸与乙醇酯化的化学方程式（标明条件与可逆），并说明浓硫酸的作用。",
+        "answer": "CH3COOH+C2H5OH⇌浓硫酸、加热⇌CH3COOC2H5+H2O；浓硫酸作催化剂并吸水（促进平衡）。",
+        "analysis": "酯化可逆；条件与规律为得分点。",
+        "scoring": "方程式+条件+浓硫酸作用要点。",
+        "difficulty": 2,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.organic.ester] 骨架非正式训练题"
+      }
+    },
+    {
+      "code": "q.organic.isomer",
+      "type": "question",
+      "inventoryName": "同分异构体书写题",
+      "inventoryStatus": "imported",
+      "note": "仅骨架; batch6导入 pending_review id=14",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-F",
+      "source": "imported",
+      "dbId": "14",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:q.organic.isomer] 骨架非正式训练题;基础书写",
+      "dbRow": {
+        "id": 14,
+        "status": "pending_review",
+        "review_note": "[inv:q.organic.isomer] 骨架非正式训练题;基础书写",
+        "qtype": "short",
+        "stem": "（骨架）写出分子式为C4H10的烷烃的同分异构体结构简式（要求不重复）。",
+        "answer": "CH3CH2CH2CH3；CH3CH(CH3)CH3（正丁烷与异丁烷）",
+        "analysis": "碳链异构两种；检查重复。",
+        "scoring": "两种均写出且不重复得分。",
+        "difficulty": 2
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "qtype": "short",
+        "stem": "（骨架）写出分子式为C4H10的烷烃的同分异构体结构简式（要求不重复）。",
+        "answer": "CH3CH2CH2CH3；CH3CH(CH3)CH3（正丁烷与异丁烷）",
+        "analysis": "碳链异构两种；检查重复。",
+        "scoring": "两种均写出且不重复得分。",
+        "difficulty": 2,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.organic.isomer] 骨架非正式训练题;基础书写"
+      }
+    },
+    {
+      "code": "q.inference.block",
+      "type": "question",
+      "inventoryName": "框图推断题骨架",
+      "inventoryStatus": "imported",
+      "note": "仅骨架; batch6导入 pending_review id=15",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "inference"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-F",
+      "source": "imported",
+      "dbId": "15",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:q.inference.block] 骨架非正式训练题;框图模板",
+      "dbRow": {
+        "id": 15,
+        "status": "pending_review",
+        "review_note": "[inv:q.inference.block] 骨架非正式训练题;框图模板",
+        "qtype": "inference",
+        "stem": "（骨架）某无机框图：A为淡黄色固体单质，燃烧得气体B；B使品红褪色且加热可恢复。推断A、B（写化学式）并给出关键依据。",
+        "answer": "A为S；B为SO2（依据：淡黄色单质硫；SO2漂白可逆恢复）",
+        "analysis": "颜色+漂白可逆是突破口；需用转化验证。",
+        "scoring": "物质正确+依据要点。",
+        "difficulty": 2
+      },
+      "dbSpecialtyCodes": [
+        "inference"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "qtype": "inference",
+        "stem": "（骨架）某无机框图：A为淡黄色固体单质，燃烧得气体B；B使品红褪色且加热可恢复。推断A、B（写化学式）并给出关键依据。",
+        "answer": "A为S；B为SO2（依据：淡黄色单质硫；SO2漂白可逆恢复）",
+        "analysis": "颜色+漂白可逆是突破口；需用转化验证。",
+        "scoring": "物质正确+依据要点。",
+        "difficulty": 2,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.inference.block] 骨架非正式训练题;框图模板"
+      }
+    },
+    {
+      "code": "q.inference.phenomenon",
+      "type": "question",
+      "inventoryName": "现象推断题骨架",
+      "inventoryStatus": "imported",
+      "note": "仅骨架; batch6导入 pending_review id=16",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "inference"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-F",
+      "source": "imported",
+      "dbId": "16",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:q.inference.phenomenon] 骨架非正式训练题",
+      "dbRow": {
+        "id": 16,
+        "status": "pending_review",
+        "review_note": "[inv:q.inference.phenomenon] 骨架非正式训练题",
+        "qtype": "inference",
+        "stem": "（骨架）气体X通入溴水褪色，通入酸性KMnO4也褪色；另有气体Y与溴水混合长时间颜色变化不明显。X、Y更可能分别是乙烯与乙烷还是相反？简述理由。",
+        "answer": "X为乙烯，Y为乙烷；乙烯不饱和可加成/被氧化褪色，乙烷饱和通常不能。",
+        "analysis": "用现象反推饱和性差异。",
+        "scoring": "对应正确+理由。",
+        "difficulty": 2
+      },
+      "dbSpecialtyCodes": [
+        "inference"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "qtype": "inference",
+        "stem": "（骨架）气体X通入溴水褪色，通入酸性KMnO4也褪色；另有气体Y与溴水混合长时间颜色变化不明显。X、Y更可能分别是乙烯与乙烷还是相反？简述理由。",
+        "answer": "X为乙烯，Y为乙烷；乙烯不饱和可加成/被氧化褪色，乙烷饱和通常不能。",
+        "analysis": "用现象反推饱和性差异。",
+        "scoring": "对应正确+理由。",
+        "difficulty": 2,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.inference.phenomenon] 骨架非正式训练题"
+      }
+    },
+    {
+      "code": "q.eq.Na_water",
+      "type": "question",
+      "inventoryName": "钠与水方程式题",
+      "inventoryStatus": "seeded",
+      "note": "阶段二示例题已入库; batch6复用已有 id=1",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "equation"
+      ],
+      "categoryCodes": [],
+      "pack": null,
+      "source": "reused",
+      "dbId": "1",
+      "dbStatus": "published",
+      "dbReviewNote": null,
+      "dbRow": {
+        "id": 1,
+        "status": "published",
+        "review_note": "",
+        "qtype": "single",
+        "stem": "钠与水反应的生成物是？",
+        "answer": "NaOH 和 H2",
+        "analysis": "钠与水发生置换反应：2Na+2H2O=2NaOH+H2↑",
+        "scoring": "选对得满分",
+        "difficulty": 1
+      },
+      "dbSpecialtyCodes": [
+        "equation",
+        "substance"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": null
+    },
+    {
+      "code": "q.substance.NaOH",
+      "type": "question",
+      "inventoryName": "烧碱俗称与性质题",
+      "inventoryStatus": "imported",
+      "note": "仅骨架; batch6导入 pending_review id=17",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 1,
+      "specialtyCodes": [
+        "substance"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-F",
+      "source": "imported",
+      "dbId": "17",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:q.substance.NaOH] 骨架非正式训练题",
+      "dbRow": {
+        "id": 17,
+        "status": "pending_review",
+        "review_note": "[inv:q.substance.NaOH] 骨架非正式训练题",
+        "qtype": "multi",
+        "stem": "（骨架）下列关于烧碱（NaOH）的说法正确的是？",
+        "answer": "A,C",
+        "analysis": "NaOH为强碱；易潮解并吸收CO2，不可敞口长期放置。",
+        "scoring": "多选全对得分（或按评分标准给漏选分）。",
+        "difficulty": 1
+      },
+      "dbSpecialtyCodes": [
+        "substance"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "qtype": "multi",
+        "stem": "（骨架）下列关于烧碱（NaOH）的说法正确的是？",
+        "answer": "A,C",
+        "optionsJson": [
+          {
+            "key": "A",
+            "text": "俗名烧碱、火碱、苛性钠"
+          },
+          {
+            "key": "B",
+            "text": "水溶液显酸性"
+          },
+          {
+            "key": "C",
+            "text": "能与乙酸发生中和反应"
+          },
+          {
+            "key": "D",
+            "text": "固体可敞口长期放置于空气中而无变化"
+          }
+        ],
+        "analysis": "NaOH为强碱；易潮解并吸收CO2，不可敞口长期放置。",
+        "scoring": "多选全对得分（或按评分标准给漏选分）。",
+        "difficulty": 1,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.substance.NaOH] 骨架非正式训练题"
+      }
+    },
+    {
+      "code": "q.comprehensive.mock",
+      "type": "question",
+      "inventoryName": "综合模拟题组骨架",
+      "inventoryStatus": "imported",
+      "note": "仅骨架; batch6导入 pending_review id=18",
+      "verifyNeeded": false,
+      "curriculumScope": null,
+      "priority": 2,
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [],
+      "pack": "B6-F",
+      "source": "imported",
+      "dbId": "18",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:q.comprehensive.mock] 骨架非正式训练题;综合模拟组",
+      "dbRow": {
+        "id": 18,
+        "status": "pending_review",
+        "review_note": "[inv:q.comprehensive.mock] 骨架非正式训练题;综合模拟组",
+        "qtype": "short",
+        "stem": "（骨架·综合）简述：①甲烷氯代为何不能写成“只生成CH3Cl”；②Zn-Cu原电池在CuSO4与稀H2SO4中正极反应有何不同；③加热能否作为吸热反应的判据。",
+        "answer": "①可生成多种氯代产物；②CuSO4中正极Cu2+得电子，稀H2SO4中正极H+得电子；③不能，加热是条件不是热效应判据。",
+        "analysis": "覆盖有机取代、原电池电解质差异、能量概念易错点。",
+        "scoring": "三点分别给分。",
+        "difficulty": 3
+      },
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [],
+      "species": null,
+      "packData": {
+        "qtype": "short",
+        "stem": "（骨架·综合）简述：①甲烷氯代为何不能写成“只生成CH3Cl”；②Zn-Cu原电池在CuSO4与稀H2SO4中正极反应有何不同；③加热能否作为吸热反应的判据。",
+        "answer": "①可生成多种氯代产物；②CuSO4中正极Cu2+得电子，稀H2SO4中正极H+得电子；③不能，加热是条件不是热效应判据。",
+        "analysis": "覆盖有机取代、原电池电解质差异、能量概念易错点。",
+        "scoring": "三点分别给分。",
+        "difficulty": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.comprehensive.mock] 骨架非正式训练题;综合模拟组"
+      }
+    },
+    {
+      "code": "concept.endothermic",
+      "type": "concept",
+      "inventoryName": "吸热反应",
+      "inventoryStatus": "imported",
+      "note": "增补; batch6导入 pending_review id=33",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学反应与能量",
+      "priority": 1,
+      "specialtyCodes": [
+        "memory",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "memory.rules",
+        "comprehensive.basic"
+      ],
+      "pack": "B6-D",
+      "source": "imported",
+      "dbId": "33",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:concept.endothermic] 加热≠吸热判据;断键吸能成键放能",
+      "dbRow": {
+        "id": 33,
+        "status": "pending_review",
+        "review_note": "[inv:concept.endothermic] 加热≠吸热判据;断键吸能成键放能",
+        "name": "吸热反应",
+        "definition": "吸收热量的化学反应叫做吸热反应。",
+        "principle": "反应热效应取决于断键吸收能量与成键放出能量的相对大小：断键吸能、成键放能；若总效果为体系从环境吸热，则为吸热。加热只是反应条件，不等于该反应一定是吸热反应。",
+        "applicable_conditions": "判断依据是反应的热效应，不是是否需要加热启动。",
+        "judge_methods": "看ΔH符号或题给“吸热/放热”；不能仅凭“需要加热”判定为吸热。",
+        "examples": "某些分解反应（题设）；以教材列举为准。",
+        "common_mistakes": "把“需要加热”等同于吸热反应；忽略断键/成键能量比较。"
+      },
+      "dbSpecialtyCodes": [
+        "memory",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "rules"
+      ],
+      "species": null,
+      "packData": {
+        "name": "吸热反应",
+        "definition": "吸收热量的化学反应叫做吸热反应。",
+        "principle": "反应热效应取决于断键吸收能量与成键放出能量的相对大小：断键吸能、成键放能；若总效果为体系从环境吸热，则为吸热。加热只是反应条件，不等于该反应一定是吸热反应。",
+        "applicableConditions": "判断依据是反应的热效应，不是是否需要加热启动。",
+        "judgeMethods": "看ΔH符号或题给“吸热/放热”；不能仅凭“需要加热”判定为吸热。",
+        "examples": "某些分解反应（题设）；以教材列举为准。",
+        "commonMistakes": "把“需要加热”等同于吸热反应；忽略断键/成键能量比较。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.endothermic] 加热≠吸热判据;断键吸能成键放能"
+      }
+    },
+    {
+      "code": "concept.exothermic",
+      "type": "concept",
+      "inventoryName": "放热反应",
+      "inventoryStatus": "imported",
+      "note": "增补; batch6导入 pending_review id=34",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学反应与能量",
+      "priority": 1,
+      "specialtyCodes": [
+        "memory",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "memory.rules",
+        "comprehensive.basic"
+      ],
+      "pack": "B6-D",
+      "source": "imported",
+      "dbId": "34",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:concept.exothermic] 加热≠吸热判据;总热效应看相对大小",
+      "dbRow": {
+        "id": 34,
+        "status": "pending_review",
+        "review_note": "[inv:concept.exothermic] 加热≠吸热判据;总热效应看相对大小",
+        "name": "放热反应",
+        "definition": "放出热量的化学反应叫做放热反应。",
+        "principle": "成键放出的总能量大于断键吸收的总能量时，反应放热。燃烧、中和等多属放热，但仍须以题设或能量数据为准。加热≠吸热，同样“能发生”也不等于放热判据。",
+        "applicable_conditions": "热效应判断；可与原电池、燃烧等综合。",
+        "judge_methods": "ΔH<0或题干明确放热；结合键能/能量图定性（教材深度）。",
+        "examples": "燃料燃烧；酸碱中和（常见）。",
+        "common_mistakes": "认为凡是燃烧以外的反应都吸热；用是否加热反推热效应。"
+      },
+      "dbSpecialtyCodes": [
+        "memory",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "rules"
+      ],
+      "species": null,
+      "packData": {
+        "name": "放热反应",
+        "definition": "放出热量的化学反应叫做放热反应。",
+        "principle": "成键放出的总能量大于断键吸收的总能量时，反应放热。燃烧、中和等多属放热，但仍须以题设或能量数据为准。加热≠吸热，同样“能发生”也不等于放热判据。",
+        "applicableConditions": "热效应判断；可与原电池、燃烧等综合。",
+        "judgeMethods": "ΔH<0或题干明确放热；结合键能/能量图定性（教材深度）。",
+        "examples": "燃料燃烧；酸碱中和（常见）。",
+        "commonMistakes": "认为凡是燃烧以外的反应都吸热；用是否加热反推热效应。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.exothermic] 加热≠吸热判据;总热效应看相对大小"
+      }
+    },
+    {
+      "code": "kp.energy.bond_change",
+      "type": "knowledge",
+      "inventoryName": "化学键与能量变化",
+      "inventoryStatus": "imported",
+      "note": "增补；断键吸热、成键放热（中学口径）; batch6导入 pending_review id=74",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学反应与能量",
+      "priority": 1,
+      "specialtyCodes": [
+        "structure",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "structure.ionic_bond",
+        "structure.covalent_bond",
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "74",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.energy.bond_change] 增补；断键吸热、成键放热（中学口径）",
+      "dbRow": {
+        "id": 74,
+        "status": "pending_review",
+        "review_note": "[inv:kp.energy.bond_change] 增补；断键吸热、成键放热（中学口径）",
+        "name": "化学键与能量变化",
+        "description": "化学反应中：断裂化学键吸收能量，形成化学键放出能量。反应吸热还是放热，取决于二者总效果的相对大小，不能仅凭是否加热判断。",
+        "difficulty": 2,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "structure",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "ionic_bond",
+        "covalent_bond"
+      ],
+      "species": null,
+      "packData": {
+        "name": "化学键与能量变化",
+        "description": "化学反应中：断裂化学键吸收能量，形成化学键放出能量。反应吸热还是放热，取决于二者总效果的相对大小，不能仅凭是否加热判断。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.bond_change] 增补；断键吸热、成键放热（中学口径）"
+      }
+    },
+    {
+      "code": "kp.energy.chem_electric",
+      "type": "knowledge",
+      "inventoryName": "化学能与电能",
+      "inventoryStatus": "imported",
+      "note": "增补; batch6导入 pending_review id=75",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学反应与能量",
+      "priority": 1,
+      "specialtyCodes": [
+        "comprehensive",
+        "redox"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "redox.e_transfer"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "75",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.energy.chem_electric] 增补",
+      "dbRow": {
+        "id": 75,
+        "status": "pending_review",
+        "review_note": "[inv:kp.energy.chem_electric] 增补",
+        "name": "化学能与电能",
+        "description": "原电池等装置可把化学能转化为电能；电解则是电能转化为化学能（了解对比）。认识能量转化形式是必修要点。",
+        "difficulty": 2,
+        "importance": 4
+      },
+      "dbSpecialtyCodes": [
+        "redox",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic"
+      ],
+      "species": null,
+      "packData": {
+        "name": "化学能与电能",
+        "description": "原电池等装置可把化学能转化为电能；电解则是电能转化为化学能（了解对比）。认识能量转化形式是必修要点。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.chem_electric] 增补"
+      }
+    },
+    {
+      "code": "kp.energy.galvanic",
+      "type": "knowledge",
+      "inventoryName": "原电池",
+      "inventoryStatus": "imported",
+      "note": "增补；构成条件总论; batch6导入 pending_review id=76",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·原电池",
+      "priority": 1,
+      "specialtyCodes": [
+        "redox",
+        "experiment",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "redox.e_direction",
+        "experiment.inquiry",
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "76",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.energy.galvanic] 电子外电路;离子在电解质;不必须两种不同金属",
+      "dbRow": {
+        "id": 76,
+        "status": "pending_review",
+        "review_note": "[inv:kp.energy.galvanic] 电子外电路;离子在电解质;不必须两种不同金属",
+        "name": "原电池",
+        "description": "原电池是将化学能转化为电能的装置。一般需：自发氧化还原反应、电极、电解质溶液（或离子导体）、形成闭合回路。电子在外电路迁移，离子在电解质中迁移。并非所有原电池都必须由两种不同金属构成，电极组合以题设与构成条件为准。",
+        "difficulty": 2,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "experiment",
+        "redox",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "inquiry",
+        "e_direction"
+      ],
+      "species": null,
+      "packData": {
+        "name": "原电池",
+        "description": "原电池是将化学能转化为电能的装置。一般需：自发氧化还原反应、电极、电解质溶液（或离子导体）、形成闭合回路。电子在外电路迁移，离子在电解质中迁移。并非所有原电池都必须由两种不同金属构成，电极组合以题设与构成条件为准。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.galvanic] 电子外电路;离子在电解质;不必须两种不同金属"
+      }
+    },
+    {
+      "code": "kp.energy.galvanic_poles",
+      "type": "knowledge",
+      "inventoryName": "原电池正负极",
+      "inventoryStatus": "imported",
+      "note": "增补; batch6导入 pending_review id=77",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·原电池",
+      "priority": 1,
+      "specialtyCodes": [
+        "redox",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "redox.e_direction",
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "77",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.energy.galvanic_poles] 增补",
+      "dbRow": {
+        "id": 77,
+        "status": "pending_review",
+        "review_note": "[inv:kp.energy.galvanic_poles] 增补",
+        "name": "原电池正负极",
+        "description": "负极：发生氧化反应（失电子），通常是较活泼金属电极。正极：发生还原反应（得电子）。正负极判断要结合电极材料与电解质中的氧化剂。",
+        "difficulty": 2,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "redox",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "e_direction"
+      ],
+      "species": null,
+      "packData": {
+        "name": "原电池正负极",
+        "description": "负极：发生氧化反应（失电子），通常是较活泼金属电极。正极：发生还原反应（得电子）。正负极判断要结合电极材料与电解质中的氧化剂。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.galvanic_poles] 增补"
+      }
+    },
+    {
+      "code": "kp.energy.electron_flow",
+      "type": "knowledge",
+      "inventoryName": "原电池电子流向",
+      "inventoryStatus": "imported",
+      "note": "增补；外电路电子由负极到正极; batch6导入 pending_review id=78",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·原电池",
+      "priority": 1,
+      "specialtyCodes": [
+        "redox",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "redox.e_direction",
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "78",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.energy.electron_flow] 增补；外电路电子由负极到正极",
+      "dbRow": {
+        "id": 78,
+        "status": "pending_review",
+        "review_note": "[inv:kp.energy.electron_flow] 增补；外电路电子由负极到正极",
+        "name": "原电池电子流向",
+        "description": "外电路中电子由负极流向正极；电流方向与电子流向相反。溶液中阳离子向正极迁移、阴离子向负极迁移，不可说电子在溶液中流动。",
+        "difficulty": 2,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "redox",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "e_direction"
+      ],
+      "species": null,
+      "packData": {
+        "name": "原电池电子流向",
+        "description": "外电路中电子由负极流向正极；电流方向与电子流向相反。溶液中阳离子向正极迁移、阴离子向负极迁移，不可说电子在溶液中流动。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.electron_flow] 增补；外电路电子由负极到正极"
+      }
+    },
+    {
+      "code": "kp.energy.electrode_rxn",
+      "type": "knowledge",
+      "inventoryName": "原电池电极反应",
+      "inventoryStatus": "imported",
+      "note": "增补; batch6导入 pending_review id=79",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·原电池",
+      "priority": 1,
+      "specialtyCodes": [
+        "redox",
+        "equation",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "redox.identify",
+        "equation.ionic_write",
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "79",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.energy.electrode_rxn] 增补",
+      "dbRow": {
+        "id": 79,
+        "status": "pending_review",
+        "review_note": "[inv:kp.energy.electrode_rxn] 增补",
+        "name": "原电池电极反应",
+        "description": "分别写出负极氧化、正极还原的电极反应式，再相加得总反应。Zn-Cu原电池：电解质为CuSO4时正极多为Cu2+得电子；为稀H2SO4时正极多为H+得电子。须按题设书写。",
+        "difficulty": 3,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "equation",
+        "redox",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "ionic_write",
+        "identify"
+      ],
+      "species": null,
+      "packData": {
+        "name": "原电池电极反应",
+        "description": "分别写出负极氧化、正极还原的电极反应式，再相加得总反应。Zn-Cu原电池：电解质为CuSO4时正极多为Cu2+得电子；为稀H2SO4时正极多为H+得电子。须按题设书写。",
+        "difficulty": 3,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.electrode_rxn] 增补"
+      }
+    },
+    {
+      "code": "kp.energy.chem_power",
+      "type": "knowledge",
+      "inventoryName": "常见化学电源",
+      "inventoryStatus": "imported",
+      "note": "增补；了解级，勿展开复杂电化学工程; batch6导入 pending_review id=80",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学电源（了解）",
+      "priority": 2,
+      "specialtyCodes": [
+        "comprehensive",
+        "memory"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "memory.rules"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "80",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.energy.chem_power] 了解级;勿展开工程细节",
+      "dbRow": {
+        "id": 80,
+        "status": "pending_review",
+        "review_note": "[inv:kp.energy.chem_power] 了解级;勿展开工程细节",
+        "name": "常见化学电源",
+        "description": "了解常见化学电源（如干电池、蓄电池、锂电池等名称与用途层次，以教材为准）。勿展开复杂电化学工程与电极材料细节作为默认训练。",
+        "difficulty": 2,
+        "importance": 3
+      },
+      "dbSpecialtyCodes": [
+        "memory",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "rules"
+      ],
+      "species": null,
+      "packData": {
+        "name": "常见化学电源",
+        "description": "了解常见化学电源（如干电池、蓄电池、锂电池等名称与用途层次，以教材为准）。勿展开复杂电化学工程与电极材料细节作为默认训练。",
+        "difficulty": 2,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.chem_power] 了解级;勿展开工程细节"
+      }
+    },
+    {
+      "code": "exp.galvanic_Zn_Cu",
+      "type": "experiment",
+      "inventoryName": "铜锌原电池实验",
+      "inventoryStatus": "imported",
+      "note": "增补；典型教学实验; batch6导入 pending_review id=42",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·原电池",
+      "priority": 1,
+      "specialtyCodes": [
+        "experiment",
+        "redox"
+      ],
+      "categoryCodes": [
+        "experiment.inquiry",
+        "experiment.phenomenon_desc",
+        "redox.e_direction"
+      ],
+      "pack": "B6-C",
+      "source": "imported",
+      "dbId": "42",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:exp.galvanic_Zn_Cu] 电解质CuSO4 vs 稀H2SO4正极不同;电子外电路;离子溶液迁移",
+      "dbRow": {
+        "id": 42,
+        "status": "pending_review",
+        "review_note": "[inv:exp.galvanic_Zn_Cu] 电解质CuSO4 vs 稀H2SO4正极不同;电子外电路;离子溶液迁移",
+        "name": "铜锌原电池实验",
+        "category": "electrochem",
+        "purpose": "书面分析题训练：分析Zn-Cu原电池的电极、电子流向、离子迁移及电解质不同时正极反应的差异。",
+        "principle": "原电池将化学能转化为电能。电子经外电路从负极流向正极；溶液中阴、阳离子定向迁移形成闭合回路。负极：较活泼金属Zn失电子被氧化。正极还原反应取决于电解质：①电解质为CuSO4时，正极通常Cu2++2e-=Cu；②电解质为稀H2SO4时，正极通常2H++2e-=H2↑。须按题设电解质判断，不可混用。并非所有原电池都必须是两种不同金属（电极材料组合以题设为准）。",
+        "instruments": "锌片、铜片、导线、电流计（或小灯泡）、烧杯等（图示）",
+        "reagents": "Zn、Cu；CuSO4溶液或稀H2SO4（题设二选一或对照）",
+        "steps": "1.辨认电极与电解质；2.判断负极氧化、正极还原；3.标出电子外电路方向；4.说明离子在溶液中的迁移；5.对照CuSO4与稀H2SO4两种题设写电极反应。",
+        "phenomenon": "电流计偏转或灯泡发光；锌片溶解；CuSO4中铜片上可析出铜；稀硫酸中铜片上可有气泡（题设）。",
+        "conclusion": "能构成原电池并产生电流；电子走外电路、离子走电解质；正极反应随电解质而变。",
+        "precautions": "电极与电解质匹配；书写电极反应须与题设一致；仅书面分析。",
+        "safety_notes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 纸面分析，不要求动手。",
+        "is_hazardous": 0,
+        "home_forbidden_note": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。"
+      },
+      "dbSpecialtyCodes": [
+        "experiment",
+        "redox"
+      ],
+      "dbCategoryCodes": [
+        "phenomenon_desc",
+        "inquiry",
+        "e_direction"
+      ],
+      "species": null,
+      "packData": {
+        "homeForbiddenNote": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "isHazardous": false,
+        "name": "铜锌原电池实验",
+        "category": "electrochem",
+        "purpose": "书面分析题训练：分析Zn-Cu原电池的电极、电子流向、离子迁移及电解质不同时正极反应的差异。",
+        "principle": "原电池将化学能转化为电能。电子经外电路从负极流向正极；溶液中阴、阳离子定向迁移形成闭合回路。负极：较活泼金属Zn失电子被氧化。正极还原反应取决于电解质：①电解质为CuSO4时，正极通常Cu2++2e-=Cu；②电解质为稀H2SO4时，正极通常2H++2e-=H2↑。须按题设电解质判断，不可混用。并非所有原电池都必须是两种不同金属（电极材料组合以题设为准）。",
+        "instruments": "锌片、铜片、导线、电流计（或小灯泡）、烧杯等（图示）",
+        "reagents": "Zn、Cu；CuSO4溶液或稀H2SO4（题设二选一或对照）",
+        "steps": "1.辨认电极与电解质；2.判断负极氧化、正极还原；3.标出电子外电路方向；4.说明离子在溶液中的迁移；5.对照CuSO4与稀H2SO4两种题设写电极反应。",
+        "phenomenon": "电流计偏转或灯泡发光；锌片溶解；CuSO4中铜片上可析出铜；稀硫酸中铜片上可有气泡（题设）。",
+        "conclusion": "能构成原电池并产生电流；电子走外电路、离子走电解质；正极反应随电解质而变。",
+        "precautions": "电极与电解质匹配；书写电极反应须与题设一致；仅书面分析。",
+        "safetyNotes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 纸面分析，不要求动手。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.galvanic_Zn_Cu] 电解质CuSO4 vs 稀H2SO4正极不同;电子外电路;离子溶液迁移"
+      }
+    },
+    {
+      "code": "concept.heat_of_reaction",
+      "type": "concept",
+      "inventoryName": "反应热",
+      "inventoryStatus": "imported",
+      "note": "增补；燃烧热/中和热等概念级；计算深度待核实; batch6导入 pending_review id=35",
+      "verifyNeeded": true,
+      "curriculumScope": "必修第二册·化学反应与能量",
+      "priority": 2,
+      "specialtyCodes": [
+        "comprehensive",
+        "memory"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "memory.rules"
+      ],
+      "pack": "B6-D",
+      "source": "imported",
+      "dbId": "35",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:concept.heat_of_reaction] 待教材核实:verifyNeeded;概念级;禁复杂定量默认训练;curriculumScope:必修第二册",
+      "dbRow": {
+        "id": 35,
+        "status": "pending_review",
+        "review_note": "[inv:concept.heat_of_reaction] 待教材核实:verifyNeeded;概念级;禁复杂定量默认训练;curriculumScope:必修第二册",
+        "name": "反应热",
+        "definition": "化学反应中放出或吸收的热量叫做反应热（概念级认识）；可用热化学方程式表示反应热与物质聚集状态的关系。",
+        "principle": "反应热与物质的聚集状态、计量数有关；燃烧热、中和热等为相关概念（了解）。定量计算深度以所用教材为准。",
+        "applicable_conditions": "必修第二册概念级；复杂热量计算不作为默认高一训练。",
+        "judge_methods": "识别热化学方程式中的ΔH与状态；区分吸热/放热符号口径（随教材）。",
+        "examples": "热化学方程式示例以教材为准；注明气、液、固状态。",
+        "common_mistakes": "忽略聚集状态；把反应热与温度变化简单等同；超纲定量。"
+      },
+      "dbSpecialtyCodes": [
+        "memory",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "rules"
+      ],
+      "species": null,
+      "packData": {
+        "name": "反应热",
+        "definition": "化学反应中放出或吸收的热量叫做反应热（概念级认识）；可用热化学方程式表示反应热与物质聚集状态的关系。",
+        "principle": "反应热与物质的聚集状态、计量数有关；燃烧热、中和热等为相关概念（了解）。定量计算深度以所用教材为准。",
+        "applicableConditions": "必修第二册概念级；复杂热量计算不作为默认高一训练。",
+        "judgeMethods": "识别热化学方程式中的ΔH与状态；区分吸热/放热符号口径（随教材）。",
+        "examples": "热化学方程式示例以教材为准；注明气、液、固状态。",
+        "commonMistakes": "忽略聚集状态；把反应热与温度变化简单等同；超纲定量。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.heat_of_reaction] 待教材核实:verifyNeeded;概念级;禁复杂定量默认训练;curriculumScope:必修第二册"
+      }
+    },
+    {
+      "code": "kp.energy.thermo_eq",
+      "type": "knowledge",
+      "inventoryName": "热化学方程式书写",
+      "inventoryStatus": "imported",
+      "note": "增补；注明物质聚集状态与ΔH 符号口径; batch6导入 pending_review id=81",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学反应与能量",
+      "priority": 2,
+      "specialtyCodes": [
+        "equation",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "equation.condition",
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "81",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.energy.thermo_eq] 增补；注明物质聚集状态与ΔH 符号口径",
+      "dbRow": {
+        "id": 81,
+        "status": "pending_review",
+        "review_note": "[inv:kp.energy.thermo_eq] 增补；注明物质聚集状态与ΔH 符号口径",
+        "name": "热化学方程式书写",
+        "description": "热化学方程式须注明物质聚集状态，并给出ΔH（符号与单位口径随教材）。计量数与ΔH对应；同一反应计量数翻倍则ΔH相应变化。",
+        "difficulty": 3,
+        "importance": 4
+      },
+      "dbSpecialtyCodes": [
+        "equation",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "write_from_text",
+        "condition"
+      ],
+      "species": null,
+      "packData": {
+        "name": "热化学方程式书写",
+        "description": "热化学方程式须注明物质聚集状态，并给出ΔH（符号与单位口径随教材）。计量数与ΔH对应；同一反应计量数翻倍则ΔH相应变化。",
+        "difficulty": 3,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.thermo_eq] 增补；注明物质聚集状态与ΔH 符号口径"
+      }
+    },
+    {
+      "code": "kp.sustain.seawater",
+      "type": "knowledge",
+      "inventoryName": "海水资源开发",
+      "inventoryStatus": "imported",
+      "note": "增补; batch6导入 pending_review id=82",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学与可持续发展",
+      "priority": 2,
+      "specialtyCodes": [
+        "comprehensive",
+        "substance"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "substance.usage"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "82",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.sustain.seawater] 增补",
+      "dbRow": {
+        "id": 82,
+        "status": "pending_review",
+        "review_note": "[inv:kp.sustain.seawater] 增补",
+        "name": "海水资源开发",
+        "description": "海水中含丰富水资源与化学资源（如NaCl、镁、溴等，了解）。认识海水淡化与综合利用的意义，深度以教材案例为准。",
+        "difficulty": 1,
+        "importance": 3
+      },
+      "dbSpecialtyCodes": [
+        "substance",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "usage"
+      ],
+      "species": null,
+      "packData": {
+        "name": "海水资源开发",
+        "description": "海水中含丰富水资源与化学资源（如NaCl、镁、溴等，了解）。认识海水淡化与综合利用的意义，深度以教材案例为准。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.seawater] 增补"
+      }
+    },
+    {
+      "code": "kp.sustain.coal",
+      "type": "knowledge",
+      "inventoryName": "煤的综合利用",
+      "inventoryStatus": "imported",
+      "note": "增补; batch6导入 pending_review id=83",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学与可持续发展",
+      "priority": 2,
+      "specialtyCodes": [
+        "comprehensive",
+        "organic"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "organic.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "83",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.sustain.coal] 增补",
+      "dbRow": {
+        "id": 83,
+        "status": "pending_review",
+        "review_note": "[inv:kp.sustain.coal] 增补",
+        "name": "煤的综合利用",
+        "description": "煤可通过干馏、气化、液化等途径综合利用（了解名称与意义），减少污染、提高资源利用率。勿展开复杂工艺计算。",
+        "difficulty": 2,
+        "importance": 3
+      },
+      "dbSpecialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "basic"
+      ],
+      "species": null,
+      "packData": {
+        "name": "煤的综合利用",
+        "description": "煤可通过干馏、气化、液化等途径综合利用（了解名称与意义），减少污染、提高资源利用率。勿展开复杂工艺计算。",
+        "difficulty": 2,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.coal] 增补"
+      }
+    },
+    {
+      "code": "kp.organic.petroleum",
+      "type": "knowledge",
+      "inventoryName": "石油分馏",
+      "inventoryStatus": "imported",
+      "note": "增补；物理变化认识; batch6导入 pending_review id=84",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·有机 / 可持续发展",
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "84",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.organic.petroleum] 增补；物理变化认识",
+      "dbRow": {
+        "id": 84,
+        "status": "pending_review",
+        "review_note": "[inv:kp.organic.petroleum] 增补；物理变化认识",
+        "name": "石油分馏",
+        "description": "石油分馏是利用各组分沸点不同进行分离的物理变化过程，得到汽油、煤油、柴油等馏分（了解）。与裂化、裂解等化学加工区分。",
+        "difficulty": 2,
+        "importance": 4
+      },
+      "dbSpecialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "basic"
+      ],
+      "species": null,
+      "packData": {
+        "name": "石油分馏",
+        "description": "石油分馏是利用各组分沸点不同进行分离的物理变化过程，得到汽油、煤油、柴油等馏分（了解）。与裂化、裂解等化学加工区分。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.petroleum] 增补；物理变化认识"
+      }
+    },
+    {
+      "code": "kp.organic.cracking",
+      "type": "knowledge",
+      "inventoryName": "石油裂化",
+      "inventoryStatus": "imported",
+      "note": "增补；与裂解区分；深度待核实; batch6导入 pending_review id=85",
+      "verifyNeeded": true,
+      "curriculumScope": "必修第二册·有机化学相关（了解深度待核实）",
+      "priority": 2,
+      "specialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "85",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.organic.cracking] 待教材核实:与裂解区分;深度待核实;excludeDefaultTrainingUntilVerified;非人工已审",
+      "dbRow": {
+        "id": 85,
+        "status": "pending_review",
+        "review_note": "[inv:kp.organic.cracking] 待教材核实:与裂解区分;深度待核实;excludeDefaultTrainingUntilVerified;非人工已审",
+        "name": "石油裂化",
+        "description": "裂化是使长链烃断裂为较短链烃的过程，以提高轻质燃油产量等（了解）。与裂解区分；具体反应深度与考法待教材核实。",
+        "difficulty": 2,
+        "importance": 3
+      },
+      "dbSpecialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "basic"
+      ],
+      "species": null,
+      "packData": {
+        "name": "石油裂化",
+        "description": "裂化是使长链烃断裂为较短链烃的过程，以提高轻质燃油产量等（了解）。与裂解区分；具体反应深度与考法待教材核实。",
+        "difficulty": 2,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.cracking] 待教材核实:与裂解区分;深度待核实;excludeDefaultTrainingUntilVerified;非人工已审"
+      }
+    },
+    {
+      "code": "kp.organic.pyrolysis",
+      "type": "knowledge",
+      "inventoryName": "石油裂解",
+      "inventoryStatus": "imported",
+      "note": "增补；与裂化区分；深度待核实; batch6导入 pending_review id=86",
+      "verifyNeeded": true,
+      "curriculumScope": "必修第二册·有机化学相关（了解深度待核实）",
+      "priority": 2,
+      "specialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "86",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.organic.pyrolysis] 待教材核实:与裂化区分;深度待核实;excludeDefaultTrainingUntilVerified;非人工已审",
+      "dbRow": {
+        "id": 86,
+        "status": "pending_review",
+        "review_note": "[inv:kp.organic.pyrolysis] 待教材核实:与裂化区分;深度待核实;excludeDefaultTrainingUntilVerified;非人工已审",
+        "name": "石油裂解",
+        "description": "裂解是深度断裂以获得乙烯、丙烯等化工原料的过程（了解）。与裂化目的与条件不同；细节待教材核实前不作默认核心训练。",
+        "difficulty": 2,
+        "importance": 3
+      },
+      "dbSpecialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "basic"
+      ],
+      "species": null,
+      "packData": {
+        "name": "石油裂解",
+        "description": "裂解是深度断裂以获得乙烯、丙烯等化工原料的过程（了解）。与裂化目的与条件不同；细节待教材核实前不作默认核心训练。",
+        "difficulty": 2,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.pyrolysis] 待教材核实:与裂化区分;深度待核实;excludeDefaultTrainingUntilVerified;非人工已审"
+      }
+    },
+    {
+      "code": "kp.sustain.natural_gas",
+      "type": "knowledge",
+      "inventoryName": "天然气利用",
+      "inventoryStatus": "imported",
+      "note": "增补; batch6导入 pending_review id=87",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学与可持续发展",
+      "priority": 2,
+      "specialtyCodes": [
+        "comprehensive",
+        "organic"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "organic.methane"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "87",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.sustain.natural_gas] 增补",
+      "dbRow": {
+        "id": 87,
+        "status": "pending_review",
+        "review_note": "[inv:kp.sustain.natural_gas] 增补",
+        "name": "天然气利用",
+        "description": "天然气主要成分为甲烷，是较清洁的化石燃料；也可作化工原料（了解）。注意安全使用与碳中和背景认知（教材层次）。",
+        "difficulty": 1,
+        "importance": 3
+      },
+      "dbSpecialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "methane"
+      ],
+      "species": null,
+      "packData": {
+        "name": "天然气利用",
+        "description": "天然气主要成分为甲烷，是较清洁的化石燃料；也可作化工原料（了解）。注意安全使用与碳中和背景认知（教材层次）。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.natural_gas] 增补"
+      }
+    },
+    {
+      "code": "kp.sustain.fertilizer",
+      "type": "knowledge",
+      "inventoryName": "化肥合理使用",
+      "inventoryStatus": "imported",
+      "note": "增补; batch6导入 pending_review id=88",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学与可持续发展",
+      "priority": 2,
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "88",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.sustain.fertilizer] 增补",
+      "dbRow": {
+        "id": 88,
+        "status": "pending_review",
+        "review_note": "[inv:kp.sustain.fertilizer] 增补",
+        "name": "化肥合理使用",
+        "description": "认识氮、磷、钾肥等作用与合理施用，避免过量导致污染。结合元素化合物知识作了解级综合。",
+        "difficulty": 1,
+        "importance": 3
+      },
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic"
+      ],
+      "species": null,
+      "packData": {
+        "name": "化肥合理使用",
+        "description": "认识氮、磷、钾肥等作用与合理施用，避免过量导致污染。结合元素化合物知识作了解级综合。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.fertilizer] 增补"
+      }
+    },
+    {
+      "code": "kp.sustain.pesticide",
+      "type": "knowledge",
+      "inventoryName": "农药合理使用",
+      "inventoryStatus": "imported",
+      "note": "增补; batch6导入 pending_review id=89",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学与可持续发展",
+      "priority": 2,
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "89",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.sustain.pesticide] 增补",
+      "dbRow": {
+        "id": 89,
+        "status": "pending_review",
+        "review_note": "[inv:kp.sustain.pesticide] 增补",
+        "name": "农药合理使用",
+        "description": "农药有助于防治病虫害，但须合理使用，减少残留与生态危害。属社会责任与科学态度类认知条目。",
+        "difficulty": 1,
+        "importance": 3
+      },
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic"
+      ],
+      "species": null,
+      "packData": {
+        "name": "农药合理使用",
+        "description": "农药有助于防治病虫害，但须合理使用，减少残留与生态危害。属社会责任与科学态度类认知条目。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.pesticide] 增补"
+      }
+    },
+    {
+      "code": "kp.sustain.medicine",
+      "type": "knowledge",
+      "inventoryName": "药物合理使用",
+      "inventoryStatus": "imported",
+      "note": "增补; batch6导入 pending_review id=90",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学与可持续发展",
+      "priority": 2,
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "90",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.sustain.medicine] 增补",
+      "dbRow": {
+        "id": 90,
+        "status": "pending_review",
+        "review_note": "[inv:kp.sustain.medicine] 增补",
+        "name": "药物合理使用",
+        "description": "认识药物按说明书与医嘱使用的重要性，了解滥用抗生素等危害（教材案例层次），不涉及诊疗指导。",
+        "difficulty": 1,
+        "importance": 3
+      },
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic"
+      ],
+      "species": null,
+      "packData": {
+        "name": "药物合理使用",
+        "description": "认识药物按说明书与医嘱使用的重要性，了解滥用抗生素等危害（教材案例层次），不涉及诊疗指导。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.medicine] 增补"
+      }
+    },
+    {
+      "code": "kp.sustain.food_additive",
+      "type": "knowledge",
+      "inventoryName": "食品添加剂",
+      "inventoryStatus": "imported",
+      "note": "增补；合理使用与安全认知; batch6导入 pending_review id=91",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学与可持续发展",
+      "priority": 2,
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "91",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.sustain.food_additive] 增补；合理使用与安全认知",
+      "dbRow": {
+        "id": 91,
+        "status": "pending_review",
+        "review_note": "[inv:kp.sustain.food_additive] 增补；合理使用与安全认知",
+        "name": "食品添加剂",
+        "description": "食品添加剂在规定范围与剂量内可改善食品品质；应正确认识“合法合规使用”与安全，抵制非法添加。",
+        "difficulty": 1,
+        "importance": 3
+      },
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic"
+      ],
+      "species": null,
+      "packData": {
+        "name": "食品添加剂",
+        "description": "食品添加剂在规定范围与剂量内可改善食品品质；应正确认识“合法合规使用”与安全，抵制非法添加。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.food_additive] 增补；合理使用与安全认知"
+      }
+    },
+    {
+      "code": "kp.enviro.pollution",
+      "type": "knowledge",
+      "inventoryName": "环境污染与防治认知",
+      "inventoryStatus": "imported",
+      "note": "增补; batch6导入 pending_review id=92",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学与可持续发展",
+      "priority": 2,
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "92",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.enviro.pollution] 增补",
+      "dbRow": {
+        "id": 92,
+        "status": "pending_review",
+        "review_note": "[inv:kp.enviro.pollution] 增补",
+        "name": "环境污染与防治认知",
+        "description": "认识大气污染、水污染、土壤污染等类型及防治思路：源头控制、达标排放、绿色工艺与个人环保行为。结合硫氧化物、氮氧化物、塑料等教材案例。",
+        "difficulty": 2,
+        "importance": 4
+      },
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic"
+      ],
+      "species": null,
+      "packData": {
+        "name": "环境污染与防治认知",
+        "description": "认识大气污染、水污染、土壤污染等类型及防治思路：源头控制、达标排放、绿色工艺与个人环保行为。结合硫氧化物、氮氧化物、塑料等教材案例。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.enviro.pollution] 增补"
+      }
+    },
+    {
+      "code": "kp.enviro.acid_rain",
+      "type": "knowledge",
+      "inventoryName": "酸雨",
+      "inventoryStatus": "imported",
+      "note": "增补；主知识在综合批；非金属批通过关联引用; batch6导入 pending_review id=93",
+      "verifyNeeded": false,
+      "curriculumScope": "必修·硫氮氧化物与可持续发展",
+      "priority": 1,
+      "specialtyCodes": [
+        "comprehensive",
+        "substance"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "substance.chem_property"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "93",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.enviro.acid_rain] 增补；主知识在综合批；非金属批通过关联引用",
+      "dbRow": {
+        "id": 93,
+        "status": "pending_review",
+        "review_note": "[inv:kp.enviro.acid_rain] 增补；主知识在综合批；非金属批通过关联引用",
+        "name": "酸雨",
+        "description": "酸雨主要与SO2、NOx等排放有关；可酸化水体与土壤、腐蚀建筑。防治：脱硫脱硝、清洁能源、节能等。与硫、氮氧化物知识综合。",
+        "difficulty": 2,
+        "importance": 4
+      },
+      "dbSpecialtyCodes": [
+        "substance",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "chem_property"
+      ],
+      "species": null,
+      "packData": {
+        "name": "酸雨",
+        "description": "酸雨主要与SO2、NOx等排放有关；可酸化水体与土壤、腐蚀建筑。防治：脱硫脱硝、清洁能源、节能等。与硫、氮氧化物知识综合。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.enviro.acid_rain] 增补；主知识在综合批；非金属批通过关联引用"
+      }
+    },
+    {
+      "code": "kp.sustain.green_chem",
+      "type": "knowledge",
+      "inventoryName": "绿色化学",
+      "inventoryStatus": "imported",
+      "note": "增补; batch6导入 pending_review id=94",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·化学与可持续发展",
+      "priority": 1,
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "94",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.sustain.green_chem] 增补",
+      "dbRow": {
+        "id": 94,
+        "status": "pending_review",
+        "review_note": "[inv:kp.sustain.green_chem] 增补",
+        "name": "绿色化学",
+        "description": "绿色化学强调从源头减少或消除污染，提高原子利用率，选用更安全的原料、溶剂与反应路径（概念认识）。",
+        "difficulty": 2,
+        "importance": 4
+      },
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic"
+      ],
+      "species": null,
+      "packData": {
+        "name": "绿色化学",
+        "description": "绿色化学强调从源头减少或消除污染，提高原子利用率，选用更安全的原料、溶剂与反应路径（概念认识）。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.green_chem] 增补"
+      }
+    },
+    {
+      "code": "kp.sustain.atom_economy",
+      "type": "knowledge",
+      "inventoryName": "原子经济性",
+      "inventoryStatus": "imported",
+      "note": "增补；概念级；计算题深度待核实; batch6导入 pending_review id=95",
+      "verifyNeeded": true,
+      "curriculumScope": "必修第二册·绿色化学相关",
+      "priority": 2,
+      "specialtyCodes": [
+        "comprehensive",
+        "calculation"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "calculation.mixed"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "95",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.sustain.atom_economy] 待教材核实:概念级;计算题深度待核实;excludeDefaultTrainingUntilVerified;非人工已审",
+      "dbRow": {
+        "id": 95,
+        "status": "pending_review",
+        "review_note": "[inv:kp.sustain.atom_economy] 待教材核实:概念级;计算题深度待核实;excludeDefaultTrainingUntilVerified;非人工已审",
+        "name": "原子经济性",
+        "description": "原子经济性关注反应物原子进入目标产物的比例，加成等反应原子利用率高（概念级）。定量计算公式与训练深度待教材核实。",
+        "difficulty": 2,
+        "importance": 3
+      },
+      "dbSpecialtyCodes": [
+        "calculation",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "mixed",
+        "basic"
+      ],
+      "species": null,
+      "packData": {
+        "name": "原子经济性",
+        "description": "原子经济性关注反应物原子进入目标产物的比例，加成等反应原子利用率高（概念级）。定量计算公式与训练深度待教材核实。",
+        "difficulty": 2,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.atom_economy] 待教材核实:概念级;计算题深度待核实;excludeDefaultTrainingUntilVerified;非人工已审"
+      }
+    },
+    {
+      "code": "concept.addition_polymer",
+      "type": "concept",
+      "inventoryName": "加成聚合",
+      "inventoryStatus": "imported",
+      "note": "增补；如聚乙烯；与乙烯关联; batch6导入 pending_review id=36",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·有机聚合物初步",
+      "priority": 1,
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [
+        "organic.addition",
+        "organic.basic"
+      ],
+      "pack": "B6-D",
+      "source": "imported",
+      "dbId": "36",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:concept.addition_polymer] 乙烯加聚示例;范围按必修了解",
+      "dbRow": {
+        "id": 36,
+        "status": "pending_review",
+        "review_note": "[inv:concept.addition_polymer] 乙烯加聚示例;范围按必修了解",
+        "name": "加成聚合",
+        "definition": "不饱和单体通过加成的方式互相结合成为高分子化合物的反应，叫做加成聚合反应（加聚）。",
+        "principle": "如乙烯加聚生成聚乙烯：nCH2=CH2 →催化剂等→ ┄[CH2−CH2]┄n（写法随教材）。",
+        "applicable_conditions": "必修了解聚合物与单体关系；不展开复杂高分子工程。",
+        "judge_methods": "由高分子链节推断单体；单体含不饱和键。",
+        "examples": "乙烯→聚乙烯。",
+        "common_mistakes": "缩聚与加聚混淆；链节与单体写错。"
+      },
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "addition"
+      ],
+      "species": null,
+      "packData": {
+        "name": "加成聚合",
+        "definition": "不饱和单体通过加成的方式互相结合成为高分子化合物的反应，叫做加成聚合反应（加聚）。",
+        "principle": "如乙烯加聚生成聚乙烯：nCH2=CH2 →催化剂等→ ┄[CH2−CH2]┄n（写法随教材）。",
+        "applicableConditions": "必修了解聚合物与单体关系；不展开复杂高分子工程。",
+        "judgeMethods": "由高分子链节推断单体；单体含不饱和键。",
+        "examples": "乙烯→聚乙烯。",
+        "commonMistakes": "缩聚与加聚混淆；链节与单体写错。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.addition_polymer] 乙烯加聚示例;范围按必修了解"
+      }
+    },
+    {
+      "code": "kp.organic.biomolecule",
+      "type": "knowledge",
+      "inventoryName": "生命中的基本有机物（了解）",
+      "inventoryStatus": "imported",
+      "note": "增补；糖类油脂蛋白质认知级；勿展开生物详细代谢; batch6导入 pending_review id=96",
+      "verifyNeeded": true,
+      "curriculumScope": "必修第二册·化学与可持续发展/有机（了解；待核实覆盖深度）",
+      "priority": 3,
+      "specialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "comprehensive.basic"
+      ],
+      "pack": "B6-E",
+      "source": "imported",
+      "dbId": "96",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:kp.organic.biomolecule] 待教材核实:覆盖深度;认知级;勿展开代谢;excludeDefaultTrainingUntilVerified;非人工已审",
+      "dbRow": {
+        "id": 96,
+        "status": "pending_review",
+        "review_note": "[inv:kp.organic.biomolecule] 待教材核实:覆盖深度;认知级;勿展开代谢;excludeDefaultTrainingUntilVerified;非人工已审",
+        "name": "生命中的基本有机物（了解）",
+        "description": "糖类、油脂、蛋白质、维生素等是生命中的基本有机物（认知级）。了解存在与功能层次即可，勿展开生物学详细代谢途径。",
+        "difficulty": 1,
+        "importance": 3
+      },
+      "dbSpecialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "dbCategoryCodes": [
+        "basic",
+        "basic"
+      ],
+      "species": null,
+      "packData": {
+        "name": "生命中的基本有机物（了解）",
+        "description": "糖类、油脂、蛋白质、维生素等是生命中的基本有机物（认知级）。了解存在与功能层次即可，勿展开生物学详细代谢途径。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.biomolecule] 待教材核实:覆盖深度;认知级;勿展开代谢;excludeDefaultTrainingUntilVerified;非人工已审"
+      }
+    },
+    {
+      "code": "rxn.C2H4_KMnO4",
+      "type": "reaction",
+      "inventoryName": "乙烯使酸性高锰酸钾褪色",
+      "inventoryStatus": "imported",
+      "note": "增补；现象与鉴别用途；详细产物勿超纲展开; batch6导入 pending_review id=68",
+      "verifyNeeded": false,
+      "curriculumScope": "必修第二册·乙烯",
+      "priority": 1,
+      "specialtyCodes": [
+        "organic",
+        "equation",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "organic.oxidation",
+        "equation.write_from_text",
+        "experiment.phenomenon_judge"
+      ],
+      "pack": "B6-B",
+      "source": "imported",
+      "dbId": "68",
+      "dbStatus": "pending_review",
+      "dbReviewNote": "[inv:rxn.C2H4_KMnO4] 产物随条件变化不指定唯一;canonical描述性≤255;禁唯一氧化产物填空",
+      "dbRow": {
+        "id": 68,
+        "status": "pending_review",
+        "review_note": "[inv:rxn.C2H4_KMnO4] 产物随条件变化不指定唯一;canonical描述性≤255;禁唯一氧化产物填空",
+        "name": "乙烯使酸性高锰酸钾褪色",
+        "canonical_equation": "C2H4 + 酸性KMnO4 → 氧化产物(条件依赖)",
+        "equation": "C2H4 + 酸性KMnO4 → 氧化产物（随条件变化，不指定唯一）",
+        "ionic_equation": null,
+        "conditions": "酸性KMnO4溶液，常温（题设）",
+        "phenomenon": "酸性KMnO4紫红色褪去（或变浅）。",
+        "principle": "乙烯具有不饱和性，可被酸性KMnO4氧化，使溶液紫红色褪去。用于鉴别不饱和烃与饱和烃。氧化产物随反应条件变化，不得指定唯一氧化产物，也不要求配平复杂离子方程式为默认训练。",
+        "oxidant": "酸性KMnO4",
+        "reductant": "C2H4",
+        "ox_product": "氧化产物(条件依赖，不指定)",
+        "re_product": "氧化产物(条件依赖，不指定)",
+        "electron_transfer": "乙烯被氧化；MnO4-被还原（高中定性，不要求详细电子数默认训练）",
+        "difficulty": 2,
+        "importance": 5
+      },
+      "dbSpecialtyCodes": [
+        "equation",
+        "experiment",
+        "organic"
+      ],
+      "dbCategoryCodes": [
+        "write_from_text",
+        "phenomenon_judge",
+        "oxidation"
+      ],
+      "species": [
+        {
+          "role": "reactant",
+          "formula": "C2H4",
+          "coefficient": "1.0000",
+          "state_symbol": "g",
+          "is_gas": 1,
+          "is_precipitate": 0,
+          "sort_order": 1
+        },
+        {
+          "role": "reactant",
+          "formula": "KMnO4",
+          "coefficient": "1.0000",
+          "state_symbol": "aq",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 2
+        },
+        {
+          "role": "product",
+          "formula": "氧化产物",
+          "coefficient": "1.0000",
+          "state_symbol": "",
+          "is_gas": 0,
+          "is_precipitate": 0,
+          "sort_order": 3
+        }
+      ],
+      "packData": {
+        "name": "乙烯使酸性高锰酸钾褪色",
+        "canonicalEquation": "C2H4 + 酸性KMnO4 → 氧化产物(条件依赖)",
+        "equation": "C2H4 + 酸性KMnO4 → 氧化产物（随条件变化，不指定唯一）",
+        "ionicEquation": null,
+        "conditions": "酸性KMnO4溶液，常温（题设）",
+        "phenomenon": "酸性KMnO4紫红色褪去（或变浅）。",
+        "principle": "乙烯具有不饱和性，可被酸性KMnO4氧化，使溶液紫红色褪去。用于鉴别不饱和烃与饱和烃。氧化产物随反应条件变化，不得指定唯一氧化产物，也不要求配平复杂离子方程式为默认训练。",
+        "oxidant": "酸性KMnO4",
+        "reductant": "C2H4",
+        "oxProduct": "氧化产物(条件依赖，不指定)",
+        "reProduct": "氧化产物(条件依赖，不指定)",
+        "electronTransfer": "乙烯被氧化；MnO4-被还原（高中定性，不要求详细电子数默认训练）",
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "organic",
+          "redox",
+          "oxidation"
+        ],
+        "trainTypes": "phenomenon.judge,organic.unsaturation,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "C2H4",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "KMnO4",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "氧化产物",
+            "coefficient": 1,
+            "stateSymbol": "",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.C2H4_KMnO4] 产物随条件变化不指定唯一;canonical描述性≤255;禁唯一氧化产物填空"
+      }
+    }
+  ]
+}

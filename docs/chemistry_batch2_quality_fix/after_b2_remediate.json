@@ -1,0 +1,203 @@
+{
+  "results": {
+    "applied": [
+      "el.He",
+      "el.N",
+      "el.Hg",
+      "el.I",
+      "el.Cr",
+      "concept.elemental_compound",
+      "concept.charge_conserve",
+      "formula.Vm",
+      "formula.M_m_n",
+      "formula.equation_ratio",
+      "formula.gas_STP",
+      "kp.ion.electrolyte",
+      "kp.ion.ionic_eq",
+      "kp.structure.electron_formula",
+      "kp.periodic.trend",
+      "kp.calc.amount",
+      "kp.memory.valence_table",
+      "kp.memory.ion_table",
+      "kp.memory.color_table",
+      "link:kp.periodic.position",
+      "link:kp.calc.concentration",
+      "link:kp.calc.dilution"
+    ],
+    "skippedHuman": [
+      "el.Be",
+      "el.Ar",
+      "el.Fe"
+    ],
+    "skippedAlreadyOk": [],
+    "errors": []
+  },
+  "verify": {
+    "el.He": {
+      "id": 5,
+      "symbol": "He",
+      "name_zh": "氦",
+      "name_en": "Helium",
+      "atomic_number": 2,
+      "atomic_mass": "4.003000",
+      "period_no": 1,
+      "group_label": "0",
+      "category": "惰性气体",
+      "common_valences": "0",
+      "atom_structure": "质子数2，核外2个电子（第一层满）",
+      "electron_config": "1s2",
+      "common_compounds": "一般不形成稳定化合物（高中范围）",
+      "key_properties": "最轻的稀有气体（惰性气体），化学性质极不活泼",
+      "common_uses": "填充气球、冷却剂、保护气",
+      "status": "pending_review",
+      "review_note": "[inv:el.He] B2整改:修正“之一”为最轻稀有气体",
+      "created_by": 2,
+      "updated_by": 2,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-18T03:38:15.786Z",
+      "updated_at": "2026-10-18T04:15:36.724Z"
+    },
+    "el.N": {
+      "id": 10,
+      "symbol": "N",
+      "name_zh": "氮",
+      "name_en": "Nitrogen",
+      "atomic_number": 7,
+      "atomic_mass": "14.010000",
+      "period_no": 2,
+      "group_label": "VA",
+      "category": "非金属",
+      "common_valences": "-3,+1,+2,+3,+4,+5",
+      "atom_structure": "质子数7，最外层5个电子",
+      "electron_config": "1s2 2s2 2p3",
+      "common_compounds": "N2, NH3, NO, NO2, HNO3",
+      "key_properties": "单质N2稳定；化合物氧化态多样",
+      "common_uses": "制氨、保护气、硝酸工业",
+      "status": "pending_review",
+      "review_note": "[inv:el.N] B2整改:补常见化合价+1,+3",
+      "created_by": 2,
+      "updated_by": 2,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-18T03:38:16.029Z",
+      "updated_at": "2026-10-18T04:15:36.725Z"
+    },
+    "el.Hg": {
+      "id": 30,
+      "symbol": "Hg",
+      "name_zh": "汞",
+      "name_en": "Mercury",
+      "atomic_number": 80,
+      "atomic_mass": "200.600000",
+      "period_no": 6,
+      "group_label": "IIB",
+      "category": "金属",
+      "common_valences": "+1(as Hg2^2+),+2",
+      "atom_structure": "常温液态金属；+1价实际以Hg2^2+存在，勿写成Hg+",
+      "electron_config": "高中了解液态金属",
+      "common_compounds": "HgO, HgCl2（毒性，禁止接触实验）",
+      "key_properties": "常温液态；有毒；禁止接触实验",
+      "common_uses": "历史温度计（已限制）",
+      "status": "published",
+      "review_note": "[inv:el.Hg] B2整改:明确Hg2^2+；强调毒性禁用",
+      "created_by": 2,
+      "updated_by": 2,
+      "reviewed_by": 2,
+      "reviewed_at": "2026-10-18T03:40:29.821Z",
+      "created_at": "2026-10-18T03:38:17.705Z",
+      "updated_at": "2026-10-18T04:15:36.725Z"
+    },
+    "concept.elemental_compound": {
+      "id": 4,
+      "name": "单质与化合物",
+      "definition": "单质是由同种元素组成的纯净物；化合物是由不同种元素组成的纯净物。",
+      "principle": "元素是具有相同核电荷数（质子数）的一类原子的总称；单质是元素的游离态形式之一。",
+      "applicable_conditions": "讨论物质组成时。",
+      "judge_methods": "先确认是纯净物，再看化学式中元素种类：一种元素→单质；多种元素→化合物。注意O₂与O₃的混合物不是单质。",
+      "examples": "O2、金刚石是单质；CO2、NaCl是化合物。",
+      "common_mistakes": "漏掉“纯净物”条件；把O₂与O混淆；把CO当成单质。注意：Co是钴，CO是一氧化碳。",
+      "status": "pending_review",
+      "review_note": "[inv:concept.elemental_compound] B2整改:定义补“纯净物”",
+      "created_by": 2,
+      "updated_by": 2,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-18T03:38:21.053Z",
+      "updated_at": "2026-10-18T04:15:36.727Z"
+    },
+    "formula.gas_STP": {
+      "id": 11,
+      "name": "标况气体体积",
+      "expression": "V = n · 22.4 L/mol（标准状况近似）",
+      "variables": "V:气体体积；n:物质的量；标准状况：0℃（273K）、101kPa",
+      "units": "V:L；n:mol；22.4:L/mol（标况近似）",
+      "applicable_conditions": "仅适用于标准状况（0℃、101kPa）下的气体（理想气体近似）。常温常压、非标况气体不可套用22.4。一般气体摩尔体积定义见 formula.Vm。",
+      "examples": "1 mol 任何气体标况下约 22.4 L",
+      "common_mistakes": "常温常压仍用22.4；非气体套用；未看清题设是否“标准状况”",
+      "status": "pending_review",
+      "review_note": "[inv:formula.gas_STP] B2整改:写明0℃、101kPa",
+      "created_by": 2,
+      "updated_by": 2,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-18T03:38:25.596Z",
+      "updated_at": "2026-10-18T04:15:36.729Z"
+    },
+    "kp.periodic.trend": {
+      "id": 20,
+      "parent_id": null,
+      "name": "周期律递变规律",
+      "description": "同周期（从左到右，主族）：金属性减弱、非金属性增强，原子半径一般减小，最高正化合价与族序相关。同主族（从上到下）：金属性增强、非金属性减弱，原子半径增大。比较方法：与水/酸反应难易、最高价氧化物对应水化物酸碱性、气态氢化物稳定性、单质氧化性等（限主族教学口径）。",
+      "difficulty": 2,
+      "importance": 5,
+      "status": "pending_review",
+      "review_note": "[inv:kp.periodic.trend] B2整改:补具体递变方向与比较方法",
+      "created_by": 2,
+      "updated_by": 2,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-18T03:38:28.780Z",
+      "updated_at": "2026-10-18T04:15:36.730Z"
+    },
+    "kp.structure.atom": {
+      "ok": true
+    },
+    "formula.rho_c_M": {
+      "ok": true
+    },
+    "specialtyLinks": [
+      {
+        "entity_id": 18,
+        "code": "periodic"
+      },
+      {
+        "entity_id": 18,
+        "code": "structure"
+      },
+      {
+        "entity_id": 22,
+        "code": "calculation"
+      },
+      {
+        "entity_id": 23,
+        "code": "calculation"
+      }
+    ]
+  },
+  "p0Status": {
+    "kp_structure_atom": {
+      "fixed": true,
+      "snippet": "原子组成：质子数=核电荷数=原子序数；质量数 A = 质子数 Z + 中子数 N（定义用等号，不是近似）；核外电子数=质子数（原子）。注意：质量数是整数，相对原"
+    },
+    "formula_rho_c_M": {
+      "fixed": true,
+      "expression": "c = 1000ρω/M"
+    },
+    "rxn_Na_water": {
+      "fixed": true,
+      "ox": "NaOH",
+      "re": "H2"
+    }
+  }
+}

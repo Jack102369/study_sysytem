@@ -1,0 +1,162 @@
+{
+  "generatedAt": "2026-10-20T03:13:21.277Z",
+  "marker": "[stem_risk:confirmed_block_20261020]",
+  "items": [
+    {
+      "id": "211",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.calc.excess",
+      "stem": "【AI试运行】下列说法正确：不判断过量。判断正误。",
+      "answer": "错误",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.calc.excess [qa:PASS] [verify_class:none] [trial_access:allow]",
+      "accessBefore": "allow",
+      "pool": "test",
+      "status": "approved",
+      "is_active": 1,
+      "checksumGate": "ffd98c98f3b19bb79c9fd118e7192a4dc5b9f435d06e8a2de42dea1bb7932594"
+    },
+    {
+      "id": "215",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.calc.solution",
+      "stem": "【AI试运行】下列说法正确：V用溶剂体积。判断正误。",
+      "answer": "错误",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.calc.solution [qa:PASS] [verify_class:none] [trial_access:allow]",
+      "accessBefore": "allow",
+      "pool": "test",
+      "status": "approved",
+      "is_active": 1,
+      "checksumGate": "cad2da2a3183c6d7fc4d6af475512e9915b201082ba57b29ae036aa8848dca20"
+    },
+    {
+      "id": "220",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Cl.prep",
+      "stem": "【AI试运行】下列说法正确：用稀盐酸。判断正误。",
+      "answer": "错误",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.Cl.prep [qa:PASS] [verify_class:none] [trial_access:allow]",
+      "accessBefore": "allow",
+      "pool": "test",
+      "status": "approved",
+      "is_active": 1,
+      "checksumGate": "86e810d3462bfb0912bb35d0f664dbb4f2deeb885c74edf2393aee6b92a857d0"
+    },
+    {
+      "id": "238",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.fe2_fe3",
+      "stem": "【AI试运行】下列说法正确：氧化剂与还原剂、氧化产物与还原产物对调。判断正误。",
+      "answer": "错误",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.fe2_fe3 [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "accessBefore": "allow",
+      "pool": "test",
+      "status": "approved",
+      "is_active": 1,
+      "checksumGate": "a1c40f055a7f28c9d348a2af6b58111ea8494921ab7776583fc9c6d856c439ae"
+    },
+    {
+      "id": "242",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.fe3_property",
+      "stem": "【AI试运行】下列说法正确：与Fe2+颜色、沉淀颜色混淆。判断正误。",
+      "answer": "错误",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.fe3_property [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "accessBefore": "allow",
+      "pool": "test",
+      "status": "approved",
+      "is_active": 1,
+      "checksumGate": "93aed1a1b8a9402bb1f29b8849dca69cdf49f678033e0ef69d69bc4f8f21498a"
+    },
+    {
+      "id": "246",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.salt",
+      "stem": "【AI试运行】下列说法正确：两类盐性质混记。判断正误。",
+      "answer": "错误",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.Fe.salt [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "accessBefore": "allow",
+      "pool": "test",
+      "status": "approved",
+      "is_active": 1,
+      "checksumGate": "d0989774f4d9cf2468963deb4c4f2fe5f255311ac1fdf4c94e3a414525248eb9"
+    },
+    {
+      "id": "250",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.halogen.compare",
+      "stem": "【AI试运行】下列说法正确：递变顺序记反。判断正误。",
+      "answer": "错误",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.halogen.compare [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "accessBefore": "allow",
+      "pool": "test",
+      "status": "approved",
+      "is_active": 1,
+      "checksumGate": "9450f7d93305e1984645797e6f7c2d44226e358e46c7e11412e8bd8a35d09098"
+    },
+    {
+      "id": "263",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.N.ammonia",
+      "stem": "【AI试运行】下列说法正确：收集方法用错。判断正误。",
+      "answer": "错误",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.N.ammonia [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "accessBefore": "allow",
+      "pool": "test",
+      "status": "approved",
+      "is_active": 1,
+      "checksumGate": "acf4989959c5d91afe612411cc5da3bdcfb625f8364c49dbb0184d9ae19c7b80"
+    },
+    {
+      "id": "265",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.N.ammonium",
+      "stem": "【AI试运行】下列说法正确：不加热就写放氨。判断正误。",
+      "answer": "错误",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.N.ammonium [qa:PASS] [verify_class:none] [trial_access:allow]",
+      "accessBefore": "allow",
+      "pool": "test",
+      "status": "approved",
+      "is_active": 1,
+      "checksumGate": "0aa72678adfe577b2dbdf3061aa1caadb4976a346ae17391d86d756f4300e003"
+    },
+    {
+      "id": "267",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.N.cycle",
+      "stem": "【AI试运行】下列说法正确：NO与NO2颜色、转化条件混淆。判断正误。",
+      "answer": "错误",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.N.cycle [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "accessBefore": "allow",
+      "pool": "test",
+      "status": "approved",
+      "is_active": 1,
+      "checksumGate": "d33716b5e6ccf79266cd4d3c5b04fe90523533c8745121ee013a0ea302fcd2d6"
+    },
+    {
+      "id": "271",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Na.carbonate",
+      "stem": "【AI试运行】下列说法正确：写错分解方程式计量数。判断正误。",
+      "answer": "错误",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.Na.carbonate [qa:PASS] [verify_class:none] [trial_access:allow]",
+      "accessBefore": "allow",
+      "pool": "test",
+      "status": "approved",
+      "is_active": 1,
+      "checksumGate": "47bddd98fed90c9199fbe849fcf97432ee814fbd9ac0645ae339debed9e95924"
+    },
+    {
+      "id": "275",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.nonmetal.test",
+      "stem": "【AI试运行】下列说法正确：检验方法张冠李戴。判断正误。",
+      "answer": "错误",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.nonmetal.test [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "accessBefore": "allow",
+      "pool": "test",
+      "status": "approved",
+      "is_active": 1,
+      "checksumGate": "6e7e4537b98ee5534c8b4267795b0cdf3d789883824b702309ac776bd6b931ee"
+    },
+    {
+      "id": "288",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.redox.e_conserve",
+      "stem": "【AI试运行】下列说法正确：只配平原子个数。判断正误。",
+      "answer": "错误",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.redox.e_conserve [qa:PASS] [verify_class:none] [trial_access:allow]",
+      "accessBefore": "allow",
+      "pool": "test",
+      "status": "approved",
+      "is_active": 1,
+      "checksumGate": "b228fb4c7058c127faa19c0fae112e1ce6c592628e570369df2d9ecb972fbb01"
+    }
+  ]
+}

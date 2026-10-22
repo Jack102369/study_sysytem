@@ -1,0 +1,476 @@
+{
+  "planned": 91,
+  "seeded_audited": 7,
+  "imported": 84,
+  "failed": 0,
+  "missing": [],
+  "byStatus": {
+    "seeded_audited": 7,
+    "imported": 84
+  },
+  "byType": {
+    "substance": 33,
+    "reaction": 33,
+    "experiment": 8,
+    "knowledge": 16,
+    "concept": 1
+  },
+  "allCodesHaveStatus": true,
+  "codes": [
+    {
+      "code": "sub.Na",
+      "status": "seeded_audited",
+      "dbId": null
+    },
+    {
+      "code": "sub.Na2O",
+      "status": "imported",
+      "dbId": "5"
+    },
+    {
+      "code": "sub.Na2O2",
+      "status": "imported",
+      "dbId": "6"
+    },
+    {
+      "code": "sub.NaOH",
+      "status": "seeded_audited",
+      "dbId": null
+    },
+    {
+      "code": "sub.Na2CO3",
+      "status": "imported",
+      "dbId": "7"
+    },
+    {
+      "code": "sub.NaHCO3",
+      "status": "imported",
+      "dbId": "8"
+    },
+    {
+      "code": "sub.NaCl",
+      "status": "imported",
+      "dbId": "9"
+    },
+    {
+      "code": "sub.Mg",
+      "status": "imported",
+      "dbId": "10"
+    },
+    {
+      "code": "sub.MgO",
+      "status": "imported",
+      "dbId": "11"
+    },
+    {
+      "code": "sub.MgOH2",
+      "status": "imported",
+      "dbId": "12"
+    },
+    {
+      "code": "sub.Al",
+      "status": "imported",
+      "dbId": "13"
+    },
+    {
+      "code": "sub.Al2O3",
+      "status": "imported",
+      "dbId": "14"
+    },
+    {
+      "code": "sub.AlOH3",
+      "status": "imported",
+      "dbId": "15"
+    },
+    {
+      "code": "sub.Fe",
+      "status": "imported",
+      "dbId": "16"
+    },
+    {
+      "code": "sub.Fe2O3",
+      "status": "imported",
+      "dbId": "17"
+    },
+    {
+      "code": "sub.Fe3O4",
+      "status": "imported",
+      "dbId": "18"
+    },
+    {
+      "code": "sub.FeOH3",
+      "status": "imported",
+      "dbId": "19"
+    },
+    {
+      "code": "sub.FeCl3",
+      "status": "imported",
+      "dbId": "20"
+    },
+    {
+      "code": "sub.Cu",
+      "status": "imported",
+      "dbId": "21"
+    },
+    {
+      "code": "sub.CuO",
+      "status": "imported",
+      "dbId": "22"
+    },
+    {
+      "code": "sub.CuOH2",
+      "status": "imported",
+      "dbId": "23"
+    },
+    {
+      "code": "sub.CuSO4",
+      "status": "imported",
+      "dbId": "24"
+    },
+    {
+      "code": "sub.Zn",
+      "status": "imported",
+      "dbId": "25"
+    },
+    {
+      "code": "sub.Ag",
+      "status": "imported",
+      "dbId": "26"
+    },
+    {
+      "code": "sub.H2",
+      "status": "seeded_audited",
+      "dbId": null
+    },
+    {
+      "code": "sub.H2O",
+      "status": "seeded_audited",
+      "dbId": null
+    },
+    {
+      "code": "sub.O2",
+      "status": "imported",
+      "dbId": "27"
+    },
+    {
+      "code": "sub.CO2",
+      "status": "imported",
+      "dbId": "28"
+    },
+    {
+      "code": "rxn.2Na_2H2O",
+      "status": "seeded_audited",
+      "dbId": null
+    },
+    {
+      "code": "rxn.4Na_O2",
+      "status": "imported",
+      "dbId": "2"
+    },
+    {
+      "code": "rxn.2Na_O2_heat",
+      "status": "imported",
+      "dbId": "3"
+    },
+    {
+      "code": "rxn.2Na2O2_2H2O",
+      "status": "imported",
+      "dbId": "4"
+    },
+    {
+      "code": "rxn.2Na2O2_2CO2",
+      "status": "imported",
+      "dbId": "5"
+    },
+    {
+      "code": "rxn.Na2O_H2O",
+      "status": "imported",
+      "dbId": "6"
+    },
+    {
+      "code": "rxn.NaOH_CO2",
+      "status": "imported",
+      "dbId": "7"
+    },
+    {
+      "code": "rxn.NaOH_HCl",
+      "status": "imported",
+      "dbId": "8"
+    },
+    {
+      "code": "rxn.NaHCO3_heat",
+      "status": "imported",
+      "dbId": "9"
+    },
+    {
+      "code": "rxn.Na2CO3_2HCl",
+      "status": "imported",
+      "dbId": "10"
+    },
+    {
+      "code": "rxn.2Mg_O2",
+      "status": "imported",
+      "dbId": "11"
+    },
+    {
+      "code": "rxn.Mg_2HCl",
+      "status": "imported",
+      "dbId": "12"
+    },
+    {
+      "code": "rxn.Mg_CO2",
+      "status": "imported",
+      "dbId": "13"
+    },
+    {
+      "code": "rxn.4Al_3O2",
+      "status": "imported",
+      "dbId": "14"
+    },
+    {
+      "code": "rxn.2Al_6HCl",
+      "status": "imported",
+      "dbId": "15"
+    },
+    {
+      "code": "rxn.2Al_2NaOH",
+      "status": "imported",
+      "dbId": "16"
+    },
+    {
+      "code": "rxn.Al2O3_6HCl",
+      "status": "imported",
+      "dbId": "17"
+    },
+    {
+      "code": "rxn.Al2O3_2NaOH",
+      "status": "imported",
+      "dbId": "18"
+    },
+    {
+      "code": "rxn.AlOH3_NaOH",
+      "status": "imported",
+      "dbId": "19"
+    },
+    {
+      "code": "rxn.AlOH3_3HCl",
+      "status": "imported",
+      "dbId": "20"
+    },
+    {
+      "code": "rxn.3Fe_2O2",
+      "status": "imported",
+      "dbId": "21"
+    },
+    {
+      "code": "rxn.Fe_H2SO4",
+      "status": "imported",
+      "dbId": "22"
+    },
+    {
+      "code": "rxn.Fe_CuSO4",
+      "status": "imported",
+      "dbId": "23"
+    },
+    {
+      "code": "rxn.Fe2O3_3CO",
+      "status": "imported",
+      "dbId": "24"
+    },
+    {
+      "code": "rxn.Cu_O2_heat",
+      "status": "imported",
+      "dbId": "25"
+    },
+    {
+      "code": "rxn.CuO_H2",
+      "status": "imported",
+      "dbId": "26"
+    },
+    {
+      "code": "rxn.CuO_2HCl",
+      "status": "imported",
+      "dbId": "27"
+    },
+    {
+      "code": "rxn.Zn_H2SO4",
+      "status": "imported",
+      "dbId": "28"
+    },
+    {
+      "code": "rxn.Zn_CuSO4",
+      "status": "imported",
+      "dbId": "29"
+    },
+    {
+      "code": "exp.Na_H2O",
+      "status": "seeded_audited",
+      "dbId": null
+    },
+    {
+      "code": "exp.Na_O2",
+      "status": "imported",
+      "dbId": "2"
+    },
+    {
+      "code": "exp.Na2O2_H2O",
+      "status": "imported",
+      "dbId": "3"
+    },
+    {
+      "code": "exp.Al_amphoteric",
+      "status": "imported",
+      "dbId": "4"
+    },
+    {
+      "code": "exp.Fe_rust",
+      "status": "imported",
+      "dbId": "5"
+    },
+    {
+      "code": "exp.metal_activity",
+      "status": "imported",
+      "dbId": "6"
+    },
+    {
+      "code": "exp.CuO_H2_reduce",
+      "status": "imported",
+      "dbId": "7"
+    },
+    {
+      "code": "kp.Na.property",
+      "status": "seeded_audited",
+      "dbId": null
+    },
+    {
+      "code": "kp.Na.oxide",
+      "status": "imported",
+      "dbId": "27"
+    },
+    {
+      "code": "kp.Na.carbonate",
+      "status": "imported",
+      "dbId": "28"
+    },
+    {
+      "code": "kp.Al.amphoteric",
+      "status": "imported",
+      "dbId": "29"
+    },
+    {
+      "code": "kp.Fe.property",
+      "status": "imported",
+      "dbId": "30"
+    },
+    {
+      "code": "kp.metal.activity",
+      "status": "imported",
+      "dbId": "31"
+    },
+    {
+      "code": "kp.metal.smelting",
+      "status": "imported",
+      "dbId": "32"
+    },
+    {
+      "code": "sub.FeO",
+      "status": "imported",
+      "dbId": "29"
+    },
+    {
+      "code": "sub.FeOH2",
+      "status": "imported",
+      "dbId": "30"
+    },
+    {
+      "code": "sub.FeSO4",
+      "status": "imported",
+      "dbId": "31"
+    },
+    {
+      "code": "kp.Fe.fe2_property",
+      "status": "imported",
+      "dbId": "33"
+    },
+    {
+      "code": "kp.Fe.fe3_property",
+      "status": "imported",
+      "dbId": "34"
+    },
+    {
+      "code": "kp.Fe.fe2_fe3",
+      "status": "imported",
+      "dbId": "35"
+    },
+    {
+      "code": "kp.Fe.test",
+      "status": "imported",
+      "dbId": "36"
+    },
+    {
+      "code": "kp.Fe.salt",
+      "status": "imported",
+      "dbId": "37"
+    },
+    {
+      "code": "rxn.FeOH2_O2",
+      "status": "imported",
+      "dbId": "30"
+    },
+    {
+      "code": "rxn.2Fe2_Cl2",
+      "status": "imported",
+      "dbId": "31"
+    },
+    {
+      "code": "exp.Fe3_SCN",
+      "status": "imported",
+      "dbId": "8"
+    },
+    {
+      "code": "concept.alloy",
+      "status": "imported",
+      "dbId": "25"
+    },
+    {
+      "code": "kp.metal.pig_iron",
+      "status": "imported",
+      "dbId": "38"
+    },
+    {
+      "code": "kp.metal.steel",
+      "status": "imported",
+      "dbId": "39"
+    },
+    {
+      "code": "kp.metal.stainless",
+      "status": "imported",
+      "dbId": "40"
+    },
+    {
+      "code": "sub.NaAlO2",
+      "status": "imported",
+      "dbId": "32"
+    },
+    {
+      "code": "sub.AlCl3",
+      "status": "imported",
+      "dbId": "33"
+    },
+    {
+      "code": "rxn.Na2CO3_CO2_H2O",
+      "status": "imported",
+      "dbId": "32"
+    },
+    {
+      "code": "rxn.2Na_2HCl",
+      "status": "imported",
+      "dbId": "33"
+    },
+    {
+      "code": "kp.Al.salt_aluminate",
+      "status": "imported",
+      "dbId": "41"
+    }
+  ]
+}

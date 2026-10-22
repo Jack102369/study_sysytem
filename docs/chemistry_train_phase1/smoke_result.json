@@ -1,0 +1,66 @@
+{
+  "at": "2026-10-18T11:43:57.076Z",
+  "allOk": true,
+  "checks": [
+    {
+      "id": "tables",
+      "ok": true,
+      "detail": 5
+    },
+    {
+      "id": "specialties_12",
+      "ok": true,
+      "detail": 12
+    },
+    {
+      "id": "categories_137",
+      "ok": true,
+      "detail": 137
+    },
+    {
+      "id": "inventory_377",
+      "ok": true,
+      "detail": 377
+    },
+    {
+      "id": "test_seeds",
+      "ok": true,
+      "detail": 9
+    },
+    {
+      "id": "formal_approved_count",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "id": "formal_no_orphan_approved",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "id": "grade_blank_exact",
+      "ok": true,
+      "detail": true
+    },
+    {
+      "id": "grade_blank_alias",
+      "ok": true,
+      "detail": true
+    },
+    {
+      "id": "grade_blank_no_fuzzy",
+      "ok": true,
+      "detail": true
+    },
+    {
+      "id": "grade_blank_empty",
+      "ok": true,
+      "detail": true
+    },
+    {
+      "id": "published_questions_spot",
+      "ok": true,
+      "detail": 1
+    }
+  ]
+}

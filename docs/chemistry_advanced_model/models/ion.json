@@ -1,0 +1,315 @@
+[
+  {
+    "id": "ADV.ion.001",
+    "name": "离子方程式正误—拆写与守恒检查",
+    "specialtyCode": "ion",
+    "specialtyName": "离子反应",
+    "categoryCodes": ["ionic_correct", "ionic_write"],
+    "knowledgePoints": ["离子方程式书写规则", "电荷守恒", "原子守恒"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["识别拆写错误", "守恒检查"],
+    "stemStructure": "给出离子方程式→判断正误或指出错误类型",
+    "variableConditions": ["错误类型", "反应"],
+    "reasoningSteps": ["查是否该拆", "查原子守恒", "查电荷守恒"],
+    "breakthrough": "强酸强碱可溶盐拆，沉淀气体弱电解质不拆",
+    "coreMethods": ["三查法"],
+    "commonErrors": ["弱酸拆成离子", "漏电荷"],
+    "grading": { "modes": ["judge", "single"] },
+    "generation": { "primary": "local_rule", "aiAssist": "optional" },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "不做复杂水解平衡" },
+    "variantDirections": {
+      "raise": ["单一错误类型"],
+      "challenge": ["复合错误需指出类型"]
+    },
+    "dedupRules": ["同错误模板同反应=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "开放书写离子方程式→NEEDS_ENGINE；本模型用判断/选择",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "judge",
+        "stem": "盐酸与NaOH反应的离子方程式写成 H⁺+OH⁻=H₂O。判断正误。",
+        "options": null,
+        "answer": "正确",
+        "steps": ["HCl、NaOH、NaCl均可拆", "实质H⁺与OH⁻"],
+        "coreMethod": "拆写规则",
+        "commonMistakes": ["写成分子方程式才对"],
+        "knowledgePoints": ["离子方程式"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "下列离子方程式错误的是",
+        "options": [
+          { "key": "A", "text": "H⁺+OH⁻=H₂O" },
+          { "key": "B", "text": "Ag⁺+Cl⁻=AgCl↓" },
+          { "key": "C", "text": "CaCO₃+2H⁺=Ca²⁺+H₂O+CO₂↑" },
+          { "key": "D", "text": "H₂CO₃+2OH⁻=CO₃²⁻+2H₂O（把H₂CO₃拆成2H⁺+CO₃²⁻后再写）" }
+        ],
+        "answer": "D",
+        "steps": ["H₂CO₃为弱酸不应先拆成离子再写该式的错误表述", "正确应保留H₂CO₃分子"],
+        "coreMethod": "弱电解质不拆",
+        "commonMistakes": ["误选C"],
+        "knowledgePoints": ["离子方程式正误"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.ion.002",
+    "name": "离子共存—酸性/碱性条件",
+    "specialtyCode": "ion",
+    "specialtyName": "离子反应",
+    "categoryCodes": ["coexist"],
+    "knowledgePoints": ["离子共存", "酸碱条件"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["条件约束下判断共存"],
+    "stemStructure": "给出离子组+溶液酸碱性→能否大量共存",
+    "variableConditions": ["酸性/碱性/中性", "离子组合"],
+    "reasoningSteps": ["看条件", "查两两是否反应", "下结论"],
+    "breakthrough": "先应用题给酸碱条件再查反应",
+    "coreMethods": ["条件+反应矩阵"],
+    "commonErrors": ["忽略条件", "漏掉弱酸根与H⁺"],
+    "grading": { "modes": ["single", "judge"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "只用常见离子反应" },
+    "variantDirections": {
+      "raise": ["固定酸性"],
+      "challenge": ["无色透明等附加条件"]
+    },
+    "dedupRules": ["同离子组同条件=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "judge",
+        "stem": "在酸性溶液中，Fe³⁺与OH⁻可以大量共存。判断正误。",
+        "options": null,
+        "answer": "错误",
+        "steps": ["酸性中H⁺大量，OH⁻不能大量存在", "即便不论沉淀，条件已不允许"],
+        "coreMethod": "条件优先",
+        "commonMistakes": ["只想Fe(OH)₃沉淀而忽略酸性定义"],
+        "knowledgePoints": ["离子共存"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "某无色溶液中大量存在H⁺，下列离子组一定不能大量共存的是",
+        "options": [
+          { "key": "A", "text": "Na⁺、Cl⁻、K⁺" },
+          { "key": "B", "text": "Na⁺、NO₃⁻、SO₄²⁻" },
+          { "key": "C", "text": "Na⁺、HCO₃⁻、Cl⁻" },
+          { "key": "D", "text": "K⁺、Cl⁻、Na⁺" }
+        ],
+        "answer": "C",
+        "steps": ["H⁺与HCO₃⁻反应", "不能大量共存"],
+        "coreMethod": "酸性与弱酸根",
+        "commonMistakes": ["忽略HCO₃⁻"],
+        "knowledgePoints": ["离子共存", "弱酸根"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.ion.003",
+    "name": "少量与过量—离子反应产物差异",
+    "specialtyCode": "ion",
+    "specialtyName": "离子反应",
+    "categoryCodes": ["ionic_write", "ionic_correct"],
+    "knowledgePoints": ["少量过量", "产物不同"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["按量书写不同离子式"],
+    "stemStructure": "明确少量/过量→选择正确离子方程式",
+    "variableConditions": ["谁少量", "碱与酸式盐等"],
+    "reasoningSteps": ["确认少量方", "按计量写产物"],
+    "breakthrough": "少量试剂完全反应，按少量计量",
+    "coreMethods": ["定量书写"],
+    "commonErrors": ["少量过量写反"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": "optional" },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "典型如Ca(OH)₂与CO₂" },
+    "variantDirections": {
+      "raise": ["二选一少量过量"],
+      "challenge": ["连续两问"]
+    },
+    "dedupRules": ["同体系同少量方=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "向Ca(OH)₂溶液中通入少量CO₂，正确的离子方程式倾向为",
+        "options": [
+          { "key": "A", "text": "Ca²⁺+2OH⁻+CO₂=CaCO₃↓+H₂O" },
+          { "key": "B", "text": "Ca²⁺+2OH⁻+2CO₂=Ca²⁺+2HCO₃⁻" },
+          { "key": "C", "text": "OH⁻+CO₂=HCO₃⁻" },
+          { "key": "D", "text": "无法反应" }
+        ],
+        "answer": "A",
+        "steps": ["少量CO₂生成碳酸钙沉淀"],
+        "coreMethod": "少量试剂决定产物",
+        "commonMistakes": ["写成过量生成HCO₃⁻"],
+        "knowledgePoints": ["少量过量"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "若改为通入过量CO₂，更合理的是",
+        "options": [
+          { "key": "A", "text": "仍生成CaCO₃↓" },
+          { "key": "B", "text": "最终主要得到Ca²⁺与HCO₃⁻" },
+          { "key": "C", "text": "不反应" },
+          { "key": "D", "text": "只生成H₂O" }
+        ],
+        "answer": "B",
+        "steps": ["过量CO₂使碳酸钙转化为碳酸氢钙"],
+        "coreMethod": "过量改变产物",
+        "commonMistakes": ["仍选沉淀"],
+        "knowledgePoints": ["少量过量"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.ion.004",
+    "name": "反应先后—氧化性/结合力定性比较（必修范围）",
+    "specialtyCode": "ion",
+    "specialtyName": "离子反应",
+    "categoryCodes": ["coexist"],
+    "knowledgePoints": ["反应先后", "常见离子反应"],
+    "difficulties": ["challenge"],
+    "abilities": ["定性排序"],
+    "stemStructure": "多种离子可能反应→判断优先沉淀/反应",
+    "variableConditions": ["离子组合"],
+    "reasoningSteps": ["列出可能反应", "按已知规则排序"],
+    "breakthrough": "用教材常见顺序，不引入复杂平衡常数计算",
+    "coreMethods": ["定性比较"],
+    "commonErrors": ["引入Ksp计算超纲"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "ai_assist", "aiAssist": true },
+    "scienceRisk": { "level": "high", "curriculum": "必修边缘", "notes": "避免Ksp定量" },
+    "variantDirections": { "raise": [], "challenge": ["改离子组"] },
+    "dedupRules": ["同离子组同问法=重复"],
+    "productionStatus": "HOLD",
+    "priorityBatch1": false,
+    "notes": "易滑向选必沉淀溶解平衡，暂缓",
+    "samples": [
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "（样例·须人工定序依据）溶液中同时有Ag⁺、Ba²⁺，滴加稀硫酸时首先明显生成的沉淀更可能是",
+        "options": [
+          { "key": "A", "text": "Ag₂SO₄" },
+          { "key": "B", "text": "BaSO₄" },
+          { "key": "C", "text": "同时等量生成" },
+          { "key": "D", "text": "无沉淀" }
+        ],
+        "answer": "B",
+        "steps": ["BaSO₄为难溶硫酸盐典型沉淀，优先讨论Ba²⁺与SO₄²⁻"],
+        "coreMethod": "常见沉淀优先（定性）",
+        "commonMistakes": ["选Ag₂SO₄"],
+        "knowledgePoints": ["沉淀"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.ion.005",
+    "name": "离子反应与实验现象结合",
+    "specialtyCode": "ion",
+    "specialtyName": "离子反应",
+    "categoryCodes": ["coexist"],
+    "knowledgePoints": ["现象", "离子反应"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["现象↔离子过程"],
+    "stemStructure": "给操作与现象→推断发生的离子反应或反之",
+    "variableConditions": ["试剂", "现象"],
+    "reasoningSteps": ["由现象锁定产物", "写离子实质"],
+    "breakthrough": "沉淀/气体/颜色对应关键离子",
+    "coreMethods": ["现象反推"],
+    "commonErrors": ["张冠李戴试剂"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "low", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["给现象选离子式"],
+      "challenge": ["多步滴加现象链"]
+    },
+    "dedupRules": ["同试剂同现象同设问=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "向AgNO₃溶液滴加稀盐酸，产生白色沉淀。该过程的离子方程式是",
+        "options": [
+          { "key": "A", "text": "Ag⁺+Cl⁻=AgCl↓" },
+          { "key": "B", "text": "Ag⁺+NO₃⁻=AgNO₃↓" },
+          { "key": "C", "text": "H⁺+OH⁻=H₂O" },
+          { "key": "D", "text": "无离子反应" }
+        ],
+        "answer": "A",
+        "steps": ["白色沉淀为AgCl", "实质Ag⁺与Cl⁻"],
+        "coreMethod": "现象对应离子",
+        "commonMistakes": ["选B"],
+        "knowledgePoints": ["离子反应", "沉淀"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "某溶液滴加BaCl₂出现白色沉淀，再加足量稀硝酸沉淀不溶解。原溶液中最可能大量存在",
+        "options": [
+          { "key": "A", "text": "SO₄²⁻" },
+          { "key": "B", "text": "CO₃²⁻" },
+          { "key": "C", "text": "OH⁻" },
+          { "key": "D", "text": "Na⁺" }
+        ],
+        "answer": "A",
+        "steps": ["不溶于稀硝酸的钡盐沉淀指向硫酸钡", "对应SO₄²⁻"],
+        "coreMethod": "沉淀溶解性鉴别",
+        "commonMistakes": ["选CO₃²⁻（可溶）"],
+        "knowledgePoints": ["离子检验"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.ion.006",
+    "name": "电解质与导电—条件分析",
+    "specialtyCode": "ion",
+    "specialtyName": "离子反应",
+    "categoryCodes": ["electrolyte", "nonelectrolyte"],
+    "knowledgePoints": ["电解质", "电离"],
+    "difficulties": ["raise"],
+    "abilities": ["概念辨析+简单情境"],
+    "stemStructure": "给物质状态/溶解情况→判断导电或电解质类别",
+    "variableConditions": ["熔融/溶液", "物质"],
+    "reasoningSteps": ["是否有自由移动离子", "下结论"],
+    "breakthrough": "电解质≠溶液一定导电的混淆要拆开",
+    "coreMethods": ["定义拆分"],
+    "commonErrors": ["金属单质当电解质"],
+    "grading": { "modes": ["judge", "single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "low", "curriculum": "必修", "notes": "" },
+    "variantDirections": { "raise": ["改状态条件"], "challenge": [] },
+    "dedupRules": ["同物质同状态=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "judge",
+        "stem": "固体NaCl不导电，因此NaCl不是电解质。判断正误。",
+        "options": null,
+        "answer": "错误",
+        "steps": ["电解质看能否在水溶液或熔融电离", "固体不导电不否定其电解质身份"],
+        "coreMethod": "定义辨析",
+        "commonMistakes": ["认为不导电就不是电解质"],
+        "knowledgePoints": ["电解质"]
+      }
+    ]
+  }
+]

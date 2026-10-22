@@ -1,0 +1,666 @@
+{
+  "auditedAt": "2026-10-19T08:27:32.006Z",
+  "readOnly": true,
+  "totals": {
+    "total": 94,
+    "formal": 0,
+    "test": 94,
+    "aiTrialPrefix": 85,
+    "oldTestPrefix": 9,
+    "approved": 94,
+    "disabledOrInactive": 0,
+    "byStatus": {
+      "approved": 94
+    },
+    "byActive": {
+      "active": 94,
+      "inactive": 0
+    },
+    "byDifficulty": {
+      "1": 88,
+      "2": 6,
+      "3": 0
+    },
+    "byQtype": {
+      "judge": 58,
+      "single": 19,
+      "blank": 17
+    },
+    "byAnswerType": {
+      "text": 78,
+      "chem_formula": 16
+    },
+    "itemsWithKbLink": 51,
+    "itemsWithoutKbLink": 43
+  },
+  "eligibleTestPool": {
+    "count": 94,
+    "note": "pool=test AND status=approved AND is_active=1（抽题候选，不含 formal）"
+  },
+  "pageShow3Analysis": {
+    "likelyReasons": [
+      "抽题按「专项+分类+难度」过滤；多数二级分类题量为 0～2，少数为 3",
+      "AI试运行测试池若某分类无题，会回退到「同专项任意分类」——此时显示的是该专项合计可抽题数",
+      "正式池 formal approved 仍为 0；若误选正式训练则为 0 而非 3",
+      "specialty_cover_filler 曾为每个缺题专项补 3 道判断题，极易导致「当前可用题目：3道」"
+    ],
+    "specialtiesWithExactly3Eligible": [
+      {
+        "specialty": "experiment",
+        "name": "化学实验",
+        "count": 3,
+        "byDifficulty": {
+          "1": 3,
+          "2": 0,
+          "3": 0
+        }
+      },
+      {
+        "specialty": "substance",
+        "name": "化学物质性质",
+        "count": 3,
+        "byDifficulty": {
+          "1": 3,
+          "2": 0,
+          "3": 0
+        }
+      },
+      {
+        "specialty": "calculation",
+        "name": "化学计算",
+        "count": 3,
+        "byDifficulty": {
+          "1": 2,
+          "2": 1,
+          "3": 0
+        }
+      },
+      {
+        "specialty": "ion",
+        "name": "离子反应",
+        "count": 3,
+        "byDifficulty": {
+          "1": 3,
+          "2": 0,
+          "3": 0
+        }
+      },
+      {
+        "specialty": "periodic",
+        "name": "元素周期表",
+        "count": 3,
+        "byDifficulty": {
+          "1": 3,
+          "2": 0,
+          "3": 0
+        }
+      },
+      {
+        "specialty": "structure",
+        "name": "物质结构",
+        "count": 3,
+        "byDifficulty": {
+          "1": 3,
+          "2": 0,
+          "3": 0
+        }
+      },
+      {
+        "specialty": "organic",
+        "name": "有机化学",
+        "count": 3,
+        "byDifficulty": {
+          "1": 3,
+          "2": 0,
+          "3": 0
+        }
+      },
+      {
+        "specialty": "inference",
+        "name": "化学推断",
+        "count": 3,
+        "byDifficulty": {
+          "1": 3,
+          "2": 0,
+          "3": 0
+        }
+      },
+      {
+        "specialty": "comprehensive",
+        "name": "化学综合训练",
+        "count": 3,
+        "byDifficulty": {
+          "1": 3,
+          "2": 0,
+          "3": 0
+        }
+      }
+    ],
+    "categoriesWithExactly3Eligible": [
+      {
+        "category": "equation.condition",
+        "name": "反应条件",
+        "specialty": "equation",
+        "count": 3
+      },
+      {
+        "category": "periodic.elem_name",
+        "name": "元素名称",
+        "specialty": "periodic",
+        "count": 3
+      },
+      {
+        "category": "structure.atom_compose",
+        "name": "原子组成",
+        "specialty": "structure",
+        "count": 3
+      },
+      {
+        "category": "organic.basic",
+        "name": "有机物基础概念",
+        "specialty": "organic",
+        "count": 3
+      },
+      {
+        "category": "inference.color",
+        "name": "颜色推断",
+        "specialty": "inference",
+        "count": 3
+      },
+      {
+        "category": "comprehensive.basic",
+        "name": "基础综合",
+        "specialty": "comprehensive",
+        "count": 3
+      }
+    ],
+    "equationWriteFromText": {
+      "total": 2,
+      "difficulty1": 2,
+      "codes": [
+        "train.ai_trial.eq.write.01",
+        "train.ai_trial.eq.write.02"
+      ]
+    }
+  },
+  "specialtyDistribution": {
+    "equation": {
+      "name": "化学方程式",
+      "count": 32,
+      "byDifficulty": {
+        "1": 32,
+        "2": 0,
+        "3": 0
+      }
+    },
+    "experiment": {
+      "name": "化学实验",
+      "count": 3,
+      "byDifficulty": {
+        "1": 3,
+        "2": 0,
+        "3": 0
+      }
+    },
+    "substance": {
+      "name": "化学物质性质",
+      "count": 3,
+      "byDifficulty": {
+        "1": 3,
+        "2": 0,
+        "3": 0
+      }
+    },
+    "calculation": {
+      "name": "化学计算",
+      "count": 3,
+      "byDifficulty": {
+        "1": 2,
+        "2": 1,
+        "3": 0
+      }
+    },
+    "ion": {
+      "name": "离子反应",
+      "count": 3,
+      "byDifficulty": {
+        "1": 3,
+        "2": 0,
+        "3": 0
+      }
+    },
+    "redox": {
+      "name": "氧化还原反应",
+      "count": 13,
+      "byDifficulty": {
+        "1": 8,
+        "2": 5,
+        "3": 0
+      }
+    },
+    "periodic": {
+      "name": "元素周期表",
+      "count": 3,
+      "byDifficulty": {
+        "1": 3,
+        "2": 0,
+        "3": 0
+      }
+    },
+    "structure": {
+      "name": "物质结构",
+      "count": 3,
+      "byDifficulty": {
+        "1": 3,
+        "2": 0,
+        "3": 0
+      }
+    },
+    "organic": {
+      "name": "有机化学",
+      "count": 3,
+      "byDifficulty": {
+        "1": 3,
+        "2": 0,
+        "3": 0
+      }
+    },
+    "inference": {
+      "name": "化学推断",
+      "count": 3,
+      "byDifficulty": {
+        "1": 3,
+        "2": 0,
+        "3": 0
+      }
+    },
+    "memory": {
+      "name": "化学基础记忆",
+      "count": 22,
+      "byDifficulty": {
+        "1": 22,
+        "2": 0,
+        "3": 0
+      }
+    },
+    "comprehensive": {
+      "name": "化学综合训练",
+      "count": 3,
+      "byDifficulty": {
+        "1": 3,
+        "2": 0,
+        "3": 0
+      }
+    }
+  },
+  "categoryDistributionSummary": {
+    "totalCategories": 137,
+    "categoriesWithQuestions": 28,
+    "categoriesEmpty": 109,
+    "emptySample": [
+      "experiment.instrument_use",
+      "experiment.basic_ops",
+      "experiment.apparatus_id",
+      "experiment.apparatus_link",
+      "experiment.gas_prep",
+      "experiment.gas_collect",
+      "experiment.substance_test",
+      "experiment.phenomenon_judge",
+      "experiment.phenomenon_desc",
+      "experiment.step_order",
+      "experiment.conclusion",
+      "experiment.error_fix",
+      "experiment.plan_design",
+      "experiment.inquiry",
+      "substance.name",
+      "substance.color",
+      "substance.state",
+      "substance.solubility",
+      "substance.usage",
+      "substance.storage",
+      "substance.identify",
+      "substance.conversion",
+      "calculation.molecular_mass",
+      "calculation.molar_mass",
+      "calculation.amount",
+      "calculation.avogadro",
+      "calculation.dilution",
+      "calculation.equation_calc",
+      "calculation.mass_conserve",
+      "calculation.electron_conserve",
+      "calculation.mixed",
+      "ion.ionization",
+      "ion.ionic_write",
+      "ion.formula_split",
+      "ion.ionic_balance",
+      "ion.ionic_correct",
+      "ion.coexist",
+      "ion.ion_test",
+      "ion.mixed",
+      "redox.valence"
+    ],
+    "topFilled": [
+      {
+        "category": "memory.symbol",
+        "name": "元素符号",
+        "specialty": "memory",
+        "count": 22
+      },
+      {
+        "category": "equation.true_false",
+        "name": "方程式正误判断",
+        "specialty": "equation",
+        "count": 16
+      },
+      {
+        "category": "redox.identify",
+        "name": "氧化还原反应识别",
+        "specialty": "redox",
+        "count": 11
+      },
+      {
+        "category": "equation.balance",
+        "name": "方程式配平",
+        "specialty": "equation",
+        "count": 5
+      },
+      {
+        "category": "equation.condition",
+        "name": "反应条件",
+        "specialty": "equation",
+        "count": 3
+      },
+      {
+        "category": "periodic.elem_name",
+        "name": "元素名称",
+        "specialty": "periodic",
+        "count": 3
+      },
+      {
+        "category": "structure.atom_compose",
+        "name": "原子组成",
+        "specialty": "structure",
+        "count": 3
+      },
+      {
+        "category": "organic.basic",
+        "name": "有机物基础概念",
+        "specialty": "organic",
+        "count": 3
+      },
+      {
+        "category": "inference.color",
+        "name": "颜色推断",
+        "specialty": "inference",
+        "count": 3
+      },
+      {
+        "category": "comprehensive.basic",
+        "name": "基础综合",
+        "specialty": "comprehensive",
+        "count": 3
+      },
+      {
+        "category": "equation.write_from_text",
+        "name": "根据文字写方程式",
+        "specialty": "equation",
+        "count": 2
+      },
+      {
+        "category": "experiment.safety",
+        "name": "实验安全",
+        "specialty": "experiment",
+        "count": 2
+      },
+      {
+        "category": "ion.electrolyte",
+        "name": "电解质判断",
+        "specialty": "ion",
+        "count": 2
+      },
+      {
+        "category": "redox.e_conserve",
+        "name": "电子守恒",
+        "specialty": "redox",
+        "count": 2
+      },
+      {
+        "category": "equation.complete_reactant",
+        "name": "补全反应物",
+        "specialty": "equation",
+        "count": 1
+      },
+      {
+        "category": "equation.complete_product",
+        "name": "补全生成物",
+        "specialty": "equation",
+        "count": 1
+      },
+      {
+        "category": "equation.ionic_write",
+        "name": "离子方程式书写",
+        "specialty": "equation",
+        "count": 1
+      },
+      {
+        "category": "equation.ionic_correct",
+        "name": "离子方程式纠错",
+        "specialty": "equation",
+        "count": 1
+      },
+      {
+        "category": "equation.redox_analysis",
+        "name": "氧化还原分析",
+        "specialty": "equation",
+        "count": 1
+      },
+      {
+        "category": "equation.conversion",
+        "name": "物质转化",
+        "specialty": "equation",
+        "count": 1
+      },
+      {
+        "category": "experiment.instrument_id",
+        "name": "实验仪器识别",
+        "specialty": "experiment",
+        "count": 1
+      },
+      {
+        "category": "substance.formula",
+        "name": "化学式",
+        "specialty": "substance",
+        "count": 1
+      },
+      {
+        "category": "substance.chem_property",
+        "name": "化学性质",
+        "specialty": "substance",
+        "count": 1
+      },
+      {
+        "category": "substance.test",
+        "name": "物质检验",
+        "specialty": "substance",
+        "count": 1
+      },
+      {
+        "category": "calculation.atomic_mass",
+        "name": "相对原子质量",
+        "specialty": "calculation",
+        "count": 1
+      }
+    ]
+  },
+  "whitelist239Utilization": {
+    "whitelistTotal": 239,
+    "usedInAnyTrainItem": 32,
+    "unused": 207,
+    "unusedSample": [
+      "el.S",
+      "el.K",
+      "el.Ca",
+      "el.Fe",
+      "el.Cu",
+      "el.Zn",
+      "el.Ag",
+      "el.Ba",
+      "el.I",
+      "el.Mn",
+      "el.Cr",
+      "el.Br",
+      "concept.substance_class",
+      "concept.pure_mixture",
+      "concept.elemental_compound",
+      "concept.ionic_reaction",
+      "concept.ion_coexist",
+      "concept.oxidant_reductant",
+      "concept.periodic_law",
+      "concept.metal_trend",
+      "concept.nonmetal_trend",
+      "concept.ionic_bond",
+      "concept.covalent_bond",
+      "concept.reaction_extent",
+      "concept.solution_colloid",
+      "formula.N_n_NA",
+      "formula.dilution",
+      "formula.M_m_n",
+      "formula.rho_c_M",
+      "formula.electron_transfer",
+      "kp.redox.ox_product",
+      "kp.redox.e_transfer",
+      "kp.ion.electrolyte",
+      "kp.ion.ionization_eq",
+      "kp.ion.ionic_eq",
+      "kp.structure.atom",
+      "kp.structure.isotope",
+      "kp.structure.electron_formula",
+      "kp.periodic.position",
+      "kp.periodic.trend",
+      "kp.calc.amount",
+      "kp.calc.dilution",
+      "kp.memory.valence_table",
+      "kp.memory.ion_table",
+      "kp.memory.color_table",
+      "sub.Al",
+      "sub.Fe",
+      "sub.Fe2O3",
+      "sub.Fe3O4",
+      "sub.FeOH3"
+    ],
+    "avgQuestionsPerUsedKb": 1.59,
+    "questionsPerCodeTop": [
+      {
+        "code": "el.He",
+        "questions": 2,
+        "type": "element"
+      },
+      {
+        "code": "el.Li",
+        "questions": 2,
+        "type": "element"
+      },
+      {
+        "code": "el.Be",
+        "questions": 2,
+        "type": "element"
+      },
+      {
+        "code": "el.B",
+        "questions": 2,
+        "type": "element"
+      },
+      {
+        "code": "el.C",
+        "questions": 2,
+        "type": "element"
+      },
+      {
+        "code": "el.N",
+        "questions": 2,
+        "type": "element"
+      },
+      {
+        "code": "el.F",
+        "questions": 2,
+        "type": "element"
+      },
+      {
+        "code": "el.Ne",
+        "questions": 2,
+        "type": "element"
+      },
+      {
+        "code": "rxn.4Na_O2",
+        "questions": 2,
+        "type": "reaction"
+      },
+      {
+        "code": "rxn.2Na_O2_heat",
+        "questions": 2,
+        "type": "reaction"
+      },
+      {
+        "code": "rxn.Na2O_H2O",
+        "questions": 2,
+        "type": "reaction"
+      },
+      {
+        "code": "rxn.NaOH_HCl",
+        "questions": 2,
+        "type": "reaction"
+      },
+      {
+        "code": "rxn.NaHCO3_heat",
+        "questions": 2,
+        "type": "reaction"
+      },
+      {
+        "code": "rxn.Na2CO3_2HCl",
+        "questions": 2,
+        "type": "reaction"
+      },
+      {
+        "code": "rxn.2Mg_O2",
+        "questions": 2,
+        "type": "reaction"
+      },
+      {
+        "code": "rxn.Mg_2HCl",
+        "questions": 2,
+        "type": "reaction"
+      },
+      {
+        "code": "rxn.4Al_3O2",
+        "questions": 2,
+        "type": "reaction"
+      },
+      {
+        "code": "rxn.Al2O3_6HCl",
+        "questions": 2,
+        "type": "reaction"
+      },
+      {
+        "code": "rxn.AlOH3_3HCl",
+        "questions": 2,
+        "type": "reaction"
+      },
+      {
+        "code": "el.Mg",
+        "questions": 1,
+        "type": "element"
+      }
+    ],
+    "note": "利用率按 chem_train_item_links 关联编码统计；大量 filler/expand 题无 KB link"
+  },
+  "templateBuckets": {
+    "phase1_seed": 9,
+    "element_symbol": 20,
+    "concept_judge": 6,
+    "reaction_judge_or_redox": 22,
+    "experiment": 1,
+    "calc_formula": 2,
+    "equation_expand": 16,
+    "specialty_cover_filler": 18
+  }
+}

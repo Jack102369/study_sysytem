@@ -1,0 +1,55 @@
+{
+  "verifiedAt": "2026-10-18T12:47:13.430Z",
+  "backupLatest": "snapshot_2026-10-18T12-45-52-139Z",
+  "whitelistCount": 239,
+  "whitelistTrialPublished": 239,
+  "whitelistMiss": [],
+  "trialPublishedTagged": 239,
+  "studentVisiblePublished": 19,
+  "verifyNeededCount": 23,
+  "verifyNeededLeakedToTrial": [],
+  "originalPublishedSnapshot": 19,
+  "original19BodyIntact": 19,
+  "original19Issues": [],
+  "trialQuestions": 51,
+  "byQtype": {
+    "single": 14,
+    "judge": 25,
+    "blank": 12
+  },
+  "specialtiesCovered": [
+    "memory",
+    "ion",
+    "redox",
+    "equation",
+    "experiment",
+    "calculation",
+    "substance"
+  ],
+  "categoriesCovered": [
+    "memory.symbol",
+    "ion.electrolyte",
+    "ion.nonelectrolyte",
+    "redox.e_conserve",
+    "equation.true_false",
+    "redox.identify",
+    "experiment.safety",
+    "calculation.concentration",
+    "calculation.molar_volume",
+    "substance.chem_property",
+    "substance.test"
+  ],
+  "oldTestSeeds": 9,
+  "formalApproved": 0,
+  "studentSeesTrialItems": false,
+  "blankAnswerAppearsInStem": 0,
+  "checks": {
+    "backupReadable": true,
+    "publish239": true,
+    "verifyUntouched": true,
+    "orig19Ok": true,
+    "studentIsolationKb": true,
+    "studentIsolationTrain": true,
+    "adminFlowReady": true
+  }
+}

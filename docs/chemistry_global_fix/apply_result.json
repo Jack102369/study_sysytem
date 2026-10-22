@@ -1,0 +1,588 @@
+{
+  "appliedAt": "2026-10-18T11:27:38.911Z",
+  "dryRunDiff": {
+    "excluded": [
+      {
+        "code": "rxn.C2H4_KMnO4",
+        "kind": "add_redox_specialty",
+        "reason": "用户明确不批准本轮新增"
+      }
+    ],
+    "dryRunProposedCodes": 37,
+    "appliedCodes": 36
+  },
+  "stats": {
+    "modifiedKnowledgeCodes": 36,
+    "removeRedox": 10,
+    "otherLinkFixes": 3,
+    "invTags": 5,
+    "questionLimits": 17,
+    "expLimit": 1,
+    "dbWriteOps": 33
+  },
+  "results": [
+    {
+      "code": "rxn.Na2O_H2O",
+      "kind": "remove_redox_specialty",
+      "ok": true
+    },
+    {
+      "code": "rxn.NaOH_CO2",
+      "kind": "remove_redox_specialty",
+      "ok": true
+    },
+    {
+      "code": "rxn.NaOH_HCl",
+      "kind": "remove_redox_specialty",
+      "ok": true
+    },
+    {
+      "code": "rxn.NaHCO3_heat",
+      "kind": "remove_redox_specialty",
+      "ok": true
+    },
+    {
+      "code": "rxn.Na2CO3_2HCl",
+      "kind": "remove_redox_specialty",
+      "ok": true
+    },
+    {
+      "code": "rxn.Al2O3_6HCl",
+      "kind": "remove_redox_specialty",
+      "ok": true
+    },
+    {
+      "code": "rxn.Al2O3_2NaOH",
+      "kind": "remove_redox_specialty",
+      "ok": true
+    },
+    {
+      "code": "rxn.AlOH3_NaOH",
+      "kind": "remove_redox_specialty",
+      "ok": true
+    },
+    {
+      "code": "rxn.AlOH3_3HCl",
+      "kind": "remove_redox_specialty",
+      "ok": true
+    },
+    {
+      "code": "rxn.CuO_2HCl",
+      "kind": "remove_redox_specialty",
+      "ok": true
+    },
+    {
+      "code": "kp.periodic.position",
+      "kind": "inventory_specialty_align_to_db",
+      "ok": true,
+      "dbSkipped": true
+    },
+    {
+      "code": "kp.calc.concentration",
+      "kind": "inventory_specialty_align_to_db",
+      "ok": true,
+      "dbSkipped": true
+    },
+    {
+      "code": "kp.calc.dilution",
+      "kind": "inventory_specialty_align_to_db",
+      "ok": true,
+      "dbSkipped": true
+    },
+    {
+      "code": "el.Be",
+      "kind": "append_inv_tag",
+      "ok": true
+    },
+    {
+      "code": "el.Ar",
+      "kind": "append_inv_tag",
+      "ok": true
+    },
+    {
+      "code": "el.Fe",
+      "kind": "append_inv_tag",
+      "ok": true
+    },
+    {
+      "code": "el.I",
+      "kind": "append_inv_tag",
+      "ok": true
+    },
+    {
+      "code": "el.Cr",
+      "kind": "append_inv_tag",
+      "ok": true
+    },
+    {
+      "code": "q.calc.amount_basic",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.calc.concentration",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.calc.equation",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.calc.excess",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.exp.instrument",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.exp.gas_collect",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.exp.safety",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.eq.balance",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.organic.methane",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.organic.ethene",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.organic.ethanol",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.organic.ester",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.organic.isomer",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.inference.block",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.inference.phenomenon",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.substance.NaOH",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "q.comprehensive.mock",
+      "kind": "append_train_limit_note",
+      "ok": true
+    },
+    {
+      "code": "exp.Fe3_SCN",
+      "kind": "append_verify_train_limit",
+      "ok": true
+    }
+  ],
+  "invChanges": [
+    {
+      "code": "rxn.Na2O_H2O",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance",
+          "redox.identify"
+        ]
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance"
+        ]
+      }
+    },
+    {
+      "code": "rxn.NaOH_CO2",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance",
+          "redox.identify"
+        ]
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance"
+        ]
+      }
+    },
+    {
+      "code": "rxn.NaOH_HCl",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance",
+          "redox.identify"
+        ]
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance"
+        ]
+      }
+    },
+    {
+      "code": "rxn.NaHCO3_heat",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance",
+          "redox.identify"
+        ]
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance"
+        ]
+      }
+    },
+    {
+      "code": "rxn.Na2CO3_2HCl",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance",
+          "redox.identify"
+        ]
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance"
+        ]
+      }
+    },
+    {
+      "code": "rxn.Al2O3_6HCl",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance",
+          "redox.identify"
+        ]
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance"
+        ]
+      }
+    },
+    {
+      "code": "rxn.Al2O3_2NaOH",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance",
+          "redox.identify"
+        ]
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance"
+        ]
+      }
+    },
+    {
+      "code": "rxn.AlOH3_NaOH",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance",
+          "redox.identify"
+        ]
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance"
+        ]
+      }
+    },
+    {
+      "code": "rxn.AlOH3_3HCl",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance",
+          "redox.identify"
+        ]
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance"
+        ]
+      }
+    },
+    {
+      "code": "rxn.CuO_2HCl",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance",
+          "redox.identify"
+        ]
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "equation.balance"
+        ]
+      }
+    },
+    {
+      "code": "kp.periodic.position",
+      "before": {
+        "specialtyCodes": [
+          "ion"
+        ]
+      },
+      "after": {
+        "specialtyCodes": [
+          "periodic",
+          "structure"
+        ]
+      }
+    },
+    {
+      "code": "kp.calc.concentration",
+      "before": {
+        "specialtyCodes": [
+          "ion"
+        ]
+      },
+      "after": {
+        "specialtyCodes": [
+          "calculation"
+        ]
+      }
+    },
+    {
+      "code": "kp.calc.dilution",
+      "before": {
+        "specialtyCodes": [
+          "ion"
+        ]
+      },
+      "after": {
+        "specialtyCodes": [
+          "calculation"
+        ]
+      }
+    }
+  ],
+  "packChanges": [
+    {
+      "file": "docs\\chemistry_batch3\\import_B3-B.json",
+      "details": [
+        "rxn.Na2O_H2O",
+        "rxn.NaOH_CO2",
+        "rxn.NaOH_HCl",
+        "rxn.NaHCO3_heat",
+        "rxn.Na2CO3_2HCl",
+        "rxn.Al2O3_6HCl",
+        "rxn.Al2O3_2NaOH",
+        "rxn.AlOH3_NaOH",
+        "rxn.AlOH3_3HCl",
+        "rxn.CuO_2HCl"
+      ]
+    },
+    {
+      "file": "docs\\chemistry_batch2\\import_B2-D.json",
+      "details": [
+        "kp.periodic.position",
+        "kp.calc.concentration",
+        "kp.calc.dilution"
+      ]
+    },
+    {
+      "file": "docs\\chemistry_batch2\\import_B2-A.json",
+      "details": [
+        "el.Be",
+        "el.Ar",
+        "el.Fe",
+        "el.I",
+        "el.Cr"
+      ]
+    },
+    {
+      "file": "docs\\chemistry_batch5\\import_B5-D.json",
+      "details": [
+        "q.calc.amount_basic",
+        "q.calc.concentration",
+        "q.calc.equation",
+        "q.calc.excess",
+        "q.exp.instrument",
+        "q.exp.gas_collect",
+        "q.exp.safety",
+        "q.eq.balance"
+      ]
+    },
+    {
+      "file": "docs\\chemistry_batch6\\import_B6-F.json",
+      "details": [
+        "q.organic.methane",
+        "q.organic.ethene",
+        "q.organic.ethanol",
+        "q.organic.ester",
+        "q.organic.isomer",
+        "q.inference.block",
+        "q.inference.phenomenon",
+        "q.substance.NaOH",
+        "q.comprehensive.mock"
+      ]
+    },
+    {
+      "file": "docs\\chemistry_batch3\\import_B3-C.json",
+      "details": [
+        "exp.Fe3_SCN"
+      ]
+    }
+  ],
+  "post": {
+    "verifiedAt": "2026-10-18T11:27:38.886Z",
+    "checks": {
+      "redoxRemoved": 10,
+      "c2h4NoRedox": true,
+      "invTags": 5,
+      "questionLimits": 17,
+      "fe3Limit": true,
+      "verifyNeeded": 23,
+      "inventoryTotal": 377,
+      "published": 19,
+      "inventoryIonFixed": 3
+    }
+  },
+  "rollback": {
+    "backup": "docs/chemistry_global_fix/backup_before_global_fix.json",
+    "inventoryBackup": "docs/chemistry_global_fix/backup_inventory_before.json",
+    "importPackBackup": "docs/chemistry_global_fix/backup_import_packs/",
+    "method": "用 backup specialtyLinks/categoryLinks 恢复 DELETE 的关联；用 backup.entities[].review_note 恢复 UPDATE；用 backup_inventory_before.json 与 backup_import_packs 覆盖还原文件。"
+  }
+}

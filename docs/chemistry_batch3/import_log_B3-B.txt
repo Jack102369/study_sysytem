@@ -1,0 +1,12 @@
+
+> api@0.0.1 chem:import D:\adu\wj\拉总\学习系统代码\study_sysytem\apps\api
+> ts-node --transpile-only src/chemistry/kb/scripts/import-kb-file.ts "--" "../../docs/chemistry_batch3/import_B3-B.json"
+
+{"mode":"in-process","file":"D:\\adu\\wj\\拉总\\学习系统代码\\study_sysytem\\docs\\chemistry_batch3\\import_B3-B.json","itemCount":32,"actorAdminId":"2","note":"只读使用 ADMIN id 作审计，未读取/修改密码"}
+{
+  "successCount": 32,
+  "failCount": 0,
+  "linkOk": 32,
+  "linkFail": 0,
+  "resultFile": "D:\\adu\\wj\\拉总\\学习系统代码\\study_sysytem\\docs\\chemistry_batch3\\import_B3-B.import-result.json"
+}

@@ -1,0 +1,508 @@
+{
+  "items": [
+    {
+      "type": "concept",
+      "data": {
+        "name": "物质的分类",
+        "definition": "按组成与性质，常把物质分为纯净物与混合物；纯净物再分为单质与化合物；化合物中常见氧化物、酸、碱、盐等。",
+        "principle": "分类是为了认识物质组成与转化规律，同一物质可按不同标准归类。",
+        "applicableConditions": "高中必修范围内的常见物质分类讨论。",
+        "judgeMethods": "先看是否纯净；再看是否由同种元素组成；化合物再看是否含氧、是否电离出H+/OH-等。",
+        "examples": "O2是单质；H2O是化合物；空气是混合物；NaOH是碱；HCl是酸；NaCl是盐。",
+        "commonMistakes": "把合金当成纯净物；把氧化物都当成酸性或碱性而不加区分。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.substance_class]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "纯净物与混合物",
+        "definition": "纯净物由一种物质组成；混合物由两种或多种物质混合而成，各成分保持原有性质。",
+        "principle": "纯净物有固定组成（化合物有确定化学式）；混合物组成可变。",
+        "applicableConditions": "宏观组成判断；不考虑同位素等微观细微差异时的中学定义。",
+        "judgeMethods": "看能否用一种化学式表示；看各部分性质是否一致。",
+        "examples": "蒸馏水可视为纯净物；海水、空气、合金是混合物。",
+        "commonMistakes": "认为纯净物一定是单质；认为混合物一定能用物理方法轻易分开。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.pure_mixture]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "单质与化合物",
+        "definition": "单质是由同种元素组成的纯净物；化合物是由不同种元素组成的纯净物。",
+        "principle": "元素是具有相同核电荷数（质子数）的一类原子的总称；单质是元素的游离态形式之一。",
+        "applicableConditions": "讨论物质组成时。",
+        "judgeMethods": "先确认是纯净物，再看化学式中元素种类：一种元素→单质；多种元素→化合物。注意O₂与O₃的混合物不是单质。",
+        "examples": "O2、金刚石是单质；CO2、NaCl是化合物。",
+        "commonMistakes": "漏掉“纯净物”条件；把O₂与O混淆；把CO当成单质。注意：Co是钴，CO是一氧化碳。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.elemental_compound] B2整改:定义补“纯净物”"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "电解质",
+        "definition": "在水溶液中或熔融状态下能够导电的化合物叫做电解质。",
+        "principle": "导电是因为存在自由移动的离子；电解质导电不等于单质金属导电。",
+        "applicableConditions": "讨论酸碱盐等化合物的电离与导电性。",
+        "judgeMethods": "看是否为化合物，以及水溶液或熔融时能否电离出自由移动离子。",
+        "examples": "NaCl、H2SO4、NaOH是电解质；蔗糖、酒精通常是非电解质。",
+        "commonMistakes": "把能导电的都叫电解质（金属单质能导电但不是电解质）；把电解质溶液导电当成电解质本身一定是离子晶体。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.electrolyte]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "非电解质",
+        "definition": "在水溶液中和熔融状态下都不能导电的化合物叫做非电解质。",
+        "principle": "非电解质分子不电离（或几乎不电离）出自由移动离子。",
+        "applicableConditions": "化合物导电性分类。",
+        "judgeMethods": "化合物且水溶液、熔融都不导电。",
+        "examples": "蔗糖、酒精、尿素等。",
+        "commonMistakes": "把单质金属、石墨当成非电解质；把CO2、SO2等本身不电离但与水反应生成电解质的物质简单归类时要说明“本身是非电解质”。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.nonelectrolyte]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "电离",
+        "definition": "电解质在水溶液中或熔融状态下离解成自由移动离子的过程叫做电离。",
+        "principle": "电离不需要通电；电解才是通电发生化学反应。",
+        "applicableConditions": "强电解质可认为完全电离；弱电解质部分电离（高中初步）。",
+        "judgeMethods": "写电离方程式，注意守恒与拆分规则。",
+        "examples": "NaCl=Na++Cl-；H2SO4=2H++SO42-。",
+        "commonMistakes": "把电离写成需要通电；强酸弱酸盐等拆分错误。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.ionization]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "离子反应本质",
+        "definition": "有离子参加的反应叫做离子反应；实质常是某些离子浓度减小（生成沉淀、气体或水等）。",
+        "principle": "用离子方程式表示实际参加反应的离子。",
+        "applicableConditions": "电解质在溶液中的反应。",
+        "judgeMethods": "写出完整式→拆成离子→删去未变离子→检查原子与电荷守恒。",
+        "examples": "AgNO3与NaCl：Ag++Cl-=AgCl↓。",
+        "commonMistakes": "弱电解质、沉淀、气体、单质不拆；电荷不守恒。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.ionic_reaction]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "离子共存条件",
+        "definition": "同一溶液中多种离子能否大量共同存在，取决于它们之间是否会发生反应而使某些离子大量减少。",
+        "principle": "若能生成沉淀、气体、水或发生氧化还原等，则通常不能大量共存。",
+        "applicableConditions": "无色透明溶液等题设条件下的判断题。",
+        "judgeMethods": "两两检查是否反应；注意酸碱性、氧化还原。",
+        "examples": "H+与OH-不能大量共存；Ba2+与SO42-不能大量共存。",
+        "commonMistakes": "忽略弱酸酸式酸根与H+/OH-；忽略氧化还原共存。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.ion_coexist]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "氧化剂与还原剂",
+        "definition": "氧化剂是得到电子（化合价降低）的物质；还原剂是失去电子（化合价升高）的物质。",
+        "principle": "氧化与还原同时发生；电子得失守恒。",
+        "applicableConditions": "有化合价变化的反应。",
+        "judgeMethods": "标化合价→看升降→升的是还原剂，降的是氧化剂。",
+        "examples": "2Na+Cl2=2NaCl中，Cl2是氧化剂，Na是还原剂。",
+        "commonMistakes": "把“有氧参加”才叫氧化；混淆氧化剂与氧化产物。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.oxidant_reductant]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "化合价规则",
+        "definition": "化合价表示元素原子形成化合物时的化合能力；常见规则可帮助书写化学式。",
+        "principle": "化合物中正负化合价代数和为零。",
+        "applicableConditions": "书写化学式、判断氧化还原时。",
+        "judgeMethods": "记常见价：O通常-2，H通常+1，碱金属+1等。",
+        "examples": "H2O中H为+1、O为-2；Al2O3中Al为+3。",
+        "commonMistakes": "过氧化物中O为-1；单质中化合价为0。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.valence_rules]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "元素周期律",
+        "definition": "元素的性质随着原子序数的递增而呈周期性变化的规律叫做元素周期律。",
+        "principle": "周期性根源是核外电子排布的周期性。",
+        "applicableConditions": "同周期、同主族递变比较。",
+        "judgeMethods": "同周期从左到右金属性减弱、非金属性增强；同主族从上到下金属性增强等。",
+        "examples": "第三周期Na到Cl的性质递变。",
+        "commonMistakes": "把相对原子质量当成周期律的自变量（近代以原子序数为准）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.periodic_law]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "金属性递变",
+        "definition": "同周期从左到右金属性减弱；同主族从上到下金属性增强（主族规律）。",
+        "principle": "与原子半径、失电子能力相关。",
+        "applicableConditions": "主族元素比较；过渡元素更复杂。",
+        "judgeMethods": "比与水/酸反应难易，比最高价氧化物对应水化物碱性强弱等。",
+        "examples": "金属性K>Na>Li；Na>Mg>Al。",
+        "commonMistakes": "用密度、硬度直接代替金属性强弱。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.metal_trend]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "非金属性递变",
+        "definition": "同周期从左到右非金属性增强；同主族从上到下非金属性减弱（主族规律）。",
+        "principle": "与得电子能力相关。",
+        "applicableConditions": "卤族、氧族等比较。",
+        "judgeMethods": "比单质氧化性、氢化物稳定性、最高价含氧酸酸性等。",
+        "examples": "非金属性F>Cl>Br>I。",
+        "commonMistakes": "把单质颜色、状态直接等同于非金属性强弱。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.nonmetal_trend]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "离子键",
+        "definition": "阴、阳离子之间通过静电作用所形成的化学键叫做离子键。",
+        "principle": "活泼金属与活泼非金属易形成离子键。",
+        "applicableConditions": "判断离子化合物时。",
+        "judgeMethods": "看是否由阴、阳离子构成；典型如NaCl。",
+        "examples": "NaCl、MgO、CaF2。",
+        "commonMistakes": "认为含金属就一定是离子化合物（如AlCl3有共价成分，高中以课本结论为准）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.ionic_bond]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "共价键",
+        "definition": "原子间通过共用电子对所形成的化学键叫做共价键。",
+        "principle": "非金属原子间常形成共价键。",
+        "applicableConditions": "单质分子与共价化合物。",
+        "judgeMethods": "看是否共用电子对；如H2、Cl2、H2O、CO2。",
+        "examples": "H—H，H—O，C=O。",
+        "commonMistakes": "把离子化合物中的化学式当作分子式乱画电子式。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.covalent_bond]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "化学反应速率",
+        "definition": "化学反应速率表示反应进行的快慢。",
+        "principle": "受浓度、温度、压强（气体）、催化剂、接触面积等影响。",
+        "applicableConditions": "定性了解影响因素（必修层面）。",
+        "judgeMethods": "升温一般加快；催化剂改变化学反应速率。",
+        "examples": "块状锌与粉末锌和酸反应快慢不同。",
+        "commonMistakes": "把催化剂当成改变反应限度的因素。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.reaction_rate]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "化学反应限度",
+        "definition": "可逆反应进行的程度（限度）与反应速率是不同概念；限度讨论反应能进行到什么程度。",
+        "principle": "催化剂一般不改变化学平衡时的限度（高中初步）。",
+        "applicableConditions": "可逆反应初步认识。",
+        "judgeMethods": "区分“快慢”与“进行程度”。",
+        "examples": "合成氨反应可逆，存在限度。",
+        "commonMistakes": "把速率与转化率混为一谈。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.reaction_extent]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "质量守恒定律",
+        "definition": "参加化学反应的各物质的质量总和等于反应后生成的各物质的质量总和。",
+        "principle": "反应前后原子种类与数目不变。",
+        "applicableConditions": "一切化学反应（忽略相对论质量等）。",
+        "judgeMethods": "配平方程式后检查原子个数。",
+        "examples": "2H2+O2=2H2O。",
+        "commonMistakes": "把“体积守恒”当成质量守恒。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.mass_conserve]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "电荷守恒",
+        "definition": "电荷守恒：在化学反应或电解质溶液中，正负电荷的代数和守恒（代数和为零或不改变）。",
+        "principle": "离子方程式配平必须检查电荷代数和相等，不能只数“离子个数”。",
+        "applicableConditions": "离子方程式、氧化还原配平。",
+        "judgeMethods": "检查离子方程式左右电荷代数和。",
+        "examples": "2H++CO32-=CO2↑+H2O。",
+        "commonMistakes": "只顾原子守恒不顾电荷守恒。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.charge_conserve] B2整改:改为电荷代数和表述"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "电子守恒",
+        "definition": "氧化还原反应中，还原剂失电子总数等于氧化剂得电子总数。",
+        "principle": "电子转移守恒是配平依据之一。",
+        "applicableConditions": "氧化还原反应。",
+        "judgeMethods": "计算化合价升降总数使之相等。",
+        "examples": "MnO2与浓盐酸制Cl2时电子守恒。",
+        "commonMistakes": "只配平原子不配平电子得失。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.electron_conserve]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "溶液与胶体",
+        "definition": "分散系按分散质粒子大小大致分为溶液、胶体、浊液；胶体粒子直径约在1–100 nm。",
+        "principle": "胶体有丁达尔效应等特性（高中了解）。",
+        "applicableConditions": "分散系分类。",
+        "judgeMethods": "粒子大小；丁达尔效应鉴别溶液与胶体。",
+        "examples": "NaCl溶液；Fe(OH)3胶体；泥水是浊液。",
+        "commonMistakes": "用能否透过滤纸区分胶体与溶液（两者一般都能透过）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.solution_colloid]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "酸碱盐概念",
+        "definition": "酸电离时生成的阳离子全部是H+；碱电离时生成的阴离子全部是OH-；盐由金属阳离子（或铵根）与酸根离子构成。",
+        "principle": "用电离观点定义更准确。",
+        "applicableConditions": "酸碱盐判断与命名。",
+        "judgeMethods": "看电离产物；注意酸式盐、碱式盐。",
+        "examples": "H2SO4是酸；NaOH是碱；Na2CO3是盐；NaHCO3是酸式盐。",
+        "commonMistakes": "认为含氧就一定是酸；把Na2O当成盐。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.acid_base_salt]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "氧化物分类",
+        "definition": "氧化物是由两种元素组成且其中一种是氧元素的化合物；可分为酸性、碱性、两性、不成盐氧化物等（高中常用分类）。",
+        "principle": "看氧化物对应水化物的酸碱性及与酸碱反应情况。",
+        "applicableConditions": "常见氧化物归类。",
+        "judgeMethods": "CO2是酸性氧化物；Na2O是碱性氧化物；Al2O3是两性氧化物；CO是不成盐氧化物。",
+        "examples": "见上。",
+        "commonMistakes": "把H2O、Na2O2简单当成普通氧化物而不加说明（过氧化物氧气价为-1）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.oxide_class]"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch2",
+    "pack": "B2-B",
+    "inventoryCodes": [
+      "concept.substance_class",
+      "concept.pure_mixture",
+      "concept.elemental_compound",
+      "concept.electrolyte",
+      "concept.nonelectrolyte",
+      "concept.ionization",
+      "concept.ionic_reaction",
+      "concept.ion_coexist",
+      "concept.oxidant_reductant",
+      "concept.valence_rules",
+      "concept.periodic_law",
+      "concept.metal_trend",
+      "concept.nonmetal_trend",
+      "concept.ionic_bond",
+      "concept.covalent_bond",
+      "concept.reaction_rate",
+      "concept.reaction_extent",
+      "concept.mass_conserve",
+      "concept.charge_conserve",
+      "concept.electron_conserve",
+      "concept.solution_colloid",
+      "concept.acid_base_salt",
+      "concept.oxide_class"
+    ],
+    "specialtyByCode": {
+      "concept.substance_class": [
+        "substance",
+        "memory"
+      ],
+      "concept.pure_mixture": [
+        "substance",
+        "memory"
+      ],
+      "concept.elemental_compound": [
+        "substance",
+        "memory"
+      ],
+      "concept.electrolyte": [
+        "ion",
+        "memory"
+      ],
+      "concept.nonelectrolyte": [
+        "ion",
+        "memory"
+      ],
+      "concept.ionization": [
+        "ion"
+      ],
+      "concept.ionic_reaction": [
+        "ion",
+        "equation"
+      ],
+      "concept.ion_coexist": [
+        "ion"
+      ],
+      "concept.oxidant_reductant": [
+        "redox"
+      ],
+      "concept.valence_rules": [
+        "redox",
+        "memory"
+      ],
+      "concept.periodic_law": [
+        "periodic"
+      ],
+      "concept.metal_trend": [
+        "periodic"
+      ],
+      "concept.nonmetal_trend": [
+        "periodic"
+      ],
+      "concept.ionic_bond": [
+        "structure"
+      ],
+      "concept.covalent_bond": [
+        "structure"
+      ],
+      "concept.reaction_rate": [
+        "calculation"
+      ],
+      "concept.reaction_extent": [
+        "calculation"
+      ],
+      "concept.mass_conserve": [
+        "equation",
+        "calculation"
+      ],
+      "concept.charge_conserve": [
+        "ion"
+      ],
+      "concept.electron_conserve": [
+        "redox"
+      ],
+      "concept.solution_colloid": [
+        "substance"
+      ],
+      "concept.acid_base_salt": [
+        "substance",
+        "memory"
+      ],
+      "concept.oxide_class": [
+        "substance"
+      ]
+    },
+    "categoryByCode": {
+      "concept.substance_class": [
+        "substance.name"
+      ],
+      "concept.pure_mixture": [
+        "substance.name"
+      ],
+      "concept.elemental_compound": [
+        "substance.name"
+      ],
+      "concept.electrolyte": [
+        "ion.electrolyte"
+      ],
+      "concept.nonelectrolyte": [
+        "ion.nonelectrolyte"
+      ],
+      "concept.ionization": [
+        "ion.ionization"
+      ],
+      "concept.ionic_reaction": [
+        "ion.ionic_write"
+      ],
+      "concept.ion_coexist": [
+        "ion.coexist"
+      ],
+      "concept.oxidant_reductant": [
+        "redox.oxidant"
+      ],
+      "concept.valence_rules": [
+        "redox.valence",
+        "memory.valence"
+      ],
+      "concept.periodic_law": [
+        "periodic.periodic_law"
+      ],
+      "concept.metal_trend": [
+        "periodic.metal_compare"
+      ],
+      "concept.nonmetal_trend": [
+        "periodic.nonmetal_compare"
+      ],
+      "concept.ionic_bond": [
+        "structure.ionic_bond"
+      ],
+      "concept.covalent_bond": [
+        "structure.covalent_bond"
+      ],
+      "concept.reaction_rate": [
+        "calculation.mixed"
+      ],
+      "concept.reaction_extent": [
+        "calculation.mixed"
+      ],
+      "concept.mass_conserve": [
+        "equation.balance",
+        "calculation.mass_conserve"
+      ],
+      "concept.charge_conserve": [
+        "ion.ionic_balance"
+      ],
+      "concept.electron_conserve": [
+        "redox.e_conserve"
+      ],
+      "concept.solution_colloid": [
+        "substance.state"
+      ],
+      "concept.acid_base_salt": [
+        "substance.name"
+      ],
+      "concept.oxide_class": [
+        "substance.name"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "planned": 91,
+  "seeded": 10,
+  "toImport": 81,
+  "packs": {
+    "B2-A": 26,
+    "B2-B": 23,
+    "B2-C": 11,
+    "B2-D": 21
+  },
+  "validations": {
+    "B2-A": true,
+    "B2-B": true,
+    "B2-C": true,
+    "B2-D": true
+  }
+}

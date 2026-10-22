@@ -1,0 +1,4047 @@
+{
+  "generatedAt": "2026-10-18T12:47:13.505Z",
+  "counts": {
+    "eligible": 58,
+    "restricted": 170,
+    "ineligible": 11
+  },
+  "items": [
+    {
+      "code": "el.He",
+      "type": "element",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Li",
+      "type": "element",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Be",
+      "type": "element",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.B",
+      "type": "element",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.C",
+      "type": "element",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.N",
+      "type": "element",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.F",
+      "type": "element",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Ne",
+      "type": "element",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Mg",
+      "type": "element",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Al",
+      "type": "element",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Si",
+      "type": "element",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.P",
+      "type": "element",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.S",
+      "type": "element",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.K",
+      "type": "element",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Ca",
+      "type": "element",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Fe",
+      "type": "element",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Cu",
+      "type": "element",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Zn",
+      "type": "element",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Ag",
+      "type": "element",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Ba",
+      "type": "element",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.I",
+      "type": "element",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Mn",
+      "type": "element",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Cr",
+      "type": "element",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "el.Br",
+      "type": "element",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "concept.substance_class",
+      "type": "concept",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "concept.pure_mixture",
+      "type": "concept",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "concept.elemental_compound",
+      "type": "concept",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis",
+        "equation"
+      ]
+    },
+    {
+      "code": "concept.electrolyte",
+      "type": "concept",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "concept.nonelectrolyte",
+      "type": "concept",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "concept.ionic_reaction",
+      "type": "concept",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "concept.ion_coexist",
+      "type": "concept",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "concept.oxidant_reductant",
+      "type": "concept",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "concept.periodic_law",
+      "type": "concept",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "concept.metal_trend",
+      "type": "concept",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "concept.nonmetal_trend",
+      "type": "concept",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "concept.ionic_bond",
+      "type": "concept",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "concept.covalent_bond",
+      "type": "concept",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "concept.reaction_extent",
+      "type": "concept",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "concept.electron_conserve",
+      "type": "concept",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "concept.solution_colloid",
+      "type": "concept",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "formula.N_n_NA",
+      "type": "formula",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "formula.c_n_V",
+      "type": "formula",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "formula.dilution",
+      "type": "formula",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis",
+        "equation"
+      ]
+    },
+    {
+      "code": "formula.M_m_n",
+      "type": "formula",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis",
+        "equation"
+      ]
+    },
+    {
+      "code": "formula.rho_c_M",
+      "type": "formula",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis",
+        "equation"
+      ]
+    },
+    {
+      "code": "formula.electron_transfer",
+      "type": "formula",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "formula.gas_STP",
+      "type": "formula",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis",
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.redox.ox_product",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.redox.e_transfer",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.redox.e_conserve",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.ion.electrolyte",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.ion.ionization_eq",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.ion.ionic_eq",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.structure.atom",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.structure.isotope",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.structure.electron_formula",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.periodic.position",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.periodic.trend",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.calc.amount",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.calc.dilution",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.memory.valence_table",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.memory.ion_table",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.memory.color_table",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "sub.Al",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "sub.Fe",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.Fe2O3",
+      "type": "substance",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.Fe3O4",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "sub.FeOH3",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.Cu",
+      "type": "substance",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.CuO",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.CuOH2",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.CuSO4",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.4Na_O2",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.2Na_O2_heat",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.2Na2O2_2H2O",
+      "type": "reaction",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": []
+    },
+    {
+      "code": "rxn.2Na2O2_2CO2",
+      "type": "reaction",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": []
+    },
+    {
+      "code": "rxn.Na2O_H2O",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "rxn.NaOH_HCl",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "rxn.NaHCO3_heat",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": []
+    },
+    {
+      "code": "rxn.Na2CO3_2HCl",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": []
+    },
+    {
+      "code": "rxn.2Mg_O2",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.Mg_2HCl",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.4Al_3O2",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.2Al_6HCl",
+      "type": "reaction",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": []
+    },
+    {
+      "code": "rxn.Al2O3_6HCl",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.AlOH3_3HCl",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.3Fe_2O2",
+      "type": "reaction",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.Fe_H2SO4",
+      "type": "reaction",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": []
+    },
+    {
+      "code": "rxn.Fe_CuSO4",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.Fe2O3_3CO",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.Cu_O2_heat",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.CuO_H2",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.CuO_2HCl",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.Zn_H2SO4",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.Zn_CuSO4",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "exp.Na_O2",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "exp.Na2O2_H2O",
+      "type": "experiment",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.Al_amphoteric",
+      "type": "experiment",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.metal_activity",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.CuO_H2_reduce",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.Na.oxide",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.Na.carbonate",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.Al.amphoteric",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.Fe.property",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.metal.activity",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "sub.FeOH2",
+      "type": "substance",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "sub.FeSO4",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.Fe.fe2_property",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.Fe.fe3_property",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.Fe.fe2_fe3",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.Fe.test",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.Fe.salt",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.FeOH2_O2",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.2Fe2_Cl2",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "concept.alloy",
+      "type": "concept",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.metal.stainless",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "rxn.Na2CO3_CO2_H2O",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.2Na_2HCl",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.Cl2",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.HCl",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.HCl_aq",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.NO",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.NO2",
+      "type": "substance",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.HNO3",
+      "type": "substance",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.H2_Cl2",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.2Na_Cl2",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.2Fe_3Cl2",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.Cl2_H2O",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.Cl2_2NaOH",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.MnO2_4HCl",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.S_O2",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.2SO2_O2",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.SO3_H2O",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "rxn.Cu_2H2SO4",
+      "type": "reaction",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.C_2H2SO4",
+      "type": "reaction",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.N2_3H2",
+      "type": "reaction",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "rxn.NH3_HCl",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.4NH3_5O2",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.2NO_O2",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.3NO2_H2O",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.Cu_4HNO3",
+      "type": "reaction",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.Cu_4HNO3c",
+      "type": "reaction",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.C_O2_incomplete",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.C_O2_complete",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.CO2_CaOH2",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.SiO2_2NaOH",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.SiO2_2C",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "rxn.CaCO3_2HCl",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.Cl2_prep",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.Cl2_property",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.Cl.property",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.Cl.prep",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.N.cycle",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.N.ammonia",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.C.oxide",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.nonmetal.test",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "sub.Br2",
+      "type": "substance",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "sub.I2",
+      "type": "substance",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.S.conc_H2SO4",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.N.ammonium",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.halogen.compare",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.N.synth_ammonia",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.Cl.bleach",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.ops_dissolve",
+      "type": "experiment",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "exp.ops_filter",
+      "type": "experiment",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.ops_distill",
+      "type": "experiment",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.ops_extract",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "exp.gas_collect_upward",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "exp.gas_collect_downward",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "exp.O2_prep_KMnO4",
+      "type": "experiment",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.O2_prep_H2O2",
+      "type": "experiment",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.H2_prep_Zn",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.CO2_prep_marble",
+      "type": "experiment",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.check_airtight",
+      "type": "experiment",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "exp.safety_rules",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "fill",
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "formula.excess_reactant",
+      "type": "formula",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "fill",
+        "calc",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "formula.purity",
+      "type": "formula",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis",
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.calc.stoich",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.calc.excess",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis",
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.exp.gas_wash_dry",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "exp.ops_volumetric_flask",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "formula.rate_v",
+      "type": "formula",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis",
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.rate.factors",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "concept.reversible",
+      "type": "concept",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.CH4",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.C2H4",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.C2H5OH",
+      "type": "substance",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.CH3COOH",
+      "type": "substance",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "sub.CH3COOCH2CH3",
+      "type": "substance",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "rxn.CH4_Cl2",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "fill",
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.C2H4_H2O",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "rxn.C2H4_H2",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "rxn.C2H5OH_O2",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.C2H5OH_burn",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "rxn.esterification",
+      "type": "reaction",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.CH3COOH_NaOH",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "rxn.CH3COOH_Na2CO3",
+      "type": "reaction",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.CH4_property",
+      "type": "experiment",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "exp.C2H4_prep",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.C2H4_Br2",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.ethanol_oxid",
+      "type": "experiment",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.esterification",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "exp.acetic_acid",
+      "type": "experiment",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "concept.functional_group",
+      "type": "concept",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "concept.addition",
+      "type": "concept",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.organic.methane",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.organic.alkane",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.organic.ethene",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.organic.ethanol",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.organic.acetic",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.organic.isomer_skill",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.inference.color",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.inference.block",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.comprehensive.basic",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation",
+        "fill"
+      ]
+    },
+    {
+      "code": "kp.energy.bond_change",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.energy.chem_electric",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.energy.galvanic",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.energy.galvanic_poles",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.energy.electron_flow",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.energy.electrode_rxn",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.energy.chem_power",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "exp.galvanic_Zn_Cu",
+      "type": "experiment",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "equation",
+        "calc"
+      ]
+    },
+    {
+      "code": "kp.energy.thermo_eq",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "equation"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.sustain.seawater",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.sustain.coal",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.organic.petroleum",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.sustain.natural_gas",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.sustain.fertilizer",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.sustain.pesticide",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation",
+        "fill"
+      ]
+    },
+    {
+      "code": "kp.sustain.medicine",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation",
+        "fill"
+      ]
+    },
+    {
+      "code": "kp.sustain.food_additive",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.enviro.pollution",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.enviro.acid_rain",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.sustain.green_chem",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "concept.addition_polymer",
+      "type": "concept",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation",
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.calc.gas",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis"
+      ]
+    },
+    {
+      "code": "kp.calc.solution",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "eligible",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "calc"
+      ],
+      "bannedQuestionTypes": [
+        "experiment_analysis",
+        "equation"
+      ]
+    },
+    {
+      "code": "kp.exp.design",
+      "type": "knowledge",
+      "conclusion": "READY_FOR_HUMAN_APPROVAL",
+      "knowledgePublishCandidate": "yes",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation",
+        "fill"
+      ]
+    },
+    {
+      "code": "kp.exp.error",
+      "type": "knowledge",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "allowedQuestionTypes": [
+        "single_choice",
+        "true_false",
+        "fill",
+        "experiment_analysis"
+      ],
+      "bannedQuestionTypes": [
+        "calc",
+        "equation"
+      ]
+    }
+  ]
+}

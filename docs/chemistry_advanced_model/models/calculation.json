@@ -1,0 +1,440 @@
+[
+  {
+    "id": "ADV.calculation.001",
+    "name": "物质的量—质量与微粒数换算",
+    "specialtyCode": "calculation",
+    "specialtyName": "化学计算",
+    "categoryCodes": ["amount"],
+    "knowledgePoints": ["n=m/M", "N=n·NA"],
+    "difficulties": ["raise"],
+    "abilities": ["两步量关系", "单位追踪"],
+    "stemStructure": "给纯净物质量→求n或粒子数",
+    "variableConditions": ["物质", "所求目标"],
+    "reasoningSteps": ["求n", "再求N或反推"],
+    "breakthrough": "先统一到物质的量",
+    "coreMethods": ["关系式法"],
+    "commonErrors": ["M用错", "把原子数当分子数"],
+    "grading": { "modes": ["single"], "note": "开放数值需numeric" },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "low", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["改所求", "改物质"],
+      "challenge": []
+    },
+    "dedupRules": ["同物质同所求仅改数字=低价值重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "以单选包装即可生产",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "18 g H₂O 中水分子数目约为（NA为阿伏加德罗常数的值）",
+        "options": [
+          { "key": "A", "text": "NA" },
+          { "key": "B", "text": "2NA" },
+          { "key": "C", "text": "0.5NA" },
+          { "key": "D", "text": "18NA" }
+        ],
+        "answer": "A",
+        "steps": ["n=18/18=1 mol", "N=n·NA=NA"],
+        "coreMethod": "先求n再求微粒数",
+        "commonMistakes": ["误选2NA"],
+        "knowledgePoints": ["n=m/M", "N=n·NA"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.calculation.002",
+    "name": "方程式计量—已知反应物求产物",
+    "specialtyCode": "calculation",
+    "specialtyName": "化学计算",
+    "categoryCodes": ["amount"],
+    "knowledgePoints": ["化学计量数", "n与m换算"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["计量比", "多步衔接"],
+    "stemStructure": "明确反应+已知量→求另一物质质量",
+    "variableConditions": ["反应", "已知/所求对调", "纯度"],
+    "reasoningSteps": ["已知→n", "按系数换算", "求目标"],
+    "breakthrough": "全部换成n再按系数比",
+    "coreMethods": ["物质的量桥梁"],
+    "commonErrors": ["质量比当物质的量比"],
+    "grading": { "modes": ["single"], "note": "开放填空NEEDS_ENGINE" },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "仅KB核实反应" },
+    "variantDirections": {
+      "raise": ["改反应", "改求解目标"],
+      "challenge": ["引入纯度"]
+    },
+    "dedupRules": ["同反应同已知所求结构仅改数=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "单选形式READY；数值填空需引擎",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "2H₂+O₂=2H₂O。完全反应消耗4 g H₂时，生成水的质量为",
+        "options": [
+          { "key": "A", "text": "18 g" },
+          { "key": "B", "text": "36 g" },
+          { "key": "C", "text": "4 g" },
+          { "key": "D", "text": "32 g" }
+        ],
+        "answer": "B",
+        "steps": ["n(H₂)=2 mol", "n(H₂O)=2 mol", "m=36 g"],
+        "coreMethod": "物质的量桥梁",
+        "commonMistakes": ["按质量1:1得4 g"],
+        "knowledgePoints": ["方程式计算"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "同上反应。氢气样品纯度80%（杂质不反应），取样品5 g与足量O₂完全反应，生成水的质量最接近",
+        "options": [
+          { "key": "A", "text": "36 g" },
+          { "key": "B", "text": "45 g" },
+          { "key": "C", "text": "18 g" },
+          { "key": "D", "text": "22.5 g" }
+        ],
+        "answer": "A",
+        "steps": ["有效H₂=4 g", "同raise得36 g"],
+        "coreMethod": "先纯度再计量",
+        "commonMistakes": ["用5 g直接算45 g"],
+        "knowledgePoints": ["纯度", "方程式计算"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.calculation.003",
+    "name": "过量判断—限制反应物与产物/剩余",
+    "specialtyCode": "calculation",
+    "specialtyName": "化学计算",
+    "categoryCodes": ["amount"],
+    "knowledgePoints": ["过量判断", "限制反应物"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["比较所需与所有", "求剩余"],
+    "stemStructure": "两反应物量+反应→判断过量→求产物或剩余",
+    "variableConditions": ["过量方", "所求类型"],
+    "reasoningSteps": ["算n", "按系数比较", "用不足量计算"],
+    "breakthrough": "先判断谁不足",
+    "coreMethods": ["过量判断法"],
+    "commonErrors": ["用过量物算产物"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["改过量方"],
+      "challenge": ["求剩余气体"]
+    },
+    "dedupRules": ["同反应同问题类型仅改数=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "2H₂+O₂=2H₂O。4 g H₂与16 g O₂混合点燃完全，生成水的质量为",
+        "options": [
+          { "key": "A", "text": "18 g" },
+          { "key": "B", "text": "36 g" },
+          { "key": "C", "text": "20 g" },
+          { "key": "D", "text": "32 g" }
+        ],
+        "answer": "A",
+        "steps": ["n(H₂)=2 mol，n(O₂)=0.5 mol", "O₂不足", "生成H₂O 1 mol=18 g"],
+        "coreMethod": "过量判断",
+        "commonMistakes": ["用H₂算得36 g"],
+        "knowledgePoints": ["过量判断"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "同上，反应后剩余气体的物质的量为",
+        "options": [
+          { "key": "A", "text": "0" },
+          { "key": "B", "text": "1 mol" },
+          { "key": "C", "text": "0.5 mol" },
+          { "key": "D", "text": "2 mol" }
+        ],
+        "answer": "B",
+        "steps": ["O₂不足0.5 mol耗H₂ 1 mol", "剩余H₂=1 mol"],
+        "coreMethod": "过量判断+剩余",
+        "commonMistakes": ["认为无剩余"],
+        "knowledgePoints": ["过量判断", "剩余量"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.calculation.004",
+    "name": "溶液浓度与稀释",
+    "specialtyCode": "calculation",
+    "specialtyName": "化学计算",
+    "categoryCodes": ["concentration"],
+    "knowledgePoints": ["c=n/V", "稀释溶质守恒"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["定义应用", "稀释守恒"],
+    "stemStructure": "给n、V或稀释数据→求c",
+    "variableConditions": ["是否稀释", "所求量"],
+    "reasoningSteps": ["识别稀释", "n守恒或n=cV", "求解"],
+    "breakthrough": "稀释抓溶质n不变",
+    "coreMethods": ["定义式", "稀释守恒"],
+    "commonErrors": ["mL未换L"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "low", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["改所求"],
+      "challenge": ["先求浓再稀释"]
+    },
+    "dedupRules": ["同结构仅改数=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "0.2 mol NaCl配成0.5 L溶液，浓度为",
+        "options": [
+          { "key": "A", "text": "0.1 mol·L⁻¹" },
+          { "key": "B", "text": "0.2 mol·L⁻¹" },
+          { "key": "C", "text": "0.4 mol·L⁻¹" },
+          { "key": "D", "text": "0.5 mol·L⁻¹" }
+        ],
+        "answer": "C",
+        "steps": ["c=0.2/0.5=0.4"],
+        "coreMethod": "c=n/V",
+        "commonMistakes": ["得0.2"],
+        "knowledgePoints": ["物质的量浓度"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "100 mL 2.0 mol·L⁻¹ NaCl加水稀释至500 mL，稀释后浓度为",
+        "options": [
+          { "key": "A", "text": "0.2 mol·L⁻¹" },
+          { "key": "B", "text": "0.4 mol·L⁻¹" },
+          { "key": "C", "text": "1.0 mol·L⁻¹" },
+          { "key": "D", "text": "2.0 mol·L⁻¹" }
+        ],
+        "answer": "B",
+        "steps": ["n=0.1×2.0=0.2 mol", "c=0.2/0.5=0.4"],
+        "coreMethod": "稀释守恒",
+        "commonMistakes": ["体积单位错误"],
+        "knowledgePoints": ["稀释"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.calculation.005",
+    "name": "气体摩尔体积（标准状况）",
+    "specialtyCode": "calculation",
+    "specialtyName": "化学计算",
+    "categoryCodes": ["molar_volume"],
+    "knowledgePoints": ["Vm≈22.4 L·mol⁻¹", "适用条件"],
+    "difficulties": ["raise"],
+    "abilities": ["条件判断", "V与n换算"],
+    "stemStructure": "标明标准状况→V与n换算",
+    "variableConditions": ["所求V/n", "气体种类"],
+    "reasoningSteps": ["确认标况", "用Vm换算"],
+    "breakthrough": "先确认能否用22.4",
+    "coreMethods": ["气体摩尔体积关系"],
+    "commonErrors": ["非标况仍用22.4"],
+    "grading": { "modes": ["single", "judge"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "low", "curriculum": "必修", "notes": "必须写明标准状况" },
+    "variantDirections": { "raise": ["改所求", "结合质量"], "challenge": [] },
+    "dedupRules": ["同所求类型仅改气体数字=低价值"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "标准状况下，11.2 L O₂的物质的量为",
+        "options": [
+          { "key": "A", "text": "0.25 mol" },
+          { "key": "B", "text": "0.5 mol" },
+          { "key": "C", "text": "1 mol" },
+          { "key": "D", "text": "2 mol" }
+        ],
+        "answer": "B",
+        "steps": ["n=11.2/22.4=0.5 mol"],
+        "coreMethod": "V=n·Vm",
+        "commonMistakes": ["得2 mol"],
+        "knowledgePoints": ["气体摩尔体积"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.calculation.006",
+    "name": "质量守恒—体系质量差求逸出气体",
+    "specialtyCode": "calculation",
+    "specialtyName": "化学计算",
+    "categoryCodes": ["amount"],
+    "knowledgePoints": ["质量守恒"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["选守恒对象", "交叉检验"],
+    "stemStructure": "反应前后总质量→求逸出气体质量",
+    "variableConditions": ["数据给法", "是否交叉用Vm"],
+    "reasoningSteps": ["找不变/差值", "对应物理量"],
+    "breakthrough": "逸出气体质量=反应前总质量−反应后总质量",
+    "coreMethods": ["质量守恒"],
+    "commonErrors": ["用22.4干扰"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "low", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["改数据"],
+      "challenge": ["与Vm交叉判断"]
+    },
+    "dedupRules": ["同差值结构仅改数=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "密闭称量体系中碳酸钙与足量稀盐酸反应。反应前总质量120.0 g，气体逸出后98.0 g。生成CO₂质量为",
+        "options": [
+          { "key": "A", "text": "12.0 g" },
+          { "key": "B", "text": "22.0 g" },
+          { "key": "C", "text": "22.4 g" },
+          { "key": "D", "text": "44.0 g" }
+        ],
+        "answer": "B",
+        "steps": ["120.0−98.0=22.0 g"],
+        "coreMethod": "质量守恒",
+        "commonMistakes": ["选22.4 g"],
+        "knowledgePoints": ["质量守恒"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "若该CO₂在标准状况下约为11.2 L，与质量22.0 g是否一致？",
+        "options": [
+          { "key": "A", "text": "一致：约0.5 mol，标况约11.2 L" },
+          { "key": "B", "text": "不一致" },
+          { "key": "C", "text": "任意气体11.2 L都是22 g" },
+          { "key": "D", "text": "无法判断" }
+        ],
+        "answer": "A",
+        "steps": ["22/44=0.5 mol", "0.5×22.4=11.2 L"],
+        "coreMethod": "守恒与Vm交叉检验",
+        "commonMistakes": ["选C"],
+        "knowledgePoints": ["质量守恒", "气体摩尔体积"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.calculation.007",
+    "name": "混合物组成—产物反推有效成分",
+    "specialtyCode": "calculation",
+    "specialtyName": "化学计算",
+    "categoryCodes": ["amount"],
+    "knowledgePoints": ["混合物", "计量反推"],
+    "difficulties": ["challenge"],
+    "abilities": ["设未知", "唯一性控制"],
+    "stemStructure": "混合物+足量试剂→气体质量→求质量分数",
+    "variableConditions": ["组分对", "观测量"],
+    "reasoningSteps": ["确认只有一成分产气", "反推n", "求分数"],
+    "breakthrough": "观测量只对应有效成分",
+    "coreMethods": ["产物反推"],
+    "commonErrors": ["把总质量当有效成分"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "ai_assist", "aiAssist": true },
+    "scienceRisk": {
+      "level": "high",
+      "curriculum": "必修",
+      "notes": "须保证杂质不产同种气体且答案唯一"
+    },
+    "variantDirections": { "raise": [], "challenge": ["改组分", "改观测量"] },
+    "dedupRules": ["同组分同观测量结构仅改数=重复"],
+    "productionStatus": "HOLD",
+    "priorityBatch1": false,
+    "notes": "唯一性与干扰难自动保证，暂缓",
+    "samples": [
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "（样例·生产前须复核）Na₂CO₃与NaCl混合物10.6 g，与足量稀盐酸反应得CO₂ 2.2 g。Na₂CO₃质量分数最接近",
+        "options": [
+          { "key": "A", "text": "25%" },
+          { "key": "B", "text": "50%" },
+          { "key": "C", "text": "75%" },
+          { "key": "D", "text": "100%" }
+        ],
+        "answer": "B",
+        "steps": ["n(CO₂)=0.05 mol=n(Na₂CO₃)", "m=5.3 g", "5.3/10.6=50%"],
+        "coreMethod": "产物反推",
+        "commonMistakes": ["100%"],
+        "knowledgePoints": ["混合物计算"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.calculation.008",
+    "name": "实验数据表—称量差减求浓度",
+    "specialtyCode": "calculation",
+    "specialtyName": "化学计算",
+    "categoryCodes": ["concentration", "amount"],
+    "knowledgePoints": ["数据读取", "c=n/V"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["读表", "筛选有效数据"],
+    "stemStructure": "给出称量/体积记录→计算c",
+    "variableConditions": ["是否需差减", "冗余数据"],
+    "reasoningSteps": ["求溶质质量", "求n", "求c"],
+    "breakthrough": "先对应表头含义",
+    "coreMethods": ["实验数据计算"],
+    "commonErrors": ["未扣空皿质量"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "low", "curriculum": "必修", "notes": "书面题非实操" },
+    "variantDirections": {
+      "raise": ["直接给溶质质量"],
+      "challenge": ["需差减+定容体积"]
+    },
+    "dedupRules": ["同表结构同所求仅改数=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "溶质NaCl 5.85 g，定容0.250 L（M=58.5）。浓度为",
+        "options": [
+          { "key": "A", "text": "0.100 mol·L⁻¹" },
+          { "key": "B", "text": "0.200 mol·L⁻¹" },
+          { "key": "C", "text": "0.400 mol·L⁻¹" },
+          { "key": "D", "text": "1.00 mol·L⁻¹" }
+        ],
+        "answer": "C",
+        "steps": ["n=0.100 mol", "c=0.400"],
+        "coreMethod": "称量→n→c",
+        "commonMistakes": ["得0.100"],
+        "knowledgePoints": ["物质的量浓度"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "空烧杯50.00 g；加粗盐后55.85 g；定容0.250 L。按纯NaCl计浓度约为",
+        "options": [
+          { "key": "A", "text": "0.100 mol·L⁻¹" },
+          { "key": "B", "text": "0.400 mol·L⁻¹" },
+          { "key": "C", "text": "0.234 mol·L⁻¹" },
+          { "key": "D", "text": "无法计算" }
+        ],
+        "answer": "B",
+        "steps": ["溶质=5.85 g", "同raise"],
+        "coreMethod": "差减得溶质质量",
+        "commonMistakes": ["用55.85 g"],
+        "knowledgePoints": ["实验数据", "物质的量浓度"]
+      }
+    ]
+  }
+]

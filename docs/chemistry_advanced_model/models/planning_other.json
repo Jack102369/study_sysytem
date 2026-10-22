@@ -1,0 +1,527 @@
+[
+  {
+    "id": "ADV.equation.001",
+    "name": "方程式配平—原子守恒选择（规划）",
+    "specialtyCode": "equation",
+    "specialtyName": "化学方程式",
+    "categoryCodes": [
+      "balance"
+    ],
+    "knowledgePoints": [
+      "配平",
+      "原子守恒"
+    ],
+    "difficulties": [
+      "raise"
+    ],
+    "abilities": [
+      "配平思想"
+    ],
+    "stemStructure": "给未配平式→选系数",
+    "variableConditions": [
+      "反应"
+    ],
+    "reasoningSteps": [
+      "原子守恒试配"
+    ],
+    "breakthrough": "先配复杂微粒",
+    "coreMethods": [
+      "观察法配平"
+    ],
+    "commonErrors": [
+      "乱改化学式"
+    ],
+    "grading": {
+      "modes": [
+        "single"
+      ]
+    },
+    "generation": {
+      "primary": "local_rule",
+      "aiAssist": false
+    },
+    "scienceRisk": {
+      "level": "low",
+      "curriculum": "必修",
+      "notes": "开放书写配平→NEEDS_ENGINE"
+    },
+    "variantDirections": {
+      "raise": [
+        "改反应"
+      ],
+      "challenge": []
+    },
+    "dedupRules": [
+      "同反应同问法=重复"
+    ],
+    "productionStatus": "READY",
+    "priorityBatch1": false,
+    "notes": "非本阶段重点，仅规划+1样例",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "配平 _Fe + _O₂ → _Fe₃O₄，氧的系数应为",
+        "options": [
+          {
+            "key": "A",
+            "text": "1"
+          },
+          {
+            "key": "B",
+            "text": "2"
+          },
+          {
+            "key": "C",
+            "text": "3"
+          },
+          {
+            "key": "D",
+            "text": "4"
+          }
+        ],
+        "answer": "B",
+        "steps": [
+          "3Fe+2O₂=Fe₃O₄"
+        ],
+        "coreMethod": "原子守恒",
+        "commonMistakes": [
+          "选4"
+        ],
+        "knowledgePoints": [
+          "配平"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ADV.substance.001",
+    "name": "性质比较—条件变化（规划）",
+    "specialtyCode": "substance",
+    "specialtyName": "化学物质性质",
+    "categoryCodes": [
+      "chem_property"
+    ],
+    "knowledgePoints": [
+      "通性",
+      "通性例外"
+    ],
+    "difficulties": [
+      "raise"
+    ],
+    "abilities": [
+      "性质迁移"
+    ],
+    "stemStructure": "给条件变化→判断性质是否仍成立",
+    "variableConditions": [
+      "物质",
+      "条件"
+    ],
+    "reasoningSteps": [
+      "回忆通性",
+      "看条件是否改变结论"
+    ],
+    "breakthrough": "条件是否触及反应发生前提",
+    "coreMethods": [
+      "条件敏感分析"
+    ],
+    "commonErrors": [
+      "忽略浓度/温度条件"
+    ],
+    "grading": {
+      "modes": [
+        "judge",
+        "single"
+      ]
+    },
+    "generation": {
+      "primary": "local_rule",
+      "aiAssist": false
+    },
+    "scienceRisk": {
+      "level": "medium",
+      "curriculum": "必修",
+      "notes": ""
+    },
+    "variantDirections": {
+      "raise": [
+        "改条件"
+      ],
+      "challenge": []
+    },
+    "dedupRules": [
+      "同物质同条件=重复"
+    ],
+    "productionStatus": "READY",
+    "priorityBatch1": false,
+    "notes": "规划卡",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "judge",
+        "stem": "铜与稀盐酸在常温下剧烈反应放出氢气。判断正误。",
+        "options": null,
+        "answer": "错误",
+        "steps": [
+          "Cu在金属活动性顺序中H后，与稀盐酸不反应放H₂"
+        ],
+        "coreMethod": "活动性顺序",
+        "commonMistakes": [
+          "与锌混淆"
+        ],
+        "knowledgePoints": [
+          "金属与酸"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ADV.periodic.001",
+    "name": "周期律—同主族递变（规划）",
+    "specialtyCode": "periodic",
+    "specialtyName": "元素周期表",
+    "categoryCodes": [
+      "trend"
+    ],
+    "knowledgePoints": [
+      "同主族递变"
+    ],
+    "difficulties": [
+      "raise"
+    ],
+    "abilities": [
+      "递变规律应用"
+    ],
+    "stemStructure": "给主族元素→比较半径/金属性等",
+    "variableConditions": [
+      "比较量"
+    ],
+    "reasoningSteps": [
+      "定位",
+      "用递变规律"
+    ],
+    "breakthrough": "同主族从上到下金属性增强等",
+    "coreMethods": [
+      "周期律"
+    ],
+    "commonErrors": [
+      "与同周期规律混淆"
+    ],
+    "grading": {
+      "modes": [
+        "single"
+      ]
+    },
+    "generation": {
+      "primary": "local_rule",
+      "aiAssist": false
+    },
+    "scienceRisk": {
+      "level": "medium",
+      "curriculum": "必修",
+      "notes": "避免选必能级细节"
+    },
+    "variantDirections": {
+      "raise": [
+        "改比较对象"
+      ],
+      "challenge": []
+    },
+    "dedupRules": [
+      "同元素对同比较量=重复"
+    ],
+    "productionStatus": "READY",
+    "priorityBatch1": false,
+    "notes": "规划卡",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "同主族Na与K，金属性更强的是",
+        "options": [
+          {
+            "key": "A",
+            "text": "Na"
+          },
+          {
+            "key": "B",
+            "text": "K"
+          },
+          {
+            "key": "C",
+            "text": "相同"
+          },
+          {
+            "key": "D",
+            "text": "无法比较"
+          }
+        ],
+        "answer": "B",
+        "steps": [
+          "同主族从上到下金属性增强"
+        ],
+        "coreMethod": "同主族递变",
+        "commonMistakes": [
+          "选Na"
+        ],
+        "knowledgePoints": [
+          "周期律"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ADV.structure.001",
+    "name": "原子组成—粒子关系（规划）",
+    "specialtyCode": "structure",
+    "specialtyName": "物质结构",
+    "categoryCodes": [
+      "atom_compose"
+    ],
+    "knowledgePoints": [
+      "质子",
+      "中子",
+      "电子"
+    ],
+    "difficulties": [
+      "raise"
+    ],
+    "abilities": [
+      "粒子数关系"
+    ],
+    "stemStructure": "给质量数与质子数→求中子等",
+    "variableConditions": [
+      "所求粒子"
+    ],
+    "reasoningSteps": [
+      "用定义关系计算"
+    ],
+    "breakthrough": "质量数=质子+中子",
+    "coreMethods": [
+      "定义式"
+    ],
+    "commonErrors": [
+      "质量数当质子数"
+    ],
+    "grading": {
+      "modes": [
+        "single"
+      ]
+    },
+    "generation": {
+      "primary": "local_rule",
+      "aiAssist": false
+    },
+    "scienceRisk": {
+      "level": "low",
+      "curriculum": "必修",
+      "notes": ""
+    },
+    "variantDirections": {
+      "raise": [
+        "改所求"
+      ],
+      "challenge": []
+    },
+    "dedupRules": [
+      "同核素同所求=重复"
+    ],
+    "productionStatus": "READY",
+    "priorityBatch1": false,
+    "notes": "规划卡",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "¹²C 的中子数为",
+        "options": [
+          {
+            "key": "A",
+            "text": "6"
+          },
+          {
+            "key": "B",
+            "text": "12"
+          },
+          {
+            "key": "C",
+            "text": "18"
+          },
+          {
+            "key": "D",
+            "text": "4"
+          }
+        ],
+        "answer": "A",
+        "steps": [
+          "质量数12，质子6，中子6"
+        ],
+        "coreMethod": "质量数关系",
+        "commonMistakes": [
+          "选12"
+        ],
+        "knowledgePoints": [
+          "原子组成"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ADV.organic.001",
+    "name": "甲烷基本性质—必修范围（规划）",
+    "specialtyCode": "organic",
+    "specialtyName": "有机化学",
+    "categoryCodes": [
+      "basic"
+    ],
+    "knowledgePoints": [
+      "甲烷燃烧",
+      "取代概念入门"
+    ],
+    "difficulties": [
+      "raise"
+    ],
+    "abilities": [
+      "基本有机事实"
+    ],
+    "stemStructure": "给甲烷反应→判断类型/产物",
+    "variableConditions": [
+      "设问"
+    ],
+    "reasoningSteps": [
+      "回忆甲烷性质",
+      "作答"
+    ],
+    "breakthrough": "限必修甲烷内容，不扩展选必官能团",
+    "coreMethods": [
+      "事实识记+简单判断"
+    ],
+    "commonErrors": [
+      "引入乙烯等超范围"
+    ],
+    "grading": {
+      "modes": [
+        "judge",
+        "single"
+      ]
+    },
+    "generation": {
+      "primary": "local_rule",
+      "aiAssist": false
+    },
+    "scienceRisk": {
+      "level": "medium",
+      "curriculum": "必修",
+      "notes": "严格限甲烷"
+    },
+    "variantDirections": {
+      "raise": [
+        "燃烧/取代辨析"
+      ],
+      "challenge": []
+    },
+    "dedupRules": [
+      "同设问=重复"
+    ],
+    "productionStatus": "READY",
+    "priorityBatch1": false,
+    "notes": "规划卡；挑战暂缓防超纲",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "judge",
+        "stem": "甲烷在空气中点燃可生成二氧化碳和水。判断正误。",
+        "options": null,
+        "answer": "正确",
+        "steps": [
+          "甲烷燃烧通式产物CO₂与H₂O"
+        ],
+        "coreMethod": "甲烷燃烧事实",
+        "commonMistakes": [
+          "认为只生成碳"
+        ],
+        "knowledgePoints": [
+          "甲烷"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ADV.memory.001",
+    "name": "规律记忆—条件化判断（规划）",
+    "specialtyCode": "memory",
+    "specialtyName": "化学基础记忆",
+    "categoryCodes": [
+      "rules"
+    ],
+    "knowledgePoints": [
+      "化学规律"
+    ],
+    "difficulties": [
+      "raise"
+    ],
+    "abilities": [
+      "规律在条件下应用"
+    ],
+    "stemStructure": "给规律应用情境→判断正误",
+    "variableConditions": [
+      "规律条目"
+    ],
+    "reasoningSteps": [
+      "回忆规律",
+      "看条件"
+    ],
+    "breakthrough": "提高不是换数字背诵，而是加条件",
+    "coreMethods": [
+      "条件化记忆"
+    ],
+    "commonErrors": [
+      "绝对化规律"
+    ],
+    "grading": {
+      "modes": [
+        "judge"
+      ]
+    },
+    "generation": {
+      "primary": "local_rule",
+      "aiAssist": false
+    },
+    "scienceRisk": {
+      "level": "low",
+      "curriculum": "必修",
+      "notes": ""
+    },
+    "variantDirections": {
+      "raise": [
+        "加例外条件"
+      ],
+      "challenge": []
+    },
+    "dedupRules": [
+      "同规律同条件=重复"
+    ],
+    "productionStatus": "READY",
+    "priorityBatch1": false,
+    "notes": "规划：记忆专项以提高“条件化”为主，不做挑战堆砌",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "judge",
+        "stem": "金属活动性顺序中，排在氢前的金属一定能与水剧烈反应放出氢气。判断正误。",
+        "options": null,
+        "answer": "错误",
+        "steps": [
+          "氢前金属与酸反应规律更直接；与水反应需额外条件，不能绝对化"
+        ],
+        "coreMethod": "规律适用范围",
+        "commonMistakes": [
+          "绝对化"
+        ],
+        "knowledgePoints": [
+          "金属活动性"
+        ]
+      }
+    ]
+  }
+]

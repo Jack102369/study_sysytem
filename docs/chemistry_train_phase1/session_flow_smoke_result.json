@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-18T11:46:05.233Z",
+  "allOk": true,
+  "checks": [
+    {
+      "id": "admin_user",
+      "ok": true,
+      "detail": "admin@189.cn"
+    },
+    {
+      "id": "pick_test_items",
+      "ok": true,
+      "detail": 5
+    },
+    {
+      "id": "session_created",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "id": "graded",
+      "ok": true,
+      "detail": {
+        "correct": 4,
+        "wrong": 0,
+        "pending": 1
+      }
+    },
+    {
+      "id": "blank_pending_not_wrong",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "id": "user_isolation",
+      "ok": true,
+      "detail": true
+    },
+    {
+      "id": "smoke_session_cleaned",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "id": "formal_pool_empty",
+      "ok": true,
+      "detail": 0
+    }
+  ]
+}

@@ -1,0 +1,1156 @@
+{
+  "generatedAt": "2026-10-20T01:10:37.233Z",
+  "summary": {
+    "totalSamples": 60,
+    "whitelistCount": 60,
+    "rejectedCount": 0,
+    "raise": 36,
+    "challenge": 24,
+    "fixedInWhitelist": 4,
+    "fixedRejected": 0,
+    "bySpecialty": {
+      "calculation": 12,
+      "redox": 12,
+      "ion": 10,
+      "experiment": 10,
+      "inference": 8,
+      "comprehensive": 8
+    }
+  },
+  "reverify": [
+    {
+      "sampleId": "S60.calculation.01",
+      "sourceModelId": "ADV.calculation.001",
+      "specialtyCode": "calculation",
+      "categoryMapKey": "amount",
+      "categoryCode": "amount",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "n=m/M",
+        "N=n·NA"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.calculation.01"
+    },
+    {
+      "sampleId": "S60.calculation.02",
+      "sourceModelId": "ADV.calculation.002",
+      "specialtyCode": "calculation",
+      "categoryMapKey": "amount",
+      "categoryCode": "amount",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "方程式计量",
+        "n=m/M"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.calculation.02"
+    },
+    {
+      "sampleId": "S60.calculation.03",
+      "sourceModelId": "ADV.calculation.002",
+      "specialtyCode": "calculation",
+      "categoryMapKey": "amount",
+      "categoryCode": "amount",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "纯度",
+        "方程式计量"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.calculation.03"
+    },
+    {
+      "sampleId": "S60.calculation.04",
+      "sourceModelId": "ADV.calculation.003",
+      "specialtyCode": "calculation",
+      "categoryMapKey": "amount",
+      "categoryCode": "amount",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "过量判断",
+        "方程式计量"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.calculation.04"
+    },
+    {
+      "sampleId": "S60.calculation.05",
+      "sourceModelId": "ADV.calculation.003",
+      "specialtyCode": "calculation",
+      "categoryMapKey": "amount",
+      "categoryCode": "amount",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "过量判断",
+        "剩余量"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.calculation.05"
+    },
+    {
+      "sampleId": "S60.calculation.06",
+      "sourceModelId": "ADV.calculation.004",
+      "specialtyCode": "calculation",
+      "categoryMapKey": "concentration",
+      "categoryCode": "concentration",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "c=n/V"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.calculation.06"
+    },
+    {
+      "sampleId": "S60.calculation.07",
+      "sourceModelId": "ADV.calculation.004",
+      "specialtyCode": "calculation",
+      "categoryMapKey": "concentration",
+      "categoryCode": "concentration",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "稀释守恒"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.calculation.07"
+    },
+    {
+      "sampleId": "S60.calculation.08",
+      "sourceModelId": "ADV.calculation.005",
+      "specialtyCode": "calculation",
+      "categoryMapKey": "molar_volume",
+      "categoryCode": "molar_volume",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "气体摩尔体积",
+        "适用条件"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.calculation.08"
+    },
+    {
+      "sampleId": "S60.calculation.09",
+      "sourceModelId": "ADV.calculation.005",
+      "specialtyCode": "calculation",
+      "categoryMapKey": "molar_volume",
+      "categoryCode": "molar_volume",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "V=n·Vm",
+        "n=m/M"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.calculation.09"
+    },
+    {
+      "sampleId": "S60.calculation.10",
+      "sourceModelId": "ADV.calculation.006",
+      "specialtyCode": "calculation",
+      "categoryMapKey": "amount",
+      "categoryCode": "amount",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "质量守恒"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.calculation.10"
+    },
+    {
+      "sampleId": "S60.calculation.11",
+      "sourceModelId": "ADV.calculation.006",
+      "specialtyCode": "calculation",
+      "categoryMapKey": "amount",
+      "categoryCode": "amount",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "质量守恒",
+        "气体摩尔体积"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.calculation.11"
+    },
+    {
+      "sampleId": "S60.calculation.12",
+      "sourceModelId": "ADV.calculation.008",
+      "specialtyCode": "calculation",
+      "categoryMapKey": "concentration",
+      "categoryCode": "concentration",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "实验数据",
+        "c=n/V"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.calculation.12"
+    },
+    {
+      "sampleId": "S60.redox.01",
+      "sourceModelId": "ADV.redox.001",
+      "specialtyCode": "redox",
+      "categoryMapKey": "identify",
+      "categoryCode": "identify",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "化合价",
+        "氧化还原定义"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.redox.01"
+    },
+    {
+      "sampleId": "S60.redox.02",
+      "sourceModelId": "ADV.redox.001",
+      "specialtyCode": "redox",
+      "categoryMapKey": "identify",
+      "categoryCode": "identify",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "非氧化还原",
+        "复分解"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.redox.02"
+    },
+    {
+      "sampleId": "S60.redox.03",
+      "sourceModelId": "ADV.redox.002",
+      "specialtyCode": "redox",
+      "categoryMapKey": "oxidant",
+      "categoryCode": "oxidant",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "氧化剂",
+        "还原剂"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.redox.03"
+    },
+    {
+      "sampleId": "S60.redox.04",
+      "sourceModelId": "ADV.redox.007",
+      "specialtyCode": "redox",
+      "categoryMapKey": "oxidant",
+      "categoryCode": "oxidant",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "氧化产物",
+        "还原产物"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.redox.04"
+    },
+    {
+      "sampleId": "S60.redox.05",
+      "sourceModelId": "ADV.redox.003",
+      "specialtyCode": "redox",
+      "categoryMapKey": "e_conserve",
+      "categoryCode": "e_conserve",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "电子转移"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.redox.05"
+    },
+    {
+      "sampleId": "S60.redox.06",
+      "sourceModelId": "ADV.redox.003",
+      "specialtyCode": "redox",
+      "categoryMapKey": "e_conserve",
+      "categoryCode": "e_conserve",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "电子转移",
+        "计量缩放"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.redox.06"
+    },
+    {
+      "sampleId": "S60.redox.07",
+      "sourceModelId": "ADV.redox.004",
+      "specialtyCode": "redox",
+      "categoryMapKey": "e_conserve",
+      "categoryCode": "e_conserve",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "电子守恒",
+        "系数比"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.redox.07"
+    },
+    {
+      "sampleId": "S60.redox.08",
+      "sourceModelId": "ADV.redox.004",
+      "specialtyCode": "redox",
+      "categoryMapKey": "e_conserve",
+      "categoryCode": "e_conserve",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "电子守恒"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.redox.08"
+    },
+    {
+      "sampleId": "S60.redox.09",
+      "sourceModelId": "ADV.redox.002",
+      "specialtyCode": "redox",
+      "categoryMapKey": "oxidant",
+      "categoryCode": "oxidant",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "氧化剂",
+        "还原剂",
+        "双角色"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.redox.09"
+    },
+    {
+      "sampleId": "S60.redox.10",
+      "sourceModelId": "ADV.redox.001",
+      "specialtyCode": "redox",
+      "categoryMapKey": "identify",
+      "categoryCode": "identify",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "氧化还原识别"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.redox.10"
+    },
+    {
+      "sampleId": "S60.redox.11",
+      "sourceModelId": "ADV.redox.007",
+      "specialtyCode": "redox",
+      "categoryMapKey": "reductant",
+      "categoryCode": "reductant",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "还原剂",
+        "被氧化"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.redox.11"
+    },
+    {
+      "sampleId": "S60.redox.12",
+      "sourceModelId": "ADV.redox.003",
+      "specialtyCode": "redox",
+      "categoryMapKey": "e_conserve",
+      "categoryCode": "e_conserve",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "电子转移",
+        "过量"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.redox.12"
+    },
+    {
+      "sampleId": "S60.ion.01",
+      "sourceModelId": "ADV.ion.001",
+      "specialtyCode": "ion",
+      "categoryMapKey": "write_ion",
+      "categoryCode": "ionic_write",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "离子方程式",
+        "沉淀"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.ion.01"
+    },
+    {
+      "sampleId": "S60.ion.02",
+      "sourceModelId": "ADV.ion.001",
+      "specialtyCode": "ion",
+      "categoryMapKey": "write_ion",
+      "categoryCode": "ionic_write",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "酸碱中和",
+        "离子方程式"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.ion.02"
+    },
+    {
+      "sampleId": "S60.ion.03",
+      "sourceModelId": "ADV.ion.002",
+      "specialtyCode": "ion",
+      "categoryMapKey": "judge_ion_coexist",
+      "categoryCode": "coexist",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "离子共存"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.ion.03"
+    },
+    {
+      "sampleId": "S60.ion.04",
+      "sourceModelId": "ADV.ion.002",
+      "specialtyCode": "ion",
+      "categoryMapKey": "judge_ion_coexist",
+      "categoryCode": "coexist",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "离子共存",
+        "酸性条件"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.ion.04"
+    },
+    {
+      "sampleId": "S60.ion.05",
+      "sourceModelId": "ADV.ion.003",
+      "specialtyCode": "ion",
+      "categoryMapKey": "write_ion",
+      "categoryCode": "ionic_write",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "过量",
+        "离子方程式"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.ion.05"
+    },
+    {
+      "sampleId": "S60.ion.06",
+      "sourceModelId": "ADV.ion.003",
+      "specialtyCode": "ion",
+      "categoryMapKey": "write_ion",
+      "categoryCode": "ionic_write",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "少量酸",
+        "分步"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.ion.06"
+    },
+    {
+      "sampleId": "S60.ion.07",
+      "sourceModelId": "ADV.ion.005",
+      "specialtyCode": "ion",
+      "categoryMapKey": "judge_ion_correct",
+      "categoryCode": "ionic_correct",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "离子方程式正误",
+        "电荷守恒",
+        "旁观离子",
+        "金属活动性"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": true,
+      "failReasons": [],
+      "admitReason": "needs_fix_repaired_and_reverified_pass",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.ion.07"
+    },
+    {
+      "sampleId": "S60.ion.08",
+      "sourceModelId": "ADV.ion.002",
+      "specialtyCode": "ion",
+      "categoryMapKey": "judge_ion_coexist",
+      "categoryCode": "coexist",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "离子共存",
+        "碱性"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.ion.08"
+    },
+    {
+      "sampleId": "S60.ion.09",
+      "sourceModelId": "ADV.ion.001",
+      "specialtyCode": "ion",
+      "categoryMapKey": "write_ion",
+      "categoryCode": "ionic_write",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "离子方程式",
+        "难溶物写法",
+        "旁观离子",
+        "碳酸盐与酸"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": true,
+      "failReasons": [],
+      "admitReason": "needs_fix_repaired_and_reverified_pass",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.ion.09"
+    },
+    {
+      "sampleId": "S60.ion.10",
+      "sourceModelId": "ADV.ion.006",
+      "specialtyCode": "ion",
+      "categoryMapKey": "judge_ion_correct",
+      "categoryCode": "ionic_correct",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "电荷守恒",
+        "铁与酸反应",
+        "离子方程式正误"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": true,
+      "failReasons": [],
+      "admitReason": "needs_fix_repaired_and_reverified_pass",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.ion.10"
+    },
+    {
+      "sampleId": "S60.experiment.01",
+      "sourceModelId": "ADV.experiment.001",
+      "specialtyCode": "experiment",
+      "categoryMapKey": "apparatus",
+      "categoryCode": "instrument_use",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "仪器用途",
+        "加热"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.experiment.01"
+    },
+    {
+      "sampleId": "S60.experiment.02",
+      "sourceModelId": "ADV.experiment.001",
+      "specialtyCode": "experiment",
+      "categoryMapKey": "safety",
+      "categoryCode": "safety",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "实验安全",
+        "浓酸"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.experiment.02"
+    },
+    {
+      "sampleId": "S60.experiment.03",
+      "sourceModelId": "ADV.experiment.002",
+      "specialtyCode": "experiment",
+      "categoryMapKey": "gas_collect",
+      "categoryCode": "gas_collect",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "气体收集",
+        "密度"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.experiment.03"
+    },
+    {
+      "sampleId": "S60.experiment.04",
+      "sourceModelId": "ADV.experiment.002",
+      "specialtyCode": "experiment",
+      "categoryMapKey": "gas_collect",
+      "categoryCode": "gas_collect",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "排空气法"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.experiment.04"
+    },
+    {
+      "sampleId": "S60.experiment.05",
+      "sourceModelId": "ADV.experiment.003",
+      "specialtyCode": "experiment",
+      "categoryMapKey": "error_analysis",
+      "categoryCode": "error_fix",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "误差分析",
+        "制气"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.experiment.05"
+    },
+    {
+      "sampleId": "S60.experiment.06",
+      "sourceModelId": "ADV.experiment.004",
+      "specialtyCode": "experiment",
+      "categoryMapKey": "procedure",
+      "categoryCode": "basic_ops",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "过滤",
+        "操作顺序"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.experiment.06"
+    },
+    {
+      "sampleId": "S60.experiment.07",
+      "sourceModelId": "ADV.experiment.003",
+      "specialtyCode": "experiment",
+      "categoryMapKey": "error_analysis",
+      "categoryCode": "error_fix",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "误差",
+        "量取"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.experiment.07"
+    },
+    {
+      "sampleId": "S60.experiment.08",
+      "sourceModelId": "ADV.experiment.005",
+      "specialtyCode": "experiment",
+      "categoryMapKey": "design",
+      "categoryCode": "substance_test",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "检验",
+        "CO₂"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.experiment.08"
+    },
+    {
+      "sampleId": "S60.experiment.09",
+      "sourceModelId": "ADV.experiment.005",
+      "specialtyCode": "experiment",
+      "categoryMapKey": "design",
+      "categoryCode": "substance_test",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "除杂",
+        "顺序"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.experiment.09"
+    },
+    {
+      "sampleId": "S60.experiment.10",
+      "sourceModelId": "ADV.experiment.004",
+      "specialtyCode": "experiment",
+      "categoryMapKey": "procedure",
+      "categoryCode": "basic_ops",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "蒸发",
+        "操作"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.experiment.10"
+    },
+    {
+      "sampleId": "S60.inference.01",
+      "sourceModelId": "ADV.inference.001",
+      "specialtyCode": "inference",
+      "categoryMapKey": "block_infer_phenomenon",
+      "categoryCode": "phenomenon",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "物质推断",
+        "酸碱盐"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.inference.01"
+    },
+    {
+      "sampleId": "S60.inference.02",
+      "sourceModelId": "ADV.inference.001",
+      "specialtyCode": "inference",
+      "categoryMapKey": "block_infer_phenomenon",
+      "categoryCode": "phenomenon",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "气体推断"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.inference.02"
+    },
+    {
+      "sampleId": "S60.inference.03",
+      "sourceModelId": "ADV.inference.002",
+      "specialtyCode": "inference",
+      "categoryMapKey": "block_infer_phenomenon",
+      "categoryCode": "phenomenon",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "沉淀推断"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.inference.03"
+    },
+    {
+      "sampleId": "S60.inference.04",
+      "sourceModelId": "ADV.inference.002",
+      "specialtyCode": "inference",
+      "categoryMapKey": "block_infer_mixed",
+      "categoryCode": "mixed",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "金属活动性"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.inference.04"
+    },
+    {
+      "sampleId": "S60.inference.05",
+      "sourceModelId": "ADV.inference.003",
+      "specialtyCode": "inference",
+      "categoryMapKey": "block_infer_conversion",
+      "categoryCode": "conversion",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "框图推断",
+        "转化"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.inference.05"
+    },
+    {
+      "sampleId": "S60.inference.06",
+      "sourceModelId": "ADV.inference.003",
+      "specialtyCode": "inference",
+      "categoryMapKey": "block_infer_conversion",
+      "categoryCode": "conversion",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "物质转化"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.inference.06"
+    },
+    {
+      "sampleId": "S60.inference.07",
+      "sourceModelId": "ADV.inference.004",
+      "specialtyCode": "inference",
+      "categoryMapKey": "block_infer_diagram",
+      "categoryCode": "block_diagram",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "混合物分离推断"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.inference.07"
+    },
+    {
+      "sampleId": "S60.inference.08",
+      "sourceModelId": "ADV.inference.006",
+      "specialtyCode": "inference",
+      "categoryMapKey": "block_infer_diagram",
+      "categoryCode": "block_diagram",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "离子推断"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.inference.08"
+    },
+    {
+      "sampleId": "S60.comprehensive.01",
+      "sourceModelId": "ADV.comprehensive.001",
+      "specialtyCode": "comprehensive",
+      "categoryMapKey": "multi_concept_raise",
+      "categoryCode": "medium",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "氧化还原",
+        "离子反应"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.comprehensive.01"
+    },
+    {
+      "sampleId": "S60.comprehensive.02",
+      "sourceModelId": "ADV.comprehensive.001",
+      "specialtyCode": "comprehensive",
+      "categoryMapKey": "multi_concept_raise",
+      "categoryCode": "medium",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "化学计算",
+        "实验"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.comprehensive.02"
+    },
+    {
+      "sampleId": "S60.comprehensive.03",
+      "sourceModelId": "ADV.comprehensive.002",
+      "specialtyCode": "comprehensive",
+      "categoryMapKey": "multi_concept_raise",
+      "categoryCode": "medium",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "离子共存",
+        "氧化还原意识"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.comprehensive.03"
+    },
+    {
+      "sampleId": "S60.comprehensive.04",
+      "sourceModelId": "ADV.comprehensive.002",
+      "specialtyCode": "comprehensive",
+      "categoryMapKey": "multi_concept_challenge",
+      "categoryCode": "advanced",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "过量计算",
+        "离子方程式"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.comprehensive.04"
+    },
+    {
+      "sampleId": "S60.comprehensive.05",
+      "sourceModelId": "ADV.comprehensive.003",
+      "specialtyCode": "comprehensive",
+      "categoryMapKey": "multi_concept_raise",
+      "categoryCode": "medium",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "实验",
+        "推断"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.comprehensive.05"
+    },
+    {
+      "sampleId": "S60.comprehensive.06",
+      "sourceModelId": "ADV.comprehensive.003",
+      "specialtyCode": "comprehensive",
+      "categoryMapKey": "multi_concept_challenge",
+      "categoryCode": "advanced",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "守恒",
+        "氧化还原"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.comprehensive.06"
+    },
+    {
+      "sampleId": "S60.comprehensive.07",
+      "sourceModelId": "ADV.comprehensive.004",
+      "specialtyCode": "comprehensive",
+      "categoryMapKey": "multi_concept_raise",
+      "categoryCode": "medium",
+      "difficultyLabel": "raise",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "图像",
+        "过量"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": false,
+      "failReasons": [],
+      "admitReason": "original_pass_reverified",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.comprehensive.07"
+    },
+    {
+      "sampleId": "S60.comprehensive.08",
+      "sourceModelId": "ADV.comprehensive.005",
+      "specialtyCode": "comprehensive",
+      "categoryMapKey": "multi_concept_challenge",
+      "categoryCode": "advanced",
+      "difficultyLabel": "challenge",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "过量计算",
+        "碳的氧化物",
+        "方程式计量"
+      ],
+      "qaGrade": "PASS",
+      "wasNeedsFix": true,
+      "failReasons": [],
+      "admitReason": "needs_fix_repaired_and_reverified_pass",
+      "dailyEligible": false,
+      "code": "train.ai_trial.s60.S60.comprehensive.08"
+    }
+  ],
+  "rejected": []
+}

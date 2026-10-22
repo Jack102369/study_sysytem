@@ -1,0 +1,478 @@
+{
+  "recheckedAt": "2026-10-18T05:46:17.686Z",
+  "total": 74,
+  "missing": [],
+  "statusAllPending": true,
+  "statusCounts": {
+    "pending_review": 74
+  },
+  "inventoryContentRedoxMismatch": [],
+  "fiveDb": [
+    {
+      "code": "rxn.SO3_H2O",
+      "specs": [
+        "equation",
+        "substance"
+      ],
+      "hasRedox": false
+    },
+    {
+      "code": "rxn.NH3_HCl",
+      "specs": [
+        "equation",
+        "substance"
+      ],
+      "hasRedox": false
+    },
+    {
+      "code": "rxn.CO2_CaOH2",
+      "specs": [
+        "equation",
+        "substance",
+        "ion"
+      ],
+      "hasRedox": false
+    },
+    {
+      "code": "rxn.SiO2_2NaOH",
+      "specs": [
+        "equation",
+        "substance"
+      ],
+      "hasRedox": false
+    },
+    {
+      "code": "rxn.CaCO3_2HCl",
+      "specs": [
+        "equation",
+        "substance",
+        "ion"
+      ],
+      "hasRedox": false
+    }
+  ],
+  "fiveStillRedox": [],
+  "packFive": {
+    "rxn.SO3_H2O": [
+      "equation",
+      "substance"
+    ],
+    "rxn.NH3_HCl": [
+      "equation",
+      "substance"
+    ],
+    "rxn.CO2_CaOH2": [
+      "equation",
+      "substance",
+      "ion"
+    ],
+    "rxn.SiO2_2NaOH": [
+      "equation",
+      "substance"
+    ],
+    "rxn.CaCO3_2HCl": [
+      "equation",
+      "substance",
+      "ion"
+    ]
+  },
+  "samples": {
+    "Cl2_2NaOH_conditions": "本条仅适用：常温、冷的稀NaOH溶液。禁止无条件套用。热的浓碱另有反应（如可生成氯酸盐等），产物不同，不得与本式混用。",
+    "bleaching": {
+      "physical_props": "工业产品为混合物，不是严格唯一组成的纯净物；教材常简化表述。",
+      "chemical_props": "由氯气与石灰乳反应制得（了解）。有效成分常表述为次氯酸钙Ca(ClO)2（以所用教材为准）；另含氯化钙等。有效成分具氧化漂白性；久置失效（了解）。精确主要成分/组成比不得写成唯一绝对答案。",
+      "review_note": "[inv:sub.bleaching_powder] 待核实:教材成分口径;混合物;禁精确组成绝对填空;excludeDefaultCompositionFill"
+    },
+    "HCl_aq": {
+      "canonical_formula": "HCl",
+      "test_methods": "使紫色石蕊变红；检Cl-：硝酸酸化后加AgNO3得白色AgCl沉淀（酸化可排除CO3 2-等干扰；沉淀不溶于稀HNO3）。"
+    }
+  },
+  "counts": {
+    "通过": 71,
+    "需要修改": 0,
+    "待核实": 3
+  },
+  "remainingBySev": {
+    "P0": 0,
+    "P1": 1,
+    "P2": 2,
+    "P3": 0
+  },
+  "softTipsOnPass": 8,
+  "verdicts": {
+    "sub.Cl2": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.HCl": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.HCl_aq": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.HClO": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.NaClO": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.S": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.SO2": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.SO3": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.H2SO4": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.H2SO3": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.N2": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.NH3": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.NO": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.NO2": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.HNO3": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.C": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.CO": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.Si": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.SiO2": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.Na2SiO3": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.P": {
+      "v": "待核实",
+      "s": "P2",
+      "note": "同素异形体对比细节仍待教材核实；已限制默认细对比绝对题"
+    },
+    "sub.P4O10": {
+      "v": "待核实",
+      "s": "P2",
+      "note": "P4O10/P2O5教材主写法仍待核实；已要求题干指定写法"
+    },
+    "sub.H2S": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.CaCO3": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.CaOH2": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.H2_Cl2": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.2Na_Cl2": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.2Fe_3Cl2": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.Cl2_H2O": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.Cl2_2NaOH": {
+      "v": "通过",
+      "s": "P3",
+      "note": "已补热浓碱禁混用；组卷仍必须带冷/稀条件"
+    },
+    "rxn.MnO2_4HCl": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.S_O2": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.2SO2_O2": {
+      "v": "通过",
+      "s": "P3",
+      "note": "了解级；禁平衡定量默认"
+    },
+    "rxn.SO3_H2O": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.Cu_2H2SO4": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.C_2H2SO4": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.N2_3H2": {
+      "v": "通过",
+      "s": "P3",
+      "note": "了解级；禁勒夏特列定量默认"
+    },
+    "rxn.NH3_HCl": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.4NH3_5O2": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.2NO_O2": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.3NO2_H2O": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.Cu_4HNO3": {
+      "v": "通过",
+      "s": "P3",
+      "note": "编码易混已在名称/备注标明"
+    },
+    "rxn.Cu_4HNO3c": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.C_O2_incomplete": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.C_O2_complete": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.CO2_CaOH2": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.SiO2_2NaOH": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.SiO2_2C": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.CaCO3_2HCl": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.Cl2_prep": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.Cl2_property": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.HCl_prep": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.SO2_property": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.NH3_prep": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.HNO3_Cu": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.CO2_property": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.SiO2_glass": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.Cl.property": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.Cl.prep": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.S.oxide": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.N.cycle": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.N.ammonia": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.C.oxide": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.Si.property": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.nonmetal.test": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "sub.Br2": {
+      "v": "通过",
+      "s": "P3",
+      "note": "含氧酸深度仍排除默认"
+    },
+    "sub.I2": {
+      "v": "通过",
+      "s": "P3",
+      "note": "正价仍排除默认核心"
+    },
+    "sub.bleaching_powder": {
+      "v": "待核实",
+      "s": "P1",
+      "note": "漂白粉教材成分口径仍待核实；已强化混合物表述并禁精确组成绝对填空"
+    },
+    "kp.S.conc_H2SO4": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.N.ammonium": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "rxn.NH4Cl_NaOH": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.halogen.compare": {
+      "v": "通过",
+      "s": "P3",
+      "note": "深度含氧酸排除默认"
+    },
+    "kp.N.synth_ammonia": {
+      "v": "通过",
+      "s": "P3",
+      "note": "勿选修平衡定量默认"
+    },
+    "kp.Cl.bleach": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    }
+  },
+  "blockingPublish": true,
+  "canEnterBatch5": true,
+  "humanReviewed": false
+}

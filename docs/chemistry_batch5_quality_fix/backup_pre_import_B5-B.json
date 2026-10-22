@@ -1,0 +1,123 @@
+{
+  "items": [
+    {
+      "type": "formula",
+      "data": {
+        "name": "多步方程式计算关系式法",
+        "expression": "由多步反应消去中间产物，得起始反应物与最终产物的计量关系式，再按 n 比例计算",
+        "variables": "各步化学方程式计量数；中间产物（消去）；目标产物物质的量或质量",
+        "units": "n:mol；m:g；气体标况下可用 V 与 22.4 L/mol（仅标况）",
+        "applicableConditions": "连续多步反应且中间产物完全转化时可写关系式；有过量、转化率、纯度时须先处理实际转化的量。",
+        "examples": "若 A→B→C 中计量关系可写成 aA ∼ cC，则已知 n(A) 可直接求 n(C)，无需逐步求中间量。",
+        "commonMistakes": "不会消去中间产物；把质量比当物质的量比；忽略某步转化不完全。",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.mixed_stoich]"
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "过量计算判断",
+        "expression": "比较 n(实)/计量数：较小者为不足量（限量），按不足量计算产物",
+        "variables": "各反应物实际物质的量；化学方程式计量数",
+        "units": "n:mol",
+        "applicableConditions": "给出两种及以上反应物用量时必须先判断过量；只有不足量完全反应。",
+        "examples": "2H2+O2=2H2O：若 n(H2)=3 mol、n(O2)=1 mol，则 n(H2)/2=1.5 > n(O2)/1=1，O2不足，按 O2 计算。",
+        "commonMistakes": "不判断过量直接代入；用质量比代替物质的量比与计量数比较。",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.excess_reactant]"
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "纯度与产率",
+        "expression": "纯度=纯物质质量/样品质量×100%；产率=实际产量/理论产量×100%",
+        "variables": "纯物质质量；样品（粗产品）质量；实际产量；按计量算得的理论产量",
+        "units": "质量单位须一致；产率、纯度常用%",
+        "applicableConditions": "纯度针对样品中目标成分含量；产率须先按不足量与方程式算理论产量，再与实际产量比较。",
+        "examples": "理论得10 g产物，实际8 g，产率=80%；样品10 g含纯物质9 g，纯度=90%。",
+        "commonMistakes": "产率分母用实际产量；纯度分母用纯物质；理论产量未按不足量计算。",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.purity]"
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "离子浓度计算入门",
+        "expression": "强电解质按化学式完全电离：c(离子)=c(电解质)×离子下标（简单情形）",
+        "variables": "c(电解质)；电离出的离子个数（化学式中下标）",
+        "units": "c:mol/L",
+        "applicableConditions": "适用于强酸、强碱、可溶性强电解质盐的简单完全电离；不涉及弱电解质Ka、水解与电荷守恒联立等平衡计算。",
+        "examples": "0.1 mol/L Na2SO4 中 c(Na+)=0.2 mol/L，c(SO4 2-)=0.1 mol/L。",
+        "commonMistakes": "弱电解质按完全电离算；忽略正负离子浓度与电荷关系；与质量分数混淆。",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.ion_conc] 禁Ka平衡计算；仅入门强电解质"
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "化学反应速率定义式",
+        "expression": "v = Δc / Δt（平均速率）",
+        "variables": "v:化学反应速率；Δc:浓度变化量；Δt:时间变化量",
+        "units": "常用 mol/(L·s) 或 mol/(L·min) 等，须与题设一致",
+        "applicableConditions": "高中常用某段时间内的平均速率；可用不同物质表示，数值与计量数相关；不展开选修复杂速率方程。",
+        "examples": "若Δc(A)=0.2 mol/L，Δt=10 s，则用A表示的平均速率 v(A)=0.02 mol/(L·s)。",
+        "commonMistakes": "单位漏写或与Δt不匹配；把瞬时速率公式超纲套用；混淆速率与平衡转化率。",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.rate_v] 平均速率口径；非选修深度"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch5",
+    "pack": "B5-B",
+    "inventoryCodes": [
+      "formula.mixed_stoich",
+      "formula.excess_reactant",
+      "formula.purity",
+      "formula.ion_conc",
+      "formula.rate_v"
+    ],
+    "specialtyByCode": {
+      "formula.mixed_stoich": [
+        "calculation"
+      ],
+      "formula.excess_reactant": [
+        "calculation"
+      ],
+      "formula.purity": [
+        "calculation"
+      ],
+      "formula.ion_conc": [
+        "calculation"
+      ],
+      "formula.rate_v": [
+        "calculation"
+      ]
+    },
+    "categoryByCode": {
+      "formula.mixed_stoich": [
+        "calculation.equation_calc",
+        "calculation.mixed"
+      ],
+      "formula.excess_reactant": [
+        "calculation.equation_calc",
+        "calculation.mixed"
+      ],
+      "formula.purity": [
+        "calculation.equation_calc",
+        "calculation.mixed"
+      ],
+      "formula.ion_conc": [
+        "calculation.equation_calc",
+        "calculation.mixed"
+      ],
+      "formula.rate_v": [
+        "calculation.mixed"
+      ]
+    }
+  }
+}

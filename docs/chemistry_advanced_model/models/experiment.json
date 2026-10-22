@@ -1,0 +1,320 @@
+[
+  {
+    "id": "ADV.experiment.001",
+    "name": "实验操作正误—书面判断",
+    "specialtyCode": "experiment",
+    "specialtyName": "化学实验",
+    "categoryCodes": ["safety", "operation"],
+    "knowledgePoints": ["基本操作", "安全规范"],
+    "difficulties": ["raise"],
+    "abilities": ["识别错误操作", "说明理由"],
+    "stemStructure": "描述操作→判断正误或选正确操作",
+    "variableConditions": ["仪器", "错误类型"],
+    "reasoningSteps": ["识别关键动作", "对照规范", "结论"],
+    "breakthrough": "抓住“量取/加热/引流”等关键动作是否合规",
+    "coreMethods": ["对照实验规范"],
+    "commonErrors": ["凭感觉忽略安全"],
+    "grading": { "modes": ["judge", "single"] },
+    "generation": { "primary": "local_rule", "aiAssist": "optional" },
+    "scienceRisk": { "level": "low", "curriculum": "必修", "notes": "书面题非实操" },
+    "variantDirections": { "raise": ["改仪器与错误点"], "challenge": [] },
+    "dedupRules": ["同操作同错误点=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "judge",
+        "stem": "用嘴吸取移液管中的试剂是正确的取液操作。判断正误。",
+        "options": null,
+        "answer": "错误",
+        "steps": ["应用洗耳球等工具", "禁止用嘴吸取"],
+        "coreMethod": "安全规范对照",
+        "commonMistakes": ["认为方便即可"],
+        "knowledgePoints": ["实验安全", "移液"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.experiment.002",
+    "name": "现象与结论—能否推出",
+    "specialtyCode": "experiment",
+    "specialtyName": "化学实验",
+    "categoryCodes": ["phenomenon_judge", "conclusion"],
+    "knowledgePoints": ["实验现象", "逻辑推理"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["现象→结论充分性"],
+    "stemStructure": "给操作+现象+结论→判断结论是否一定成立",
+    "variableConditions": ["试剂", "结论强度"],
+    "reasoningSteps": ["现象可说明什么", "是否有反例", "判断"],
+    "breakthrough": "区分“可能”与“一定”",
+    "coreMethods": ["充分性检验"],
+    "commonErrors": ["把必要条件当充分"],
+    "grading": { "modes": ["judge", "single"] },
+    "generation": { "primary": "local_rule", "aiAssist": "optional" },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["单一现象结论"],
+      "challenge": ["多现象联合是否充分"]
+    },
+    "dedupRules": ["同现象同结论=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "judge",
+        "stem": "某无色气体能使澄清石灰水变浑浊，因此该气体一定是二氧化碳。判断正误。",
+        "options": null,
+        "answer": "错误",
+        "steps": ["SO₂等也可能使石灰水浑浊", "不能唯一确定为CO₂"],
+        "coreMethod": "结论充分性",
+        "commonMistakes": ["认为只有CO₂"],
+        "knowledgePoints": ["气体检验"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "无色气体：①通入澄清石灰水变浑浊；②通入品红溶液褪色。对该气体最合理的判断是",
+        "options": [
+          { "key": "A", "text": "一定是CO₂" },
+          { "key": "B", "text": "一定是SO₂" },
+          { "key": "C", "text": "可能含SO₂，不能仅由此排除CO₂混有" },
+          { "key": "D", "text": "一定是O₂" }
+        ],
+        "answer": "C",
+        "steps": ["品红褪色强烈指向SO₂", "但混合物情形需更严谨表述", "选最合理项C"],
+        "coreMethod": "多现象联合仍要谨慎唯一性",
+        "commonMistakes": ["直接选B忽略混合物"],
+        "knowledgePoints": ["气体鉴别"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.experiment.003",
+    "name": "装置与连接—气体制取书面分析",
+    "specialtyCode": "experiment",
+    "specialtyName": "化学实验",
+    "categoryCodes": ["apparatus"],
+    "knowledgePoints": ["发生装置", "收集方法"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["选装置", "连接顺序理由"],
+    "stemStructure": "给气体制取情境→选装置或连接顺序",
+    "variableConditions": ["气体性质", "发生条件"],
+    "reasoningSteps": ["看反应物状态与条件", "看密度/溶解性选收集"],
+    "breakthrough": "先定发生再定收集",
+    "coreMethods": ["性质决定装置"],
+    "commonErrors": ["忽略气体溶于水"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": "optional" },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["选收集方法"],
+      "challenge": ["多装置排序"]
+    },
+    "dedupRules": ["同气体同设问=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "实验室用锌与稀硫酸制氢气，气体收集方法通常采用",
+        "options": [
+          { "key": "A", "text": "排水法" },
+          { "key": "B", "text": "向上排空气法" },
+          { "key": "C", "text": "只能用向下排空气法且不能排水" },
+          { "key": "D", "text": "用浓硫酸干燥后必须用向上排空气法" }
+        ],
+        "answer": "A",
+        "steps": ["H₂难溶于水，常用排水法收集"],
+        "coreMethod": "溶解性决定收集",
+        "commonMistakes": ["选向上排空气"],
+        "knowledgePoints": ["氢气制取"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "制取并收集一瓶干燥氧气（KMnO₄加热），装置连接顺序的思考起点应是",
+        "options": [
+          { "key": "A", "text": "先考虑收集再考虑发生" },
+          { "key": "B", "text": "先发生装置，再除杂/干燥，再收集，最后尾气（若需要）" },
+          { "key": "C", "text": "任意顺序" },
+          { "key": "D", "text": "只需要收集装置" }
+        ],
+        "answer": "B",
+        "steps": ["气体制取通用逻辑：发生→处理→收集"],
+        "coreMethod": "连接顺序总原则",
+        "commonMistakes": ["先收集后发生"],
+        "knowledgePoints": ["装置连接"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.experiment.004",
+    "name": "步骤排序—书面流程题",
+    "specialtyCode": "experiment",
+    "specialtyName": "化学实验",
+    "categoryCodes": ["procedure"],
+    "knowledgePoints": ["实验步骤逻辑"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["排序", "因果"],
+    "stemStructure": "打乱步骤→选正确顺序",
+    "variableConditions": ["实验主题"],
+    "reasoningSteps": ["找必须先后关系", "排除矛盾序"],
+    "breakthrough": "先做有依赖的步骤（如先检查气密性）",
+    "coreMethods": ["依赖排序"],
+    "commonErrors": ["加热后再检查气密性"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": "optional" },
+    "scienceRisk": { "level": "low", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["4步排序"],
+      "challenge": ["含可并行步骤的干扰"]
+    },
+    "dedupRules": ["同实验同步骤集合=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "用固态试剂加热制气体时，下列顺序最合理的是",
+        "options": [
+          { "key": "A", "text": "加热→装药品→检查气密性" },
+          { "key": "B", "text": "检查气密性→装药品→加热" },
+          { "key": "C", "text": "装药品→加热→检查气密性" },
+          { "key": "D", "text": "加热→检查气密性→装药品" }
+        ],
+        "answer": "B",
+        "steps": ["先保证装置气密，再装药加热"],
+        "coreMethod": "气密性优先",
+        "commonMistakes": ["选A"],
+        "knowledgePoints": ["实验步骤"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "若步骤中还有“连接导气管到收集装置”，它通常应在",
+        "options": [
+          { "key": "A", "text": "加热之后再连接" },
+          { "key": "B", "text": "加热前完成装置连接与气密检查相关准备" },
+          { "key": "C", "text": "收集满后再连接" },
+          { "key": "D", "text": "可随时连接不影响" }
+        ],
+        "answer": "B",
+        "steps": ["加热前装置应就绪"],
+        "coreMethod": "流程依赖",
+        "commonMistakes": ["加热后再连"],
+        "knowledgePoints": ["实验步骤"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.experiment.005",
+    "name": "误差来源—称量与体积读数",
+    "specialtyCode": "experiment",
+    "specialtyName": "化学实验",
+    "categoryCodes": ["error_analysis"],
+    "knowledgePoints": ["误差方向", "天平/量筒"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["判断结果偏大偏小"],
+    "stemStructure": "指出某错误操作→对测定值影响方向",
+    "variableConditions": ["测定目标", "错误类型"],
+    "reasoningSteps": ["错误如何影响读数", "代入公式看趋势"],
+    "breakthrough": "把错误映射到公式中的量变大还是变小",
+    "coreMethods": ["误差传导分析"],
+    "commonErrors": ["方向判断反了"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "low", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["单一误差"],
+      "challenge": ["两误差综合"]
+    },
+    "dedupRules": ["同测定同错误=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "用天平称量固体时，砝码与药品放反（左码右物，且用了游码），称得质量值通常",
+        "options": [
+          { "key": "A", "text": "偏大" },
+          { "key": "B", "text": "偏小" },
+          { "key": "C", "text": "无影响" },
+          { "key": "D", "text": "无法判断" }
+        ],
+        "answer": "B",
+        "steps": ["放反且用游码时读数偏小（经典结论）"],
+        "coreMethod": "天平误差规则",
+        "commonMistakes": ["选偏大"],
+        "knowledgePoints": ["称量误差"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "配制一定物质的量浓度溶液：定容时俯视刻度线，所配溶液浓度将",
+        "options": [
+          { "key": "A", "text": "偏高" },
+          { "key": "B", "text": "偏低" },
+          { "key": "C", "text": "不变" },
+          { "key": "D", "text": "无法判断" }
+        ],
+        "answer": "A",
+        "steps": ["俯视使溶液体积偏小", "c=n/V 中V偏小→c偏高"],
+        "coreMethod": "误差代入定义式",
+        "commonMistakes": ["选偏低"],
+        "knowledgePoints": ["溶液配制误差"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.experiment.006",
+    "name": "方案评价—控制变量与对照",
+    "specialtyCode": "experiment",
+    "specialtyName": "化学实验",
+    "categoryCodes": ["evaluation"],
+    "knowledgePoints": ["实验设计", "对照"],
+    "difficulties": ["challenge"],
+    "abilities": ["评价方案合理性"],
+    "stemStructure": "给出方案→指出缺陷或改进",
+    "variableConditions": ["探究目的"],
+    "reasoningSteps": ["明确目的", "看变量是否唯一", "评价"],
+    "breakthrough": "一次只改变一个关键因素",
+    "coreMethods": ["控制变量法"],
+    "commonErrors": ["多因素同时改变"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "ai_assist", "aiAssist": true },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "避免复杂仪器超纲" },
+    "variantDirections": { "raise": [], "challenge": ["改探究目的"] },
+    "dedupRules": ["同目的同缺陷=重复"],
+    "productionStatus": "NEEDS_ENGINE",
+    "priorityBatch1": false,
+    "notes": "开放评价表述需更强调选择题干；生成质量控制要求高",
+    "samples": [
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "探究温度对反应速率的影响时，下列方案最不合理的是",
+        "options": [
+          { "key": "A", "text": "其他条件相同，只改变温度" },
+          { "key": "B", "text": "同时改变温度和浓度" },
+          { "key": "C", "text": "记录相同时间内产物生成量作比较" },
+          { "key": "D", "text": "做重复实验减小偶然误差" }
+        ],
+        "answer": "B",
+        "steps": ["同时改两个变量无法归因"],
+        "coreMethod": "控制变量",
+        "commonMistakes": ["认为多改变更全面"],
+        "knowledgePoints": ["实验设计"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "total": 578,
+  "active": 574,
+  "trialAllow": 574,
+  "trialBlock": 4,
+  "formalApproved": 0,
+  "s60Count": 0,
+  "raiseActive": 167,
+  "challengeActive": 0,
+  "dailyEligibleTest": 574,
+  "dailyEligibleFormal": 0,
+  "bySpecialtyActive": [
+    {
+      "code": "calculation",
+      "n": 8
+    },
+    {
+      "code": "comprehensive",
+      "n": 20
+    },
+    {
+      "code": "equation",
+      "n": 218
+    },
+    {
+      "code": "experiment",
+      "n": 7
+    },
+    {
+      "code": "inference",
+      "n": 2
+    },
+    {
+      "code": "ion",
+      "n": 18
+    },
+    {
+      "code": "memory",
+      "n": 68
+    },
+    {
+      "code": "organic",
+      "n": 6
+    },
+    {
+      "code": "periodic",
+      "n": 21
+    },
+    {
+      "code": "redox",
+      "n": 111
+    },
+    {
+      "code": "structure",
+      "n": 3
+    },
+    {
+      "code": "substance",
+      "n": 92
+    }
+  ]
+}

@@ -1,0 +1,1062 @@
+{
+  "success": 81,
+  "fail": 0,
+  "linkErrors": 0,
+  "results": [
+    {
+      "pack": "B2-A",
+      "invCode": "el.He",
+      "index": 0,
+      "type": "element",
+      "ok": true,
+      "id": "5",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Li",
+      "index": 1,
+      "type": "element",
+      "ok": true,
+      "id": "6",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Be",
+      "index": 2,
+      "type": "element",
+      "ok": true,
+      "id": "7",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.B",
+      "index": 3,
+      "type": "element",
+      "ok": true,
+      "id": "8",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.C",
+      "index": 4,
+      "type": "element",
+      "ok": true,
+      "id": "9",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.N",
+      "index": 5,
+      "type": "element",
+      "ok": true,
+      "id": "10",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.F",
+      "index": 6,
+      "type": "element",
+      "ok": true,
+      "id": "11",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Ne",
+      "index": 7,
+      "type": "element",
+      "ok": true,
+      "id": "12",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Mg",
+      "index": 8,
+      "type": "element",
+      "ok": true,
+      "id": "13",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Al",
+      "index": 9,
+      "type": "element",
+      "ok": true,
+      "id": "14",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Si",
+      "index": 10,
+      "type": "element",
+      "ok": true,
+      "id": "15",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.P",
+      "index": 11,
+      "type": "element",
+      "ok": true,
+      "id": "16",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.S",
+      "index": 12,
+      "type": "element",
+      "ok": true,
+      "id": "17",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Ar",
+      "index": 13,
+      "type": "element",
+      "ok": true,
+      "id": "18",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.K",
+      "index": 14,
+      "type": "element",
+      "ok": true,
+      "id": "19",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Ca",
+      "index": 15,
+      "type": "element",
+      "ok": true,
+      "id": "20",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Fe",
+      "index": 16,
+      "type": "element",
+      "ok": true,
+      "id": "21",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Cu",
+      "index": 17,
+      "type": "element",
+      "ok": true,
+      "id": "22",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Zn",
+      "index": 18,
+      "type": "element",
+      "ok": true,
+      "id": "23",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Ag",
+      "index": 19,
+      "type": "element",
+      "ok": true,
+      "id": "24",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Ba",
+      "index": 20,
+      "type": "element",
+      "ok": true,
+      "id": "25",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.I",
+      "index": 21,
+      "type": "element",
+      "ok": true,
+      "id": "26",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Mn",
+      "index": 22,
+      "type": "element",
+      "ok": true,
+      "id": "27",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Cr",
+      "index": 23,
+      "type": "element",
+      "ok": true,
+      "id": "28",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Br",
+      "index": 24,
+      "type": "element",
+      "ok": true,
+      "id": "29",
+      "errors": []
+    },
+    {
+      "pack": "B2-A",
+      "invCode": "el.Hg",
+      "index": 25,
+      "type": "element",
+      "ok": true,
+      "id": "30",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.substance_class",
+      "index": 0,
+      "type": "concept",
+      "ok": true,
+      "id": "2",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.pure_mixture",
+      "index": 1,
+      "type": "concept",
+      "ok": true,
+      "id": "3",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.elemental_compound",
+      "index": 2,
+      "type": "concept",
+      "ok": true,
+      "id": "4",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.electrolyte",
+      "index": 3,
+      "type": "concept",
+      "ok": true,
+      "id": "5",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.nonelectrolyte",
+      "index": 4,
+      "type": "concept",
+      "ok": true,
+      "id": "6",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.ionization",
+      "index": 5,
+      "type": "concept",
+      "ok": true,
+      "id": "7",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.ionic_reaction",
+      "index": 6,
+      "type": "concept",
+      "ok": true,
+      "id": "8",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.ion_coexist",
+      "index": 7,
+      "type": "concept",
+      "ok": true,
+      "id": "9",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.oxidant_reductant",
+      "index": 8,
+      "type": "concept",
+      "ok": true,
+      "id": "10",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.valence_rules",
+      "index": 9,
+      "type": "concept",
+      "ok": true,
+      "id": "11",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.periodic_law",
+      "index": 10,
+      "type": "concept",
+      "ok": true,
+      "id": "12",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.metal_trend",
+      "index": 11,
+      "type": "concept",
+      "ok": true,
+      "id": "13",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.nonmetal_trend",
+      "index": 12,
+      "type": "concept",
+      "ok": true,
+      "id": "14",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.ionic_bond",
+      "index": 13,
+      "type": "concept",
+      "ok": true,
+      "id": "15",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.covalent_bond",
+      "index": 14,
+      "type": "concept",
+      "ok": true,
+      "id": "16",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.reaction_rate",
+      "index": 15,
+      "type": "concept",
+      "ok": true,
+      "id": "17",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.reaction_extent",
+      "index": 16,
+      "type": "concept",
+      "ok": true,
+      "id": "18",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.mass_conserve",
+      "index": 17,
+      "type": "concept",
+      "ok": true,
+      "id": "19",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.charge_conserve",
+      "index": 18,
+      "type": "concept",
+      "ok": true,
+      "id": "20",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.electron_conserve",
+      "index": 19,
+      "type": "concept",
+      "ok": true,
+      "id": "21",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.solution_colloid",
+      "index": 20,
+      "type": "concept",
+      "ok": true,
+      "id": "22",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.acid_base_salt",
+      "index": 21,
+      "type": "concept",
+      "ok": true,
+      "id": "23",
+      "errors": []
+    },
+    {
+      "pack": "B2-B",
+      "invCode": "concept.oxide_class",
+      "index": 22,
+      "type": "concept",
+      "ok": true,
+      "id": "24",
+      "errors": []
+    },
+    {
+      "pack": "B2-C",
+      "invCode": "formula.N_n_NA",
+      "index": 0,
+      "type": "formula",
+      "ok": true,
+      "id": "2",
+      "errors": []
+    },
+    {
+      "pack": "B2-C",
+      "invCode": "formula.Vm",
+      "index": 1,
+      "type": "formula",
+      "ok": true,
+      "id": "3",
+      "errors": []
+    },
+    {
+      "pack": "B2-C",
+      "invCode": "formula.c_n_V",
+      "index": 2,
+      "type": "formula",
+      "ok": true,
+      "id": "4",
+      "errors": []
+    },
+    {
+      "pack": "B2-C",
+      "invCode": "formula.dilution",
+      "index": 3,
+      "type": "formula",
+      "ok": true,
+      "id": "5",
+      "errors": []
+    },
+    {
+      "pack": "B2-C",
+      "invCode": "formula.M_m_n",
+      "index": 4,
+      "type": "formula",
+      "ok": true,
+      "id": "6",
+      "errors": []
+    },
+    {
+      "pack": "B2-C",
+      "invCode": "formula.rho_c_M",
+      "index": 5,
+      "type": "formula",
+      "ok": true,
+      "id": "7",
+      "errors": []
+    },
+    {
+      "pack": "B2-C",
+      "invCode": "formula.mass_percent",
+      "index": 6,
+      "type": "formula",
+      "ok": true,
+      "id": "8",
+      "errors": []
+    },
+    {
+      "pack": "B2-C",
+      "invCode": "formula.equation_ratio",
+      "index": 7,
+      "type": "formula",
+      "ok": true,
+      "id": "9",
+      "errors": []
+    },
+    {
+      "pack": "B2-C",
+      "invCode": "formula.electron_transfer",
+      "index": 8,
+      "type": "formula",
+      "ok": true,
+      "id": "10",
+      "errors": []
+    },
+    {
+      "pack": "B2-C",
+      "invCode": "formula.gas_STP",
+      "index": 9,
+      "type": "formula",
+      "ok": true,
+      "id": "11",
+      "errors": []
+    },
+    {
+      "pack": "B2-C",
+      "invCode": "formula.Avogadro",
+      "index": 10,
+      "type": "formula",
+      "ok": true,
+      "id": "12",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.redox.ox_product",
+      "index": 0,
+      "type": "knowledge",
+      "ok": true,
+      "id": "6",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.redox.re_product",
+      "index": 1,
+      "type": "knowledge",
+      "ok": true,
+      "id": "7",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.redox.e_transfer",
+      "index": 2,
+      "type": "knowledge",
+      "ok": true,
+      "id": "8",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.redox.e_conserve",
+      "index": 3,
+      "type": "knowledge",
+      "ok": true,
+      "id": "9",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.ion.electrolyte",
+      "index": 4,
+      "type": "knowledge",
+      "ok": true,
+      "id": "10",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.ion.ionization_eq",
+      "index": 5,
+      "type": "knowledge",
+      "ok": true,
+      "id": "11",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.ion.coexist",
+      "index": 6,
+      "type": "knowledge",
+      "ok": true,
+      "id": "12",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.ion.ionic_eq",
+      "index": 7,
+      "type": "knowledge",
+      "ok": true,
+      "id": "13",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.structure.atom",
+      "index": 8,
+      "type": "knowledge",
+      "ok": true,
+      "id": "14",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.structure.isotope",
+      "index": 9,
+      "type": "knowledge",
+      "ok": true,
+      "id": "15",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.structure.bond",
+      "index": 10,
+      "type": "knowledge",
+      "ok": true,
+      "id": "16",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.structure.electron_formula",
+      "index": 11,
+      "type": "knowledge",
+      "ok": true,
+      "id": "17",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.periodic.position",
+      "index": 12,
+      "type": "knowledge",
+      "ok": true,
+      "id": "18",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.periodic.e_config",
+      "index": 13,
+      "type": "knowledge",
+      "ok": true,
+      "id": "19",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.periodic.trend",
+      "index": 14,
+      "type": "knowledge",
+      "ok": true,
+      "id": "20",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.calc.amount",
+      "index": 15,
+      "type": "knowledge",
+      "ok": true,
+      "id": "21",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.calc.concentration",
+      "index": 16,
+      "type": "knowledge",
+      "ok": true,
+      "id": "22",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.calc.dilution",
+      "index": 17,
+      "type": "knowledge",
+      "ok": true,
+      "id": "23",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.memory.valence_table",
+      "index": 18,
+      "type": "knowledge",
+      "ok": true,
+      "id": "24",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.memory.ion_table",
+      "index": 19,
+      "type": "knowledge",
+      "ok": true,
+      "id": "25",
+      "errors": []
+    },
+    {
+      "pack": "B2-D",
+      "invCode": "kp.memory.color_table",
+      "index": 20,
+      "type": "knowledge",
+      "ok": true,
+      "id": "26",
+      "errors": []
+    }
+  ],
+  "codeToEntity": {
+    "el.He": {
+      "type": "element",
+      "id": "5"
+    },
+    "el.Li": {
+      "type": "element",
+      "id": "6"
+    },
+    "el.Be": {
+      "type": "element",
+      "id": "7"
+    },
+    "el.B": {
+      "type": "element",
+      "id": "8"
+    },
+    "el.C": {
+      "type": "element",
+      "id": "9"
+    },
+    "el.N": {
+      "type": "element",
+      "id": "10"
+    },
+    "el.F": {
+      "type": "element",
+      "id": "11"
+    },
+    "el.Ne": {
+      "type": "element",
+      "id": "12"
+    },
+    "el.Mg": {
+      "type": "element",
+      "id": "13"
+    },
+    "el.Al": {
+      "type": "element",
+      "id": "14"
+    },
+    "el.Si": {
+      "type": "element",
+      "id": "15"
+    },
+    "el.P": {
+      "type": "element",
+      "id": "16"
+    },
+    "el.S": {
+      "type": "element",
+      "id": "17"
+    },
+    "el.Ar": {
+      "type": "element",
+      "id": "18"
+    },
+    "el.K": {
+      "type": "element",
+      "id": "19"
+    },
+    "el.Ca": {
+      "type": "element",
+      "id": "20"
+    },
+    "el.Fe": {
+      "type": "element",
+      "id": "21"
+    },
+    "el.Cu": {
+      "type": "element",
+      "id": "22"
+    },
+    "el.Zn": {
+      "type": "element",
+      "id": "23"
+    },
+    "el.Ag": {
+      "type": "element",
+      "id": "24"
+    },
+    "el.Ba": {
+      "type": "element",
+      "id": "25"
+    },
+    "el.I": {
+      "type": "element",
+      "id": "26"
+    },
+    "el.Mn": {
+      "type": "element",
+      "id": "27"
+    },
+    "el.Cr": {
+      "type": "element",
+      "id": "28"
+    },
+    "el.Br": {
+      "type": "element",
+      "id": "29"
+    },
+    "el.Hg": {
+      "type": "element",
+      "id": "30"
+    },
+    "concept.substance_class": {
+      "type": "concept",
+      "id": "2"
+    },
+    "concept.pure_mixture": {
+      "type": "concept",
+      "id": "3"
+    },
+    "concept.elemental_compound": {
+      "type": "concept",
+      "id": "4"
+    },
+    "concept.electrolyte": {
+      "type": "concept",
+      "id": "5"
+    },
+    "concept.nonelectrolyte": {
+      "type": "concept",
+      "id": "6"
+    },
+    "concept.ionization": {
+      "type": "concept",
+      "id": "7"
+    },
+    "concept.ionic_reaction": {
+      "type": "concept",
+      "id": "8"
+    },
+    "concept.ion_coexist": {
+      "type": "concept",
+      "id": "9"
+    },
+    "concept.oxidant_reductant": {
+      "type": "concept",
+      "id": "10"
+    },
+    "concept.valence_rules": {
+      "type": "concept",
+      "id": "11"
+    },
+    "concept.periodic_law": {
+      "type": "concept",
+      "id": "12"
+    },
+    "concept.metal_trend": {
+      "type": "concept",
+      "id": "13"
+    },
+    "concept.nonmetal_trend": {
+      "type": "concept",
+      "id": "14"
+    },
+    "concept.ionic_bond": {
+      "type": "concept",
+      "id": "15"
+    },
+    "concept.covalent_bond": {
+      "type": "concept",
+      "id": "16"
+    },
+    "concept.reaction_rate": {
+      "type": "concept",
+      "id": "17"
+    },
+    "concept.reaction_extent": {
+      "type": "concept",
+      "id": "18"
+    },
+    "concept.mass_conserve": {
+      "type": "concept",
+      "id": "19"
+    },
+    "concept.charge_conserve": {
+      "type": "concept",
+      "id": "20"
+    },
+    "concept.electron_conserve": {
+      "type": "concept",
+      "id": "21"
+    },
+    "concept.solution_colloid": {
+      "type": "concept",
+      "id": "22"
+    },
+    "concept.acid_base_salt": {
+      "type": "concept",
+      "id": "23"
+    },
+    "concept.oxide_class": {
+      "type": "concept",
+      "id": "24"
+    },
+    "formula.N_n_NA": {
+      "type": "formula",
+      "id": "2"
+    },
+    "formula.Vm": {
+      "type": "formula",
+      "id": "3"
+    },
+    "formula.c_n_V": {
+      "type": "formula",
+      "id": "4"
+    },
+    "formula.dilution": {
+      "type": "formula",
+      "id": "5"
+    },
+    "formula.M_m_n": {
+      "type": "formula",
+      "id": "6"
+    },
+    "formula.rho_c_M": {
+      "type": "formula",
+      "id": "7"
+    },
+    "formula.mass_percent": {
+      "type": "formula",
+      "id": "8"
+    },
+    "formula.equation_ratio": {
+      "type": "formula",
+      "id": "9"
+    },
+    "formula.electron_transfer": {
+      "type": "formula",
+      "id": "10"
+    },
+    "formula.gas_STP": {
+      "type": "formula",
+      "id": "11"
+    },
+    "formula.Avogadro": {
+      "type": "formula",
+      "id": "12"
+    },
+    "kp.redox.ox_product": {
+      "type": "knowledge",
+      "id": "6"
+    },
+    "kp.redox.re_product": {
+      "type": "knowledge",
+      "id": "7"
+    },
+    "kp.redox.e_transfer": {
+      "type": "knowledge",
+      "id": "8"
+    },
+    "kp.redox.e_conserve": {
+      "type": "knowledge",
+      "id": "9"
+    },
+    "kp.ion.electrolyte": {
+      "type": "knowledge",
+      "id": "10"
+    },
+    "kp.ion.ionization_eq": {
+      "type": "knowledge",
+      "id": "11"
+    },
+    "kp.ion.coexist": {
+      "type": "knowledge",
+      "id": "12"
+    },
+    "kp.ion.ionic_eq": {
+      "type": "knowledge",
+      "id": "13"
+    },
+    "kp.structure.atom": {
+      "type": "knowledge",
+      "id": "14"
+    },
+    "kp.structure.isotope": {
+      "type": "knowledge",
+      "id": "15"
+    },
+    "kp.structure.bond": {
+      "type": "knowledge",
+      "id": "16"
+    },
+    "kp.structure.electron_formula": {
+      "type": "knowledge",
+      "id": "17"
+    },
+    "kp.periodic.position": {
+      "type": "knowledge",
+      "id": "18"
+    },
+    "kp.periodic.e_config": {
+      "type": "knowledge",
+      "id": "19"
+    },
+    "kp.periodic.trend": {
+      "type": "knowledge",
+      "id": "20"
+    },
+    "kp.calc.amount": {
+      "type": "knowledge",
+      "id": "21"
+    },
+    "kp.calc.concentration": {
+      "type": "knowledge",
+      "id": "22"
+    },
+    "kp.calc.dilution": {
+      "type": "knowledge",
+      "id": "23"
+    },
+    "kp.memory.valence_table": {
+      "type": "knowledge",
+      "id": "24"
+    },
+    "kp.memory.ion_table": {
+      "type": "knowledge",
+      "id": "25"
+    },
+    "kp.memory.color_table": {
+      "type": "knowledge",
+      "id": "26"
+    }
+  }
+}

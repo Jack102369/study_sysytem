@@ -1,0 +1,242 @@
+{
+  "successCount": 0,
+  "failCount": 26,
+  "linkOk": 0,
+  "linkFail": 0,
+  "results": [
+    {
+      "index": 0,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.He",
+      "errors": [
+        "重复记录已存在（id=5）"
+      ]
+    },
+    {
+      "index": 1,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Li",
+      "errors": [
+        "重复记录已存在（id=6）"
+      ]
+    },
+    {
+      "index": 2,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Be",
+      "errors": [
+        "重复记录已存在（id=7）"
+      ]
+    },
+    {
+      "index": 3,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.B",
+      "errors": [
+        "重复记录已存在（id=8）"
+      ]
+    },
+    {
+      "index": 4,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.C",
+      "errors": [
+        "重复记录已存在（id=9）"
+      ]
+    },
+    {
+      "index": 5,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.N",
+      "errors": [
+        "重复记录已存在（id=10）"
+      ]
+    },
+    {
+      "index": 6,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.F",
+      "errors": [
+        "重复记录已存在（id=11）"
+      ]
+    },
+    {
+      "index": 7,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Ne",
+      "errors": [
+        "重复记录已存在（id=12）"
+      ]
+    },
+    {
+      "index": 8,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Mg",
+      "errors": [
+        "重复记录已存在（id=13）"
+      ]
+    },
+    {
+      "index": 9,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Al",
+      "errors": [
+        "重复记录已存在（id=14）"
+      ]
+    },
+    {
+      "index": 10,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Si",
+      "errors": [
+        "重复记录已存在（id=15）"
+      ]
+    },
+    {
+      "index": 11,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.P",
+      "errors": [
+        "重复记录已存在（id=16）"
+      ]
+    },
+    {
+      "index": 12,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.S",
+      "errors": [
+        "重复记录已存在（id=17）"
+      ]
+    },
+    {
+      "index": 13,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Ar",
+      "errors": [
+        "重复记录已存在（id=18）"
+      ]
+    },
+    {
+      "index": 14,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.K",
+      "errors": [
+        "重复记录已存在（id=19）"
+      ]
+    },
+    {
+      "index": 15,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Ca",
+      "errors": [
+        "重复记录已存在（id=20）"
+      ]
+    },
+    {
+      "index": 16,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Fe",
+      "errors": [
+        "重复记录已存在（id=21）"
+      ]
+    },
+    {
+      "index": 17,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Cu",
+      "errors": [
+        "重复记录已存在（id=22）"
+      ]
+    },
+    {
+      "index": 18,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Zn",
+      "errors": [
+        "重复记录已存在（id=23）"
+      ]
+    },
+    {
+      "index": 19,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Ag",
+      "errors": [
+        "重复记录已存在（id=24）"
+      ]
+    },
+    {
+      "index": 20,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Ba",
+      "errors": [
+        "重复记录已存在（id=25）"
+      ]
+    },
+    {
+      "index": 21,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.I",
+      "errors": [
+        "重复记录已存在（id=26）"
+      ]
+    },
+    {
+      "index": 22,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Mn",
+      "errors": [
+        "重复记录已存在（id=27）"
+      ]
+    },
+    {
+      "index": 23,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Cr",
+      "errors": [
+        "重复记录已存在（id=28）"
+      ]
+    },
+    {
+      "index": 24,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Br",
+      "errors": [
+        "重复记录已存在（id=29）"
+      ]
+    },
+    {
+      "index": 25,
+      "type": "element",
+      "ok": false,
+      "inventoryCode": "el.Hg",
+      "errors": [
+        "重复记录已存在（id=30）"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,686 @@
+{
+  "verifiedAt": "2026-10-18T05:27:33.751Z",
+  "planned": 74,
+  "mapped": 74,
+  "importSuccess": 74,
+  "importFail": 0,
+  "linkOk": 74,
+  "linkFail": 0,
+  "pendingReview": 74,
+  "statusMismatch": 0,
+  "missing": 0,
+  "coverageOk": 74,
+  "reuse": 0,
+  "duplicateImport": false,
+  "sampleCl2Links": {
+    "n": 2
+  },
+  "coverage": [
+    {
+      "code": "sub.Cl2",
+      "type": "substance",
+      "dbId": 34,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.HCl",
+      "type": "substance",
+      "dbId": 35,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.HCl_aq",
+      "type": "substance",
+      "dbId": 36,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.HClO",
+      "type": "substance",
+      "dbId": 37,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.NaClO",
+      "type": "substance",
+      "dbId": 38,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.S",
+      "type": "substance",
+      "dbId": 39,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.SO2",
+      "type": "substance",
+      "dbId": 40,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.SO3",
+      "type": "substance",
+      "dbId": 41,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.H2SO4",
+      "type": "substance",
+      "dbId": 42,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.H2SO3",
+      "type": "substance",
+      "dbId": 43,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.N2",
+      "type": "substance",
+      "dbId": 44,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.NH3",
+      "type": "substance",
+      "dbId": 45,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.NO",
+      "type": "substance",
+      "dbId": 46,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.NO2",
+      "type": "substance",
+      "dbId": 47,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.HNO3",
+      "type": "substance",
+      "dbId": 48,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.C",
+      "type": "substance",
+      "dbId": 49,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.CO",
+      "type": "substance",
+      "dbId": 50,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.Si",
+      "type": "substance",
+      "dbId": 51,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.SiO2",
+      "type": "substance",
+      "dbId": 52,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.Na2SiO3",
+      "type": "substance",
+      "dbId": 53,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.P",
+      "type": "substance",
+      "dbId": 54,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.P4O10",
+      "type": "substance",
+      "dbId": 55,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.H2S",
+      "type": "substance",
+      "dbId": 56,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.CaCO3",
+      "type": "substance",
+      "dbId": 57,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.CaOH2",
+      "type": "substance",
+      "dbId": 58,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.H2_Cl2",
+      "type": "reaction",
+      "dbId": 34,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.2Na_Cl2",
+      "type": "reaction",
+      "dbId": 35,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.2Fe_3Cl2",
+      "type": "reaction",
+      "dbId": 36,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.Cl2_H2O",
+      "type": "reaction",
+      "dbId": 37,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.Cl2_2NaOH",
+      "type": "reaction",
+      "dbId": 38,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.MnO2_4HCl",
+      "type": "reaction",
+      "dbId": 39,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.S_O2",
+      "type": "reaction",
+      "dbId": 40,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.2SO2_O2",
+      "type": "reaction",
+      "dbId": 41,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.SO3_H2O",
+      "type": "reaction",
+      "dbId": 42,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.Cu_2H2SO4",
+      "type": "reaction",
+      "dbId": 43,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.C_2H2SO4",
+      "type": "reaction",
+      "dbId": 44,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.N2_3H2",
+      "type": "reaction",
+      "dbId": 45,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.NH3_HCl",
+      "type": "reaction",
+      "dbId": 46,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.4NH3_5O2",
+      "type": "reaction",
+      "dbId": 47,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.2NO_O2",
+      "type": "reaction",
+      "dbId": 48,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.3NO2_H2O",
+      "type": "reaction",
+      "dbId": 49,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.Cu_4HNO3",
+      "type": "reaction",
+      "dbId": 50,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.Cu_4HNO3c",
+      "type": "reaction",
+      "dbId": 51,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.C_O2_incomplete",
+      "type": "reaction",
+      "dbId": 52,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.C_O2_complete",
+      "type": "reaction",
+      "dbId": 53,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.CO2_CaOH2",
+      "type": "reaction",
+      "dbId": 54,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.SiO2_2NaOH",
+      "type": "reaction",
+      "dbId": 55,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.SiO2_2C",
+      "type": "reaction",
+      "dbId": 56,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.CaCO3_2HCl",
+      "type": "reaction",
+      "dbId": 57,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "exp.Cl2_prep",
+      "type": "experiment",
+      "dbId": 9,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "exp.Cl2_property",
+      "type": "experiment",
+      "dbId": 10,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "exp.HCl_prep",
+      "type": "experiment",
+      "dbId": 11,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "exp.SO2_property",
+      "type": "experiment",
+      "dbId": 12,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "exp.NH3_prep",
+      "type": "experiment",
+      "dbId": 13,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "exp.HNO3_Cu",
+      "type": "experiment",
+      "dbId": 14,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "exp.CO2_property",
+      "type": "experiment",
+      "dbId": 15,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "exp.SiO2_glass",
+      "type": "experiment",
+      "dbId": 16,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "kp.Cl.property",
+      "type": "knowledge",
+      "dbId": 42,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "kp.Cl.prep",
+      "type": "knowledge",
+      "dbId": 43,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "kp.S.oxide",
+      "type": "knowledge",
+      "dbId": 44,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "kp.N.cycle",
+      "type": "knowledge",
+      "dbId": 45,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "kp.N.ammonia",
+      "type": "knowledge",
+      "dbId": 46,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "kp.C.oxide",
+      "type": "knowledge",
+      "dbId": 47,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "kp.Si.property",
+      "type": "knowledge",
+      "dbId": 48,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "kp.nonmetal.test",
+      "type": "knowledge",
+      "dbId": 49,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.Br2",
+      "type": "substance",
+      "dbId": 59,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.I2",
+      "type": "substance",
+      "dbId": 60,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "sub.bleaching_powder",
+      "type": "substance",
+      "dbId": 61,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "kp.S.conc_H2SO4",
+      "type": "knowledge",
+      "dbId": 50,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "kp.N.ammonium",
+      "type": "knowledge",
+      "dbId": 51,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "rxn.NH4Cl_NaOH",
+      "type": "reaction",
+      "dbId": 58,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "kp.halogen.compare",
+      "type": "knowledge",
+      "dbId": 52,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "kp.N.synth_ammonia",
+      "type": "knowledge",
+      "dbId": 53,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    },
+    {
+      "code": "kp.Cl.bleach",
+      "type": "knowledge",
+      "dbId": 54,
+      "dbStatus": "pending_review",
+      "hasInvTag": true,
+      "ok": true,
+      "handling": "imported_new"
+    }
+  ]
+}

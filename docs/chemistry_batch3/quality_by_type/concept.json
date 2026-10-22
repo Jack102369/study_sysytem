@@ -1,0 +1,33 @@
+[
+  {
+    "code": "concept.alloy",
+    "type": "concept",
+    "data": {
+      "name": "合金",
+      "definition": "合金是由两种或两种以上的金属（或金属与非金属）熔合而成的具有金属特性的物质，一般属于混合物。",
+      "principle": "合金的组成可在一定范围内变化；许多合金的硬度、熔点、抗腐蚀性等性能往往优于成分金属，从而满足不同用途。",
+      "applicableConditions": "讨论金属材料组成与性能比较时（必修金属材料部分）。",
+      "judgeMethods": "看是否由多种金属（或金属与非金属）熔合且具金属特性；纯金属单质不是合金；注意合金一般是混合物，无固定化学式。",
+      "examples": "生铁、钢、黄铜、不锈钢、镁铝合金等。",
+      "commonMistakes": "把合金当成纯净物或化合物；认为合金熔点一定高于成分金属；用“一定更硬”绝对化而不看具体种类。",
+      "status": "pending_review",
+      "reviewNote": "[inv:concept.alloy] 增补；混合物、性能优于纯金属等"
+    },
+    "pack": "B3-D",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.chem_property",
+      "memory.rules"
+    ],
+    "dbId": "25",
+    "source": "imported",
+    "inventoryName": "合金",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "增补；混合物、性能优于纯金属等; batch3导入 pending_review id=25",
+    "verifyNeeded": false
+  }
+]

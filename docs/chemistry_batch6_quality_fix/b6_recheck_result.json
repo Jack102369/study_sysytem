@@ -1,0 +1,1744 @@
+{
+  "recheckedAt": "2026-10-18T10:47:55.947Z",
+  "inventoryTotal": 377,
+  "verdictCount": {
+    "通过": 74,
+    "需要修改": 0,
+    "待核实": 5
+  },
+  "severityByItem": {
+    "P0": 0,
+    "P1": 5,
+    "P2": 1,
+    "P3": 0,
+    "none": 73
+  },
+  "sum": 79,
+  "p0Remaining": 0,
+  "needFixCodes": [],
+  "verifyCodes": [
+    "concept.heat_of_reaction",
+    "kp.organic.cracking",
+    "kp.organic.pyrolysis",
+    "kp.sustain.atom_economy",
+    "kp.organic.biomolecule"
+  ],
+  "reactionRecheck": [
+    {
+      "code": "rxn.CH4_Cl2",
+      "type": "reaction",
+      "name": "甲烷与氯气取代",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.condition",
+        "equation.write_from_text",
+        "organic.substitution"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.C2H4_Br2",
+      "type": "reaction",
+      "name": "乙烯与溴加成",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.write_from_text",
+        "organic.addition"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.C2H4_H2O",
+      "type": "reaction",
+      "name": "乙烯水化制乙醇",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.condition",
+        "organic.addition"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.C2H4_H2",
+      "type": "reaction",
+      "name": "乙烯加氢",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.condition",
+        "organic.addition"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.C2H5OH_O2",
+      "type": "reaction",
+      "name": "乙醇催化氧化",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic",
+        "redox"
+      ],
+      "gotCat": [
+        "equation.condition",
+        "organic.ethanol",
+        "organic.oxidation",
+        "redox.identify",
+        "redox.ox_product",
+        "redox.re_product"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.C2H5OH_burn",
+      "type": "reaction",
+      "name": "乙醇燃烧",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic",
+        "redox"
+      ],
+      "gotCat": [
+        "equation.write_from_text",
+        "organic.ethanol",
+        "organic.oxidation",
+        "redox.identify",
+        "redox.ox_product",
+        "redox.re_product"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.esterification",
+      "type": "reaction",
+      "name": "乙酸乙酯酯化",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.condition",
+        "equation.write_from_text",
+        "organic.esterification"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.CH3COOH_NaOH",
+      "type": "reaction",
+      "name": "乙酸与氢氧化钠",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.ionic_write",
+        "equation.write_from_text",
+        "organic.acetic"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.CH3COOH_Na2CO3",
+      "type": "reaction",
+      "name": "乙酸与碳酸钠",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.ionic_write",
+        "equation.write_from_text",
+        "organic.acetic"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.C2H4_KMnO4",
+      "type": "reaction",
+      "name": "乙烯使酸性高锰酸钾褪色",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "experiment",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.write_from_text",
+        "experiment.phenomenon_judge",
+        "organic.ethene",
+        "organic.oxidation"
+      ],
+      "verifyNeeded": false
+    }
+  ],
+  "questionRecheck": [
+    {
+      "code": "q.organic.methane",
+      "type": "question",
+      "name": "甲烷选择题骨架",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.organic.ethene",
+      "type": "question",
+      "name": "乙烯加成判断题",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.organic.ethanol",
+      "type": "question",
+      "name": "乙醇性质填空题",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.organic.ester",
+      "type": "question",
+      "name": "酯化反应简答题",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.organic.isomer",
+      "type": "question",
+      "name": "同分异构体书写题",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.inference.block",
+      "type": "question",
+      "name": "框图推断题骨架",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "inference"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.inference.phenomenon",
+      "type": "question",
+      "name": "现象推断题骨架",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "inference"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.eq.Na_water",
+      "type": "question",
+      "name": "钠与水方程式题",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "published保留:题干问生成物、无方程式标准答案;不宜方程式自动判题(训练限制,未改DB正文)"
+      ],
+      "dbStatus": "published",
+      "gotSpec": [
+        "equation",
+        "substance"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.substance.NaOH",
+      "type": "question",
+      "name": "烧碱俗称与性质题",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "substance"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.comprehensive.mock",
+      "type": "question",
+      "name": "综合模拟题组骨架",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    }
+  ],
+  "packDbP0": {
+    "packO2": {
+      "ox": "CH3CHO",
+      "re": "H2O"
+    },
+    "packBurn": {
+      "ox": "CO2",
+      "re": "H2O"
+    }
+  },
+  "naWater": {
+    "handling": "published_unchanged_training_limit_only",
+    "status": "published",
+    "stem": "钠与水反应的生成物是？",
+    "answer": "NaOH 和 H2",
+    "review_note": "",
+    "dbModified": false
+  },
+  "priorOk": true,
+  "rows": [
+    {
+      "code": "sub.CH4",
+      "type": "substance",
+      "name": "甲烷",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic",
+        "substance"
+      ],
+      "gotCat": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "sub.C2H4",
+      "type": "substance",
+      "name": "乙烯",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic",
+        "substance"
+      ],
+      "gotCat": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "sub.C2H6",
+      "type": "substance",
+      "name": "乙烷",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic",
+        "substance"
+      ],
+      "gotCat": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "sub.C2H5OH",
+      "type": "substance",
+      "name": "乙醇",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic",
+        "substance"
+      ],
+      "gotCat": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "sub.CH3COOH",
+      "type": "substance",
+      "name": "乙酸",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic",
+        "substance"
+      ],
+      "gotCat": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "sub.CH3COOCH2CH3",
+      "type": "substance",
+      "name": "乙酸乙酯",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic",
+        "substance"
+      ],
+      "gotCat": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "sub.C2H2",
+      "type": "substance",
+      "name": "乙炔",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic",
+        "substance"
+      ],
+      "gotCat": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "sub.C3H8",
+      "type": "substance",
+      "name": "丙烷",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic",
+        "substance"
+      ],
+      "gotCat": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "sub.C6H6",
+      "type": "substance",
+      "name": "苯",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic",
+        "substance"
+      ],
+      "gotCat": [
+        "organic.basic",
+        "substance.formula"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.CH4_Cl2",
+      "type": "reaction",
+      "name": "甲烷与氯气取代",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.condition",
+        "equation.write_from_text",
+        "organic.substitution"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.C2H4_Br2",
+      "type": "reaction",
+      "name": "乙烯与溴加成",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.write_from_text",
+        "organic.addition"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.C2H4_H2O",
+      "type": "reaction",
+      "name": "乙烯水化制乙醇",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.condition",
+        "organic.addition"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.C2H4_H2",
+      "type": "reaction",
+      "name": "乙烯加氢",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.condition",
+        "organic.addition"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.C2H5OH_O2",
+      "type": "reaction",
+      "name": "乙醇催化氧化",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic",
+        "redox"
+      ],
+      "gotCat": [
+        "equation.condition",
+        "organic.ethanol",
+        "organic.oxidation",
+        "redox.identify",
+        "redox.ox_product",
+        "redox.re_product"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.C2H5OH_burn",
+      "type": "reaction",
+      "name": "乙醇燃烧",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic",
+        "redox"
+      ],
+      "gotCat": [
+        "equation.write_from_text",
+        "organic.ethanol",
+        "organic.oxidation",
+        "redox.identify",
+        "redox.ox_product",
+        "redox.re_product"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.esterification",
+      "type": "reaction",
+      "name": "乙酸乙酯酯化",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.condition",
+        "equation.write_from_text",
+        "organic.esterification"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.CH3COOH_NaOH",
+      "type": "reaction",
+      "name": "乙酸与氢氧化钠",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.ionic_write",
+        "equation.write_from_text",
+        "organic.acetic"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "rxn.CH3COOH_Na2CO3",
+      "type": "reaction",
+      "name": "乙酸与碳酸钠",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.ionic_write",
+        "equation.write_from_text",
+        "organic.acetic"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "exp.CH4_property",
+      "type": "experiment",
+      "name": "甲烷性质实验认知",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "experiment",
+        "organic"
+      ],
+      "gotCat": [
+        "experiment.safety",
+        "organic.property"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "exp.C2H4_prep",
+      "type": "experiment",
+      "name": "乙烯的实验室制法",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "experiment",
+        "organic"
+      ],
+      "gotCat": [
+        "experiment.safety",
+        "organic.property"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "exp.C2H4_Br2",
+      "type": "experiment",
+      "name": "乙烯使溴水褪色",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "experiment",
+        "organic"
+      ],
+      "gotCat": [
+        "experiment.safety",
+        "organic.property"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "exp.ethanol_oxid",
+      "type": "experiment",
+      "name": "乙醇催化氧化",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "experiment",
+        "organic"
+      ],
+      "gotCat": [
+        "experiment.safety",
+        "organic.property"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "exp.esterification",
+      "type": "experiment",
+      "name": "乙酸乙酯制备",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "experiment",
+        "organic"
+      ],
+      "gotCat": [
+        "experiment.safety",
+        "organic.property"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "exp.acetic_acid",
+      "type": "experiment",
+      "name": "乙酸酸性验证",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "experiment",
+        "organic"
+      ],
+      "gotCat": [
+        "experiment.safety",
+        "organic.property"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "concept.homolog",
+      "type": "concept",
+      "name": "同系物",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [
+        "organic.homolog",
+        "organic.isomer"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "concept.isomer",
+      "type": "concept",
+      "name": "同分异构体",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [
+        "organic.homolog",
+        "organic.isomer"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "concept.functional_group",
+      "type": "concept",
+      "name": "官能团初步",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [
+        "organic.basic",
+        "organic.structure_formula"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "concept.substitution",
+      "type": "concept",
+      "name": "取代反应",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [
+        "organic.substitution"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "concept.addition",
+      "type": "concept",
+      "name": "加成反应",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [
+        "organic.addition"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "concept.esterification_rule",
+      "type": "concept",
+      "name": "酯化反应规律",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [
+        "organic.esterification"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.organic.methane",
+      "type": "knowledge",
+      "name": "甲烷结构与性质",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.organic.alkane",
+      "type": "knowledge",
+      "name": "烷烃通式与性质",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.organic.ethene",
+      "type": "knowledge",
+      "name": "乙烯结构与性质",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.organic.ethanol",
+      "type": "knowledge",
+      "name": "乙醇结构与性质",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.organic.acetic",
+      "type": "knowledge",
+      "name": "乙酸结构与性质",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.organic.isomer_skill",
+      "type": "knowledge",
+      "name": "同分异构体书写技能",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.inference.color",
+      "type": "knowledge",
+      "name": "颜色推断方法",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "inference"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.inference.block",
+      "type": "knowledge",
+      "name": "无机框图推断策略",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "inference"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.inference.conversion",
+      "type": "knowledge",
+      "name": "物质转化推断",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "inference"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.comprehensive.basic",
+      "type": "knowledge",
+      "name": "基础综合解题框架",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.organic.methane",
+      "type": "question",
+      "name": "甲烷选择题骨架",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.organic.ethene",
+      "type": "question",
+      "name": "乙烯加成判断题",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.organic.ethanol",
+      "type": "question",
+      "name": "乙醇性质填空题",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.organic.ester",
+      "type": "question",
+      "name": "酯化反应简答题",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.organic.isomer",
+      "type": "question",
+      "name": "同分异构体书写题",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.inference.block",
+      "type": "question",
+      "name": "框图推断题骨架",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "inference"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.inference.phenomenon",
+      "type": "question",
+      "name": "现象推断题骨架",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "inference"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.eq.Na_water",
+      "type": "question",
+      "name": "钠与水方程式题",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "published保留:题干问生成物、无方程式标准答案;不宜方程式自动判题(训练限制,未改DB正文)"
+      ],
+      "dbStatus": "published",
+      "gotSpec": [
+        "equation",
+        "substance"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.substance.NaOH",
+      "type": "question",
+      "name": "烧碱俗称与性质题",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "substance"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "q.comprehensive.mock",
+      "type": "question",
+      "name": "综合模拟题组骨架",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive"
+      ],
+      "gotCat": [],
+      "verifyNeeded": false
+    },
+    {
+      "code": "concept.endothermic",
+      "type": "concept",
+      "name": "吸热反应",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "memory"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "memory.rules"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "concept.exothermic",
+      "type": "concept",
+      "name": "放热反应",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "memory"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "memory.rules"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.energy.bond_change",
+      "type": "knowledge",
+      "name": "化学键与能量变化",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "structure"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "structure.covalent_bond",
+        "structure.ionic_bond"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.energy.chem_electric",
+      "type": "knowledge",
+      "name": "化学能与电能",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "redox"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "redox.e_direction"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.energy.galvanic",
+      "type": "knowledge",
+      "name": "原电池",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "redox"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "redox.e_direction"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.energy.galvanic_poles",
+      "type": "knowledge",
+      "name": "原电池正负极",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "redox"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "redox.e_direction"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.energy.electron_flow",
+      "type": "knowledge",
+      "name": "原电池电子流向",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "redox"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "redox.e_direction"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.energy.electrode_rxn",
+      "type": "knowledge",
+      "name": "原电池电极反应",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "equation",
+        "redox"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "equation.ionic_write",
+        "redox.identify"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.energy.chem_power",
+      "type": "knowledge",
+      "name": "常见化学电源",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "memory"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "memory.rules"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "exp.galvanic_Zn_Cu",
+      "type": "experiment",
+      "name": "铜锌原电池实验",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "experiment",
+        "redox"
+      ],
+      "gotCat": [
+        "experiment.inquiry",
+        "experiment.phenomenon_desc",
+        "redox.e_direction"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "concept.heat_of_reaction",
+      "type": "concept",
+      "name": "反应热",
+      "verdict": "待核实",
+      "severity": "P1",
+      "issues": [
+        "verifyNeeded保留;默认训练限制"
+      ],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "memory"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "memory.rules"
+      ],
+      "verifyNeeded": true
+    },
+    {
+      "code": "kp.energy.thermo_eq",
+      "type": "knowledge",
+      "name": "热化学方程式书写",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "equation"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "equation.condition",
+        "equation.write_from_text"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.sustain.seawater",
+      "type": "knowledge",
+      "name": "海水资源开发",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "substance"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "substance.usage"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.sustain.coal",
+      "type": "knowledge",
+      "name": "煤的综合利用",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "organic"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "organic.basic"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.organic.petroleum",
+      "type": "knowledge",
+      "name": "石油分馏",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "organic"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "organic.basic"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.organic.cracking",
+      "type": "knowledge",
+      "name": "石油裂化",
+      "verdict": "待核实",
+      "severity": "P1",
+      "issues": [
+        "verifyNeeded保留;默认训练限制"
+      ],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "organic"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "organic.basic"
+      ],
+      "verifyNeeded": true
+    },
+    {
+      "code": "kp.organic.pyrolysis",
+      "type": "knowledge",
+      "name": "石油裂解",
+      "verdict": "待核实",
+      "severity": "P1",
+      "issues": [
+        "verifyNeeded保留;默认训练限制"
+      ],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "organic"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "organic.basic"
+      ],
+      "verifyNeeded": true
+    },
+    {
+      "code": "kp.sustain.natural_gas",
+      "type": "knowledge",
+      "name": "天然气利用",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "organic"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "organic.methane"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.sustain.fertilizer",
+      "type": "knowledge",
+      "name": "化肥合理使用",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive"
+      ],
+      "gotCat": [
+        "comprehensive.basic"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.sustain.pesticide",
+      "type": "knowledge",
+      "name": "农药合理使用",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive"
+      ],
+      "gotCat": [
+        "comprehensive.basic"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.sustain.medicine",
+      "type": "knowledge",
+      "name": "药物合理使用",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive"
+      ],
+      "gotCat": [
+        "comprehensive.basic"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.sustain.food_additive",
+      "type": "knowledge",
+      "name": "食品添加剂",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive"
+      ],
+      "gotCat": [
+        "comprehensive.basic"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.enviro.pollution",
+      "type": "knowledge",
+      "name": "环境污染与防治认知",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive"
+      ],
+      "gotCat": [
+        "comprehensive.basic"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.enviro.acid_rain",
+      "type": "knowledge",
+      "name": "酸雨",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "substance"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "substance.chem_property"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.sustain.green_chem",
+      "type": "knowledge",
+      "name": "绿色化学",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive"
+      ],
+      "gotCat": [
+        "comprehensive.basic"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.sustain.atom_economy",
+      "type": "knowledge",
+      "name": "原子经济性",
+      "verdict": "待核实",
+      "severity": "P1",
+      "issues": [
+        "verifyNeeded保留;默认训练限制"
+      ],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive"
+      ],
+      "gotCat": [
+        "comprehensive.basic"
+      ],
+      "verifyNeeded": true
+    },
+    {
+      "code": "concept.addition_polymer",
+      "type": "concept",
+      "name": "加成聚合",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "organic"
+      ],
+      "gotCat": [
+        "organic.addition",
+        "organic.basic"
+      ],
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.organic.biomolecule",
+      "type": "knowledge",
+      "name": "生命中的基本有机物（了解）",
+      "verdict": "待核实",
+      "severity": "P1",
+      "issues": [
+        "verifyNeeded保留;默认训练限制"
+      ],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "comprehensive",
+        "organic"
+      ],
+      "gotCat": [
+        "comprehensive.basic",
+        "organic.basic"
+      ],
+      "verifyNeeded": true
+    },
+    {
+      "code": "rxn.C2H4_KMnO4",
+      "type": "reaction",
+      "name": "乙烯使酸性高锰酸钾褪色",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "dbStatus": "pending_review",
+      "gotSpec": [
+        "equation",
+        "experiment",
+        "organic"
+      ],
+      "gotCat": [
+        "equation.write_from_text",
+        "experiment.phenomenon_judge",
+        "organic.ethene",
+        "organic.oxidation"
+      ],
+      "verifyNeeded": false
+    }
+  ]
+}

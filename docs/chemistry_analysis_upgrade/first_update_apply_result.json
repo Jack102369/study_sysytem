@@ -1,0 +1,524 @@
+{
+  "generatedAt": "2026-10-20T02:25:43.463Z",
+  "mode": "idempotent_check",
+  "ok": true,
+  "precheck": {
+    "errors": [],
+    "liveConflicts": []
+  },
+  "apply": {
+    "updatedCount": 0,
+    "idempotentSkip": 48,
+    "results": [
+      {
+        "id": "307",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "309",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "22",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "208",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "234",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "109",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "10",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "251",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "204",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "24",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "23",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "48",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "235",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "51",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "96",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "252",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "223",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "224",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "225",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "226",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "228",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "229",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "230",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "231",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "232",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "276",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "277",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "278",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "279",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "280",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "308",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "310",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "49",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "248",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "95",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "113",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "119",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "140",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "149",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "158",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "163",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "168",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "173",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "183",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "312",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "314",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "316",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      },
+      {
+        "id": "318",
+        "status": "SKIP_IDEMPOTENT",
+        "reason": "already_new"
+      }
+    ]
+  },
+  "verify": {
+    "updatedMatch": 48,
+    "expected": 48,
+    "s60Count": 60,
+    "s60AccidentallyGotWhitelistText": 0,
+    "otherItemsMatchingNewText": 0,
+    "bank": {
+      "total": 638,
+      "trainable": 634,
+      "formal": 0
+    },
+    "historyCounts": {
+      "sessions": 38,
+      "sessionItems": 194
+    },
+    "excludedPreserved": [
+      {
+        "id": "215",
+        "preservedExcluded": true
+      },
+      {
+        "id": "250",
+        "preservedExcluded": true
+      }
+    ],
+    "perItem": [
+      {
+        "id": "307",
+        "code": "train.ai_trial.pa.rxn_cond_judge.rxn.2Fe_3Cl2",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "309",
+        "code": "train.ai_trial.pa.rxn_is_redox_judge.rxn.2Fe_3Cl2",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "22",
+        "code": "train.ai_trial.013.con_j",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "208",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.calc.amount",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "234",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.exp.design",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "109",
+        "code": "train.ai_trial.pa.sub_common_name_judge.sub.C2H5OH",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "10",
+        "code": "train.ai_trial.001.el_sym",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "251",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.inference.block",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "204",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.Al.amphoteric",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "24",
+        "code": "train.ai_trial.015.con_j",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "23",
+        "code": "train.ai_trial.014.con_j",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "48",
+        "code": "train.ai_trial.046.fm_c",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "235",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.exp.error",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "51",
+        "code": "train.ai_trial.049.kp_j",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "96",
+        "code": "train.ai_trial.pa.sub_color_judge.sub.Al",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "252",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.inference.color",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "223",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.comprehensive.basic",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "224",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.bond_change",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "225",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.chem_electric",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "226",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.chem_power",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "228",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.electron_flow",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "229",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.galvanic",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "230",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.galvanic_poles",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "231",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.thermo_eq",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "232",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.enviro.acid_rain",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "276",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.acetic",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "277",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.alkane",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "278",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.ethanol",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "279",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.ethene",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "280",
+        "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.isomer_skill",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "308",
+        "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2Fe_3Cl2",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "310",
+        "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2Fe_3Cl2",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "49",
+        "code": "train.ai_trial.047.fm_stp",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "248",
+        "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.test",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "95",
+        "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Al",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "113",
+        "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CH3COOCH2CH3",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "119",
+        "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CH3COOH",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "140",
+        "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CuOH2",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "149",
+        "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Fe",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "158",
+        "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Fe3O4",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "163",
+        "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.FeOH2",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "168",
+        "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.FeOH3",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "173",
+        "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.FeSO4",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "183",
+        "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.HCl_aq",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "312",
+        "code": "train.ai_trial.pa.rxn_reductant_single.rxn.2Fe_3Cl2",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "314",
+        "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2Fe2_Cl2",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "316",
+        "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2Fe2_Cl2",
+        "analysisMatchesWhitelist": true
+      },
+      {
+        "id": "318",
+        "code": "train.ai_trial.pa.rxn_reductant_single.rxn.2Fe2_Cl2",
+        "analysisMatchesWhitelist": true
+      }
+    ],
+    "unusedS60ChangedHint": 0
+  }
+}

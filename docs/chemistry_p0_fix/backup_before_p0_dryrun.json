@@ -1,0 +1,59 @@
+{
+  "backedUpAt": "2026-10-18T04:03:48.640Z",
+  "apply": false,
+  "knowledge": [
+    {
+      "id": 14,
+      "name": "原子组成与三粒子",
+      "description": "原子组成：质子数=核电荷数=原子序数；质量数≈质子数+中子数；核外电子数=质子数（原子）。离子电子数随之变化。",
+      "status": "pending_review",
+      "reviewNote": "[inv:kp.structure.atom]"
+    }
+  ],
+  "formula": [
+    {
+      "id": 7,
+      "name": "密度与浓度换算",
+      "expression": "c = 1000ρw / M",
+      "variables": "ρ:溶液密度(g/mL)；w:溶质质量分数；M:溶质摩尔质量；c:物质的量浓度",
+      "units": "c:mol/L",
+      "applicableConditions": "由密度与质量分数换算物质的量浓度",
+      "examples": "用于浓硫酸等标签数据换算",
+      "commonMistakes": "密度单位用错（g/cm3与g/mL数值相同但要一致）",
+      "status": "pending_review",
+      "reviewNote": "[inv:formula.rho_c_M] 待核实:系数1000来自体积单位换算，使用时注意单位"
+    }
+  ],
+  "reaction": [
+    {
+      "id": 1,
+      "name": "钠与水反应",
+      "canonicalEquation": "2Na+2H2O=2NaOH+H2",
+      "equation": "2Na + 2H2O = 2NaOH + H2↑",
+      "oxidant": "H2O",
+      "reductant": "Na",
+      "oxProduct": "H2",
+      "reProduct": "NaOH",
+      "electronTransfer": "Na 失 1e-；H 得 1e-（按原子计）",
+      "status": "published"
+    }
+  ],
+  "references": {
+    "knowledgeWithMassNumber": [
+      {
+        "id": 14,
+        "name": "原子组成与三粒子",
+        "description": "原子组成：质子数=核电荷数=原子序数；质量数≈质子数+中子数；核外电子数=质子数（原子）。离子电子数随之变化。"
+      }
+    ],
+    "densityRelatedFormulas": [
+      {
+        "id": 7,
+        "name": "密度与浓度换算",
+        "expression": "c = 1000ρw / M",
+        "variables": "ρ:溶液密度(g/mL)；w:溶质质量分数；M:溶质摩尔质量；c:物质的量浓度",
+        "units": "c:mol/L"
+      }
+    ]
+  }
+}

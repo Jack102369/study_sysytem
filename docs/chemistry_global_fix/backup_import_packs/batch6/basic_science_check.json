@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-10-18T09:10:50.836Z",
+  "checks": [
+    {
+      "code": "rxn.CH4_Cl2",
+      "ok": true,
+      "msg": "multi-chloro"
+    },
+    {
+      "code": "rxn.esterification",
+      "ok": true,
+      "msg": "reversible"
+    },
+    {
+      "code": "rxn.C2H5OH_O2",
+      "ok": true,
+      "msg": "catalyst+heat"
+    },
+    {
+      "code": "rxn.C2H4_KMnO4",
+      "ok": false,
+      "msg": "no unique product"
+    },
+    {
+      "code": "concept.endothermic",
+      "ok": true,
+      "msg": "heat!=endo"
+    },
+    {
+      "code": "exp.galvanic",
+      "ok": true,
+      "msg": "e vs ions"
+    },
+    {
+      "code": "concept.heat_of_reaction",
+      "ok": true,
+      "msg": "verify kept"
+    },
+    {
+      "code": "kp.organic.cracking",
+      "ok": true,
+      "msg": "verify kept"
+    },
+    {
+      "code": "kp.organic.pyrolysis",
+      "ok": true,
+      "msg": "verify kept"
+    },
+    {
+      "code": "kp.sustain.atom_economy",
+      "ok": true,
+      "msg": "verify kept"
+    },
+    {
+      "code": "kp.organic.biomolecule",
+      "ok": true,
+      "msg": "verify kept"
+    }
+  ]
+}

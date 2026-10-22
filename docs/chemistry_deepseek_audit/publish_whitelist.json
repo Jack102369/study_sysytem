@@ -1,0 +1,2972 @@
+{
+  "generatedAt": "2026-10-18T12:15:46.003Z",
+  "note": "仅白名单建议；数据库 status 尚未改为 published；需人工确认后再执行发布。",
+  "model": "deepseek-chat",
+  "passCount": 239,
+  "items": [
+    {
+      "code": "el.He",
+      "type": "element",
+      "name": "氦",
+      "dbId": "5",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "符号He、原子序数2、中文名氦、英文名Helium均正确",
+        "分类为惰性气体（稀有气体）符合高一表述",
+        "dbReviewNote已修正为最轻稀有气体，表述准确"
+      ]
+    },
+    {
+      "code": "el.Li",
+      "type": "element",
+      "name": "锂",
+      "dbId": "6",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "符号Li、原子序数3、中文名锂、英文名Lithium均正确",
+        "分类为金属符合碱金属族事实"
+      ]
+    },
+    {
+      "code": "el.Be",
+      "type": "element",
+      "name": "铍",
+      "dbId": "7",
+      "batch": "batch2",
+      "confidence": 0.93,
+      "reasons": [
+        "符号Be、原子序数4、中文名铍、英文名Beryllium均正确",
+        "dbReviewNote限定仅保留基础信息、复杂性质作了解，范围控制合理"
+      ]
+    },
+    {
+      "code": "el.B",
+      "type": "element",
+      "name": "硼",
+      "dbId": "8",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "符号B、原子序数5、中文名硼、英文名Boron均正确",
+        "分类为非金属符合事实"
+      ]
+    },
+    {
+      "code": "el.C",
+      "type": "element",
+      "name": "碳",
+      "dbId": "9",
+      "batch": "batch2",
+      "confidence": 0.97,
+      "reasons": [
+        "元素符号C、原子序数6、中文名碳、英文名Carbon均正确",
+        "分类为非金属，符合高一/高考表述"
+      ]
+    },
+    {
+      "code": "el.N",
+      "type": "element",
+      "name": "氮",
+      "dbId": "10",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "元素符号N、原子序数7、中文名氮、英文名Nitrogen均正确",
+        "dbReviewNote中补常见化合价+1,+3属氮的常见价态，无科学错误"
+      ]
+    },
+    {
+      "code": "el.F",
+      "type": "element",
+      "name": "氟",
+      "dbId": "11",
+      "batch": "batch2",
+      "confidence": 0.97,
+      "reasons": [
+        "元素符号F、原子序数9、中文名氟、英文名Fluorine均正确",
+        "分类非金属符合规范"
+      ]
+    },
+    {
+      "code": "el.Ne",
+      "type": "element",
+      "name": "氖",
+      "dbId": "12",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "元素符号Ne、原子序数10、中文名氖、英文名Neon均正确",
+        "惰性气体分类正确（人教版常称稀有气体，属同义表述）"
+      ]
+    },
+    {
+      "code": "el.Mg",
+      "type": "element",
+      "name": "镁",
+      "dbId": "13",
+      "batch": "batch2",
+      "confidence": 0.98,
+      "reasons": [
+        "符号Mg、原子序数12、中文名镁、英文名Magnesium均正确",
+        "分类为金属，符合高一元素知识表述"
+      ]
+    },
+    {
+      "code": "el.Al",
+      "type": "element",
+      "name": "铝",
+      "dbId": "14",
+      "batch": "batch2",
+      "confidence": 0.97,
+      "reasons": [
+        "符号Al、原子序数13、中文名铝正确",
+        "英文名Aluminium为IUPAC通行拼写，可接受"
+      ]
+    },
+    {
+      "code": "el.Si",
+      "type": "element",
+      "name": "硅",
+      "dbId": "15",
+      "batch": "batch2",
+      "confidence": 0.98,
+      "reasons": [
+        "符号Si、原子序数14、中文名硅、英文名Silicon均正确",
+        "分类为非金属，符合课标表述"
+      ]
+    },
+    {
+      "code": "el.P",
+      "type": "element",
+      "name": "磷",
+      "dbId": "16",
+      "batch": "batch2",
+      "confidence": 0.98,
+      "reasons": [
+        "符号P、原子序数15、中文名磷、英文名Phosphorus均正确",
+        "分类为非金属，符合高一元素知识"
+      ]
+    },
+    {
+      "code": "el.S",
+      "type": "element",
+      "name": "硫",
+      "dbId": "17",
+      "batch": "batch2",
+      "confidence": 0.97,
+      "reasons": [
+        "符号S、原子序数16、中文名硫、英文Sulfur均正确",
+        "分类为非金属，符合高一教材表述"
+      ]
+    },
+    {
+      "code": "el.K",
+      "type": "element",
+      "name": "钾",
+      "dbId": "19",
+      "batch": "batch2",
+      "confidence": 0.97,
+      "reasons": [
+        "符号K、原子序数19、中文名钾、英文Potassium均正确",
+        "分类为金属，符合教材表述"
+      ]
+    },
+    {
+      "code": "el.Ca",
+      "type": "element",
+      "name": "钙",
+      "dbId": "20",
+      "batch": "batch2",
+      "confidence": 0.97,
+      "reasons": [
+        "符号Ca、原子序数20、中文名钙、英文Calcium均正确",
+        "分类为金属，符合教材表述"
+      ]
+    },
+    {
+      "code": "el.Fe",
+      "type": "element",
+      "name": "铁",
+      "dbId": "21",
+      "batch": "batch2",
+      "confidence": 0.98,
+      "reasons": [
+        "元素符号Fe、原子序数26、中文名铁、英文名Iron均正确",
+        "分类为金属，符合高一元素化合物知识范围",
+        "dbReviewNote限定Fe2+/Fe3+核心，未超纲"
+      ]
+    },
+    {
+      "code": "el.Cu",
+      "type": "element",
+      "name": "铜",
+      "dbId": "22",
+      "batch": "batch2",
+      "confidence": 0.98,
+      "reasons": [
+        "元素符号Cu、原子序数29、中文名铜、英文名Copper均正确",
+        "分类为金属，符合高一元素化合物知识范围"
+      ]
+    },
+    {
+      "code": "el.Zn",
+      "type": "element",
+      "name": "锌",
+      "dbId": "23",
+      "batch": "batch2",
+      "confidence": 0.98,
+      "reasons": [
+        "元素符号Zn、原子序数30、中文名锌、英文名Zinc均正确",
+        "分类为金属，符合高一元素化合物知识范围"
+      ]
+    },
+    {
+      "code": "el.Ag",
+      "type": "element",
+      "name": "银",
+      "dbId": "24",
+      "batch": "batch2",
+      "confidence": 0.98,
+      "reasons": [
+        "元素符号Ag、原子序数47、中文名银、英文名Silver均正确",
+        "分类为金属，符合高一元素化合物知识范围"
+      ]
+    },
+    {
+      "code": "el.Ba",
+      "type": "element",
+      "name": "钡",
+      "dbId": "25",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "符号Ba、原子序数56、中文名钡、英文名Barium、金属分类均正确",
+        "属于元素符号/名称记忆类基础内容，符合高一及高考表述"
+      ]
+    },
+    {
+      "code": "el.I",
+      "type": "element",
+      "name": "碘",
+      "dbId": "26",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "符号I、原子序数53、中文名碘、英文名Iodine、非金属分类均正确",
+        "dbReviewNote已限定I2/-1/淀粉变蓝为基础范围，复杂正价作拓展，范围合理"
+      ]
+    },
+    {
+      "code": "el.Mn",
+      "type": "element",
+      "name": "锰",
+      "dbId": "27",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "符号Mn、原子序数25、中文名锰、英文名Manganese、金属分类均正确",
+        "元素符号与名称记忆属基础内容，无超纲问题"
+      ]
+    },
+    {
+      "code": "el.Cr",
+      "type": "element",
+      "name": "铬",
+      "dbId": "28",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "符号Cr、原子序数24、中文名铬、英文名Chromium、金属分类均正确",
+        "dbReviewNote已限定基础+不锈钢了解、重铬酸盐不进默认训练，范围合理"
+      ]
+    },
+    {
+      "code": "el.Br",
+      "type": "element",
+      "name": "溴",
+      "dbId": "29",
+      "batch": "batch2",
+      "confidence": 0.97,
+      "reasons": [
+        "溴的元素符号Br、原子序数35、中文名溴、英文名Bromine均正确",
+        "分类为非金属符合高一/高考表述"
+      ]
+    },
+    {
+      "code": "concept.substance_class",
+      "type": "concept",
+      "name": "物质的分类",
+      "dbId": "2",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "分类层级（纯净物/混合物→单质/化合物→氧化物、酸、碱、盐）符合人教版必修一表述",
+        "举例O2、H2O、空气、NaOH、HCl、NaCl均正确"
+      ]
+    },
+    {
+      "code": "concept.pure_mixture",
+      "type": "concept",
+      "name": "纯净物与混合物",
+      "dbId": "3",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "纯净物与混合物定义准确，强调各成分保持原有性质符合教材表述",
+        "举例蒸馏水、海水、空气、合金恰当"
+      ]
+    },
+    {
+      "code": "concept.elemental_compound",
+      "type": "concept",
+      "name": "单质与化合物",
+      "dbId": "4",
+      "batch": "batch2",
+      "confidence": 0.96,
+      "reasons": [
+        "定义已补“纯净物”，单质/化合物概念准确",
+        "举例O2、金刚石、CO2、NaCl均正确"
+      ]
+    },
+    {
+      "code": "concept.electrolyte",
+      "type": "concept",
+      "name": "电解质",
+      "dbId": "5",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "定义与教材一致：水溶液或熔融状态能导电的化合物",
+        "举例NaCl、H2SO4、NaOH为电解质，蔗糖、酒精为非电解质，符合规范"
+      ]
+    },
+    {
+      "code": "concept.nonelectrolyte",
+      "type": "concept",
+      "name": "非电解质",
+      "dbId": "6",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "定义准确：水溶液和熔融状态均不导电的化合物",
+        "举例蔗糖、酒精、尿素均为非电解质，符合教材表述"
+      ]
+    },
+    {
+      "code": "concept.ionic_reaction",
+      "type": "concept",
+      "name": "离子反应本质",
+      "dbId": "8",
+      "batch": "batch2",
+      "confidence": 0.92,
+      "reasons": [
+        "离子反应定义与实质（离子浓度减小）表述准确",
+        "举例Ag⁺+Cl⁻=AgCl↓正确，符合高一规范"
+      ]
+    },
+    {
+      "code": "concept.ion_coexist",
+      "type": "concept",
+      "name": "离子共存条件",
+      "dbId": "9",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "定义准确：离子共存取决于离子间是否发生反应使离子大量减少",
+        "示例H+与OH-、Ba2+与SO42-不能大量共存正确，符合高一表述"
+      ]
+    },
+    {
+      "code": "concept.oxidant_reductant",
+      "type": "concept",
+      "name": "氧化剂与还原剂",
+      "dbId": "10",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "定义准确：氧化剂得电子化合价降低，还原剂失电子化合价升高",
+        "示例2Na+Cl2=2NaCl中Cl2为氧化剂、Na为还原剂正确"
+      ]
+    },
+    {
+      "code": "concept.periodic_law",
+      "type": "concept",
+      "name": "元素周期律",
+      "dbId": "12",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "定义准确，符合人教版必修表述：性质随原子序数递增呈周期性变化",
+        "示例第三周期Na到Cl性质递变恰当"
+      ]
+    },
+    {
+      "code": "concept.metal_trend",
+      "type": "concept",
+      "name": "金属性递变",
+      "dbId": "13",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "定义准确：同周期从左到右金属性减弱、同主族从上到下金属性增强，符合人教版必修与高考表述。",
+        "示例K>Na>Li、Na>Mg>Al正确，均为同主族/同周期典型比较。"
+      ]
+    },
+    {
+      "code": "concept.nonmetal_trend",
+      "type": "concept",
+      "name": "非金属性递变",
+      "dbId": "14",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "定义准确：同周期从左到右非金属性增强、同主族从上到下非金属性减弱，符合课标表述。",
+        "示例F>Cl>Br>I为同主族典型递变，正确。"
+      ]
+    },
+    {
+      "code": "concept.ionic_bond",
+      "type": "concept",
+      "name": "离子键",
+      "dbId": "15",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "定义采用'阴、阳离子之间通过静电作用形成'，为人教版标准表述，准确。",
+        "示例NaCl、MgO、CaF2均为典型离子化合物，恰当。"
+      ]
+    },
+    {
+      "code": "concept.covalent_bond",
+      "type": "concept",
+      "name": "共价键",
+      "dbId": "16",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "定义'原子间通过共用电子对形成'符合教材标准表述。",
+        "示例H—H、H—O、C=O均为共价键典型实例，正确。"
+      ]
+    },
+    {
+      "code": "concept.reaction_extent",
+      "type": "concept",
+      "name": "化学反应限度",
+      "dbId": "18",
+      "batch": "batch2",
+      "confidence": 0.9,
+      "reasons": [
+        "明确区分反应限度与反应速率，符合高一必修对可逆反应限度的表述",
+        "示例合成氨可逆、存在限度，准确恰当"
+      ]
+    },
+    {
+      "code": "concept.electron_conserve",
+      "type": "concept",
+      "name": "电子守恒",
+      "dbId": "21",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "定义准确：还原剂失电子总数等于氧化剂得电子总数，符合氧化还原反应本质。",
+        "示例MnO2与浓盐酸制Cl2为教材常见电子守恒应用，表述无科学性错误。"
+      ]
+    },
+    {
+      "code": "concept.solution_colloid",
+      "type": "concept",
+      "name": "溶液与胶体",
+      "dbId": "22",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "分散系按分散质粒子大小分类及胶体粒子直径1–100 nm表述准确，符合人教版必修一。",
+        "示例NaCl溶液、Fe(OH)3胶体、泥水浊液均正确。"
+      ]
+    },
+    {
+      "code": "formula.N_n_NA",
+      "type": "formula",
+      "name": "粒子数与物质的量",
+      "dbId": "2",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "表达式 N = n·NA 正确，变量说明清晰，符合人教版必修一物质的量内容"
+      ]
+    },
+    {
+      "code": "formula.c_n_V",
+      "type": "formula",
+      "name": "物质的量浓度",
+      "dbId": "4",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "c = n/V 正确，变量明确 V 为溶液体积而非溶剂体积，符合规范"
+      ]
+    },
+    {
+      "code": "formula.dilution",
+      "type": "formula",
+      "name": "溶液稀释",
+      "dbId": "5",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "c1V1 = c2V2 稀释公式正确，变量说明体现溶质物质的量守恒"
+      ]
+    },
+    {
+      "code": "formula.M_m_n",
+      "type": "formula",
+      "name": "摩尔质量",
+      "dbId": "6",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "M=m/n 为摩尔质量定义式，符合高一必修表述",
+        "变量说明正确，dbReviewNote 已补单位与适用说明"
+      ]
+    },
+    {
+      "code": "formula.rho_c_M",
+      "type": "formula",
+      "name": "密度与浓度换算",
+      "dbId": "7",
+      "batch": "batch2",
+      "confidence": 0.93,
+      "reasons": [
+        "c=1000ρω/M 为质量分数与物质的量浓度换算标准式，系数1000与ρ(g/cm³)、ω(小数)配套正确",
+        "dbReviewNote 已明确单位条件，表述规范"
+      ]
+    },
+    {
+      "code": "formula.electron_transfer",
+      "type": "formula",
+      "name": "电子转移计量",
+      "dbId": "10",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "表述“失电子总数=得电子总数”是氧化还原配平的核心依据，准确且符合高一/高考规范",
+        "变量说明“氧化还原配平依据”与表达式一致，无科学错误"
+      ]
+    },
+    {
+      "code": "formula.gas_STP",
+      "type": "formula",
+      "name": "标况气体体积",
+      "dbId": "11",
+      "batch": "batch2",
+      "confidence": 0.93,
+      "reasons": [
+        "V=n·22.4 L/mol 为标准状况下气体摩尔体积的通行近似表述，符合高一教学",
+        "已注明标准状况为0℃(273K)、101kPa，范围界定清晰",
+        "标注“近似”恰当，未夸大精确性"
+      ]
+    },
+    {
+      "code": "kp.redox.ox_product",
+      "type": "knowledge",
+      "name": "氧化产物判断",
+      "dbId": "6",
+      "batch": "batch2",
+      "confidence": 0.92,
+      "reasons": [
+        "氧化产物为还原剂被氧化（化合价升高）后的产物，定义准确",
+        "示例2Na+Cl2=2NaCl中NaCl对钠而言为氧化产物，正确",
+        "易错点提示“勿把氧化剂当氧化产物”有教学价值"
+      ]
+    },
+    {
+      "code": "kp.redox.e_transfer",
+      "type": "knowledge",
+      "name": "电子转移",
+      "dbId": "8",
+      "batch": "batch2",
+      "confidence": 0.9,
+      "reasons": [
+        "氧化还原本质为电子转移（含共用电子对偏移）表述准确",
+        "双线桥/单线桥表示方向与数目符合课标要求",
+        "易错提示合理"
+      ]
+    },
+    {
+      "code": "kp.redox.e_conserve",
+      "type": "knowledge",
+      "name": "电子守恒",
+      "dbId": "9",
+      "batch": "batch2",
+      "confidence": 0.92,
+      "reasons": [
+        "电子守恒'失电子总数=得电子总数'表述准确",
+        "用于配平与计算的说明符合高考规范",
+        "易错点提示合理"
+      ]
+    },
+    {
+      "code": "kp.ion.electrolyte",
+      "type": "knowledge",
+      "name": "电解质与非电解质",
+      "dbId": "10",
+      "batch": "batch2",
+      "confidence": 0.93,
+      "reasons": [
+        "电解质/非电解质定义准确（水溶液或熔融状态导电的化合物）",
+        "单质既非电解质也非电解质的边界说明正确",
+        "CO2、SO2本身为非电解质、水溶液导电因生成电解质的说明准确，符合高考易错点"
+      ]
+    },
+    {
+      "code": "kp.ion.ionization_eq",
+      "type": "knowledge",
+      "name": "电离方程式书写",
+      "dbId": "11",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "强电解质用“=”、弱电解质用“⇌”符合高一教材表述",
+        "强调原子守恒与电荷守恒，正确",
+        "多元弱酸分步电离符合课标要求"
+      ]
+    },
+    {
+      "code": "kp.ion.ionic_eq",
+      "type": "knowledge",
+      "name": "离子方程式书写",
+      "dbId": "13",
+      "batch": "batch2",
+      "confidence": 0.93,
+      "reasons": [
+        "拆分原则（强电解质拆、沉淀气体弱电解质单质氧化物不拆）表述准确",
+        "强调原子守恒与电荷守恒，正确",
+        "已补充微溶物、酸式盐、少量/过量等边界提示，符合高考规范"
+      ]
+    },
+    {
+      "code": "kp.structure.atom",
+      "type": "knowledge",
+      "name": "原子组成与三粒子",
+      "dbId": "14",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "质子数=核电荷数=原子序数表述正确",
+        "质量数A=Z+N用等号定义，并区分相对原子质量，准确",
+        "离子电子数随电荷变化的说明正确"
+      ]
+    },
+    {
+      "code": "kp.structure.isotope",
+      "type": "knowledge",
+      "name": "核素与同位素",
+      "dbId": "15",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "核素定义（一定质子数和中子数的原子）准确",
+        "同位素定义（质子数相同、中子数不同的同一元素的不同核素）准确",
+        "化学性质几乎相同的表述符合高一教材"
+      ]
+    },
+    {
+      "code": "kp.structure.electron_formula",
+      "type": "knowledge",
+      "name": "电子式书写",
+      "dbId": "17",
+      "batch": "batch2",
+      "confidence": 0.9,
+      "reasons": [
+        "简单阳离子只写离子符号、阴离子与复杂阳离子（NH₄⁺）画电子式的区分准确",
+        "已按B2整改区分简单/复杂阳离子，符合高考电子式书写规范"
+      ]
+    },
+    {
+      "code": "kp.periodic.position",
+      "type": "knowledge",
+      "name": "周期与族定位",
+      "dbId": "18",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "周期数=电子层数、主族序数=最外层电子数，符合高一教材表述",
+        "由原子序数推电子排布再定位的方法正确"
+      ]
+    },
+    {
+      "code": "kp.periodic.trend",
+      "type": "knowledge",
+      "name": "周期律递变规律",
+      "dbId": "20",
+      "batch": "batch2",
+      "confidence": 0.92,
+      "reasons": [
+        "同周期/同主族金属性、非金属性、原子半径递变方向正确",
+        "比较方法（与水/酸反应、最高价氧化物对应水化物酸碱性、氢化物稳定性、单质氧化性）符合高中教学口径",
+        "已限定主族教学口径，表述严谨"
+      ]
+    },
+    {
+      "code": "kp.calc.amount",
+      "type": "knowledge",
+      "name": "物质的量三公式",
+      "dbId": "21",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "n=m/M、n=N/NA、n=V/22.4（标况气体）三公式正确",
+        "明确强调非标况气体不可用22.4，符合高考规范",
+        "先判断条件再选式的提示准确"
+      ]
+    },
+    {
+      "code": "kp.calc.dilution",
+      "type": "knowledge",
+      "name": "稀释计算",
+      "dbId": "23",
+      "batch": "batch2",
+      "confidence": 0.95,
+      "reasons": [
+        "稀释前后溶质物质的量不变，c1V1=c2V2 表述正确，符合高一与高考规范",
+        "补充“混合若反应则不能直接套用”是正确且必要的限定"
+      ]
+    },
+    {
+      "code": "kp.memory.valence_table",
+      "type": "knowledge",
+      "name": "常见化合价速记",
+      "dbId": "24",
+      "batch": "batch2",
+      "confidence": 0.9,
+      "reasons": [
+        "K/Na +1、Ca/Mg/Ba/Zn +2、Al +3、F −1、O 通常−2（过氧化物−1）等均正确",
+        "Fe +2/+3、Cu +1/+2、H 在氢化物中可为−1 的变价说明准确",
+        "N 常见价态列举合理，并提示硝酸等需按规则计算，无科学性错误"
+      ]
+    },
+    {
+      "code": "kp.memory.ion_table",
+      "type": "knowledge",
+      "name": "常见离子速记",
+      "dbId": "25",
+      "batch": "batch2",
+      "confidence": 0.92,
+      "reasons": [
+        "所列 NH₄⁺、SO₄²⁻、CO₃²⁻、Fe²⁺/Fe³⁺、Al³⁺ 等离子符号与电荷书写正确",
+        "“电荷写在右上角”符合规范书写要求",
+        "提示检验与共存题常考，符合高一教学实际"
+      ]
+    },
+    {
+      "code": "kp.memory.color_table",
+      "type": "knowledge",
+      "name": "物质颜色速记",
+      "dbId": "26",
+      "batch": "batch2",
+      "confidence": 0.9,
+      "reasons": [
+        "Cl₂黄绿、Br₂深红棕、I₂紫黑、Cu²⁺蓝色、Fe²⁺浅绿、Fe³⁺黄/棕黄、Fe(OH)₂白、Fe(OH)₃红褐、Cu(OH)₂蓝均正确",
+        "MnO₄⁻紫红已明确标注为拓展/非默认必修表，范围处理得当"
+      ]
+    },
+    {
+      "code": "sub.Al",
+      "type": "substance",
+      "name": "铝",
+      "dbId": "13",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "铝为银白色金属，颜色描述准确",
+        "属于高一必修常见物质，范围合适"
+      ]
+    },
+    {
+      "code": "sub.Fe",
+      "type": "substance",
+      "name": "铁",
+      "dbId": "16",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "铁为银白色金属，粉末呈灰黑描述合理",
+        "属于必修常见物质，范围合适"
+      ]
+    },
+    {
+      "code": "sub.Fe2O3",
+      "type": "substance",
+      "name": "氧化铁",
+      "dbId": "17",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "氧化铁化学式Fe2O3正确，颜色红棕色符合人教版必修表述",
+        "类别formula/chem_property合理，无超纲内容"
+      ]
+    },
+    {
+      "code": "sub.Fe3O4",
+      "type": "substance",
+      "name": "四氧化三铁",
+      "dbId": "18",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "四氧化三铁化学式Fe3O4正确，颜色黑色符合教材表述",
+        "属高一铁及其化合物常见物质，范围合适"
+      ]
+    },
+    {
+      "code": "sub.FeOH3",
+      "type": "substance",
+      "name": "氢氧化铁",
+      "dbId": "19",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "氢氧化铁化学式Fe(OH)3正确，颜色红褐色符合教材表述",
+        "为Fe(OH)2氧化产物，属必修常见物质"
+      ]
+    },
+    {
+      "code": "sub.Cu",
+      "type": "substance",
+      "name": "铜",
+      "dbId": "21",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "铜为紫红色固体，颜色描述符合高一教材与高考规范",
+        "物质名称与类别字段一致，无科学错误"
+      ]
+    },
+    {
+      "code": "sub.CuO",
+      "type": "substance",
+      "name": "氧化铜",
+      "dbId": "22",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "氧化铜为黑色固体，颜色描述准确",
+        "名称与类别字段一致，符合教材表述"
+      ]
+    },
+    {
+      "code": "sub.CuOH2",
+      "type": "substance",
+      "name": "氢氧化铜",
+      "dbId": "23",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "氢氧化铜为蓝色沉淀，颜色描述准确",
+        "符合高一必修与高考对Cu(OH)2的表述"
+      ]
+    },
+    {
+      "code": "sub.CuSO4",
+      "type": "substance",
+      "name": "硫酸铜",
+      "dbId": "24",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "无水硫酸铜白色、五水合硫酸铜蓝色，颜色描述准确且区分了水合状态",
+        "符合教材与高考规范表述"
+      ]
+    },
+    {
+      "code": "rxn.4Na_O2",
+      "type": "reaction",
+      "name": "钠常温与氧气",
+      "dbId": "2",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式4Na+O2=2Na2O配平正确，符合钠常温缓慢氧化的教材表述",
+        "条件标注“常温（表面生成）”准确，产物Na2O状态s合理"
+      ]
+    },
+    {
+      "code": "rxn.2Na_O2_heat",
+      "type": "reaction",
+      "name": "钠加热与氧气",
+      "dbId": "3",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式2Na+O2=Na2O2配平正确，符合钠加热燃烧生成过氧化钠的教材表述",
+        "条件“加热点燃（燃烧）”与产物Na2O2一致"
+      ]
+    },
+    {
+      "code": "rxn.2Na2O2_2H2O",
+      "type": "reaction",
+      "name": "过氧化钠与水",
+      "dbId": "4",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式2Na2O2+2H2O=4NaOH+O2↑配平正确，符合教材表述",
+        "产物NaOH标aq、O2标g并加↑，状态与气体符号规范"
+      ]
+    },
+    {
+      "code": "rxn.2Na2O2_2CO2",
+      "type": "reaction",
+      "name": "过氧化钠与二氧化碳",
+      "dbId": "5",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式2Na2O2+2CO2=2Na2CO3+O2↑配平正确，符合教材表述",
+        "产物Na2CO3标s、O2标g并加↑，状态与气体符号规范"
+      ]
+    },
+    {
+      "code": "rxn.Na2O_H2O",
+      "type": "reaction",
+      "name": "氧化钠与水",
+      "dbId": "6",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式Na2O+H2O=2NaOH配平正确，符合高一必修钠的氧化物性质",
+        "条件常温、状态标注合理（NaOH为aq）"
+      ]
+    },
+    {
+      "code": "rxn.NaOH_HCl",
+      "type": "reaction",
+      "name": "氢氧化钠与盐酸",
+      "dbId": "8",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "NaOH+HCl=NaCl+H2O配平正确，中和反应典型",
+        "状态标注aq/l合理"
+      ]
+    },
+    {
+      "code": "rxn.NaHCO3_heat",
+      "type": "reaction",
+      "name": "碳酸氢钠受热分解",
+      "dbId": "9",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "2NaHCO3=△=Na2CO3+CO2↑+H2O配平正确，符合必修碳酸氢钠受热分解",
+        "产物状态s/g/g标注合理"
+      ]
+    },
+    {
+      "code": "rxn.Na2CO3_2HCl",
+      "type": "reaction",
+      "name": "碳酸钠与盐酸",
+      "dbId": "10",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式 Na2CO3+2HCl=2NaCl+CO2↑+H2O 配平正确，系数与物种一致",
+        "条件标注常温、酸足量符合高一表述，CO2标↑合理"
+      ]
+    },
+    {
+      "code": "rxn.2Mg_O2",
+      "type": "reaction",
+      "name": "镁与氧气",
+      "dbId": "11",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "2Mg+O2=点燃=2MgO 配平正确，条件点燃准确",
+        "MgO为固体、Mg为固体状态标注正确"
+      ]
+    },
+    {
+      "code": "rxn.Mg_2HCl",
+      "type": "reaction",
+      "name": "镁与盐酸",
+      "dbId": "12",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "Mg+2HCl=MgCl2+H2↑ 配平正确，稀盐酸条件合理",
+        "H2标↑、MgCl2为aq状态标注正确"
+      ]
+    },
+    {
+      "code": "rxn.4Al_3O2",
+      "type": "reaction",
+      "name": "铝与氧气",
+      "dbId": "14",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式4Al+3O2=点燃=2Al2O3配平正确，符合高一教材表述",
+        "conditions已区分点燃燃烧与常温成膜，避免混淆，处理得当",
+        "物种状态s/g/s标注正确"
+      ]
+    },
+    {
+      "code": "rxn.2Al_6HCl",
+      "type": "reaction",
+      "name": "铝与盐酸",
+      "dbId": "15",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式2Al+6HCl=2AlCl3+3H2↑配平正确，符合高一教材",
+        "条件注明稀盐酸及氧化膜影响，表述严谨",
+        "物种状态标注正确"
+      ]
+    },
+    {
+      "code": "rxn.Al2O3_6HCl",
+      "type": "reaction",
+      "name": "氧化铝与盐酸",
+      "dbId": "17",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式Al2O3+6HCl=2AlCl3+3H2O配平正确，符合高一教材",
+        "条件常温或加热合理",
+        "物种状态标注正确"
+      ]
+    },
+    {
+      "code": "rxn.AlOH3_3HCl",
+      "type": "reaction",
+      "name": "氢氧化铝与盐酸",
+      "dbId": "20",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式配平正确：Al(OH)3+3HCl=AlCl3+3H2O，原子守恒。",
+        "属高一必修铝的化合物性质，表述规范，verifyNeeded=false。"
+      ]
+    },
+    {
+      "code": "rxn.3Fe_2O2",
+      "type": "reaction",
+      "name": "铁与氧气",
+      "dbId": "21",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式配平正确：3Fe+2O2=点燃=Fe3O4，原子守恒。",
+        "条件标注“点燃”符合铁丝在氧气中燃烧的教材表述，verifyNeeded=false。"
+      ]
+    },
+    {
+      "code": "rxn.Fe_H2SO4",
+      "type": "reaction",
+      "name": "铁与稀硫酸",
+      "dbId": "22",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式Fe+H2SO4=FeSO4+H2↑配平正确，符合高一金属与酸反应规范",
+        "条件标注稀硫酸、常温合理，产物为FeSO4（稀硫酸不钝化、生成亚铁）",
+        "物种状态s/aq/aq/g标注正确"
+      ]
+    },
+    {
+      "code": "rxn.Fe_CuSO4",
+      "type": "reaction",
+      "name": "铁与硫酸铜",
+      "dbId": "23",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "置换反应Fe+CuSO4=FeSO4+Cu配平正确，符合高一金属活动性顺序教学",
+        "条件常温、溶液中合理，产物FeSO4与Cu状态标注正确"
+      ]
+    },
+    {
+      "code": "rxn.Fe2O3_3CO",
+      "type": "reaction",
+      "name": "氧化铁与一氧化碳",
+      "dbId": "24",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "Fe2O3+3CO=高温=2Fe+3CO2配平正确，为高炉炼铁核心反应，符合课标",
+        "条件高温、物种状态s/g/s/g标注正确"
+      ]
+    },
+    {
+      "code": "rxn.Cu_O2_heat",
+      "type": "reaction",
+      "name": "铜加热与氧气",
+      "dbId": "25",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "2Cu+O2=△=2CuO配平正确，铜加热氧化为高一常见反应",
+        "条件加热、状态s/g/s标注正确"
+      ]
+    },
+    {
+      "code": "rxn.CuO_H2",
+      "type": "reaction",
+      "name": "氧化铜与氢气",
+      "dbId": "26",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式CuO+H2=△=Cu+H2O配平正确，属置换/氧化还原反应",
+        "条件与操作（先通H2后加热、冷却后停H2）符合规范表述",
+        "物质状态标注s/g/s/l正确"
+      ]
+    },
+    {
+      "code": "rxn.CuO_2HCl",
+      "type": "reaction",
+      "name": "氧化铜与盐酸",
+      "dbId": "27",
+      "batch": "batch3",
+      "confidence": 0.93,
+      "reasons": [
+        "CuO+2HCl=CuCl2+H2O配平正确，属碱性氧化物与酸反应",
+        "HCl、CuCl2标aq、H2O标l合理",
+        "条件“常温或微热”表述可接受"
+      ]
+    },
+    {
+      "code": "rxn.Zn_H2SO4",
+      "type": "reaction",
+      "name": "锌与稀硫酸",
+      "dbId": "28",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "Zn+H2SO4=ZnSO4+H2↑配平正确，属置换/氧化还原",
+        "注明稀硫酸、常温，H2标↑及g状态正确"
+      ]
+    },
+    {
+      "code": "rxn.Zn_CuSO4",
+      "type": "reaction",
+      "name": "锌与硫酸铜",
+      "dbId": "29",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "Zn+CuSO4=ZnSO4+Cu配平正确，属置换/氧化还原",
+        "条件“常温，溶液中”及状态标注合理"
+      ]
+    },
+    {
+      "code": "exp.Na_O2",
+      "type": "experiment",
+      "name": "钠在空气中燃烧",
+      "dbId": "2",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "反应方程式2Na+O2=点燃=Na2O2正确，产物淡黄色固体表述准确",
+        "安全提示（吸干煤油、防强光飞溅）符合规范"
+      ]
+    },
+    {
+      "code": "exp.Na2O2_H2O",
+      "type": "experiment",
+      "name": "过氧化钠与水/二氧化碳",
+      "dbId": "3",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "两个反应方程式配平正确，O2↑标注规范",
+        "带火星木条检验O2、酚酞检验碱的方法正确",
+        "强氧化剂/腐蚀性安全提示合理"
+      ]
+    },
+    {
+      "code": "exp.Al_amphoteric",
+      "type": "experiment",
+      "name": "铝及氧化铝两性验证",
+      "dbId": "4",
+      "batch": "batch3",
+      "confidence": 0.9,
+      "reasons": [
+        "正确区分单质Al与酸碱反应放H2、Al2O3/Al(OH)3两性溶解两类内容",
+        "Al(OH)3在酸或过量强碱中溶解作为两性关键现象表述准确"
+      ]
+    },
+    {
+      "code": "exp.metal_activity",
+      "type": "experiment",
+      "name": "金属活动性顺序实验",
+      "dbId": "6",
+      "batch": "batch3",
+      "confidence": 0.9,
+      "reasons": [
+        "目的、原理符合高一必修金属活动性顺序内容，表述准确",
+        "试剂与安全提示（酸腐蚀、重金属盐废液回收）合理，无科学错误"
+      ]
+    },
+    {
+      "code": "exp.CuO_H2_reduce",
+      "type": "experiment",
+      "name": "氢气还原氧化铜",
+      "dbId": "7",
+      "batch": "batch3",
+      "confidence": 0.9,
+      "reasons": [
+        "原理方程式CuO+H2=△=Cu+H2O正确",
+        "操作顺序（先通H2排空气再加热、冷却后停H2）符合防爆规范，安全提示到位"
+      ]
+    },
+    {
+      "code": "kp.Na.oxide",
+      "type": "knowledge",
+      "name": "钠的氧化物与过氧化物",
+      "dbId": "27",
+      "batch": "batch3",
+      "confidence": 0.92,
+      "reasons": [
+        "Na2O白色、Na2O2淡黄色、Na2O为碱性氧化物、Na2O2中氧为−1价均正确",
+        "与H2O、CO2反应放O2及供氧剂用途表述符合教材"
+      ]
+    },
+    {
+      "code": "kp.Na.carbonate",
+      "type": "knowledge",
+      "name": "碳酸钠与碳酸氢钠",
+      "dbId": "28",
+      "batch": "batch3",
+      "confidence": 0.9,
+      "reasons": [
+        "Na2CO3热稳定性强、NaHCO3受热分解生成Na2CO3/CO2/H2O正确",
+        "通足量CO2转化及鉴别方法表述符合高一要求"
+      ]
+    },
+    {
+      "code": "kp.Al.amphoteric",
+      "type": "knowledge",
+      "name": "铝及其化合物的两性",
+      "dbId": "29",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "Al、Al2O3、Al(OH)3均能与强酸强碱反应，表述准确",
+        "Al与NaOH生成偏铝酸盐并放H2正确",
+        "[Al(OH)4]-标注为'了解'，符合高一表述范围",
+        "易错点提示（Mg(OH)2不溶于过量NaOH）正确"
+      ]
+    },
+    {
+      "code": "kp.Fe.property",
+      "type": "knowledge",
+      "name": "铁的化学性质",
+      "dbId": "30",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "Fe与O2点燃生成Fe3O4正确",
+        "Fe与稀酸生成Fe2+和H2正确",
+        "铁常见+2、+3价表述准确",
+        "易错点（误写Fe3+、Fe2O3）符合教学实际"
+      ]
+    },
+    {
+      "code": "kp.metal.activity",
+      "type": "knowledge",
+      "name": "金属活动性顺序",
+      "dbId": "31",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "金属活动性顺序内容与教材一致",
+        "应用范围（与酸/水反应、置换、盐溶液反应）表述准确",
+        "易错点提示合理"
+      ]
+    },
+    {
+      "code": "sub.FeOH2",
+      "type": "substance",
+      "name": "氢氧化亚铁",
+      "dbId": "30",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "Fe(OH)2白色，空气中迅速变灰绿最终红褐，符合必修第一册重点表述",
+        "颜色、化学性质分类与教材一致",
+        "verifyNeeded=false，无超纲或科学错误"
+      ]
+    },
+    {
+      "code": "sub.FeSO4",
+      "type": "substance",
+      "name": "硫酸亚铁",
+      "dbId": "31",
+      "batch": "batch3",
+      "confidence": 0.92,
+      "reasons": [
+        "硫酸亚铁晶体常浅绿、溶液浅绿色，符合教材表述",
+        "作为亚铁盐代表物与铁盐对照合理",
+        "verifyNeeded=false，无科学错误"
+      ]
+    },
+    {
+      "code": "kp.Fe.fe2_property",
+      "type": "knowledge",
+      "name": "Fe²⁺的性质",
+      "dbId": "33",
+      "batch": "batch3",
+      "confidence": 0.93,
+      "reasons": [
+        "Fe2+浅绿色、具还原性、易被氧化为Fe3+，符合教材",
+        "Fe(OH)2白色→灰绿→红褐及氧化后加KSCN间接检验表述正确",
+        "易错点提示（颜色误说黄色、需隔绝空气）符合高考规范"
+      ]
+    },
+    {
+      "code": "kp.Fe.fe3_property",
+      "type": "knowledge",
+      "name": "Fe³⁺的性质",
+      "dbId": "34",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "Fe3+溶液黄/棕黄色、氧化性、与碱生成红褐色Fe(OH)3、与KSCN血红色均符合教材与高考表述",
+        "氧化I-、S2-标注为了解/题设，范围控制合理",
+        "易错点提示颜色混淆，符合教学需要"
+      ]
+    },
+    {
+      "code": "kp.Fe.fe2_fe3",
+      "type": "knowledge",
+      "name": "Fe²⁺与Fe³⁺的转化",
+      "dbId": "35",
+      "batch": "batch3",
+      "confidence": 0.93,
+      "reasons": [
+        "Fe2+被氧化、Fe3+被还原的转化方向正确，强调须写明具体试剂与条件",
+        "核心示例Cl2、O2、Fe、Cu符合教材例",
+        "KMnO4、H2O2、I-标为了解/题设，范围合理",
+        "易错点（氧化剂/还原剂对调、离子方程式守恒）准确"
+      ]
+    },
+    {
+      "code": "kp.Fe.test",
+      "type": "knowledge",
+      "name": "Fe²⁺与Fe³⁺的检验",
+      "dbId": "36",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "Fe3+用KSCN血红色、加碱红褐色沉淀表述正确",
+        "Fe2+加碱白色沉淀并变色、先KSCN再加氧化剂变血红的检验逻辑正确",
+        "易错点（直接对Fe2+加KSCN报阳性）提示到位"
+      ]
+    },
+    {
+      "code": "kp.Fe.salt",
+      "type": "knowledge",
+      "name": "亚铁盐与铁盐",
+      "dbId": "37",
+      "batch": "batch3",
+      "confidence": 0.93,
+      "reasons": [
+        "亚铁盐含Fe2+（浅绿、还原性）、铁盐含Fe3+（黄/棕黄、氧化性更强）表述准确",
+        "保存亚铁盐防氧化、注意水解酸性的提示合理",
+        "易错点（两类盐性质混记）符合教学实际"
+      ]
+    },
+    {
+      "code": "rxn.FeOH2_O2",
+      "type": "reaction",
+      "name": "氢氧化亚铁被氧气氧化",
+      "dbId": "30",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式4Fe(OH)2+O2+2H2O=4Fe(OH)3配平正确，符合必修第一册铁及其化合物表述",
+        "条件与现象（白色沉淀迅速变灰绿最终红褐）描述准确",
+        "物种角色、系数、状态齐全且一致"
+      ]
+    },
+    {
+      "code": "rxn.2Fe2_Cl2",
+      "type": "reaction",
+      "name": "亚铁离子被氯气氧化",
+      "dbId": "31",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "离子方程式2Fe2++Cl2=2Fe3++2Cl-电荷与原子均守恒，符合高考规范",
+        "条件“溶液中通入Cl2”表述恰当",
+        "categories含redox.identify与离子书写，与内容匹配"
+      ]
+    },
+    {
+      "code": "concept.alloy",
+      "type": "concept",
+      "name": "合金",
+      "dbId": "25",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "定义准确：两种或以上金属（或金属与非金属）熔合、具金属特性、一般属混合物",
+        "examples列举生铁、钢、黄铜、不锈钢、镁铝合金均正确",
+        "未出现“性能一定优于纯金属”等绝对化表述，符合B3整改要求"
+      ]
+    },
+    {
+      "code": "kp.metal.stainless",
+      "type": "knowledge",
+      "name": "不锈钢",
+      "dbId": "40",
+      "batch": "batch3",
+      "confidence": 0.92,
+      "reasons": [
+        "不锈钢含铬提高抗腐蚀能力的表述准确，符合了解级要求",
+        "已明确不展开铬酸盐深度内容，易错点提示合理",
+        "verifyNeeded=false"
+      ]
+    },
+    {
+      "code": "rxn.Na2CO3_CO2_H2O",
+      "type": "reaction",
+      "name": "碳酸钠转化为碳酸氢钠",
+      "dbId": "32",
+      "batch": "batch3",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式Na2CO3+CO2+H2O=2NaHCO3配平正确，符合必修第一册钠盐转化内容",
+        "条件“通入足量CO2”表述准确，species状态标注合理（aq/g/l/aq）",
+        "属于课标要求的碳酸钠与碳酸氢钠相互转化，范围恰当"
+      ]
+    },
+    {
+      "code": "rxn.2Na_2HCl",
+      "type": "reaction",
+      "name": "钠与盐酸反应",
+      "dbId": "33",
+      "batch": "batch3",
+      "confidence": 0.9,
+      "reasons": [
+        "方程式2Na+2HCl=2NaCl+H2↑配平正确，属置换/氧化还原反应",
+        "conditions明确课程定位为了解/纸笔对比，禁止学生实验，安全表述规范",
+        "与钠和水反应对比符合必修第一册教学逻辑"
+      ]
+    },
+    {
+      "code": "sub.Cl2",
+      "type": "substance",
+      "name": "氯气",
+      "dbId": "34",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "氯气为黄绿色气体，颜色描述准确，符合人教版必修内容",
+        "分类涵盖化学性质、化学式、检验，符合高一要求"
+      ]
+    },
+    {
+      "code": "sub.HCl",
+      "type": "substance",
+      "name": "氯化氢",
+      "dbId": "35",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "氯化氢为无色气体，颜色描述准确",
+        "化学式与性质分类符合高一必修表述"
+      ]
+    },
+    {
+      "code": "sub.HCl_aq",
+      "type": "substance",
+      "name": "盐酸",
+      "dbId": "36",
+      "batch": "batch4",
+      "confidence": 0.93,
+      "reasons": [
+        "盐酸为HCl水溶液，无色，工业盐酸因含Fe3+等杂质可发黄，描述准确",
+        "dbReviewNote中Cl-检验须硝酸酸化符合高考规范"
+      ]
+    },
+    {
+      "code": "sub.NO",
+      "type": "substance",
+      "name": "一氧化氮",
+      "dbId": "46",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "一氧化氮为无色气体，颜色描述准确",
+        "属于高中必修氮及其化合物内容，范围合适"
+      ]
+    },
+    {
+      "code": "sub.NO2",
+      "type": "substance",
+      "name": "二氧化氮",
+      "dbId": "47",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "二氧化氮为红棕色气体，颜色描述准确",
+        "属于高中必修氮及其化合物内容，范围合适"
+      ]
+    },
+    {
+      "code": "sub.HNO3",
+      "type": "substance",
+      "name": "硝酸",
+      "dbId": "48",
+      "batch": "batch4",
+      "confidence": 0.92,
+      "reasons": [
+        "纯硝酸无色，久置或工业品因溶有NO2而发黄，表述准确",
+        "符合高一/高考对硝酸性质的表述"
+      ]
+    },
+    {
+      "code": "rxn.H2_Cl2",
+      "type": "reaction",
+      "name": "氢气与氯气",
+      "dbId": "34",
+      "batch": "batch4",
+      "confidence": 0.9,
+      "reasons": [
+        "方程式H2+Cl2=2HCl配平正确，条件（光照或点燃）符合教材表述",
+        "已注明爆炸极限与安全提示，符合教学规范"
+      ]
+    },
+    {
+      "code": "rxn.2Na_Cl2",
+      "type": "reaction",
+      "name": "钠与氯气",
+      "dbId": "35",
+      "batch": "batch4",
+      "confidence": 0.9,
+      "reasons": [
+        "方程式2Na+Cl2=2NaCl配平正确，条件点燃符合教材",
+        "物质状态标注正确"
+      ]
+    },
+    {
+      "code": "rxn.2Fe_3Cl2",
+      "type": "reaction",
+      "name": "铁与氯气",
+      "dbId": "36",
+      "batch": "batch4",
+      "confidence": 0.9,
+      "reasons": [
+        "方程式2Fe+3Cl2=2FeCl3配平正确，产物为FeCl3符合氯气强氧化性",
+        "条件点燃/加热表述正确"
+      ]
+    },
+    {
+      "code": "rxn.Cl2_H2O",
+      "type": "reaction",
+      "name": "氯气与水",
+      "dbId": "37",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式Cl2+H2O⇌HCl+HClO正确，可逆号使用恰当",
+        "条件说明'常温、可逆、氯水为混合物'准确，符合高一表述",
+        "物种状态g/l/aq标注合理"
+      ]
+    },
+    {
+      "code": "rxn.Cl2_2NaOH",
+      "type": "reaction",
+      "name": "氯气与氢氧化钠",
+      "dbId": "38",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式Cl2+2NaOH=NaCl+NaClO+H2O配平正确",
+        "条件限定'常温、冷的稀NaOH'并提示热浓碱产物不同，严谨且符合高考规范",
+        "物种与状态标注合理"
+      ]
+    },
+    {
+      "code": "rxn.MnO2_4HCl",
+      "type": "reaction",
+      "name": "二氧化锰与浓盐酸制氯气",
+      "dbId": "39",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式MnO2+4HCl(浓)=△=MnCl2+Cl2↑+2H2O配平正确",
+        "条件'浓盐酸、加热'准确，为实验室制Cl2经典反应",
+        "气体符号与状态标注合理"
+      ]
+    },
+    {
+      "code": "rxn.S_O2",
+      "type": "reaction",
+      "name": "硫与氧气",
+      "dbId": "40",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式S+O2=点燃=SO2配平正确",
+        "条件'点燃'准确，符合高一硫燃烧表述",
+        "物种状态标注合理"
+      ]
+    },
+    {
+      "code": "rxn.2SO2_O2",
+      "type": "reaction",
+      "name": "二氧化硫催化氧化",
+      "dbId": "41",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式2SO2+O2⇌2SO3配平正确，条件标注催化剂、加热符合工业接触法表述",
+        "注明可逆且不展开选修平衡计算，符合高一范围",
+        "SO2、O2、SO3状态标注正确"
+      ]
+    },
+    {
+      "code": "rxn.SO3_H2O",
+      "type": "reaction",
+      "name": "三氧化硫与水",
+      "dbId": "42",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "SO3+H2O=H2SO4配平正确，属非氧化还原反应，specialty已去redox正确",
+        "条件常温、放热剧烈表述准确",
+        "各物质状态标注正确"
+      ]
+    },
+    {
+      "code": "rxn.Cu_2H2SO4",
+      "type": "reaction",
+      "name": "铜与浓硫酸",
+      "dbId": "43",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "Cu+2H2SO4(浓)=CuSO4+SO2↑+2H2O配平正确，加热条件正确",
+        "注明稀硫酸常温不与Cu反应，符合高一表述",
+        "状态标注合理（CuSO4为aq）"
+      ]
+    },
+    {
+      "code": "rxn.C_2H2SO4",
+      "type": "reaction",
+      "name": "碳与浓硫酸",
+      "dbId": "44",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "C+2H2SO4(浓)=CO2↑+2SO2↑+2H2O配平正确，加热条件正确",
+        "浓硫酸强氧化性体现正确，符合高一范围",
+        "状态标注正确"
+      ]
+    },
+    {
+      "code": "rxn.N2_3H2",
+      "type": "reaction",
+      "name": "氮气与氢气合成氨",
+      "dbId": "45",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式 N2+3H2⇌2NH3 配平正确，条件标注催化剂、高温、高压符合工业合成氨表述",
+        "明确提示高一只认识条件与可逆性、不展开选修平衡计算，范围控制恰当",
+        "species 系数与状态(g)与方程式一致"
+      ]
+    },
+    {
+      "code": "rxn.NH3_HCl",
+      "type": "reaction",
+      "name": "氨与氯化氢",
+      "dbId": "46",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "NH3+HCl=NH4Cl 配平正确，常温气体相遇生成白烟（NH4Cl 固体）表述合理",
+        "已去除 redox 标签，符合非氧化还原反应事实",
+        "species 状态 s 与产物氯化铵固体一致"
+      ]
+    },
+    {
+      "code": "rxn.4NH3_5O2",
+      "type": "reaction",
+      "name": "氨的催化氧化",
+      "dbId": "47",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "4NH3+5O2=4NO+6H2O 配平正确，催化剂(Pt)、加热条件符合氨催化氧化",
+        "属氧化还原反应，redox 标签正确",
+        "产物 NO、H2O 状态标注合理"
+      ]
+    },
+    {
+      "code": "rxn.2NO_O2",
+      "type": "reaction",
+      "name": "一氧化氮与氧气",
+      "dbId": "48",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "2NO+O2=2NO2 配平正确，常温迅速反应生成红棕色 NO2 表述符合高一内容",
+        "氧化还原标签正确，species 系数与状态一致"
+      ]
+    },
+    {
+      "code": "rxn.3NO2_H2O",
+      "type": "reaction",
+      "name": "二氧化氮与水",
+      "dbId": "49",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式3NO2+H2O=2HNO3+NO配平正确，符合高一氮氧化物性质表述",
+        "条件标注常温、物质状态(g/l/aq/g)合理",
+        "氧化还原与物质检验分类适用"
+      ]
+    },
+    {
+      "code": "rxn.Cu_4HNO3",
+      "type": "reaction",
+      "name": "铜与稀硝酸",
+      "dbId": "50",
+      "batch": "batch4",
+      "confidence": 0.9,
+      "reasons": [
+        "3Cu+8HNO3(稀)=3Cu(NO3)2+2NO↑+4H2O配平正确，符合高考规范",
+        "条件明确标注稀硝酸并与浓硝酸区分，避免混写",
+        "编码Cu_4HNO3易混但已在dbReviewNote提示，题干须写稀"
+      ]
+    },
+    {
+      "code": "rxn.Cu_4HNO3c",
+      "type": "reaction",
+      "name": "铜与浓硝酸",
+      "dbId": "51",
+      "batch": "batch4",
+      "confidence": 0.88,
+      "reasons": [
+        "Cu+4HNO3(浓)=Cu(NO3)2+2NO2↑+2H2O配平正确，符合规范",
+        "条件标注浓硝酸常温并与稀硝酸区分",
+        "产物NO2、状态标注合理"
+      ]
+    },
+    {
+      "code": "rxn.C_O2_incomplete",
+      "type": "reaction",
+      "name": "碳不完全燃烧",
+      "dbId": "52",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "2C+O2=点燃=2CO配平正确，符合碳不完全燃烧表述",
+        "条件标注点燃、氧气不充足合理",
+        "物质状态(s/g/g)正确"
+      ]
+    },
+    {
+      "code": "rxn.C_O2_complete",
+      "type": "reaction",
+      "name": "碳完全燃烧",
+      "dbId": "53",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式 C+O2=点燃=CO2 配平正确，条件标注规范",
+        "物质状态 s/g/g 与系数一致，属高一常见反应"
+      ]
+    },
+    {
+      "code": "rxn.CO2_CaOH2",
+      "type": "reaction",
+      "name": "二氧化碳与澄清石灰水",
+      "dbId": "54",
+      "batch": "batch4",
+      "confidence": 0.93,
+      "reasons": [
+        "CO2+Ca(OH)2=CaCO3↓+H2O 配平正确，沉淀符号规范",
+        "conditions 已明确区分适量/过量，避免与酸式盐反应混答，符合高考规范"
+      ]
+    },
+    {
+      "code": "rxn.SiO2_2NaOH",
+      "type": "reaction",
+      "name": "二氧化硅与氢氧化钠",
+      "dbId": "55",
+      "batch": "batch4",
+      "confidence": 0.92,
+      "reasons": [
+        "SiO2+2NaOH=Na2SiO3+H2O 配平正确，非氧化还原判断正确",
+        "conditions 说明碱腐蚀玻璃，符合教材表述"
+      ]
+    },
+    {
+      "code": "rxn.SiO2_2C",
+      "type": "reaction",
+      "name": "二氧化硅与碳制粗硅",
+      "dbId": "56",
+      "batch": "batch4",
+      "confidence": 0.9,
+      "reasons": [
+        "SiO2+2C=高温=Si+2CO↑ 配平正确，产物为CO而非CO2符合工业制粗硅",
+        "氧化还原特征正确，属高一拓展了解内容"
+      ]
+    },
+    {
+      "code": "rxn.CaCO3_2HCl",
+      "type": "reaction",
+      "name": "碳酸钙与盐酸",
+      "dbId": "57",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "化学方程式CaCO3+2HCl=CaCl2+CO2↑+H2O配平正确，产物与状态标注符合高一规范",
+        "属非氧化还原反应，specialties去redox合理，保留离子式与物质检验类别恰当",
+        "条件'常温、酸足量'与实验室制CO2实际相符"
+      ]
+    },
+    {
+      "code": "exp.Cl2_prep",
+      "type": "experiment",
+      "name": "氯气的实验室制法",
+      "dbId": "9",
+      "batch": "batch4",
+      "confidence": 0.93,
+      "reasons": [
+        "原理式MnO2+4HCl(浓)=△=MnCl2+Cl2↑+2H2O正确，符合教材表述",
+        "收集方法向上排空气法、尾气NaOH吸收均正确",
+        "安全提示'有毒、禁止家用、通风橱教师指导'到位"
+      ]
+    },
+    {
+      "code": "exp.Cl2_property",
+      "type": "experiment",
+      "name": "氯气性质实验",
+      "dbId": "10",
+      "batch": "batch4",
+      "confidence": 0.92,
+      "reasons": [
+        "Cl2+H2O⇌HCl+HClO、Cl2+2NaOH=NaCl+NaClO+H2O方程式正确",
+        "漂白实质为HClO的表述准确，符合高一课标",
+        "安全提示有毒、禁止家用合理"
+      ]
+    },
+    {
+      "code": "kp.Cl.property",
+      "type": "knowledge",
+      "name": "氯气的性质与用途",
+      "dbId": "42",
+      "batch": "batch4",
+      "confidence": 0.9,
+      "reasons": [
+        "Cl2黄绿色有毒、强氧化性、与水/碱反应等表述准确",
+        "氯水为混合物（Cl2、H2O、HCl、HClO）及漂白源于HClO符合教材",
+        "易错点（干燥Cl2不漂白、歧化）表述正确"
+      ]
+    },
+    {
+      "code": "kp.Cl.prep",
+      "type": "knowledge",
+      "name": "氯气的实验室制取",
+      "dbId": "43",
+      "batch": "batch4",
+      "confidence": 0.9,
+      "reasons": [
+        "MnO2与浓盐酸加热制Cl2方程式及条件正确",
+        "向上排空气法收集、NaOH吸收尾气符合规范",
+        "易错点（稀盐酸、尾气处理、收集方法）准确"
+      ]
+    },
+    {
+      "code": "kp.N.cycle",
+      "type": "knowledge",
+      "name": "氮及其化合物转化",
+      "dbId": "45",
+      "batch": "batch4",
+      "confidence": 0.9,
+      "reasons": [
+        "转化链N2→NH3、NH3催化氧化→NO、NO→NO2、NO2与水生成HNO3+NO均正确",
+        "浓稀硝酸与铜产物不同表述准确",
+        "易错点（NO/NO2颜色、条件、浓稀硝酸方程式）符合高考规范"
+      ]
+    },
+    {
+      "code": "kp.N.ammonia",
+      "type": "knowledge",
+      "name": "氨的性质与制取",
+      "dbId": "46",
+      "batch": "batch4",
+      "confidence": 0.92,
+      "reasons": [
+        "NH3物理性质、极易溶于水显碱性表述正确",
+        "实验室制法铵盐与碱共热、检验用湿润红色石蕊试纸、与HCl白烟均准确",
+        "喷泉实验与防倒吸提示符合教材"
+      ]
+    },
+    {
+      "code": "kp.C.oxide",
+      "type": "knowledge",
+      "name": "碳的氧化物",
+      "dbId": "47",
+      "batch": "batch4",
+      "confidence": 0.9,
+      "reasons": [
+        "CO有毒、可燃、还原性、不使石灰水变浑浊正确",
+        "CO2酸性氧化物、使石灰水变浑浊、镁例外不支持燃烧表述准确",
+        "碳燃烧产物随氧气量变化正确"
+      ]
+    },
+    {
+      "code": "kp.nonmetal.test",
+      "type": "knowledge",
+      "name": "常见气体检验方法",
+      "dbId": "49",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "H2验纯、O2带火星木条复燃、CO2使石灰水变浑浊、Cl2黄绿色及湿润淀粉KI试纸变蓝、NH3使湿润红色石蕊试纸变蓝、SO2使品红褪色加热恢复，均符合高一必修与高考表述",
+        "已提示题设干扰与安全，并点出易错张冠李戴，教学导向正确"
+      ]
+    },
+    {
+      "code": "sub.Br2",
+      "type": "substance",
+      "name": "溴",
+      "dbId": "59",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "溴单质深红棕色表述准确，符合必修卤族元素颜色递变",
+        "范围限定单质递变与颜色，未展开溴含氧酸，符合课标"
+      ]
+    },
+    {
+      "code": "sub.I2",
+      "type": "substance",
+      "name": "碘",
+      "dbId": "60",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "碘单质紫黑色表述准确，淀粉变蓝为必修核心检验",
+        "已注明正价不进入默认核心，范围控制合理"
+      ]
+    },
+    {
+      "code": "kp.S.conc_H2SO4",
+      "type": "knowledge",
+      "name": "浓硫酸的特性",
+      "dbId": "50",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "三大特性（吸水性、脱水性、强氧化性）表述准确，符合必修与高考要求",
+        "与稀硫酸对比、常温不氧化Cu、稀释酸入水均正确",
+        "易错点提示合理"
+      ]
+    },
+    {
+      "code": "kp.N.ammonium",
+      "type": "knowledge",
+      "name": "铵盐的性质",
+      "dbId": "51",
+      "batch": "batch4",
+      "confidence": 0.93,
+      "reasons": [
+        "铵盐与碱共热放NH3、铵根检验方法（加碱加热、湿润红色石蕊试纸变蓝）表述准确",
+        "NH4Cl受热分解为NH3和HCl并注明了解，符合必修范围",
+        "易错点（不加热就写放氨）提示正确"
+      ]
+    },
+    {
+      "code": "kp.halogen.compare",
+      "type": "knowledge",
+      "name": "卤族元素性质比较",
+      "dbId": "52",
+      "batch": "batch4",
+      "confidence": 0.92,
+      "reasons": [
+        "单质氧化性 F2>Cl2>Br2>I2、氢化物稳定性 HF>HCl>HBr>HI 递变正确",
+        "置换反应表述合理，深度含氧酸标为了解、不进默认核心，符合必修范围",
+        "易错点提示恰当"
+      ]
+    },
+    {
+      "code": "kp.N.synth_ammonia",
+      "type": "knowledge",
+      "name": "合成氨反应条件与可逆性",
+      "dbId": "53",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "反应式N2+3H2⇌2NH3及条件（催化剂、高温、高压）表述正确，符合必修要求",
+        "明确限定为必修认识（可逆、需条件、工业意义），并提示勿作选修平衡定量训练，范围恰当",
+        "易错点（常温大量合成、忽略可逆）符合学情"
+      ]
+    },
+    {
+      "code": "kp.Cl.bleach",
+      "type": "knowledge",
+      "name": "氯水与漂白原理",
+      "dbId": "54",
+      "batch": "batch4",
+      "confidence": 0.95,
+      "reasons": [
+        "新制氯水含HClO具漂白性、久置HClO分解剩盐酸、干燥Cl2无漂白性，均准确",
+        "HClO漂白不可逆与SO2漂白可逆的对比表述正确，符合必修与高考规范",
+        "易错点（Cl2分子直接漂白、混淆两种漂白）切中要害"
+      ]
+    },
+    {
+      "code": "exp.ops_dissolve",
+      "type": "experiment",
+      "name": "溶解与搅拌",
+      "dbId": "19",
+      "batch": "batch5",
+      "confidence": 0.9,
+      "reasons": [
+        "溶解操作要点（烧杯、玻璃棒搅拌、加水顺序）符合高一必修实验基础表述",
+        "搅拌加速溶解、浓硫酸酸入水的安全顺序表述正确"
+      ]
+    },
+    {
+      "code": "exp.ops_filter",
+      "type": "experiment",
+      "name": "过滤操作",
+      "dbId": "20",
+      "batch": "batch5",
+      "confidence": 0.92,
+      "reasons": [
+        "“一贴二低三靠”为教材通行过滤操作要点，表述准确",
+        "过滤原理（分离不溶性固体与液体）正确，滤液浑浊原因分析合理"
+      ]
+    },
+    {
+      "code": "exp.ops_distill",
+      "type": "experiment",
+      "name": "蒸馏操作认知",
+      "dbId": "22",
+      "batch": "batch5",
+      "confidence": 0.88,
+      "reasons": [
+        "温度计位置、冷凝管水流方向、防暴沸等蒸馏装置要点符合高一认知级要求",
+        "明确限定为认知级、不展开工业精馏，范围恰当"
+      ]
+    },
+    {
+      "code": "exp.ops_extract",
+      "type": "experiment",
+      "name": "分液与萃取认知",
+      "dbId": "23",
+      "batch": "batch5",
+      "confidence": 0.9,
+      "reasons": [
+        "萃取原理表述准确：利用溶质在互不相溶溶剂中溶解度差异，静置分层后分液。",
+        "分液漏斗操作要点与教材一致，安全提示（CCl4有毒、仅题设分析）恰当。"
+      ]
+    },
+    {
+      "code": "exp.gas_collect_upward",
+      "type": "experiment",
+      "name": "向上排空气法",
+      "dbId": "24",
+      "batch": "batch5",
+      "confidence": 0.9,
+      "reasons": [
+        "向上排空气法原理正确：密度大于空气，瓶口向上、导管伸入瓶底附近。",
+        "示例O2、CO2、Cl2密度均大于空气，Cl2毒性已注明仅分析。"
+      ]
+    },
+    {
+      "code": "exp.gas_collect_downward",
+      "type": "experiment",
+      "name": "向下排空气法",
+      "dbId": "25",
+      "batch": "batch5",
+      "confidence": 0.9,
+      "reasons": [
+        "向下排空气法原理正确：密度小于空气，瓶口向下、导管伸至瓶底（上方）。",
+        "H2、NH3示例恰当，H2验纯与禁明火安全提示到位。"
+      ]
+    },
+    {
+      "code": "exp.O2_prep_KMnO4",
+      "type": "experiment",
+      "name": "高锰酸钾制氧气",
+      "dbId": "27",
+      "batch": "batch5",
+      "confidence": 0.95,
+      "reasons": [
+        "化学方程式2KMnO4=△=K2MnO4+MnO2+O2↑书写正确，符合高一/初中衔接表述",
+        "O2可用排水法或向上排空气法收集，表述准确",
+        "安全提示合理，明确仅书面分析"
+      ]
+    },
+    {
+      "code": "exp.O2_prep_H2O2",
+      "type": "experiment",
+      "name": "过氧化氢制氧气",
+      "dbId": "28",
+      "batch": "batch5",
+      "confidence": 0.95,
+      "reasons": [
+        "2H2O2=MnO2=2H2O+O2↑正确，MnO2为催化剂表述准确",
+        "常温分解、分液漏斗/长颈漏斗加液表述符合规范",
+        "安全提示合理"
+      ]
+    },
+    {
+      "code": "exp.H2_prep_Zn",
+      "type": "experiment",
+      "name": "锌与稀硫酸制氢气",
+      "dbId": "29",
+      "batch": "batch5",
+      "confidence": 0.95,
+      "reasons": [
+        "Zn+H2SO4=ZnSO4+H2↑正确",
+        "H2密度比空气小、难溶于水，向下排空气法或排水法收集表述准确",
+        "强调不可用浓硫酸简单代替、验纯与安全提示到位"
+      ]
+    },
+    {
+      "code": "exp.CO2_prep_marble",
+      "type": "experiment",
+      "name": "大理石与稀盐酸制二氧化碳",
+      "dbId": "30",
+      "batch": "batch5",
+      "confidence": 0.95,
+      "reasons": [
+        "CaCO3+2HCl=CaCl2+H2O+CO2↑正确",
+        "CO2密度比空气大用向上排空气法、一般不用排水法（可溶）表述准确",
+        "澄清石灰水检验、安全提示合理"
+      ]
+    },
+    {
+      "code": "exp.check_airtight",
+      "type": "experiment",
+      "name": "装置气密性检查",
+      "dbId": "31",
+      "batch": "batch5",
+      "confidence": 0.9,
+      "reasons": [
+        "原理表述正确：封闭体系气压变化引起气泡/水柱现象，符合教材检漏方法",
+        "操作顺序“先检后装”评价正确，属高一基础实验技能",
+        "仅书面分析，安全提示合理"
+      ]
+    },
+    {
+      "code": "exp.safety_rules",
+      "type": "experiment",
+      "name": "实验室安全通则",
+      "dbId": "32",
+      "batch": "batch5",
+      "confidence": 0.9,
+      "reasons": [
+        "安全通则内容为通用规范，符合课标与高考表述",
+        "明确禁止家庭危险实验，导向正确",
+        "仅作文案分析，无科学性错误"
+      ]
+    },
+    {
+      "code": "formula.excess_reactant",
+      "type": "formula",
+      "name": "过量计算判断",
+      "dbId": "14",
+      "batch": "batch5",
+      "confidence": 0.88,
+      "reasons": [
+        "过量判断方法正确：比较n(实)/计量数，按不足量计算",
+        "符合高一化学计算规范表述"
+      ]
+    },
+    {
+      "code": "formula.purity",
+      "type": "formula",
+      "name": "纯度与产率",
+      "dbId": "15",
+      "batch": "batch5",
+      "confidence": 0.95,
+      "reasons": [
+        "纯度与产率定义式正确，符合高一/高考计算表述",
+        "变量说明清晰，未涉及超纲内容"
+      ]
+    },
+    {
+      "code": "kp.calc.stoich",
+      "type": "knowledge",
+      "name": "化学方程式计算步骤",
+      "dbId": "55",
+      "batch": "batch5",
+      "confidence": 0.95,
+      "reasons": [
+        "步骤描述准确：配平、换算n、按计量数比例、回代单位",
+        "标况22.4的限定表述正确，易错点提示到位"
+      ]
+    },
+    {
+      "code": "kp.calc.excess",
+      "type": "knowledge",
+      "name": "过量问题分析方法",
+      "dbId": "56",
+      "batch": "batch5",
+      "confidence": 0.93,
+      "reasons": [
+        "用n/计量数比较判断不足量的方法正确，符合高考规范",
+        "剩余量计算表述正确，易错点提示合理"
+      ]
+    },
+    {
+      "code": "kp.exp.gas_wash_dry",
+      "type": "knowledge",
+      "name": "气体的洗涤与干燥",
+      "dbId": "61",
+      "batch": "batch5",
+      "confidence": 0.9,
+      "reasons": [
+        "洗气试剂选择原则（吸收杂质、尽量不吸收目标气体）表述正确",
+        "先除杂再干燥的顺序说明正确，避免干燥后通入水溶液",
+        "干燥剂与酸性/碱性/中性气体匹配、洗气瓶长进短出均符合教材与高考规范"
+      ]
+    },
+    {
+      "code": "exp.ops_volumetric_flask",
+      "type": "experiment",
+      "name": "容量瓶定容操作",
+      "dbId": "33",
+      "batch": "batch5",
+      "confidence": 0.88,
+      "reasons": [
+        "定容至凹液面最低处与刻度线相切、摇匀后得目标体积表述准确",
+        "原理（标定温度下准确容纳一定体积）正确",
+        "与c=n/V计算联动、书面训练定位合理，无超纲"
+      ]
+    },
+    {
+      "code": "formula.rate_v",
+      "type": "formula",
+      "name": "化学反应速率定义式",
+      "dbId": "17",
+      "batch": "batch5",
+      "confidence": 0.95,
+      "reasons": [
+        "定义式 v=Δc/Δt 表述正确，符合必修第二册平均速率口径",
+        "变量说明清晰，未涉及选修瞬时速率深度"
+      ]
+    },
+    {
+      "code": "kp.rate.factors",
+      "type": "knowledge",
+      "name": "影响化学反应速率的因素",
+      "dbId": "62",
+      "batch": "batch5",
+      "confidence": 0.95,
+      "reasons": [
+        "浓度、温度、催化剂、接触面积等定性因素表述准确，符合必修层面",
+        "催化剂不改变限度、不提高产率的易错点提示正确"
+      ]
+    },
+    {
+      "code": "concept.reversible",
+      "type": "concept",
+      "name": "可逆反应",
+      "dbId": "26",
+      "batch": "batch5",
+      "confidence": 0.95,
+      "reasons": [
+        "可逆反应定义（同条件下双向进行）准确，⇌符号使用规范",
+        "合成氨、氯气与水示例均为教材常见实例"
+      ]
+    },
+    {
+      "code": "sub.CH4",
+      "type": "substance",
+      "name": "甲烷",
+      "dbId": "62",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "甲烷为正四面体结构，表述正确",
+        "取代反应生成多种氯代产物，dbReviewNote提示勿写唯一，符合规范",
+        "无色、有机基本物质分类正确"
+      ]
+    },
+    {
+      "code": "sub.C2H4",
+      "type": "substance",
+      "name": "乙烯",
+      "dbId": "63",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "乙烯结构简式CH2=CH2正确",
+        "KMnO4褪色不指定唯一氧化产物，表述严谨",
+        "无色、有机基本物质分类正确"
+      ]
+    },
+    {
+      "code": "sub.C2H5OH",
+      "type": "substance",
+      "name": "乙醇",
+      "dbId": "65",
+      "batch": "batch6",
+      "confidence": 0.93,
+      "reasons": [
+        "乙醇官能团为羟基，正确",
+        "催化氧化条件需Cu/Ag加热，dbReviewNote提示合理",
+        "无色、有机基本物质分类正确"
+      ]
+    },
+    {
+      "code": "sub.CH3COOH",
+      "type": "substance",
+      "name": "乙酸",
+      "dbId": "66",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "乙酸为弱酸、含羧基、酸性强于碳酸，均符合高一必修有机内容与高考表述",
+        "分子式CH3COOH、无色液体描述正确"
+      ]
+    },
+    {
+      "code": "sub.CH3COOCH2CH3",
+      "type": "substance",
+      "name": "乙酸乙酯",
+      "dbId": "67",
+      "batch": "batch6",
+      "confidence": 0.93,
+      "reasons": [
+        "乙酸乙酯结构简式CH3COOCH2CH3与CH3COOC2H5等价，表述正确",
+        "无色、酯类基本性质符合必修有机内容"
+      ]
+    },
+    {
+      "code": "rxn.CH4_Cl2",
+      "type": "reaction",
+      "name": "甲烷与氯气取代",
+      "dbId": "59",
+      "batch": "batch6",
+      "confidence": 0.9,
+      "reasons": [
+        "方程式CH4+Cl2=光照=CH3Cl+HCl正确，条件标注“光照”符合教材表述",
+        "已明确标注“第一步示例”，并在备注中强调多种氯代产物、禁写唯一产物，避免误导",
+        "安全提示（氯气有毒、爆炸风险）恰当"
+      ]
+    },
+    {
+      "code": "rxn.C2H4_H2O",
+      "type": "reaction",
+      "name": "乙烯水化制乙醇",
+      "dbId": "61",
+      "batch": "batch6",
+      "confidence": 0.9,
+      "reasons": [
+        "方程式CH2=CH2+H2O=催化剂、加热加压=CH3CH2OH正确，符合教材工业制乙醇表述",
+        "条件注明“催化剂（如磷酸等，以教材为准）、加热、加压”，表述规范",
+        "产物C2H5OH状态l合理"
+      ]
+    },
+    {
+      "code": "rxn.C2H4_H2",
+      "type": "reaction",
+      "name": "乙烯加氢",
+      "dbId": "62",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式CH2=CH2+H2→CH3CH3配平正确，属加成反应",
+        "条件'催化剂、加热'符合教材表述",
+        "物种系数与状态标注一致"
+      ]
+    },
+    {
+      "code": "rxn.C2H5OH_O2",
+      "type": "reaction",
+      "name": "乙醇催化氧化",
+      "dbId": "63",
+      "batch": "batch6",
+      "confidence": 0.93,
+      "reasons": [
+        "2CH3CH2OH+O2→2CH3CHO+2H2O配平正确，为催化氧化",
+        "条件Cu/Ag加热符合教材灼热铜丝实验",
+        "氧化产物CH3CHO、还原产物H2O标注正确"
+      ]
+    },
+    {
+      "code": "rxn.C2H5OH_burn",
+      "type": "reaction",
+      "name": "乙醇燃烧",
+      "dbId": "64",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "C2H5OH+3O2→2CO2+3H2O配平正确",
+        "条件点燃、完全燃烧表述规范",
+        "氧化产物CO2、还原产物H2O正确"
+      ]
+    },
+    {
+      "code": "rxn.esterification",
+      "type": "reaction",
+      "name": "乙酸乙酯酯化",
+      "dbId": "65",
+      "batch": "batch6",
+      "confidence": 0.94,
+      "reasons": [
+        "CH3COOH+C2H5OH⇌CH3COOC2H5+H2O配平正确",
+        "可逆符号与浓硫酸催化加热条件符合教材",
+        "物种两侧齐全、状态标注合理"
+      ]
+    },
+    {
+      "code": "rxn.CH3COOH_NaOH",
+      "type": "reaction",
+      "name": "乙酸与氢氧化钠",
+      "dbId": "66",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "化学方程式CH3COOH+NaOH=CH3COONa+H2O配平正确，符合弱酸与强碱中和的教材表述",
+        "条件标注常温水溶液中和合理，物种状态aq/l标注正确"
+      ]
+    },
+    {
+      "code": "rxn.CH3COOH_Na2CO3",
+      "type": "reaction",
+      "name": "乙酸与碳酸钠",
+      "dbId": "67",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "方程式2CH3COOH+Na2CO3=2CH3COONa+CO2↑+H2O配平正确，符合乙酸酸性强于碳酸的教材结论",
+        "CO2标↑、状态g合理，dbReviewNote整改说明与内容一致"
+      ]
+    },
+    {
+      "code": "exp.CH4_property",
+      "type": "experiment",
+      "name": "甲烷性质实验认知",
+      "dbId": "36",
+      "batch": "batch6",
+      "confidence": 0.92,
+      "reasons": [
+        "甲烷燃烧生成CO2和H2O、光照下与Cl2取代生成多种氯代产物的表述准确，符合教材",
+        "明确不得写唯一产物，安全提示强调仅书面训练、禁止动手，符合规范"
+      ]
+    },
+    {
+      "code": "exp.C2H4_prep",
+      "type": "experiment",
+      "name": "乙烯的实验室制法",
+      "dbId": "37",
+      "batch": "batch6",
+      "confidence": 0.9,
+      "reasons": [
+        "乙醇浓硫酸约170℃消去制乙烯的原理与教材一致，温度控制要点正确",
+        "提及乙醚等副产物作为了解/题设，未超纲误导；安全提示规范"
+      ]
+    },
+    {
+      "code": "exp.C2H4_Br2",
+      "type": "experiment",
+      "name": "乙烯使溴水褪色",
+      "dbId": "38",
+      "batch": "batch6",
+      "confidence": 0.93,
+      "reasons": [
+        "加成反应方程式CH2=CH2+Br2→CH2BrCH2Br正确，褪色属化学变化表述准确",
+        "明确区分溴水（加成褪色）与Br2/CCl4（加成）及萃取干扰，符合高考有机检验题表述",
+        "仅作书面训练、禁止家用实验的安全说明合理"
+      ]
+    },
+    {
+      "code": "exp.ethanol_oxid",
+      "type": "experiment",
+      "name": "乙醇催化氧化",
+      "dbId": "39",
+      "batch": "batch6",
+      "confidence": 0.92,
+      "reasons": [
+        "催化氧化方程式2CH3CH2OH+O2→2CH3CHO+2H2O及Cu/Ag加热条件正确",
+        "铜丝变黑（CuO）再变红的循环催化现象描述符合教材演示",
+        "安全说明与书面训练定位恰当"
+      ]
+    },
+    {
+      "code": "exp.esterification",
+      "type": "experiment",
+      "name": "乙酸乙酯制备",
+      "dbId": "40",
+      "batch": "batch6",
+      "confidence": 0.93,
+      "reasons": [
+        "酯化方程式及浓硫酸催化吸水作用表述正确",
+        "饱和Na2CO3吸收乙酸、溶解乙醇、降低酯溶解度的三重作用表述准确，符合高考常考点",
+        "产物分层现象分析合理"
+      ]
+    },
+    {
+      "code": "exp.acetic_acid",
+      "type": "experiment",
+      "name": "乙酸酸性验证",
+      "dbId": "41",
+      "batch": "batch6",
+      "confidence": 0.92,
+      "reasons": [
+        "乙酸弱酸具酸通性表述正确",
+        "2CH3COOH+Na2CO3=2CH3COONa+CO2↑+H2O可证明酸性强于碳酸，逻辑与方程式均正确",
+        "试剂与现象对应合理，安全说明恰当"
+      ]
+    },
+    {
+      "code": "concept.functional_group",
+      "type": "concept",
+      "name": "官能团初步",
+      "dbId": "29",
+      "batch": "batch6",
+      "confidence": 0.9,
+      "reasons": [
+        "定义准确：决定有机化合物主要化学性质的原子或原子团",
+        "举例乙烯含碳碳双键、乙醇含羟基、乙酸含羧基、乙酸乙酯含酯基均正确，符合必修表述"
+      ]
+    },
+    {
+      "code": "concept.addition",
+      "type": "concept",
+      "name": "加成反应",
+      "dbId": "31",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "定义准确：不饱和键两端原子与其他原子或原子团直接结合生成新化合物，符合人教版必修表述",
+        "示例乙烯与溴、加氢、水化均为典型加成反应，无科学性错误"
+      ]
+    },
+    {
+      "code": "kp.organic.methane",
+      "type": "knowledge",
+      "name": "甲烷结构与性质",
+      "dbId": "64",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "正四面体结构、分子式CH4表述准确",
+        "强调光照下取代产物为多种氯代甲烷、不得写唯一产物，符合高考规范"
+      ]
+    },
+    {
+      "code": "kp.organic.alkane",
+      "type": "knowledge",
+      "name": "烷烃通式与性质",
+      "dbId": "65",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "通式CnH2n+2（链状）表述准确，注明饱和烃",
+        "性质描述（稳定、取代、燃烧、不能因加成使溴水褪色）符合高一及高考表述"
+      ]
+    },
+    {
+      "code": "kp.organic.ethene",
+      "type": "knowledge",
+      "name": "乙烯结构与性质",
+      "dbId": "66",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "结构简式CH2=CH2、碳碳双键表述正确",
+        "加成（Br2、H2、H2O）、加聚、使酸性KMnO4褪色均符合高一表述",
+        "乙醇浓硫酸加热制乙烯标注为认知层面，范围合理"
+      ]
+    },
+    {
+      "code": "kp.organic.ethanol",
+      "type": "knowledge",
+      "name": "乙醇结构与性质",
+      "dbId": "67",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "官能团羟基、燃烧、Cu/Ag催化氧化为乙醛、与乙酸酯化均准确",
+        "物理性质（无色液体、与水互溶、易燃）正确"
+      ]
+    },
+    {
+      "code": "kp.organic.acetic",
+      "type": "knowledge",
+      "name": "乙酸结构与性质",
+      "dbId": "68",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "羧基官能团、弱酸具酸通性表述正确",
+        "酸性强于碳酸（与碳酸盐放CO2）符合规范",
+        "酯化及食醋含乙酸表述准确"
+      ]
+    },
+    {
+      "code": "kp.organic.isomer_skill",
+      "type": "knowledge",
+      "name": "同分异构体书写技能",
+      "dbId": "69",
+      "batch": "batch6",
+      "confidence": 0.9,
+      "reasons": [
+        "有序书写（碳链异构、官能团位置）方法正确",
+        "限定高一简单烷烃/烯烃/醇醚基础题型，范围合理",
+        "强调检查重复与遗漏，符合教学规范"
+      ]
+    },
+    {
+      "code": "kp.inference.color",
+      "type": "knowledge",
+      "name": "颜色推断方法",
+      "dbId": "70",
+      "batch": "batch6",
+      "confidence": 0.9,
+      "reasons": [
+        "特征颜色描述准确：酸性KMnO4紫红、溴水橙红、Cu2+蓝、Fe3+黄棕，符合高中教材表述。",
+        "强调结合题设条件、避免单一线索武断，方法学表述严谨。"
+      ]
+    },
+    {
+      "code": "kp.inference.block",
+      "type": "knowledge",
+      "name": "无机框图推断策略",
+      "dbId": "71",
+      "batch": "batch6",
+      "confidence": 0.9,
+      "reasons": [
+        "框图推断策略（找特征转化→定突破口→箭头验证全局自洽）符合高考推断题通行方法。",
+        "提示过量与气体通入顺序影响产物，切中常见易错点。"
+      ]
+    },
+    {
+      "code": "kp.comprehensive.basic",
+      "type": "knowledge",
+      "name": "基础综合解题框架",
+      "dbId": "73",
+      "batch": "batch6",
+      "confidence": 0.9,
+      "reasons": [
+        "综合题解题路径（审题→定位模块→写方程式/关系式→检查计量条件单位→回代验证）表述准确、通用。",
+        "强调先易后难、避免跳步丢条件，符合教学规范。"
+      ]
+    },
+    {
+      "code": "kp.energy.bond_change",
+      "type": "knowledge",
+      "name": "化学键与能量变化",
+      "dbId": "74",
+      "batch": "batch6",
+      "confidence": 0.92,
+      "reasons": [
+        "断键吸能、成键放能及相对大小决定吸放热的表述符合中学口径与课标",
+        "明确“不能仅凭是否加热判断”，科学准确"
+      ]
+    },
+    {
+      "code": "kp.energy.chem_electric",
+      "type": "knowledge",
+      "name": "化学能与电能",
+      "dbId": "75",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "原电池将化学能转化为电能、电解将电能转化为化学能，表述准确",
+        "能量转化形式为必修要点，符合课标范围"
+      ]
+    },
+    {
+      "code": "kp.energy.galvanic",
+      "type": "knowledge",
+      "name": "原电池",
+      "dbId": "76",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "构成条件（自发氧化还原、电极、电解质、闭合回路）表述准确",
+        "电子外电路迁移、离子电解质迁移正确",
+        "明确并非必须两种不同金属，避免常见误区"
+      ]
+    },
+    {
+      "code": "kp.energy.galvanic_poles",
+      "type": "knowledge",
+      "name": "原电池正负极",
+      "dbId": "77",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "负极氧化失电子、正极还原得电子表述正确",
+        "强调结合电极材料与电解质氧化剂判断，严谨"
+      ]
+    },
+    {
+      "code": "kp.energy.electron_flow",
+      "type": "knowledge",
+      "name": "原电池电子流向",
+      "dbId": "78",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "外电路电子由负极到正极、电流方向相反，正确",
+        "阳离子向正极、阴离子向负极迁移正确，并强调电子不在溶液流动"
+      ]
+    },
+    {
+      "code": "kp.energy.electrode_rxn",
+      "type": "knowledge",
+      "name": "原电池电极反应",
+      "dbId": "79",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "负极氧化、正极还原、相加得总反应符合原电池电极反应书写规范",
+        "Zn-Cu在CuSO4中正极Cu2+得电子、稀H2SO4中H+得电子，表述准确且强调按题设判断"
+      ]
+    },
+    {
+      "code": "kp.energy.chem_power",
+      "type": "knowledge",
+      "name": "常见化学电源",
+      "dbId": "80",
+      "batch": "batch6",
+      "confidence": 0.93,
+      "reasons": [
+        "定位为了解级，仅要求名称与用途层次，符合必修第二册课标",
+        "明确不展开复杂电化学工程与电极材料细节，范围控制得当"
+      ]
+    },
+    {
+      "code": "exp.galvanic_Zn_Cu",
+      "type": "experiment",
+      "name": "铜锌原电池实验",
+      "dbId": "42",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "电子外电路负极→正极、溶液中阴阳离子定向迁移形成闭合回路，表述正确",
+        "区分CuSO4与稀H2SO4两种电解质下正极反应，并强调按题设判断，科学准确",
+        "指出并非必须两种不同金属，避免常见误区"
+      ]
+    },
+    {
+      "code": "kp.energy.thermo_eq",
+      "type": "knowledge",
+      "name": "热化学方程式书写",
+      "dbId": "81",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "注明聚集状态、ΔH符号与单位、计量数与ΔH对应关系，符合必修与高考表述",
+        "计量数翻倍ΔH相应变化表述正确"
+      ]
+    },
+    {
+      "code": "kp.sustain.seawater",
+      "type": "knowledge",
+      "name": "海水资源开发",
+      "dbId": "82",
+      "batch": "batch6",
+      "confidence": 0.93,
+      "reasons": [
+        "海水含NaCl、镁、溴等资源表述准确",
+        "淡化与综合利用意义符合教材，深度限定以教材案例为准，未超纲"
+      ]
+    },
+    {
+      "code": "kp.sustain.coal",
+      "type": "knowledge",
+      "name": "煤的综合利用",
+      "dbId": "83",
+      "batch": "batch6",
+      "confidence": 0.93,
+      "reasons": [
+        "干馏、气化、液化属煤综合利用正确途径",
+        "明确不展开复杂工艺计算，符合必修范围"
+      ]
+    },
+    {
+      "code": "kp.organic.petroleum",
+      "type": "knowledge",
+      "name": "石油分馏",
+      "dbId": "84",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "石油分馏为按沸点不同分离的物理变化，表述准确",
+        "与裂化、裂解化学加工区分正确"
+      ]
+    },
+    {
+      "code": "kp.sustain.natural_gas",
+      "type": "knowledge",
+      "name": "天然气利用",
+      "dbId": "87",
+      "batch": "batch6",
+      "confidence": 0.9,
+      "reasons": [
+        "天然气主要成分为甲烷、较清洁化石燃料、可作化工原料，表述准确符合必修层次",
+        "安全使用与碳中和背景属教材了解级认知，无科学错误",
+        "verifyNeeded=false，无超纲或误导内容"
+      ]
+    },
+    {
+      "code": "kp.sustain.fertilizer",
+      "type": "knowledge",
+      "name": "化肥合理使用",
+      "dbId": "88",
+      "batch": "batch6",
+      "confidence": 0.9,
+      "reasons": [
+        "氮、磷、钾肥作用与合理施用、过量导致污染，符合必修第二册化学与可持续发展内容",
+        "表述准确，无科学错误，verifyNeeded=false"
+      ]
+    },
+    {
+      "code": "kp.sustain.pesticide",
+      "type": "knowledge",
+      "name": "农药合理使用",
+      "dbId": "89",
+      "batch": "batch6",
+      "confidence": 0.9,
+      "reasons": [
+        "表述准确：农药防治病虫害与合理使用、减少残留和生态危害符合必修二'化学与可持续发展'要求",
+        "属社会责任与科学态度类认知条目，未涉及超纲内容"
+      ]
+    },
+    {
+      "code": "kp.sustain.medicine",
+      "type": "knowledge",
+      "name": "药物合理使用",
+      "dbId": "90",
+      "batch": "batch6",
+      "confidence": 0.9,
+      "reasons": [
+        "按说明书与医嘱用药、滥用抗生素危害属教材案例层次，表述准确",
+        "明确不涉及诊疗指导，范围恰当"
+      ]
+    },
+    {
+      "code": "kp.sustain.food_additive",
+      "type": "knowledge",
+      "name": "食品添加剂",
+      "dbId": "91",
+      "batch": "batch6",
+      "confidence": 0.9,
+      "reasons": [
+        "'规定范围与剂量内使用'与'抵制非法添加'表述准确，符合课标与高考规范",
+        "区分合法合规使用与安全，无科学性错误"
+      ]
+    },
+    {
+      "code": "kp.enviro.pollution",
+      "type": "knowledge",
+      "name": "环境污染与防治认知",
+      "dbId": "92",
+      "batch": "batch6",
+      "confidence": 0.88,
+      "reasons": [
+        "大气、水、土壤污染类型及源头控制、达标排放、绿色工艺等防治思路准确",
+        "结合硫氧化物、氮氧化物、塑料等教材案例，范围符合必修二"
+      ]
+    },
+    {
+      "code": "kp.enviro.acid_rain",
+      "type": "knowledge",
+      "name": "酸雨",
+      "dbId": "93",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "酸雨成因SO2、NOx及危害（酸化水体土壤、腐蚀建筑）表述准确，符合必修硫氮氧化物内容",
+        "防治措施脱硫脱硝、清洁能源、节能属通行课标表述，无科学错误"
+      ]
+    },
+    {
+      "code": "kp.sustain.green_chem",
+      "type": "knowledge",
+      "name": "绿色化学",
+      "dbId": "94",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "绿色化学强调源头减污、提高原子利用率、选用安全原料溶剂，符合必修可持续发展概念认识",
+        "表述为概念级，未超纲"
+      ]
+    },
+    {
+      "code": "concept.addition_polymer",
+      "type": "concept",
+      "name": "加成聚合",
+      "dbId": "36",
+      "batch": "batch6",
+      "confidence": 0.95,
+      "reasons": [
+        "加聚定义（不饱和单体经加成结合成高分子）准确，符合必修有机聚合物初步",
+        "乙烯→聚乙烯示例正确，范围按必修了解，未超纲"
+      ]
+    },
+    {
+      "code": "kp.calc.gas",
+      "type": "knowledge",
+      "name": "气体相关计算",
+      "dbId": "57",
+      "batch": "batch5",
+      "confidence": 0.95,
+      "reasons": [
+        "明确限定Vm≈22.4 L/mol仅适用于标准状况（0℃、101 kPa），符合教材与高考规范",
+        "指出未指明标况不得套用22.4，纠正常见易错点",
+        "同温同压下气体体积比≈物质的量比表述正确，属阿伏加德罗定律思想，范围合适"
+      ]
+    },
+    {
+      "code": "kp.calc.solution",
+      "type": "knowledge",
+      "name": "溶液浓度综合",
+      "dbId": "58",
+      "batch": "batch5",
+      "confidence": 0.93,
+      "reasons": [
+        "c=n/V中V为溶液体积（L）表述准确",
+        "稀释公式c1V1=c2V2仅加水时成立，条件说明正确",
+        "区分物质的量浓度与质量分数、指出V误用溶剂体积等易错点，符合高一/高考规范"
+      ]
+    },
+    {
+      "code": "kp.exp.design",
+      "type": "knowledge",
+      "name": "实验方案设计要点",
+      "dbId": "59",
+      "batch": "batch5",
+      "confidence": 0.9,
+      "reasons": [
+        "方案评价要点（目的、原理、试剂仪器匹配、步骤顺序、现象与结论、安全与尾气废液）符合高一实验基础与高考实验评价表述",
+        "明确限定为书面方案评价、不要求动手，范围合理不超纲"
+      ]
+    },
+    {
+      "code": "kp.exp.error",
+      "type": "knowledge",
+      "name": "实验误差分析",
+      "dbId": "60",
+      "batch": "batch5",
+      "confidence": 0.88,
+      "reasons": [
+        "误差分析强调对应操作阶段与测定量，符合高考规范表述",
+        "容量瓶残留蒸馏水不影响c、俯视/仰视定容、未洗涤、未冷却、超刻度吸出等各条结论均正确",
+        "⑥超刻度吸出部分溶液导致n偏小、c偏小的判断合理"
+      ]
+    }
+  ]
+}

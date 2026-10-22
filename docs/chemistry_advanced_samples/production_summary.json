@@ -1,0 +1,147 @@
+{
+  "total": 60,
+  "byGrade": {
+    "PASS": 56,
+    "NEEDS_FIX": 4
+  },
+  "byDifficultyPass": {
+    "raise": 35,
+    "challenge": 21
+  },
+  "bySpecialty": {
+    "calculation": {
+      "PASS": 12,
+      "NEEDS_FIX": 0,
+      "HOLD": 0,
+      "REJECT": 0
+    },
+    "redox": {
+      "PASS": 12,
+      "NEEDS_FIX": 0,
+      "HOLD": 0,
+      "REJECT": 0
+    },
+    "ion": {
+      "PASS": 7,
+      "NEEDS_FIX": 3,
+      "HOLD": 0,
+      "REJECT": 0
+    },
+    "experiment": {
+      "PASS": 10,
+      "NEEDS_FIX": 0,
+      "HOLD": 0,
+      "REJECT": 0
+    },
+    "inference": {
+      "PASS": 8,
+      "NEEDS_FIX": 0,
+      "HOLD": 0,
+      "REJECT": 0
+    },
+    "comprehensive": {
+      "PASS": 7,
+      "NEEDS_FIX": 1,
+      "HOLD": 0,
+      "REJECT": 0
+    }
+  },
+  "quotas": {
+    "got": {
+      "calculation": {
+        "raise": 7,
+        "challenge": 5,
+        "total": 12
+      },
+      "redox": {
+        "raise": 7,
+        "challenge": 5,
+        "total": 12
+      },
+      "ion": {
+        "raise": 6,
+        "challenge": 4,
+        "total": 10
+      },
+      "experiment": {
+        "raise": 6,
+        "challenge": 4,
+        "total": 10
+      },
+      "inference": {
+        "raise": 5,
+        "challenge": 3,
+        "total": 8
+      },
+      "comprehensive": {
+        "raise": 5,
+        "challenge": 3,
+        "total": 8
+      }
+    },
+    "mismatches": []
+  },
+  "structIssueCount": 0,
+  "dedupHitCount": 0,
+  "deepseekReviewed": 60,
+  "deepseekFailed": 0,
+  "deepseekSkipped": false,
+  "trialReadyIds": [
+    "S60.calculation.01",
+    "S60.calculation.02",
+    "S60.calculation.03",
+    "S60.calculation.04",
+    "S60.calculation.05",
+    "S60.calculation.06",
+    "S60.calculation.07",
+    "S60.calculation.08",
+    "S60.calculation.09",
+    "S60.calculation.10",
+    "S60.calculation.11",
+    "S60.calculation.12",
+    "S60.redox.01",
+    "S60.redox.02",
+    "S60.redox.03",
+    "S60.redox.04",
+    "S60.redox.05",
+    "S60.redox.06",
+    "S60.redox.07",
+    "S60.redox.08",
+    "S60.redox.09",
+    "S60.redox.10",
+    "S60.redox.11",
+    "S60.redox.12",
+    "S60.ion.01",
+    "S60.ion.02",
+    "S60.ion.03",
+    "S60.ion.04",
+    "S60.ion.05",
+    "S60.ion.06",
+    "S60.ion.08",
+    "S60.experiment.01",
+    "S60.experiment.02",
+    "S60.experiment.03",
+    "S60.experiment.04",
+    "S60.experiment.05",
+    "S60.experiment.06",
+    "S60.experiment.07",
+    "S60.experiment.08",
+    "S60.experiment.09",
+    "S60.experiment.10",
+    "S60.inference.01",
+    "S60.inference.02",
+    "S60.inference.03",
+    "S60.inference.04",
+    "S60.inference.05",
+    "S60.inference.06",
+    "S60.inference.07",
+    "S60.inference.08",
+    "S60.comprehensive.01",
+    "S60.comprehensive.02",
+    "S60.comprehensive.03",
+    "S60.comprehensive.04",
+    "S60.comprehensive.05",
+    "S60.comprehensive.06",
+    "S60.comprehensive.07"
+  ]
+}

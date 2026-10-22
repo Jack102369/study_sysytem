@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-10-20T02:05:40.140Z",
+  "note": "扫描阶段风险标记；题目本身问题在样本核验阶段追加",
+  "count": 0,
+  "items": [],
+  "sample50Extra": [
+    {
+      "id": "215",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.calc.solution",
+      "risks": [
+        "SCIENCE_RISK",
+        "ANSWER_MISMATCH"
+      ],
+      "note": "题干表述残缺：『V用溶剂体积』语义不明，无法构成可判断的���误命题; 解析为通用模板套话，未针对具体概念展开，缺乏实质推理; 无法核验与标准答案『错误』的一致性，题干本身信息不足",
+      "source": "deepseek_assist"
+    },
+    {
+      "id": "49",
+      "code": "train.ai_trial.047.fm_stp",
+      "risks": [
+        "SCIENCE_RISK",
+        "ANSWER_MISMATCH"
+      ],
+      "note": "解析未针对『22.4 L/mol仅适用于标准状况』这一核心知识点展开，答非所问; 解析套用计算题模板（求n、过量比较等），与本题正误判断题型不符; 未说明标准状况条件，推理过程缺失",
+      "source": "deepseek_assist"
+    },
+    {
+      "id": "248",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.test",
+      "risks": [
+        "SCIENCE_RISK",
+        "ANSWER_MISMATCH"
+      ],
+      "note": "解析为通用模板套话，未涉及Fe2+与KSCN显色反应的具体化学原理; 未说明Fe2+与KSCN不显红色、需先氧化为Fe3+的关键知识点; 题干『直接对Fe2+加KSCN就报阳性』表述略简，但解析未做任何针对性分析",
+      "source": "deepseek_assist"
+    }
+  ],
+  "updatedAt": "2026-10-20T02:06:28.459Z"
+}

@@ -1,0 +1,554 @@
+{
+  "at": "2026-10-18T06:24:35.679Z",
+  "items": [
+    {
+      "code": "exp.instrument_basic",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=17",
+      "dbId": "17"
+    },
+    {
+      "code": "exp.ops_weigh",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=18",
+      "dbId": "18"
+    },
+    {
+      "code": "exp.ops_dissolve",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=19",
+      "dbId": "19"
+    },
+    {
+      "code": "exp.ops_filter",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=20",
+      "dbId": "20"
+    },
+    {
+      "code": "exp.ops_evaporate",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=21",
+      "dbId": "21"
+    },
+    {
+      "code": "exp.ops_distill",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=22",
+      "dbId": "22"
+    },
+    {
+      "code": "exp.ops_extract",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=23",
+      "dbId": "23"
+    },
+    {
+      "code": "exp.gas_collect_upward",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=24",
+      "dbId": "24"
+    },
+    {
+      "code": "exp.gas_collect_downward",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=25",
+      "dbId": "25"
+    },
+    {
+      "code": "exp.gas_collect_water",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=26",
+      "dbId": "26"
+    },
+    {
+      "code": "exp.O2_prep_KMnO4",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=27",
+      "dbId": "27"
+    },
+    {
+      "code": "exp.O2_prep_H2O2",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=28",
+      "dbId": "28"
+    },
+    {
+      "code": "exp.H2_prep_Zn",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=29",
+      "dbId": "29"
+    },
+    {
+      "code": "exp.CO2_prep_marble",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=30",
+      "dbId": "30"
+    },
+    {
+      "code": "exp.check_airtight",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=31",
+      "dbId": "31"
+    },
+    {
+      "code": "exp.safety_rules",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.gas_prep",
+        "experiment.gas_collect",
+        "experiment.safety"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=32",
+      "dbId": "32"
+    },
+    {
+      "code": "formula.mixed_stoich",
+      "specialtyCodes": [
+        "calculation"
+      ],
+      "categoryCodes": [
+        "calculation.equation_calc",
+        "calculation.mixed"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=13",
+      "dbId": "13"
+    },
+    {
+      "code": "formula.excess_reactant",
+      "specialtyCodes": [
+        "calculation"
+      ],
+      "categoryCodes": [
+        "calculation.equation_calc",
+        "calculation.mixed"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=14",
+      "dbId": "14"
+    },
+    {
+      "code": "formula.purity",
+      "specialtyCodes": [
+        "calculation"
+      ],
+      "categoryCodes": [
+        "calculation.equation_calc",
+        "calculation.mixed"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=15",
+      "dbId": "15"
+    },
+    {
+      "code": "formula.ion_conc",
+      "specialtyCodes": [
+        "calculation"
+      ],
+      "categoryCodes": [
+        "calculation.equation_calc",
+        "calculation.mixed"
+      ],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=16",
+      "dbId": "16"
+    },
+    {
+      "code": "kp.calc.stoich",
+      "specialtyCodes": [
+        "calculation"
+      ],
+      "categoryCodes": [],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=55",
+      "dbId": "55"
+    },
+    {
+      "code": "kp.calc.excess",
+      "specialtyCodes": [
+        "calculation"
+      ],
+      "categoryCodes": [],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=56",
+      "dbId": "56"
+    },
+    {
+      "code": "kp.calc.gas",
+      "specialtyCodes": [
+        "calculation"
+      ],
+      "categoryCodes": [],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=57",
+      "dbId": "57"
+    },
+    {
+      "code": "kp.calc.solution",
+      "specialtyCodes": [
+        "calculation"
+      ],
+      "categoryCodes": [],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=58",
+      "dbId": "58"
+    },
+    {
+      "code": "kp.exp.design",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=59",
+      "dbId": "59"
+    },
+    {
+      "code": "kp.exp.error",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [],
+      "status": "imported",
+      "note": "batch5导入 pending_review id=60",
+      "dbId": "60"
+    },
+    {
+      "code": "q.calc.amount_basic",
+      "specialtyCodes": [
+        "calculation"
+      ],
+      "categoryCodes": [],
+      "status": "imported",
+      "note": "仅骨架，无完整题面; batch5导入 pending_review id=2",
+      "dbId": "2"
+    },
+    {
+      "code": "q.calc.concentration",
+      "specialtyCodes": [
+        "calculation"
+      ],
+      "categoryCodes": [],
+      "status": "imported",
+      "note": "仅骨架，无完整题面; batch5导入 pending_review id=3",
+      "dbId": "3"
+    },
+    {
+      "code": "q.calc.equation",
+      "specialtyCodes": [
+        "equation"
+      ],
+      "categoryCodes": [],
+      "status": "imported",
+      "note": "仅骨架，无完整题面; batch5导入 pending_review id=4",
+      "dbId": "4"
+    },
+    {
+      "code": "q.calc.excess",
+      "specialtyCodes": [
+        "calculation"
+      ],
+      "categoryCodes": [],
+      "status": "imported",
+      "note": "仅骨架，无完整题面; batch5导入 pending_review id=5",
+      "dbId": "5"
+    },
+    {
+      "code": "q.exp.instrument",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [],
+      "status": "imported",
+      "note": "仅骨架，无完整题面; batch5导入 pending_review id=6",
+      "dbId": "6"
+    },
+    {
+      "code": "q.exp.gas_collect",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [],
+      "status": "imported",
+      "note": "仅骨架，无完整题面; batch5导入 pending_review id=7",
+      "dbId": "7"
+    },
+    {
+      "code": "q.exp.safety",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [],
+      "status": "imported",
+      "note": "仅骨架，无完整题面; batch5导入 pending_review id=8",
+      "dbId": "8"
+    },
+    {
+      "code": "q.eq.balance",
+      "specialtyCodes": [
+        "equation"
+      ],
+      "categoryCodes": [],
+      "status": "imported",
+      "note": "仅骨架，无完整题面; batch5导入 pending_review id=9",
+      "dbId": "9"
+    },
+    {
+      "code": "kp.exp.gas_wash_dry",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.apparatus_link",
+        "experiment.gas_collect",
+        "experiment.plan_design"
+      ],
+      "status": "imported",
+      "note": "增补；试剂选择与顺序; batch5导入 pending_review id=61",
+      "dbId": "61",
+      "verifyNeeded": false
+    },
+    {
+      "code": "exp.ops_volumetric_flask",
+      "specialtyCodes": [
+        "experiment",
+        "calculation"
+      ],
+      "categoryCodes": [
+        "experiment.basic_ops",
+        "experiment.instrument_use"
+      ],
+      "status": "imported",
+      "note": "增补; batch5导入 pending_review id=33",
+      "dbId": "33",
+      "verifyNeeded": false
+    },
+    {
+      "code": "exp.ops_burette",
+      "specialtyCodes": [
+        "experiment"
+      ],
+      "categoryCodes": [
+        "experiment.instrument_id",
+        "experiment.basic_ops"
+      ],
+      "status": "imported",
+      "note": "增补；是否作为必修核心训练待核实，避免按分析化学滴定展开; batch5导入 pending_review id=34",
+      "dbId": "34",
+      "verifyNeeded": true
+    },
+    {
+      "code": "exp.flame_test",
+      "specialtyCodes": [
+        "experiment",
+        "substance",
+        "memory"
+      ],
+      "categoryCodes": [
+        "experiment.substance_test",
+        "substance.test",
+        "memory.color"
+      ],
+      "status": "imported",
+      "note": "增补；主知识在实验批；金属批通过关联引用; batch5导入 pending_review id=35",
+      "dbId": "35",
+      "verifyNeeded": false
+    },
+    {
+      "code": "formula.rate_v",
+      "specialtyCodes": [
+        "calculation"
+      ],
+      "categoryCodes": [
+        "calculation.mixed"
+      ],
+      "status": "imported",
+      "note": "增补；v=Δc/Δt；单位与平均速率口径建设时写清; batch5导入 pending_review id=17",
+      "dbId": "17",
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.rate.factors",
+      "specialtyCodes": [
+        "experiment",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "experiment.inquiry",
+        "comprehensive.basic"
+      ],
+      "status": "imported",
+      "note": "增补；浓度、温度、催化剂、接触面积等；关联已有 concept.reaction_rate; batch5导入 pending_review id=62",
+      "dbId": "62",
+      "verifyNeeded": false
+    },
+    {
+      "code": "concept.reversible",
+      "specialtyCodes": [
+        "equation",
+        "memory"
+      ],
+      "categoryCodes": [
+        "equation.condition",
+        "memory.rules"
+      ],
+      "status": "imported",
+      "note": "增补；与 concept.reaction_extent 互补; batch5导入 pending_review id=26",
+      "dbId": "26",
+      "verifyNeeded": false
+    },
+    {
+      "code": "kp.extent.le_chatelier_basic",
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic"
+      ],
+      "status": "imported",
+      "note": "增补；仅定性认识；禁止按选修平衡计算展开; batch5导入 pending_review id=63",
+      "dbId": "63",
+      "verifyNeeded": true
+    }
+  ]
+}

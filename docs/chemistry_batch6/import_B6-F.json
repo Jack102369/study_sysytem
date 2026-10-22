@@ -1,0 +1,212 @@
+{
+  "items": [
+    {
+      "type": "question",
+      "data": {
+        "qtype": "single",
+        "stem": "（骨架）关于甲烷的叙述正确的是？A.分子呈平面正方形  B.分子呈正四面体  C.与Cl2光照只生成一种有机产物  D.不能燃烧",
+        "answer": "B",
+        "optionsJson": [
+          {
+            "key": "A",
+            "text": "分子呈平面正方形"
+          },
+          {
+            "key": "B",
+            "text": "分子呈正四面体"
+          },
+          {
+            "key": "C",
+            "text": "与Cl2光照只生成一种有机产物"
+          },
+          {
+            "key": "D",
+            "text": "不能燃烧"
+          }
+        ],
+        "analysis": "甲烷为正四面体；氯代可生成多种氯代产物，C错。",
+        "scoring": "选对得分。",
+        "difficulty": 1,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.organic.methane] 骨架非正式训练题;可充实选项 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "judge",
+        "stem": "（骨架）判断：乙烯能使溴水褪色，该反应属于加成反应。",
+        "answer": "正确",
+        "analysis": "CH2=CH2+Br2→CH2BrCH2Br，为加成，溴水褪色。",
+        "scoring": "判断正确得分。",
+        "difficulty": 1,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.organic.ethene] 骨架非正式训练题 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "blank",
+        "stem": "（骨架）乙醇催化氧化常用______或______作催化剂并加热，产物乙醛的化学式为______。",
+        "answer": "Cu；Ag；CH3CHO",
+        "analysis": "教材常见Cu或Ag催化加热；2CH3CH2OH+O2→2CH3CHO+2H2O。",
+        "scoring": "催化剂与产物均对得分。",
+        "difficulty": 2,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.organic.ethanol] 骨架非正式训练题 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "short",
+        "stem": "（骨架）写出乙酸与乙醇酯化的化学方程式（标明条件与可逆），并说明浓硫酸的作用。",
+        "answer": "CH3COOH+C2H5OH⇌浓硫酸、加热⇌CH3COOC2H5+H2O；浓硫酸作催化剂并吸水（促进平衡）。",
+        "analysis": "酯化可逆；条件与规律为得分点。",
+        "scoring": "方程式+条件+浓硫酸作用要点。",
+        "difficulty": 2,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.organic.ester] 骨架非正式训练题 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "short",
+        "stem": "（骨架）写出分子式为C4H10的烷烃的同分异构体结构简式（要求不重复）。",
+        "answer": "CH3CH2CH2CH3；CH3CH(CH3)CH3（正丁烷与异丁烷）",
+        "analysis": "碳链异构两种；检查重复。",
+        "scoring": "两种均写出且不重复得分。",
+        "difficulty": 2,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.organic.isomer] 骨架非正式训练题;基础书写 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "inference",
+        "stem": "（骨架）某无机框图：A为淡黄色固体单质，燃烧得气体B；B使品红褪色且加热可恢复。推断A、B（写化学式）并给出关键依据。",
+        "answer": "A为S；B为SO2（依据：淡黄色单质硫；SO2漂白可逆恢复）",
+        "analysis": "颜色+漂白可逆是突破口；需用转化验证。",
+        "scoring": "物质正确+依据要点。",
+        "difficulty": 2,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.inference.block] 骨架非正式训练题;框图模板 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "inference",
+        "stem": "（骨架）气体X通入溴水褪色，通入酸性KMnO4也褪色；另有气体Y与溴水混合长时间颜色变化不明显。X、Y更可能分别是乙烯与乙烷还是相反？简述理由。",
+        "answer": "X为乙烯，Y为乙烷；乙烯不饱和可加成/被氧化褪色，乙烷饱和通常不能。",
+        "analysis": "用现象反推饱和性差异。",
+        "scoring": "对应正确+理由。",
+        "difficulty": 2,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.inference.phenomenon] 骨架非正式训练题 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "multi",
+        "stem": "（骨架）下列关于烧碱（NaOH）的说法正确的是？",
+        "answer": "A,C",
+        "optionsJson": [
+          {
+            "key": "A",
+            "text": "俗名烧碱、火碱、苛性钠"
+          },
+          {
+            "key": "B",
+            "text": "水溶液显酸性"
+          },
+          {
+            "key": "C",
+            "text": "能与乙酸发生中和反应"
+          },
+          {
+            "key": "D",
+            "text": "固体可敞口长期放置于空气中而无变化"
+          }
+        ],
+        "analysis": "NaOH为强碱；易潮解并吸收CO2，不可敞口长期放置。",
+        "scoring": "多选全对得分（或按评分标准给漏选分）。",
+        "difficulty": 1,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.substance.NaOH] 骨架非正式训练题 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+      }
+    },
+    {
+      "type": "question",
+      "data": {
+        "qtype": "short",
+        "stem": "（骨架·综合）简述：①甲烷氯代为何不能写成“只生成CH3Cl”；②Zn-Cu原电池在CuSO4与稀H2SO4中正极反应有何不同；③加热能否作为吸热反应的判据。",
+        "answer": "①可生成多种氯代产物；②CuSO4中正极Cu2+得电子，稀H2SO4中正极H+得电子；③不能，加热是条件不是热效应判据。",
+        "analysis": "覆盖有机取代、原电池电解质差异、能量概念易错点。",
+        "scoring": "三点分别给分。",
+        "difficulty": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:q.comprehensive.mock] 骨架非正式训练题;综合模拟组 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch6",
+    "pack": "B6-F",
+    "inventoryCodes": [
+      "q.organic.methane",
+      "q.organic.ethene",
+      "q.organic.ethanol",
+      "q.organic.ester",
+      "q.organic.isomer",
+      "q.inference.block",
+      "q.inference.phenomenon",
+      "q.substance.NaOH",
+      "q.comprehensive.mock"
+    ],
+    "specialtyByCode": {
+      "q.organic.methane": [
+        "organic"
+      ],
+      "q.organic.ethene": [
+        "organic"
+      ],
+      "q.organic.ethanol": [
+        "organic"
+      ],
+      "q.organic.ester": [
+        "organic"
+      ],
+      "q.organic.isomer": [
+        "organic"
+      ],
+      "q.inference.block": [
+        "inference"
+      ],
+      "q.inference.phenomenon": [
+        "inference"
+      ],
+      "q.substance.NaOH": [
+        "substance"
+      ],
+      "q.comprehensive.mock": [
+        "comprehensive"
+      ]
+    },
+    "categoryByCode": {
+      "q.organic.methane": [],
+      "q.organic.ethene": [],
+      "q.organic.ethanol": [],
+      "q.organic.ester": [],
+      "q.organic.isomer": [],
+      "q.inference.block": [],
+      "q.inference.phenomenon": [],
+      "q.substance.NaOH": [],
+      "q.comprehensive.mock": []
+    }
+  }
+}

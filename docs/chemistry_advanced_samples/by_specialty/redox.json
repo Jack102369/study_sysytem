@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "S60.redox.01",
+    "sourceModelId": "ADV.redox.001",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "identify"
+    ],
+    "knowledgePoints": [
+      "化合价",
+      "氧化还原定义"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应：2Mg + O₂ = 2MgO。下列分析正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mg 化合价升高被氧化，O 化合价降低被还原，属于氧化还原反应"
+      },
+      {
+        "key": "B",
+        "text": "没有化合价变化，不属于氧化还原反应"
+      },
+      {
+        "key": "C",
+        "text": "只有 Mg 被还原"
+      },
+      {
+        "key": "D",
+        "text": "O₂ 作还原剂"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "先标价：Mg 0→+2，O 0→−2",
+    "conditionAnalysis": [
+      "单质到化合物必有价变"
+    ],
+    "steps": [
+      "Mg 升高失电子被氧化",
+      "O 降低得电子被还原",
+      "有升降即氧化还原"
+    ],
+    "coreMethod": "化合价升降法",
+    "commonMistakes": [
+      "认为化合反应不是氧化还原"
+    ],
+    "similarFeatures": [
+      "标价后判断类型"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "valence_analysis",
+      "two_step"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "价变分析正确",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "忽略价变",
+        "possibleWrongThinking": "只看反应类型名称"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "Mg 被氧化不是还原",
+        "possibleWrongThinking": "氧化/还原术语颠倒"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "O₂ 得电子是氧化剂",
+        "possibleWrongThinking": "氧化剂还原剂混淆"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.02",
+    "sourceModelId": "ADV.redox.001",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "identify"
+    ],
+    "knowledgePoints": [
+      "非氧化还原",
+      "复分解"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应：NaOH + HCl = NaCl + H₂O。正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "各元素化合价均未变化，不属于氧化还原反应"
+      },
+      {
+        "key": "B",
+        "text": "H 化合价变化，属于氧化还原反应"
+      },
+      {
+        "key": "C",
+        "text": "Cl 被氧化"
+      },
+      {
+        "key": "D",
+        "text": "Na 作还原剂"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "逐一核对 Na、O、H、Cl 化合价",
+    "conditionAnalysis": [
+      "复分解常见无价变"
+    ],
+    "steps": [
+      "Na 均为+1，Cl 均为−1，H 在酸与水中为+1，O 为−2",
+      "无升降→非氧化还原"
+    ],
+    "coreMethod": "标价排除法",
+    "commonMistakes": [
+      "看到有 H 就认为氧化还原"
+    ],
+    "similarFeatures": [
+      "区分复分解与氧化还原"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "valence_check",
+      "classification"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "无价变",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "H 价态未变",
+        "possibleWrongThinking": "误以为生成水必有价变"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "Cl 价态未变",
+        "possibleWrongThinking": "随意指定被氧化元素"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "非氧化还原无还原剂",
+        "possibleWrongThinking": "机械套用还原剂概念"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.03",
+    "sourceModelId": "ADV.redox.002",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "oxidant",
+      "reductant"
+    ],
+    "knowledgePoints": [
+      "氧化剂",
+      "还原剂"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应：2Na + Cl₂ = 2NaCl。氧化剂与还原剂分别是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cl₂、Na"
+      },
+      {
+        "key": "B",
+        "text": "Na、Cl₂"
+      },
+      {
+        "key": "C",
+        "text": "NaCl、Na"
+      },
+      {
+        "key": "D",
+        "text": "Cl₂、NaCl"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "降价得电子→氧化剂；升价失电子→还原剂",
+    "conditionAnalysis": [
+      "Cl 0→−1，Na 0→+1"
+    ],
+    "steps": [
+      "Cl₂ 降价为氧化剂",
+      "Na 升价为还原剂"
+    ],
+    "coreMethod": "价态定位氧化剂还原剂",
+    "commonMistakes": [
+      "颠倒二者"
+    ],
+    "similarFeatures": [
+      "问试剂角色"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "oxidant_reductant",
+      "two_step"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "氧化剂 Cl₂，还原剂 Na",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "二者颠倒",
+        "possibleWrongThinking": "记反定义"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "产物不是氧化剂",
+        "possibleWrongThinking": "把产物当试剂"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "还原剂应为 Na",
+        "possibleWrongThinking": "半对半错"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.04",
+    "sourceModelId": "ADV.redox.007",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "oxidant",
+      "reductant"
+    ],
+    "knowledgePoints": [
+      "氧化产物",
+      "还原产物"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应：2Na + Cl₂ = 2NaCl。下列说法正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "NaCl 既是氧化产物也是还原产物"
+      },
+      {
+        "key": "B",
+        "text": "氧化产物是 Cl₂"
+      },
+      {
+        "key": "C",
+        "text": "还原产物是 Na"
+      },
+      {
+        "key": "D",
+        "text": "没有氧化产物"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "还原剂对应氧化产物，氧化剂对应还原产物；同一产物可身兼两职（不同元素角度）",
+    "conditionAnalysis": [
+      "Na→Na⁺（氧化产物来自还原剂）",
+      "Cl₂→Cl⁻（还原产物来自氧化剂）",
+      "均存在于 NaCl"
+    ],
+    "steps": [
+      "Na 被氧化生成 NaCl 中的钠部分→氧化产物",
+      "Cl₂ 被还原生成 NaCl 中的氯部分→还原产物",
+      "故 NaCl 既是氧化产物也是还原产物"
+    ],
+    "coreMethod": "角色-产物对应",
+    "commonMistakes": [
+      "认为一种物质不能同时是两种产物"
+    ],
+    "similarFeatures": [
+      "产物归属辨析"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "product_role",
+      "analysis"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "同一化合物中不同元素分别对应氧化/还原产物",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "Cl₂ 是反应物氧化剂",
+        "possibleWrongThinking": "把氧化剂当氧化产物"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "Na 是还原剂",
+        "possibleWrongThinking": "术语混淆"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "存在价变必有产物归属",
+        "possibleWrongThinking": "概念缺失"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.05",
+    "sourceModelId": "ADV.redox.003",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "e_conserve"
+    ],
+    "knowledgePoints": [
+      "电子转移"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应：2Al + 3Cl₂ = 2AlCl₃（Al 0→+3，Cl 0→−1）。按方程式计量，转移电子的物质的量为",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 mol"
+      },
+      {
+        "key": "B",
+        "text": "3 mol"
+      },
+      {
+        "key": "C",
+        "text": "6 mol"
+      },
+      {
+        "key": "D",
+        "text": "1 mol"
+      }
+    ],
+    "answer": "C",
+    "breakthrough": "2 mol Al 各失 3e⁻，共失 6e⁻；与 Cl 侧守恒",
+    "conditionAnalysis": [
+      "用系数×价变"
+    ],
+    "steps": [
+      "Al：2×3=6 mol e⁻",
+      "Cl：3×2×1=6 mol e⁻",
+      "转移 6 mol"
+    ],
+    "coreMethod": "价变×系数 + 电子守恒核对",
+    "commonMistakes": [
+      "只算 3 或 2，忘记乘系数"
+    ],
+    "similarFeatures": [
+      "求转移电子总数"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "electron_count",
+      "conservation_check"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "只看 Al 系数",
+        "possibleWrongThinking": "未乘价变"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "只看 Cl₂ 系数",
+        "possibleWrongThinking": "未乘每个 Cl₂ 得 2e"
+      },
+      {
+        "key": "C",
+        "verdict": "correct",
+        "reason": "两侧均为 6",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "未乘系数与价变",
+        "possibleWrongThinking": "只看单价变"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.06",
+    "sourceModelId": "ADV.redox.003",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "e_conserve"
+    ],
+    "knowledgePoints": [
+      "电子转移",
+      "计量缩放"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "同上反应 2Al + 3Cl₂ = 2AlCl₃。若消耗 1.5 mol Cl₂ 且完全反应，转移电子的物质的量为",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.5 mol"
+      },
+      {
+        "key": "B",
+        "text": "3.0 mol"
+      },
+      {
+        "key": "C",
+        "text": "6.0 mol"
+      },
+      {
+        "key": "D",
+        "text": "0.5 mol"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "方程式中 3 mol Cl₂ 对应 6 mol e⁻，按比例缩放",
+    "conditionAnalysis": [
+      "以 Cl₂ 为已知量缩放"
+    ],
+    "steps": [
+      "3 mol Cl₂ ↔ 6 mol e⁻",
+      "1.5 mol Cl₂ ↔ 3.0 mol e⁻"
+    ],
+    "coreMethod": "电子转移随计量比例缩放",
+    "commonMistakes": [
+      "仍答 6 mol",
+      "按 1.5 直接当电子数"
+    ],
+    "similarFeatures": [
+      "非方程式整系数时的电子数"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "electron_scale",
+      "multi_step"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "未按 1:2（Cl₂:e）关系",
+        "possibleWrongThinking": "电子数等于 Cl₂ 物质的量"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "1.5×2=3",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "未缩放",
+        "possibleWrongThinking": "直接用方程式电子总数"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "比例算反",
+        "possibleWrongThinking": "除以 3 再处理错误"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.07",
+    "sourceModelId": "ADV.redox.004",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "e_conserve"
+    ],
+    "knowledgePoints": [
+      "电子守恒",
+      "系数比"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "某氧化还原反应中，元素 R 由 +2→+4，元素 T 由 +7→+2。若只有这两种元素价变，则 R、T 原子个数比最合理的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "5:2"
+      },
+      {
+        "key": "B",
+        "text": "2:5"
+      },
+      {
+        "key": "C",
+        "text": "1:1"
+      },
+      {
+        "key": "D",
+        "text": "5:1"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "R 失 2e，T 得 5e，令 2x=5y",
+    "conditionAnalysis": [
+      "只这两种元素价变"
+    ],
+    "steps": [
+      "失电子：2×n(R)",
+      "得电子：5×n(T)",
+      "2n(R)=5n(T)→n(R):n(T)=5:2"
+    ],
+    "coreMethod": "电子守恒定系数比",
+    "commonMistakes": [
+      "比倒置成 2:5"
+    ],
+    "similarFeatures": [
+      "抽象价变求原子比"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "e_balance_ratio"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "2×5=5×2",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "比颠倒",
+        "possibleWrongThinking": "把得失对应元素搞反"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "未守恒",
+        "possibleWrongThinking": "忽略电子数差异"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "未正确列式",
+        "possibleWrongThinking": "只用 T 得 5e 当分子"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.08",
+    "sourceModelId": "ADV.redox.004",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "e_conserve"
+    ],
+    "knowledgePoints": [
+      "电子守恒"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "配平思想：MnO₂ 与浓盐酸反应生成 MnCl₂、Cl₂ 和 H₂O（Mn:+4→+2；部分 Cl:−1→0）。若生成 1 mol Cl₂，则被氧化的 Cl⁻ 为",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 mol"
+      },
+      {
+        "key": "B",
+        "text": "2 mol"
+      },
+      {
+        "key": "C",
+        "text": "4 mol"
+      },
+      {
+        "key": "D",
+        "text": "0.5 mol"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "生成 1 mol Cl₂ 对应 2 mol Cl⁻ 被氧化（各失 1e）",
+    "conditionAnalysis": [
+      "Cl₂ 来自被氧化的 Cl⁻",
+      "不必先写出完整配平也能用电子守恒"
+    ],
+    "steps": [
+      "Cl₂ 中 2 个 Cl 均由 −1→0",
+      "生成 1 mol Cl₂ 需 2 mol Cl⁻ 被氧化"
+    ],
+    "coreMethod": "从产物反推被氧化微粒数",
+    "commonMistakes": [
+      "答 1 mol",
+      "与 Mn 电子数混淆"
+    ],
+    "similarFeatures": [
+      "实验室制氯气相关电子关系"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "lab_redox",
+      "electron_from_product"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "忽略 Cl₂ 含 2 个 Cl",
+        "possibleWrongThinking": "一分子一电子粗略对应"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "2 mol Cl⁻→1 mol Cl₂",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "与 Mn 得 2e 的倍数关系误用到 Cl",
+        "possibleWrongThinking": "把 Mn 与 Cl 电子数搅在一起"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "比例算反",
+        "possibleWrongThinking": "除以 2 错误"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.09",
+    "sourceModelId": "ADV.redox.002",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "oxidant"
+    ],
+    "knowledgePoints": [
+      "氧化剂",
+      "还原剂",
+      "双角色"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "反应：Cl₂ + 2NaOH = NaCl + NaClO + H₂O（部分 Cl 升价、部分 Cl 降价）。下列正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cl₂ 既是氧化剂又是还原剂"
+      },
+      {
+        "key": "B",
+        "text": "只有 NaOH 是还原剂"
+      },
+      {
+        "key": "C",
+        "text": "该反应不是氧化还原反应"
+      },
+      {
+        "key": "D",
+        "text": "NaClO 中 Cl 化合价低于 NaCl 中 Cl"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "同一反应物中元素既升又降→该物质既是氧化剂又是还原剂",
+    "conditionAnalysis": [
+      "歧化反应特征",
+      "必修可接受的氯气与碱反应"
+    ],
+    "steps": [
+      "Cl₂ 中部分 Cl→Cl⁻（降价）",
+      "部分 Cl→ClO⁻（升价）",
+      "故 Cl₂ 双重角色"
+    ],
+    "coreMethod": "歧化反应角色判断",
+    "commonMistakes": [
+      "认为一种物质不能身兼两职"
+    ],
+    "similarFeatures": [
+      "歧化反应"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "disproportionation",
+      "dual_role"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "歧化",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "Na、O、H 价态通常不变，还原剂是升价部分的氯",
+        "possibleWrongThinking": "把碱当成还原剂"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "有价变",
+        "possibleWrongThinking": "未标价"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "ClO⁻ 中 Cl 为+1，高于 NaCl 中 −1",
+        "possibleWrongThinking": "价态高低记反"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.10",
+    "sourceModelId": "ADV.redox.001",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "identify"
+    ],
+    "knowledgePoints": [
+      "氧化还原识别"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "下列反应中，属于氧化还原反应的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "2KClO₃ =[MnO₂]=> 2KCl + 3O₂↑"
+      },
+      {
+        "key": "B",
+        "text": "CaCO₃ =高温=> CaO + CO₂↑"
+      },
+      {
+        "key": "C",
+        "text": "Na₂CO₃ + 2HCl = 2NaCl + H₂O + CO₂↑"
+      },
+      {
+        "key": "D",
+        "text": "BaCl₂ + Na₂SO₄ = BaSO₄↓ + 2NaCl"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "找出有化合价变化的反应",
+    "conditionAnalysis": [
+      "A 中 Cl、O 价变",
+      "其余为分解/复分解常见无价变"
+    ],
+    "steps": [
+      "A：Cl +5→−1，O −2→0",
+      "B、C、D 无价变"
+    ],
+    "coreMethod": "对比筛选",
+    "commonMistakes": [
+      "把所有分解反应当氧化还原"
+    ],
+    "similarFeatures": [
+      "四选一识别"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "identify_among_options"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "有价变",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "无价变",
+        "possibleWrongThinking": "见分解就选"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "无价变",
+        "possibleWrongThinking": "见气体就选"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "复分解无价变",
+        "possibleWrongThinking": "见沉淀就选"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.11",
+    "sourceModelId": "ADV.redox.007",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "reductant"
+    ],
+    "knowledgePoints": [
+      "还原剂",
+      "被氧化"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "反应：C + O₂ = CO₂。关于碳元素，正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "化合价升高，碳被氧化，碳作还原剂"
+      },
+      {
+        "key": "B",
+        "text": "化合价降低，碳被还原"
+      },
+      {
+        "key": "C",
+        "text": "碳作氧化剂"
+      },
+      {
+        "key": "D",
+        "text": "碳既不被氧化也不被还原"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "C 0→+4 升高",
+    "conditionAnalysis": [
+      "燃烧氧化"
+    ],
+    "steps": [
+      "碳失电子被氧化",
+      "作还原剂"
+    ],
+    "coreMethod": "价变→角色",
+    "commonMistakes": [
+      "说碳是氧化剂"
+    ],
+    "similarFeatures": [
+      "单质燃烧分析"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "role_from_valence"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "升价→还原剂",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "价变方向错",
+        "possibleWrongThinking": "升降记反"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "氧化剂是 O₂",
+        "possibleWrongThinking": "角色颠倒"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "有价变",
+        "possibleWrongThinking": "未标价"
+      }
+    ]
+  },
+  {
+    "id": "S60.redox.12",
+    "sourceModelId": "ADV.redox.003",
+    "specialtyCode": "redox",
+    "categoryCodes": [
+      "e_conserve"
+    ],
+    "knowledgePoints": [
+      "电子转移",
+      "过量"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "反应：2Na + Cl₂ = 2NaCl。将 2.3 g Na（M=23）与 3.55 g Cl₂（M=71）混合使其反应。关于电子转移，正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "转移电子 0.10 mol（以不足量 Na 计）"
+      },
+      {
+        "key": "B",
+        "text": "转移电子 0.20 mol"
+      },
+      {
+        "key": "C",
+        "text": "转移电子 0.05 mol"
+      },
+      {
+        "key": "D",
+        "text": "无法判断，因为未配平"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "先过量判断，再用限制反应物求电子",
+    "conditionAnalysis": [
+      "n(Na)=0.10 mol，n(Cl₂)=0.05 mol",
+      "2Na～Cl₂：0.10 mol Na 需 0.05 mol Cl₂，恰好",
+      "每 2 mol Na 转移 2 mol e⁻→0.10 mol Na 转移 0.10 mol e⁻"
+    ],
+    "steps": [
+      "恰好完全",
+      "0.10 mol Na 失 0.10 mol e⁻"
+    ],
+    "coreMethod": "过量判断 + 电子计量",
+    "commonMistakes": [
+      "按 Cl₂ 算成 0.10 却选错口径",
+      "认为未配平不能算"
+    ],
+    "similarFeatures": [
+      "量给全时电子数"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "excess_then_electron",
+      "challenge_combine"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "0.10 mol e⁻",
+        "possibleWrongThinking": null
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "电子数加倍",
+        "possibleWrongThinking": "把 Na 失电子算成每人 2e 或重复计算"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "减半",
+        "possibleWrongThinking": "只按 Cl₂ 分子数未乘 2"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "方程式已配平可用",
+        "possibleWrongThinking": "缺乏计量信心"
+      }
+    ]
+  }
+]

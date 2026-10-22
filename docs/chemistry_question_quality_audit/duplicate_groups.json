@@ -1,0 +1,44 @@
+{
+  "count": 3,
+  "groups": [
+    {
+      "type": "same_knowledge_angle",
+      "angle": "stem::「X」专项基础判断1学习化学专项训练有助于突破薄弱点判断正误",
+      "codes": [
+        "train.ai_trial.cov.experiment.1",
+        "train.ai_trial.cov.calculation.1",
+        "train.ai_trial.cov.ion.1",
+        "train.ai_trial.cov.periodic.1",
+        "train.ai_trial.cov.structure.1",
+        "train.ai_trial.cov.organic.1",
+        "train.ai_trial.cov.inference.1",
+        "train.ai_trial.cov.comprehensive.1"
+      ],
+      "count": 8
+    },
+    {
+      "type": "same_knowledge_angle",
+      "angle": "stem::「X」专项基础判断2学习化学专项训练有助于突破薄弱点判断正误",
+      "codes": [
+        "train.ai_trial.cov.periodic.2",
+        "train.ai_trial.cov.structure.2",
+        "train.ai_trial.cov.organic.2",
+        "train.ai_trial.cov.inference.2",
+        "train.ai_trial.cov.comprehensive.2"
+      ],
+      "count": 5
+    },
+    {
+      "type": "same_knowledge_angle",
+      "angle": "stem::「X」专项基础判断3学习化学专项训练有助于突破薄弱点判断正误",
+      "codes": [
+        "train.ai_trial.cov.periodic.3",
+        "train.ai_trial.cov.structure.3",
+        "train.ai_trial.cov.organic.3",
+        "train.ai_trial.cov.inference.3",
+        "train.ai_trial.cov.comprehensive.3"
+      ],
+      "count": 5
+    }
+  ]
+}

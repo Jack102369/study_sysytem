@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ADV.redox.001",
+    "name": "氧化还原识别—化合价升降综合判断",
+    "specialtyCode": "redox",
+    "specialtyName": "氧化还原反应",
+    "categoryCodes": ["identify"],
+    "knowledgePoints": ["化合价", "氧化还原定义"],
+    "difficulties": ["raise"],
+    "abilities": ["标价", "判断是否氧化还原"],
+    "stemStructure": "给反应或微粒变化→判断有无升降",
+    "variableConditions": ["反应选择", "设问角度"],
+    "reasoningSteps": ["标关键元素化合价", "看是否升降"],
+    "breakthrough": "先标价再下结论",
+    "coreMethods": ["化合价分析法"],
+    "commonErrors": ["把非氧化还原当氧化还原"],
+    "grading": { "modes": ["judge", "single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "有机反应勿机械套用" },
+    "variantDirections": { "raise": ["改反应", "改问法"], "challenge": [] },
+    "dedupRules": ["同反应同问法=重复；仅改选项序不算新题"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "高于现有字段识别：要求学生自己标价",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "judge",
+        "stem": "反应 2Na + Cl₂ = 2NaCl 中，钠元素化合价升高，氯元素化合价降低，该反应属于氧化还原反应。判断正误。",
+        "options": null,
+        "answer": "正确",
+        "steps": ["Na: 0→+1 升高", "Cl: 0→−1 降低", "有升降即为氧化还原"],
+        "coreMethod": "化合价升降法",
+        "commonMistakes": ["认为复分解才是氧化还原"],
+        "knowledgePoints": ["氧化还原识别"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.redox.002",
+    "name": "氧化剂还原剂—结合价变定位",
+    "specialtyCode": "redox",
+    "specialtyName": "氧化还原反应",
+    "categoryCodes": ["oxidant", "reductant"],
+    "knowledgePoints": ["氧化剂", "还原剂", "得失去电子"],
+    "difficulties": ["raise"],
+    "abilities": ["对应氧化/还原剂", "区分产物"],
+    "stemStructure": "给反应→指出氧化剂/还原剂或氧化/还原产物",
+    "variableConditions": ["问氧化剂或还原剂", "问产物"],
+    "reasoningSteps": ["标价", "降价方为氧化剂", "升价方为还原剂"],
+    "breakthrough": "降价得电子→氧化剂",
+    "coreMethods": ["化合价定位法"],
+    "commonErrors": ["氧化剂还原剂颠倒", "把产物当试剂"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "产物须符合真实反应" },
+    "variantDirections": {
+      "raise": ["改设问：试剂↔产物"],
+      "challenge": []
+    },
+    "dedupRules": ["同反应同设问仅改措辞=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "反应 2Na + Cl₂ = 2NaCl 中，氧化剂是",
+        "options": [
+          { "key": "A", "text": "Na" },
+          { "key": "B", "text": "Cl₂" },
+          { "key": "C", "text": "NaCl" },
+          { "key": "D", "text": "无法判断" }
+        ],
+        "answer": "B",
+        "steps": ["Cl 化合价降低得电子", "Cl₂ 为氧化剂"],
+        "coreMethod": "降价→氧化剂",
+        "commonMistakes": ["选Na"],
+        "knowledgePoints": ["氧化剂"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.redox.003",
+    "name": "电子转移数目—简单反应计数",
+    "specialtyCode": "redox",
+    "specialtyName": "氧化还原反应",
+    "categoryCodes": ["e_conserve"],
+    "knowledgePoints": ["电子转移", "化合价变化×系数"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["计算转移电子", "与计量系数结合"],
+    "stemStructure": "给反应→求转移电子总数或每摩某物转移数",
+    "variableConditions": ["所求口径", "反应"],
+    "reasoningSteps": ["标价变", "乘系数得总转移", "注意问法"],
+    "breakthrough": "升降总数必须相等",
+    "coreMethods": ["电子守恒核对"],
+    "commonErrors": ["忘记乘系数", "只算一侧"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["问总转移"],
+      "challenge": ["问生成1 mol产物对应转移"]
+    },
+    "dedupRules": ["同反应同问法仅改数=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "反应 2Na + Cl₂ = 2NaCl 中，转移电子的物质的量为",
+        "options": [
+          { "key": "A", "text": "1 mol" },
+          { "key": "B", "text": "2 mol" },
+          { "key": "C", "text": "3 mol" },
+          { "key": "D", "text": "4 mol" }
+        ],
+        "answer": "B",
+        "steps": ["2 mol Na 共失 2 mol e⁻", "Cl₂ 得 2 mol e⁻"],
+        "coreMethod": "价变×系数",
+        "commonMistakes": ["答1 mol"],
+        "knowledgePoints": ["电子转移"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "同上反应，若生成 1 mol NaCl，转移电子的物质的量为",
+        "options": [
+          { "key": "A", "text": "0.5 mol" },
+          { "key": "B", "text": "1 mol" },
+          { "key": "C", "text": "2 mol" },
+          { "key": "D", "text": "4 mol" }
+        ],
+        "answer": "B",
+        "steps": ["方程式生成2 mol NaCl转移2 mol e⁻", "生成1 mol NaCl对应1 mol e⁻"],
+        "coreMethod": "按产物比例缩放",
+        "commonMistakes": ["仍答2 mol"],
+        "knowledgePoints": ["电子转移", "计量关系"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.redox.004",
+    "name": "电子守恒—配平思路选择题",
+    "specialtyCode": "redox",
+    "specialtyName": "氧化还原反应",
+    "categoryCodes": ["e_conserve", "identify"],
+    "knowledgePoints": ["电子守恒", "配平思想"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["用守恒确定系数关系"],
+    "stemStructure": "给未配平骨架或价变信息→选正确系数关系",
+    "variableConditions": ["元素价态对", "设问"],
+    "reasoningSteps": ["算升/降电子", "令相等得系数比"],
+    "breakthrough": "得失电子数相等定系数",
+    "coreMethods": ["电子守恒配平"],
+    "commonErrors": ["只配原子数忘电子"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": "optional" },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "不要求超纲配平技巧" },
+    "variantDirections": {
+      "raise": ["给价变求系数比"],
+      "challenge": ["多元素价变需合并"]
+    },
+    "dedupRules": ["同价变对同问法=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "开放写配平方程→NEEDS_ENGINE，本模型用选择",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "某氧化还原反应中，元素A由+2→+3，元素B由+5→+2。若只有这两种元素价变，则A、B原子计量数之比最合理的是",
+        "options": [
+          { "key": "A", "text": "1:1" },
+          { "key": "B", "text": "3:1" },
+          { "key": "C", "text": "1:3" },
+          { "key": "D", "text": "2:3" }
+        ],
+        "answer": "B",
+        "steps": ["A失1e⁻，B得3e⁻", "3A~1B"],
+        "coreMethod": "电子守恒定比",
+        "commonMistakes": ["选1:3颠倒"],
+        "knowledgePoints": ["电子守恒"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "若同时还有元素C由0→−1（得电子），且已知B仍+5→+2，则在仅考虑B与C得电子、A失电子时，要先做什么？",
+        "options": [
+          { "key": "A", "text": "把B、C得电子合并再与A失电子守恒" },
+          { "key": "B", "text": "只配平B与A" },
+          { "key": "C", "text": "忽略C" },
+          { "key": "D", "text": "任意系数均可" }
+        ],
+        "answer": "A",
+        "steps": ["多氧化剂/还原剂时合并电子再守恒"],
+        "coreMethod": "多通道电子合并",
+        "commonMistakes": ["只配一对"],
+        "knowledgePoints": ["电子守恒"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.redox.005",
+    "name": "陌生信息—给出价态规则分析简单转化",
+    "specialtyCode": "redox",
+    "specialtyName": "氧化还原反应",
+    "categoryCodes": ["identify", "oxidant"],
+    "knowledgePoints": ["信息迁移", "氧化剂还原剂"],
+    "difficulties": ["challenge"],
+    "abilities": ["读新信息", "迁移必修概念"],
+    "stemStructure": "题干给出陌生微粒价态/性质要点→判断氧化/还原行为",
+    "variableConditions": ["信息内容", "设问"],
+    "reasoningSteps": ["提取价态信息", "判断升降", "对应概念"],
+    "breakthrough": "不要用超纲知识，只用题给信息+必修定义",
+    "coreMethods": ["信息迁移"],
+    "commonErrors": ["引入未给的选必机理"],
+    "grading": { "modes": ["single", "judge"] },
+    "generation": { "primary": "ai_assist", "aiAssist": true },
+    "scienceRisk": { "level": "high", "curriculum": "必修", "notes": "信息必须自洽且不超纲" },
+    "variantDirections": { "raise": [], "challenge": ["改信息角度"] },
+    "dedupRules": ["同信息骨架同设问=重复"],
+    "productionStatus": "HOLD",
+    "priorityBatch1": false,
+    "notes": "科学性与信息充分性需人工把关",
+    "samples": [
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "题给信息：某元素X在化合物中常见化合价为+2与+4。现有转化 X(+2)→X(+4)。该过程中X元素",
+        "options": [
+          { "key": "A", "text": "被氧化，作还原剂" },
+          { "key": "B", "text": "被还原，作氧化剂" },
+          { "key": "C", "text": "化合价不变" },
+          { "key": "D", "text": "无法判断" }
+        ],
+        "answer": "A",
+        "steps": ["+2→+4 升高失电子", "被氧化，作还原剂"],
+        "coreMethod": "题给价态+定义",
+        "commonMistakes": ["选B"],
+        "knowledgePoints": ["氧化还原概念迁移"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.redox.006",
+    "name": "连续反应—电子转移关系追踪",
+    "specialtyCode": "redox",
+    "specialtyName": "氧化还原反应",
+    "categoryCodes": ["e_conserve"],
+    "knowledgePoints": ["多步反应", "电子守恒"],
+    "difficulties": ["challenge"],
+    "abilities": ["跨反应追踪", "守恒"],
+    "stemStructure": "两步反应共享中间价态→求总转移或试剂关系",
+    "variableConditions": ["两步价态链"],
+    "reasoningSteps": ["分步标价", "看净转移", "守恒"],
+    "breakthrough": "中间价态可能抵消，看净变化",
+    "coreMethods": ["分步标价", "净电子核算"],
+    "commonErrors": ["把两步电子简单相加重复计算"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "ai_assist", "aiAssist": true },
+    "scienceRisk": { "level": "high", "curriculum": "必修", "notes": "反应链须真实" },
+    "variantDirections": { "raise": [], "challenge": ["改中间价态"] },
+    "dedupRules": ["同价态链同设问=重复"],
+    "productionStatus": "NEEDS_ENGINE",
+    "priorityBatch1": false,
+    "notes": "生成与校验成本高，需样题人工审后再扩",
+    "samples": [
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "示意：某元素经历 0→+2→+4 两步氧化。若每步都失去相应电子，从0到+4净失去电子数为（对1 mol该原子）",
+        "options": [
+          { "key": "A", "text": "2 mol" },
+          { "key": "B", "text": "4 mol" },
+          { "key": "C", "text": "6 mol" },
+          { "key": "D", "text": "8 mol" }
+        ],
+        "answer": "B",
+        "steps": ["净价变+4", "失4 mol e⁻"],
+        "coreMethod": "看净价变",
+        "commonMistakes": ["把两步2+2再另加"],
+        "knowledgePoints": ["电子转移"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.redox.007",
+    "name": "氧化产物还原产物—多选项辨析",
+    "specialtyCode": "redox",
+    "specialtyName": "氧化还原反应",
+    "categoryCodes": ["oxidant", "reductant"],
+    "knowledgePoints": ["氧化产物", "还原产物"],
+    "difficulties": ["raise"],
+    "abilities": ["产物归属"],
+    "stemStructure": "给反应→选氧化产物/还原产物",
+    "variableConditions": ["问氧化或还原产物"],
+    "reasoningSteps": ["定位试剂角色", "对应产物"],
+    "breakthrough": "还原剂→氧化产物；氧化剂→还原产物",
+    "coreMethods": ["角色-产物对应"],
+    "commonErrors": ["产物名称对调"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "" },
+    "variantDirections": { "raise": ["改设问"], "challenge": [] },
+    "dedupRules": ["同反应同设问=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "2Na+Cl₂=2NaCl 中，还原产物是",
+        "options": [
+          { "key": "A", "text": "Na" },
+          { "key": "B", "text": "Cl₂" },
+          { "key": "C", "text": "NaCl" },
+          { "key": "D", "text": "无法判断" }
+        ],
+        "answer": "C",
+        "steps": ["Cl₂是氧化剂，其对应产物NaCl为还原产物"],
+        "coreMethod": "氧化剂→还原产物",
+        "commonMistakes": ["选Na"],
+        "knowledgePoints": ["还原产物"]
+      }
+    ]
+  }
+]

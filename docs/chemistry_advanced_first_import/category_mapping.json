@@ -1,0 +1,39 @@
+{
+  "comment": "样题 categoryCodes → 库内 chem_categories.code；缺映射则该题不入库",
+  "bySpecialty": {
+    "calculation": {
+      "amount": "amount",
+      "concentration": "concentration",
+      "molar_volume": "molar_volume"
+    },
+    "redox": {
+      "identify": "identify",
+      "oxidant": "oxidant",
+      "reductant": "reductant",
+      "e_conserve": "e_conserve"
+    },
+    "ion": {
+      "write_ion": "ionic_write",
+      "judge_ion_coexist": "coexist",
+      "judge_ion_correct": "ionic_correct"
+    },
+    "experiment": {
+      "apparatus": "instrument_use",
+      "safety": "safety",
+      "gas_collect": "gas_collect",
+      "error_analysis": "error_fix",
+      "procedure": "basic_ops",
+      "design": "substance_test"
+    },
+    "inference": {
+      "block_infer_conversion": "conversion",
+      "block_infer_phenomenon": "phenomenon",
+      "block_infer_mixed": "mixed",
+      "block_infer_diagram": "block_diagram"
+    },
+    "comprehensive": {
+      "multi_concept_raise": "medium",
+      "multi_concept_challenge": "advanced"
+    }
+  }
+}

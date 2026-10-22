@@ -1,0 +1,224 @@
+@baseUrl = http://localhost:3000
+
+### 年级枚举
+GET {{baseUrl}}/meta/grades
+
+### 注册
+POST {{baseUrl}}/auth/register
+Content-Type: application/json
+
+{
+  "email": "demo@example.com",
+  "password": "123456",
+  "nickname": "小明",
+  "grade": "初一"
+}
+
+### 登录
+# @name login
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "demo@example.com",
+  "password": "123456"
+}
+
+### 当前用户（需 JWT）
+GET {{baseUrl}}/auth/me
+Authorization: Bearer {{login.response.body.data.accessToken}}
+
+### 健康检查
+GET {{baseUrl}}/health
+
+### ========== 配置模块 ==========
+@token = {{login.response.body.data.accessToken}}
+
+### 设置 bootstrap
+GET {{baseUrl}}/settings/bootstrap
+Authorization: Bearer {{token}}
+
+### 科目列表
+GET {{baseUrl}}/subjects
+Authorization: Bearer {{token}}
+
+### 科目列表（含归档）
+GET {{baseUrl}}/subjects?includeArchived=true
+Authorization: Bearer {{token}}
+
+### 创建科目
+# @name createSubject
+POST {{baseUrl}}/subjects
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "数学",
+  "sortOrder": 1
+}
+
+### 更新科目（归档）
+PATCH {{baseUrl}}/subjects/{{createSubject.response.body.data.id}}
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "isArchived": true
+}
+
+### 标签列表
+GET {{baseUrl}}/tags
+Authorization: Bearer {{token}}
+
+### 创建标签
+# @name createTag
+POST {{baseUrl}}/tags
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "易错",
+  "color": "#E6A23C"
+}
+
+### 更新标签
+PATCH {{baseUrl}}/tags/{{createTag.response.body.data.id}}
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "高频易错",
+  "color": "#F56C6C"
+}
+
+### 删除标签
+DELETE {{baseUrl}}/tags/{{createTag.response.body.data.id}}
+Authorization: Bearer {{token}}
+
+### 错因分类列表（可按科目）
+GET {{baseUrl}}/error-categories?subjectId={{createSubject.response.body.data.id}}
+Authorization: Bearer {{token}}
+
+### 创建错因分类
+# @name createCategory
+POST {{baseUrl}}/error-categories
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "计算错误",
+  "subjectId": "{{createSubject.response.body.data.id}}",
+  "parentId": null,
+  "sortOrder": 0
+}
+
+### 更新错因分类（归档）
+PATCH {{baseUrl}}/error-categories/{{createCategory.response.body.data.id}}
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "isArchived": true
+}
+
+### 考试类型列表
+GET {{baseUrl}}/assessment-types
+Authorization: Bearer {{token}}
+
+### 创建考试类型
+# @name createAssessmentType
+POST {{baseUrl}}/assessment-types
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "期中考试",
+  "sortOrder": 1
+}
+
+### 更新考试类型
+PATCH {{baseUrl}}/assessment-types/{{createAssessmentType.response.body.data.id}}
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "sortOrder": 2,
+  "isArchived": false
+}
+
+### ========== 错题 / 复习 / 成绩 / 仪表盘 ==========
+
+### 初始化内置标签与考试类型
+POST {{baseUrl}}/settings/seed-defaults
+Authorization: Bearer {{token}}
+
+### 错题列表
+GET {{baseUrl}}/error-questions?page=1&pageSize=20
+Authorization: Bearer {{token}}
+
+### 创建错题
+# @name createError
+POST {{baseUrl}}/error-questions
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "subjectId": "{{createSubject.response.body.data.id}}",
+  "occurredAt": "2026-09-24",
+  "title": "一元一次方程",
+  "stemText": "解方程...",
+  "analysisText": "移项合并",
+  "tagIds": [],
+  "difficulty": 3
+}
+
+### 错题详情
+GET {{baseUrl}}/error-questions/{{createError.response.body.data.id}}
+Authorization: Bearer {{token}}
+
+### 提交再练
+POST {{baseUrl}}/error-questions/{{createError.response.body.data.id}}/attempts
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "result": "WRONG",
+  "note": "又粗心了"
+}
+
+### 今日待复习
+GET {{baseUrl}}/reviews/today
+Authorization: Bearer {{token}}
+
+### 错题统计
+GET {{baseUrl}}/error-questions/stats/overview
+Authorization: Bearer {{token}}
+
+### 创建测评
+# @name createAssessment
+POST {{baseUrl}}/assessments
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "typeId": "{{createAssessmentType.response.body.data.id}}",
+  "title": "九月月考",
+  "heldAt": "2026-09-20",
+  "note": "整体稳定",
+  "scores": [
+    {
+      "subjectId": "{{createSubject.response.body.data.id}}",
+      "score": 88,
+      "fullScore": 100,
+      "classRank": 12
+    }
+  ]
+}
+
+### 成绩趋势
+GET {{baseUrl}}/assessments/trends
+Authorization: Bearer {{token}}
+
+### 仪表盘
+GET {{baseUrl}}/dashboard
+Authorization: Bearer {{token}}

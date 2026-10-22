@@ -1,0 +1,243 @@
+{
+  "recheckedAt": "2026-10-18T08:50:39.242Z",
+  "total": 42,
+  "missing": 0,
+  "pendingReview": 42,
+  "inventoryTotal": 377,
+  "threeFixed": {
+    "kp.exp.error": true,
+    "q.calc.excess": true,
+    "formula.ion_conc": true
+  },
+  "threeAllFixed": true,
+  "questionsRechecked": 8,
+  "questionsOk": true,
+  "flameHasPhysical": true,
+  "ionCatsDb": "calculation.amount,calculation.mixed",
+  "counts": {
+    "通过": 39,
+    "需要修改": 0,
+    "待核实": 3
+  },
+  "remainingBySev": {
+    "P0": 0,
+    "P1": 1,
+    "P2": 2,
+    "P3": 0
+  },
+  "verdicts": {
+    "exp.instrument_basic": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.ops_weigh": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.ops_dissolve": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.ops_filter": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.ops_evaporate": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.ops_distill": {
+      "v": "通过",
+      "s": "P3",
+      "note": "认知级；禁动手蒸馏"
+    },
+    "exp.ops_extract": {
+      "v": "通过",
+      "s": "P3",
+      "note": "认知级；题干指定萃取剂"
+    },
+    "exp.gas_collect_upward": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.gas_collect_downward": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.gas_collect_water": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.O2_prep_KMnO4": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.O2_prep_H2O2": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.H2_prep_Zn": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.CO2_prep_marble": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.check_airtight": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.safety_rules": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "formula.mixed_stoich": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "formula.excess_reactant": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "formula.purity": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "formula.ion_conc": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.calc.stoich": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.calc.excess": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.calc.gas": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.calc.solution": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.exp.design": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.exp.error": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "q.calc.amount_basic": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "q.calc.concentration": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "q.calc.equation": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "q.calc.excess": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "q.exp.instrument": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "q.exp.gas_collect": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "q.exp.safety": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "q.eq.balance": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.exp.gas_wash_dry": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.ops_volumetric_flask": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "exp.ops_burette": {
+      "v": "待核实",
+      "s": "P2",
+      "note": "是否必修核心仍待教材核实；已限识别/读数、禁定量滴定默认"
+    },
+    "exp.flame_test": {
+      "v": "待核实",
+      "s": "P2",
+      "note": "已标明物理变化；颜色措辞仍待对教材核实"
+    },
+    "formula.rate_v": {
+      "v": "通过",
+      "s": "P3",
+      "note": "平均速率；禁复杂速率方程"
+    },
+    "kp.rate.factors": {
+      "v": "通过",
+      "s": "P3",
+      "note": "已收窄为comprehensive"
+    },
+    "concept.reversible": {
+      "v": "通过",
+      "s": "none",
+      "note": "整改后自动复查通过（≠人工审核）"
+    },
+    "kp.extent.le_chatelier_basic": {
+      "v": "待核实",
+      "s": "P1",
+      "note": "教材深度与命名仍待核实；已禁选修平衡计算默认"
+    }
+  },
+  "canEnterBatch6": true,
+  "blockingPublish": true,
+  "humanReviewed": false
+}

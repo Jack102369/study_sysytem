@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chemistry-advanced-model-v1",
+  "title": "ChemAdvancedQuestionModel",
+  "description": "高一化学提高/挑战题型模型（程序可读）。样例仅存模型库，不入库 chem_train_items。",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "models"],
+  "properties": {
+    "schemaVersion": { "type": "string" },
+    "generatedAt": { "type": "string" },
+    "curriculumScope": { "type": "string" },
+    "statusEnum": {
+      "type": "array",
+      "items": { "enum": ["READY", "NEEDS_ENGINE", "HOLD"] }
+    },
+    "models": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/model" }
+    }
+  },
+  "$defs": {
+    "sample": {
+      "type": "object",
+      "required": [
+        "difficulty",
+        "stem",
+        "answer",
+        "steps",
+        "coreMethod",
+        "commonMistakes",
+        "knowledgePoints"
+      ],
+      "properties": {
+        "difficulty": { "enum": ["raise", "challenge"] },
+        "qtype": { "type": "string" },
+        "stem": { "type": "string" },
+        "options": { "type": ["array", "null"] },
+        "answer": { "type": "string" },
+        "steps": { "type": "array", "items": { "type": "string" } },
+        "coreMethod": { "type": "string" },
+        "commonMistakes": { "type": "array", "items": { "type": "string" } },
+        "knowledgePoints": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "model": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "specialtyCode",
+        "categoryCodes",
+        "knowledgePoints",
+        "difficulties",
+        "abilities",
+        "stemStructure",
+        "variableConditions",
+        "reasoningSteps",
+        "breakthrough",
+        "coreMethods",
+        "commonErrors",
+        "grading",
+        "generation",
+        "scienceRisk",
+        "variantDirections",
+        "dedupRules",
+        "productionStatus",
+        "samples",
+        "priorityBatch1"
+      ]
+    }
+  }
+}

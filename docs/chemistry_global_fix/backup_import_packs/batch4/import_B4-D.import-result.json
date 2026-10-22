@@ -1,0 +1,112 @@
+{
+  "successCount": 13,
+  "failCount": 0,
+  "linkOk": 13,
+  "linkFail": 0,
+  "results": [
+    {
+      "index": 0,
+      "type": "knowledge",
+      "ok": true,
+      "id": "42",
+      "inventoryCode": "kp.Cl.property",
+      "errors": []
+    },
+    {
+      "index": 1,
+      "type": "knowledge",
+      "ok": true,
+      "id": "43",
+      "inventoryCode": "kp.Cl.prep",
+      "errors": []
+    },
+    {
+      "index": 2,
+      "type": "knowledge",
+      "ok": true,
+      "id": "44",
+      "inventoryCode": "kp.S.oxide",
+      "errors": []
+    },
+    {
+      "index": 3,
+      "type": "knowledge",
+      "ok": true,
+      "id": "45",
+      "inventoryCode": "kp.N.cycle",
+      "errors": []
+    },
+    {
+      "index": 4,
+      "type": "knowledge",
+      "ok": true,
+      "id": "46",
+      "inventoryCode": "kp.N.ammonia",
+      "errors": []
+    },
+    {
+      "index": 5,
+      "type": "knowledge",
+      "ok": true,
+      "id": "47",
+      "inventoryCode": "kp.C.oxide",
+      "errors": []
+    },
+    {
+      "index": 6,
+      "type": "knowledge",
+      "ok": true,
+      "id": "48",
+      "inventoryCode": "kp.Si.property",
+      "errors": []
+    },
+    {
+      "index": 7,
+      "type": "knowledge",
+      "ok": true,
+      "id": "49",
+      "inventoryCode": "kp.nonmetal.test",
+      "errors": []
+    },
+    {
+      "index": 8,
+      "type": "knowledge",
+      "ok": true,
+      "id": "50",
+      "inventoryCode": "kp.S.conc_H2SO4",
+      "errors": []
+    },
+    {
+      "index": 9,
+      "type": "knowledge",
+      "ok": true,
+      "id": "51",
+      "inventoryCode": "kp.N.ammonium",
+      "errors": []
+    },
+    {
+      "index": 10,
+      "type": "knowledge",
+      "ok": true,
+      "id": "52",
+      "inventoryCode": "kp.halogen.compare",
+      "errors": []
+    },
+    {
+      "index": 11,
+      "type": "knowledge",
+      "ok": true,
+      "id": "53",
+      "inventoryCode": "kp.N.synth_ammonia",
+      "errors": []
+    },
+    {
+      "index": 12,
+      "type": "knowledge",
+      "ok": true,
+      "id": "54",
+      "inventoryCode": "kp.Cl.bleach",
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "items": [
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "甲烷结构与性质",
+        "description": "甲烷分子为正四面体结构，分子式CH4。性质稳定，可燃烧；光照下与氯气发生取代，产物可为多种氯代甲烷，不得写唯一产物。是认识烷烃的典型代表。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.methane] batch6导入 pending_review id=64"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "烷烃通式与性质",
+        "description": "烷烃通式CnH2n+2（链状），为饱和烃。化学性质较稳定，可发生取代与燃烧；一般不能因加成使溴水褪色。同系物物理性质递变。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.alkane] batch6导入 pending_review id=65"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "乙烯结构与性质",
+        "description": "乙烯结构简式CH2=CH2，含碳碳双键。易加成（Br2、H2、H2O等）；使酸性KMnO4褪色但不指定唯一氧化产物；可加聚。实验室可由乙醇浓硫酸加热制取（认知）。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.ethene] batch6导入 pending_review id=66"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "乙醇结构与性质",
+        "description": "乙醇CH3CH2OH，官能团羟基。可燃烧；Cu/Ag催化加热下氧化为乙醛；与乙酸酯化。物理性质：无色液体、与水互溶、易燃。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.ethanol] batch6导入 pending_review id=67"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "乙酸结构与性质",
+        "description": "乙酸CH3COOH，官能团羧基，弱酸但具酸通性；酸性强于碳酸（与碳酸盐放CO2）。可发生酯化。食醋中含乙酸（了解）。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.acetic] batch6导入 pending_review id=68"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "同分异构体书写技能",
+        "description": "先固定分子式，再按碳链异构、官能团位置等有序列举，检查重复与遗漏。高一以简单烷烃/烯烃/醇醚等基础题型为主，复杂推断不作为默认训练。",
+        "difficulty": 3,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.isomer_skill] 高一基础书写;复杂推断限默认"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "颜色推断方法",
+        "description": "利用物质或离子的特征颜色、溶液褪色/变色作为突破口：如酸性KMnO4紫红、溴水橙红、Cu2+蓝、Fe3+黄棕、沉淀颜色等。须结合题设试剂与条件，避免单一线索武断。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.inference.color] batch6导入 pending_review id=70"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "无机框图推断策略",
+        "description": "框图推断：先找特征转化（气、沉淀、颜色、焰色、酸碱性），再确定突破口物质，最后用箭头关系验证全局自洽。注意过量与气体通入顺序对产物的影响。",
+        "difficulty": 3,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.inference.block] batch6导入 pending_review id=71"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "物质转化推断",
+        "description": "沿转化关系写可能反应类型（置换、复分解、氧化还原、有机加成/取代等），用计量与现象约束排除干扰。有机转化抓住官能团变化。",
+        "difficulty": 3,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.inference.conversion] batch6导入 pending_review id=72"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "基础综合解题框架",
+        "description": "综合题一般路径：审清已知与设问→定位知识模块（元素/有机/能量/实验）→写关键方程式或关系式→检查计量、条件与单位→回代题设验证。先易后难，避免跳步丢条件。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.comprehensive.basic] batch6导入 pending_review id=73"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "化学键与能量变化",
+        "description": "化学反应中：断裂化学键吸收能量，形成化学键放出能量。反应吸热还是放热，取决于二者总效果的相对大小，不能仅凭是否加热判断。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.bond_change] 增补；断键吸热、成键放热（中学口径）; batch6导入 pending_review id=74"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "化学能与电能",
+        "description": "原电池等装置可把化学能转化为电能；电解则是电能转化为化学能（了解对比）。认识能量转化形式是必修要点。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.chem_electric] 增补; batch6导入 pending_review id=75; B6整改:category redox.e_transfer→e_direction"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "原电池",
+        "description": "原电池是将化学能转化为电能的装置。一般需：自发氧化还原反应、电极、电解质溶液（或离子导体）、形成闭合回路。电子在外电路迁移，离子在电解质中迁移。并非所有原电池都必须由两种不同金属构成，电极组合以题设与构成条件为准。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.galvanic] B6整改:收窄专项去掉experiment主挂;电子外电路;离子在电解质;不必须两种不同金属"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "原电池正负极",
+        "description": "负极：发生氧化反应（失电子），通常是较活泼金属电极。正极：发生还原反应（得电子）。正负极判断要结合电极材料与电解质中的氧化剂。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.galvanic_poles] 增补; batch6导入 pending_review id=77"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "原电池电子流向",
+        "description": "外电路中电子由负极流向正极；电流方向与电子流向相反。溶液中阳离子向正极迁移、阴离子向负极迁移，不可说电子在溶液中流动。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.electron_flow] 增补；外电路电子由负极到正极; batch6导入 pending_review id=78"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "原电池电极反应",
+        "description": "分别写出负极氧化、正极还原的电极反应式，再相加得总反应。Zn-Cu原电池：电解质为CuSO4时正极多为Cu2+得电子；为稀H2SO4时正极多为H+得电子。须按题设书写。",
+        "difficulty": 3,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.electrode_rxn] 增补; batch6导入 pending_review id=79"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "常见化学电源",
+        "description": "了解常见化学电源（如干电池、蓄电池、锂电池等名称与用途层次，以教材为准）。勿展开复杂电化学工程与电极材料细节作为默认训练。",
+        "difficulty": 2,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.chem_power] 了解级;勿展开工程细节"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "热化学方程式书写",
+        "description": "热化学方程式须注明物质聚集状态，并给出ΔH（符号与单位口径随教材）。计量数与ΔH对应；同一反应计量数翻倍则ΔH相应变化。",
+        "difficulty": 3,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.energy.thermo_eq] 增补；注明物质聚集状态与ΔH 符号口径; batch6导入 pending_review id=81"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "海水资源开发",
+        "description": "海水中含丰富水资源与化学资源（如NaCl、镁、溴等，了解）。认识海水淡化与综合利用的意义，深度以教材案例为准。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.seawater] 增补; batch6导入 pending_review id=82"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "煤的综合利用",
+        "description": "煤可通过干馏、气化、液化等途径综合利用（了解名称与意义），减少污染、提高资源利用率。勿展开复杂工艺计算。",
+        "difficulty": 2,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.coal] 增补; batch6导入 pending_review id=83"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "石油分馏",
+        "description": "石油分馏是利用各组分沸点不同进行分离的物理变化过程，得到汽油、煤油、柴油等馏分（了解）。与裂化、裂解等化学加工区分。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.petroleum] 增补；物理变化认识; batch6导入 pending_review id=84"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "石油裂化",
+        "description": "裂化是使长链烃断裂为较短链烃的过程，以提高轻质燃油产量等（了解）。与裂解区分；具体反应深度与考法待教材核实。",
+        "difficulty": 2,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.cracking] 待教材核实:与裂解区分;深度待核实;excludeDefaultTrainingUntilVerified;非人工已审"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "石油裂解",
+        "description": "裂解是深度断裂以获得乙烯、丙烯等化工原料的过程（了解）。与裂化目的与条件不同；细节待教材核实前不作默认核心训练。",
+        "difficulty": 2,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.pyrolysis] 待教材核实:与裂化区分;深度待核实;excludeDefaultTrainingUntilVerified;非人工已审"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "天然气利用",
+        "description": "天然气主要成分为甲烷，是较清洁的化石燃料；也可作化工原料（了解）。注意安全使用与碳中和背景认知（教材层次）。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.natural_gas] 增补; batch6导入 pending_review id=87"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "化肥合理使用",
+        "description": "认识氮、磷、钾肥等作用与合理施用，避免过量导致污染。结合元素化合物知识作了解级综合。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.fertilizer] 增补; batch6导入 pending_review id=88"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "农药合理使用",
+        "description": "农药有助于防治病虫害，但须合理使用，减少残留与生态危害。属社会责任与科学态度类认知条目。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.pesticide] 增补; batch6导入 pending_review id=89"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "药物合理使用",
+        "description": "认识药物按说明书与医嘱使用的重要性，了解滥用抗生素等危害（教材案例层次），不涉及诊疗指导。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.medicine] 增补; batch6导入 pending_review id=90"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "食品添加剂",
+        "description": "食品添加剂在规定范围与剂量内可改善食品品质；应正确认识“合法合规使用”与安全，抵制非法添加。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.food_additive] 增补；合理使用与安全认知; batch6导入 pending_review id=91"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "环境污染与防治认知",
+        "description": "认识大气污染、水污染、土壤污染等类型及防治思路：源头控制、达标排放、绿色工艺与个人环保行为。结合硫氧化物、氮氧化物、塑料等教材案例。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.enviro.pollution] 增补; batch6导入 pending_review id=92"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "酸雨",
+        "description": "酸雨主要与SO2、NOx等排放有关；可酸化水体与土壤、腐蚀建筑。防治：脱硫脱硝、清洁能源、节能等。与硫、氮氧化物知识综合。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.enviro.acid_rain] 增补；主知识在综合批；非金属批通过关联引用; batch6导入 pending_review id=93"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "绿色化学",
+        "description": "绿色化学强调从源头减少或消除污染，提高原子利用率，选用更安全的原料、溶剂与反应路径（概念认识）。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.green_chem] 增补; batch6导入 pending_review id=94"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "原子经济性",
+        "description": "原子经济性关注反应物原子进入目标产物的比例，加成等反应原子利用率高（概念级）。定量计算公式与训练深度待教材核实。",
+        "difficulty": 2,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.sustain.atom_economy] 待教材核实:概念级;计算题深度待核实;excludeDefaultTrainingUntilVerified;已去掉calculation.mixed默认关联;非人工已审"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "生命中的基本有机物（了解）",
+        "description": "糖类、油脂、蛋白质、维生素等是生命中的基本有机物（认知级）。了解存在与功能层次即可，勿展开生物学详细代谢途径。",
+        "difficulty": 1,
+        "importance": 3,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.organic.biomolecule] 待教材核实:覆盖深度;认知级;勿展开代谢;excludeDefaultTrainingUntilVerified;非人工已审"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch6",
+    "pack": "B6-E",
+    "inventoryCodes": [
+      "kp.organic.methane",
+      "kp.organic.alkane",
+      "kp.organic.ethene",
+      "kp.organic.ethanol",
+      "kp.organic.acetic",
+      "kp.organic.isomer_skill",
+      "kp.inference.color",
+      "kp.inference.block",
+      "kp.inference.conversion",
+      "kp.comprehensive.basic",
+      "kp.energy.bond_change",
+      "kp.energy.chem_electric",
+      "kp.energy.galvanic",
+      "kp.energy.galvanic_poles",
+      "kp.energy.electron_flow",
+      "kp.energy.electrode_rxn",
+      "kp.energy.chem_power",
+      "kp.energy.thermo_eq",
+      "kp.sustain.seawater",
+      "kp.sustain.coal",
+      "kp.organic.petroleum",
+      "kp.organic.cracking",
+      "kp.organic.pyrolysis",
+      "kp.sustain.natural_gas",
+      "kp.sustain.fertilizer",
+      "kp.sustain.pesticide",
+      "kp.sustain.medicine",
+      "kp.sustain.food_additive",
+      "kp.enviro.pollution",
+      "kp.enviro.acid_rain",
+      "kp.sustain.green_chem",
+      "kp.sustain.atom_economy",
+      "kp.organic.biomolecule"
+    ],
+    "specialtyByCode": {
+      "kp.organic.methane": [
+        "organic"
+      ],
+      "kp.organic.alkane": [
+        "organic"
+      ],
+      "kp.organic.ethene": [
+        "organic"
+      ],
+      "kp.organic.ethanol": [
+        "organic"
+      ],
+      "kp.organic.acetic": [
+        "organic"
+      ],
+      "kp.organic.isomer_skill": [
+        "organic"
+      ],
+      "kp.inference.color": [
+        "inference"
+      ],
+      "kp.inference.block": [
+        "inference"
+      ],
+      "kp.inference.conversion": [
+        "inference"
+      ],
+      "kp.comprehensive.basic": [
+        "comprehensive"
+      ],
+      "kp.energy.bond_change": [
+        "structure",
+        "comprehensive"
+      ],
+      "kp.energy.chem_electric": [
+        "comprehensive",
+        "redox"
+      ],
+      "kp.energy.galvanic": [
+        "redox",
+        "comprehensive"
+      ],
+      "kp.energy.galvanic_poles": [
+        "redox",
+        "comprehensive"
+      ],
+      "kp.energy.electron_flow": [
+        "redox",
+        "comprehensive"
+      ],
+      "kp.energy.electrode_rxn": [
+        "redox",
+        "equation",
+        "comprehensive"
+      ],
+      "kp.energy.chem_power": [
+        "comprehensive",
+        "memory"
+      ],
+      "kp.energy.thermo_eq": [
+        "equation",
+        "comprehensive"
+      ],
+      "kp.sustain.seawater": [
+        "comprehensive",
+        "substance"
+      ],
+      "kp.sustain.coal": [
+        "comprehensive",
+        "organic"
+      ],
+      "kp.organic.petroleum": [
+        "organic",
+        "comprehensive"
+      ],
+      "kp.organic.cracking": [
+        "organic",
+        "comprehensive"
+      ],
+      "kp.organic.pyrolysis": [
+        "organic",
+        "comprehensive"
+      ],
+      "kp.sustain.natural_gas": [
+        "comprehensive",
+        "organic"
+      ],
+      "kp.sustain.fertilizer": [
+        "comprehensive"
+      ],
+      "kp.sustain.pesticide": [
+        "comprehensive"
+      ],
+      "kp.sustain.medicine": [
+        "comprehensive"
+      ],
+      "kp.sustain.food_additive": [
+        "comprehensive"
+      ],
+      "kp.enviro.pollution": [
+        "comprehensive"
+      ],
+      "kp.enviro.acid_rain": [
+        "comprehensive",
+        "substance"
+      ],
+      "kp.sustain.green_chem": [
+        "comprehensive"
+      ],
+      "kp.sustain.atom_economy": [
+        "comprehensive"
+      ],
+      "kp.organic.biomolecule": [
+        "organic",
+        "comprehensive"
+      ]
+    },
+    "categoryByCode": {
+      "kp.organic.methane": [],
+      "kp.organic.alkane": [],
+      "kp.organic.ethene": [],
+      "kp.organic.ethanol": [],
+      "kp.organic.acetic": [],
+      "kp.organic.isomer_skill": [],
+      "kp.inference.color": [],
+      "kp.inference.block": [],
+      "kp.inference.conversion": [],
+      "kp.comprehensive.basic": [],
+      "kp.energy.bond_change": [
+        "structure.ionic_bond",
+        "structure.covalent_bond",
+        "comprehensive.basic"
+      ],
+      "kp.energy.chem_electric": [
+        "comprehensive.basic",
+        "redox.e_direction"
+      ],
+      "kp.energy.galvanic": [
+        "redox.e_direction",
+        "comprehensive.basic"
+      ],
+      "kp.energy.galvanic_poles": [
+        "redox.e_direction",
+        "comprehensive.basic"
+      ],
+      "kp.energy.electron_flow": [
+        "redox.e_direction",
+        "comprehensive.basic"
+      ],
+      "kp.energy.electrode_rxn": [
+        "redox.identify",
+        "equation.ionic_write",
+        "comprehensive.basic"
+      ],
+      "kp.energy.chem_power": [
+        "comprehensive.basic",
+        "memory.rules"
+      ],
+      "kp.energy.thermo_eq": [
+        "equation.write_from_text",
+        "equation.condition",
+        "comprehensive.basic"
+      ],
+      "kp.sustain.seawater": [
+        "comprehensive.basic",
+        "substance.usage"
+      ],
+      "kp.sustain.coal": [
+        "comprehensive.basic",
+        "organic.basic"
+      ],
+      "kp.organic.petroleum": [
+        "organic.basic",
+        "comprehensive.basic"
+      ],
+      "kp.organic.cracking": [
+        "organic.basic",
+        "comprehensive.basic"
+      ],
+      "kp.organic.pyrolysis": [
+        "organic.basic",
+        "comprehensive.basic"
+      ],
+      "kp.sustain.natural_gas": [
+        "comprehensive.basic",
+        "organic.methane"
+      ],
+      "kp.sustain.fertilizer": [
+        "comprehensive.basic"
+      ],
+      "kp.sustain.pesticide": [
+        "comprehensive.basic"
+      ],
+      "kp.sustain.medicine": [
+        "comprehensive.basic"
+      ],
+      "kp.sustain.food_additive": [
+        "comprehensive.basic"
+      ],
+      "kp.enviro.pollution": [
+        "comprehensive.basic"
+      ],
+      "kp.enviro.acid_rain": [
+        "comprehensive.basic",
+        "substance.chem_property"
+      ],
+      "kp.sustain.green_chem": [
+        "comprehensive.basic"
+      ],
+      "kp.sustain.atom_economy": [
+        "comprehensive.basic"
+      ],
+      "kp.organic.biomolecule": [
+        "organic.basic",
+        "comprehensive.basic"
+      ]
+    }
+  }
+}

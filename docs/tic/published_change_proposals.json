@@ -1,0 +1,34 @@
+{
+  "el.O": {
+    "idHint": "symbol=O published",
+    "problem": "common_valences 仅 −2，缺过氧化物 −1",
+    "proposed": {
+      "common_valences": "-2,-1（过氧化物中）"
+    },
+    "reason": "必修钠章涉及Na2O2，氧在过氧化物中为−1"
+  },
+  "el.Cl": {
+    "idHint": "symbol=Cl published",
+    "problem": "key_properties 写成黄绿色气体，实为Cl2性质",
+    "proposed": {
+      "key_properties": "卤族典型元素；单质Cl2为黄绿色有毒气体（元素与单质宜分条描述）"
+    },
+    "reason": "避免元素条目与Cl2混淆"
+  },
+  "kp.redox": {
+    "idHint": "name=氧化还原反应 parent null published",
+    "problem": "description过短",
+    "proposed": {
+      "description": "高一核心：有化合价升降（电子转移）的反应为氧化还原反应。升失还原剂，降得氧化剂；注意氧化剂≠氧化产物、还原剂≠还原产物。"
+    },
+    "reason": "训练解释不足"
+  },
+  "el.Na": {
+    "idHint": "symbol=Na published",
+    "problem": "common_compounds含Na（单质）",
+    "proposed": {
+      "common_compounds": "NaOH,NaCl,Na2O,Na2O2,Na2CO3"
+    },
+    "reason": "表述严谨性P3"
+  }
+}

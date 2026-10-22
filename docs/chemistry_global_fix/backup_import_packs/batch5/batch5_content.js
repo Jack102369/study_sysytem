@@ -1,0 +1,636 @@
+/**
+ * Batch5 content（实验基础 + 计算入门 + 速率/限度定性）— 书面题目训练专用。
+ * 实验条目记录目的/原理/仪器/试剂/步骤/现象/结论/注意/安全，仅作分析题依据，不要求线下动手。
+ */
+'use strict'
+
+const HOME_FORBIDDEN =
+  '本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。'
+
+const EXPERIMENTS = {
+  'exp.instrument_basic': {
+    name: '常见仪器识别与用途',
+    category: 'instrument',
+    purpose:
+      '书面分析题训练：识别试管、烧杯、量筒、酒精灯、漏斗、铁架台、集气瓶等常见仪器，并判断其主要用途与选用正误。',
+    principle:
+      '不同仪器按量取、加热、反应容器、过滤、收集等功能选用；容积刻度用途不同（如量筒量液、容量瓶定容）。',
+    instruments: '试管、烧杯、量筒、酒精灯、漏斗、铁架台（带铁圈/铁夹）、集气瓶、玻璃棒、胶头滴管等',
+    reagents: '无特定反应试剂（认知条目）',
+    steps:
+      '1.对照图示指出仪器名称；2.判断加热可否直接受热、是否需石棉网；3.判断量取精确度与适用场景；4.排除张冠李戴用途。',
+    phenomenon: '以图示与文字描述为依据作答，无实际操作现象。',
+    conclusion: '能正确识别常见仪器并匹配用途，是后续操作正误与装置分析的基础。',
+    precautions: '量筒不可加热；容量瓶不能配制过程加热或长期存放溶液；胶头滴管不可平放、倒置或伸入他瓶。',
+    safetyNotes: '酒精灯使用规范（灯帽、灯芯、禁对点）属安全判断考点；本题仅书面训练。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+  },
+
+  'exp.ops_weigh': {
+    name: '托盘天平称量',
+    category: 'basic_ops',
+    purpose:
+      '书面分析题训练：掌握托盘天平“左物右码”、游码读数、称量纸/器皿选用及常见操作错误对质量读数的影响。',
+    principle:
+      '托盘天平在游码归零调平后称量；物体质量≈砝码质量+游码读数。腐蚀性药品须放在玻璃器皿中称量。',
+    instruments: '托盘天平、砝码、镊子、称量纸或小烧杯/表面皿',
+    reagents: '固体药品（示例：NaCl 等，题设给出）',
+    steps:
+      '1.游码归零，调节平衡螺母使指针指零；2.左盘放物体，右盘放砝码；3.先加大砝码再调游码；4.读数并记录；5.砝码归盒，游码回零。',
+    phenomenon: '天平平衡时指针指零刻度（或左右摆动幅度相当）。',
+    conclusion: '正确称量得到固体质量，是配制溶液与定量计算的数据来源。',
+    precautions: '不可用手直接拿砝码；潮湿或腐蚀性药品不能直接放托盘；称量完毕清扫托盘。',
+    safetyNotes: '试剂勿入口、勿随意丢弃；仅书面分析操作正误与误差方向。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+  },
+
+  'exp.ops_dissolve': {
+    name: '溶解与搅拌',
+    category: 'basic_ops',
+    purpose:
+      '书面分析题训练：判断固体溶解操作（烧杯、玻璃棒搅拌、加水顺序）及加速溶解措施的正误。',
+    principle:
+      '溶质在溶剂中分散形成溶液；搅拌可加快溶解，加热（若允许）也可加速，但须符合试剂性质与后续实验要求。',
+    instruments: '烧杯、玻璃棒、药匙、量筒（量取溶剂）',
+    reagents: '可溶性固体与蒸馏水（或题设溶剂）',
+    steps:
+      '1.固体放入烧杯；2.加入适量溶剂；3.用玻璃棒沿同一方向轻轻搅拌至溶解；4.若需定容，先溶解冷却再转移（见容量瓶条目）。',
+    phenomenon: '固体逐渐消失，溶液澄清（若完全溶解且无悬浮）。',
+    conclusion: '规范溶解是配制溶液与后续过滤、蒸发等操作的前提。',
+    precautions: '玻璃棒不可碰破烧杯；搅拌勿溅出；热溶液须冷却后再定容或转移至怕热仪器。',
+    safetyNotes: '强酸强碱溶解/稀释须按规定顺序（如浓硫酸酸入水）；禁止家用危险操作。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+  },
+
+  'exp.ops_filter': {
+    name: '过滤操作',
+    category: 'basic_ops',
+    purpose:
+      '书面分析题训练：掌握“一贴二低三靠”要点，判断滤纸、漏斗、玻璃棒、烧杯配合是否正确及滤液浑浊原因。',
+    principle:
+      '过滤利用滤纸孔隙分离不溶性固体与液体；滤液透过滤纸，残渣留在滤纸上。',
+    instruments: '漏斗、滤纸、玻璃棒、烧杯、铁架台（铁圈）',
+    reagents: '含不溶物的悬浊液（示例）',
+    steps:
+      '1.折滤纸贴紧漏斗内壁并湿润；2.漏斗下端紧靠接收烧杯内壁；3.玻璃棒引流，漏斗内液面低于滤纸边缘；4.滤渣洗涤（题设需要时）。',
+    phenomenon: '滤液澄清流下；固体留在滤纸上。',
+    conclusion: '可分离不溶性固体与液体；滤液浑浊常因滤纸破损、液面过高或引流不当。',
+    precautions: '一贴二低三靠；倾倒时烧杯嘴紧靠玻璃棒；勿用玻璃棒戳破滤纸。',
+    safetyNotes: '处理强酸强碱滤液须防溅伤；仅书面训练。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+  },
+
+  'exp.ops_evaporate': {
+    name: '蒸发结晶',
+    category: 'basic_ops',
+    purpose:
+      '书面分析题训练：认识蒸发皿蒸发浓缩/结晶的操作要点、加热与搅拌作用及何时停止加热。',
+    principle:
+      '加热使溶剂挥发，溶质浓度增大直至析出晶体；蒸发皿加热装置以题设图示/所用教材为准（常见为铁圈上放置蒸发皿加热；是否垫石棉网按题给装置判断，勿混写两种口径为同时必然）。',
+    instruments: '蒸发皿、玻璃棒、酒精灯、铁架台（铁圈）、石棉网（按装置要求）',
+    reagents: '溶液（如 NaCl 溶液等题设）',
+    steps:
+      '1.溶液盛于蒸发皿（不超过容积约2/3）；2.加热蒸发，并用玻璃棒不断搅拌；3.出现较多固体时停止加热，利用余热蒸干；4.冷却后转移晶体。',
+    phenomenon: '溶剂减少，逐渐析出晶体或固体。',
+    conclusion: '可用于从溶液中得到可溶性固体；与过滤联用可分离可溶与不溶组分。',
+    precautions: '防止局部过热飞溅；勿蒸得过干导致固体迸溅；蒸发皿移取用坩埚钳。',
+    safetyNotes: '加热防烫伤、防酒精灯事故；禁止家用自行加热实验。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+  },
+
+  'exp.ops_distill': {
+    name: '蒸馏操作认知',
+    category: 'basic_ops',
+    purpose:
+      '书面分析题训练：认识蒸馏分离沸点不同液体混合物的装置要点（温度计位置、冷凝管水流方向、防暴沸等），属认知级、不展开工业精馏。',
+    principle:
+      '加热使低沸点组分先汽化，经冷凝管冷凝后收集馏分，从而实现分离或提纯。',
+    instruments: '蒸馏烧瓶、温度计、冷凝管、接引管、锥形瓶、酒精灯、石棉网、沸石（或碎瓷片）',
+    reagents: '互溶且沸点不同的液体混合物（示例：乙醇与水，题设）',
+    steps:
+      '1.检查气密性并加入沸石；2.温度计水银球位于蒸馏烧瓶支管口处；3.冷凝管下口进水、上口出水；4.加热收集馏分；5.停火顺序与装置拆卸按规范。',
+    phenomenon: '馏分在接收器中逐渐增多；温度计读数对应馏出蒸气温度。',
+    conclusion: '蒸馏可用于分离沸点相差较大的互溶液体；装置细节是常考正误点。',
+    precautions: '防暴沸；冷凝管水流方向不可反；液体体积不超过蒸馏烧瓶容积2/3。',
+    safetyNotes: '易燃有机液体加热须远离明火隐患并规范操作；本产品仅书面认知，禁止家用蒸馏。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+    reviewExtra: 'priority2/认知级；勿按大学有机实验深度展开',
+  },
+
+  'exp.ops_extract': {
+    name: '分液与萃取认知',
+    category: 'basic_ops',
+    purpose:
+      '书面分析题训练：理解萃取（利用溶质在互不相溶溶剂中溶解度差异）与分液漏斗分液操作要点。',
+    principle:
+      '萃取剂与原溶剂互不相溶，溶质在萃取剂中溶解度更大时转入萃取剂层；静置分层后分液分离。',
+    instruments: '分液漏斗、烧杯、铁架台（铁圈）',
+    reagents: '互不相溶的两种液体及溶质（示例：碘水与四氯化碳，按教材题设）',
+    steps:
+      '1.分液漏斗检漏；2.加入液体，振荡并及时放气；3.静置分层；4.下层液体从下口放出，上层液体从上口倒出。',
+    phenomenon: '液体分为上下两层，颜色可能向萃取剂层转移（如碘的紫红色进入CCl4层）。',
+    conclusion: '萃取+分液可分离或富集某些溶质；关键是溶剂选择与上下层判断。',
+    precautions: '振荡放气；分清上下层；下水从下口、上液从上口；有机溶剂使用按安全规范。',
+    safetyNotes: 'CCl4等有机溶剂有毒/环境危害，仅教材题设分析，禁止家用。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+    reviewExtra: '认知级；试剂示例随教材，勿鼓励实际操作',
+  },
+
+  'exp.gas_collect_upward': {
+    name: '向上排空气法',
+    category: 'gas_collect',
+    purpose:
+      '书面分析题训练：根据气体密度与空气比较，判断何时用向上排空气法及导管伸入集气瓶的位置。',
+    principle:
+      '密度比空气大的气体可用向上排空气法：集气瓶口向上，导管伸入瓶底附近，空气从瓶口排出。',
+    instruments: '集气瓶、导管、发生装置（题设）',
+    reagents: '密度大于空气的气体示例：O2、CO2、Cl2（Cl2有毒，仅分析）等',
+    steps:
+      '1.集气瓶正放；2.导气管伸到接近瓶底；3.通气至收集满（按检验方法判断）；4.盖上玻璃片。',
+    phenomenon: '集气瓶内逐渐充满目标气体；可用相应检验方法确认（如O2复燃木条）。',
+    conclusion: '适用于密度比空气大且不与空气成分显著反应的气体（结合溶解性等综合选题）。',
+    precautions: '导管位置过浅导致收集不纯；有毒气体须尾气处理（书面评价方案）。',
+    safetyNotes: '有毒气体收集仅作装置分析；禁止接触或家用制取。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+  },
+
+  'exp.gas_collect_downward': {
+    name: '向下排空气法',
+    category: 'gas_collect',
+    purpose:
+      '书面分析题训练：判断密度比空气小的气体应采用向下排空气法及导管/瓶口朝向。',
+    principle:
+      '密度比空气小的气体可用向下排空气法：集气瓶口向下，导管伸入瓶底（此时为上方），空气被排出。',
+    instruments: '集气瓶、导管、发生装置（题设）',
+    reagents: '密度小于空气的气体示例：H2、NH3等',
+    steps:
+      '1.集气瓶倒放；2.导管伸到接近瓶底；3.通气收集；4.用合适方法检验是否收集满。',
+    phenomenon: '瓶内逐渐被轻气体占据；检验依气体而定（如H2可燃须先验纯——书面安全点）。',
+    conclusion: '适用于密度比空气小的气体；常与溶解性、是否可用排水法综合考查。',
+    precautions: '勿与向上排空气法混淆瓶口方向；极易溶于水的气体如NH3一般不用排水法。',
+    safetyNotes: 'H2为易燃气体：书面强调验纯与禁明火；禁止家用制取氢气。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+  },
+
+  'exp.gas_collect_water': {
+    name: '排水集气法',
+    category: 'gas_collect',
+    purpose:
+      '书面分析题训练：判断气体是否可用排水法（难溶或不易溶于水、不与水反应）及集气瓶装满水排气操作。',
+    principle:
+      '气体通入盛满水的集气瓶，将水排出而收集气体；适用于难溶/不易溶于水且不与水反应的气体。',
+    instruments: '集气瓶、水槽、导管、玻璃片',
+    reagents: '示例：O2、H2、NO（按题设；注意NO遇空气变化等干扰）等',
+    steps:
+      '1.集气瓶装满水，倒扣于水槽；2.导管伸入瓶内通气排水；3.收满后水下盖玻璃片取出；4.正放或倒放依气体密度（题设）。',
+    phenomenon: '瓶内水位下降，气体占据空间。',
+    conclusion: '排水法可得到较纯净的难溶气体；易溶或与水反应的气体不适用。',
+    precautions: '导管口刚有气泡时先不急于收集（赶尽空气，按题目要求）；防倒吸视装置而定。',
+    safetyNotes: '涉及H2等可燃气体时强调验纯；仅书面训练。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+  },
+
+  'exp.O2_prep_KMnO4': {
+    name: '高锰酸钾制氧气',
+    category: 'gas_prep',
+    purpose:
+      '书面分析题训练：分析KMnO4受热分解制O2的装置、加热位置、排水收集与导管进出顺序等正误。',
+    principle: '2KMnO4=△=K2MnO4+MnO2+O2↑；O2可用排水法或向上排空气法收集。',
+    instruments: '试管、酒精灯、铁架台、导管、集气瓶、水槽、棉花（管口附近）等',
+    reagents: 'KMnO4固体',
+    steps:
+      '1.检查气密性；2.装入KMnO4，管口放一团棉花，试管口略向下倾斜；3.加热；4.排水法收集；5.先撤导管再停热（防倒吸）。',
+    phenomenon: '产生能使带火星木条复燃的气体；固体颜色变化（题设描述）。',
+    conclusion: '加热KMnO4可制O2；装置倾斜、棉花、撤管顺序为高频考点。',
+    precautions: '试管口向下倾斜防冷凝水流回炸裂；棉花防粉末堵塞；收集满后操作顺序正确。',
+    safetyNotes: '加热实验有烫伤与炸裂风险；KMnO4强氧化性；本系统仅书面分析，禁止家用加热制气。',
+    isHazardous: true,
+    homeForbiddenNote: HOME_FORBIDDEN,
+  },
+
+  'exp.O2_prep_H2O2': {
+    name: '过氧化氢制氧气',
+    category: 'gas_prep',
+    purpose:
+      '书面分析题训练：认识H2O2在MnO2催化下分解制O2，比较与加热KMnO4法在装置、条件上的差异。',
+    principle: '2H2O2=MnO2=2H2O+O2↑（MnO2为催化剂）；常温即可，常用分液漏斗/长颈漏斗加液。',
+    instruments: '锥形瓶或试管、分液漏斗或长颈漏斗、导管、集气瓶、水槽等',
+    reagents: 'H2O2溶液、MnO2',
+    steps:
+      '1.检查气密性；2.瓶中加MnO2，分液漏斗加H2O2；3.滴加液体产生O2；4.排水或向上排空气法收集；5.检验：带火星木条复燃。',
+    phenomenon: '迅速产生气泡；带火星木条复燃。',
+    conclusion: '催化分解H2O2可制O2，无需加热，适合与KMnO4法对比命题。',
+    precautions: '长颈漏斗下端须液封；控制滴加速度；催化剂用量与浓度按题设。',
+    safetyNotes: 'H2O2对皮肤有刺激/腐蚀性（浓度相关）；禁止家用随意催化制气；仅书面训练。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+  },
+
+  'exp.H2_prep_Zn': {
+    name: '锌与稀硫酸制氢气',
+    category: 'gas_prep',
+    purpose:
+      '书面分析题训练：分析Zn与稀硫酸制H2的发生装置、收集方法、验纯与安全判断；不要求也不允许实际操作。',
+    principle: 'Zn+H2SO4=ZnSO4+H2↑；H2密度比空气小、难溶于水，可用向下排空气法或排水法收集。',
+    instruments: '试管或锥形瓶、长颈漏斗或分液漏斗、导管、集气瓶、水槽等',
+    reagents: '锌粒、稀硫酸（不可用浓硫酸按此式简单代替）',
+    steps:
+      '1.检查气密性；2.加锌粒，注入稀硫酸；3.收集H2；4.点燃前必须验纯（书面强调）；5.规范处理残液。',
+    phenomenon: '锌粒表面产生气泡；收集的气体可燃（安静燃烧淡蓝色火焰——验纯合格后）。',
+    conclusion: '活泼金属与非氧化性稀酸可制H2；收集与验纯是安全与装置题核心。',
+    precautions: '验纯；防点燃不纯气体爆炸；装置导管位置正确；勿用浓硫酸与此性质简单混用。',
+    safetyNotes:
+      'H2为易燃气体，不纯时点燃可能爆炸；严禁在家制取或点燃氢气。本系统仅做书面现象、操作、安全与装置分析。',
+    isHazardous: true,
+    homeForbiddenNote: HOME_FORBIDDEN,
+    reviewExtra: '易燃气体；书面训练专用；强安全提示',
+  },
+
+  'exp.CO2_prep_marble': {
+    name: '大理石与稀盐酸制二氧化碳',
+    category: 'gas_prep',
+    purpose:
+      '书面分析题训练：掌握CaCO3与稀盐酸制CO2的装置选择、收集（向上排空气法）及除杂/检验思路。',
+    principle: 'CaCO3+2HCl=CaCl2+H2O+CO2↑；CO2密度比空气大，可用向上排空气法；一般不用排水法（可溶）。',
+    instruments: '锥形瓶、分液漏斗或长颈漏斗、导管、集气瓶、洗气瓶（除杂题设）等',
+    reagents: '大理石（或石灰石）、稀盐酸；澄清石灰水（检验）',
+    steps:
+      '1.检查气密性；2.固体+酸反应发生CO2；3.向上排空气法收集；4.通入澄清石灰水检验变浑浊；5.尾气与废液按题设处理。',
+    phenomenon: '产生气泡；石灰水变浑浊；燃烧木条熄灭（性质题）。',
+    conclusion: '实验室常用大理石与稀盐酸制CO2；不用稀硫酸（生成微溶CaSO4覆盖，反应减弱——常考）。',
+    precautions: '长颈漏斗液封；收集满判断；若除HCl可用相应洗气试剂（见洗气知识点）。',
+    safetyNotes: '盐酸腐蚀性；高浓度CO2窒息风险；仅书面训练，禁止家用制气实验。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+  },
+
+  'exp.check_airtight': {
+    name: '装置气密性检查',
+    category: 'basic_ops',
+    purpose:
+      '书面分析题训练：在加入试剂前检查气密性的方法、现象判断及“先检后装”的操作顺序评价。',
+    principle:
+      '封闭体系内气压变化（微热或移动）会使导管口气泡/水柱出现可观察现象，据此判断是否漏气。',
+    instruments: '待检发生装置、导管、水槽或烧杯、酒精灯（微热法）等',
+    reagents: '水（观察用）；正式试剂在检漏合格后再加入',
+    steps:
+      '1.按装置连接（未加反应物）；2.导管口浸入水中；3.微热容器（或用手捂）观察气泡；4.冷却后导管内形成一段稳定水柱则气密性良好；5.合格后再加药品。',
+    phenomenon: '气密性好：加热有气泡，冷却形成水柱；漏气则无明显水柱或很快回落。',
+    conclusion: '气密性检查是制气实验必要步骤；漏气导致收集失败或定量误差。',
+    precautions: '先检查后加药品；加热不可过猛；有分液漏斗时活塞状态要符合检漏要求。',
+    safetyNotes: '检漏加热防烫伤；仅书面步骤排序与正误判断。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+  },
+
+  'exp.safety_rules': {
+    name: '实验室安全通则',
+    category: 'safety',
+    purpose:
+      '书面分析题训练：判断实验室着装、试剂取用、加热、急救与废弃物处理等安全正误，强化“禁止家用危险实验”意识。',
+    principle:
+      '化学实验室通过规范操作、通风、防护与应急降低风险；安全规则服务于事故预防与正确处置。',
+    instruments: '护目镜、实验服等防护用品（认知）；灭火毯/沙等应急设施（了解）',
+    reagents: '各类试剂的通用安全原则（按标签与性质）',
+    steps:
+      '1.阅读题设操作或场景；2.对照通则判断对错；3.指出正确做法（如稀释顺序、嗅气体方法、洒落处理）；4.区分实验室规范与家用禁止。',
+    phenomenon: '无实验现象；以规则判断与案例分析为主。',
+    conclusion: '遵守安全通则是一切实验活动的前提；本产品训练止于书面判断。',
+    precautions:
+      '不能用手直接接触药品、不能品尝；加热试管口不对人；酒精灯禁对点；事故按教材急救口径作答。',
+    safetyNotes:
+      '强酸强碱、火、有毒气体等场景仅作文案分析；明确禁止学生在家庭环境自行实验。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+  },
+
+  'exp.ops_volumetric_flask': {
+    name: '容量瓶定容操作',
+    category: 'basic_ops',
+    purpose:
+      '书面分析题训练：掌握配制一定物质的量浓度溶液时容量瓶定容步骤、误差阶段分析，并关联 c=n/V 计算。',
+    principle:
+      '容量瓶在标定温度下准确容纳一定体积溶液；定容至凹液面最低处与刻度线相切，摇匀后得到目标体积。',
+    instruments: '容量瓶、烧杯、玻璃棒、胶头滴管、药匙、天平（称固体时）',
+    reagents: '溶质固体或浓溶液（题设）与蒸馏水',
+    steps:
+      '1.查漏；2.烧杯溶解（或稀释）并冷却至室温；3.引流转移并洗涤；4.加水至刻度线近处，改用胶头滴管定容；5.盖塞颠倒摇匀。',
+    phenomenon: '凹液面与刻度线相切；溶液混合均匀。',
+    conclusion: '定容操作直接影响溶液体积V，从而影响浓度c；误差须对应溶解/转移/定容等阶段分析。',
+    precautions: '不能加热容量瓶；不能在容量瓶中溶解固体；俯视/仰视刻度导致V偏差方向相反。',
+    safetyNotes: '配制强酸强碱溶液防溅；仅书面训练与计算联动。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+    reviewExtra: '与kp.calc.solution、kp.exp.error联动',
+  },
+
+  'exp.ops_burette': {
+    name: '滴定管认知与基本操作',
+    category: 'instrument',
+    purpose:
+      '书面分析题训练：识别酸式/碱式滴定管、读数（凹液面）与基本使用注意；不按分析化学滴定分析深度展开。',
+    principle:
+      '滴定管可精确放出液体并读出体积；酸式滴定管有玻璃活塞，碱式滴定管有橡胶管与玻璃珠（防碱腐蚀玻璃活塞）。',
+    instruments: '酸式滴定管、碱式滴定管、滴定管夹、烧杯、锥形瓶（认知配合）',
+    reagents: '示例酸碱溶液（题设）；不展开指示剂选择理论',
+    steps:
+      '1.查漏与洗涤；2.注入溶液并赶尽尖嘴气泡；3.调液面并记录初读数；4.放出液体后读终读数；5.计算放出体积=终读−初读。',
+    phenomenon: '液面下降；读数为凹液面最低点。',
+    conclusion: '滴定管用于精确量取/放出液体体积；酸式与碱式不可混用（试剂性质）。',
+    precautions: '酸式不能盛碱；碱式不能盛酸或强氧化性溶液（橡胶）；读数视线与凹液面相平。',
+    safetyNotes: '酸碱腐蚀；本条为仪器认知，是否作为必修核心训练待核实。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+    reviewExtra: '待核实是否必修核心；避免分析化学滴定深度',
+  },
+
+  'exp.flame_test': {
+    name: '焰色反应',
+    category: 'substance_test',
+    purpose:
+      '书面分析题训练：根据焰色判断常见金属元素（如Na、K、Cu），并认识观察K时透过钴玻璃的作用。',
+    principle:
+      '某些金属或其化合物在无色火焰中灼烧时使火焰呈现特征颜色，称为焰色反应；属于物理变化（没有生成新物质），可用于初步检验某些金属元素。',
+    instruments: '铂丝或光洁铁丝/镍铬丝、酒精灯、钴玻璃（观察钾）、盐酸（洗净用，题设）',
+    reagents: '含Na+、K+、Cu2+等的化合物样品（题设）',
+    steps:
+      '1.金属丝蘸稀盐酸后在火焰上灼烧至无色；2.蘸取样品灼烧观察焰色；3.观察钾的焰色时透过蓝色钴玻璃；4.对比题给颜色作判断。',
+    phenomenon:
+      '钠：黄色；钾：紫色（透过钴玻璃观察，可滤去钠黄光干扰）；铜：绿色（高中常见表述，以所用教材为准）。',
+    conclusion: '焰色反应可辅助检验某些金属离子；有钠干扰时观察钾需用钴玻璃。',
+    precautions: '金属丝须烧至无色再蘸样；区分焰色与物质本身颜色；不要把所有金属都当成有明显焰色。',
+    safetyNotes: '酒精灯与灼烧防烫伤；禁止家用危险加热操作；仅书面颜色与操作判断。',
+    isHazardous: false,
+    homeForbiddenNote: HOME_FORBIDDEN,
+    reviewExtra: 'Na/K/Cu颜色以人教必修常见表述；钴玻璃观察K；具体措辞待对照所用教材核实',
+  },
+}
+
+const FORMULAS = {
+  'formula.mixed_stoich': {
+    name: '多步方程式计算关系式法',
+    expression: '由多步反应消去中间产物，得起始反应物与最终产物的计量关系式，再按 n 比例计算',
+    variables: '各步化学方程式计量数；中间产物（消去）；目标产物物质的量或质量',
+    units: 'n:mol；m:g；气体标况下可用 V 与 22.4 L/mol（仅标况）',
+    applicableConditions:
+      '连续多步反应且中间产物完全转化时可写关系式；有过量、转化率、纯度时须先处理实际转化的量。',
+    examples:
+      '若 A→B→C 中计量关系可写成 aA ∼ cC，则已知 n(A) 可直接求 n(C)，无需逐步求中间量。',
+    commonMistakes: '不会消去中间产物；把质量比当物质的量比；忽略某步转化不完全。',
+  },
+
+  'formula.excess_reactant': {
+    name: '过量计算判断',
+    expression: '比较 n(实)/计量数：较小者为不足量（限量），按不足量计算产物',
+    variables: '各反应物实际物质的量；化学方程式计量数',
+    units: 'n:mol',
+    applicableConditions:
+      '给出两种及以上反应物用量时必须先判断过量；只有不足量完全反应。',
+    examples:
+      '2H2+O2=2H2O：若 n(H2)=3 mol、n(O2)=1 mol，则 n(H2)/2=1.5 > n(O2)/1=1，O2不足，按 O2 计算。',
+    commonMistakes: '不判断过量直接代入；用质量比代替物质的量比与计量数比较。',
+  },
+
+  'formula.purity': {
+    name: '纯度与产率',
+    expression: '纯度=纯物质质量/样品质量×100%；产率=实际产量/理论产量×100%',
+    variables: '纯物质质量；样品（粗产品）质量；实际产量；按计量算得的理论产量',
+    units: '质量单位须一致；产率、纯度常用%',
+    applicableConditions:
+      '纯度针对样品中目标成分含量；产率须先按不足量与方程式算理论产量，再与实际产量比较。',
+    examples: '理论得10 g产物，实际8 g，产率=80%；样品10 g含纯物质9 g，纯度=90%。',
+    commonMistakes: '产率分母用实际产量；纯度分母用纯物质；理论产量未按不足量计算。',
+  },
+
+  'formula.ion_conc': {
+    name: '离子浓度计算入门',
+    expression: '强电解质按化学式完全电离：c(离子)=c(电解质)×离子下标（简单情形）',
+    variables: 'c(电解质)；电离出的离子个数（化学式中下标）',
+    units: 'c:mol/L',
+    applicableConditions:
+      '适用于强酸、强碱、可溶性强电解质盐的简单完全电离；不涉及弱电解质Ka、水解与电荷守恒联立等平衡计算。',
+    examples: '0.1 mol/L Na2SO4 中 c(Na+)=0.2 mol/L，c(SO4 2-)=0.1 mol/L。',
+    commonMistakes: '弱电解质按完全电离算；忽略正负离子浓度与电荷关系；与质量分数混淆。',
+    reviewExtra: '禁Ka平衡计算；仅入门强电解质',
+  },
+
+  'formula.rate_v': {
+    name: '化学反应速率定义式',
+    expression: 'v = Δc / Δt（平均速率）',
+    variables: 'v:化学反应速率；Δc:浓度变化量；Δt:时间变化量',
+    units: '常用 mol/(L·s) 或 mol/(L·min) 等，须与题设一致',
+    applicableConditions:
+      '高中常用某段时间内的平均速率；可用不同物质表示，数值与计量数相关；不展开选修复杂速率方程。',
+    examples: '若Δc(A)=0.2 mol/L，Δt=10 s，则用A表示的平均速率 v(A)=0.02 mol/(L·s)。',
+    commonMistakes: '单位漏写或与Δt不匹配；把瞬时速率公式超纲套用；混淆速率与平衡转化率。',
+    reviewExtra: '平均速率口径；非选修深度',
+  },
+}
+
+const KNOWLEDGE = {
+  'kp.calc.stoich': {
+    name: '化学方程式计算步骤',
+    description:
+      '一般步骤：写对并配平方程式→理清已知与待求→将质量/体积等换算为n（气体仅在标况用22.4）→按计量数关系列比例→回代单位作答。有纯度、产率、过量时先处理实际反应的量。易错：未配平；用质量比直接当计量比。',
+    difficulty: 2,
+    importance: 5,
+  },
+
+  'kp.calc.excess': {
+    name: '过量问题分析方法',
+    description:
+      '给出多种反应物用量时，先把各量化为n，用 n/计量数比较大小，小的为不足量，按不足量计算生成物；剩余量=过量投料−按不足量消耗。易错：不判断过量；剩余量算错。可与 formula.excess_reactant 对照训练。',
+    difficulty: 2,
+    importance: 5,
+  },
+
+  'kp.calc.gas': {
+    name: '气体相关计算',
+    description:
+      '气体物质的量与体积换算：仅当题目明确标准状况（标况，教材定义的0℃、101 kPa）时，才可用 Vm≈22.4 L/mol，即 V=n×22.4 L/mol。未指明标况、或非常温常压默认，都不得使用22.4。同温同压下气体体积比≈物质的量比（阿伏加德罗定律思想）。易错：任何温度压强都套22.4。',
+    difficulty: 2,
+    importance: 5,
+    reviewExtra: 'Vm=22.4仅标况；禁非标况套用',
+  },
+
+  'kp.calc.solution': {
+    name: '溶液浓度综合',
+    description:
+      '物质的量浓度 c=n/V，V为溶液体积（L）。稀释：溶质n不变，c1V1=c2V2（只加水）。勿与质量分数w=m溶质/m溶液混淆；密度换算见已有公式条目。配制与定容误差见实验误差知识点。易错：V用溶剂体积；百分浓度与mol/L混用。',
+    difficulty: 2,
+    importance: 5,
+  },
+
+  'kp.exp.design': {
+    name: '实验方案设计要点',
+    description:
+      '书面评价实验方案：目的明确→原理可行→试剂与仪器匹配→步骤顺序合理（先气密性等）→现象可检验结论→安全与尾气/废液。比较方案时看是否干扰、是否可操作、是否过量或不足。本产品只做方案评价，不要求动手。',
+    difficulty: 3,
+    importance: 4,
+  },
+
+  'kp.exp.error': {
+    name: '实验误差分析',
+    description:
+      '误差分析必须对应具体操作阶段与测定量，禁止脱离条件直接写“偏大/偏小”。以配制一定物质的量浓度溶液（c=n/V）为例（书面分析）：①洁净容量瓶内残留少量蒸馏水，随后按规范定容且无其他错误时，一般不改变溶质的物质的量n，也不改变最终溶液体积V，故c通常不变；②定容时俯视刻度线→读得V偏小→c偏大；仰视→V偏大→c偏小；③烧杯/玻璃棒未洗涤或洗涤液未转入→n偏小→c偏小；④溶解未冷却即定容→冷却后液面低于刻度→V偏小→c偏大；⑤定容摇匀后发现液面低于刻度又加水→V偏大且相当于稀释→c偏小；⑥超过刻度线后用胶头滴管吸出部分溶液→溶质与溶剂同时损失，n偏小→c通常偏小。过滤、称量、气体收集不纯等亦须先定位操作再谈影响。',
+    difficulty: 3,
+    importance: 5,
+    reviewExtra: 'B5整改:容量瓶分阶段对照;禁无阶段绝对偏向题',
+  },
+
+  'kp.exp.gas_wash_dry': {
+    name: '气体的洗涤与干燥',
+    description:
+      '洗气除杂：选能反应或吸收杂质、尽量不吸收目标气体的试剂；注意气体通过顺序（如先除杂再干燥，避免干燥后再通入水溶液）。干燥剂选择：酸性/碱性/中性气体与浓硫酸、碱石灰、无水CaCl2等匹配（按教材常见组合）。装置：洗气瓶导管长进短出。',
+    difficulty: 3,
+    importance: 5,
+  },
+
+  'kp.rate.factors': {
+    name: '影响化学反应速率的因素',
+    description:
+      '必修层面定性认识：增大反应物浓度、升高温度、使用催化剂、增大固体接触面积等，一般可加快反应速率（见 concept.reaction_rate）。催化剂改变化学反应速率，不改变化学反应限度（与 concept.reaction_extent 区分）。易错：把催化剂当成提高产率/转化率的因素。',
+    difficulty: 2,
+    importance: 5,
+    reviewExtra: '关联 concept.reaction_rate',
+  },
+
+  'kp.extent.le_chatelier_basic': {
+    name: '化学反应限度与条件影响（定性）',
+    description:
+      '可逆反应存在一定限度（转化不能按“进行到底”理解）。高一以定性认识为主：条件改变可能影响转化方向/限度的认识层次以所用必修教材为准；不把“勒夏特列原理”命名与选修化学平衡常数、复杂图像定量作为默认核心训练。禁止选修深度计算。',
+    difficulty: 2,
+    importance: 4,
+    reviewExtra: '待核实:教材深度与命名;仅极浅定性;excludeDefaultEquilibriumCalc',
+  },
+}
+
+const QUESTIONS = {
+  'q.calc.amount_basic': {
+    qtype: 'single',
+    stem: '（骨架）标准状况下，11.2 L O2 的物质的量是多少？（选项示例：A.0.25 mol  B.0.5 mol  C.1 mol  D.2 mol）',
+    answer: 'B',
+    optionsJson: [
+      { key: 'A', text: '0.25 mol' },
+      { key: 'B', text: '0.5 mol' },
+      { key: 'C', text: '1 mol' },
+      { key: 'D', text: '2 mol' },
+    ],
+    analysis: '标况 V=n×22.4，n=11.2/22.4=0.5 mol。非标况不可套用。',
+    scoring: '选对得分；须强调单位 mol 与标况条件。',
+    difficulty: 1,
+    reviewExtra: '骨架；可替换数据后充实为正式训练题',
+  },
+
+  'q.calc.concentration': {
+    qtype: 'blank',
+    stem: '（骨架）将 0.1 mol NaOH 溶于水并配成 500 mL 溶液，该溶液的物质的量浓度为______ mol/L。',
+    answer: '0.2',
+    analysis: 'c=n/V=0.1 mol / 0.5 L=0.2 mol/L。注意 V 用溶液体积且换算为 L。',
+    scoring: '填数值；单位在题干已给时可不写，评分关注数值与单位一致性。',
+    difficulty: 1,
+    reviewExtra: '骨架；单位得分点：mol/L',
+  },
+
+  'q.calc.equation': {
+    qtype: 'calc',
+    stem: '（骨架）已知 2H2+O2=2H2O。标准状况下 4.48 L H2 完全反应，生成水的质量为多少克？（写出计算过程）',
+    answer: '3.6 g（过程：n(H2)=4.48/22.4=0.2 mol；由计量关系生成 n(H2O)=0.2 mol；m=0.2×18=3.6 g）',
+    analysis: '先在标况下求 n，再按方程式计量比，最后 m=nM。',
+    scoring: '过程分+结果分；单位 g 必写；未说明标况却用22.4不得分。',
+    difficulty: 2,
+    reviewExtra: '骨架；计算短答模板',
+  },
+
+  'q.calc.excess': {
+    qtype: 'calc',
+    stem: '（骨架）反应：Zn + H2SO4 = ZnSO4 + H2↑（稀硫酸，不可逆按完全反应计，无副反应）。现有 Zn 13.0 g 与 H2SO4 0.15 mol 混合充分反应。已知 M(Zn)=65 g/mol。求生成 H2 的物质的量（单位 mol）。要求：先判断过量，再按不足量计算。',
+    answer: '0.15 mol（过程：n(Zn)=13.0/65=0.20 mol；计量数均为1，n(Zn)/1=0.20 > n(H2SO4)/1=0.15，故 H2SO4 不足；n(H2)=n(不足量)=0.15 mol）',
+    analysis: '先算 n(Zn) 与 n(H2SO4)，用 n/计量数比较；小者为不足量，按不足量得 n(H2)。本骨架条件唯一，禁止再混入第二组对照数据。',
+    scoring: '过量判断过程分+结果 0.15 mol；单位 mol 必写；未判断过量直接代算不得满分。',
+    difficulty: 2,
+    reviewExtra: 'B5整改:单一数据组过量骨架;可作模板',
+  },
+
+  'q.exp.instrument': {
+    qtype: 'single',
+    stem: '（骨架）下列仪器中，不能用来加热的是？A.试管  B.烧杯  C.量筒  D.蒸发皿',
+    answer: 'C',
+    optionsJson: [
+      { key: 'A', text: '试管' },
+      { key: 'B', text: '烧杯' },
+      { key: 'C', text: '量筒' },
+      { key: 'D', text: '蒸发皿' },
+    ],
+    analysis: '量筒用于量取液体体积，不可加热。烧杯加热需垫石棉网（按教材）。',
+    scoring: '选对得分。',
+    difficulty: 1,
+    reviewExtra: '骨架；仪器识别选择题模板',
+  },
+
+  'q.exp.gas_collect': {
+    qtype: 'single',
+    stem: '（骨架）实验室收集CO2常用的方法是？A.向下排空气法  B.向上排空气法  C.排水法（最佳首选）  D.向下排空气法并排水',
+    answer: 'B',
+    optionsJson: [
+      { key: 'A', text: '向下排空气法' },
+      { key: 'B', text: '向上排空气法' },
+      { key: 'C', text: '排水法（作为首选）' },
+      { key: 'D', text: '向下排空气法并排水' },
+    ],
+    analysis: 'CO2密度比空气大，常用向上排空气法；可溶于水，一般不用排水法作为首选。',
+    scoring: '选对得分。',
+    difficulty: 1,
+    reviewExtra: '骨架；气体收集方法判断模板',
+  },
+
+  'q.exp.safety': {
+    qtype: 'judge',
+    stem: '（骨架）判断：可以在家中用锌粒和稀硫酸制取氢气并点燃检验。',
+    answer: '错误',
+    analysis:
+      'H2为易燃气体，不纯时点燃有爆炸危险；本系统与实验室规范均禁止家用自行制取与点燃。相关内容仅作书面安全判断训练。',
+    scoring: '判断正确得分；若要求改错，写出“禁止家用、须验纯、仅书面训练”等要点。',
+    difficulty: 1,
+    reviewExtra: '骨架；安全判断题；强化禁家用',
+  },
+
+  'q.eq.balance': {
+    qtype: 'blank',
+    stem: '（骨架）配平：Fe + HCl → FeCl2 + H2（将系数填在各物质前：__ Fe + __ HCl → __ FeCl2 + __ H2）',
+    answer: '1,2,1,1',
+    analysis: '原子守恒：Fe+2HCl=FeCl2+H2。',
+    scoring: '系数全对得分；未配平不得分。',
+    difficulty: 1,
+    reviewExtra: '骨架；方程式配平填空模板',
+  },
+}
+
+const CONCEPTS = {
+  'concept.reversible': {
+    name: '可逆反应',
+    definition:
+      '在同一条件下，既能向生成物方向进行、同时又能向反应物方向进行的反应，叫做可逆反应；常用可逆箭头“⇌”表示。',
+    principle:
+      '可逆反应不能进行到底，存在一定的反应限度；反应速率描述快慢，限度描述进行程度，二者不同（与 concept.reaction_extent 互补）。',
+    applicableConditions: '必修认识可逆反应与限度的初步概念；不要求选修化学平衡定量计算。',
+    judgeMethods:
+      '看是否在同一条件下正逆反应同时进行；书写是否用⇌；能否用“完全反应”简单描述。',
+    examples: '合成氨 N2+3H2⇌2NH3；氯气与水 Cl2+H2O⇌HCl+HClO（教材常见）。',
+    commonMistakes:
+      '把加热、加压等不同条件下的正逆分步反应都叫可逆；混淆反应速率与反应限度；默认所有反应都可逆。',
+    reviewExtra: '与 concept.reaction_extent 互补；禁选修计算默认训练',
+  },
+}
+
+module.exports = { EXPERIMENTS, FORMULAS, KNOWLEDGE, QUESTIONS, CONCEPTS }

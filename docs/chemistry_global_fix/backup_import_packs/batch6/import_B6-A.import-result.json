@@ -1,0 +1,80 @@
+{
+  "successCount": 9,
+  "failCount": 0,
+  "linkOk": 9,
+  "linkFail": 0,
+  "results": [
+    {
+      "index": 0,
+      "type": "substance",
+      "ok": true,
+      "id": "62",
+      "inventoryCode": "sub.CH4",
+      "errors": []
+    },
+    {
+      "index": 1,
+      "type": "substance",
+      "ok": true,
+      "id": "63",
+      "inventoryCode": "sub.C2H4",
+      "errors": []
+    },
+    {
+      "index": 2,
+      "type": "substance",
+      "ok": true,
+      "id": "64",
+      "inventoryCode": "sub.C2H6",
+      "errors": []
+    },
+    {
+      "index": 3,
+      "type": "substance",
+      "ok": true,
+      "id": "65",
+      "inventoryCode": "sub.C2H5OH",
+      "errors": []
+    },
+    {
+      "index": 4,
+      "type": "substance",
+      "ok": true,
+      "id": "66",
+      "inventoryCode": "sub.CH3COOH",
+      "errors": []
+    },
+    {
+      "index": 5,
+      "type": "substance",
+      "ok": true,
+      "id": "67",
+      "inventoryCode": "sub.CH3COOCH2CH3",
+      "errors": []
+    },
+    {
+      "index": 6,
+      "type": "substance",
+      "ok": true,
+      "id": "68",
+      "inventoryCode": "sub.C2H2",
+      "errors": []
+    },
+    {
+      "index": 7,
+      "type": "substance",
+      "ok": true,
+      "id": "69",
+      "inventoryCode": "sub.C3H8",
+      "errors": []
+    },
+    {
+      "index": 8,
+      "type": "substance",
+      "ok": true,
+      "id": "70",
+      "inventoryCode": "sub.C6H6",
+      "errors": []
+    }
+  ]
+}

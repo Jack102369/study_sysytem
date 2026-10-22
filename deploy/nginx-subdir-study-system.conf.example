@@ -1,0 +1,43 @@
+# 在现有 nginx.conf 的 http { } 里增加 upstream（若已有可跳过）
+# 并把下面 location 粘进你要挂站的那个 server { }（例如 listen 80）
+
+upstream study_api {
+    server 127.0.0.1:3000;
+    keepalive 16;
+}
+
+# ----- 粘进某个 server { } 内 -----
+# client_max_body_size 520m;   # 若该 server 尚未设置，加上
+
+# 1) API / 上传反代（必须写在 /study-system/ 前面）
+location ^~ /uploads/ {
+    proxy_pass http://study_api;
+    proxy_http_version 1.1;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_read_timeout 600s;
+}
+
+location ~ ^/(auth|meta|health|subjects|tags|error-categories|assessment-types|error-questions|extension-materials|listening-materials|ai-reference|writing-coach|reviews|attachments|assessments|dashboard|settings|admin|feature-flags|study-prefs|points|knowledge-cards|pet-assistant)(/|$) {
+    proxy_pass http://study_api;
+    proxy_http_version 1.1;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_read_timeout 600s;
+}
+
+# 2) 前端二级目录 /study-system/
+# 把打包后的 web 内容放到：C:/SOFT/study-system/web/
+location = /study-system {
+    return 301 /study-system/;
+}
+
+location /study-system/ {
+    alias C:/SOFT/study-system/web/;
+    index index.html;
+    try_files $uri $uri/ /study-system/index.html;
+}

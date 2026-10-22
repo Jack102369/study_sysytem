@@ -1,0 +1,7 @@
+# Optional formula OCR (install into the SAME venv as requirements.txt after base OCR works)
+# pip install -r requirements-formula.txt
+#
+# Note: pulls torch / cnocr etc. If it conflicts with paddle, use a separate venv
+# and point Nest OCR_BASE_URL to that service, or keep formula on another port later.
+pix2text>=1.1.0
+Pillow>=9.0.0

@@ -1,0 +1,123 @@
+{
+  "before": {
+    "meta": {
+      "trainItemsTotal": 394,
+      "testActive": 376,
+      "fillerActive": 0
+    },
+    "utilization": {
+      "whitelistTotal": 239,
+      "byType": {
+        "element": {
+          "total": 24,
+          "used": 12
+        },
+        "concept": {
+          "total": 21,
+          "used": 3
+        },
+        "formula": {
+          "total": 10,
+          "used": 2
+        },
+        "knowledge": {
+          "total": 74,
+          "used": 72
+        },
+        "substance": {
+          "total": 24,
+          "used": 24
+        },
+        "reaction": {
+          "total": 59,
+          "used": 21
+        },
+        "experiment": {
+          "total": 27,
+          "used": 1
+        }
+      }
+    }
+  },
+  "result": {
+    "inserted": 200,
+    "skippedExisting": 0,
+    "skippedResolve": 0,
+    "fillerDeactivated": 0,
+    "confirmCountRequested": 200,
+    "candidateHad": 200,
+    "insertedCodesSample": [
+      "train.ai_trial.pa.rxn_phenomenon_judge.rxn.C_O2_incomplete",
+      "train.ai_trial.pa.rxn_reductant_single.rxn.C_O2_incomplete",
+      "train.ai_trial.pa.rxn_cond_judge.rxn.C2H4_H2",
+      "train.ai_trial.pa.rxn_not_marked_redox.rxn.C2H4_H2",
+      "train.ai_trial.pa.rxn_phenomenon_judge.rxn.C2H4_H2",
+      "train.ai_trial.pa.rxn_cond_judge.rxn.C2H4_H2O",
+      "train.ai_trial.pa.rxn_not_marked_redox.rxn.C2H4_H2O",
+      "train.ai_trial.pa.rxn_phenomenon_judge.rxn.C2H4_H2O",
+      "train.ai_trial.pa.rxn_cond_judge.rxn.C2H5OH_burn",
+      "train.ai_trial.pa.rxn_is_redox_judge.rxn.C2H5OH_burn",
+      "train.ai_trial.pa.rxn_oxidant_single.rxn.C2H5OH_burn",
+      "train.ai_trial.pa.rxn_phenomenon_judge.rxn.C2H5OH_burn",
+      "train.ai_trial.pa.rxn_reductant_single.rxn.C2H5OH_burn",
+      "train.ai_trial.pa.rxn_cond_judge.rxn.C2H5OH_O2",
+      "train.ai_trial.pa.rxn_is_redox_judge.rxn.C2H5OH_O2",
+      "train.ai_trial.pa.rxn_oxidant_single.rxn.C2H5OH_O2",
+      "train.ai_trial.pa.rxn_phenomenon_judge.rxn.C2H5OH_O2",
+      "train.ai_trial.pa.rxn_reductant_single.rxn.C2H5OH_O2",
+      "train.ai_trial.pa.rxn_cond_judge.rxn.CaCO3_2HCl",
+      "train.ai_trial.pa.rxn_eq_identify.rxn.CaCO3_2HCl",
+      "train.ai_trial.pa.rxn_not_marked_redox.rxn.CaCO3_2HCl",
+      "train.ai_trial.pa.rxn_phenomenon_judge.rxn.CaCO3_2HCl",
+      "train.ai_trial.pa.rxn_cond_judge.rxn.CH3COOH_Na2CO3",
+      "train.ai_trial.pa.rxn_eq_identify.rxn.CH3COOH_Na2CO3",
+      "train.ai_trial.pa.rxn_not_marked_redox.rxn.CH3COOH_Na2CO3",
+      "train.ai_trial.pa.rxn_phenomenon_judge.rxn.CH3COOH_Na2CO3",
+      "train.ai_trial.pa.rxn_cond_judge.rxn.CH3COOH_NaOH",
+      "train.ai_trial.pa.rxn_eq_identify.rxn.CH3COOH_NaOH",
+      "train.ai_trial.pa.rxn_not_marked_redox.rxn.CH3COOH_NaOH",
+      "train.ai_trial.pa.rxn_phenomenon_judge.rxn.CH3COOH_NaOH"
+    ],
+    "note": "已写入 pool=test；未改知识正文/审核状态；filler 仅停用未删除"
+  },
+  "after": {
+    "meta": {
+      "trainItemsTotal": 594,
+      "testActive": 576,
+      "fillerActive": 0
+    },
+    "utilization": {
+      "whitelistTotal": 239,
+      "byType": {
+        "element": {
+          "total": 24,
+          "used": 22
+        },
+        "concept": {
+          "total": 21,
+          "used": 3
+        },
+        "formula": {
+          "total": 10,
+          "used": 2
+        },
+        "knowledge": {
+          "total": 74,
+          "used": 72
+        },
+        "substance": {
+          "total": 24,
+          "used": 24
+        },
+        "reaction": {
+          "total": 59,
+          "used": 49
+        },
+        "experiment": {
+          "total": 27,
+          "used": 1
+        }
+      }
+    }
+  }
+}

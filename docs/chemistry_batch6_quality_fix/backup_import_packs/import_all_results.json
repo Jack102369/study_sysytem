@@ -1,0 +1,369 @@
+{
+  "startedAt": "2026-10-18T09:03:46.509Z",
+  "packs": {
+    "B6-A": {
+      "exitCode": 0,
+      "successCount": 9,
+      "failCount": 0,
+      "linkOk": 9,
+      "linkFail": 0
+    },
+    "B6-B": {
+      "exitCode": 0,
+      "successCount": 10,
+      "failCount": 0,
+      "linkOk": 10,
+      "linkFail": 0
+    },
+    "B6-C": {
+      "exitCode": 0,
+      "successCount": 7,
+      "failCount": 0,
+      "linkOk": 7,
+      "linkFail": 0
+    },
+    "B6-D": {
+      "exitCode": 0,
+      "successCount": 10,
+      "failCount": 0,
+      "linkOk": 10,
+      "linkFail": 0
+    },
+    "B6-E": {
+      "exitCode": 0,
+      "successCount": 33,
+      "failCount": 0,
+      "linkOk": 33,
+      "linkFail": 0
+    },
+    "B6-F": {
+      "exitCode": 0,
+      "successCount": 9,
+      "failCount": 0,
+      "linkOk": 9,
+      "linkFail": 0
+    }
+  },
+  "totals": {
+    "success": 78,
+    "fail": 0,
+    "linkOk": 78,
+    "linkFail": 0
+  },
+  "codeToEntity": {
+    "sub.CH4": {
+      "type": "substance",
+      "id": "62"
+    },
+    "sub.C2H4": {
+      "type": "substance",
+      "id": "63"
+    },
+    "sub.C2H6": {
+      "type": "substance",
+      "id": "64"
+    },
+    "sub.C2H5OH": {
+      "type": "substance",
+      "id": "65"
+    },
+    "sub.CH3COOH": {
+      "type": "substance",
+      "id": "66"
+    },
+    "sub.CH3COOCH2CH3": {
+      "type": "substance",
+      "id": "67"
+    },
+    "sub.C2H2": {
+      "type": "substance",
+      "id": "68"
+    },
+    "sub.C3H8": {
+      "type": "substance",
+      "id": "69"
+    },
+    "sub.C6H6": {
+      "type": "substance",
+      "id": "70"
+    },
+    "rxn.CH4_Cl2": {
+      "type": "reaction",
+      "id": "59"
+    },
+    "rxn.C2H4_Br2": {
+      "type": "reaction",
+      "id": "60"
+    },
+    "rxn.C2H4_H2O": {
+      "type": "reaction",
+      "id": "61"
+    },
+    "rxn.C2H4_H2": {
+      "type": "reaction",
+      "id": "62"
+    },
+    "rxn.C2H5OH_O2": {
+      "type": "reaction",
+      "id": "63"
+    },
+    "rxn.C2H5OH_burn": {
+      "type": "reaction",
+      "id": "64"
+    },
+    "rxn.esterification": {
+      "type": "reaction",
+      "id": "65"
+    },
+    "rxn.CH3COOH_NaOH": {
+      "type": "reaction",
+      "id": "66"
+    },
+    "rxn.CH3COOH_Na2CO3": {
+      "type": "reaction",
+      "id": "67"
+    },
+    "rxn.C2H4_KMnO4": {
+      "type": "reaction",
+      "id": "68"
+    },
+    "exp.CH4_property": {
+      "type": "experiment",
+      "id": "36"
+    },
+    "exp.C2H4_prep": {
+      "type": "experiment",
+      "id": "37"
+    },
+    "exp.C2H4_Br2": {
+      "type": "experiment",
+      "id": "38"
+    },
+    "exp.ethanol_oxid": {
+      "type": "experiment",
+      "id": "39"
+    },
+    "exp.esterification": {
+      "type": "experiment",
+      "id": "40"
+    },
+    "exp.acetic_acid": {
+      "type": "experiment",
+      "id": "41"
+    },
+    "exp.galvanic_Zn_Cu": {
+      "type": "experiment",
+      "id": "42"
+    },
+    "concept.homolog": {
+      "type": "concept",
+      "id": "27"
+    },
+    "concept.isomer": {
+      "type": "concept",
+      "id": "28"
+    },
+    "concept.functional_group": {
+      "type": "concept",
+      "id": "29"
+    },
+    "concept.substitution": {
+      "type": "concept",
+      "id": "30"
+    },
+    "concept.addition": {
+      "type": "concept",
+      "id": "31"
+    },
+    "concept.esterification_rule": {
+      "type": "concept",
+      "id": "32"
+    },
+    "concept.endothermic": {
+      "type": "concept",
+      "id": "33"
+    },
+    "concept.exothermic": {
+      "type": "concept",
+      "id": "34"
+    },
+    "concept.heat_of_reaction": {
+      "type": "concept",
+      "id": "35"
+    },
+    "concept.addition_polymer": {
+      "type": "concept",
+      "id": "36"
+    },
+    "kp.organic.methane": {
+      "type": "knowledge",
+      "id": "64"
+    },
+    "kp.organic.alkane": {
+      "type": "knowledge",
+      "id": "65"
+    },
+    "kp.organic.ethene": {
+      "type": "knowledge",
+      "id": "66"
+    },
+    "kp.organic.ethanol": {
+      "type": "knowledge",
+      "id": "67"
+    },
+    "kp.organic.acetic": {
+      "type": "knowledge",
+      "id": "68"
+    },
+    "kp.organic.isomer_skill": {
+      "type": "knowledge",
+      "id": "69"
+    },
+    "kp.inference.color": {
+      "type": "knowledge",
+      "id": "70"
+    },
+    "kp.inference.block": {
+      "type": "knowledge",
+      "id": "71"
+    },
+    "kp.inference.conversion": {
+      "type": "knowledge",
+      "id": "72"
+    },
+    "kp.comprehensive.basic": {
+      "type": "knowledge",
+      "id": "73"
+    },
+    "kp.energy.bond_change": {
+      "type": "knowledge",
+      "id": "74"
+    },
+    "kp.energy.chem_electric": {
+      "type": "knowledge",
+      "id": "75"
+    },
+    "kp.energy.galvanic": {
+      "type": "knowledge",
+      "id": "76"
+    },
+    "kp.energy.galvanic_poles": {
+      "type": "knowledge",
+      "id": "77"
+    },
+    "kp.energy.electron_flow": {
+      "type": "knowledge",
+      "id": "78"
+    },
+    "kp.energy.electrode_rxn": {
+      "type": "knowledge",
+      "id": "79"
+    },
+    "kp.energy.chem_power": {
+      "type": "knowledge",
+      "id": "80"
+    },
+    "kp.energy.thermo_eq": {
+      "type": "knowledge",
+      "id": "81"
+    },
+    "kp.sustain.seawater": {
+      "type": "knowledge",
+      "id": "82"
+    },
+    "kp.sustain.coal": {
+      "type": "knowledge",
+      "id": "83"
+    },
+    "kp.organic.petroleum": {
+      "type": "knowledge",
+      "id": "84"
+    },
+    "kp.organic.cracking": {
+      "type": "knowledge",
+      "id": "85"
+    },
+    "kp.organic.pyrolysis": {
+      "type": "knowledge",
+      "id": "86"
+    },
+    "kp.sustain.natural_gas": {
+      "type": "knowledge",
+      "id": "87"
+    },
+    "kp.sustain.fertilizer": {
+      "type": "knowledge",
+      "id": "88"
+    },
+    "kp.sustain.pesticide": {
+      "type": "knowledge",
+      "id": "89"
+    },
+    "kp.sustain.medicine": {
+      "type": "knowledge",
+      "id": "90"
+    },
+    "kp.sustain.food_additive": {
+      "type": "knowledge",
+      "id": "91"
+    },
+    "kp.enviro.pollution": {
+      "type": "knowledge",
+      "id": "92"
+    },
+    "kp.enviro.acid_rain": {
+      "type": "knowledge",
+      "id": "93"
+    },
+    "kp.sustain.green_chem": {
+      "type": "knowledge",
+      "id": "94"
+    },
+    "kp.sustain.atom_economy": {
+      "type": "knowledge",
+      "id": "95"
+    },
+    "kp.organic.biomolecule": {
+      "type": "knowledge",
+      "id": "96"
+    },
+    "q.organic.methane": {
+      "type": "question",
+      "id": "10"
+    },
+    "q.organic.ethene": {
+      "type": "question",
+      "id": "11"
+    },
+    "q.organic.ethanol": {
+      "type": "question",
+      "id": "12"
+    },
+    "q.organic.ester": {
+      "type": "question",
+      "id": "13"
+    },
+    "q.organic.isomer": {
+      "type": "question",
+      "id": "14"
+    },
+    "q.inference.block": {
+      "type": "question",
+      "id": "15"
+    },
+    "q.inference.phenomenon": {
+      "type": "question",
+      "id": "16"
+    },
+    "q.substance.NaOH": {
+      "type": "question",
+      "id": "17"
+    },
+    "q.comprehensive.mock": {
+      "type": "question",
+      "id": "18"
+    }
+  },
+  "failures": [],
+  "finishedAt": "2026-10-18T09:06:37.820Z"
+}

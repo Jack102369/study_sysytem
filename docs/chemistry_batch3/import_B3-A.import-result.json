@@ -1,0 +1,240 @@
+{
+  "successCount": 29,
+  "failCount": 0,
+  "linkOk": 29,
+  "linkFail": 0,
+  "results": [
+    {
+      "index": 0,
+      "type": "substance",
+      "ok": true,
+      "id": "5",
+      "inventoryCode": "sub.Na2O",
+      "errors": []
+    },
+    {
+      "index": 1,
+      "type": "substance",
+      "ok": true,
+      "id": "6",
+      "inventoryCode": "sub.Na2O2",
+      "errors": []
+    },
+    {
+      "index": 2,
+      "type": "substance",
+      "ok": true,
+      "id": "7",
+      "inventoryCode": "sub.Na2CO3",
+      "errors": []
+    },
+    {
+      "index": 3,
+      "type": "substance",
+      "ok": true,
+      "id": "8",
+      "inventoryCode": "sub.NaHCO3",
+      "errors": []
+    },
+    {
+      "index": 4,
+      "type": "substance",
+      "ok": true,
+      "id": "9",
+      "inventoryCode": "sub.NaCl",
+      "errors": []
+    },
+    {
+      "index": 5,
+      "type": "substance",
+      "ok": true,
+      "id": "10",
+      "inventoryCode": "sub.Mg",
+      "errors": []
+    },
+    {
+      "index": 6,
+      "type": "substance",
+      "ok": true,
+      "id": "11",
+      "inventoryCode": "sub.MgO",
+      "errors": []
+    },
+    {
+      "index": 7,
+      "type": "substance",
+      "ok": true,
+      "id": "12",
+      "inventoryCode": "sub.MgOH2",
+      "errors": []
+    },
+    {
+      "index": 8,
+      "type": "substance",
+      "ok": true,
+      "id": "13",
+      "inventoryCode": "sub.Al",
+      "errors": []
+    },
+    {
+      "index": 9,
+      "type": "substance",
+      "ok": true,
+      "id": "14",
+      "inventoryCode": "sub.Al2O3",
+      "errors": []
+    },
+    {
+      "index": 10,
+      "type": "substance",
+      "ok": true,
+      "id": "15",
+      "inventoryCode": "sub.AlOH3",
+      "errors": []
+    },
+    {
+      "index": 11,
+      "type": "substance",
+      "ok": true,
+      "id": "16",
+      "inventoryCode": "sub.Fe",
+      "errors": []
+    },
+    {
+      "index": 12,
+      "type": "substance",
+      "ok": true,
+      "id": "17",
+      "inventoryCode": "sub.Fe2O3",
+      "errors": []
+    },
+    {
+      "index": 13,
+      "type": "substance",
+      "ok": true,
+      "id": "18",
+      "inventoryCode": "sub.Fe3O4",
+      "errors": []
+    },
+    {
+      "index": 14,
+      "type": "substance",
+      "ok": true,
+      "id": "19",
+      "inventoryCode": "sub.FeOH3",
+      "errors": []
+    },
+    {
+      "index": 15,
+      "type": "substance",
+      "ok": true,
+      "id": "20",
+      "inventoryCode": "sub.FeCl3",
+      "errors": []
+    },
+    {
+      "index": 16,
+      "type": "substance",
+      "ok": true,
+      "id": "21",
+      "inventoryCode": "sub.Cu",
+      "errors": []
+    },
+    {
+      "index": 17,
+      "type": "substance",
+      "ok": true,
+      "id": "22",
+      "inventoryCode": "sub.CuO",
+      "errors": []
+    },
+    {
+      "index": 18,
+      "type": "substance",
+      "ok": true,
+      "id": "23",
+      "inventoryCode": "sub.CuOH2",
+      "errors": []
+    },
+    {
+      "index": 19,
+      "type": "substance",
+      "ok": true,
+      "id": "24",
+      "inventoryCode": "sub.CuSO4",
+      "errors": []
+    },
+    {
+      "index": 20,
+      "type": "substance",
+      "ok": true,
+      "id": "25",
+      "inventoryCode": "sub.Zn",
+      "errors": []
+    },
+    {
+      "index": 21,
+      "type": "substance",
+      "ok": true,
+      "id": "26",
+      "inventoryCode": "sub.Ag",
+      "errors": []
+    },
+    {
+      "index": 22,
+      "type": "substance",
+      "ok": true,
+      "id": "27",
+      "inventoryCode": "sub.O2",
+      "errors": []
+    },
+    {
+      "index": 23,
+      "type": "substance",
+      "ok": true,
+      "id": "28",
+      "inventoryCode": "sub.CO2",
+      "errors": []
+    },
+    {
+      "index": 24,
+      "type": "substance",
+      "ok": true,
+      "id": "29",
+      "inventoryCode": "sub.FeO",
+      "errors": []
+    },
+    {
+      "index": 25,
+      "type": "substance",
+      "ok": true,
+      "id": "30",
+      "inventoryCode": "sub.FeOH2",
+      "errors": []
+    },
+    {
+      "index": 26,
+      "type": "substance",
+      "ok": true,
+      "id": "31",
+      "inventoryCode": "sub.FeSO4",
+      "errors": []
+    },
+    {
+      "index": 27,
+      "type": "substance",
+      "ok": true,
+      "id": "32",
+      "inventoryCode": "sub.NaAlO2",
+      "errors": []
+    },
+    {
+      "index": 28,
+      "type": "substance",
+      "ok": true,
+      "id": "33",
+      "inventoryCode": "sub.AlCl3",
+      "errors": []
+    }
+  ]
+}

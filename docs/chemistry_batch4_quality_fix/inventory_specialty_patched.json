@@ -1,0 +1,257 @@
+{
+  "changedAt": "2026-10-18T05:43:39.502Z",
+  "changed": [
+    {
+      "code": "sub.P",
+      "before": {
+        "specialtyCodes": [
+          "substance",
+          "memory"
+        ],
+        "categoryCodes": [
+          "substance.formula",
+          "substance.chem_property",
+          "substance.test"
+        ],
+        "note": "batch4导入 pending_review id=54"
+      },
+      "after": {
+        "specialtyCodes": [
+          "substance",
+          "memory"
+        ],
+        "categoryCodes": [
+          "substance.formula",
+          "substance.chem_property",
+          "substance.test"
+        ],
+        "note": "batch4导入 pending_review id=54; B4整改:仍待核实同素异形体细节;限默认细对比题",
+        "verifyNeeded": true
+      }
+    },
+    {
+      "code": "sub.P4O10",
+      "before": {
+        "specialtyCodes": [
+          "substance",
+          "memory"
+        ],
+        "categoryCodes": [
+          "substance.formula",
+          "substance.chem_property",
+          "substance.test"
+        ],
+        "note": "batch4导入 pending_review id=55"
+      },
+      "after": {
+        "specialtyCodes": [
+          "substance",
+          "memory"
+        ],
+        "categoryCodes": [
+          "substance.formula",
+          "substance.chem_property",
+          "substance.test"
+        ],
+        "note": "batch4导入 pending_review id=55; B4整改:P4O10/P2O5双写法说明;仍待核实教材主写法",
+        "verifyNeeded": true
+      }
+    },
+    {
+      "code": "rxn.Cl2_2NaOH",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "redox.identify",
+          "substance.test"
+        ],
+        "note": "canonical=Cl2+2NaOH=NaCl+NaClO+H2O; batch4导入 pending_review id=38"
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "redox.identify",
+          "substance.test"
+        ],
+        "note": "canonical=Cl2+2NaOH=NaCl+NaClO+H2O; batch4导入 pending_review id=38; B4整改:补热浓碱禁混用条件"
+      }
+    },
+    {
+      "code": "rxn.SO3_H2O",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "redox.identify",
+          "substance.test"
+        ],
+        "note": "canonical=SO3+H2O=H2SO4; batch4导入 pending_review id=42"
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "substance.test"
+        ],
+        "note": "canonical=SO3+H2O=H2SO4; batch4导入 pending_review id=42; B4整改:specialty去redox"
+      }
+    },
+    {
+      "code": "rxn.NH3_HCl",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "redox.identify",
+          "substance.test"
+        ],
+        "note": "canonical=NH3+HCl=NH4Cl; batch4导入 pending_review id=46"
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "substance.test"
+        ],
+        "note": "canonical=NH3+HCl=NH4Cl; batch4导入 pending_review id=46; B4整改:specialty去redox"
+      }
+    },
+    {
+      "code": "rxn.CO2_CaOH2",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "redox.identify",
+          "substance.test"
+        ],
+        "note": "canonical=CO2+Ca(OH)2=CaCO3+H2O; batch4导入 pending_review id=54"
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance",
+          "ion"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "substance.test",
+          "ion.ionic_write"
+        ],
+        "note": "canonical=CO2+Ca(OH)2=CaCO3+H2O; batch4导入 pending_review id=54; B4整改:specialty去redox+加ion"
+      }
+    },
+    {
+      "code": "rxn.SiO2_2NaOH",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "redox.identify",
+          "substance.test"
+        ],
+        "note": "canonical=SiO2+2NaOH=Na2SiO3+H2O; batch4导入 pending_review id=55"
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "substance.test"
+        ],
+        "note": "canonical=SiO2+2NaOH=Na2SiO3+H2O; batch4导入 pending_review id=55; B4整改:specialty去redox"
+      }
+    },
+    {
+      "code": "rxn.CaCO3_2HCl",
+      "before": {
+        "specialtyCodes": [
+          "equation",
+          "redox",
+          "substance"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "redox.identify",
+          "substance.test"
+        ],
+        "note": "canonical=CaCO3+2HCl=CaCl2+CO2+H2O; batch4导入 pending_review id=57"
+      },
+      "after": {
+        "specialtyCodes": [
+          "equation",
+          "substance",
+          "ion"
+        ],
+        "categoryCodes": [
+          "equation.write_from_text",
+          "substance.test",
+          "ion.ionic_write"
+        ],
+        "note": "canonical=CaCO3+2HCl=CaCl2+CO2+H2O; batch4导入 pending_review id=57; B4整改:specialty去redox+加ion"
+      }
+    },
+    {
+      "code": "sub.bleaching_powder",
+      "before": {
+        "specialtyCodes": [
+          "substance",
+          "memory"
+        ],
+        "categoryCodes": [
+          "substance.chem_property",
+          "substance.usage",
+          "memory.common_name"
+        ],
+        "note": "增补；主要成分表述（次氯酸钙等）建设时待核实教材口径; batch4导入 pending_review id=61"
+      },
+      "after": {
+        "specialtyCodes": [
+          "substance",
+          "memory"
+        ],
+        "categoryCodes": [
+          "substance.chem_property",
+          "substance.usage",
+          "memory.common_name"
+        ],
+        "note": "增补；主要成分表述（次氯酸钙等）建设时待核实教材口径; batch4导入 pending_review id=61; B4整改:强化混合物表述;仍待核实教材口径;禁精确组成绝对填空",
+        "verifyNeeded": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+[
+  {
+    "id": "ADV.inference.001",
+    "name": "现象推断物质—单条件唯一化",
+    "specialtyCode": "inference",
+    "specialtyName": "化学推断",
+    "categoryCodes": ["color", "phenomenon"],
+    "knowledgePoints": ["特征现象", "物质鉴别"],
+    "difficulties": ["raise"],
+    "abilities": ["由现象锁定物质"],
+    "stemStructure": "给充分特征现象→推断物质",
+    "variableConditions": ["现象组合", "候选集合"],
+    "reasoningSteps": ["列出可能", "用特征排除", "唯一确定"],
+    "breakthrough": "找“只对应一种物质”的特征",
+    "coreMethods": ["排除法"],
+    "commonErrors": ["特征不足仍下唯一结论"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "必须答案唯一" },
+    "variantDirections": { "raise": ["改候选集"], "challenge": [] },
+    "dedupRules": ["同现象同答案=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "某固体溶于水得蓝色溶液，滴加NaOH产生蓝色沉淀。该固体最可能含",
+        "options": [
+          { "key": "A", "text": "Cu²⁺" },
+          { "key": "B", "text": "Fe²⁺" },
+          { "key": "C", "text": "Fe³⁺" },
+          { "key": "D", "text": "Al³⁺" }
+        ],
+        "answer": "A",
+        "steps": ["蓝色溶液+蓝色沉淀指向Cu(OH)₂", "对应Cu²⁺"],
+        "coreMethod": "特征颜色锁定",
+        "commonMistakes": ["选Fe³⁺（红褐色）"],
+        "knowledgePoints": ["离子颜色", "沉淀颜色"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.inference.002",
+    "name": "转化关系框图—单线推断",
+    "specialtyCode": "inference",
+    "specialtyName": "化学推断",
+    "categoryCodes": ["transformation"],
+    "knowledgePoints": ["物质转化", "反应关系"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["读框图", "逐步锁定"],
+    "stemStructure": "A→B→C 转化条件→推断字母物质",
+    "variableConditions": ["转化链", "已知突破口"],
+    "reasoningSteps": ["找突破口物质", "顺推/逆推", "验证全链"],
+    "breakthrough": "从特征条件最多的节点入手",
+    "coreMethods": ["突破口法"],
+    "commonErrors": ["中途不验证导致多解"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": "optional" },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "框图须唯一解" },
+    "variantDirections": {
+      "raise": ["短链+强突破口"],
+      "challenge": ["支链干扰需验证"]
+    },
+    "dedupRules": ["同框图同问字母=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "转化：CaCO₃ --高温--> A(气体) --通入澄清石灰水--> 变浑浊。A是",
+        "options": [
+          { "key": "A", "text": "CO₂" },
+          { "key": "B", "text": "O₂" },
+          { "key": "C", "text": "H₂" },
+          { "key": "D", "text": "N₂" }
+        ],
+        "answer": "A",
+        "steps": ["碳酸钙高温分解产生CO₂", "CO₂使石灰水浑浊"],
+        "coreMethod": "突破口+验证",
+        "commonMistakes": ["选O₂"],
+        "knowledgePoints": ["碳酸盐分解", "CO₂性质"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "A(气体)既能支持燃烧，又能使带火星木条复燃。则A最可能是",
+        "options": [
+          { "key": "A", "text": "O₂" },
+          { "key": "B", "text": "CO₂" },
+          { "key": "C", "text": "N₂" },
+          { "key": "D", "text": "H₂" }
+        ],
+        "answer": "A",
+        "steps": ["复燃是O₂特征"],
+        "coreMethod": "特征现象突破口",
+        "commonMistakes": ["选H₂"],
+        "knowledgePoints": ["氧气性质"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.inference.003",
+    "name": "多条件联合推断—交叉约束",
+    "specialtyCode": "inference",
+    "specialtyName": "化学推断",
+    "categoryCodes": ["multi_condition"],
+    "knowledgePoints": ["多条件约束", "排除法"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["信息整合"],
+    "stemStructure": "给出2～3条独立条件→唯一确定物质/离子",
+    "variableConditions": ["条件集合"],
+    "reasoningSteps": ["每条条件缩小集合", "求交"],
+    "breakthrough": "先用最强条件缩小范围",
+    "coreMethods": ["交集法"],
+    "commonErrors": ["条件未用尽导致多解"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": "optional" },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "生成时必须验证唯一解" },
+    "variantDirections": {
+      "raise": ["两条件"],
+      "challenge": ["三条件含一条干扰冗余"]
+    },
+    "dedupRules": ["同条件集合同答案=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "某阳离子：①溶液呈浅绿色；②加NaOH先白色沉淀后变灰绿。该离子最可能是",
+        "options": [
+          { "key": "A", "text": "Fe²⁺" },
+          { "key": "B", "text": "Fe³⁺" },
+          { "key": "C", "text": "Cu²⁺" },
+          { "key": "D", "text": "Al³⁺" }
+        ],
+        "answer": "A",
+        "steps": ["浅绿+氢氧化亚铁氧化变色指向Fe²⁺"],
+        "coreMethod": "条件交集",
+        "commonMistakes": ["选Fe³⁺"],
+        "knowledgePoints": ["Fe²⁺检验"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "另加条件③：与KSCN无明显血红色。对上题结论",
+        "options": [
+          { "key": "A", "text": "支持Fe²⁺而非Fe³⁺" },
+          { "key": "B", "text": "支持Fe³⁺" },
+          { "key": "C", "text": "无影响" },
+          { "key": "D", "text": "否定一切铁盐" }
+        ],
+        "answer": "A",
+        "steps": ["KSCN血红色是Fe³⁺特征，无明显则支持非Fe³⁺"],
+        "coreMethod": "追加条件验证",
+        "commonMistakes": ["选B"],
+        "knowledgePoints": ["Fe³⁺检验"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.inference.004",
+    "name": "元素推断—周期表位置与性质（必修）",
+    "specialtyCode": "inference",
+    "specialtyName": "化学推断",
+    "categoryCodes": ["element"],
+    "knowledgePoints": ["原子结构", "主族通性(入门)"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["由结构推元素"],
+    "stemStructure": "给质子数/最外层电子等→推元素或性质",
+    "variableConditions": ["给出的结构信息"],
+    "reasoningSteps": ["定电子层结构", "定位元素", "答性质"],
+    "breakthrough": "先确定是哪一元素再谈性质",
+    "coreMethods": ["结构定位法"],
+    "commonErrors": ["超纲用选必能级细节"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "限主族常见元素" },
+    "variantDirections": {
+      "raise": ["给质子数推符号"],
+      "challenge": ["给性质反推可能元素"]
+    },
+    "dedupRules": ["同结构信息同问法=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "某原子质子数为11，该元素是",
+        "options": [
+          { "key": "A", "text": "Na" },
+          { "key": "B", "text": "Mg" },
+          { "key": "C", "text": "Al" },
+          { "key": "D", "text": "Ne" }
+        ],
+        "answer": "A",
+        "steps": ["质子数=原子序数=11→Na"],
+        "coreMethod": "质子数定位",
+        "commonMistakes": ["选Mg"],
+        "knowledgePoints": ["原子结构"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "某主族元素原子最外层电子数为1，且是短周期金属，与水反应生成碱和氢气。该元素最可能是",
+        "options": [
+          { "key": "A", "text": "Na" },
+          { "key": "B", "text": "Cl" },
+          { "key": "C", "text": "C" },
+          { "key": "D", "text": "Ne" }
+        ],
+        "answer": "A",
+        "steps": ["IA短周期金属且与水反应→Na（或Li，选项中为Na）"],
+        "coreMethod": "性质反推",
+        "commonMistakes": ["选Cl"],
+        "knowledgePoints": ["碱金属通性入门"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.inference.005",
+    "name": "陌生信息推断—必须答案唯一",
+    "specialtyCode": "inference",
+    "specialtyName": "化学推断",
+    "categoryCodes": ["multi_condition"],
+    "knowledgePoints": ["信息迁移"],
+    "difficulties": ["challenge"],
+    "abilities": ["只用题给信息推理"],
+    "stemStructure": "给新定义/新反应信息→推断结果",
+    "variableConditions": ["信息包"],
+    "reasoningSteps": ["提取规则", "应用到实例", "得唯一结论"],
+    "breakthrough": "禁止引入题外超纲知识",
+    "coreMethods": ["信息约束推理"],
+    "commonErrors": ["题外知识造成多解"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "ai_assist", "aiAssist": true },
+    "scienceRisk": { "level": "high", "curriculum": "必修", "notes": "多解风险高" },
+    "variantDirections": { "raise": [], "challenge": ["改信息规则"] },
+    "dedupRules": ["同信息规则同实例=重复"],
+    "productionStatus": "HOLD",
+    "priorityBatch1": false,
+    "notes": "答案唯一性难自动保证",
+    "samples": [
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "题给：若定义“活泼金属M与酸反应生成盐和氢气”。已知M能与稀盐酸反应产生气体。则该气体一定是",
+        "options": [
+          { "key": "A", "text": "H₂" },
+          { "key": "B", "text": "O₂" },
+          { "key": "C", "text": "CO₂" },
+          { "key": "D", "text": "无法由题给定义确定" }
+        ],
+        "answer": "A",
+        "steps": ["按题给定义产物为氢气"],
+        "coreMethod": "严格按题给定义",
+        "commonMistakes": ["引入其他反应可能产物"],
+        "knowledgePoints": ["信息推断"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.inference.006",
+    "name": "实验流程推断—分离提纯逻辑",
+    "specialtyCode": "inference",
+    "specialtyName": "化学推断",
+    "categoryCodes": ["lab_inference"],
+    "knowledgePoints": ["过滤", "蒸发", "除杂逻辑"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["流程目的推断"],
+    "stemStructure": "给分离步骤→推断目的或下一步",
+    "variableConditions": ["混合物类型"],
+    "reasoningSteps": ["看每步改变什么", "对应分离原理"],
+    "breakthrough": "溶解性/沸点差异决定操作",
+    "coreMethods": ["分离原理匹配"],
+    "commonErrors": ["过滤与蒸发颠倒目的"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "low", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["问某步目的"],
+      "challenge": ["选完整流程"]
+    },
+    "dedupRules": ["同混合物同流程问法=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "从食盐溶液得到食盐固体，关键操作是",
+        "options": [
+          { "key": "A", "text": "蒸发结晶" },
+          { "key": "B", "text": "蒸馏" },
+          { "key": "C", "text": "升华" },
+          { "key": "D", "text": "过滤（无需蒸发）" }
+        ],
+        "answer": "A",
+        "steps": ["可溶性固体从溶液析出用蒸发结晶"],
+        "coreMethod": "分离方法匹配",
+        "commonMistakes": ["选过滤"],
+        "knowledgePoints": ["蒸发"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "泥沙与食盐初步分离后，要得到较纯食盐溶液，合理顺序更接近",
+        "options": [
+          { "key": "A", "text": "溶解→过滤→蒸发" },
+          { "key": "B", "text": "蒸发→过滤→溶解" },
+          { "key": "C", "text": "过滤→不溶解直接食用" },
+          { "key": "D", "text": "只加热泥沙" }
+        ],
+        "answer": "A",
+        "steps": ["先溶解食盐，过滤除泥沙，再蒸发得固体（问溶液则停在过滤后）"],
+        "coreMethod": "除杂流程",
+        "commonMistakes": ["选B"],
+        "knowledgePoints": ["过滤", "溶解"]
+      }
+    ]
+  }
+]

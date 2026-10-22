@@ -1,0 +1,219 @@
+{
+  "items": [
+    {
+      "type": "experiment",
+      "data": {
+        "name": "钠在空气中燃烧",
+        "category": "property",
+        "purpose": "观察钠在空气或氧气中燃烧的现象，认识燃烧产物为过氧化钠。",
+        "principle": "钠加热燃烧与氧气反应：2Na+O2=点燃=Na2O2，生成淡黄色固体。",
+        "instruments": "坩埚或燃烧匙、酒精灯、坩埚钳、石棉网、玻璃片等",
+        "reagents": "金属钠、空气或氧气",
+        "steps": "1.取绿豆大钠块，用滤纸吸干煤油，切去氧化层；2.放于燃烧匙或坩埚中加热至燃烧；3.观察火焰颜色与产物颜色；4.冷却后妥善处理残渣。",
+        "phenomenon": "剧烈燃烧，火焰黄色，生成淡黄色固体。",
+        "conclusion": "钠在空气中燃烧生成过氧化钠（淡黄色），不同于常温表面主要生成氧化钠。",
+        "precautions": "钠用量宜小；远离面部；残钠按教师指导处理，不可直接扔进废液缸。",
+        "safetyNotes": "钠遇水剧烈反应，必须吸干煤油；燃烧强光与飞溅注意防护。",
+        "isHazardous": true,
+        "homeForbiddenNote": "危险实验请在实验室由教师指导下完成，禁止在家自行操作。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.Na_O2] batch3导入 pending_review id=2"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "name": "过氧化钠与水/二氧化碳",
+        "category": "property",
+        "purpose": "验证过氧化钠与水、二氧化碳反应并放出氧气。",
+        "principle": "2Na2O2+2H2O=4NaOH+O2↑；2Na2O2+2CO2=2Na2CO3+O2。可用带火星木条检验O2，酚酞检验碱。",
+        "instruments": "试管、导管、酒精灯（如需）、木条、胶头滴管等",
+        "reagents": "过氧化钠、水、二氧化碳（或呼出气体）、酚酞、带火星木条",
+        "steps": "1.向盛少量Na2O2的试管加水，观察；2.用带火星木条检验气体；3.取溶液滴酚酞；4.另取Na2O2通入CO2，检验是否放O2。",
+        "phenomenon": "加水：放热、有气泡，带火星木条复燃；取溶液滴酚酞变红。通CO2：有气泡放出，带火星木条可复燃（与水实验分步观察，勿混为同一步现象）。",
+        "conclusion": "过氧化钠与水或CO2反应都放出氧气，体现其供氧与碱性产物特征。",
+        "precautions": "Na2O2用量少；加水缓慢；勿用手直接接触。",
+        "safetyNotes": "强氧化剂，腐蚀性，禁止与有机物随意混合。",
+        "isHazardous": true,
+        "homeForbiddenNote": "危险实验请在实验室由教师指导下完成，禁止在家自行操作。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.Na2O2_H2O] batch3导入 pending_review id=3"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "name": "铝及氧化铝两性验证",
+        "category": "property",
+        "purpose": "验证铝能与强酸、强碱反应；验证Al2O3、Al(OH)3的两性（酸碱均可溶）。",
+        "principle": "区分两类：①单质Al与强酸/强碱反应放H2；②Al2O3、Al(OH)3为两性氧化物/氢氧化物，可与强酸、强碱反应。Al(OH)3沉淀在酸或过量强碱中溶解是两性关键实验现象。",
+        "instruments": "试管、胶头滴管、药匙等",
+        "reagents": "铝片或铝粉、Al2O3、AlCl3溶液、NaOH溶液、盐酸、氨水等",
+        "steps": "1.铝分别与盐酸、NaOH反应，观察放H2；2.用Al3+加氨水制Al(OH)3，分两份分别加盐酸与NaOH，观察沉淀溶解；3.氧化铝分别溶于酸、碱（可微热）。",
+        "phenomenon": "铝与酸碱均有气泡；氢氧化铝白色沉淀加酸或过量碱均溶解。",
+        "conclusion": "铝单质可与强酸、强碱反应；氧化铝、氢氧化铝具有两性。",
+        "precautions": "NaOH腐蚀性强；铝粉反应较快注意控制用量。",
+        "safetyNotes": "强酸强碱防护；氢气实验远离明火。",
+        "isHazardous": true,
+        "homeForbiddenNote": "危险实验请在实验室由教师指导下完成，禁止在家自行操作。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.Al_amphoteric] batch3导入 pending_review id=4"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "name": "铁生锈条件探究",
+        "category": "inquiry",
+        "purpose": "探究铁生锈与水和氧气的关系。",
+        "principle": "铁在潮湿空气中易锈蚀，需要O2与H2O共同作用（高中定性结论）。",
+        "instruments": "试管、橡皮塞、棉花等",
+        "reagents": "洁净铁钉、水、食盐水（可选）、干燥剂（如无水CaCl2，了解）",
+        "steps": "1.设置对照：①干燥空气中的铁钉；②浸没煮沸冷却蒸馏水并油封隔绝空气；③部分浸入水中接触空气；2.放置数日观察锈蚀情况。",
+        "phenomenon": "既接触水又接触空气的铁钉最易生锈；干燥或隔绝空气者不易生锈。",
+        "conclusion": "铁生锈通常需要水和氧气同时存在。",
+        "precautions": "铁钉表面除油污；对照实验条件控制单一变量。",
+        "safetyNotes": "一般危险性较低，仍按实验室规则操作。",
+        "isHazardous": false,
+        "homeForbiddenNote": "建议在教师指导下进行对照实验；家庭仅可做无危险观察，勿使用不明化学品。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.Fe_rust] batch3导入 pending_review id=5"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "name": "金属活动性顺序实验",
+        "category": "property",
+        "purpose": "通过金属与酸、盐溶液反应比较金属活动性强弱。",
+        "principle": "活动性强的金属更易与酸反应放H2，并能从活动性较弱金属的盐溶液中置换出该金属。",
+        "instruments": "试管、砂纸、胶头滴管等",
+        "reagents": "Mg、Zn、Fe、Cu等金属；稀盐酸或稀硫酸；CuSO4、AgNO3等盐溶液（按教材）",
+        "steps": "1.比较不同金属与同浓度稀酸反应快慢与是否反应；2.将较活泼金属插入CuSO4等溶液观察置换；3.归纳活动性顺序。",
+        "phenomenon": "反应剧烈程度不同；有的金属表面析出红色铜等。",
+        "conclusion": "可得出如 Mg>Zn>Fe>Cu 等活动性顺序片段（以课本完整顺序为准）。",
+        "precautions": "酸浓度不宜过高；AgNO3等有毒试剂规范使用。",
+        "safetyNotes": "酸腐蚀；含重金属盐废液回收，禁止倾倒。",
+        "isHazardous": true,
+        "homeForbiddenNote": "危险实验请在实验室由教师指导下完成，禁止在家自行操作。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.metal_activity] batch3导入 pending_review id=6"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "name": "氢气还原氧化铜",
+        "category": "property",
+        "purpose": "验证氢气的还原性，观察氧化铜被还原为铜。",
+        "principle": "CuO+H2=△=Cu+H2O；操作顺序强调防爆炸：先通H2排尽空气再加热，冷却后停H2。",
+        "instruments": "硬质玻璃管、酒精灯、导管、氢气发生装置、铁架台等",
+        "reagents": "氧化铜、锌粒与稀硫酸（制H2）或氢气钢瓶（教师）、干燥剂等",
+        "steps": "1.检查装置气密性；2.通H2验纯；3.通H2片刻后加热CuO；4.观察变色与水珠；5.停止加热后继续通H2至冷却。",
+        "phenomenon": "黑色CuO变为紫红色Cu，管口有水珠。",
+        "conclusion": "氢气在加热条件下能还原氧化铜。",
+        "precautions": "必须验纯；严禁先加热后通H2；尾气处理按教师要求。",
+        "safetyNotes": "氢气易燃易爆；全过程教师指导，学生不得擅自操作气源。",
+        "isHazardous": true,
+        "homeForbiddenNote": "危险实验请在实验室由教师指导下完成，禁止在家自行操作。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.CuO_H2_reduce] batch3导入 pending_review id=7"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "name": "Fe3+与KSCN的检验",
+        "category": "test",
+        "purpose": "学习用KSCN检验Fe3+，观察血红色现象；并对比Fe2+氧化后的检验。",
+        "principle": "Fe3+与SCN-反应生成血红色物质（高中写Fe(SCN)3或络离子了解即可）。",
+        "instruments": "试管、胶头滴管等",
+        "reagents": "FeCl3溶液、FeSO4溶液、KSCN溶液、氯水或H2O2（氧化Fe2+，按教材）",
+        "steps": "1.向FeCl3溶液滴加KSCN，观察血红色；2.向FeSO4溶液滴加KSCN，无明显血红色；3.再加入氯水等氧化剂后滴KSCN，出现血红色。",
+        "phenomenon": "Fe3+遇KSCN呈血红色；Fe2+需氧化为Fe3+后才显血红色。",
+        "conclusion": "KSCN可用于检验Fe3+；检验Fe2+时常先氧化再检验。",
+        "precautions": "试剂用量少；氯水在通风处使用。",
+        "safetyNotes": "氯水刺激性；铁盐废液按规范回收。",
+        "isHazardous": true,
+        "homeForbiddenNote": "危险实验请在实验室由教师指导下完成，禁止在家自行操作。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.Fe3_SCN] 增补；血红色现象; batch3导入 pending_review id=8"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch3",
+    "pack": "B3-C",
+    "inventoryCodes": [
+      "exp.Na_O2",
+      "exp.Na2O2_H2O",
+      "exp.Al_amphoteric",
+      "exp.Fe_rust",
+      "exp.metal_activity",
+      "exp.CuO_H2_reduce",
+      "exp.Fe3_SCN"
+    ],
+    "specialtyByCode": {
+      "exp.Na_O2": [
+        "experiment",
+        "substance"
+      ],
+      "exp.Na2O2_H2O": [
+        "experiment",
+        "substance"
+      ],
+      "exp.Al_amphoteric": [
+        "experiment",
+        "substance"
+      ],
+      "exp.Fe_rust": [
+        "experiment",
+        "substance"
+      ],
+      "exp.metal_activity": [
+        "experiment",
+        "substance"
+      ],
+      "exp.CuO_H2_reduce": [
+        "experiment",
+        "substance"
+      ],
+      "exp.Fe3_SCN": [
+        "experiment",
+        "ion",
+        "substance"
+      ]
+    },
+    "categoryByCode": {
+      "exp.Na_O2": [
+        "experiment.phenomenon_judge",
+        "experiment.property"
+      ],
+      "exp.Na2O2_H2O": [
+        "experiment.phenomenon_judge",
+        "experiment.property"
+      ],
+      "exp.Al_amphoteric": [
+        "experiment.phenomenon_judge",
+        "experiment.property"
+      ],
+      "exp.Fe_rust": [
+        "experiment.phenomenon_judge",
+        "experiment.property"
+      ],
+      "exp.metal_activity": [
+        "experiment.phenomenon_judge",
+        "experiment.property"
+      ],
+      "exp.CuO_H2_reduce": [
+        "experiment.phenomenon_judge",
+        "experiment.property"
+      ],
+      "exp.Fe3_SCN": [
+        "experiment.substance_test",
+        "ion.ion_test",
+        "experiment.phenomenon_desc"
+      ]
+    }
+  }
+}

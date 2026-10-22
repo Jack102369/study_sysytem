@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-18T08:57:51.139Z",
+  "planned": 79,
+  "hits": [
+    {
+      "code": "q.eq.Na_water",
+      "type": "question",
+      "id": 1,
+      "qtype": "single",
+      "status": "published",
+      "stem": "钠与水反应的生成物是？",
+      "review_note": ""
+    }
+  ],
+  "reuseCodes": [
+    "q.eq.Na_water"
+  ],
+  "reuseCount": 1
+}

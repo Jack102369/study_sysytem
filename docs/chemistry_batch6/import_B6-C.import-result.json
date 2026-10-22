@@ -1,0 +1,64 @@
+{
+  "successCount": 7,
+  "failCount": 0,
+  "linkOk": 7,
+  "linkFail": 0,
+  "results": [
+    {
+      "index": 0,
+      "type": "experiment",
+      "ok": true,
+      "id": "36",
+      "inventoryCode": "exp.CH4_property",
+      "errors": []
+    },
+    {
+      "index": 1,
+      "type": "experiment",
+      "ok": true,
+      "id": "37",
+      "inventoryCode": "exp.C2H4_prep",
+      "errors": []
+    },
+    {
+      "index": 2,
+      "type": "experiment",
+      "ok": true,
+      "id": "38",
+      "inventoryCode": "exp.C2H4_Br2",
+      "errors": []
+    },
+    {
+      "index": 3,
+      "type": "experiment",
+      "ok": true,
+      "id": "39",
+      "inventoryCode": "exp.ethanol_oxid",
+      "errors": []
+    },
+    {
+      "index": 4,
+      "type": "experiment",
+      "ok": true,
+      "id": "40",
+      "inventoryCode": "exp.esterification",
+      "errors": []
+    },
+    {
+      "index": 5,
+      "type": "experiment",
+      "ok": true,
+      "id": "41",
+      "inventoryCode": "exp.acetic_acid",
+      "errors": []
+    },
+    {
+      "index": 6,
+      "type": "experiment",
+      "ok": true,
+      "id": "42",
+      "inventoryCode": "exp.galvanic_Zn_Cu",
+      "errors": []
+    }
+  ]
+}

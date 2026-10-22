@@ -1,0 +1,1028 @@
+{
+  "specialties": {
+    "equation": {
+      "name": "化学方程式",
+      "total": 220,
+      "active": 220
+    },
+    "experiment": {
+      "name": "化学实验",
+      "total": 8,
+      "active": 7
+    },
+    "substance": {
+      "name": "化学物质性质",
+      "total": 92,
+      "active": 92
+    },
+    "calculation": {
+      "name": "化学计算",
+      "total": 9,
+      "active": 8
+    },
+    "ion": {
+      "name": "离子反应",
+      "total": 19,
+      "active": 18
+    },
+    "redox": {
+      "name": "氧化还原反应",
+      "total": 111,
+      "active": 111
+    },
+    "periodic": {
+      "name": "元素周期表",
+      "total": 24,
+      "active": 21
+    },
+    "structure": {
+      "name": "物质结构",
+      "total": 6,
+      "active": 3
+    },
+    "organic": {
+      "name": "有机化学",
+      "total": 9,
+      "active": 6
+    },
+    "inference": {
+      "name": "化学推断",
+      "total": 5,
+      "active": 2
+    },
+    "memory": {
+      "name": "化学基础记忆",
+      "total": 68,
+      "active": 68
+    },
+    "comprehensive": {
+      "name": "化学综合训练",
+      "total": 23,
+      "active": 20
+    }
+  },
+  "categories": {
+    "calculation.amount": {
+      "specialty": "calculation",
+      "category": "amount",
+      "name": "物质的量",
+      "total": 6,
+      "active": 6
+    },
+    "calculation.atomic_mass": {
+      "specialty": "calculation",
+      "category": "atomic_mass",
+      "name": "相对原子质量",
+      "total": 1,
+      "active": 0
+    },
+    "calculation.avogadro": {
+      "specialty": "calculation",
+      "category": "avogadro",
+      "name": "阿伏加德罗常数",
+      "total": 0,
+      "active": 0
+    },
+    "calculation.concentration": {
+      "specialty": "calculation",
+      "category": "concentration",
+      "name": "物质的量浓度",
+      "total": 1,
+      "active": 1
+    },
+    "calculation.dilution": {
+      "specialty": "calculation",
+      "category": "dilution",
+      "name": "溶液稀释",
+      "total": 0,
+      "active": 0
+    },
+    "calculation.electron_conserve": {
+      "specialty": "calculation",
+      "category": "electron_conserve",
+      "name": "电子守恒",
+      "total": 0,
+      "active": 0
+    },
+    "calculation.equation_calc": {
+      "specialty": "calculation",
+      "category": "equation_calc",
+      "name": "化学方程式计算",
+      "total": 0,
+      "active": 0
+    },
+    "calculation.mass_conserve": {
+      "specialty": "calculation",
+      "category": "mass_conserve",
+      "name": "质量守恒",
+      "total": 0,
+      "active": 0
+    },
+    "calculation.mixed": {
+      "specialty": "calculation",
+      "category": "mixed",
+      "name": "综合计算",
+      "total": 0,
+      "active": 0
+    },
+    "calculation.molar_mass": {
+      "specialty": "calculation",
+      "category": "molar_mass",
+      "name": "摩尔质量",
+      "total": 0,
+      "active": 0
+    },
+    "calculation.molar_volume": {
+      "specialty": "calculation",
+      "category": "molar_volume",
+      "name": "气体摩尔体积",
+      "total": 1,
+      "active": 1
+    },
+    "calculation.molecular_mass": {
+      "specialty": "calculation",
+      "category": "molecular_mass",
+      "name": "相对分子质量",
+      "total": 0,
+      "active": 0
+    },
+    "comprehensive.advanced": {
+      "specialty": "comprehensive",
+      "category": "advanced",
+      "name": "提高综合",
+      "total": 0,
+      "active": 0
+    },
+    "comprehensive.basic": {
+      "specialty": "comprehensive",
+      "category": "basic",
+      "name": "基础综合",
+      "total": 23,
+      "active": 20
+    },
+    "comprehensive.medium": {
+      "specialty": "comprehensive",
+      "category": "medium",
+      "name": "中等综合",
+      "total": 0,
+      "active": 0
+    },
+    "comprehensive.mistakes": {
+      "specialty": "comprehensive",
+      "category": "mistakes",
+      "name": "错题综合",
+      "total": 0,
+      "active": 0
+    },
+    "comprehensive.mock": {
+      "specialty": "comprehensive",
+      "category": "mock",
+      "name": "模拟测试",
+      "total": 0,
+      "active": 0
+    },
+    "comprehensive.timed": {
+      "specialty": "comprehensive",
+      "category": "timed",
+      "name": "限时训练",
+      "total": 0,
+      "active": 0
+    },
+    "comprehensive.weak": {
+      "specialty": "comprehensive",
+      "category": "weak",
+      "name": "薄弱知识综合",
+      "total": 0,
+      "active": 0
+    },
+    "equation.balance": {
+      "specialty": "equation",
+      "category": "balance",
+      "name": "方程式配平",
+      "total": 5,
+      "active": 5
+    },
+    "equation.complete_product": {
+      "specialty": "equation",
+      "category": "complete_product",
+      "name": "补全生成物",
+      "total": 1,
+      "active": 1
+    },
+    "equation.complete_reactant": {
+      "specialty": "equation",
+      "category": "complete_reactant",
+      "name": "补全反应物",
+      "total": 1,
+      "active": 1
+    },
+    "equation.condition": {
+      "specialty": "equation",
+      "category": "condition",
+      "name": "反应条件",
+      "total": 48,
+      "active": 48
+    },
+    "equation.conversion": {
+      "specialty": "equation",
+      "category": "conversion",
+      "name": "物质转化",
+      "total": 1,
+      "active": 1
+    },
+    "equation.ionic_correct": {
+      "specialty": "equation",
+      "category": "ionic_correct",
+      "name": "离子方程式纠错",
+      "total": 1,
+      "active": 1
+    },
+    "equation.ionic_write": {
+      "specialty": "equation",
+      "category": "ionic_write",
+      "name": "离子方程式书写",
+      "total": 1,
+      "active": 1
+    },
+    "equation.redox_analysis": {
+      "specialty": "equation",
+      "category": "redox_analysis",
+      "name": "氧化还原分析",
+      "total": 1,
+      "active": 1
+    },
+    "equation.true_false": {
+      "specialty": "equation",
+      "category": "true_false",
+      "name": "方程式正误判断",
+      "total": 159,
+      "active": 159
+    },
+    "equation.write_from_text": {
+      "specialty": "equation",
+      "category": "write_from_text",
+      "name": "根据文字写方程式",
+      "total": 2,
+      "active": 2
+    },
+    "experiment.apparatus_id": {
+      "specialty": "experiment",
+      "category": "apparatus_id",
+      "name": "实验装置识别",
+      "total": 0,
+      "active": 0
+    },
+    "experiment.apparatus_link": {
+      "specialty": "experiment",
+      "category": "apparatus_link",
+      "name": "实验装置连接",
+      "total": 0,
+      "active": 0
+    },
+    "experiment.basic_ops": {
+      "specialty": "experiment",
+      "category": "basic_ops",
+      "name": "实验基本操作",
+      "total": 0,
+      "active": 0
+    },
+    "experiment.conclusion": {
+      "specialty": "experiment",
+      "category": "conclusion",
+      "name": "实验结论分析",
+      "total": 0,
+      "active": 0
+    },
+    "experiment.error_fix": {
+      "specialty": "experiment",
+      "category": "error_fix",
+      "name": "实验错误纠正",
+      "total": 0,
+      "active": 0
+    },
+    "experiment.gas_collect": {
+      "specialty": "experiment",
+      "category": "gas_collect",
+      "name": "气体收集",
+      "total": 0,
+      "active": 0
+    },
+    "experiment.gas_prep": {
+      "specialty": "experiment",
+      "category": "gas_prep",
+      "name": "气体制备",
+      "total": 0,
+      "active": 0
+    },
+    "experiment.inquiry": {
+      "specialty": "experiment",
+      "category": "inquiry",
+      "name": "实验综合探究",
+      "total": 0,
+      "active": 0
+    },
+    "experiment.instrument_id": {
+      "specialty": "experiment",
+      "category": "instrument_id",
+      "name": "实验仪器识别",
+      "total": 1,
+      "active": 0
+    },
+    "experiment.instrument_use": {
+      "specialty": "experiment",
+      "category": "instrument_use",
+      "name": "实验仪器用途",
+      "total": 0,
+      "active": 0
+    },
+    "experiment.phenomenon_desc": {
+      "specialty": "experiment",
+      "category": "phenomenon_desc",
+      "name": "实验现象描述",
+      "total": 0,
+      "active": 0
+    },
+    "experiment.phenomenon_judge": {
+      "specialty": "experiment",
+      "category": "phenomenon_judge",
+      "name": "实验现象判断",
+      "total": 0,
+      "active": 0
+    },
+    "experiment.plan_design": {
+      "specialty": "experiment",
+      "category": "plan_design",
+      "name": "实验方案设计",
+      "total": 0,
+      "active": 0
+    },
+    "experiment.safety": {
+      "specialty": "experiment",
+      "category": "safety",
+      "name": "实验安全",
+      "total": 7,
+      "active": 7
+    },
+    "experiment.step_order": {
+      "specialty": "experiment",
+      "category": "step_order",
+      "name": "实验步骤排序",
+      "total": 0,
+      "active": 0
+    },
+    "experiment.substance_test": {
+      "specialty": "experiment",
+      "category": "substance_test",
+      "name": "物质检验",
+      "total": 0,
+      "active": 0
+    },
+    "inference.block_diagram": {
+      "specialty": "inference",
+      "category": "block_diagram",
+      "name": "无机框图推断",
+      "total": 0,
+      "active": 0
+    },
+    "inference.color": {
+      "specialty": "inference",
+      "category": "color",
+      "name": "颜色推断",
+      "total": 5,
+      "active": 2
+    },
+    "inference.composition": {
+      "specialty": "inference",
+      "category": "composition",
+      "name": "元素组成推断",
+      "total": 0,
+      "active": 0
+    },
+    "inference.conversion": {
+      "specialty": "inference",
+      "category": "conversion",
+      "name": "物质转化推断",
+      "total": 0,
+      "active": 0
+    },
+    "inference.mixed": {
+      "specialty": "inference",
+      "category": "mixed",
+      "name": "综合推断",
+      "total": 0,
+      "active": 0
+    },
+    "inference.phenomenon": {
+      "specialty": "inference",
+      "category": "phenomenon",
+      "name": "实验现象推断",
+      "total": 0,
+      "active": 0
+    },
+    "inference.relation": {
+      "specialty": "inference",
+      "category": "relation",
+      "name": "反应关系推断",
+      "total": 0,
+      "active": 0
+    },
+    "inference.valence": {
+      "specialty": "inference",
+      "category": "valence",
+      "name": "化合价推断",
+      "total": 0,
+      "active": 0
+    },
+    "ion.coexist": {
+      "specialty": "ion",
+      "category": "coexist",
+      "name": "离子共存",
+      "total": 0,
+      "active": 0
+    },
+    "ion.electrolyte": {
+      "specialty": "ion",
+      "category": "electrolyte",
+      "name": "电解质判断",
+      "total": 18,
+      "active": 17
+    },
+    "ion.formula_split": {
+      "specialty": "ion",
+      "category": "formula_split",
+      "name": "化学式拆分",
+      "total": 0,
+      "active": 0
+    },
+    "ion.ion_test": {
+      "specialty": "ion",
+      "category": "ion_test",
+      "name": "离子检验",
+      "total": 0,
+      "active": 0
+    },
+    "ion.ionic_balance": {
+      "specialty": "ion",
+      "category": "ionic_balance",
+      "name": "离子方程式配平",
+      "total": 0,
+      "active": 0
+    },
+    "ion.ionic_correct": {
+      "specialty": "ion",
+      "category": "ionic_correct",
+      "name": "离子方程式纠错",
+      "total": 0,
+      "active": 0
+    },
+    "ion.ionic_write": {
+      "specialty": "ion",
+      "category": "ionic_write",
+      "name": "离子方程式书写",
+      "total": 0,
+      "active": 0
+    },
+    "ion.ionization": {
+      "specialty": "ion",
+      "category": "ionization",
+      "name": "电离方程式",
+      "total": 0,
+      "active": 0
+    },
+    "ion.mixed": {
+      "specialty": "ion",
+      "category": "mixed",
+      "name": "综合应用",
+      "total": 0,
+      "active": 0
+    },
+    "ion.nonelectrolyte": {
+      "specialty": "ion",
+      "category": "nonelectrolyte",
+      "name": "非电解质判断",
+      "total": 1,
+      "active": 1
+    },
+    "memory.chem_formula": {
+      "specialty": "memory",
+      "category": "chem_formula",
+      "name": "化学公式",
+      "total": 0,
+      "active": 0
+    },
+    "memory.color": {
+      "specialty": "memory",
+      "category": "color",
+      "name": "物质颜色",
+      "total": 19,
+      "active": 19
+    },
+    "memory.common_name": {
+      "specialty": "memory",
+      "category": "common_name",
+      "name": "物质俗称",
+      "total": 1,
+      "active": 1
+    },
+    "memory.equation": {
+      "specialty": "memory",
+      "category": "equation",
+      "name": "化学方程式",
+      "total": 0,
+      "active": 0
+    },
+    "memory.formula": {
+      "specialty": "memory",
+      "category": "formula",
+      "name": "化学式",
+      "total": 0,
+      "active": 0
+    },
+    "memory.gas": {
+      "specialty": "memory",
+      "category": "gas",
+      "name": "气体性质",
+      "total": 0,
+      "active": 0
+    },
+    "memory.ions": {
+      "specialty": "memory",
+      "category": "ions",
+      "name": "常见离子",
+      "total": 0,
+      "active": 0
+    },
+    "memory.phenomenon": {
+      "specialty": "memory",
+      "category": "phenomenon",
+      "name": "实验现象",
+      "total": 0,
+      "active": 0
+    },
+    "memory.precipitate": {
+      "specialty": "memory",
+      "category": "precipitate",
+      "name": "沉淀颜色",
+      "total": 0,
+      "active": 0
+    },
+    "memory.rules": {
+      "specialty": "memory",
+      "category": "rules",
+      "name": "化学规律",
+      "total": 4,
+      "active": 4
+    },
+    "memory.symbol": {
+      "specialty": "memory",
+      "category": "symbol",
+      "name": "元素符号",
+      "total": 44,
+      "active": 44
+    },
+    "memory.valence": {
+      "specialty": "memory",
+      "category": "valence",
+      "name": "常见化合价",
+      "total": 0,
+      "active": 0
+    },
+    "organic.acetic": {
+      "specialty": "organic",
+      "category": "acetic",
+      "name": "乙酸",
+      "total": 0,
+      "active": 0
+    },
+    "organic.addition": {
+      "specialty": "organic",
+      "category": "addition",
+      "name": "加成反应",
+      "total": 0,
+      "active": 0
+    },
+    "organic.alkane": {
+      "specialty": "organic",
+      "category": "alkane",
+      "name": "烷烃",
+      "total": 0,
+      "active": 0
+    },
+    "organic.basic": {
+      "specialty": "organic",
+      "category": "basic",
+      "name": "有机物基础概念",
+      "total": 9,
+      "active": 6
+    },
+    "organic.esterification": {
+      "specialty": "organic",
+      "category": "esterification",
+      "name": "酯化反应",
+      "total": 0,
+      "active": 0
+    },
+    "organic.ethanol": {
+      "specialty": "organic",
+      "category": "ethanol",
+      "name": "乙醇",
+      "total": 0,
+      "active": 0
+    },
+    "organic.ethene": {
+      "specialty": "organic",
+      "category": "ethene",
+      "name": "乙烯",
+      "total": 0,
+      "active": 0
+    },
+    "organic.homolog": {
+      "specialty": "organic",
+      "category": "homolog",
+      "name": "同系物",
+      "total": 0,
+      "active": 0
+    },
+    "organic.isomer": {
+      "specialty": "organic",
+      "category": "isomer",
+      "name": "同分异构体",
+      "total": 0,
+      "active": 0
+    },
+    "organic.methane": {
+      "specialty": "organic",
+      "category": "methane",
+      "name": "甲烷",
+      "total": 0,
+      "active": 0
+    },
+    "organic.oxidation": {
+      "specialty": "organic",
+      "category": "oxidation",
+      "name": "氧化反应",
+      "total": 0,
+      "active": 0
+    },
+    "organic.property": {
+      "specialty": "organic",
+      "category": "property",
+      "name": "有机物性质",
+      "total": 0,
+      "active": 0
+    },
+    "organic.structure_formula": {
+      "specialty": "organic",
+      "category": "structure_formula",
+      "name": "有机结构式",
+      "total": 0,
+      "active": 0
+    },
+    "organic.substitution": {
+      "specialty": "organic",
+      "category": "substitution",
+      "name": "取代反应",
+      "total": 0,
+      "active": 0
+    },
+    "periodic.atom_structure": {
+      "specialty": "periodic",
+      "category": "atom_structure",
+      "name": "原子结构",
+      "total": 0,
+      "active": 0
+    },
+    "periodic.atomic_mass": {
+      "specialty": "periodic",
+      "category": "atomic_mass",
+      "name": "相对原子质量",
+      "total": 0,
+      "active": 0
+    },
+    "periodic.atomic_number": {
+      "specialty": "periodic",
+      "category": "atomic_number",
+      "name": "原子序数",
+      "total": 0,
+      "active": 0
+    },
+    "periodic.common_valence": {
+      "specialty": "periodic",
+      "category": "common_valence",
+      "name": "常见化合价",
+      "total": 0,
+      "active": 0
+    },
+    "periodic.electron_config": {
+      "specialty": "periodic",
+      "category": "electron_config",
+      "name": "核外电子排布",
+      "total": 0,
+      "active": 0
+    },
+    "periodic.elem_name": {
+      "specialty": "periodic",
+      "category": "elem_name",
+      "name": "元素名称",
+      "total": 24,
+      "active": 21
+    },
+    "periodic.group_col": {
+      "specialty": "periodic",
+      "category": "group_col",
+      "name": "族",
+      "total": 0,
+      "active": 0
+    },
+    "periodic.metal_compare": {
+      "specialty": "periodic",
+      "category": "metal_compare",
+      "name": "金属性比较",
+      "total": 0,
+      "active": 0
+    },
+    "periodic.nonmetal_compare": {
+      "specialty": "periodic",
+      "category": "nonmetal_compare",
+      "name": "非金属性比较",
+      "total": 0,
+      "active": 0
+    },
+    "periodic.period": {
+      "specialty": "periodic",
+      "category": "period",
+      "name": "周期",
+      "total": 0,
+      "active": 0
+    },
+    "periodic.periodic_law": {
+      "specialty": "periodic",
+      "category": "periodic_law",
+      "name": "元素周期律",
+      "total": 0,
+      "active": 0
+    },
+    "periodic.symbol": {
+      "specialty": "periodic",
+      "category": "symbol",
+      "name": "元素符号",
+      "total": 0,
+      "active": 0
+    },
+    "redox.double_bridge": {
+      "specialty": "redox",
+      "category": "double_bridge",
+      "name": "双线桥法",
+      "total": 0,
+      "active": 0
+    },
+    "redox.e_conserve": {
+      "specialty": "redox",
+      "category": "e_conserve",
+      "name": "电子守恒",
+      "total": 10,
+      "active": 10
+    },
+    "redox.e_count": {
+      "specialty": "redox",
+      "category": "e_count",
+      "name": "电子转移数量",
+      "total": 0,
+      "active": 0
+    },
+    "redox.e_direction": {
+      "specialty": "redox",
+      "category": "e_direction",
+      "name": "电子转移方向",
+      "total": 0,
+      "active": 0
+    },
+    "redox.identify": {
+      "specialty": "redox",
+      "category": "identify",
+      "name": "氧化还原反应识别",
+      "total": 41,
+      "active": 41
+    },
+    "redox.ox_product": {
+      "specialty": "redox",
+      "category": "ox_product",
+      "name": "氧化产物",
+      "total": 0,
+      "active": 0
+    },
+    "redox.ox_re_ability": {
+      "specialty": "redox",
+      "category": "ox_re_ability",
+      "name": "氧化性与还原性",
+      "total": 0,
+      "active": 0
+    },
+    "redox.oxidant": {
+      "specialty": "redox",
+      "category": "oxidant",
+      "name": "氧化剂判断",
+      "total": 30,
+      "active": 30
+    },
+    "redox.re_product": {
+      "specialty": "redox",
+      "category": "re_product",
+      "name": "还原产物",
+      "total": 0,
+      "active": 0
+    },
+    "redox.reductant": {
+      "specialty": "redox",
+      "category": "reductant",
+      "name": "还原剂判断",
+      "total": 30,
+      "active": 30
+    },
+    "redox.single_bridge": {
+      "specialty": "redox",
+      "category": "single_bridge",
+      "name": "单线桥法",
+      "total": 0,
+      "active": 0
+    },
+    "redox.valence": {
+      "specialty": "redox",
+      "category": "valence",
+      "name": "化合价判断",
+      "total": 0,
+      "active": 0
+    },
+    "structure.atom_compose": {
+      "specialty": "structure",
+      "category": "atom_compose",
+      "name": "原子组成",
+      "total": 6,
+      "active": 3
+    },
+    "structure.atom_diagram": {
+      "specialty": "structure",
+      "category": "atom_diagram",
+      "name": "原子结构示意图",
+      "total": 0,
+      "active": 0
+    },
+    "structure.covalent_bond": {
+      "specialty": "structure",
+      "category": "covalent_bond",
+      "name": "共价键",
+      "total": 0,
+      "active": 0
+    },
+    "structure.covalent_compound": {
+      "specialty": "structure",
+      "category": "covalent_compound",
+      "name": "共价化合物",
+      "total": 0,
+      "active": 0
+    },
+    "structure.electron": {
+      "specialty": "structure",
+      "category": "electron",
+      "name": "电子数",
+      "total": 0,
+      "active": 0
+    },
+    "structure.electron_formula": {
+      "specialty": "structure",
+      "category": "electron_formula",
+      "name": "电子式",
+      "total": 0,
+      "active": 0
+    },
+    "structure.ion_diagram": {
+      "specialty": "structure",
+      "category": "ion_diagram",
+      "name": "离子结构示意图",
+      "total": 0,
+      "active": 0
+    },
+    "structure.ionic_bond": {
+      "specialty": "structure",
+      "category": "ionic_bond",
+      "name": "离子键",
+      "total": 0,
+      "active": 0
+    },
+    "structure.ionic_compound": {
+      "specialty": "structure",
+      "category": "ionic_compound",
+      "name": "离子化合物",
+      "total": 0,
+      "active": 0
+    },
+    "structure.isotope": {
+      "specialty": "structure",
+      "category": "isotope",
+      "name": "同位素",
+      "total": 0,
+      "active": 0
+    },
+    "structure.neutron": {
+      "specialty": "structure",
+      "category": "neutron",
+      "name": "中子数",
+      "total": 0,
+      "active": 0
+    },
+    "structure.nuclide": {
+      "specialty": "structure",
+      "category": "nuclide",
+      "name": "核素",
+      "total": 0,
+      "active": 0
+    },
+    "structure.proton": {
+      "specialty": "structure",
+      "category": "proton",
+      "name": "质子数",
+      "total": 0,
+      "active": 0
+    },
+    "substance.chem_property": {
+      "specialty": "substance",
+      "category": "chem_property",
+      "name": "化学性质",
+      "total": 11,
+      "active": 11
+    },
+    "substance.color": {
+      "specialty": "substance",
+      "category": "color",
+      "name": "物质颜色",
+      "total": 5,
+      "active": 5
+    },
+    "substance.conversion": {
+      "specialty": "substance",
+      "category": "conversion",
+      "name": "物质转化",
+      "total": 0,
+      "active": 0
+    },
+    "substance.formula": {
+      "specialty": "substance",
+      "category": "formula",
+      "name": "化学式",
+      "total": 49,
+      "active": 49
+    },
+    "substance.identify": {
+      "specialty": "substance",
+      "category": "identify",
+      "name": "物质鉴别",
+      "total": 0,
+      "active": 0
+    },
+    "substance.name": {
+      "specialty": "substance",
+      "category": "name",
+      "name": "物质名称",
+      "total": 2,
+      "active": 2
+    },
+    "substance.solubility": {
+      "specialty": "substance",
+      "category": "solubility",
+      "name": "溶解性",
+      "total": 0,
+      "active": 0
+    },
+    "substance.state": {
+      "specialty": "substance",
+      "category": "state",
+      "name": "物质状态",
+      "total": 0,
+      "active": 0
+    },
+    "substance.storage": {
+      "specialty": "substance",
+      "category": "storage",
+      "name": "物质保存",
+      "total": 0,
+      "active": 0
+    },
+    "substance.test": {
+      "specialty": "substance",
+      "category": "test",
+      "name": "物质检验",
+      "total": 1,
+      "active": 1
+    },
+    "substance.usage": {
+      "specialty": "substance",
+      "category": "usage",
+      "name": "物质用途",
+      "total": 24,
+      "active": 24
+    }
+  },
+  "categoriesWithActive": 35,
+  "categoriesTotal": 137,
+  "specialtiesWithActive": 12
+}

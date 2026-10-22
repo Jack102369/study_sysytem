@@ -1,0 +1,2267 @@
+{
+  "count": 377,
+  "items": [
+    {
+      "type": "element",
+      "id": "1",
+      "status": "published",
+      "review_note": ""
+    },
+    {
+      "type": "element",
+      "id": "2",
+      "status": "published",
+      "review_note": "[el.O] 最终整改:补过氧化物-1;OF2中+2标拓展不进默认基础训练"
+    },
+    {
+      "type": "element",
+      "id": "3",
+      "status": "published",
+      "review_note": "[el.Na] 最终整改:common_compounds删除单质Na"
+    },
+    {
+      "type": "element",
+      "id": "4",
+      "status": "published",
+      "review_note": "[el.Cl] 最终整改:区分氯元素与Cl2单质性质"
+    },
+    {
+      "type": "element",
+      "id": "5",
+      "status": "pending_review",
+      "review_note": "[inv:el.He] B2整改:修正“之一”为最轻稀有气体"
+    },
+    {
+      "type": "element",
+      "id": "6",
+      "status": "pending_review",
+      "review_note": "[inv:el.Li]"
+    },
+    {
+      "type": "element",
+      "id": "7",
+      "status": "pending_review",
+      "review_note": "[inv:el.Be] [el.Be] 范围:保留基础信息；复杂性质/用途=了解，不进默认基础训练"
+    },
+    {
+      "type": "element",
+      "id": "8",
+      "status": "pending_review",
+      "review_note": "[inv:el.B]"
+    },
+    {
+      "type": "element",
+      "id": "9",
+      "status": "pending_review",
+      "review_note": "[inv:el.C]"
+    },
+    {
+      "type": "element",
+      "id": "10",
+      "status": "pending_review",
+      "review_note": "[inv:el.N] B2整改:补常见化合价+1,+3"
+    },
+    {
+      "type": "element",
+      "id": "11",
+      "status": "pending_review",
+      "review_note": "[inv:el.F]"
+    },
+    {
+      "type": "element",
+      "id": "12",
+      "status": "pending_review",
+      "review_note": "[inv:el.Ne]"
+    },
+    {
+      "type": "element",
+      "id": "13",
+      "status": "pending_review",
+      "review_note": "[inv:el.Mg]"
+    },
+    {
+      "type": "element",
+      "id": "14",
+      "status": "pending_review",
+      "review_note": "[inv:el.Al]"
+    },
+    {
+      "type": "element",
+      "id": "15",
+      "status": "pending_review",
+      "review_note": "[inv:el.Si]"
+    },
+    {
+      "type": "element",
+      "id": "16",
+      "status": "pending_review",
+      "review_note": "[inv:el.P]"
+    },
+    {
+      "type": "element",
+      "id": "17",
+      "status": "pending_review",
+      "review_note": "[inv:el.S]"
+    },
+    {
+      "type": "element",
+      "id": "18",
+      "status": "pending_review",
+      "review_note": "[inv:el.Ar] [el.Ar] 范围:保留基础信息；相对原子质量待所用教材附录核实(当前库约39.95)"
+    },
+    {
+      "type": "element",
+      "id": "19",
+      "status": "pending_review",
+      "review_note": "[inv:el.K]"
+    },
+    {
+      "type": "element",
+      "id": "20",
+      "status": "pending_review",
+      "review_note": "[inv:el.Ca]"
+    },
+    {
+      "type": "element",
+      "id": "21",
+      "status": "pending_review",
+      "review_note": "[inv:el.Fe] [el.Fe] 范围:Fe2+/Fe3+核心；复杂电子排布不进默认高一基础训练"
+    },
+    {
+      "type": "element",
+      "id": "22",
+      "status": "pending_review",
+      "review_note": "[inv:el.Cu]"
+    },
+    {
+      "type": "element",
+      "id": "23",
+      "status": "pending_review",
+      "review_note": "[inv:el.Zn]"
+    },
+    {
+      "type": "element",
+      "id": "24",
+      "status": "pending_review",
+      "review_note": "[inv:el.Ag]"
+    },
+    {
+      "type": "element",
+      "id": "25",
+      "status": "pending_review",
+      "review_note": "[inv:el.Ba]"
+    },
+    {
+      "type": "element",
+      "id": "26",
+      "status": "pending_review",
+      "review_note": "[inv:el.I] [el.I] 范围:I2/-1/淀粉变蓝可用；复杂正价=拓展，不进默认基础训练"
+    },
+    {
+      "type": "element",
+      "id": "27",
+      "status": "pending_review",
+      "review_note": "[inv:el.Mn]"
+    },
+    {
+      "type": "element",
+      "id": "28",
+      "status": "pending_review",
+      "review_note": "[inv:el.Cr] [el.Cr] 范围:基础+不锈钢了解；重铬酸盐不进默认高一专项训练"
+    },
+    {
+      "type": "element",
+      "id": "29",
+      "status": "pending_review",
+      "review_note": "[inv:el.Br]"
+    },
+    {
+      "type": "element",
+      "id": "30",
+      "status": "published",
+      "review_note": "[inv:el.Hg] B2整改:明确Hg2^2+；强调毒性禁用"
+    },
+    {
+      "type": "substance",
+      "id": "1",
+      "status": "published",
+      "review_note": "[sub.Na] B3轻改:分条件性质;用途标了解"
+    },
+    {
+      "type": "substance",
+      "id": "2",
+      "status": "published",
+      "review_note": "[sub.H2O] B3轻改:safety表述"
+    },
+    {
+      "type": "substance",
+      "id": "3",
+      "status": "published",
+      "review_note": "[sub.NaOH] B3轻改:补潮解与吸收CO2"
+    },
+    {
+      "type": "substance",
+      "id": "4",
+      "status": "published",
+      "review_note": ""
+    },
+    {
+      "type": "substance",
+      "id": "5",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Na2O] batch3导入 pending_review id=5"
+    },
+    {
+      "type": "substance",
+      "id": "6",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Na2O2] batch3导入 pending_review id=6"
+    },
+    {
+      "type": "substance",
+      "id": "7",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Na2CO3] batch3导入 pending_review id=7"
+    },
+    {
+      "type": "substance",
+      "id": "8",
+      "status": "pending_review",
+      "review_note": "[inv:sub.NaHCO3] batch3导入 pending_review id=8"
+    },
+    {
+      "type": "substance",
+      "id": "9",
+      "status": "pending_review",
+      "review_note": "[inv:sub.NaCl] batch3导入 pending_review id=9"
+    },
+    {
+      "type": "substance",
+      "id": "10",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Mg] batch3导入 pending_review id=10"
+    },
+    {
+      "type": "substance",
+      "id": "11",
+      "status": "pending_review",
+      "review_note": "[inv:sub.MgO] batch3导入 pending_review id=11"
+    },
+    {
+      "type": "substance",
+      "id": "12",
+      "status": "pending_review",
+      "review_note": "[inv:sub.MgOH2] batch3导入 pending_review id=12"
+    },
+    {
+      "type": "substance",
+      "id": "13",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Al] batch3导入 pending_review id=13"
+    },
+    {
+      "type": "substance",
+      "id": "14",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Al2O3] 待核实:与碱产物写法"
+    },
+    {
+      "type": "substance",
+      "id": "15",
+      "status": "pending_review",
+      "review_note": "[inv:sub.AlOH3] 待核实:与碱产物写法"
+    },
+    {
+      "type": "substance",
+      "id": "16",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Fe] batch3导入 pending_review id=16"
+    },
+    {
+      "type": "substance",
+      "id": "17",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Fe2O3] batch3导入 pending_review id=17"
+    },
+    {
+      "type": "substance",
+      "id": "18",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Fe3O4] batch3导入 pending_review id=18"
+    },
+    {
+      "type": "substance",
+      "id": "19",
+      "status": "pending_review",
+      "review_note": "[inv:sub.FeOH3] batch3导入 pending_review id=19"
+    },
+    {
+      "type": "substance",
+      "id": "20",
+      "status": "pending_review",
+      "review_note": "[inv:sub.FeCl3] I-/S2-深度排除默认训练"
+    },
+    {
+      "type": "substance",
+      "id": "21",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Cu] batch3导入 pending_review id=21"
+    },
+    {
+      "type": "substance",
+      "id": "22",
+      "status": "pending_review",
+      "review_note": "[inv:sub.CuO] batch3导入 pending_review id=22"
+    },
+    {
+      "type": "substance",
+      "id": "23",
+      "status": "pending_review",
+      "review_note": "[inv:sub.CuOH2] batch3导入 pending_review id=23"
+    },
+    {
+      "type": "substance",
+      "id": "24",
+      "status": "pending_review",
+      "review_note": "[inv:sub.CuSO4] batch3导入 pending_review id=24"
+    },
+    {
+      "type": "substance",
+      "id": "25",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Zn] batch3导入 pending_review id=25"
+    },
+    {
+      "type": "substance",
+      "id": "26",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Ag] batch3导入 pending_review id=26"
+    },
+    {
+      "type": "substance",
+      "id": "27",
+      "status": "pending_review",
+      "review_note": "[inv:sub.O2] batch3导入 pending_review id=27"
+    },
+    {
+      "type": "substance",
+      "id": "28",
+      "status": "pending_review",
+      "review_note": "[inv:sub.CO2] batch3导入 pending_review id=28"
+    },
+    {
+      "type": "substance",
+      "id": "29",
+      "status": "pending_review",
+      "review_note": "[inv:sub.FeO] 待核实:空气中氧化细节以课本为准;勿考未核实细节"
+    },
+    {
+      "type": "substance",
+      "id": "30",
+      "status": "pending_review",
+      "review_note": "[inv:sub.FeOH2] 增补；白色→灰绿→红褐氧化过程为重点; batch3导入 pending_review id=30"
+    },
+    {
+      "type": "substance",
+      "id": "31",
+      "status": "pending_review",
+      "review_note": "[inv:sub.FeSO4] 增补；亚铁盐代表物；与 sub.FeCl3（铁盐）对照; batch3导入 pending_review id=31"
+    },
+    {
+      "type": "substance",
+      "id": "32",
+      "status": "pending_review",
+      "review_note": "[inv:sub.NaAlO2] 待核实:溶液存在形式与教材写法"
+    },
+    {
+      "type": "substance",
+      "id": "33",
+      "status": "pending_review",
+      "review_note": "[inv:sub.AlCl3] 增补；铝盐代表; batch3导入 pending_review id=33"
+    },
+    {
+      "type": "substance",
+      "id": "34",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Cl2] batch4导入 pending_review id=34"
+    },
+    {
+      "type": "substance",
+      "id": "35",
+      "status": "pending_review",
+      "review_note": "[inv:sub.HCl] batch4导入 pending_review id=35"
+    },
+    {
+      "type": "substance",
+      "id": "36",
+      "status": "pending_review",
+      "review_note": "[inv:sub.HCl_aq] canonical写HCl=水溶液;Cl-检验须硝酸酸化"
+    },
+    {
+      "type": "substance",
+      "id": "37",
+      "status": "pending_review",
+      "review_note": "[inv:sub.HClO] batch4导入 pending_review id=37"
+    },
+    {
+      "type": "substance",
+      "id": "38",
+      "status": "pending_review",
+      "review_note": "[inv:sub.NaClO] batch4导入 pending_review id=38"
+    },
+    {
+      "type": "substance",
+      "id": "39",
+      "status": "pending_review",
+      "review_note": "[inv:sub.S] batch4导入 pending_review id=39"
+    },
+    {
+      "type": "substance",
+      "id": "40",
+      "status": "pending_review",
+      "review_note": "[inv:sub.SO2] batch4导入 pending_review id=40"
+    },
+    {
+      "type": "substance",
+      "id": "41",
+      "status": "pending_review",
+      "review_note": "[inv:sub.SO3] batch4导入 pending_review id=41"
+    },
+    {
+      "type": "substance",
+      "id": "42",
+      "status": "pending_review",
+      "review_note": "[inv:sub.H2SO4] batch4导入 pending_review id=42"
+    },
+    {
+      "type": "substance",
+      "id": "43",
+      "status": "pending_review",
+      "review_note": "[inv:sub.H2SO3] batch4导入 pending_review id=43"
+    },
+    {
+      "type": "substance",
+      "id": "44",
+      "status": "pending_review",
+      "review_note": "[inv:sub.N2] batch4导入 pending_review id=44"
+    },
+    {
+      "type": "substance",
+      "id": "45",
+      "status": "pending_review",
+      "review_note": "[inv:sub.NH3] batch4导入 pending_review id=45"
+    },
+    {
+      "type": "substance",
+      "id": "46",
+      "status": "pending_review",
+      "review_note": "[inv:sub.NO] batch4导入 pending_review id=46"
+    },
+    {
+      "type": "substance",
+      "id": "47",
+      "status": "pending_review",
+      "review_note": "[inv:sub.NO2] batch4导入 pending_review id=47"
+    },
+    {
+      "type": "substance",
+      "id": "48",
+      "status": "pending_review",
+      "review_note": "[inv:sub.HNO3] batch4导入 pending_review id=48"
+    },
+    {
+      "type": "substance",
+      "id": "49",
+      "status": "pending_review",
+      "review_note": "[inv:sub.C] batch4导入 pending_review id=49"
+    },
+    {
+      "type": "substance",
+      "id": "50",
+      "status": "pending_review",
+      "review_note": "[inv:sub.CO] batch4导入 pending_review id=50"
+    },
+    {
+      "type": "substance",
+      "id": "51",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Si] batch4导入 pending_review id=51"
+    },
+    {
+      "type": "substance",
+      "id": "52",
+      "status": "pending_review",
+      "review_note": "[inv:sub.SiO2] batch4导入 pending_review id=52"
+    },
+    {
+      "type": "substance",
+      "id": "53",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Na2SiO3] batch4导入 pending_review id=53"
+    },
+    {
+      "type": "substance",
+      "id": "54",
+      "status": "pending_review",
+      "review_note": "[inv:sub.P] 待核实:同素异形体对比细节;了解/拓展级;禁默认细对比绝对题;白磷禁操作题"
+    },
+    {
+      "type": "substance",
+      "id": "55",
+      "status": "pending_review",
+      "review_note": "[inv:sub.P4O10] 待核实:教材主写法;题干须指定P4O10或P2O5;禁混同绝对填空"
+    },
+    {
+      "type": "substance",
+      "id": "56",
+      "status": "pending_review",
+      "review_note": "[inv:sub.H2S] batch4导入 pending_review id=56"
+    },
+    {
+      "type": "substance",
+      "id": "57",
+      "status": "pending_review",
+      "review_note": "[inv:sub.CaCO3] batch4导入 pending_review id=57"
+    },
+    {
+      "type": "substance",
+      "id": "58",
+      "status": "pending_review",
+      "review_note": "[inv:sub.CaOH2] batch4导入 pending_review id=58"
+    },
+    {
+      "type": "substance",
+      "id": "59",
+      "status": "pending_review",
+      "review_note": "[inv:sub.Br2] 增补;勿展开溴含氧酸深度;默认训练限单质递变与颜色"
+    },
+    {
+      "type": "substance",
+      "id": "60",
+      "status": "pending_review",
+      "review_note": "[inv:sub.I2] 增补;淀粉变蓝;正价不进默认核心;可训淀粉检验"
+    },
+    {
+      "type": "substance",
+      "id": "61",
+      "status": "pending_review",
+      "review_note": "[inv:sub.bleaching_powder] 待核实:教材成分口径;混合物;禁精确组成绝对填空;excludeDefaultCompositionFill"
+    },
+    {
+      "type": "substance",
+      "id": "62",
+      "status": "pending_review",
+      "review_note": "[inv:sub.CH4] 正四面体;取代多种氯代产物勿写唯一"
+    },
+    {
+      "type": "substance",
+      "id": "63",
+      "status": "pending_review",
+      "review_note": "[inv:sub.C2H4] 结构简式CH2=CH2;KMnO4褪色不指定唯一氧化产物"
+    },
+    {
+      "type": "substance",
+      "id": "64",
+      "status": "pending_review",
+      "review_note": "[inv:sub.C2H6] batch6导入 pending_review id=64"
+    },
+    {
+      "type": "substance",
+      "id": "65",
+      "status": "pending_review",
+      "review_note": "[inv:sub.C2H5OH] 官能团羟基;催化氧化条件须写清Cu/Ag加热"
+    },
+    {
+      "type": "substance",
+      "id": "66",
+      "status": "pending_review",
+      "review_note": "[inv:sub.CH3COOH] 弱酸;羧基;酸性强于碳酸"
+    },
+    {
+      "type": "substance",
+      "id": "67",
+      "status": "pending_review",
+      "review_note": "[inv:sub.CH3COOCH2CH3] 可写CH3COOCH2CH3或CH3COOC2H5"
+    },
+    {
+      "type": "substance",
+      "id": "68",
+      "status": "pending_review",
+      "review_note": "[inv:sub.C2H2] curriculumScope:必修了解/待核实深度;结构HC≡CH;勿默认深度选修炔烃训练"
+    },
+    {
+      "type": "substance",
+      "id": "69",
+      "status": "pending_review",
+      "review_note": "[inv:sub.C3H8] batch6导入 pending_review id=69"
+    },
+    {
+      "type": "substance",
+      "id": "70",
+      "status": "pending_review",
+      "review_note": "[inv:sub.C6H6] curriculumScope:必修了解结构稳定性;不要默认深度选修芳香取代训练;scope限了解"
+    },
+    {
+      "type": "reaction",
+      "id": "1",
+      "status": "published",
+      "review_note": ""
+    },
+    {
+      "type": "reaction",
+      "id": "2",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.4Na_O2] canonical=4Na+O2=2Na2O; batch3导入 pending_review id=2"
+    },
+    {
+      "type": "reaction",
+      "id": "3",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.2Na_O2_heat] canonical=2Na+O2=Na2O2; batch3导入 pending_review id=3"
+    },
+    {
+      "type": "reaction",
+      "id": "4",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.2Na2O2_2H2O] canonical=2Na2O2+2H2O=4NaOH+O2; batch3导入 pending_review id=4"
+    },
+    {
+      "type": "reaction",
+      "id": "5",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.2Na2O2_2CO2] canonical=2Na2O2+2CO2=2Na2CO3+O2; batch3导入 pending_review id=5"
+    },
+    {
+      "type": "reaction",
+      "id": "6",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Na2O_H2O] canonical=Na2O+H2O=2NaOH; batch3导入 pending_review id=6"
+    },
+    {
+      "type": "reaction",
+      "id": "7",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.NaOH_CO2] 待核实:教材过量措辞;已写清用量分支"
+    },
+    {
+      "type": "reaction",
+      "id": "8",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.NaOH_HCl] canonical=NaOH+HCl=NaCl+H2O; batch3导入 pending_review id=8"
+    },
+    {
+      "type": "reaction",
+      "id": "9",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.NaHCO3_heat] canonical=2NaHCO3=Na2CO3+CO2+H2O; batch3导入 pending_review id=9"
+    },
+    {
+      "type": "reaction",
+      "id": "10",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Na2CO3_2HCl] canonical=Na2CO3+2HCl=2NaCl+CO2+H2O; batch3导入 pending_review id=10"
+    },
+    {
+      "type": "reaction",
+      "id": "11",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.2Mg_O2] canonical=2Mg+O2=2MgO; batch3导入 pending_review id=11"
+    },
+    {
+      "type": "reaction",
+      "id": "12",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Mg_2HCl] canonical=Mg+2HCl=MgCl2+H2; batch3导入 pending_review id=12"
+    },
+    {
+      "type": "reaction",
+      "id": "13",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Mg_CO2] canonical=2Mg+CO2=2MgO+C; batch3导入 pending_review id=13"
+    },
+    {
+      "type": "reaction",
+      "id": "14",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.4Al_3O2] B3整改:分条件写点燃燃烧与常温成膜"
+    },
+    {
+      "type": "reaction",
+      "id": "15",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.2Al_6HCl] canonical=2Al+6HCl=2AlCl3+3H2; batch3导入 pending_review id=15"
+    },
+    {
+      "type": "reaction",
+      "id": "16",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.2Al_2NaOH] 待核实:AlO2-与[Al(OH)4]-教材口径;命题须指定写法"
+    },
+    {
+      "type": "reaction",
+      "id": "17",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Al2O3_6HCl] canonical=Al2O3+6HCl=2AlCl3+3H2O; batch3导入 pending_review id=17"
+    },
+    {
+      "type": "reaction",
+      "id": "18",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Al2O3_2NaOH] 待核实:NaAlO2与Na[Al(OH)4]口径;命题指定写法"
+    },
+    {
+      "type": "reaction",
+      "id": "19",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.AlOH3_NaOH] 待核实:产物写法;命题指定口径"
+    },
+    {
+      "type": "reaction",
+      "id": "20",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.AlOH3_3HCl] canonical=Al(OH)3+3HCl=AlCl3+3H2O; batch3导入 pending_review id=20"
+    },
+    {
+      "type": "reaction",
+      "id": "21",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.3Fe_2O2] canonical=3Fe+2O2=Fe3O4; batch3导入 pending_review id=21"
+    },
+    {
+      "type": "reaction",
+      "id": "22",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Fe_H2SO4] canonical=Fe+H2SO4=FeSO4+H2; batch3导入 pending_review id=22"
+    },
+    {
+      "type": "reaction",
+      "id": "23",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Fe_CuSO4] canonical=Fe+CuSO4=FeSO4+Cu; batch3导入 pending_review id=23"
+    },
+    {
+      "type": "reaction",
+      "id": "24",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Fe2O3_3CO] canonical=Fe2O3+3CO=2Fe+3CO2; batch3导入 pending_review id=24"
+    },
+    {
+      "type": "reaction",
+      "id": "25",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Cu_O2_heat] canonical=2Cu+O2=2CuO; batch3导入 pending_review id=25"
+    },
+    {
+      "type": "reaction",
+      "id": "26",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.CuO_H2] canonical=CuO+H2=Cu+H2O; batch3导入 pending_review id=26"
+    },
+    {
+      "type": "reaction",
+      "id": "27",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.CuO_2HCl] canonical=CuO+2HCl=CuCl2+H2O; batch3导入 pending_review id=27"
+    },
+    {
+      "type": "reaction",
+      "id": "28",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Zn_H2SO4] canonical=Zn+H2SO4=ZnSO4+H2; batch3导入 pending_review id=28"
+    },
+    {
+      "type": "reaction",
+      "id": "29",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Zn_CuSO4] canonical=Zn+CuSO4=ZnSO4+Cu; batch3导入 pending_review id=29"
+    },
+    {
+      "type": "reaction",
+      "id": "30",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.FeOH2_O2] B3整改:明确ox/re产物口径;排除默认redox.identify"
+    },
+    {
+      "type": "reaction",
+      "id": "31",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.2Fe2_Cl2] 增补；代表反应 2Fe²⁺+Cl₂=2Fe³⁺+2Cl⁻；canonical建设时核对; batch3导入 pending_review id=31"
+    },
+    {
+      "type": "reaction",
+      "id": "32",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Na2CO3_CO2_H2O] 增补；Na2CO3+CO2+H2O=2NaHCO3；与 kp.Na.carbonate 关联; batch3导入 pending_review id=32"
+    },
+    {
+      "type": "reaction",
+      "id": "33",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.2Na_2HCl] B3整改:了解级;禁学生实验;排除默认实验操作训练"
+    },
+    {
+      "type": "reaction",
+      "id": "34",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.H2_Cl2] 化合反应ox/re产物同为HCl;光照实验高危勿学生操作题"
+    },
+    {
+      "type": "reaction",
+      "id": "35",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.2Na_Cl2] canonical=2Na+Cl2=2NaCl; batch4导入 pending_review id=35"
+    },
+    {
+      "type": "reaction",
+      "id": "36",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.2Fe_3Cl2] canonical=2Fe+3Cl2=2FeCl3; batch4导入 pending_review id=36"
+    },
+    {
+      "type": "reaction",
+      "id": "37",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Cl2_H2O] canonical=Cl2+H2O=HCl+HClO; batch4导入 pending_review id=37"
+    },
+    {
+      "type": "reaction",
+      "id": "38",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Cl2_2NaOH] 必须带冷/稀条件;禁无条件碱反应填空;热浓碱另产物"
+    },
+    {
+      "type": "reaction",
+      "id": "39",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.MnO2_4HCl] canonical=MnO2+4HCl(conc)=MnCl2+Cl2+2H2O; batch4导入 pending_review id=39"
+    },
+    {
+      "type": "reaction",
+      "id": "40",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.S_O2] canonical=S+O2=SO2; batch4导入 pending_review id=40"
+    },
+    {
+      "type": "reaction",
+      "id": "41",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.2SO2_O2] 工业条件了解;勿写成选修平衡定量"
+    },
+    {
+      "type": "reaction",
+      "id": "42",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.SO3_H2O] B4整改:非氧化还原;specialty去redox"
+    },
+    {
+      "type": "reaction",
+      "id": "43",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Cu_2H2SO4] canonical=Cu+2H2SO4(conc)=CuSO4+SO2+2H2O; batch4导入 pending_review id=43"
+    },
+    {
+      "type": "reaction",
+      "id": "44",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.C_2H2SO4] canonical=C+2H2SO4(conc)=CO2+2SO2+2H2O; batch4导入 pending_review id=44"
+    },
+    {
+      "type": "reaction",
+      "id": "45",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.N2_3H2] 条件与可逆了解;勿选修平衡定量"
+    },
+    {
+      "type": "reaction",
+      "id": "46",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.NH3_HCl] B4整改:非氧化还原;specialty去redox"
+    },
+    {
+      "type": "reaction",
+      "id": "47",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.4NH3_5O2] canonical=4NH3+5O2=4NO+6H2O; batch4导入 pending_review id=47"
+    },
+    {
+      "type": "reaction",
+      "id": "48",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.2NO_O2] canonical=2NO+O2=2NO2; batch4导入 pending_review id=48"
+    },
+    {
+      "type": "reaction",
+      "id": "49",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.3NO2_H2O] canonical=3NO2+H2O=2HNO3+NO; batch4导入 pending_review id=49"
+    },
+    {
+      "type": "reaction",
+      "id": "50",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Cu_4HNO3] 编码Cu_4HNO3易混;实际稀硝酸计量3Cu+8HNO3;题干必须写稀"
+    },
+    {
+      "type": "reaction",
+      "id": "51",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.Cu_4HNO3c] canonical=Cu+4HNO3(conc)=Cu(NO3)2+2NO2+2H2O; batch4导入 pending_review id=51"
+    },
+    {
+      "type": "reaction",
+      "id": "52",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.C_O2_incomplete] canonical=2C+O2=2CO; batch4导入 pending_review id=52"
+    },
+    {
+      "type": "reaction",
+      "id": "53",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.C_O2_complete] canonical=C+O2=CO2; batch4导入 pending_review id=53"
+    },
+    {
+      "type": "reaction",
+      "id": "54",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.CO2_CaOH2] B4整改:去redox专项;适量/过量分题"
+    },
+    {
+      "type": "reaction",
+      "id": "55",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.SiO2_2NaOH] B4整改:非氧化还原;specialty去redox;碱腐蚀玻璃"
+    },
+    {
+      "type": "reaction",
+      "id": "56",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.SiO2_2C] canonical=SiO2+2C=Si+2CO; batch4导入 pending_review id=56"
+    },
+    {
+      "type": "reaction",
+      "id": "57",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.CaCO3_2HCl] B4整改:非氧化还原;specialty去redox;保留离子式"
+    },
+    {
+      "type": "reaction",
+      "id": "58",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.NH4Cl_NaOH] 增补；加热生成氨气的代表反应; batch4导入 pending_review id=58"
+    },
+    {
+      "type": "reaction",
+      "id": "59",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.CH4_Cl2] CRITICAL:多种氯代产物CH3Cl/CH2Cl2/CHCl3/CCl4;canonical仅第一步示例;禁写唯一产物"
+    },
+    {
+      "type": "reaction",
+      "id": "60",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.C2H4_Br2] canonical~C2H4+Br2→C2H4Br2; batch6导入 pending_review id=60"
+    },
+    {
+      "type": "reaction",
+      "id": "61",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.C2H4_H2O] 条件:催化剂+加热加压;催化剂写法随教材(如磷酸)"
+    },
+    {
+      "type": "reaction",
+      "id": "62",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.C2H4_H2] canonical~C2H4+H2→C2H6; batch6导入 pending_review id=62"
+    },
+    {
+      "type": "reaction",
+      "id": "63",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.C2H5OH_O2] B6整改P0:ox=CH3CHO,re=H2O;条件Cu/Ag+加热;勿与燃烧产物口径混用"
+    },
+    {
+      "type": "reaction",
+      "id": "64",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.C2H5OH_burn] B6整改P0:完全燃烧ox=CO2,re=H2O;条件点燃+完全燃烧;勿机械推广到其他有机反应"
+    },
+    {
+      "type": "reaction",
+      "id": "65",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.esterification] 可逆;浓硫酸催化加热;species含酸与醇两侧"
+    },
+    {
+      "type": "reaction",
+      "id": "66",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.CH3COOH_NaOH] canonical~CH3COOH+NaOH→CH3COONa+H2O; batch6导入 pending_review id=66"
+    },
+    {
+      "type": "reaction",
+      "id": "67",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.CH3COOH_Na2CO3] B6整改:离子式CO3^2-;酸性强于碳酸;气体CO2↑"
+    },
+    {
+      "type": "reaction",
+      "id": "68",
+      "status": "pending_review",
+      "review_note": "[inv:rxn.C2H4_KMnO4] B6整改:ox/re均不指定唯一;仅现象训练;canonical描述性;禁唯一产物填空"
+    },
+    {
+      "type": "experiment",
+      "id": "1",
+      "status": "published",
+      "review_note": ""
+    },
+    {
+      "type": "experiment",
+      "id": "2",
+      "status": "pending_review",
+      "review_note": "[inv:exp.Na_O2] batch3导入 pending_review id=2"
+    },
+    {
+      "type": "experiment",
+      "id": "3",
+      "status": "pending_review",
+      "review_note": "[inv:exp.Na2O2_H2O] batch3导入 pending_review id=3"
+    },
+    {
+      "type": "experiment",
+      "id": "4",
+      "status": "pending_review",
+      "review_note": "[inv:exp.Al_amphoteric] batch3导入 pending_review id=4"
+    },
+    {
+      "type": "experiment",
+      "id": "5",
+      "status": "pending_review",
+      "review_note": "[inv:exp.Fe_rust] batch3导入 pending_review id=5"
+    },
+    {
+      "type": "experiment",
+      "id": "6",
+      "status": "pending_review",
+      "review_note": "[inv:exp.metal_activity] batch3导入 pending_review id=6"
+    },
+    {
+      "type": "experiment",
+      "id": "7",
+      "status": "pending_review",
+      "review_note": "[inv:exp.CuO_H2_reduce] batch3导入 pending_review id=7"
+    },
+    {
+      "type": "experiment",
+      "id": "8",
+      "status": "pending_review",
+      "review_note": "[inv:exp.Fe3_SCN] 增补；血红色现象; batch3导入 pending_review id=8 待核实:教材现象口径;非默认核心训练;excludeDefaultUntilVerified"
+    },
+    {
+      "type": "experiment",
+      "id": "9",
+      "status": "pending_review",
+      "review_note": "[inv:exp.Cl2_prep] 危险气体实验禁止家用; batch4导入 pending_review id=9"
+    },
+    {
+      "type": "experiment",
+      "id": "10",
+      "status": "pending_review",
+      "review_note": "[inv:exp.Cl2_property] 危险气体实验禁止家用; batch4导入 pending_review id=10"
+    },
+    {
+      "type": "experiment",
+      "id": "11",
+      "status": "pending_review",
+      "review_note": "[inv:exp.HCl_prep] 危险气体实验禁止家用; batch4导入 pending_review id=11"
+    },
+    {
+      "type": "experiment",
+      "id": "12",
+      "status": "pending_review",
+      "review_note": "[inv:exp.SO2_property] 危险气体实验禁止家用; batch4导入 pending_review id=12"
+    },
+    {
+      "type": "experiment",
+      "id": "13",
+      "status": "pending_review",
+      "review_note": "[inv:exp.NH3_prep] 危险气体实验禁止家用; batch4导入 pending_review id=13"
+    },
+    {
+      "type": "experiment",
+      "id": "14",
+      "status": "pending_review",
+      "review_note": "[inv:exp.HNO3_Cu] 危险气体实验禁止家用; batch4导入 pending_review id=14"
+    },
+    {
+      "type": "experiment",
+      "id": "15",
+      "status": "pending_review",
+      "review_note": "[inv:exp.CO2_property] 危险气体实验禁止家用; batch4导入 pending_review id=15"
+    },
+    {
+      "type": "experiment",
+      "id": "16",
+      "status": "pending_review",
+      "review_note": "[inv:exp.SiO2_glass] 危险气体实验禁止家用; batch4导入 pending_review id=16"
+    },
+    {
+      "type": "experiment",
+      "id": "17",
+      "status": "pending_review",
+      "review_note": "[inv:exp.instrument_basic] batch5导入 pending_review id=17"
+    },
+    {
+      "type": "experiment",
+      "id": "18",
+      "status": "pending_review",
+      "review_note": "[inv:exp.ops_weigh] batch5导入 pending_review id=18"
+    },
+    {
+      "type": "experiment",
+      "id": "19",
+      "status": "pending_review",
+      "review_note": "[inv:exp.ops_dissolve] batch5导入 pending_review id=19"
+    },
+    {
+      "type": "experiment",
+      "id": "20",
+      "status": "pending_review",
+      "review_note": "[inv:exp.ops_filter] batch5导入 pending_review id=20"
+    },
+    {
+      "type": "experiment",
+      "id": "21",
+      "status": "pending_review",
+      "review_note": "[inv:exp.ops_evaporate] batch5导入 pending_review id=21"
+    },
+    {
+      "type": "experiment",
+      "id": "22",
+      "status": "pending_review",
+      "review_note": "[inv:exp.ops_distill] priority2/认知级；勿按大学有机实验深度展开"
+    },
+    {
+      "type": "experiment",
+      "id": "23",
+      "status": "pending_review",
+      "review_note": "[inv:exp.ops_extract] 认知级；试剂示例随教材，勿鼓励实际操作"
+    },
+    {
+      "type": "experiment",
+      "id": "24",
+      "status": "pending_review",
+      "review_note": "[inv:exp.gas_collect_upward] batch5导入 pending_review id=24"
+    },
+    {
+      "type": "experiment",
+      "id": "25",
+      "status": "pending_review",
+      "review_note": "[inv:exp.gas_collect_downward] batch5导入 pending_review id=25"
+    },
+    {
+      "type": "experiment",
+      "id": "26",
+      "status": "pending_review",
+      "review_note": "[inv:exp.gas_collect_water] batch5导入 pending_review id=26"
+    },
+    {
+      "type": "experiment",
+      "id": "27",
+      "status": "pending_review",
+      "review_note": "[inv:exp.O2_prep_KMnO4] batch5导入 pending_review id=27"
+    },
+    {
+      "type": "experiment",
+      "id": "28",
+      "status": "pending_review",
+      "review_note": "[inv:exp.O2_prep_H2O2] batch5导入 pending_review id=28"
+    },
+    {
+      "type": "experiment",
+      "id": "29",
+      "status": "pending_review",
+      "review_note": "[inv:exp.H2_prep_Zn] 易燃气体；书面训练专用；强安全提示"
+    },
+    {
+      "type": "experiment",
+      "id": "30",
+      "status": "pending_review",
+      "review_note": "[inv:exp.CO2_prep_marble] batch5导入 pending_review id=30"
+    },
+    {
+      "type": "experiment",
+      "id": "31",
+      "status": "pending_review",
+      "review_note": "[inv:exp.check_airtight] batch5导入 pending_review id=31"
+    },
+    {
+      "type": "experiment",
+      "id": "32",
+      "status": "pending_review",
+      "review_note": "[inv:exp.safety_rules] batch5导入 pending_review id=32"
+    },
+    {
+      "type": "experiment",
+      "id": "33",
+      "status": "pending_review",
+      "review_note": "[inv:exp.ops_volumetric_flask] 与kp.calc.solution、kp.exp.error联动"
+    },
+    {
+      "type": "experiment",
+      "id": "34",
+      "status": "pending_review",
+      "review_note": "[inv:exp.ops_burette] 待核实是否必修核心；避免分析化学滴定深度"
+    },
+    {
+      "type": "experiment",
+      "id": "35",
+      "status": "pending_review",
+      "review_note": "[inv:exp.flame_test] Na/K/Cu颜色以人教必修常见表述；钴玻璃观察K；具体措辞待对照所用教材核实"
+    },
+    {
+      "type": "experiment",
+      "id": "36",
+      "status": "pending_review",
+      "review_note": "[inv:exp.CH4_property] 书面only;多种氯代产物"
+    },
+    {
+      "type": "experiment",
+      "id": "37",
+      "status": "pending_review",
+      "review_note": "[inv:exp.C2H4_prep] 约170℃;书面装置分析"
+    },
+    {
+      "type": "experiment",
+      "id": "38",
+      "status": "pending_review",
+      "review_note": "[inv:exp.C2H4_Br2] batch6导入 pending_review id=38"
+    },
+    {
+      "type": "experiment",
+      "id": "39",
+      "status": "pending_review",
+      "review_note": "[inv:exp.ethanol_oxid] batch6导入 pending_review id=39"
+    },
+    {
+      "type": "experiment",
+      "id": "40",
+      "status": "pending_review",
+      "review_note": "[inv:exp.esterification] batch6导入 pending_review id=40"
+    },
+    {
+      "type": "experiment",
+      "id": "41",
+      "status": "pending_review",
+      "review_note": "[inv:exp.acetic_acid] batch6导入 pending_review id=41"
+    },
+    {
+      "type": "experiment",
+      "id": "42",
+      "status": "pending_review",
+      "review_note": "[inv:exp.galvanic_Zn_Cu] 电解质CuSO4 vs 稀H2SO4正极不同;电子外电路;离子溶液迁移"
+    },
+    {
+      "type": "formula",
+      "id": "1",
+      "status": "published",
+      "review_note": ""
+    },
+    {
+      "type": "formula",
+      "id": "2",
+      "status": "pending_review",
+      "review_note": "[inv:formula.N_n_NA]"
+    },
+    {
+      "type": "formula",
+      "id": "3",
+      "status": "pending_review",
+      "review_note": "[inv:formula.Vm] B2整改:区分定义式与标况近似"
+    },
+    {
+      "type": "formula",
+      "id": "4",
+      "status": "pending_review",
+      "review_note": "[inv:formula.c_n_V]"
+    },
+    {
+      "type": "formula",
+      "id": "5",
+      "status": "pending_review",
+      "review_note": "[inv:formula.dilution]"
+    },
+    {
+      "type": "formula",
+      "id": "6",
+      "status": "pending_review",
+      "review_note": "[inv:formula.M_m_n] B2整改:补单位与适用说明"
+    },
+    {
+      "type": "formula",
+      "id": "7",
+      "status": "pending_review",
+      "review_note": "[inv:formula.rho_c_M] P0已修:明确 ρ(g/cm³)+ω(小数)+1000 系数；g/L 时用 c=ρω/M"
+    },
+    {
+      "type": "formula",
+      "id": "8",
+      "status": "pending_review",
+      "review_note": "[inv:formula.mass_percent]"
+    },
+    {
+      "type": "formula",
+      "id": "9",
+      "status": "pending_review",
+      "review_note": "[inv:formula.equation_ratio] B2整改:补过量与不足量条件"
+    },
+    {
+      "type": "formula",
+      "id": "10",
+      "status": "pending_review",
+      "review_note": "[inv:formula.electron_transfer]"
+    },
+    {
+      "type": "formula",
+      "id": "11",
+      "status": "pending_review",
+      "review_note": "[inv:formula.gas_STP] B2整改:写明0℃、101kPa"
+    },
+    {
+      "type": "formula",
+      "id": "12",
+      "status": "pending_review",
+      "review_note": "[inv:formula.Avogadro]"
+    },
+    {
+      "type": "formula",
+      "id": "13",
+      "status": "pending_review",
+      "review_note": "[inv:formula.mixed_stoich] batch5导入 pending_review id=13"
+    },
+    {
+      "type": "formula",
+      "id": "14",
+      "status": "pending_review",
+      "review_note": "[inv:formula.excess_reactant] batch5导入 pending_review id=14"
+    },
+    {
+      "type": "formula",
+      "id": "15",
+      "status": "pending_review",
+      "review_note": "[inv:formula.purity] batch5导入 pending_review id=15"
+    },
+    {
+      "type": "formula",
+      "id": "16",
+      "status": "pending_review",
+      "review_note": "[inv:formula.ion_conc] 禁Ka平衡计算；仅入门强电解质"
+    },
+    {
+      "type": "formula",
+      "id": "17",
+      "status": "pending_review",
+      "review_note": "[inv:formula.rate_v] 平均速率口径；非选修深度"
+    },
+    {
+      "type": "concept",
+      "id": "1",
+      "status": "published",
+      "review_note": ""
+    },
+    {
+      "type": "concept",
+      "id": "2",
+      "status": "pending_review",
+      "review_note": "[inv:concept.substance_class]"
+    },
+    {
+      "type": "concept",
+      "id": "3",
+      "status": "pending_review",
+      "review_note": "[inv:concept.pure_mixture]"
+    },
+    {
+      "type": "concept",
+      "id": "4",
+      "status": "pending_review",
+      "review_note": "[inv:concept.elemental_compound] B2整改:定义补“纯净物”"
+    },
+    {
+      "type": "concept",
+      "id": "5",
+      "status": "pending_review",
+      "review_note": "[inv:concept.electrolyte]"
+    },
+    {
+      "type": "concept",
+      "id": "6",
+      "status": "pending_review",
+      "review_note": "[inv:concept.nonelectrolyte]"
+    },
+    {
+      "type": "concept",
+      "id": "7",
+      "status": "pending_review",
+      "review_note": "[inv:concept.ionization]"
+    },
+    {
+      "type": "concept",
+      "id": "8",
+      "status": "pending_review",
+      "review_note": "[inv:concept.ionic_reaction]"
+    },
+    {
+      "type": "concept",
+      "id": "9",
+      "status": "pending_review",
+      "review_note": "[inv:concept.ion_coexist]"
+    },
+    {
+      "type": "concept",
+      "id": "10",
+      "status": "pending_review",
+      "review_note": "[inv:concept.oxidant_reductant]"
+    },
+    {
+      "type": "concept",
+      "id": "11",
+      "status": "pending_review",
+      "review_note": "[inv:concept.valence_rules]"
+    },
+    {
+      "type": "concept",
+      "id": "12",
+      "status": "pending_review",
+      "review_note": "[inv:concept.periodic_law]"
+    },
+    {
+      "type": "concept",
+      "id": "13",
+      "status": "pending_review",
+      "review_note": "[inv:concept.metal_trend]"
+    },
+    {
+      "type": "concept",
+      "id": "14",
+      "status": "pending_review",
+      "review_note": "[inv:concept.nonmetal_trend]"
+    },
+    {
+      "type": "concept",
+      "id": "15",
+      "status": "pending_review",
+      "review_note": "[inv:concept.ionic_bond]"
+    },
+    {
+      "type": "concept",
+      "id": "16",
+      "status": "pending_review",
+      "review_note": "[inv:concept.covalent_bond]"
+    },
+    {
+      "type": "concept",
+      "id": "17",
+      "status": "pending_review",
+      "review_note": "[inv:concept.reaction_rate]"
+    },
+    {
+      "type": "concept",
+      "id": "18",
+      "status": "pending_review",
+      "review_note": "[inv:concept.reaction_extent]"
+    },
+    {
+      "type": "concept",
+      "id": "19",
+      "status": "pending_review",
+      "review_note": "[inv:concept.mass_conserve]"
+    },
+    {
+      "type": "concept",
+      "id": "20",
+      "status": "pending_review",
+      "review_note": "[inv:concept.charge_conserve] B2整改:改为电荷代数和表述"
+    },
+    {
+      "type": "concept",
+      "id": "21",
+      "status": "pending_review",
+      "review_note": "[inv:concept.electron_conserve]"
+    },
+    {
+      "type": "concept",
+      "id": "22",
+      "status": "pending_review",
+      "review_note": "[inv:concept.solution_colloid]"
+    },
+    {
+      "type": "concept",
+      "id": "23",
+      "status": "pending_review",
+      "review_note": "[inv:concept.acid_base_salt]"
+    },
+    {
+      "type": "concept",
+      "id": "24",
+      "status": "pending_review",
+      "review_note": "[inv:concept.oxide_class]"
+    },
+    {
+      "type": "concept",
+      "id": "25",
+      "status": "pending_review",
+      "review_note": "[inv:concept.alloy] B3整改P0:熔点/硬度分述;禁绝对化"
+    },
+    {
+      "type": "concept",
+      "id": "26",
+      "status": "pending_review",
+      "review_note": "[inv:concept.reversible] 与 concept.reaction_extent 互补；禁选修计算默认训练"
+    },
+    {
+      "type": "concept",
+      "id": "27",
+      "status": "pending_review",
+      "review_note": "[inv:concept.homolog] batch6导入 pending_review id=27"
+    },
+    {
+      "type": "concept",
+      "id": "28",
+      "status": "pending_review",
+      "review_note": "[inv:concept.isomer] 高一书写技能有限;复杂推断限默认训练"
+    },
+    {
+      "type": "concept",
+      "id": "29",
+      "status": "pending_review",
+      "review_note": "[inv:concept.functional_group] batch6导入 pending_review id=29"
+    },
+    {
+      "type": "concept",
+      "id": "30",
+      "status": "pending_review",
+      "review_note": "[inv:concept.substitution] batch6导入 pending_review id=30"
+    },
+    {
+      "type": "concept",
+      "id": "31",
+      "status": "pending_review",
+      "review_note": "[inv:concept.addition] batch6导入 pending_review id=31"
+    },
+    {
+      "type": "concept",
+      "id": "32",
+      "status": "pending_review",
+      "review_note": "[inv:concept.esterification_rule] batch6导入 pending_review id=32"
+    },
+    {
+      "type": "concept",
+      "id": "33",
+      "status": "pending_review",
+      "review_note": "[inv:concept.endothermic] 加热≠吸热判据;断键吸能成键放能"
+    },
+    {
+      "type": "concept",
+      "id": "34",
+      "status": "pending_review",
+      "review_note": "[inv:concept.exothermic] 加热≠吸热判据;总热效应看相对大小"
+    },
+    {
+      "type": "concept",
+      "id": "35",
+      "status": "pending_review",
+      "review_note": "[inv:concept.heat_of_reaction] 待教材核实:verifyNeeded;概念级;禁复杂定量默认训练;curriculumScope:必修第二册"
+    },
+    {
+      "type": "concept",
+      "id": "36",
+      "status": "pending_review",
+      "review_note": "[inv:concept.addition_polymer] 乙烯加聚示例;范围按必修了解"
+    },
+    {
+      "type": "knowledge",
+      "id": "1",
+      "status": "published",
+      "review_note": "[kp.redox] 最终整改:完善定义/升降/电子转移/氧化剂还原剂/判断"
+    },
+    {
+      "type": "knowledge",
+      "id": "2",
+      "status": "published",
+      "review_note": ""
+    },
+    {
+      "type": "knowledge",
+      "id": "3",
+      "status": "published",
+      "review_note": ""
+    },
+    {
+      "type": "knowledge",
+      "id": "4",
+      "status": "published",
+      "review_note": ""
+    },
+    {
+      "type": "knowledge",
+      "id": "5",
+      "status": "published",
+      "review_note": "[kp.Na.property] B3整改:分条件写与O2/水/酸/盐;非人工审核"
+    },
+    {
+      "type": "knowledge",
+      "id": "6",
+      "status": "pending_review",
+      "review_note": "[inv:kp.redox.ox_product] parent=kp.redox"
+    },
+    {
+      "type": "knowledge",
+      "id": "7",
+      "status": "pending_review",
+      "review_note": "[inv:kp.redox.re_product] parent=kp.redox"
+    },
+    {
+      "type": "knowledge",
+      "id": "8",
+      "status": "pending_review",
+      "review_note": "[inv:kp.redox.e_transfer] parent=kp.redox"
+    },
+    {
+      "type": "knowledge",
+      "id": "9",
+      "status": "pending_review",
+      "review_note": "[inv:kp.redox.e_conserve] parent=kp.redox"
+    },
+    {
+      "type": "knowledge",
+      "id": "10",
+      "status": "pending_review",
+      "review_note": "[inv:kp.ion.electrolyte] B2整改:补完整定义与单质边界"
+    },
+    {
+      "type": "knowledge",
+      "id": "11",
+      "status": "pending_review",
+      "review_note": "[inv:kp.ion.ionization_eq]"
+    },
+    {
+      "type": "knowledge",
+      "id": "12",
+      "status": "pending_review",
+      "review_note": "[inv:kp.ion.coexist]"
+    },
+    {
+      "type": "knowledge",
+      "id": "13",
+      "status": "pending_review",
+      "review_note": "[inv:kp.ion.ionic_eq] B2整改:补微溶/过量/酸式盐边界提示"
+    },
+    {
+      "type": "knowledge",
+      "id": "14",
+      "status": "pending_review",
+      "review_note": "[inv:kp.structure.atom] | P0fix:质量数改用A=Z+N等号，区分相对原子质量"
+    },
+    {
+      "type": "knowledge",
+      "id": "15",
+      "status": "pending_review",
+      "review_note": "[inv:kp.structure.isotope]"
+    },
+    {
+      "type": "knowledge",
+      "id": "16",
+      "status": "pending_review",
+      "review_note": "[inv:kp.structure.bond]"
+    },
+    {
+      "type": "knowledge",
+      "id": "17",
+      "status": "pending_review",
+      "review_note": "[inv:kp.structure.electron_formula] B2整改:区分简单/复杂阳离子"
+    },
+    {
+      "type": "knowledge",
+      "id": "18",
+      "status": "pending_review",
+      "review_note": "[inv:kp.periodic.position]"
+    },
+    {
+      "type": "knowledge",
+      "id": "19",
+      "status": "pending_review",
+      "review_note": "[inv:kp.periodic.e_config]"
+    },
+    {
+      "type": "knowledge",
+      "id": "20",
+      "status": "pending_review",
+      "review_note": "[inv:kp.periodic.trend] B2整改:补具体递变方向与比较方法"
+    },
+    {
+      "type": "knowledge",
+      "id": "21",
+      "status": "pending_review",
+      "review_note": "[inv:kp.calc.amount] B2整改:强调非标况不可用22.4"
+    },
+    {
+      "type": "knowledge",
+      "id": "22",
+      "status": "pending_review",
+      "review_note": "[inv:kp.calc.concentration]"
+    },
+    {
+      "type": "knowledge",
+      "id": "23",
+      "status": "pending_review",
+      "review_note": "[inv:kp.calc.dilution]"
+    },
+    {
+      "type": "knowledge",
+      "id": "24",
+      "status": "pending_review",
+      "review_note": "[inv:kp.memory.valence_table] B2整改:补Fe/Cu/H等变价"
+    },
+    {
+      "type": "knowledge",
+      "id": "25",
+      "status": "pending_review",
+      "review_note": "[inv:kp.memory.ion_table] B2整改:补Fe²⁺/Ag⁺/S²⁻等"
+    },
+    {
+      "type": "knowledge",
+      "id": "26",
+      "status": "pending_review",
+      "review_note": "[inv:kp.memory.color_table] B2整改:补卤素与Fe²⁺，MnO₄⁻标拓展"
+    },
+    {
+      "type": "knowledge",
+      "id": "27",
+      "status": "pending_review",
+      "review_note": "[inv:kp.Na.oxide] batch3导入 pending_review id=27"
+    },
+    {
+      "type": "knowledge",
+      "id": "28",
+      "status": "pending_review",
+      "review_note": "[inv:kp.Na.carbonate] batch3导入 pending_review id=28"
+    },
+    {
+      "type": "knowledge",
+      "id": "29",
+      "status": "pending_review",
+      "review_note": "[inv:kp.Al.amphoteric] batch3导入 pending_review id=29"
+    },
+    {
+      "type": "knowledge",
+      "id": "30",
+      "status": "pending_review",
+      "review_note": "[inv:kp.Fe.property] batch3导入 pending_review id=30"
+    },
+    {
+      "type": "knowledge",
+      "id": "31",
+      "status": "pending_review",
+      "review_note": "[inv:kp.metal.activity] batch3导入 pending_review id=31"
+    },
+    {
+      "type": "knowledge",
+      "id": "32",
+      "status": "pending_review",
+      "review_note": "[inv:kp.metal.smelting] batch3导入 pending_review id=32"
+    },
+    {
+      "type": "knowledge",
+      "id": "33",
+      "status": "pending_review",
+      "review_note": "[inv:kp.Fe.fe2_property] 增补；还原性、浅绿色水溶液等; batch3导入 pending_review id=33"
+    },
+    {
+      "type": "knowledge",
+      "id": "34",
+      "status": "pending_review",
+      "review_note": "[inv:kp.Fe.fe3_property] 增补；氧化性、黄色/棕黄色溶液等; batch3导入 pending_review id=34"
+    },
+    {
+      "type": "knowledge",
+      "id": "35",
+      "status": "pending_review",
+      "review_note": "[inv:kp.Fe.fe2_fe3] B3整改:核心剂与了解剂分开;排除未标记深剂默认训练"
+    },
+    {
+      "type": "knowledge",
+      "id": "36",
+      "status": "pending_review",
+      "review_note": "[inv:kp.Fe.test] 增补；KSCN、碱沉淀颜色等；实验细节见 exp.Fe3_SCN; batch3导入 pending_review id=36"
+    },
+    {
+      "type": "knowledge",
+      "id": "37",
+      "status": "pending_review",
+      "review_note": "[inv:kp.Fe.salt] 增补；概括两类盐；代表物见 sub.FeSO4 / sub.FeCl3; batch3导入 pending_review id=37"
+    },
+    {
+      "type": "knowledge",
+      "id": "38",
+      "status": "pending_review",
+      "review_note": "[inv:kp.metal.pig_iron] 了解级;含碳量待教材核实;排除默认百分数题"
+    },
+    {
+      "type": "knowledge",
+      "id": "39",
+      "status": "pending_review",
+      "review_note": "[inv:kp.metal.steel] 了解级;含碳量待教材核实;排除默认百分数题"
+    },
+    {
+      "type": "knowledge",
+      "id": "40",
+      "status": "pending_review",
+      "review_note": "[inv:kp.metal.stainless] 了解级;排除默认核心训练"
+    },
+    {
+      "type": "knowledge",
+      "id": "41",
+      "status": "pending_review",
+      "review_note": "[inv:kp.Al.salt_aluminate] 待核实:AlO2-与[Al(OH)4]-口径"
+    },
+    {
+      "type": "knowledge",
+      "id": "42",
+      "status": "pending_review",
+      "review_note": "[inv:kp.Cl.property] batch4导入 pending_review id=42"
+    },
+    {
+      "type": "knowledge",
+      "id": "43",
+      "status": "pending_review",
+      "review_note": "[inv:kp.Cl.prep] batch4导入 pending_review id=43"
+    },
+    {
+      "type": "knowledge",
+      "id": "44",
+      "status": "pending_review",
+      "review_note": "[inv:kp.S.oxide] batch4导入 pending_review id=44"
+    },
+    {
+      "type": "knowledge",
+      "id": "45",
+      "status": "pending_review",
+      "review_note": "[inv:kp.N.cycle] batch4导入 pending_review id=45"
+    },
+    {
+      "type": "knowledge",
+      "id": "46",
+      "status": "pending_review",
+      "review_note": "[inv:kp.N.ammonia] batch4导入 pending_review id=46"
+    },
+    {
+      "type": "knowledge",
+      "id": "47",
+      "status": "pending_review",
+      "review_note": "[inv:kp.C.oxide] batch4导入 pending_review id=47"
+    },
+    {
+      "type": "knowledge",
+      "id": "48",
+      "status": "pending_review",
+      "review_note": "[inv:kp.Si.property] batch4导入 pending_review id=48"
+    },
+    {
+      "type": "knowledge",
+      "id": "49",
+      "status": "pending_review",
+      "review_note": "[inv:kp.nonmetal.test] batch4导入 pending_review id=49"
+    },
+    {
+      "type": "knowledge",
+      "id": "50",
+      "status": "pending_review",
+      "review_note": "[inv:kp.S.conc_H2SO4] 增补；吸水性、脱水性、强氧化性；与稀硫酸对比; batch4导入 pending_review id=50"
+    },
+    {
+      "type": "knowledge",
+      "id": "51",
+      "status": "pending_review",
+      "review_note": "[inv:kp.N.ammonium] 增补；受热分解、与碱反应等; batch4导入 pending_review id=51"
+    },
+    {
+      "type": "knowledge",
+      "id": "52",
+      "status": "pending_review",
+      "review_note": "[inv:kp.halogen.compare] 深度含氧酸了解;勿超纲默认训练"
+    },
+    {
+      "type": "knowledge",
+      "id": "53",
+      "status": "pending_review",
+      "review_note": "[inv:kp.N.synth_ammonia] 勿选修平衡定量默认训练"
+    },
+    {
+      "type": "knowledge",
+      "id": "54",
+      "status": "pending_review",
+      "review_note": "[inv:kp.Cl.bleach] 增补；次氯酸漂白；与 SO2 漂白对比见 batch4 实验; batch4导入 pending_review id=54"
+    },
+    {
+      "type": "knowledge",
+      "id": "55",
+      "status": "pending_review",
+      "review_note": "[inv:kp.calc.stoich] batch5导入 pending_review id=55"
+    },
+    {
+      "type": "knowledge",
+      "id": "56",
+      "status": "pending_review",
+      "review_note": "[inv:kp.calc.excess] batch5导入 pending_review id=56"
+    },
+    {
+      "type": "knowledge",
+      "id": "57",
+      "status": "pending_review",
+      "review_note": "[inv:kp.calc.gas] Vm=22.4仅标况；禁非标况套用"
+    },
+    {
+      "type": "knowledge",
+      "id": "58",
+      "status": "pending_review",
+      "review_note": "[inv:kp.calc.solution] batch5导入 pending_review id=58"
+    },
+    {
+      "type": "knowledge",
+      "id": "59",
+      "status": "pending_review",
+      "review_note": "[inv:kp.exp.design] batch5导入 pending_review id=59"
+    },
+    {
+      "type": "knowledge",
+      "id": "60",
+      "status": "pending_review",
+      "review_note": "[inv:kp.exp.error] B5整改:容量瓶分阶段对照;禁无阶段绝对偏向题"
+    },
+    {
+      "type": "knowledge",
+      "id": "61",
+      "status": "pending_review",
+      "review_note": "[inv:kp.exp.gas_wash_dry] 增补；试剂选择与顺序; batch5导入 pending_review id=61"
+    },
+    {
+      "type": "knowledge",
+      "id": "62",
+      "status": "pending_review",
+      "review_note": "[inv:kp.rate.factors] 关联 concept.reaction_rate"
+    },
+    {
+      "type": "knowledge",
+      "id": "63",
+      "status": "pending_review",
+      "review_note": "[inv:kp.extent.le_chatelier_basic] 待核实:教材深度与命名;仅极浅定性;excludeDefaultEquilibriumCalc"
+    },
+    {
+      "type": "knowledge",
+      "id": "64",
+      "status": "pending_review",
+      "review_note": "[inv:kp.organic.methane] batch6导入 pending_review id=64"
+    },
+    {
+      "type": "knowledge",
+      "id": "65",
+      "status": "pending_review",
+      "review_note": "[inv:kp.organic.alkane] batch6导入 pending_review id=65"
+    },
+    {
+      "type": "knowledge",
+      "id": "66",
+      "status": "pending_review",
+      "review_note": "[inv:kp.organic.ethene] batch6导入 pending_review id=66"
+    },
+    {
+      "type": "knowledge",
+      "id": "67",
+      "status": "pending_review",
+      "review_note": "[inv:kp.organic.ethanol] batch6导入 pending_review id=67"
+    },
+    {
+      "type": "knowledge",
+      "id": "68",
+      "status": "pending_review",
+      "review_note": "[inv:kp.organic.acetic] batch6导入 pending_review id=68"
+    },
+    {
+      "type": "knowledge",
+      "id": "69",
+      "status": "pending_review",
+      "review_note": "[inv:kp.organic.isomer_skill] 高一基础书写;复杂推断限默认"
+    },
+    {
+      "type": "knowledge",
+      "id": "70",
+      "status": "pending_review",
+      "review_note": "[inv:kp.inference.color] batch6导入 pending_review id=70"
+    },
+    {
+      "type": "knowledge",
+      "id": "71",
+      "status": "pending_review",
+      "review_note": "[inv:kp.inference.block] batch6导入 pending_review id=71"
+    },
+    {
+      "type": "knowledge",
+      "id": "72",
+      "status": "pending_review",
+      "review_note": "[inv:kp.inference.conversion] batch6导入 pending_review id=72"
+    },
+    {
+      "type": "knowledge",
+      "id": "73",
+      "status": "pending_review",
+      "review_note": "[inv:kp.comprehensive.basic] batch6导入 pending_review id=73"
+    },
+    {
+      "type": "knowledge",
+      "id": "74",
+      "status": "pending_review",
+      "review_note": "[inv:kp.energy.bond_change] 增补；断键吸热、成键放热（中学口径）; batch6导入 pending_review id=74"
+    },
+    {
+      "type": "knowledge",
+      "id": "75",
+      "status": "pending_review",
+      "review_note": "[inv:kp.energy.chem_electric] 增补; batch6导入 pending_review id=75; B6整改:category redox.e_transfer→e_direction"
+    },
+    {
+      "type": "knowledge",
+      "id": "76",
+      "status": "pending_review",
+      "review_note": "[inv:kp.energy.galvanic] B6整改:收窄专项去掉experiment主挂;电子外电路;离子在电解质;不必须两种不同金属"
+    },
+    {
+      "type": "knowledge",
+      "id": "77",
+      "status": "pending_review",
+      "review_note": "[inv:kp.energy.galvanic_poles] 增补; batch6导入 pending_review id=77"
+    },
+    {
+      "type": "knowledge",
+      "id": "78",
+      "status": "pending_review",
+      "review_note": "[inv:kp.energy.electron_flow] 增补；外电路电子由负极到正极; batch6导入 pending_review id=78"
+    },
+    {
+      "type": "knowledge",
+      "id": "79",
+      "status": "pending_review",
+      "review_note": "[inv:kp.energy.electrode_rxn] 增补; batch6导入 pending_review id=79"
+    },
+    {
+      "type": "knowledge",
+      "id": "80",
+      "status": "pending_review",
+      "review_note": "[inv:kp.energy.chem_power] 了解级;勿展开工程细节"
+    },
+    {
+      "type": "knowledge",
+      "id": "81",
+      "status": "pending_review",
+      "review_note": "[inv:kp.energy.thermo_eq] 增补；注明物质聚集状态与ΔH 符号口径; batch6导入 pending_review id=81"
+    },
+    {
+      "type": "knowledge",
+      "id": "82",
+      "status": "pending_review",
+      "review_note": "[inv:kp.sustain.seawater] 增补; batch6导入 pending_review id=82"
+    },
+    {
+      "type": "knowledge",
+      "id": "83",
+      "status": "pending_review",
+      "review_note": "[inv:kp.sustain.coal] 增补; batch6导入 pending_review id=83"
+    },
+    {
+      "type": "knowledge",
+      "id": "84",
+      "status": "pending_review",
+      "review_note": "[inv:kp.organic.petroleum] 增补；物理变化认识; batch6导入 pending_review id=84"
+    },
+    {
+      "type": "knowledge",
+      "id": "85",
+      "status": "pending_review",
+      "review_note": "[inv:kp.organic.cracking] 待教材核实:与裂解区分;深度待核实;excludeDefaultTrainingUntilVerified;非人工已审"
+    },
+    {
+      "type": "knowledge",
+      "id": "86",
+      "status": "pending_review",
+      "review_note": "[inv:kp.organic.pyrolysis] 待教材核实:与裂化区分;深度待核实;excludeDefaultTrainingUntilVerified;非人工已审"
+    },
+    {
+      "type": "knowledge",
+      "id": "87",
+      "status": "pending_review",
+      "review_note": "[inv:kp.sustain.natural_gas] 增补; batch6导入 pending_review id=87"
+    },
+    {
+      "type": "knowledge",
+      "id": "88",
+      "status": "pending_review",
+      "review_note": "[inv:kp.sustain.fertilizer] 增补; batch6导入 pending_review id=88"
+    },
+    {
+      "type": "knowledge",
+      "id": "89",
+      "status": "pending_review",
+      "review_note": "[inv:kp.sustain.pesticide] 增补; batch6导入 pending_review id=89"
+    },
+    {
+      "type": "knowledge",
+      "id": "90",
+      "status": "pending_review",
+      "review_note": "[inv:kp.sustain.medicine] 增补; batch6导入 pending_review id=90"
+    },
+    {
+      "type": "knowledge",
+      "id": "91",
+      "status": "pending_review",
+      "review_note": "[inv:kp.sustain.food_additive] 增补；合理使用与安全认知; batch6导入 pending_review id=91"
+    },
+    {
+      "type": "knowledge",
+      "id": "92",
+      "status": "pending_review",
+      "review_note": "[inv:kp.enviro.pollution] 增补; batch6导入 pending_review id=92"
+    },
+    {
+      "type": "knowledge",
+      "id": "93",
+      "status": "pending_review",
+      "review_note": "[inv:kp.enviro.acid_rain] 增补；主知识在综合批；非金属批通过关联引用; batch6导入 pending_review id=93"
+    },
+    {
+      "type": "knowledge",
+      "id": "94",
+      "status": "pending_review",
+      "review_note": "[inv:kp.sustain.green_chem] 增补; batch6导入 pending_review id=94"
+    },
+    {
+      "type": "knowledge",
+      "id": "95",
+      "status": "pending_review",
+      "review_note": "[inv:kp.sustain.atom_economy] 待教材核实:概念级;计算题深度待核实;excludeDefaultTrainingUntilVerified;已去掉calculation.mixed默认关联;非人工已审"
+    },
+    {
+      "type": "knowledge",
+      "id": "96",
+      "status": "pending_review",
+      "review_note": "[inv:kp.organic.biomolecule] 待教材核实:覆盖深度;认知级;勿展开代谢;excludeDefaultTrainingUntilVerified;非人工已审"
+    },
+    {
+      "type": "question",
+      "id": "1",
+      "status": "published",
+      "review_note": ""
+    },
+    {
+      "type": "question",
+      "id": "2",
+      "status": "pending_review",
+      "review_note": "[inv:q.calc.amount_basic] 骨架；可替换数据后充实为正式训练题 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "3",
+      "status": "pending_review",
+      "review_note": "[inv:q.calc.concentration] 骨架；单位得分点：mol/L [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "4",
+      "status": "pending_review",
+      "review_note": "[inv:q.calc.equation] 骨架；计算短答模板 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "5",
+      "status": "pending_review",
+      "review_note": "[inv:q.calc.excess] B5整改:单一数据组过量骨架;可作模板 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "6",
+      "status": "pending_review",
+      "review_note": "[inv:q.exp.instrument] 骨架；仪器识别选择题模板 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "7",
+      "status": "pending_review",
+      "review_note": "[inv:q.exp.gas_collect] 骨架；气体收集方法判断模板 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "8",
+      "status": "pending_review",
+      "review_note": "[inv:q.exp.safety] 骨架；安全判断题；强化禁家用 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "9",
+      "status": "pending_review",
+      "review_note": "[inv:q.eq.balance] 骨架；方程式配平填空模板 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "10",
+      "status": "pending_review",
+      "review_note": "[inv:q.organic.methane] 骨架非正式训练题;可充实选项 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "11",
+      "status": "pending_review",
+      "review_note": "[inv:q.organic.ethene] 骨架非正式训练题 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "12",
+      "status": "pending_review",
+      "review_note": "[inv:q.organic.ethanol] 骨架非正式训练题 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "13",
+      "status": "pending_review",
+      "review_note": "[inv:q.organic.ester] 骨架非正式训练题 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "14",
+      "status": "pending_review",
+      "review_note": "[inv:q.organic.isomer] 骨架非正式训练题;基础书写 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "15",
+      "status": "pending_review",
+      "review_note": "[inv:q.inference.block] 骨架非正式训练题;框图模板 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "16",
+      "status": "pending_review",
+      "review_note": "[inv:q.inference.phenomenon] 骨架非正式训练题 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "17",
+      "status": "pending_review",
+      "review_note": "[inv:q.substance.NaOH] 骨架非正式训练题 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    },
+    {
+      "type": "question",
+      "id": "18",
+      "status": "pending_review",
+      "review_note": "[inv:q.comprehensive.mock] 骨架非正式训练题;综合模拟组 [trainLimit:非正式卷库骨架;禁无约束自动组卷判题;引擎未实现前本备注≠访问控制]"
+    }
+  ]
+}

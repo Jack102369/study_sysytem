@@ -1,0 +1,218 @@
+{
+  "items": [
+    {
+      "type": "experiment",
+      "data": {
+        "homeForbiddenNote": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "isHazardous": false,
+        "name": "甲烷性质实验认知",
+        "category": "property",
+        "purpose": "书面分析题训练：认识甲烷的可燃性及光照下与氯气取代的主要现象与结论，理解多种氯代产物可能并存。",
+        "principle": "甲烷可燃烧生成CO2和H2O。光照下与Cl2发生取代，可生成CH3Cl、CH2Cl2、CHCl3、CCl4等多种产物，不得写为唯一产物。",
+        "instruments": "集气瓶、导管、光源（题设）、燃烧匙或导管点燃装置（图示）等",
+        "reagents": "CH4、Cl2、空气/O2（燃烧题设）",
+        "steps": "1.对照图示判断气体验纯与点燃要点；2.分析CH4与Cl2混合光照的现象描述；3.判断产物是否可能为混合物；4.安全与尾气评价（书面）。",
+        "phenomenon": "燃烧；氯气黄绿色变浅、可能出现油状液滴；生成HCl使石蕊变红（题设）。",
+        "conclusion": "甲烷可燃；光照下可发生取代且产物多样；实验仅作现象与原理书面训练。",
+        "precautions": "混合气体遇火源危险；Cl2有毒须尾气处理；禁止家用。",
+        "safetyNotes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 氯气与可燃气体实验高危，禁止动手。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.CH4_property] 书面only;多种氯代产物"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "homeForbiddenNote": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "isHazardous": false,
+        "name": "乙烯的实验室制法",
+        "category": "gas_prep",
+        "purpose": "书面分析题训练：掌握乙醇浓硫酸加热制乙烯的原理、温度控制、装置与杂质干扰评价要点。",
+        "principle": "实验室常用乙醇与浓硫酸混合加热至约170℃制乙烯（消去，教材表述）：CH3CH2OH →浓H2SO4、170℃→ CH2=CH2↑ + H2O。温度不当可能生成乙醚等副产物（了解/题设）。",
+        "instruments": "圆底烧瓶、温度计、酒精灯、导管、集气瓶或后续性质检验装置等",
+        "reagents": "乙醇、浓硫酸；碎瓷片（防暴沸，题设）",
+        "steps": "1.检查气密性；2.按比例加入试剂与碎瓷片；3.迅速升温至约170℃；4.收集或通入后续试剂检验；5.评价尾气与废液处理（书面）。",
+        "phenomenon": "产生气体；后续可使溴水或酸性KMnO4褪色（性质联动题设）。",
+        "conclusion": "可用乙醇浓硫酸加热制乙烯；温度与防暴沸是常考点。",
+        "precautions": "温度计水银球位置；防暴沸；浓硫酸腐蚀；控制温度减少副反应。",
+        "safetyNotes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 浓硫酸加热高危，禁止家用。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.C2H4_prep] 约170℃;书面装置分析"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "homeForbiddenNote": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "isHazardous": false,
+        "name": "乙烯使溴水褪色",
+        "category": "property",
+        "purpose": "书面分析题训练：用溴水（或溴的四氯化碳溶液）检验乙烯不饱和性，区分加成褪色与萃取等干扰。",
+        "principle": "CH2=CH2+Br2→CH2BrCH2Br（加成），溶液颜色褪去；属于化学变化导致的褪色。",
+        "instruments": "导管、试管或洗气瓶、集气装置（题设）",
+        "reagents": "乙烯、溴水（或Br2/CCl4）",
+        "steps": "1.将乙烯通入溴水；2.观察颜色变化；3.与甲烷/乙烷对照（题设）；4.判断褪色原因是否为加成。",
+        "phenomenon": "溴水橙红/棕红色褪去。",
+        "conclusion": "乙烯能与溴加成使溴水褪色，可用于检验不饱和键。",
+        "precautions": "溴水有腐蚀性与毒性；通入速率与装置气密性（书面评价）。",
+        "safetyNotes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 溴试剂危险，禁止家用。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.C2H4_Br2]"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "homeForbiddenNote": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "isHazardous": false,
+        "name": "乙醇催化氧化",
+        "category": "property",
+        "purpose": "书面分析题训练：认识乙醇在Cu或Ag催化加热下被氧气氧化为乙醛的条件、现象与方程式。",
+        "principle": "2CH3CH2OH+O2=Cu或Ag、加热=2CH3CHO+2H2O。常见演示：铜丝加热变黑（CuO）后伸入乙醇，又变为红色，循环催化。",
+        "instruments": "酒精灯、铜丝（或银丝）、试管等（题设图示）",
+        "reagents": "乙醇、空气（O2）、Cu或Ag",
+        "steps": "1.加热铜丝至表面变黑；2.趁热伸入乙醇液面上方或按教材操作；3.观察铜丝颜色变化与气味；4.写出化学方程式并标明条件。",
+        "phenomenon": "铜丝由黑变红；可闻到刺激性气味（乙醛）。",
+        "conclusion": "乙醇可催化氧化为乙醛；条件必须写清催化剂与加热。",
+        "precautions": "乙醇易燃，远离明火隐患；仅书面分析操作正误。",
+        "safetyNotes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 禁止家用加热有机物实验。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.ethanol_oxid]"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "homeForbiddenNote": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "isHazardous": false,
+        "name": "乙酸乙酯制备",
+        "category": "organic_prep",
+        "purpose": "书面分析题训练：掌握酯化反应条件、装置要点、饱和碳酸钠溶液作用及产物分层现象分析。",
+        "principle": "CH3COOH+C2H5OH⇌浓硫酸、加热⇌CH3COOC2H5+H2O。浓硫酸催化并吸水；产物用饱和Na2CO3吸收乙酸、溶解乙醇并降低酯溶解度，便于分层观察。",
+        "instruments": "大试管、导管、酒精灯、接收试管等",
+        "reagents": "乙酸、乙醇、浓硫酸、饱和碳酸钠溶液",
+        "steps": "1.按顺序加入试剂（题设常考加料顺序）；2.加热；3.导管口在液面上防倒吸（题设）；4.观察上层油状有香味液体；5.评价可逆与提高产率措施（书面）。",
+        "phenomenon": "有香味；在饱和Na2CO3液面上出现油状液体层。",
+        "conclusion": "可制得乙酸乙酯；反应可逆；饱和碳酸钠有助于观察与分离酯。",
+        "precautions": "浓硫酸腐蚀；加热防暴沸/液体冲出；导管不可伸入碳酸钠液面下过深导致倒吸（题设）。",
+        "safetyNotes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 禁止家用酯化实验。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.esterification]"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "homeForbiddenNote": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "isHazardous": false,
+        "name": "乙酸酸性验证",
+        "category": "property",
+        "purpose": "书面分析题训练：通过石蕊、与活泼金属、碱、碳酸盐等反应验证乙酸酸性及“强于碳酸”的比较。",
+        "principle": "乙酸为弱酸但具酸通性；2CH3COOH+Na2CO3=2CH3COONa+CO2↑+H2O，可证明酸性强于碳酸。",
+        "instruments": "试管、胶头滴管、导管、澄清石灰水等",
+        "reagents": "乙酸、紫色石蕊、镁条（或锌）、NaOH、Na2CO3、澄清石灰水",
+        "steps": "1.石蕊变红；2.与活泼金属产生气泡；3.与NaOH中和；4.与Na2CO3反应，气体通入石灰水变浑浊；5.对比结论。",
+        "phenomenon": "石蕊变红；有气泡；石灰水变浑浊等。",
+        "conclusion": "乙酸具酸性；酸性强于碳酸。",
+        "precautions": "浓乙酸腐蚀刺激；气体检验注意量与装置。",
+        "safetyNotes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.acetic_acid]"
+      }
+    },
+    {
+      "type": "experiment",
+      "data": {
+        "homeForbiddenNote": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。",
+        "isHazardous": false,
+        "name": "铜锌原电池实验",
+        "category": "electrochem",
+        "purpose": "书面分析题训练：分析Zn-Cu原电池的电极、电子流向、离子迁移及电解质不同时正极反应的差异。",
+        "principle": "原电池将化学能转化为电能。电子经外电路从负极流向正极；溶液中阴、阳离子定向迁移形成闭合回路。负极：较活泼金属Zn失电子被氧化。正极还原反应取决于电解质：①电解质为CuSO4时，正极通常Cu2++2e-=Cu；②电解质为稀H2SO4时，正极通常2H++2e-=H2↑。须按题设电解质判断，不可混用。并非所有原电池都必须是两种不同金属（电极材料组合以题设为准）。",
+        "instruments": "锌片、铜片、导线、电流计（或小灯泡）、烧杯等（图示）",
+        "reagents": "Zn、Cu；CuSO4溶液或稀H2SO4（题设二选一或对照）",
+        "steps": "1.辨认电极与电解质；2.判断负极氧化、正极还原；3.标出电子外电路方向；4.说明离子在溶液中的迁移；5.对照CuSO4与稀H2SO4两种题设写电极反应。",
+        "phenomenon": "电流计偏转或灯泡发光；锌片溶解；CuSO4中铜片上可析出铜；稀硫酸中铜片上可有气泡（题设）。",
+        "conclusion": "能构成原电池并产生电流；电子走外电路、离子走电解质；正极反应随电解质而变。",
+        "precautions": "电极与电解质匹配；书写电极反应须与题设一致；仅书面分析。",
+        "safetyNotes": "本系统仅做书面题目训练（现象判断、操作正误、步骤排序、结论推断、装置分析、误差分析、方案评价、安全判断），不要求学生线下动手操作；禁止家用自行实验。 纸面分析，不要求动手。",
+        "status": "pending_review",
+        "reviewNote": "[inv:exp.galvanic_Zn_Cu] 电解质CuSO4 vs 稀H2SO4正极不同;电子外电路;离子溶液迁移"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch6",
+    "pack": "B6-C",
+    "inventoryCodes": [
+      "exp.CH4_property",
+      "exp.C2H4_prep",
+      "exp.C2H4_Br2",
+      "exp.ethanol_oxid",
+      "exp.esterification",
+      "exp.acetic_acid",
+      "exp.galvanic_Zn_Cu"
+    ],
+    "specialtyByCode": {
+      "exp.CH4_property": [
+        "organic",
+        "experiment"
+      ],
+      "exp.C2H4_prep": [
+        "organic",
+        "experiment"
+      ],
+      "exp.C2H4_Br2": [
+        "organic",
+        "experiment"
+      ],
+      "exp.ethanol_oxid": [
+        "organic",
+        "experiment"
+      ],
+      "exp.esterification": [
+        "organic",
+        "experiment"
+      ],
+      "exp.acetic_acid": [
+        "organic",
+        "experiment"
+      ],
+      "exp.galvanic_Zn_Cu": [
+        "experiment",
+        "redox"
+      ]
+    },
+    "categoryByCode": {
+      "exp.CH4_property": [
+        "organic.property",
+        "experiment.safety"
+      ],
+      "exp.C2H4_prep": [
+        "organic.property",
+        "experiment.safety"
+      ],
+      "exp.C2H4_Br2": [
+        "organic.property",
+        "experiment.safety"
+      ],
+      "exp.ethanol_oxid": [
+        "organic.property",
+        "experiment.safety"
+      ],
+      "exp.esterification": [
+        "organic.property",
+        "experiment.safety"
+      ],
+      "exp.acetic_acid": [
+        "organic.property",
+        "experiment.safety"
+      ],
+      "exp.galvanic_Zn_Cu": [
+        "experiment.inquiry",
+        "experiment.phenomenon_desc",
+        "redox.e_direction"
+      ]
+    }
+  }
+}

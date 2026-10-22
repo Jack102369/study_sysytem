@@ -1,0 +1,339 @@
+{
+  "startedAt": "2026-10-18T05:24:51.809Z",
+  "packs": {
+    "B4-A": {
+      "exitCode": 0,
+      "successCount": 28,
+      "failCount": 0,
+      "linkOk": 28,
+      "linkFail": 0
+    },
+    "B4-B": {
+      "exitCode": 0,
+      "successCount": 25,
+      "failCount": 0,
+      "linkOk": 25,
+      "linkFail": 0
+    },
+    "B4-C": {
+      "exitCode": 0,
+      "successCount": 8,
+      "failCount": 0,
+      "linkOk": 8,
+      "linkFail": 0
+    },
+    "B4-D": {
+      "exitCode": 0,
+      "successCount": 13,
+      "failCount": 0,
+      "linkOk": 13,
+      "linkFail": 0
+    }
+  },
+  "totals": {
+    "success": 74,
+    "fail": 0,
+    "linkOk": 74,
+    "linkFail": 0
+  },
+  "codeToEntity": {
+    "sub.Cl2": {
+      "type": "substance",
+      "id": "34"
+    },
+    "sub.HCl": {
+      "type": "substance",
+      "id": "35"
+    },
+    "sub.HCl_aq": {
+      "type": "substance",
+      "id": "36"
+    },
+    "sub.HClO": {
+      "type": "substance",
+      "id": "37"
+    },
+    "sub.NaClO": {
+      "type": "substance",
+      "id": "38"
+    },
+    "sub.S": {
+      "type": "substance",
+      "id": "39"
+    },
+    "sub.SO2": {
+      "type": "substance",
+      "id": "40"
+    },
+    "sub.SO3": {
+      "type": "substance",
+      "id": "41"
+    },
+    "sub.H2SO4": {
+      "type": "substance",
+      "id": "42"
+    },
+    "sub.H2SO3": {
+      "type": "substance",
+      "id": "43"
+    },
+    "sub.N2": {
+      "type": "substance",
+      "id": "44"
+    },
+    "sub.NH3": {
+      "type": "substance",
+      "id": "45"
+    },
+    "sub.NO": {
+      "type": "substance",
+      "id": "46"
+    },
+    "sub.NO2": {
+      "type": "substance",
+      "id": "47"
+    },
+    "sub.HNO3": {
+      "type": "substance",
+      "id": "48"
+    },
+    "sub.C": {
+      "type": "substance",
+      "id": "49"
+    },
+    "sub.CO": {
+      "type": "substance",
+      "id": "50"
+    },
+    "sub.Si": {
+      "type": "substance",
+      "id": "51"
+    },
+    "sub.SiO2": {
+      "type": "substance",
+      "id": "52"
+    },
+    "sub.Na2SiO3": {
+      "type": "substance",
+      "id": "53"
+    },
+    "sub.P": {
+      "type": "substance",
+      "id": "54"
+    },
+    "sub.P4O10": {
+      "type": "substance",
+      "id": "55"
+    },
+    "sub.H2S": {
+      "type": "substance",
+      "id": "56"
+    },
+    "sub.CaCO3": {
+      "type": "substance",
+      "id": "57"
+    },
+    "sub.CaOH2": {
+      "type": "substance",
+      "id": "58"
+    },
+    "sub.Br2": {
+      "type": "substance",
+      "id": "59"
+    },
+    "sub.I2": {
+      "type": "substance",
+      "id": "60"
+    },
+    "sub.bleaching_powder": {
+      "type": "substance",
+      "id": "61"
+    },
+    "rxn.H2_Cl2": {
+      "type": "reaction",
+      "id": "34"
+    },
+    "rxn.2Na_Cl2": {
+      "type": "reaction",
+      "id": "35"
+    },
+    "rxn.2Fe_3Cl2": {
+      "type": "reaction",
+      "id": "36"
+    },
+    "rxn.Cl2_H2O": {
+      "type": "reaction",
+      "id": "37"
+    },
+    "rxn.Cl2_2NaOH": {
+      "type": "reaction",
+      "id": "38"
+    },
+    "rxn.MnO2_4HCl": {
+      "type": "reaction",
+      "id": "39"
+    },
+    "rxn.S_O2": {
+      "type": "reaction",
+      "id": "40"
+    },
+    "rxn.2SO2_O2": {
+      "type": "reaction",
+      "id": "41"
+    },
+    "rxn.SO3_H2O": {
+      "type": "reaction",
+      "id": "42"
+    },
+    "rxn.Cu_2H2SO4": {
+      "type": "reaction",
+      "id": "43"
+    },
+    "rxn.C_2H2SO4": {
+      "type": "reaction",
+      "id": "44"
+    },
+    "rxn.N2_3H2": {
+      "type": "reaction",
+      "id": "45"
+    },
+    "rxn.NH3_HCl": {
+      "type": "reaction",
+      "id": "46"
+    },
+    "rxn.4NH3_5O2": {
+      "type": "reaction",
+      "id": "47"
+    },
+    "rxn.2NO_O2": {
+      "type": "reaction",
+      "id": "48"
+    },
+    "rxn.3NO2_H2O": {
+      "type": "reaction",
+      "id": "49"
+    },
+    "rxn.Cu_4HNO3": {
+      "type": "reaction",
+      "id": "50"
+    },
+    "rxn.Cu_4HNO3c": {
+      "type": "reaction",
+      "id": "51"
+    },
+    "rxn.C_O2_incomplete": {
+      "type": "reaction",
+      "id": "52"
+    },
+    "rxn.C_O2_complete": {
+      "type": "reaction",
+      "id": "53"
+    },
+    "rxn.CO2_CaOH2": {
+      "type": "reaction",
+      "id": "54"
+    },
+    "rxn.SiO2_2NaOH": {
+      "type": "reaction",
+      "id": "55"
+    },
+    "rxn.SiO2_2C": {
+      "type": "reaction",
+      "id": "56"
+    },
+    "rxn.CaCO3_2HCl": {
+      "type": "reaction",
+      "id": "57"
+    },
+    "rxn.NH4Cl_NaOH": {
+      "type": "reaction",
+      "id": "58"
+    },
+    "exp.Cl2_prep": {
+      "type": "experiment",
+      "id": "9"
+    },
+    "exp.Cl2_property": {
+      "type": "experiment",
+      "id": "10"
+    },
+    "exp.HCl_prep": {
+      "type": "experiment",
+      "id": "11"
+    },
+    "exp.SO2_property": {
+      "type": "experiment",
+      "id": "12"
+    },
+    "exp.NH3_prep": {
+      "type": "experiment",
+      "id": "13"
+    },
+    "exp.HNO3_Cu": {
+      "type": "experiment",
+      "id": "14"
+    },
+    "exp.CO2_property": {
+      "type": "experiment",
+      "id": "15"
+    },
+    "exp.SiO2_glass": {
+      "type": "experiment",
+      "id": "16"
+    },
+    "kp.Cl.property": {
+      "type": "knowledge",
+      "id": "42"
+    },
+    "kp.Cl.prep": {
+      "type": "knowledge",
+      "id": "43"
+    },
+    "kp.S.oxide": {
+      "type": "knowledge",
+      "id": "44"
+    },
+    "kp.N.cycle": {
+      "type": "knowledge",
+      "id": "45"
+    },
+    "kp.N.ammonia": {
+      "type": "knowledge",
+      "id": "46"
+    },
+    "kp.C.oxide": {
+      "type": "knowledge",
+      "id": "47"
+    },
+    "kp.Si.property": {
+      "type": "knowledge",
+      "id": "48"
+    },
+    "kp.nonmetal.test": {
+      "type": "knowledge",
+      "id": "49"
+    },
+    "kp.S.conc_H2SO4": {
+      "type": "knowledge",
+      "id": "50"
+    },
+    "kp.N.ammonium": {
+      "type": "knowledge",
+      "id": "51"
+    },
+    "kp.halogen.compare": {
+      "type": "knowledge",
+      "id": "52"
+    },
+    "kp.N.synth_ammonia": {
+      "type": "knowledge",
+      "id": "53"
+    },
+    "kp.Cl.bleach": {
+      "type": "knowledge",
+      "id": "54"
+    }
+  },
+  "failures": [],
+  "finishedAt": "2026-10-18T05:27:03.230Z"
+}

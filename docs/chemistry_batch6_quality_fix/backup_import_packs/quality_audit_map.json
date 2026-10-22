@@ -1,0 +1,2532 @@
+{
+  "auditedAt": "2026-10-18T10:35:36.626Z",
+  "planned": 79,
+  "verdictCount": {
+    "通过": 59,
+    "需要修改": 15,
+    "待核实": 5
+  },
+  "severityByItem": {
+    "P0": 2,
+    "P1": 6,
+    "P2": 25,
+    "P3": 23,
+    "none": 23
+  },
+  "severityByItemNote": "每条知识一个主等级；通过条也可带P2/P3提示等级",
+  "problemItemCount": 20,
+  "readOnly": true,
+  "items": [
+    {
+      "code": "sub.CH4",
+      "type": "substance",
+      "name": "甲烷",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "正四面体与多种氯代产物表述正确；未见唯一产物误导"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训结构/取代产物多样性；禁唯一氯代物自动题",
+      "topic": [
+        "organic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "62",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ]
+    },
+    {
+      "code": "sub.C2H4",
+      "type": "substance",
+      "name": "乙烯",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "CH2=CH2与加成/KMnO4不指定唯一氧化产物正确"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训加成与褪色鉴别；禁指定唯一氧化产物",
+      "topic": [
+        "organic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "63",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ]
+    },
+    {
+      "code": "sub.C2H6",
+      "type": "substance",
+      "name": "乙烷",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训与乙烯对比",
+      "topic": [
+        "organic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "64",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ]
+    },
+    {
+      "code": "sub.C2H5OH",
+      "type": "substance",
+      "name": "乙醇",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "羟基、催化氧化条件与酯化要点正确"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训；催化氧化须写Cu/Ag+加热",
+      "topic": [
+        "organic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "65",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ]
+    },
+    {
+      "code": "sub.CH3COOH",
+      "type": "substance",
+      "name": "乙酸",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训弱酸通性与强于碳酸",
+      "topic": [
+        "organic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "66",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ]
+    },
+    {
+      "code": "sub.CH3COOCH2CH3",
+      "type": "substance",
+      "name": "乙酸乙酯",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "两种结构简式写法已注明；水解深度已限"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训酯化产物认知；勿默认复杂水解机理",
+      "topic": [
+        "organic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "67",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ]
+    },
+    {
+      "code": "sub.C2H2",
+      "type": "substance",
+      "name": "乙炔",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "已标必修了解/待核实深度；内容方向正确但默认训练边界需严格限制"
+      ],
+      "fix": "默认池排除深度炔烃；仅了解级结构与不饱和性对比",
+      "verify": false,
+      "scope": "必修了解",
+      "train": "限了解；勿默认复杂加成/推断",
+      "topic": [
+        "organic",
+        "scope"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "68",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ]
+    },
+    {
+      "code": "sub.C3H8",
+      "type": "substance",
+      "name": "丙烷",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "作同系物示例合理；非独立核心物质考点"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修了解/同系物示例",
+      "train": "宜作通式/同系物例，勿单独深挖",
+      "topic": [
+        "organic",
+        "scope"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "69",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ]
+    },
+    {
+      "code": "sub.C6H6",
+      "type": "substance",
+      "name": "苯",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "未用错误单双键交替解释化学性质；稳定性与褪色对比正确；已标勿默认芳香取代"
+      ],
+      "fix": "保持了解级；禁止Kekulé性质误导题",
+      "verify": false,
+      "scope": "必修了解",
+      "train": "限结构稳定性与烯烃对比；禁选修芳香取代默认",
+      "topic": [
+        "organic",
+        "scope"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "70",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "substance",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "substance"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "substance.formula"
+      ]
+    },
+    {
+      "code": "rxn.CH4_Cl2",
+      "type": "reaction",
+      "name": "甲烷与氯气取代",
+      "verdict": "需要修改",
+      "severity": "P2",
+      "issues": [
+        "科学内容：光照、多种氯代产物说明正确，canonical仅第一步示例可接受",
+        "清单categoryCodes机械挂 organic.substitution+addition+esterification，与反应类型不符，易误入错误二级分类题池"
+      ],
+      "fix": "整改时收窄category为organic.substitution（及equation相关）；species保持示例并继续禁唯一产物判题",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "修关联前勿按加成/酯化池抽题；内容可训取代多样性",
+      "topic": [
+        "organic",
+        "link"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "59",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ]
+    },
+    {
+      "code": "rxn.C2H4_Br2",
+      "type": "reaction",
+      "name": "乙烯与溴加成",
+      "verdict": "需要修改",
+      "severity": "P2",
+      "issues": [
+        "加成方程式与常温条件正确",
+        "清单categoryCodes机械挂 organic.substitution+addition+esterification，与反应类型不符，易误入错误二级分类题池"
+      ],
+      "fix": "category改为organic.addition为主",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "修关联前勿入取代/酯化池",
+      "topic": [
+        "organic",
+        "link"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "60",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ]
+    },
+    {
+      "code": "rxn.C2H4_H2O",
+      "type": "reaction",
+      "name": "乙烯水化制乙醇",
+      "verdict": "需要修改",
+      "severity": "P2",
+      "issues": [
+        "水化条件写催化剂+加热加压，磷酸“以教材为准”合理",
+        "清单categoryCodes机械挂 organic.substitution+addition+esterification，与反应类型不符，易误入错误二级分类题池"
+      ],
+      "fix": "category改为addition；催化剂名称命题时跟教材",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训条件认知；修关联",
+      "topic": [
+        "organic",
+        "link"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "61",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ]
+    },
+    {
+      "code": "rxn.C2H4_H2",
+      "type": "reaction",
+      "name": "乙烯加氢",
+      "verdict": "需要修改",
+      "severity": "P2",
+      "issues": [
+        "加氢条件与产物正确",
+        "清单categoryCodes机械挂 organic.substitution+addition+esterification，与反应类型不符，易误入错误二级分类题池"
+      ],
+      "fix": "category改为organic.addition",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "修关联后可训",
+      "topic": [
+        "organic",
+        "link"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "62",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ]
+    },
+    {
+      "code": "rxn.C2H5OH_O2",
+      "type": "reaction",
+      "name": "乙醇催化氧化",
+      "verdict": "需要修改",
+      "severity": "P0",
+      "issues": [
+        "P0：ox_product/re_product对调。按高中口径：氧化产物应为CH3CHO（还原剂被氧化所得），还原产物应为H2O（氧化剂被还原所得）；现为ox=H2O、re=CH3CHO",
+        "条件Cu/Ag+加热正确；方程式配平正确",
+        "清单categoryCodes机械挂 organic.substitution+addition+esterification，与反应类型不符，易误入错误二级分类题池"
+      ],
+      "fix": "对调ox_product与re_product；category改为oxidation/redox相关；禁用错误字段自动判氧化还原产物",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "整改前禁止氧化还原产物自动判题",
+      "topic": [
+        "organic",
+        "redox"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "63",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ]
+    },
+    {
+      "code": "rxn.C2H5OH_burn",
+      "type": "reaction",
+      "name": "乙醇燃烧",
+      "verdict": "需要修改",
+      "severity": "P0",
+      "issues": [
+        "P0：ox_product/re_product对调。氧化产物应侧重CO2（还原剂被氧化），还原产物应为H2O；现为ox=H2O、re=CO2",
+        "燃烧配平与点燃条件正确",
+        "清单categoryCodes机械挂 organic.substitution+addition+esterification，与反应类型不符，易误入错误二级分类题池"
+      ],
+      "fix": "对调ox/re产物字段；category勿挂取代/加成/酯化",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "整改前禁止依ox/re字段自动判题",
+      "topic": [
+        "organic",
+        "redox"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "64",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ]
+    },
+    {
+      "code": "rxn.esterification",
+      "type": "reaction",
+      "name": "乙酸乙酯酯化",
+      "verdict": "需要修改",
+      "severity": "P2",
+      "issues": [
+        "⇌、浓硫酸催化加热、产物正确；可逆性明确",
+        "清单categoryCodes机械挂 organic.substitution+addition+esterification，与反应类型不符，易误入错误二级分类题池（虽含esterification，但同时误挂substitution/addition）"
+      ],
+      "fix": "仅保留organic.esterification等正确分类",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "内容可训酯化；修关联",
+      "topic": [
+        "organic",
+        "link"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "65",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ]
+    },
+    {
+      "code": "rxn.CH3COOH_NaOH",
+      "type": "reaction",
+      "name": "乙酸与氢氧化钠",
+      "verdict": "需要修改",
+      "severity": "P2",
+      "issues": [
+        "中和与离子方程式正确（弱酸保留分子）",
+        "清单categoryCodes机械挂 organic.substitution+addition+esterification，与反应类型不符，易误入错误二级分类题池"
+      ],
+      "fix": "改为酸碱/离子反应相关分类，去掉有机三类机械挂靠",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "修关联后可训",
+      "topic": [
+        "organic",
+        "link"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "66",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ]
+    },
+    {
+      "code": "rxn.CH3COOH_Na2CO3",
+      "type": "reaction",
+      "name": "乙酸与碳酸钠",
+      "verdict": "需要修改",
+      "severity": "P2",
+      "issues": [
+        "配平与酸性强于碳酸正确；离子式写“CO3 2-”不规范（应为CO3^2-）属表达",
+        "清单categoryCodes机械挂 organic.substitution+addition+esterification，与反应类型不符，易误入错误二级分类题池"
+      ],
+      "fix": "规范离子电荷写法；收窄category",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "修关联与符号后可训",
+      "topic": [
+        "organic",
+        "link"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "67",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "equation",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "equation"
+      ],
+      "categoryCodes": [
+        "organic.substitution",
+        "organic.addition",
+        "organic.esterification"
+      ]
+    },
+    {
+      "code": "exp.CH4_property",
+      "type": "experiment",
+      "name": "甲烷性质实验认知",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "书面定位与多氯代、Cl2安全提示正确"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训现象/安全判断；禁动手",
+      "topic": [
+        "experiment"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "36",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "experiment",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "organic.property",
+        "experiment.safety"
+      ]
+    },
+    {
+      "code": "exp.C2H4_prep",
+      "type": "experiment",
+      "name": "乙烯的实验室制法",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "约170℃、浓硫酸、副产物了解提示正确；书面高危标注到位"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训装置与温度；禁动手",
+      "topic": [
+        "experiment"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "37",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "experiment",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "organic.property",
+        "experiment.safety"
+      ]
+    },
+    {
+      "code": "exp.C2H4_Br2",
+      "type": "experiment",
+      "name": "乙烯使溴水褪色",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训褪色与加成判断",
+      "topic": [
+        "experiment"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "38",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "experiment",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "organic.property",
+        "experiment.safety"
+      ]
+    },
+    {
+      "code": "exp.ethanol_oxid",
+      "type": "experiment",
+      "name": "乙醇催化氧化",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "Cu丝颜色循环与条件正确"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训条件与现象；禁动手",
+      "topic": [
+        "experiment"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "39",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "experiment",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "organic.property",
+        "experiment.safety"
+      ]
+    },
+    {
+      "code": "exp.esterification",
+      "type": "experiment",
+      "name": "乙酸乙酯制备",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "饱和Na2CO3作用与防倒吸要点正确"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训装置评价；禁动手",
+      "topic": [
+        "experiment"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "40",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "experiment",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "organic.property",
+        "experiment.safety"
+      ]
+    },
+    {
+      "code": "exp.acetic_acid",
+      "type": "experiment",
+      "name": "乙酸酸性验证",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训酸性验证书面分析",
+      "topic": [
+        "experiment"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "41",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "experiment",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "organic.property",
+        "experiment.safety"
+      ]
+    },
+    {
+      "code": "concept.homolog",
+      "type": "concept",
+      "name": "同系物",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "organic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "27",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [
+        "organic.homolog",
+        "organic.isomer"
+      ]
+    },
+    {
+      "code": "concept.isomer",
+      "type": "concept",
+      "name": "同分异构体",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "已限复杂推断；乙醇/二甲醚示例标了解"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心（书写限深度）",
+      "train": "可训简单书写；复杂限默认",
+      "topic": [
+        "organic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "28",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [
+        "organic.homolog",
+        "organic.isomer"
+      ]
+    },
+    {
+      "code": "concept.functional_group",
+      "type": "concept",
+      "name": "官能团初步",
+      "verdict": "需要修改",
+      "severity": "P2",
+      "issues": [
+        "定义正确",
+        "categoryCodes挂organic.homolog/isomer，与官能团概念不符"
+      ],
+      "fix": "改为官能团/有机基础相关分类",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "修关联前勿进同系物/异构专池误抽",
+      "topic": [
+        "organic",
+        "link"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "29",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [
+        "organic.homolog",
+        "organic.isomer"
+      ]
+    },
+    {
+      "code": "concept.substitution",
+      "type": "concept",
+      "name": "取代反应",
+      "verdict": "需要修改",
+      "severity": "P2",
+      "issues": [
+        "取代定义正确",
+        "category误挂homolog/isomer"
+      ],
+      "fix": "改为organic.substitution",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "修关联",
+      "topic": [
+        "organic",
+        "link"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "30",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [
+        "organic.homolog",
+        "organic.isomer"
+      ]
+    },
+    {
+      "code": "concept.addition",
+      "type": "concept",
+      "name": "加成反应",
+      "verdict": "需要修改",
+      "severity": "P2",
+      "issues": [
+        "加成定义正确",
+        "category误挂homolog/isomer"
+      ],
+      "fix": "改为organic.addition",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "修关联",
+      "topic": [
+        "organic",
+        "link"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "31",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [
+        "organic.homolog",
+        "organic.isomer"
+      ]
+    },
+    {
+      "code": "concept.esterification_rule",
+      "type": "concept",
+      "name": "酯化反应规律",
+      "verdict": "需要修改",
+      "severity": "P2",
+      "issues": [
+        "酸脱羟基醇脱氢规律与可逆正确",
+        "category误挂homolog/isomer"
+      ],
+      "fix": "改为organic.esterification",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "修关联",
+      "topic": [
+        "organic",
+        "link"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "32",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [
+        "organic.homolog",
+        "organic.isomer"
+      ]
+    },
+    {
+      "code": "kp.organic.methane",
+      "type": "knowledge",
+      "name": "甲烷结构与性质",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "与物质条一致，强调多氯代"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "organic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "64",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "kp.organic.alkane",
+      "type": "knowledge",
+      "name": "烷烃通式与性质",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "organic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "65",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "kp.organic.ethene",
+      "type": "knowledge",
+      "name": "乙烯结构与性质",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "KMnO4不指定唯一产物正确"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "organic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "66",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "kp.organic.ethanol",
+      "type": "knowledge",
+      "name": "乙醇结构与性质",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "organic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "67",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "kp.organic.acetic",
+      "type": "knowledge",
+      "name": "乙酸结构与性质",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "organic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "68",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "kp.organic.isomer_skill",
+      "type": "knowledge",
+      "name": "同分异构体书写技能",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "已限复杂推断"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心（限深度）",
+      "train": "可训简单书写；复杂排除默认",
+      "topic": [
+        "organic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "69",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "kp.inference.color",
+      "type": "knowledge",
+      "name": "颜色推断方法",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训；须多线索验证",
+      "topic": [
+        "inference"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "70",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "inference"
+      ],
+      "specialtyCodes": [
+        "inference"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "kp.inference.block",
+      "type": "knowledge",
+      "name": "无机框图推断策略",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "策略正确；复杂综合题勿默认超纲无机链"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训策略；题干控制范围",
+      "topic": [
+        "inference"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "71",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "inference"
+      ],
+      "specialtyCodes": [
+        "inference"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "kp.inference.conversion",
+      "type": "knowledge",
+      "name": "物质转化推断",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "inference"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "72",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "inference"
+      ],
+      "specialtyCodes": [
+        "inference"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "kp.comprehensive.basic",
+      "type": "knowledge",
+      "name": "基础综合解题框架",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "comprehensive"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "73",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "q.organic.methane",
+      "type": "question",
+      "name": "甲烷选择题骨架",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "骨架选择题强调正四面体与非唯一氯代；reviewNote已回填"
+      ],
+      "fix": "充实为正式题前补全选项规范性检查",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "骨架非正式卷；可作模板",
+      "topic": [
+        "question"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "10",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "q.organic.ethene",
+      "type": "question",
+      "name": "乙烯加成判断题",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "加成判断骨架合理；reviewNote已回填"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "骨架模板",
+      "topic": [
+        "question"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "11",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "q.organic.ethanol",
+      "type": "question",
+      "name": "乙醇性质填空题",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "催化氧化条件填空合理"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "骨架模板",
+      "topic": [
+        "question"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "12",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "q.organic.ester",
+      "type": "question",
+      "name": "酯化反应简答题",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "简答骨架；自动判题需限定要点清单（⇌、浓硫酸、加热、产物）"
+      ],
+      "fix": "正式启用前写采分点与可接受等价写法",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "非正式自动判题直至采分点固化",
+      "topic": [
+        "question",
+        "auto"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "13",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "q.organic.isomer",
+      "type": "question",
+      "name": "同分异构体书写题",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "书写题多解；须限定碳数与同分异构类型"
+      ],
+      "fix": "正式题必须限定分子式与异构类型",
+      "verify": false,
+      "scope": "必修核心（限）",
+      "train": "限条件后方可自动/半自动判",
+      "topic": [
+        "question",
+        "auto"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "14",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "q.inference.block",
+      "type": "question",
+      "name": "框图推断题骨架",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "骨架无完整框图数据；不可直接组卷"
+      ],
+      "fix": "补充具体框图与唯一突破口后再用",
+      "verify": false,
+      "scope": "视题设",
+      "train": "禁止直接自动出题",
+      "topic": [
+        "question",
+        "auto"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "15",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "inference"
+      ],
+      "specialtyCodes": [
+        "inference"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "q.inference.phenomenon",
+      "type": "question",
+      "name": "现象推断题骨架",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "现象推断骨架需具体试剂链"
+      ],
+      "fix": "补全现象序列与唯一结论条件",
+      "verify": false,
+      "scope": "视题设",
+      "train": "禁止直接自动出题",
+      "topic": [
+        "question",
+        "auto"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "16",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "inference"
+      ],
+      "specialtyCodes": [
+        "inference"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "q.eq.Na_water",
+      "type": "question",
+      "name": "钠与水方程式题",
+      "verdict": "需要修改",
+      "severity": "P1",
+      "issues": [
+        "复用published题：题干问“生成物”，答案“NaOH 和 H2”，未要求方程式，与equation专项不完全匹配",
+        "无[inv:q.eq.Na_water]；缺options_json等完整选择题结构（视库内实际）",
+        "DB专项另挂substance，清单仅equation",
+        "未写2Na+2H2O=2NaOH+H2，自动方程式判题不可用"
+      ],
+      "fix": "整改时另建完整方程式骨架或升级本题：补方程式、配平、条件/现象采分点；勿覆盖时需新建pending题替换训练",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "整改前不宜作方程式自动判题唯一标准",
+      "topic": [
+        "question",
+        "auto"
+      ],
+      "dbStatus": "published",
+      "dbId": "1",
+      "hasInv": false,
+      "source": "reused",
+      "dbSpecialtyCodes": [
+        "equation",
+        "substance"
+      ],
+      "specialtyCodes": [
+        "equation"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "q.substance.NaOH",
+      "type": "question",
+      "name": "烧碱俗称与性质题",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "烧碱俗称骨架；reviewNote已回填"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "骨架模板",
+      "topic": [
+        "question"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "17",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "substance"
+      ],
+      "specialtyCodes": [
+        "substance"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "q.comprehensive.mock",
+      "type": "question",
+      "name": "综合模拟题组骨架",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "综合模拟题组仅为骨架占位，无完整卷面"
+      ],
+      "fix": "充实小题集与评分细则后方可训练",
+      "verify": false,
+      "scope": "视组成",
+      "train": "禁止直接当正式套卷",
+      "topic": [
+        "question",
+        "auto"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "18",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": []
+    },
+    {
+      "code": "concept.endothermic",
+      "type": "concept",
+      "name": "吸热反应",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [
+        "明确加热≠吸热；断键吸能成键放能正确"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训易错判断",
+      "topic": [
+        "energy"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "33",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "memory",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "memory",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "memory.rules",
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "concept.exothermic",
+      "type": "concept",
+      "name": "放热反应",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [
+        "与吸热对称，未将放热等同于无需加热"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "energy"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "34",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "memory",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "memory",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "memory.rules",
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.energy.bond_change",
+      "type": "knowledge",
+      "name": "化学键与能量变化",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [
+        "断键吸能成键放能正确"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "energy"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "74",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "structure",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "structure",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "structure.ionic_bond",
+        "structure.covalent_bond",
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.energy.chem_electric",
+      "type": "knowledge",
+      "name": "化学能与电能",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "电解对比了解级；specialty含redox可接受"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "energy"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "75",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "redox",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive",
+        "redox"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "redox.e_transfer"
+      ]
+    },
+    {
+      "code": "kp.energy.galvanic",
+      "type": "knowledge",
+      "name": "原电池",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "原理正确；非必须两金属正确",
+        "specialty挂experiment略宽（知识点非实验步骤条）"
+      ],
+      "fix": "可选去掉experiment主关联，保留redox/comprehensive",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "内容可训；关联可收窄",
+      "topic": [
+        "galvanic",
+        "link"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "76",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "experiment",
+        "redox",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "redox",
+        "experiment",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "redox.e_direction",
+        "experiment.inquiry",
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.energy.galvanic_poles",
+      "type": "knowledge",
+      "name": "原电池正负极",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "galvanic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "77",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "redox",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "redox",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "redox.e_direction",
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.energy.electron_flow",
+      "type": "knowledge",
+      "name": "原电池电子流向",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [
+        "电子负极→正极；电流相反；离子迁移正确"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "galvanic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "78",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "redox",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "redox",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "redox.e_direction",
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.energy.electrode_rxn",
+      "type": "knowledge",
+      "name": "原电池电极反应",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "强调题设电解质正确"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训；必须给电解质条件",
+      "topic": [
+        "galvanic"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "79",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "equation",
+        "redox",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "redox",
+        "equation",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "redox.identify",
+        "equation.ionic_write",
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.energy.chem_power",
+      "type": "knowledge",
+      "name": "常见化学电源",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "了解级已标"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修了解",
+      "train": "限名称用途认知",
+      "topic": [
+        "energy",
+        "scope"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "80",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "memory",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive",
+        "memory"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "memory.rules"
+      ]
+    },
+    {
+      "code": "exp.galvanic_Zn_Cu",
+      "type": "experiment",
+      "name": "铜锌原电池实验",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "电子外电路、离子溶液迁移、CuSO4 vs 稀H2SO4正极区分正确；非必须两金属已说明"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训电极/流向；题设必须给出电解质",
+      "topic": [
+        "galvanic",
+        "experiment"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "42",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "experiment",
+        "redox"
+      ],
+      "specialtyCodes": [
+        "experiment",
+        "redox"
+      ],
+      "categoryCodes": [
+        "experiment.inquiry",
+        "experiment.phenomenon_desc",
+        "redox.e_direction"
+      ]
+    },
+    {
+      "code": "concept.heat_of_reaction",
+      "type": "concept",
+      "name": "反应热",
+      "verdict": "待核实",
+      "severity": "P1",
+      "issues": [
+        "概念方向正确；燃烧热/中和热与定量深度、ΔH符号口径待对必修二教材",
+        "verifyNeeded保留"
+      ],
+      "fix": "教材定点后决定是否进默认池；禁复杂热量计算默认训练",
+      "verify": true,
+      "scope": "必修第二册·待核实深度",
+      "train": "核实前排除默认定量训练",
+      "topic": [
+        "energy",
+        "verify"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "35",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "memory",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive",
+        "memory"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "memory.rules"
+      ]
+    },
+    {
+      "code": "kp.energy.thermo_eq",
+      "type": "knowledge",
+      "name": "热化学方程式书写",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "书写要求正确；定量深度应跟教材，勿默认复杂计算"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训书写格式；禁超纲计算默认",
+      "topic": [
+        "energy"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "81",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "equation",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "equation",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "equation.write_from_text",
+        "equation.condition",
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.sustain.seawater",
+      "type": "knowledge",
+      "name": "海水资源开发",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修了解",
+      "train": "可训",
+      "topic": [
+        "sustain"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "82",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "substance",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive",
+        "substance"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "substance.usage"
+      ]
+    },
+    {
+      "code": "kp.sustain.coal",
+      "type": "knowledge",
+      "name": "煤的综合利用",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修了解",
+      "train": "可训",
+      "topic": [
+        "sustain"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "83",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive",
+        "organic"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "organic.basic"
+      ]
+    },
+    {
+      "code": "kp.organic.petroleum",
+      "type": "knowledge",
+      "name": "石油分馏",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [
+        "物理变化与裂化区分正确"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修了解",
+      "train": "可训",
+      "topic": [
+        "organic",
+        "sustain"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "84",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.organic.cracking",
+      "type": "knowledge",
+      "name": "石油裂化",
+      "verdict": "待核实",
+      "severity": "P1",
+      "issues": [
+        "与裂解区分方向正确；考法/深度/是否默认核心待教材核实；verifyNeeded保留"
+      ],
+      "fix": "核实前excludeDefaultTraining",
+      "verify": true,
+      "scope": "了解/待核实",
+      "train": "核实前不进默认核心池",
+      "topic": [
+        "organic",
+        "verify"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "85",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.organic.pyrolysis",
+      "type": "knowledge",
+      "name": "石油裂解",
+      "verdict": "待核实",
+      "severity": "P1",
+      "issues": [
+        "裂解获乙烯等方向正确；与裂化边界待核实；verifyNeeded保留"
+      ],
+      "fix": "核实前excludeDefaultTraining",
+      "verify": true,
+      "scope": "了解/待核实",
+      "train": "核实前不进默认核心池",
+      "topic": [
+        "organic",
+        "verify"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "86",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.sustain.natural_gas",
+      "type": "knowledge",
+      "name": "天然气利用",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修了解",
+      "train": "可训",
+      "topic": [
+        "sustain"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "87",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive",
+        "organic"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "organic.methane"
+      ]
+    },
+    {
+      "code": "kp.sustain.fertilizer",
+      "type": "knowledge",
+      "name": "化肥合理使用",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修了解",
+      "train": "可训",
+      "topic": [
+        "sustain"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "88",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.sustain.pesticide",
+      "type": "knowledge",
+      "name": "农药合理使用",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修了解",
+      "train": "可训",
+      "topic": [
+        "sustain"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "89",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.sustain.medicine",
+      "type": "knowledge",
+      "name": "药物合理使用",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修了解",
+      "train": "可训",
+      "topic": [
+        "sustain"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "90",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.sustain.food_additive",
+      "type": "knowledge",
+      "name": "食品添加剂",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修了解",
+      "train": "可训",
+      "topic": [
+        "sustain"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "91",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.enviro.pollution",
+      "type": "knowledge",
+      "name": "环境污染与防治认知",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "sustain"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "92",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.enviro.acid_rain",
+      "type": "knowledge",
+      "name": "酸雨",
+      "verdict": "通过",
+      "severity": null,
+      "issues": [],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "sustain"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "93",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "substance",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive",
+        "substance"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "substance.chem_property"
+      ]
+    },
+    {
+      "code": "kp.sustain.green_chem",
+      "type": "knowledge",
+      "name": "绿色化学",
+      "verdict": "通过",
+      "severity": "P3",
+      "issues": [
+        "概念认识层次；勿当计算默认"
+      ],
+      "fix": "—",
+      "verify": false,
+      "scope": "必修核心",
+      "train": "可训",
+      "topic": [
+        "sustain"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "94",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "kp.sustain.atom_economy",
+      "type": "knowledge",
+      "name": "原子经济性",
+      "verdict": "待核实",
+      "severity": "P1",
+      "issues": [
+        "概念方向正确",
+        "挂calculation.mixed易入计算题池；定量公式深度待核实；verifyNeeded保留"
+      ],
+      "fix": "核实前去掉计算默认关联或标了解；禁原子经济定量默认题",
+      "verify": true,
+      "scope": "了解/待核实",
+      "train": "核实前排除默认计算训练",
+      "topic": [
+        "sustain",
+        "verify",
+        "link"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "95",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "calculation",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "comprehensive",
+        "calculation"
+      ],
+      "categoryCodes": [
+        "comprehensive.basic",
+        "calculation.mixed"
+      ]
+    },
+    {
+      "code": "concept.addition_polymer",
+      "type": "concept",
+      "name": "加成聚合",
+      "verdict": "通过",
+      "severity": "P2",
+      "issues": [
+        "乙烯加聚示例正确；已标必修了解"
+      ],
+      "fix": "默认限单体-链节对应，勿高分子工程",
+      "verify": false,
+      "scope": "必修了解",
+      "train": "了解级可训简单加聚识别",
+      "topic": [
+        "organic",
+        "scope"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "36",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic"
+      ],
+      "categoryCodes": [
+        "organic.addition",
+        "organic.basic"
+      ]
+    },
+    {
+      "code": "kp.organic.biomolecule",
+      "type": "knowledge",
+      "name": "生命中的基本有机物（了解）",
+      "verdict": "待核实",
+      "severity": "P1",
+      "issues": [
+        "认知级表述妥当；覆盖深度与是否默认训练待教材核实；verifyNeeded保留"
+      ],
+      "fix": "核实前excludeDefaultTraining",
+      "verify": true,
+      "scope": "了解/待核实",
+      "train": "核实前不进默认核心",
+      "topic": [
+        "organic",
+        "verify"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "96",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "comprehensive"
+      ],
+      "categoryCodes": [
+        "organic.basic",
+        "comprehensive.basic"
+      ]
+    },
+    {
+      "code": "rxn.C2H4_KMnO4",
+      "type": "reaction",
+      "name": "乙烯使酸性高锰酸钾褪色",
+      "verdict": "需要修改",
+      "severity": "P2",
+      "issues": [
+        "不指定唯一氧化产物正确，适合现象题",
+        "ox_product与re_product均写成“氧化产物(条件依赖)”，还原产物字段命名错误，自动判题易混"
+      ],
+      "fix": "re_product改为“还原产物(条件依赖，不指定)”或留空并注明仅现象训练；禁产物填空自动题",
+      "verify": false,
+      "scope": "必修核心（现象）",
+      "train": "仅现象/不饱和性判断；禁唯一产物与复杂离子方程式默认",
+      "topic": [
+        "organic",
+        "auto"
+      ],
+      "dbStatus": "pending_review",
+      "dbId": "68",
+      "hasInv": true,
+      "source": "imported",
+      "dbSpecialtyCodes": [
+        "equation",
+        "experiment",
+        "organic"
+      ],
+      "specialtyCodes": [
+        "organic",
+        "equation",
+        "experiment"
+      ],
+      "categoryCodes": [
+        "organic.oxidation",
+        "equation.write_from_text",
+        "experiment.phenomenon_judge"
+      ]
+    }
+  ]
+}

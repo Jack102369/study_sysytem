@@ -1,0 +1,671 @@
+[
+  {
+    "id": 11,
+    "session_id": 3,
+    "sort_order": 1,
+    "item_id": 1,
+    "item_code": "train.test.eq.tf.01",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【测试题】化学反应前后原子种类与数目守恒。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "质量守恒定律：原子守恒。",
+    "user_answer": null,
+    "grade_result": null,
+    "grade_reason": null,
+    "answered_at": null
+  },
+  {
+    "id": 12,
+    "session_id": 3,
+    "sort_order": 2,
+    "item_id": 2,
+    "item_code": "train.test.eq.tf.02",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【测试题】所有化学反应都是氧化还原反应。判断正误。",
+    "options_json": null,
+    "answer": "错误",
+    "answer_aliases_json": [
+      "错",
+      "F",
+      "false",
+      "×"
+    ],
+    "analysis": "中和、复分解等可无化合价变化。",
+    "user_answer": null,
+    "grade_result": null,
+    "grade_reason": null,
+    "answered_at": null
+  },
+  {
+    "id": 13,
+    "session_id": 3,
+    "sort_order": 3,
+    "item_id": 3,
+    "item_code": "train.test.eq.single.01",
+    "qtype": "single",
+    "answer_type": "text",
+    "stem": "【测试题】下列属于化学变化的是？",
+    "options_json": [
+      {
+        "key": "A",
+        "text": "冰融化成水"
+      },
+      {
+        "key": "B",
+        "text": "镁条燃烧"
+      },
+      {
+        "key": "C",
+        "text": "食盐溶于水"
+      },
+      {
+        "key": "D",
+        "text": "液态氧变成气态氧"
+      }
+    ],
+    "answer": "B",
+    "answer_aliases_json": null,
+    "analysis": "燃烧有新物质生成。",
+    "user_answer": null,
+    "grade_result": null,
+    "grade_reason": null,
+    "answered_at": null
+  },
+  {
+    "id": 14,
+    "session_id": 3,
+    "sort_order": 4,
+    "item_id": 7,
+    "item_code": "train.test.eq.blank.01",
+    "qtype": "blank",
+    "answer_type": "text",
+    "stem": "【测试题】氯化钠的化学式是____。",
+    "options_json": null,
+    "answer": "NaCl",
+    "answer_aliases_json": [
+      "NaCl(s)"
+    ],
+    "analysis": "氯化钠化学式 NaCl。",
+    "user_answer": null,
+    "grade_result": null,
+    "grade_reason": null,
+    "answered_at": null
+  },
+  {
+    "id": 15,
+    "session_id": 3,
+    "sort_order": 5,
+    "item_id": 8,
+    "item_code": "train.test.eq.single.02",
+    "qtype": "single",
+    "answer_type": "text",
+    "stem": "【测试题】配平化学方程式时必须遵守的是？",
+    "options_json": [
+      {
+        "key": "A",
+        "text": "只保证质量相等即可随意改化学式"
+      },
+      {
+        "key": "B",
+        "text": "原子种类与数目守恒"
+      },
+      {
+        "key": "C",
+        "text": "可以改变生成物种类"
+      },
+      {
+        "key": "D",
+        "text": "不需要考虑原子守恒"
+      }
+    ],
+    "answer": "B",
+    "answer_aliases_json": null,
+    "analysis": "配平依据原子守恒。",
+    "user_answer": null,
+    "grade_result": null,
+    "grade_reason": null,
+    "answered_at": null
+  },
+  {
+    "id": 16,
+    "session_id": 4,
+    "sort_order": 1,
+    "item_id": 69,
+    "item_code": "train.ai_trial.eq.write.01",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】根据文字描述书写化学方程式时，必须配平。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "AI试运行扩充分类覆盖",
+    "user_answer": null,
+    "grade_result": null,
+    "grade_reason": null,
+    "answered_at": null
+  },
+  {
+    "id": 17,
+    "session_id": 4,
+    "sort_order": 2,
+    "item_id": 70,
+    "item_code": "train.ai_trial.eq.write.02",
+    "qtype": "blank",
+    "answer_type": "text",
+    "stem": "【AI试运行】水的化学式是____。",
+    "options_json": null,
+    "answer": "H2O",
+    "answer_aliases_json": [
+      "H₂O"
+    ],
+    "analysis": "AI试运行扩充分类覆盖",
+    "user_answer": null,
+    "grade_result": null,
+    "grade_reason": null,
+    "answered_at": null
+  },
+  {
+    "id": 18,
+    "session_id": 5,
+    "sort_order": 1,
+    "item_id": 92,
+    "item_code": "train.ai_trial.cov.comprehensive.1",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】「化学综合训练」专项基础判断 1：学习化学专项训练有助于突破薄弱点。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "覆盖专项 comprehensive",
+    "user_answer": "错误",
+    "grade_result": "wrong",
+    "grade_reason": null,
+    "answered_at": "2026-10-18T13:02:29.383Z"
+  },
+  {
+    "id": 19,
+    "session_id": 5,
+    "sort_order": 2,
+    "item_id": 93,
+    "item_code": "train.ai_trial.cov.comprehensive.2",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】「化学综合训练」专项基础判断 2：学习化学专项训练有助于突破薄弱点。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "覆盖专项 comprehensive",
+    "user_answer": "错误",
+    "grade_result": "wrong",
+    "grade_reason": null,
+    "answered_at": "2026-10-18T13:02:30.906Z"
+  },
+  {
+    "id": 20,
+    "session_id": 5,
+    "sort_order": 3,
+    "item_id": 94,
+    "item_code": "train.ai_trial.cov.comprehensive.3",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】「化学综合训练」专项基础判断 3：学习化学专项训练有助于突破薄弱点。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "覆盖专项 comprehensive",
+    "user_answer": "错误",
+    "grade_result": "wrong",
+    "grade_reason": null,
+    "answered_at": "2026-10-18T13:02:34.883Z"
+  },
+  {
+    "id": 21,
+    "session_id": 6,
+    "sort_order": 1,
+    "item_id": 24,
+    "item_code": "train.ai_trial.015.con_j",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】氧化还原反应中，还原剂失电子总数等于氧化剂得电子总数。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "来源 concept.electron_conserve",
+    "user_answer": "正确",
+    "grade_result": "correct",
+    "grade_reason": null,
+    "answered_at": "2026-10-18T13:00:57.405Z"
+  },
+  {
+    "id": 22,
+    "session_id": 6,
+    "sort_order": 2,
+    "item_id": 26,
+    "item_code": "train.ai_trial.017.rxn_redox",
+    "qtype": "single",
+    "answer_type": "text",
+    "stem": "【AI试运行】对于反应「4Na + O2 = 2Na2O」，下列哪一项是氧化剂？",
+    "options_json": [
+      {
+        "key": "A",
+        "text": "O2"
+      },
+      {
+        "key": "B",
+        "text": "Na"
+      },
+      {
+        "key": "C",
+        "text": "水"
+      },
+      {
+        "key": "D",
+        "text": "氮气"
+      }
+    ],
+    "answer": "A",
+    "answer_aliases_json": [],
+    "analysis": "氧化剂：O2；来源 rxn.4Na_O2",
+    "user_answer": "A",
+    "grade_result": "correct",
+    "grade_reason": null,
+    "answered_at": "2026-10-18T13:01:07.985Z"
+  },
+  {
+    "id": 23,
+    "session_id": 6,
+    "sort_order": 3,
+    "item_id": 28,
+    "item_code": "train.ai_trial.019.rxn_redox",
+    "qtype": "single",
+    "answer_type": "text",
+    "stem": "【AI试运行】对于反应「2Na + O2 = Na2O2」，下列哪一项是氧化剂？",
+    "options_json": [
+      {
+        "key": "A",
+        "text": "O2"
+      },
+      {
+        "key": "B",
+        "text": "Na"
+      },
+      {
+        "key": "C",
+        "text": "水"
+      },
+      {
+        "key": "D",
+        "text": "氮气"
+      }
+    ],
+    "answer": "A",
+    "answer_aliases_json": [],
+    "analysis": "氧化剂：O2；来源 rxn.2Na_O2_heat",
+    "user_answer": "A",
+    "grade_result": "correct",
+    "grade_reason": null,
+    "answered_at": "2026-10-18T13:01:12.842Z"
+  },
+  {
+    "id": 24,
+    "session_id": 6,
+    "sort_order": 4,
+    "item_id": 30,
+    "item_code": "train.ai_trial.021.rxn_nr",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】反应「Na2O + H2O = 2NaOH」一定是氧化还原反应。判断正误。",
+    "options_json": null,
+    "answer": "错误",
+    "answer_aliases_json": [
+      "错",
+      "F",
+      "false",
+      "×"
+    ],
+    "analysis": "该条目未关联氧化还原专项；来源 rxn.Na2O_H2O",
+    "user_answer": "错误",
+    "grade_result": "correct",
+    "grade_reason": null,
+    "answered_at": "2026-10-18T13:01:17.734Z"
+  },
+  {
+    "id": 25,
+    "session_id": 6,
+    "sort_order": 5,
+    "item_id": 32,
+    "item_code": "train.ai_trial.023.rxn_nr",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】反应「NaOH + HCl = NaCl + H2O」一定是氧化还原反应。判断正误。",
+    "options_json": null,
+    "answer": "错误",
+    "answer_aliases_json": [
+      "错",
+      "F",
+      "false",
+      "×"
+    ],
+    "analysis": "该条目未关联氧化还原专项；来源 rxn.NaOH_HCl",
+    "user_answer": "错误",
+    "grade_result": "correct",
+    "grade_reason": null,
+    "answered_at": "2026-10-18T13:01:26.948Z"
+  },
+  {
+    "id": 26,
+    "session_id": 7,
+    "sort_order": 1,
+    "item_id": 69,
+    "item_code": "train.ai_trial.eq.write.01",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】根据文字描述书写化学方程式时，必须配平。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "AI试运行扩充分类覆盖",
+    "user_answer": "错误",
+    "grade_result": "wrong",
+    "grade_reason": null,
+    "answered_at": "2026-10-19T07:50:59.160Z"
+  },
+  {
+    "id": 27,
+    "session_id": 7,
+    "sort_order": 2,
+    "item_id": 70,
+    "item_code": "train.ai_trial.eq.write.02",
+    "qtype": "blank",
+    "answer_type": "text",
+    "stem": "【AI试运行】水的化学式是____。",
+    "options_json": null,
+    "answer": "H2O",
+    "answer_aliases_json": [
+      "H₂O"
+    ],
+    "analysis": "AI试运行扩充分类覆盖",
+    "user_answer": "h2o",
+    "grade_result": "pending_review",
+    "grade_reason": null,
+    "answered_at": "2026-10-19T07:51:08.411Z"
+  },
+  {
+    "id": 28,
+    "session_id": 8,
+    "sort_order": 1,
+    "item_id": 69,
+    "item_code": "train.ai_trial.eq.write.01",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】根据文字描述书写化学方程式时，必须配平。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "AI试运行扩充分类覆盖",
+    "user_answer": "错误",
+    "grade_result": "wrong",
+    "grade_reason": null,
+    "answered_at": "2026-10-19T08:22:47.436Z"
+  },
+  {
+    "id": 29,
+    "session_id": 8,
+    "sort_order": 2,
+    "item_id": 70,
+    "item_code": "train.ai_trial.eq.write.02",
+    "qtype": "blank",
+    "answer_type": "chem_formula",
+    "stem": "【AI试运行】水的化学式是____。",
+    "options_json": null,
+    "answer": "H2O",
+    "answer_aliases_json": [
+      "H₂O"
+    ],
+    "analysis": "AI试运行扩充分类覆盖",
+    "user_answer": "H2O",
+    "grade_result": "correct",
+    "grade_reason": null,
+    "answered_at": "2026-10-19T08:23:04.441Z"
+  },
+  {
+    "id": 30,
+    "session_id": 9,
+    "sort_order": 1,
+    "item_id": 5,
+    "item_code": "train.test.sub.single.01",
+    "qtype": "single",
+    "answer_type": "text",
+    "stem": "【测试题】水的化学式是？",
+    "options_json": [
+      {
+        "key": "A",
+        "text": "H2O"
+      },
+      {
+        "key": "B",
+        "text": "HO"
+      },
+      {
+        "key": "C",
+        "text": "H2O2"
+      },
+      {
+        "key": "D",
+        "text": "OH"
+      }
+    ],
+    "answer": "A",
+    "answer_aliases_json": null,
+    "analysis": "水分子由两个氢原子与一个氧原子构成。",
+    "user_answer": "A",
+    "grade_result": "correct",
+    "grade_reason": null,
+    "answered_at": "2026-10-19T08:24:30.861Z"
+  },
+  {
+    "id": 31,
+    "session_id": 9,
+    "sort_order": 2,
+    "item_id": 51,
+    "item_code": "train.ai_trial.049.kp_j",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】金属活动性顺序可用于判断金属与酸、盐溶液能否发生置换反应。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "来源 kp.metal.activity",
+    "user_answer": "正确",
+    "grade_result": "correct",
+    "grade_reason": null,
+    "answered_at": "2026-10-19T08:24:40.241Z"
+  },
+  {
+    "id": 32,
+    "session_id": 9,
+    "sort_order": 3,
+    "item_id": 52,
+    "item_code": "train.ai_trial.050.kp_j",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】Fe³⁺可用 KSCN 溶液检验，溶液变血红色。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "来源 kp.Fe.test",
+    "user_answer": "正确",
+    "grade_result": "correct",
+    "grade_reason": null,
+    "answered_at": "2026-10-19T08:24:46.737Z"
+  },
+  {
+    "id": 33,
+    "session_id": 10,
+    "sort_order": 1,
+    "item_id": 223,
+    "item_code": "train.ai_trial.pa.kp_fact_judge.kp.comprehensive.basic",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】综合题一般路径：审清已知与设问→定位知识模块（元素/有机/能量/实验）→写关键方程式或关系式→检查计量、条件与单位→回代题设验证。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "来源 kp.comprehensive.basic description 首句事实",
+    "user_answer": null,
+    "grade_result": null,
+    "grade_reason": null,
+    "answered_at": null
+  },
+  {
+    "id": 34,
+    "session_id": 10,
+    "sort_order": 2,
+    "item_id": 224,
+    "item_code": "train.ai_trial.pa.kp_fact_judge.kp.energy.bond_change",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】化学反应中：断裂化学键吸收能量，形成化学键放出能量。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "来源 kp.energy.bond_change description 首句事实",
+    "user_answer": null,
+    "grade_result": null,
+    "grade_reason": null,
+    "answered_at": null
+  },
+  {
+    "id": 35,
+    "session_id": 10,
+    "sort_order": 3,
+    "item_id": 225,
+    "item_code": "train.ai_trial.pa.kp_fact_judge.kp.energy.chem_electric",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】原电池等装置可把化学能转化为电能；电解则是电能转化为化学能（了解对比）。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "来源 kp.energy.chem_electric description 首句事实",
+    "user_answer": null,
+    "grade_result": null,
+    "grade_reason": null,
+    "answered_at": null
+  },
+  {
+    "id": 36,
+    "session_id": 10,
+    "sort_order": 4,
+    "item_id": 226,
+    "item_code": "train.ai_trial.pa.kp_fact_judge.kp.energy.chem_power",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】了解常见化学电源（如干电池、蓄电池、锂电池等名称与用途层次，以教材为准）。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "来源 kp.energy.chem_power description 首句事实",
+    "user_answer": null,
+    "grade_result": null,
+    "grade_reason": null,
+    "answered_at": null
+  },
+  {
+    "id": 37,
+    "session_id": 10,
+    "sort_order": 5,
+    "item_id": 228,
+    "item_code": "train.ai_trial.pa.kp_fact_judge.kp.energy.electron_flow",
+    "qtype": "judge",
+    "answer_type": "text",
+    "stem": "【AI试运行】外电路中电子由负极流向正极；电流方向与电子流向相反。判断正误。",
+    "options_json": null,
+    "answer": "正确",
+    "answer_aliases_json": [
+      "对",
+      "T",
+      "true",
+      "√"
+    ],
+    "analysis": "来源 kp.energy.electron_flow description 首句事实",
+    "user_answer": null,
+    "grade_result": null,
+    "grade_reason": null,
+    "answered_at": null
+  }
+]

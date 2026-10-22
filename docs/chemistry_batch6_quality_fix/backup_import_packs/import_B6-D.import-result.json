@@ -1,0 +1,88 @@
+{
+  "successCount": 10,
+  "failCount": 0,
+  "linkOk": 10,
+  "linkFail": 0,
+  "results": [
+    {
+      "index": 0,
+      "type": "concept",
+      "ok": true,
+      "id": "27",
+      "inventoryCode": "concept.homolog",
+      "errors": []
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "ok": true,
+      "id": "28",
+      "inventoryCode": "concept.isomer",
+      "errors": []
+    },
+    {
+      "index": 2,
+      "type": "concept",
+      "ok": true,
+      "id": "29",
+      "inventoryCode": "concept.functional_group",
+      "errors": []
+    },
+    {
+      "index": 3,
+      "type": "concept",
+      "ok": true,
+      "id": "30",
+      "inventoryCode": "concept.substitution",
+      "errors": []
+    },
+    {
+      "index": 4,
+      "type": "concept",
+      "ok": true,
+      "id": "31",
+      "inventoryCode": "concept.addition",
+      "errors": []
+    },
+    {
+      "index": 5,
+      "type": "concept",
+      "ok": true,
+      "id": "32",
+      "inventoryCode": "concept.esterification_rule",
+      "errors": []
+    },
+    {
+      "index": 6,
+      "type": "concept",
+      "ok": true,
+      "id": "33",
+      "inventoryCode": "concept.endothermic",
+      "errors": []
+    },
+    {
+      "index": 7,
+      "type": "concept",
+      "ok": true,
+      "id": "34",
+      "inventoryCode": "concept.exothermic",
+      "errors": []
+    },
+    {
+      "index": 8,
+      "type": "concept",
+      "ok": true,
+      "id": "35",
+      "inventoryCode": "concept.heat_of_reaction",
+      "errors": []
+    },
+    {
+      "index": 9,
+      "type": "concept",
+      "ok": true,
+      "id": "36",
+      "inventoryCode": "concept.addition_polymer",
+      "errors": []
+    }
+  ]
+}

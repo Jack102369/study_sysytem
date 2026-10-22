@@ -1,0 +1,2429 @@
+{
+  "items": [
+    {
+      "type": "reaction",
+      "data": {
+        "name": "钠常温与氧气",
+        "canonicalEquation": "4Na+O2=2Na2O",
+        "equation": "4Na + O2 = 2Na2O",
+        "ionicEquation": null,
+        "conditions": "常温（表面生成）",
+        "phenomenon": "钠表面变暗，生成一层氧化物。",
+        "principle": "钠还原性强，常温即可被氧气缓慢氧化，主要生成氧化钠。化合反应中氧化产物与还原产物均为Na2O（训练须说明）。",
+        "oxidant": "O2",
+        "reductant": "Na",
+        "oxProduct": "Na2O",
+        "reProduct": "Na2O",
+        "electronTransfer": "Na 失 1e-；O 得 2e-（按原子计，配平后守恒）",
+        "difficulty": 2,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "metal",
+          "oxide"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Na",
+            "coefficient": 4,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "O2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "Na2O",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.4Na_O2] canonical=4Na+O2=2Na2O; batch3导入 pending_review id=2"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "钠加热与氧气",
+        "canonicalEquation": "2Na+O2=Na2O2",
+        "equation": "2Na + O2 = Na2O2",
+        "ionicEquation": null,
+        "conditions": "加热点燃（燃烧）",
+        "phenomenon": "剧烈燃烧，火焰黄色，生成淡黄色固体。",
+        "principle": "钠在空气或氧气中燃烧生成过氧化钠。化合反应中氧化产物与还原产物均为Na2O2（训练须说明）。",
+        "oxidant": "O2",
+        "reductant": "Na",
+        "oxProduct": "Na2O2",
+        "reProduct": "Na2O2",
+        "electronTransfer": "Na 失 1e-；O 得 1e-（过氧化物中O为−1价，按原子计）",
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "metal",
+          "peroxide"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Na",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "O2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "Na2O2",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.2Na_O2_heat] canonical=2Na+O2=Na2O2; batch3导入 pending_review id=3"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "过氧化钠与水",
+        "canonicalEquation": "2Na2O2+2H2O=4NaOH+O2",
+        "equation": "2Na2O2 + 2H2O = 4NaOH + O2↑",
+        "ionicEquation": "2Na2O2 + 2H2O = 4Na+ + 4OH- + O2↑",
+        "conditions": "常温",
+        "phenomenon": "剧烈反应，放热，产生气泡；溶液显碱性。",
+        "principle": "过氧化钠中氧−1价发生歧化：一部分升为0价（O2），一部分降为−2价（OH-）。",
+        "oxidant": "Na2O2",
+        "reductant": "Na2O2",
+        "oxProduct": "O2",
+        "reProduct": "NaOH",
+        "electronTransfer": "部分O(−1)失e-→O2；部分O(−1)得e-→OH-（歧化）",
+        "difficulty": 3,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "peroxide",
+          "disproportionation"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Na2O2",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "H2O",
+            "coefficient": 2,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "NaOH",
+            "coefficient": 4,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "O2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.2Na2O2_2H2O] canonical=2Na2O2+2H2O=4NaOH+O2; batch3导入 pending_review id=4"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "过氧化钠与二氧化碳",
+        "canonicalEquation": "2Na2O2+2CO2=2Na2CO3+O2",
+        "equation": "2Na2O2 + 2CO2 = 2Na2CO3 + O2↑",
+        "ionicEquation": null,
+        "conditions": "常温",
+        "phenomenon": "吸收CO2并放出O2；固体由淡黄色转变为白色（碳酸钠）。",
+        "principle": "过氧化钠与CO2反应供氧，氧元素歧化。",
+        "oxidant": "Na2O2",
+        "reductant": "Na2O2",
+        "oxProduct": "O2",
+        "reProduct": "Na2CO3",
+        "electronTransfer": "部分O(−1)失e-→O2；部分O(−1)得e-→碳酸根中O(−2)（歧化）",
+        "difficulty": 3,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "peroxide",
+          "disproportionation"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Na2O2",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "CO2",
+            "coefficient": 2,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "Na2CO3",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "O2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.2Na2O2_2CO2] canonical=2Na2O2+2CO2=2Na2CO3+O2; batch3导入 pending_review id=5"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "氧化钠与水",
+        "canonicalEquation": "Na2O+H2O=2NaOH",
+        "equation": "Na2O + H2O = 2NaOH",
+        "ionicEquation": "Na2O + H2O = 2Na+ + 2OH-",
+        "conditions": "常温",
+        "phenomenon": "剧烈放热，生成强碱溶液。",
+        "principle": "碱性氧化物与水反应生成碱；化合价不变，非氧化还原。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 1,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "acid-base",
+          "oxide",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Na2O",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "NaOH",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.Na2O_H2O] canonical=Na2O+H2O=2NaOH; batch3导入 pending_review id=6"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "氢氧化钠与二氧化碳",
+        "canonicalEquation": "2NaOH+CO2=Na2CO3+H2O",
+        "equation": "2NaOH + CO2 = Na2CO3 + H2O",
+        "ionicEquation": "2OH- + CO2 = CO32- + H2O",
+        "conditions": "本条主方程式对应n(NaOH):n(CO2)=2:1（碱足量或CO2适量）生成Na2CO3。若继续通入过量CO2，可进一步：Na2CO3+CO2+H2O=2NaHCO3（见rxn.Na2CO3_CO2_H2O）。教材对“过量”措辞待核实，命题须写明用量条件。",
+        "phenomenon": "气体被吸收；无明显特殊颜色变化。",
+        "principle": "酸性氧化物与碱反应；产物随相对用量变化，不可脱离用量谈唯一产物。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "acid-base",
+          "non-redox",
+          "sodium"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "NaOH",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "CO2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "Na2CO3",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.NaOH_CO2] 待核实:教材过量措辞;已写清用量分支"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "氢氧化钠与盐酸",
+        "canonicalEquation": "NaOH+HCl=NaCl+H2O",
+        "equation": "NaOH + HCl = NaCl + H2O",
+        "ionicEquation": "OH- + H+ = H2O",
+        "conditions": "常温，溶液中进行",
+        "phenomenon": "放热；酸碱中和，指示剂可变色。",
+        "principle": "强酸强碱中和生成盐和水；非氧化还原。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 1,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "acid-base",
+          "neutralization",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,ion.ionic_eq",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "NaOH",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "HCl",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "NaCl",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.NaOH_HCl] canonical=NaOH+HCl=NaCl+H2O; batch3导入 pending_review id=8"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "碳酸氢钠受热分解",
+        "canonicalEquation": "2NaHCO3=Na2CO3+CO2+H2O",
+        "equation": "2NaHCO3 =△= Na2CO3 + CO2↑ + H2O",
+        "ionicEquation": null,
+        "conditions": "加热",
+        "phenomenon": "固体质量减少，产生使澄清石灰水变浑浊的气体。",
+        "principle": "碳酸氢钠热稳定性较差，分解生成碳酸钠、二氧化碳和水；非氧化还原。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "decomposition",
+          "non-redox",
+          "sodium"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "NaHCO3",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "product",
+            "formula": "Na2CO3",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CO2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.NaHCO3_heat] canonical=2NaHCO3=Na2CO3+CO2+H2O; batch3导入 pending_review id=9"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "碳酸钠与盐酸",
+        "canonicalEquation": "Na2CO3+2HCl=2NaCl+CO2+H2O",
+        "equation": "Na2CO3 + 2HCl = 2NaCl + CO2↑ + H2O",
+        "ionicEquation": "CO32- + 2H+ = CO2↑ + H2O",
+        "conditions": "常温，酸足量",
+        "phenomenon": "产生气泡；气体使澄清石灰水变浑浊。",
+        "principle": "碳酸盐与强酸反应放出CO2；非氧化还原。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 1,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "acid-base",
+          "gas",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,ion.ionic_eq",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Na2CO3",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "HCl",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "NaCl",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "CO2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 5
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.Na2CO3_2HCl] canonical=Na2CO3+2HCl=2NaCl+CO2+H2O; batch3导入 pending_review id=10"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "镁与氧气",
+        "canonicalEquation": "2Mg+O2=2MgO",
+        "equation": "2Mg + O2 =点燃= 2MgO",
+        "ionicEquation": null,
+        "conditions": "点燃",
+        "phenomenon": "发出耀眼白光，生成白色固体。",
+        "principle": "镁被氧气氧化生成氧化镁。",
+        "oxidant": "O2",
+        "reductant": "Mg",
+        "oxProduct": "MgO",
+        "reProduct": "MgO",
+        "electronTransfer": "Mg 失 2e-；O 得 2e-（按原子计）",
+        "difficulty": 1,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "metal",
+          "combustion"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Mg",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "O2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "MgO",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.2Mg_O2] canonical=2Mg+O2=2MgO; batch3导入 pending_review id=11"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "镁与盐酸",
+        "canonicalEquation": "Mg+2HCl=MgCl2+H2",
+        "equation": "Mg + 2HCl = MgCl2 + H2↑",
+        "ionicEquation": "Mg + 2H+ = Mg2+ + H2↑",
+        "conditions": "常温，稀盐酸",
+        "phenomenon": "镁溶解，产生气泡；溶液温度升高。",
+        "principle": "活泼金属与酸反应生成盐和氢气。",
+        "oxidant": "HCl",
+        "reductant": "Mg",
+        "oxProduct": "MgCl2",
+        "reProduct": "H2",
+        "electronTransfer": "Mg 失 2e-；H 得 1e-（按原子计）",
+        "difficulty": 1,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "metal",
+          "acid"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Mg",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "HCl",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "MgCl2",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.Mg_2HCl] canonical=Mg+2HCl=MgCl2+H2; batch3导入 pending_review id=12"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "镁与二氧化碳",
+        "canonicalEquation": "2Mg+CO2=2MgO+C",
+        "equation": "2Mg + CO2 =点燃= 2MgO + C",
+        "ionicEquation": null,
+        "conditions": "点燃（镁条在CO2中继续燃烧）",
+        "phenomenon": "继续燃烧，瓶壁有白色MgO，并出现黑色碳。",
+        "principle": "镁还原性强，可夺取CO2中的氧，生成MgO与C。",
+        "oxidant": "CO2",
+        "reductant": "Mg",
+        "oxProduct": "MgO",
+        "reProduct": "C",
+        "electronTransfer": "Mg 失 2e-；C(+4)得e-→C(0)",
+        "difficulty": 3,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "metal"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Mg",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "CO2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "MgO",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "C",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.Mg_CO2] canonical=2Mg+CO2=2MgO+C; batch3导入 pending_review id=13"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "铝与氧气",
+        "canonicalEquation": "4Al+3O2=2Al2O3",
+        "equation": "4Al + 3O2 =点燃= 2Al2O3",
+        "ionicEquation": null,
+        "conditions": "本条方程式对应点燃或高温燃烧条件。另：常温下铝表面可缓慢生成致密Al2O3氧化膜（化学式相同，但不属于本条“点燃燃烧”现象，训练时须分条件命题）。",
+        "phenomenon": "点燃/高温：剧烈燃烧，生成白色固体Al2O3。常温：表面缓慢形成致密氧化膜保护内部铝（观察不到剧烈燃烧）。",
+        "principle": "铝被氧气氧化生成氧化铝；化合反应中氧化产物与还原产物均为Al2O3。",
+        "oxidant": "O2",
+        "reductant": "Al",
+        "oxProduct": "Al2O3",
+        "reProduct": "Al2O3",
+        "electronTransfer": "Al 失 3e-；O 得 2e-（按原子计，配平后守恒）",
+        "difficulty": 2,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "metal",
+          "oxide"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Al",
+            "coefficient": 4,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "O2",
+            "coefficient": 3,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "Al2O3",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.4Al_3O2] B3整改:分条件写点燃燃烧与常温成膜"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "铝与盐酸",
+        "canonicalEquation": "2Al+6HCl=2AlCl3+3H2",
+        "equation": "2Al + 6HCl = 2AlCl3 + 3H2↑",
+        "ionicEquation": "2Al + 6H+ = 2Al3+ + 3H2↑",
+        "conditions": "常温，稀盐酸（氧化膜除去后更明显）",
+        "phenomenon": "铝溶解，产生气泡。",
+        "principle": "铝与强酸反应生成铝盐和氢气。",
+        "oxidant": "HCl",
+        "reductant": "Al",
+        "oxProduct": "AlCl3",
+        "reProduct": "H2",
+        "electronTransfer": "Al 失 3e-；H 得 1e-（按原子计）",
+        "difficulty": 2,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "metal",
+          "acid"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Al",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "HCl",
+            "coefficient": 6,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "AlCl3",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2",
+            "coefficient": 3,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.2Al_6HCl] canonical=2Al+6HCl=2AlCl3+3H2; batch3导入 pending_review id=15"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "铝与氢氧化钠溶液",
+        "canonicalEquation": "2Al+2NaOH+2H2O=2NaAlO2+3H2",
+        "equation": "2Al + 2NaOH + 2H2O = 2NaAlO2 + 3H2↑",
+        "ionicEquation": "2Al + 2OH- + 2H2O = 2AlO2- + 3H2↑",
+        "conditions": "常温或加热，NaOH溶液。书写口径：本库默认高中简化式NaAlO2/AlO2-；水溶液中亦常见[Al(OH)4]-（了解，待教材核实统一）。",
+        "phenomenon": "铝溶解，产生气泡；溶液中生成偏铝酸盐。",
+        "principle": "铝与强碱溶液反应放氢气。氧化剂为H2O（H得电子），还原剂为Al。产物写法见conditions。",
+        "oxidant": "H2O",
+        "reductant": "Al",
+        "oxProduct": "NaAlO2",
+        "reProduct": "H2",
+        "electronTransfer": "Al 失 3e-；H(+1)得e-→H2",
+        "difficulty": 3,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "amphoteric",
+          "metal"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Al",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "NaOH",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "reactant",
+            "formula": "H2O",
+            "coefficient": 2,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "NaAlO2",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          },
+          {
+            "role": "product",
+            "formula": "H2",
+            "coefficient": 3,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 5
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.2Al_2NaOH] 待核实:AlO2-与[Al(OH)4]-教材口径;命题须指定写法"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "氧化铝与盐酸",
+        "canonicalEquation": "Al2O3+6HCl=2AlCl3+3H2O",
+        "equation": "Al2O3 + 6HCl = 2AlCl3 + 3H2O",
+        "ionicEquation": "Al2O3 + 6H+ = 2Al3+ + 3H2O",
+        "conditions": "常温或加热",
+        "phenomenon": "固体逐渐溶解。",
+        "principle": "两性氧化物与强酸反应生成铝盐和水；非氧化还原。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "amphoteric",
+          "acid-base",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Al2O3",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "HCl",
+            "coefficient": 6,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "AlCl3",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 3,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.Al2O3_6HCl] canonical=Al2O3+6HCl=2AlCl3+3H2O; batch3导入 pending_review id=17"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "氧化铝与氢氧化钠",
+        "canonicalEquation": "Al2O3+2NaOH=2NaAlO2+H2O",
+        "equation": "Al2O3 + 2NaOH = 2NaAlO2 + H2O",
+        "ionicEquation": "Al2O3 + 2OH- = 2AlO2- + H2O",
+        "conditions": "常温或加热，NaOH溶液。本库默认简化式NaAlO2/AlO2-；亦有教材写Na[Al(OH)4]/[Al(OH)4]-（待核实，命题须指定）。",
+        "phenomenon": "固体溶解，生成偏铝酸盐溶液。",
+        "principle": "两性氧化物与强碱反应；非氧化还原。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "amphoteric",
+          "acid-base",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Al2O3",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "NaOH",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "NaAlO2",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.Al2O3_2NaOH] 待核实:NaAlO2与Na[Al(OH)4]口径;命题指定写法"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "氢氧化铝与氢氧化钠",
+        "canonicalEquation": "Al(OH)3+NaOH=NaAlO2+2H2O",
+        "equation": "Al(OH)3 + NaOH = NaAlO2 + 2H2O",
+        "ionicEquation": "Al(OH)3 + OH- = AlO2- + 2H2O",
+        "conditions": "常温，强碱溶液。产物写法同铝酸盐口径：默认NaAlO2/AlO2-，[Al(OH)4]-为了解/待核实。",
+        "phenomenon": "白色沉淀溶解。",
+        "principle": "两性氢氧化物与强碱反应生成偏铝酸盐；非氧化还原。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "amphoteric",
+          "acid-base",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Al(OH)3",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": true,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "NaOH",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "NaAlO2",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 2,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.AlOH3_NaOH] 待核实:产物写法;命题指定口径"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "氢氧化铝与盐酸",
+        "canonicalEquation": "Al(OH)3+3HCl=AlCl3+3H2O",
+        "equation": "Al(OH)3 + 3HCl = AlCl3 + 3H2O",
+        "ionicEquation": "Al(OH)3 + 3H+ = Al3+ + 3H2O",
+        "conditions": "常温",
+        "phenomenon": "白色沉淀溶解。",
+        "principle": "两性氢氧化物与强酸反应生成铝盐；非氧化还原。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 1,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "amphoteric",
+          "acid-base",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Al(OH)3",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": true,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "HCl",
+            "coefficient": 3,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "AlCl3",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 3,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.AlOH3_3HCl] canonical=Al(OH)3+3HCl=AlCl3+3H2O; batch3导入 pending_review id=20"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "铁与氧气",
+        "canonicalEquation": "3Fe+2O2=Fe3O4",
+        "equation": "3Fe + 2O2 =点燃= Fe3O4",
+        "ionicEquation": null,
+        "conditions": "点燃（如细铁丝在氧气中）",
+        "phenomenon": "剧烈燃烧，火星四射，生成黑色固体。",
+        "principle": "铁在氧气中点燃生成四氧化三铁。",
+        "oxidant": "O2",
+        "reductant": "Fe",
+        "oxProduct": "Fe3O4",
+        "reProduct": "Fe3O4",
+        "electronTransfer": "Fe 失e-（平均价态变化）；O 得 2e-（按原子计，配平后守恒）",
+        "difficulty": 2,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "metal",
+          "combustion"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Fe",
+            "coefficient": 3,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "O2",
+            "coefficient": 2,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "Fe3O4",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.3Fe_2O2] canonical=3Fe+2O2=Fe3O4; batch3导入 pending_review id=21"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "铁与稀硫酸",
+        "canonicalEquation": "Fe+H2SO4=FeSO4+H2",
+        "equation": "Fe + H2SO4 = FeSO4 + H2↑",
+        "ionicEquation": "Fe + 2H+ = Fe2+ + H2↑",
+        "conditions": "稀硫酸，常温",
+        "phenomenon": "铁溶解，产生气泡；溶液呈浅绿色（Fe2+）。",
+        "principle": "铁与非氧化性稀酸反应生成亚铁盐和氢气。",
+        "oxidant": "H2SO4",
+        "reductant": "Fe",
+        "oxProduct": "FeSO4",
+        "reProduct": "H2",
+        "electronTransfer": "Fe 失 2e-；H 得 1e-（按原子计）",
+        "difficulty": 1,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "metal",
+          "acid"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Fe",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "H2SO4",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "FeSO4",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.Fe_H2SO4] canonical=Fe+H2SO4=FeSO4+H2; batch3导入 pending_review id=22"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "铁与硫酸铜",
+        "canonicalEquation": "Fe+CuSO4=FeSO4+Cu",
+        "equation": "Fe + CuSO4 = FeSO4 + Cu",
+        "ionicEquation": "Fe + Cu2+ = Fe2+ + Cu",
+        "conditions": "常温，溶液中",
+        "phenomenon": "铁表面析出红色铜；溶液由蓝变浅绿。",
+        "principle": "活动性强的铁置换出铜离子。",
+        "oxidant": "CuSO4",
+        "reductant": "Fe",
+        "oxProduct": "FeSO4",
+        "reProduct": "Cu",
+        "electronTransfer": "Fe 失 2e-；Cu2+ 得 2e-",
+        "difficulty": 1,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "displacement",
+          "metal"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Fe",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "CuSO4",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "FeSO4",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "Cu",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.Fe_CuSO4] canonical=Fe+CuSO4=FeSO4+Cu; batch3导入 pending_review id=23"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "氧化铁与一氧化碳",
+        "canonicalEquation": "Fe2O3+3CO=2Fe+3CO2",
+        "equation": "Fe2O3 + 3CO =高温= 2Fe + 3CO2",
+        "ionicEquation": null,
+        "conditions": "高温",
+        "phenomenon": "红棕色固体逐渐变为黑色/灰黑铁；有CO2生成。",
+        "principle": "一氧化碳高温还原氧化铁，是炼铁的重要反应思路。",
+        "oxidant": "Fe2O3",
+        "reductant": "CO",
+        "oxProduct": "CO2",
+        "reProduct": "Fe",
+        "electronTransfer": "C(+2)失e-→C(+4)；Fe(+3)得e-→Fe(0)",
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "smelting"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Fe2O3",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "CO",
+            "coefficient": 3,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "Fe",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "CO2",
+            "coefficient": 3,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.Fe2O3_3CO] canonical=Fe2O3+3CO=2Fe+3CO2; batch3导入 pending_review id=24"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "铜加热与氧气",
+        "canonicalEquation": "2Cu+O2=2CuO",
+        "equation": "2Cu + O2 =△= 2CuO",
+        "ionicEquation": null,
+        "conditions": "加热",
+        "phenomenon": "铜表面由紫红变黑。",
+        "principle": "铜被氧气氧化生成黑色氧化铜。",
+        "oxidant": "O2",
+        "reductant": "Cu",
+        "oxProduct": "CuO",
+        "reProduct": "CuO",
+        "electronTransfer": "Cu 失 2e-；O 得 2e-（按原子计）",
+        "difficulty": 1,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "metal"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Cu",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "O2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CuO",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.Cu_O2_heat] canonical=2Cu+O2=2CuO; batch3导入 pending_review id=25"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "氧化铜与氢气",
+        "canonicalEquation": "CuO+H2=Cu+H2O",
+        "equation": "CuO + H2 =△= Cu + H2O",
+        "ionicEquation": null,
+        "conditions": "加热；先通H2再加热，冷却后停H2",
+        "phenomenon": "黑色固体变为紫红色；管口有水珠。",
+        "principle": "氢气还原氧化铜得到铜。",
+        "oxidant": "CuO",
+        "reductant": "H2",
+        "oxProduct": "H2O",
+        "reProduct": "Cu",
+        "electronTransfer": "H 失 1e-；Cu(+2)得 2e-（按原子/计量守恒）",
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "reduction"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "CuO",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "H2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "Cu",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.CuO_H2] canonical=CuO+H2=Cu+H2O; batch3导入 pending_review id=26"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "氧化铜与盐酸",
+        "canonicalEquation": "CuO+2HCl=CuCl2+H2O",
+        "equation": "CuO + 2HCl = CuCl2 + H2O",
+        "ionicEquation": "CuO + 2H+ = Cu2+ + H2O",
+        "conditions": "常温或微热",
+        "phenomenon": "黑色固体溶解，溶液呈蓝绿色（Cu2+）。",
+        "principle": "碱性氧化物与酸反应生成盐和水；非氧化还原。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 1,
+        "importance": 4,
+        "isVerified": false,
+        "tags": [
+          "acid-base",
+          "oxide",
+          "non-redox"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "CuO",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "HCl",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "CuCl2",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.CuO_2HCl] canonical=CuO+2HCl=CuCl2+H2O; batch3导入 pending_review id=27"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "锌与稀硫酸",
+        "canonicalEquation": "Zn+H2SO4=ZnSO4+H2",
+        "equation": "Zn + H2SO4 = ZnSO4 + H2↑",
+        "ionicEquation": "Zn + 2H+ = Zn2+ + H2↑",
+        "conditions": "稀硫酸，常温",
+        "phenomenon": "锌溶解，产生气泡。",
+        "principle": "锌与稀硫酸反应生成硫酸锌和氢气。",
+        "oxidant": "H2SO4",
+        "reductant": "Zn",
+        "oxProduct": "ZnSO4",
+        "reProduct": "H2",
+        "electronTransfer": "Zn 失 2e-；H 得 1e-（按原子计）",
+        "difficulty": 1,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "metal",
+          "acid"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Zn",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "H2SO4",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "ZnSO4",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.Zn_H2SO4] canonical=Zn+H2SO4=ZnSO4+H2; batch3导入 pending_review id=28"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "锌与硫酸铜",
+        "canonicalEquation": "Zn+CuSO4=ZnSO4+Cu",
+        "equation": "Zn + CuSO4 = ZnSO4 + Cu",
+        "ionicEquation": "Zn + Cu2+ = Zn2+ + Cu",
+        "conditions": "常温，溶液中",
+        "phenomenon": "锌表面析出红色铜；蓝色溶液变浅。",
+        "principle": "锌的活动性强于铜，置换出铜。",
+        "oxidant": "CuSO4",
+        "reductant": "Zn",
+        "oxProduct": "ZnSO4",
+        "reProduct": "Cu",
+        "electronTransfer": "Zn 失 2e-；Cu2+ 得 2e-",
+        "difficulty": 1,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "displacement",
+          "metal"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Zn",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "CuSO4",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "ZnSO4",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "Cu",
+            "coefficient": 1,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.Zn_CuSO4] canonical=Zn+CuSO4=ZnSO4+Cu; batch3导入 pending_review id=29"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "氢氧化亚铁被氧气氧化",
+        "canonicalEquation": "4Fe(OH)2+O2+2H2O=4Fe(OH)3",
+        "equation": "4Fe(OH)2 + O2 + 2H2O = 4Fe(OH)3",
+        "ionicEquation": null,
+        "conditions": "空气中（有氧气与水参与）；白色Fe(OH)2沉淀生成后迅速被氧化",
+        "phenomenon": "白色沉淀迅速变为灰绿色，最终变为红褐色（直接观察）；推断产物为Fe(OH)3。",
+        "principle": "氧化剂O2，还原剂Fe(OH)2。Fe(+2)→Fe(+3)被氧化，产物Fe(OH)3为氧化产物；O2中O(0)→O(−2)被还原后进入Fe(OH)3，故还原产物也记为Fe(OH)3（勿把反应物H2O答成还原产物）。默认训练慎出无题干说明的“还原产物”自动题。",
+        "oxidant": "O2",
+        "reductant": "Fe(OH)2",
+        "oxProduct": "Fe(OH)3",
+        "reProduct": "Fe(OH)3（O被还原后进入；≠反应物H2O）",
+        "electronTransfer": "Fe(+2)失e-→Fe(+3)；O(0)得e-→O(−2)进入Fe(OH)3",
+        "difficulty": 3,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "iron",
+          "precipitation"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,phenomenon.observe",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Fe(OH)2",
+            "coefficient": 4,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": true,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "O2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "reactant",
+            "formula": "H2O",
+            "coefficient": 2,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "Fe(OH)3",
+            "coefficient": 4,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": true,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.FeOH2_O2] B3整改:明确ox/re产物口径;排除默认redox.identify"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "亚铁离子被氯气氧化",
+        "canonicalEquation": "2Fe2++Cl2=2Fe3++2Cl-",
+        "equation": "2Fe2+ + Cl2 = 2Fe3+ + 2Cl-",
+        "ionicEquation": "2Fe2+ + Cl2 = 2Fe3+ + 2Cl-",
+        "conditions": "溶液中通入Cl2",
+        "phenomenon": "浅绿色溶液变为黄/棕黄色。",
+        "principle": "氯气氧化Fe2+为Fe3+，自身被还原为Cl-。",
+        "oxidant": "Cl2",
+        "reductant": "Fe2+",
+        "oxProduct": "Fe3+",
+        "reProduct": "Cl-",
+        "electronTransfer": "Fe2+ 失 1e-；Cl 得 1e-（按原子计）",
+        "difficulty": 3,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "ion",
+          "iron"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance,redox.identify,ion.ionic_eq",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Fe2+",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "Cl2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "Fe3+",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "Cl-",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.2Fe2_Cl2] 增补；代表反应 2Fe²⁺+Cl₂=2Fe³⁺+2Cl⁻；canonical建设时核对; batch3导入 pending_review id=31"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "碳酸钠转化为碳酸氢钠",
+        "canonicalEquation": "Na2CO3+CO2+H2O=2NaHCO3",
+        "equation": "Na2CO3 + CO2 + H2O = 2NaHCO3",
+        "ionicEquation": "CO32- + CO2 + H2O = 2HCO3-",
+        "conditions": "通入足量CO2",
+        "phenomenon": "气体被吸收；可析出NaHCO3晶体（浓度足够时）。",
+        "principle": "碳酸钠溶液吸收CO2转化为碳酸氢钠；非氧化还原。",
+        "oxidant": null,
+        "reductant": null,
+        "oxProduct": null,
+        "reProduct": null,
+        "electronTransfer": null,
+        "difficulty": 2,
+        "importance": 5,
+        "isVerified": false,
+        "tags": [
+          "acid-base",
+          "non-redox",
+          "sodium"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Na2CO3",
+            "coefficient": 1,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "CO2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "reactant",
+            "formula": "H2O",
+            "coefficient": 1,
+            "stateSymbol": "l",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "NaHCO3",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.Na2CO3_CO2_H2O] 增补；Na2CO3+CO2+H2O=2NaHCO3；与 kp.Na.carbonate 关联; batch3导入 pending_review id=32"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "钠与盐酸反应",
+        "canonicalEquation": "2Na+2HCl=2NaCl+H2",
+        "equation": "2Na + 2HCl = 2NaCl + H2↑",
+        "ionicEquation": "2Na + 2H+ = 2Na+ + H2↑",
+        "conditions": "常温。化学上可发生且比钠与水更剧烈。课程定位：了解/纸笔对比（对照钠与水），禁止作为学生动手实验；若演示须教师严格控制用量与防护。",
+        "phenomenon": "钠迅速反应并放出氢气；反应剧烈，可能飞溅或点燃氢气（危险，勿自行尝试）。",
+        "principle": "钠失电子被氧化，酸中H+得电子被还原生成H2；氧化剂HCl，还原剂Na，氧化产物NaCl，还原产物H2。",
+        "oxidant": "HCl",
+        "reductant": "Na",
+        "oxProduct": "NaCl",
+        "reProduct": "H2",
+        "electronTransfer": "Na 失 1e-；H 得 1e-（按原子计）",
+        "difficulty": 2,
+        "importance": 3,
+        "isVerified": false,
+        "tags": [
+          "redox",
+          "metal",
+          "acid",
+          "hazard",
+          "scope:understand"
+        ],
+        "trainTypes": "equation.write_from_text,equation.balance",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "Na",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "HCl",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "NaCl",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "isGas": false,
+            "isPrecipitate": false,
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "isPrecipitate": false,
+            "sortOrder": 4
+          }
+        ],
+        "status": "pending_review",
+        "reviewNote": "[inv:rxn.2Na_2HCl] B3整改:了解级;禁学生实验;排除默认实验操作训练"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch3",
+    "pack": "B3-B",
+    "inventoryCodes": [
+      "rxn.4Na_O2",
+      "rxn.2Na_O2_heat",
+      "rxn.2Na2O2_2H2O",
+      "rxn.2Na2O2_2CO2",
+      "rxn.Na2O_H2O",
+      "rxn.NaOH_CO2",
+      "rxn.NaOH_HCl",
+      "rxn.NaHCO3_heat",
+      "rxn.Na2CO3_2HCl",
+      "rxn.2Mg_O2",
+      "rxn.Mg_2HCl",
+      "rxn.Mg_CO2",
+      "rxn.4Al_3O2",
+      "rxn.2Al_6HCl",
+      "rxn.2Al_2NaOH",
+      "rxn.Al2O3_6HCl",
+      "rxn.Al2O3_2NaOH",
+      "rxn.AlOH3_NaOH",
+      "rxn.AlOH3_3HCl",
+      "rxn.3Fe_2O2",
+      "rxn.Fe_H2SO4",
+      "rxn.Fe_CuSO4",
+      "rxn.Fe2O3_3CO",
+      "rxn.Cu_O2_heat",
+      "rxn.CuO_H2",
+      "rxn.CuO_2HCl",
+      "rxn.Zn_H2SO4",
+      "rxn.Zn_CuSO4",
+      "rxn.FeOH2_O2",
+      "rxn.2Fe2_Cl2",
+      "rxn.Na2CO3_CO2_H2O",
+      "rxn.2Na_2HCl"
+    ],
+    "specialtyByCode": {
+      "rxn.4Na_O2": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.2Na_O2_heat": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.2Na2O2_2H2O": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.2Na2O2_2CO2": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.Na2O_H2O": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.NaOH_CO2": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.NaOH_HCl": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.NaHCO3_heat": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.Na2CO3_2HCl": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.2Mg_O2": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.Mg_2HCl": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.Mg_CO2": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.4Al_3O2": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.2Al_6HCl": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.2Al_2NaOH": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.Al2O3_6HCl": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.Al2O3_2NaOH": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.AlOH3_NaOH": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.AlOH3_3HCl": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.3Fe_2O2": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.Fe_H2SO4": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.Fe_CuSO4": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.Fe2O3_3CO": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.Cu_O2_heat": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.CuO_H2": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.CuO_2HCl": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.Zn_H2SO4": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.Zn_CuSO4": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.FeOH2_O2": [
+        "equation",
+        "redox",
+        "substance"
+      ],
+      "rxn.2Fe2_Cl2": [
+        "equation",
+        "redox",
+        "ion"
+      ],
+      "rxn.Na2CO3_CO2_H2O": [
+        "equation",
+        "substance"
+      ],
+      "rxn.2Na_2HCl": [
+        "equation",
+        "redox",
+        "substance"
+      ]
+    },
+    "categoryByCode": {
+      "rxn.4Na_O2": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.2Na_O2_heat": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.2Na2O2_2H2O": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.2Na2O2_2CO2": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.Na2O_H2O": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.NaOH_CO2": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.NaOH_HCl": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.NaHCO3_heat": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.Na2CO3_2HCl": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.2Mg_O2": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.Mg_2HCl": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.Mg_CO2": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.4Al_3O2": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.2Al_6HCl": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.2Al_2NaOH": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.Al2O3_6HCl": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.Al2O3_2NaOH": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.AlOH3_NaOH": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.AlOH3_3HCl": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.3Fe_2O2": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.Fe_H2SO4": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.Fe_CuSO4": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.Fe2O3_3CO": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.Cu_O2_heat": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.CuO_H2": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.CuO_2HCl": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.Zn_H2SO4": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.Zn_CuSO4": [
+        "equation.write_from_text",
+        "equation.balance",
+        "redox.identify"
+      ],
+      "rxn.FeOH2_O2": [
+        "equation.write_from_text",
+        "equation.condition",
+        "equation.redox_analysis"
+      ],
+      "rxn.2Fe2_Cl2": [
+        "equation.ionic_write",
+        "redox.identify",
+        "ion.mixed"
+      ],
+      "rxn.Na2CO3_CO2_H2O": [
+        "equation.write_from_text",
+        "equation.conversion",
+        "substance.conversion"
+      ],
+      "rxn.2Na_2HCl": [
+        "equation.write_from_text",
+        "equation.redox_analysis"
+      ]
+    }
+  }
+}

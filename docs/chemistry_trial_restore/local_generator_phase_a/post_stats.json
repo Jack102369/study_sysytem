@@ -1,0 +1,67 @@
+{
+  "total": 594,
+  "formal": 0,
+  "testActive": 576,
+  "phaseAInserted": 500,
+  "covTotal": 18,
+  "covActive": 0,
+  "seedActive": 9,
+  "chemFormulaBlanks": 24,
+  "byDiff": {
+    "1": 409,
+    "2": 167,
+    "3": 0
+  },
+  "byQ": {
+    "judge": 345,
+    "single": 158,
+    "blank": 73
+  },
+  "bySpec": {
+    "equation": 220,
+    "experiment": 7,
+    "substance": 92,
+    "calculation": 8,
+    "ion": 18,
+    "redox": 111,
+    "periodic": 21,
+    "structure": 3,
+    "organic": 6,
+    "inference": 2,
+    "memory": 68,
+    "comprehensive": 20
+  },
+  "categoriesFilled": 35,
+  "categoriesTotal": 137,
+  "specialtiesWithQuestions": 12,
+  "whitelistUsed": 173,
+  "usedByType": {
+    "element": 22,
+    "concept": 3,
+    "formula": 2,
+    "knowledge": 72,
+    "substance": 24,
+    "reaction": 49,
+    "experiment": 1
+  },
+  "byTypeTotal": {
+    "element": 24,
+    "concept": 21,
+    "formula": 10,
+    "knowledge": 74,
+    "substance": 24,
+    "reaction": 59,
+    "experiment": 27
+  },
+  "stemDupsAmongActive": 0,
+  "substanceStatusSample": [
+    {
+      "status": "pending_review",
+      "c": 42
+    },
+    {
+      "status": "published",
+      "c": 28
+    }
+  ]
+}

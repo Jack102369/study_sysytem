@@ -1,0 +1,606 @@
+{
+  "imported": [
+    {
+      "sampleId": "S60.calculation.01",
+      "id": "595",
+      "code": "train.ai_trial.s60.S60.calculation.01",
+      "specialtyCode": "calculation",
+      "categoryCode": "amount",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.calculation.01 model=ADV.calculation.001",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.calculation.02",
+      "id": "596",
+      "code": "train.ai_trial.s60.S60.calculation.02",
+      "specialtyCode": "calculation",
+      "categoryCode": "amount",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.calculation.02 model=ADV.calculation.002",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.calculation.03",
+      "id": "597",
+      "code": "train.ai_trial.s60.S60.calculation.03",
+      "specialtyCode": "calculation",
+      "categoryCode": "amount",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.calculation.03 model=ADV.calculation.002",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.calculation.04",
+      "id": "598",
+      "code": "train.ai_trial.s60.S60.calculation.04",
+      "specialtyCode": "calculation",
+      "categoryCode": "amount",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.calculation.04 model=ADV.calculation.003",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.calculation.05",
+      "id": "599",
+      "code": "train.ai_trial.s60.S60.calculation.05",
+      "specialtyCode": "calculation",
+      "categoryCode": "amount",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.calculation.05 model=ADV.calculation.003",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.calculation.06",
+      "id": "600",
+      "code": "train.ai_trial.s60.S60.calculation.06",
+      "specialtyCode": "calculation",
+      "categoryCode": "concentration",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.calculation.06 model=ADV.calculation.004",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.calculation.07",
+      "id": "601",
+      "code": "train.ai_trial.s60.S60.calculation.07",
+      "specialtyCode": "calculation",
+      "categoryCode": "concentration",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.calculation.07 model=ADV.calculation.004",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.calculation.08",
+      "id": "602",
+      "code": "train.ai_trial.s60.S60.calculation.08",
+      "specialtyCode": "calculation",
+      "categoryCode": "molar_volume",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.calculation.08 model=ADV.calculation.005",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.calculation.09",
+      "id": "603",
+      "code": "train.ai_trial.s60.S60.calculation.09",
+      "specialtyCode": "calculation",
+      "categoryCode": "molar_volume",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.calculation.09 model=ADV.calculation.005",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.calculation.10",
+      "id": "604",
+      "code": "train.ai_trial.s60.S60.calculation.10",
+      "specialtyCode": "calculation",
+      "categoryCode": "amount",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.calculation.10 model=ADV.calculation.006",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.calculation.11",
+      "id": "605",
+      "code": "train.ai_trial.s60.S60.calculation.11",
+      "specialtyCode": "calculation",
+      "categoryCode": "amount",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.calculation.11 model=ADV.calculation.006",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.calculation.12",
+      "id": "606",
+      "code": "train.ai_trial.s60.S60.calculation.12",
+      "specialtyCode": "calculation",
+      "categoryCode": "concentration",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.calculation.12 model=ADV.calculation.008",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.redox.01",
+      "id": "607",
+      "code": "train.ai_trial.s60.S60.redox.01",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.redox.01 model=ADV.redox.001",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.redox.02",
+      "id": "608",
+      "code": "train.ai_trial.s60.S60.redox.02",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.redox.02 model=ADV.redox.001",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.redox.03",
+      "id": "609",
+      "code": "train.ai_trial.s60.S60.redox.03",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.redox.03 model=ADV.redox.002",
+      "knowledgeLinks": 2
+    },
+    {
+      "sampleId": "S60.redox.04",
+      "id": "610",
+      "code": "train.ai_trial.s60.S60.redox.04",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.redox.04 model=ADV.redox.007",
+      "knowledgeLinks": 2
+    },
+    {
+      "sampleId": "S60.redox.05",
+      "id": "611",
+      "code": "train.ai_trial.s60.S60.redox.05",
+      "specialtyCode": "redox",
+      "categoryCode": "e_conserve",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.redox.05 model=ADV.redox.003",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.redox.06",
+      "id": "612",
+      "code": "train.ai_trial.s60.S60.redox.06",
+      "specialtyCode": "redox",
+      "categoryCode": "e_conserve",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.redox.06 model=ADV.redox.003",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.redox.07",
+      "id": "613",
+      "code": "train.ai_trial.s60.S60.redox.07",
+      "specialtyCode": "redox",
+      "categoryCode": "e_conserve",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.redox.07 model=ADV.redox.004",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.redox.08",
+      "id": "614",
+      "code": "train.ai_trial.s60.S60.redox.08",
+      "specialtyCode": "redox",
+      "categoryCode": "e_conserve",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.redox.08 model=ADV.redox.004",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.redox.09",
+      "id": "615",
+      "code": "train.ai_trial.s60.S60.redox.09",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.redox.09 model=ADV.redox.002",
+      "knowledgeLinks": 2
+    },
+    {
+      "sampleId": "S60.redox.10",
+      "id": "616",
+      "code": "train.ai_trial.s60.S60.redox.10",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.redox.10 model=ADV.redox.001",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.redox.11",
+      "id": "617",
+      "code": "train.ai_trial.s60.S60.redox.11",
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.redox.11 model=ADV.redox.007",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.redox.12",
+      "id": "618",
+      "code": "train.ai_trial.s60.S60.redox.12",
+      "specialtyCode": "redox",
+      "categoryCode": "e_conserve",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.redox.12 model=ADV.redox.003",
+      "knowledgeLinks": 2
+    },
+    {
+      "sampleId": "S60.ion.01",
+      "id": "619",
+      "code": "train.ai_trial.s60.S60.ion.01",
+      "specialtyCode": "ion",
+      "categoryCode": "ionic_write",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.ion.01 model=ADV.ion.001",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.ion.02",
+      "id": "620",
+      "code": "train.ai_trial.s60.S60.ion.02",
+      "specialtyCode": "ion",
+      "categoryCode": "ionic_write",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.ion.02 model=ADV.ion.001",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.ion.03",
+      "id": "621",
+      "code": "train.ai_trial.s60.S60.ion.03",
+      "specialtyCode": "ion",
+      "categoryCode": "coexist",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.ion.03 model=ADV.ion.002",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.ion.04",
+      "id": "622",
+      "code": "train.ai_trial.s60.S60.ion.04",
+      "specialtyCode": "ion",
+      "categoryCode": "coexist",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.ion.04 model=ADV.ion.002",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.ion.05",
+      "id": "623",
+      "code": "train.ai_trial.s60.S60.ion.05",
+      "specialtyCode": "ion",
+      "categoryCode": "ionic_write",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.ion.05 model=ADV.ion.003",
+      "knowledgeLinks": 2
+    },
+    {
+      "sampleId": "S60.ion.06",
+      "id": "624",
+      "code": "train.ai_trial.s60.S60.ion.06",
+      "specialtyCode": "ion",
+      "categoryCode": "ionic_write",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.ion.06 model=ADV.ion.003",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.ion.07",
+      "id": "625",
+      "code": "train.ai_trial.s60.S60.ion.07",
+      "specialtyCode": "ion",
+      "categoryCode": "ionic_correct",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.ion.07 model=ADV.ion.005",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.ion.08",
+      "id": "626",
+      "code": "train.ai_trial.s60.S60.ion.08",
+      "specialtyCode": "ion",
+      "categoryCode": "coexist",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.ion.08 model=ADV.ion.002",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.ion.09",
+      "id": "627",
+      "code": "train.ai_trial.s60.S60.ion.09",
+      "specialtyCode": "ion",
+      "categoryCode": "ionic_write",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.ion.09 model=ADV.ion.001",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.ion.10",
+      "id": "628",
+      "code": "train.ai_trial.s60.S60.ion.10",
+      "specialtyCode": "ion",
+      "categoryCode": "ionic_correct",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.ion.10 model=ADV.ion.006",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.experiment.01",
+      "id": "629",
+      "code": "train.ai_trial.s60.S60.experiment.01",
+      "specialtyCode": "experiment",
+      "categoryCode": "instrument_use",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.experiment.01 model=ADV.experiment.001",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.experiment.02",
+      "id": "630",
+      "code": "train.ai_trial.s60.S60.experiment.02",
+      "specialtyCode": "experiment",
+      "categoryCode": "safety",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.experiment.02 model=ADV.experiment.001",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.experiment.03",
+      "id": "631",
+      "code": "train.ai_trial.s60.S60.experiment.03",
+      "specialtyCode": "experiment",
+      "categoryCode": "gas_collect",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.experiment.03 model=ADV.experiment.002",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.experiment.04",
+      "id": "632",
+      "code": "train.ai_trial.s60.S60.experiment.04",
+      "specialtyCode": "experiment",
+      "categoryCode": "gas_collect",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.experiment.04 model=ADV.experiment.002",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.experiment.05",
+      "id": "633",
+      "code": "train.ai_trial.s60.S60.experiment.05",
+      "specialtyCode": "experiment",
+      "categoryCode": "error_fix",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.experiment.05 model=ADV.experiment.003",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.experiment.06",
+      "id": "634",
+      "code": "train.ai_trial.s60.S60.experiment.06",
+      "specialtyCode": "experiment",
+      "categoryCode": "basic_ops",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.experiment.06 model=ADV.experiment.004",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.experiment.07",
+      "id": "635",
+      "code": "train.ai_trial.s60.S60.experiment.07",
+      "specialtyCode": "experiment",
+      "categoryCode": "error_fix",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.experiment.07 model=ADV.experiment.003",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.experiment.08",
+      "id": "636",
+      "code": "train.ai_trial.s60.S60.experiment.08",
+      "specialtyCode": "experiment",
+      "categoryCode": "substance_test",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.experiment.08 model=ADV.experiment.005",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.experiment.09",
+      "id": "637",
+      "code": "train.ai_trial.s60.S60.experiment.09",
+      "specialtyCode": "experiment",
+      "categoryCode": "substance_test",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.experiment.09 model=ADV.experiment.005",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.experiment.10",
+      "id": "638",
+      "code": "train.ai_trial.s60.S60.experiment.10",
+      "specialtyCode": "experiment",
+      "categoryCode": "basic_ops",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.experiment.10 model=ADV.experiment.004",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.inference.01",
+      "id": "639",
+      "code": "train.ai_trial.s60.S60.inference.01",
+      "specialtyCode": "inference",
+      "categoryCode": "phenomenon",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.inference.01 model=ADV.inference.001",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.inference.02",
+      "id": "640",
+      "code": "train.ai_trial.s60.S60.inference.02",
+      "specialtyCode": "inference",
+      "categoryCode": "phenomenon",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.inference.02 model=ADV.inference.001",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.inference.03",
+      "id": "641",
+      "code": "train.ai_trial.s60.S60.inference.03",
+      "specialtyCode": "inference",
+      "categoryCode": "phenomenon",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.inference.03 model=ADV.inference.002",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.inference.04",
+      "id": "642",
+      "code": "train.ai_trial.s60.S60.inference.04",
+      "specialtyCode": "inference",
+      "categoryCode": "mixed",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.inference.04 model=ADV.inference.002",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.inference.05",
+      "id": "643",
+      "code": "train.ai_trial.s60.S60.inference.05",
+      "specialtyCode": "inference",
+      "categoryCode": "conversion",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.inference.05 model=ADV.inference.003",
+      "knowledgeLinks": 2
+    },
+    {
+      "sampleId": "S60.inference.06",
+      "id": "644",
+      "code": "train.ai_trial.s60.S60.inference.06",
+      "specialtyCode": "inference",
+      "categoryCode": "conversion",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.inference.06 model=ADV.inference.003",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.inference.07",
+      "id": "645",
+      "code": "train.ai_trial.s60.S60.inference.07",
+      "specialtyCode": "inference",
+      "categoryCode": "block_diagram",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.inference.07 model=ADV.inference.004",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.inference.08",
+      "id": "646",
+      "code": "train.ai_trial.s60.S60.inference.08",
+      "specialtyCode": "inference",
+      "categoryCode": "block_diagram",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.inference.08 model=ADV.inference.006",
+      "knowledgeLinks": 0
+    },
+    {
+      "sampleId": "S60.comprehensive.01",
+      "id": "647",
+      "code": "train.ai_trial.s60.S60.comprehensive.01",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "medium",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.comprehensive.01 model=ADV.comprehensive.001",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.comprehensive.02",
+      "id": "648",
+      "code": "train.ai_trial.s60.S60.comprehensive.02",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "medium",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.comprehensive.02 model=ADV.comprehensive.001",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.comprehensive.03",
+      "id": "649",
+      "code": "train.ai_trial.s60.S60.comprehensive.03",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "medium",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.comprehensive.03 model=ADV.comprehensive.002",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.comprehensive.04",
+      "id": "650",
+      "code": "train.ai_trial.s60.S60.comprehensive.04",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "advanced",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.comprehensive.04 model=ADV.comprehensive.002",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.comprehensive.05",
+      "id": "651",
+      "code": "train.ai_trial.s60.S60.comprehensive.05",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "medium",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.comprehensive.05 model=ADV.comprehensive.003",
+      "knowledgeLinks": 2
+    },
+    {
+      "sampleId": "S60.comprehensive.06",
+      "id": "652",
+      "code": "train.ai_trial.s60.S60.comprehensive.06",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "advanced",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.comprehensive.06 model=ADV.comprehensive.003",
+      "knowledgeLinks": 2
+    },
+    {
+      "sampleId": "S60.comprehensive.07",
+      "id": "653",
+      "code": "train.ai_trial.s60.S60.comprehensive.07",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "medium",
+      "difficulty": 2,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.comprehensive.07 model=ADV.comprehensive.004",
+      "knowledgeLinks": 1
+    },
+    {
+      "sampleId": "S60.comprehensive.08",
+      "id": "654",
+      "code": "train.ai_trial.s60.S60.comprehensive.08",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "advanced",
+      "difficulty": 3,
+      "gateNote": "[ai_trial][trial_access:allow][qa:PASS][daily:exclude][human_unreviewed][s60] sample=S60.comprehensive.08 model=ADV.comprehensive.005",
+      "knowledgeLinks": 1
+    }
+  ],
+  "skipped": [],
+  "failed": []
+}

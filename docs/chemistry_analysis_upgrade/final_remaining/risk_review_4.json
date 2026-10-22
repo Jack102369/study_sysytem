@@ -1,0 +1,117 @@
+{
+  "generatedAt": "2026-10-20T03:28:58.652Z",
+  "items": [
+    {
+      "id": "50",
+      "code": "train.ai_trial.048.kp_j",
+      "stem": "【AI试运行】氧化还原反应中得失电子数必须相等。判断正误。",
+      "answer": "正确",
+      "specialtyCode": "redox",
+      "categoryCode": "e_conserve",
+      "grade": "SAFE",
+      "allowAnalysisUpgrade": true,
+      "rationale": "题干完整：「得失电子数必须相等」为电子守恒基本事实，标准答案「正确」可靠。既往风险在解析模板错位，非题干本身。允许解析升级。",
+      "scienceNotes": [
+        "必须讲解电子守恒，禁止写成「是否属于氧化还原」"
+      ],
+      "sources": [
+        {
+          "entityType": "knowledge",
+          "id": 9,
+          "name": "电子守恒"
+        }
+      ],
+      "stemComplete": true,
+      "optionsOk": true,
+      "answerUniqueLikely": true,
+      "curriculumOkLikely": true
+    },
+    {
+      "id": "379",
+      "code": "train.ai_trial.pa.rxn_not_marked_redox.rxn.Al2O3_6HCl",
+      "stem": "【AI试运行】仅根据「知识库未标注氧化剂/还原剂」，可断定反应「Al2O3 + 6HCl = 2AlCl3 + 3H2O」一定不是氧化还原反应。判断正误。",
+      "answer": "错误",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "grade": "SAFE",
+      "allowAnalysisUpgrade": true,
+      "rationale": "题干完整。设问是「仅根据知识库未标注氧化剂/还原剂，可否断定该反应一定不是氧化还原」。Al2O3+6HCl 各元素化合价无变化，反应本身确非氧化还原；但「字段缺失」不能充当充分证据，标准答案「错误」针对推理方法成立。允许解析升级，解析须讲证据不足，可补充独立化合价核对，禁止套还原剂模板。",
+      "scienceNotes": [
+        "Al(+3)/O(-2)/H(+1)/Cl(-1) 反应前后不变 → 非氧化还原",
+        "答案「错误」= 不能仅凭未标注断定（方法论）"
+      ],
+      "sources": [
+        {
+          "entityType": "reaction",
+          "id": 17,
+          "name": "氧化铝与盐酸",
+          "equation": "Al2O3 + 6HCl = 2AlCl3 + 3H2O",
+          "oxidant": null,
+          "reductant": null
+        }
+      ],
+      "stemComplete": true,
+      "optionsOk": true,
+      "answerUniqueLikely": true,
+      "curriculumOkLikely": true
+    },
+    {
+      "id": "398",
+      "code": "train.ai_trial.pa.rxn_not_marked_redox.rxn.C2H4_H2",
+      "stem": "【AI试运行】仅根据「知识库未标注氧化剂/还原剂」，可断定反应「CH2=CH2 + H2 =催化剂、加热= CH3CH3」一定不是氧化还原反应。判断正误。",
+      "answer": "错误",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "grade": "SAFE",
+      "allowAnalysisUpgrade": true,
+      "rationale": "题干完整。乙烯加氢：H 由 0 价变为化合物中 +1，碳的氧化数亦变化，按化合价判据属于氧化还原；且「仅凭未标注断定一定不是」推理不成立。标准答案「错误」可靠。允许解析升级（证据不足 + 可说明加氢存在化合价变化）。kb_pending 来源标 NEEDS_SOURCE_WATCH，不因此自动 HOLD。",
+      "scienceNotes": [
+        "加成≠自动非氧化还原；本反应有化合价变化",
+        "来源 kb_pending，解析勿编造未给出的氧化剂名称"
+      ],
+      "sources": [
+        {
+          "entityType": "reaction",
+          "id": 62,
+          "name": "乙烯加氢",
+          "equation": "CH2=CH2 + H2 =催化剂、加热= CH3CH3",
+          "oxidant": null,
+          "reductant": null
+        }
+      ],
+      "stemComplete": true,
+      "optionsOk": true,
+      "answerUniqueLikely": true,
+      "curriculumOkLikely": true
+    },
+    {
+      "id": "401",
+      "code": "train.ai_trial.pa.rxn_not_marked_redox.rxn.C2H4_H2O",
+      "stem": "【AI试运行】仅根据「知识库未标注氧化剂/还原剂」，可断定反应「CH2=CH2 + H2O =催化剂、加热加压= CH3CH2OH」一定不是氧化还原反应。判断正误。",
+      "answer": "错误",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "grade": "HOLD",
+      "allowAnalysisUpgrade": false,
+      "rationale": "题干完整，方法论上「仅凭未标注断定一定不是氧化还原」应为错误；但乙烯水化在高一必修口径下是否按化合价归为氧化还原存在争议（有机中常按得氧/失氢定义，与无机化合价口径不完全一致）。在未完成课程口径核实前，不将本题强行 PASS 解析升级。标记 HOLD，不进白名单；建议后续人审。",
+      "scienceNotes": [
+        "不可简单断言「加成一定是/不是氧化还原」",
+        "标准答案「错误」方法论可成立，但完整教学解析易越界 → HOLD"
+      ],
+      "sources": [
+        {
+          "entityType": "reaction",
+          "id": 61,
+          "name": "乙烯水化制乙醇",
+          "equation": "CH2=CH2 + H2O =催化剂、加热加压= CH3CH2OH",
+          "oxidant": null,
+          "reductant": null
+        }
+      ],
+      "stemComplete": true,
+      "optionsOk": true,
+      "answerUniqueLikely": true,
+      "curriculumOkLikely": true
+    }
+  ]
+}

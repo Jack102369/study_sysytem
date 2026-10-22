@@ -1,0 +1,289 @@
+{
+  "items": [
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "氯气的性质与用途",
+        "description": "Cl2黄绿色有毒气体，强氧化性：与H2、金属、水、碱等反应须分条件。氯水成分为混合物（Cl2、H2O、HCl、HClO等）。漂白看HClO。用途：消毒漂白等（了解）。易错：把干燥Cl2直接当成漂白；忽略可逆与歧化。",
+        "difficulty": 3,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.Cl.property] batch4导入 pending_review id=42"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "氯气的实验室制取",
+        "description": "实验室常用MnO2与浓盐酸加热：MnO2+4HCl(浓)=△=MnCl2+Cl2↑+2H2O。向上排空气法收集，NaOH吸收尾气。易错：用稀盐酸；忘记尾气处理；收集方法错误。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.Cl.prep] batch4导入 pending_review id=43"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "硫的氧化物与硫酸",
+        "description": "S燃烧得SO2；SO2催化氧化得SO3；SO3与水得H2SO4。SO2：酸性氧化物、还原性、漂白（可恢复）。浓硫酸：吸水、脱水、强氧化（加热）；稀硫酸强酸通性。易错：混写浓稀硫酸与铜反应；混淆SO2与Cl2漂白。",
+        "difficulty": 3,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.S.oxide] batch4导入 pending_review id=44"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "氮及其化合物转化",
+        "description": "重要转化：N2⇌NH3（合成氨条件了解）；NH3催化氧化→NO；NO→NO2；NO2与水→HNO3+NO；硝酸与铜因浓稀产物不同。氮氧化物与酸雨/污染了解。易错：NO与NO2颜色、转化条件混淆；浓稀硝酸方程式混用。",
+        "difficulty": 3,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.N.cycle] batch4导入 pending_review id=45"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "氨的性质与制取",
+        "description": "NH3刺激性、密度比空气小、极易溶于水显碱性。实验室：铵盐与碱共热。检验：湿润红色石蕊试纸变蓝；与HCl白烟。喷泉实验体现溶解性。易错：收集方法用错；忽视防倒吸。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.N.ammonia] batch4导入 pending_review id=46"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "碳的氧化物",
+        "description": "CO：有毒、可燃、还原性，一般不使石灰水变浑浊。CO2：酸性氧化物，使石灰水变浑浊，一般不支持燃烧（镁例外）。碳燃烧产物随氧气是否充足为CO或CO2。易错：用石灰水检验CO；忽视CO毒性。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.C.oxide] batch4导入 pending_review id=47"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "硅与二氧化硅",
+        "description": "Si是重要半导体材料（了解）。SiO2是原子晶体（了解表述）、酸性氧化物，与NaOH反应生成硅酸盐，故碱液腐蚀玻璃。粗硅可由SiO2与C高温制取（了解）。易错：认为SiO2与一般酸都反应；忽视玻璃腐蚀警示。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.Si.property] batch4导入 pending_review id=48"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "常见气体检验方法",
+        "description": "H2：可燃，安静燃烧淡蓝火焰（验纯）。O2：带火星木条复燃。CO2：澄清石灰水变浑浊。Cl2：黄绿色；湿润淀粉KI试纸变蓝。NH3：湿润红色石蕊试纸变蓝；白烟。SO2：品红褪色加热恢复等。注意题设干扰与安全。易错：检验方法张冠李戴。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.nonmetal.test] batch4导入 pending_review id=49"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "浓硫酸的特性",
+        "description": "浓硫酸三大特性：吸水性、脱水性、强氧化性（常需加热才显著表现氧化性，如与Cu、C）。稀硫酸主要表现为强酸通性，常温一般不氧化Cu。稀释：酸入水。易错：把稀硫酸当成强氧化性酸；稀释顺序颠倒。",
+        "difficulty": 3,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.S.conc_H2SO4] 增补；吸水性、脱水性、强氧化性；与稀硫酸对比; batch4导入 pending_review id=50"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "铵盐的性质",
+        "description": "铵盐与碱共热放NH3；某些铵盐受热可分解（如NH4Cl受热分解为NH3和HCl，冷却又结合，了解）。铵根检验：加碱加热，湿润红色石蕊试纸变蓝。易错：不加热就写放氨；与硝酸盐性质混淆。",
+        "difficulty": 2,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.N.ammonium] 增补；受热分解、与碱反应等; batch4导入 pending_review id=51"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "卤族元素性质比较",
+        "description": "卤族单质氧化性大致：F2>Cl2>Br2>I2；卤化氢稳定性大致HF>HCl>HBr>HI（以课本为准）。置换：Cl2可置换Br-、I-等（题设）。深度含氧酸体系标了解，不进默认核心。易错：递变顺序记反；把含氧酸深度当必修默认。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.halogen.compare] 深度含氧酸了解;勿超纲默认训练"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "合成氨反应条件与可逆性",
+        "description": "N2+3H2⇌2NH3（催化剂、高温、高压）。高一认识：需要条件、反应可逆、工业意义。不要写成选修化学平衡定量计算或勒夏特列深度训练默认题。挂接反应条rxn.N2_3H2。易错：写成常温即可大量合成；忽略可逆。",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.N.synth_ammonia] 勿选修平衡定量默认训练"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "氯水与漂白原理",
+        "description": "新制氯水含HClO而有漂白性；久置氯水HClO分解，漂白性减弱，主要剩盐酸。干燥Cl2通常无漂白性。与SO2漂白对比：HClO漂白不可逆（有色物质被氧化），SO2漂白加热可恢复。易错：认为Cl2分子直接漂白；混淆两种漂白。",
+        "difficulty": 3,
+        "importance": 5,
+        "status": "pending_review",
+        "reviewNote": "[inv:kp.Cl.bleach] 增补；次氯酸漂白；与 SO2 漂白对比见 batch4 实验; batch4导入 pending_review id=54"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch4",
+    "pack": "B4-D",
+    "inventoryCodes": [
+      "kp.Cl.property",
+      "kp.Cl.prep",
+      "kp.S.oxide",
+      "kp.N.cycle",
+      "kp.N.ammonia",
+      "kp.C.oxide",
+      "kp.Si.property",
+      "kp.nonmetal.test",
+      "kp.S.conc_H2SO4",
+      "kp.N.ammonium",
+      "kp.halogen.compare",
+      "kp.N.synth_ammonia",
+      "kp.Cl.bleach"
+    ],
+    "specialtyByCode": {
+      "kp.Cl.property": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "kp.Cl.prep": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "kp.S.oxide": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "kp.N.cycle": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "kp.N.ammonia": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "kp.C.oxide": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "kp.Si.property": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "kp.nonmetal.test": [
+        "substance",
+        "experiment",
+        "equation"
+      ],
+      "kp.S.conc_H2SO4": [
+        "substance",
+        "equation",
+        "experiment"
+      ],
+      "kp.N.ammonium": [
+        "substance",
+        "equation",
+        "ion"
+      ],
+      "kp.halogen.compare": [
+        "periodic",
+        "substance",
+        "memory"
+      ],
+      "kp.N.synth_ammonia": [
+        "equation",
+        "substance"
+      ],
+      "kp.Cl.bleach": [
+        "substance",
+        "equation",
+        "experiment"
+      ]
+    },
+    "categoryByCode": {
+      "kp.Cl.property": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "kp.Cl.prep": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "kp.S.oxide": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "kp.N.cycle": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "kp.N.ammonia": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "kp.C.oxide": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "kp.Si.property": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "kp.nonmetal.test": [
+        "substance.chem_property",
+        "experiment.substance_test"
+      ],
+      "kp.S.conc_H2SO4": [
+        "substance.chem_property",
+        "equation.condition",
+        "experiment.safety"
+      ],
+      "kp.N.ammonium": [
+        "substance.chem_property",
+        "equation.write_from_text",
+        "ion.mixed"
+      ],
+      "kp.halogen.compare": [
+        "periodic.nonmetal_compare",
+        "substance.chem_property",
+        "memory.rules"
+      ],
+      "kp.N.synth_ammonia": [
+        "equation.condition",
+        "substance.chem_property"
+      ],
+      "kp.Cl.bleach": [
+        "substance.chem_property",
+        "equation.condition"
+      ]
+    }
+  }
+}

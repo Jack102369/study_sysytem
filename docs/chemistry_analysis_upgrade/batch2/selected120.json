@@ -1,0 +1,1290 @@
+{
+  "generatedAt": "2026-10-20T02:37:04.904Z",
+  "readonly": true,
+  "selection": {
+    "count": 120,
+    "specialtyCount": 11,
+    "specialties": [
+      "equation",
+      "redox",
+      "ion",
+      "calculation",
+      "experiment",
+      "substance",
+      "memory",
+      "periodic",
+      "structure",
+      "organic",
+      "comprehensive"
+    ],
+    "bySpecialty": {
+      "equation": 28,
+      "redox": 36,
+      "ion": 9,
+      "calculation": 3,
+      "experiment": 4,
+      "substance": 9,
+      "memory": 10,
+      "periodic": 8,
+      "structure": 3,
+      "organic": 1,
+      "comprehensive": 9
+    },
+    "basicCount": 72,
+    "raiseCount": 48,
+    "gradeACount": 106,
+    "excludedBatch1": true,
+    "excludedTruncatedStems": true,
+    "excluded215_250": true
+  },
+  "excluded": {
+    "batch1Count": 48,
+    "truncatedCount": 26,
+    "idsSample": [
+      "307",
+      "309",
+      "22",
+      "208",
+      "234",
+      "109",
+      "10",
+      "251",
+      "204",
+      "24",
+      "23",
+      "48",
+      "235",
+      "51",
+      "96",
+      "252",
+      "223",
+      "224",
+      "225",
+      "226",
+      "228",
+      "229",
+      "230",
+      "231",
+      "232",
+      "276",
+      "277",
+      "278",
+      "279",
+      "280",
+      "308",
+      "310",
+      "49",
+      "248",
+      "95",
+      "113",
+      "119",
+      "140",
+      "149",
+      "158"
+    ]
+  },
+  "itemIds": [
+    "313",
+    "315",
+    "209",
+    "210",
+    "236",
+    "115",
+    "11",
+    "206",
+    "50",
+    "214",
+    "212",
+    "247",
+    "52",
+    "100",
+    "284",
+    "296",
+    "281",
+    "282",
+    "61",
+    "227",
+    "233",
+    "216",
+    "6",
+    "97",
+    "175",
+    "555",
+    "297",
+    "285",
+    "69",
+    "321",
+    "239",
+    "47",
+    "99",
+    "249",
+    "557",
+    "298",
+    "299",
+    "71",
+    "287",
+    "241",
+    "104",
+    "12",
+    "558",
+    "300",
+    "72",
+    "326",
+    "245",
+    "98",
+    "128",
+    "561",
+    "301",
+    "73",
+    "289",
+    "253",
+    "103",
+    "260",
+    "562",
+    "302",
+    "74",
+    "332",
+    "254",
+    "108",
+    "13",
+    "565",
+    "303",
+    "75",
+    "290",
+    "255",
+    "101",
+    "132",
+    "566",
+    "304",
+    "320",
+    "322",
+    "261",
+    "286",
+    "325",
+    "324",
+    "331",
+    "327",
+    "337",
+    "329",
+    "343",
+    "333",
+    "349",
+    "335",
+    "355",
+    "339",
+    "360",
+    "341",
+    "366",
+    "345",
+    "372",
+    "347",
+    "378",
+    "26",
+    "379",
+    "351",
+    "382",
+    "353",
+    "383",
+    "28",
+    "386",
+    "357",
+    "392",
+    "359",
+    "398",
+    "38",
+    "401",
+    "362",
+    "414",
+    "364",
+    "368",
+    "370",
+    "374",
+    "376",
+    "388",
+    "390",
+    "394",
+    "396"
+  ],
+  "items": [
+    {
+      "id": "313",
+      "code": "train.ai_trial.pa.rxn_cond_judge.rxn.2Fe2_Cl2",
+      "specialtyCode": "equation",
+      "categoryCode": "condition",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 3
+    },
+    {
+      "id": "315",
+      "code": "train.ai_trial.pa.rxn_is_redox_judge.rxn.2Fe2_Cl2",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "209",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.calc.dilution",
+      "specialtyCode": "ion",
+      "categoryCode": "electrolyte",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "210",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.calc.excess",
+      "specialtyCode": "calculation",
+      "categoryCode": "amount",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 3
+    },
+    {
+      "id": "236",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.exp.gas_wash_dry",
+      "specialtyCode": "experiment",
+      "categoryCode": "safety",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 4
+    },
+    {
+      "id": "115",
+      "code": "train.ai_trial.pa.sub_common_name_judge.sub.CH3COOCH2CH3",
+      "specialtyCode": "substance",
+      "categoryCode": "name",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "11",
+      "code": "train.ai_trial.002.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "206",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.C.oxide",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "50",
+      "code": "train.ai_trial.048.kp_j",
+      "specialtyCode": "redox",
+      "categoryCode": "e_conserve",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "214",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.calc.solution",
+      "specialtyCode": "ion",
+      "categoryCode": "electrolyte",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "212",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.calc.gas",
+      "specialtyCode": "calculation",
+      "categoryCode": "amount",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "247",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.Fe.test",
+      "specialtyCode": "experiment",
+      "categoryCode": "safety",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "52",
+      "code": "train.ai_trial.050.kp_j",
+      "specialtyCode": "substance",
+      "categoryCode": "test",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "100",
+      "code": "train.ai_trial.pa.sub_color_judge.sub.Br2",
+      "specialtyCode": "memory",
+      "categoryCode": "color",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "284",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.periodic.trend",
+      "specialtyCode": "periodic",
+      "categoryCode": "elem_name",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "296",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.structure.atom",
+      "specialtyCode": "structure",
+      "categoryCode": "atom_compose",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "281",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.methane",
+      "specialtyCode": "organic",
+      "categoryCode": "basic",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "282",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.petroleum",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "basic",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 4
+    },
+    {
+      "id": "61",
+      "code": "train.ai_trial.eq.balance.01",
+      "specialtyCode": "equation",
+      "categoryCode": "balance",
+      "difficulty": 1,
+      "analysisGrade": "B",
+      "abilityLevel": 1
+    },
+    {
+      "id": "227",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.electrode_rxn",
+      "specialtyCode": "redox",
+      "categoryCode": "e_conserve",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "233",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.enviro.pollution",
+      "specialtyCode": "ion",
+      "categoryCode": "electrolyte",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "216",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.calc.stoich",
+      "specialtyCode": "calculation",
+      "categoryCode": "amount",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "6",
+      "code": "train.test.exp.judge.01",
+      "specialtyCode": "experiment",
+      "categoryCode": "safety",
+      "difficulty": 1,
+      "analysisGrade": "B",
+      "abilityLevel": 1
+    },
+    {
+      "id": "97",
+      "code": "train.ai_trial.pa.sub_formula_blank.sub.Al",
+      "specialtyCode": "substance",
+      "categoryCode": "formula",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "175",
+      "code": "train.ai_trial.pa.sub_common_name_judge.sub.FeSO4",
+      "specialtyCode": "memory",
+      "categoryCode": "common_name",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "555",
+      "code": "train.ai_trial.pa.el_z_blank.el.Ag",
+      "specialtyCode": "periodic",
+      "categoryCode": "elem_name",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "297",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.structure.electron_formula",
+      "specialtyCode": "structure",
+      "categoryCode": "atom_compose",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "285",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.rate.factors",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "basic",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 4
+    },
+    {
+      "id": "69",
+      "code": "train.ai_trial.eq.write.01",
+      "specialtyCode": "equation",
+      "categoryCode": "write_from_text",
+      "difficulty": 1,
+      "analysisGrade": "B",
+      "abilityLevel": 1
+    },
+    {
+      "id": "321",
+      "code": "train.ai_trial.pa.rxn_is_redox_judge.rxn.2Mg_O2",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "239",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.Fe.fe2_property",
+      "specialtyCode": "ion",
+      "categoryCode": "electrolyte",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "47",
+      "code": "train.ai_trial.038.exp_safe",
+      "specialtyCode": "experiment",
+      "categoryCode": "safety",
+      "difficulty": 1,
+      "analysisGrade": "B",
+      "abilityLevel": 1
+    },
+    {
+      "id": "99",
+      "code": "train.ai_trial.pa.sub_uses_judge.sub.Al",
+      "specialtyCode": "substance",
+      "categoryCode": "usage",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "249",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.halogen.compare",
+      "specialtyCode": "memory",
+      "categoryCode": "rules",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "557",
+      "code": "train.ai_trial.pa.el_z_blank.el.Al",
+      "specialtyCode": "periodic",
+      "categoryCode": "elem_name",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "298",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.structure.isotope",
+      "specialtyCode": "structure",
+      "categoryCode": "atom_compose",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "299",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.sustain.coal",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "basic",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 4
+    },
+    {
+      "id": "71",
+      "code": "train.ai_trial.eq.product.01",
+      "specialtyCode": "equation",
+      "categoryCode": "complete_product",
+      "difficulty": 1,
+      "analysisGrade": "B",
+      "abilityLevel": 1
+    },
+    {
+      "id": "287",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.redox.e_conserve",
+      "specialtyCode": "redox",
+      "categoryCode": "e_conserve",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 4
+    },
+    {
+      "id": "241",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.Fe.fe3_property",
+      "specialtyCode": "ion",
+      "categoryCode": "electrolyte",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "104",
+      "code": "train.ai_trial.pa.sub_color_judge.sub.C2H4",
+      "specialtyCode": "substance",
+      "categoryCode": "color",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "12",
+      "code": "train.ai_trial.003.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "558",
+      "code": "train.ai_trial.pa.el_z_blank.el.B",
+      "specialtyCode": "periodic",
+      "categoryCode": "elem_name",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "300",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.sustain.fertilizer",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "basic",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 4
+    },
+    {
+      "id": "72",
+      "code": "train.ai_trial.eq.reactant.01",
+      "specialtyCode": "equation",
+      "categoryCode": "complete_reactant",
+      "difficulty": 1,
+      "analysisGrade": "B",
+      "abilityLevel": 1
+    },
+    {
+      "id": "326",
+      "code": "train.ai_trial.pa.rxn_is_redox_judge.rxn.2Na_2HCl",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "245",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.Fe.salt",
+      "specialtyCode": "ion",
+      "categoryCode": "electrolyte",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "98",
+      "code": "train.ai_trial.pa.sub_formula_single.sub.Al",
+      "specialtyCode": "substance",
+      "categoryCode": "formula",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "128",
+      "code": "train.ai_trial.pa.sub_color_judge.sub.Cl2",
+      "specialtyCode": "memory",
+      "categoryCode": "color",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "561",
+      "code": "train.ai_trial.pa.el_z_blank.el.Ba",
+      "specialtyCode": "periodic",
+      "categoryCode": "elem_name",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "301",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.sustain.food_additive",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "basic",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 4
+    },
+    {
+      "id": "73",
+      "code": "train.ai_trial.eq.ionic_write.01",
+      "specialtyCode": "equation",
+      "categoryCode": "ionic_write",
+      "difficulty": 1,
+      "analysisGrade": "B",
+      "abilityLevel": 1
+    },
+    {
+      "id": "289",
+      "code": "train.ai_trial.pa.kp_term_blank.kp.redox.e_conserve",
+      "specialtyCode": "redox",
+      "categoryCode": "e_conserve",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "253",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.ion.electrolyte",
+      "specialtyCode": "ion",
+      "categoryCode": "electrolyte",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "103",
+      "code": "train.ai_trial.pa.sub_uses_judge.sub.Br2",
+      "specialtyCode": "substance",
+      "categoryCode": "usage",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "260",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.metal.stainless",
+      "specialtyCode": "memory",
+      "categoryCode": "rules",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "562",
+      "code": "train.ai_trial.pa.el_z_blank.el.Be",
+      "specialtyCode": "periodic",
+      "categoryCode": "elem_name",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "302",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.sustain.green_chem",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "basic",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 4
+    },
+    {
+      "id": "74",
+      "code": "train.ai_trial.eq.ionic_correct.01",
+      "specialtyCode": "equation",
+      "categoryCode": "ionic_correct",
+      "difficulty": 1,
+      "analysisGrade": "B",
+      "abilityLevel": 1
+    },
+    {
+      "id": "332",
+      "code": "train.ai_trial.pa.rxn_is_redox_judge.rxn.2Na_Cl2",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "254",
+      "code": "train.ai_trial.pa.kp_term_blank.kp.ion.electrolyte",
+      "specialtyCode": "ion",
+      "categoryCode": "electrolyte",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "108",
+      "code": "train.ai_trial.pa.sub_color_judge.sub.C2H5OH",
+      "specialtyCode": "substance",
+      "categoryCode": "color",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "13",
+      "code": "train.ai_trial.004.el_sym",
+      "specialtyCode": "memory",
+      "categoryCode": "symbol",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "565",
+      "code": "train.ai_trial.pa.el_z_blank.el.Br",
+      "specialtyCode": "periodic",
+      "categoryCode": "elem_name",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "303",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.sustain.medicine",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "basic",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 4
+    },
+    {
+      "id": "75",
+      "code": "train.ai_trial.eq.redox_analysis.01",
+      "specialtyCode": "equation",
+      "categoryCode": "redox_analysis",
+      "difficulty": 1,
+      "analysisGrade": "B",
+      "abilityLevel": 1
+    },
+    {
+      "id": "290",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.redox.e_transfer",
+      "specialtyCode": "redox",
+      "categoryCode": "e_conserve",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "255",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.ion.ionic_eq",
+      "specialtyCode": "ion",
+      "categoryCode": "electrolyte",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "101",
+      "code": "train.ai_trial.pa.sub_formula_blank.sub.Br2",
+      "specialtyCode": "substance",
+      "categoryCode": "formula",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "132",
+      "code": "train.ai_trial.pa.sub_color_judge.sub.Cu",
+      "specialtyCode": "memory",
+      "categoryCode": "color",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "566",
+      "code": "train.ai_trial.pa.el_z_blank.el.C",
+      "specialtyCode": "periodic",
+      "categoryCode": "elem_name",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "304",
+      "code": "train.ai_trial.pa.kp_fact_judge.kp.sustain.natural_gas",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "basic",
+      "difficulty": 1,
+      "analysisGrade": "A",
+      "abilityLevel": 4
+    },
+    {
+      "id": "320",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2Mg_O2",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "322",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2Mg_O2",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "261",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.metal.stainless",
+      "specialtyCode": "memory",
+      "categoryCode": "rules",
+      "difficulty": 2,
+      "analysisGrade": "B",
+      "abilityLevel": 1
+    },
+    {
+      "id": "286",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.rate.factors",
+      "specialtyCode": "comprehensive",
+      "categoryCode": "basic",
+      "difficulty": 2,
+      "analysisGrade": "B",
+      "abilityLevel": 4
+    },
+    {
+      "id": "325",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2Na_2HCl",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "324",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.2Mg_O2",
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "331",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2Na_Cl2",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "327",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2Na_2HCl",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "337",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2Na_O2_heat",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "329",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.2Na_2HCl",
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "343",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2NO_O2",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "333",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2Na_Cl2",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "349",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2SO2_O2",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "335",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.2Na_Cl2",
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "355",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.3NO2_H2O",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "339",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2Na_O2_heat",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "360",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.4Al_3O2",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "341",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.2Na_O2_heat",
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "366",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.4Na_O2",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "345",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2NO_O2",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "372",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.4NH3_5O2",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "347",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.2NO_O2",
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "378",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.Al2O3_6HCl",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "26",
+      "code": "train.ai_trial.017.rxn_redox",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "difficulty": 2,
+      "analysisGrade": "B",
+      "abilityLevel": 1
+    },
+    {
+      "id": "379",
+      "code": "train.ai_trial.pa.rxn_not_marked_redox.rxn.Al2O3_6HCl",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "351",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2SO2_O2",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "382",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.AlOH3_3HCl",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "353",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.2SO2_O2",
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "383",
+      "code": "train.ai_trial.pa.rxn_not_marked_redox.rxn.AlOH3_3HCl",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "28",
+      "code": "train.ai_trial.019.rxn_redox",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "difficulty": 2,
+      "analysisGrade": "B",
+      "abilityLevel": 1
+    },
+    {
+      "id": "386",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.C_O2_complete",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "357",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.3NO2_H2O",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "392",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.C_O2_incomplete",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "359",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.3NO2_H2O",
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "398",
+      "code": "train.ai_trial.pa.rxn_not_marked_redox.rxn.C2H4_H2",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "38",
+      "code": "train.ai_trial.029.rxn_redox",
+      "specialtyCode": "redox",
+      "categoryCode": "identify",
+      "difficulty": 2,
+      "analysisGrade": "B",
+      "abilityLevel": 1
+    },
+    {
+      "id": "401",
+      "code": "train.ai_trial.pa.rxn_not_marked_redox.rxn.C2H4_H2O",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "362",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.4Al_3O2",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "414",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.CaCO3_2HCl",
+      "specialtyCode": "equation",
+      "categoryCode": "true_false",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 1
+    },
+    {
+      "id": "364",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.4Al_3O2",
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "368",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.4Na_O2",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "370",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.4Na_O2",
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "374",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.4NH3_5O2",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "376",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.4NH3_5O2",
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "388",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.C_O2_complete",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "390",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.C_O2_complete",
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "394",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.C_O2_incomplete",
+      "specialtyCode": "redox",
+      "categoryCode": "oxidant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    },
+    {
+      "id": "396",
+      "code": "train.ai_trial.pa.rxn_reductant_single.rxn.C_O2_incomplete",
+      "specialtyCode": "redox",
+      "categoryCode": "reductant",
+      "difficulty": 2,
+      "analysisGrade": "A",
+      "abilityLevel": 2
+    }
+  ]
+}

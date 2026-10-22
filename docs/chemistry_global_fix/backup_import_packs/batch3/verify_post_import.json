@@ -1,0 +1,16 @@
+{
+  "naWater": {
+    "status": "published",
+    "oxidant": "H2O",
+    "reductant": "Na",
+    "ox_product": "NaOH",
+    "re_product": "H2"
+  },
+  "pendingReviewApprox": {
+    "substances": 29,
+    "reactions": 32,
+    "experiments": 7,
+    "knowledge": 36,
+    "conceptAlloy": 1
+  }
+}

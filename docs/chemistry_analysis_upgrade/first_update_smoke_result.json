@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-10-20T02:25:43.623Z",
+  "ok": true,
+  "checks": [
+    {
+      "name": "old_snapshot_still_original",
+      "pass": true,
+      "detail": "si=21 item=24"
+    },
+    {
+      "name": "old_snapshot_still_original",
+      "pass": true,
+      "detail": "si=31 item=51"
+    },
+    {
+      "name": "old_snapshot_still_original",
+      "pass": true,
+      "detail": "si=33 item=223"
+    },
+    {
+      "name": "old_snapshot_still_original",
+      "pass": true,
+      "detail": "si=34 item=224"
+    },
+    {
+      "name": "old_snapshot_still_original",
+      "pass": true,
+      "detail": "si=35 item=225"
+    },
+    {
+      "name": "create_session",
+      "pass": true,
+      "detail": "status=201 id=41"
+    },
+    {
+      "name": "new_session_snapshot_has_new_analysis",
+      "pass": true,
+      "detail": "item=22 sort=1"
+    },
+    {
+      "name": "submit_ok",
+      "pass": true,
+      "detail": "status=201"
+    },
+    {
+      "name": "result_shows_analysis_prewrap_ready",
+      "pass": true,
+      "detail": "【正确答案】正确\n【为什么正确】电解质是在水溶液里或熔融状态下能够导电的化合物。题干表述与该定义一致，因此正确。导电是因"
+    },
+    {
+      "name": "grade_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "s60_still_present",
+      "pass": true,
+      "detail": "train.ai_trial.s60.S60.calculation.01 【考查知识点】n=m/M、N=n·NA\n【突破口】先求 n(H₂O)，再分别求分"
+    },
+    {
+      "name": "daily_status",
+      "pass": true,
+      "detail": "cand=574"
+    },
+    {
+      "name": "nogrant_denied",
+      "pass": true,
+      "detail": "status=403"
+    },
+    {
+      "name": "history_not_shrunk",
+      "pass": true,
+      "detail": "sess 38->39 items 194->199"
+    },
+    {
+      "name": "dhm_not_used_in_smoke",
+      "pass": true,
+      "detail": "smoke used chem_analysis_upd_smoke@local.test only"
+    }
+  ]
+}

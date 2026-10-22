@@ -1,0 +1,64 @@
+{
+  "appliedAt": "2026-10-18T08:49:37.261Z",
+  "appliedCount": 42,
+  "applied": [
+    "exp.instrument_basic",
+    "exp.ops_weigh",
+    "exp.ops_dissolve",
+    "exp.ops_filter",
+    "exp.ops_evaporate",
+    "exp.ops_distill",
+    "exp.ops_extract",
+    "exp.gas_collect_upward",
+    "exp.gas_collect_downward",
+    "exp.gas_collect_water",
+    "exp.O2_prep_KMnO4",
+    "exp.O2_prep_H2O2",
+    "exp.H2_prep_Zn",
+    "exp.CO2_prep_marble",
+    "exp.check_airtight",
+    "exp.safety_rules",
+    "exp.ops_volumetric_flask",
+    "exp.ops_burette",
+    "exp.flame_test",
+    "formula.mixed_stoich",
+    "formula.excess_reactant",
+    "formula.purity",
+    "formula.ion_conc",
+    "formula.rate_v",
+    "kp.calc.stoich",
+    "kp.calc.excess",
+    "kp.calc.gas",
+    "kp.calc.solution",
+    "kp.exp.design",
+    "kp.exp.error",
+    "kp.exp.gas_wash_dry",
+    "kp.rate.factors",
+    "kp.extent.le_chatelier_basic",
+    "q.calc.amount_basic",
+    "q.calc.concentration",
+    "q.calc.equation",
+    "q.calc.excess",
+    "q.exp.instrument",
+    "q.exp.gas_collect",
+    "q.exp.safety",
+    "q.eq.balance",
+    "concept.reversible"
+  ],
+  "samples": {
+    "error": {
+      "id": 60,
+      "description": "误差分析必须对应具体操作阶段与测定量，禁止脱离条件直接写“偏大/偏小”。以配制一定物质的量浓度溶液（c=n/V）为例（书面分析）：①洁净容量瓶内残留少量蒸馏水，随后按规范定容且无其他错误时，一般不改变溶质的物质的量n，也不改变最终溶液体积V，故c通常不变；②定容时俯视刻度线→读得V偏小→c偏大；仰视→V偏大→c偏小；③",
+      "review_note": "[inv:kp.exp.error] B5整改:容量瓶分阶段对照;禁无阶段绝对偏向题"
+    },
+    "excess": {
+      "id": 5,
+      "stem": "（骨架）反应：Zn + H2SO4 = ZnSO4 + H2↑（稀硫酸，不可逆按完全反应计，无副反应）。现有 Zn 13.0 g 与 H2SO4 0.15 mol 混合充分反应。已知 M(Zn)=65 g/mol。求生成 H2 的物质的量（",
+      "answer": "0.15 mol（过程：n(Zn)=13.0/65=0.20 mol；计量数均为1，n(Zn)/1=0.20 > n(H2SO4)/1=0.15，故 H2SO4"
+    },
+    "ionCats": {
+      "cats": "calculation.amount,calculation.mixed"
+    }
+  },
+  "linkUnresolved": []
+}

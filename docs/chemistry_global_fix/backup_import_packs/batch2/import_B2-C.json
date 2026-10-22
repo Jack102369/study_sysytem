@@ -1,0 +1,267 @@
+{
+  "items": [
+    {
+      "type": "formula",
+      "data": {
+        "name": "粒子数与物质的量",
+        "expression": "N = n · NA",
+        "variables": "N:粒子数；n:物质的量；NA:阿伏加德罗常数",
+        "units": "N无量纲计数；n:mol；NA:mol^-1",
+        "applicableConditions": "微观粒子数与物质的量换算",
+        "examples": "2 mol H2O含分子数 2·NA",
+        "commonMistakes": "把NA当成有单位“个”而忘记 mol^-1",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.N_n_NA]"
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "气体摩尔体积",
+        "expression": "Vm = V / n",
+        "variables": "Vm:气体摩尔体积；V:气体体积；n:物质的量",
+        "units": "Vm:L/mol；V:L；n:mol",
+        "applicableConditions": "定义式 Vm=V/n 适用于气体。Vm 随温度、压强变化。仅当题目指明标准状况（0℃、101kPa）时，才可近似用 Vm≈22.4 L/mol；常温常压不可默认22.4。标况专用也可参见 formula.gas_STP。",
+        "examples": "标况下 0.5 mol 气体体积约 11.2 L",
+        "commonMistakes": "非气体套用；非标况仍用22.4；把定义式与标况近似值混为一谈",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.Vm] B2整改:区分定义式与标况近似"
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "物质的量浓度",
+        "expression": "c = n / V",
+        "variables": "c:物质的量浓度；n:溶质物质的量；V:溶液体积",
+        "units": "c:mol/L；n:mol；V:L",
+        "applicableConditions": "溶液浓度定义",
+        "examples": "1 mol NaOH溶于水配成 1 L 溶液，c=1 mol/L",
+        "commonMistakes": "把溶剂体积当成溶液体积",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.c_n_V]"
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "溶液稀释",
+        "expression": "c1V1 = c2V2",
+        "variables": "稀释前后溶质的物质的量不变",
+        "units": "c:mol/L；V:L",
+        "applicableConditions": "只加水稀释，溶质不损失",
+        "examples": "2 mol/L×0.1 L = 0.5 mol/L×0.4 L",
+        "commonMistakes": "用于发生反应的混合过程仍直接套用",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.dilution]"
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "摩尔质量",
+        "expression": "M = m / n",
+        "variables": "M:摩尔质量；m:质量；n:物质的量",
+        "units": "M:g/mol；m:g；n:mol",
+        "applicableConditions": "适用于纯净物：m 为该纯净物质量。M 的数值等于相对原子/分子质量，单位必须写 g/mol。与聚集状态无关；勿与气体体积公式混用。与 formula.n_m_M 互为变形。",
+        "examples": "水的 M≈18 g/mol",
+        "commonMistakes": "把相对分子质量数值当成有单位却写错单位",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.M_m_n] B2整改:补单位与适用说明"
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "密度与浓度换算",
+        "expression": "c = 1000ρω/M",
+        "variables": "ρ:溶液密度；ω:溶质质量分数（小数）；M:溶质摩尔质量；c:物质的量浓度",
+        "units": "当 ρ 取 g/cm³（或 g/mL，二者数值相同）且 ω 为小数时：c 单位为 mol/L，M 单位为 g/mol。若密度改用 g/L，则公式改为 c = ρω/M（不再乘 1000）。",
+        "applicableConditions": "由溶液密度与溶质质量分数换算物质的量浓度；ω 必须用小数（如 98% 写作 0.98），不能直接代入百分数；ρ 与公式系数必须匹配（g/cm³ 用含 1000 的式，g/L 用不含 1000 的式）。",
+        "examples": "浓硫酸标签：ρ=1.84 g/cm³，ω=0.98，M(H2SO4)=98 g/mol，则 c=1000×1.84×0.98/98≈18.4 mol/L。",
+        "commonMistakes": "把 ω 直接写成 98；ρ 用 g/L 却仍乘 1000；混淆溶剂体积与溶液体积；把相对分子质量数值当摩尔质量却漏写单位 g/mol。",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.rho_c_M] P0已修:明确 ρ(g/cm³)+ω(小数)+1000 系数；g/L 时用 c=ρω/M"
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "质量分数",
+        "expression": "w = m(溶质) / m(溶液)",
+        "variables": "w:质量分数",
+        "units": "无量纲（常以%表示）",
+        "applicableConditions": "溶液组成表示",
+        "examples": "10 g 溶质溶于 90 g 水，w=10%",
+        "commonMistakes": "分母写成溶剂质量",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.mass_percent]"
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "化学计量比",
+        "expression": "n_A / a = n_B / b",
+        "variables": "化学方程式 aA+bB→… 中计量数之比等于物质的量之比",
+        "units": "n:mol",
+        "applicableConditions": "按化学方程式计量关系计算：仅当反应物按计量完全反应，或先按不足量（限量反应物）折算后再用。有杂质、转化率、过量时，需先处理实际参与反应的物质的量。",
+        "examples": "2H2+O2→2H2O 中 n(H2):n(O2)=2:1",
+        "commonMistakes": "用质量比直接代替物质的量比；忽略过量/不足；未考虑转化率或纯度",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.equation_ratio] B2整改:补过量与不足量条件"
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "电子转移计量",
+        "expression": "失电子总数 = 得电子总数",
+        "variables": "氧化还原配平依据",
+        "units": "电子数",
+        "applicableConditions": "氧化还原反应",
+        "examples": "双线桥法标注转移电子数相等",
+        "commonMistakes": "只配平元素不配平电子",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.electron_transfer]"
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "标况气体体积",
+        "expression": "V = n · 22.4 L/mol（标准状况近似）",
+        "variables": "V:气体体积；n:物质的量；标准状况：0℃（273K）、101kPa",
+        "units": "V:L；n:mol；22.4:L/mol（标况近似）",
+        "applicableConditions": "仅适用于标准状况（0℃、101kPa）下的气体（理想气体近似）。常温常压、非标况气体不可套用22.4。一般气体摩尔体积定义见 formula.Vm。",
+        "examples": "1 mol 任何气体标况下约 22.4 L",
+        "commonMistakes": "常温常压仍用22.4；非气体套用；未看清题设是否“标准状况”",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.gas_STP] B2整改:写明0℃、101kPa"
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "阿伏加德罗常数定义",
+        "expression": "NA ≈ 6.02×10^23 mol^-1",
+        "variables": "阿伏加德罗常数",
+        "units": "mol^-1",
+        "applicableConditions": "微观计数与物质的量联系",
+        "examples": "1 mol 粒子约含 6.02×10^23 个",
+        "commonMistakes": "把 NA 当成“永远精确等于”某值而忽略测定含义",
+        "status": "pending_review",
+        "reviewNote": "[inv:formula.Avogadro]"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch2",
+    "pack": "B2-C",
+    "inventoryCodes": [
+      "formula.N_n_NA",
+      "formula.Vm",
+      "formula.c_n_V",
+      "formula.dilution",
+      "formula.M_m_n",
+      "formula.rho_c_M",
+      "formula.mass_percent",
+      "formula.equation_ratio",
+      "formula.electron_transfer",
+      "formula.gas_STP",
+      "formula.Avogadro"
+    ],
+    "specialtyByCode": {
+      "formula.N_n_NA": [
+        "calculation",
+        "memory"
+      ],
+      "formula.Vm": [
+        "calculation",
+        "memory"
+      ],
+      "formula.c_n_V": [
+        "calculation",
+        "memory"
+      ],
+      "formula.dilution": [
+        "calculation",
+        "memory"
+      ],
+      "formula.M_m_n": [
+        "calculation",
+        "memory"
+      ],
+      "formula.rho_c_M": [
+        "calculation",
+        "memory"
+      ],
+      "formula.mass_percent": [
+        "calculation",
+        "memory"
+      ],
+      "formula.equation_ratio": [
+        "calculation",
+        "memory"
+      ],
+      "formula.electron_transfer": [
+        "calculation",
+        "memory"
+      ],
+      "formula.gas_STP": [
+        "calculation",
+        "memory"
+      ],
+      "formula.Avogadro": [
+        "calculation",
+        "memory"
+      ]
+    },
+    "categoryByCode": {
+      "formula.N_n_NA": [
+        "calculation.amount",
+        "memory.chem_formula"
+      ],
+      "formula.Vm": [
+        "calculation.amount",
+        "memory.chem_formula"
+      ],
+      "formula.c_n_V": [
+        "calculation.amount",
+        "memory.chem_formula"
+      ],
+      "formula.dilution": [
+        "calculation.amount",
+        "memory.chem_formula"
+      ],
+      "formula.M_m_n": [
+        "calculation.amount",
+        "memory.chem_formula"
+      ],
+      "formula.rho_c_M": [
+        "calculation.amount",
+        "memory.chem_formula"
+      ],
+      "formula.mass_percent": [
+        "calculation.amount",
+        "memory.chem_formula"
+      ],
+      "formula.equation_ratio": [
+        "calculation.amount",
+        "memory.chem_formula"
+      ],
+      "formula.electron_transfer": [
+        "calculation.amount",
+        "memory.chem_formula"
+      ],
+      "formula.gas_STP": [
+        "calculation.amount",
+        "memory.chem_formula"
+      ],
+      "formula.Avogadro": [
+        "calculation.amount",
+        "memory.chem_formula"
+      ]
+    }
+  }
+}

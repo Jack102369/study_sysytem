@@ -1,0 +1,764 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-19T13:06:47.951Z",
+  "summary": {
+    "modelCount": 45,
+    "statusCount": {
+      "READY": 38,
+      "NEEDS_ENGINE": 3,
+      "HOLD": 4
+    },
+    "sampleCount": {
+      "raise": 38,
+      "challenge": 30
+    },
+    "bySpecialty": {
+      "calculation": 8,
+      "redox": 7,
+      "ion": 6,
+      "experiment": 6,
+      "inference": 6,
+      "comprehensive": 6,
+      "equation": 1,
+      "substance": 1,
+      "periodic": 1,
+      "structure": 1,
+      "organic": 1,
+      "memory": 1
+    },
+    "priorityBatch1ModelIds": [
+      "ADV.calculation.001",
+      "ADV.calculation.002",
+      "ADV.calculation.003",
+      "ADV.calculation.004",
+      "ADV.calculation.005",
+      "ADV.calculation.006",
+      "ADV.calculation.008",
+      "ADV.redox.001",
+      "ADV.redox.002",
+      "ADV.redox.003",
+      "ADV.redox.004",
+      "ADV.redox.007",
+      "ADV.ion.001",
+      "ADV.ion.002",
+      "ADV.ion.003",
+      "ADV.ion.005",
+      "ADV.ion.006",
+      "ADV.experiment.001",
+      "ADV.experiment.002",
+      "ADV.experiment.003",
+      "ADV.experiment.004",
+      "ADV.experiment.005",
+      "ADV.inference.001",
+      "ADV.inference.002",
+      "ADV.inference.003",
+      "ADV.inference.004",
+      "ADV.inference.006",
+      "ADV.comprehensive.001",
+      "ADV.comprehensive.002",
+      "ADV.comprehensive.003",
+      "ADV.comprehensive.004",
+      "ADV.comprehensive.005"
+    ],
+    "priorityBatch1Ready": [
+      "ADV.calculation.001",
+      "ADV.calculation.002",
+      "ADV.calculation.003",
+      "ADV.calculation.004",
+      "ADV.calculation.005",
+      "ADV.calculation.006",
+      "ADV.calculation.008",
+      "ADV.redox.001",
+      "ADV.redox.002",
+      "ADV.redox.003",
+      "ADV.redox.004",
+      "ADV.redox.007",
+      "ADV.ion.001",
+      "ADV.ion.002",
+      "ADV.ion.003",
+      "ADV.ion.005",
+      "ADV.ion.006",
+      "ADV.experiment.001",
+      "ADV.experiment.002",
+      "ADV.experiment.003",
+      "ADV.experiment.004",
+      "ADV.experiment.005",
+      "ADV.inference.001",
+      "ADV.inference.002",
+      "ADV.inference.003",
+      "ADV.inference.004",
+      "ADV.inference.006",
+      "ADV.comprehensive.001",
+      "ADV.comprehensive.002",
+      "ADV.comprehensive.003",
+      "ADV.comprehensive.004",
+      "ADV.comprehensive.005"
+    ],
+    "needsEngineIds": [
+      "ADV.redox.006",
+      "ADV.experiment.006",
+      "ADV.comprehensive.006"
+    ],
+    "holdIds": [
+      "ADV.calculation.007",
+      "ADV.redox.005",
+      "ADV.ion.004",
+      "ADV.inference.005"
+    ]
+  },
+  "batch500Plan": {
+    "raiseTarget": 350,
+    "challengeTarget": 150,
+    "quotas": {
+      "calculation": 100,
+      "redox": 90,
+      "ion": 70,
+      "experiment": 70,
+      "inference": 80,
+      "comprehensive": 90
+    },
+    "productionOrder": [
+      "ADV.calculation.001-006,008 (READY first)",
+      "ADV.redox.001-004,007",
+      "ADV.ion.001-003,005-006",
+      "ADV.experiment.001-005",
+      "ADV.inference.001-004,006",
+      "ADV.comprehensive.001-005",
+      "Then NEEDS_ENGINE after numeric/equation grading ready",
+      "HOLD only after science review gate"
+    ]
+  },
+  "models": [
+    {
+      "id": "ADV.calculation.001",
+      "name": "物质的量—质量与微粒数换算",
+      "specialtyCode": "calculation",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    },
+    {
+      "id": "ADV.calculation.002",
+      "name": "方程式计量—已知反应物求产物",
+      "specialtyCode": "calculation",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.calculation.003",
+      "name": "过量判断—限制反应物与产物/剩余",
+      "specialtyCode": "calculation",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.calculation.004",
+      "name": "溶液浓度与稀释",
+      "specialtyCode": "calculation",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.calculation.005",
+      "name": "气体摩尔体积（标准状况）",
+      "specialtyCode": "calculation",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    },
+    {
+      "id": "ADV.calculation.006",
+      "name": "质量守恒—体系质量差求逸出气体",
+      "specialtyCode": "calculation",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.calculation.007",
+      "name": "混合物组成—产物反推有效成分",
+      "specialtyCode": "calculation",
+      "difficulties": [
+        "challenge"
+      ],
+      "productionStatus": "HOLD",
+      "priorityBatch1": false,
+      "sampleDifficulties": [
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.calculation.008",
+      "name": "实验数据表—称量差减求浓度",
+      "specialtyCode": "calculation",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.redox.001",
+      "name": "氧化还原识别—化合价升降综合判断",
+      "specialtyCode": "redox",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    },
+    {
+      "id": "ADV.redox.002",
+      "name": "氧化剂还原剂—结合价变定位",
+      "specialtyCode": "redox",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    },
+    {
+      "id": "ADV.redox.003",
+      "name": "电子转移数目—简单反应计数",
+      "specialtyCode": "redox",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.redox.004",
+      "name": "电子守恒—配平思路选择题",
+      "specialtyCode": "redox",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.redox.005",
+      "name": "陌生信息—给出价态规则分析简单转化",
+      "specialtyCode": "redox",
+      "difficulties": [
+        "challenge"
+      ],
+      "productionStatus": "HOLD",
+      "priorityBatch1": false,
+      "sampleDifficulties": [
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.redox.006",
+      "name": "连续反应—电子转移关系追踪",
+      "specialtyCode": "redox",
+      "difficulties": [
+        "challenge"
+      ],
+      "productionStatus": "NEEDS_ENGINE",
+      "priorityBatch1": false,
+      "sampleDifficulties": [
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.redox.007",
+      "name": "氧化产物还原产物—多选项辨析",
+      "specialtyCode": "redox",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    },
+    {
+      "id": "ADV.ion.001",
+      "name": "离子方程式正误—拆写与守恒检查",
+      "specialtyCode": "ion",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.ion.002",
+      "name": "离子共存—酸性/碱性条件",
+      "specialtyCode": "ion",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.ion.003",
+      "name": "少量与过量—离子反应产物差异",
+      "specialtyCode": "ion",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.ion.004",
+      "name": "反应先后—氧化性/结合力定性比较（必修范围）",
+      "specialtyCode": "ion",
+      "difficulties": [
+        "challenge"
+      ],
+      "productionStatus": "HOLD",
+      "priorityBatch1": false,
+      "sampleDifficulties": [
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.ion.005",
+      "name": "离子反应与实验现象结合",
+      "specialtyCode": "ion",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.ion.006",
+      "name": "电解质与导电—条件分析",
+      "specialtyCode": "ion",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    },
+    {
+      "id": "ADV.experiment.001",
+      "name": "实验操作正误—书面判断",
+      "specialtyCode": "experiment",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    },
+    {
+      "id": "ADV.experiment.002",
+      "name": "现象与结论—能否推出",
+      "specialtyCode": "experiment",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.experiment.003",
+      "name": "装置与连接—气体制取书面分析",
+      "specialtyCode": "experiment",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.experiment.004",
+      "name": "步骤排序—书面流程题",
+      "specialtyCode": "experiment",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.experiment.005",
+      "name": "误差来源—称量与体积读数",
+      "specialtyCode": "experiment",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.experiment.006",
+      "name": "方案评价—控制变量与对照",
+      "specialtyCode": "experiment",
+      "difficulties": [
+        "challenge"
+      ],
+      "productionStatus": "NEEDS_ENGINE",
+      "priorityBatch1": false,
+      "sampleDifficulties": [
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.inference.001",
+      "name": "现象推断物质—单条件唯一化",
+      "specialtyCode": "inference",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    },
+    {
+      "id": "ADV.inference.002",
+      "name": "转化关系框图—单线推断",
+      "specialtyCode": "inference",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.inference.003",
+      "name": "多条件联合推断—交叉约束",
+      "specialtyCode": "inference",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.inference.004",
+      "name": "元素推断—周期表位置与性质（必修）",
+      "specialtyCode": "inference",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.inference.005",
+      "name": "陌生信息推断—必须答案唯一",
+      "specialtyCode": "inference",
+      "difficulties": [
+        "challenge"
+      ],
+      "productionStatus": "HOLD",
+      "priorityBatch1": false,
+      "sampleDifficulties": [
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.inference.006",
+      "name": "实验流程推断—分离提纯逻辑",
+      "specialtyCode": "inference",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.comprehensive.001",
+      "name": "计算+氧化还原—计量与电子转移联合",
+      "specialtyCode": "comprehensive",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.comprehensive.002",
+      "name": "实验+物质性质—现象解释",
+      "specialtyCode": "comprehensive",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    },
+    {
+      "id": "ADV.comprehensive.003",
+      "name": "离子反应+实验现象—鉴别综合",
+      "specialtyCode": "comprehensive",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.comprehensive.004",
+      "name": "推断+方程式—转化中写关键反应类型",
+      "specialtyCode": "comprehensive",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.comprehensive.005",
+      "name": "数据+文字—信息综合判断",
+      "specialtyCode": "comprehensive",
+      "difficulties": [
+        "raise",
+        "challenge"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": true,
+      "sampleDifficulties": [
+        "raise",
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.comprehensive.006",
+      "name": "多知识点策略选择—先做什么",
+      "specialtyCode": "comprehensive",
+      "difficulties": [
+        "challenge"
+      ],
+      "productionStatus": "NEEDS_ENGINE",
+      "priorityBatch1": false,
+      "sampleDifficulties": [
+        "challenge"
+      ]
+    },
+    {
+      "id": "ADV.equation.001",
+      "name": "方程式配平—原子守恒选择（规划）",
+      "specialtyCode": "equation",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": false,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    },
+    {
+      "id": "ADV.substance.001",
+      "name": "性质比较—条件变化（规划）",
+      "specialtyCode": "substance",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": false,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    },
+    {
+      "id": "ADV.periodic.001",
+      "name": "周期律—同主族递变（规划）",
+      "specialtyCode": "periodic",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": false,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    },
+    {
+      "id": "ADV.structure.001",
+      "name": "原子组成—粒子关系（规划）",
+      "specialtyCode": "structure",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": false,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    },
+    {
+      "id": "ADV.organic.001",
+      "name": "甲烷基本性质—必修范围（规划）",
+      "specialtyCode": "organic",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": false,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    },
+    {
+      "id": "ADV.memory.001",
+      "name": "规律记忆—条件化判断（规划）",
+      "specialtyCode": "memory",
+      "difficulties": [
+        "raise"
+      ],
+      "productionStatus": "READY",
+      "priorityBatch1": false,
+      "sampleDifficulties": [
+        "raise"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "type": "element",
+      "data": {
+        "symbol": "K",
+        "nameZh": "钾",
+        "nameEn": "Potassium",
+        "atomicNumber": 19,
+        "atomicMass": "39.098",
+        "periodNo": 4,
+        "groupLabel": "IA",
+        "category": "金属",
+        "commonValences": "+1",
+        "status": "draft"
+      }
+    },
+    {
+      "type": "substance",
+      "data": {
+        "name": "氯化钾",
+        "canonicalFormula": "KCl",
+        "commonNames": "钾盐",
+        "color": "白色",
+        "stateLabel": "固",
+        "tags": ["salt"],
+        "chemicalProps": "易溶于水",
+        "status": "draft"
+      }
+    },
+    {
+      "type": "reaction",
+      "data": {
+        "name": "示例未核实反应（导入后应为 pending_review 或 draft）",
+        "canonicalEquation": "K+H2O=KOH+H2",
+        "equation": "2K + 2H2O = 2KOH + H2↑",
+        "conditions": "常温",
+        "isVerified": false,
+        "status": "published",
+        "species": [
+          {
+            "role": "reactant",
+            "formula": "K",
+            "coefficient": 2,
+            "stateSymbol": "s",
+            "sortOrder": 1
+          },
+          {
+            "role": "reactant",
+            "formula": "H2O",
+            "coefficient": 2,
+            "stateSymbol": "l",
+            "sortOrder": 2
+          },
+          {
+            "role": "product",
+            "formula": "KOH",
+            "coefficient": 2,
+            "stateSymbol": "aq",
+            "sortOrder": 3
+          },
+          {
+            "role": "product",
+            "formula": "H2",
+            "coefficient": 1,
+            "stateSymbol": "g",
+            "isGas": true,
+            "sortOrder": 4
+          }
+        ]
+      }
+    },
+    {
+      "type": "formula",
+      "data": {
+        "name": "气体摩尔体积",
+        "expression": "Vm = V / n",
+        "variables": "Vm:气体摩尔体积；V:体积；n:物质的量",
+        "units": "L/mol",
+        "status": "draft"
+      }
+    },
+    {
+      "type": "knowledge",
+      "data": {
+        "name": "金属与水反应规律",
+        "description": "活泼金属可与水反应生成碱和氢气",
+        "difficulty": 2,
+        "importance": 4,
+        "status": "draft"
+      }
+    }
+  ]
+}

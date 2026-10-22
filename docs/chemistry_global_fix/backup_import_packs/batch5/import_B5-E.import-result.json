@@ -1,0 +1,16 @@
+{
+  "successCount": 1,
+  "failCount": 0,
+  "linkOk": 1,
+  "linkFail": 0,
+  "results": [
+    {
+      "index": 0,
+      "type": "concept",
+      "ok": true,
+      "id": "26",
+      "inventoryCode": "concept.reversible",
+      "errors": []
+    }
+  ]
+}

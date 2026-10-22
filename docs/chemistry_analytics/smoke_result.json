@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "total": 26,
+  "passed": 26,
+  "failed": 0,
+  "email": "chem_analytics_smoke@local.test",
+  "today": "2026-10-20",
+  "results": [
+    {
+      "name": "empty_200",
+      "pass": true,
+      "detail": "status=200"
+    },
+    {
+      "name": "empty_overview_zero",
+      "pass": true,
+      "detail": "{\"submittedSessions\":0,\"practicedItems\":0,\"correctCount\":0,\"wrongCount\":0,\"pendingReviewCount\":0,\"accuracyPercent\":null,\"accuracyNote\":\"correct / (correct + wrong)；无明确对错时为 null\"}"
+    },
+    {
+      "name": "calendar_30_days",
+      "pass": true,
+      "detail": "30"
+    },
+    {
+      "name": "attribution_disclosed",
+      "pass": true,
+      "detail": "专项/难度按题目当前归属统计；历史未保存答题时专项与难度快照。若日后改题库归属，历史分析会随之变化。"
+    },
+    {
+      "name": "empty_specialty_not_fake_zero",
+      "pass": true,
+      "detail": "ok"
+    },
+    {
+      "name": "days30_ok",
+      "pass": true,
+      "detail": "status=200"
+    },
+    {
+      "name": "days7_ok",
+      "pass": true,
+      "detail": "status=200"
+    },
+    {
+      "name": "trend_len",
+      "pass": true,
+      "detail": "30/7"
+    },
+    {
+      "name": "in_progress_excluded",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "name": "practiced_excludes_unanswered",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "name": "accuracy_excludes_pending",
+      "pass": true,
+      "detail": "{\"submittedSessions\":2,\"practicedItems\":5,\"correctCount\":2,\"wrongCount\":2,\"pendingReviewCount\":1,\"accuracyPercent\":50,\"accuracyNote\":\"correct / (correct + wrong)；无明确对错时为 null\"}"
+    },
+    {
+      "name": "calendar_today_has_activity",
+      "pass": true,
+      "detail": "{\"date\":\"2026-10-20\",\"submittedSessions\":1,\"practicedItems\":3,\"correctCount\":1,\"wrongCount\":1,\"pendingReviewCount\":1,\"accuracyPercent\":50}"
+    },
+    {
+      "name": "calendar_sum_matches_overview",
+      "pass": true,
+      "detail": "5 vs 5"
+    },
+    {
+      "name": "accuracy_null_when_no_graded",
+      "pass": true,
+      "detail": "{\"date\":\"2026-10-01\",\"submittedSessions\":1,\"practicedItems\":1,\"correctCount\":0,\"wrongCount\":0,\"pendingReviewCount\":1,\"accuracyPercent\":null}"
+    },
+    {
+      "name": "difficulty_buckets_exist",
+      "pass": true,
+      "detail": "basic,raise,challenge,unknown"
+    },
+    {
+      "name": "difficulty_has_counts",
+      "pass": true,
+      "detail": "[{\"k\":\"basic\",\"p\":6},{\"k\":\"raise\",\"p\":0},{\"k\":\"challenge\",\"p\":0},{\"k\":\"unknown\",\"p\":0}]"
+    },
+    {
+      "name": "unknown_difficulty_bucket",
+      "pass": true,
+      "detail": "{\"key\":\"unknown\",\"label\":\"未知难度\",\"difficulty\":null,\"practicedItems\":1,\"correctCount\":0,\"wrongCount\":1,\"pendingReviewCount\":0,\"gradedItems\":1,\"accuracyPercent\":0,\"empty\":false,\"sampleLow\":true,\"sampleNote\":\"样本较少\"}"
+    },
+    {
+      "name": "unknown_specialty_bucket",
+      "pass": true,
+      "detail": "{\"specialtyId\":\"unknown\",\"specialtyCode\":null,\"specialtyName\":\"未知专项\",\"practicedItems\":1,\"correctCount\":0,\"wrongCount\":1,\"pendingReviewCount\":0,\"gradedItems\":1,\"accuracyPercent\":0,\"empty\":false,\"sampleLow\":true,\"sampleNote\":\"样本较少\"}"
+    },
+    {
+      "name": "wrong_status_matches_summary",
+      "pass": true,
+      "detail": "{\"analytics\":{\"openCount\":1,\"consolidatingCount\":1,\"masteredCount\":0,\"dueTodayCount\":1,\"totalWrongItems\":2,\"note\":\"已掌握表示具体错题满足复练条件，不代表相关知识点已经全部掌握。本图为当前状态，非历史趋势。\"},\"summary\":{\"openCount\":1,\"consolidatingCount\":1,\"masteredCount\":0,\"dueTodayCount\":1,\"recentNewCount\":2,\"totalWrongItems\":2,\"topWeakSpecialties\":[{\"granularity\":\"category\",\"specialtyCode\":\"equation\",\"specialtyName\":\"化学方程式\",\"categoryCode\":\"true_false\",\"categoryName\":\"方程式正误判断\",\"totalAttempts\":4,\"correctCount\":2,\"wrongCount\":2,\"accuracyPercent\":50,\"openOrConsolidatingWrongItems\":2,\"lastWrongAt\":\"2026-10-20T08:38:40.045Z\"}],\"rules\":{\"masterMinCorrect\":2,\"masterGapDays\":3,\"consolidatingDueDays\":2,\"dueTodayNote\":\"待攻克全部计入今天建议复习；巩固中距上次明确正确≥2个自然日计入；已掌握默认不计入\"}}}"
+    },
+    {
+      "name": "top_wrong_sorted",
+      "pass": true,
+      "detail": "[{\"specialtyId\":\"1\",\"specialtyCode\":\"equation\",\"specialtyName\":\"化学方程式\",\"wrongCount\":2,\"practicedItems\":4,\"gradedItems\":4,\"errorRatePercent\":50,\"openWrongCount\":1,\"sampleLow\":true,\"sampleNote\":\"样本较少\"},{\"specialtyId\":\"unknown\",\"specialtyCode\":null,\"specialtyName\":\"未知专项\",\"wrongCount\":1,\"practicedItems\":1,\"gradedItems\":1,\"errorRatePercent\":100,\"openWrongCount\":0,\"sampleLow\":true,\"sampleNote\":\"样本较少\"}]"
+    },
+    {
+      "name": "suggestions_array",
+      "pass": true,
+      "detail": "[{\"id\":\"due_today\",\"reason\":\"今天有 1 道错题建议复习。\",\"cta\":\"复习今日错题\",\"path\":\"/chemistry/wrong-questions?focus=due\",\"priority\":1},{\"id\":\"weak_specialty_wrong\",\"reason\":\"近期「化学方程式」练习中明确错误较多，可以优先复习相关错题。\",\"cta\":\"查看错题\",\"path\":\"/chemistry/wrong-questions?specialtyCode=equation\",\"priority\":3},{\"id\":\"try_raise\",\"reason\":\"近期基础训练较多，可以尝试适量提高训练。\",\"cta\":\"开始提高训练\",\"path\":\"/chemistry/advanced?mode=raise\",\"priority\":4},{\"id\":\"try_challenge\",\"reason\":\"目前挑战题训练记录较少，可以尝试挑战训练，逐步积累综合推理经验。\",\"cta\":\"开始挑战训练\",\"path\":\"/chemistry/advanced?mode=challenge\",\"priority\":5}]"
+    },
+    {
+      "name": "due_suggestion_path",
+      "pass": true,
+      "detail": "{\"id\":\"due_today\",\"reason\":\"今天有 1 道错题建议复习。\",\"cta\":\"复习今日错题\",\"path\":\"/chemistry/wrong-questions?focus=due\",\"priority\":1}"
+    },
+    {
+      "name": "isolation_other_zero",
+      "pass": true,
+      "detail": "{\"submittedSessions\":0,\"practicedItems\":0,\"correctCount\":0,\"wrongCount\":0,\"pendingReviewCount\":0,\"accuracyPercent\":null,\"accuracyNote\":\"correct / (correct + wrong)；无明确对错时为 null\"}"
+    },
+    {
+      "name": "refresh_consistent",
+      "pass": true,
+      "detail": "{\"submittedSessions\":4,\"practicedItems\":7,\"correctCount\":2,\"wrongCount\":3,\"pendingReviewCount\":2,\"accuracyPercent\":40,\"accuracyNote\":\"correct / (correct + wrong)；无明确对错时为 null\"}"
+    },
+    {
+      "name": "daily_alive",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "learning_home_alive",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

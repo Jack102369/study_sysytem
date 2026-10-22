@@ -1,0 +1,842 @@
+{
+  "generatedAt": "2026-10-18T12:47:13.505Z",
+  "count": 11,
+  "items": [
+    {
+      "code": "rxn.2Na2O2_2H2O",
+      "type": "reaction",
+      "name": "过氧化钠与水",
+      "batch": "batch3",
+      "dbId": "4",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "severity": "P0",
+      "reasons": [
+        "Round A 发现明确科学性/条件问题"
+      ],
+      "problems": [
+        {
+          "level": "P0",
+          "field": "reProduct",
+          "original": "reProduct: NaOH",
+          "issue": "该反应为歧化反应，Na2O2 中 -1 价氧既被氧化为 O2（0 价）又被还原为 NaOH 中的 -2 价氧。还原产物应为 NaOH（其中 -2 价氧），但更准确地说还原产物是 NaOH 中的氧组分；此处标注 reProduct=NaOH 本身可接受，但需注意 Na2O2 既是氧化剂又是还原剂，还原产物对应 NaOH。真正问题在于氧化产物/还原产物归属需明确：O2 为氧化产物，NaOH 为还原产物，此点正确。",
+          "fixHint": "确认 reProduct 标注为 NaOH（含 -2 价氧）合理，但应在说明中明确 Na2O2 发生歧化，-1 价 O 一部分升为 0 价（O2），一部分降为 -2 价（NaOH）。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P1",
+          "field": "conditions",
+          "original": "常温",
+          "issue": "Na2O2 与水的反应在常温下即可发生，标注常温基本合理；但该反应放热明显，教材通常不特别限定温度。条件标注无科学性错误，但“常温”并非必要限定，可能误导为仅常温发生。",
+          "fixHint": "可保留常温，或改为“常温即可反应（放热）”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "species.state",
+          "original": "product NaOH state: aq",
+          "issue": "反应生成 NaOH 溶于水形成溶液，标 aq 合理；但若水量有限，NaOH 可能以浓溶液形式存在。状态标注 aq 可接受。",
+          "fixHint": "保持 aq 即可。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "常温",
+          "issue": "Na2O2与水的反应为放热反应，教材通常不强调温度条件；标注“常温”虽不错误，但可能被误读为需特定条件，且与CO2条目条件口径一致但非必要",
+          "fixHint": "可保留或改为“常温下即可反应（放热）”，避免作为判题关键条件",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "FAIL_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.2Na2O2_2CO2",
+      "type": "reaction",
+      "name": "过氧化钠与二氧化碳",
+      "batch": "batch3",
+      "dbId": "5",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "severity": "P0",
+      "reasons": [
+        "Round A 发现明确科学性/条件问题"
+      ],
+      "problems": [
+        {
+          "level": "P0",
+          "field": "reProduct",
+          "original": "reProduct: Na2CO3",
+          "issue": "该反应同样是 Na2O2 中 -1 价氧的歧化：一部分氧被氧化为 O2（0 价），一部分被还原为 Na2CO3 中的 -2 价氧。还原产物标注为 Na2CO3 基本对应还原产物（含 -2 价氧），但需注意 CO2 中碳为 +4 价、氧为 -2 价，未变价；变价的只有 Na2O2 中的氧。因此还原产物应为 Na2CO3（其中的 -2 价氧来自 Na2O2 被还原的部分）。标注方向正确。",
+          "fixHint": "明确 Na2O2 歧化，O2 为氧化产物，Na2CO3 中 -2 价氧为还原产物；CO2 不参与氧化还原。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P1",
+          "field": "conditions",
+          "original": "常温",
+          "issue": "Na2O2 与 CO2 的反应在常温下可发生，标注常温可接受；但该反应通常需在有水汽或直接接触条件下进行，教材多不强调温度。条件标注无明确错误。",
+          "fixHint": "可保留常温。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "species.state",
+          "original": "product Na2CO3 state: s",
+          "issue": "生成的 Na2CO3 通常为固体，标 s 合理。",
+          "fixHint": "保持 s。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "常温",
+          "issue": "与CO2反应同样为放热、常温可进行，条件标注非判题关键，但需与H2O条目口径统一",
+          "fixHint": "保持与H2O条目一致的条件表述",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "FAIL_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.2Al_6HCl",
+      "type": "reaction",
+      "name": "铝与盐酸",
+      "batch": "batch3",
+      "dbId": "15",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "severity": "P1",
+      "reasons": [
+        "Round A 发现明确科学性/条件问题"
+      ],
+      "problems": [
+        {
+          "level": "P1",
+          "field": "oxidant",
+          "original": "HCl",
+          "issue": "氧化剂应为HCl中的H+（或HCl中的氢元素），而非整个HCl分子；在氧化还原反应中，HCl中只有H+被还原，Cl-未变价。",
+          "fixHint": "将氧化剂改为“HCl（H+）”或“H+”，并注明HCl提供H+作氧化剂。",
+          "needsTextbookCheck": false,
+          "affectsPublish": true,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P1",
+          "field": "oxProduct",
+          "original": "AlCl3",
+          "issue": "氧化产物应为Al3+（或AlCl3中的Al3+），而非整个AlCl3分子；AlCl3中Cl-未变价，不是氧化产物。",
+          "fixHint": "将氧化产物改为“Al3+（或AlCl3中的Al3+）”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": true,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P1",
+          "field": "reProduct",
+          "original": "H2",
+          "issue": "还原产物为H2，正确；但需注意还原产物对应氧化剂中的H+被还原，表述可更精确。",
+          "fixHint": "可保留H2，但建议注明“H+被还原为H2”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "常温，稀盐酸（氧化膜除去后更明显）",
+          "issue": "条件描述含'氧化膜除去后更明显'，属现象说明而非反应条件，自动出题若将其作为条件判据可能产生歧义",
+          "fixHint": "题干条件统一为'常温、稀盐酸'，氧化膜说明仅作背景不作判题依据",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "FAIL_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.92
+      }
+    },
+    {
+      "code": "rxn.3Fe_2O2",
+      "type": "reaction",
+      "name": "铁与氧气",
+      "batch": "batch3",
+      "dbId": "21",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "severity": "P1",
+      "reasons": [
+        "Round A 发现明确科学性/条件问题"
+      ],
+      "problems": [
+        {
+          "level": "P1",
+          "field": "oxProduct/reProduct",
+          "original": "oxProduct=Fe3O4; reProduct=Fe3O4",
+          "issue": "Fe3O4是Fe与O2反应的唯一产物，其中Fe同时被氧化（0→+2和+3）、O被还原（0→-2）。把同一产物同时标为氧化产物和还原产物在概念上不严谨：还原产物应为被还原元素对应的产物，此处O被还原进入Fe3O4，Fe被氧化也进入Fe3O4，二者为同一物质，但字段未说明Fe3O4中Fe的混合价态，易误导学生认为Fe3O4整体既是氧化产物又是还原产物而无区分。",
+          "fixHint": "保留oxProduct=Fe3O4、reProduct=Fe3O4可以，但应在说明中注明Fe3O4中Fe为+2/+3混合价态，Fe被氧化、O被还原，二者同处一产物；或补充电子转移说明（3 mol Fe失8 mol e-，2 mol O2得8 mol e-）。",
+          "needsTextbookCheck": false,
+          "affectsPublish": true,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "点燃（如细铁丝在氧气中）",
+          "issue": "条件表述基本正确，但“点燃”与“细铁丝在氧气中”对应的是剧烈燃烧生成Fe3O4；铁在空气中缓慢氧化生成Fe2O3·xH2O（铁锈），条件不同产物不同，条目未提示该限定。",
+          "fixHint": "可补充说明：铁在氧气中点燃生成Fe3O4；常温潮湿空气中生锈主要成分为Fe2O3·xH2O，避免学生混淆。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "点燃（如细铁丝在氧气中）",
+          "issue": "铁在氧气中燃烧产物为Fe3O4，但铁在空气中缓慢氧化产物为Fe2O3（铁锈），条件不同产物不同；若题干未明确'氧气中点燃'，学生可能答Fe2O3，存在多产物歧义风险",
+          "fixHint": "自动出题题干必须明确'在氧气中点燃'或'铁丝在纯氧中燃烧'，避免与缓慢氧化混淆",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "redox.identify",
+          "issue": "Fe3O4中Fe为+2/+3混合价态，氧化产物归属为同一物质Fe3O4，氧化还原分析时'氧化产物'表述需注意Fe3O4既是氧化产物又是还原产物，判题时若要求区分可能歧义",
+          "fixHint": "redox.identify类题目避免要求单独区分氧化产物/还原产物，可改为判断氧化剂还原剂",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "FAIL_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.Fe_H2SO4",
+      "type": "reaction",
+      "name": "铁与稀硫酸",
+      "batch": "batch3",
+      "dbId": "22",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "severity": "P1",
+      "reasons": [
+        "Round A 发现明确科学性/条件问题"
+      ],
+      "problems": [
+        {
+          "level": "P1",
+          "field": "oxidant",
+          "original": "oxidant=H2SO4",
+          "issue": "稀硫酸与铁反应中，真正被还原的是H2SO4电离出的H+（H+得电子生成H2），SO4^2-未参与氧化还原。将氧化剂标为H2SO4分子不够准确，严格应为H+（或表述为稀硫酸中的H+）。",
+          "fixHint": "oxidant改为H+（稀硫酸提供），或注明氧化剂为H2SO4中的H元素/H+；还原剂Fe正确。",
+          "needsTextbookCheck": false,
+          "affectsPublish": true,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "Fe + H2SO4 = FeSO4 + H2↑",
+          "issue": "方程式正确且配平，但未注明为稀硫酸；浓硫酸与铁常温钝化、加热生成SO2而非H2，条件必须强调“稀”。conditions字段已写稀硫酸，但equation本身未体现，存在被误用风险。",
+          "fixHint": "在equation或conditions中明确“稀H2SO4”，并提示浓硫酸常温钝化、加热不生成H2。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "稀硫酸，常温",
+          "issue": "铁与稀硫酸反应生成FeSO4和H2，条件明确；但需注意与浓硫酸（钝化/加热反应）区分，自动出题若仅写'硫酸'可能歧义",
+          "fixHint": "题干须明确'稀硫酸'，避免与浓硫酸混淆",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "FAIL_SCIENCE",
+        "confidence": 0.88
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.92
+      }
+    },
+    {
+      "code": "rxn.Cu_2H2SO4",
+      "type": "reaction",
+      "name": "铜与浓硫酸",
+      "batch": "batch4",
+      "dbId": "43",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "severity": "P0",
+      "reasons": [
+        "Round A 发现明确科学性/条件问题"
+      ],
+      "problems": [
+        {
+          "level": "P0",
+          "field": "oxProduct",
+          "original": "oxProduct: SO2",
+          "issue": "氧化产物标注错误。在反应 Cu + 2H2SO4(浓) → CuSO4 + SO2↑ + 2H2O 中，Cu 被氧化为 CuSO4（铜元素化合价由0升至+2），CuSO4 是氧化产物；SO2 是硫酸被还原的产物，属于还原产物。",
+          "fixHint": "将 oxProduct 改为 CuSO4，reProduct 改为 SO2。",
+          "needsTextbookCheck": false,
+          "affectsPublish": true,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P0",
+          "field": "reProduct",
+          "original": "reProduct: CuSO4",
+          "issue": "还原产物标注错误。SO2 是硫元素由+6降至+4的产物，应为还原产物；CuSO4 是铜元素被氧化的产物，应为氧化产物。",
+          "fixHint": "将 reProduct 改为 SO2，oxProduct 改为 CuSO4。",
+          "needsTextbookCheck": false,
+          "affectsPublish": true,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "equation",
+          "original": "Cu + 2H2SO4(浓) =△= CuSO4 + SO2↑ + 2H2O",
+          "issue": "浓硫酸氧化性反应，产物与浓度/温度相关；稀硫酸不反应，条件必须完整否则判题歧义",
+          "fixHint": "自动出题须强制标注'浓硫酸、加热'条件",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "experiment_analysis",
+          "original": "铜与浓硫酸加热实验",
+          "issue": "涉及SO2有毒气体，实验题仅限书面分析，禁止学生实操",
+          "fixHint": "实验题型限定为装置/现象/尾气处理书面分析",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "FAIL_SCIENCE",
+        "confidence": 0.99
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "rxn.C_2H2SO4",
+      "type": "reaction",
+      "name": "碳与浓硫酸",
+      "batch": "batch4",
+      "dbId": "44",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "severity": "P0",
+      "reasons": [
+        "Round A 发现明确科学性/条件问题"
+      ],
+      "problems": [
+        {
+          "level": "P0",
+          "field": "oxProduct",
+          "original": "oxProduct: SO2",
+          "issue": "氧化产物与还原产物标注对调。该反应中C被氧化为CO2，CO2是氧化产物；H2SO4中S(+6)被还原为SO2，SO2是还原产物。条目把oxProduct写成SO2、reProduct写成CO2，恰好相反。",
+          "fixHint": "oxProduct改为CO2，reProduct改为SO2。",
+          "needsTextbookCheck": false,
+          "affectsPublish": true,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "C + 2H2SO4(浓) =△= CO2↑ + 2SO2↑ + 2H2O",
+          "issue": "方程式本身配平正确、条件正确，但产物H2O在加热条件下为气态，标↑或状态标注可斟酌；非科学性错误。",
+          "fixHint": "可保留，或统一状态标注。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "该反应可用于检验浓硫酸的强氧化性，但直接挂靠 substance.test 可能误导为物质检验方法，实际物质检验通常指离子或特定官能团检验。",
+          "fixHint": "建议将 categories 中的 substance.test 改为更具体的如 'property.concentrated_sulfuric_acid' 或保留但注明为性质实验。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "C + 2H2SO4(浓) =△= CO2↑ + 2SO2↑ + 2H2O",
+          "issue": "条件标注为'浓硫酸，加热'，但方程式中仅写'△'，未明确'浓'字，可能造成条件不完整。",
+          "fixHint": "在方程式中明确标注'浓'，如 C + 2H2SO4(浓) =△= CO2↑ + 2SO2↑ + 2H2O。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "FAIL_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "rxn.N2_3H2",
+      "type": "reaction",
+      "name": "氮气与氢气合成氨",
+      "batch": "batch4",
+      "dbId": "45",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "severity": "P0",
+      "reasons": [
+        "Round A 发现明确科学性/条件问题"
+      ],
+      "problems": [
+        {
+          "level": "P0",
+          "field": "oxProduct/reProduct",
+          "original": "oxProduct: NH3; reProduct: NH3",
+          "issue": "合成氨中N2被还原、H2被氧化，NH3既是氧化产物又是还原产物（同一物质）。但条目将oxProduct与reProduct都填为NH3而未区分来源，且更关键的是：N2中N由0价降到-3价，N2是氧化剂；H2中H由0价升到+1价，H2是还原剂，此部分正确。问题在于把NH3同时作为氧化产物和还原产物虽在“同一产物”意义上可接受，但字段语义上应说明NH3既是氧化产物又是还原产物，当前并列填写易被自动判题误判。",
+          "fixHint": "明确NH3既是氧化产物又是还原产物（N被还原生成的部分为还原产物，H被氧化生成的部分为氧化产物），或注明同一物质。",
+          "needsTextbookCheck": false,
+          "affectsPublish": true,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P1",
+          "field": "equation",
+          "original": "N2 + 3H2 =催化剂高温高压= 2NH3",
+          "issue": "可逆反应应使用可逆符号⇌而非等号，条目conditions已注明可逆但方程式用“=”，符号不规范。",
+          "fixHint": "改为 N2 + 3H2 ⇌(催化剂、高温、高压) 2NH3。",
+          "needsTextbookCheck": false,
+          "affectsPublish": true,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "合成氨反应不涉及物质检验，挂靠 substance.test 属于关键词机械挂靠。",
+          "fixHint": "移除 categories 中的 substance.test，可保留 equation.write_from_text 和 redox.identify。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "工业：催化剂、高温、高压；可逆。高一认识条件与可逆性，勿展开选修平衡计算",
+          "issue": "条件描述较笼统，'高温高压'未具体化，但高一阶段通常不要求具体数值，可接受。",
+          "fixHint": "可保留，但建议在自动出题时避免要求具体温度压力数值。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "FAIL_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "rxn.Cu_4HNO3",
+      "type": "reaction",
+      "name": "铜与稀硝酸",
+      "batch": "batch4",
+      "dbId": "50",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "severity": "P0",
+      "reasons": [
+        "Round A 发现明确科学性/条件问题"
+      ],
+      "problems": [
+        {
+          "level": "P0",
+          "field": "oxProduct",
+          "original": "oxProduct: NO",
+          "issue": "氧化产物标注错误。该反应中Cu被氧化为Cu²⁺（存在于Cu(NO3)2中），Cu(NO3)2是氧化产物；NO是硝酸被还原的产物，即还原产物。此处把还原产物NO标为氧化产物，属于氧化还原概念对调。",
+          "fixHint": "oxProduct 改为 Cu(NO3)2（或 Cu²⁺）；reProduct 改为 NO。",
+          "needsTextbookCheck": false,
+          "affectsPublish": true,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P0",
+          "field": "reProduct",
+          "original": "reProduct: Cu(NO3)2",
+          "issue": "还原产物标注错误。Cu(NO3)2是Cu被氧化的产物（氧化产物），不是还原产物；还原产物应为NO。",
+          "fixHint": "reProduct 改为 NO；oxProduct 改为 Cu(NO3)2。",
+          "needsTextbookCheck": false,
+          "affectsPublish": true,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "3Cu + 8HNO3(稀) = 3Cu(NO3)2 + 2NO↑ + 4H2O",
+          "issue": "方程式本身配平正确、真实成立，条件标注合理；仅提示NO为无色气体，在空气中易被氧化为红棕色NO2，若用于现象描述需注意。",
+          "fixHint": "方程式无需修改；现象描述中注明NO无色、遇空气变红棕色。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P1",
+          "field": "code",
+          "original": "rxn.Cu_4HNO3",
+          "issue": "编码Cu_4HNO3易与浓硝酸计量混淆，实际稀硝酸计量为3Cu+8HNO3",
+          "fixHint": "建议重命名为rxn.Cu_dilHNO3或增加别名说明",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "稀硝酸，常温或微热；与浓硝酸产物不同",
+          "issue": "条件描述中“常温或微热”可能引入反应速率/产物争议，自动出题时若未限定稀硝酸浓度和温度，可能产生歧义",
+          "fixHint": "题干必须明确“稀硝酸”，并避免考查温度对产物的影响",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "equation,redox,substance",
+          "issue": "redox关联合理，但substance.test需确认是否考查NO的检验，避免与NO2检验混淆",
+          "fixHint": "若出substance.test题，应明确检验对象和干扰",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "FAIL_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "rxn.Cu_4HNO3c",
+      "type": "reaction",
+      "name": "铜与浓硝酸",
+      "batch": "batch4",
+      "dbId": "51",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "severity": "P0",
+      "reasons": [
+        "Round A 发现明确科学性/条件问题"
+      ],
+      "problems": [
+        {
+          "level": "P0",
+          "field": "oxProduct",
+          "original": "oxProduct: NO2",
+          "issue": "氧化产物标注错误。Cu被氧化为Cu(NO3)2（氧化产物），NO2是硝酸被还原的产物（还原产物）。此处把还原产物NO2标为氧化产物，属氧化还原概念对调。",
+          "fixHint": "oxProduct 改为 Cu(NO3)2（或 Cu²⁺）；reProduct 改为 NO2。",
+          "needsTextbookCheck": false,
+          "affectsPublish": true,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P0",
+          "field": "reProduct",
+          "original": "reProduct: Cu(NO3)2",
+          "issue": "还原产物标注错误。Cu(NO3)2是氧化产物，还原产物应为NO2。",
+          "fixHint": "reProduct 改为 NO2；oxProduct 改为 Cu(NO3)2。",
+          "needsTextbookCheck": false,
+          "affectsPublish": true,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "species",
+          "original": "HNO3 state: l",
+          "issue": "浓硝酸通常为水溶液（aq），标为纯液态(l)不够准确；教材中浓硝酸一般视为溶液。",
+          "fixHint": "将HNO3(浓)的state改为aq，或在conditions中说明为浓硝酸水溶液。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P1",
+          "field": "species",
+          "original": "HNO3 state=l",
+          "issue": "浓硝酸通常为溶液（aq），state标为l可能不准确，自动判题时状态符号可能引发争议",
+          "fixHint": "建议将HNO3(浓)状态改为aq或注明为浓溶液",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "浓硝酸，常温；与稀硝酸产物不同，不可混写",
+          "issue": "条件描述基本完整，但自动出题若未明确“浓硝酸”可能被误判为稀硝酸",
+          "fixHint": "题干必须明确“浓硝酸”，并避免与稀硝酸混写",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "code",
+          "original": "rxn.Cu_4HNO3c",
+          "issue": "编码后缀c表示浓硝酸，但不够直观，易与稀硝酸条目混淆",
+          "fixHint": "建议重命名为rxn.Cu_concHNO3或增加别名说明",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "FAIL_SCIENCE",
+        "confidence": 0.96
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "exp.CO2_prep_marble",
+      "type": "experiment",
+      "name": "大理石与稀盐酸制二氧化碳",
+      "batch": "batch5",
+      "dbId": "30",
+      "conclusion": "NEEDS_FIX",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "ineligible",
+      "severity": "P1",
+      "reasons": [
+        "Round A 发现明确科学性/条件问题"
+      ],
+      "problems": [
+        {
+          "level": "P1",
+          "field": "principle",
+          "original": "一般不用排水法（可溶）",
+          "issue": "CO2在初中/高中教材语境中通常表述为“能溶于水”而非“可溶”，且不用排水法的根本原因是CO2溶于水且与水反应，导致收集量偏少、纯度下降；“可溶”表述不准确且理由不完整。",
+          "fixHint": "改为“CO2能溶于水且与水反应，故一般不用排水法收集，而用向上排空气法”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": true,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "CaCO3+2HCl=CaCl2+H2O+CO2↑",
+          "issue": "未说明为何不用稀硫酸（生成微溶CaSO4覆盖表面阻止反应）或浓盐酸（挥发出HCl使CO2不纯），作为制气原理条目缺少关键限定，易被误用于其他酸。",
+          "fixHint": "补充：应选用稀盐酸，不宜用稀硫酸（生成微溶硫酸钙阻碍反应）或浓盐酸（挥发性杂质HCl）。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "purpose",
+          "original": "除杂/检验思路",
+          "issue": "purpose提到除杂但principle与reagents未给出除杂试剂（如饱和NaHCO3溶液除HCl、浓硫酸干燥），内容覆盖不完整。",
+          "fixHint": "在principle或reagents中补充除杂思路：饱和NaHCO3溶液除HCl，浓硫酸干燥。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "一般不用排水法（可溶）",
+          "issue": "CO2可溶于水且与水反应，表述“可溶”不够准确，且“一般不用排水法”属教材口径，不同版本表述略有差异；作为自动判题依据可能产生歧义",
+          "fixHint": "改为“CO2能溶于水且与水反应，故不用排水法收集”，并避免以“可溶”作为唯一判据出题",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "experiment.substance_test",
+          "issue": "条目含澄清石灰水检验CO2，挂substance_test合理；但若出题涉及检验需明确试剂与现象，避免多答案",
+          "fixHint": "出题时限定“用澄清石灰水检验，现象为变浑浊”",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "FAIL_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    }
+  ]
+}

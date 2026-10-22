@@ -1,0 +1,11 @@
+{
+  "createdAt": "2026-10-19T11:53:16.360Z",
+  "counts": {
+    "chem_train_items": 594,
+    "chem_train_item_links": 551,
+    "chem_train_sessions": 8,
+    "chem_train_session_items": 27,
+    "chem_train_test_grants": 0
+  },
+  "note": "Restore: node docs/chemistry_question_bank_fix/restore_backup.js --dir=D:\\adu\\wj\\拉总\\学习系统代码\\study_sysytem\\docs\\chemistry_question_bank_fix\\backup_2026-10-19T11-53-16-317Z"
+}

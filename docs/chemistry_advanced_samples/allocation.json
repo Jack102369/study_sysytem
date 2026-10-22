@@ -1,0 +1,16 @@
+{
+  "target": 60,
+  "raise": 36,
+  "challenge": 24,
+  "qtypePolicy": "prefer_single_4; judge_only_if_necessary",
+  "modelFilter": "priorityBatch1 && READY",
+  "quotas": {
+    "calculation": { "raise": 7, "challenge": 5, "total": 12 },
+    "redox": { "raise": 7, "challenge": 5, "total": 12 },
+    "ion": { "raise": 6, "challenge": 4, "total": 10 },
+    "experiment": { "raise": 6, "challenge": 4, "total": 10 },
+    "inference": { "raise": 5, "challenge": 3, "total": 8 },
+    "comprehensive": { "raise": 5, "challenge": 3, "total": 8 }
+  },
+  "notes": "HOLD/NEEDS_ENGINE excluded. Adjustments logged in production_summary.json"
+}

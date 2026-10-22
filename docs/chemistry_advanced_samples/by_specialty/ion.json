@@ -1,0 +1,899 @@
+[
+  {
+    "id": "S60.ion.01",
+    "sourceModelId": "ADV.ion.001",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "write_ion"
+    ],
+    "knowledgePoints": [
+      "离子方程式",
+      "沉淀"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "将等物质的量浓度、等体积的 BaCl₂ 溶液与 Na₂SO₄ 溶液混合，正确的离子方程式是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ba²⁺ + SO₄²⁻ = BaSO₄↓"
+      },
+      {
+        "key": "B",
+        "text": "BaCl₂ + Na₂SO₄ = BaSO₄↓ + 2NaCl"
+      },
+      {
+        "key": "C",
+        "text": "Ba²⁺ + 2Cl⁻ + 2Na⁺ + SO₄²⁻ = BaSO₄↓ + 2Na⁺ + 2Cl⁻"
+      },
+      {
+        "key": "D",
+        "text": "Ba²⁺ + Cl⁻ + Na⁺ + SO₄²⁻ = BaSO₄↓"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "删去未参加反应的 Na⁺、Cl⁻",
+    "conditionAnalysis": [
+      "强电解质拆",
+      "沉淀保留化学式"
+    ],
+    "steps": [
+      "写出完全离子式",
+      "删去旁观离子得 A"
+    ],
+    "coreMethod": "写全→删旁观",
+    "commonMistakes": [
+      "写成分子方程式",
+      "旁观离子未删净或乱删"
+    ],
+    "similarFeatures": [
+      "复分解沉淀离子式"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "ion_equation_write"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "净离子方程式",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "删旁观离子"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "化学方程式不是离子方程式",
+        "possibleWrongThinking": "题型要求未读清",
+        "knowledgePoint": "离子方程式定义"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "旁观离子未删",
+        "possibleWrongThinking": "停在完全离子式",
+        "knowledgePoint": "净离子式"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "电荷与原子都不守恒",
+        "possibleWrongThinking": "随意凑写",
+        "knowledgePoint": "守恒"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.02",
+    "sourceModelId": "ADV.ion.001",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "write_ion"
+    ],
+    "knowledgePoints": [
+      "酸碱中和",
+      "离子方程式"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "稀盐酸与稀 NaOH 溶液恰好完全中和，离子方程式正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "H⁺ + OH⁻ = H₂O"
+      },
+      {
+        "key": "B",
+        "text": "HCl + NaOH = NaCl + H₂O"
+      },
+      {
+        "key": "C",
+        "text": "H⁺ + Cl⁻ + Na⁺ + OH⁻ = Na⁺ + Cl⁻ + H₂O"
+      },
+      {
+        "key": "D",
+        "text": "2H⁺ + OH⁻ = H₂O + H⁺"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "强酸强碱中和实质是 H⁺ 与 OH⁻ 结合",
+    "conditionAnalysis": [
+      "恰好完全"
+    ],
+    "steps": [
+      "拆强电解质",
+      "删旁观得 A"
+    ],
+    "coreMethod": "实质离子反应",
+    "commonMistakes": [
+      "写分子式",
+      "写完全离子式当答案"
+    ],
+    "similarFeatures": [
+      "中和离子式"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "neutralization_ion"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "净离子式",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "中和实质"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "分子方程式",
+        "possibleWrongThinking": "未改写离子",
+        "knowledgePoint": "离子方程式"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "未删旁观",
+        "possibleWrongThinking": "完全离子式当答案",
+        "knowledgePoint": "删旁观"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "系数与物质不守恒",
+        "possibleWrongThinking": "乱配平",
+        "knowledgePoint": "守恒"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.03",
+    "sourceModelId": "ADV.ion.002",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "judge_ion"
+    ],
+    "knowledgePoints": [
+      "离子共存"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "室温下，下列各组离子在水溶液中能大量共存的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "H⁺、Cl⁻、Na⁺、NO₃⁻"
+      },
+      {
+        "key": "B",
+        "text": "Ba²⁺、SO₄²⁻、Na⁺、Cl⁻"
+      },
+      {
+        "key": "C",
+        "text": "Ag⁺、Cl⁻、K⁺、NO₃⁻"
+      },
+      {
+        "key": "D",
+        "text": "Ca²⁺、CO₃²⁻、Na⁺、Cl⁻"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "排除生成沉淀、气体或弱电解质的组合",
+    "conditionAnalysis": [
+      "无额外酸碱性/氧化还原条件"
+    ],
+    "steps": [
+      "B 生成 BaSO₄",
+      "C 生成 AgCl",
+      "D 生成 CaCO₃",
+      "A 无反应可大量共存"
+    ],
+    "coreMethod": "两两排查",
+    "commonMistakes": [
+      "漏判某一对沉淀"
+    ],
+    "similarFeatures": [
+      "四组共存判断"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "ion_coexistence"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "无沉淀气体弱电解质生成",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "共存"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "BaSO₄ 沉淀",
+        "possibleWrongThinking": "忘记钡与硫酸根",
+        "knowledgePoint": "沉淀反应"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "AgCl 沉淀",
+        "possibleWrongThinking": "忘记银与氯",
+        "knowledgePoint": "沉淀反应"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "CaCO₃ 沉淀",
+        "possibleWrongThinking": "忘记钙与碳酸根",
+        "knowledgePoint": "沉淀反应"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.04",
+    "sourceModelId": "ADV.ion.002",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "judge_ion"
+    ],
+    "knowledgePoints": [
+      "离子共存",
+      "酸性条件"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "在强酸性溶液中能大量共存的一组离子是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Na⁺、K⁺、Cl⁻、NO₃⁻"
+      },
+      {
+        "key": "B",
+        "text": "Na⁺、K⁺、CO₃²⁻、Cl⁻"
+      },
+      {
+        "key": "C",
+        "text": "Na⁺、K⁺、SO₃²⁻、Cl⁻"
+      },
+      {
+        "key": "D",
+        "text": "Na⁺、Ag⁺、Cl⁻、NO₃⁻"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "酸性下弱酸根不能大量存在",
+    "conditionAnalysis": [
+      "强酸性：大量 H⁺"
+    ],
+    "steps": [
+      "B：CO₃²⁻ 与 H⁺→CO₂",
+      "C：SO₃²⁻ 与 H⁺→SO₂",
+      "D：Ag⁺ 与 Cl⁻→AgCl",
+      "A 可共存"
+    ],
+    "coreMethod": "条件约束 + 共存排查",
+    "commonMistakes": [
+      "忽略酸性对弱酸根的影响"
+    ],
+    "similarFeatures": [
+      "指定酸碱性共存"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "acidic_coexistence"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "无弱酸根且无沉淀对",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "酸性共存"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "碳酸根与酸反应",
+        "possibleWrongThinking": "未读酸性条件",
+        "knowledgePoint": "弱酸根"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "亚硫酸根与酸反应",
+        "possibleWrongThinking": "未读酸性条件",
+        "knowledgePoint": "弱酸根"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "AgCl 沉淀",
+        "possibleWrongThinking": "只盯酸性忽略沉淀",
+        "knowledgePoint": "沉淀"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.05",
+    "sourceModelId": "ADV.ion.003",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "write_ion"
+    ],
+    "knowledgePoints": [
+      "过量",
+      "离子方程式"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "向 Na₂CO₃ 溶液中逐滴加入稀盐酸至恰好完全反应（生成 CO₂），离子方程式正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "CO₃²⁻ + 2H⁺ = CO₂↑ + H₂O"
+      },
+      {
+        "key": "B",
+        "text": "CO₃²⁻ + H⁺ = HCO₃⁻"
+      },
+      {
+        "key": "C",
+        "text": "Na₂CO₃ + 2HCl = 2NaCl + CO₂↑ + H₂O"
+      },
+      {
+        "key": "D",
+        "text": "CO₃²⁻ + H⁺ = CO₂↑ + OH⁻"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "恰好完全生成 CO₂ 对应碳酸根与足量 H⁺",
+    "conditionAnalysis": [
+      "不是只滴少量酸的第一步"
+    ],
+    "steps": [
+      "目标产物为 CO₂",
+      "需 2H⁺",
+      "选 A"
+    ],
+    "coreMethod": "按产物阶段选离子式",
+    "commonMistakes": [
+      "选生成 HCO₃⁻ 的分步式"
+    ],
+    "similarFeatures": [
+      "碳酸盐与酸分步/完全"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "stepwise_carbonate"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "完全生成 CO₂",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "碳酸盐与酸"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "对应酸不足阶段",
+        "possibleWrongThinking": "机械记分步第一步",
+        "knowledgePoint": "用量控制"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "分子方程式",
+        "possibleWrongThinking": "未改离子",
+        "knowledgePoint": "离子方程式"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "产物与电荷均不合理",
+        "possibleWrongThinking": "随意凑写",
+        "knowledgePoint": "守恒"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.06",
+    "sourceModelId": "ADV.ion.003",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "write_ion"
+    ],
+    "knowledgePoints": [
+      "少量酸",
+      "分步"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "向足量 Na₂CO₃ 溶液中滴入少量稀盐酸（只发生第一步），离子方程式正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "CO₃²⁻ + H⁺ = HCO₃⁻"
+      },
+      {
+        "key": "B",
+        "text": "CO₃²⁻ + 2H⁺ = CO₂↑ + H₂O"
+      },
+      {
+        "key": "C",
+        "text": "Na₂CO₃ + HCl = NaHCO₃ + NaCl"
+      },
+      {
+        "key": "D",
+        "text": "HCO₃⁻ + H⁺ = CO₂↑ + H₂O"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "少量酸、足量碳酸盐→优先生成 HCO₃⁻",
+    "conditionAnalysis": [
+      "与完全反应题对比：量不同阶段不同"
+    ],
+    "steps": [
+      "酸不足",
+      "CO₃²⁻→HCO₃⁻"
+    ],
+    "coreMethod": "按相对用量选阶段",
+    "commonMistakes": [
+      "直接写产气式"
+    ],
+    "similarFeatures": [
+      "量控制分步"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "amount_controlled_ion"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "酸少量第一步",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "用量控制"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "对应酸充足",
+        "possibleWrongThinking": "忽视少量",
+        "knowledgePoint": "用量控制"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "分子方程式",
+        "possibleWrongThinking": "未离子化",
+        "knowledgePoint": "离子方程式"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "对应 HCO₃⁻ 与酸反应",
+        "possibleWrongThinking": "阶段错位",
+        "knowledgePoint": "分步反应"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.07",
+    "sourceModelId": "ADV.ion.005",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "judge_ion"
+    ],
+    "knowledgePoints": [
+      "离子方程式正误",
+      "电荷守恒",
+      "旁观离子",
+      "金属活动性"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "下列离子方程式书写正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "稀硫酸与 Ba(OH)₂ 恰好完全反应：Ba²⁺ + OH⁻ + H⁺ + SO₄²⁻ = BaSO₄↓ + H₂O"
+      },
+      {
+        "key": "B",
+        "text": "稀盐酸与 CaCO₃：CaCO₃ + 2H⁺ + 2Cl⁻ = Ca²⁺ + 2Cl⁻ + CO₂↑ + H₂O"
+      },
+      {
+        "key": "C",
+        "text": "Fe 与稀盐酸：Fe + 2H⁺ = Fe²⁺ + H₂↑"
+      },
+      {
+        "key": "D",
+        "text": "Cu 与稀盐酸：Cu + 2H⁺ = Cu²⁺ + H₂↑"
+      }
+    ],
+    "answer": "C",
+    "breakthrough": "逐项用「原子守恒 + 电荷守恒 + 反应是否真实发生 + 是否删净旁观离子」四条标准审查",
+    "conditionAnalysis": [
+      "A 写的是稀硫酸与 Ba(OH)₂ 恰好完全，正确净离子式应为 Ba²⁺+2OH⁻+2H⁺+SO₄²⁻=BaSO₄↓+2H₂O",
+      "B 中 Cl⁻ 两边相同，属于旁观离子，净离子式应删去",
+      "D 铜在金属活动性顺序中位于氢后，不能与稀盐酸置换出 H₂"
+    ],
+    "steps": [
+      "审查 A：OH⁻、H⁺、H₂O 系数均为 1，与恰好完全所需的 2OH⁻、2H⁺、2H₂O 不符，原子不守恒，故 A 错误",
+      "审查 B：CaCO₃ 难溶保留化学式正确，但 2Cl⁻ 为旁观离子应删除，故 B 错误",
+      "审查 D：Cu 不能置换稀盐酸中的 H⁺，反应不发生，故 D 错误",
+      "审查 C：Fe + 2H⁺ = Fe²⁺ + H₂↑ 原子守恒、电荷守恒（左+2=右+2），反应真实，故 C 正确"
+    ],
+    "coreMethod": "离子方程式正误四步法：守恒（原子/电荷）→ 删旁观 → 难溶/气体写法 → 核对反应事实",
+    "commonMistakes": [
+      "漏看 A 的系数错误，误以为电荷数字相等就正确",
+      "把完全离子式（含旁观离子）当成净离子方程式",
+      "记错铜与稀酸能否反应而误选 D"
+    ],
+    "similarFeatures": [
+      "四选一离子方程式正误辨析",
+      "系数错误、旁观离子、不反应金属并存"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "ion_equation_judge"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "系数错误：恰好完全时应为 2OH⁻、2H⁺、2H₂O，原子不守恒",
+        "possibleWrongThinking": "可能只核对电荷数字未核对原子个数与计量系数",
+        "knowledgePoint": "守恒与系数"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "旁观离子 Cl⁻ 未删除，不是净离子方程式",
+        "possibleWrongThinking": "可能把完全离子式误当作最终答案",
+        "knowledgePoint": "删旁观离子"
+      },
+      {
+        "key": "C",
+        "verdict": "correct",
+        "reason": "Fe+2H⁺=Fe²⁺+H₂↑ 守恒且符合反应事实",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "置换反应离子式"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "铜不能与稀盐酸反应生成 H₂",
+        "possibleWrongThinking": "可能把铜误记为氢前金属",
+        "knowledgePoint": "金属活动性"
+      }
+    ],
+    "fixNote": "enrich_solution_optionAudit",
+    "fixedAt": "2026-10-20T01:04:55.037Z"
+  },
+  {
+    "id": "S60.ion.08",
+    "sourceModelId": "ADV.ion.002",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "judge_ion"
+    ],
+    "knowledgePoints": [
+      "离子共存",
+      "碱性"
+    ],
+    "difficulty": "raise",
+    "qtype": "single",
+    "stem": "在强碱性溶液中能大量共存的一组是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Na⁺、K⁺、Cl⁻、NO₃⁻"
+      },
+      {
+        "key": "B",
+        "text": "Na⁺、K⁺、Mg²⁺、Cl⁻"
+      },
+      {
+        "key": "C",
+        "text": "Na⁺、NH₄⁺、Cl⁻、NO₃⁻"
+      },
+      {
+        "key": "D",
+        "text": "Na⁺、Al³⁺、Cl⁻、NO₃⁻"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "碱性下 Mg²⁺、Al³⁺ 沉淀；NH₄⁺ 生成 NH₃·H₂O",
+    "conditionAnalysis": [
+      "大量 OH⁻"
+    ],
+    "steps": [
+      "B、D 沉淀",
+      "C 生成弱碱",
+      "A 可共存"
+    ],
+    "coreMethod": "碱性约束共存",
+    "commonMistakes": [
+      "忽略 NH₄⁺ 与 OH⁻"
+    ],
+    "similarFeatures": [
+      "指定碱性共存"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "basic_coexistence"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "无沉淀弱电解质",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "碱性共存"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "Mg(OH)₂",
+        "possibleWrongThinking": "忘记镁离子与碱",
+        "knowledgePoint": "沉淀"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "NH₄⁺ 与 OH⁻",
+        "possibleWrongThinking": "忽略铵盐与碱",
+        "knowledgePoint": "弱电解质"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "Al(OH)₃",
+        "possibleWrongThinking": "忘记铝离子与碱",
+        "knowledgePoint": "沉淀"
+      }
+    ]
+  },
+  {
+    "id": "S60.ion.09",
+    "sourceModelId": "ADV.ion.001",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "write_ion"
+    ],
+    "knowledgePoints": [
+      "离子方程式",
+      "难溶物写法",
+      "旁观离子",
+      "碳酸盐与酸"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "向盛有足量大理石（主要成分为 CaCO₃）的烧杯中滴入少量稀盐酸，固体仍明显剩余。下列离子方程式中，同时满足「难溶物不拆开」「删除旁观离子」「符合大理石与盐酸制 CO₂ 的规范写法」要求的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "CaCO₃ + 2H⁺ = Ca²⁺ + CO₂↑ + H₂O"
+      },
+      {
+        "key": "B",
+        "text": "CO₃²⁻ + 2H⁺ = CO₂↑ + H₂O"
+      },
+      {
+        "key": "C",
+        "text": "CaCO₃ + H⁺ = Ca²⁺ + HCO₃⁻"
+      },
+      {
+        "key": "D",
+        "text": "CaCO₃ + 2H⁺ + 2Cl⁻ = Ca²⁺ + 2Cl⁻ + CO₂↑ + H₂O"
+      }
+    ],
+    "answer": "A",
+    "breakthrough": "先锁定难溶 CaCO₃ 必须写化学式；再排除拆成 CO₃²⁻、误套 HCO₃⁻ 分步模型、以及未删 Cl⁻ 的写法",
+    "conditionAnalysis": [
+      "大理石难溶，不能写成 CO₃²⁻",
+      "盐酸中的 Cl⁻ 为旁观离子",
+      "中学对固体碳酸钙与盐酸制 CO₂，离子式按 CaCO₃+2H⁺ 产气书写；C 把可溶碳酸盐“酸少量→HCO₃⁻”误套到难溶大理石"
+    ],
+    "steps": [
+      "B 将难溶盐拆成 CO₃²⁻，违反难溶物写法，排除",
+      "D 含未删除的旁观 Cl⁻，不是净离子方程式，排除",
+      "C 套用可溶碳酸盐酸少量生成 HCO₃⁻ 的模型，不符合大理石制 CO₂ 的规范情景，排除",
+      "A：难溶写 CaCO₃，酸拆为 H⁺，无旁观离子，原子与电荷守恒，符合题意"
+    ],
+    "coreMethod": "多重约束下的离子方程式选型：物态写法 × 旁观离子 × 反应情景",
+    "commonMistakes": [
+      "把可溶碳酸盐分步反应模型直接套到大理石",
+      "把难溶碳酸盐拆成离子",
+      "保留 Cl⁻ 写成完全离子式"
+    ],
+    "similarFeatures": [
+      "难溶物 + 酸制气 + 易混分步写法"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "medium",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "insoluble_in_ion_eq"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "correct",
+        "reason": "难溶不拆、无旁观、守恒，符合大理石与盐酸制 CO₂ 的规范写法",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "难溶物离子式"
+      },
+      {
+        "key": "B",
+        "verdict": "wrong",
+        "reason": "CaCO₃ 难溶不能拆成 CO₃²⁻",
+        "possibleWrongThinking": "可能误当成可溶性碳酸盐溶液",
+        "knowledgePoint": "难溶物写法"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "把可溶碳酸盐酸少量生成 HCO₃⁻ 的模型误套到难溶大理石制气",
+        "possibleWrongThinking": "可能只抓住“少量酸”而忽略物态与制气情景",
+        "knowledgePoint": "反应情景区分"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "旁观 Cl⁻ 未删",
+        "possibleWrongThinking": "可能停在完全离子式",
+        "knowledgePoint": "删旁观"
+      }
+    ],
+    "fixNote": "upgrade_to_real_challenge_amount_plus_rules",
+    "fixedAt": "2026-10-20T01:04:55.039Z"
+  },
+  {
+    "id": "S60.ion.10",
+    "sourceModelId": "ADV.ion.006",
+    "specialtyCode": "ion",
+    "categoryCodes": [
+      "judge_ion"
+    ],
+    "knowledgePoints": [
+      "电荷守恒",
+      "铁与酸反应",
+      "离子方程式正误"
+    ],
+    "difficulty": "challenge",
+    "qtype": "single",
+    "stem": "下列离子方程式中，同时满足「电荷不守恒」且「不符合铁与稀酸反应事实（应生成 Fe²⁺）」的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fe + 2H⁺ = Fe²⁺ + H₂↑"
+      },
+      {
+        "key": "B",
+        "text": "Fe + 2H⁺ = Fe³⁺ + H₂↑"
+      },
+      {
+        "key": "C",
+        "text": "2Fe³⁺ + Fe = 3Fe²⁺"
+      },
+      {
+        "key": "D",
+        "text": "Zn + 2H⁺ = Zn²⁺ + H₂↑"
+      }
+    ],
+    "answer": "B",
+    "breakthrough": "先算各式电荷，再对照铁与稀酸的真实产物价态；要同时命中两个条件",
+    "conditionAnalysis": [
+      "题干是合取条件：既要电荷不守恒，又要违背 Fe→Fe²⁺ 事实",
+      "A、D 为正确置换写法；C 电荷守恒且为常见归中反应"
+    ],
+    "steps": [
+      "A：左电荷 +2，右 +2，电荷守恒，且产物 Fe²⁺ 符合事实 → 不是本题答案",
+      "C：左 2×(+3)=+6，右 3×(+2)=+6，电荷守恒 → 不满足“电荷不守恒”",
+      "D：左 +2 右 +2，电荷守恒且反应真实 → 排除",
+      "B：左 +2，右 Fe³⁺ 为 +3，电荷不守恒；且稀酸中 Fe 被氧化为 Fe²⁺ 而非 Fe³⁺，两条件同时满足 → 选 B"
+    ],
+    "coreMethod": "合取条件筛选：电荷审计 + 反应事实双重过滤",
+    "commonMistakes": [
+      "只看到产物价态不对却忽略题干还要求电荷不守恒",
+      "误以为 C 中 Fe³⁺/Fe²⁺ 电荷不平",
+      "把正确的 A 或 D 当成错误项"
+    ],
+    "similarFeatures": [
+      "指出特定错误类型的离子方程式题"
+    ],
+    "curriculumOk": true,
+    "scienceRisk": "low",
+    "gradingFeasible": true,
+    "trainingReadyCandidate": true,
+    "capabilityTags": [
+      "charge_balance_audit"
+    ],
+    "optionAudit": [
+      {
+        "key": "A",
+        "verdict": "wrong",
+        "reason": "方程式正确：电荷守恒且产物为 Fe²⁺",
+        "possibleWrongThinking": "可能未理解题干在找错误项",
+        "knowledgePoint": "审题"
+      },
+      {
+        "key": "B",
+        "verdict": "correct",
+        "reason": "左+2右+3电荷不守恒，且 Fe³⁺ 不符合稀酸反应事实",
+        "possibleWrongThinking": null,
+        "knowledgePoint": "电荷守恒与反应事实"
+      },
+      {
+        "key": "C",
+        "verdict": "wrong",
+        "reason": "电荷守恒，不满足题干第一个条件",
+        "possibleWrongThinking": "可能对 Fe³⁺/Fe²⁺ 不熟而误判电荷",
+        "knowledgePoint": "电荷守恒"
+      },
+      {
+        "key": "D",
+        "verdict": "wrong",
+        "reason": "方程式正确",
+        "possibleWrongThinking": "随意排除",
+        "knowledgePoint": "审题"
+      }
+    ],
+    "fixNote": "upgrade_dual_condition_charge_and_fact",
+    "fixedAt": "2026-10-20T01:04:55.039Z"
+  }
+]

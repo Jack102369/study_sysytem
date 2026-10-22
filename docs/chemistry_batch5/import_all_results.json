@@ -1,0 +1,218 @@
+{
+  "startedAt": "2026-10-18T06:09:54.040Z",
+  "packs": {
+    "B5-A": {
+      "exitCode": 0,
+      "successCount": 19,
+      "failCount": 0,
+      "linkOk": 19,
+      "linkFail": 0
+    },
+    "B5-B": {
+      "exitCode": 0,
+      "successCount": 5,
+      "failCount": 0,
+      "linkOk": 5,
+      "linkFail": 0
+    },
+    "B5-C": {
+      "exitCode": 0,
+      "successCount": 9,
+      "failCount": 0,
+      "linkOk": 9,
+      "linkFail": 0
+    },
+    "B5-D": {
+      "exitCode": 0,
+      "successCount": 8,
+      "failCount": 0,
+      "linkOk": 8,
+      "linkFail": 0
+    },
+    "B5-E": {
+      "exitCode": 0,
+      "successCount": 1,
+      "failCount": 0,
+      "linkOk": 1,
+      "linkFail": 0
+    }
+  },
+  "totals": {
+    "success": 42,
+    "fail": 0,
+    "linkOk": 42,
+    "linkFail": 0
+  },
+  "codeToEntity": {
+    "exp.instrument_basic": {
+      "type": "experiment",
+      "id": "17"
+    },
+    "exp.ops_weigh": {
+      "type": "experiment",
+      "id": "18"
+    },
+    "exp.ops_dissolve": {
+      "type": "experiment",
+      "id": "19"
+    },
+    "exp.ops_filter": {
+      "type": "experiment",
+      "id": "20"
+    },
+    "exp.ops_evaporate": {
+      "type": "experiment",
+      "id": "21"
+    },
+    "exp.ops_distill": {
+      "type": "experiment",
+      "id": "22"
+    },
+    "exp.ops_extract": {
+      "type": "experiment",
+      "id": "23"
+    },
+    "exp.gas_collect_upward": {
+      "type": "experiment",
+      "id": "24"
+    },
+    "exp.gas_collect_downward": {
+      "type": "experiment",
+      "id": "25"
+    },
+    "exp.gas_collect_water": {
+      "type": "experiment",
+      "id": "26"
+    },
+    "exp.O2_prep_KMnO4": {
+      "type": "experiment",
+      "id": "27"
+    },
+    "exp.O2_prep_H2O2": {
+      "type": "experiment",
+      "id": "28"
+    },
+    "exp.H2_prep_Zn": {
+      "type": "experiment",
+      "id": "29"
+    },
+    "exp.CO2_prep_marble": {
+      "type": "experiment",
+      "id": "30"
+    },
+    "exp.check_airtight": {
+      "type": "experiment",
+      "id": "31"
+    },
+    "exp.safety_rules": {
+      "type": "experiment",
+      "id": "32"
+    },
+    "exp.ops_volumetric_flask": {
+      "type": "experiment",
+      "id": "33"
+    },
+    "exp.ops_burette": {
+      "type": "experiment",
+      "id": "34"
+    },
+    "exp.flame_test": {
+      "type": "experiment",
+      "id": "35"
+    },
+    "formula.mixed_stoich": {
+      "type": "formula",
+      "id": "13"
+    },
+    "formula.excess_reactant": {
+      "type": "formula",
+      "id": "14"
+    },
+    "formula.purity": {
+      "type": "formula",
+      "id": "15"
+    },
+    "formula.ion_conc": {
+      "type": "formula",
+      "id": "16"
+    },
+    "formula.rate_v": {
+      "type": "formula",
+      "id": "17"
+    },
+    "kp.calc.stoich": {
+      "type": "knowledge",
+      "id": "55"
+    },
+    "kp.calc.excess": {
+      "type": "knowledge",
+      "id": "56"
+    },
+    "kp.calc.gas": {
+      "type": "knowledge",
+      "id": "57"
+    },
+    "kp.calc.solution": {
+      "type": "knowledge",
+      "id": "58"
+    },
+    "kp.exp.design": {
+      "type": "knowledge",
+      "id": "59"
+    },
+    "kp.exp.error": {
+      "type": "knowledge",
+      "id": "60"
+    },
+    "kp.exp.gas_wash_dry": {
+      "type": "knowledge",
+      "id": "61"
+    },
+    "kp.rate.factors": {
+      "type": "knowledge",
+      "id": "62"
+    },
+    "kp.extent.le_chatelier_basic": {
+      "type": "knowledge",
+      "id": "63"
+    },
+    "q.calc.amount_basic": {
+      "type": "question",
+      "id": "2"
+    },
+    "q.calc.concentration": {
+      "type": "question",
+      "id": "3"
+    },
+    "q.calc.equation": {
+      "type": "question",
+      "id": "4"
+    },
+    "q.calc.excess": {
+      "type": "question",
+      "id": "5"
+    },
+    "q.exp.instrument": {
+      "type": "question",
+      "id": "6"
+    },
+    "q.exp.gas_collect": {
+      "type": "question",
+      "id": "7"
+    },
+    "q.exp.safety": {
+      "type": "question",
+      "id": "8"
+    },
+    "q.eq.balance": {
+      "type": "question",
+      "id": "9"
+    },
+    "concept.reversible": {
+      "type": "concept",
+      "id": "26"
+    }
+  },
+  "failures": [],
+  "finishedAt": "2026-10-18T06:12:33.185Z"
+}

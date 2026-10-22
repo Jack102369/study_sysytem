@@ -1,0 +1,313 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "dhm@189.cn",
+      "nickname": "测试用户",
+      "role": "USER",
+      "is_disabled": false
+    },
+    {
+      "id": "2",
+      "email": "admin@189.cn",
+      "nickname": "adu",
+      "role": "ADMIN",
+      "is_disabled": false
+    }
+  ],
+  "granted": [
+    {
+      "id": "1",
+      "email": "dhm@189.cn",
+      "nickname": "测试用户"
+    }
+  ],
+  "grants": [
+    {
+      "user_id": 1,
+      "email": "dhm@189.cn",
+      "nickname": "测试用户",
+      "role": "USER",
+      "note": "personal_chem_ai_trial_open_2026-10-19"
+    }
+  ],
+  "remainingTotal": 578,
+  "activeItems": 574,
+  "personalTrainable": 574,
+  "trialBlockOrInactive": 4,
+  "fillerRemaining": 3,
+  "sessions": 8,
+  "sessionItems": 27,
+  "specialtiesTotal": 12,
+  "specialtiesWithTrainable": 12,
+  "categoriesTotal": 137,
+  "categoriesWithTrainable": 34,
+  "bySpecialty": [
+    {
+      "code": "equation",
+      "name": "化学方程式",
+      "n": 218
+    },
+    {
+      "code": "experiment",
+      "name": "化学实验",
+      "n": 7
+    },
+    {
+      "code": "substance",
+      "name": "化学物质性质",
+      "n": 92
+    },
+    {
+      "code": "calculation",
+      "name": "化学计算",
+      "n": 8
+    },
+    {
+      "code": "ion",
+      "name": "离子反应",
+      "n": 18
+    },
+    {
+      "code": "redox",
+      "name": "氧化还原反应",
+      "n": 111
+    },
+    {
+      "code": "periodic",
+      "name": "元素周期表",
+      "n": 21
+    },
+    {
+      "code": "structure",
+      "name": "物质结构",
+      "n": 3
+    },
+    {
+      "code": "organic",
+      "name": "有机化学",
+      "n": 6
+    },
+    {
+      "code": "inference",
+      "name": "化学推断",
+      "n": 2
+    },
+    {
+      "code": "memory",
+      "name": "化学基础记忆",
+      "n": 68
+    },
+    {
+      "code": "comprehensive",
+      "name": "化学综合训练",
+      "n": 20
+    }
+  ],
+  "byCategory": [
+    {
+      "specialty_code": "equation",
+      "category_code": "write_from_text",
+      "category_name": "根据文字写方程式",
+      "n": 2
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "balance",
+      "category_name": "方程式配平",
+      "n": 5
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "complete_reactant",
+      "category_name": "补全反应物",
+      "n": 1
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "complete_product",
+      "category_name": "补全生成物",
+      "n": 1
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "condition",
+      "category_name": "反应条件",
+      "n": 48
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "true_false",
+      "category_name": "方程式正误判断",
+      "n": 158
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "ionic_write",
+      "category_name": "离子方程式书写",
+      "n": 1
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "ionic_correct",
+      "category_name": "离子方程式纠错",
+      "n": 1
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "redox_analysis",
+      "category_name": "氧化还原分析",
+      "n": 1
+    },
+    {
+      "specialty_code": "experiment",
+      "category_code": "safety",
+      "category_name": "实验安全",
+      "n": 7
+    },
+    {
+      "specialty_code": "substance",
+      "category_code": "name",
+      "category_name": "物质名称",
+      "n": 2
+    },
+    {
+      "specialty_code": "substance",
+      "category_code": "formula",
+      "category_name": "化学式",
+      "n": 49
+    },
+    {
+      "specialty_code": "substance",
+      "category_code": "color",
+      "category_name": "物质颜色",
+      "n": 5
+    },
+    {
+      "specialty_code": "substance",
+      "category_code": "chem_property",
+      "category_name": "化学性质",
+      "n": 11
+    },
+    {
+      "specialty_code": "substance",
+      "category_code": "test",
+      "category_name": "物质检验",
+      "n": 1
+    },
+    {
+      "specialty_code": "substance",
+      "category_code": "usage",
+      "category_name": "物质用途",
+      "n": 24
+    },
+    {
+      "specialty_code": "calculation",
+      "category_code": "amount",
+      "category_name": "物质的量",
+      "n": 6
+    },
+    {
+      "specialty_code": "calculation",
+      "category_code": "molar_volume",
+      "category_name": "气体摩尔体积",
+      "n": 1
+    },
+    {
+      "specialty_code": "calculation",
+      "category_code": "concentration",
+      "category_name": "物质的量浓度",
+      "n": 1
+    },
+    {
+      "specialty_code": "ion",
+      "category_code": "electrolyte",
+      "category_name": "电解质判断",
+      "n": 17
+    },
+    {
+      "specialty_code": "ion",
+      "category_code": "nonelectrolyte",
+      "category_name": "非电解质判断",
+      "n": 1
+    },
+    {
+      "specialty_code": "redox",
+      "category_code": "identify",
+      "category_name": "氧化还原反应识别",
+      "n": 41
+    },
+    {
+      "specialty_code": "redox",
+      "category_code": "oxidant",
+      "category_name": "氧化剂判断",
+      "n": 30
+    },
+    {
+      "specialty_code": "redox",
+      "category_code": "reductant",
+      "category_name": "还原剂判断",
+      "n": 30
+    },
+    {
+      "specialty_code": "redox",
+      "category_code": "e_conserve",
+      "category_name": "电子守恒",
+      "n": 10
+    },
+    {
+      "specialty_code": "periodic",
+      "category_code": "elem_name",
+      "category_name": "元素名称",
+      "n": 21
+    },
+    {
+      "specialty_code": "structure",
+      "category_code": "atom_compose",
+      "category_name": "原子组成",
+      "n": 3
+    },
+    {
+      "specialty_code": "organic",
+      "category_code": "basic",
+      "category_name": "有机物基础概念",
+      "n": 6
+    },
+    {
+      "specialty_code": "inference",
+      "category_code": "color",
+      "category_name": "颜色推断",
+      "n": 2
+    },
+    {
+      "specialty_code": "memory",
+      "category_code": "symbol",
+      "category_name": "元素符号",
+      "n": 44
+    },
+    {
+      "specialty_code": "memory",
+      "category_code": "color",
+      "category_name": "物质颜色",
+      "n": 19
+    },
+    {
+      "specialty_code": "memory",
+      "category_code": "common_name",
+      "category_name": "物质俗称",
+      "n": 1
+    },
+    {
+      "specialty_code": "memory",
+      "category_code": "rules",
+      "category_name": "化学规律",
+      "n": 4
+    },
+    {
+      "specialty_code": "comprehensive",
+      "category_code": "basic",
+      "category_name": "基础综合",
+      "n": 20
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-18T11:46:05.355Z",
+  "skipped": false,
+  "allOk": false,
+  "checks": [
+    {
+      "id": "login",
+      "ok": false,
+      "detail": {
+        "status": 401,
+        "msg": "邮箱或密码错误"
+      }
+    }
+  ]
+}

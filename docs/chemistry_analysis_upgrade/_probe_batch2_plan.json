@@ -1,0 +1,93 @@
+{
+  "riskItems": [
+    {
+      "id": 215,
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.calc.solution",
+      "stem": "【AI试运行】下列说法正确：V用溶剂体积。判断正误。",
+      "options_json": null,
+      "answer": "错误",
+      "analysis": "来源 kp.calc.solution 「易错」标注，考查易错点辨析",
+      "difficulty": 2,
+      "qtype": "judge",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.calc.solution [qa:PASS] [verify_class:none] [trial_access:allow]",
+      "is_active": 1,
+      "status": "approved",
+      "pool": "test",
+      "sp": "ion",
+      "spn": "离子反应",
+      "cat": "electrolyte",
+      "catn": "电解质判断"
+    },
+    {
+      "id": 250,
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.halogen.compare",
+      "stem": "【AI试运行】下列说法正确：递变顺序记反。判断正误。",
+      "options_json": null,
+      "answer": "错误",
+      "analysis": "来源 kp.halogen.compare 「易错」标注，考查易错点辨析",
+      "difficulty": 2,
+      "qtype": "judge",
+      "gate_note": "ai_trial phase_a template=kp_misconception_judge source=kp.halogen.compare [qa:NEEDS_VERIFICATION] [verify_class:kb_pending] [trial_access:allow]",
+      "is_active": 1,
+      "status": "approved",
+      "pool": "test",
+      "sp": "memory",
+      "spn": "化学基础记忆",
+      "cat": "rules",
+      "catn": "化学规律"
+    }
+  ],
+  "links": [
+    {
+      "item_id": 215,
+      "entity_type": "knowledge",
+      "entity_id": 58
+    },
+    {
+      "item_id": 250,
+      "entity_type": "knowledge",
+      "entity_id": 52
+    }
+  ],
+  "sources": [
+    {
+      "item_id": "215",
+      "entity_type": "knowledge",
+      "entity_id": "58",
+      "name": "溶液浓度综合",
+      "description": "物质的量浓度 c=n/V，V为溶液体积（L）。稀释：溶质n不变，c1V1=c2V2（只加水）。勿与质量分数w=m溶质/m溶液混淆；密度换算见已有公式条目。配制与定容误差见实验误差知识点。易错：V用溶剂体积；百分浓度与mol/L混用。",
+      "review_note": "[ai_trial][human_unreviewed][trial_run][source:deepseek_r1] [inv:kp.calc.solution] batch5导入 pending_review id=58"
+    },
+    {
+      "item_id": "250",
+      "entity_type": "knowledge",
+      "entity_id": "52",
+      "name": "卤族元素性质比较",
+      "description": "卤族单质氧化性大致：F2>Cl2>Br2>I2；卤化氢稳定性大致HF>HCl>HBr>HI（以课本为准）。置换：Cl2可置换Br-、I-等（题设）。深度含氧酸体系标了解，不进默认核心。易错：递变顺序记反；把含氧酸深度当必修默认。",
+      "review_note": "[ai_trial][human_unreviewed][trial_run][source:deepseek_r1] [inv:kp.halogen.compare] 深度含氧酸了解;勿超纲默认训练"
+    }
+  ],
+  "pool": {
+    "batch1Updated": 48,
+    "remainAfterExclusions": 524,
+    "sourceOnlyish": 478,
+    "wrongsItems": 9,
+    "bySp": {
+      "equation": 214,
+      "memory": 65,
+      "substance": 80,
+      "experiment": 4,
+      "redox": 105,
+      "ion": 15,
+      "calculation": 5,
+      "organic": 1,
+      "comprehensive": 11,
+      "periodic": 21,
+      "structure": 3
+    },
+    "byDiff": {
+      "1": 377,
+      "2": 147
+    }
+  }
+}

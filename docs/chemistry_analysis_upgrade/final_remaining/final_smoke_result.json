@@ -1,0 +1,166 @@
+{
+  "generatedAt": "2026-10-20T04:22:17.320Z",
+  "ok": true,
+  "checks": [
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=11 item=1"
+    },
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=12 item=2"
+    },
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=14 item=7"
+    },
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=15 item=8"
+    },
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=17 item=70"
+    },
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=24 item=30"
+    },
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=25 item=32"
+    },
+    {
+      "name": "old_snapshot_independent",
+      "pass": true,
+      "detail": "si=27 item=70"
+    },
+    {
+      "name": "batch1_sample_ok",
+      "pass": true,
+      "detail": "5/5"
+    },
+    {
+      "name": "s60_seven_section",
+      "pass": true,
+      "detail": "train.ai_trial.s60.S60.calculation.01"
+    },
+    {
+      "name": "hold_237_not_in_wl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "hold_379_not_in_wl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "hold_398_not_in_wl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "hold_415_not_in_wl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "hold_419_not_in_wl",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked_not_eligible",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "bank_has_new",
+      "pass": true,
+      "detail": "id=50"
+    },
+    {
+      "name": "create_session",
+      "pass": true,
+      "detail": "status=201"
+    },
+    {
+      "name": "session_no_blocked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "new_session_final_analysis",
+      "pass": true,
+      "detail": "item=50"
+    },
+    {
+      "name": "submit_ok",
+      "pass": true,
+      "detail": "status=201"
+    },
+    {
+      "name": "result_analysis",
+      "pass": true,
+      "detail": "【正确答案】正确\n【为什么正确】在氧化还原反应中，还原剂失去电子，氧化剂得到电子"
+    },
+    {
+      "name": "grade_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "daily_status",
+      "pass": true,
+      "detail": "cand=561"
+    },
+    {
+      "name": "daily_no_blocked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "advanced_availability",
+      "pass": true,
+      "detail": "status=400"
+    },
+    {
+      "name": "nogrant_denied",
+      "pass": true,
+      "detail": "status=403"
+    },
+    {
+      "name": "history_not_shrunk",
+      "pass": true,
+      "detail": "sess 41->43"
+    },
+    {
+      "name": "dhm_not_used",
+      "pass": true,
+      "detail": "chem_final_upd_smoke@local.test only"
+    },
+    {
+      "name": "bank_638",
+      "pass": true,
+      "detail": "638"
+    },
+    {
+      "name": "trainable_621",
+      "pass": true,
+      "detail": "621"
+    },
+    {
+      "name": "formal_0",
+      "pass": true,
+      "detail": "0"
+    }
+  ]
+}

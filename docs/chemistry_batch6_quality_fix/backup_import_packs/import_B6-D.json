@@ -1,0 +1,237 @@
+{
+  "items": [
+    {
+      "type": "concept",
+      "data": {
+        "name": "同系物",
+        "definition": "结构相似、分子组成上相差一个或若干个CH2原子团的有机物互称为同系物；同系物通式相同（如烷烃CnH2n+2）。",
+        "principle": "同系物化学性质相似，物理性质随碳原子数增加呈规律变化（教材定性认识）。",
+        "applicableConditions": "比较须结构相似且通式一致；官能团种类与数目须对应（高一常见：烷烃、烯烃等）。",
+        "judgeMethods": "看结构是否相似、组成差是否为n个CH2、通式是否相同。",
+        "examples": "CH4、C2H6、C3H8为同系物；CH2=CH2与CH3CH=CH2为同系物（烯烃）。",
+        "commonMistakes": "仅看分子式相差CH2就判同系物而忽略结构不相似；把同分异构体当成同系物。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.homolog]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "同分异构体",
+        "definition": "分子式相同、结构不同的化合物互为同分异构体。",
+        "principle": "分子式相同而原子连接方式或官能团位置等不同，导致性质可能不同。",
+        "applicableConditions": "高一以碳链异构、位置异构等基础书写为主；复杂立体异构、大量推断限默认训练。",
+        "judgeMethods": "先确认分子式相同，再比较结构是否不同；可用结构简式列举。",
+        "examples": "C4H10的正丁烷与异丁烷；乙醇与二甲醚（分子式C2H6O，了解级示例以教材为准）。",
+        "commonMistakes": "把同系物当成同分异构体；重复书写同一结构；漏写或超纲展开。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.isomer] 高一书写技能有限;复杂推断限默认训练"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "官能团初步",
+        "definition": "决定有机化合物主要化学性质的原子或原子团，叫做官能团。",
+        "principle": "相同官能团的化合物往往表现相似的化学性质；学习有机物常抓住官能团。",
+        "applicableConditions": "必修常见：碳碳双键、羟基、羧基、酯基等；深度以教材为准。",
+        "judgeMethods": "从结构简式中识别官能团，并联系典型反应（加成、酯化、酸性等）。",
+        "examples": "乙烯含碳碳双键；乙醇含羟基；乙酸含羧基；乙酸乙酯含酯基。",
+        "commonMistakes": "把碳碳单键或甲基当成官能团；混淆羟基与羧基。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.functional_group]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "取代反应",
+        "definition": "有机物分子中的某些原子或原子团被其他原子或原子团所替代的反应，叫做取代反应。",
+        "principle": "取代不是简单“丢掉”，而是一种原子/基团被另一种替代；甲烷氯代是典型例子。",
+        "applicableConditions": "烷烃光照氯代等；注意可生成多种取代产物。",
+        "judgeMethods": "看是否有原子/基团被替代，并生成相应小分子（如HCl）。",
+        "examples": "CH4与Cl2光照取代；苯的溴代等属更深层次，勿默认超纲。",
+        "commonMistakes": "把加成当成取代；把甲烷氯代写成只有一种产物。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.substitution]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "加成反应",
+        "definition": "有机物分子中不饱和键两端的原子与其他原子或原子团直接结合生成新化合物的反应，叫做加成反应。",
+        "principle": "不饱和键（如双键）断裂π键，试剂两部分分别加到不饱和碳上。",
+        "applicableConditions": "烯烃与Br2、H2、H2O等；条件因试剂而异。",
+        "judgeMethods": "不饱和键数目减少、原子利用率高、常使溴水褪色等。",
+        "examples": "乙烯与溴、乙烯加氢、乙烯水化。",
+        "commonMistakes": "与取代混淆；误以为加成一定需要光照。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.addition]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "酯化反应规律",
+        "definition": "酸与醇反应生成酯和水的反应叫做酯化反应；乙酸与乙醇酯化是典型。",
+        "principle": "教材规律：酯化时羧酸提供羟基（−OH），醇提供羟基上的氢（−H），结合成水，其余部分结合成酯；反应可逆，常用浓硫酸催化并加热。",
+        "applicableConditions": "浓硫酸、加热；可逆，注意产率与分离。",
+        "judgeMethods": "反应物为酸+醇，产物为酯+水，条件含浓硫酸加热，箭头用⇌。",
+        "examples": "CH3COOH+C2H5OH⇌CH3COOC2H5+H2O",
+        "commonMistakes": "写成不可逆；漏写浓硫酸或加热；酸醇脱水部位记反（按教材规律记忆）。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.esterification_rule]"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "吸热反应",
+        "definition": "吸收热量的化学反应叫做吸热反应。",
+        "principle": "反应热效应取决于断键吸收能量与成键放出能量的相对大小：断键吸能、成键放能；若总效果为体系从环境吸热，则为吸热。加热只是反应条件，不等于该反应一定是吸热反应。",
+        "applicableConditions": "判断依据是反应的热效应，不是是否需要加热启动。",
+        "judgeMethods": "看ΔH符号或题给“吸热/放热”；不能仅凭“需要加热”判定为吸热。",
+        "examples": "某些分解反应（题设）；以教材列举为准。",
+        "commonMistakes": "把“需要加热”等同于吸热反应；忽略断键/成键能量比较。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.endothermic] 加热≠吸热判据;断键吸能成键放能"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "放热反应",
+        "definition": "放出热量的化学反应叫做放热反应。",
+        "principle": "成键放出的总能量大于断键吸收的总能量时，反应放热。燃烧、中和等多属放热，但仍须以题设或能量数据为准。加热≠吸热，同样“能发生”也不等于放热判据。",
+        "applicableConditions": "热效应判断；可与原电池、燃烧等综合。",
+        "judgeMethods": "ΔH<0或题干明确放热；结合键能/能量图定性（教材深度）。",
+        "examples": "燃料燃烧；酸碱中和（常见）。",
+        "commonMistakes": "认为凡是燃烧以外的反应都吸热；用是否加热反推热效应。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.exothermic] 加热≠吸热判据;总热效应看相对大小"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "反应热",
+        "definition": "化学反应中放出或吸收的热量叫做反应热（概念级认识）；可用热化学方程式表示反应热与物质聚集状态的关系。",
+        "principle": "反应热与物质的聚集状态、计量数有关；燃烧热、中和热等为相关概念（了解）。定量计算深度以所用教材为准。",
+        "applicableConditions": "必修第二册概念级；复杂热量计算不作为默认高一训练。",
+        "judgeMethods": "识别热化学方程式中的ΔH与状态；区分吸热/放热符号口径（随教材）。",
+        "examples": "热化学方程式示例以教材为准；注明气、液、固状态。",
+        "commonMistakes": "忽略聚集状态；把反应热与温度变化简单等同；超纲定量。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.heat_of_reaction] 待教材核实:verifyNeeded;概念级;禁复杂定量默认训练;curriculumScope:必修第二册"
+      }
+    },
+    {
+      "type": "concept",
+      "data": {
+        "name": "加成聚合",
+        "definition": "不饱和单体通过加成的方式互相结合成为高分子化合物的反应，叫做加成聚合反应（加聚）。",
+        "principle": "如乙烯加聚生成聚乙烯：nCH2=CH2 →催化剂等→ ┄[CH2−CH2]┄n（写法随教材）。",
+        "applicableConditions": "必修了解聚合物与单体关系；不展开复杂高分子工程。",
+        "judgeMethods": "由高分子链节推断单体；单体含不饱和键。",
+        "examples": "乙烯→聚乙烯。",
+        "commonMistakes": "缩聚与加聚混淆；链节与单体写错。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.addition_polymer] 乙烯加聚示例;范围按必修了解"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch6",
+    "pack": "B6-D",
+    "inventoryCodes": [
+      "concept.homolog",
+      "concept.isomer",
+      "concept.functional_group",
+      "concept.substitution",
+      "concept.addition",
+      "concept.esterification_rule",
+      "concept.endothermic",
+      "concept.exothermic",
+      "concept.heat_of_reaction",
+      "concept.addition_polymer"
+    ],
+    "specialtyByCode": {
+      "concept.homolog": [
+        "organic"
+      ],
+      "concept.isomer": [
+        "organic"
+      ],
+      "concept.functional_group": [
+        "organic"
+      ],
+      "concept.substitution": [
+        "organic"
+      ],
+      "concept.addition": [
+        "organic"
+      ],
+      "concept.esterification_rule": [
+        "organic"
+      ],
+      "concept.endothermic": [
+        "memory",
+        "comprehensive"
+      ],
+      "concept.exothermic": [
+        "memory",
+        "comprehensive"
+      ],
+      "concept.heat_of_reaction": [
+        "comprehensive",
+        "memory"
+      ],
+      "concept.addition_polymer": [
+        "organic"
+      ]
+    },
+    "categoryByCode": {
+      "concept.homolog": [
+        "organic.homolog",
+        "organic.isomer"
+      ],
+      "concept.isomer": [
+        "organic.homolog",
+        "organic.isomer"
+      ],
+      "concept.functional_group": [
+        "organic.homolog",
+        "organic.isomer"
+      ],
+      "concept.substitution": [
+        "organic.homolog",
+        "organic.isomer"
+      ],
+      "concept.addition": [
+        "organic.homolog",
+        "organic.isomer"
+      ],
+      "concept.esterification_rule": [
+        "organic.homolog",
+        "organic.isomer"
+      ],
+      "concept.endothermic": [
+        "memory.rules",
+        "comprehensive.basic"
+      ],
+      "concept.exothermic": [
+        "memory.rules",
+        "comprehensive.basic"
+      ],
+      "concept.heat_of_reaction": [
+        "comprehensive.basic",
+        "memory.rules"
+      ],
+      "concept.addition_polymer": [
+        "organic.addition",
+        "organic.basic"
+      ]
+    }
+  }
+}

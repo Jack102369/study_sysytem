@@ -1,0 +1,153 @@
+{
+  "appliedAt": "2026-10-18T05:45:06.498Z",
+  "appliedCount": 74,
+  "applied": [
+    "sub.Cl2",
+    "sub.HCl",
+    "sub.HCl_aq",
+    "sub.HClO",
+    "sub.NaClO",
+    "sub.S",
+    "sub.SO2",
+    "sub.SO3",
+    "sub.H2SO4",
+    "sub.H2SO3",
+    "sub.N2",
+    "sub.NH3",
+    "sub.NO",
+    "sub.NO2",
+    "sub.HNO3",
+    "sub.C",
+    "sub.CO",
+    "sub.Si",
+    "sub.SiO2",
+    "sub.Na2SiO3",
+    "sub.P",
+    "sub.P4O10",
+    "sub.H2S",
+    "sub.CaCO3",
+    "sub.CaOH2",
+    "sub.Br2",
+    "sub.I2",
+    "sub.bleaching_powder",
+    "rxn.H2_Cl2",
+    "rxn.2Na_Cl2",
+    "rxn.2Fe_3Cl2",
+    "rxn.Cl2_H2O",
+    "rxn.Cl2_2NaOH",
+    "rxn.MnO2_4HCl",
+    "rxn.S_O2",
+    "rxn.2SO2_O2",
+    "rxn.SO3_H2O",
+    "rxn.Cu_2H2SO4",
+    "rxn.C_2H2SO4",
+    "rxn.N2_3H2",
+    "rxn.NH3_HCl",
+    "rxn.4NH3_5O2",
+    "rxn.2NO_O2",
+    "rxn.3NO2_H2O",
+    "rxn.Cu_4HNO3",
+    "rxn.Cu_4HNO3c",
+    "rxn.C_O2_incomplete",
+    "rxn.C_O2_complete",
+    "rxn.CO2_CaOH2",
+    "rxn.SiO2_2NaOH",
+    "rxn.SiO2_2C",
+    "rxn.CaCO3_2HCl",
+    "rxn.NH4Cl_NaOH",
+    "exp.Cl2_prep",
+    "exp.Cl2_property",
+    "exp.HCl_prep",
+    "exp.SO2_property",
+    "exp.NH3_prep",
+    "exp.HNO3_Cu",
+    "exp.CO2_property",
+    "exp.SiO2_glass",
+    "kp.Cl.property",
+    "kp.Cl.prep",
+    "kp.S.oxide",
+    "kp.N.cycle",
+    "kp.N.ammonia",
+    "kp.C.oxide",
+    "kp.Si.property",
+    "kp.nonmetal.test",
+    "kp.S.conc_H2SO4",
+    "kp.N.ammonium",
+    "kp.halogen.compare",
+    "kp.N.synth_ammonia",
+    "kp.Cl.bleach"
+  ],
+  "counts": {
+    "sub_n": 28,
+    "rxn_n": 25,
+    "exp_n": 8,
+    "kp_n": 13
+  },
+  "samples": {
+    "SO3_H2O": {
+      "id": 42,
+      "conditions": "常温；反应放热剧烈",
+      "train_types": "equation.write_from_text,equation.balance",
+      "review_note": "[inv:rxn.SO3_H2O] B4整改:非氧化还原;specialty去redox",
+      "specs": "equation,substance"
+    },
+    "Cl2_2NaOH": {
+      "id": 38,
+      "conditions": "本条仅适用：常温、冷的稀NaOH溶液。禁止无条件套用。热的浓碱另有反应（如可生成氯酸盐等），产物不同，不得与本式混用。",
+      "principle": "冷稀碱下歧化：氧化剂=还原剂=Cl2；氧化产物NaClO，还原产物NaCl。热浓碱条件禁止套用本结论。",
+      "review_note": "[inv:rxn.Cl2_2NaOH] 必须带冷/稀条件;禁无条件碱反应填空;热浓碱另产物"
+    },
+    "bleaching_powder": {
+      "id": 61,
+      "physical_props": "工业产品为混合物，不是严格唯一组成的纯净物；教材常简化表述。",
+      "chemical_props": "由氯气与石灰乳反应制得（了解）。有效成分常表述为次氯酸钙Ca(ClO)2（以所用教材为准）；另含氯化钙等。有效成分具氧化漂白性；久置失效（了解）。精确主要成分/组成比不得写成唯一绝对答案。",
+      "review_note": "[inv:sub.bleaching_powder] 待核实:教材成分口径;混合物;禁精确组成绝对填空;excludeDefaultCompositionFill",
+      "status": "pending_review"
+    }
+  },
+  "fiveCheck": [
+    {
+      "code": "rxn.SO3_H2O",
+      "specs": [
+        "equation",
+        "substance"
+      ],
+      "hasRedox": false
+    },
+    {
+      "code": "rxn.NH3_HCl",
+      "specs": [
+        "equation",
+        "substance"
+      ],
+      "hasRedox": false
+    },
+    {
+      "code": "rxn.CO2_CaOH2",
+      "specs": [
+        "equation",
+        "substance",
+        "ion"
+      ],
+      "hasRedox": false
+    },
+    {
+      "code": "rxn.SiO2_2NaOH",
+      "specs": [
+        "equation",
+        "substance"
+      ],
+      "hasRedox": false
+    },
+    {
+      "code": "rxn.CaCO3_2HCl",
+      "specs": [
+        "equation",
+        "substance",
+        "ion"
+      ],
+      "hasRedox": false
+    }
+  ],
+  "linkUnresolved": []
+}

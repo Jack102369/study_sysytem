@@ -1,0 +1,130 @@
+{
+  "ok": true,
+  "total": 24,
+  "passed": 24,
+  "failed": 0,
+  "email": "chem_learning_home_smoke@local.test",
+  "today": "2026-10-20",
+  "results": [
+    {
+      "name": "learning_home_200",
+      "pass": true,
+      "detail": "status=200"
+    },
+    {
+      "name": "timezone_shanghai",
+      "pass": true,
+      "detail": "Asia/Shanghai"
+    },
+    {
+      "name": "today_matches",
+      "pass": true,
+      "detail": "2026-10-20 vs 2026-10-20"
+    },
+    {
+      "name": "daily_phase_not_started",
+      "pass": true,
+      "detail": "not_started"
+    },
+    {
+      "name": "mastered_label_current",
+      "pass": true,
+      "detail": "当前已掌握错题"
+    },
+    {
+      "name": "task_order_suggested",
+      "pass": true,
+      "detail": "[\"daily\",\"wrong_review\",\"wrong_variation\",\"advanced\"]"
+    },
+    {
+      "name": "daily_phase_in_progress",
+      "pass": true,
+      "detail": "{\"phase\":\"in_progress\",\"sid\":\"80\",\"expect\":\"80\"}"
+    },
+    {
+      "name": "daily_phase_completed",
+      "pass": true,
+      "detail": "{\"phase\":\"completed\",\"once\":true}"
+    },
+    {
+      "name": "daily_can_train_again",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "due_today_list_ok",
+      "pass": true,
+      "detail": "status=200"
+    },
+    {
+      "name": "due_today_contains_open_wrong",
+      "pass": true,
+      "detail": "[\"1\",\"2\"]"
+    },
+    {
+      "name": "home_due_count_positive",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "name": "practiced_excludes_unanswered",
+      "pass": true,
+      "detail": "{\"submittedSessions\":3,\"practicedItems\":4,\"gradedItems\":3,\"correctCount\":1,\"wrongCount\":2,\"pendingReviewCount\":1,\"accuracyPercent\":33.3,\"note\":\"仅统计已提交会话；正确率分母=明确 correct+wrong；pending_review 不计入正确率\"}"
+    },
+    {
+      "name": "accuracy_excludes_pending",
+      "pass": true,
+      "detail": "{\"at\":{\"submittedSessions\":3,\"practicedItems\":4,\"gradedItems\":3,\"correctCount\":1,\"wrongCount\":2,\"pendingReviewCount\":1,\"accuracyPercent\":33.3,\"note\":\"仅统计已提交会话；正确率分母=明确 correct+wrong；pending_review 不计入正确率\"},\"expectAcc\":33.3}"
+    },
+    {
+      "name": "activity7d_has_window",
+      "pass": true,
+      "detail": "2026-10-14~2026-10-20"
+    },
+    {
+      "name": "new_wrong_by_first_wrong_at",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "name": "recommend_object",
+      "pass": true,
+      "detail": "{\"specialtyCode\":\"equation\",\"specialtyName\":\"化学方程式\",\"difficultyMode\":\"raise\",\"raiseCount\":71,\"challengeCount\":0,\"availableCount\":71,\"poolMode\":\"test\",\"reason\":\"近期该专项明确错误较多（错题/统计），且存在可训练的提高/挑战题\",\"defaultCountHint\":5,\"shortfallHint\":null,\"path\":\"/chemistry/advanced?specialty=equation&mode=raise\",\"emptyHint\":null}"
+    },
+    {
+      "name": "recommend_count_matches_availability",
+      "pass": true,
+      "detail": "{\"rec\":71,\"avail\":71,\"path\":\"/chemistry/advanced?specialty=equation&mode=raise\"}"
+    },
+    {
+      "name": "recommend_path_has_query",
+      "pass": true,
+      "detail": "/chemistry/advanced?specialty=equation&mode=raise"
+    },
+    {
+      "name": "isolation_other_due_zero_or_independent",
+      "pass": true,
+      "detail": "{\"due\":0,\"sessions\":0}"
+    },
+    {
+      "name": "no_touch_dhm_recent_sessions",
+      "pass": true,
+      "detail": "checked_no_writes_assumed"
+    },
+    {
+      "name": "daily_status_alive",
+      "pass": true,
+      "detail": "status=200"
+    },
+    {
+      "name": "advanced_availability_alive",
+      "pass": true,
+      "detail": "status=200"
+    },
+    {
+      "name": "wrong_summary_alive",
+      "pass": true,
+      "detail": "status=200"
+    }
+  ]
+}

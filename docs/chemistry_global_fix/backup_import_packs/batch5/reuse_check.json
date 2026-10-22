@@ -1,0 +1,7 @@
+{
+  "checkedAt": "2026-10-18T05:59:14.003Z",
+  "planned": 42,
+  "dbHits": [],
+  "reuseCount": 0,
+  "note": "reuseCount>0 means skip create or link existing; Batch5 expected 0 before first import"
+}

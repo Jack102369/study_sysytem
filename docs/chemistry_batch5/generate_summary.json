@@ -1,0 +1,14 @@
+{
+  "planned": 42,
+  "seeded": 0,
+  "toImport": 42,
+  "packs": {
+    "B5-A": 19,
+    "B5-B": 5,
+    "B5-C": 9,
+    "B5-D": 8,
+    "B5-E": 1
+  },
+  "productNote": "experiment specialty = paper-based Q training only; no hands-on / lab booking / virtual lab",
+  "generatedAt": "2026-10-18T08:49:10.978Z"
+}

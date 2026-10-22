@@ -1,0 +1,21 @@
+{
+  "startedAt": "2026-10-18T12:25:16.246Z",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com",
+  "apiCalls": 240,
+  "apiSuccess": 240,
+  "apiFail": 0,
+  "retries": 0,
+  "events": [],
+  "note": "API key redacted; READ-ONLY review",
+  "finishedAt": "2026-10-18T12:37:53.594Z",
+  "updatedAt": "2026-10-18T12:37:53.604Z",
+  "doneFinal": 239,
+  "generatedAt": "2026-10-18T12:47:13.505Z",
+  "finalCounts": {
+    "READY_FOR_HUMAN_APPROVAL": 119,
+    "NEEDS_FIX": 11,
+    "NEEDS_VERIFICATION": 109
+  },
+  "incompleteRounds": []
+}

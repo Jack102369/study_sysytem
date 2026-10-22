@@ -1,0 +1,71 @@
+{
+  "recheckedAt": "2026-10-18T05:12:53.312Z",
+  "spotChecks": [
+    {
+      "code": "concept.alloy",
+      "ok": true,
+      "note": "P0已修"
+    },
+    {
+      "code": "rxn.4Al_3O2",
+      "ok": true,
+      "note": "条件分述"
+    },
+    {
+      "code": "rxn.FeOH2_O2",
+      "ok": true,
+      "note": "还原产物口径+排除redox.identify"
+    },
+    {
+      "code": "rxn.2Na_2HCl",
+      "ok": true,
+      "note": "安全+训练限制"
+    },
+    {
+      "code": "kp.Na.property",
+      "ok": true,
+      "note": "分条件性质"
+    },
+    {
+      "code": "kp.Fe.fe2_fe3",
+      "ok": true,
+      "note": "核心/了解剂分离"
+    }
+  ],
+  "spotFail": 0,
+  "autoPassEstimate": 79,
+  "needModifyEstimate": 0,
+  "needHumanVerifyEstimate": 12,
+  "suspectedOutOfScopeEstimate": 0,
+  "p0Remaining": 0,
+  "p1RemainingEstimate": 8,
+  "p2RemainingEstimate": 0,
+  "p3PolishOptional": true,
+  "remainingVerify": [
+    "sub.NaAlO2",
+    "sub.Al2O3",
+    "sub.AlOH3",
+    "rxn.2Al_2NaOH",
+    "rxn.Al2O3_2NaOH",
+    "rxn.AlOH3_NaOH",
+    "rxn.NaOH_CO2",
+    "sub.FeO",
+    "kp.metal.pig_iron",
+    "kp.metal.steel",
+    "kp.Al.salt_aluminate",
+    "exp.Fe3_SCN"
+  ],
+  "contentHasAlloyFix": true,
+  "verdicts": {
+    "通过": 79,
+    "需要修改": 0,
+    "需要人工核实": 12,
+    "疑似超纲": 0
+  },
+  "severity": {
+    "P0": 0,
+    "P1": 8,
+    "P2": 0,
+    "P3": 0
+  }
+}

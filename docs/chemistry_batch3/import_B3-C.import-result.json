@@ -1,0 +1,64 @@
+{
+  "successCount": 7,
+  "failCount": 0,
+  "linkOk": 7,
+  "linkFail": 0,
+  "results": [
+    {
+      "index": 0,
+      "type": "experiment",
+      "ok": true,
+      "id": "2",
+      "inventoryCode": "exp.Na_O2",
+      "errors": []
+    },
+    {
+      "index": 1,
+      "type": "experiment",
+      "ok": true,
+      "id": "3",
+      "inventoryCode": "exp.Na2O2_H2O",
+      "errors": []
+    },
+    {
+      "index": 2,
+      "type": "experiment",
+      "ok": true,
+      "id": "4",
+      "inventoryCode": "exp.Al_amphoteric",
+      "errors": []
+    },
+    {
+      "index": 3,
+      "type": "experiment",
+      "ok": true,
+      "id": "5",
+      "inventoryCode": "exp.Fe_rust",
+      "errors": []
+    },
+    {
+      "index": 4,
+      "type": "experiment",
+      "ok": true,
+      "id": "6",
+      "inventoryCode": "exp.metal_activity",
+      "errors": []
+    },
+    {
+      "index": 5,
+      "type": "experiment",
+      "ok": true,
+      "id": "7",
+      "inventoryCode": "exp.CuO_H2_reduce",
+      "errors": []
+    },
+    {
+      "index": 6,
+      "type": "experiment",
+      "ok": true,
+      "id": "8",
+      "inventoryCode": "exp.Fe3_SCN",
+      "errors": []
+    }
+  ]
+}

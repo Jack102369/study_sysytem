@@ -1,0 +1,6105 @@
+{
+  "generatedAt": "2026-10-18T12:47:13.505Z",
+  "count": 109,
+  "items": [
+    {
+      "code": "el.Be",
+      "type": "element",
+      "name": "铍",
+      "batch": "batch2",
+      "dbId": "7",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"memory\",\"periodic\",\"structure\"]",
+          "issue": "structure 专项无对应内容支撑，属机械挂靠",
+          "fixHint": "移除 structure，或补充电子排布/周期表位置等结构字段后再挂",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "curriculumScopeHint",
+          "original": "null",
+          "issue": "未标注范围，铍属碱土金属，高一必修仅在元素周期表/金属活动性中泛提及，复杂性质属了解",
+          "fixHint": "标注 familiar，仅保留符号、名称、原子序数、周期表位置等基础记忆",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "el.B",
+      "type": "element",
+      "name": "硼",
+      "batch": "batch2",
+      "dbId": "8",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"memory\",\"periodic\",\"structure\"]",
+          "issue": "structure 专项无对应内容支撑，属机械挂靠",
+          "fixHint": "移除 structure，或补充电子排布/周期表位置等结构字段后再挂",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "curriculumScopeHint",
+          "original": "null",
+          "issue": "未标注范围，硼为非金属，高一必修仅在元素周期表/周期律中泛提及，硼酸/硼砂等性质属了解或超范围",
+          "fixHint": "标注 familiar，仅保留符号、名称、原子序数、周期表位置等基础记忆",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "el.N",
+      "type": "element",
+      "name": "氮",
+      "batch": "batch2",
+      "dbId": "10",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "dbReviewNote",
+          "original": "B2整改:补常见化合价+1,+3",
+          "issue": "氮常见化合价表述不严谨：氮的常见价态包括 -3、0、+1、+2、+3、+4、+5，仅列 +1、+3 易误导；若该字段用于出题标准答案会引发歧义",
+          "fixHint": "改为完整列举或明确限定语境（如某类化合物中），避免作为唯一标准答案",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "el.Si",
+      "type": "element",
+      "name": "硅",
+      "batch": "batch2",
+      "dbId": "15",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P3",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "memory, periodic, structure",
+          "issue": "硅属于高一必修常见元素（无机非金属材料、半导体），符号/名称/原子序数记忆与周期表位置属核心；但 specialties 中 structure 若指原子结构细节（如具体电子排布、晶体结构）可能超出必修要求，需确认挂靠粒度",
+          "fixHint": "保留 memory/periodic；structure 仅限周期表位置与原子序数层面，勿扩展到晶体结构",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "el.P",
+      "type": "element",
+      "name": "磷",
+      "batch": "batch2",
+      "dbId": "16",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P3",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "memory, periodic, structure",
+          "issue": "磷的符号/名称/原子序数属核心；structure 若涉及同素异形体（白磷/红磷）结构细节可能超必修，需限定粒度",
+          "fixHint": "structure 仅限周期表位置与原子序数；同素异形体仅作了解性提及",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "el.S",
+      "type": "element",
+      "name": "硫",
+      "batch": "batch2",
+      "dbId": "17",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P3",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "memory, periodic, structure",
+          "issue": "元素条目挂 structure 专项偏宽泛，硫的原子结构（16号、第三周期VIA族）属基础记忆，但 structure 专项若指向电子排布/杂化等则超范围；需确认 structure 专项定义边界",
+          "fixHint": "确认 structure 专项是否仅指原子结构示意/周期表位置；若是则保留，若含电子排布式/轨道则移除",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.99
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "el.K",
+      "type": "element",
+      "name": "钾",
+      "batch": "batch2",
+      "dbId": "19",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P3",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "memory, periodic, structure",
+          "issue": "structure 专项对元素条目偏宽泛，钾的原子结构（19号、第四周期IA族）基础记忆可，但若涉及电子排布式则超必修核心",
+          "fixHint": "确认 structure 专项边界，仅保留原子结构示意/周期表位置类",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.99
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "el.I",
+      "type": "element",
+      "name": "碘",
+      "batch": "batch2",
+      "dbId": "26",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"memory\",\"periodic\",\"structure\"]",
+          "issue": "structure 专项缺乏对应字段与内容支撑，属机械挂靠",
+          "fixHint": "移除 structure，或补充电子排布/结构相关字段后再挂靠",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "dbReviewNote",
+          "original": "范围:I2/-1/淀粉变蓝可用；复杂正价=拓展，不进默认基础训练",
+          "issue": "备注含拓展内容（复杂正价）但未在字段中体现，自动出题若引用备注易超范围",
+          "fixHint": "将拓展内容显式标注为 extension 并禁止默认出题引用",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.72
+      }
+    },
+    {
+      "code": "el.Mn",
+      "type": "element",
+      "name": "锰",
+      "batch": "batch2",
+      "dbId": "27",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"memory\",\"periodic\",\"structure\"]",
+          "issue": "structure 专项无对应内容支撑，机械挂靠",
+          "fixHint": "移除 structure 或补充结构数据",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "dbReviewNote",
+          "original": "[inv:el.Mn]",
+          "issue": "备注为空，未说明锰在高一的范围定位（锰及化合物多为拓展/选择性必修，元素符号与原子序数属了解层面），范围依据不足",
+          "fixHint": "补充范围说明：符号/原子序数/名称属了解，锰的化合物性质属拓展，不进默认基础训练",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "NEED_VERIFY_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.6
+      }
+    },
+    {
+      "code": "el.Cr",
+      "type": "element",
+      "name": "铬",
+      "batch": "batch2",
+      "dbId": "28",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "specialties: memory, periodic, structure",
+          "issue": "structure 专项无对应 categories 支撑，且铬的原子结构（价电子排布 3d5 4s1）属选修/拓展内容，非高一必修核心",
+          "fixHint": "移除 structure 专项，或标注为拓展并禁止自动出题涉及价电子排布",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "dbReviewNote",
+          "original": "重铬酸盐不进默认高一专项训练",
+          "issue": "重铬酸盐（Cr2O7^2-）氧化还原属超范围，需在自动出题中显式禁止，避免题目涉及铬的变价反应",
+          "fixHint": "在 bannedQuestionTypes 或题目过滤规则中明确排除含 Cr(VI) 的氧化还原题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.75
+      }
+    },
+    {
+      "code": "concept.substance_class",
+      "type": "concept",
+      "name": "物质的分类",
+      "batch": "batch2",
+      "dbId": "2",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P3",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "化合物中常见氧化物、酸、碱、盐等",
+          "issue": "分类层级表述较粗，氧化物与酸碱盐并非同一层级划分标准（氧化物按组成元素，酸碱盐按组成与性质），自动出题若要求严格树状分类可能产生歧义",
+          "fixHint": "可补充说明分类标准不同，或出题时避免要求唯一层级树",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "concept.pure_mixture",
+      "type": "concept",
+      "name": "纯净物与混合物",
+      "batch": "batch2",
+      "dbId": "3",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "examples",
+          "original": "蒸馏水可视为纯净物",
+          "issue": "“可视为”表述略含糊，蒸馏水是纯净物（H2O），并非“视为”；但作为举例不构成科学错误",
+          "fixHint": "可改为“蒸馏水是纯净物”",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "examples",
+          "original": "蒸馏水可视为纯净物",
+          "issue": "“可视为”措辞模糊，纯净物与混合物的判断在教材中存在口径差异（如蒸馏水严格为纯净物，但部分题目以“含少量杂质”设陷阱），自动出题若以“可视为”为标准答案易产生判题歧义",
+          "fixHint": "改为“蒸馏水是纯净物”，并明确判断依据为是否由一种物质组成",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "各成分保持原有性质",
+          "issue": "混合物各成分“保持原有性质”表述在部分教材中为“保持各自化学性质”，措辞差异可能影响判断题标准答案",
+          "fixHint": "核对教材原文措辞，统一表述",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.93
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "concept.electrolyte",
+      "type": "concept",
+      "name": "电解质",
+      "batch": "batch2",
+      "dbId": "5",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "在水溶液中或熔融状态下能够导电的化合物叫做电解质。",
+          "issue": "定义本身正确，但未点明“自身电离而导电”这一关键限定，也未说明电解质须为化合物（如NH3、CO2水溶液导电但自身非电解质），教材表述通常含此限定；当前表述在严格审查下可能引起歧义，但不构成明确事实错误。",
+          "fixHint": "可补充“本身能电离出自由移动离子”的限定，并说明非电解质与电解质溶液导电的区别。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "definition",
+          "original": "在水溶液中或熔融状态下能够导电的化合物叫做电解质。",
+          "issue": "定义本身正确，但自动出题若涉及“导电性判断是否为电解质”易产生歧义：如NaCl固体不导电但为电解质、CO2水溶液导电但CO2非电解质、金属导电但非电解质等，需题干明确“化合物”前提。",
+          "fixHint": "出题时须明确限定“化合物”并避免以溶液导电性直接反推电解质；示例可补充CO2、NH3等非电解质易错点。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "concept.nonelectrolyte",
+      "type": "concept",
+      "name": "非电解质",
+      "batch": "batch2",
+      "dbId": "6",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "在水溶液中和熔融状态下都不能导电的化合物叫做非电解质。",
+          "issue": "定义本身与教材一致，但“都不能导电”的判据需注意：非电解质是化合物，且其水溶液和熔融态均不导电；表述未强调“化合物”这一前提在举例中已隐含，但定义中“化合物”已出现，无实质错误。",
+          "fixHint": "可补充说明：非电解质本身不能电离出自由移动的离子，故其水溶液和熔融态均不导电；注意与电解质溶液导电（溶质电离）区分。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "definition",
+          "original": "在水溶液中和熔融状态下都不能导电的化合物叫做非电解质。",
+          "issue": "定义表述基本符合教材口径，但“都不能导电”需强调是化合物本身不能电离导电，且需排除单质和混合物；自动出题若仅考定义判断，易出现“NaCl溶液不导电”等干扰歧义",
+          "fixHint": "补充“本身不能电离出自由移动离子”的限定，并明确非电解质是化合物类别",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "examples",
+          "original": "蔗糖、酒精、尿素等",
+          "issue": "举例正确，但酒精（乙醇）为混合物俗称，严格应为乙醇；教材举例口径可能不同",
+          "fixHint": "改为“蔗糖、乙醇、尿素等”",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "concept.ionic_reaction",
+      "type": "concept",
+      "name": "离子反应本质",
+      "batch": "batch2",
+      "dbId": "8",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "有离子参加的反应叫做离子反应；实质常是某些离子浓度减小（生成沉淀、气体或水等）。",
+          "issue": "“有离子参加的反应”是常见教材表述，但严格说离子反应还包括离子生成的反应（如电离）；此处作为高中定义可接受。“实质常是某些离子浓度减小”用“常”已留有余地，无明确错误。",
+          "fixHint": "可补充：离子反应也包括溶液中离子生成的反应（如电解质电离），实质是离子浓度发生改变；高中阶段常聚焦于离子浓度减小的复分解型。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "definition",
+          "original": "有离子参加的反应叫做离子反应；实质常是某些离子浓度减小（生成沉淀、气体或水等）。",
+          "issue": "“有离子参加”定义较宽，教材通常强调在溶液中或熔融状态下有离子参与；实质表述用“常是”留有余地，但自动出题若要求唯一标准答案，可能因“离子浓度减小”与“离子反应发生条件”表述差异产生判题歧义",
+          "fixHint": "明确“在溶液或熔融状态下有离子参与的反应”，实质写“某些离子浓度减小”，并注明生成沉淀、气体、弱电解质等常见情形",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "examples",
+          "original": "AgNO3与NaCl：Ag++Cl-=AgCl↓",
+          "issue": "离子方程式书写正确，但自动出题若要求写完整离子方程式，需注意电荷守恒与化学式拆分规则；该例本身无多答案问题",
+          "fixHint": "可保留，出题时明确要求写离子方程式而非化学方程式",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.93
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "concept.periodic_law",
+      "type": "concept",
+      "name": "元素周期律",
+      "batch": "batch2",
+      "dbId": "12",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P3",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "元素的性质随着原子序数的递增而呈周期性变化的规律叫做元素周期律。",
+          "issue": "定义中“元素的性质”表述较笼统，教材通常指原子半径、化合价、金属性/非金属性等具体性质的周期性变化；作为概念定义可接受，但自动出题若要求严格复述可能产生口径差异。",
+          "fixHint": "可补充“主要指原子半径、主要化合价、金属性和非金属性等”以明确范围。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "concept.nonmetal_trend",
+      "type": "concept",
+      "name": "非金属性递变",
+      "batch": "batch2",
+      "dbId": "14",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "definition",
+          "original": "同周期从左到右非金属性增强；同主族从上到下非金属性减弱（主族规律）。",
+          "issue": "规律表述本身正确，但“非金属性”强弱判断依据（电负性、单质氧化性、氢化物稳定性、最高价氧化物对应水化物酸性等）未给出，自动出题若要求判断具体物质非金属性强弱，可能因判断标准不统一产生歧义；且稀有气体是否纳入同周期递变存在教材口径差异。",
+          "fixHint": "补充非金属性强弱的判断依据，并注明同周期递变通常不讨论稀有气体；出题时避免涉及稀有气体和跨周期比较的边界情形。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "concept.solution_colloid",
+      "type": "concept",
+      "name": "溶液与胶体",
+      "batch": "batch2",
+      "dbId": "22",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "分散系按分散质粒子大小大致分为溶液、胶体、浊液；胶体粒子直径约在1–100 nm。",
+          "issue": "表述基本正确，但“浊液”通常进一步分为悬浊液和乳浊液，且溶液分散质粒子直径<1 nm、浊液>100 nm的边界未明示，作为定义条目信息略不完整。",
+          "fixHint": "可补充：溶液分散质粒子直径<1 nm，胶体1–100 nm，浊液>100 nm；浊液包括悬浊液和乳浊液。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "definition",
+          "original": "分散系按分散质粒子大小大致分为溶液、胶体、浊液；胶体粒子直径约在1–100 nm。",
+          "issue": "胶体粒子直径1–100 nm为教材常见口径，但不同版本表述略有差异（如“分散质粒子直径”与“胶体粒子直径”），且胶体本质特征（丁达尔效应）未在定义中体现，自动出题若仅考粒子大小范围可能产生版本口径争议。",
+          "fixHint": "建议在定义中补充丁达尔效应作为胶体鉴别特征，并注明粒子大小范围为教材常见口径；自动出题避免仅考精确数值边界。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.ion.ionic_eq",
+      "type": "knowledge",
+      "name": "离子方程式书写",
+      "batch": "batch2",
+      "dbId": "13",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "强电解质（易溶强酸强碱盐）拆成离子",
+          "issue": "表述略不严谨：强电解质拆写的前提是“在溶液中（或熔融状态下）能完全电离”，且并非所有强电解质都拆（如难溶强电解质沉淀在离子方程式中通常不拆）；括号内“易溶强酸强碱盐”易被误读为强电解质仅限这三类。",
+          "fixHint": "改为“易溶且完全电离的强电解质（强酸、强碱、可溶性盐）在溶液中拆成离子；难溶物、气体、弱电解质、单质、氧化物等不拆”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "边界：微溶物是否拆、酸式盐拆分、少量/过量反应产物，以题设与课本规则为准，不可僵化。",
+          "issue": "微溶物拆写、酸式盐拆分、少量/过量产物存在教材口径与版本差异，且部分反应产物不唯一，自动判题易产生歧义",
+          "fixHint": "自动出题时限定为教材明确、产物唯一的经典反应；微溶/过量类仅作书面分析或人工判题",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"ion\"]",
+          "issue": "专项仅挂 ion，未挂 redox；离子方程式书写本身非氧化还原专属，挂 ion 合理，无需挂 redox",
+          "fixHint": "保持现状，勿机械挂靠 redox",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.structure.atom",
+      "type": "knowledge",
+      "name": "原子组成与三粒子",
+      "batch": "batch2",
+      "dbId": "14",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P3",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "质量数 A = 质子数 Z + 中子数 N（定义用等号，不是近似）",
+          "issue": "表述已修正为等号并区分相对原子质量，科学上正确；仅需确认与所用教材表述一致",
+          "fixHint": "无需修改，发布前可对照教材核对符号习惯",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "kp.structure.electron_formula",
+      "type": "knowledge",
+      "name": "电子式书写",
+      "batch": "batch2",
+      "dbId": "17",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "简单阳离子（如Na⁺、Ca²⁺）一般只写离子符号不画电子；阴离子与复杂阳离子（如NH₄⁺）需按规定画出电子式并标注电荷/括号。",
+          "issue": "内容科学上正确，但“按规定”较笼统，未明确复杂阳离子电子式需加方括号并在右上角标电荷，属表述规范问题。",
+          "fixHint": "可补充：复杂阳离子和阴离子电子式一般用方括号括起，并在右上角标明电荷。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "简单阳离子（如Na⁺、Ca²⁺）一般只写离子符号不画电子；阴离子与复杂阳离子（如NH₄⁺）需按规定画出电子式",
+          "issue": "电子式书写规则存在教材版本/表述差异（如某些教材对简单阳离子是否画电子、共价化合物电子式规范细节有不同口径），自动判题易产生格式歧义",
+          "fixHint": "出题时限定教材口径，采用选择题/判断题而非开放式书写判分；避免要求自动批改复杂电子式字符串",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.93
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "kp.periodic.trend",
+      "type": "knowledge",
+      "name": "周期律递变规律",
+      "batch": "batch2",
+      "dbId": "20",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "最高正化合价与族序相关",
+          "issue": "表述较模糊；对主族元素通常为最高正价=族序数（O、F等例外），条目已限定主族教学口径，但“相关”不够精确。",
+          "fixHint": "可改为“主族元素最高正化合价一般等于族序数（O、F等例外）”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "比较方法：与水/酸反应难易、最高价氧化物对应水化物酸碱性、气态氢化物稳定性、单质氧化性等",
+          "issue": "比较金属性/非金属性的判据列举合理，但“单质氧化性”用于比较非金属性时需注意对象与条件，属表述规范问题。",
+          "fixHint": "可补充“单质氧化性比较非金属性时需在可比条件下进行”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "最高正化合价与族序相关",
+          "issue": "表述模糊，O、F无最高正价，需限定；自动出题若要求具体化合价可能歧义",
+          "fixHint": "改为“最高正价=族序数（O、F除外）”",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "单质氧化性等（限主族教学口径）",
+          "issue": "金属性/非金属性强弱比较依据多且部分为经验规律，自动出题若要求单一判据可能不唯一",
+          "fixHint": "出题时明确比较维度，避免多依据并列导致答案争议",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.93
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.memory.valence_table",
+      "type": "knowledge",
+      "name": "常见化合价速记",
+      "batch": "batch2",
+      "dbId": "24",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "N 常见−3/+2/+4/+5（及+1/+3等）",
+          "issue": "氮的常见化合价列举顺序与完整性表述略不规范：N 的常见价态通常按 −3、0、+1、+2、+3、+4、+5 系统列出，原文把 +2 放在 +1/+3 之前且用“及+1/+3等”补充，易让学生误以为 +1/+3 不常见；但所列价态本身均正确，不构成事实错误。",
+          "fixHint": "建议改为“N 常见 −3、+1、+2、+3、+4、+5（如 NH₃、N₂O、NO、N₂O₃、NO₂、HNO₃）”，并保留“含氮化合物价态需按规则计算”的提示。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "N 常见−3/+2/+4/+5（及+1/+3等）",
+          "issue": "氮的化合价列举较宽泛，+2/+4 等主要出现在 NO/NO₂ 等特定化合物中，作为“速记”易被误记为普遍价态；且未说明这些价态对应的常见物质，出题时标准答案可能不唯一",
+          "fixHint": "建议限定为“常见化合物中的价态”，并举例（如 NH₃ 中−3、NO 中+2、NO₂ 中+4、HNO₃ 中+5），或删去“及+1/+3等”模糊表述",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "O 通常−2（过氧化物中为−1）",
+          "issue": "过氧化物中氧为−1 属拓展了解内容，若自动出题涉及过氧化物可能超出高一必修核心",
+          "fixHint": "出题时避免以过氧化物为默认考点，或标注为拓展",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "kp.memory.color_table",
+      "type": "knowledge",
+      "name": "物质颜色速记",
+      "batch": "batch2",
+      "dbId": "26",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "Fe³⁺溶液黄/棕黄",
+          "issue": "Fe³⁺水合离子通常描述为棕黄色或黄色，表述可接受；但“黄/棕黄”并列略含糊，不影响科学性。",
+          "fixHint": "可统一为“棕黄色（或黄色）”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "Fe³⁺溶液黄/棕黄",
+          "issue": "Fe³⁺溶液颜色教材常描述为棕黄色或黄色，不同版本表述略有差异；作为速记表可接受，但若出题要求唯一颜色描述可能产生判题歧义",
+          "fixHint": "出题时避免要求精确颜色词，或注明“黄色/棕黄色均可”",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "MnO₄⁻紫红偏拓展，训练中宜标注了解/非默认必修表",
+          "issue": "MnO₄⁻颜色属选择性/拓展内容，若混入必修默认速记表可能超范围",
+          "fixHint": "在题目中明确标注拓展或排除于必修默认考查",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "Fe(OH)₂白色（易氧化）",
+          "issue": "颜色速记条目本身无化学错误，但“易氧化”涉及氧化还原过程，若出题延伸可能超出纯记忆范围",
+          "fixHint": "记忆题仅考颜色，不延伸氧化还原机理",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "sub.Fe2O3",
+      "type": "substance",
+      "name": "氧化铁",
+      "batch": "batch3",
+      "dbId": "17",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.chem_property, substance.formula",
+          "issue": "未标注氧化铁的化学式书写与俗名（铁红）关联，自动出式量/化学式题时需确认是否要求俗名",
+          "fixHint": "出题时明确考查化学式还是俗名，避免答案不唯一",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "color",
+          "original": "红棕色",
+          "issue": "颜色描述基本唯一，但不同教材对铁锈/氧化铁颜色表述略有差异（红棕/红褐）",
+          "fixHint": "出颜色题时以'红棕色'为准，避免与 Fe3O4 黑色混淆",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.82
+      }
+    },
+    {
+      "code": "sub.Cu",
+      "type": "substance",
+      "name": "铜",
+      "batch": "batch3",
+      "dbId": "21",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.formula",
+          "issue": "单质铜的'化学式'与元素符号 Cu 概念易混，教材口径通常称元素符号/化学式，自动出题若考'化学式'可能产生表述歧义",
+          "fixHint": "明确该字段用于元素符号记忆，出题时避免'化学式'表述歧义",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "color",
+          "original": "紫红色",
+          "issue": "铜的颜色描述在不同教材/语境下有'紫红色''红色'等差异，属描述性口径风险",
+          "fixHint": "出题时以'紫红色（或红色）金属'宽口径判分，或避免单独考颜色",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "rxn.NaHCO3_heat",
+      "type": "reaction",
+      "name": "碳酸氢钠受热分解",
+      "batch": "batch3",
+      "dbId": "9",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P3",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "species.state",
+          "original": "H2O state=g",
+          "issue": "碳酸氢钠受热分解生成的水在反应条件下通常以液态（或水蒸气）存在，教材方程式中一般不加气态符号；此处标注为 g 与常见教材写法不一致，但不影响配平与反应事实。",
+          "fixHint": "建议将 H2O 的状态改为 l（或按教材统一处理，不加状态符号）。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "species.state",
+          "original": "H2O state=g",
+          "issue": "生成的水在受热条件下为气态可接受，但教材常写为液态或气态不统一，状态标注存在版本口径差异",
+          "fixHint": "建议统一按教材口径标注H2O状态（通常写g或省略），避免判题时对状态严格匹配",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.Na2CO3_2HCl",
+      "type": "reaction",
+      "name": "碳酸钠与盐酸",
+      "batch": "batch3",
+      "dbId": "10",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P3",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "species.state",
+          "original": "Na2CO3 state=aq, HCl state=aq",
+          "issue": "碳酸钠与盐酸反应通常以溶液形式进行，标注 aq 合理；但若按教材书写，固体碳酸钠与盐酸反应也可写作 s。此处不构成科学错误。",
+          "fixHint": "可保留 aq，或按教材统一为 s（固体）与 aq（盐酸）。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "常温，酸足量",
+          "issue": "条件描述含“酸足量”，若出题未限定酸量，可能涉及Na2CO3与少量酸生成NaHCO3的分步反应，存在多产物歧义风险",
+          "fixHint": "自动出题须明确“盐酸足量/过量”，否则应避免开放式书写题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.Mg_2HCl",
+      "type": "reaction",
+      "name": "镁与盐酸",
+      "batch": "batch3",
+      "dbId": "12",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P3",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "oxidant",
+          "original": "HCl",
+          "issue": "氧化剂应为HCl中的H+（或标注HCl提供H+），整体HCl作氧化剂表述在严格氧化还原分析中略粗，但教材口径常接受",
+          "fixHint": "可保留，必要时注明氧化剂为HCl中的氢元素",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.88
+      }
+    },
+    {
+      "code": "rxn.Fe2O3_3CO",
+      "type": "reaction",
+      "name": "氧化铁与一氧化碳",
+      "batch": "batch3",
+      "dbId": "24",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "oxidant/reductant",
+          "original": "oxidant=Fe2O3, reductant=CO",
+          "issue": "严格说氧化剂是Fe2O3中的Fe3+、还原剂是CO；以Fe2O3整体标注在中学语境可接受。",
+          "fixHint": "可在解析中说明氧化剂为Fe3+。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "高温",
+          "issue": "“高温”为笼统条件，工业炼铁实际为高温，但教材中亦有写“高温”或“加热”的版本差异；自动出题若要求填写条件可能判歧义",
+          "fixHint": "条件字段保留“高温”，但自动出题避免单独考查条件文字，或允许“高温/加热”等价",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "redox.identify",
+          "issue": "该反应为氧化还原，挂靠redox合理；但需注意CO为还原剂、Fe2O3为氧化剂，产物CO2与Fe唯一，无多产物歧义",
+          "fixHint": "无需修改，确认氧化剂/还原剂标注正确",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.CuO_H2",
+      "type": "reaction",
+      "name": "氧化铜与氢气",
+      "batch": "batch3",
+      "dbId": "26",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "加热；先通H2再加热，冷却后停H2",
+          "issue": "操作顺序（先通氢后加热、冷却后停氢）属实验安全分析内容，若作为方程式条件字段混入，可能导致“写方程式”题判题歧义（条件字段过长、含操作描述）。",
+          "fixHint": "将反应条件字段规范为“△（加热）”，操作顺序另置实验分析备注字段。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "species.state",
+          "original": "H2O state=l",
+          "issue": "生成的水在加热条件下为气态，标注为液态(l)在高温反应语境下可能引起状态符号判题争议；教材通常写H2O或标(g)。",
+          "fixHint": "核对教材口径，建议状态标为g或在答案中允许不标状态。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "exp.Na_O2",
+      "type": "experiment",
+      "name": "钠在空气中燃烧",
+      "batch": "batch3",
+      "dbId": "2",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "2Na+O2=点燃=Na2O2，生成淡黄色固体",
+          "issue": "钠在空气中燃烧产物以Na2O2为主，但空气中含CO2和水蒸气，实际产物可能含少量Na2O、NaOH、Na2CO3；若题目要求“产物只有Na2O2”会产生判题歧义",
+          "fixHint": "题干应明确“在氧气中燃烧”或“主要产物”，避免绝对化表述",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "safetyNotes",
+          "original": "钠遇水剧烈反应，必须吸干煤油",
+          "issue": "实验涉及金属钠燃烧，属高危演示实验；自动出题只能做书面现象分析，不得要求学生实际动手",
+          "fixHint": "题型限定为书面分析/现象判断，禁止实验操作类题目",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "experiment.phenomenon_judge",
+          "issue": "现象判断（黄色火焰、淡黄色固体）标准答案唯一，适合自动判题；但“燃烧产物”若涉及空气成分则多答案风险",
+          "fixHint": "现象题限定为颜色/火焰描述",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "exp.metal_activity",
+      "type": "experiment",
+      "name": "金属活动性顺序实验",
+      "batch": "batch3",
+      "dbId": "6",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "活动性强的金属更易与酸反应放H2，并能从活动性较弱金属的盐溶液中置换出该金属。",
+          "issue": "表述基本正确，但“更易与酸反应”未限定为“与稀酸（非氧化性酸）反应”，且未说明K、Ca、Na等极活泼金属与盐溶液反应时先与水反应、不能直接置换盐中金属这一重要例外。",
+          "fixHint": "建议补充：比较对象为稀盐酸/稀硫酸；K、Ca、Na等极活泼金属与盐溶液反应时先与水反应，不适用于直接置换的规律。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "reagents",
+          "original": "CuSO4、AgNO3等盐溶液（按教材）",
+          "issue": "AgNO3见光易分解且成本高，教材常用CuSO4溶液；作为可选试剂无科学性错误，但未提示避光保存。",
+          "fixHint": "可注明AgNO3溶液需避光保存，或优先选用CuSO4溶液。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "reagents",
+          "original": "Mg、Zn、Fe、Cu等金属；稀盐酸或稀硫酸；CuSO4、AgNO3等盐溶液（按教材）",
+          "issue": "试剂清单含 AgNO3 等，不同教材版本选用的盐溶液不同（CuSO4/AgNO3/盐酸体系差异），且 AgNO3 成本与废液处理要求高，自动出题若指定具体试剂可能与教材口径不一致",
+          "fixHint": "出题时避免绑定具体盐溶液，或明确标注'以教材选用试剂为准'；phenomenon 判断题需给出具体金属-盐组合",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "experiment.phenomenon_judge",
+          "issue": "金属活动性比较涉及方案设计、现象判断、结论推理多环节，仅挂 phenomenon_judge 可能窄化题型；若自动出题仅按现象判断，会遗漏'能否反应'的判断歧义（如 Fe 与 CuSO4 反应现象描述多样）",
+          "fixHint": "核对 categories 是否需增加 experiment.design 或 experiment.conclusion 类；现象描述题需给出唯一标准现象",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "safetyNotes",
+          "original": "酸腐蚀；含重金属盐废液回收，禁止倾倒。",
+          "issue": "安全提示完整，但自动出题不得要求学生实际做含 AgNO3/重金属盐实验",
+          "fixHint": "实验题仅限书面分析，禁止实操型题目",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.82
+      }
+    },
+    {
+      "code": "exp.CuO_H2_reduce",
+      "type": "experiment",
+      "name": "氢气还原氧化铜",
+      "batch": "batch3",
+      "dbId": "7",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "CuO+H2=△=Cu+H2O；操作顺序强调防爆炸：先通H2排尽空气再加热，冷却后停H2。",
+          "issue": "方程式与操作顺序均正确；但“冷却后停H2”应明确为“在H2氛围中冷却至室温后再停止通H2”，以防生成的铜被空气重新氧化。",
+          "fixHint": "建议改为“反应结束后继续通H2至试管冷却至室温，再停止通H2”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "CuO+H2=△=Cu+H2O；操作顺序强调防爆炸：先通H2排尽空气再加热，冷却后停H2",
+          "issue": "操作顺序（先通气排空气、后加热；先撤灯、冷却后再停气）是高频考点，但不同教材表述细节（是否强调'继续通H2至冷却'）略有差异，自动出题若考操作顺序需以教材原文为准",
+          "fixHint": "操作顺序题给出完整情境，标准答案按主流教材（先通气排空气→加热→黑色变红→停止加热→继续通气冷却）",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "reagents",
+          "original": "氧化铜、锌粒与稀硫酸（制H2）或氢气钢瓶（教师）、干燥剂等",
+          "issue": "试剂含'氢气钢瓶（教师）'，属教师演示；自动出题不得要求学生自行制取/使用氢气，实验题仅限书面分析",
+          "fixHint": "实验题限定为现象判断、操作顺序分析、方程式书写，禁止实操要求",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "CuO+H2=△=Cu+H2O",
+          "issue": "方程式书写需注明条件△，自动判题需容忍条件标注差异（如'加热'与'△'）",
+          "fixHint": "equation 题型判题规则允许条件等价表述",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.92
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "kp.Al.amphoteric",
+      "type": "knowledge",
+      "name": "铝及其化合物的两性",
+      "batch": "batch3",
+      "dbId": "29",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "Al、Al2O3、Al(OH)3都能与强酸、强碱反应。",
+          "issue": "严格说Al本身不是“两性物质”（两性通常指既能与酸又能与碱反应生成盐和水的氧化物/氢氧化物），Al与强碱反应实质是Al先与水/碱液反应放H2并生成偏铝酸盐，属金属与碱溶液的特殊反应；表述把Al与Al2O3、Al(OH)3并列称“两性”略不严谨，但中学教材常作此归纳，不构成明确事实错误。",
+          "fixHint": "可改为“Al2O3、Al(OH)3是两性化合物；Al也能与强碱溶液反应放H2生成偏铝酸盐”，避免把Al直接定义为两性物质。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "Al与NaOH溶液反应放H2并生成偏铝酸盐",
+          "issue": "铝与强碱反应产物写法存在教材口径差异（偏铝酸盐 vs [Al(OH)4]-），且反应本质涉及氧化还原，若自动出题要求唯一产物写法可能产生判题歧义",
+          "fixHint": "在出题时明确产物书写口径或允许两种合理表达；equation题型需给出标准答案的等价判定规则",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "溶液中偏铝酸根常写[Al(OH)4]-（了解）",
+          "issue": "[Al(OH)4]-为拓展了解内容，若作为必答标准可能超出必修核心要求",
+          "fixHint": "标注为拓展了解，不作为自动出题唯一标准答案",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "kp.Fe.property",
+      "type": "knowledge",
+      "name": "铁的化学性质",
+      "batch": "batch3",
+      "dbId": "30",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P3",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "铁可与O2点燃生成Fe3O4",
+          "issue": "铁在氧气中点燃生成Fe3O4正确；但“点燃”条件对铁丝在氧气中燃烧成立，表述无误。",
+          "fixHint": "无需修改。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "与稀酸生成Fe2+盐与H2",
+          "issue": "铁与稀盐酸/稀硫酸生成Fe2+和H2正确；但铁与稀硝酸反应不生成H2而生成NO，属“稀酸”例外，描述未限定“非氧化性稀酸”，存在覆盖不全。",
+          "fixHint": "建议改为“与稀盐酸、稀硫酸等非氧化性酸反应生成Fe2+盐和H2”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "铁可与O2点燃生成Fe3O4",
+          "issue": "铁在氧气中燃烧产物为Fe3O4属教材共识，但部分版本对反应条件表述略有差异，需确认条件描述",
+          "fixHint": "出题时明确反应条件（点燃/纯氧），避免条件歧义",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.88
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.metal.activity",
+      "type": "knowledge",
+      "name": "金属活动性顺序",
+      "batch": "batch3",
+      "dbId": "31",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "金属活动性顺序可用于判断：金属与酸/水反应难易、置换反应能否发生、盐溶液中金属与离子反应方向等。",
+          "issue": "表述基本正确，但“判断置换反应能否发生”未限定为“金属与盐溶液的置换（单质与盐）”，也未提示K、Ca、Na等极活泼金属先与水反应、不能从盐溶液中置换出金属，属于关键限定缺失的边界问题。",
+          "fixHint": "补充限定：金属活动性顺序主要适用于金属单质与酸（非氧化性酸）的置换及金属单质与盐溶液的置换；K、Ca、Na等极活泼金属与盐溶液反应时先与水反应，不能直接置换出盐中的金属。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "教材常见顺序（以课本为准）：K Ca Na Mg Al Zn Fe Sn Pb (H) Cu Hg Ag Pt Au",
+          "issue": "顺序本身为教材通行口径，但不同版本对Sn/Pb等是否列入及记忆要求略有差异，描述已注明以课本为准，风险可控",
+          "fixHint": "保留以课本为准表述；自动出题避免考查Sn/Pb等边缘元素的精确位置",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "equation",
+          "issue": "若自动出题要求书写金属与盐/酸反应的化学方程式，需注意多产物（如铁与酸生成亚铁、铁与盐的置换）及条件完整性，存在判题歧义风险",
+          "fixHint": "equation题型限定为单一明确反应，给出反应物与条件，标准答案唯一",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "sub.FeOH2",
+      "type": "substance",
+      "name": "氢氧化亚铁",
+      "batch": "batch3",
+      "dbId": "30",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "color",
+          "original": "白色（初生）；空气中变为灰绿再转红褐",
+          "issue": "颜色变化描述符合教材常见表述，但未说明该氧化过程需接触氧气/空气，且“灰绿”为中间过渡色，表述可更严谨。",
+          "fixHint": "可补充：Fe(OH)2为白色沉淀，在空气中被O2氧化，颜色由白色→灰绿色→红褐色（最终生成Fe(OH)3）。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "白色（初生）；空气中变为灰绿再转红褐",
+          "issue": "颜色变化描述为教材通行口径，但灰绿为中间态、观察条件（溶解氧、时间）影响明显，自动出题若要求精确描述中间色可能产生判题歧义",
+          "fixHint": "出题聚焦白色→红褐的总体氧化趋势及防氧化原理，避免要求精确中间色描述",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "experiment",
+          "issue": "氢氧化亚铁制备涉及防氧化操作，自动出题仅可作书面实验分析，不得要求学生进行危险或需严格无氧操作的实验",
+          "fixHint": "experiment_analysis题型限定为原理与现象分析，禁止实操类题目",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.92
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.Fe.fe3_property",
+      "type": "knowledge",
+      "name": "Fe³⁺的性质",
+      "batch": "batch3",
+      "dbId": "34",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "Fe3+水溶液常呈黄至棕黄色",
+          "issue": "Fe³⁺溶液颜色教材口径有差异（黄色/棕黄色/棕黄色），且浓度影响颜色，作为唯一标准答案的颜色判断题存在版本争议",
+          "fixHint": "颜色描述保留为“黄至棕黄色”并注明浓度影响，避免出唯一颜色判定的单选题",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "可氧化I-、S2-等（了解/题设，不进默认基础训练）",
+          "issue": "氧化I⁻、S²⁻属拓展/题设内容，若自动出题未加限制会超范围",
+          "fixHint": "在自动出题规则中标注该部分仅限题设信息题，默认训练禁用",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "ion.ion_test",
+          "issue": "KSCN检验Fe³⁺需酸性条件等细节未在描述中体现，检验类题目条件完整性不足",
+          "fixHint": "补充检验条件说明或限制为定性判断题型",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "kp.Fe.fe2_fe3",
+      "type": "knowledge",
+      "name": "Fe²⁺与Fe³⁺的转化",
+      "batch": "batch3",
+      "dbId": "35",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P1",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P1",
+          "field": "description",
+          "original": "Fe2+→Fe3+可用Cl2、空气中O2等；Fe3+→Fe2+可用Fe、Cu等",
+          "issue": "转化试剂多、条件多（酸性、浓度），自动出题若未指定试剂会出现多答案，标准答案不唯一",
+          "fixHint": "自动出题须在题干中明确指定氧化剂/还原剂及条件，或限定为“写出一种可行试剂”类开放但可判定的题型",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "酸性KMnO4、H2O2、I-等作了解/题设试剂，不进默认基础训练",
+          "issue": "了解/题设试剂与核心试剂边界需在出题规则中显式标注，否则易超范围",
+          "fixHint": "在自动出题配置中标记核心试剂白名单",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "ion.mixed",
+          "issue": "“混合”类专项可能诱导出离子共存题，涉及水解、配位等超范围内容",
+          "fixHint": "限制为Fe²⁺/Fe³⁺共存与转化的定性判断",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "kp.Fe.test",
+      "type": "knowledge",
+      "name": "Fe²⁺与Fe³⁺的检验",
+      "batch": "batch3",
+      "dbId": "36",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "Fe2+：加碱白色沉淀并变色",
+          "issue": "表述过于简略，未说明白色沉淀迅速变灰绿最终变红褐色，也未说明需在空气中被氧化；作为检验依据时现象描述不完整，但不算明确错误。",
+          "fixHint": "补充：Fe2+与碱生成白色Fe(OH)2沉淀，在空气中迅速变灰绿色，最终变红褐色。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "先加KSCN无明显血红，再加氧化剂后变血红",
+          "issue": "未指明氧化剂（如氯水/H2O2）及排除Fe3+干扰的前提，表述边界略模糊，但方向正确。",
+          "fixHint": "可注明常用氧化剂为氯水或H2O2，并强调先加KSCN确认无Fe3+。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "Fe2+：加碱白色沉淀并变色；先加KSCN无明显血红，再加氧化剂后变血红",
+          "issue": "Fe2+加碱沉淀颜色变化（白→灰绿→红褐）受溶解氧、试剂浓度影响，现象描述存在教材版本差异；KSCN法检验Fe2+需明确“先加KSCN不变红，再加氧化剂变红”的完整条件，否则单步判断有歧义",
+          "fixHint": "在题干中明确试剂顺序与现象判据；避免仅凭沉淀颜色渐变作为唯一答案",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "experiment, ion, memory",
+          "issue": "experiment 专项仅限书面实验分析，不得要求学生实际操作",
+          "fixHint": "出题时限定为实验现象分析与方案评价",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.Fe.salt",
+      "type": "knowledge",
+      "name": "亚铁盐与铁盐",
+      "batch": "batch3",
+      "dbId": "37",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "铁盐含Fe3+（如FeCl3，溶液黄/棕黄，氧化性更强）",
+          "issue": "FeCl3溶液颜色通常描述为黄色或棕黄色，表述可接受；'氧化性更强'为相对Fe2+而言，未明确比较对象，略模糊。",
+          "fixHint": "可明确'Fe3+氧化性强于Fe2+'。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "忽视水解酸性",
+          "issue": "Fe3+水解显酸性、Fe2+也水解，提示合理但未展开，属覆盖性提示，非错误。",
+          "fixHint": "可补充Fe3+水解使溶液显酸性，配制时加酸抑制水解。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "忽视水解酸性",
+          "issue": "Fe3+水解显酸性属选择性必修/拓展层面，若作为高一必修核心考点出题可能超范围；且“水解酸性”表述不完整（应为Fe3+水解使溶液显酸性）",
+          "fixHint": "将水解内容标注为拓展了解，不作为必修必考判据；表述改为“Fe3+水解使溶液显酸性”",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "溶液浅绿/黄棕黄",
+          "issue": "颜色描述受浓度影响，Fe2+溶液颜色深浅不一，作为唯一判据易产生歧义",
+          "fixHint": "颜色仅作辅助信息，不作为唯一鉴别答案",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.82
+      }
+    },
+    {
+      "code": "rxn.FeOH2_O2",
+      "type": "reaction",
+      "name": "氢氧化亚铁被氧气氧化",
+      "batch": "batch3",
+      "dbId": "30",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "reProduct",
+          "original": "Fe(OH)3（O被还原后进入；≠反应物H2O）",
+          "issue": "还原产物标注为Fe(OH)3，虽在化学上O2被还原后氧进入Fe(OH)3，但严格讲该反应中氧化产物与还原产物均为Fe(OH)3，标注方式易引起歧义；且括号说明表述不规范。",
+          "fixHint": "建议明确说明：氧化产物与还原产物均为Fe(OH)3（同一产物），或注明O2中O被还原进入产物Fe(OH)3。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "reProduct",
+          "original": "Fe(OH)3（O被还原后进入；≠反应物H2O）",
+          "issue": "还原产物字段填Fe(OH)3，但O2中氧被还原后进入产物Fe(OH)3的OH⁻，表述上把还原产物与氧化产物混为同一物质，易造成判题/解析歧义",
+          "fixHint": "明确还原产物为Fe(OH)3中来自O2的氧（即产物同为Fe(OH)3），或改为说明性文字避免字段歧义",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "空气中（有氧气与水参与）",
+          "issue": "总反应式中H2O为反应物，但实际氧化过程机理分步，教材口径对总式写法存在版本差异（是否写H2O）",
+          "fixHint": "以教材总式为准，注明依据版本",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "concept.alloy",
+      "type": "concept",
+      "name": "合金",
+      "batch": "batch3",
+      "dbId": "25",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "合金是由两种或两种以上的金属（或金属与非金属）熔合而成的具有金属特性的物质，一般属于混合物。",
+          "issue": "定义基本准确，但“熔合”一词对部分合金（如汞齐、部分粉末冶金/机械合金化产物）并非唯一制备方式；教材语境下可接受，但“熔合而成”作为唯一形成方式略窄。",
+          "fixHint": "可改为“由两种或两种以上的金属（或金属与非金属）经熔合等方法制得的具有金属特性的物质，一般属于混合物”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "definition",
+          "original": "由两种或两种以上的金属（或金属与非金属）熔合而成的具有金属特性的物质，一般属于混合物",
+          "issue": "定义基本正确，但“熔合”与“一般属于混合物”表述需与教材口径一致；合金可能含非金属（如钢含碳），定义已涵盖，但“两种或两种以上”是否含非金属组分需明确",
+          "fixHint": "建议表述为“由两种或两种以上的金属（或金属与非金属）熔合而成的具有金属特性的混合物”，并注明合金不一定是化合物",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "dbReviewNote",
+          "original": "熔点/硬度分述;禁绝对化",
+          "issue": "合金性能“优于纯金属”是相对且分性质的，不能绝对化；自动出题若考“合金熔点一定高于成分金属”会歧义",
+          "fixHint": "出题时明确“一般熔点低于成分金属、硬度一般大于成分金属”，避免绝对化选项",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "rxn.2Na_2HCl",
+      "type": "reaction",
+      "name": "钠与盐酸反应",
+      "batch": "batch3",
+      "dbId": "33",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "oxidant",
+          "original": "HCl",
+          "issue": "氧化剂应为HCl中的H+（或HCl提供H+被还原），标HCl可接受但不够精确；NaCl中Na+未被还原，故NaCl不是还原产物意义上的‘氧化产物’需注意。",
+          "fixHint": "可注明氧化剂为HCl（实质为H+），还原产物为H2。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "常温。化学上可发生且比钠与水更剧烈……禁止作为学生动手实验",
+          "issue": "钠与盐酸反应属了解级对比内容，教材主线为钠与水反应；作为自动出题需限定为纸笔对比分析，不得设计实验操作题",
+          "fixHint": "出题时明确“与钠和水反应对比”的纸笔情境，禁止实验操作类题目",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "oxidant",
+          "original": "HCl",
+          "issue": "氧化剂标注为HCl整体，严格应为H+（或HCl中H）；判题时若要求填氧化剂可能产生HCl/H+歧义",
+          "fixHint": "答案判定接受HCl或H+，或在题干限定“氧化剂（填化学式）”",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.93
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "sub.NO2",
+      "type": "substance",
+      "name": "二氧化氮",
+      "batch": "batch4",
+      "dbId": "47",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "NO2 的鉴别通常依赖颜色/红棕色气体及与水反应现象，教材未将其作为独立检验项目，test 类目可能挂靠过宽",
+          "fixHint": "确认 test 类目是否指颜色/气味等物理鉴别；若指化学检验需补充明确方法或移除该类别",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "autoQuestion",
+          "original": "equation/calc 题型",
+          "issue": "NO2 与水的反应涉及多产物（NO、HNO3）及歧化，方程式配平与计算对高一属拓展，自动判题易出现多答案/条件不全",
+          "fixHint": "自动出题限制为概念判断、颜色、物理性质及简单现象分析；方程式与计算需人工审核",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.7
+      }
+    },
+    {
+      "code": "sub.HNO3",
+      "type": "substance",
+      "name": "硝酸",
+      "batch": "batch4",
+      "dbId": "48",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "硝酸无专属简单检验方法，test 类目可能挂靠过宽",
+          "fixHint": "确认 test 是否指颜色/状态观察；否则移除或改为 chem_property",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "autoQuestion",
+          "original": "calc 题型",
+          "issue": "硝酸参与氧化还原及浓度相关计算涉及多步、多产物，高一自动判题条件易不全、答案不唯一",
+          "fixHint": "计算题需人工审核或限定为简单物质的量计算",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "color",
+          "original": "无色（久置/工业可发黄）",
+          "issue": "颜色描述含条件说明，自动判题若以'无色'为唯一标准可能误判'发黄'表述",
+          "fixHint": "判题时接受'无色'及'发黄'条件性描述",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.7
+      }
+    },
+    {
+      "code": "rxn.Cl2_H2O",
+      "type": "reaction",
+      "name": "氯气与水",
+      "batch": "batch4",
+      "dbId": "37",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "equation",
+          "original": "Cl2 + H2O ⇌ HCl + HClO",
+          "issue": "可逆反应书写与产物状态（HCl、HClO为aq）在自动判题中易出现等号/可逆号、状态标注歧义；且氯水为混合物，产物不宜简单视为独立纯净物",
+          "fixHint": "自动出题避免要求书写完整方程式；改为判断产物或氧化还原角色",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "equation.write_from_text",
+          "issue": "该反应为可逆且产物为混合物体系，自动判题标准答案唯一性弱",
+          "fixHint": "从equation.write_from_text移除或标注仅人工",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.96
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "rxn.2SO2_O2",
+      "type": "reaction",
+      "name": "二氧化硫催化氧化",
+      "batch": "batch4",
+      "dbId": "41",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "催化剂（如V2O5了解）、加热；可逆",
+          "issue": "可逆反应与平衡属选择性必修内容，若自动出题涉及转化率/平衡移动则超范围；条件表述含'了解'口径，判题标准不唯一",
+          "fixHint": "出题仅限'写方程式/判断氧化还原'，禁止平衡定量与转化率计算",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "该反应非物质检验情境，substance.test 关联机械",
+          "fixHint": "移除或改为工业制备了解类",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "rxn.SO3_H2O",
+      "type": "reaction",
+      "name": "三氧化硫与水",
+      "batch": "batch4",
+      "dbId": "42",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "常温；反应放热剧烈",
+          "issue": "条件描述含'放热剧烈'属现象描述，非反应条件；自动判题若以条件为答案会歧义",
+          "fixHint": "条件仅保留'常温'，现象移至备注",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "species.state",
+          "original": "SO3 g / H2O l / H2SO4 l",
+          "issue": "SO3常温常压下为易挥发固体/气液状态随条件变化，状态标注可能引发争议",
+          "fixHint": "状态标注可保留但避免作为判题依据",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "rxn.4NH3_5O2",
+      "type": "reaction",
+      "name": "氨的催化氧化",
+      "batch": "batch4",
+      "dbId": "47",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "催化剂（如Pt）、加热；工业制硝酸相关了解",
+          "issue": "条件表述'催化剂△'较笼统，不同教材对催化剂（Pt/Rh或Fe2O3等）表述有差异；若自动出题要求填写具体催化剂名称会产生版本争议",
+          "fixHint": "出题时条件写'催化剂、加热'即可，不要求具体催化剂名称；避免以具体催化剂为唯一答案",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "该反应主要用于氨催化氧化/工业制硝酸，'substance.test'关联较弱，可能为关键词机械挂靠",
+          "fixHint": "评估substance.test是否必要，可保留equation与redox相关分类",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "rxn.CO2_CaOH2",
+      "type": "reaction",
+      "name": "二氧化碳与澄清石灰水",
+      "batch": "batch4",
+      "dbId": "54",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "本式对应CO2适量（变浑浊）。若CO2过量可变清（生成可溶性酸式盐，另反应），必须在题干分条件说明，禁止与本式混答。",
+          "issue": "条件字段已明确区分适量/过量，但自动出题若题干未显式限定'适量/少量CO2'，学生可能写出过量产物Ca(HCO3)2，导致答案不唯一。",
+          "fixHint": "自动出题模板强制在题干写明'CO2适量（少量）'或'CO2通入澄清石灰水至恰好变浑浊'，并禁止与过量情形混答。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "ion.ionic_write",
+          "issue": "CO2+Ca(OH)2为弱电解质/气体参与的沉淀反应，离子方程式书写可行，但需注意CO2不拆、Ca(OH)2澄清石灰水拆写口径，存在教材表述差异风险。",
+          "fixHint": "离子方程式题型仅在题干明确'澄清石灰水'时允许，避免石灰乳歧义。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "rxn.SiO2_2NaOH",
+      "type": "reaction",
+      "name": "二氧化硅与氢氧化钠",
+      "batch": "batch4",
+      "dbId": "55",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "常温或加热，NaOH溶液（热水/浓碱更明显）；玻璃含SiO2，可被腐蚀",
+          "issue": "条件表述'常温或加热'较宽泛，自动出题若要求写条件可能产生'常温/加热'判题歧义；且SiO2与NaOH反应在必修中多为拓展/了解层面。",
+          "fixHint": "自动出题避免考查反应条件细节，或题干给定条件；聚焦'碱腐蚀玻璃/试剂瓶不能用玻璃塞'的书面分析。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "该反应与'物质检验'关联较弱，主要用途是碱腐蚀玻璃及硅酸盐性质，substance.test挂靠略牵强。",
+          "fixHint": "建议categories保留equation.write_from_text，substance.test改为性质/用途类，或删除。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "rxn.SiO2_2C",
+      "type": "reaction",
+      "name": "二氧化硅与碳制粗硅",
+      "batch": "batch4",
+      "dbId": "56",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "该反应为工业制粗硅，非物质检验，substance.test挂靠不当",
+          "fixHint": "移除substance.test或改为substance.prepare/industrial",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "高温（工业电炉等了解）",
+          "issue": "条件表述含'了解'，自动出题时条件不唯一（高温/电炉），可能造成判题歧义",
+          "fixHint": "统一为'高温'，工业电炉仅作背景说明",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "SiO2 + 2C =高温= Si + 2CO↑",
+          "issue": "CO后加↑在高温固相反应中是否标注存在教材口径差异，部分教材不标气体符号",
+          "fixHint": "确认教材口径，或允许带/不带↑均判对",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "exp.Cl2_prep",
+      "type": "experiment",
+      "name": "氯气的实验室制法",
+      "batch": "batch4",
+      "dbId": "9",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "MnO2+4HCl(浓)=△=MnCl2+Cl2↑+2H2O",
+          "issue": "方程式书写中条件符号“=△=”不规范，且未标明浓盐酸为反应条件之一；但化学式、配平及反应事实正确。",
+          "fixHint": "建议写为：MnO2 + 4HCl(浓) --△--> MnCl2 + Cl2↑ + 2H2O，明确浓盐酸和加热条件。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "experiment.gas_prep / experiment.safety / experiment.substance_test",
+          "issue": "substance_test（物质检验）与氯气制备关联较弱，制备条目主要涉及气体制备与安全，物质检验标签属机械挂靠",
+          "fixHint": "移除 experiment.substance_test，保留 gas_prep 与 safety",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "MnO2+4HCl(浓)=△=MnCl2+Cl2↑+2H2O",
+          "issue": "方程式中浓盐酸部分被氧化，教材常写为 MnO2+4HCl(浓) 加热，但实际需强调浓盐酸且随反应变稀后停止；自动出题若要求写离子方程式或判断'稀盐酸能否反应'需条件完整",
+          "fixHint": "出题时明确'浓盐酸、加热'条件；避免仅凭化学式判分",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "safetyNotes",
+          "original": "必须在通风橱由教师指导完成",
+          "issue": "实验仅限书面分析，禁止要求学生实际操作危险气体实验",
+          "fixHint": "题型限定为实验分析/原理题，不设操作任务",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "exp.Cl2_property",
+      "type": "experiment",
+      "name": "氯气性质实验",
+      "batch": "batch4",
+      "dbId": "10",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "experiment.gas_prep / experiment.safety / experiment.substance_test",
+          "issue": "性质实验条目挂 gas_prep（气体制备）不准确，性质观察与制备不同；substance_test 亦偏弱",
+          "fixHint": "改为 experiment.property / experiment.safety 等更贴切分类",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "Cl2+H2O⇌HCl+HClO",
+          "issue": "可逆号使用与教材表述存在版本差异（部分教材写=），自动判题若严格比对符号可能歧义",
+          "fixHint": "判题时接受=与⇌，或题目不考察符号细节",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "湿润氯气漂白实质为HClO",
+          "issue": "漂白性归因于HClO为教材共识，但'干燥氯气无漂白性'需实验条件完整，出题需说明布条干湿状态",
+          "fixHint": "题目须明确干燥/湿润条件",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "safetyNotes",
+          "original": "有毒气体；禁止家用",
+          "issue": "实验仅限书面分析，禁止学生实操",
+          "fixHint": "题型限定实验分析，不设操作任务",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.Cl.property",
+      "type": "knowledge",
+      "name": "氯气的性质与用途",
+      "batch": "batch4",
+      "dbId": "42",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "experiment.substance_test",
+          "issue": "该条目为氯气性质与用途，非物质检验专项，分类挂靠偏机械",
+          "fixHint": "移除或改为 substance.chem_property；若保留检验需在描述中明确Cl-检验或氯水成分检验内容",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "与H2、金属、水、碱等反应须分条件",
+          "issue": "反应条件多、产物随条件变化（如Cl2与Fe、Cu、H2、水、碱），自动出题若条件不全易出现多答案或判题歧义",
+          "fixHint": "出题须明确反应物、条件与产物要求；避免开放式‘写出所有反应’",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "氯水成分为混合物（Cl2、H2O、HCl、HClO等）",
+          "issue": "氯水成分表述涉及可逆反应与次氯酸分解，不同教材表述详略不一，需注意口径",
+          "fixHint": "出题以教材明确成分为准，避免考查争议性细节",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.N.cycle",
+      "type": "knowledge",
+      "name": "氮及其化合物转化",
+      "batch": "batch4",
+      "dbId": "45",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "N2⇌NH3（合成氨条件了解）",
+          "issue": "用可逆符号⇌表示合成氨热化学转化方向可以，但未给出条件（高温高压催化剂）时，符号本身不构成错误；仅属表述规范问题。",
+          "fixHint": "可补充“高温高压催化剂”条件，或明确“条件了解”即可。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "NO2与水→HNO3+NO",
+          "issue": "该转化实际为3NO2+H2O→2HNO3+NO，描述为“NO2与水→HNO3+NO”未配平但作为转化概述可接受；若用于方程式题需配平。",
+          "fixHint": "在涉及方程式时写配平式3NO2+H2O=2HNO3+NO。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "N2⇌NH3（合成氨条件了解）",
+          "issue": "合成氨条件在必修与选择性必修口径不同（是否要求压强/催化剂细节），描述用“了解”模糊，自动出题若考具体条件易超纲或版本差异",
+          "fixHint": "明确标注仅作了解、不考具体工业条件数值；出题限定为转化关系判断",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "硝酸与铜因浓稀产物不同",
+          "issue": "浓稀硝酸与铜的方程式产物唯一但系数多、条件多，自动判题易因配平/条件写法歧义",
+          "fixHint": "equation 题型限定标准系数并要求标注浓稀，或改为选择题判断产物",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "experiment",
+          "issue": "转化网络条目挂 experiment 专项，可能诱导出实验操作题，超出书面分析范围",
+          "fixHint": "experiment 仅允许 experiment_analysis 书面分析，禁止实操",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "kp.N.ammonia",
+      "type": "knowledge",
+      "name": "氨的性质与制取",
+      "batch": "batch4",
+      "dbId": "46",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "检验：湿润红色石蕊试纸变蓝",
+          "issue": "氨气使湿润红色石蕊试纸变蓝是常用检验现象，但该现象只能说明气体显碱性，不能唯一证明为NH3；作为“检验”表述需注意干扰（如其他碱性气体）。",
+          "fixHint": "可表述为“常用检验方法之一”，并说明需结合其他性质（如与HCl白烟）综合判断。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "实验室：铵盐与碱共热",
+          "issue": "实验室制氨具体试剂（NH4Cl+Ca(OH)2）与装置细节存在版本表述差异，自动出题若考装置图细节易歧义",
+          "fixHint": "equation 限定为 NH4Cl 与 Ca(OH)2 加热反应；装置题仅作选择判断",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "喷泉实验体现溶解性",
+          "issue": "喷泉实验为演示实验，自动出题若要求描述操作步骤易产生判题歧义",
+          "fixHint": "仅允许 experiment_analysis 分析原理，禁止操作步骤题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "检验：湿润红色石蕊试纸变蓝",
+          "issue": "检验方法表述需注意“湿润”与“靠近”等细节，填空判题可能因措辞歧义",
+          "fixHint": "fill 题给出关键判分点或改单选",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.92
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.82
+      }
+    },
+    {
+      "code": "kp.C.oxide",
+      "type": "knowledge",
+      "name": "碳的氧化物",
+      "batch": "batch4",
+      "dbId": "47",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "碳燃烧产物随氧气是否充足为CO或CO2",
+          "issue": "表述过于绝对：氧气充足时主要产物为CO2，氧气不充足时主要产物为CO，但实际燃烧常为混合产物，且CO2在高温下可被C还原为CO，并非非此即彼的唯一产物。",
+          "fixHint": "改为“氧气充足时主要生成CO2，不充足时主要生成CO（常为混合产物）”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "CO2：酸性氧化物，使石灰水变浑浊，一般不支持燃烧（镁例外）",
+          "issue": "“镁例外”表述不够严谨：镁在CO2中燃烧生成MgO和C，属于CO2支持燃烧的典型反例，但表述为“一般不支持燃烧（镁例外）”易被误解为仅镁一种例外；且未说明该反应条件为点燃。",
+          "fixHint": "可改为“通常不支持燃烧，但活泼金属（如镁）可在其中燃烧：2Mg+CO2→2MgO+C（点燃）”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "碳燃烧产物随氧气是否充足为CO或CO2",
+          "issue": "产物表述过于绝对，实际燃烧可同时生成 CO 和 CO2 的混合物，存在多产物情形，自动出题若设唯一答案有歧义",
+          "fixHint": "改为“氧气充足主要生成CO2，不足主要生成CO，实际可为混合物”，出题时避免要求唯一产物",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "一般不支持燃烧（镁例外）",
+          "issue": "镁在CO2中燃烧属拓展知识，若出题考查可能超必修核心范围",
+          "fixHint": "作为拓展注释保留，出题不强制考查镁与CO2反应",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.nonmetal.test",
+      "type": "knowledge",
+      "name": "常见气体检验方法",
+      "batch": "batch4",
+      "dbId": "49",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "H2：可燃，安静燃烧淡蓝火焰（验纯）",
+          "issue": "氢气燃烧火焰颜色描述为“淡蓝色”在中学教材中常见，但实际观察常因玻璃管中钠的焰色而呈黄色，且“淡蓝”与“蓝色”表述在不同教材中略有差异；此外未说明验纯方法（如点燃法听爆鸣声）。",
+          "fixHint": "可补充“点燃前须验纯（收集后点燃，听爆鸣声判断纯度）”，火焰颜色按教材表述保留。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "Cl2：黄绿色；湿润淀粉KI试纸变蓝",
+          "issue": "氯气使湿润淀粉KI试纸变蓝的原理是Cl2氧化I-生成I2，I2使淀粉变蓝；表述正确但未点明氧化还原原理，且“黄绿色”为颜色描述，检验时还需注意氯气有毒、需通风。",
+          "fixHint": "可补充“Cl2+2KI→2KCl+I2，I2遇淀粉变蓝”，并提示安全操作。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "SO2：品红褪色加热恢复等",
+          "issue": "SO2使品红溶液褪色且加热恢复，是SO2的特性检验方法之一，但表述“等”过于笼统；且SO2也能使酸性KMnO4溶液褪色（氧化还原），需与品红褪色（非氧化还原）区分，避免混淆。",
+          "fixHint": "可明确“SO2使品红溶液褪色，加热后恢复红色”，并注明该现象为SO2特性检验。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "equation",
+          "issue": "气体检验方法条目挂 equation 专项属关键词机械挂靠，检验方法不必然涉及方程式",
+          "fixHint": "移除 equation 专项，或仅在具体反应题中单独关联",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "Cl2：黄绿色；湿润淀粉KI试纸变蓝",
+          "issue": "Cl2 检验涉及卤素性质，部分版本在必修较后或选择性必修，且 Cl2 有毒，实验仅限书面分析",
+          "fixHint": "保留书面分析，禁止要求实际操作；出题注明安全前提",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "SO2：品红褪色加热恢复等",
+          "issue": "SO2 品红褪色属硫及其化合物，部分教材在必修后段或选择性必修，范围需核实",
+          "fixHint": "核实所用教材版本，若未学则标为拓展",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.88
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "sub.Br2",
+      "type": "substance",
+      "name": "溴",
+      "batch": "batch4",
+      "dbId": "59",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"memory\",\"periodic\",\"substance\"]",
+          "issue": "periodic 专项与条目实际内容（颜色、状态、化学式）不匹配，属机械挂靠",
+          "fixHint": "移除 periodic，或补充卤素递变相关属性后再挂",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "color",
+          "original": "深红棕色",
+          "issue": "溴单质颜色教材表述有'深红棕色/红棕色'差异，液体溴通常描述为深红棕色，需确认口径",
+          "fixHint": "统一为教材口径，避免颜色判断题歧义",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "sub.I2",
+      "type": "substance",
+      "name": "碘",
+      "batch": "batch4",
+      "dbId": "60",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "color",
+          "original": "紫黑色",
+          "issue": "碘单质颜色教材有'紫黑色/黑紫色'表述差异，且碘蒸气为紫色，颜色判断题需明确状态",
+          "fixHint": "注明'固体碘为紫黑色'，避免与碘蒸气紫色混淆",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "substance.test",
+          "issue": "淀粉变蓝为碘单质检验，属必修实验常识，但需注意'碘水/碘单质'与'碘离子'区分，出题时条件须完整",
+          "fixHint": "出题明确为碘单质遇淀粉变蓝，避免与I⁻混淆",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "kp.halogen.compare",
+      "type": "knowledge",
+      "name": "卤族元素性质比较",
+      "batch": "batch4",
+      "dbId": "52",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "卤族单质氧化性大致：F2>Cl2>Br2>I2",
+          "issue": "表述基本正确，但“大致”一词对氧化性递变这一确定规律略显含糊；且未说明比较条件（水溶液/标准电极电势），不过必修层面可接受。",
+          "fixHint": "可改为“卤素单质氧化性：F2>Cl2>Br2>I2（必修层面）”，保留“以课本为准”的限定。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "置换：Cl2可置换Br-、I-等（题设）",
+          "issue": "表述正确但略简，未点明Cl2置换I-时I-被氧化为I2、Cl2自身被还原，属氧化还原而非简单复分解；作为知识条目描述可接受。",
+          "fixHint": "可补充“Cl2+2Br-=2Cl-+Br2、Cl2+2I-=2Cl-+I2”以明确氧化还原本质。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "深度含氧酸体系标了解，不进默认核心。",
+          "issue": "描述中提及深度含氧酸但未明确其具体内容（如HClO4、HBrO4等），可能导致自动出题时误将含氧酸酸性比较作为核心考点。",
+          "fixHint": "建议在描述中明确列出含氧酸示例并标注“仅了解，不纳入自动出题核心范围”。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"memory\", \"periodic\", \"substance\"]",
+          "issue": "specialties中未包含“redox”，但卤素置换反应涉及氧化还原，若自动出题关联氧化还原概念，可能因专项缺失导致标签不完整。",
+          "fixHint": "考虑增加“redox”专项，或在categories中明确置换反应属于氧化还原范畴。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "kp.N.synth_ammonia",
+      "type": "knowledge",
+      "name": "合成氨反应条件与可逆性",
+      "batch": "batch4",
+      "dbId": "53",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "N2+3H2⇌2NH3（催化剂、高温、高压）",
+          "issue": "方程式配平正确、可逆号使用正确、条件概括正确；但“高温、高压”未给出具体数值，作为必修认识层面可接受，非错误。",
+          "fixHint": "可保留概括性条件；若需精确可注明“约400~500℃、10~30MPa、铁触媒”，但必修不必展开。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "不要写成选修化学平衡定量计算或勒夏特列深度训练默认题。",
+          "issue": "描述中已明确禁止选修平衡定量计算，但自动出题时若涉及“反应条件”可能引申出平衡移动问题，存在超纲风险。",
+          "fixHint": "建议在自动出题规则中明确：仅考查合成氨反应条件（催化剂、高温、高压）和可逆性，不涉及平衡常数、转化率计算或勒夏特列原理深度应用。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.92
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "exp.ops_extract",
+      "type": "experiment",
+      "name": "分液与萃取认知",
+      "batch": "batch5",
+      "dbId": "23",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "experiment.step_order",
+          "issue": "分液漏斗操作步骤顺序（检漏、装液、振荡放气、静置分层、分液）属教材规范操作，但不同版本对放气次数/顺序表述略有差异，自动判题易产生顺序歧义",
+          "fixHint": "若出步骤排序题，仅采用教材原文表述并避免多步顺序唯一性争议；优先出操作要点判断题",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "reagents",
+          "original": "碘水与四氯化碳",
+          "issue": "CCl4为教材示例但具毒性/环境危害，须限定为书面题设分析，不得引导学生实操",
+          "fixHint": "保留safetyNotes约束，题目中明确'仅分析'",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "exp.gas_collect_upward",
+      "type": "experiment",
+      "name": "向上排空气法",
+      "batch": "batch5",
+      "dbId": "24",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "reagents",
+          "original": "O2、CO2、Cl2等",
+          "issue": "Cl2有毒且收集装置分析涉及尾气处理，若题目未给尾气处理条件则答案不完整；不同版本对'向上排空气法'适用气体举例有差异",
+          "fixHint": "出题时明确气体密度比较条件，避免要求判断多种气体；有毒气体仅作装置识别",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "导管伸入瓶底附近",
+          "issue": "导管位置表述（伸入瓶底/接近瓶底）各版本措辞不一，填空题易判歧义",
+          "fixHint": "填空题采用教材原句或改为选择题",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "exp.gas_collect_downward",
+      "type": "experiment",
+      "name": "向下排空气法",
+      "batch": "batch5",
+      "dbId": "25",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "集气瓶口向下，导管伸入瓶底（此时为上方），空气被排出",
+          "issue": "表述“导管伸入瓶底（此时为上方）”易引起歧义：瓶口向下时瓶底位于上方，导管应伸到接近瓶底（即上方）以把空气从瓶口排出，逻辑本身正确但措辞不够清晰。",
+          "fixHint": "改为“集气瓶口向下，导管伸入接近瓶底处（瓶口向下时瓶底朝上），空气从瓶口排出”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "集气瓶口向下，导管伸入瓶底（此时为上方）",
+          "issue": "“瓶底（此时为上方）”表述易引起判题歧义：向下排空气法时瓶口向下，导管应伸到接近瓶底（即瓶内高处），但“瓶底/上方”措辞混乱，学生与判题标准可能理解不一致",
+          "fixHint": "改为“集气瓶口向下，导管伸入接近瓶底处（瓶内最高处），使气体从下往上把空气排出”",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "reagents",
+          "original": "H2、NH3等",
+          "issue": "NH3在部分教材属非高一必修重点气体，作为示例可能超出学生熟悉范围，但仅作示例不影响核心判断",
+          "fixHint": "可保留H2为主例，NH3标注为拓展示例",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "exp.H2_prep_Zn",
+      "type": "experiment",
+      "name": "锌与稀硫酸制氢气",
+      "batch": "batch5",
+      "dbId": "29",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "Zn+H2SO4=ZnSO4+H2↑；H2密度比空气小、难溶于水，可用向下排空气法或排水法收集。",
+          "issue": "方程式本身正确且配平；但未注明“稀硫酸”条件，且未说明H2验纯的必要性（safetyNotes已提及，principle中未体现）。属表述完整性提示，非事实错误。",
+          "fixHint": "在方程式中注明稀硫酸条件：Zn+H2SO4(稀)=ZnSO4+H2↑；并补充点燃前须验纯。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "Zn+H2SO4=ZnSO4+H2↑；H2密度比空气小、难溶于水，可用向下排空气法或排水法收集。",
+          "issue": "化学方程式未标注稀硫酸，且未注明H2收集方法的选择依据（密度、溶解性）在教材中表述可能略有差异",
+          "fixHint": "方程式改为 Zn + H2SO4(稀) = ZnSO4 + H2↑；收集方法表述与教材保持一致",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "safetyNotes",
+          "original": "H2为易燃气体，不纯时点燃可能爆炸；严禁在家制取或点燃氢气。本系统仅做书面现象、操作、安全与装置分析。",
+          "issue": "安全提示充分，但自动出题需确保不出现要求学生实际制取或点燃氢气的操作题",
+          "fixHint": "在自动出题规则中明确禁止任何实际操作类题型",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.95
+      }
+    },
+    {
+      "code": "exp.safety_rules",
+      "type": "experiment",
+      "name": "实验室安全通则",
+      "batch": "batch5",
+      "dbId": "32",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "purpose",
+          "original": "判断实验室着装、试剂取用、加热、急救与废弃物处理等安全正误",
+          "issue": "安全规则条目内容宽泛，部分细则（如具体急救措施、废弃物分类）在不同教材/学校规定中表述不完全一致，自动出题若涉及细节可能产生口径差异",
+          "fixHint": "出题仅限教材与通用安全常识明确的正误判断，避免涉及具体急救剂量、特定学校规定等细节",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "experiment.safety",
+          "issue": "分类合理，与专项experiment匹配，无机械挂靠",
+          "fixHint": "无需修改",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "kp.exp.gas_wash_dry",
+      "type": "knowledge",
+      "name": "气体的洗涤与干燥",
+      "batch": "batch5",
+      "dbId": "61",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "洗气除杂：选能反应或吸收杂质、尽量不吸收目标气体的试剂",
+          "issue": "“尽量不吸收目标气体”表述正确但不够完整，未提及除杂试剂不应引入新杂质气体这一基本要求。",
+          "fixHint": "可补充“且不引入新的杂质气体”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "干燥剂选择：酸性/碱性/中性气体与浓硫酸、碱石灰、无水CaCl2等匹配（按教材常见组合）",
+          "issue": "表述以“按教材常见组合”兜底，未给出具体匹配规则，科学性无误但覆盖不足；例如浓硫酸不能干燥NH3、碱石灰不能干燥CO2等关键对应关系未点明。",
+          "fixHint": "建议补充典型对应：浓硫酸干燥酸性/中性气体（不干燥NH3等碱性气体），碱石灰干燥碱性/中性气体（不干燥CO2、SO2等酸性气体），无水CaCl2不干燥NH3。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "experiment.gas_collect",
+          "issue": "描述仅涉及洗气除杂、干燥剂选择与洗气瓶导管方向，未涉及气体收集方法，该分类挂靠缺乏内容支撑",
+          "fixHint": "移除 experiment.gas_collect，或补充气体收集相关内容后再挂靠",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "酸性/碱性/中性气体与浓硫酸、碱石灰、无水CaCl2等匹配（按教材常见组合）",
+          "issue": "干燥剂与气体匹配存在教材版本差异（如NH3、CO2、SO2等具体组合各版本表述略有不同），自动出题若涉及边缘气体可能产生版本口径争议",
+          "fixHint": "出题仅使用教材明确列出的常见组合，避免边缘气体；题干注明所用教材口径",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "洗气瓶导管长进短出",
+          "issue": "表述正确但未说明适用于除杂洗气；若用于量气或排水则方向不同，自动出题需限定装置用途",
+          "fixHint": "题干明确为洗气除杂用途",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.88
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "exp.ops_volumetric_flask",
+      "type": "experiment",
+      "name": "容量瓶定容操作",
+      "batch": "batch5",
+      "dbId": "33",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"calculation\",\"experiment\"]",
+          "issue": "容量瓶定容操作核心为实验基本操作，calculation为联动而非本条目主专项，机械挂靠风险",
+          "fixHint": "保留experiment为主专项；calculation仅在题干含浓度计算时使用，或降为次要标签",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "purpose",
+          "original": "书面分析题训练……关联 c=n/V 计算",
+          "issue": "若自动出calc题，需题干完整给出溶质物质的量与体积数据，否则答案不唯一",
+          "fixHint": "calc题型须在题干中明确n、V数值与所求量",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "定容至凹液面最低处与刻度线相切",
+          "issue": "不同版本教材对俯视/仰视读数误差表述一致，但“残留水不影响c”需题干明确洗涤后残留蒸馏水情形，否则判题歧义",
+          "fixHint": "误差分析题须在题干写明具体操作情形",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "formula.rate_v",
+      "type": "formula",
+      "name": "化学反应速率定义式",
+      "batch": "batch5",
+      "dbId": "17",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "expression",
+          "original": "v = Δc / Δt（平均速率）",
+          "issue": "化学反应速率通常指某物质浓度变化表示的平均速率，多物质共存时须指明以哪种物质表示，否则答案不唯一",
+          "fixHint": "自动出题题干须明确“以某物质表示”及时间段",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "variables",
+          "original": "v:化学反应速率；Δc:浓度变化量",
+          "issue": "未说明Δc取绝对值及单位（mol/(L·s)等），单位不统一易致判题歧义",
+          "fixHint": "补充单位与取正值约定",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "curriculumScopeHint",
+          "original": "必修第二册·化学反应速率（入门）",
+          "issue": "速率定义式在必修阶段为定性/简单定量入门，深度计算属选择性必修，自动出题应限简单代入",
+          "fixHint": "calc题限单步代入，避免多步速率比与计量数换算",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "kp.rate.factors",
+      "type": "knowledge",
+      "name": "影响化学反应速率的因素",
+      "batch": "batch5",
+      "dbId": "62",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "增大反应物浓度、升高温度、使用催化剂、增大固体接触面积等，一般可加快反应速率",
+          "issue": "表述基本正确，但“增大反应物浓度”未限定为气体或溶液中的反应物；对于固体或纯液体，改变其用量不改变浓度，不影响速率。作为定性概述可接受，但严格性稍欠。",
+          "fixHint": "可补充“对于气体或溶液中的反应物”或“增大反应物浓度（固体、纯液体除外）”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"comprehensive\"]",
+          "issue": "专项标签过于笼统，未体现速率影响因素主题，易导致检索/组卷时机械归入综合题",
+          "fixHint": "补充与反应速率相关的专项标签，或说明保留 comprehensive 的理由",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "增大反应物浓度、升高温度、使用催化剂、增大固体接触面积等，一般可加快反应速率",
+          "issue": "表述为定性规律，但“增大浓度”对纯固体/纯液体不适用、压强对气体反应的影响未提及，自动出题若不加限定可能出现边界歧义",
+          "fixHint": "出题时限定状态（溶液/气体）与条件，避免对固体或纯液体浓度出题",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "concept.reversible",
+      "type": "concept",
+      "name": "可逆反应",
+      "batch": "batch5",
+      "dbId": "26",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"equation\",\"memory\"]",
+          "issue": "equation 专项与“可逆反应”概念定义关联较弱，易被机械挂靠到方程式书写题",
+          "fixHint": "保留 memory，equation 改为仅用于可逆箭头符号书写类题目或移除",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "definition",
+          "original": "在同一条件下，既能向生成物方向进行、同时又能向反应物方向进行的反应",
+          "issue": "“同一条件”为教材常见表述，但不同版本对可逆反应程度/限度的强调不同，自动出题需避免涉及平衡常数等选修内容",
+          "fixHint": "出题限定在必修定性层面，禁止涉及平衡常数、转化率计算",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "sub.C2H5OH",
+      "type": "substance",
+      "name": "乙醇",
+      "batch": "batch6",
+      "dbId": "65",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "dbReviewNote",
+          "original": "催化氧化条件须写清Cu/Ag加热",
+          "issue": "乙醇催化氧化条件（Cu或Ag作催化剂并加热）表述不完整，若自动出题涉及反应条件，标准答案可能因条件描述不全产生歧义",
+          "fixHint": "在条目属性中明确催化氧化条件为Cu/Ag催化并加热，出题时条件完整给出",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "organic.basic; substance.formula",
+          "issue": "分类较宽泛，未体现乙醇的官能团（羟基）与催化氧化等核心性质，专项挂靠基本合理但信息量不足",
+          "fixHint": "可补充 organic.functional_group 或 organic.oxidation 等更精确分类（若库中存在）",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "sub.CH3COOH",
+      "type": "substance",
+      "name": "乙酸",
+      "batch": "batch6",
+      "dbId": "66",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "dbReviewNote",
+          "original": "弱酸;羧基;酸性强于碳酸",
+          "issue": "乙酸与碳酸酸性强弱比较属教材结论，但若出题涉及与碳酸盐反应产气等，需条件完整（如与Na2CO3/NaHCO3反应），否则易产生多答案或条件歧义",
+          "fixHint": "出题时明确反应物与条件，避免开放式比较题",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "organic.basic; substance.formula",
+          "issue": "分类未体现羧基官能团与酸性，专项挂靠合理但不够精确",
+          "fixHint": "可补充 organic.functional_group 或 acid 相关分类（若库中存在）",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "rxn.C2H4_H2O",
+      "type": "reaction",
+      "name": "乙烯水化制乙醇",
+      "batch": "batch6",
+      "dbId": "61",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "CH2=CH2 + H2O =催化剂、加热加压= CH3CH2OH",
+          "issue": "条件表述“加热加压”较笼统，工业/教材通常为磷酸催化、约300℃、约7MPa，但作为教材通用写法可接受；未构成明确科学错误。",
+          "fixHint": "可保留“催化剂、加热、加压”，若教材明确可补充“磷酸，300℃，7MPa”。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "催化剂（如磷酸等，以教材为准）、加热、加压",
+          "issue": "催化剂具体物质（磷酸/硫酸等）随教材版本不同，若自动判题要求写出具体催化剂名称会产生版本歧义",
+          "fixHint": "自动判题仅要求'催化剂、加热、加压'，催化剂具体物质设为可选或标注'以教材为准'",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "CH2=CH2 + H2O =催化剂、加热加压= CH3CH2OH",
+          "issue": "产物状态标注为 l，但反应条件下乙醇可能为气态，状态符号在自动判题中易引发争议",
+          "fixHint": "自动判题不强制状态符号，或统一按教材口径",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "rxn.C2H4_H2",
+      "type": "reaction",
+      "name": "乙烯加氢",
+      "batch": "batch6",
+      "dbId": "62",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "催化剂、加热",
+          "issue": "加氢催化剂（Ni等）及条件随教材版本表述不同，自动判题若要求具体催化剂名称存在歧义",
+          "fixHint": "自动判题仅要求'催化剂、加热'，具体催化剂设为可选",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.92
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "rxn.C2H5OH_O2",
+      "type": "reaction",
+      "name": "乙醇催化氧化",
+      "batch": "batch6",
+      "dbId": "63",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "Cu或Ag作催化剂并加热（教材常见：灼热铜丝伸入乙醇）",
+          "issue": "条件表述含'Cu或Ag'两种催化剂，若自动出题要求唯一条件答案，'Cu或Ag'与'Cu'/'Ag'判题可能歧义；且'灼热铜丝伸入乙醇'为实验操作描述，非方程式条件标准写法",
+          "fixHint": "条件字段统一为'Cu或Ag、加热'作为可接受集合，判题时接受 Cu/Ag 任一或并列；实验操作描述移入实验分析题而非方程式条件",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "species.state",
+          "original": "CH3CHO state=g",
+          "issue": "乙醛常温为液体，state 标 g 与常温物态不符；若题目涉及状态符号判分会出错",
+          "fixHint": "核对教材是否要求标注状态；若标注则 CH3CHO 应为 l（或按反应温度条件说明），否则去除 state 字段",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.82
+      }
+    },
+    {
+      "code": "rxn.C2H5OH_burn",
+      "type": "reaction",
+      "name": "乙醇燃烧",
+      "batch": "batch6",
+      "dbId": "64",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "conditions",
+          "original": "点燃（完全燃烧；氧气充足。缺氧气/不完全燃烧不在本条默认范围）",
+          "issue": "条件含'完全燃烧/氧气充足'限定，若题干未给足条件，学生可能写出不完全燃烧产物（CO 或 C），导致多答案判题歧义",
+          "fixHint": "自动出题题干必须显式写'完全燃烧/氧气充足'；判题仅接受 CO2+H2O 产物",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "species.state",
+          "original": "H2O state=g",
+          "issue": "燃烧生成的水在高温下为气态，但教材方程式通常不标状态或标 l；state 标注口径需与教材一致",
+          "fixHint": "核对教材是否要求状态符号；若不要求则去除 state，避免判分歧义",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "rxn.esterification",
+      "type": "reaction",
+      "name": "乙酸乙酯酯化",
+      "batch": "batch6",
+      "dbId": "65",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "equation",
+          "original": "CH3COOH + C2H5OH ⇌浓硫酸、加热⇌ CH3COOC2H5 + H2O",
+          "issue": "可逆符号与条件标注混排，箭头符号重复（⇌…⇌），书写不规范；条件应写在箭头上下方而非夹在两个可逆符号之间。",
+          "fixHint": "规范为 CH3COOH + C2H5OH ⇌（浓硫酸、Δ）CH3COOC2H5 + H2O，条件置于可逆箭头上下。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "浓硫酸作催化剂（兼吸水）、加热；可逆反应",
+          "issue": "浓硫酸“吸水”表述可更准确为“吸收生成的水，促使平衡正移”，但作为教材常见表述可接受。",
+          "fixHint": "可改为“浓硫酸催化并吸收生成的水，使平衡向生成酯方向移动”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "equation",
+          "original": "CH3COOH + C2H5OH ⇌浓硫酸、加热⇌ CH3COOC2H5 + H2O",
+          "issue": "方程式中将条件文字嵌入可逆箭头符号，格式不规范，自动判题时可能无法解析箭头与条件",
+          "fixHint": "改为标准格式：CH3COOH + C2H5OH ⇌(浓硫酸,Δ) CH3COOC2H5 + H2O，条件单独标注",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "conditions",
+          "original": "浓硫酸作催化剂（兼吸水）、加热；可逆反应",
+          "issue": "浓硫酸吸水促使平衡右移的表述属拓展理解，教材口径可能仅强调催化与吸水，需注意命题不超出必修要求",
+          "fixHint": "命题时以催化、加热、可逆为核心，吸水作用可作为拓展不作必答",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.9
+      }
+    },
+    {
+      "code": "exp.C2H4_prep",
+      "type": "experiment",
+      "name": "乙烯的实验室制法",
+      "batch": "batch6",
+      "dbId": "37",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "CH3CH2OH →浓H2SO4、170℃→ CH2=CH2↑ + H2O",
+          "issue": "方程式书写基本正确，但未标注反应类型为消去反应，且未说明浓硫酸的作用（催化剂和脱水剂）；教材通常要求注明。",
+          "fixHint": "可补充“消去反应”及浓硫酸的催化脱水作用说明。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "CH3CH2OH →浓H2SO4、170℃→ CH2=CH2↑ + H2O",
+          "issue": "教材对温度表述有差异（约170℃/170℃左右），且副产物乙醚生成温度（约140℃）属了解内容，若自动出题要求精确温度数值或副产物种类可能超出必修核心并有版本口径差异",
+          "fixHint": "出题避免要求精确温度数值或副产物细节；温度以“约170℃”表述，副产物仅作题设信息",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "equation",
+          "original": "CH3CH2OH → CH2=CH2↑ + H2O",
+          "issue": "有机反应方程式在必修阶段对条件、副产物、气体符号要求不统一，自动判题易因条件书写差异误判",
+          "fixHint": "若出方程式题需给出明确条件模板或改为选择题/判断题；否则禁用 equation 自动判题",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "safetyNotes",
+          "original": "浓硫酸加热高危，禁止家用",
+          "issue": "安全提示完整，符合仅书面分析要求",
+          "fixHint": "无需修改",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.82
+      }
+    },
+    {
+      "code": "exp.C2H4_Br2",
+      "type": "experiment",
+      "name": "乙烯使溴水褪色",
+      "batch": "batch6",
+      "dbId": "38",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "experiment.safety",
+          "issue": "该实验核心是加成褪色检验，safety 标签关联偏弱，可能造成专项机械挂靠",
+          "fixHint": "可保留 safety 作辅助，但主分类应为 organic.property/检验鉴别",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "CH2=CH2+Br2→CH2BrCH2Br（加成），溶液颜色褪去",
+          "issue": "溴水与溴的四氯化碳溶液现象机理不同（溴水可能涉及加成与萃取干扰），若自动出题混淆两种试剂或要求区分萃取褪色，答案可能不唯一",
+          "fixHint": "出题明确试剂种类；区分化学褪色与萃取物理褪色的题目需给出充分条件",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "exp.esterification",
+      "type": "experiment",
+      "name": "乙酸乙酯制备",
+      "batch": "batch6",
+      "dbId": "40",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "CH3COOH+C2H5OH⇌浓硫酸、加热⇌CH3COOC2H5+H2O",
+          "issue": "酯化反应为可逆反应，方程式配平正确；但用两个⇌符号夹条件表述不规范，且未标注产物水，属书写规范问题而非科学错误。",
+          "fixHint": "建议写为：CH3COOH + C2H5OH ⇌(浓硫酸, Δ) CH3COOC2H5 + H2O，明确可逆与催化吸水条件。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "CH3COOH+C2H5OH⇌浓硫酸、加热⇌CH3COOC2H5+H2O",
+          "issue": "可逆反应符号与条件标注在自动判题中易出现格式歧义；且“浓硫酸催化并吸水”表述需与教材口径一致（吸水/脱水剂说法有版本差异）。",
+          "fixHint": "方程式标准答案统一为可逆号+浓硫酸+加热；浓硫酸作用表述以教材为准，避免绝对化。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "experiment.safety",
+          "issue": "核心为酯化反应条件与装置分析，安全类仅辅助，避免机械挂靠。",
+          "fixHint": "以 organic.property 为主，experiment.safety 仅用于安全判断题型。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "concept.functional_group",
+      "type": "concept",
+      "name": "官能团初步",
+      "batch": "batch6",
+      "dbId": "29",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P3",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "definition",
+          "original": "决定有机化合物主要化学性质的原子或原子团，叫做官能团。",
+          "issue": "定义基本准确；严格说官能团决定“主要化学性质”而非全部，且碳碳双键、三键等也属官能团，表述可接受但可补充“如碳碳双键、羟基、羧基等”。",
+          "fixHint": "可补充官能团包括碳碳双键、碳碳三键等，并说明其决定特征反应。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P3",
+          "field": "examples",
+          "original": "乙酸乙酯含酯基",
+          "issue": "酯基作为官能团在部分教材版本中属选择性必修或仅作了解，高一必修阶段对酯基的命名与识别深度存在版本差异",
+          "fixHint": "自动出题时以碳碳双键、羟基、羧基为主，酯基仅作了解性识别，避免深挖",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.92
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "concept.addition",
+      "type": "concept",
+      "name": "加成反应",
+      "batch": "batch6",
+      "dbId": "31",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "definition",
+          "original": "有机物分子中不饱和键两端的原子与其他原子或原子团直接结合生成新化合物的反应",
+          "issue": "定义表述基本正确，但未限定“不饱和键”类型（C=C、C≡C、C=O等），不同版本教材对加成反应举例范围略有差异；自动出题若涉及醛酮加成可能超出高一范围",
+          "fixHint": "建议在定义或备注中明确高一阶段主要指碳碳双键/三键的加成，避免超范围举例",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "examples",
+          "original": "乙烯与溴、乙烯加氢、乙烯水化",
+          "issue": "乙烯水化（制乙醇）在部分教材中属于选学或拓展内容，作为核心举例可能引起版本差异争议",
+          "fixHint": "可保留但标注为拓展举例，或替换为乙烯与氯化氢加成等更通用例子",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.organic.methane",
+      "type": "knowledge",
+      "name": "甲烷结构与性质",
+      "batch": "batch6",
+      "dbId": "64",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "甲烷分子为正四面体结构",
+          "issue": "表述可更严谨：甲烷分子为四面体形，碳原子位于中心，四个C—H键等同；正四面体指键角109°28′的对称构型，教材通常表述为“正四面体形分子”，此处基本可接受，仅属规范性问题。",
+          "fixHint": "可改为“甲烷分子呈正四面体形，碳原子位于中心”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "光照下与氯气发生取代，产物可为多种氯代甲烷，不得写唯一产物",
+          "issue": "描述已正确指出多产物问题，但自动出题若要求写“甲烷与氯气反应的化学方程式”时，标准答案不唯一（一氯代到四氯代及HCl），存在判题歧义风险",
+          "fixHint": "自动出题时应限定“写第一步取代反应”或“写生成一氯甲烷的方程式”，或采用选择题判断产物种类",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "甲烷分子为正四面体结构",
+          "issue": "正四面体结构表述正确，但部分教材强调“正四面体”与“四面体”的区分，自动出题若考键角（109°28′）需确认教材是否要求记忆",
+          "fixHint": "键角数值可作为了解内容，出题时避免要求精确记忆除非教材明确",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.88
+      }
+    },
+    {
+      "code": "kp.organic.ethene",
+      "type": "knowledge",
+      "name": "乙烯结构与性质",
+      "batch": "batch6",
+      "dbId": "66",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "实验室可由乙醇浓硫酸加热制取（认知）",
+          "issue": "实验室制乙烯标准条件为乙醇与浓硫酸按体积比约1:3混合，迅速加热至170℃；原文仅写“浓硫酸加热”，未注明170℃这一关键温度条件，温度不同产物不同（140℃生成乙醚）。",
+          "fixHint": "补充“迅速加热至170℃”，并说明140℃主要生成乙醚，以体现条件对产物的影响。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "使酸性KMnO4褪色但不指定唯一氧化产物",
+          "issue": "乙烯被酸性高锰酸钾氧化的产物随条件不同（CO2、乙二醇、甲酸等），若自动出题要求写氧化方程式或产物，标准答案不唯一",
+          "fixHint": "出题仅限“能否褪色”判断或现象描述，禁止要求书写氧化产物方程式",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "实验室可由乙醇浓硫酸加热制取（认知）",
+          "issue": "乙醇制乙烯涉及浓硫酸、170℃条件，属实验认知；自动出题若要求装置、温度计位置、副反应等细节，超出必修核心且存在版本差异",
+          "fixHint": "仅作认知性了解，出题限于“反应物与条件”的简单判断，禁止实验操作细节题",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"organic\"]",
+          "issue": "加成、加聚属有机反应类型，未误挂 redox；但若后续扩展“乙烯被氧化”可考虑 redox 关联，当前无问题",
+          "fixHint": "无需修改",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.93
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "kp.organic.acetic",
+      "type": "knowledge",
+      "name": "乙酸结构与性质",
+      "batch": "batch6",
+      "dbId": "68",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "酸性强于碳酸（与碳酸盐放CO2）",
+          "issue": "该比较属教材常见结论，但自动出题若设计为强弱酸比较需给出对照实验或明确依据，避免仅凭记忆判题产生版本口径差异",
+          "fixHint": "出题时提供碳酸盐反应现象作为依据，或限定为教材结论性判断",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "食醋中含乙酸（了解）",
+          "issue": "了解层次内容，不宜作为核心考点自动出题",
+          "fixHint": "若出题仅作背景信息，不单独设问",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.97
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.organic.isomer_skill",
+      "type": "knowledge",
+      "name": "同分异构体书写技能",
+      "batch": "batch6",
+      "dbId": "69",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "高一以简单烷烃/烯烃/醇醚等基础题型为主",
+          "issue": "同分异构体书写在高中不同版本教材中呈现位置不同（有机化学基础选择性必修为主，必修阶段仅简单同分异构现象），'醇醚'等含氧官能团异构体书写可能超出高一必修核心范围，存在版本口径差异",
+          "fixHint": "明确限定为烷烃碳链异构与简单位置异构，含氧官能团异构体标注为拓展/选择性必修内容",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "autoQuestion",
+          "original": "有序列举，检查重复与遗漏",
+          "issue": "同分异构体书写题答案可能不唯一或数量存在争议（如是否计入立体异构、环状结构），自动判题易出现答案数量歧义",
+          "fixHint": "自动出题须限定分子式与异构类型（如'碳链异构'），并在题干明确不计立体异构，答案数量唯一",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.7
+      }
+    },
+    {
+      "code": "kp.inference.color",
+      "type": "knowledge",
+      "name": "颜色推断方法",
+      "batch": "batch6",
+      "dbId": "70",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "酸性KMnO4紫红、溴水橙红、Cu2+蓝、Fe3+黄棕",
+          "issue": "颜色描述基本合理，但“Fe3+黄棕”在稀溶液中通常呈黄色至棕黄色，表述略宽泛；“酸性KMnO4紫红”通常为紫红色，属可接受描述。",
+          "fixHint": "可保留，或更精确表述为“Fe3+（水溶液呈黄色至棕黄色）”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "酸性KMnO4紫红、溴水橙红、Cu2+蓝、Fe3+黄棕",
+          "issue": "颜色描述存在教材口径差异（如Fe3+溶液颜色常描述为棕黄/黄色，KMnO4为紫红色），不同版本表述不完全一致，作为推断突破口时颜色描述需谨慎",
+          "fixHint": "颜色描述采用教材通用表述，题干给出足够试剂条件，避免仅凭颜色单一武断推断",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "autoQuestion",
+          "original": "利用特征颜色作为突破口",
+          "issue": "颜色推断题常为多步推断，答案可能依赖题设条件组合，若条件不完整则答案不唯一，自动判题存在歧义风险",
+          "fixHint": "自动出题须保证题设试剂与现象条件完整、推断路径唯一；复杂多步推断仅作书面分析题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.85
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.65
+      }
+    },
+    {
+      "code": "kp.inference.block",
+      "type": "knowledge",
+      "name": "无机框图推断策略",
+      "batch": "batch6",
+      "dbId": "71",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "curriculumScopeHint",
+          "original": "null",
+          "issue": "无机框图推断属元素化合物综合应用的方法策略，非高一必修某一具体知识点；不同教材版本（人教版/苏教版/鲁科版）对推断题训练定位不同，是否作为必修核心要求存在版本差异",
+          "fixHint": "标注为拓展/方法策略类，不作为必修核心必考；若需精确课标定位需核对所用教材章节",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "注意过量与气体通入顺序对产物的影响",
+          "issue": "框图推断题常存在多组自洽答案（如多种突破口物质均可满足箭头关系），自动出题时标准答案可能不唯一，判题歧义风险高",
+          "fixHint": "自动出题须限定唯一突破口或给出充分约束条件；建议仅用于书面分析类，不用于自动判分的填空/计算",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "extension",
+        "rangeVerdict": "NEED_VERIFY_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.6
+      }
+    },
+    {
+      "code": "kp.comprehensive.basic",
+      "type": "knowledge",
+      "name": "基础综合解题框架",
+      "batch": "batch6",
+      "dbId": "73",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "curriculumScopeHint",
+          "original": "null",
+          "issue": "“基础综合解题框架”为通用学习方法论，非化学课标具体知识点，无法对应必修/选择性必修条目，课程范围只能判为拓展/方法类",
+          "fixHint": "明确标注为学习方法/策略类拓展内容，不作为知识点考核；或拆分为具体学科方法条目",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "综合题一般路径：审清已知与设问→定位知识模块…",
+          "issue": "内容为通用解题流程描述，缺乏可判定的唯一标准答案，不适合自动出题判分；仅可作方法提示",
+          "fixHint": "自动出题仅限方法辨析类单选/判断，禁止填空、计算、方程式等需唯一答案题型",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "extension",
+        "rangeVerdict": "NEED_VERIFY_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.55
+      }
+    },
+    {
+      "code": "kp.energy.bond_change",
+      "type": "knowledge",
+      "name": "化学键与能量变化",
+      "batch": "batch6",
+      "dbId": "74",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties/categories",
+          "original": "specialties:[comprehensive,structure]; categories:[comprehensive.basic,structure.covalent_bond,structure.ionic_bond]",
+          "issue": "条目核心为化学键与能量变化（断键吸热、成键放热），但分类偏向共价键/离子键结构辨析，专项关联与内容重心不完全匹配",
+          "fixHint": "保留 comprehensive.basic，增加能量变化相关专项；structure 键类型分类可保留但降权或注明为背景知识",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "不能仅凭是否加热判断",
+          "issue": "表述正确但自动出题若据此设计判断题需注意与'需加热的反应不一定吸热'等教材常见表述一致，避免歧义",
+          "fixHint": "出题时明确以断键/成键能量相对大小为准",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "eligible",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.energy.chem_electric",
+      "type": "knowledge",
+      "name": "化学能与电能",
+      "batch": "batch6",
+      "dbId": "75",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "电解则是电能转化为化学能（了解对比）",
+          "issue": "电解内容在必修阶段多为了解/拓展，若自动出题深入电解原理或电极反应式会超范围",
+          "fixHint": "出题限定在原电池能量转化与电子流向，电解仅作能量转化形式对比的判断题",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "redox.e_direction",
+          "issue": "电子转移方向与原电池电子流向易混淆，自动出题若涉及'电子经导线流向'需条件完整（外电路/内电路区分），否则判题歧义",
+          "fixHint": "出题明确外电路电子流向，避免内电路离子迁移与电子流向混问",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.93
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "kp.energy.galvanic",
+      "type": "knowledge",
+      "name": "原电池",
+      "batch": "batch6",
+      "dbId": "76",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"comprehensive\",\"redox\"]",
+          "issue": "原电池构成条件总论挂靠 redox 专项偏宽泛，易被机械关联到氧化还原反应本质题；本条核心是装置构成与能量转化",
+          "fixHint": "保留 comprehensive 主挂靠，redox 可保留但仅限电子方向类题，避免用于氧化还原配平/本质题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "一般需：自发氧化还原反应、电极、电解质溶液（或离子导体）、形成闭合回路",
+          "issue": "构成条件表述为“一般需”，存在教材口径差异（部分教材强调两个活泼性不同电极、部分强调离子导体），自动出题若以“必须两种不同金属”为判据会产生歧义",
+          "fixHint": "出题时避免以“必须/一定”类绝对化条件设问，或明确以题设条件为准",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.energy.galvanic_poles",
+      "type": "knowledge",
+      "name": "原电池正负极",
+      "batch": "batch6",
+      "dbId": "77",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "负极：发生氧化反应（失电子），通常是较活泼金属电极。",
+          "issue": "“通常是较活泼金属电极”表述偏窄，原电池负极也可为非金属（如燃料电池中燃料在负极被氧化），但已用“通常”限定，不构成明确错误。",
+          "fixHint": "可补充“负极材料不限于金属，如燃料电池中燃料气在负极失电子”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "负极：发生氧化反应（失电子），通常是较活泼金属电极",
+          "issue": "“通常是较活泼金属电极”为经验性表述，存在反例（如燃料电池、金属-非金属电极），自动出题若据此设绝对判断会歧义",
+          "fixHint": "出题以“失电子/氧化反应”为判据，避免仅凭金属活泼性判断正负极",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.energy.chem_power",
+      "type": "knowledge",
+      "name": "常见化学电源",
+      "batch": "batch6",
+      "dbId": "80",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties",
+          "original": "[\"comprehensive\",\"memory\"]",
+          "issue": "专项标签过于泛化，未体现化学电源/电化学主题，存在关键词机械挂靠风险",
+          "fixHint": "改为与电化学/能源相关专项，或明确标注为识记了解级；避免仅用 comprehensive",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "了解常见化学电源（如干电池、蓄电池、锂电池等名称与用途层次，以教材为准）",
+          "issue": "“以教材为准”导致具体电源种类、电极材料口径随版本差异，自动出题若考具体电极反应或材料细节易超纲/歧义",
+          "fixHint": "自动出题仅限名称-用途匹配、一次电池/二次电池分类等了解级判断；禁止考具体电极反应式与材料细节",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.72
+      }
+    },
+    {
+      "code": "exp.galvanic_Zn_Cu",
+      "type": "experiment",
+      "name": "铜锌原电池实验",
+      "batch": "batch6",
+      "dbId": "42",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "principle",
+          "original": "正极通常Cu2++2e-=Cu；正极通常2H++2e-=H2↑",
+          "issue": "“通常”表述略含糊，但已明确按题设电解质判断，未把特定条件产物写成无条件唯一产物，不构成科学错误。",
+          "fixHint": "可改为“电解质为CuSO4时正极反应为Cu2++2e-=Cu；电解质为稀H2SO4时正极反应为2H++2e-=H2↑”，并保留按题设判断的提示。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "principle",
+          "original": "正极还原反应取决于电解质：①CuSO4时Cu2++2e-=Cu；②稀H2SO4时2H++2e-=H2↑",
+          "issue": "涉及电极反应式书写，属选择性必修/拓展深度；若自动出题要求写电极反应式则超出必修第二册核心要求",
+          "fixHint": "必修范围自动出题仅考电子流向、离子迁移方向、正负极判断、现象描述；电极反应式书写列为禁止或仅作拓展不作自动判题",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "reagents",
+          "original": "CuSO4溶液或稀H2SO4（题设二选一或对照）",
+          "issue": "两种电解质正极反应不同，若题干未明确电解质则标准答案不唯一",
+          "fixHint": "自动出题题干必须明确指定电解质体系，否则判为歧义",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.92
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "kp.energy.thermo_eq",
+      "type": "knowledge",
+      "name": "热化学方程式书写",
+      "batch": "batch6",
+      "dbId": "81",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "给出ΔH（符号与单位口径随教材）",
+          "issue": "表述“符号与单位口径随教材”过于模糊，未明确ΔH单位为kJ·mol⁻¹（或kJ/mol）且放热为负、吸热为正的通用规范；作为知识条目宜给出明确口径，避免不同教材版本差异导致歧义。",
+          "fixHint": "建议明确：ΔH单位为kJ·mol⁻¹，放热反应ΔH<0，吸热反应ΔH>0；并说明计量数与ΔH数值对应。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "ΔH（符号与单位口径随教材）",
+          "issue": "ΔH 符号与单位表述为“随教材”，存在版本口径差异（放热为负、单位 kJ·mol⁻¹ 的书写位置），自动判题时若标准答案未固定口径易产生歧义",
+          "fixHint": "在标准答案中明确 ΔH 的符号约定与单位写法，或将该类题设为人工复核",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "comprehensive",
+          "issue": "comprehensive 专项与热化学方程式书写关联较弱，疑似关键词机械挂靠",
+          "fixHint": "确认是否保留 comprehensive，或改为更贴切的 equation 专项",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.85
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.8
+      }
+    },
+    {
+      "code": "kp.sustain.seawater",
+      "type": "knowledge",
+      "name": "海水资源开发",
+      "batch": "batch6",
+      "dbId": "82",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "深度以教材案例为准",
+          "issue": "海水资源开发为“了解”层次，教材案例（淡化、提镁、提溴等）版本差异较大，自动出题若涉及具体流程/产物易超纲或与某版本不符",
+          "fixHint": "出题限于教材通用结论（如海水含NaCl、镁、溴，淡化意义），避免具体工艺流程细节",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "comprehensive",
+          "issue": "comprehensive 与海水资源开发关联弱，疑似机械挂靠",
+          "fixHint": "核实是否保留 comprehensive 专项",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.75
+      }
+    },
+    {
+      "code": "kp.sustain.natural_gas",
+      "type": "knowledge",
+      "name": "天然气利用",
+      "batch": "batch6",
+      "dbId": "87",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "specialties/categories",
+          "original": "specialties:[comprehensive,organic]; categories:[comprehensive.basic,organic.methane]",
+          "issue": "条目为资源利用常识，非甲烷性质专项，organic.methane 关联偏机械",
+          "fixHint": "移除或弱化 organic.methane，仅保留 comprehensive.basic",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "注意安全使用与碳中和背景认知（教材层次）",
+          "issue": "“碳中和背景认知”表述宽泛，若据此出题易超出教材明确口径",
+          "fixHint": "出题限定在成分、燃料属性、清洁性等明确点",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.75
+      }
+    },
+    {
+      "code": "kp.sustain.food_additive",
+      "type": "knowledge",
+      "name": "食品添加剂",
+      "batch": "batch6",
+      "dbId": "91",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "食品添加剂在规定范围与剂量内可改善食品品质；应正确认识“合法合规使用”与安全，抵制非法添加。",
+          "issue": "属常识性/素养性内容，缺乏可量化、唯一标准答案的化学知识点，自动出题易出现主观判断或版本口径差异（如具体添加剂品种、限量标准不在教材范围）。",
+          "fixHint": "自动出题限定为概念辨析型单选/判断/填空，避免涉及具体限量数值与法规条款；题干须给出明确判断依据。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.72
+      }
+    },
+    {
+      "code": "kp.enviro.pollution",
+      "type": "knowledge",
+      "name": "环境污染与防治认知",
+      "batch": "batch6",
+      "dbId": "92",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "认识大气污染、水污染、土壤污染等类型及防治思路……结合硫氧化物、氮氧化物、塑料等教材案例。",
+          "issue": "内容偏综合素养与案例认知，标准答案开放性较强；若自动出题涉及具体污染物治理反应或原理，可能超出必修要求或产生多答案。",
+          "fixHint": "自动出题限定为污染类型识别、防治思路辨析类客观题；涉及具体化学反应时须核对教材是否要求，避免开放式简答自动判题。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.7
+      }
+    },
+    {
+      "code": "kp.enviro.acid_rain",
+      "type": "knowledge",
+      "name": "酸雨",
+      "batch": "batch6",
+      "dbId": "93",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "酸雨主要与SO2、NOx等排放有关",
+          "issue": "未给出酸雨的定义性判据（pH<5.6），仅描述成因，作为知识条目定义不完整；但表述本身无科学错误",
+          "fixHint": "建议补充“pH<5.6的降水称为酸雨”这一定义性限定",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "categories",
+          "original": "substance.chem_property",
+          "issue": "酸雨为环境现象与综合应用，挂到物质化学性质分类易导致出题偏向单一物质性质，与条目描述（SO2/NOx 排放、酸化、防治）不完全匹配",
+          "fixHint": "改为 comprehensive.basic 或环境专题分类，去掉 substance.chem_property 或改为 substance.environment 类",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "酸雨主要与SO2、NOx等排放有关",
+          "issue": "描述正确但较简略，未说明正常雨水pH<5.6的判据；若出题涉及pH阈值需补充口径，否则易产生判题歧义",
+          "fixHint": "补充‘pH<5.6’判据或明确不考具体阈值",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.82
+      }
+    },
+    {
+      "code": "concept.addition_polymer",
+      "type": "concept",
+      "name": "加成聚合",
+      "batch": "batch6",
+      "dbId": "36",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "definition",
+          "original": "不饱和单体通过加成的方式互相结合成为高分子化合物的反应，叫做加成聚合反应（加聚）。",
+          "issue": "定义基本正确，但“加成聚合”与“加聚”的命名、以及单体需含不饱和键（如C=C）的表述在部分教材中口径略有差异；作为概念条目可接受，但自动出题若要求写聚合方程式或判断具体单体是否可加聚，可能因教材表述差异产生歧义。",
+          "fixHint": "定义中可补充“含碳碳双键等不饱和键的单体”，并明确仅作概念了解，不要求书写复杂聚合反应方程式。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"organic\"]",
+          "issue": "专项挂靠合理，未误挂 redox；categories 中 organic.addition 与 organic.basic 与内容匹配。",
+          "fixHint": "无需修改。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.95
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "familiar",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.82
+      }
+    },
+    {
+      "code": "kp.calc.gas",
+      "type": "knowledge",
+      "name": "气体相关计算",
+      "batch": "batch5",
+      "dbId": "57",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P3",
+          "field": "description",
+          "original": "未指明标况、或非常温常压默认，都不得使用22.4",
+          "issue": "“非常温常压默认”表述含混，易被误读为常温常压是默认条件；实际含义应为“未指明标况时不得使用22.4”，与常温常压无关。",
+          "fixHint": "改为“未指明标准状况时不得使用22.4 L/mol；常温常压（非标况）下Vm不等于22.4 L/mol”。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "A"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "仅当题目明确标准状况（标况，教材定义的0℃、101 kPa）时，才可用 Vm≈22.4 L/mol",
+          "issue": "标况定义（0℃、101 kPa）与教材常用表述一致，但部分教材用 101.325 kPa 或写作“标准状况下”；自动出题若题干未明确标注“标准状况”，学生可能误用22.4，判题需严格依赖题干条件完整性。",
+          "fixHint": "自动出题题干必须显式写明“标准状况”或给出温度压强；避免默认常温常压。",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "categories",
+          "original": "[]",
+          "issue": "categories 为空，但 specialties 为 calculation，专项挂靠合理，未误挂 redox。",
+          "fixHint": "可补充 calculation.gas 类目以便检索，非必须。",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.9
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.85
+      }
+    },
+    {
+      "code": "kp.exp.error",
+      "type": "knowledge",
+      "name": "实验误差分析",
+      "batch": "batch5",
+      "dbId": "60",
+      "conclusion": "NEEDS_VERIFICATION",
+      "knowledgePublishCandidate": "no",
+      "autoQuestionEligibility": "restricted",
+      "severity": "P2",
+      "reasons": [
+        "存在课程范围争议、依据不足或需教材核实"
+      ],
+      "problems": [
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "⑥超过刻度线后用胶头滴管吸出部分溶液→溶质与溶剂同时损失，n偏小→c通常偏小",
+          "issue": "“吸出部分溶液”后c的偏向依赖吸出量与超出量的相对关系，严格说不能唯一判定为偏小；描述用“通常”已弱化，但作为自动判题标准答案仍可能产生歧义",
+          "fixHint": "改为“c偏小（吸出液含溶质，n减小；若仅吸出少量且体积仍略大于刻度，结论需结合具体数据，一般判偏小）”或将该情形排除出自动判题",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P2",
+          "field": "description",
+          "original": "④溶解未冷却即定容→冷却后液面低于刻度→V偏小→c偏大",
+          "issue": "热溶液定容后冷却体积收缩，但“液面低于刻度”是否需再加水至刻度属操作后续，不同教材表述略有差异；作为判断题需明确“不再加水”的前提",
+          "fixHint": "补充“冷却后不再补加水”的条件限定，避免多解",
+          "needsTextbookCheck": true,
+          "affectsPublish": false,
+          "affectsAutoQuestion": true,
+          "round": "B"
+        },
+        {
+          "level": "P3",
+          "field": "specialties",
+          "original": "[\"experiment\"]",
+          "issue": "专项挂靠合理（误差分析属实验范畴），未误挂 redox；categories 为空可接受",
+          "fixHint": "无需修改",
+          "needsTextbookCheck": false,
+          "affectsPublish": false,
+          "affectsAutoQuestion": false,
+          "round": "B"
+        }
+      ],
+      "roundA": {
+        "status": "ok",
+        "scienceVerdict": "PASS_SCIENCE",
+        "confidence": 0.98
+      },
+      "roundB": {
+        "status": "ok",
+        "curriculumScope": "core",
+        "rangeVerdict": "OK_RANGE",
+        "autoQuestionEligibility": "restricted",
+        "confidence": 0.82
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "generatedAt": "2026-10-20T01:19:19.829Z",
+  "ok": true,
+  "checks": [
+    {
+      "name": "s60_raise_exists",
+      "pass": true,
+      "detail": "train.ai_trial.s60.S60.calculation.01"
+    },
+    {
+      "name": "s60_challenge_exists",
+      "pass": true,
+      "detail": "train.ai_trial.s60.S60.calculation.03"
+    },
+    {
+      "name": "api_up",
+      "pass": true,
+      "detail": "status=200"
+    },
+    {
+      "name": "nogrant_forbidden",
+      "pass": true,
+      "detail": "status=403"
+    },
+    {
+      "name": "dhm_raise_availability",
+      "pass": true,
+      "detail": "count=6"
+    },
+    {
+      "name": "dhm_challenge_availability",
+      "pass": true,
+      "detail": "count=3"
+    },
+    {
+      "name": "smoke_raise_session",
+      "pass": true,
+      "detail": "id=26"
+    },
+    {
+      "name": "smoke_session_contains_s60",
+      "pass": true,
+      "detail": "s60=4/6"
+    },
+    {
+      "name": "smoke_submit_ok",
+      "pass": true,
+      "detail": "status=201"
+    },
+    {
+      "name": "smoke_analysis_seven_parts",
+      "pass": true,
+      "detail": "train.ai_trial.s60.S60.calculation.04 【考查知识点】过量判断、方程式计量\n【突破口】先比较谁过量，再用不足量计算\n【关键条件】两反应物都给定量；必须判断限制反"
+    },
+    {
+      "name": "smoke_grade_present",
+      "pass": true,
+      "detail": "grade=correct"
+    },
+    {
+      "name": "smoke_s60_correct_when_answered",
+      "pass": true,
+      "detail": "grade=correct"
+    },
+    {
+      "name": "smoke_challenge_session",
+      "pass": true,
+      "detail": "id=27 s60=3/3"
+    },
+    {
+      "name": "daily_no_s60_or_exclude",
+      "pass": true,
+      "detail": "status=201 items=10"
+    },
+    {
+      "name": "formal_pool_still_zero",
+      "pass": true,
+      "detail": "formal=0"
+    }
+  ],
+  "challengeSessionId": "27",
+  "dailySessionId": "28",
+  "dailyItemCodes": [
+    "train.ai_trial.pa.sub_color_judge.sub.FeSO4",
+    "train.ai_trial.pa.kp_misconception_judge.kp.Fe.salt",
+    "train.ai_trial.pa.kp_fact_judge.kp.calc.gas",
+    "train.ai_trial.pa.kp_fact_judge.kp.exp.design",
+    "train.ai_trial.pa.el_symbol_single.el.Al",
+    "train.ai_trial.pa.kp_fact_judge.kp.metal.activity",
+    "train.ai_trial.pa.kp_fact_judge.kp.calc.excess",
+    "train.ai_trial.pa.kp_fact_judge.kp.calc.stoich",
+    "train.ai_trial.pa.kp_misconception_judge.kp.Fe.fe2_property",
+    "train.ai_trial.pa.kp_fact_judge.kp.calc.amount"
+  ],
+  "dailyEligibleTest": 574,
+  "raiseSessionId": "26",
+  "smokeUserEmail": "chem_s60_smoke@local.test",
+  "noGrantUserEmail": "chem_s60_nogrant@local.test"
+}

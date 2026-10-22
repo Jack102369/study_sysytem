@@ -1,0 +1,270 @@
+[
+  {
+    "kind": "same_name_multi_code",
+    "name": "碳",
+    "codes": [
+      "el.C",
+      "sub.C"
+    ],
+    "batches": [
+      "batch2",
+      "batch4"
+    ],
+    "types": [
+      "element",
+      "substance"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "钠",
+    "codes": [
+      "el.Na",
+      "sub.Na"
+    ],
+    "batches": [
+      "batch2",
+      "batch3"
+    ],
+    "types": [
+      "element",
+      "substance"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "镁",
+    "codes": [
+      "el.Mg",
+      "sub.Mg"
+    ],
+    "batches": [
+      "batch2",
+      "batch3"
+    ],
+    "types": [
+      "element",
+      "substance"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "铝",
+    "codes": [
+      "el.Al",
+      "sub.Al"
+    ],
+    "batches": [
+      "batch2",
+      "batch3"
+    ],
+    "types": [
+      "element",
+      "substance"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "硅",
+    "codes": [
+      "el.Si",
+      "sub.Si"
+    ],
+    "batches": [
+      "batch2",
+      "batch4"
+    ],
+    "types": [
+      "element",
+      "substance"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "硫",
+    "codes": [
+      "el.S",
+      "sub.S"
+    ],
+    "batches": [
+      "batch2",
+      "batch4"
+    ],
+    "types": [
+      "element",
+      "substance"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "铁",
+    "codes": [
+      "el.Fe",
+      "sub.Fe"
+    ],
+    "batches": [
+      "batch2",
+      "batch3"
+    ],
+    "types": [
+      "element",
+      "substance"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "铜",
+    "codes": [
+      "el.Cu",
+      "sub.Cu"
+    ],
+    "batches": [
+      "batch2",
+      "batch3"
+    ],
+    "types": [
+      "element",
+      "substance"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "锌",
+    "codes": [
+      "el.Zn",
+      "sub.Zn"
+    ],
+    "batches": [
+      "batch2",
+      "batch3"
+    ],
+    "types": [
+      "element",
+      "substance"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "银",
+    "codes": [
+      "el.Ag",
+      "sub.Ag"
+    ],
+    "batches": [
+      "batch2",
+      "batch3"
+    ],
+    "types": [
+      "element",
+      "substance"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "碘",
+    "codes": [
+      "el.I",
+      "sub.I2"
+    ],
+    "batches": [
+      "batch2",
+      "batch4"
+    ],
+    "types": [
+      "element",
+      "substance"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "溴",
+    "codes": [
+      "el.Br",
+      "sub.Br2"
+    ],
+    "batches": [
+      "batch2",
+      "batch4"
+    ],
+    "types": [
+      "element",
+      "substance"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "氧化还原反应",
+    "codes": [
+      "concept.redox",
+      "kp.redox"
+    ],
+    "batches": [
+      "batch2"
+    ],
+    "types": [
+      "concept",
+      "knowledge"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "电子守恒",
+    "codes": [
+      "concept.electron_conserve",
+      "kp.redox.e_conserve"
+    ],
+    "batches": [
+      "batch2"
+    ],
+    "types": [
+      "concept",
+      "knowledge"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "物质的量浓度",
+    "codes": [
+      "formula.c_n_V",
+      "kp.calc.concentration"
+    ],
+    "batches": [
+      "batch2"
+    ],
+    "types": [
+      "formula",
+      "knowledge"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  },
+  {
+    "kind": "same_name_multi_code",
+    "name": "乙醇催化氧化",
+    "codes": [
+      "rxn.C2H5OH_O2",
+      "exp.ethanol_oxid"
+    ],
+    "batches": [
+      "batch6"
+    ],
+    "types": [
+      "reaction",
+      "experiment"
+    ],
+    "detail": "同名多编码，检查是否重复建设或合理分型"
+  }
+]

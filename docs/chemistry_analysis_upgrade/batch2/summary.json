@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-10-20T02:39:13.333Z",
+  "readonly": true,
+  "noDbWrite": true,
+  "selected": 120,
+  "selection": {
+    "count": 120,
+    "specialtyCount": 11,
+    "specialties": [
+      "equation",
+      "redox",
+      "ion",
+      "calculation",
+      "experiment",
+      "substance",
+      "memory",
+      "periodic",
+      "structure",
+      "organic",
+      "comprehensive"
+    ],
+    "bySpecialty": {
+      "equation": 28,
+      "redox": 36,
+      "ion": 9,
+      "calculation": 3,
+      "experiment": 4,
+      "substance": 9,
+      "memory": 10,
+      "periodic": 8,
+      "structure": 3,
+      "organic": 1,
+      "comprehensive": 9
+    },
+    "basicCount": 72,
+    "raiseCount": 48,
+    "gradeACount": 106,
+    "excludedBatch1": true,
+    "excludedTruncatedStems": true,
+    "excluded215_250": true
+  },
+  "candidates": 120,
+  "preRemediationGradeCount": {
+    "PASS": 82,
+    "NEEDS_FIX": 34,
+    "HOLD": 4,
+    "REJECT": 0
+  },
+  "finalGradeCount": {
+    "PASS": 116,
+    "NEEDS_FIX": 0,
+    "HOLD": 4,
+    "REJECT": 0
+  },
+  "whitelistCount": 116,
+  "dryRun": {
+    "wouldUpdate": 116,
+    "skipCount": 0,
+    "conflictCount": 0
+  },
+  "risks": {
+    "truncatedExcluded": 26,
+    "batch1Excluded": 48,
+    "report215_250": "docs/CHEMISTRY_QUESTION_215_250_RISK_REPORT.md"
+  },
+  "deepseek": {
+    "skipped": false,
+    "reviewed": 120,
+    "failed": 0
+  },
+  "outputs": [
+    "selected120.json",
+    "candidates120.json",
+    "quality_results.json",
+    "question_risks.json",
+    "whitelist.json",
+    "dryrun.json",
+    "batch2_backup/"
+  ],
+  "holdFix": {
+    "forcedHold": 4,
+    "note": "HOLD/DeepSeek science-answer risk excluded from whitelist"
+  }
+}

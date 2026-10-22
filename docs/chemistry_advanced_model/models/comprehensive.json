@@ -1,0 +1,330 @@
+[
+  {
+    "id": "ADV.comprehensive.001",
+    "name": "计算+氧化还原—计量与电子转移联合",
+    "specialtyCode": "comprehensive",
+    "specialtyName": "化学综合训练",
+    "categoryCodes": ["basic", "cross_calc_redox"],
+    "knowledgePoints": ["方程式计算", "电子转移"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["跨知识点衔接", "选突破口"],
+    "stemStructure": "给反应与已知量→先求n再问转移电子",
+    "variableConditions": ["反应", "设问组合"],
+    "reasoningSteps": ["完成计量", "再算电子", "回答"],
+    "breakthrough": "先算清楚物质的量，再谈电子",
+    "coreMethods": ["分步综合"],
+    "commonErrors": ["未求n直接猜电子"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["两问串联选一"],
+      "challenge": ["加入过量判断再问电子"]
+    },
+    "dedupRules": ["同反应同设问链仅改数=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "2Na+Cl₂=2NaCl。消耗2 mol Na完全反应时，转移电子为",
+        "options": [
+          { "key": "A", "text": "1 mol" },
+          { "key": "B", "text": "2 mol" },
+          { "key": "C", "text": "3 mol" },
+          { "key": "D", "text": "4 mol" }
+        ],
+        "answer": "B",
+        "steps": ["2 mol Na失2 mol e⁻"],
+        "coreMethod": "计量与电子衔接",
+        "commonMistakes": ["答1 mol"],
+        "knowledgePoints": ["电子转移", "计量"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "同上反应，若Na过量、Cl₂为0.5 mol且完全反应，转移电子为",
+        "options": [
+          { "key": "A", "text": "0.5 mol" },
+          { "key": "B", "text": "1 mol" },
+          { "key": "C", "text": "2 mol" },
+          { "key": "D", "text": "4 mol" }
+        ],
+        "answer": "B",
+        "steps": ["以Cl₂ 0.5 mol计得1 mol e⁻"],
+        "coreMethod": "过量判断+电子",
+        "commonMistakes": ["按Na算"],
+        "knowledgePoints": ["过量", "电子转移"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.comprehensive.002",
+    "name": "实验+物质性质—现象解释",
+    "specialtyCode": "comprehensive",
+    "specialtyName": "化学综合训练",
+    "categoryCodes": ["basic", "cross_exp_property"],
+    "knowledgePoints": ["实验现象", "物质性质"],
+    "difficulties": ["raise"],
+    "abilities": ["用性质解释现象"],
+    "stemStructure": "给实验操作与现象→选正确解释",
+    "variableConditions": ["试剂", "现象"],
+    "reasoningSteps": ["确认现象", "匹配性质", "排除干扰"],
+    "breakthrough": "解释必须同时符合试剂与现象",
+    "coreMethods": ["性质-现象对应"],
+    "commonErrors": ["用错性质"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "low", "curriculum": "必修", "notes": "" },
+    "variantDirections": { "raise": ["改试剂现象对"], "challenge": [] },
+    "dedupRules": ["同试剂同现象同解释点=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "钠投入水中熔成小球并四处游动，主要因为",
+        "options": [
+          { "key": "A", "text": "钠密度小于水且反应放热使钠熔化，氢气推动" },
+          { "key": "B", "text": "钠密度远大于水" },
+          { "key": "C", "text": "钠不与水反应" },
+          { "key": "D", "text": "生成氧气推动" }
+        ],
+        "answer": "A",
+        "steps": ["密度小浮于水面", "放热熔化", "生成H₂推动"],
+        "coreMethod": "性质综合解释现象",
+        "commonMistakes": ["选B"],
+        "knowledgePoints": ["钠的性质"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.comprehensive.003",
+    "name": "离子反应+实验现象—鉴别综合",
+    "specialtyCode": "comprehensive",
+    "specialtyName": "化学综合训练",
+    "categoryCodes": ["basic", "cross_ion_exp"],
+    "knowledgePoints": ["离子检验", "实验现象"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["选择试剂", "解释现象"],
+    "stemStructure": "要鉴别离子→选试剂与预期现象",
+    "variableConditions": ["待检离子组"],
+    "reasoningSteps": ["选特征试剂", "预期现象", "排除干扰"],
+    "breakthrough": "选现象差异最大的试剂",
+    "coreMethods": ["鉴别设计"],
+    "commonErrors": ["试剂无区分度"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": "optional" },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["二选一试剂"],
+      "challenge": ["多种离子鉴别顺序"]
+    },
+    "dedupRules": ["同离子组同试剂方案=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "鉴别Cl⁻与SO₄²⁻，选用试剂更合适的是",
+        "options": [
+          { "key": "A", "text": "AgNO₃溶液和稀硝酸" },
+          { "key": "B", "text": "只加水" },
+          { "key": "C", "text": "酚酞" },
+          { "key": "D", "text": "石蕊" }
+        ],
+        "answer": "A",
+        "steps": ["AgCl沉淀、Ag₂SO₄相对可溶或结合Ba²⁺更典型；选项中A可形成区分路径"],
+        "coreMethod": "沉淀鉴别",
+        "commonMistakes": ["选指示剂"],
+        "knowledgePoints": ["离子鉴别"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "若要确认白色沉淀是否为AgCl，下一步更合理的是",
+        "options": [
+          { "key": "A", "text": "观察是否溶于稀硝酸（AgCl不溶）" },
+          { "key": "B", "text": "加热至沸腾即可确认" },
+          { "key": "C", "text": "加水稀释必溶" },
+          { "key": "D", "text": "无需验证" }
+        ],
+        "answer": "A",
+        "steps": ["AgCl不溶于稀硝酸是重要判据"],
+        "coreMethod": "沉淀验证",
+        "commonMistakes": ["选B"],
+        "knowledgePoints": ["AgCl性质"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.comprehensive.004",
+    "name": "推断+方程式—转化中写关键反应类型",
+    "specialtyCode": "comprehensive",
+    "specialtyName": "化学综合训练",
+    "categoryCodes": ["basic", "cross_infer_eq"],
+    "knowledgePoints": ["物质推断", "反应类型"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["推断后归类反应"],
+    "stemStructure": "短转化→判断某步反应类型或产物",
+    "variableConditions": ["转化链"],
+    "reasoningSteps": ["推断物质", "判断反应类型"],
+    "breakthrough": "先定物质再定类型",
+    "coreMethods": ["推断+归类"],
+    "commonErrors": ["未定物质就选类型"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": false },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["问产物"],
+      "challenge": ["问反应类型+理由要点"]
+    },
+    "dedupRules": ["同转化同设问=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "S燃烧生成SO₂。该反应属于",
+        "options": [
+          { "key": "A", "text": "化合反应且氧化还原反应" },
+          { "key": "B", "text": "复分解反应" },
+          { "key": "C", "text": "非氧化还原" },
+          { "key": "D", "text": "只有物理变化" }
+        ],
+        "answer": "A",
+        "steps": ["S+O₂→SO₂为化合", "S、O化合价变化为氧化还原"],
+        "coreMethod": "类型双重判断",
+        "commonMistakes": ["只看成化合忽略氧化还原"],
+        "knowledgePoints": ["反应类型", "氧化还原"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "若继续：SO₂→SO₃（催化氧化），关于该步正确的是",
+        "options": [
+          { "key": "A", "text": "S元素化合价升高，SO₂表现还原性" },
+          { "key": "B", "text": "非氧化还原" },
+          { "key": "C", "text": "S化合价降低" },
+          { "key": "D", "text": "一定是复分解" }
+        ],
+        "answer": "A",
+        "steps": ["SO₂中S为+4，SO₃中为+6，升高失电子，SO₂作还原剂"],
+        "coreMethod": "转化中的氧化还原分析",
+        "commonMistakes": ["选C"],
+        "knowledgePoints": ["氧化还原", "硫的氧化物"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.comprehensive.005",
+    "name": "数据+文字—信息综合判断",
+    "specialtyCode": "comprehensive",
+    "specialtyName": "化学综合训练",
+    "categoryCodes": ["basic", "data_text"],
+    "knowledgePoints": ["读表", "概念应用"],
+    "difficulties": ["raise", "challenge"],
+    "abilities": ["筛选信息", "综合判断"],
+    "stemStructure": "短表+文字条件→单选结论",
+    "variableConditions": ["表内容", "设问"],
+    "reasoningSteps": ["读有效数据", "结合概念", "选结论"],
+    "breakthrough": "先丢掉无关数据",
+    "coreMethods": ["信息筛选"],
+    "commonErrors": ["被冗余数据误导"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "local_rule", "aiAssist": "optional" },
+    "scienceRisk": { "level": "low", "curriculum": "必修", "notes": "" },
+    "variantDirections": {
+      "raise": ["表内直接计算"],
+      "challenge": ["冗余列干扰"]
+    },
+    "dedupRules": ["同表结构同结论=重复"],
+    "productionStatus": "READY",
+    "priorityBatch1": true,
+    "notes": "",
+    "samples": [
+      {
+        "difficulty": "raise",
+        "qtype": "single",
+        "stem": "表：样品质量10.0 g；碳元素质量2.4 g。若其余为杂质不含碳，样品中碳的质量分数为",
+        "options": [
+          { "key": "A", "text": "12%" },
+          { "key": "B", "text": "24%" },
+          { "key": "C", "text": "48%" },
+          { "key": "D", "text": "76%" }
+        ],
+        "answer": "B",
+        "steps": ["2.4/10.0=24%"],
+        "coreMethod": "质量分数定义",
+        "commonMistakes": ["选12%"],
+        "knowledgePoints": ["组成计算"]
+      },
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "同上另给“灰分3.0 g、水分0.5 g”。求碳质量分数时",
+        "options": [
+          { "key": "A", "text": "仍用碳质量/样品总质量" },
+          { "key": "B", "text": "必须先减去灰分再算" },
+          { "key": "C", "text": "水分必须计入碳" },
+          { "key": "D", "text": "无法计算" }
+        ],
+        "answer": "A",
+        "steps": ["题目求样品中碳的质量分数，分母仍为样品总质量"],
+        "coreMethod": "识别冗余信息",
+        "commonMistakes": ["选B"],
+        "knowledgePoints": ["信息筛选"]
+      }
+    ]
+  },
+  {
+    "id": "ADV.comprehensive.006",
+    "name": "多知识点策略选择—先做什么",
+    "specialtyCode": "comprehensive",
+    "specialtyName": "化学综合训练",
+    "categoryCodes": ["basic", "strategy"],
+    "knowledgePoints": ["解题策略", "跨章概念"],
+    "difficulties": ["challenge"],
+    "abilities": ["选择突破口"],
+    "stemStructure": "复杂情境→选择第一步最合理分析",
+    "variableConditions": ["情境类型"],
+    "reasoningSteps": ["识别题型", "选突破口", "排除无效第一步"],
+    "breakthrough": "先定性/先守恒/先标价等策略匹配",
+    "coreMethods": ["策略元认知"],
+    "commonErrors": ["上来就硬算"],
+    "grading": { "modes": ["single"] },
+    "generation": { "primary": "ai_assist", "aiAssist": true },
+    "scienceRisk": { "level": "medium", "curriculum": "必修", "notes": "策略题需人工润色" },
+    "variantDirections": { "raise": [], "challenge": ["不同情境匹配不同突破口"] },
+    "dedupRules": ["同情境同正确策略=重复"],
+    "productionStatus": "NEEDS_ENGINE",
+    "priorityBatch1": false,
+    "notes": "生成质量控制依赖人工，适合后期小样",
+    "samples": [
+      {
+        "difficulty": "challenge",
+        "qtype": "single",
+        "stem": "题干同时给出两反应物质量与氧化还原反应。求解产物质量时，第一步最合理的是",
+        "options": [
+          { "key": "A", "text": "先做过量判断，确定限制反应物" },
+          { "key": "B", "text": "先随便用其中一个量计算" },
+          { "key": "C", "text": "先求电子转移再忽略计量" },
+          { "key": "D", "text": "先改写为离子方程式即可得质量" }
+        ],
+        "answer": "A",
+        "steps": ["两量给定必须先判断限制反应物"],
+        "coreMethod": "策略选择",
+        "commonMistakes": ["选B"],
+        "knowledgePoints": ["过量判断", "综合策略"]
+      }
+    ]
+  }
+]

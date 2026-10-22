@@ -1,0 +1,300 @@
+{
+  "whitelistTotal": 239,
+  "byType": {
+    "element": 24,
+    "concept": 21,
+    "formula": 10,
+    "knowledge": 74,
+    "substance": 24,
+    "reaction": 59,
+    "experiment": 27
+  },
+  "usedByType": {
+    "element": 12,
+    "concept": 3,
+    "formula": 2,
+    "knowledge": 3,
+    "reaction": 11,
+    "experiment": 1
+  },
+  "unusedByType": {
+    "element": 12,
+    "concept": 18,
+    "formula": 8,
+    "knowledge": 71,
+    "substance": 24,
+    "reaction": 48,
+    "experiment": 26
+  },
+  "usedTotal": 32,
+  "unusedTotal": 207,
+  "multiLinkCount": 19,
+  "multiLink": [
+    {
+      "code": "el.He",
+      "type": "element",
+      "n": 2
+    },
+    {
+      "code": "el.Li",
+      "type": "element",
+      "n": 2
+    },
+    {
+      "code": "el.Be",
+      "type": "element",
+      "n": 2
+    },
+    {
+      "code": "el.B",
+      "type": "element",
+      "n": 2
+    },
+    {
+      "code": "el.C",
+      "type": "element",
+      "n": 2
+    },
+    {
+      "code": "el.N",
+      "type": "element",
+      "n": 2
+    },
+    {
+      "code": "el.F",
+      "type": "element",
+      "n": 2
+    },
+    {
+      "code": "el.Ne",
+      "type": "element",
+      "n": 2
+    },
+    {
+      "code": "rxn.4Na_O2",
+      "type": "reaction",
+      "n": 2
+    },
+    {
+      "code": "rxn.2Na_O2_heat",
+      "type": "reaction",
+      "n": 2
+    },
+    {
+      "code": "rxn.Na2O_H2O",
+      "type": "reaction",
+      "n": 2
+    },
+    {
+      "code": "rxn.NaOH_HCl",
+      "type": "reaction",
+      "n": 2
+    },
+    {
+      "code": "rxn.NaHCO3_heat",
+      "type": "reaction",
+      "n": 2
+    },
+    {
+      "code": "rxn.Na2CO3_2HCl",
+      "type": "reaction",
+      "n": 2
+    },
+    {
+      "code": "rxn.2Mg_O2",
+      "type": "reaction",
+      "n": 2
+    },
+    {
+      "code": "rxn.Mg_2HCl",
+      "type": "reaction",
+      "n": 2
+    },
+    {
+      "code": "rxn.4Al_3O2",
+      "type": "reaction",
+      "n": 2
+    },
+    {
+      "code": "rxn.Al2O3_6HCl",
+      "type": "reaction",
+      "n": 2
+    },
+    {
+      "code": "rxn.AlOH3_3HCl",
+      "type": "reaction",
+      "n": 2
+    }
+  ],
+  "fixSkippedInWhitelist": [
+    "rxn.2Na2O2_2H2O",
+    "rxn.2Na2O2_2CO2",
+    "rxn.2Al_6HCl",
+    "rxn.3Fe_2O2",
+    "rxn.Fe_H2SO4",
+    "rxn.Cu_2H2SO4",
+    "rxn.C_2H2SO4",
+    "rxn.N2_3H2",
+    "rxn.Cu_4HNO3",
+    "rxn.Cu_4HNO3c",
+    "exp.CO2_prep_marble"
+  ],
+  "unusedByTypeSample": {
+    "element": [
+      "el.S",
+      "el.K",
+      "el.Ca",
+      "el.Fe",
+      "el.Cu",
+      "el.Zn",
+      "el.Ag",
+      "el.Ba"
+    ],
+    "concept": [
+      "concept.substance_class",
+      "concept.pure_mixture",
+      "concept.elemental_compound",
+      "concept.ionic_reaction",
+      "concept.ion_coexist",
+      "concept.oxidant_reductant",
+      "concept.periodic_law",
+      "concept.metal_trend"
+    ],
+    "formula": [
+      "formula.N_n_NA",
+      "formula.dilution",
+      "formula.M_m_n",
+      "formula.rho_c_M",
+      "formula.electron_transfer",
+      "formula.excess_reactant",
+      "formula.purity",
+      "formula.rate_v"
+    ],
+    "knowledge": [
+      "kp.redox.ox_product",
+      "kp.redox.e_transfer",
+      "kp.ion.electrolyte",
+      "kp.ion.ionization_eq",
+      "kp.ion.ionic_eq",
+      "kp.structure.atom",
+      "kp.structure.isotope",
+      "kp.structure.electron_formula"
+    ],
+    "substance": [
+      "sub.Al",
+      "sub.Fe",
+      "sub.Fe2O3",
+      "sub.Fe3O4",
+      "sub.FeOH3",
+      "sub.Cu",
+      "sub.CuO",
+      "sub.CuOH2"
+    ],
+    "reaction": [
+      "rxn.2Na2O2_2H2O",
+      "rxn.2Na2O2_2CO2",
+      "rxn.2Al_6HCl",
+      "rxn.3Fe_2O2",
+      "rxn.Fe_H2SO4",
+      "rxn.Fe_CuSO4",
+      "rxn.Fe2O3_3CO",
+      "rxn.Cu_O2_heat"
+    ],
+    "experiment": [
+      "exp.Na2O2_H2O",
+      "exp.Al_amphoteric",
+      "exp.metal_activity",
+      "exp.CuO_H2_reduce",
+      "exp.Cl2_prep",
+      "exp.Cl2_property",
+      "exp.ops_dissolve",
+      "exp.ops_filter"
+    ]
+  },
+  "uiEligibleDefaultFirstCatD1": [
+    {
+      "specialty": "equation",
+      "name": "化学方程式",
+      "firstCategory": "write_from_text",
+      "eligible": 2,
+      "mode": "exact_d1"
+    },
+    {
+      "specialty": "experiment",
+      "name": "化学实验",
+      "firstCategory": "instrument_id",
+      "eligible": 1,
+      "mode": "exact_d1"
+    },
+    {
+      "specialty": "substance",
+      "name": "化学物质性质",
+      "firstCategory": "name",
+      "eligible": 3,
+      "mode": "same_spec_fallback"
+    },
+    {
+      "specialty": "calculation",
+      "name": "化学计算",
+      "firstCategory": "atomic_mass",
+      "eligible": 1,
+      "mode": "exact_d1"
+    },
+    {
+      "specialty": "ion",
+      "name": "离子反应",
+      "firstCategory": "electrolyte",
+      "eligible": 2,
+      "mode": "exact_d1"
+    },
+    {
+      "specialty": "redox",
+      "name": "氧化还原反应",
+      "firstCategory": "valence",
+      "eligible": 13,
+      "mode": "same_spec_fallback"
+    },
+    {
+      "specialty": "periodic",
+      "name": "元素周期表",
+      "firstCategory": "elem_name",
+      "eligible": 3,
+      "mode": "exact_d1"
+    },
+    {
+      "specialty": "structure",
+      "name": "物质结构",
+      "firstCategory": "atom_compose",
+      "eligible": 3,
+      "mode": "exact_d1"
+    },
+    {
+      "specialty": "organic",
+      "name": "有机化学",
+      "firstCategory": "basic",
+      "eligible": 3,
+      "mode": "exact_d1"
+    },
+    {
+      "specialty": "inference",
+      "name": "化学推断",
+      "firstCategory": "color",
+      "eligible": 3,
+      "mode": "exact_d1"
+    },
+    {
+      "specialty": "memory",
+      "name": "化学基础记忆",
+      "firstCategory": "symbol",
+      "eligible": 22,
+      "mode": "exact_d1"
+    },
+    {
+      "specialty": "comprehensive",
+      "name": "化学综合训练",
+      "firstCategory": "basic",
+      "eligible": 3,
+      "mode": "exact_d1"
+    }
+  ]
+}

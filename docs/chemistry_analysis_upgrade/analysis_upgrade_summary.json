@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-10-20T02:06:28.485Z",
+  "readonly": true,
+  "oldEligibleCount": 574,
+  "analysisGradeDistribution": {
+    "A": 498,
+    "B": 75,
+    "C": 1,
+    "D": 0
+  },
+  "abilityDistribution": {
+    "1": 386,
+    "2": 93,
+    "3": 69,
+    "4": 26,
+    "5": 0
+  },
+  "difficultyInflatedCount": 86,
+  "sample50": {
+    "count": 50,
+    "specialtyCount": 10,
+    "specialties": [
+      "equation",
+      "redox",
+      "ion",
+      "calculation",
+      "experiment",
+      "substance",
+      "memory",
+      "inference",
+      "comprehensive",
+      "organic"
+    ],
+    "basicCount": 30,
+    "raiseCount": 20,
+    "gradeACount": 46,
+    "minSpecialtiesTarget": 8,
+    "specialtyCoverageOk": true,
+    "note": "已覆盖至少8个一级专项"
+  },
+  "sample50Quality": {
+    "PASS": 30,
+    "NEEDS_FIX": 17,
+    "HOLD": 3,
+    "REJECT": 0
+  },
+  "deepseekAssist": {
+    "skipped": false,
+    "reviewed": 50,
+    "failed": 0
+  },
+  "safeToUpdateLaterCount": 30,
+  "needsFixCount": 17,
+  "holdCount": 3,
+  "rejectCount": 0
+}

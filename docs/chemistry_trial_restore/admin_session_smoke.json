@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "adminFlow": "pass",
+  "sessionItems": 5,
+  "correct": 5,
+  "wrong": 0,
+  "pending": 0,
+  "pool": "test",
+  "countsFormalStats": 0,
+  "answerLeakInStem": 0,
+  "codes": [
+    "train.ai_trial.016.rxn_cond",
+    "train.ai_trial.018.rxn_cond",
+    "train.ai_trial.020.rxn_cond",
+    "train.ai_trial.022.rxn_cond",
+    "train.ai_trial.024.rxn_cond"
+  ]
+}

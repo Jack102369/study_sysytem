@@ -1,0 +1,1316 @@
+{
+  "total": 578,
+  "active": 574,
+  "inactive": 4,
+  "formalApprovedActive": 0,
+  "personalTrainable": 574,
+  "byDiffAll": [
+    {
+      "difficulty": 1,
+      "n": 411
+    },
+    {
+      "difficulty": 2,
+      "n": 167
+    }
+  ],
+  "byDiffActive": [
+    {
+      "difficulty": 1,
+      "n": 407
+    },
+    {
+      "difficulty": 2,
+      "n": 167
+    }
+  ],
+  "byDiffTrainable": [
+    {
+      "difficulty": 1,
+      "n": 407
+    },
+    {
+      "difficulty": 2,
+      "n": 167
+    }
+  ],
+  "byPool": [
+    {
+      "pool": "test",
+      "status": "approved",
+      "is_active": 0,
+      "n": 4
+    },
+    {
+      "pool": "test",
+      "status": "approved",
+      "is_active": 1,
+      "n": 574
+    }
+  ],
+  "bySpecialty": [
+    {
+      "code": "equation",
+      "name": "化学方程式",
+      "total": "219",
+      "active": "218",
+      "d1": "140",
+      "d2": "78",
+      "d3": "0",
+      "trainable": "218",
+      "train_d1": "140",
+      "train_d2": "78",
+      "train_d3": "0"
+    },
+    {
+      "code": "experiment",
+      "name": "化学实验",
+      "total": "7",
+      "active": "7",
+      "d1": "6",
+      "d2": "1",
+      "d3": "0",
+      "trainable": "7",
+      "train_d1": "6",
+      "train_d2": "1",
+      "train_d3": "0"
+    },
+    {
+      "code": "substance",
+      "name": "化学物质性质",
+      "total": "92",
+      "active": "92",
+      "d1": "82",
+      "d2": "10",
+      "d3": "0",
+      "trainable": "92",
+      "train_d1": "82",
+      "train_d2": "10",
+      "train_d3": "0"
+    },
+    {
+      "code": "calculation",
+      "name": "化学计算",
+      "total": "8",
+      "active": "8",
+      "d1": "5",
+      "d2": "3",
+      "d3": "0",
+      "trainable": "8",
+      "train_d1": "5",
+      "train_d2": "3",
+      "train_d3": "0"
+    },
+    {
+      "code": "ion",
+      "name": "离子反应",
+      "total": "18",
+      "active": "18",
+      "d1": "14",
+      "d2": "4",
+      "d3": "0",
+      "trainable": "18",
+      "train_d1": "14",
+      "train_d2": "4",
+      "train_d3": "0"
+    },
+    {
+      "code": "redox",
+      "name": "氧化还原反应",
+      "total": "111",
+      "active": "111",
+      "d1": "43",
+      "d2": "68",
+      "d3": "0",
+      "trainable": "111",
+      "train_d1": "43",
+      "train_d2": "68",
+      "train_d3": "0"
+    },
+    {
+      "code": "periodic",
+      "name": "元素周期表",
+      "total": "21",
+      "active": "21",
+      "d1": "21",
+      "d2": "0",
+      "d3": "0",
+      "trainable": "21",
+      "train_d1": "21",
+      "train_d2": "0",
+      "train_d3": "0"
+    },
+    {
+      "code": "structure",
+      "name": "物质结构",
+      "total": "3",
+      "active": "3",
+      "d1": "3",
+      "d2": "0",
+      "d3": "0",
+      "trainable": "3",
+      "train_d1": "3",
+      "train_d2": "0",
+      "train_d3": "0"
+    },
+    {
+      "code": "organic",
+      "name": "有机化学",
+      "total": "6",
+      "active": "6",
+      "d1": "6",
+      "d2": "0",
+      "d3": "0",
+      "trainable": "6",
+      "train_d1": "6",
+      "train_d2": "0",
+      "train_d3": "0"
+    },
+    {
+      "code": "inference",
+      "name": "化学推断",
+      "total": "2",
+      "active": "2",
+      "d1": "2",
+      "d2": "0",
+      "d3": "0",
+      "trainable": "2",
+      "train_d1": "2",
+      "train_d2": "0",
+      "train_d3": "0"
+    },
+    {
+      "code": "memory",
+      "name": "化学基础记忆",
+      "total": "68",
+      "active": "68",
+      "d1": "66",
+      "d2": "2",
+      "d3": "0",
+      "trainable": "68",
+      "train_d1": "66",
+      "train_d2": "2",
+      "train_d3": "0"
+    },
+    {
+      "code": "comprehensive",
+      "name": "化学综合训练",
+      "total": "23",
+      "active": "20",
+      "d1": "19",
+      "d2": "1",
+      "d3": "0",
+      "trainable": "20",
+      "train_d1": "19",
+      "train_d2": "1",
+      "train_d3": "0"
+    }
+  ],
+  "categoriesWithZeroTrainable": 103,
+  "categoriesTotal": 137,
+  "byCategoryTop": [
+    {
+      "specialty_code": "equation",
+      "category_code": "true_false",
+      "category_name": "方程式正误判断",
+      "total": 159,
+      "active": "158",
+      "trainable": "158",
+      "d1": "80",
+      "d2": "78",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "substance",
+      "category_code": "formula",
+      "category_name": "化学式",
+      "total": 49,
+      "active": "49",
+      "trainable": "49",
+      "d1": "49",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "condition",
+      "category_name": "反应条件",
+      "total": 48,
+      "active": "48",
+      "trainable": "48",
+      "d1": "48",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "memory",
+      "category_code": "symbol",
+      "category_name": "元素符号",
+      "total": 44,
+      "active": "44",
+      "trainable": "44",
+      "d1": "44",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "redox",
+      "category_code": "identify",
+      "category_name": "氧化还原反应识别",
+      "total": 41,
+      "active": "41",
+      "trainable": "41",
+      "d1": "36",
+      "d2": "5",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "redox",
+      "category_code": "oxidant",
+      "category_name": "氧化剂判断",
+      "total": 30,
+      "active": "30",
+      "trainable": "30",
+      "d1": "0",
+      "d2": "30",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "redox",
+      "category_code": "reductant",
+      "category_name": "还原剂判断",
+      "total": 30,
+      "active": "30",
+      "trainable": "30",
+      "d1": "0",
+      "d2": "30",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "substance",
+      "category_code": "usage",
+      "category_name": "物质用途",
+      "total": 24,
+      "active": "24",
+      "trainable": "24",
+      "d1": "24",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "periodic",
+      "category_code": "elem_name",
+      "category_name": "元素名称",
+      "total": 21,
+      "active": "21",
+      "trainable": "21",
+      "d1": "21",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "comprehensive",
+      "category_code": "basic",
+      "category_name": "基础综合",
+      "total": 23,
+      "active": "20",
+      "trainable": "20",
+      "d1": "19",
+      "d2": "1",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "memory",
+      "category_code": "color",
+      "category_name": "物质颜色",
+      "total": 19,
+      "active": "19",
+      "trainable": "19",
+      "d1": "19",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "ion",
+      "category_code": "electrolyte",
+      "category_name": "电解质判断",
+      "total": 17,
+      "active": "17",
+      "trainable": "17",
+      "d1": "13",
+      "d2": "4",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "substance",
+      "category_code": "chem_property",
+      "category_name": "化学性质",
+      "total": 11,
+      "active": "11",
+      "trainable": "11",
+      "d1": "1",
+      "d2": "10",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "redox",
+      "category_code": "e_conserve",
+      "category_name": "电子守恒",
+      "total": 10,
+      "active": "10",
+      "trainable": "10",
+      "d1": "7",
+      "d2": "3",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "experiment",
+      "category_code": "safety",
+      "category_name": "实验安全",
+      "total": 7,
+      "active": "7",
+      "trainable": "7",
+      "d1": "6",
+      "d2": "1",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "calculation",
+      "category_code": "amount",
+      "category_name": "物质的量",
+      "total": 6,
+      "active": "6",
+      "trainable": "6",
+      "d1": "4",
+      "d2": "2",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "organic",
+      "category_code": "basic",
+      "category_name": "有机物基础概念",
+      "total": 6,
+      "active": "6",
+      "trainable": "6",
+      "d1": "6",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "balance",
+      "category_name": "方程式配平",
+      "total": 5,
+      "active": "5",
+      "trainable": "5",
+      "d1": "5",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "substance",
+      "category_code": "color",
+      "category_name": "物质颜色",
+      "total": 5,
+      "active": "5",
+      "trainable": "5",
+      "d1": "5",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "memory",
+      "category_code": "rules",
+      "category_name": "化学规律",
+      "total": 4,
+      "active": "4",
+      "trainable": "4",
+      "d1": "2",
+      "d2": "2",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "structure",
+      "category_code": "atom_compose",
+      "category_name": "原子组成",
+      "total": 3,
+      "active": "3",
+      "trainable": "3",
+      "d1": "3",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "write_from_text",
+      "category_name": "根据文字写方程式",
+      "total": 2,
+      "active": "2",
+      "trainable": "2",
+      "d1": "2",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "substance",
+      "category_code": "name",
+      "category_name": "物质名称",
+      "total": 2,
+      "active": "2",
+      "trainable": "2",
+      "d1": "2",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "inference",
+      "category_code": "color",
+      "category_name": "颜色推断",
+      "total": 2,
+      "active": "2",
+      "trainable": "2",
+      "d1": "2",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "complete_reactant",
+      "category_name": "补全反应物",
+      "total": 1,
+      "active": "1",
+      "trainable": "1",
+      "d1": "1",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "complete_product",
+      "category_name": "补全生成物",
+      "total": 1,
+      "active": "1",
+      "trainable": "1",
+      "d1": "1",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "ionic_write",
+      "category_name": "离子方程式书写",
+      "total": 1,
+      "active": "1",
+      "trainable": "1",
+      "d1": "1",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "ionic_correct",
+      "category_name": "离子方程式纠错",
+      "total": 1,
+      "active": "1",
+      "trainable": "1",
+      "d1": "1",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "equation",
+      "category_code": "redox_analysis",
+      "category_name": "氧化还原分析",
+      "total": 1,
+      "active": "1",
+      "trainable": "1",
+      "d1": "1",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "substance",
+      "category_code": "test",
+      "category_name": "物质检验",
+      "total": 1,
+      "active": "1",
+      "trainable": "1",
+      "d1": "1",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "calculation",
+      "category_code": "molar_volume",
+      "category_name": "气体摩尔体积",
+      "total": 1,
+      "active": "1",
+      "trainable": "1",
+      "d1": "0",
+      "d2": "1",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "calculation",
+      "category_code": "concentration",
+      "category_name": "物质的量浓度",
+      "total": 1,
+      "active": "1",
+      "trainable": "1",
+      "d1": "1",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "ion",
+      "category_code": "nonelectrolyte",
+      "category_name": "非电解质判断",
+      "total": 1,
+      "active": "1",
+      "trainable": "1",
+      "d1": "1",
+      "d2": "0",
+      "d3": "0"
+    },
+    {
+      "specialty_code": "memory",
+      "category_code": "common_name",
+      "category_name": "物质俗称",
+      "total": 1,
+      "active": "1",
+      "trainable": "1",
+      "d1": "1",
+      "d2": "0",
+      "d3": "0"
+    }
+  ],
+  "byCategoryEmptyPriority": [
+    {
+      "specialty": "experiment",
+      "category": "instrument_id",
+      "name": "实验仪器识别",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "instrument_use",
+      "name": "实验仪器用途",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "basic_ops",
+      "name": "实验基本操作",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "apparatus_id",
+      "name": "实验装置识别",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "apparatus_link",
+      "name": "实验装置连接",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "gas_prep",
+      "name": "气体制备",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "gas_collect",
+      "name": "气体收集",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "substance_test",
+      "name": "物质检验",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "phenomenon_judge",
+      "name": "实验现象判断",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "phenomenon_desc",
+      "name": "实验现象描述",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "step_order",
+      "name": "实验步骤排序",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "conclusion",
+      "name": "实验结论分析",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "error_fix",
+      "name": "实验错误纠正",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "safety",
+      "name": "实验安全",
+      "trainable": 7,
+      "d1": 6,
+      "d2": 1,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "plan_design",
+      "name": "实验方案设计",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "experiment",
+      "category": "inquiry",
+      "name": "实验综合探究",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "calculation",
+      "category": "atomic_mass",
+      "name": "相对原子质量",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "calculation",
+      "category": "molecular_mass",
+      "name": "相对分子质量",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "calculation",
+      "category": "molar_mass",
+      "name": "摩尔质量",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "calculation",
+      "category": "amount",
+      "name": "物质的量",
+      "trainable": 6,
+      "d1": 4,
+      "d2": 2,
+      "d3": 0
+    },
+    {
+      "specialty": "calculation",
+      "category": "avogadro",
+      "name": "阿伏加德罗常数",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "calculation",
+      "category": "molar_volume",
+      "name": "气体摩尔体积",
+      "trainable": 1,
+      "d1": 0,
+      "d2": 1,
+      "d3": 0
+    },
+    {
+      "specialty": "calculation",
+      "category": "concentration",
+      "name": "物质的量浓度",
+      "trainable": 1,
+      "d1": 1,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "calculation",
+      "category": "dilution",
+      "name": "溶液稀释",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "calculation",
+      "category": "equation_calc",
+      "name": "化学方程式计算",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "calculation",
+      "category": "mass_conserve",
+      "name": "质量守恒",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "calculation",
+      "category": "electron_conserve",
+      "name": "电子守恒",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "calculation",
+      "category": "mixed",
+      "name": "综合计算",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "ion",
+      "category": "electrolyte",
+      "name": "电解质判断",
+      "trainable": 17,
+      "d1": 13,
+      "d2": 4,
+      "d3": 0
+    },
+    {
+      "specialty": "ion",
+      "category": "nonelectrolyte",
+      "name": "非电解质判断",
+      "trainable": 1,
+      "d1": 1,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "ion",
+      "category": "ionization",
+      "name": "电离方程式",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "ion",
+      "category": "ionic_write",
+      "name": "离子方程式书写",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "ion",
+      "category": "formula_split",
+      "name": "化学式拆分",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "ion",
+      "category": "ionic_balance",
+      "name": "离子方程式配平",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "ion",
+      "category": "ionic_correct",
+      "name": "离子方程式纠错",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "ion",
+      "category": "coexist",
+      "name": "离子共存",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "ion",
+      "category": "ion_test",
+      "name": "离子检验",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "ion",
+      "category": "mixed",
+      "name": "综合应用",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "redox",
+      "category": "valence",
+      "name": "化合价判断",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "redox",
+      "category": "identify",
+      "name": "氧化还原反应识别",
+      "trainable": 41,
+      "d1": 36,
+      "d2": 5,
+      "d3": 0
+    },
+    {
+      "specialty": "redox",
+      "category": "oxidant",
+      "name": "氧化剂判断",
+      "trainable": 30,
+      "d1": 0,
+      "d2": 30,
+      "d3": 0
+    },
+    {
+      "specialty": "redox",
+      "category": "reductant",
+      "name": "还原剂判断",
+      "trainable": 30,
+      "d1": 0,
+      "d2": 30,
+      "d3": 0
+    },
+    {
+      "specialty": "redox",
+      "category": "ox_product",
+      "name": "氧化产物",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "redox",
+      "category": "re_product",
+      "name": "还原产物",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "redox",
+      "category": "e_direction",
+      "name": "电子转移方向",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "redox",
+      "category": "e_count",
+      "name": "电子转移数量",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "redox",
+      "category": "double_bridge",
+      "name": "双线桥法",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "redox",
+      "category": "single_bridge",
+      "name": "单线桥法",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "redox",
+      "category": "ox_re_ability",
+      "name": "氧化性与还原性",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "redox",
+      "category": "e_conserve",
+      "name": "电子守恒",
+      "trainable": 10,
+      "d1": 7,
+      "d2": 3,
+      "d3": 0
+    },
+    {
+      "specialty": "inference",
+      "category": "color",
+      "name": "颜色推断",
+      "trainable": 2,
+      "d1": 2,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "inference",
+      "category": "phenomenon",
+      "name": "实验现象推断",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "inference",
+      "category": "relation",
+      "name": "反应关系推断",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "inference",
+      "category": "composition",
+      "name": "元素组成推断",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "inference",
+      "category": "valence",
+      "name": "化合价推断",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "inference",
+      "category": "conversion",
+      "name": "物质转化推断",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "inference",
+      "category": "block_diagram",
+      "name": "无机框图推断",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "inference",
+      "category": "mixed",
+      "name": "综合推断",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "comprehensive",
+      "category": "basic",
+      "name": "基础综合",
+      "trainable": 20,
+      "d1": 19,
+      "d2": 1,
+      "d3": 0
+    },
+    {
+      "specialty": "comprehensive",
+      "category": "medium",
+      "name": "中等综合",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "comprehensive",
+      "category": "advanced",
+      "name": "提高综合",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "comprehensive",
+      "category": "mistakes",
+      "name": "错题综合",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "comprehensive",
+      "category": "weak",
+      "name": "薄弱知识综合",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "comprehensive",
+      "category": "timed",
+      "name": "限时训练",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    },
+    {
+      "specialty": "comprehensive",
+      "category": "mock",
+      "name": "模拟测试",
+      "trainable": 0,
+      "d1": 0,
+      "d2": 0,
+      "d3": 0
+    }
+  ],
+  "byQtype": [
+    {
+      "qtype": "judge",
+      "answer_type": "text",
+      "n": 344
+    },
+    {
+      "qtype": "single",
+      "answer_type": "text",
+      "n": 157
+    },
+    {
+      "qtype": "blank",
+      "answer_type": "chem_formula",
+      "n": 40
+    },
+    {
+      "qtype": "blank",
+      "answer_type": "text",
+      "n": 33
+    }
+  ],
+  "templates": [
+    {
+      "template_group": "kp_fact_judge",
+      "n": 72,
+      "active_n": "72"
+    },
+    {
+      "template_group": "other",
+      "n": 66,
+      "active_n": "66"
+    },
+    {
+      "template_group": "rxn_phenomenon_judge",
+      "n": 49,
+      "active_n": "49"
+    },
+    {
+      "template_group": "rxn_cond_judge",
+      "n": 45,
+      "active_n": "45"
+    },
+    {
+      "template_group": "rxn_eq_identify",
+      "n": 43,
+      "active_n": "43"
+    },
+    {
+      "template_group": "rxn_is_redox_judge",
+      "n": 30,
+      "active_n": "30"
+    },
+    {
+      "template_group": "rxn_oxidant_single",
+      "n": 30,
+      "active_n": "30"
+    },
+    {
+      "template_group": "rxn_reductant_single",
+      "n": 30,
+      "active_n": "30"
+    },
+    {
+      "template_group": "kp_misconception_judge",
+      "n": 29,
+      "active_n": "29"
+    },
+    {
+      "template_group": "sub_color_judge",
+      "n": 24,
+      "active_n": "24"
+    },
+    {
+      "template_group": "sub_formula_blank",
+      "n": 24,
+      "active_n": "24"
+    },
+    {
+      "template_group": "sub_formula_single",
+      "n": 24,
+      "active_n": "24"
+    },
+    {
+      "template_group": "sub_uses_judge",
+      "n": 24,
+      "active_n": "24"
+    },
+    {
+      "template_group": "el_z_blank",
+      "n": 20,
+      "active_n": "20"
+    },
+    {
+      "template_group": "rxn_not_marked_redox",
+      "n": 19,
+      "active_n": "19"
+    },
+    {
+      "template_group": "el_symbol_single",
+      "n": 12,
+      "active_n": "12"
+    },
+    {
+      "template_group": "sub_chem_prop_judge",
+      "n": 10,
+      "active_n": "10"
+    },
+    {
+      "template_group": "el_symbol_blank",
+      "n": 10,
+      "active_n": "10"
+    },
+    {
+      "template_group": "legacy_seed",
+      "n": 9,
+      "active_n": "8"
+    },
+    {
+      "template_group": "cov_filler",
+      "n": 3,
+      "active_n": "0"
+    },
+    {
+      "template_group": "sub_common_name_judge",
+      "n": 3,
+      "active_n": "3"
+    },
+    {
+      "template_group": "kp_term_blank",
+      "n": 2,
+      "active_n": "2"
+    }
+  ],
+  "gateQa": {
+    "pass": "351",
+    "fix": "0",
+    "verify": "223",
+    "allow": "574",
+    "block": "0"
+  },
+  "memoryLikeHeuristic": 65
+}

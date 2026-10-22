@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "type": "concept",
+      "data": {
+        "name": "可逆反应",
+        "definition": "在同一条件下，既能向生成物方向进行、同时又能向反应物方向进行的反应，叫做可逆反应；常用可逆箭头“⇌”表示。",
+        "principle": "可逆反应不能进行到底，存在一定的反应限度；反应速率描述快慢，限度描述进行程度，二者不同（与 concept.reaction_extent 互补）。",
+        "applicableConditions": "必修认识可逆反应与限度的初步概念；不要求选修化学平衡定量计算。",
+        "judgeMethods": "看是否在同一条件下正逆反应同时进行；书写是否用⇌；能否用“完全反应”简单描述。",
+        "examples": "合成氨 N2+3H2⇌2NH3；氯气与水 Cl2+H2O⇌HCl+HClO（教材常见）。",
+        "commonMistakes": "把加热、加压等不同条件下的正逆分步反应都叫可逆；混淆反应速率与反应限度；默认所有反应都可逆。",
+        "status": "pending_review",
+        "reviewNote": "[inv:concept.reversible] 与 concept.reaction_extent 互补；禁选修计算默认训练"
+      }
+    }
+  ],
+  "meta": {
+    "batch": "batch5",
+    "pack": "B5-E",
+    "inventoryCodes": [
+      "concept.reversible"
+    ],
+    "specialtyByCode": {
+      "concept.reversible": [
+        "equation",
+        "memory"
+      ]
+    },
+    "categoryByCode": {
+      "concept.reversible": [
+        "equation.condition",
+        "memory.rules"
+      ]
+    }
+  }
+}

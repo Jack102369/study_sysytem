@@ -1,0 +1,386 @@
+[
+  {
+    "id": "307",
+    "code": "train.ai_trial.pa.rxn_cond_judge.rxn.2Fe_3Cl2",
+    "analysis": "来源 rxn.2Fe_3Cl2 字段 conditions",
+    "checksum": "3ac94374053bb592c4794a7a61d05250ca4abf853a92f37e29f83b0a7d771f62",
+    "newAnalysisChecksum": "9f39f3bf3e700c22dd5a3e044afd07b6aa7e3f4e0eb92585bd38868c00bcb6df",
+    "backedUpAt": "2026-10-20T02:19:07.923Z"
+  },
+  {
+    "id": "309",
+    "code": "train.ai_trial.pa.rxn_is_redox_judge.rxn.2Fe_3Cl2",
+    "analysis": "来源 rxn.2Fe_3Cl2；oxidant=Cl2 reductant=Fe",
+    "checksum": "e6c29f694797b51c0e9f06b5fbc314cc057423964802ddc481ed1e43bb4b2bd0",
+    "newAnalysisChecksum": "0b558fefe4678ad6719a1cfd052e0f3845d22950c3516565fcdd3d0437a7b25f",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "22",
+    "code": "train.ai_trial.013.con_j",
+    "analysis": "来源 concept.electrolyte",
+    "checksum": "4935762f267abc228827d1cf755cf1303bcc5efffc6c6c3883a90412da7f0e7f",
+    "newAnalysisChecksum": "435309c1a25be8164a843176022d2f5d9741046e3cb7576c0dc2cc12603aab59",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "208",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.calc.amount",
+    "analysis": "来源 kp.calc.amount description 首句事实",
+    "checksum": "a4b5287a9832a454dd10d4d811347b6a6ab7a561d9f300b81c459eb0f2f5606e",
+    "newAnalysisChecksum": "984908f2aa4758f35c84b579086b44cf1a51372a116db184d099edb67a102b8a",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "234",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.exp.design",
+    "analysis": "来源 kp.exp.design description 首句事实",
+    "checksum": "57d7eee83a113a5eeae766f2ff94d0ff7b0b808ee356bed5a87a48558c5d0b4b",
+    "newAnalysisChecksum": "528049b34924ed9a3d85b3a66ba6d8ffe9655d0788bb4e7ace223afca051f026",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "109",
+    "code": "train.ai_trial.pa.sub_common_name_judge.sub.C2H5OH",
+    "analysis": "来源 sub.C2H5OH 字段 common_names",
+    "checksum": "b1eae85336c2b74db1b4b43eece1580a1ca06f9e03d6a364ff2a770cdf69d1d5",
+    "newAnalysisChecksum": "fed1e8f15dac75efe64524fa44953b71037d8c78c9e850dcb661ee1e3e4150b3",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "10",
+    "code": "train.ai_trial.001.el_sym",
+    "analysis": "来源 el.He",
+    "checksum": "613254c731a606912bc47b866184e6c0d4ddda7c2f96db51567b55b7dde9ef2d",
+    "newAnalysisChecksum": "0b89fcf36b0a443aa3a6eb67d70f6c6649c808ad35a72d14289dadda6ad65247",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "251",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.inference.block",
+    "analysis": "来源 kp.inference.block description 首句事实",
+    "checksum": "1b3c35f26d00938100b4614790b90db98e7e30cddc5a2ccaca04d6f8908ec882",
+    "newAnalysisChecksum": "2995a07fc77d9e22f06cfc9bebe6d3112bafe66ee0ac99517a54cca111f62211",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "204",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.Al.amphoteric",
+    "analysis": "来源 kp.Al.amphoteric description 首句事实",
+    "checksum": "93ab562db758c76df776bd0681008f4811b79cd0d55149e5a4cae568f04dbb5f",
+    "newAnalysisChecksum": "aa8218d73e162fa94186d7e094fb70b12e1da77f0f85c9a6f91bcfe62c75b5ea",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "24",
+    "code": "train.ai_trial.015.con_j",
+    "analysis": "来源 concept.electron_conserve",
+    "checksum": "892cb617962d5827f9a25ce4ac39a704466c5ae47bbc367877c2fa062cdbd334",
+    "newAnalysisChecksum": "bb2ebb246d3f1d33716b0678026c2c8e67b6ababaca5541b9901558e80a6e419",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "23",
+    "code": "train.ai_trial.014.con_j",
+    "analysis": "来源 concept.nonelectrolyte",
+    "checksum": "b7c2ef217dd0b2930341dbdc47c7e6b1c1c6dde3c04e637e7ba7a33a47964dd2",
+    "newAnalysisChecksum": "a26f2c615b4e79735c0ac04e1ae9aaba764043dccd2f55f0166c7f266d5f317f",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "48",
+    "code": "train.ai_trial.046.fm_c",
+    "analysis": "来源 formula.c_n_V",
+    "checksum": "7decb892ac7f34a6b2537bbf4905213873b576e295c572c7bb8e1145f3d1a2df",
+    "newAnalysisChecksum": "8305268fd84da48e69158eb16e7dede052b50b55460a022e4e1d682bcbd96956",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "235",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.exp.error",
+    "analysis": "来源 kp.exp.error description 首句事实",
+    "checksum": "c814552ae4cf23463ca62e4abb7620d971858cdea0bfabaf2325341745040d4e",
+    "newAnalysisChecksum": "7088741338e84e82966e544178d74d843d0445266d76c2ed4d51b2e7d028742b",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "51",
+    "code": "train.ai_trial.049.kp_j",
+    "analysis": "来源 kp.metal.activity",
+    "checksum": "1ec0d03d897ea7ac6006c67ef93b4b619f9bc5bf90a40a327e00a178447db03a",
+    "newAnalysisChecksum": "7caab5098e99e4b35e68d44825e13bc0cc46dddd79d79f2300632c1287352b63",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "96",
+    "code": "train.ai_trial.pa.sub_color_judge.sub.Al",
+    "analysis": "来源 sub.Al 字段 color",
+    "checksum": "9a56849bec7ff3f5ee32d5c381564f412748e7cd00287b6b8e4d799a45688a7d",
+    "newAnalysisChecksum": "b279b8252fe62c2adc3ee5c305454b74dfbd5994461906f9aa4dd708a166e23d",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "252",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.inference.color",
+    "analysis": "来源 kp.inference.color description 首句事实",
+    "checksum": "937eb69164c3e42cc352a07494ab02ef1563ee1cc3c29fe8f8435bd56790fe40",
+    "newAnalysisChecksum": "6e489c89c42eeeba653f50a76f5a97980fe32b2fa59ee722c6245bc2596f2b19",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "223",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.comprehensive.basic",
+    "analysis": "来源 kp.comprehensive.basic description 首句事实",
+    "checksum": "f198e1fa06702edbd76e3bf6e082a9be80b5f6d4e2d010e11e81a3a17ae854f2",
+    "newAnalysisChecksum": "fe1177b99e1fd2a638c43adeab30e645b9bc510c4214e4ed6b7fe26beb38bba1",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "224",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.bond_change",
+    "analysis": "来源 kp.energy.bond_change description 首句事实",
+    "checksum": "ad8c808ede8ae03eaaac1e0993ea7445026f2ddbd99245a374285ce25f33b361",
+    "newAnalysisChecksum": "eb698aa6d1eca5bbbbb97316ac9246d364aa4a9e3b626a9eb64e0700521412a2",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "225",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.chem_electric",
+    "analysis": "来源 kp.energy.chem_electric description 首句事实",
+    "checksum": "98972b9be1cd24345304a19c341e8a1f0ce016f62b4c0aff4fe4b091f3070e89",
+    "newAnalysisChecksum": "dbeb0d84d1e6266c677d5aa5b1fbd70b43acc18bf748bf17eba0f4e7bb996d41",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "226",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.chem_power",
+    "analysis": "来源 kp.energy.chem_power description 首句事实",
+    "checksum": "658f3992cf653b99b77eb36c1364a6675d7a693669cc62fc9f9a6125d2dac2e7",
+    "newAnalysisChecksum": "93d6079532178c248ad1fd7840f6ae57339073bf69253ca8b8039d07ad687554",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "228",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.electron_flow",
+    "analysis": "来源 kp.energy.electron_flow description 首句事实",
+    "checksum": "2db38f584b65be801df872f7ab78e11e01fa0697d4c62d5e048a673e9558b3be",
+    "newAnalysisChecksum": "d7cd0c5cbb0e9dcd38966786cf66dc0a585dcb6a86b3e1e939b5ae0815ccce6b",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "229",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.galvanic",
+    "analysis": "来源 kp.energy.galvanic description 首句事实",
+    "checksum": "6e5d2c5dc31b9e4c704c9b1e50676f834e1541c132e5958f3c008bf28895d093",
+    "newAnalysisChecksum": "284a64daf7467744d66d61d2973cd7a825ef869ce1d5ecda7e7f5836179e0954",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "230",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.galvanic_poles",
+    "analysis": "来源 kp.energy.galvanic_poles description 首句事实",
+    "checksum": "7ce4f8629ea20670c7c932aa0fdd8e9ec2b635ca55fe3fdb07220ca75a0818f9",
+    "newAnalysisChecksum": "efa5932ad70981e951edee2ae53f96caf8893bf391008d087c0604162f4909bd",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "231",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.energy.thermo_eq",
+    "analysis": "来源 kp.energy.thermo_eq description 首句事实",
+    "checksum": "a4d907ba968de681bd574fcb4a385d025c6f3830796c08db56e9da4f8888ae1a",
+    "newAnalysisChecksum": "924d4b8ff71bb3e50fb06b22b05ecb472c0ce4fbeabc0ccc049ef2076303eed6",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "232",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.enviro.acid_rain",
+    "analysis": "来源 kp.enviro.acid_rain description 首句事实",
+    "checksum": "a9969cadbae74960052f4ec48239876393980d2ba112fc1709119278c28a013a",
+    "newAnalysisChecksum": "d8f7be2603c12b49c6a94698df82b03889936cc65aa173de0c1954bbb4f7c6dd",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "276",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.acetic",
+    "analysis": "来源 kp.organic.acetic description 首句事实",
+    "checksum": "e577beb9dfac28636b735d7db788f48f4eb0662f071ae038d9be9c753d2395c6",
+    "newAnalysisChecksum": "a13c1e4f99e3a106c310d946ecec65eb2339eee6e840b32b305f6b29ccba54b2",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "277",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.alkane",
+    "analysis": "来源 kp.organic.alkane description 首句事实",
+    "checksum": "fa325a7793b9bb8d53c5fa09e0ef6e33879c4833a78bc9cce4d498d0f6fba1eb",
+    "newAnalysisChecksum": "9f5b844fb61d4ccf29c5df46166d98751bbc7f7da6bdcdab8f0f3851bfab0c4b",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "278",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.ethanol",
+    "analysis": "来源 kp.organic.ethanol description 首句事实",
+    "checksum": "0e8feb1fd8d73f5b440bbfc0f8f1a3aa4ad33d4a2e8679086fea54c573f06f83",
+    "newAnalysisChecksum": "abf5f91f6be78c79992b291dd4bb577a1d5923931aaee1913b3ca5cd1c954d3a",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "279",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.ethene",
+    "analysis": "来源 kp.organic.ethene description 首句事实",
+    "checksum": "7fc65eddd951df0f2d6b667fd6f009a14f9d224212bdbff6b6db61bae97f1206",
+    "newAnalysisChecksum": "e2a8ae1893f3dcd519807c8e73bbdfbbc59b5ed399f93d24582d91f426992c3c",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "280",
+    "code": "train.ai_trial.pa.kp_fact_judge.kp.organic.isomer_skill",
+    "analysis": "来源 kp.organic.isomer_skill description 首句事实",
+    "checksum": "f2e32bc9f548c90258784dc23c3437333ab01125e6aebce5bca37a6e7792a335",
+    "newAnalysisChecksum": "11ec87a245b970098866358a88cc58c8b006eb224c89efe1ea875961595b54d0",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "308",
+    "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2Fe_3Cl2",
+    "analysis": "来源 rxn.2Fe_3Cl2 字段 equation",
+    "checksum": "c89a69608d5f5c30345b1d9b27ad6b58c28013f700e9692be01bafbdd4526bd1",
+    "newAnalysisChecksum": "a3de895e66b3d77c7129f9346673f55d34a5064c365ea32c9f55fc1e82f0cf17",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "310",
+    "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2Fe_3Cl2",
+    "analysis": "来源 rxn.2Fe_3Cl2 字段 oxidant",
+    "checksum": "e8367ddd746f5c6d1f9d1010118ed7780b315fb9b737a2be2595ced5be082689",
+    "newAnalysisChecksum": "03d400c749e041b7821997ecb74dee284b1019b7ac260aff6d64b132da6ea728",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "49",
+    "code": "train.ai_trial.047.fm_stp",
+    "analysis": "仅标况；来源 formula.gas_STP",
+    "checksum": "75b8307f0d2c281f96f8e9ca04aba99c26c8d0ab2e0976657a00bc3f4ca23a98",
+    "newAnalysisChecksum": "1c2235466ca1043105a47b01469a47bdb911d443e282001271008454ed059be3",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "248",
+    "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.test",
+    "analysis": "来源 kp.Fe.test 「易错」标注，考查易错点辨析",
+    "checksum": "277c0d1763abd44052544d93fc3abc2652d2aee8fc8f3c19f2ae538d0279dc01",
+    "newAnalysisChecksum": "0719ca87414073872e3de7d46a7ca2f1998de79886806680c45740627c36eaee",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "95",
+    "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Al",
+    "analysis": "来源 sub.Al 字段 chemical_props 原文片段",
+    "checksum": "123c18224777154e197aebf62b7b237108ab3b3ab1066a690fc059788bc3b426",
+    "newAnalysisChecksum": "0778f4ef056901920bb801d5f633d619f87194b59461a54d92d436c6fac1a166",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "113",
+    "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CH3COOCH2CH3",
+    "analysis": "来源 sub.CH3COOCH2CH3 字段 chemical_props 原文片段",
+    "checksum": "392bef7362f2844e2179ce5fc20f2fcc2cc909b8e5e01c2ea16e1541437a9cd0",
+    "newAnalysisChecksum": "b4633176a0b12cc115ca1f5689ac49784cde01635d70b893a4e0fe21072eac1c",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "119",
+    "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CH3COOH",
+    "analysis": "来源 sub.CH3COOH 字段 chemical_props 原文片段",
+    "checksum": "5bb59c9714247f824ab6039c92d07f27a576dbe12d320aba52dbf6f1a08a9c9f",
+    "newAnalysisChecksum": "6928f3c1cf78ccf840d6451b65389e1fc343fc35b221949390d25ac3e8aa6a36",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "140",
+    "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CuOH2",
+    "analysis": "来源 sub.CuOH2 字段 chemical_props 原文片段",
+    "checksum": "451cb87d0fc138d43207f1cd9b27d230cbae05da26131d5d20de35a9a2dbda43",
+    "newAnalysisChecksum": "0bce235d5d863ac682f11d3cd74facb87a9c0fcdd2fe86794231b28697361619",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "149",
+    "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Fe",
+    "analysis": "来源 sub.Fe 字段 chemical_props 原文片段",
+    "checksum": "1ec5c10cb8726d0d26535660446338fd99863a6a1ae20bc268ac8c4d39a470e8",
+    "newAnalysisChecksum": "15f6ce3695f0e08ac670128cc1ec7dfaafc52627cf3d60e7abe72d2284b20605",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "158",
+    "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Fe3O4",
+    "analysis": "来源 sub.Fe3O4 字段 chemical_props 原文片段",
+    "checksum": "3b07bf949dfaad396ccd4d05c3c331f26a744bf1653f6e45ed2e58a472845e9a",
+    "newAnalysisChecksum": "f7906f718447fca3e6fc83e482d72583fba14b38c4fe554a9a9b875fa2848f9c",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "163",
+    "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.FeOH2",
+    "analysis": "来源 sub.FeOH2 字段 chemical_props 原文片段",
+    "checksum": "b1bf83dcad097908ad37506ff496490a279c7abee07670f7badb8d12f98dedc9",
+    "newAnalysisChecksum": "9b6ab08590bd077b799ae1525b110c3fc8cbf99c5a14a9d476c284471fb9686f",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "168",
+    "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.FeOH3",
+    "analysis": "来源 sub.FeOH3 字段 chemical_props 原文片段",
+    "checksum": "714df79c39b5e88082f821f36e65d4027e108befa62ae91e5d82b0006fccd5dd",
+    "newAnalysisChecksum": "1c02263d6b6379bb713bdec1cc506b05ededd6226de65aed1af08efa22899e5b",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "173",
+    "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.FeSO4",
+    "analysis": "来源 sub.FeSO4 字段 chemical_props 原文片段",
+    "checksum": "c9396c2bdf69fea4c97dbe3c16893c09f91eefde097b4f8e01ae47027c7e56c7",
+    "newAnalysisChecksum": "0562dc1fa3527d34beb551d4831a5aaa747ce8de080d92abcde12a8d242c5180",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "183",
+    "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.HCl_aq",
+    "analysis": "来源 sub.HCl_aq 字段 chemical_props 原文片段",
+    "checksum": "5eea0c44e208471095eb4ba2bef07f0b083ad4be13f260c4f8a62f75b158c97c",
+    "newAnalysisChecksum": "4b10a74c7a0c955a63019304c567fa0d5a964f2a29d3b4bcd99861d2c3e81ba7",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "312",
+    "code": "train.ai_trial.pa.rxn_reductant_single.rxn.2Fe_3Cl2",
+    "analysis": "来源 rxn.2Fe_3Cl2 字段 reductant",
+    "checksum": "d9472a31978613eaec671ef5e2fc77291f4f3384a1b8746a2930eb345d503282",
+    "newAnalysisChecksum": "0cd7fb69b444ca162b5b130535f3ed40c40816962dac7a84255501f872a52428",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "314",
+    "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2Fe2_Cl2",
+    "analysis": "来源 rxn.2Fe2_Cl2 字段 equation",
+    "checksum": "43787d59a269f6556559da7058017f109714777583f43c676d8bd5c07c35a75e",
+    "newAnalysisChecksum": "2b013f629090e2e07777fae238e18d1106528bd3da63ee1defa7666a08dac8ae",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "316",
+    "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2Fe2_Cl2",
+    "analysis": "来源 rxn.2Fe2_Cl2 字段 oxidant",
+    "checksum": "9cab7239c9a45533b3948e777274569692d8fd043b32168349d28306106e4fd8",
+    "newAnalysisChecksum": "4ffc6e7ae64920043a0bf63f6c5d287ae52377aa0728f954627eef3a8041f5fd",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  },
+  {
+    "id": "318",
+    "code": "train.ai_trial.pa.rxn_reductant_single.rxn.2Fe2_Cl2",
+    "analysis": "来源 rxn.2Fe2_Cl2 字段 reductant",
+    "checksum": "c6225013f1c66d4f8a159505159afa2d52b8f96ab1845e0ad96e0ca1e032f3c4",
+    "newAnalysisChecksum": "1370efec53381986918245cda9fe7726dd3c29f3c32fab367e8d62adaa47d54a",
+    "backedUpAt": "2026-10-20T02:19:07.924Z"
+  }
+]

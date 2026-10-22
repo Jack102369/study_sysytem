@@ -1,0 +1,381 @@
+{
+  "summary": {
+    "totalD2Trainable": 167,
+    "sampleSize": 35,
+    "byLabel": {
+      "single_step_recognition": 35
+    },
+    "bySpecialtySample": {
+      "equation": {
+        "n": 8,
+        "labels": {
+          "single_step_recognition": 8
+        }
+      },
+      "experiment": {
+        "n": 1,
+        "labels": {
+          "single_step_recognition": 1
+        }
+      },
+      "substance": {
+        "n": 8,
+        "labels": {
+          "single_step_recognition": 8
+        }
+      },
+      "calculation": {
+        "n": 3,
+        "labels": {
+          "single_step_recognition": 3
+        }
+      },
+      "ion": {
+        "n": 4,
+        "labels": {
+          "single_step_recognition": 4
+        }
+      },
+      "redox": {
+        "n": 8,
+        "labels": {
+          "single_step_recognition": 8
+        }
+      },
+      "memory": {
+        "n": 2,
+        "labels": {
+          "single_step_recognition": 2
+        }
+      },
+      "comprehensive": {
+        "n": 1,
+        "labels": {
+          "single_step_recognition": 1
+        }
+      }
+    }
+  },
+  "fullD2Heuristic": {
+    "memory_or_fact": 0,
+    "single_step_recognition": 167,
+    "possible_multi_step": 0
+  },
+  "sample": [
+    {
+      "id": "205",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Al.amphoteric",
+      "specialty": "equation",
+      "category": "true_false",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】下列说法正确：认为只有Al(OH)3两性而忽略Al与Al2O3。判断正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "265",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.N.ammonium",
+      "specialty": "equation",
+      "category": "true_false",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】下列说法正确：不加热就写放氨。判断正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "320",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.2Mg_O2",
+      "specialty": "equation",
+      "category": "true_false",
+      "qtype": "single",
+      "stemPreview": "【AI试运行】下列哪一项是知识库中「镁与氧气」的化学方程式？",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "372",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.4NH3_5O2",
+      "specialty": "equation",
+      "category": "true_false",
+      "qtype": "single",
+      "stemPreview": "【AI试运行】下列哪一项是知识库中「氨的催化氧化」的化学方程式？",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "414",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.CaCO3_2HCl",
+      "specialty": "equation",
+      "category": "true_false",
+      "qtype": "single",
+      "stemPreview": "【AI试运行】下列哪一项是知识库中「碳酸钙与盐酸」的化学方程式？",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "439",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.CO2_CaOH2",
+      "specialty": "equation",
+      "category": "true_false",
+      "qtype": "single",
+      "stemPreview": "【AI试运行】下列哪一项是知识库中「二氧化碳与澄清石灰水」的化学方程式？",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "474",
+      "code": "train.ai_trial.pa.rxn_eq_identify.rxn.FeOH2_O2",
+      "specialty": "equation",
+      "category": "true_false",
+      "qtype": "single",
+      "stemPreview": "【AI试运行】下列哪一项是知识库中「氢氧化亚铁被氧气氧化」的化学方程式？",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "507",
+      "code": "train.ai_trial.pa.rxn_not_marked_redox.rxn.Na2O_H2O",
+      "specialty": "equation",
+      "category": "true_false",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】仅根据「知识库未标注氧化剂/还原剂」，可断定反应「Na2O + H2O = 2NaOH」一定不是氧化还原反应。判断正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "248",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.test",
+      "specialty": "experiment",
+      "category": "safety",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】下列说法正确：直接对Fe2+加KSCN就报阳性。判断正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "95",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Al",
+      "specialty": "substance",
+      "category": "chem_property",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】知识库对「铝」记载：表面易生成致密Al2O3氧化膜。判断该记载正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "113",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CH3COOCH2CH3",
+      "specialty": "substance",
+      "category": "chem_property",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】知识库对「乙酸乙酯」记载：由乙酸与乙醇在浓硫酸催化、加热下酯化生成（可逆）。判断该记载正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "119",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CH3COOH",
+      "specialty": "substance",
+      "category": "chem_property",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】知识库对「乙酸」记载：弱酸，具酸的通性：使紫色石蕊变红。判断该记载正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "140",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.CuOH2",
+      "specialty": "substance",
+      "category": "chem_property",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】知识库对「氢氧化铜」记载：由Cu2+与碱生成。判断该记载正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "149",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Fe",
+      "specialty": "substance",
+      "category": "chem_property",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】知识库对「铁」记载：与O2点燃生成Fe3O4。判断该记载正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "158",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.Fe3O4",
+      "specialty": "substance",
+      "category": "chem_property",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】知识库对「四氧化三铁」记载：可看作FeO·Fe2O3（了解）。判断该记载正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "163",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.FeOH2",
+      "specialty": "substance",
+      "category": "chem_property",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】知识库对「氢氧化亚铁」记载：由Fe2+与碱生成。判断该记载正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "168",
+      "code": "train.ai_trial.pa.sub_chem_prop_judge.sub.FeOH3",
+      "specialty": "substance",
+      "category": "chem_property",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】知识库对「氢氧化铁」记载：由Fe3+与碱生成。判断该记载正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "49",
+      "code": "train.ai_trial.047.fm_stp",
+      "specialty": "calculation",
+      "category": "molar_volume",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】气体摩尔体积 22.4 L/mol 适用于任何温度和压强下的气体。判断正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "211",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.calc.excess",
+      "specialty": "calculation",
+      "category": "amount",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】下列说法正确：不判断过量。判断正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "213",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.calc.gas",
+      "specialty": "calculation",
+      "category": "amount",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】下列说法正确：任何温度压强都套22.4。判断正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "215",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.calc.solution",
+      "specialty": "ion",
+      "category": "electrolyte",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】下列说法正确：V用溶剂体积。判断正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "240",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.fe2_property",
+      "specialty": "ion",
+      "category": "electrolyte",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】下列说法正确：把Fe2+溶液颜色说成黄色。判断正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "242",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.fe3_property",
+      "specialty": "ion",
+      "category": "electrolyte",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】下列说法正确：与Fe2+颜色、沉淀颜色混淆。判断正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "246",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.Fe.salt",
+      "specialty": "ion",
+      "category": "electrolyte",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】下列说法正确：两类盐性质混记。判断正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "26",
+      "code": "train.ai_trial.017.rxn_redox",
+      "specialty": "redox",
+      "category": "identify",
+      "qtype": "single",
+      "stemPreview": "【AI试运行】对于反应「4Na + O2 = 2Na2O」，下列哪一项是氧化剂？",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "310",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2Fe_3Cl2",
+      "specialty": "redox",
+      "category": "oxidant",
+      "qtype": "single",
+      "stemPreview": "【AI试运行】对于反应「2Fe + 3Cl2 =点燃= 2FeCl3」，氧化剂是？",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "333",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.2Na_Cl2",
+      "specialty": "redox",
+      "category": "oxidant",
+      "qtype": "single",
+      "stemPreview": "【AI试运行】对于反应「2Na + Cl2 =点燃= 2NaCl」，氧化剂是？",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "357",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.3NO2_H2O",
+      "specialty": "redox",
+      "category": "oxidant",
+      "qtype": "single",
+      "stemPreview": "【AI试运行】对于反应「3NO2 + H2O = 2HNO3 + NO」，氧化剂是？",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "388",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.C_O2_complete",
+      "specialty": "redox",
+      "category": "oxidant",
+      "qtype": "single",
+      "stemPreview": "【AI试运行】对于反应「C + O2 =点燃= CO2」，氧化剂是？",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "430",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.Cl2_2NaOH",
+      "specialty": "redox",
+      "category": "oxidant",
+      "qtype": "single",
+      "stemPreview": "【AI试运行】对于反应「Cl2 + 2NaOH = NaCl + NaClO + H2O」，氧化剂是？",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "464",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.Fe_CuSO4",
+      "specialty": "redox",
+      "category": "oxidant",
+      "qtype": "single",
+      "stemPreview": "【AI试运行】对于反应「Fe + CuSO4 = FeSO4 + Cu」，氧化剂是？",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "488",
+      "code": "train.ai_trial.pa.rxn_oxidant_single.rxn.Mg_2HCl",
+      "specialty": "redox",
+      "category": "oxidant",
+      "qtype": "single",
+      "stemPreview": "【AI试运行】对于反应「Mg + 2HCl = MgCl2 + H2↑」，氧化剂是？",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "250",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.halogen.compare",
+      "specialty": "memory",
+      "category": "rules",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】下列说法正确：递变顺序记反。判断正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "261",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.metal.stainless",
+      "specialty": "memory",
+      "category": "rules",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】下列说法正确：以为不锈钢绝对不锈、永不腐蚀。判断正误。",
+      "capabilityLabel": "single_step_recognition"
+    },
+    {
+      "id": "286",
+      "code": "train.ai_trial.pa.kp_misconception_judge.kp.rate.factors",
+      "specialty": "comprehensive",
+      "category": "basic",
+      "qtype": "judge",
+      "stemPreview": "【AI试运行】下列说法正确：把催化剂当成提高产率/转化率的因素。判断正误。",
+      "capabilityLabel": "single_step_recognition"
+    }
+  ]
+}

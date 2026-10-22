@@ -1,0 +1,1237 @@
+[
+  {
+    "code": "sub.Na",
+    "type": "substance",
+    "inventoryName": "钠",
+    "inventoryStatus": "seeded_audited",
+    "priority": 1,
+    "note": "阶段二示例已入库; batch3复用：不覆盖published",
+    "source": "seeded_reuse_db",
+    "data": {
+      "id": 1,
+      "name": "钠",
+      "canonical_formula": "Na",
+      "common_names": "金属钠",
+      "color": "银白色",
+      "state_label": "固",
+      "solubility": "与水反应",
+      "physical_props": "软、密度小于水",
+      "chemical_props": "强还原性，与水、酸、氧气反应",
+      "common_uses": "散热、还原剂",
+      "storage_methods": "煤油或石蜡油中密封",
+      "safety_notes": "遇水剧烈，禁止徒手接触水中操作",
+      "status": "published"
+    }
+  },
+  {
+    "code": "sub.Na2O",
+    "type": "substance",
+    "data": {
+      "name": "氧化钠",
+      "canonicalFormula": "Na2O",
+      "commonNames": "氧化钠",
+      "color": "白色",
+      "stateLabel": "固",
+      "solubility": "与水剧烈反应生成 NaOH，不宜简单说“溶于水”",
+      "physicalProps": "白色固体；碱性氧化物。",
+      "chemicalProps": "与水反应生成氢氧化钠：Na2O+H2O=2NaOH；可与酸反应。氧元素化合价为−2。",
+      "commonUses": "高中作碱性氧化物代表物；工业用途了解即可。",
+      "testMethods": "与水反应后溶液显碱性，可使酚酞变红。",
+      "storageMethods": "密封防潮，避免与酸蒸气接触。",
+      "safetyNotes": "与水反应放热，注意防溅。",
+      "tags": [
+        "oxide"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.Na2O]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "5",
+    "source": "imported",
+    "inventoryName": "氧化钠",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=5",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.Na2O2",
+    "type": "substance",
+    "data": {
+      "name": "过氧化钠",
+      "canonicalFormula": "Na2O2",
+      "commonNames": "过氧化钠",
+      "color": "淡黄色",
+      "stateLabel": "固",
+      "solubility": "与水剧烈反应，放出氧气",
+      "physicalProps": "淡黄色固体；过氧化物，氧为−1价。",
+      "chemicalProps": "与水：2Na2O2+2H2O=4NaOH+O2↑；与CO2：2Na2O2+2CO2=2Na2CO3+O2。既可作氧化剂也可在歧化反应中作还原剂。",
+      "commonUses": "供氧剂、漂白剂（了解）；呼吸面具相关（了解）。",
+      "testMethods": "与水或CO2反应有气泡（O2），余液显碱性。",
+      "storageMethods": "密封干燥保存，远离有机物与还原性物质。",
+      "safetyNotes": "强氧化性，遇水、酸放热剧烈；禁止与易燃物混放。",
+      "tags": [
+        "oxide",
+        "other"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.Na2O2]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "6",
+    "source": "imported",
+    "inventoryName": "过氧化钠",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=6",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.NaOH",
+    "type": "substance",
+    "inventoryName": "氢氧化钠",
+    "inventoryStatus": "seeded_audited",
+    "priority": 1,
+    "note": "阶段二示例已入库; batch3复用：不覆盖published",
+    "source": "seeded_reuse_db",
+    "data": {
+      "id": 3,
+      "name": "氢氧化钠",
+      "canonical_formula": "NaOH",
+      "common_names": "烧碱,火碱,苛性钠",
+      "color": "白色",
+      "state_label": "固",
+      "solubility": "易溶于水放热",
+      "physical_props": "潮解",
+      "chemical_props": "强碱，与酸、二氧化碳、盐等反应",
+      "common_uses": "工业制皂、除油",
+      "storage_methods": "密封干燥",
+      "safety_notes": "腐蚀性，禁止直接接触皮肤",
+      "status": "published"
+    }
+  },
+  {
+    "code": "sub.Na2CO3",
+    "type": "substance",
+    "data": {
+      "name": "碳酸钠",
+      "canonicalFormula": "Na2CO3",
+      "commonNames": "纯碱、苏打",
+      "color": "白色",
+      "stateLabel": "固",
+      "solubility": "易溶于水，水溶液显碱性",
+      "physicalProps": "白色粉末或结晶；十水合物俗称结晶苏打（了解）。",
+      "chemicalProps": "与酸反应放CO2；可与过量CO2、H2O转化为NaHCO3：Na2CO3+CO2+H2O=2NaHCO3。热稳定性强于NaHCO3。",
+      "commonUses": "玻璃、洗涤、制皂等（了解）；实验室制取CO2（与酸）。",
+      "testMethods": "加盐酸有气泡，气体使澄清石灰水变浑浊；焰色反应呈黄色（钠）。",
+      "storageMethods": "密封防潮。",
+      "safetyNotes": "碱性盐，避免长时间接触皮肤与眼睛。",
+      "tags": [
+        "salt"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.Na2CO3]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "7",
+    "source": "imported",
+    "inventoryName": "碳酸钠",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=7",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.NaHCO3",
+    "type": "substance",
+    "data": {
+      "name": "碳酸氢钠",
+      "canonicalFormula": "NaHCO3",
+      "commonNames": "小苏打",
+      "color": "白色",
+      "stateLabel": "固",
+      "solubility": "可溶于水，水溶液显弱碱性",
+      "physicalProps": "白色细晶体或粉末。",
+      "chemicalProps": "受热易分解：2NaHCO3=△=Na2CO3+CO2↑+H2O；与酸反应放CO2。与Na2CO3可用加热或酸的用量等区分。",
+      "commonUses": "发酵粉、胃酸中和（了解）；灭火器相关了解。",
+      "testMethods": "加热有CO2放出；加酸有气泡。",
+      "storageMethods": "阴凉密封，避免受热分解。",
+      "safetyNotes": "一般较安全，仍避免大量吸入粉尘。",
+      "tags": [
+        "salt"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.NaHCO3]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "8",
+    "source": "imported",
+    "inventoryName": "碳酸氢钠",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=8",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.NaCl",
+    "type": "substance",
+    "data": {
+      "name": "氯化钠",
+      "canonicalFormula": "NaCl",
+      "commonNames": "食盐",
+      "color": "白色",
+      "stateLabel": "固",
+      "solubility": "易溶于水",
+      "physicalProps": "白色晶体；熔点较高。",
+      "chemicalProps": "中性盐；熔融或水溶液可导电；一般不与稀酸稀碱发生复分解反应（了解）。",
+      "commonUses": "调味、工业制氯碱原料等。",
+      "testMethods": "焰色反应黄色；加AgNO3生成白色AgCl沉淀（需结合题设）。",
+      "storageMethods": "干燥密封。",
+      "safetyNotes": "食用级与试剂级注意区分用途。",
+      "tags": [
+        "salt"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.NaCl]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "9",
+    "source": "imported",
+    "inventoryName": "氯化钠",
+    "inventoryStatus": "imported",
+    "priority": 2,
+    "note": "batch3导入 pending_review id=9",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.Mg",
+    "type": "substance",
+    "data": {
+      "name": "镁",
+      "canonicalFormula": "Mg",
+      "commonNames": "镁",
+      "color": "银白色",
+      "stateLabel": "固",
+      "solubility": "单质不溶于水；可与酸反应",
+      "physicalProps": "银白色轻金属；延展性较好。",
+      "chemicalProps": "可在空气中燃烧发出耀眼白光生成MgO；能与酸反应放H2；点燃时可在CO2中继续燃烧：2Mg+CO2=2MgO+C。",
+      "commonUses": "合金、烟火、还原剂（了解）。",
+      "testMethods": "燃烧白光；与酸反应放H2。",
+      "storageMethods": "干燥保存；粉状镁注意防火。",
+      "safetyNotes": "燃烧强光伤眼；粉尘有燃烧爆炸风险。",
+      "tags": [
+        "elemental"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.Mg]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "10",
+    "source": "imported",
+    "inventoryName": "镁",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=10",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.MgO",
+    "type": "substance",
+    "data": {
+      "name": "氧化镁",
+      "canonicalFormula": "MgO",
+      "commonNames": "氧化镁、苦土（了解）",
+      "color": "白色",
+      "stateLabel": "固",
+      "solubility": "难溶于水；可与酸反应",
+      "physicalProps": "白色粉末；熔点高，可作耐火材料（了解）。",
+      "chemicalProps": "碱性氧化物；与酸反应生成镁盐和水；与水反应缓慢生成Mg(OH)2（了解）。",
+      "commonUses": "耐火材料、医药等（了解）。",
+      "testMethods": "溶于酸；结合镁的来源反应推断。",
+      "storageMethods": "干燥密封。",
+      "safetyNotes": "粉尘刺激呼吸道。",
+      "tags": [
+        "oxide"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.MgO]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "11",
+    "source": "imported",
+    "inventoryName": "氧化镁",
+    "inventoryStatus": "imported",
+    "priority": 2,
+    "note": "batch3导入 pending_review id=11",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.MgOH2",
+    "type": "substance",
+    "data": {
+      "name": "氢氧化镁",
+      "canonicalFormula": "Mg(OH)2",
+      "commonNames": "氢氧化镁",
+      "color": "白色",
+      "stateLabel": "固",
+      "solubility": "难溶于水，属中强碱沉淀",
+      "physicalProps": "白色固体（沉淀）。",
+      "chemicalProps": "能与酸反应；碱性弱于NaOH、KOH；不溶于过量NaOH（与Al(OH)3对比）。",
+      "commonUses": "抗酸药等（了解）。",
+      "testMethods": "白色沉淀，溶于酸，不溶于强碱。",
+      "storageMethods": "密封。",
+      "safetyNotes": "一般刺激性较小。",
+      "tags": [
+        "base"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.MgOH2]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "12",
+    "source": "imported",
+    "inventoryName": "氢氧化镁",
+    "inventoryStatus": "imported",
+    "priority": 2,
+    "note": "batch3导入 pending_review id=12",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.Al",
+    "type": "substance",
+    "data": {
+      "name": "铝",
+      "canonicalFormula": "Al",
+      "commonNames": "铝",
+      "color": "银白色",
+      "stateLabel": "固",
+      "solubility": "单质不溶于水；可与酸、强碱溶液反应",
+      "physicalProps": "银白色轻金属；延展性好；导热导电性较好。",
+      "chemicalProps": "表面易生成致密Al2O3氧化膜；可与酸放H2；也可与NaOH溶液反应：2Al+2NaOH+2H2O=2NaAlO2+3H2↑（溶液中常写[Al(OH)4]-，了解）。",
+      "commonUses": "建筑、电线、包装、合金。",
+      "testMethods": "与酸、碱均能反应放H2（两性金属特征之一）。",
+      "storageMethods": "常温较稳定；避免强酸强碱长期腐蚀。",
+      "safetyNotes": "铝粉易燃；与汞盐等反应破坏氧化膜（了解，勿操作）。",
+      "tags": [
+        "elemental"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.Al]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "13",
+    "source": "imported",
+    "inventoryName": "铝",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=13",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.Al2O3",
+    "type": "substance",
+    "data": {
+      "name": "氧化铝",
+      "canonicalFormula": "Al2O3",
+      "commonNames": "氧化铝、铝氧",
+      "color": "白色",
+      "stateLabel": "固",
+      "solubility": "难溶于水；可溶于强酸与强碱",
+      "physicalProps": "白色固体；熔点高；刚玉等为天然形态（了解）。",
+      "chemicalProps": "两性氧化物：Al2O3+6HCl=2AlCl3+3H2O；Al2O3+2NaOH=2NaAlO2+H2O。",
+      "commonUses": "冶炼铝原料、耐火/陶瓷材料（了解）。",
+      "testMethods": "既能溶于强酸又能溶于强碱。",
+      "storageMethods": "干燥保存。",
+      "safetyNotes": "粉尘注意防护。",
+      "tags": [
+        "oxide"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.Al2O3]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "14",
+    "source": "imported",
+    "inventoryName": "氧化铝",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=14",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.AlOH3",
+    "type": "substance",
+    "data": {
+      "name": "氢氧化铝",
+      "canonicalFormula": "Al(OH)3",
+      "commonNames": "氢氧化铝",
+      "color": "白色",
+      "stateLabel": "固",
+      "solubility": "难溶于水；可溶于强酸与强碱",
+      "physicalProps": "白色胶状沉淀。",
+      "chemicalProps": "两性氢氧化物：Al(OH)3+3HCl=AlCl3+3H2O；Al(OH)3+NaOH=NaAlO2+2H2O。受热可分解为Al2O3（了解）。",
+      "commonUses": "抗酸药、净水等（了解）。",
+      "testMethods": "白色沉淀，酸碱均可溶。",
+      "storageMethods": "湿存或按试剂要求密封。",
+      "safetyNotes": "一般刺激性较小。",
+      "tags": [
+        "base"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.AlOH3]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "15",
+    "source": "imported",
+    "inventoryName": "氢氧化铝",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=15",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.Fe",
+    "type": "substance",
+    "data": {
+      "name": "铁",
+      "canonicalFormula": "Fe",
+      "commonNames": "铁",
+      "color": "银白色（粉末可呈灰黑）",
+      "stateLabel": "固",
+      "solubility": "单质不溶于水；可与稀酸反应",
+      "physicalProps": "银白色金属；具铁磁性；较活泼。",
+      "chemicalProps": "与O2点燃生成Fe3O4；与稀H2SO4/HCl生成Fe2+盐与H2；可置换活动性较弱的金属离子（如Cu2+）。潮湿空气中易生锈。",
+      "commonUses": "结构材料、合金基础。",
+      "testMethods": "与酸放H2；置换CuSO4得红色Cu。",
+      "storageMethods": "干燥防锈；粉末防火。",
+      "safetyNotes": "细铁粉易燃；铁锈实验注意环境。",
+      "tags": [
+        "elemental"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.Fe]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "16",
+    "source": "imported",
+    "inventoryName": "铁",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=16",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.Fe2O3",
+    "type": "substance",
+    "data": {
+      "name": "氧化铁",
+      "canonicalFormula": "Fe2O3",
+      "commonNames": "氧化铁、铁红",
+      "color": "红棕色",
+      "stateLabel": "固",
+      "solubility": "难溶于水；可与酸反应",
+      "physicalProps": "红棕色粉末。",
+      "chemicalProps": "Fe为+3价；可被CO等高还原：Fe2O3+3CO=高温=2Fe+3CO2。可与酸生成铁盐。",
+      "commonUses": "颜料、炼铁原料（赤铁矿主要成分，了解）。",
+      "testMethods": "红棕色；溶于酸得Fe3+溶液（黄/棕黄）。",
+      "storageMethods": "干燥。",
+      "safetyNotes": "粉尘防护。",
+      "tags": [
+        "oxide"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.Fe2O3]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "17",
+    "source": "imported",
+    "inventoryName": "氧化铁",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=17",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.Fe3O4",
+    "type": "substance",
+    "data": {
+      "name": "四氧化三铁",
+      "canonicalFormula": "Fe3O4",
+      "commonNames": "磁性氧化铁、磁石成分（了解）",
+      "color": "黑色",
+      "stateLabel": "固",
+      "solubility": "难溶于水",
+      "physicalProps": "黑色固体；具磁性。",
+      "chemicalProps": "可看作FeO·Fe2O3（了解）；铁在氧气中点燃的产物。与酸反应较复杂，高中以认识为主。",
+      "commonUses": "磁性材料等（了解）。",
+      "testMethods": "黑色；可被磁铁吸引（结合样品）。",
+      "storageMethods": "干燥。",
+      "safetyNotes": "粉尘防护。",
+      "tags": [
+        "oxide"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.Fe3O4]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "18",
+    "source": "imported",
+    "inventoryName": "四氧化三铁",
+    "inventoryStatus": "imported",
+    "priority": 2,
+    "note": "batch3导入 pending_review id=18",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.FeOH3",
+    "type": "substance",
+    "data": {
+      "name": "氢氧化铁",
+      "canonicalFormula": "Fe(OH)3",
+      "commonNames": "氢氧化铁",
+      "color": "红褐色",
+      "stateLabel": "固",
+      "solubility": "难溶于水",
+      "physicalProps": "红褐色沉淀。",
+      "chemicalProps": "由Fe3+与碱生成；可溶于酸。Fe(OH)2在空气中氧化最终可得红褐色Fe(OH)3。受热分解为Fe2O3（了解）。",
+      "commonUses": "净水、颜料相关（了解）。",
+      "testMethods": "红褐色沉淀；溶于酸得Fe3+。",
+      "storageMethods": "湿存沉淀或按试剂要求。",
+      "safetyNotes": "一般按实验室规范操作。",
+      "tags": [
+        "base"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.FeOH3]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "19",
+    "source": "imported",
+    "inventoryName": "氢氧化铁",
+    "inventoryStatus": "imported",
+    "priority": 2,
+    "note": "batch3导入 pending_review id=19",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.FeCl3",
+    "type": "substance",
+    "data": {
+      "name": "氯化铁",
+      "canonicalFormula": "FeCl3",
+      "commonNames": "氯化铁、三氯化铁",
+      "color": "无水时黑褐色；水溶液黄至棕黄色",
+      "stateLabel": "固/溶液",
+      "solubility": "易溶于水，易水解显酸性",
+      "physicalProps": "常见为黄棕色固体或溶液；易潮解。",
+      "chemicalProps": "提供Fe3+；氧化性较强，可将I-、S2-等氧化（选修/了解）；与KSCN显血红色；与碱得Fe(OH)3红褐沉淀。",
+      "commonUses": "蚀刻、净水、检验SCN-等（了解）。",
+      "testMethods": "KSCN血红色；加碱红褐色沉淀。",
+      "storageMethods": "密封防潮。",
+      "safetyNotes": "腐蚀性，避免接触皮肤眼睛。",
+      "tags": [
+        "salt"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.FeCl3]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "20",
+    "source": "imported",
+    "inventoryName": "氯化铁",
+    "inventoryStatus": "imported",
+    "priority": 2,
+    "note": "batch3导入 pending_review id=20",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.Cu",
+    "type": "substance",
+    "data": {
+      "name": "铜",
+      "canonicalFormula": "Cu",
+      "commonNames": "铜",
+      "color": "紫红色",
+      "stateLabel": "固",
+      "solubility": "单质不与稀盐酸、稀硫酸反应（常温）",
+      "physicalProps": "紫红色金属；延展、导热导电性好。",
+      "chemicalProps": "活动性较弱；加热可与O2生成黑色CuO；可与浓硫酸、硝酸等反应（后续非金属章节）。可被Zn、Fe等置换。",
+      "commonUses": "导线、合金、器件。",
+      "testMethods": "紫红色外观；加热变黑生成CuO。",
+      "storageMethods": "干燥；避免长期潮湿腐蚀。",
+      "safetyNotes": "可溶性铜盐有毒，单质相对安全。",
+      "tags": [
+        "elemental"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.Cu]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "21",
+    "source": "imported",
+    "inventoryName": "铜",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=21",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.CuO",
+    "type": "substance",
+    "data": {
+      "name": "氧化铜",
+      "canonicalFormula": "CuO",
+      "commonNames": "氧化铜",
+      "color": "黑色",
+      "stateLabel": "固",
+      "solubility": "难溶于水；可溶于酸",
+      "physicalProps": "黑色粉末。",
+      "chemicalProps": "碱性氧化物；CuO+2HCl=CuCl2+H2O；可被H2、C、CO等还原为Cu：CuO+H2=△=Cu+H2O。",
+      "commonUses": "催化剂、颜料、实验还原示范（了解）。",
+      "testMethods": "黑色；溶于酸得蓝色Cu2+溶液。",
+      "storageMethods": "干燥。",
+      "safetyNotes": "粉尘与铜盐毒性，避免吸入。",
+      "tags": [
+        "oxide"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.CuO]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "22",
+    "source": "imported",
+    "inventoryName": "氧化铜",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=22",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.CuOH2",
+    "type": "substance",
+    "data": {
+      "name": "氢氧化铜",
+      "canonicalFormula": "Cu(OH)2",
+      "commonNames": "氢氧化铜",
+      "color": "蓝色",
+      "stateLabel": "固",
+      "solubility": "难溶于水",
+      "physicalProps": "蓝色沉淀。",
+      "chemicalProps": "由Cu2+与碱生成；可溶于酸；受热分解为黑色CuO（了解）。弱碱性。",
+      "commonUses": "有机实验中检验醛基等（后续了解）。",
+      "testMethods": "蓝色沉淀。",
+      "storageMethods": "现配现用为宜。",
+      "safetyNotes": "含铜，避免摄入。",
+      "tags": [
+        "base"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.CuOH2]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "23",
+    "source": "imported",
+    "inventoryName": "氢氧化铜",
+    "inventoryStatus": "imported",
+    "priority": 2,
+    "note": "batch3导入 pending_review id=23",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.CuSO4",
+    "type": "substance",
+    "data": {
+      "name": "硫酸铜",
+      "canonicalFormula": "CuSO4",
+      "commonNames": "硫酸铜；五水合物称胆矾、蓝矾",
+      "color": "无水白色；五水合物蓝色",
+      "stateLabel": "固",
+      "solubility": "易溶于水，溶液呈蓝色（水合Cu2+）",
+      "physicalProps": "无水为白色粉末；CuSO4·5H2O为蓝色晶体。",
+      "chemicalProps": "提供Cu2+；可与Fe、Zn等发生置换；与碱得蓝色Cu(OH)2。无水CuSO4可吸水变蓝用于检验水（了解）。化学性质描述中注明：白色无水/蓝矾含水蓝色。",
+      "commonUses": "电镀、杀菌、实验试剂等（了解）。",
+      "testMethods": "蓝色溶液；加碱蓝色沉淀；铁钉置换得红色Cu。",
+      "storageMethods": "密封；无水物严格防潮。",
+      "safetyNotes": "有毒，禁止入口；勿用食品容器盛装。",
+      "tags": [
+        "salt"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.CuSO4]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "24",
+    "source": "imported",
+    "inventoryName": "硫酸铜",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=24",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.Zn",
+    "type": "substance",
+    "data": {
+      "name": "锌",
+      "canonicalFormula": "Zn",
+      "commonNames": "锌",
+      "color": "银白色（略灰）",
+      "stateLabel": "固",
+      "solubility": "单质不溶于水；可与稀酸反应",
+      "physicalProps": "银白色金属；常温较硬。",
+      "chemicalProps": "活动性较强；与稀硫酸：Zn+H2SO4=ZnSO4+H2↑；可置换Cu2+：Zn+CuSO4=ZnSO4+Cu。表面可形成氧化膜（了解）。",
+      "commonUses": "镀锌、合金、电池等。",
+      "testMethods": "与酸放H2；置换CuSO4。",
+      "storageMethods": "干燥。",
+      "safetyNotes": "锌粉易燃；酸反应注意氢气安全。",
+      "tags": [
+        "elemental"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.Zn]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "25",
+    "source": "imported",
+    "inventoryName": "锌",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=25",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.Ag",
+    "type": "substance",
+    "data": {
+      "name": "银",
+      "canonicalFormula": "Ag",
+      "commonNames": "银",
+      "color": "银白色",
+      "stateLabel": "固",
+      "solubility": "单质不与稀酸（非氧化性）反应",
+      "physicalProps": "银白色金属；导热导电性极好。",
+      "chemicalProps": "活动性弱；一般不与稀盐酸、稀硫酸反应；可与硝酸等反应（后续）。可被更活泼金属从其盐溶液中置换出来。",
+      "commonUses": "首饰、电子、感光相关（了解）。",
+      "testMethods": "外观；结合盐溶液置换。",
+      "storageMethods": "避免硫化物使表面变黑（了解）。",
+      "safetyNotes": "可溶性银盐腐蚀/毒性，单质相对安全。",
+      "tags": [
+        "elemental"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.Ag]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "26",
+    "source": "imported",
+    "inventoryName": "银",
+    "inventoryStatus": "imported",
+    "priority": 2,
+    "note": "batch3导入 pending_review id=26",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.H2",
+    "type": "substance",
+    "inventoryName": "氢气",
+    "inventoryStatus": "seeded_audited",
+    "priority": 1,
+    "note": "阶段二示例已入库; batch3复用：不覆盖published",
+    "source": "seeded_reuse_db",
+    "data": {
+      "id": 4,
+      "name": "氢气",
+      "canonical_formula": "H2",
+      "common_names": "氢气",
+      "color": "无色",
+      "state_label": "气",
+      "solubility": "难溶",
+      "physical_props": "最轻气体",
+      "chemical_props": "可燃，还原性",
+      "common_uses": "燃料、还原剂",
+      "storage_methods": "钢瓶或发生器",
+      "safety_notes": "与空气混合遇明火爆炸",
+      "status": "published"
+    }
+  },
+  {
+    "code": "sub.H2O",
+    "type": "substance",
+    "inventoryName": "水",
+    "inventoryStatus": "seeded_audited",
+    "priority": 1,
+    "note": "阶段二示例已入库; batch3复用：不覆盖published",
+    "source": "seeded_reuse_db",
+    "data": {
+      "id": 2,
+      "name": "水",
+      "canonical_formula": "H2O",
+      "common_names": "水",
+      "color": "无色",
+      "state_label": "液",
+      "solubility": "溶剂",
+      "physical_props": "无色无味液体",
+      "chemical_props": "可与活泼金属、氧化物等反应",
+      "common_uses": "溶剂、反应物",
+      "storage_methods": "常温密封",
+      "safety_notes": "安全",
+      "status": "published"
+    }
+  },
+  {
+    "code": "sub.O2",
+    "type": "substance",
+    "data": {
+      "name": "氧气",
+      "canonicalFormula": "O2",
+      "commonNames": "氧气",
+      "color": "无色",
+      "stateLabel": "气",
+      "solubility": "不易溶于水",
+      "physicalProps": "无色无味气体；支持燃烧。",
+      "chemicalProps": "常见氧化剂；与许多金属、非金属反应生成氧化物。",
+      "commonUses": "助燃、呼吸、工业氧化。",
+      "testMethods": "使带火星木条复燃。",
+      "storageMethods": "钢瓶或实验室发生装置现制；远离火源。",
+      "safetyNotes": "助燃，禁止与油脂接触高压氧气阀门。",
+      "tags": [
+        "elemental"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.O2]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "27",
+    "source": "imported",
+    "inventoryName": "氧气",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=27",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.CO2",
+    "type": "substance",
+    "data": {
+      "name": "二氧化碳",
+      "canonicalFormula": "CO2",
+      "commonNames": "二氧化碳、碳酸气",
+      "color": "无色",
+      "stateLabel": "气",
+      "solubility": "可溶于水，部分生成碳酸",
+      "physicalProps": "无色气体；密度比空气大；一般不支持燃烧。",
+      "chemicalProps": "酸性氧化物；与碱反应；使澄清石灰水变浑浊。与Na2O2反应放O2。一般不燃烧也不支持燃烧（镁等例外）。",
+      "commonUses": "灭火、汽水、制冷（干冰）等。",
+      "testMethods": "澄清石灰水变浑浊。",
+      "storageMethods": "钢瓶或现制；通风。",
+      "safetyNotes": "高浓度窒息；地下室等注意通风。",
+      "tags": [
+        "oxide"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.CO2]"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "28",
+    "source": "imported",
+    "inventoryName": "二氧化碳",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "batch3导入 pending_review id=28",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.FeO",
+    "type": "substance",
+    "data": {
+      "name": "氧化亚铁",
+      "canonicalFormula": "FeO",
+      "commonNames": "氧化亚铁",
+      "color": "黑色",
+      "stateLabel": "固",
+      "solubility": "难溶于水；可与酸反应",
+      "physicalProps": "黑色粉末；不稳定，易被氧化（了解）。",
+      "chemicalProps": "Fe为+2价；与酸生成亚铁盐；暴露空气中易进一步氧化（待核实细节以课本为准）。",
+      "commonUses": "高中认识亚铁氧化物；工业用途了解。",
+      "testMethods": "黑色；溶于酸得浅绿色Fe2+（注意防氧化）。",
+      "storageMethods": "密封隔绝空气为宜。",
+      "safetyNotes": "粉尘防护。",
+      "tags": [
+        "oxide"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.FeO] 增补；黑色粉末；FeO"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property",
+      "substance.color"
+    ],
+    "dbId": "29",
+    "source": "imported",
+    "inventoryName": "氧化亚铁",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "增补；黑色粉末；FeO; batch3导入 pending_review id=29",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.FeOH2",
+    "type": "substance",
+    "data": {
+      "name": "氢氧化亚铁",
+      "canonicalFormula": "Fe(OH)2",
+      "commonNames": "氢氧化亚铁",
+      "color": "白色（初生）；空气中变为灰绿再转红褐",
+      "stateLabel": "固",
+      "solubility": "难溶于水",
+      "physicalProps": "白色沉淀，在空气中迅速变色。",
+      "chemicalProps": "由Fe2+与碱生成；易被空气中O2氧化：4Fe(OH)2+O2+2H2O=4Fe(OH)3（高中常用总式，写法待核实可接受）。可溶于酸。",
+      "commonUses": "展示亚铁盐还原性与氧化过程的典型物。",
+      "testMethods": "白色→灰绿→红褐色变化。",
+      "storageMethods": "难稳定保存，宜现制观察。",
+      "safetyNotes": "按实验室规范操作。",
+      "tags": [
+        "base"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.FeOH2] 增补；白色→灰绿→红褐氧化过程为重点"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory",
+      "experiment"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property",
+      "substance.color"
+    ],
+    "dbId": "30",
+    "source": "imported",
+    "inventoryName": "氢氧化亚铁",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "增补；白色→灰绿→红褐氧化过程为重点; batch3导入 pending_review id=30",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.FeSO4",
+    "type": "substance",
+    "data": {
+      "name": "硫酸亚铁",
+      "canonicalFormula": "FeSO4",
+      "commonNames": "硫酸亚铁；七水合物称绿矾",
+      "color": "晶体常浅绿；溶液浅绿色",
+      "stateLabel": "固/溶液",
+      "solubility": "易溶于水",
+      "physicalProps": "常见浅绿色晶体；易被氧化。",
+      "chemicalProps": "提供Fe2+，具还原性；可被Cl2、O2、酸性KMnO4等氧化为Fe3+。与碱得白色Fe(OH)2并迅速变色。",
+      "commonUses": "补铁剂、净水、还原性试剂（了解）。",
+      "testMethods": "浅绿色；加碱白色沉淀变色；氧化后加KSCN显血红色。",
+      "storageMethods": "密封，可加铁钉等防止氧化（了解）。",
+      "safetyNotes": "按试剂规范；避免误食大量。",
+      "tags": [
+        "salt"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.FeSO4] 增补；亚铁盐代表物；与 sub.FeCl3（铁盐）对照"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory",
+      "ion"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "31",
+    "source": "imported",
+    "inventoryName": "硫酸亚铁",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "增补；亚铁盐代表物；与 sub.FeCl3（铁盐）对照; batch3导入 pending_review id=31",
+    "verifyNeeded": false
+  },
+  {
+    "code": "sub.NaAlO2",
+    "type": "substance",
+    "data": {
+      "name": "偏铝酸钠",
+      "canonicalFormula": "NaAlO2",
+      "commonNames": "偏铝酸钠",
+      "color": "白色（固体）；溶液无色",
+      "stateLabel": "固/溶液",
+      "solubility": "易溶于水",
+      "physicalProps": "白色固体；实验室多以其溶液形式出现。",
+      "chemicalProps": "由Al、Al2O3或Al(OH)3与NaOH反应生成。溶液中常写[Al(OH)4]-（了解）。通入适量CO2或加酸可析出Al(OH)3。偏铝酸盐与铝盐转化是两性化学重点。",
+      "commonUses": "净水、造纸等（了解）；高中重在转化关系。",
+      "testMethods": "加酸先沉淀后溶解（过量）；结合铝的两性实验。",
+      "storageMethods": "溶液密封防吸收CO2。",
+      "safetyNotes": "碱性溶液，腐蚀皮肤。",
+      "tags": [
+        "salt"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.NaAlO2] 增补；两性转化枢纽；溶液中存在形式表述建设时注意"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "ion",
+      "memory"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property",
+      "substance.conversion"
+    ],
+    "dbId": "32",
+    "source": "imported",
+    "inventoryName": "偏铝酸钠",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "增补；两性转化枢纽；溶液中存在形式表述建设时注意; batch3导入 pending_review id=32",
+    "verifyNeeded": true
+  },
+  {
+    "code": "sub.AlCl3",
+    "type": "substance",
+    "data": {
+      "name": "氯化铝",
+      "canonicalFormula": "AlCl3",
+      "commonNames": "氯化铝、三氯化铝",
+      "color": "白色（无水）；水溶液近无色",
+      "stateLabel": "固/溶液",
+      "solubility": "易溶于水，强烈水解显酸性",
+      "physicalProps": "无水物易升华（了解）；常见为溶液或水合物。",
+      "chemicalProps": "提供Al3+；加氨水或适量碱得Al(OH)3白色沉淀，碱过量沉淀溶解。与偏铝酸盐可通过酸碱调节相互转化。",
+      "commonUses": "催化剂、净水等（了解）。",
+      "testMethods": "加碱白色沉淀且过量溶解。",
+      "storageMethods": "无水物严格防潮。",
+      "safetyNotes": "腐蚀性，水解放热刺激。",
+      "tags": [
+        "salt"
+      ],
+      "status": "pending_review",
+      "reviewNote": "[inv:sub.AlCl3] 增补；铝盐代表"
+    },
+    "pack": "B3-A",
+    "specialtyCodes": [
+      "substance",
+      "memory",
+      "ion"
+    ],
+    "categoryCodes": [
+      "substance.formula",
+      "substance.chem_property"
+    ],
+    "dbId": "33",
+    "source": "imported",
+    "inventoryName": "氯化铝",
+    "inventoryStatus": "imported",
+    "priority": 1,
+    "note": "增补；铝盐代表; batch3导入 pending_review id=33",
+    "verifyNeeded": false
+  }
+]

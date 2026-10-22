@@ -1,0 +1,71 @@
+{
+  "recheckedAt": "2026-10-18T11:28:28.052Z",
+  "allOk": true,
+  "checks": [
+    {
+      "id": "inventory_377",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "id": "db_377_present",
+      "ok": true,
+      "detail": true
+    },
+    {
+      "id": "published_untouched",
+      "ok": true,
+      "detail": 19
+    },
+    {
+      "id": "redox_removed",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "id": "other_specs_kept",
+      "ok": true,
+      "detail": true
+    },
+    {
+      "id": "inventory_ion_fixed",
+      "ok": true,
+      "detail": 3
+    },
+    {
+      "id": "inv_tags",
+      "ok": true,
+      "detail": 5
+    },
+    {
+      "id": "question_limits",
+      "ok": true,
+      "detail": 17
+    },
+    {
+      "id": "fe3_limit",
+      "ok": true,
+      "detail": true
+    },
+    {
+      "id": "verifyNeeded_23",
+      "ok": true,
+      "detail": 23
+    },
+    {
+      "id": "c2h4_no_redox",
+      "ok": true,
+      "detail": true
+    },
+    {
+      "id": "pack_B3B_synced",
+      "ok": true,
+      "detail": true
+    },
+    {
+      "id": "no_new_p0_assumed",
+      "ok": true,
+      "detail": "no equation/ox-re field writes this round"
+    }
+  ]
+}
