@@ -1,0 +1,274 @@
+{
+  "checks": [
+    {
+      "name": "create_session",
+      "ok": true,
+      "detail": "status=201"
+    },
+    {
+      "name": "session_has_app_0001",
+      "ok": true,
+      "detail": "si=261"
+    },
+    {
+      "name": "upload_jpeg",
+      "ok": true,
+      "detail": "status=201"
+    },
+    {
+      "name": "jpeg_no_storage_key",
+      "ok": true,
+      "detail": "{\"imageId\":\"7\",\"mimeType\":\"image/jpeg\",\"sizeBytes\":450,\"sortOrder\":1,\"status\":\"draft\",\"createdAt\":\"2026-10-25T07:11:42.267Z\"}"
+    },
+    {
+      "name": "upload_png",
+      "ok": true,
+      "detail": "status=201"
+    },
+    {
+      "name": "upload_webp",
+      "ok": true,
+      "detail": "status=201 {\"success\":true,\"data\":{\"imageId\":\"9\",\"mimeType\":\"image/webp\",\"sizeBytes\":44,\"sortOrder\":3,\"status\":\"draft\",\"createdAt\":\"2026-10-25T07:11:42.574Z\"}}"
+    },
+    {
+      "name": "list_images",
+      "ok": true,
+      "detail": "n=3"
+    },
+    {
+      "name": "sort_order_present",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "reject_illegal_mime",
+      "ok": true,
+      "detail": "status=400"
+    },
+    {
+      "name": "reject_illegal_magic",
+      "ok": true,
+      "detail": "status=400"
+    },
+    {
+      "name": "reject_over_10mb",
+      "ok": true,
+      "detail": "status=413"
+    },
+    {
+      "name": "upload_4_5",
+      "ok": true,
+      "detail": "4=201 5=201"
+    },
+    {
+      "name": "reject_over_5",
+      "ok": true,
+      "detail": "status=400"
+    },
+    {
+      "name": "cross_user_list_denied",
+      "ok": true,
+      "detail": "status=404"
+    },
+    {
+      "name": "unauth_read_denied",
+      "ok": true,
+      "detail": "status=401"
+    },
+    {
+      "name": "cross_user_read_denied",
+      "ok": true,
+      "detail": "status=404"
+    },
+    {
+      "name": "delete_draft",
+      "ok": true,
+      "detail": "status=200"
+    },
+    {
+      "name": "save_pure_images",
+      "ok": true,
+      "detail": "status=200"
+    },
+    {
+      "name": "submit_pure",
+      "ok": true,
+      "detail": "status=201"
+    },
+    {
+      "name": "pending_ai",
+      "ok": true,
+      "detail": "pending_ai"
+    },
+    {
+      "name": "pending_count",
+      "ok": true,
+      "detail": "pending=1"
+    },
+    {
+      "name": "correct_wrong_ok",
+      "ok": true,
+      "detail": "c=0 w=0"
+    },
+    {
+      "name": "accuracy_ignores_pending",
+      "ok": true,
+      "detail": "acc=null"
+    },
+    {
+      "name": "images_submitted_meta",
+      "ok": true,
+      "detail": "[{\"imageId\":\"7\",\"mimeType\":\"image/jpeg\",\"sortOrder\":1},{\"imageId\":\"8\",\"mimeType\":\"image/png\",\"sortOrder\":2}]"
+    },
+    {
+      "name": "history_no_orphan_draft",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "history_no_storage_key",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "db_draft_to_submitted",
+      "ok": true,
+      "detail": "[{\"id\":\"7\",\"status\":\"submitted\"},{\"id\":\"8\",\"status\":\"submitted\"}]"
+    },
+    {
+      "name": "orphan_stays_draft",
+      "ok": true,
+      "detail": "draft"
+    },
+    {
+      "name": "delete_submitted_denied",
+      "ok": true,
+      "detail": "status=409"
+    },
+    {
+      "name": "patch_after_submit_409",
+      "ok": true,
+      "detail": "status=409"
+    },
+    {
+      "name": "submit_idempotent",
+      "ok": true,
+      "detail": "{\"idempotent\":true}"
+    },
+    {
+      "name": "auth_read_ok",
+      "ok": true,
+      "detail": "len=450 ct=image/jpeg"
+    },
+    {
+      "name": "cache_control",
+      "ok": true,
+      "detail": "private, no-store"
+    },
+    {
+      "name": "content_type_image",
+      "ok": true,
+      "detail": "image/jpeg"
+    },
+    {
+      "name": "content_matches_jpeg_soi",
+      "ok": true,
+      "detail": "soi"
+    },
+    {
+      "name": "create_session_mixed",
+      "ok": true,
+      "detail": "status=201"
+    },
+    {
+      "name": "save_mixed",
+      "ok": true,
+      "detail": "status=200"
+    },
+    {
+      "name": "submit_mixed_pending_ai",
+      "ok": true,
+      "detail": "pending_ai"
+    },
+    {
+      "name": "mixed_text_preserved",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "mixed_images_len",
+      "ok": true,
+      "detail": "[{\"imageId\":\"12\",\"mimeType\":\"image/jpeg\",\"sortOrder\":1}]"
+    },
+    {
+      "name": "items_unchanged",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "methods_unchanged",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "reviews_unchanged",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "other_users_sessions_unchanged",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "private_upload_root_exists",
+      "ok": true,
+      "detail": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\apps\\api\\uploads\\hs-math\\application-answers"
+    },
+    {
+      "name": "storage_key_under_private_prefix",
+      "ok": true,
+      "detail": "[{\"storage_key\":\"hs-math/application-answers/2/8b89f9d8-1c7d-409b-bb1b-44c53830b580.bin\"},{\"storage_key\":\"hs-math/application-answers/2/67405c93-f906-498a-a876-1eab0321378a.bin\"}]"
+    },
+    {
+      "name": "files_are_bin_under_user_dir",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "baseline": {
+    "items": "111",
+    "approved": "13",
+    "methods": "11",
+    "method_links": "18",
+    "reviews": "13",
+    "sessions": "54",
+    "other_user_sessions": "37"
+  },
+  "sessionId": "55",
+  "sessionItemId": "261",
+  "allImageIds": [
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
+  ],
+  "sessionIdMixed": "56",
+  "after": {
+    "items": "111",
+    "approved": "13",
+    "methods": "11",
+    "method_links": "18",
+    "reviews": "13",
+    "other_user_sessions": "37",
+    "images": "10"
+  },
+  "uploadRoot": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\apps\\api\\uploads\\hs-math\\application-answers",
+  "summary": {
+    "total": 47,
+    "failed": 0,
+    "pass": true,
+    "failedNames": []
+  }
+}

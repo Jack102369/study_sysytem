@@ -1,0 +1,391 @@
+{
+  "_meta": {
+    "chapter": "rja-ch1",
+    "section": "1.5",
+    "count": 12,
+    "note": "P1-0E 正式题库文件；勿含测试前缀；导入前须人工审核。本阶段未写库。"
+  },
+  "items": [
+    {
+      "code": "HSMA-RJA-CH01-0069",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "命题“$\\forall x\\in\\mathbb{R},\\,x^{2}\\ge 0$”是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "真命题"
+          },
+          {
+            "id": "B",
+            "text": "假命题"
+          },
+          {
+            "id": "C",
+            "text": "无法判断"
+          },
+          {
+            "id": "D",
+            "text": "条件命题"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "任意实数的平方都大于或等于 $0$，因此该全称量词命题为真命题。",
+      "knowledgePointCodes": [
+        "rja.1.5.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.5.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0070",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "命题“$\\exists x\\in\\mathbb{R},\\,x^{2}+1=0$”是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "假命题"
+          },
+          {
+            "id": "B",
+            "text": "真命题"
+          },
+          {
+            "id": "C",
+            "text": "无法判断"
+          },
+          {
+            "id": "D",
+            "text": "与量词无关"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "在实数集上 $x^{2}+1\\ge 1>0$，方程无实根，故存在量词命题为假。",
+      "knowledgePointCodes": [
+        "rja.1.5.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.5.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0071",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "命题“$\\forall x\\in\\mathbb{R},\\,x>0$”的否定是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\exists x\\in\\mathbb{R},\\,x\\le 0$"
+          },
+          {
+            "id": "B",
+            "text": "$\\forall x\\in\\mathbb{R},\\,x\\le 0$"
+          },
+          {
+            "id": "C",
+            "text": "$\\exists x\\in\\mathbb{R},\\,x>0$"
+          },
+          {
+            "id": "D",
+            "text": "$\\forall x\\in\\mathbb{R},\\,x<0$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "否定全称命题时，把 $\\forall$ 改为 $\\exists$，并把结论 $x>0$ 否定为 $x\\le 0$。",
+      "knowledgePointCodes": [
+        "rja.1.5.03",
+        "rja.1.5.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.5.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0072",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "命题“$\\exists x\\in\\mathbb{Z},\\,x^{2}=2$”的否定是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\forall x\\in\\mathbb{Z},\\,x^{2}\\ne 2$"
+          },
+          {
+            "id": "B",
+            "text": "$\\exists x\\in\\mathbb{Z},\\,x^{2}\\ne 2$"
+          },
+          {
+            "id": "C",
+            "text": "$\\forall x\\in\\mathbb{Z},\\,x^{2}=2$"
+          },
+          {
+            "id": "D",
+            "text": "$\\exists x\\in\\mathbb{R},\\,x^{2}=2$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "否定存在命题时，把 $\\exists$ 改为 $\\forall$，并否定结论，得到任意整数都满足 $x^{2}\\ne 2$。",
+      "knowledgePointCodes": [
+        "rja.1.5.03",
+        "rja.1.5.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.5.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0073",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "下列为真命题的是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\exists x\\in\\mathbb{R},\\,x^{2}-2x+1=0$"
+          },
+          {
+            "id": "B",
+            "text": "$\\forall x\\in\\mathbb{R},\\,x^{2}-2x+1=0$"
+          },
+          {
+            "id": "C",
+            "text": "$\\exists x\\in\\mathbb{R},\\,x^{2}+1=0$"
+          },
+          {
+            "id": "D",
+            "text": "$\\forall x\\in\\mathbb{N},\\,x<0$（$\\mathbb{N}$ 含 $0$）"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "$x^{2}-2x+1=(x-1)^{2}=0$ 有实根 $x=1$，存在性为真。其余全称或存在命题均假。",
+      "knowledgePointCodes": [
+        "rja.1.5.02",
+        "rja.1.5.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.5.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0074",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "qtype": "single",
+      "difficulty": 3,
+      "stem": "命题“$\\forall x\\in\\{1,2,3\\},\\,x\\le 3$”是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "真命题"
+          },
+          {
+            "id": "B",
+            "text": "假命题"
+          },
+          {
+            "id": "C",
+            "text": "无法判断"
+          },
+          {
+            "id": "D",
+            "text": "否定后仍真"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "论域只有 $1,2,3$，逐个检验均有 $x\\le 3$，故全称命题为真。",
+      "knowledgePointCodes": [
+        "rja.1.5.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.5.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0075",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stem": "下列命题为真的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\forall x\\in\\mathbb{R},\\,|x|\\ge 0$"
+          },
+          {
+            "id": "B",
+            "text": "$\\exists x\\in\\mathbb{Z},\\,2x=5$"
+          },
+          {
+            "id": "C",
+            "text": "$\\exists x\\in\\mathbb{R},\\,x^{2}<0$"
+          },
+          {
+            "id": "D",
+            "text": "$\\exists n\\in\\mathbb{Z}^{+},\\,n^{2}=9$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "D"
+        ]
+      },
+      "analysis": "A 真。B：不存在整数使 $2x=5$。C：平方非负。D：取 $n=3$ 即可。",
+      "knowledgePointCodes": [
+        "rja.1.5.01",
+        "rja.1.5.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.5.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0076",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "qtype": "multi",
+      "difficulty": 3,
+      "stem": "关于命题否定，正确的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "“$\\forall x\\in M,\\,p(x)$”的否定是“$\\exists x\\in M,\\,\\neg p(x)$”"
+          },
+          {
+            "id": "B",
+            "text": "“$\\exists x\\in M,\\,p(x)$”的否定是“$\\forall x\\in M,\\,\\neg p(x)$”"
+          },
+          {
+            "id": "C",
+            "text": "否定时只需否定结论，量词不变"
+          },
+          {
+            "id": "D",
+            "text": "否定全称命题时，全称与存在互换"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "analysis": "含量词命题的否定规则是：全称与存在互换，并且否定结论。只改结论不改量词是错误的，故 C 不选。",
+      "knowledgePointCodes": [
+        "rja.1.5.03"
+      ],
+      "primaryKnowledgePointCode": "rja.1.5.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0077",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stem": "命题“$\\exists x\\in\\mathbb{R},\\,x^{2}=0$”是真命题。",
+      "answerPayload": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "取 $x=0$ 时 $x^{2}=0$ 成立，说明存在这样的实数，故命题为真。",
+      "knowledgePointCodes": [
+        "rja.1.5.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.5.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0078",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "qtype": "judge",
+      "difficulty": 2,
+      "stem": "命题“$\\forall x\\in\\mathbb{R},\\,x^{2}>0$”是真命题。",
+      "answerPayload": {
+        "kind": "judge",
+        "value": false
+      },
+      "analysis": "取反例 $x=0$，此时 $x^{2}=0$ 并不大于 $0$，故全称命题为假。",
+      "knowledgePointCodes": [
+        "rja.1.5.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.5.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0079",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stem": "在集合 $\\{1,2,3,4\\}$ 中，满足 $x>2$ 的元素个数是（可用于判断存在量词命题）",
+      "answerPayload": {
+        "kind": "numeric",
+        "value": "2",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "逐个检验：$3,4$ 满足 $x>2$，共 $2$ 个；因此“存在 $x$ 使 $x>2$”为真。",
+      "knowledgePointCodes": [
+        "rja.1.5.02",
+        "rja.1.1.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.5.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0080",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stem": "命题“$\\forall x\\in\\{2,4,6\\},\\,x$ 为偶数”为真。若从该集合中任取一个元素作为反例候选，可能推翻全称命题的反例个数是",
+      "answerPayload": {
+        "kind": "numeric",
+        "value": "0",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "$2,4,6$ 均为偶数，找不到使结论失败的元素，故可作反例的个数为 $0$。",
+      "knowledgePointCodes": [
+        "rja.1.5.01",
+        "rja.1.5.03"
+      ],
+      "primaryKnowledgePointCode": "rja.1.5.01"
+    }
+  ]
+}

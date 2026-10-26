@@ -949,7 +949,7 @@ ${(params.keyPoints || '').slice(0, 800) || '（无）'}
       { role: 'user', content: params.message },
     ]
 
-    const reply = await this.chatMessages({
+    const { content: reply } = await this.chatMessages({
       key,
       model,
       messages,
@@ -963,14 +963,58 @@ ${(params.keyPoints || '').slice(0, 800) || '（无）'}
     return { reply: reply.trim().slice(0, 500), model }
   }
 
+  /**
+   * APPLICATION-3A：高一数学纯文字应用题批改（原始 JSON 字符串）。
+   * 调用方须自行做 rubric 严格校验；本方法不落库、不记录学生全文到日志。
+   * 需显式 timeoutMs；失败抛 ServiceUnavailableException（含超时）。
+   */
+  async gradeHsMathApplicationText(params: {
+    system: string
+    user: string
+    timeoutMs: number
+  }): Promise<{
+    content: string
+    model: string
+    usage?: {
+      prompt_tokens?: number
+      completion_tokens?: number
+      total_tokens?: number
+    } | null
+  }> {
+    const key = this.apiKey()
+    if (!key) {
+      throw new ServiceUnavailableException(
+        '未配置 DEEPSEEK_API_KEY，请在 apps/api/.env 中填写',
+      )
+    }
+    const model = this.model()
+    const { content, usage } = await this.chatMessages({
+      key,
+      model,
+      messages: [
+        { role: 'system', content: params.system },
+        { role: 'user', content: params.user },
+      ],
+      temperature: 0.2,
+      forceJson: !this.isReasoningModel(model),
+      timeoutMs: params.timeoutMs,
+      withUsage: true,
+    })
+    if (!content.trim()) {
+      throw new ServiceUnavailableException('模型未返回有效批改 JSON')
+    }
+    return { content, model, usage: usage ?? null }
+  }
+
   private async chat(opts: {
     key: string
     model: string
     system: string
     user: string
     temperature: number
+    timeoutMs?: number
   }): Promise<string> {
-    return this.chatMessages({
+    const { content } = await this.chatMessages({
       key: opts.key,
       model: opts.model,
       messages: [
@@ -979,7 +1023,9 @@ ${(params.keyPoints || '').slice(0, 800) || '（无）'}
       ],
       temperature: opts.temperature,
       forceJson: !this.isReasoningModel(opts.model),
+      timeoutMs: opts.timeoutMs,
     })
+    return content
   }
 
   private async chatMessages(opts: {
@@ -989,11 +1035,28 @@ ${(params.keyPoints || '').slice(0, 800) || '（无）'}
     temperature: number
     forceJson: boolean
     maxTokens?: number
-  }): Promise<string> {
+    timeoutMs?: number
+    withUsage?: boolean
+  }): Promise<{
+    content: string
+    usage?: {
+      prompt_tokens?: number
+      completion_tokens?: number
+      total_tokens?: number
+    } | null
+  }> {
     const reasoning = this.isReasoningModel(opts.model)
     const maxTokens =
       opts.maxTokens ?? (reasoning ? 8192 : 4096)
     let res: Response
+    const ac =
+      typeof opts.timeoutMs === 'number' && opts.timeoutMs > 0
+        ? new AbortController()
+        : null
+    let timer: ReturnType<typeof setTimeout> | null = null
+    if (ac) {
+      timer = setTimeout(() => ac.abort(), opts.timeoutMs)
+    }
     try {
       const body: Record<string, unknown> = {
         model: opts.model,
@@ -1012,15 +1075,28 @@ ${(params.keyPoints || '').slice(0, 800) || '（无）'}
           Authorization: `Bearer ${opts.key}`,
         },
         body: JSON.stringify(body),
+        signal: ac?.signal,
       })
     } catch (e) {
+      const msg = (e as Error).message || String(e)
+      const timedOut =
+        (e as Error).name === 'AbortError' || /aborted|timeout/i.test(msg)
       throw new ServiceUnavailableException(
-        `调用 DeepSeek 失败: ${(e as Error).message}`,
+        timedOut
+          ? `调用 DeepSeek 超时（${opts.timeoutMs}ms）`
+          : `调用 DeepSeek 失败: ${msg}`,
       )
+    } finally {
+      if (timer) clearTimeout(timer)
     }
 
     const raw = (await res.json()) as {
       error?: { message?: string }
+      usage?: {
+        prompt_tokens?: number
+        completion_tokens?: number
+        total_tokens?: number
+      }
       choices?: Array<{
         message?: { content?: string; reasoning_content?: string }
         finish_reason?: string
@@ -1034,10 +1110,11 @@ ${(params.keyPoints || '').slice(0, 800) || '（无）'}
     const msg = raw.choices?.[0]?.message
     const content = (msg?.content || '').trim()
     const reasoningText = (msg?.reasoning_content || '').trim()
+    const usage = opts.withUsage ? raw.usage ?? null : undefined
     // flash 常把正文放在 reasoning_content，content 为空
-    if (content) return content
-    if (reasoningText) return reasoningText
-    return ''
+    if (content) return { content, usage }
+    if (reasoningText) return { content: reasoningText, usage }
+    return { content: '', usage }
   }
 
   private parseItems(content: string): AiGeneratedItem[] {

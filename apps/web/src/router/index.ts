@@ -39,6 +39,22 @@ import ChemistryAdvancedTrainSetupView from '@/views/chemistry/ChemistryAdvanced
 import ChemistryWrongQuestionsView from '@/views/chemistry/ChemistryWrongQuestionsView.vue'
 import ChemistryWrongQuestionDetailView from '@/views/chemistry/ChemistryWrongQuestionDetailView.vue'
 import ChemistryAnalyticsView from '@/views/chemistry/ChemistryAnalyticsView.vue'
+import HsMathHomeView from '@/views/hs-math/HsMathHomeView.vue'
+import HsMathSpecialtyListView from '@/views/hs-math/HsMathSpecialtyListView.vue'
+import HsMathSpecialtyView from '@/views/hs-math/HsMathSpecialtyView.vue'
+import HsMathTrainSetupView from '@/views/hs-math/HsMathTrainSetupView.vue'
+import HsMathTrainSessionView from '@/views/hs-math/HsMathTrainSessionView.vue'
+import HsMathTrainResultView from '@/views/hs-math/HsMathTrainResultView.vue'
+import HsMathTrainHistoryView from '@/views/hs-math/HsMathTrainHistoryView.vue'
+import HsMathAnalyticsView from '@/views/hs-math/HsMathAnalyticsView.vue'
+import HsMathTaxonomyAdminView from '@/views/settings/hs-math/HsMathTaxonomyAdminView.vue'
+import HsMathTrainItemsAdminView from '@/views/settings/hs-math/HsMathTrainItemsAdminView.vue'
+import HsMathTrainItemsImportView from '@/views/settings/hs-math/HsMathTrainItemsImportView.vue'
+import HsMathTrainItemsReviewView from '@/views/settings/hs-math/HsMathTrainItemsReviewView.vue'
+import HsMathKnowledgeAdminView from '@/views/settings/hs-math/HsMathKnowledgeAdminView.vue'
+import HsMathMethodsAdminView from '@/views/settings/hs-math/HsMathMethodsAdminView.vue'
+import HsMathCategoryKnowledgeView from '@/views/hs-math/HsMathCategoryKnowledgeView.vue'
+import HsMathKnowledgeDetailView from '@/views/hs-math/HsMathKnowledgeDetailView.vue'
 import AssessmentsView from '@/views/assessments/AssessmentsView.vue'
 import TrendsView from '@/views/assessments/TrendsView.vue'
 import InsightView from '@/views/assessments/InsightView.vue'
@@ -133,6 +149,65 @@ const router = createRouter({
           name: 'chemistry-specialty',
           component: ChemistrySpecialtyView,
         },
+        { path: 'hs-math', name: 'hs-math', component: HsMathHomeView },
+        {
+          path: 'hs-math/specialties',
+          name: 'hs-math-specialties',
+          component: HsMathSpecialtyListView,
+        },
+        {
+          path: 'hs-math/train/history',
+          name: 'hs-math-train-history',
+          component: HsMathTrainHistoryView,
+        },
+        {
+          path: 'hs-math/analytics',
+          name: 'hs-math-analytics',
+          component: HsMathAnalyticsView,
+        },
+        {
+          path: 'hs-math/train/session/:id',
+          name: 'hs-math-train-session',
+          component: HsMathTrainSessionView,
+        },
+        {
+          path: 'hs-math/train/result/:id',
+          name: 'hs-math-train-result',
+          component: HsMathTrainResultView,
+        },
+        {
+          path: 'hs-math/specialties/:code/train',
+          name: 'hs-math-train-setup',
+          component: HsMathTrainSetupView,
+        },
+        {
+          path: 'hs-math/specialties/:code/categories/:categoryId/knowledge',
+          name: 'hs-math-category-knowledge',
+          component: HsMathCategoryKnowledgeView,
+        },
+        {
+          path: 'hs-math/kp/:code',
+          name: 'hs-math-knowledge-detail',
+          component: HsMathKnowledgeDetailView,
+        },
+        {
+          path: 'hs-math/specialties/:code',
+          name: 'hs-math-specialty',
+          component: HsMathSpecialtyView,
+        },
+        /** 兼容旧路径：/hs-math/:code → /hs-math/specialties/:code */
+        {
+          path: 'hs-math/:code/train',
+          redirect: (to) => ({
+            path: `/hs-math/specialties/${encodeURIComponent(String(to.params.code))}/train`,
+            query: to.query,
+          }),
+        },
+        {
+          path: 'hs-math/:code',
+          redirect: (to) =>
+            `/hs-math/specialties/${encodeURIComponent(String(to.params.code))}`,
+        },
         { path: 'assessments', name: 'assessments', component: AssessmentsView },
         { path: 'assessments/trends', name: 'trends', component: TrendsView },
         {
@@ -184,6 +259,42 @@ const router = createRouter({
               path: 'chemistry-train-items',
               name: 'settings-chemistry-train-items',
               component: ChemistryTrainItemsAdminView,
+              meta: { requiresAdmin: true },
+            },
+            {
+              path: 'hs-math-taxonomy',
+              name: 'settings-hs-math-taxonomy',
+              component: HsMathTaxonomyAdminView,
+              meta: { requiresAdmin: true },
+            },
+            {
+              path: 'hs-math-knowledge',
+              name: 'settings-hs-math-knowledge',
+              component: HsMathKnowledgeAdminView,
+              meta: { requiresAdmin: true },
+            },
+            {
+              path: 'hs-math-methods',
+              name: 'settings-hs-math-methods',
+              component: HsMathMethodsAdminView,
+              meta: { requiresAdmin: true },
+            },
+            {
+              path: 'hs-math-train-items',
+              name: 'settings-hs-math-train-items',
+              component: HsMathTrainItemsAdminView,
+              meta: { requiresAdmin: true },
+            },
+            {
+              path: 'hs-math-train-review',
+              name: 'settings-hs-math-train-review',
+              component: HsMathTrainItemsReviewView,
+              meta: { requiresAdmin: true },
+            },
+            {
+              path: 'hs-math-train-import',
+              name: 'settings-hs-math-train-import',
+              component: HsMathTrainItemsImportView,
               meta: { requiresAdmin: true },
             },
           ],

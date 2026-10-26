@@ -11,6 +11,7 @@
           <template #title>学习工具</template>
           <el-menu-item index="/extensions">延伸训练</el-menu-item>
           <el-menu-item index="/chemistry">高一化学</el-menu-item>
+          <el-menu-item index="/hs-math">高一数学</el-menu-item>
           <el-menu-item index="/listening">英文听力</el-menu-item>
           <el-menu-item v-if="canUseAi" index="/ai-reference">AI 参考</el-menu-item>
           <el-menu-item v-if="canUseAi" index="/writing-coach">结构教练</el-menu-item>

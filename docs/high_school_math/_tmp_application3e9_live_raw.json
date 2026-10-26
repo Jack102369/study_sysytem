@@ -1,0 +1,195 @@
+{
+  "at": "2026-10-26T02:41:19.165Z",
+  "qwenUsed": 2,
+  "qwenMax": 2,
+  "deepseekUsed": 2,
+  "deepseekMax": 2,
+  "sessions": [
+    "124",
+    "125"
+  ],
+  "safetyStop": null,
+  "results": [
+    {
+      "id": "A",
+      "status": "RAN",
+      "sampleKind": "PRINTED_SYNTHETIC",
+      "sessionId": "124",
+      "sessionItemId": "347",
+      "imageIds": [
+        "52"
+      ],
+      "imageIdsOrder": [
+        "52"
+      ],
+      "provider": "deepseek",
+      "gradeResult": "graded",
+      "gradeReason": "ai_graded",
+      "aiModel": "deepseek-chat",
+      "aiAttemptCount": 1,
+      "aiGradedAt": "Mon Oct 26 2026 10:41:03 GMT+0800 (中国标准时间)",
+      "totalScore": 7,
+      "maxScore": 10,
+      "rubric": [
+        {
+          "score": 3,
+          "feedback": "正确写出 y=x(2400-30x)=2400x-30x²，模型结构正确。",
+          "maxScore": 3,
+          "rubricKey": "model"
+        },
+        {
+          "score": 2,
+          "feedback": "定义域写成 x∈{30,31,…,60}，正确体现了整数与实际约束。",
+          "maxScore": 2,
+          "rubricKey": "domain"
+        },
+        {
+          "score": 1,
+          "feedback": "配方过程错误：-30(x-50)²+48000 展开后为 -30x²+3000x-27000，与原函数不符；正确配方应为 y=-30(x-40)²+48000，因此顶点横坐标应为 40。方法方向对但计算错误，给 1 分。",
+          "maxScore": 3,
+          "rubricKey": "solve"
+        },
+        {
+          "score": 1,
+          "feedback": "结论给出票价 50 元、最大收入 48000 元；收入数值正确但票价错误，且未明确单位，给 1 分。",
+          "maxScore": 2,
+          "rubricKey": "conclusion"
+        }
+      ],
+      "pipeline": "qwen_then_deepseek",
+      "visionModel": "qwen3.8-27b-orca-q8",
+      "scoringModel": "deepseek-chat",
+      "recognizedWorkPreview": "第1张：\n[3E-9 fiction test / no PII]\ny = x(2400 - 30x)\n= 2400x - 30x^2\ndomain: x in {30, 31, ..., 60}\n\nWRONG complete-square:\ny = -30(x - 50)^2 + 48000\nso when x = 50, max income = 48000",
+      "x50Check": {
+        "ok": true,
+        "detail": "x=50 preserved"
+      },
+      "warningFormat": "object[]",
+      "warningSample": {
+        "category": "auxiliary_text",
+        "location": "第一行",
+        "severity": "minor",
+        "pageIndex": 1,
+        "description": "页眉文字「[3E-9 fiction test / no PII]」为辅助标记，非解题内容。",
+        "affectsScoring": false
+      },
+      "recognitionUncertain": null,
+      "recognitionWarnings": [
+        {
+          "category": "auxiliary_text",
+          "location": "第一行",
+          "severity": "minor",
+          "pageIndex": 1,
+          "description": "页眉文字「[3E-9 fiction test / no PII]」为辅助标记，非解题内容。",
+          "affectsScoring": false
+        }
+      ],
+      "confidence": 0.98,
+      "visionCallCount": 1,
+      "scoringCallCount": 1,
+      "personalizedExplanation": "你的建模和定义域都正确，说明对题意理解到位。问题出在配方：对 y=-30x²+2400x 配方时，应先提取 -30 得 y=-30(x²-80x)，再配成 y=-30[(x-40)²-1600]=-30(x-40)²+48000，所以顶点横坐标是 40，不是 50。建议以后配方后代回展开检验，避免顶点位置出错。最终应回答：票价 40 元时最大日票务收入为 48000 元。",
+      "qwen": {
+        "before": 0,
+        "after": 1,
+        "delta": 1
+      },
+      "deepseek": {
+        "before": 0,
+        "after": 1,
+        "delta": 1
+      },
+      "latencyMs": 12359,
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 0,
+        "accuracy": null
+      },
+      "getSessionGrade": "graded",
+      "getSessionScore": 7
+    },
+    {
+      "id": "B",
+      "status": "RAN",
+      "sampleKind": "PRINTED_SYNTHETIC",
+      "sessionId": "125",
+      "sessionItemId": "348",
+      "imageIds": [
+        "53",
+        "54"
+      ],
+      "imageIdsOrder": [
+        "53",
+        "54"
+      ],
+      "provider": "deepseek",
+      "gradeResult": "graded",
+      "gradeReason": "ai_graded",
+      "aiModel": "deepseek-chat",
+      "aiAttemptCount": 1,
+      "aiGradedAt": "Mon Oct 26 2026 10:41:17 GMT+0800 (中国标准时间)",
+      "totalScore": 7,
+      "maxScore": 10,
+      "rubric": [
+        {
+          "score": 3,
+          "feedback": "正确写出 y=x(2400-30x)=2400x-30x²，模型结构正确。",
+          "maxScore": 3,
+          "rubricKey": "model"
+        },
+        {
+          "score": 2,
+          "feedback": "定义域写成 x∈{30,31,…,60}，正确体现了整数约束。",
+          "maxScore": 2,
+          "rubricKey": "domain"
+        },
+        {
+          "score": 1,
+          "feedback": "配方过程出现错误：-30(x-50)²+48000 展开后为 -30x²+3000x-27000，与原函数不符；正确配方应为 y=-30(x-40)²+48000，因此顶点横坐标应为 40，而非 50。方法方向正确但计算错误，给 1 分。",
+          "maxScore": 3,
+          "rubricKey": "solve"
+        },
+        {
+          "score": 1,
+          "feedback": "结论给出票价 50 元、最大收入 48000 元，票价错误；最大收入数值虽正确但由错误顶点得出，且未明确单位，给 1 分。",
+          "maxScore": 2,
+          "rubricKey": "conclusion"
+        }
+      ],
+      "pipeline": "qwen_then_deepseek",
+      "visionModel": "qwen3.8-27b-orca-q8",
+      "scoringModel": "deepseek-chat",
+      "recognizedWorkPreview": "第1张\n[3E-9 fiction / page 1]\ny = x(2400 - 30x)\n= 2400x - 30x^2\ndomain: x in {30, 31, ..., 60}\n\n第2张\n[3E-9 fiction / page 2]\nWRONG:\ny = -30(x - 50)^2 + 48000\nwhen x = 50, max = 48000",
+      "x50Check": {
+        "ok": true,
+        "detail": "x=50 preserved"
+      },
+      "warningFormat": "empty",
+      "recognitionUncertain": null,
+      "recognitionWarnings": null,
+      "confidence": 1,
+      "visionCallCount": 1,
+      "scoringCallCount": 1,
+      "personalizedExplanation": "你的建模和定义域都写得很好，说明你理解了题意。问题出在配方：y=-30x²+2400x，先提 -30 得 -30(x²-80x)，配方应加再减 40²，即 y=-30[(x-40)²-1600]=-30(x-40)²+48000，所以 x=40 时取最大值 48000。你写成 (x-50)²，展开后一次项系数变成 3000，与原函数不符。建议配方后代回展开检验一次，避免此类计算错误。最终应明确回答：票价 40 元时，最大日票务收入为 48000 元。",
+      "qwen": {
+        "before": 1,
+        "after": 2,
+        "delta": 1
+      },
+      "deepseek": {
+        "before": 1,
+        "after": 2,
+        "delta": 1
+      },
+      "latencyMs": 14472,
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 0,
+        "accuracy": null
+      },
+      "getSessionGrade": "graded",
+      "getSessionScore": 7
+    }
+  ]
+}

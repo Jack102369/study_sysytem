@@ -1,0 +1,526 @@
+{
+  "_meta": {
+    "chapter": "rja-ch1",
+    "section": "1.2",
+    "count": 16,
+    "note": "P1-0E 正式题库文件；勿含测试前缀；导入前须人工审核。本阶段未写库。"
+  },
+  "items": [
+    {
+      "code": "HSMA-RJA-CH01-0017",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "若 $A\\subseteq B$，则下列一定正确的是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$A$ 的任意元素都属于 $B$"
+          },
+          {
+            "id": "B",
+            "text": "$A$ 一定是 $B$ 的真子集"
+          },
+          {
+            "id": "C",
+            "text": "$B\\subseteq A$"
+          },
+          {
+            "id": "D",
+            "text": "$A$ 与 $B$ 元素个数一定相等"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "$A\\subseteq B$ 的定义是：$A$ 中任一元素都属于 $B$。真子集还需 $A\\ne B$，故不一定是真子集。",
+      "knowledgePointCodes": [
+        "rja.1.2.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0018",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "设 $A=\\{1,2\\}$，$B=\\{1,2,3\\}$，则",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$A\\subsetneq B$（$A$ 是 $B$ 的真子集）"
+          },
+          {
+            "id": "B",
+            "text": "$B\\subseteq A$"
+          },
+          {
+            "id": "C",
+            "text": "$A=B$"
+          },
+          {
+            "id": "D",
+            "text": "$3\\in A$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "$A$ 的元素都属于 $B$，且 $3\\in B$ 但 $3\\notin A$，故 $A$ 是 $B$ 的真子集。",
+      "knowledgePointCodes": [
+        "rja.1.2.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0019",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "集合 $A=B$ 的充要条件是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$A\\subseteq B$ 且 $B\\subseteq A$"
+          },
+          {
+            "id": "B",
+            "text": "仅 $A\\subseteq B$"
+          },
+          {
+            "id": "C",
+            "text": "仅 $A$ 与 $B$ 元素个数相等"
+          },
+          {
+            "id": "D",
+            "text": "$A\\cap B=\\varnothing$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "两集合相等的充要条件是互相包含。仅有 $A\\subseteq B$ 不够；元素个数相等也不能保证元素相同。",
+      "knowledgePointCodes": [
+        "rja.1.2.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0020",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "下列说法正确的是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\varnothing\\subseteq\\{1\\}$"
+          },
+          {
+            "id": "B",
+            "text": "$\\varnothing\\in\\{1\\}$"
+          },
+          {
+            "id": "C",
+            "text": "$\\{\\varnothing\\}=\\varnothing$"
+          },
+          {
+            "id": "D",
+            "text": "$1\\subseteq\\{1\\}$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "空集是任何集合的子集。$\\varnothing$ 不是 $\\{1\\}$ 的元素；$\\{\\varnothing\\}$ 非空；$1$ 是元素不是集合，不能写 $1\\subseteq\\{1\\}$。",
+      "knowledgePointCodes": [
+        "rja.1.2.01",
+        "rja.1.1.03"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0021",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "设集合 $A$ 含有 $3$ 个元素，则 $A$ 的子集个数是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$3$"
+          },
+          {
+            "id": "B",
+            "text": "$6$"
+          },
+          {
+            "id": "C",
+            "text": "$8$"
+          },
+          {
+            "id": "D",
+            "text": "$9$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "C"
+      },
+      "analysis": "含 $n$ 个元素的集合有 $2^{n}$ 个子集。$n=3$ 时为 $2^{3}=8$（含空集与自身）。",
+      "knowledgePointCodes": [
+        "rja.1.2.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0022",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "设集合 $A$ 含有 $3$ 个元素，则 $A$ 的真子集个数是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$7$"
+          },
+          {
+            "id": "B",
+            "text": "$8$"
+          },
+          {
+            "id": "C",
+            "text": "$6$"
+          },
+          {
+            "id": "D",
+            "text": "$3$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "真子集是不等于自身的子集，个数为 $2^{n}-1$。$n=3$ 时为 $7$。",
+      "knowledgePointCodes": [
+        "rja.1.2.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0023",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "若 $\\{1,2\\}\\subseteq A\\subseteq\\{1,2,3\\}$，则集合 $A$ 的可能情况种数是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$1$"
+          },
+          {
+            "id": "B",
+            "text": "$2$"
+          },
+          {
+            "id": "C",
+            "text": "$3$"
+          },
+          {
+            "id": "D",
+            "text": "$4$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "$A$ 必须含 $1,2$，对 $3$ 可取可不取，故 $A=\\{1,2\\}$ 或 $\\{1,2,3\\}$，共 $2$ 种。",
+      "knowledgePointCodes": [
+        "rja.1.2.01",
+        "rja.1.2.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0024",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "single",
+      "difficulty": 3,
+      "stem": "设 $A=\\{x\\mid x^{2}-3x+2=0\\}$，$B=\\{1,2\\}$，则",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$A=B$"
+          },
+          {
+            "id": "B",
+            "text": "$A\\subsetneq B$"
+          },
+          {
+            "id": "C",
+            "text": "$B\\subsetneq A$"
+          },
+          {
+            "id": "D",
+            "text": "$A\\cap B=\\varnothing$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "$x^{2}-3x+2=(x-1)(x-2)=0$，得 $x=1$ 或 $2$，故 $A=\\{1,2\\}=B$。",
+      "knowledgePointCodes": [
+        "rja.1.2.02",
+        "rja.1.1.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0025",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stem": "设 $A=\\{a\\}$。下列正确的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\varnothing\\subseteq A$"
+          },
+          {
+            "id": "B",
+            "text": "$A\\subseteq A$"
+          },
+          {
+            "id": "C",
+            "text": "$\\{a\\}\\subseteq A$"
+          },
+          {
+            "id": "D",
+            "text": "$a\\subseteq A$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "analysis": "任何集合是自身的子集；空集是子集；$\\{a\\}=A$ 故也成立。$a$ 是元素，不能写 $a\\subseteq A$。",
+      "knowledgePointCodes": [
+        "rja.1.2.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0026",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "multi",
+      "difficulty": 1,
+      "stem": "下列关系正确的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\{1\\}\\subseteq\\{1,2\\}$"
+          },
+          {
+            "id": "B",
+            "text": "$\\{1,2\\}=\\{2,1\\}$"
+          },
+          {
+            "id": "C",
+            "text": "$\\{1\\}\\in\\{1,2\\}$"
+          },
+          {
+            "id": "D",
+            "text": "$1\\in\\{1,2\\}$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "analysis": "子集与相等成立；$1$ 属于该集合。但 $\\{1\\}$ 不是 $\\{1,2\\}$ 的元素，C 错误。",
+      "knowledgePointCodes": [
+        "rja.1.2.01",
+        "rja.1.2.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0027",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "multi",
+      "difficulty": 3,
+      "stem": "设 $A=\\{1,2,3\\}$。下列是 $A$ 的真子集的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\varnothing$"
+          },
+          {
+            "id": "B",
+            "text": "$\\{1,2\\}$"
+          },
+          {
+            "id": "C",
+            "text": "$\\{1,2,3\\}$"
+          },
+          {
+            "id": "D",
+            "text": "$\\{2\\}$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "analysis": "真子集不能等于自身，故排除 C。空集与真子集 $\\{1,2\\}$、$\\{2\\}$ 均正确。",
+      "knowledgePointCodes": [
+        "rja.1.2.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0028",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stem": "若 $A\\subseteq B$ 且 $B\\subseteq A$，则 $A=B$。",
+      "answerPayload": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "互相包含正是集合相等的定义：一边包含保证元素关系，两边同时成立则两集合相同。",
+      "knowledgePointCodes": [
+        "rja.1.2.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0029",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stem": "空集没有真子集。",
+      "answerPayload": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "空集的子集只有它自身，真子集个数为 $2^{0}-1=0$，因此空集没有真子集。",
+      "knowledgePointCodes": [
+        "rja.1.2.01",
+        "rja.1.1.03"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0030",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stem": "集合 $\\{a,b\\}$（$a\\ne b$）的子集个数是",
+      "answerPayload": {
+        "kind": "numeric",
+        "value": "4",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "元素个数 $n=2$，子集个数为 $2^{2}=4$，分别是 $\\varnothing,\\{a\\},\\{b\\},\\{a,b\\}$。",
+      "knowledgePointCodes": [
+        "rja.1.2.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0031",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stem": "集合 $\\{1,2,3,4\\}$ 的真子集个数是",
+      "answerPayload": {
+        "kind": "numeric",
+        "value": "15",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "元素个数 $n=4$，真子集个数为 $2^{4}-1=15$（去掉集合自身）。",
+      "knowledgePointCodes": [
+        "rja.1.2.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0032",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "stem": "若集合 $A$ 的子集共有 $16$ 个，则 $A$ 的元素个数是",
+      "answerPayload": {
+        "kind": "numeric",
+        "value": "4",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "由子集个数公式 $2^{n}=16$，解得元素个数 $n=4$。",
+      "knowledgePointCodes": [
+        "rja.1.2.01",
+        "rja.1.2.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    }
+  ]
+}

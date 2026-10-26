@@ -6,7 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "hs-math:application2e-selftest": "node scripts/hs-math-application2e.selftest.mjs",
+    "hs-math:application3d7-selftest": "node scripts/hs-math-application3d7-math-render.selftest.mjs",
+    "hs-math:application3d8-selftest": "node scripts/hs-math-application3d8-poll.selftest.mjs",
+    "hs-math:application3e1-selftest": "node scripts/hs-math-application3e1-provider.selftest.mjs",
+    "hs-math:application3e2-selftest": "node scripts/hs-math-application3e2-provider.selftest.mjs",
+    "hs-math:application4a-selftest": "node scripts/hs-math-application4a-display.selftest.mjs",
+    "hs-math:application4c4b-selftest": "node scripts/hs-math-application4c4b-status.selftest.mjs",
+    "hs-math:application4c1-selftest": "node scripts/hs-math-application4c1-status.selftest.mjs",
+    "hs-math:application4c2-selftest": "node scripts/hs-math-application4c2-regrade.selftest.mjs"
   },
   "dependencies": {
     "@inspira-ui/plugins": "^0.0.2",

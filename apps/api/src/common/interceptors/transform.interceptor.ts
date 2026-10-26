@@ -3,6 +3,7 @@ import {
   ExecutionContext,
   Injectable,
   NestInterceptor,
+  StreamableFile,
 } from '@nestjs/common'
 import { Observable, map } from 'rxjs'
 
@@ -10,10 +11,19 @@ import { Observable, map } from 'rxjs'
 export class TransformInterceptor implements NestInterceptor {
   intercept(_context: ExecutionContext, next: CallHandler): Observable<unknown> {
     return next.handle().pipe(
-      map((data) => ({
-        success: true,
-        data,
-      })),
+      map((data) => {
+        // 二进制下载（应用题图片等）不得包进 { success, data }
+        if (data instanceof StreamableFile) {
+          return data
+        }
+        if (Buffer.isBuffer(data)) {
+          return data
+        }
+        return {
+          success: true,
+          data,
+        }
+      }),
     )
   }
 }

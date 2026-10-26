@@ -1,0 +1,231 @@
+{
+  "authorized": "授权 APPLICATION-3C：允许重启本地 API（3000），并允许使用虚构 A/B/C 文字答案调用真实 DeepSeek deepseek-chat，最多 3 次 HTTP 请求。",
+  "database": "study_system",
+  "modelConfigured": "deepseek-chat",
+  "outboundSwitchDuringRun": false,
+  "httpTotal": 3,
+  "httpMax": 3,
+  "httpLog": [
+    {
+      "at": "2026-10-25T08:22:30.935Z",
+      "sample": "A",
+      "ms": 2221,
+      "ok": true
+    },
+    {
+      "at": "2026-10-25T08:22:36.166Z",
+      "sample": "B",
+      "ms": 3210,
+      "ok": true
+    },
+    {
+      "at": "2026-10-25T08:22:41.209Z",
+      "sample": "C",
+      "ms": 3213,
+      "ok": true
+    }
+  ],
+  "histSessions": [
+    {
+      "id": "51",
+      "status": "completed"
+    },
+    {
+      "id": "55",
+      "status": "completed"
+    },
+    {
+      "id": "56",
+      "status": "completed"
+    }
+  ],
+  "results": [
+    {
+      "sample": "A",
+      "sessionId": "104",
+      "sessionItemId": "327",
+      "httpIndex": 1,
+      "latencyMs": 2385,
+      "gradeStatus": "graded",
+      "model": "deepseek-chat",
+      "totalScore": 10,
+      "maxScore": 10,
+      "rubricScores": [
+        {
+          "score": 3,
+          "feedback": "正确写出 y=x(2400-30x)=2400x-30x²，并说明日接待人数与票价的关系，模型结构正确。",
+          "maxScore": 3,
+          "rubricKey": "model"
+        },
+        {
+          "score": 2,
+          "feedback": "明确给出 x∈{30,31,…,60}，同时满足 30≤x≤60 且 x 为正整数，定义域完整。",
+          "maxScore": 2,
+          "rubricKey": "domain"
+        },
+        {
+          "score": 3,
+          "feedback": "配方过程正确：y=-30(x-40)²+48000，并由开口向下说明 x=40 时取最大值，推导完整。",
+          "maxScore": 3,
+          "rubricKey": "solve"
+        },
+        {
+          "score": 2,
+          "feedback": "明确票价 40 元、最大日收入 48000 元，单位齐全，结论完整。",
+          "maxScore": 2,
+          "rubricKey": "conclusion"
+        }
+      ],
+      "errors": [],
+      "explanationPreview": "解答完整规范：建模正确，定义域准确写出整数集合，配方求最值过程清晰，结论含票价与最大收入且单位齐全，可给满分。",
+      "usage": {
+        "prompt_tokens": 902,
+        "completion_tokens": 336,
+        "total_tokens": 1238,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 902
+      },
+      "dbGradeResult": "graded",
+      "sessionCounts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 0,
+        "accuracy": null
+      },
+      "apiAiGradeTotal": 10,
+      "ok": true,
+      "notes": []
+    },
+    {
+      "sample": "B",
+      "sessionId": "105",
+      "sessionItemId": "328",
+      "httpIndex": 2,
+      "latencyMs": 3856,
+      "gradeStatus": "graded",
+      "model": "deepseek-chat",
+      "totalScore": 7,
+      "maxScore": 10,
+      "rubricScores": [
+        {
+          "score": 3,
+          "feedback": "正确写出 y=x(2400-30x)=2400x-30x²，模型结构正确，且有必要的说明。",
+          "maxScore": 3,
+          "rubricKey": "model"
+        },
+        {
+          "score": 2,
+          "feedback": "定义域写成 {30,31,…,60}，正确体现了 30≤x≤60 且 x 为正整数的实际约束。",
+          "maxScore": 2,
+          "rubricKey": "domain"
+        },
+        {
+          "score": 1,
+          "feedback": "配方时对称轴求错（误为 x=30），导致最值点错误；方法方向正确但关键计算/配方错误，按标准给 1 分。",
+          "maxScore": 3,
+          "rubricKey": "solve"
+        },
+        {
+          "score": 1,
+          "feedback": "结论中票价 30 元、最大收入 45000 元均错误；但结论表述完整并带单位，给 1 分。",
+          "maxScore": 2,
+          "rubricKey": "conclusion"
+        }
+      ],
+      "errors": [
+        "配方时对称轴求错，误将对称轴当作 x=30（正确应为 x=40）",
+        "由错误对称轴得出最大值点 x=30，导致最大收入计算为 45000 元（正确应为 48000 元）"
+      ],
+      "explanationPreview": "你的建模和定义域都正确，收入函数 y=2400x-30x² 列得准确，定义域也完整。问题出在最值推导：对 y=-30x²+2400x 配方时，对称轴应为 x=-2400/(2×(-30))=40，而不是 30。正确配方为 y=-30(x-40)²+48000，因此在 x=40 时取得最大值 48000 元。建议今后配方后回代检验对称轴，或直接用顶点公式 x=-b/(2a) 核对，避免把对称轴与端点",
+      "usage": {
+        "prompt_tokens": 879,
+        "completion_tokens": 495,
+        "total_tokens": 1374,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 367
+      },
+      "dbGradeResult": "graded",
+      "sessionCounts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 0,
+        "accuracy": null
+      },
+      "apiAiGradeTotal": 7,
+      "ok": true,
+      "notes": []
+    },
+    {
+      "sample": "C",
+      "sessionId": "106",
+      "sessionItemId": "329",
+      "httpIndex": 3,
+      "latencyMs": 3672,
+      "gradeStatus": "graded",
+      "model": "deepseek-chat",
+      "totalScore": 0,
+      "maxScore": 10,
+      "rubricScores": [
+        {
+          "score": 0,
+          "feedback": "学生把“收入”错误理解为“人数”，写成 y=2400-30x，未建立“票价×人数”的收入模型，模型结构错误，本项 0 分。",
+          "maxScore": 3,
+          "rubricKey": "model"
+        },
+        {
+          "score": 0,
+          "feedback": "只写 x>0，未给出 30≤x≤60 的整数约束，也未体现实际票价范围，本项 0 分。",
+          "maxScore": 2,
+          "rubricKey": "domain"
+        },
+        {
+          "score": 0,
+          "feedback": "对错误函数求导并令 y'=0 得 x=80，既超出题目范围，又未用配方/顶点/单调性正确求最值，过程与正确模型无关，本项 0 分。",
+          "maxScore": 3,
+          "rubricKey": "solve"
+        },
+        {
+          "score": 0,
+          "feedback": "结论为票价 80 元、最大收入 0 元，与正确答案 40 元、48000 元不符，本项 0 分。",
+          "maxScore": 2,
+          "rubricKey": "conclusion"
+        }
+      ],
+      "errors": [
+        "概念错误：把“日票务收入”误认为“日接待人数”，未用票价乘以人数建模。",
+        "函数解析式错误：应为 y=x(2400-30x)，学生写成 y=2400-30x。",
+        "定义域错误：未写出 30≤x≤60 且 x 为整数，只写 x>0。",
+        "最值求解对象错误：对错误函数求导得 x=80，超出题目范围，且未正确求二次函数最值。",
+        "结论错误：票价 80 元、最大收入 0 元均不符合题意。"
+      ],
+      "explanationPreview": "本题关键是先明确“日票务收入=每张票价×日接待人数”，因此应设 y=x(2400-30x)，并注意 x 是 30 到 60 的整数。你的答案把收入直接等同于人数，导致后续求导和结论全部偏离。建议先写出收入模型，再用配方法 y=-30(x-40)^2+48000 求最值，得到 x=40 时 y 最大为 48000 元。",
+      "usage": {
+        "prompt_tokens": 805,
+        "completion_tokens": 530,
+        "total_tokens": 1335,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 293
+      },
+      "dbGradeResult": "graded",
+      "sessionCounts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 0,
+        "accuracy": null
+      },
+      "apiAiGradeTotal": 0,
+      "ok": true,
+      "notes": []
+    }
+  ],
+  "finishedAt": "2026-10-25T08:22:41.609Z"
+}

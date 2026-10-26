@@ -1,0 +1,749 @@
+{
+  "phase": "P1-0F-B",
+  "purpose": "import verification only — not an import payload",
+  "file": {
+    "path": "docs/high_school_math/question_bank/chapter_01/chapter_01_all.json",
+    "sizeBytes": 71955,
+    "sha256": "89b6484e6cb69f40437a6b28f603abae3c9eb19c0b08157d27947f72f7ec95c9",
+    "generatedAt": "2026-10-24T08:57:05.130Z",
+    "itemCount": 80,
+    "codeRange": {
+      "from": "HSMA-RJA-CH01-0001",
+      "to": "HSMA-RJA-CH01-0080"
+    },
+    "qtypeCount": {
+      "single": 40,
+      "multi": 16,
+      "judge": 12,
+      "numeric": 12
+    },
+    "difficultyCount": {
+      "1": 40,
+      "2": 28,
+      "3": 12
+    },
+    "importContentHash": "1b23e3b13890e5c70e8ab3f69225fe3b8bd98c89c4c6cff8d4d33a30e3869f3b"
+  },
+  "items": [
+    {
+      "code": "HSMA-RJA-CH01-0001",
+      "contentFingerprint": "bdafbfebdf9908f6d4f4c4826899b2798f01d46d819ba064a47f806f1bb8c016",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0002",
+      "contentFingerprint": "e6e6de0ca2873ed550f47c0d619d5d969891872b2c2c605c07df1d8f8fab0423",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0003",
+      "contentFingerprint": "901f4c991eee7afb882c0d566bdf3c0241bc31ea9487c927141915a53735cb75",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0004",
+      "contentFingerprint": "e6f5bf8ebc8ad02c08ed4170b34a2f7e2f1d341e8645fb42a79d0686e5a3da78",
+      "qtype": "single",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0005",
+      "contentFingerprint": "f7483e43886268129db5750da6c12eead592d600ee66ab313903272cc7f3fe15",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0006",
+      "contentFingerprint": "2ce82826da4a30dce2baf560b9aa8787e45a08bc5d2aa1838f2672b6f8de6e7e",
+      "qtype": "single",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0007",
+      "contentFingerprint": "c8eec9d10967f9f2ae28fdd1af55d2123c3f996be7d7c40c8bd45c7069c08402",
+      "qtype": "single",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0008",
+      "contentFingerprint": "9f9bd5c69fa19334f86fdc70e0392ef16532081f381969d431e722db76a096bd",
+      "qtype": "single",
+      "difficulty": 3,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0009",
+      "contentFingerprint": "d348ebcbe85ab72dab79ce10cf3d82165532f8be5b303f90431880ad82fe66aa",
+      "qtype": "multi",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0010",
+      "contentFingerprint": "205a01f9c96531018c96d869b636360df57ff16c83a6dbad378b0e799004c7e6",
+      "qtype": "multi",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0011",
+      "contentFingerprint": "ae2166c05a0aa1af698f2fa7a2507347d3b483cce2851aac35ef3bc0543331fa",
+      "qtype": "multi",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0012",
+      "contentFingerprint": "8c0e6a192b1d76f845be01628fdd14b95ef179431894545c811f26722562e5c0",
+      "qtype": "judge",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0013",
+      "contentFingerprint": "05ba31a8e7bb1182985b00372c5a894d0428e0ba30e3e79f264079bcbe45619e",
+      "qtype": "judge",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0014",
+      "contentFingerprint": "be408d316c0467ba16a8525194122875868a562260163a6efcbfbc5cf7beed3f",
+      "qtype": "judge",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0015",
+      "contentFingerprint": "516d14b190c3017762cce9b943f71f3c42b2d351e06022923855f21a7831f706",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0016",
+      "contentFingerprint": "af0556d8fff549db97a324e8f0ef065f6eeae331b89fdb9afc88e553b86ee468",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "primaryKnowledgePointCode": "rja.1.1.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0017",
+      "contentFingerprint": "b1abd58b41569528c010be7f51b3ea77f6248e970adfb9898038325618c6f3f9",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0018",
+      "contentFingerprint": "26ab4f59816a858042e004fd7b37c579087b1a4e5b0b258a7c74ca43e94cade9",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0019",
+      "contentFingerprint": "9c9f925358ce648129d71b20b80563b0f65e72f6dd58bd348bc004ebbe017dec",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0020",
+      "contentFingerprint": "d79d12780e76b6cb9ca5bf56ac2a1017c3552fd4c6c34e302413d736ca095421",
+      "qtype": "single",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0021",
+      "contentFingerprint": "b23999dee39cb7799c685869881057fbb7dd900303bf8b2c472946cf0d5213fa",
+      "qtype": "single",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0022",
+      "contentFingerprint": "50c97de2c27e5e3a404c743f21e4a57cc604cc102114d88f28a646d37219668d",
+      "qtype": "single",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0023",
+      "contentFingerprint": "1228dec30b9db09158acec020ff5e88e557cddf4e756345ca41e3f1adc883b0b",
+      "qtype": "single",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0024",
+      "contentFingerprint": "09d550266bafae9466ebe635eb9eef94dfa5b0c366415332c2bdf180584167c1",
+      "qtype": "single",
+      "difficulty": 3,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0025",
+      "contentFingerprint": "530ebdc113116880222c26108d10fa6166f819a577a3b597a1903b0e73839a4f",
+      "qtype": "multi",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0026",
+      "contentFingerprint": "2a40bc4498524b1472213dce75bbd3b3d4f6d8d767e591b24525ffa578bce371",
+      "qtype": "multi",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0027",
+      "contentFingerprint": "2c7c9af65702099d650f48af9fb0bb75e29d34da69d078b2c37056e23fd0679f",
+      "qtype": "multi",
+      "difficulty": 3,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0028",
+      "contentFingerprint": "ea7a4f6adac3be00492eb33c59a97ccb7c2d287e6cf6544404f855354417fabd",
+      "qtype": "judge",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0029",
+      "contentFingerprint": "78685c5f4876e2c335a1c370a86b5f8caaf32763bc9151b638bd5dbb4921ca2b",
+      "qtype": "judge",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0030",
+      "contentFingerprint": "0d9f0920ff8ca6cc897c151161c8a080298767d6daeda0322c6e9dc5da276bca",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0031",
+      "contentFingerprint": "b24206b2c05eca958f33632726657ab0c6a928220be9bc4cb7c9f0c86021d5db",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0032",
+      "contentFingerprint": "be18a5baedfc7d46a7e2e247876132dde8c48802216c002e51ebd5a43b0453d0",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "primaryKnowledgePointCode": "rja.1.2.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0033",
+      "contentFingerprint": "e6cb2069dc5e70f30a641fc9d8c8107216d385bf14115c2de9b70eb8bbca7d1c",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0034",
+      "contentFingerprint": "aafcd85e35b6ae05c3d843c430d5adbfe6ad2c509a155a98a53954c9a94bf29c",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0035",
+      "contentFingerprint": "b15cd0e0a2b0958a5e94b62dae8e83628fd4fc4a9874b3bbf259acecaaf80206",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0036",
+      "contentFingerprint": "79db4c5414633bc33a5b404f0a0eb725140acb278d57486d0c60c71433d6dada",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0037",
+      "contentFingerprint": "a365fcea034e1e146acd64c0736e4d7310c6cd991d59322c24a56ea1bb6fe936",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0038",
+      "contentFingerprint": "50675a882e7a1c39d3c10b9b01d267b0b083cbd6ba911dca11f77fcfafd72ead",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0039",
+      "contentFingerprint": "eea582253719e6a13af2bd49d85f0e790d07b70aaac7871c5eae47de21dfcdf8",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0040",
+      "contentFingerprint": "1d9f12a45ba72143de400356c94c29f3f59e46cc6c73bde2b0d93ab3a4afded4",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0041",
+      "contentFingerprint": "72af7f43d99a5fb5e92c44ec85736a4012bd65b49fa071f46cbdb902c7f4b108",
+      "qtype": "single",
+      "difficulty": 3,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.04"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0042",
+      "contentFingerprint": "d4113c0bac42de9068f6344b9f4f970010b48928e9ff34eaedb2bc93e8da79d3",
+      "qtype": "single",
+      "difficulty": 3,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.04"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0043",
+      "contentFingerprint": "6726ed00c6ad712d8831495216d8fabcb9fd9e4f22349b5366fc512fa5bb41f5",
+      "qtype": "multi",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0044",
+      "contentFingerprint": "039580f3c1e4e033c6dcb154d63d51d978cdaedf0162cd2b519a2354b0291dbb",
+      "qtype": "multi",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0045",
+      "contentFingerprint": "7fc0be6872cb654b44211b02ef7621c3d7eab92bff5b0c569306ad3a8a0919a2",
+      "qtype": "multi",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0046",
+      "contentFingerprint": "22fa4547678b63b25937661d27d759ac27db986ec23ece679cce21d128618d58",
+      "qtype": "multi",
+      "difficulty": 3,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.04"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0047",
+      "contentFingerprint": "cfc3be57b023fde69f3d6bc4ae47e6c87ad13bcbe2bd26520c2128aca234d156",
+      "qtype": "judge",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0048",
+      "contentFingerprint": "137a78782043e59ace9b5230abffd0db1e1a398ddb205bebf0ea0333fe82e0c8",
+      "qtype": "judge",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0049",
+      "contentFingerprint": "0ab66b25a5c22f49e5ec813636a8199ffbf899900ff8f7d168332e418bfc24c3",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0050",
+      "contentFingerprint": "47c808a7344af5b594e3a4e40a95a77cd95d6b106e32b4b5912676ac62306f97",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0051",
+      "contentFingerprint": "c04a7ca7f350fff51b83af935ba5468b917ad3bb70c54d431faa46885c77daf8",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0052",
+      "contentFingerprint": "670398e95ebf7a731a57d6c4b8d5bf0de36d04663ccd0964dc7762ed8941fa9b",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.3",
+      "primaryKnowledgePointCode": "rja.1.3.04"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0053",
+      "contentFingerprint": "5df8ee1c8a2974e3ba9cd322e89e8db49ec3a4dc19cec58ffc60c4aaed05f3f7",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0054",
+      "contentFingerprint": "59d0946d887ccb20d361dba5552c257636b294ce1e59c32fbd5cd248ffa34f35",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0055",
+      "contentFingerprint": "07649eeb0c5daf1028b3d31bc7bae2f28ce2a8f7efe37d08fcfdfdb7386f6413",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0056",
+      "contentFingerprint": "ff270fc7928901d19dbb77d29159364de5a69b5e29ca5dddbb4751543b463b54",
+      "qtype": "single",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0057",
+      "contentFingerprint": "8d625a45aac98019e28a3c5b2a09550b8f33bed14614c865898640962d1d1a15",
+      "qtype": "single",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0058",
+      "contentFingerprint": "d09085cdfee850d756102a3739e8b2423ff2c88428084e84bdda128551ceeb0d",
+      "qtype": "single",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0059",
+      "contentFingerprint": "253f5290698186eae4d5d191f95b285f1a6e02bfb13aedbc081a5f12a14451ba",
+      "qtype": "single",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0060",
+      "contentFingerprint": "16bef7da878c874615ca21d9e295d8c3f9eafd09085ff668d63ff4f5ebd8fb7c",
+      "qtype": "single",
+      "difficulty": 3,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0061",
+      "contentFingerprint": "dbbe9ae5a7fd2267cfe8cc22f8ac84e6dc36458cbb99df3bdb6670b4dacf5628",
+      "qtype": "multi",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0062",
+      "contentFingerprint": "31a89afc9359b32768a16937492277533dc77302f704b1fe7decfaed29ca7988",
+      "qtype": "multi",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0063",
+      "contentFingerprint": "58e266c0cf3bbd2461121e307cf2440fb00c54d21a1b34fa60f45862263d7b47",
+      "qtype": "multi",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0064",
+      "contentFingerprint": "03283fe4379b7ac7986a625f2a664545da8dc36bbe1b661d921445889b6a8dfa",
+      "qtype": "multi",
+      "difficulty": 3,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0065",
+      "contentFingerprint": "c36bde0b835621295abf56b1d26e0d0f3b872e4327ab59e9aa4102fc6669054e",
+      "qtype": "judge",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0066",
+      "contentFingerprint": "1cfdc75a55bc6f2d40d8b4cb9f9e6e9dd80baa20d027f181067628e7709bb74b",
+      "qtype": "judge",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0067",
+      "contentFingerprint": "87e0b24016ec522b2a02165fa23d79280bf64695c7176cce498b1c1ca4ace770",
+      "qtype": "judge",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0068",
+      "contentFingerprint": "60d85ff6c0a78401375524bb3bf766814b710e69cea67fdd26160a9ad32c014d",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0069",
+      "contentFingerprint": "3c4076a58fc0c48b31939c9953caa03e667025dd437e16e7e0e4ba34d1e05bec",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "primaryKnowledgePointCode": "rja.1.5.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0070",
+      "contentFingerprint": "bfdc230091cf462ad37f30fc447e25d2b034e7b71baac537658d95e8c5ef439f",
+      "qtype": "single",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "primaryKnowledgePointCode": "rja.1.5.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0071",
+      "contentFingerprint": "93e9b938b480bd8b242ba4038195e2707c70065ba08ad62dec107bbbb4551b2a",
+      "qtype": "single",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "primaryKnowledgePointCode": "rja.1.5.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0072",
+      "contentFingerprint": "fdc6a1cbf6b3b8440316e11ada51634451c41339d141bb2c2de0b0c7b35b98f0",
+      "qtype": "single",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "primaryKnowledgePointCode": "rja.1.5.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0073",
+      "contentFingerprint": "478b27fd5483ff37ff0951fd7501c034d629d0067fa5dca8b950364b20ae1ec2",
+      "qtype": "single",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "primaryKnowledgePointCode": "rja.1.5.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0074",
+      "contentFingerprint": "fa4359dce6e313670acef1547eccc8cd3bc22f9013eb4173d05cf4d5b4db90a4",
+      "qtype": "single",
+      "difficulty": 3,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "primaryKnowledgePointCode": "rja.1.5.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0075",
+      "contentFingerprint": "b690185ff258ea970318e977d73580000c42088cffca2c7b13de225ebcf8278f",
+      "qtype": "multi",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "primaryKnowledgePointCode": "rja.1.5.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0076",
+      "contentFingerprint": "b41c7a1f4bb841f9a1dc3a2b2ebbcdc08b44e70874f0c8fe39f6dfa334c28ba2",
+      "qtype": "multi",
+      "difficulty": 3,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "primaryKnowledgePointCode": "rja.1.5.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0077",
+      "contentFingerprint": "43fdd6ca45c5f4886da7e8725b2575586cbd13de92b635984f7cb5734166cb67",
+      "qtype": "judge",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "primaryKnowledgePointCode": "rja.1.5.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0078",
+      "contentFingerprint": "0e5cac60427acfb7ac406befe2b5fd71c0df7ac20e8f52de7282e089d5b15937",
+      "qtype": "judge",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "primaryKnowledgePointCode": "rja.1.5.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0079",
+      "contentFingerprint": "5d3965ef48b4033e312525410216d54eb9dc282c17b15b9f1a7ed7526a6888d4",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "primaryKnowledgePointCode": "rja.1.5.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0080",
+      "contentFingerprint": "c414c1ff9e52557c4f7a11e7e3f6d90072a426ac5755823328681695a0647270",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.5",
+      "primaryKnowledgePointCode": "rja.1.5.01"
+    }
+  ]
+}

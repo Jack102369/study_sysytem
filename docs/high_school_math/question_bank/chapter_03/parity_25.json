@@ -1,0 +1,829 @@
+{
+  "_meta": {
+    "chapter": "rja-ch3",
+    "section": "3.2",
+    "topic": "函数奇偶性",
+    "count": 25,
+    "note": "P1-FUNC-2 正式题库；权威源=hs-math-p1-func2-parity-items.ts；DIFF-2B 源难度 16/7/2；SOURCE_UPDATED_DB_PENDING；未写库、未批准。"
+  },
+  "items": [
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0001",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "设函数 $f$ 的定义域关于原点对称。若对定义域内任意 $x$ 都有 $f(-x)=f(x)$，则称 $f$ 为",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "奇函数"
+          },
+          {
+            "id": "B",
+            "text": "偶函数"
+          },
+          {
+            "id": "C",
+            "text": "既奇又偶的函数"
+          },
+          {
+            "id": "D",
+            "text": "非奇非偶函数"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "定义域关于原点对称是讨论奇偶性的前提。对任意 $x$ 有 $f(-x)=f(x)$ 时，$f$ 为偶函数。",
+      "knowledgePointCodes": [
+        "rja.3.2.09"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.09"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0002",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stem": "判断：若函数 $f$ 满足对定义域内任意 $x$ 都有 $f(-x)=-f(x)$，则 $f$ 一定是奇函数（无需再检查定义域）。",
+      "answerPayload": {
+        "kind": "judge",
+        "value": false
+      },
+      "analysis": "讨论奇偶性必须先检验定义域关于原点对称。仅有代数关系 $f(-x)=-f(x)$ 而定义域不对称时，不能称为奇函数。",
+      "knowledgePointCodes": [
+        "rja.3.2.09"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.09"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0003",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "下列关于函数奇偶性定义的叙述，正确的是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "只要 $f(-x)=-f(x)$ 成立，$f$ 就是奇函数"
+          },
+          {
+            "id": "B",
+            "text": "偶函数必满足 $f(-x)=-f(x)$"
+          },
+          {
+            "id": "C",
+            "text": "奇函数要求定义域关于原点对称，且 $f(-x)=-f(x)$"
+          },
+          {
+            "id": "D",
+            "text": "奇偶性与定义域是否对称无关"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "C"
+      },
+      "analysis": "奇函数定义：定义域关于原点对称，且对定义域内任意 $x$ 有 $f(-x)=-f(x)$。缺一不可。",
+      "knowledgePointCodes": [
+        "rja.3.2.09",
+        "rja.3.2.10"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.09"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0004",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stem": "设函数 $f$ 定义域关于原点对称。下列说法正确的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "若 $f$ 为偶函数，则 $f(-x)=f(x)$"
+          },
+          {
+            "id": "B",
+            "text": "若 $f$ 为奇函数，则 $f(-x)=-f(x)$"
+          },
+          {
+            "id": "C",
+            "text": "若 $f(0)$ 有定义且 $f$ 为奇函数，则必有 $f(0)=0$"
+          },
+          {
+            "id": "D",
+            "text": "若存在某 $a$ 使 $f(-a)\\neq f(a)$ 且 $f(-a)\\neq -f(a)$，则 $f$ 非奇非偶"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "analysis": "在定义域已对称的前提下：偶/奇分别对应 $f(-x)=f(x)$ / $f(-x)=-f(x)$。奇函数若 $0$ 在定义域，则 $f(0)=-f(0)\\Rightarrow f(0)=0$。若既不满足偶又不满足奇的恒等式，则为非奇非偶。",
+      "knowledgePointCodes": [
+        "rja.3.2.09",
+        "rja.3.2.10",
+        "rja.3.2.11"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.09"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0005",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "已知 $f(x)=x^{3}$ 的定义域为 $\\mathbb{R}$。判断其奇偶性时，下列步骤正确的是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "直接看次数为奇数，故为奇函数，无需验证定义域"
+          },
+          {
+            "id": "B",
+            "text": "先确认定义域关于原点对称，再验证 $f(-x)=-f(x)$"
+          },
+          {
+            "id": "C",
+            "text": "只需验证 $f(-1)=-f(1)$ 即可断定为奇函数"
+          },
+          {
+            "id": "D",
+            "text": "因为过原点，所以一定是偶函数"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "正确流程：先确认定义域对称（此处 $\\mathbb{R}$ 对称），再验证对任意 $x$，$f(-x)=(-x)^{3}=-x^{3}=-f(x)$，故为奇函数。仅验证个别点或只看次数不够严谨。",
+      "knowledgePointCodes": [
+        "rja.3.2.09",
+        "rja.3.2.10"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.10"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0006",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "函数 $f(x)=\\sqrt{x-1}+\\sqrt{1-x}$ 的定义域",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "关于原点对称，可讨论奇偶性"
+          },
+          {
+            "id": "B",
+            "text": "为 $\\{1\\}$，关于原点不对称，故非奇非偶"
+          },
+          {
+            "id": "C",
+            "text": "为 $[0,+\\infty)$，可讨论奇偶性"
+          },
+          {
+            "id": "D",
+            "text": "为空集，规定为偶函数"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "由 $x-1\\ge 0$ 且 $1-x\\ge 0$ 得 $x=1$，定义域 $\\{1\\}$。关于原点的对称点 $-1\\notin\\{1\\}$，定义域不对称，故非奇非偶。",
+      "knowledgePointCodes": [
+        "rja.3.2.09",
+        "rja.3.2.10"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.09"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0007",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stem": "判断：函数 $f(x)=\\dfrac{1}{x}$ 的定义域为 $(-\\infty,0)\\cup(0,+\\infty)$，关于原点对称，因此可以进一步用定义讨论其奇偶性。",
+      "answerPayload": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "定义域 $\\mathbb{R}\\setminus\\{0\\}$ 关于原点对称，具备讨论奇偶性的前提；再验证 $f(-x)=-1/x=-f(x)$ 可知其为奇函数。本题只考前提是否成立。",
+      "knowledgePointCodes": [
+        "rja.3.2.09"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.09"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0008",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "函数 $f(x)=\\sqrt{x^{2}-1}$ 的定义域为",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$[-1,1]$，关于原点对称"
+          },
+          {
+            "id": "B",
+            "text": "$(-\\infty,-1]\\cup[1,+\\infty)$，关于原点对称"
+          },
+          {
+            "id": "C",
+            "text": "$(1,+\\infty)$，关于原点不对称"
+          },
+          {
+            "id": "D",
+            "text": "$[0,+\\infty)$，关于原点对称"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "由 $x^{2}-1\\ge 0$ 得 $x\\le -1$ 或 $x\\ge 1$，即 $(-\\infty,-1]\\cup[1,+\\infty)$。若 $x$ 属于该集合，则 $-x$ 也属于，故关于原点对称，可继续讨论奇偶性。",
+      "knowledgePointCodes": [
+        "rja.3.2.09",
+        "rja.3.2.10"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.10"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0009",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stem": "下列函数中，定义域关于原点对称的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$f(x)=\\sqrt{4-x^{2}}$"
+          },
+          {
+            "id": "B",
+            "text": "$g(x)=\\ln(x+2)$"
+          },
+          {
+            "id": "C",
+            "text": "$h(x)=\\dfrac{1}{x^{2}-1}$"
+          },
+          {
+            "id": "D",
+            "text": "$p(x)=\\sqrt{x}+\\sqrt{-x}$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "analysis": "A：定义域 $[-2,2]$，对称。B：$x>-2$，不对称。C：$x\\neq\\pm 1$，仍关于原点对称。D：仅 $x=0$，对称。故选 A、C、D。",
+      "knowledgePointCodes": [
+        "rja.3.2.09",
+        "rja.3.2.10"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.10"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0010",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "函数 $f(x)=x^{2}+1$（定义域 $\\mathbb{R}$）是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "奇函数"
+          },
+          {
+            "id": "B",
+            "text": "偶函数"
+          },
+          {
+            "id": "C",
+            "text": "既奇又偶"
+          },
+          {
+            "id": "D",
+            "text": "非奇非偶"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "定义域 $\\mathbb{R}$ 对称。$f(-x)=(-x)^{2}+1=x^{2}+1=f(x)$，故为偶函数。",
+      "knowledgePointCodes": [
+        "rja.3.2.10",
+        "rja.3.2.09"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.10"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0011",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "函数 $f(x)=x^{3}-x$（定义域 $\\mathbb{R}$）是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "奇函数"
+          },
+          {
+            "id": "B",
+            "text": "偶函数"
+          },
+          {
+            "id": "C",
+            "text": "既奇又偶"
+          },
+          {
+            "id": "D",
+            "text": "非奇非偶"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "定义域对称。$f(-x)=(-x)^{3}-(-x)=-x^{3}+x=-(x^{3}-x)=-f(x)$，故为奇函数。",
+      "knowledgePointCodes": [
+        "rja.3.2.10",
+        "rja.3.2.09"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.10"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0012",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stem": "设 $f(x)=0$（定义域 $\\mathbb{R}$）。下列说法正确的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$f$ 是奇函数"
+          },
+          {
+            "id": "B",
+            "text": "$f$ 是偶函数"
+          },
+          {
+            "id": "C",
+            "text": "$f$ 既是奇函数又是偶函数"
+          },
+          {
+            "id": "D",
+            "text": "$f$ 非奇非偶"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "analysis": "零函数在关于原点对称的定义域上：$f(-x)=0=f(x)$ 且 $f(-x)=0=-f(x)$，故既奇又偶。A、B、C 均正确，D 错误。",
+      "knowledgePointCodes": [
+        "rja.3.2.11",
+        "rja.3.2.09",
+        "rja.3.2.10"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.11"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0013",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "函数 $f(x)=x+|x|$（定义域 $\\mathbb{R}$）的奇偶性是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "奇函数"
+          },
+          {
+            "id": "B",
+            "text": "偶函数"
+          },
+          {
+            "id": "C",
+            "text": "既奇又偶"
+          },
+          {
+            "id": "D",
+            "text": "非奇非偶"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "D"
+      },
+      "analysis": "定义域对称。$f(-x)=-x+|-x|=-x+|x|$。一般地 $f(-x)\\neq f(x)$（如 $x=1$：$f(1)=2$，$f(-1)=0$），且 $f(-x)\\neq -f(x)$（$-f(1)=-2\\neq 0$），故非奇非偶。",
+      "knowledgePointCodes": [
+        "rja.3.2.10",
+        "rja.3.2.11"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.11"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0014",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stem": "判断：函数 $f(x)=x^{2}+x$（定义域 $\\mathbb{R}$）是偶函数。",
+      "answerPayload": {
+        "kind": "judge",
+        "value": false
+      },
+      "analysis": "$f(-x)=x^{2}-x$。取 $x=1$，$f(-1)=0\\neq f(1)=2$，故不是偶函数；也不是奇函数（$f(-1)=0\\neq -2$），为非奇非偶。",
+      "knowledgePointCodes": [
+        "rja.3.2.10",
+        "rja.3.2.11"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.11"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0015",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stem": "已知奇函数 $f$ 的定义域关于原点对称，且 $f(3)=5$。求 $f(-3)$ 的值。",
+      "answerPayload": {
+        "kind": "numeric",
+        "value": "-5",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "奇函数满足 $f(-x)=-f(x)$，故 $f(-3)=-f(3)=-5$。",
+      "knowledgePointCodes": [
+        "rja.3.2.12",
+        "rja.3.2.09"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.12"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0016",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stem": "已知偶函数 $f$ 的定义域关于原点对称，且 $f(-2)=7$。求 $f(2)$ 的值。",
+      "answerPayload": {
+        "kind": "numeric",
+        "value": "7",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "偶函数满足 $f(-x)=f(x)$，故 $f(2)=f(-2)=7$。",
+      "knowledgePointCodes": [
+        "rja.3.2.12",
+        "rja.3.2.09"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.12"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0017",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stem": "已知奇函数 $f$ 定义在 $\\mathbb{R}$ 上，$f(1)=2$，$f(2)=5$。求 $f(-1)+f(-2)$ 的值。",
+      "answerPayload": {
+        "kind": "numeric",
+        "value": "-7",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "$f(-1)=-f(1)=-2$，$f(-2)=-f(2)=-5$，故和为 $-7$。",
+      "knowledgePointCodes": [
+        "rja.3.2.12"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.12"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0018",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stem": "已知偶函数 $f$ 定义在 $\\mathbb{R}$ 上，$f(4)=3$，且 $f(x)=ax^{2}+b$（$a,b$ 为常数）。若还已知 $f(0)=1$，求 $f(-4)$ 的值。",
+      "answerPayload": {
+        "kind": "numeric",
+        "value": "3",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "偶函数有 $f(-4)=f(4)=3$。由 $f(0)=1$ 可知常数项，但不影响 $f(\\pm 4)$ 的相等关系；本题所求仅为 $f(-4)$。",
+      "knowledgePointCodes": [
+        "rja.3.2.12",
+        "rja.3.2.10"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.12"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0019",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "若函数 $y=f(x)$ 是偶函数，则其图象",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "关于原点对称"
+          },
+          {
+            "id": "B",
+            "text": "关于 $y$ 轴对称"
+          },
+          {
+            "id": "C",
+            "text": "关于 $x$ 轴对称"
+          },
+          {
+            "id": "D",
+            "text": "关于直线 $y=x$ 对称"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "由偶函数定义，$f(-x)=f(x)$，图象上点 $(x,y)$ 与 $(-x,y)$ 同时出现，故图象关于 $y$ 轴对称。奇函数则关于原点对称，二者不可混淆。",
+      "knowledgePointCodes": [
+        "rja.3.2.11",
+        "rja.3.2.09"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.11"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0020",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "已知点 $(2,5)$ 在奇函数 $y=f(x)$ 的图象上，则下列点也在该图象上的是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$(-2,5)$"
+          },
+          {
+            "id": "B",
+            "text": "$(-2,-5)$"
+          },
+          {
+            "id": "C",
+            "text": "$(2,-5)$"
+          },
+          {
+            "id": "D",
+            "text": "$(5,2)$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "奇函数图象关于原点对称：点 $(a,b)$ 在图象上则 $(-a,-b)$ 也在图象上。故 $(2,5)$ 对应 $(-2,-5)$。",
+      "knowledgePointCodes": [
+        "rja.3.2.11",
+        "rja.3.2.12"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.11"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0021",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stem": "已知偶函数 $y=f(x)$ 的图象过点 $(3,-1)$。下列说法正确的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "图象也过点 $(-3,-1)$"
+          },
+          {
+            "id": "B",
+            "text": "图象也过点 $(-3,1)$"
+          },
+          {
+            "id": "C",
+            "text": "图象关于 $y$ 轴对称"
+          },
+          {
+            "id": "D",
+            "text": "必有 $f(-3)=f(3)$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "analysis": "偶函数关于 $y$ 轴对称，故过 $(3,-1)$ 必过 $(-3,-1)$，且 $f(-3)=f(3)=-1$。B 的纵坐标符号错误。",
+      "knowledgePointCodes": [
+        "rja.3.2.11",
+        "rja.3.2.12"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.12"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0022",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "single",
+      "difficulty": 3,
+      "stem": "设 $f$ 是定义在 $\\mathbb{R}$ 上的奇函数，且 $f$ 在 $[0,+\\infty)$ 上单调递增。则 $f$ 在 $(-\\infty,0]$ 上",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "单调递增"
+          },
+          {
+            "id": "B",
+            "text": "单调递减"
+          },
+          {
+            "id": "C",
+            "text": "先增后减"
+          },
+          {
+            "id": "D",
+            "text": "无法判断"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "取 $x_{1}<x_{2}\\le 0$，则 $0\\le -x_{2}<-x_{1}$。由正半轴递增得 $f(-x_{2})<f(-x_{1})$。又奇函数 $f(-x)=-f(x)$，故 $-f(x_{2})<-f(x_{1})$，即 $f(x_{1})<f(x_{2})$，从而在 $(-\\infty,0]$ 上也单调递增。必须明确所论区间与奇偶性。",
+      "knowledgePointCodes": [
+        "rja.3.2.12",
+        "rja.3.2.09",
+        "rja.3.2.10"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.12"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0023",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "multi",
+      "difficulty": 3,
+      "stem": "设 $f$ 是定义在 $\\mathbb{R}$ 上的偶函数，且 $f$ 在 $[0,+\\infty)$ 上单调递减。下列正确的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$f$ 在 $(-\\infty,0]$ 上单调递增"
+          },
+          {
+            "id": "B",
+            "text": "$f$ 在 $(-\\infty,0]$ 上单调递减"
+          },
+          {
+            "id": "C",
+            "text": "对任意 $x$，有 $f(|x|)=f(x)$"
+          },
+          {
+            "id": "D",
+            "text": "仅由偶函数不能推出其在正半轴单调"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "analysis": "偶函数关于 $y$ 轴对称：正半轴递减对应负半轴递增（可类似用对称点证明）。$f(|x|)=f(x)$ 对偶函数成立。偶函数本身不蕴含单调性，D 正确。B 错误。",
+      "knowledgePointCodes": [
+        "rja.3.2.12",
+        "rja.3.2.11"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.12"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0024",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "judge",
+      "difficulty": 2,
+      "stem": "判断：任意奇函数在其整个定义域上都一定是单调函数。",
+      "answerPayload": {
+        "kind": "judge",
+        "value": false
+      },
+      "analysis": "反例：$f(x)=x^{3}-x$ 是奇函数，但在 $\\mathbb{R}$ 上不单调（局部有增减）。奇偶性与单调性相互独立，综合题必须另行给出单调区间条件。",
+      "knowledgePointCodes": [
+        "rja.3.2.10",
+        "rja.3.2.12"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.10"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0025",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "设 $f$ 是定义在 $[-2,2]$ 上的偶函数，且当 $x\\in[0,2]$ 时 $f(x)=x+1$。则 $f(-1)$ 等于",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$0$"
+          },
+          {
+            "id": "B",
+            "text": "$1$"
+          },
+          {
+            "id": "C",
+            "text": "$2$"
+          },
+          {
+            "id": "D",
+            "text": "$-1$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "C"
+      },
+      "analysis": "偶函数有 $f(-1)=f(1)$。又 $1\\in[0,2]$，故 $f(1)=1+1=2$，从而 $f(-1)=2$。定义域 $[-2,2]$ 关于原点对称，条件充分。",
+      "knowledgePointCodes": [
+        "rja.3.2.10",
+        "rja.3.2.12"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.10"
+    }
+  ]
+}

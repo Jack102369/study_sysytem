@@ -11,6 +11,19 @@ release/
 .env
 .env.local
 .env.*.local
+apps/api/.c3c3_browser_token
+
+# DB dumps (never commit; may contain PII)
+db/backups/
+
+# hs-math acceptance raw result dumps
+docs/high_school_math/_c3c1_last_result.json
+docs/high_school_math/_e2e_last_result.json
+
+# hs-math import preview token cache (P1-0F-B; contains short-lived previewToken)
+docs/high_school_math/question_bank/**/.p1_0fb_preview_cache.json
+docs/high_school_math/question_bank/**/.p1_func3a_preview_cache.json
+docs/high_school_math/question_bank/**/.p1_0fc1_section11_snapshot.json
 
 # Uploads
 uploads/

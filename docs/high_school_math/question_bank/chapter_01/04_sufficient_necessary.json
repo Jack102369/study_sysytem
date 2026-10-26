@@ -1,0 +1,545 @@
+{
+  "_meta": {
+    "chapter": "rja-ch1",
+    "section": "1.4",
+    "count": 16,
+    "note": "P1-0E 正式题库文件；勿含测试前缀；导入前须人工审核。本阶段未写库。"
+  },
+  "items": [
+    {
+      "code": "HSMA-RJA-CH01-0053",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "已知 $p\\Rightarrow q$。就“充分条件”而言，正确的是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$p$ 是 $q$ 的充分条件"
+          },
+          {
+            "id": "B",
+            "text": "$p$ 是 $q$ 的必要条件"
+          },
+          {
+            "id": "C",
+            "text": "$q$ 是 $p$ 的充分条件"
+          },
+          {
+            "id": "D",
+            "text": "$p$ 与 $q$ 互为充要条件"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "由定义：若 $p\\Rightarrow q$，则称 $p$ 是 $q$ 的充分条件；同时 $q$ 是 $p$ 的必要条件，但本题问充分条件对应项。",
+      "knowledgePointCodes": [
+        "rja.1.4.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0054",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "已知 $p\\Rightarrow q$。就“必要条件”而言，正确的是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$q$ 是 $p$ 的必要条件"
+          },
+          {
+            "id": "B",
+            "text": "$q$ 是 $p$ 的充分条件"
+          },
+          {
+            "id": "C",
+            "text": "$p$ 是 $q$ 的必要条件"
+          },
+          {
+            "id": "D",
+            "text": "$p\\Leftrightarrow q$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "由 $p\\Rightarrow q$ 的定义可知：$q$ 是 $p$ 成立的必要条件，不能把充分与必要的方向弄反。",
+      "knowledgePointCodes": [
+        "rja.1.4.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0055",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "“$x=1$”是“$x^{2}=1$”的",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "充分不必要条件"
+          },
+          {
+            "id": "B",
+            "text": "必要不充分条件"
+          },
+          {
+            "id": "C",
+            "text": "充要条件"
+          },
+          {
+            "id": "D",
+            "text": "既不充分也不必要条件"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "若 $x=1$，则 $x^{2}=1$，充分。但 $x^{2}=1$ 时还可能 $x=-1$，故不必要。",
+      "knowledgePointCodes": [
+        "rja.1.4.01",
+        "rja.1.4.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0056",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "“$x>2$”是“$x>1$”的（$x\\in\\mathbb{R}$）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "充分不必要条件"
+          },
+          {
+            "id": "B",
+            "text": "必要不充分条件"
+          },
+          {
+            "id": "C",
+            "text": "充要条件"
+          },
+          {
+            "id": "D",
+            "text": "既不充分也不必要条件"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "由 $x>2$ 可推出 $x>1$，充分。但 $x=1.5$ 满足 $x>1$ 却不满足 $x>2$，故不必要。",
+      "knowledgePointCodes": [
+        "rja.1.4.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0057",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "“$x>1$”是“$x>2$”的（$x\\in\\mathbb{R}$）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "必要不充分条件"
+          },
+          {
+            "id": "B",
+            "text": "充分不必要条件"
+          },
+          {
+            "id": "C",
+            "text": "充要条件"
+          },
+          {
+            "id": "D",
+            "text": "既不充分也不必要条件"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "若 $x>2$ 则必有 $x>1$，故“$x>1$”是必要的；但 $x>1$ 推不出 $x>2$，故不充分。",
+      "knowledgePointCodes": [
+        "rja.1.4.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0058",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "“四边形是正方形”是“四边形是矩形”的",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "充分不必要条件"
+          },
+          {
+            "id": "B",
+            "text": "必要不充分条件"
+          },
+          {
+            "id": "C",
+            "text": "充要条件"
+          },
+          {
+            "id": "D",
+            "text": "既不充分也不必要条件"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "正方形一定是矩形，故充分；矩形未必是正方形，故不必要。因此是充分不必要条件。",
+      "knowledgePointCodes": [
+        "rja.1.4.01",
+        "rja.1.4.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0059",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "设 $x\\in\\mathbb{R}$。“$x^{2}=0$”是“$x=0$”的",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "充要条件"
+          },
+          {
+            "id": "B",
+            "text": "充分不必要条件"
+          },
+          {
+            "id": "C",
+            "text": "必要不充分条件"
+          },
+          {
+            "id": "D",
+            "text": "既不充分也不必要条件"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "在实数范围内，$x^{2}=0\\Leftrightarrow x=0$，互为充要条件。",
+      "knowledgePointCodes": [
+        "rja.1.4.03"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0060",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "single",
+      "difficulty": 3,
+      "stem": "“$a>0$ 且 $b>0$”是“$ab>0$”的（$a,b\\in\\mathbb{R}$）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "充分不必要条件"
+          },
+          {
+            "id": "B",
+            "text": "必要不充分条件"
+          },
+          {
+            "id": "C",
+            "text": "充要条件"
+          },
+          {
+            "id": "D",
+            "text": "既不充分也不必要条件"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "两正数乘积为正，充分。但 $a=-1,b=-2$ 时 $ab>0$ 却不满足同为正，故不必要。",
+      "knowledgePointCodes": [
+        "rja.1.4.01",
+        "rja.1.4.03"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0061",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stem": "下列说法正确的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "若 $p\\Rightarrow q$，则 $p$ 是 $q$ 的充分条件"
+          },
+          {
+            "id": "B",
+            "text": "若 $p\\Rightarrow q$，则 $q$ 是 $p$ 的必要条件"
+          },
+          {
+            "id": "C",
+            "text": "若 $p\\Leftrightarrow q$，则 $p$ 是 $q$ 的充要条件"
+          },
+          {
+            "id": "D",
+            "text": "充分条件一定是必要条件"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "analysis": "A、B、C 均符合充分、必要、充要的定义。充分条件不必同时是必要条件，故 D 错误。",
+      "knowledgePointCodes": [
+        "rja.1.4.01",
+        "rja.1.4.02",
+        "rja.1.4.03"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0062",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "multi",
+      "difficulty": 1,
+      "stem": "设 $x\\in\\mathbb{R}$。下列中，“$x>0$”是“$x\\ge 0$”的（多选表述正确项）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "充分条件"
+          },
+          {
+            "id": "B",
+            "text": "必要条件"
+          },
+          {
+            "id": "C",
+            "text": "充分不必要条件"
+          },
+          {
+            "id": "D",
+            "text": "充要条件"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "C"
+        ]
+      },
+      "analysis": "$x>0\\Rightarrow x\\ge 0$，故充分；但 $x=0$ 使后者真前者假，故不必要。因此也是充分不必要。B、D 错误。",
+      "knowledgePointCodes": [
+        "rja.1.4.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0063",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stem": "下列各组中，$p$ 是 $q$ 的必要条件的是（多选；设 $x\\in\\mathbb{R}$）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$p:x>1$；$q:x>2$"
+          },
+          {
+            "id": "B",
+            "text": "$p:x=1$；$q:x^{2}=1$"
+          },
+          {
+            "id": "C",
+            "text": "$p:x\\ge 2$；$q:x>2$"
+          },
+          {
+            "id": "D",
+            "text": "$p:x^{2}\\ge 0$；$q:x=1$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "analysis": "若 $q\\Rightarrow p$，则 $p$ 是 $q$ 的必要条件。A：$x>2\\Rightarrow x>1$。C：$x>2\\Rightarrow x\\ge 2$。D：$x=1\\Rightarrow x^{2}\\ge 0$。B：$x^{2}=1$ 推不出 $x=1$，故不是必要条件。",
+      "knowledgePointCodes": [
+        "rja.1.4.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0064",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "multi",
+      "difficulty": 3,
+      "stem": "设 $x\\in\\mathbb{R}$。下列中 $p$ 是 $q$ 的充要条件的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$p:x=2$；$q:|x|=2$"
+          },
+          {
+            "id": "B",
+            "text": "$p:x-1=0$；$q:x=1$"
+          },
+          {
+            "id": "C",
+            "text": "$p:x^{2}=4$；$q:|x|=2$"
+          },
+          {
+            "id": "D",
+            "text": "$p:x>1$；$q:x\\ge 1$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "B",
+          "C"
+        ]
+      },
+      "analysis": "B：显然等价。C：在实数内 $x^{2}=4\\Leftrightarrow |x|=2$。A：$|x|=2$ 含 $x=-2$，不等价。D：一方更强，非充要。",
+      "knowledgePointCodes": [
+        "rja.1.4.03"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0065",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stem": "若 $p$ 是 $q$ 的充分条件，则 $q$ 一定是 $p$ 的必要条件。",
+      "answerPayload": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "“$p$ 是 $q$ 的充分条件”即 $p\\Rightarrow q$，这同时意味着“$q$ 是 $p$ 的必要条件”。",
+      "knowledgePointCodes": [
+        "rja.1.4.01",
+        "rja.1.4.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0066",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "judge",
+      "difficulty": 2,
+      "stem": "“$a=b$”是“$a^{2}=b^{2}$”的充要条件（$a,b\\in\\mathbb{R}$）。",
+      "answerPayload": {
+        "kind": "judge",
+        "value": false
+      },
+      "analysis": "由 $a=b$ 可得 $a^{2}=b^{2}$（充分），但由 $a^{2}=b^{2}$ 可能 $a=-b\\ne b$，故不必要，不是充要。",
+      "knowledgePointCodes": [
+        "rja.1.4.03"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0067",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "judge",
+      "difficulty": 2,
+      "stem": "“两个三角形全等”是“两个三角形面积相等”的充分不必要条件。",
+      "answerPayload": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "全等的三角形面积一定相等，故充分；面积相等未必全等，故不必要。结论成立。",
+      "knowledgePointCodes": [
+        "rja.1.4.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0068",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.4",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stem": "在实数范围内，使命题“若 $x>a$，则 $x>3$”对一切实数 $x$ 恒成立。满足条件的实数 $a$ 的最小值是",
+      "answerPayload": {
+        "kind": "numeric",
+        "value": "3",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "“$x>a\\Rightarrow x>3$”对一切 $x$ 成立，当且仅当 $a\\ge 3$。若 $a<3$，取 $x$ 满足 $a<x\\le 3$，则前提真结论假。故最小值为 $3$。",
+      "knowledgePointCodes": [
+        "rja.1.4.01",
+        "rja.1.4.03"
+      ],
+      "primaryKnowledgePointCode": "rja.1.4.01"
+    }
+  ]
+}

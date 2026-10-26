@@ -1,0 +1,126 @@
+{
+  "at": "2026-10-26T02:15:32.856Z",
+  "qwenUsed": 2,
+  "qwenMax": 2,
+  "deepseekUsed": 0,
+  "deepseekMax": 2,
+  "sessions": [
+    "122",
+    "123"
+  ],
+  "safetyStop": null,
+  "results": [
+    {
+      "id": "A",
+      "status": "RAN",
+      "sampleKind": "PRINTED_SYNTHETIC",
+      "sessionId": "122",
+      "sessionItemId": "345",
+      "imageIds": [
+        "48",
+        "49"
+      ],
+      "imageIdsOrder": [
+        "48",
+        "49"
+      ],
+      "provider": "deepseek",
+      "gradeResult": "review_required",
+      "gradeReason": "critical_recognition_warning",
+      "aiModel": "qwen3.8-27b-orca-q8",
+      "aiAttemptCount": 1,
+      "aiGradedAt": null,
+      "pipeline": "qwen_then_deepseek",
+      "visionModel": "qwen3.8-27b-orca-q8",
+      "recognizedWorkPreview": "第1张\n【无法辨认，疑似题目描述】\n某社区游泳馆…x 为正整数…30 ≤ x ≤ 60 …\n预计日接待人数为 2400 - 30x\n\n【无法辨认，疑似第(1)问标题】\ny = x(2400 - 30x)\n  = 2400x - 30x^2\n\n【无法辨认，疑似定义域说明】\nx 取值为 {30, 31, ..., 60}\n\n第2张\n【无法辨认，疑似题目描述】\n…O杞达级\n【无法辨认，疑似第(2)问标题】\n…x = 50 时取得最大值\n\ny = -30(x - 50)^2 + 48000\n\n【无法辨认，疑似结论说明】\n…x = 50 时，\n最大日票务收入为 48000 元",
+      "x50Check": {
+        "ok": true,
+        "detail": "x=50 preserved"
+      },
+      "recognitionUncertain": false,
+      "recognitionWarnings": [
+        "图片中大量中文叙述文字显示为乱码（如“鈃?E-6”、“鈃涔”等），无法辨认具体语义。",
+        "已根据乱码前后的数学公式和符号保留了关键的数学推导步骤，如“y = x(2400 - 30x)”及“y = -30(x - 50)^2 + 48000”。"
+      ],
+      "confidence": 0.85,
+      "visionCallCount": 1,
+      "scoringCallCount": 0,
+      "personalizedExplanation": "",
+      "qwen": {
+        "before": 0,
+        "after": 1,
+        "delta": 1
+      },
+      "deepseek": {
+        "before": 0,
+        "after": 0,
+        "delta": 0
+      },
+      "latencyMs": 16559,
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 1,
+        "accuracy": null
+      },
+      "getSessionGrade": "review_required",
+      "getSessionScore": null
+    },
+    {
+      "id": "B",
+      "status": "RAN",
+      "sampleKind": "PRINTED_SYNTHETIC",
+      "sessionId": "123",
+      "sessionItemId": "346",
+      "imageIds": [
+        "50",
+        "51"
+      ],
+      "imageIdsOrder": [
+        "50",
+        "51"
+      ],
+      "provider": "deepseek",
+      "gradeResult": "review_required",
+      "gradeReason": "critical_recognition_warning",
+      "aiModel": "qwen3.8-27b-orca-q8",
+      "aiAttemptCount": 1,
+      "aiGradedAt": null,
+      "pipeline": "qwen_then_deepseek",
+      "visionModel": "qwen3.8-27b-orca-q8",
+      "recognizedWorkPreview": "第1张\n[题干乱码：鋳?E-6 锏氰澉娴嬬獗路閫炩▼鍫ㄦ殪绾栦€戠...]\n浜烘暟?400 - 30x\n\n鍑跺唴锛?\ny = x(2400 - 30x)\n = 2400x - 30x^2\n\n瀹氫箟锛?\nx 瀹氫箟 {30, 31, ..., 60}\n\n第2张\n[题干乱码：鋳?E-6 锏氰澉娴嬬獗路閫炩▼鍫ㄦ殪绾栦€戠...]\n闂冨唴锛?●楠わ仩? x=50?\n\ny = -30(x - 50)^2 + 48000\n\n缁撴? x = 50 鍏堝仾\n鏈€澶ф棩鍑跺唴?48000 锛?€?",
+      "x50Check": {
+        "ok": true,
+        "detail": "x=50 preserved"
+      },
+      "recognitionUncertain": false,
+      "recognitionWarnings": [
+        "图片中的中文文字存在严重的字符编码错误（乱码），无法识别具体含义，仅保留了清晰可读的数字、字母、数学符号和表达式。",
+        "第1张顶部和第2张顶部的题干复述部分乱码严重。"
+      ],
+      "confidence": 0.85,
+      "visionCallCount": 1,
+      "scoringCallCount": 0,
+      "personalizedExplanation": "",
+      "qwen": {
+        "before": 1,
+        "after": 2,
+        "delta": 1
+      },
+      "deepseek": {
+        "before": 0,
+        "after": 0,
+        "delta": 0
+      },
+      "latencyMs": 8289,
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 1,
+        "accuracy": null
+      },
+      "getSessionGrade": "review_required",
+      "getSessionScore": null
+    }
+  ]
+}

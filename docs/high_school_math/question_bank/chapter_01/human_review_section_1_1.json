@@ -1,0 +1,174 @@
+{
+  "phase": "P1-0F-C2",
+  "section": "1.1",
+  "title": "集合的概念",
+  "sourceSha256": "89b6484e6cb69f40437a6b28f603abae3c9eb19c0b08157d27947f72f7ec95c9",
+  "reviewBundleVersion": "96e8612d04934fcee4cc6f49805ac41cfda68ddb5ab8ced81712e3a95762ad67",
+  "generatedAt": "2026-10-24T09:25:37.546Z",
+  "notice": "status=APPROVED 仅表示人工审核通过，不等于数据库 hs_math_train_items.status=approved。禁止自动批准。",
+  "items": [
+    {
+      "code": "HSMA-RJA-CH01-0001",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "bdafbfebdf9908f6d4f4c4826899b2798f01d46d819ba064a47f806f1bb8c016",
+      "comment": "",
+      "highlight": false
+    },
+    {
+      "code": "HSMA-RJA-CH01-0002",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "e6e6de0ca2873ed550f47c0d619d5d969891872b2c2c605c07df1d8f8fab0423",
+      "comment": "",
+      "highlight": false
+    },
+    {
+      "code": "HSMA-RJA-CH01-0003",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "901f4c991eee7afb882c0d566bdf3c0241bc31ea9487c927141915a53735cb75",
+      "comment": "",
+      "highlight": false
+    },
+    {
+      "code": "HSMA-RJA-CH01-0004",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "e6f5bf8ebc8ad02c08ed4170b34a2f7e2f1d341e8645fb42a79d0686e5a3da78",
+      "comment": "",
+      "highlight": true,
+      "agentNote": "选项 A 内嵌“默认实数”约定略冗；数学结论正确。人工须明确是否接受呈现方式。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0005",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "f7483e43886268129db5750da6c12eead592d600ee66ab313903272cc7f3fe15",
+      "comment": "",
+      "highlight": false
+    },
+    {
+      "code": "HSMA-RJA-CH01-0006",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "2ce82826da4a30dce2baf560b9aa8787e45a08bc5d2aa1838f2672b6f8de6e7e",
+      "comment": "",
+      "highlight": false
+    },
+    {
+      "code": "HSMA-RJA-CH01-0007",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "c8eec9d10967f9f2ae28fdd1af55d2123c3f996be7d7c40c8bd45c7069c08402",
+      "comment": "",
+      "highlight": false
+    },
+    {
+      "code": "HSMA-RJA-CH01-0008",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "9f9bd5c69fa19334f86fdc70e0392ef16532081f381969d431e722db76a096bd",
+      "comment": "",
+      "highlight": true,
+      "agentNote": "single 选项形态接近判断题；−5∈奇数集结论正确。人工须确认题型呈现是否合适。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0009",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "d348ebcbe85ab72dab79ce10cf3d82165532f8be5b303f90431880ad82fe66aa",
+      "comment": "",
+      "highlight": true,
+      "agentNote": "“无实根→空集仍是集合”易误判；解析已说明。人工须确认解析对学生是否足够。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0010",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "205a01f9c96531018c96d869b636360df57ff16c83a6dbad378b0e799004c7e6",
+      "comment": "",
+      "highlight": false
+    },
+    {
+      "code": "HSMA-RJA-CH01-0011",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "ae2166c05a0aa1af698f2fa7a2507347d3b483cce2851aac35ef3bc0543331fa",
+      "comment": "",
+      "highlight": false
+    },
+    {
+      "code": "HSMA-RJA-CH01-0012",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "8c0e6a192b1d76f845be01628fdd14b95ef179431894545c811f26722562e5c0",
+      "comment": "",
+      "highlight": false
+    },
+    {
+      "code": "HSMA-RJA-CH01-0013",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "05ba31a8e7bb1182985b00372c5a894d0428e0ba30e3e79f264079bcbe45619e",
+      "comment": "",
+      "highlight": false
+    },
+    {
+      "code": "HSMA-RJA-CH01-0014",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "be408d316c0467ba16a8525194122875868a562260163a6efcbfbc5cf7beed3f",
+      "comment": "",
+      "highlight": false
+    },
+    {
+      "code": "HSMA-RJA-CH01-0015",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "516d14b190c3017762cce9b943f71f3c42b2d351e06022923855f21a7831f706",
+      "comment": "",
+      "highlight": false
+    },
+    {
+      "code": "HSMA-RJA-CH01-0016",
+      "status": "PENDING",
+      "reviewer": null,
+      "reviewedAt": null,
+      "reviewedContentVersion": 1,
+      "contentFingerprint": "af0556d8fff549db97a324e8f0ef065f6eeae331b89fdb9afc88e553b86ee468",
+      "comment": "",
+      "highlight": false
+    }
+  ]
+}

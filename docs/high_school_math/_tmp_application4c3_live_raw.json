@@ -1,0 +1,106 @@
+{
+  "auth": "CONFIRMED A-H",
+  "sessionId": "126",
+  "sessionItemId": "349",
+  "precheck": "PASS",
+  "countsBefore": {
+    "correct": 0,
+    "wrong": 0,
+    "pending": 1
+  },
+  "healthLive": 200,
+  "switchesOn": {
+    "vision": true,
+    "text": true
+  },
+  "budgetMax": {
+    "qwen": 1,
+    "deepseek": 1
+  },
+  "regrade1Status": 201,
+  "afterRegrade1": "grading",
+  "qwenUsed": 1,
+  "deepseekUsed": 1,
+  "finalGradeResult": "graded",
+  "finalGradeReason": "ai_graded",
+  "aiGrade": {
+    "totalScore": 10,
+    "maxScore": 10,
+    "rubricScores": [
+      {
+        "score": 3,
+        "feedback": "正确写出 y=x(2400-30x) 并展开为 2400x-30x²，模型结构正确，且有设票价与接待人数的说明。",
+        "maxScore": 3,
+        "rubricKey": "model"
+      },
+      {
+        "score": 2,
+        "feedback": "明确写出 x 是 30~60 的正整数，并用 {30,31,...,60} 表示定义域，完整符合实际约束。",
+        "maxScore": 2,
+        "rubricKey": "domain"
+      },
+      {
+        "score": 3,
+        "feedback": "通过配方得到 y=-30(x-40)²+48000，并由 -30<0 正确判定 x=40 时取最大值，过程完整、计算正确。",
+        "maxScore": 3,
+        "rubricKey": "solve"
+      },
+      {
+        "score": 2,
+        "feedback": "明确给出票价 40 元、最大日票务收入 48000 元，结论与单位完整。",
+        "maxScore": 2,
+        "rubricKey": "conclusion"
+      }
+    ],
+    "confidence": 1,
+    "pipeline": "qwen_then_deepseek",
+    "gradingProvider": "deepseek",
+    "visionModel": "qwen3.8-27b-orca-q8",
+    "scoringModel": "deepseek-chat",
+    "recognizedWork_head": "第1张 设票价为 x 元。 每天接待人数为 2400-30x。 收入函数： y=x(2400-30x) =2400x-30x² 因为 x 是 30~60 的正整数， 所以定义域为 {30, 31, ..., 60}。 第2张 y=2400x-30x² 配方得： y=-30(x-40)²+48000 因为 -30<0， 所以当 x=40 时收入最大。 最大收入为 48000 元。",
+    "warnings_kind": "undefined"
+  },
+  "regrade2Status": 409,
+  "regrade2Rejected": true,
+  "qwenUsedAfterSecond": 1,
+  "deepseekUsedAfterSecond": 1,
+  "db": {
+    "grade_result": "graded",
+    "grade_reason": "ai_graded",
+    "ai_attempt_count": 1,
+    "ai_model": "deepseek-chat",
+    "ai_graded_at": "2026-10-26T03:54:10.704Z",
+    "answerUnchanged": true,
+    "imageIds": [
+      "55",
+      "56"
+    ],
+    "gradingProvider": "deepseek",
+    "counts": {
+      "correct": 0,
+      "wrong": 0,
+      "pending": 0
+    }
+  },
+  "statsNotPolluted": true,
+  "otherSessionsUntouched": true,
+  "historyStatus": 200,
+  "restore": {
+    "health": 200,
+    "vision": false,
+    "text": false,
+    "envVision": "false",
+    "envAi": "false"
+  },
+  "restoreFinal": {
+    "health": 200,
+    "vision": false,
+    "text": false
+  },
+  "ui": "UI_NOT_RUN",
+  "passHints": {
+    "qwenBudget": "1/1",
+    "dsBudget": "1/1",
+    "graded": true
+  }
+}

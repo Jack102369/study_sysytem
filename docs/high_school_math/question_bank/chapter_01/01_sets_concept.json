@@ -1,0 +1,524 @@
+{
+  "_meta": {
+    "chapter": "rja-ch1",
+    "section": "1.1",
+    "count": 16,
+    "note": "P1-0E 正式题库文件；勿含测试前缀；导入前须人工审核。本阶段未写库。"
+  },
+  "items": [
+    {
+      "code": "HSMA-RJA-CH01-0001",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "下列对象中，能构成集合的是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "某班成绩很好的同学"
+          },
+          {
+            "id": "B",
+            "text": "接近 $1$ 的实数"
+          },
+          {
+            "id": "C",
+            "text": "方程 $x^{2}-1=0$ 的实数根"
+          },
+          {
+            "id": "D",
+            "text": "个子较高的人"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "C"
+      },
+      "analysis": "集合的元素必须具有确定性。方程 $x^{2}-1=0$ 的实数根是 $-1$ 与 $1$，对象明确。A、B、D 中“很好”“接近”“较高”含义不唯一，不能构成集合。",
+      "knowledgePointCodes": [
+        "rja.1.1.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0002",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "设 $A=\\{1,2,3\\}$，则下列正确的是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$1\\subset A$"
+          },
+          {
+            "id": "B",
+            "text": "$1\\in A$"
+          },
+          {
+            "id": "C",
+            "text": "$\\{1\\}\\in A$"
+          },
+          {
+            "id": "D",
+            "text": "$\\{1,2\\}\\in A$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "元素与集合用 $\\in$；集合与集合用 $\\subseteq$ 或 $\\subset$。$1$ 是 $A$ 的元素，故 $1\\in A$。$\\{1\\}$ 是集合，应写作 $\\{1\\}\\subseteq A$，不能写成 $\\{1\\}\\in A$。",
+      "knowledgePointCodes": [
+        "rja.1.1.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0003",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "用列举法表示集合 $\\{x\\in\\mathbb{Z}\\mid -2\\le x<2\\}$，正确的是（$\\mathbb{Z}$ 表示整数集）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\{-2,-1,0,1,2\\}$"
+          },
+          {
+            "id": "B",
+            "text": "$\\{-2,-1,0,1\\}$"
+          },
+          {
+            "id": "C",
+            "text": "$\\{-1,0,1\\}$"
+          },
+          {
+            "id": "D",
+            "text": "$\\{-2,-1,0\\}$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "条件为 $-2\\le x<2$ 且 $x$ 为整数，故 $x=-2,-1,0,1$，写作 $\\{-2,-1,0,1\\}$。不含 $2$。",
+      "knowledgePointCodes": [
+        "rja.1.1.02",
+        "rja.1.1.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0004",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "下列用描述法表示集合正确的是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\{x\\mid x^{2}=1\\}$（未指明数集时默认在实数范围内讨论）"
+          },
+          {
+            "id": "B",
+            "text": "$\\{x\\mid x$ 是较大的正整数$\\}$"
+          },
+          {
+            "id": "C",
+            "text": "$\\{x\\mid x$ 接近 $0\\}$"
+          },
+          {
+            "id": "D",
+            "text": "$\\{x\\mid x$ 是好看的图形$\\}$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "高中默认在实数集讨论时，$x^{2}=1$ 的解为 $\\pm 1$，属性确定。其余选项含模糊用语，不能作为集合的描述条件。",
+      "knowledgePointCodes": [
+        "rja.1.1.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0005",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "关于空集 $\\varnothing$，正确的是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\varnothing$ 不含任何元素"
+          },
+          {
+            "id": "B",
+            "text": "$\\varnothing=\\{0\\}$"
+          },
+          {
+            "id": "C",
+            "text": "$\\varnothing=\\{\\varnothing\\}$"
+          },
+          {
+            "id": "D",
+            "text": "$0\\in\\varnothing$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "空集是不含任何元素的集合。$\\{0\\}$ 含元素 $0$；$\\{\\varnothing\\}$ 含元素 $\\varnothing$，都不是空集。",
+      "knowledgePointCodes": [
+        "rja.1.1.03"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0006",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "设 $A=\\{a,b\\}$，且 $a\\ne b$。下列说法正确的是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$A$ 有 $2$ 个元素"
+          },
+          {
+            "id": "B",
+            "text": "若再写入 $a$，则 $A$ 有 $3$ 个元素"
+          },
+          {
+            "id": "C",
+            "text": "集合中元素可以重复计数"
+          },
+          {
+            "id": "D",
+            "text": "$\\{a,a,b\\}$ 与 $A$ 元素个数不同"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "集合元素具有互异性：$\\{a,a,b\\}=\\{a,b\\}$，仍是 $2$ 个元素。不能因书写重复而增加元素个数。",
+      "knowledgePointCodes": [
+        "rja.1.1.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0007",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "single",
+      "difficulty": 2,
+      "stem": "常用数集中，$\\mathbb{N}$、$\\mathbb{Z}$、$\\mathbb{Q}$、$\\mathbb{R}$ 分别表示自然数集、整数集、有理数集、实数集。下列正确的是（本题约定 $\\mathbb{N}$ 含 $0$）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\mathbb{N}\\subseteq\\mathbb{Z}\\subseteq\\mathbb{Q}\\subseteq\\mathbb{R}$"
+          },
+          {
+            "id": "B",
+            "text": "$\\mathbb{R}\\subseteq\\mathbb{Q}$"
+          },
+          {
+            "id": "C",
+            "text": "$\\sqrt{2}\\in\\mathbb{Q}$"
+          },
+          {
+            "id": "D",
+            "text": "$-3\\in\\mathbb{N}$"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "在含 $0$ 的约定下，自然数都是整数，整数都是有理数，有理数都是实数，故包含链成立。$\\sqrt{2}$ 不是有理数；$-3$ 不是自然数。",
+      "knowledgePointCodes": [
+        "rja.1.1.02",
+        "rja.1.1.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0008",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "single",
+      "difficulty": 3,
+      "stem": "设集合 $A=\\{x\\mid x=2k+1,\\,k\\in\\mathbb{Z}\\}$（奇数集）。则 $-5\\in A$ 的判断是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "正确"
+          },
+          {
+            "id": "B",
+            "text": "错误"
+          },
+          {
+            "id": "C",
+            "text": "无法判断"
+          },
+          {
+            "id": "D",
+            "text": "仅当 $k>0$ 时正确"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "取 $k=-3$，则 $2k+1=-5$，故 $-5\\in A$。奇数集包含负奇数。",
+      "knowledgePointCodes": [
+        "rja.1.1.01",
+        "rja.1.1.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0009",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stem": "下列可以作为集合的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "小于 $10$ 的正整数"
+          },
+          {
+            "id": "B",
+            "text": "方程 $x^{2}+1=0$ 的实数根"
+          },
+          {
+            "id": "C",
+            "text": "著名的数学家"
+          },
+          {
+            "id": "D",
+            "text": "平面内到定点距离等于定长的点"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "analysis": "A：正整数 $1$ 到 $9$，确定。B：实数范围内无解，为空集，仍是集合。D：圆上的点，几何属性确定。C：“著名”不唯一，不能构成集合。",
+      "knowledgePointCodes": [
+        "rja.1.1.01",
+        "rja.1.1.03"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0010",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "multi",
+      "difficulty": 1,
+      "stem": "关于集合表示法，正确的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "列举法适合元素不多的集合"
+          },
+          {
+            "id": "B",
+            "text": "描述法用元素的共同属性刻画集合"
+          },
+          {
+            "id": "C",
+            "text": "无限集一定不能用列举法表示"
+          },
+          {
+            "id": "D",
+            "text": "$\\{1,2,3\\}$ 是列举法"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "analysis": "列举法与描述法是基本表示法。无限集有时可写省略号列举（如正偶数），故 C 过绝对。",
+      "knowledgePointCodes": [
+        "rja.1.1.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0011",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stem": "设 $A=\\{\\varnothing\\}$。下列正确的是（多选）",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\varnothing\\in A$"
+          },
+          {
+            "id": "B",
+            "text": "$\\varnothing\\subseteq A$"
+          },
+          {
+            "id": "C",
+            "text": "$A=\\varnothing$"
+          },
+          {
+            "id": "D",
+            "text": "$A$ 含有 $1$ 个元素"
+          }
+        ]
+      },
+      "answerPayload": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "analysis": "$A=\\{\\varnothing\\}$ 的唯一元素是空集，故 $\\varnothing\\in A$，且 $|A|=1$。空集是任何集合的子集，故 $\\varnothing\\subseteq A$。但 $A$ 不是空集。",
+      "knowledgePointCodes": [
+        "rja.1.1.03",
+        "rja.1.1.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0012",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stem": "集合 $\\{1,2,3\\}$ 与集合 $\\{3,2,1\\}$ 是同一个集合。",
+      "answerPayload": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "集合元素具有无序性：只要元素完全相同，书写顺序不同仍表示同一个集合，因此两者相等。",
+      "knowledgePointCodes": [
+        "rja.1.1.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0013",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "judge",
+      "difficulty": 2,
+      "stem": "空集是任何一个集合的元素。",
+      "answerPayload": {
+        "kind": "judge",
+        "value": false
+      },
+      "analysis": "空集是任何一个集合的子集（$\\varnothing\\subseteq A$），但不一定是元素。例如 $1\\notin\\{1,2\\}$ 同理，$\\varnothing\\notin\\{1,2\\}$。",
+      "knowledgePointCodes": [
+        "rja.1.1.03"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.03"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0014",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stem": "用描述法表示集合时，必须写清代表元素所属的范围（或约定默认范围）。",
+      "answerPayload": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "描述法依赖属性与论域；论域不清会导致集合不明确。教材书写常写 $x\\in\\mathbb{R}$ 等。",
+      "knowledgePointCodes": [
+        "rja.1.1.02"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.02"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0015",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stem": "集合 $\\{2,4,6,8\\}$ 的元素个数是",
+      "answerPayload": {
+        "kind": "numeric",
+        "value": "4",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "该集合含 $2,4,6,8$ 四个互不相同的元素，由元素互异性知其元素个数为 $4$。",
+      "knowledgePointCodes": [
+        "rja.1.1.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0016",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stem": "集合 $\\{x\\in\\mathbb{Z}\\mid 0<x\\le 5\\}$ 的元素个数是",
+      "answerPayload": {
+        "kind": "numeric",
+        "value": "5",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "正整数（本题由 $0<x$ 且整数得到）$1,2,3,4,5$，共 $5$ 个。",
+      "knowledgePointCodes": [
+        "rja.1.1.02",
+        "rja.1.1.01"
+      ],
+      "primaryKnowledgePointCode": "rja.1.1.02"
+    }
+  ]
+}

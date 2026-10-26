@@ -1,0 +1,17 @@
+﻿{
+  "itemHint": "formal application itemId=151 fictional partial answer",
+  "samples": [
+    {
+      "id": "A",
+      "kind": "PRINTED_SYNTHETIC",
+      "files": ["A_partial_single.png"],
+      "notes": "Single-page formula-heavy partial; wrong axis x=50"
+    },
+    {
+      "id": "B",
+      "kind": "PRINTED_SYNTHETIC",
+      "files": ["B_partial_p1.png", "B_partial_p2.png"],
+      "notes": "Dual-page printed partial; formula-heavy ASCII"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "_comment": "P1-0D 演示模板。code 使用 EXAMPLE. 前缀，导入预览会报 CODE_FORBIDDEN。正式导入前请改为真实 code（如 rja.1.1.q.001），并核对知识点与数学正确性。不得自动导入。",
+  "items": [
+    {
+      "code": "EXAMPLE.rja.1.1.single.01",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "single",
+      "difficulty": 1,
+      "stem": "若 $a\\in\\{1,2,3\\}$，则下列正确的是（演示题，非正式题库）",
+      "options": {
+        "options": [
+          { "id": "A", "text": "$a$ 可以是 $1$" },
+          { "id": "B", "text": "$a$ 必须是 $4$" },
+          { "id": "C", "text": "集合只能有一个元素" },
+          { "id": "D", "text": "$a\\notin\\{1,2,3\\}$" }
+        ]
+      },
+      "answerPayload": { "kind": "single", "optionId": "A" },
+      "analysis": "由属于符号定义，$a$ 取集合中元素时 $a\\in\\{1,2,3\\}$ 可成立。本条为格式演示。",
+      "knowledgePointCodes": ["rja.1.1.01"],
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    },
+    {
+      "code": "EXAMPLE.rja.1.1.multi.01",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stem": "下列可以用来表示集合的方法有（多选，演示）",
+      "options": {
+        "options": [
+          { "id": "A", "text": "列举法" },
+          { "id": "B", "text": "描述法" },
+          { "id": "C", "text": "仅用不等式符号而无对象说明" },
+          { "id": "D", "text": "文氏图（示意）" }
+        ]
+      },
+      "answerPayload": { "kind": "multi", "optionIds": ["A", "B"] },
+      "analysis": "列举法与描述法是教材基本表示法。本条为格式演示，选项 D 仅作干扰。",
+      "knowledgePointCodes": ["rja.1.1.02", "rja.1.1.01"],
+      "primaryKnowledgePointCode": "rja.1.1.02"
+    },
+    {
+      "code": "EXAMPLE.rja.1.2.judge.01",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.2",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stem": "若 $A\\subseteq B$ 且 $B\\subseteq A$，则 $A=B$。（判断，演示）",
+      "answerPayload": { "kind": "judge", "value": true },
+      "analysis": "集合相等的充要条件是互相包含。本条为格式演示。",
+      "knowledgePointCodes": ["rja.1.2.02"],
+      "primaryKnowledgePointCode": "rja.1.2.02"
+    },
+    {
+      "code": "EXAMPLE.rja.1.1.numeric.01",
+      "specialtyCode": "rja-ch1",
+      "categoryCode": "1.1",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stem": "集合 $\\{1,2,3\\}$ 的元素个数为（填空，演示）",
+      "answerPayload": {
+        "kind": "numeric",
+        "value": "3",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "三个互异元素，个数为 3。本条为格式演示。",
+      "knowledgePointCodes": ["rja.1.1.01"],
+      "primaryKnowledgePointCode": "rja.1.1.01"
+    }
+  ]
+}

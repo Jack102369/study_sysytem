@@ -1,0 +1,109 @@
+{
+  "results": [
+    {
+      "name": "env database",
+      "status": "PASS",
+      "detail": "db=study_system"
+    },
+    {
+      "name": "env mysql",
+      "status": "PASS",
+      "detail": "version=8.0.44"
+    },
+    {
+      "name": "env hs_math tables",
+      "status": "PASS",
+      "detail": "count=5"
+    },
+    {
+      "name": "env accounts",
+      "status": "PASS",
+      "detail": "USER_count=1 ids=[1] ADMIN_count=1"
+    },
+    {
+      "name": "api health",
+      "status": "PASS",
+      "detail": "status=200"
+    },
+    {
+      "name": "unauth home",
+      "status": "PASS",
+      "detail": "status=401"
+    },
+    {
+      "name": "seed items",
+      "status": "PASS",
+      "detail": "using HS_MATH_P0_E2E_TEST_* approved items"
+    },
+    {
+      "name": "dual-user isolation",
+      "status": "NOT_RUN",
+      "detail": "only 1 USER in DB; need second approved USER account (do not auto-create)"
+    },
+    {
+      "name": "admin cannot read user session",
+      "status": "PASS",
+      "detail": "status=404"
+    },
+    {
+      "name": "desense in_progress",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "name": "desense cancelled",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "name": "desense completed reveal",
+      "status": "PASS"
+    },
+    {
+      "name": "desense history list",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "name": "concurrent dual-submit",
+      "status": "PASS",
+      "detail": "overlapΔ=0ms aStart=1792808944901 bStart=1792808944901 idem=[false,true] status=completed submittedAt_stable=true"
+    },
+    {
+      "name": "idempotent resubmit",
+      "status": "PASS",
+      "detail": "submittedAt_stable=true"
+    },
+    {
+      "name": "concurrent PATCH vs submit",
+      "status": "PASS",
+      "detail": "overlapΔ=0ms patch=409 submit=201 final=completed patchAfter=409"
+    },
+    {
+      "name": "concurrent cancel vs submit",
+      "status": "PASS",
+      "detail": "overlapΔ=1ms cancel=201 submit=409 final=cancelled"
+    },
+    {
+      "name": "concurrent dual-PATCH",
+      "status": "PASS",
+      "detail": "overlapΔ=0ms a=200 b=200 itemCount=5 payload_has_option=true"
+    },
+    {
+      "name": "regression chem_specialties",
+      "status": "PASS",
+      "detail": "12->12"
+    },
+    {
+      "name": "regression error_questions",
+      "status": "PASS",
+      "detail": "16->16"
+    },
+    {
+      "name": "regression users",
+      "status": "PASS",
+      "detail": "count 2->2"
+    }
+  ],
+  "at": "2026-10-24T02:29:08.188Z"
+}

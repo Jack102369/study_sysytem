@@ -1,0 +1,187 @@
+{
+  "at": "2026-10-26T00:53:40.492Z",
+  "qwenUsed": 3,
+  "qwenMax": 3,
+  "deepseekUsed": 1,
+  "deepseekMax": 2,
+  "sessions": [
+    "119",
+    "120",
+    "121"
+  ],
+  "results": [
+    {
+      "id": "A",
+      "status": "RAN",
+      "sessionId": "119",
+      "sessionItemId": "342",
+      "imageIds": [
+        "43",
+        "44"
+      ],
+      "imageIdsOrder": [
+        "43",
+        "44"
+      ],
+      "provider": "deepseek",
+      "gradeResult": "graded",
+      "gradeReason": "ai_graded",
+      "aiModel": "deepseek-chat",
+      "aiAttemptCount": 1,
+      "totalScore": 10,
+      "maxScore": 10,
+      "rubric": [
+        {
+          "score": 3,
+          "feedback": "正确写出 y=x(2400-30x)=2400x-30x²，模型结构正确。",
+          "maxScore": 3,
+          "rubricKey": "model"
+        },
+        {
+          "score": 2,
+          "feedback": "给出 x∈{30,31,…,60}，完整包含整数约束与范围。",
+          "maxScore": 2,
+          "rubricKey": "domain"
+        },
+        {
+          "score": 3,
+          "feedback": "配方得 y=-30(x-40)²+48000，正确求得 x=40，过程完整。",
+          "maxScore": 3,
+          "rubricKey": "solve"
+        },
+        {
+          "score": 2,
+          "feedback": "明确票价 40 元、最大收入 48000 元，单位齐全。",
+          "maxScore": 2,
+          "rubricKey": "conclusion"
+        }
+      ],
+      "pipeline": "qwen_then_deepseek",
+      "visionModel": "qwen3.8-27b-orca-q8",
+      "scoringModel": "deepseek-chat",
+      "recognizedWorkPreview": "第1张\n解：E-5 镏氰澬娴娴痵路鬬始 夔爍殣绉併€散（⊗）1寮？\n瑝烜殤鏈爐工浠蜂负 x 镝津紆x 镔?30 镛?60 镔勫↑镆存暟镪?\n镆工幓寰呰汉镆頒负 2400-30x镪?\n镆↕工锷℃敕镪ㄗ細\ny = x(2400-30x)\n  = 2400x - 30x^2\n瀹�箪錯煇細x 瀉魚鎧聞啃惜 {30, 31, …, 60}\n\n第2张\n解：E-5 镏氰澬娴娴痵路鬬始 夔爍殣绉併€散（⊗）2寮？\n間槽柟锜？\ny = -30(x-40)^2 + 48000\n镆狄负賓€鋻e 怪涓媮紆鏦∠ 瞏涺爿煇鍐命統 x=40 镆跞肅寰榕渶瀉y€笎€?\n鏈€澹φ橢蝈跺爰涓?48000 镝冠€?",
+      "recognitionUncertain": null,
+      "recognitionWarnings": [
+        "第1张及第2张中的中文文字存在严重乱码（显示为方块字或特殊符号），无法准确辨认具体语句，但关键的数学表达式、数字和最终结论（y = 2400x - 30x²，{30, 31, …, 60}，-30(x-40)² + 48000，x=40，48000）清晰可辨。"
+      ],
+      "confidence": 0.9,
+      "visionCallCount": 1,
+      "scoringCallCount": 1,
+      "qwen": {
+        "before": 0,
+        "after": 1,
+        "delta": 1
+      },
+      "deepseek": {
+        "before": 0,
+        "after": 1,
+        "delta": 1
+      },
+      "latencyMs": 20468,
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 0,
+        "accuracy": null
+      },
+      "getSessionGrade": "graded",
+      "getSessionScore": 10
+    },
+    {
+      "id": "B",
+      "status": "RAN",
+      "sessionId": "120",
+      "sessionItemId": "343",
+      "imageIds": [
+        "45",
+        "46"
+      ],
+      "imageIdsOrder": [
+        "45",
+        "46"
+      ],
+      "provider": "deepseek",
+      "gradeResult": "review_required",
+      "gradeReason": "uncertain_recognition",
+      "aiModel": "qwen3.8-27b-orca-q8",
+      "aiAttemptCount": 1,
+      "pipeline": "qwen_then_deepseek",
+      "visionModel": "qwen3.8-27b-orca-q8",
+      "recognizedWorkPreview": "第1张\n解：由题意得\n预计日接待人数为2400-30x\n日票务收入 = x(2400-30x) = 2400x-30x^2\n定义域为{30,31,...,60}\n\n第2张\n解：由配方法得\ny=-30(x-50)^2+48000\n∴ 当 x=50 时，最大值为 48000",
+      "recognitionUncertain": true,
+      "recognitionWarnings": [
+        "第1张和第2张中的中文叙述部分存在大量乱码（如‘鋅?E-5 鈿氯滄路闖’），推测为编码错误或OCR识别失败，无法还原原始汉字。",
+        "根据数学公式推断，第1张‘预计日接待人数’对应的乱码部分原意应为‘由题意得’，‘日票务收入’对应的乱码原意应为‘收入函数解析式’。",
+        "第2张‘解：由配方法得’及‘当 x=50 时...’等语句包含乱码，依据数学逻辑进行了还原。"
+      ],
+      "confidence": 0.85,
+      "visionCallCount": 1,
+      "scoringCallCount": 0,
+      "qwen": {
+        "before": 1,
+        "after": 2,
+        "delta": 1
+      },
+      "deepseek": {
+        "before": 1,
+        "after": 1,
+        "delta": 0
+      },
+      "latencyMs": 12388,
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 1,
+        "accuracy": null
+      },
+      "getSessionGrade": "review_required",
+      "getSessionScore": null
+    },
+    {
+      "id": "C",
+      "status": "RAN",
+      "sessionId": "121",
+      "sessionItemId": "344",
+      "imageIds": [
+        "47"
+      ],
+      "imageIdsOrder": [
+        "47"
+      ],
+      "provider": "deepseek",
+      "gradeResult": "review_required",
+      "gradeReason": "uncertain_recognition",
+      "aiModel": "qwen3.8-27b-orca-q8",
+      "aiAttemptCount": 1,
+      "pipeline": "qwen_then_deepseek",
+      "visionModel": "qwen3.8-27b-orca-q8",
+      "recognizedWorkPreview": "第1张\n【无法辨认】",
+      "recognitionUncertain": true,
+      "recognitionWarnings": [
+        "图片噪点过密，整体严重模糊，关键公式与步骤无法辨认"
+      ],
+      "confidence": 0.2,
+      "visionCallCount": 1,
+      "scoringCallCount": 0,
+      "qwen": {
+        "before": 2,
+        "after": 3,
+        "delta": 1
+      },
+      "deepseek": {
+        "before": 1,
+        "after": 1,
+        "delta": 0
+      },
+      "latencyMs": 4212,
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 1,
+        "accuracy": null
+      },
+      "getSessionGrade": "review_required",
+      "getSessionScore": null
+    }
+  ]
+}

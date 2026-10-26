@@ -1,0 +1,66 @@
+---
+description: 小学数学思维训练与AI动画教学专项开发规范（独立模块、复用现有鉴权与数据规范）
+globs: apps/**/math*/**,apps/**/math/**,docs/math/**,.cursor/rules/math-development.mdc
+alwaysApply: false
+---
+
+# 数学专项开发规范
+
+数学专项是现有学习系统中的**独立业务模块**（对标化学专项的模块边界），不得重建用户、权限或管理后台。
+
+本规则与根目录 `.cursorrules` 同时生效；冲突时以「最小改动接入现有系统」为准。
+
+## 冲突处理（强制）
+
+若需求与现有代码结构冲突：**先报告冲突**，给出**最小改动方案**与影响面，**等待确认后再改**。禁止擅自大范围重构。
+
+## 开发前检查（强制）
+
+动手写代码前必须先阅读并复用现有实现，至少包括：
+
+- 鉴权：`apps/api/src/auth/`（JWT、`CurrentUser`、角色与 AI/OCR 开关）
+- 专项范本：`apps/api/src/chemistry/`、`apps/web/src/views/chemistry/`（仅参考边界与分层，**禁止改化学业务**）
+- 通用约定：DTO + class-validator、统一响应、错误处理；前端空态/加载态/错误提示
+- 数据库权威结构：`db/init.sql`
+
+## 硬性规则
+
+1. **复用现有基础设施**：JWT、权限、MySQL、API 风格、前端 Vue3 栈；不新建平行用户/权限/管理后台。
+2. **不修改化学专项业务逻辑**（`apps/**/chemistry/**` 及相关 chem 表业务）。
+3. **不随意修改通用错题本**（`error-questions` / `errors` 等）；数学错题/训练若需要，走数学自有表与模块。
+4. **userId 来源**：一律从 JWT（`CurrentUser`）获取；禁止信任客户端传入的 userId。
+5. **数据隔离**：用户学习数据的查询/更新/删除必须带 `userId`（或等价 `user_id`）条件，防越权。
+6. **内容与学习数据分离**：公共教学内容（题库、动画脚本、课程等）与用户进度/作答/错题等学习数据分表/分职责；公共内容无 userId，用户数据有 userId。
+7. **库表变更**：必须同步维护 `db/init.sql`；实体映射 snake_case；**禁止** TypeORM `synchronize=true`。
+8. **禁止破坏性库操作**：未经确认不得 DROP/TRUNCATE/无备份的破坏性迁移或数据覆盖。
+9. **禁止执行 AI 生成的任意 JavaScript**（`eval`、动态 `Function`、未校验脚本注入渲染管线等）。
+10. **数学计算由确定性程序完成**（服务端或受控工具函数）；不得把最终数值对错交给 LLM。
+11. **DeepSeek 职责边界**：仅题干文案、教学语言、辅助教学设计；不算数、不定案、不充当判题真值源。
+12. **MASP 协议**：出入站数据必须用严格 Schema 校验（如 class-validator / 等价 schema）；校验失败则拒绝，不得半截执行。
+13. **前端栈不变**：Vue3 + Vite + TS + Element Plus + Pinia + Vue Router + Axios + ECharts；保持 unplugin-auto-import / vue-components + ElementPlusResolver。
+14. **Remotion**：只能作为**独立视频渲染应用**（独立包/进程），不得塞进主站运行时或与 Nest/Vite 主应用耦合启动。
+15. **依赖克制**：优先现有依赖；新增框架/重依赖须先说明原因与替代方案并确认。
+16. **验证**：每次相关修改后运行对应类型检查、测试或构建（如 `pnpm --filter api` / `web` 的 build、tsc、既有自测）。
+17. **进度文档**：每个数学开发任务完成后更新 `docs/math/progress.md`。
+18. **范围控制**：禁止为修数学模块而随意重构无关模块。
+
+## 建议落位（新增时）
+
+| 层 | 路径倾向 |
+|----|----------|
+| API | `apps/api/src/math/`（module/controller/service/dto/entities） |
+| Web | `apps/web/src/views/math/`、`api/math*`、路由挂到现有 `AppLayout` |
+| SQL | `db/init.sql` 中 `math_*` 表；必要时另附增量 SQL，但仍须回写 init.sql |
+| 文档 | `docs/math/`（含 `progress.md`） |
+| Remotion | 独立目录/workspace 包（如 `apps/math-remotion/`），勿混入 `apps/web` 主包 |
+
+管理员能力：扩展现有 settings/admin 入口与 `requiresAdmin`，不新建后台系统。
+
+## 禁止事项速查
+
+- 新建第二套登录/JWT/用户表「专用体系」
+- 开启 TypeORM synchronize
+- 用 DeepSeek/任意 LLM 做最终算数与判分
+- 执行未 Schema 校验的 MASP/动画脚本
+- 改化学业务或顺手大改通用错题本
+- 未经确认的破坏性数据库操作

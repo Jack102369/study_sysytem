@@ -1,0 +1,51 @@
+---
+description: 高一数学模块阶段交接 — 强制同步 PROJECT_HANDOFF.md（不改小学数学/化学规则）
+globs: apps/api/src/hs-math/**,apps/web/src/views/hs-math/**,apps/web/src/views/settings/hs-math/**,apps/web/src/api/hs-math*.ts,apps/web/src/utils/hs-math-format.ts,apps/web/src/components/hs-math/**,docs/high_school_math/**
+alwaysApply: false
+---
+
+# 高一数学 · 阶段交接（强制）
+
+本规则**仅**约束高一数学（`hs-math` / `docs/high_school_math`）。  
+勿与 `.cursor/rules/math-development.mdc`（小学数学专项）混淆。
+
+## 必更文档
+
+每个高一数学开发阶段结束前，必须更新：
+
+`docs/high_school_math/PROJECT_HANDOFF.md`
+
+## 任务开始时
+
+1. 读 `PROJECT_HANDOFF.md` 再动手。
+2. 将「当前执行阶段」设为本次任务名；「当前阶段状态」= `IN_PROGRESS`。
+3. 不得把计划项提前标为 `PASS`。
+
+## 任务完成时
+
+将状态更新为唯一之一：`PASS` | `PARTIAL` | `BLOCKED`。
+
+并同步至少：
+
+- §4 已完成阶段（仅真实完成的）
+- §5–7 当前阶段 / 状态 / 最新结果
+- §8 数据库状态（见下）
+- §9–13 题库、待授权、风险、下一步、报告路径
+- 「变更日志」追加一行
+
+记录：实际改动文件、实际 DB 变更（无则写「无」）、测试/编译结果、未完成项、下一阶段建议。
+
+## 数据库状态规则
+
+- 更新 §8 须**只读 SELECT** `study_system`；禁止为交接写库。
+- 有查询：写清分布/status，并写 **LAST_VERIFIED**（时间戳）。
+- 无查询：**不得**粘贴旧数字冒充实时；保留上次 LAST_VERIFIED 并注明「本阶段未复验」。
+
+## 维护交接时禁止
+
+改业务逻辑、迁移、写库、批准题目、改历史训练、改化学/小学数学/其它模块。  
+仅允许改 `PROJECT_HANDOFF.md`（及用户明确要求的交接类文档）。
+
+## 状态枚举
+
+`NOT_STARTED` | `IN_PROGRESS` | `PASS` | `PARTIAL` | `BLOCKED`

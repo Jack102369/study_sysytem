@@ -1,0 +1,167 @@
+{
+  "stage": "APPLICATION-3D-1",
+  "ocrBase": "http://127.0.0.1:9100",
+  "ocrFormula": "http://127.0.0.1:9101",
+  "pureLocalEndpoints": true,
+  "healthGeneral": {
+    "ok": true,
+    "body": "{\"ok\":true,\"service\":\"paddleocr\",\"formulaAvailable\":false}"
+  },
+  "healthFormula": {
+    "ok": true,
+    "body": "{\"ok\":true,\"service\":\"rapid-latex-ocr\",\"formulaAvailable\":true,\"engineReady\":true,\"maxSide\":400,\"paddleUrl\":\"http://127.0.0.1:9100\"}"
+  },
+  "handwrittenCount": 0,
+  "printedOnlyCount": 9,
+  "samples": [
+    {
+      "id": "A",
+      "kind": "PRINTED_ONLY",
+      "file": "A_printed_text.png",
+      "ms": 6132,
+      "engine": "smart-paddle+formula",
+      "confidence": 0.9687180121739706,
+      "textPreview": "【3D-1虚构·印刷体·非手写】\n设票价为×元，\n每天人数为2400-30x。",
+      "hintHits": [
+        "票价",
+        "2400",
+        "30"
+      ],
+      "hintMiss": [],
+      "graph": false,
+      "error": null
+    },
+    {
+      "id": "B",
+      "kind": "PRINTED_ONLY",
+      "file": "B_printed_formula.png",
+      "ms": 2952,
+      "engine": "smart-paddle+formula",
+      "confidence": 0.9924778342247009,
+      "textPreview": "【3D-1虚构·印刷体·非手写】\n$\\frac{y=x(2400-30x)}{y=2400x-30x^2}$",
+      "hintHits": [
+        "2400",
+        "30"
+      ],
+      "hintMiss": [],
+      "graph": false,
+      "error": null
+    },
+    {
+      "id": "C",
+      "kind": "PRINTED_ONLY",
+      "file": "C_printed_domain.png",
+      "ms": 530,
+      "engine": "smart-paddle+formula",
+      "confidence": 0.9154840409755707,
+      "textPreview": "【3D-1虚构·印刷体·非手写】\nxE{30,31.,.,60}",
+      "hintHits": [
+        "30",
+        "60"
+      ],
+      "hintMiss": [],
+      "graph": false,
+      "error": null
+    },
+    {
+      "id": "D",
+      "kind": "PRINTED_ONLY",
+      "file": "D_printed_complete.png",
+      "ms": 724,
+      "engine": "smart-paddle+formula",
+      "confidence": 0.9569581747055054,
+      "textPreview": "【3D-1虚构·印刷体·非手写】\ny=-30(x-40)^2+48000",
+      "hintHits": [
+        "40",
+        "48000"
+      ],
+      "hintMiss": [],
+      "graph": false,
+      "error": null
+    },
+    {
+      "id": "E",
+      "kind": "PRINTED_ONLY",
+      "file": "E_printed_full.png",
+      "ms": 992,
+      "engine": "smart-paddle+formula",
+      "confidence": 0.9633519947528839,
+      "textPreview": "【3D-1虚构·印刷体·非手写】\n设票价为×元，人数2400-30x。\n收入 y=x(2400-30x)=2400x-30x^2。\n定义域xE{30,31,.,60}。\n配方y=-30(x-40)^2+48000\n票价40元时最大收入48000元",
+      "hintHits": [
+        "定义域",
+        "40",
+        "48000"
+      ],
+      "hintMiss": [],
+      "graph": false,
+      "error": null
+    },
+    {
+      "id": "F",
+      "kind": "PRINTED_ONLY",
+      "file": "F_printed_graph.png",
+      "ms": 716,
+      "engine": "paddleocr",
+      "confidence": 0.9915477633476257,
+      "textPreview": "顶点(40,48000)\n【3D-1虚构·印刷示意图·非手写】",
+      "hintHits": [
+        "顶点"
+      ],
+      "hintMiss": [],
+      "graph": true,
+      "error": null
+    },
+    {
+      "id": "G1",
+      "kind": "PRINTED_ONLY",
+      "file": "G1_printed_model.png",
+      "ms": 475,
+      "engine": "smart-paddle+formula",
+      "confidence": 0.9427219927310944,
+      "textPreview": "【3D-1虚构·多图1/3·印刷体】\n建模：y=x(2400-30x)=2400x-30x^2",
+      "hintHits": [
+        "2400"
+      ],
+      "hintMiss": [],
+      "graph": false,
+      "error": null
+    },
+    {
+      "id": "G2",
+      "kind": "PRINTED_ONLY",
+      "file": "G2_printed_domain.png",
+      "ms": 383,
+      "engine": "smart-paddle+formula",
+      "confidence": 0.9060631394386292,
+      "textPreview": "【3D-1虚构?多图2/3·印刷体】\n定义域：XE{30,31,.,60}",
+      "hintHits": [
+        "30",
+        "60"
+      ],
+      "hintMiss": [],
+      "graph": false,
+      "error": null
+    },
+    {
+      "id": "G3",
+      "kind": "PRINTED_ONLY",
+      "file": "G3_printed_solve.png",
+      "ms": 766,
+      "engine": "smart-paddle+formula",
+      "confidence": 0.9690203865369161,
+      "textPreview": "【3D-1虚构?多图3/3·印刷体】\n配方：y=-30(x-40)^2+48000\n结论：票价40元，最大收入48000元",
+      "hintHits": [
+        "40",
+        "48000"
+      ],
+      "hintMiss": [],
+      "graph": false,
+      "error": null
+    }
+  ],
+  "verdict": "PARTIAL",
+  "reason": "OCR 可达且跑了印刷体探测；无真实手写样本 → 不得 LOCAL_OCR_SUITABLE；图象理解未验证 → GRAPH_UNSUPPORTED 除非人工确认。",
+  "suitability": "LOCAL_OCR_LIMITED_OR_UNTESTED_HANDWRITING",
+  "graphCapability": "GRAPH_UNSUPPORTED",
+  "finishedAt": "2026-10-25T08:42:17.710Z"
+}

@@ -1,0 +1,359 @@
+{
+  "at": "2026-10-25T15:50:14.171Z",
+  "qwenUsed": 7,
+  "qwenMax": 7,
+  "deepseekUsed": 1,
+  "deepseekMax": 5,
+  "sessions": [
+    "110",
+    "111",
+    "112",
+    "113",
+    "114",
+    "115",
+    "116",
+    "117"
+  ],
+  "results": [
+    {
+      "id": "B",
+      "status": "RAN",
+      "sessionId": "110",
+      "sessionItemId": "333",
+      "imageIds": [
+        "31",
+        "32"
+      ],
+      "provider": "deepseek",
+      "gradeResult": "review_required",
+      "gradeReason": "uncertain_recognition",
+      "totalScore": null,
+      "maxScore": null,
+      "rubric": null,
+      "pipeline": null,
+      "visionModel": null,
+      "scoringModel": null,
+      "aiModel": "",
+      "recognizedWorkPreview": "",
+      "recognitionUncertain": null,
+      "qwenUsedBefore": 0,
+      "qwenUsedAfter": 1,
+      "dsUsedBefore": 0,
+      "dsUsedAfter": 0,
+      "latencyMs": 12330,
+      "notes": [],
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 1,
+        "accuracy": null
+      }
+    },
+    {
+      "id": "E",
+      "status": "RAN",
+      "sessionId": "111",
+      "sessionItemId": "334",
+      "imageIds": [
+        "33"
+      ],
+      "provider": "deepseek",
+      "gradeResult": "grading_failed",
+      "gradeReason": "transcribe_parse_fail",
+      "totalScore": null,
+      "maxScore": null,
+      "rubric": null,
+      "pipeline": null,
+      "visionModel": null,
+      "scoringModel": null,
+      "aiModel": "",
+      "recognizedWorkPreview": "",
+      "recognitionUncertain": null,
+      "qwenUsedBefore": 1,
+      "qwenUsedAfter": 2,
+      "dsUsedBefore": 0,
+      "dsUsedAfter": 0,
+      "latencyMs": 4487,
+      "notes": [],
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 1,
+        "accuracy": null
+      }
+    },
+    {
+      "id": "C",
+      "status": "RAN",
+      "sessionId": "112",
+      "sessionItemId": "335",
+      "imageIds": [
+        "34",
+        "35"
+      ],
+      "provider": "deepseek",
+      "gradeResult": "review_required",
+      "gradeReason": "uncertain_recognition",
+      "totalScore": null,
+      "maxScore": null,
+      "rubric": null,
+      "pipeline": null,
+      "visionModel": null,
+      "scoringModel": null,
+      "aiModel": "",
+      "recognizedWorkPreview": "",
+      "recognitionUncertain": null,
+      "qwenUsedBefore": 2,
+      "qwenUsedAfter": 3,
+      "dsUsedBefore": 0,
+      "dsUsedAfter": 0,
+      "latencyMs": 16316,
+      "notes": [],
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 1,
+        "accuracy": null
+      }
+    },
+    {
+      "id": "F",
+      "status": "RAN",
+      "sessionId": "113",
+      "sessionItemId": "336",
+      "imageIds": [
+        "36"
+      ],
+      "provider": "deepseek",
+      "gradeResult": "review_required",
+      "gradeReason": "uncertain_recognition",
+      "totalScore": null,
+      "maxScore": null,
+      "rubric": null,
+      "pipeline": null,
+      "visionModel": null,
+      "scoringModel": null,
+      "aiModel": "",
+      "recognizedWorkPreview": "",
+      "recognitionUncertain": null,
+      "qwenUsedBefore": 3,
+      "qwenUsedAfter": 4,
+      "dsUsedBefore": 0,
+      "dsUsedAfter": 0,
+      "latencyMs": 8223,
+      "notes": [],
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 1,
+        "accuracy": null
+      }
+    },
+    {
+      "id": "G",
+      "status": "RAN",
+      "sessionId": "114",
+      "sessionItemId": "337",
+      "imageIds": [],
+      "provider": "deepseek",
+      "gradeResult": "graded",
+      "gradeReason": "ai_graded",
+      "totalScore": 10,
+      "maxScore": 10,
+      "rubric": [
+        {
+          "score": 3,
+          "feedback": "正确建立收入函数 y=x(2400-30x)=2400x-30x²，模型结构正确，且有必要的文字说明。",
+          "maxScore": 3,
+          "rubricKey": "model"
+        },
+        {
+          "score": 2,
+          "feedback": "定义域写为 {30,...,60}，等价于 30≤x≤60 的整数，完整正确。",
+          "maxScore": 2,
+          "rubricKey": "domain"
+        },
+        {
+          "score": 3,
+          "feedback": "通过配方 y=-30(x-40)²+48000 正确求得顶点 x=40，过程完整。",
+          "maxScore": 3,
+          "rubricKey": "solve"
+        },
+        {
+          "score": 2,
+          "feedback": "明确给出票价 40 元、最大收入 48000 元，结论完整且单位正确。",
+          "maxScore": 2,
+          "rubricKey": "conclusion"
+        }
+      ],
+      "pipeline": "deepseek_text",
+      "visionModel": "",
+      "scoringModel": "deepseek-chat",
+      "aiModel": "deepseek-chat",
+      "recognizedWorkPreview": "设票价 x 元（30~60 正整数），人数 2400-30x。y=x(2400-30x)=2400x-30x²。定义域 {30,...,60}。y=-30(x-40)²+48000，x=40 时最大收入 48000 元。",
+      "recognitionUncertain": null,
+      "qwenUsedBefore": 4,
+      "qwenUsedAfter": 4,
+      "dsUsedBefore": 0,
+      "dsUsedAfter": 1,
+      "latencyMs": 4195,
+      "notes": [],
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 0,
+        "accuracy": null
+      }
+    },
+    {
+      "id": "H",
+      "status": "RAN",
+      "sessionId": "115",
+      "sessionItemId": "338",
+      "imageIds": [
+        "37"
+      ],
+      "provider": "qwen",
+      "gradeResult": "graded",
+      "gradeReason": "ai_graded",
+      "totalScore": 6,
+      "maxScore": 10,
+      "rubric": [
+        {
+          "score": 3,
+          "feedback": "学生明确写出了 $y=x(2400-30x)=2400x-30x^2$，模型建立正确，符合满分要求。",
+          "maxScore": 3,
+          "rubricKey": "model"
+        },
+        {
+          "score": 1,
+          "feedback": "学生标注了“定义域{30..60}”，给出了数值范围，但未明确说明 $x$ 为整数（题干已知为正整数），根据评分标准，仅写区间/集合未强调整数性质可给1分。",
+          "maxScore": 2,
+          "rubricKey": "domain"
+        },
+        {
+          "score": 1,
+          "feedback": "学生直接给出了 $x=50$ 的结论，没有展示求最值的过程（如配方法 $-30(x-40)^2$ 或对称轴公式）。根据标准“无过程猜答案 0～1分”，给1分。",
+          "maxScore": 3,
+          "rubricKey": "solve"
+        },
+        {
+          "score": 1,
+          "feedback": "学生结论为“$x=50$ 时...最大...为 45000”。计算验证：$50(2400-30\\times50)=50\\times900=45000$，数值计算是自洽的。但由于 $x=50$ 并不是该函数的最大收入点（实际最大点在 $x=40$），结论错误。根据“答案错 0”或“缺单位或结论孤立给 1”，考虑到学生计算了数值但取值错误，给1分。",
+          "maxScore": 2,
+          "rubricKey": "conclusion"
+        }
+      ],
+      "pipeline": "qwen_vision",
+      "visionModel": "qwen3.8-27b-orca-q8",
+      "scoringModel": "qwen3.8-27b-orca-q8",
+      "aiModel": "qwen3.8-27b-orca-q8",
+      "recognizedWorkPreview": "1. 建立了收入函数 $y=x(2400-30x)=2400x-30x^2$；\n2. 标注定义域为 {30..60}；\n3. 直接断言当 $x=50$ 时，最大收入为 45000。",
+      "recognitionUncertain": null,
+      "qwenUsedBefore": 4,
+      "qwenUsedAfter": 5,
+      "dsUsedBefore": 1,
+      "dsUsedAfter": 1,
+      "latencyMs": 16316,
+      "notes": [],
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 0,
+        "accuracy": null
+      }
+    },
+    {
+      "id": "A",
+      "status": "RAN",
+      "sessionId": "116",
+      "sessionItemId": "339",
+      "imageIds": [
+        "38",
+        "39"
+      ],
+      "provider": "qwen",
+      "gradeResult": "graded",
+      "gradeReason": "ai_graded",
+      "totalScore": 10,
+      "maxScore": 10,
+      "rubric": [
+        {
+          "score": 3,
+          "feedback": "正确建立了收入函数模型 y = x(2400-30x) 并化简为 2400x - 30x^2。",
+          "maxScore": 3,
+          "rubricKey": "model"
+        },
+        {
+          "score": 2,
+          "feedback": "准确写出了定义域为 {30, 31, ..., 60}，符合题目关于正整数及取值范围的限制。",
+          "maxScore": 2,
+          "rubricKey": "domain"
+        },
+        {
+          "score": 3,
+          "feedback": "通过配方将函数转化为顶点式 -30(x-40)^2 + 48000，并正确得出 x=40 时取得最大值。",
+          "maxScore": 3,
+          "rubricKey": "solve"
+        },
+        {
+          "score": 2,
+          "feedback": "结论部分明确指出了最大日票务收入为 48000，且隐含了票价为 40 元的判断，表述清晰完整。",
+          "maxScore": 2,
+          "rubricKey": "conclusion"
+        }
+      ],
+      "pipeline": "qwen_vision",
+      "visionModel": "qwen3.8-27b-orca-q8",
+      "scoringModel": "qwen3.8-27b-orca-q8",
+      "aiModel": "qwen3.8-27b-orca-q8",
+      "recognizedWorkPreview": "（1）由题意知，日接待人数为 2400-30x，则 y = x(2400-30x) = 2400x - 30x^2。定义域为 x 取 {30, 31, ..., 60}。\n（2）y = -30(x^2 - 80x) = -30(x-40)^2 + 48000。\n因为 x 为整数，所以当 x=40 时，y 取得最大值。\n最大日票务收入为 48000 元。",
+      "recognitionUncertain": null,
+      "qwenUsedBefore": 5,
+      "qwenUsedAfter": 6,
+      "dsUsedBefore": 1,
+      "dsUsedAfter": 1,
+      "latencyMs": 14470,
+      "notes": [],
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 0,
+        "accuracy": null
+      }
+    },
+    {
+      "id": "D",
+      "status": "RAN",
+      "sessionId": "117",
+      "sessionItemId": "340",
+      "imageIds": [
+        "40"
+      ],
+      "provider": "deepseek",
+      "gradeResult": "review_required",
+      "gradeReason": "uncertain_recognition",
+      "totalScore": null,
+      "maxScore": null,
+      "rubric": null,
+      "pipeline": null,
+      "visionModel": null,
+      "scoringModel": null,
+      "aiModel": "",
+      "recognizedWorkPreview": "",
+      "recognitionUncertain": null,
+      "qwenUsedBefore": 6,
+      "qwenUsedAfter": 7,
+      "dsUsedBefore": 1,
+      "dsUsedAfter": 1,
+      "latencyMs": 6239,
+      "notes": [],
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "pending": 1,
+        "accuracy": null
+      }
+    }
+  ]
+}

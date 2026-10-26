@@ -1,0 +1,68 @@
+{
+  "stage": "APPLICATION-3D-6",
+  "sessionId": "107",
+  "sessionItemId": "330",
+  "itemCode": "HSMA-RJA-CH03-APP-0001",
+  "imageIdsOrder": [
+    "25",
+    "26"
+  ],
+  "imageCount": 2,
+  "httpCount": 1,
+  "maxHttp": 1,
+  "latencyMs": 10150,
+  "gradeStatus": "graded",
+  "gradeReason": "ai_graded",
+  "dbGradeResult": "graded",
+  "aiModel": "qwen3.8-27b-orca-q8",
+  "aiAttemptCount": 1,
+  "totalScore": 10,
+  "maxScore": 10,
+  "rubricScores": [
+    {
+      "score": 3,
+      "feedback": "正确建立了收入函数模型 $y = 2400x - 30x^2$。",
+      "maxScore": 3,
+      "rubricKey": "model"
+    },
+    {
+      "score": 2,
+      "feedback": "准确给出了定义域 $\\{30, 31, \\ldots, 60\\}$，并指出了 $x$ 为整数的约束。",
+      "maxScore": 2,
+      "rubricKey": "domain"
+    },
+    {
+      "score": 3,
+      "feedback": "使用了配方法 $y=-30(x-40)^2+48000$ 进行推导，过程清晰，正确求出了顶点 $x=40$。",
+      "maxScore": 3,
+      "rubricKey": "solve"
+    },
+    {
+      "score": 2,
+      "feedback": "结论明确，给出了最大票价 $x=40$ 元及对应的最大收入 $48000$ 元，单位标注完整。",
+      "maxScore": 2,
+      "rubricKey": "conclusion"
+    }
+  ],
+  "recognitionWarnings": null,
+  "confidence": 1,
+  "errors": [],
+  "explanationPreview": "解答非常标准且完整。你不仅正确建立了模型并明确了定义域中的整数条件，还使用了配方法这一经典技巧求解二次函数最值，推导过程逻辑严密，书写规范，是一份满分答卷。",
+  "recognizedWorkPreview": "第1张图：学生设定票价为 x 元，人数为 2400-30x。列出收入函数 y = x(2400-30x) = 2400x - 30x²。指出 x 是 30~60 的正整数，定义域为 {30, 31, ..., 60}。第2张图：承接上一式，进行配方得 y = -30(x-40)² + 48000。因为 -30<0，所以 x=40 时收入最大。最大收入为 48000 元。",
+  "usage": {
+    "completion_tokens": 520,
+    "prompt_tokens": 1436,
+    "total_tokens": 1956,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "sessionCounts": {
+    "correct": 0,
+    "wrong": 0,
+    "pending": 0,
+    "accuracy": null
+  },
+  "visionSwitchFinal": false,
+  "finishedAt": "2026-10-25T13:05:08.733Z"
+}
