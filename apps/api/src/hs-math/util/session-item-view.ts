@@ -15,9 +15,20 @@ export type SessionItemMethodLabel = {
   isPrimary: boolean
 }
 
+/** 开训快照中的题干插图元数据（不含二进制；始终可展示） */
+export type SessionItemDiagramRef = {
+  objectId: string
+  sortOrder: number
+  altText: string | null
+  mimeType: string
+  contentSha256: string
+}
+
 export type SessionItemViewOptions = {
   /** APPLICATION-2D：仅 completed reveal 时附带已提交引用图 */
   applicationImages?: SubmittedHistoryImageView[]
+  /** DIAGRAM-1B：session 插图快照元数据 */
+  diagrams?: SessionItemDiagramRef[]
 }
 
 /**
@@ -76,6 +87,7 @@ export function toStudentSessionItemView(
     primaryKnowledgePointCode: item.primaryKnowledgePointCode ?? null,
     knowledgePoints: kpLabels,
     methods,
+    diagrams: options.diagrams ?? [],
   }
   if (!reveal) return base
   const revealed: Record<string, unknown> = {

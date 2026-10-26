@@ -1,0 +1,37 @@
+{
+  "internalPairs": [],
+  "vsLegacy": [],
+  "highKpConcentration": [
+    {
+      "kp": "rja.3.1.09",
+      "count": 2,
+      "codes": [
+        "CAND-G1B-018",
+        "CAND-G1B-028"
+      ]
+    },
+    {
+      "kp": "rja.4.5.01",
+      "count": 2,
+      "codes": [
+        "CAND-G1B-033",
+        "CAND-G1B-042"
+      ]
+    },
+    {
+      "kp": "rja.4.5.02",
+      "count": 2,
+      "codes": [
+        "CAND-G1B-038",
+        "CAND-G1B-045"
+      ]
+    }
+  ],
+  "notes": [
+    "No identical contentFingerprint pairs among CAND-G1B-001..100.",
+    "No soft stem twins after normalization.",
+    "vs legacyApprovedNonG1b (export snapshot, n=13): zero fingerprint or soft-stem matches.",
+    "Thematic near-neighbors (not content dups): 067↔083 (3-4-5 magnitude), 095↔100 (frequency/probability narrative).",
+    "Primary KP max frequency is 2; no ≥3 concentration."
+  ]
+}

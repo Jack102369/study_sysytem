@@ -1,0 +1,177 @@
+{
+  "phase": "HS-MATH-BANK-DIAGRAM-1D-064-FIX-EXEC",
+  "startedAt": "2026-10-26T12:23:39.689Z",
+  "endedAt": "2026-10-26T12:23:39.956Z",
+  "status": "BLOCKED",
+  "base": "http://127.0.0.1:3000",
+  "itemId": "215",
+  "code": "CAND-G1B-064",
+  "pre": {
+    "id": "215",
+    "code": "CAND-G1B-064",
+    "stem": "塔高测量：距塔底 $40\\text{m}$ 处测得顶角 $30^\\circ$，求塔高（精确值）。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "model",
+          "title": "模型",
+          "criteria": "$\\tan30^\\circ$",
+          "maxScore": 4
+        },
+        {
+          "key": "calc",
+          "title": "计算",
+          "criteria": "$40\\sqrt3/3$",
+          "maxScore": 4
+        },
+        {
+          "key": "u",
+          "title": "单位",
+          "criteria": "m",
+          "maxScore": 2
+        }
+      ],
+      "maxScore": 10,
+      "standardAnswer": "$h=\\dfrac{40\\sqrt3}{3}\\text{m}$。"
+    },
+    "analysis": "直角三角形中，仰角 $30^\\circ$，邻边（水平距离）为 $40$，对边为塔高 $h$。故 $h=40\\tan30^\\circ=40\\cdot\\dfrac{\\sqrt3}{3}=\\dfrac{40\\sqrt3}{3}\\text{m}$。",
+    "difficulty": 3,
+    "content_version": 1,
+    "status": "approved",
+    "pool": "formal",
+    "is_active": 1,
+    "qtype": "application",
+    "reviewed_at": "2026-10-26T09:17:23.123Z",
+    "reviewed_by": 2,
+    "kps": [
+      "rja.5.7.03"
+    ],
+    "methods": [
+      "special_value"
+    ],
+    "reviews": [
+      {
+        "id": 46,
+        "content_version": 1,
+        "content_fingerprint": "60a0888327a2a5a1eeb5e9c5f09a43ab06d2fce1b12547f74eccbab26f19d78e",
+        "review_status": "passed",
+        "reviewed_at": "2026-10-26T08:55:36.359Z"
+      }
+    ],
+    "drawable": 113,
+    "itemsTotal": 211,
+    "answerStable": "{\"kind\":\"application\",\"rubric\":[{\"key\":\"model\",\"title\":\"模型\",\"criteria\":\"$\\\\tan30^\\\\circ$\",\"maxScore\":4},{\"key\":\"calc\",\"title\":\"计算\",\"criteria\":\"$40\\\\sqrt3/3$\",\"maxScore\":4},{\"key\":\"u\",\"title\":\"单位\",\"criteria\":\"m\",\"maxScore\":2}],\"maxScore\":10,\"standardAnswer\":\"$h=\\\\dfrac{40\\\\sqrt3}{3}\\\\text{m}$。\"}",
+    "analysisSha": "bc276bd8954ba328164424d34bbfa326c4a61593a8444d7a148c5aa6b02c8606",
+    "reviewPanelStatus": 200,
+    "reviewPanelFingerprint": "60a0888327a2a5a1eeb5e9c5f09a43ab06d2fce1b12547f74eccbab26f19d78e"
+  },
+  "patch": {
+    "requestBodyKeys": [
+      "stem",
+      "expectedContentVersion"
+    ],
+    "requestStem": "塔高测量：距塔底 $40\\text{m}$ 处测得塔顶的仰角为 $30^\\circ$，求塔高（精确值）。",
+    "expectedContentVersion": 1,
+    "httpStatus": 200,
+    "ms": 155,
+    "response": {
+      "id": "215",
+      "code": "CAND-G1B-064",
+      "status": "draft",
+      "contentVersion": 2,
+      "stem": "塔高测量：距塔底 $40\\text{m}$ 处测得塔顶的仰角为 $30^\\circ$，求塔高（精确值）。"
+    },
+    "rawSuccess": true
+  },
+  "post": {
+    "id": "215",
+    "code": "CAND-G1B-064",
+    "stem": "塔高测量：距塔底 $40\\text{m}$ 处测得塔顶的仰角为 $30^\\circ$，求塔高（精确值）。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "model",
+          "title": "模型",
+          "criteria": "$\\tan30^\\circ$",
+          "maxScore": 4
+        },
+        {
+          "key": "calc",
+          "title": "计算",
+          "criteria": "$40\\sqrt3/3$",
+          "maxScore": 4
+        },
+        {
+          "key": "u",
+          "title": "单位",
+          "criteria": "m",
+          "maxScore": 2
+        }
+      ],
+      "maxScore": 10,
+      "standardAnswer": "$h=\\dfrac{40\\sqrt3}{3}\\text{m}$。"
+    },
+    "analysis": "直角三角形中，仰角 $30^\\circ$，邻边（水平距离）为 $40$，对边为塔高 $h$。故 $h=40\\tan30^\\circ=40\\cdot\\dfrac{\\sqrt3}{3}=\\dfrac{40\\sqrt3}{3}\\text{m}$。",
+    "difficulty": 3,
+    "content_version": 2,
+    "status": "draft",
+    "pool": "formal",
+    "is_active": 1,
+    "qtype": "application",
+    "reviewed_at": null,
+    "reviewed_by": null,
+    "kps": [
+      "rja.5.7.03"
+    ],
+    "methods": [
+      "special_value"
+    ],
+    "reviews": [
+      {
+        "id": 46,
+        "content_version": 1,
+        "content_fingerprint": "60a0888327a2a5a1eeb5e9c5f09a43ab06d2fce1b12547f74eccbab26f19d78e",
+        "review_status": "passed",
+        "reviewed_at": "2026-10-26T08:55:36.359Z"
+      }
+    ],
+    "drawable": 112,
+    "itemsTotal": 211,
+    "answerStable": "{\"kind\":\"application\",\"rubric\":[{\"key\":\"model\",\"title\":\"模型\",\"criteria\":\"$\\\\tan30^\\\\circ$\",\"maxScore\":4},{\"key\":\"calc\",\"title\":\"计算\",\"criteria\":\"$40\\\\sqrt3/3$\",\"maxScore\":4},{\"key\":\"u\",\"title\":\"单位\",\"criteria\":\"m\",\"maxScore\":2}],\"maxScore\":10,\"standardAnswer\":\"$h=\\\\dfrac{40\\\\sqrt3}{3}\\\\text{m}$。\"}",
+    "analysisSha": "bc276bd8954ba328164424d34bbfa326c4a61593a8444d7a148c5aa6b02c8606",
+    "reviewPanelFingerprint": "cd2b5a867e078d11a81c2c5f20948c926bc77c62cfa4f622e59f6e4f48a33aa7",
+    "reviewPanelStatus": 200,
+    "answerUnchanged": true,
+    "analysisUnchanged": true,
+    "difficultyUnchanged": true,
+    "kpsUnchanged": true,
+    "methodsUnchanged": true,
+    "stemHasDingjiao": false,
+    "stemHasYangjiao": true,
+    "drawableDelta": {
+      "pre": 113,
+      "post": 112
+    },
+    "itemsTotalDelta": {
+      "pre": 211,
+      "post": 211
+    },
+    "oldReviewStaleForCv2": true,
+    "oldReview": {
+      "id": 46,
+      "content_version": 1,
+      "review_status": "passed",
+      "content_fingerprint": "60a0888327a2a5a1eeb5e9c5f09a43ab06d2fce1b12547f74eccbab26f19d78e"
+    }
+  },
+  "blockers": [
+    "post stem missing 塔顶的仰角为"
+  ],
+  "notes": [],
+  "derivedNewStem": "塔高测量：距塔底 $40\\text{m}$ 处测得塔顶的仰角为 $30^\\circ$，求塔高（精确值）。",
+  "adminUserId": "2"
+}

@@ -1,0 +1,116 @@
+﻿id	code	name	book_code	chapter_no	is_active	cat_n	kp_n	item_total	drawable
+16	rja-ch1	闆嗗悎涓庡父鐢ㄩ€昏緫鐢ㄨ	蹇呬慨涓€	1	1	6	15	85	0
+17	rja-ch2	涓€鍏冧簩娆″嚱鏁般€佹柟绋嬪拰涓嶇瓑寮?蹇呬慨涓€	2	1	4	0	0	0
+18	rja-ch3	鍑芥暟鐨勬蹇典笌鎬ц川	蹇呬慨涓€	3	1	5	27	26	13
+19	rja-ch4	鎸囨暟鍑芥暟涓庡鏁板嚱鏁?蹇呬慨涓€	4	1	6	0	0	0
+20	rja-ch5	涓夎鍑芥暟	蹇呬慨涓€	5	1	8	0	0	0
+21	rjb-ch1	骞抽潰鍚戦噺鍙婂叾搴旂敤	蹇呬慨浜?1	1	5	0	0	0
+22	rjb-ch2	澶嶆暟	蹇呬慨浜?2	1	4	0	0	0
+23	rjb-ch3	绔嬩綋鍑犱綍鍒濇	蹇呬慨浜?3	1	7	0	0	0
+24	rjb-ch4	缁熻	蹇呬慨浜?4	1	4	0	0	0
+25	rjb-ch5	姒傜巼	蹇呬慨浜?5	1	4	0	0	0
+sp	cat	name	total	drawable	draft
+rja-ch1	1.1	闆嗗悎鐨勬蹇?16	0	16
+rja-ch1	1.2	闆嗗悎闂寸殑鍩烘湰鍏崇郴	16	0	16
+rja-ch1	1.3	闆嗗悎鐨勫熀鏈繍绠?20	0	20
+rja-ch1	1.4	鍏呭垎鏉′欢涓庡繀瑕佹潯浠?16	0	16
+rja-ch1	1.5	鍏ㄧО閲忚瘝涓庡瓨鍦ㄩ噺璇?12	0	12
+rja-ch2	2.1	绛夊紡鎬ц川涓庝笉绛夊紡鎬ц川	0	NULL	NULL
+rja-ch2	2.2	鍩烘湰涓嶇瓑寮?0	NULL	NULL
+rja-ch2	2.3	浜屾鍑芥暟涓庝竴鍏冧簩娆℃柟绋嬨€佷笉绛夊紡	0	NULL	NULL
+rja-ch3	3.1	鍑芥暟鐨勬蹇靛強鍏惰〃绀?0	NULL	NULL
+rja-ch3	3.2	鍑芥暟鐨勫熀鏈€ц川	25	12	13
+rja-ch3	3.3	骞傚嚱鏁?0	NULL	NULL
+rja-ch3	3.4	鍑芥暟鐨勫簲鐢紙涓€锛?1	1	0
+rja-ch4	4.1	鎸囨暟	0	NULL	NULL
+rja-ch4	4.2	鎸囨暟鍑芥暟	0	NULL	NULL
+rja-ch4	4.3	瀵规暟	0	NULL	NULL
+rja-ch4	4.4	瀵规暟鍑芥暟	0	NULL	NULL
+rja-ch4	4.5	鍑芥暟鐨勫簲鐢紙浜岋級	0	NULL	NULL
+rja-ch5	5.1	浠绘剰瑙掑拰寮у害鍒?0	NULL	NULL
+rja-ch5	5.2	涓夎鍑芥暟鐨勬蹇?0	NULL	NULL
+rja-ch5	5.3	璇卞鍏紡	0	NULL	NULL
+rja-ch5	5.4	涓夎鍑芥暟鐨勫浘璞′笌鎬ц川	0	NULL	NULL
+rja-ch5	5.5	涓夎鎭掔瓑鍙樻崲	0	NULL	NULL
+rja-ch5	5.6	鍑芥暟 y=Asin(蠅x+蠁)	0	NULL	NULL
+rja-ch5	5.7	涓夎鍑芥暟鐨勫簲鐢?0	NULL	NULL
+rjb-ch1	6.1	骞抽潰鍚戦噺鐨勬蹇?0	NULL	NULL
+rjb-ch1	6.2	骞抽潰鍚戦噺鐨勮繍绠?0	NULL	NULL
+rjb-ch1	6.3	骞抽潰鍚戦噺鍩烘湰瀹氱悊鍙婂潗鏍囪〃绀?0	NULL	NULL
+rjb-ch1	6.4	骞抽潰鍚戦噺鐨勫簲鐢?0	NULL	NULL
+rjb-ch2	7.1	澶嶆暟鐨勬蹇?0	NULL	NULL
+rjb-ch2	7.2	澶嶆暟鐨勫洓鍒欒繍绠?0	NULL	NULL
+rjb-ch2	7.3	澶嶆暟鐨勪笁瑙掕〃绀?0	NULL	NULL
+rjb-ch3	8.1	鍩烘湰绔嬩綋鍥惧舰	0	NULL	NULL
+rjb-ch3	8.2	绔嬩綋鍥惧舰鐨勭洿瑙傚浘	0	NULL	NULL
+rjb-ch3	8.3	绠€鍗曞嚑浣曚綋鐨勮〃闈㈢Н涓庝綋绉?0	NULL	NULL
+rjb-ch3	8.4	绌洪棿鐐广€佺洿绾裤€佸钩闈箣闂寸殑浣嶇疆鍏崇郴	0	NULL	NULL
+rjb-ch3	8.5	绌洪棿鐩寸嚎銆佸钩闈㈢殑骞宠	0	NULL	NULL
+rjb-ch3	8.6	绌洪棿鐩寸嚎銆佸钩闈㈢殑鍨傜洿	0	NULL	NULL
+rjb-ch4	9.1	闅忔満鎶芥牱	0	NULL	NULL
+rjb-ch4	9.2	鐢ㄦ牱鏈及璁℃€讳綋	0	NULL	NULL
+rjb-ch4	9.3	缁熻鍒嗘瀽妗堜緥	0	NULL	NULL
+rjb-ch5	10.1	闅忔満浜嬩欢涓庢鐜?0	NULL	NULL
+rjb-ch5	10.2	浜嬩欢鐨勭浉浜掔嫭绔嬫€?0	NULL	NULL
+rjb-ch5	10.3	棰戠巼涓庢鐜?0	NULL	NULL
+sp	app_drawable	app_all	d1	d2	d3
+rja-ch1	0	0	0	0	0
+rja-ch2	NULL	NULL	NULL	NULL	NULL
+rja-ch3	1	1	11	2	0
+rja-ch4	NULL	NULL	NULL	NULL	NULL
+rja-ch5	NULL	NULL	NULL	NULL	NULL
+rjb-ch1	NULL	NULL	NULL	NULL	NULL
+rjb-ch2	NULL	NULL	NULL	NULL	NULL
+rjb-ch3	NULL	NULL	NULL	NULL	NULL
+rjb-ch4	NULL	NULL	NULL	NULL	NULL
+rjb-ch5	NULL	NULL	NULL	NULL	NULL
+code	code	name	cat	linked_items	linked_drawable
+rja-ch1	rja.1.1.01	闆嗗悎鐨勫惈涔変笌鍏冪礌	1.1	12	0
+rja-ch1	rja.1.1.02	闆嗗悎鐨勮〃绀烘硶	1.1	8	0
+rja-ch1	rja.1.1.03	绌洪泦涓庡叏闆嗭紙鎻忚堪灞傞潰锛?1.1	7	0
+rja-ch1	rja.1.2.01	瀛愰泦涓庣湡瀛愰泦	1.2	15	0
+rja-ch1	rja.1.2.02	闆嗗悎鐩哥瓑	1.2	6	0
+rja-ch1	rja.1.3.01	骞堕泦	1.3	10	0
+rja-ch1	rja.1.3.02	浜ら泦	1.3	10	0
+rja-ch1	rja.1.3.03	琛ラ泦	1.3	7	0
+rja-ch1	rja.1.3.04	鏂囨皬鍥句笌缁煎悎杩愮畻	1.3	6	0
+rja-ch1	rja.1.4.01	鍏呭垎鏉′欢	1.4	10	0
+rja-ch1	rja.1.4.02	蹇呰鏉′欢	1.4	7	0
+rja-ch1	rja.1.4.03	鍏呰鏉′欢	1.4	6	0
+rja-ch1	rja.1.5.01	鍏ㄧО閲忚瘝	1.5	7	0
+rja-ch1	rja.1.5.02	瀛樺湪閲忚瘝	1.5	6	0
+rja-ch1	rja.1.5.03	鍚湁閲忚瘝鐨勫懡棰樺惁瀹?1.5	4	0
+rja-ch3	rja.3.1.01	鍑芥暟鐨勫畾涔?3.1	0	0
+rja-ch3	rja.3.1.03	鍊煎煙	3.1	0	0
+rja-ch3	rja.3.1.04	瀵瑰簲鍏崇郴	3.1	0	0
+rja-ch3	rja.3.1.05	鐩稿悓鍑芥暟鐨勫垽鏂?3.1	0	0
+rja-ch3	rja.3.1.07	鍥捐薄娉?3.1	0	0
+rja-ch3	rja.3.1.08	鍒楄〃娉?3.1	0	0
+rja-ch3	rja.3.1.09	鍒嗘鍑芥暟	3.1	0	0
+rja-ch3	rja.3.1.10	鍑芥暟姹傚€?3.1	0	0
+rja-ch3	rja.3.2.01	鍗曡皟閫掑	3.2	0	0
+rja-ch3	rja.3.2.02	鍗曡皟閫掑噺	3.2	0	0
+rja-ch3	rja.3.2.03	鍗曡皟鍖洪棿	3.2	0	0
+rja-ch3	rja.3.2.04	鍗曡皟鎬у垽鏂?3.2	0	0
+rja-ch3	rja.3.2.05	鍗曡皟鎬т笌涓嶇瓑寮?3.2	0	0
+rja-ch3	rja.3.2.07	鏈€灏忓€间笌鍖洪棿鏈€鍊?3.2	0	0
+rja-ch3	rja.3.2.08	鍗曡皟鎬т笌鏈€鍊?3.2	0	0
+rja-ch3	rja.3.3.01	骞傚嚱鏁版蹇?3.3	0	0
+rja-ch3	rja.3.3.02	甯歌骞傚嚱鏁板浘璞?3.3	0	0
+rja-ch3	rja.3.3.03	骞傚嚱鏁版€ц川姒傝	3.3	0	0
+rja-ch3	rja.3.3.04	骞傚嚱鏁板崟璋冩€?3.3	0	0
+rja-ch3	rja.3.3.05	骞傚嚱鏁板鍋舵€?3.3	0	0
+methods_n
+11
+code	name
+defn	瀹氫箟娉?
+domain_symmetry	瀹氫箟鍩熷绉版楠?
+special_value	鐗规畩鍊兼硶
+graph_symmetry	鍥捐薄瀵圭О鍒嗘瀽
+num_shape	鏁板舰缁撳悎
+classification	鍒嗙被璁ㄨ
+mono_analysis	鍗曡皟鎬у垎鏋?
+parity_apply	濂囧伓鎬у簲鐢?
+equiv_transform	绛変环杞寲
+undetermined_coeff	寰呭畾绯绘暟娉?
+substitution	鎹㈠厓娉?

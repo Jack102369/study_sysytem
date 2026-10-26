@@ -29,6 +29,14 @@ import { HsMathMethod } from '../entities/hs-math-method.entity'
 import { HsMathTrainSession } from '../entities/hs-math-train-session.entity'
 import { HsMathTrainSessionItem } from '../entities/hs-math-train-session-item.entity'
 import { HsMathTrainSessionItemImage } from '../entities/hs-math-train-session-item-image.entity'
+import { HsMathTrainItemDiagram } from '../entities/hs-math-train-item-diagram.entity'
+import { HsMathTrainItemDiagramObject } from '../entities/hs-math-train-item-diagram-object.entity'
+import { HsMathTrainSessionItemDiagram } from '../entities/hs-math-train-session-item-diagram.entity'
+import { isMysqlNoSuchTableError } from '../util/hs-math-item-content-fingerprint'
+import {
+  HsMathItemDiagramStorageError,
+  readItemDiagramFile,
+} from '../util/hs-math-item-diagram-storage'
 import { accuracyRatio } from '../util/accuracy'
 import {
   applyDraftToSubmittedTransition,
@@ -49,6 +57,7 @@ import {
 } from '../util/hs-math-grade'
 import {
   toStudentSessionItemView,
+  type SessionItemDiagramRef,
   type SessionItemKpLabel,
   type SessionItemMethodLabel,
 } from '../util/session-item-view'
@@ -249,7 +258,64 @@ export class HsMathTrainService {
           answeredAt: null,
         })
       })
-      await manager.getRepository(HsMathTrainSessionItem).save(rows)
+      const savedItems = await manager
+        .getRepository(HsMathTrainSessionItem)
+        .save(rows)
+
+      // DIAGRAM-1B：开训事务内写入插图快照（表未迁移则跳过，不影响开训）
+      try {
+        const itemIds = savedItems
+          .map((r) => r.itemId)
+          .filter((id): id is string => !!id)
+        if (itemIds.length) {
+          const curLinks = await manager.getRepository(HsMathTrainItemDiagram).find({
+            where: { itemId: In(itemIds) },
+            order: { sortOrder: 'ASC', id: 'ASC' },
+          })
+          if (curLinks.length) {
+            const objs = await manager
+              .getRepository(HsMathTrainItemDiagramObject)
+              .find({
+                where: { id: In(curLinks.map((l) => l.objectId)) },
+              })
+            const omap = new Map(objs.map((o) => [String(o.id), o]))
+            const linksByItem = new Map<string, typeof curLinks>()
+            for (const l of curLinks) {
+              const k = String(l.itemId)
+              const arr = linksByItem.get(k) || []
+              arr.push(l)
+              linksByItem.set(k, arr)
+            }
+            const snapRows: HsMathTrainSessionItemDiagram[] = []
+            for (const si of savedItems) {
+              if (!si.itemId) continue
+              const ls = linksByItem.get(String(si.itemId)) || []
+              for (const l of ls) {
+                const o = omap.get(String(l.objectId))
+                if (!o) continue
+                snapRows.push(
+                  manager.getRepository(HsMathTrainSessionItemDiagram).create({
+                    sessionItemId: si.id,
+                    objectId: o.id,
+                    sortOrder: Number(l.sortOrder),
+                    altText: l.altText,
+                    contentSha256: o.contentSha256,
+                    mimeType: o.mimeType,
+                  }),
+                )
+              }
+            }
+            if (snapRows.length) {
+              await manager
+                .getRepository(HsMathTrainSessionItemDiagram)
+                .save(snapRows)
+            }
+          }
+        }
+      } catch (e) {
+        if (!isMysqlNoSuchTableError(e)) throw e
+      }
+
       return session.id
     })
 
@@ -913,6 +979,33 @@ export class HsMathTrainService {
       }
     }
 
+    const diagramsBySessionItemId = new Map<string, SessionItemDiagramRef[]>()
+    try {
+      const siIds = items.map((i) => String(i.id))
+      if (siIds.length) {
+        const dRows = await this.dataSource
+          .getRepository(HsMathTrainSessionItemDiagram)
+          .find({
+            where: { sessionItemId: In(siIds) },
+            order: { sortOrder: 'ASC', id: 'ASC' },
+          })
+        for (const row of dRows) {
+          const key = String(row.sessionItemId)
+          const list = diagramsBySessionItemId.get(key) ?? []
+          list.push({
+            objectId: String(row.objectId),
+            sortOrder: Number(row.sortOrder),
+            altText: row.altText,
+            mimeType: row.mimeType,
+            contentSha256: row.contentSha256,
+          })
+          diagramsBySessionItemId.set(key, list)
+        }
+      }
+    } catch (e) {
+      if (!isMysqlNoSuchTableError(e)) throw e
+    }
+
     return {
       id: String(session.id),
       status: session.status,
@@ -961,8 +1054,60 @@ export class HsMathTrainService {
             : undefined
         return toStudentSessionItemView(item, reveal, labels, methods, {
           applicationImages,
+          diagrams: diagramsBySessionItemId.get(String(item.id)) ?? [],
         })
       }),
+    }
+  }
+
+  /**
+   * 学生鉴权读取开训快照插图二进制（防枚举：必须属于本人 session 且快照含该 object）。
+   */
+  async getSessionDiagramBinary(
+    userId: string,
+    sessionId: string,
+    sessionItemId: string,
+    objectId: string,
+  ): Promise<{ mimeType: string; buffer: Buffer }> {
+    await this.requireOwnSession(userId, sessionId)
+    const si = await this.sessionItemsRepo.findOne({
+      where: { id: sessionItemId, sessionId },
+    })
+    if (!si) throw new NotFoundException('题目不存在')
+    let snap: HsMathTrainSessionItemDiagram | null
+    try {
+      snap = await this.dataSource
+        .getRepository(HsMathTrainSessionItemDiagram)
+        .findOne({
+          where: {
+            sessionItemId: si.id,
+            objectId,
+          },
+        })
+    } catch (e) {
+      if (isMysqlNoSuchTableError(e)) {
+        throw new NotFoundException('插图功能未启用')
+      }
+      throw e
+    }
+    if (!snap) throw new NotFoundException('插图不存在或不属于本训练题')
+    const obj = await this.dataSource
+      .getRepository(HsMathTrainItemDiagramObject)
+      .findOne({ where: { id: objectId } })
+    if (!obj) throw new NotFoundException('插图对象不存在')
+    if (
+      obj.contentSha256.toLowerCase() !== snap.contentSha256.toLowerCase()
+    ) {
+      throw new ForbiddenException('插图校验失败')
+    }
+    try {
+      const buffer = readItemDiagramFile(obj.storageKey)
+      return { mimeType: obj.mimeType, buffer }
+    } catch (e) {
+      if (e instanceof HsMathItemDiagramStorageError) {
+        throw new NotFoundException('插图文件不可用')
+      }
+      throw e
     }
   }
 

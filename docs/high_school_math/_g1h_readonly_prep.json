@@ -1,0 +1,182 @@
+{
+  "phase": "HS-MATH-BANK-DIAGRAM-1H-PREP",
+  "at": "2026-10-26T13:06:15.027Z",
+  "base": "http://127.0.0.1:3000",
+  "web": "http://127.0.0.1:5173",
+  "reachability": {
+    "apiRoot": {
+      "ok": true,
+      "status": 404
+    },
+    "webRoot": {
+      "ok": false,
+      "error": "fetch failed"
+    }
+  },
+  "drawable": 113,
+  "items": [
+    {
+      "code": "CAND-G1B-093",
+      "id": "244",
+      "cv": 2,
+      "sha": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1",
+      "db": {
+        "status": "approved",
+        "cv": 2,
+        "qtype": "application",
+        "pool": "formal",
+        "active": 1,
+        "specialty": {
+          "code": "rjb-ch3",
+          "name": "立体几何初步"
+        },
+        "category": {
+          "code": "8.6",
+          "name": "空间直线、平面的垂直"
+        }
+      },
+      "links": [
+        {
+          "link_id": 1,
+          "object_id": 1,
+          "sort_order": 1,
+          "content_sha256": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1",
+          "mime_type": "image/png"
+        }
+      ],
+      "authRead": {
+        "status": 200,
+        "contentType": "image/png",
+        "bytes": 26172,
+        "sha256": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1"
+      },
+      "ok": true
+    },
+    {
+      "code": "CAND-G1B-080",
+      "id": "231",
+      "cv": 2,
+      "sha": "c01574e808ba150866781d4fd716348fb3331359c635ae5f1a4b46f137ef31fc",
+      "db": {
+        "status": "approved",
+        "cv": 2,
+        "qtype": "application",
+        "pool": "formal",
+        "active": 1,
+        "specialty": {
+          "code": "rjb-ch1",
+          "name": "平面向量及其应用"
+        },
+        "category": {
+          "code": "6.4",
+          "name": "平面向量的应用"
+        }
+      },
+      "links": [
+        {
+          "link_id": 2,
+          "object_id": 2,
+          "sort_order": 1,
+          "content_sha256": "c01574e808ba150866781d4fd716348fb3331359c635ae5f1a4b46f137ef31fc",
+          "mime_type": "image/png"
+        }
+      ],
+      "authRead": {
+        "status": 200,
+        "contentType": "image/png",
+        "bytes": 25377,
+        "sha256": "c01574e808ba150866781d4fd716348fb3331359c635ae5f1a4b46f137ef31fc"
+      },
+      "ok": true
+    },
+    {
+      "code": "CAND-G1B-064",
+      "id": "215",
+      "cv": 3,
+      "sha": "a3549131d845107b4c795242013f50beb048639b056b1c302e79276dc8b4abf7",
+      "db": {
+        "status": "approved",
+        "cv": 3,
+        "qtype": "application",
+        "pool": "formal",
+        "active": 1,
+        "specialty": {
+          "code": "rja-ch5",
+          "name": "三角函数"
+        },
+        "category": {
+          "code": "5.7",
+          "name": "三角函数的应用"
+        }
+      },
+      "links": [
+        {
+          "link_id": 3,
+          "object_id": 3,
+          "sort_order": 1,
+          "content_sha256": "a3549131d845107b4c795242013f50beb048639b056b1c302e79276dc8b4abf7",
+          "mime_type": "image/png"
+        }
+      ],
+      "authRead": {
+        "status": 200,
+        "contentType": "image/png",
+        "bytes": 20372,
+        "sha256": "a3549131d845107b4c795242013f50beb048639b056b1c302e79276dc8b4abf7"
+      },
+      "ok": true
+    },
+    {
+      "code": "CAND-G1B-091",
+      "id": "242",
+      "cv": 2,
+      "sha": "a77867e8beb43226cd1e230b043151a00e851f560026d7882c15b0a5584f19f8",
+      "db": {
+        "status": "approved",
+        "cv": 2,
+        "qtype": "single",
+        "pool": "formal",
+        "active": 1,
+        "specialty": {
+          "code": "rjb-ch3",
+          "name": "立体几何初步"
+        },
+        "category": {
+          "code": "8.2",
+          "name": "立体图形的直观图"
+        }
+      },
+      "links": [
+        {
+          "link_id": 4,
+          "object_id": 4,
+          "sort_order": 1,
+          "content_sha256": "a77867e8beb43226cd1e230b043151a00e851f560026d7882c15b0a5584f19f8",
+          "mime_type": "image/png"
+        }
+      ],
+      "authRead": {
+        "status": 200,
+        "contentType": "image/png",
+        "bytes": 26916,
+        "sha256": "a77867e8beb43226cd1e230b043151a00e851f560026d7882c15b0a5584f19f8"
+      },
+      "ok": true
+    }
+  ],
+  "historyWithDiagramSnapshot": {
+    "exists": false,
+    "sample": null,
+    "note": "未发现插图入库后抽到四题之一的历史 session → 建议 HISTORY_SNAPSHOT_UI_NOT_RUN，除非用户另有带图历史",
+    "error": "Unknown column 'si.item_content_version' in 'field list'",
+    "diagramColumns": [],
+    "firstDiagramLinkAt": "2026-10-26T12:48:16.760Z",
+    "sessionsAfterDiagramUpload": []
+  },
+  "notes": [
+    "学生端无法指定 itemId；抽到四题非保证 → 未抽到记 STUDENT_TARGET_NOT_REACHED",
+    "本脚本只读；未创建 session；未改题；未 approve"
+  ],
+  "allItemsOk": true,
+  "drawableOk": true
+}

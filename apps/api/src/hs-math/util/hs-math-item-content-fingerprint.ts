@@ -31,6 +31,8 @@ export type ItemFingerprintInput = {
   sourceLicenseStatus?: string | null
   methodCodes?: string[]
   primaryMethodCode?: string | null
+  /** 按 sort_order 的插图 content_sha256；空/缺省不入指纹 */
+  diagramSha256List?: string[]
 }
 
 /** 规范化后计算单题内容指纹；选项/答案走判题协议规范化。 */
@@ -71,6 +73,7 @@ export function fingerprintTrainItemContent(
     sourceLicenseStatus: input.sourceLicenseStatus,
     methodCodes: input.methodCodes ?? [],
     primaryMethodCode: input.primaryMethodCode ?? '',
+    diagramSha256List: input.diagramSha256List ?? [],
   })
   if (!canon) {
     throw new Error('无法规范化题目内容以计算指纹')

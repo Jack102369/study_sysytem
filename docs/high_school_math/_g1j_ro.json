@@ -1,0 +1,134 @@
+{
+  "phase": "HS-MATH-BANK-GLOBAL-1J-RO",
+  "readonly": true,
+  "createdSession": false,
+  "candN": 100,
+  "approvedFormalActive": 100,
+  "draftLeft": 0,
+  "drawableTotal": 113,
+  "drawableCand": 100,
+  "drawableLegacy": 13,
+  "bySpecialty": {
+    "rja-ch1|集合与常用逻辑用语": 5,
+    "rja-ch2|一元二次函数、方程和不等式": 10,
+    "rja-ch3|函数的概念与性质": 15,
+    "rja-ch4|指数函数与对数函数": 15,
+    "rja-ch5|三角函数": 20,
+    "rjb-ch1|平面向量及其应用": 15,
+    "rjb-ch2|复数": 3,
+    "rjb-ch3|立体几何初步": 10,
+    "rjb-ch4|统计": 3,
+    "rjb-ch5|概率": 4
+  },
+  "byQtype": {
+    "judge": 16,
+    "single": 34,
+    "numeric": 19,
+    "multi": 7,
+    "application": 24
+  },
+  "byDiff": {
+    "1": 35,
+    "2": 40,
+    "3": 25
+  },
+  "chapters": [
+    {
+      "code": "rja-ch1",
+      "name": "集合与常用逻辑用语",
+      "sort": 10,
+      "candN": 5,
+      "drawableCandN": 5
+    },
+    {
+      "code": "rja-ch2",
+      "name": "一元二次函数、方程和不等式",
+      "sort": 20,
+      "candN": 10,
+      "drawableCandN": 10
+    },
+    {
+      "code": "rja-ch3",
+      "name": "函数的概念与性质",
+      "sort": 30,
+      "candN": 15,
+      "drawableCandN": 15
+    },
+    {
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数",
+      "sort": 40,
+      "candN": 15,
+      "drawableCandN": 15
+    },
+    {
+      "code": "rja-ch5",
+      "name": "三角函数",
+      "sort": 50,
+      "candN": 20,
+      "drawableCandN": 20
+    },
+    {
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用",
+      "sort": 60,
+      "candN": 15,
+      "drawableCandN": 15
+    },
+    {
+      "code": "rjb-ch2",
+      "name": "复数",
+      "sort": 70,
+      "candN": 3,
+      "drawableCandN": 3
+    },
+    {
+      "code": "rjb-ch3",
+      "name": "立体几何初步",
+      "sort": 80,
+      "candN": 10,
+      "drawableCandN": 10
+    },
+    {
+      "code": "rjb-ch4",
+      "name": "统计",
+      "sort": 90,
+      "candN": 3,
+      "drawableCandN": 3
+    },
+    {
+      "code": "rjb-ch5",
+      "name": "概率",
+      "sort": 100,
+      "candN": 4,
+      "drawableCandN": 4
+    }
+  ],
+  "chaptersWithCand": 10,
+  "kpOk": true,
+  "methodOk": true,
+  "missingKp": [],
+  "badPrimary": [],
+  "missingMethod": [],
+  "apps": 24,
+  "appRubricBad": [],
+  "cv2": [
+    "CAND-G1B-037",
+    "CAND-G1B-074"
+  ],
+  "sessions": 131,
+  "sessionItems": 354,
+  "aiFlags": {
+    "HS_MATH_AI_GRADING_ENABLED": "false",
+    "HS_MATH_VISION_GRADING_ENABLED": "[MISSING]",
+    "HS_MATH_APPLICATION_AI_MODE": "[MISSING]",
+    "HS_MATH_APPLICATION_AI_ALLOWED_USER_IDS": "[MISSING]",
+    "HS_MATH_DEEPSEEK_DAILY_LIMIT": "[MISSING]",
+    "DEEPSEEK_MODEL": "deepseek-chat",
+    "DEEPSEEK_API_KEY": "[SET]",
+    "QWEN_API_KEY": "[MISSING]",
+    "DASHSCOPE_API_KEY": "[MISSING]"
+  },
+  "gateNote": "student draw requires pool=formal + status=approved + is_active=1 (HsMathTrainService)",
+  "allEligibleInDrawablePool": true
+}

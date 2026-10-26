@@ -1,0 +1,113 @@
+{
+  "phase": "HS-MATH-BANK-GLOBAL-1E",
+  "authorized": true,
+  "startedAt": "2026-10-26T06:58:26.378Z",
+  "decision": "MIGRATION_PASS",
+  "sha256": "24ad4e0e15ead9d183da24ca99a5933fd98573705471d0233f79429eb5d3e1fd",
+  "backup": {
+    "kp": {
+      "path": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\docs\\high_school_math\\_backups\\g1e_hs_math_knowledge_points_2026-10-26T06-58-26.sql",
+      "bytes": 12129,
+      "sha256": "f9be03aa08983e758665676b024234c30c565ff37c0e7dbb787aeecd50b63df5",
+      "mtime": "2026-10-26T06:58:26.444Z"
+    },
+    "categories": {
+      "path": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\docs\\high_school_math\\_backups\\g1e_hs_math_categories_2026-10-26T06-58-26.sql",
+      "bytes": 7738,
+      "sha256": "a6c74d43806204e1eb37c0148df01b072d8d68b979ac04f73db459acf92848a4",
+      "mtime": "2026-10-26T06:58:26.496Z"
+    },
+    "specialties": {
+      "path": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\docs\\high_school_math\\_backups\\g1e_hs_math_specialties_2026-10-26T06-58-26.sql",
+      "bytes": 3748,
+      "sha256": "4c63c4e17fab795c9f16622990f1227037d13df5aa40712f804f47ce3515a85d",
+      "mtime": "2026-10-26T06:58:26.549Z"
+    },
+    "ok": true,
+    "stamp": "2026-10-26T06-58-26"
+  },
+  "pre": {
+    "kp_total": 42,
+    "conflictN": 0,
+    "existingPresent": 42,
+    "namespaceExisting": 0,
+    "categoryPairs": 35,
+    "catMissing": []
+  },
+  "txn": {
+    "connectionId": 174,
+    "started": true,
+    "checks": {
+      "total153": true,
+      "new111": true,
+      "old42": true,
+      "noDup": true,
+      "joinOk": true,
+      "cand100": true,
+      "trainUnchanged": true
+    },
+    "totals": {
+      "kp": 153,
+      "newPresent": 111,
+      "oldPresent": 42,
+      "joinBadN": 0,
+      "candMissN": 0,
+      "trainBefore": 111,
+      "trainAfter": 111
+    },
+    "joinBadSample": [],
+    "candMissSample": [],
+    "action": "COMMIT"
+  },
+  "post": {
+    "kp_total": 153,
+    "newPresent": 111,
+    "oldPresent": 42,
+    "candMiss": 0,
+    "bySpecialty": [
+      {
+        "specialty": "rja-ch1",
+        "kp_n": 15
+      },
+      {
+        "specialty": "rja-ch2",
+        "kp_n": 13
+      },
+      {
+        "specialty": "rja-ch3",
+        "kp_n": 31
+      },
+      {
+        "specialty": "rja-ch4",
+        "kp_n": 19
+      },
+      {
+        "specialty": "rja-ch5",
+        "kp_n": 22
+      },
+      {
+        "specialty": "rjb-ch1",
+        "kp_n": 17
+      },
+      {
+        "specialty": "rjb-ch2",
+        "kp_n": 7
+      },
+      {
+        "specialty": "rjb-ch3",
+        "kp_n": 15
+      },
+      {
+        "specialty": "rjb-ch4",
+        "kp_n": 7
+      },
+      {
+        "specialty": "rjb-ch5",
+        "kp_n": 7
+      }
+    ],
+    "connectionId": 175
+  },
+  "errors": [],
+  "finishedAt": "2026-10-26T06:58:27.054Z"
+}

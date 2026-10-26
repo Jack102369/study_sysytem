@@ -219,6 +219,82 @@
           </div>
         </el-form-item>
 
+        <el-form-item v-if="form.id" label="题干插图">
+          <el-alert
+            type="warning"
+            :closable="false"
+            show-icon
+            title="上传/删除/替换/调序会导致 content_version 升高；若已批准将退回 draft，须重新审核后再批准。"
+            class="diag-alert"
+          />
+          <el-alert
+            v-if="diagramMigrationPending"
+            type="info"
+            :closable="false"
+            title="插图表尚未迁移（MIGRATION_PENDING），管理功能暂不可写。"
+            class="diag-alert"
+          />
+          <div class="diag-toolbar">
+            <el-upload
+              :show-file-list="false"
+              :disabled="diagramBusy || diagramMigrationPending"
+              accept="image/png,image/webp,image/svg+xml"
+              :http-request="onDiagramUpload"
+            >
+              <el-button size="small" type="primary" :loading="diagramBusy">
+                上传插图
+              </el-button>
+            </el-upload>
+            <el-button
+              size="small"
+              :disabled="diagramBusy || diagramLinks.length < 2"
+              @click="onDiagramReorder"
+            >
+              按当前顺序保存
+            </el-button>
+          </div>
+          <HsMathStemDiagrams
+            v-if="diagramPreviewItems.length"
+            :items="diagramPreviewItems"
+          />
+          <div v-for="(d, i) in diagramLinks" :key="d.linkId" class="diag-row">
+            <span>#{{ d.sortOrder }} · {{ d.mimeType }} · {{ d.contentSha256.slice(0, 8) }}…</span>
+            <el-button
+              link
+              size="small"
+              :disabled="i === 0"
+              @click="moveDiagram(i, -1)"
+            >
+              上移
+            </el-button>
+            <el-button
+              link
+              size="small"
+              :disabled="i >= diagramLinks.length - 1"
+              @click="moveDiagram(i, 1)"
+            >
+              下移
+            </el-button>
+            <el-upload
+              :show-file-list="false"
+              accept="image/png,image/webp,image/svg+xml"
+              :disabled="diagramBusy"
+              :http-request="makeDiagramReplaceRequest(d.linkId)"
+            >
+              <el-button link size="small" type="warning">替换</el-button>
+            </el-upload>
+            <el-button
+              link
+              size="small"
+              type="danger"
+              :disabled="diagramBusy"
+              @click="onDiagramDelete(d.linkId)"
+            >
+              删除
+            </el-button>
+          </div>
+        </el-form-item>
+
         <template v-if="form.qtype === 'single' || form.qtype === 'multi'">
           <el-form-item label="选项">
             <div v-for="(opt, i) in form.options" :key="i" class="opt-row">
@@ -447,22 +523,30 @@
 import { computed, onMounted, reactive, ref } from 'vue'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import MathStem from '@/components/hs-math/MathStem.vue'
+import HsMathStemDiagrams from '@/components/hs-math/HsMathStemDiagrams.vue'
 import HsMathSourceMethodFields, {
   type SourceMethodModel,
 } from '@/components/hs-math/HsMathSourceMethodFields.vue'
 import {
+  adminHsMathItemDiagramContentUrl,
   createAdminHsMathTrainItem,
+  deleteAdminHsMathItemDiagram,
   getAdminHsMathTrainItem,
   listAdminHsMathCategories,
+  listAdminHsMathItemDiagrams,
   listAdminHsMathKnowledgePoints,
   listAdminHsMathMethods,
   listAdminHsMathSpecialties,
   listAdminHsMathTrainItems,
   patchAdminHsMathTrainItemStatus,
   putAdminHsMathTrainItemContentMeta,
+  reorderAdminHsMathItemDiagrams,
+  replaceAdminHsMathItemDiagram,
   replaceAdminHsMathTrainItemKnowledgePoints,
   updateAdminHsMathTrainItem,
+  uploadAdminHsMathItemDiagram,
   type HsMathAdminCategory,
+  type HsMathAdminDiagramLink,
   type HsMathAdminKnowledgePoint,
   type HsMathAdminMethod,
   type HsMathAdminSpecialty,
@@ -492,6 +576,16 @@ const loading = ref(false)
 const saving = ref(false)
 const savingMeta = ref(false)
 const dialog = ref(false)
+const diagramBusy = ref(false)
+const diagramMigrationPending = ref(false)
+const diagramLinks = ref<HsMathAdminDiagramLink[]>([])
+const diagramPreviewItems = computed(() =>
+  diagramLinks.value.map((d) => ({
+    key: d.linkId,
+    contentPath: adminHsMathItemDiagramContentUrl(form.id, d.linkId),
+    alt: d.altText,
+  })),
+)
 const contentDirty = ref(false)
 const metaDirty = ref(false)
 /** 打开编辑时的来源/方法基线（用于无变化跳过与摘要） */
@@ -800,6 +894,115 @@ function openCreate() {
   dialog.value = true
 }
 
+async function loadDiagramsForItem(itemId: string) {
+  diagramLinks.value = []
+  diagramMigrationPending.value = false
+  try {
+    const r = await listAdminHsMathItemDiagrams(itemId)
+    diagramLinks.value = r.diagrams || []
+    diagramMigrationPending.value = !!r.migrationPending
+    form.contentVersion = r.contentVersion || form.contentVersion
+    form.status = r.status || form.status
+  } catch (e) {
+    ElMessage.warning(errMsg(e, '加载插图失败（表可能未迁移）'))
+    diagramMigrationPending.value = true
+  }
+}
+
+async function onDiagramUpload(opt: { file: File }) {
+  if (!form.id) return
+  diagramBusy.value = true
+  try {
+    const r = await uploadAdminHsMathItemDiagram(form.id, opt.file)
+    diagramLinks.value = r.diagrams
+    form.contentVersion = r.contentVersion
+    form.status = r.status
+    ElMessage.success(r.notice || '已上传')
+    await reload()
+  } catch (e) {
+    ElMessage.error(errMsg(e, '上传插图失败'))
+  } finally {
+    diagramBusy.value = false
+  }
+}
+
+function makeDiagramReplaceRequest(linkId: string) {
+  return (opt: { file: File }) => onDiagramReplace(linkId, opt)
+}
+
+async function onDiagramReplace(
+  linkId: string,
+  opt: { file: File },
+) {
+  if (!form.id) return
+  diagramBusy.value = true
+  try {
+    const r = await replaceAdminHsMathItemDiagram(form.id, linkId, opt.file)
+    diagramLinks.value = r.diagrams
+    form.contentVersion = r.contentVersion
+    form.status = r.status
+    ElMessage.success(r.notice || '已替换')
+    await reload()
+  } catch (e) {
+    ElMessage.error(errMsg(e, '替换插图失败'))
+  } finally {
+    diagramBusy.value = false
+  }
+}
+
+async function onDiagramDelete(linkId: string) {
+  if (!form.id) return
+  await ElMessageBox.confirm(
+    '删除后将升版并可能退出正式池，确认？',
+    '删除插图',
+    { type: 'warning' },
+  )
+  diagramBusy.value = true
+  try {
+    const r = await deleteAdminHsMathItemDiagram(form.id, linkId)
+    diagramLinks.value = r.diagrams
+    form.contentVersion = r.contentVersion
+    form.status = r.status
+    ElMessage.success(r.notice || '已删除')
+    await reload()
+  } catch (e) {
+    if (String((e as { message?: string })?.message || '').includes('cancel')) return
+    ElMessage.error(errMsg(e, '删除插图失败'))
+  } finally {
+    diagramBusy.value = false
+  }
+}
+
+function moveDiagram(index: number, delta: number) {
+  const next = index + delta
+  if (next < 0 || next >= diagramLinks.value.length) return
+  const arr = [...diagramLinks.value]
+  const t = arr[index]
+  arr[index] = arr[next]
+  arr[next] = t
+  diagramLinks.value = arr.map((d, i) => ({ ...d, sortOrder: i + 1 }))
+}
+
+async function onDiagramReorder() {
+  if (!form.id || diagramLinks.value.length < 2) return
+  diagramBusy.value = true
+  try {
+    const r = await reorderAdminHsMathItemDiagrams(
+      form.id,
+      diagramLinks.value.map((d) => d.linkId),
+    )
+    diagramLinks.value = r.diagrams
+    form.contentVersion = r.contentVersion
+    form.status = r.status
+    ElMessage.success(r.notice || '顺序已保存')
+    await reload()
+  } catch (e) {
+    ElMessage.error(errMsg(e, '保存插图顺序失败'))
+  } finally {
+    diagramBusy.value = false
+  }
+}
+
 async function openEdit(row: HsMathAdminTrainItem) {
   form.id = row.id
   form.status = row.status
@@ -837,6 +1040,7 @@ async function openEdit(row: HsMathAdminTrainItem) {
   formCategories.value = allCategories.value.filter(
     (c) => c.specialtyId === form.specialtyId,
   )
+  await loadDiagramsForItem(row.id)
   form.categoryId = row.categoryId
   form.kpIds = []
   form.primaryKpId = ''
@@ -1160,6 +1364,23 @@ onMounted(async () => {
 </script>
 
 <style scoped>
+.diag-alert {
+  margin-bottom: 8px;
+}
+.diag-toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.diag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 6px;
+}
 .head {
   display: flex;
   justify-content: space-between;

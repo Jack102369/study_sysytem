@@ -1,0 +1,481 @@
+
+===== AUTHOR_ALL (47) =====
+
+--- CAND-G1B-005 [multi/d3/AUTHOR_CHECKED] rja.1.5.03
+STEM: 命题否定写法正确的有（多选）
+  A. “$\forall x,\,x^2+1>0$”否定为“$\exists x,\,x^2+1\le0$”
+  B. “$\exists x\in\mathbb{Z},\,x^2=10$”否定为“$\forall x\in\mathbb{Z},\,x^2\ne10$”
+  C. “$\forall x,\,x>0$”否定为“$\exists x,\,x\le0$”
+  D. “$\exists x,\,x^2<0$”否定为“$\forall x,\,x^2>0$”
+ANSWER: A,B,C
+ANALYSIS: 量词否定规则：$\forall$ 与 $\exists$ 互换，并把结论取否定。A、B、C 均符合。D 中“$\exists x,\,x^2<0$”的否定应为“$\forall x,\,x^2\ge0$”，原选项写成 $x^2>0$，漏掉等号，故 D 错。正确为 A、B、C。
+
+--- CAND-G1B-011 [multi/d2/AUTHOR_CHECKED] rja.2.3.02
+STEM: 使 $x^2+px+9>0$ 对 $\forall x\in\mathbb{R}$ 恒成立的 $p$ 可以是（多选）
+  A. $0$
+  B. $5$
+  C. $-5$
+  D. $6$
+ANSWER: A,B,C
+ANALYSIS: 开口向上，要 $x^2+px+9>0$ 对一切 $x$ 成立，需判别式 $\Delta=p^2-36<0$，即 $|p|<6$。故 $p=0,\pm5$ 可，$p=6$ 时 $\Delta=0$ 有重根使式子可取 $0$，不满足严格大于。选 A、B、C。
+
+--- CAND-G1B-012 [application/d3/AUTHOR_CHECKED] rja.2.1.03
+STEM: 固定成本 $150$ 元，可变成本 $6$ 元/件，售价 $18$ 元/件，销量 $x\in\mathbb{N}^+$。
+（1）利润 $L(x)$；
+（2）至少几件不亏本？
+ANSWER: （1）$L(x)=12x-150$；（2）$x\ge13$。
+RUBRIC: [{"key":"L","title":"利润函数","score":4,"criterion":"$12x-150$"},{"key":"s","title":"解不等式","score":4,"criterion":"$x\\ge13$"},{"key":"w","title":"结论","score":2,"criterion":"至少13件"}] max=10
+ANALYSIS: 利润＝售价收入－成本：$L(x)=18x-(150+6x)=12x-150$。不亏本即 $L(x)\ge0\Rightarrow x\ge12.5$。销量为正整数，故至少 $13$ 件。代入 $x=12$ 得 $L=-6<0$，$x=13$ 得 $L=6>0$，可验证。
+
+--- CAND-G1B-015 [judge/d3/AUTHOR_CHECKED] rja.2.3.04
+STEM: $f(x)=-2(x-1)^2+5$ 在 $[0,3]$ 上最大值为 $5$。
+ANSWER: true
+ANALYSIS: 顶点式 $f(x)=-2(x-1)^2+5$ 开口向下，顶点为 $(1,5)$。闭区间 $[0,3]$ 包含顶点横坐标 $x=1$，因此区间上最大值即为顶点纵坐标 $5$。端点对照：$f(0)=-2(0-1)^2+5=3$，$f(3)=-2(3-1)^2+5=-3$，均小于 $5$。故命题正确。
+
+--- CAND-G1B-018 [application/d2/AUTHOR_CHECKED] rja.3.1.09
+STEM: 出租车：$3\text{km}$ 内 $10$ 元；超出每 km $2.5$ 元（$x$ 为整数 km）。
+（1）车费 $F(x)$；
+（2）$8\text{km}$ 费用？
+ANSWER: （1）$F(x)=\begin{cases}10,&0<x\le3\\10+2.5(x-3),&x>3\end{cases}$；（2）$22.5$ 元。
+RUBRIC: [{"key":"p","title":"分段表达式","score":5,"criterion":"两段正确"},{"key":"c","title":"计算","score":3,"criterion":"22.5"},{"key":"u","title":"单位","score":2,"criterion":"元"}] max=10
+ANALYSIS: 按里程分段建模：当 $0<x\le3$ 时只收起步价，故 $F(x)=10$；当 $x>3$ 时超出里程为 $x-3$，按每公里 $2.5$ 元加收，故 $F(x)=10+2.5(x-3)$。求 $x=8$：超出 $5$ km，得 $F(8)=10+2.5\times5=22.5$ 元。边界核验：在 $x=3$ 处两段都得 $10$，分段连续；若误把全程按 $2.5x$ 计会偏大。
+
+--- CAND-G1B-022 [application/d2/AUTHOR_CHECKED] rja.3.2.08
+STEM: 矩形周长 $20$，一边长 $x$，面积 $S(x)=x(10-x)$，$0<x<10$。
+（1）求 $S(x)$ 最大值及对应 $x$。
+ANSWER: $x=5$ 时 $S_{\max}=25$。
+RUBRIC: [{"key":"s","title":"面积函数","score":3,"criterion":"$x(10-x)$"},{"key":"m","title":"最大值","score":5,"criterion":"25,x=5"}] max=8
+ANALYSIS: 周长 $20$ 时半周长为 $10$，故邻边为 $10-x$，面积 $S(x)=x(10-x)=10x-x^2$。这是开口向下的二次函数，对称轴 $x=5$ 落在定义域 $(0,10)$ 内，最大值为 $S(5)=25$。几何上此时矩形为正方形。
+
+--- CAND-G1B-023 [single/d3/AUTHOR_CHECKED] rja.3.2.12
+STEM: 奇函数 $f$，$f(2)=5$，则 $f(-2)=$
+  A. $5$
+  B. $-5$
+  C. $0$
+  D. 不确定
+ANSWER: B
+ANALYSIS: 奇函数定义：$f(-x)=-f(x)$（定义域关于原点对称）。把 $x=2$ 代入得 $f(-2)=-f(2)$。已知 $f(2)=5$，因此 $f(-2)=-5$，选 B。对照：若是偶函数则有 $f(-2)=f(2)=5$。本题未给出其它点的信息，不能选“不确定”；奇偶性已唯一确定对称点的函数值。
+
+--- CAND-G1B-024 [single/d3/AUTHOR_CHECKED] rja.3.2.05
+STEM: $f$ 在 $\mathbb{R}$ 递增，$f(a)<f(b)$ 等价于
+  A. $a<b$
+  B. $a>b$
+  C. $a=b$
+  D. 不确定
+ANSWER: A
+ANALYSIS: 函数在 $\mathbb{R}$ 上严格递增意味着：对任意实数，$x_1<x_2\Leftrightarrow f(x_1)<f(x_2)$（同向保持）。因此 $f(a)<f(b)$ 等价于 $a<b$，选 A。若改为严格递减，则应变成 $a>b$。这是用单调性解不等式、比较大小的常用依据；等号情形对应 $a=b$，本题是严格不等式故不选 C。
+
+--- CAND-G1B-025 [multi/d2/AUTHOR_CHECKED] rja.3.3.02
+STEM: 第一象限递增的幂函数有（多选）
+  A. $y=x^2$
+  B. $y=x^{1/2}$
+  C. $y=x^{-1}$
+  D. $y=x^3$
+ANSWER: A,B,D
+ANALYSIS: 在第一象限 $(0,+\infty)$ 上，幂函数 $y=x^{\alpha}$ 的单调性由指数 $\alpha$ 决定：$\alpha>0$ 时递增，$\alpha<0$ 时递减。于是 $x^2$（$\alpha=2$）、$x^{1/2}$（$\alpha=1/2$）、$x^3$（$\alpha=3$）均递增；而 $x^{-1}$（$\alpha=-1$）递减。故选 A、B、D，不选 C。可取 $0<x_1<x_2$ 比较函数值作直观检验。
+
+--- CAND-G1B-026 [single/d3/AUTHOR_CHECKED] rja.3.3.04
+STEM: $y=x^{1/3}$ 在 $\mathbb{R}$ 上
+  A. 递增
+  B. 递减
+  C. 先增后减
+  D. 无单调性
+ANSWER: A
+ANALYSIS: 函数 $y=x^{1/3}$ 即立方根函数。设 $x_1<x_2$，两边同时立方（严格增函数）仍保持不等号，得 $x_1<x_2\Rightarrow x_1^{1/3}<x_2^{1/3}$，故在整个 $\mathbb{R}$ 上单调递增。选 A。
+
+--- CAND-G1B-027 [application/d1/AUTHOR_CHECKED] rja.3.1.03
+STEM: 炮弹高度 $h(t)=-5t^2+30t$（$t$ 秒，$0\le t\le6$）。
+（1）求 $h$ 的最大值；
+（2）何时落地？
+ANSWER: （1）$45\text{m}$（$t=3$）；（2）$t=6$ 时 $h=0$。
+RUBRIC: [{"key":"max","title":"最大高度","score":5,"criterion":"45m,t=3"},{"key":"zero","title":"落地时刻","score":3,"criterion":"t=6"},{"key":"u","title":"单位","score":2,"criterion":"m,s"}] max=10
+ANALYSIS: 二次函数 $h(t)=-5t^2+30t$（$0\le t\le6$）开口向下，对称轴 $t=-b/(2a)=30/(10)=3$，且 $3$ 落在定义域内，故最大值为 $h(3)=-5\cdot9+90=45$（米）。落地即 $h(t)=0$：$t(-5t+30)=0$，得 $t=0$ 或 $t=6$；在给定区间内起飞后落地时刻为 $t=6$。端点 $h(0)=h(6)=0$ 与题意一致。
+
+--- CAND-G1B-030 [numeric/d3/AUTHOR_CHECKED] rja.3.2.06
+STEM: $f(x)=-x^2+4x$ 在 $[0,5]$ 上最大值为
+ANSWER: 4
+ANALYSIS: 配方：$f(x)=-x^2+4x=-(x-2)^2+4$，开口向下，顶点为 $(2,4)$。闭区间 $[0,5]$ 含顶点横坐标 $2$，故区间最大值为顶点纵坐标 $4$。端点对照：$f(0)=0$，$f(5)=-25+20=-5$，都小于 $4$。也可用导数 $f'(x)=-2x+4=0\Rightarrow x=2$ 同一结论。答案 $4$。
+
+--- CAND-G1B-033 [application/d2/AUTHOR_CHECKED] rja.4.5.01
+STEM: 细菌数 $N(t)=N_0\cdot2^{t/3}$（$t$ 小时）。$N_0=500$，求 $t=9$ 时 $N$。
+ANSWER: $N=4000$。
+RUBRIC: [{"key":"sub","title":"代入","score":3,"criterion":"t=9"},{"key":"calc","title":"计算","score":5,"criterion":"4000"}] max=8
+ANALYSIS: 指数增长模型 $N(t)=500\cdot2^{t/3}$。当 $t=9$ 时指数为 $9/3=3$，故 $N(9)=500\cdot2^3=500\cdot8=4000$。含义：每过 $3$ 小时数量翻一番，经 $9$ 小时共翻 $3$ 番。
+
+--- CAND-G1B-037 [multi/d2/AUTHOR_CHECKED] rja.4.3.02
+STEM: 正确的是（多选）
+  A. $\log_a(MN)=\log_aM+\log_aN$
+  B. $\log_a\dfrac MN=\log_aM-\log_aN$
+  C. $\log_aM^2=2\log_aM$
+  D. $\log_a1=0$
+ANSWER: A,B,D
+ANALYSIS: A、B 是常用对数运算法则（在真数、底数合法时成立）；D 为 $\log_a1=0$。C 写成 $\log_a M^2=2\log_a M$：一般应先保证真数为正，严格形式常写 $2\log_a|M|$（并讨论定义域）；题干未限定 $M>0$ 时不宜直接选 C。故正确选项为 A、B、D。
+
+--- CAND-G1B-038 [application/d3/AUTHOR_CHECKED] rja.4.5.02
+STEM: 地震能量 $E$ 与里氏级 $M$ 满足 $\lg E=4.8+1.5M$。$M=6$ 时 $\lg E$ 为多少？
+ANSWER: $\lg E=13.8$。
+RUBRIC: [{"key":"f","title":"公式代入","score":3,"criterion":"M=6"},{"key":"r","title":"结果","score":3,"criterion":"13.8"}] max=6
+ANALYSIS: 能量与里氏级满足 $\lg E=4.8+1.5M$。将 $M=6$ 代入：先算 $1.5\times6=9$，再得 $\lg E=4.8+9=13.8$。题干只要求 $\lg E$，不必再求 $E=10^{13.8}$。数量级核对：震级每增加 $2/3$ 约使能量增大 $10$ 倍，此处直接代入最稳妥。
+
+--- CAND-G1B-039 [single/d3/AUTHOR_CHECKED] rja.4.4.01
+STEM: $y=\log_{0.5}x$ 的定义域为
+  A. $\mathbb{R}$
+  B. $(0,+\infty)$
+  C. $[0,+\infty)$
+  D. $(-\infty,0)$
+ANSWER: B
+ANALYSIS: 对数函数 $y=\log_a x$ 要求真数 $x>0$，且底数满足 $a>0$、$a\ne1$。本题底数 $0.5\in(0,1)$ 只决定函数单调递减，并不改变定义域，故定义域仍为 $(0,+\infty)$，选 B。注意不能取 $x=0$ 或负数（对数无定义），故排除 A、C、D。
+
+--- CAND-G1B-040 [numeric/d3/AUTHOR_CHECKED] rja.4.4.02
+STEM: $\log_3 81=$
+ANSWER: 4
+ANALYSIS: 由对数定义：$\log_3 81=k\Leftrightarrow3^k=81$。因为 $81=3^4$，所以 $k=4$；也可直接写 $\log_3(3^4)=4$。相邻幂核对：$3^3=27$、$3^4=81$、$3^5=243$，可确认答案为 $4$。代入回验：$3^4=81$ 成立。
+
+--- CAND-G1B-042 [application/d2/AUTHOR_CHECKED] rja.4.5.01
+STEM: 证明：方程 $2^x=5-x$ 在 $(1,2)$ 内有唯一实根（说明单调性与端点符号）。
+ANSWER: 令 $f(x)=2^x+x-5$，$f(1)=-2<0$，$f(2)=1>0$，且 $f$ 递增，故唯一根在 $(1,2)$。
+RUBRIC: [{"key":"f","title":"构造函数","score":3,"criterion":"$f(x)=2^x+x-5$"},{"key":"sign","title":"端点符号","score":4,"criterion":"异号"},{"key":"mono","title":"单调唯一","score":3,"criterion":"递增"}] max=10
+ANALYSIS: 要证方程 $2^x=5-x$ 在 $(1,2)$ 内有唯一实根。令 $f(x)=2^x+x-5$，则等价于 $f(x)=0$。因 $f'(x)=2^x\ln2+1>0$，故 $f$ 在 $\mathbb{R}$ 严格递增，零点至多一个。又 $f(1)=2+1-5=-2<0$，$f(2)=4+2-5=1>0$，由零点存在定理，$(1,2)$ 内恰有一根。端点符号相反保证存在，单调性保证唯一。
+
+--- CAND-G1B-044 [numeric/d3/AUTHOR_CHECKED] rja.4.1.03
+STEM: $(\dfrac1{27})^{-2/3}=$
+ANSWER: 9
+ANALYSIS: 负分数指数先化为正指数：$(\dfrac{1}{27})^{-2/3}=27^{2/3}$。再按“先根后幂”：$27^{2/3}=(\sqrt[3]{27})^2=3^2=9$。也可先幂后根：$(27^2)^{1/3}=729^{1/3}=9$。两种顺序一致；注意负指数表示取倒数，分数指数分母为根指数。答案 $9$。
+
+--- CAND-G1B-045 [application/d2/AUTHOR_CHECKED] rja.4.5.02
+STEM: 存款本金 $10000$ 元，年利率 $5\%$ 复利，求 $3$ 年后本息和（精确到元）。
+ANSWER: $11576$
+RUBRIC: [{"key":"f","title":"公式","score":4,"criterion":"$10000\\times1.05^3$"},{"key":"c","title":"计算","score":4,"criterion":"11576"},{"key":"u","title":"单位","score":2,"criterion":"元"}] max=10
+ANALYSIS: 复利本息和公式 $A=P(1+r)^n$。代入 $P=10000$、$r=0.05$、$n=3$，得 $A=10000\times(1.05)^3$。先算 $(1.05)^2=1.1025$，再乘 $1.05$ 得 $1.157625$，故 $A=11576.25$。按“精确到元”通常四舍五入得 $11576$。可用 $(1.05)^3=1.157625$ 再核一次小数。
+
+--- CAND-G1B-048 [application/d2/AUTHOR_CHECKED] rja.5.1.03
+STEM: 圆半径 $r=10\text{cm}$，圆心角 $60^\circ$，求弧长（$\pi$ 形式）。
+ANSWER: $l=\dfrac{10\pi}{3}\text{cm}$。
+RUBRIC: [{"key":"rad","title":"化弧度","score":3,"criterion":"$\\pi/3$"},{"key":"l","title":"弧长","score":5,"criterion":"$10\\pi/3$"}] max=8
+ANALYSIS: 先把圆心角化为弧度：$60^\circ=\dfrac{\pi}{3}$。弧长公式 $l=r\theta$ 得 $l=10\cdot\dfrac{\pi}{3}=\dfrac{10\pi}{3}\text{cm}$。也可用 $l=\dfrac{n\pi r}{180}$ 得同一结果。
+
+--- CAND-G1B-052 [application/d2/AUTHOR_CHECKED] rja.5.3.03
+STEM: 化简：$\sin(\pi-\theta)+\sin(\pi+\theta)$。
+ANSWER: $0$。
+RUBRIC: [{"key":"s1","title":"第一项","score":4,"criterion":"$\\sin\\theta$"},{"key":"s2","title":"第二项","score":4,"criterion":"$-\\sin\\theta$"},{"key":"r","title":"结果","score":2,"criterion":"0"}] max=10
+ANALYSIS: 用诱导公式分别化简：$\sin(\pi-\theta)=\sin\theta$（诱导“奇变偶不变，符号看象限”中正弦在第二象限为正），$\sin(\pi+\theta)=-\sin\theta$（第三象限正弦为负）。两式相加：$\sin\theta+(-\sin\theta)=0$。故原式恒等于 $0$（对使式子有定义的 $\theta$）。可用特殊值 $\theta=\pi/6$ 代入检验。
+
+--- CAND-G1B-056 [application/d3/AUTHOR_CHECKED] rja.5.5.04
+STEM: 证明：$\dfrac{1-\cos2\alpha}{\sin2\alpha}=\tan\alpha$（$\alpha$ 使分母不为0）。
+ANSWER: 左式 $=\dfrac{2\sin^2\alpha}{2\sin\alpha\cos\alpha}=\tan\alpha$。
+RUBRIC: [{"key":"num","title":"分子","score":4,"criterion":"$2\\sin^2\\alpha$"},{"key":"den","title":"分母","score":3,"criterion":"$2\\sin\\alpha\\cos\\alpha$"},{"key":"r","title":"结论","score":3,"criterion":"$\\tan\\alpha$"}] max=10
+ANALYSIS: 左式用倍角：$1-\cos2\alpha=2\sin^2\alpha$，$\sin2\alpha=2\sin\alpha\cos\alpha$，故 $\dfrac{2\sin^2\alpha}{2\sin\alpha\cos\alpha}=\tan\alpha$（分母 $\ne0$）。得证。
+
+--- CAND-G1B-059 [multi/d2/AUTHOR_CHECKED] rja.5.6.02
+STEM: $y=\sin x$ 经何种变换得 $y=\sin(2x)$（多选）
+  A. 横坐标缩短为原来1/2
+  B. 横坐标伸长为原来2倍
+  C. 纵坐标不变
+  D. 向右平移
+ANSWER: A,C
+ANALYSIS: 比较 $y=\sin x$ 与 $y=\sin(2x)$：把角换成 $2x$ 后，周期由 $2\pi$ 变为 $\pi$，相当于横坐标（周期）缩短为原来的 $\dfrac12$，即 A；纵坐标振幅仍为 $1$，尺度不变，即 C。题干没有 $\varphi$ 平移项，故不向右平移（排除 D）；也不是伸长（排除 B）。因此选 A、C。
+
+--- CAND-G1B-060 [application/d2/AUTHOR_CHECKED] rja.5.7.02
+STEM: 潮高 $h(t)=2\cos(\dfrac{\pi t}{6})+4$（$t$ 为小时）。求最高潮高与周期。
+ANSWER: 最高 $6\text{m}$，周期 $12\text{h}$。
+RUBRIC: [{"key":"max","title":"最高","score":4,"criterion":"6m"},{"key":"T","title":"周期","score":4,"criterion":"12h"}] max=8
+ANALYSIS: 潮高 $h(t)=2\cos(\dfrac{\pi t}{6})+4$。振幅为 $|2|=2$，平衡位置（竖直平移）为 $4$，故最高潮高为 $4+2=6$（米），最低为 $2$。角频率 $\omega=\pi/6$，周期 $T=\dfrac{2\pi}{\omega}=\dfrac{2\pi}{\pi/6}=12$（小时）。当 $\cos=1$ 时取最高；例如 $t=0$ 时 $h=6$ 可作代入检验。
+
+--- CAND-G1B-061 [single/d3/AUTHOR_CHECKED] rja.5.7.01
+STEM: $h=2\sin(3t)+5$ 的最大值为
+  A. $2$
+  B. $3$
+  C. $5$
+  D. $7$
+ANSWER: D
+ANALYSIS: 函数 $h=2\sin(3t)+5$ 中，$\sin(3t)\in[-1,1]$，从而 $2\sin(3t)\in[-2,2]$，再加上常数 $5$，得值域 $h\in[3,7]$。因此最大值为 $7$，选 D。注意最大值不是振幅 $2$，也不是平衡位置 $5$；角频率 $3$ 只影响周期，不影响最值。当 $\sin(3t)=1$ 时取到 $7$。
+
+--- CAND-G1B-062 [judge/d3/AUTHOR_CHECKED] rja.5.4.03
+STEM: $y=\tan x$ 在 $(-\pi/2,\pi/2)$ 递增。
+ANSWER: true
+ANALYSIS: 正切函数 $y=\tan x$ 的定义域是去掉奇异点的开区间并，在每一个 $(-\dfrac{\pi}{2}+k\pi,\dfrac{\pi}{2}+k\pi)$ 内导数为正、严格递增。特别地，在 $(-\pi/2,\pi/2)$ 上单调递增。命题正确。
+
+--- CAND-G1B-063 [single/d3/AUTHOR_CHECKED] rja.5.3.02
+STEM: $\cos(\pi-\alpha)=$
+  A. $\cos\alpha$
+  B. $-\cos\alpha$
+  C. $\sin\alpha$
+  D. $-\sin\alpha$
+ANSWER: B
+ANALYSIS: 诱导公式：$\cos(\pi-\alpha)=-\cos\alpha$，故选 B。几何理解：$\pi-\alpha$ 与 $\alpha$ 互补（或看作第二象限相关角），余弦在第二象限为负，因而带负号。常见混淆：误记成 $\cos\alpha$（偶次不变却忘看符号），或与 $\sin(\pi-\alpha)=\sin\alpha$ 搞混。可用 $\alpha=0$：$\cos\pi=-1=-\cos0$ 快速核对。
+
+--- CAND-G1B-064 [application/d3/AUTHOR_CHECKED] rja.5.7.03
+STEM: 塔高测量：距塔底 $40\text{m}$ 处测得顶角 $30^\circ$，求塔高（精确值）。
+ANSWER: $h=\dfrac{40\sqrt3}{3}\text{m}$。
+RUBRIC: [{"key":"model","title":"模型","score":4,"criterion":"$\\tan30^\\circ$"},{"key":"calc","title":"计算","score":4,"criterion":"$40\\sqrt3/3$"},{"key":"u","title":"单位","score":2,"criterion":"m"}] max=10
+ANALYSIS: 直角三角形中，仰角 $30^\circ$，邻边（水平距离）为 $40$，对边为塔高 $h$。故 $h=40\tan30^\circ=40\cdot\dfrac{\sqrt3}{3}=\dfrac{40\sqrt3}{3}\text{m}$。
+
+--- CAND-G1B-068 [application/d2/AUTHOR_CHECKED] rjb.6.4.01
+STEM: 物体受两力 $\vec F_1=(3,4)$，$\vec F_2=(-1,2)$（N），求合力大小。
+ANSWER: $|\vec F|=\sqrt{2^2+6^2}=\sqrt{40}=2\sqrt{10}$ N。
+RUBRIC: [{"key":"add","title":"求和","score":4,"criterion":"(2,6)"},{"key":"m","title":"模长","score":4,"criterion":"$2\\sqrt{10}$"}] max=8
+ANALYSIS: 合力按向量加法： $\vec F=\vec F_1+\vec F_2=(3,4)+(-1,2)=(3-1,4+2)=(2,6)$（单位 N）。大小为模长 $|\vec F|=\sqrt{2^2+6^2}=\sqrt{4+36}=\sqrt{40}=2\sqrt{10}$（N）。可用勾股验算：$2^2+6^2=40$。注意不要把分量各自取绝对值后再相加当合力大小。
+
+--- CAND-G1B-072 [application/d2/AUTHOR_CHECKED] rjb.6.4.02
+STEM: 船速 $\vec v_1=(4,0)$ km/h，水流 $\vec v_2=(0,1)$，求实际速度大小。
+ANSWER: $\sqrt{17}$ km/h。
+RUBRIC: [{"key":"v","title":"合速度","score":3,"criterion":"(4,1)"},{"key":"m","title":"模","score":3,"criterion":"$\\sqrt{17}$"}] max=6
+ANALYSIS: 船对水速度与水流速度按向量合成： $\vec v=\vec v_1+\vec v_2=(4,0)+(0,1)=(4,1)$。实际航行速率为模长 $|\vec v|=\sqrt{4^2+1^2}=\sqrt{16+1}=\sqrt{17}$（km/h）。方向由 $\tan\theta=1/4$ 确定，但本题只求大小。核对：$16+1=17$ 不可再开成有理数，保留根式即可。
+
+--- CAND-G1B-073 [judge/d3/AUTHOR_CHECKED] rjb.6.3.01
+STEM: 任意两个非零向量都可作基底。
+ANSWER: false
+ANALYSIS: 平面向量基本定理要求：作为基底的两个向量必须不共线（线性无关）。若两个非零向量共线，则存在实数 $\lambda$ 使 $\vec b=\lambda\vec a$，它们只能张成一条直线，不能张成整个平面，因此不能任意取作基底。命题“任意两个非零向量都可作基底”错误。反例：$(1,0)$ 与 $(2,0)$。
+
+--- CAND-G1B-074 [multi/d2/AUTHOR_CHECKED] rjb.6.3.02
+STEM: 正确的是（多选）
+  A. $\lambda(\vec a+\vec b)=\lambda\vec a+\lambda\vec b$
+  B. $(\vec a+\vec b)+\vec c=\vec a+(\vec b+\vec c)$
+  C. $\vec a\cdot\vec b=\vec b\cdot\vec a$
+  D. $\vec a\times\vec b=\vec b\times\vec a$
+ANSWER: A,B,C
+ANALYSIS: A、B 分别是数乘分配律与向量加法结合律；C 是数量积交换律，均正确。D 写成叉积交换：高中平面向量一般不引入叉积，且空间叉积满足反交换 $\vec a\times\vec b=-\vec b\times\vec a$，故 D 错。选 A、B、C。
+
+--- CAND-G1B-075 [numeric/d3/AUTHOR_CHECKED] rjb.6.2.04
+STEM: $|\vec a|=5$，$|\vec b|=2$，夹角 $60^\circ$，则 $\vec a$ 在 $\vec b$ 上投影数量为
+ANSWER: 2.5
+ANALYSIS: 向量 $\vec a$ 在 $\vec b$ 方向上的投影（数量）公式为 $|\vec a|\cos\theta$，其中 $\theta$ 为夹角。代入 $|\vec a|=5$、$\theta=60^\circ$，得 $5\cdot\cos60^\circ=5\cdot\dfrac12=2.5$。注意：投影数量与 $|\vec b|$ 无关（方向由 $\vec b$ 给出即可）；若问投影向量则还需单位化 $\vec b$。答案 $2.5$。
+
+--- CAND-G1B-076 [application/d3/AUTHOR_CHECKED] rjb.6.4.03
+STEM: 力 $\vec F=(6,8)$ N 沿位移 $\vec s=(3,0)$ m 做功，求功 $W=\vec F\cdot\vec s$。
+ANSWER: $W=18$ J。
+RUBRIC: [{"key":"dot","title":"数量积","score":4,"criterion":"18"},{"key":"u","title":"单位","score":2,"criterion":"J"}] max=6
+ANALYSIS: 功的定义用数量积：$W=\vec F\cdot\vec s$。坐标计算：$\vec F=(6,8)$，$\vec s=(3,0)$，故 $W=6\cdot3+8\cdot0=18+0=18$（J）。物理含义：位移只有水平分量，力的竖直分量 $8$ 对功无贡献。也可用 $W=|\vec F||\vec s|\cos\theta$，但坐标法更直接。答案 $18$。
+
+--- CAND-G1B-080 [application/d3/AUTHOR_CHECKED] rjb.6.4.04
+STEM: 用向量证明：平行四边形对角线互相平分（设 $\vec{AB}=\vec a$，$\vec{AD}=\vec b$）。
+ANSWER: 对角线交点对应向量为 $\frac{\vec a+\vec b}{2}$，即中点。
+RUBRIC: [{"key":"diag","title":"对角线","score":4,"criterion":"$\\vec a+\\vec b$"},{"key":"mid","title":"中点","score":4,"criterion":"平分"},{"key":"cl","title":"表述","score":2,"criterion":"清晰"}] max=10
+ANALYSIS: 设 $\vec{AB}=\vec a$，$\vec{AD}=\vec b$。对角线 $\vec{AC}=\vec a+\vec b$，中点满足 $\vec{AM}=\dfrac12(\vec a+\vec b)$；另一对角线中点同样为 $\dfrac{\vec a+\vec b}{2}$。交点重合，故互相平分。
+
+--- CAND-G1B-082 [application/d2/AUTHOR_CHECKED] rjb.7.2.01
+STEM: 计算 $(3+2i)(1-i)$ 并写为 $a+bi$。
+ANSWER: $5-i$。
+RUBRIC: [{"key":"exp","title":"展开","score":3,"criterion":"四项"},{"key":"r","title":"结果","score":3,"criterion":"$5-i$"}] max=6
+ANALYSIS: 展开复数乘法：$(3+2i)(1-i)=3\cdot1+3(-i)+2i\cdot1+2i(-i)=3-3i+2i-2i^2$。把 $i^2=-1$ 代入，$-2i^2=+2$，合并实部虚部得 $3+2+(-3i+2i)=5-i$。故 $a=5$、$b=-1$，标准式为 $5-i$。可用模粗检：$|3+2i|=\sqrt{13}$，$|1-i|=\sqrt{2}$，乘积模 $\sqrt{26}$，而 $|5-i|=\sqrt{26}$，一致。
+
+--- CAND-G1B-083 [numeric/d3/AUTHOR_CHECKED] rjb.7.3.01
+STEM: $|3-4i|=$
+ANSWER: 5
+ANALYSIS: 复数 $z=a+bi$ 的模 $|z|=\sqrt{a^2+b^2}$。对 $z=3-4i$，取 $a=3$、$b=-4$，得 $|3-4i|=\sqrt{9+16}=\sqrt{25}=5$。这与勾股数 $3$-$4$-$5$ 一致。注意虚部取 $-4$ 或写成 $3+(-4)i$，平方后同为 $16$，模不变。答案 $5$。
+
+--- CAND-G1B-086 [application/d2/AUTHOR_CHECKED] rjb.8.3.02
+STEM: 正四棱锥底面边长 $6$，高 $4$，求体积。
+ANSWER: $V=48$。
+RUBRIC: [{"key":"S","title":"底面积","score":3,"criterion":"36"},{"key":"V","title":"体积","score":5,"criterion":"48"}] max=8
+ANALYSIS: 正四棱锥底面为正方形，边长 $6$，底面积 $S=6^2=36$。锥体体积公式 $V=\dfrac13 Sh$，代入高 $h=4$，得 $V=\dfrac13\cdot36\cdot4=48$。常见错误是漏掉系数 $\dfrac13$ 而算成 $144$，或把底面积误成周长。答案 $V=48$。
+
+--- CAND-G1B-090 [application/d3/AUTHOR_CHECKED] rjb.8.3.03
+STEM: 圆柱（$r=2,h=5$）上放同底圆柱（$r=2,h=3$），求总体积。
+ANSWER: $V=32\pi$。
+RUBRIC: [{"key":"s","title":"底面积","score":2,"criterion":"$4\\pi$"},{"key":"v","title":"体积","score":6,"criterion":"$32\\pi$"}] max=8
+ANALYSIS: 两圆柱底面半径同为 $r=2$，高分别为 $h_1=5$、$h_2=3$。叠放后总体积等于两段体积之和，也等于同底圆柱以总高 $8$ 计算：$V=\pi r^2(h_1+h_2)=\pi\cdot4\cdot8=32\pi$。分开算：$20\pi+12\pi=32\pi$，一致。注意不要把半径当成直径。答案 $32\pi$。
+
+--- CAND-G1B-091 [single/d3/AUTHOR_CHECKED] rjb.8.2.01
+STEM: 斜二测画法中 $x$ 轴与 $x'$ 轴夹角通常为
+  A. $45^\circ$
+  B. $90^\circ$
+  C. $135^\circ$
+  D. $180^\circ$
+ANSWER: A
+ANALYSIS: 斜二测画法是画空间几何体直观图的常用方法。人教版等教材一般规定：水平轴 $x$ 与对应轴 $x'$ 的夹角取 $45^\circ$（部分摆放示意图等价写成 $135^\circ$）。本题选项中取通常约定 $45^\circ$，选 A。$y$ 轴方向缩短为原来一半、$angle x'O'y'=45^\circ$ 等是配套规定，但本题只问夹角。
+
+--- CAND-G1B-092 [multi/d2/AUTHOR_CHECKED] rjb.8.5.02
+STEM: 面面平行判定可用（多选）
+  A. 一面内两相交直线分别平行于另一面
+  B. 两平面分别平行于同一直线
+  C. 两平面平行于同一平面
+  D. 一面内两直线都平行于另一面
+ANSWER: A,C
+ANALYSIS: 面面平行常用判定：若一个平面内的两条相交直线分别平行于另一个平面，则可判定两平面平行（A）；若两平面都平行于同一平面，则由传递性也平行（C）。B 仅“分别平行于同一直线”不够；D 若两直线平行（不相交），即使都平行于另一面，也不能推出面面平行（可能相交或重合情形需另论）。故选 A、C。
+
+--- CAND-G1B-093 [application/d3/AUTHOR_CHECKED] rjb.8.6.02
+STEM: 正方体 $ABCD-A_1B_1C_1D_1$ 中，证明 $BD_1\perp$ 平面 $A_1C_1D$（写出关键步骤）。
+ANSWER: $BD_1\perp A_1C_1$ 且 $BD_1\perp A_1D$，故 $BD_1\perp$ 平面 $A_1C_1D$。
+RUBRIC: [{"key":"l1","title":"证一条","score":4,"criterion":"$BD_1\\perp A_1C_1$"},{"key":"l2","title":"证另一条","score":4,"criterion":"$BD_1\\perp A_1D$"},{"key":"c","title":"结论","score":2,"criterion":"线面垂直"}] max=10
+ANALYSIS: 在正方体中可证 $BD_1\perp A_1C_1$（数量积为 $0$），且 $BD_1\perp A_1D$。两相交直线 $A_1C_1$、$A_1D$ 均在平面 $A_1C_1D$ 内，由线面垂直判定得 $BD_1\perp$ 平面 $A_1C_1D$。
+
+--- CAND-G1B-095 [application/d2/AUTHOR_CHECKED] rjb.9.2.01
+STEM: 抛硬币 $200$ 次出现正面 $96$ 次，估计正面概率。
+ANSWER: $\hat p=0.48$。
+RUBRIC: [{"key":"f","title":"频率","score":3,"criterion":"0.48"},{"key":"i","title":"解释","score":3,"criterion":"估计概率"}] max=6
+ANALYSIS: 用频率估计概率：在 $n=200$ 次独立抛掷中，正面出现 $96$ 次，频率为 $f=\dfrac{96}{200}=0.48$。因此取估计值 $\hat p=0.48$。由频率稳定性（大数定律思想），试验次数较大时频率通常接近真实概率，该估计较为可信；但估计值本身仍可能有随机偏差，不必等于理论 $0.5$。
+
+--- CAND-G1B-096 [judge/d3/AUTHOR_CHECKED] rjb.9.3.01
+STEM: 样本相关系数 $r$ 越接近 $1$，线性相关程度一定越强。
+ANSWER: false
+ANALYSIS: 样本相关系数 $r\in[-1,1]$。线性相关强弱应看 $|r|$ 是否接近 $1$：$r\to1$ 表示强正相关，$r\to-1$ 表示强负相关（同样“很强”）。命题只说“越接近 $1$ 一定越强”，忽略了接近 $-1$ 的情形，表述不准确；此外相关也不等于因果。故命题错误（false）。
+
+--- CAND-G1B-098 [application/d2/AUTHOR_CHECKED] rjb.10.1.02
+STEM: 袋中 $3$ 红 $2$ 白，随机取 $2$ 球，求恰有一红的概率。
+ANSWER: $P=\dfrac35$。
+RUBRIC: [{"key":"n","title":"总数","score":3,"criterion":"10"},{"key":"m","title":"有利","score":3,"criterion":"6"},{"key":"p","title":"概率","score":2,"criterion":"3/5"}] max=8
+ANALYSIS: 古典概型：袋中共 $5$ 球，任取 $2$ 球，基本事件总数为 $C_5^2=10$。事件“恰有一红”（即一红一白）的取法：$C_3^1\cdot C_2^1=3\times2=6$。故概率 $P=\dfrac{6}{10}=\dfrac{3}{5}$。也可列：两红 $C_3^2=3$，两白 $C_2^2=1$，一红一白 $6$，总和 $10$，一致。
+
+--- CAND-G1B-100 [application/d1/AUTHOR_CHECKED] rjb.10.3.01
+STEM: 说明：为何试验次数增大时，正面频率往往更接近 $0.5$？（简述）
+ANSWER: 试验次数增大，随机波动相对减小，频率稳定于概率 $0.5$ 附近（大数定律思想）。
+RUBRIC: [{"key":"p","title":"概率","score":2,"criterion":"0.5"},{"key":"s","title":"稳定","score":2,"criterion":"次数增大"},{"key":"l","title":"定律思想","score":2,"criterion":"大数定律"}] max=6
+ANALYSIS: 大数定律（频率稳定性）表明：在独立重复试验中，当试验次数 $n$ 充分大时，某事件发生的频率会依概率收敛到它的理论概率。抛硬币正面的理论概率为 $0.5$，因此 $n$ 增大时正面频率通常更接近 $0.5$，相对随机波动减小。这并不保证每一次实验都精确等于 $0.5$，而是“稳定于概率附近”的直观含义。
+
+===== SPOT_SAMPLE (14) =====
+
+--- CAND-G1B-001 [judge/d1/SPOT_VERIFIED] rja.1.1.01
+STEM: 判断：$A=\{x\in\mathbb{Z}\mid -2<x<3\}$ 时，$0\in A$ 且 $3\notin A$。
+ANSWER: true
+ANALYSIS: 条件：$A=\{x\in\mathbb{Z}\mid -2<x<3\}$。整数满足 $-2<x<3$ 的有 $-1,0,1,2$，故 $A=\{-1,0,1,2\}$。由此 $0\in A$，而 $3$ 不满足 $x<3$，故 $3\notin A$。判断正确。
+
+--- CAND-G1B-006 [judge/d1/SPOT_VERIFIED] rja.2.1.01
+STEM: 若 $a>b$，$c<0$，则 $ac<bc$。
+ANSWER: true
+ANALYSIS: 不等式两边同乘负数 $c<0$ 时不等号必须变向：由 $a>b$ 得 $ac<bc$。例如取 $a=3,b=1,c=-2$，则 $ac=-6$、$bc=-2$，确实 $-6<-2$。故命题正确。
+
+--- CAND-G1B-010 [single/d2/SPOT_VERIFIED] rja.2.3.01
+STEM: $x^2-5x+6<0$ 的解集为
+  A. $(-\infty,2)\cup(3,+\infty)$
+  B. $(2,3)$
+  C. $[2,3]$
+  D. $(-\infty,2]\cup[3,+\infty)$
+ANSWER: B
+ANALYSIS: 先因式分解：$x^2-5x+6=(x-2)(x-3)$。二次项系数为正，抛物线开口向上，函数值仅在两根之间为负，因此不等式 $<0$ 的解集为开区间 $(2,3)$。端点 $x=2$ 或 $3$ 使式子等于 $0$，不满足严格小于，故不取闭区间。选 B。
+
+--- CAND-G1B-017 [judge/d1/SPOT_VERIFIED] rja.3.1.05
+STEM: $f(x)=x$ 与 $g(t)=t$ 是同一函数。
+ANSWER: true
+ANALYSIS: 函数是否相同取决于定义域与对应法则，与用 $x$ 还是 $t$ 作自变量字母无关。二者定义域均为 $\mathbb{R}$，对应关系均为恒等映射，故为同一函数。命题正确。
+
+--- CAND-G1B-028 [numeric/d2/SPOT_VERIFIED] rja.3.1.09
+STEM: $f(x)=\begin{cases}2x+1,&x<0\\x^2,&x\ge0\end{cases}$，求 $f(-2)+f(2)$
+ANSWER: 1
+ANALYSIS: 分段函数求值先判断自变量落在哪一段。因 $-2<0$，用左支 $f(x)=2x+1$，得 $f(-2)=2(-2)+1=-3$；因 $2\ge0$，用右支 $f(x)=x^2$，得 $f(2)=4$。于是 $f(-2)+f(2)=-3+4=1$。边界注意：$x=0$ 属于右支；若把 $-2$ 误代入 $x^2$ 会得 $4$，和就会错成 $8$。
+
+--- CAND-G1B-034 [judge/d1/SPOT_VERIFIED] rja.4.2.01
+STEM: $y=2^x$ 的定义域为 $\mathbb{R}$。
+ANSWER: true
+ANALYSIS: 指数函数 $y=a^x$（$a>0$ 且 $a\ne1$）的定义域规定为全体实数 $\mathbb{R}$。这里底数 $2$ 满足条件，故 $y=2^x$ 定义域为 $\mathbb{R}$。命题正确。
+
+--- CAND-G1B-043 [judge/d1/SPOT_VERIFIED] rja.4.3.03
+STEM: $\log_4 8=\dfrac{\log_2 8}{\log_2 4}$。
+ANSWER: true
+ANALYSIS: 换底公式 $\log_b a=\dfrac{\log_c a}{\log_c b}$（$c>0,c\ne1$）。取 $c=2$ 即得 $\log_4 8=\dfrac{\log_2 8}{\log_2 4}$。命题正确。
+
+--- CAND-G1B-050 [single/d1/SPOT_VERIFIED] rja.5.2.02
+STEM: $\sin\theta=\dfrac35$，$\theta$ 在第二象限，则 $\cos\theta=$
+  A. $4/5$
+  B. $-4/5$
+  C. $3/5$
+  D. $-3/5$
+ANSWER: B
+ANALYSIS: 由 $\sin^2+\cos^2=1$，$\cos^2=1-(\dfrac{3}{5})^2=\dfrac{16}{25}$。第二象限余弦为负，故 $\cos\theta=-\dfrac{4}{5}$。选 B。
+
+--- CAND-G1B-055 [single/d2/SPOT_VERIFIED] rja.5.5.01
+STEM: $\cos75^\circ=$
+  A. $\frac{\sqrt6+\sqrt2}{4}$
+  B. $\frac{\sqrt6-\sqrt2}{4}$
+  C. $\frac{\sqrt2-\sqrt6}{4}$
+  D. $-\frac{\sqrt6+\sqrt2}{4}$
+ANSWER: B
+ANALYSIS: $\cos75^\circ=\cos(45^\circ+30^\circ)=\cos45\cos30-\sin45\sin30=\dfrac{\sqrt2}{2}\cdot\dfrac{\sqrt3}{2}-\dfrac{\sqrt2}{2}\cdot\dfrac12=\dfrac{\sqrt6-\sqrt2}{4}$。选 B。
+
+--- CAND-G1B-066 [judge/d1/SPOT_VERIFIED] rjb.6.1.01
+STEM: 零向量与任何向量平行。
+ANSWER: true
+ANALYSIS: 向量平行（共线）的教材约定：零向量与任意向量都平行。这是定义性规定，目的是使“共线向量”“基底”等后续命题表述简洁统一。故“零向量与任何向量平行”正确。注意零向量没有确定方向，但仍规定与任意向量平行。
+
+--- CAND-G1B-071 [single/d1/SPOT_VERIFIED] rjb.6.2.03
+STEM: $\vec a=(1,0)$，$\vec b=(0,1)$ 夹角为
+  A. $0^\circ$
+  B. $45^\circ$
+  C. $90^\circ$
+  D. $180^\circ$
+ANSWER: C
+ANALYSIS: $\vec a=(1,0)$、$\vec b=(0,1)$ 为坐标轴单位向量，数量积 $1\cdot0+0\cdot1=0$，故夹角为 $90^\circ$。选 C。
+
+--- CAND-G1B-081 [single/d1/SPOT_VERIFIED] rjb.7.1.01
+STEM: $i^2=$
+  A. $1$
+  B. $-1$
+  C. $i$
+  D. $0$
+ANSWER: B
+ANALYSIS: 虚数单位 $i$ 由关系 $i^2=-1$ 引入（并取 $i\ne\pm1$）。因此 $i^2$ 的值就是 $-1$，选 B。常用：$i^3=-i$，$i^4=1$，周期为 $4$，本题直接用定义即可。
+
+--- CAND-G1B-088 [judge/d2/SPOT_VERIFIED] rjb.8.5.01
+STEM: 平面外一条直线与平面内一条直线平行，则该直线与平面平行。
+ANSWER: true
+ANALYSIS: 线面平行判定定理：若直线 $l$ 不在平面 $\alpha$ 内（即平面外直线），且 $l$ 平行于 $\alpha$ 内的某一条直线，则可判定 $l\parallel\alpha$。题干“平面外一条直线与平面内一条直线平行，则该直线与平面平行”正是该判定的叙述，故命题正确。注意前提“平面外”不可少，否则直线可能就在平面内。
+
+--- CAND-G1B-099 [numeric/d2/SPOT_VERIFIED] rjb.10.2.01
+STEM: 独立事件 $A,B$，$P(A)=0.4$，$P(B)=0.5$，则 $P(AB)=$
+ANSWER: 0.2
+ANALYSIS: 若事件 $A$、$B$ 相互独立，则积事件概率等于各自概率之积：$P(AB)=P(A)P(B)$。代入 $P(A)=0.4$、$P(B)=0.5$ 得 $0.4\times0.5=0.2$。注意独立与互斥不同：互斥时一般有 $P(AB)=0$。
+
+===== MULTI_ALL (7) =====
+
+--- CAND-G1B-005 [multi/d3/AUTHOR_CHECKED] rja.1.5.03
+STEM: 命题否定写法正确的有（多选）
+  A. “$\forall x,\,x^2+1>0$”否定为“$\exists x,\,x^2+1\le0$”
+  B. “$\exists x\in\mathbb{Z},\,x^2=10$”否定为“$\forall x\in\mathbb{Z},\,x^2\ne10$”
+  C. “$\forall x,\,x>0$”否定为“$\exists x,\,x\le0$”
+  D. “$\exists x,\,x^2<0$”否定为“$\forall x,\,x^2>0$”
+ANSWER: A,B,C
+ANALYSIS: 量词否定规则：$\forall$ 与 $\exists$ 互换，并把结论取否定。A、B、C 均符合。D 中“$\exists x,\,x^2<0$”的否定应为“$\forall x,\,x^2\ge0$”，原选项写成 $x^2>0$，漏掉等号，故 D 错。正确为 A、B、C。
+
+--- CAND-G1B-011 [multi/d2/AUTHOR_CHECKED] rja.2.3.02
+STEM: 使 $x^2+px+9>0$ 对 $\forall x\in\mathbb{R}$ 恒成立的 $p$ 可以是（多选）
+  A. $0$
+  B. $5$
+  C. $-5$
+  D. $6$
+ANSWER: A,B,C
+ANALYSIS: 开口向上，要 $x^2+px+9>0$ 对一切 $x$ 成立，需判别式 $\Delta=p^2-36<0$，即 $|p|<6$。故 $p=0,\pm5$ 可，$p=6$ 时 $\Delta=0$ 有重根使式子可取 $0$，不满足严格大于。选 A、B、C。
+
+--- CAND-G1B-025 [multi/d2/AUTHOR_CHECKED] rja.3.3.02
+STEM: 第一象限递增的幂函数有（多选）
+  A. $y=x^2$
+  B. $y=x^{1/2}$
+  C. $y=x^{-1}$
+  D. $y=x^3$
+ANSWER: A,B,D
+ANALYSIS: 在第一象限 $(0,+\infty)$ 上，幂函数 $y=x^{\alpha}$ 的单调性由指数 $\alpha$ 决定：$\alpha>0$ 时递增，$\alpha<0$ 时递减。于是 $x^2$（$\alpha=2$）、$x^{1/2}$（$\alpha=1/2$）、$x^3$（$\alpha=3$）均递增；而 $x^{-1}$（$\alpha=-1$）递减。故选 A、B、D，不选 C。可取 $0<x_1<x_2$ 比较函数值作直观检验。
+
+--- CAND-G1B-037 [multi/d2/AUTHOR_CHECKED] rja.4.3.02
+STEM: 正确的是（多选）
+  A. $\log_a(MN)=\log_aM+\log_aN$
+  B. $\log_a\dfrac MN=\log_aM-\log_aN$
+  C. $\log_aM^2=2\log_aM$
+  D. $\log_a1=0$
+ANSWER: A,B,D
+ANALYSIS: A、B 是常用对数运算法则（在真数、底数合法时成立）；D 为 $\log_a1=0$。C 写成 $\log_a M^2=2\log_a M$：一般应先保证真数为正，严格形式常写 $2\log_a|M|$（并讨论定义域）；题干未限定 $M>0$ 时不宜直接选 C。故正确选项为 A、B、D。
+
+--- CAND-G1B-059 [multi/d2/AUTHOR_CHECKED] rja.5.6.02
+STEM: $y=\sin x$ 经何种变换得 $y=\sin(2x)$（多选）
+  A. 横坐标缩短为原来1/2
+  B. 横坐标伸长为原来2倍
+  C. 纵坐标不变
+  D. 向右平移
+ANSWER: A,C
+ANALYSIS: 比较 $y=\sin x$ 与 $y=\sin(2x)$：把角换成 $2x$ 后，周期由 $2\pi$ 变为 $\pi$，相当于横坐标（周期）缩短为原来的 $\dfrac12$，即 A；纵坐标振幅仍为 $1$，尺度不变，即 C。题干没有 $\varphi$ 平移项，故不向右平移（排除 D）；也不是伸长（排除 B）。因此选 A、C。
+
+--- CAND-G1B-074 [multi/d2/AUTHOR_CHECKED] rjb.6.3.02
+STEM: 正确的是（多选）
+  A. $\lambda(\vec a+\vec b)=\lambda\vec a+\lambda\vec b$
+  B. $(\vec a+\vec b)+\vec c=\vec a+(\vec b+\vec c)$
+  C. $\vec a\cdot\vec b=\vec b\cdot\vec a$
+  D. $\vec a\times\vec b=\vec b\times\vec a$
+ANSWER: A,B,C
+ANALYSIS: A、B 分别是数乘分配律与向量加法结合律；C 是数量积交换律，均正确。D 写成叉积交换：高中平面向量一般不引入叉积，且空间叉积满足反交换 $\vec a\times\vec b=-\vec b\times\vec a$，故 D 错。选 A、B、C。
+
+--- CAND-G1B-092 [multi/d2/AUTHOR_CHECKED] rjb.8.5.02
+STEM: 面面平行判定可用（多选）
+  A. 一面内两相交直线分别平行于另一面
+  B. 两平面分别平行于同一直线
+  C. 两平面平行于同一平面
+  D. 一面内两直线都平行于另一面
+ANSWER: A,C
+ANALYSIS: 面面平行常用判定：若一个平面内的两条相交直线分别平行于另一个平面，则可判定两平面平行（A）；若两平面都平行于同一平面，则由传递性也平行（C）。B 仅“分别平行于同一直线”不够；D 若两直线平行（不相交），即使都平行于另一面，也不能推出面面平行（可能相交或重合情形需另论）。故选 A、C。

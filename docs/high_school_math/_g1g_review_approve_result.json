@@ -1,0 +1,286 @@
+{
+  "phase": "HS-MATH-BANK-DIAGRAM-1G",
+  "startedAt": "2026-10-26T13:01:10.533Z",
+  "endedAt": "2026-10-26T13:01:11.949Z",
+  "status": "DIAGRAM_REVIEW_APPROVE_PASS",
+  "base": "http://127.0.0.1:3000",
+  "pre": {
+    "drawable": 109,
+    "sessions": 133,
+    "sessionItems": 357
+  },
+  "items": [
+    {
+      "code": "CAND-G1B-093",
+      "itemId": "244",
+      "ok": true,
+      "panel": {
+        "contentVersion": 2,
+        "contentFingerprint": "e464af249073749161f7ebba8a4ab9f7ea7922906e7e1b8a538963598c781375"
+      },
+      "review": {
+        "httpStatus": 201,
+        "reviewId": "134",
+        "reviewStatus": "passed",
+        "itemStatusUnchanged": "draft"
+      },
+      "approve": {
+        "httpStatus": 200,
+        "status": "approved",
+        "contentVersion": 2
+      },
+      "post": {
+        "status": "approved",
+        "content_version": 2,
+        "diagramCount": 1,
+        "diagramSha": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1",
+        "authRead": {
+          "status": 200,
+          "contentType": "image/png",
+          "sha256": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1",
+          "bytes": 26172
+        },
+        "effectiveReview": {
+          "id": 134,
+          "content_version": 2,
+          "content_fingerprint": "e464af249073749161f7ebba8a4ab9f7ea7922906e7e1b8a538963598c781375",
+          "review_status": "passed"
+        }
+      }
+    },
+    {
+      "code": "CAND-G1B-080",
+      "itemId": "231",
+      "ok": true,
+      "panel": {
+        "contentVersion": 2,
+        "contentFingerprint": "2601360d50b59c8ce2afe690885df65231f3033db5362977f02fd446aba9cad8"
+      },
+      "review": {
+        "httpStatus": 201,
+        "reviewId": "135",
+        "reviewStatus": "passed",
+        "itemStatusUnchanged": "draft"
+      },
+      "approve": {
+        "httpStatus": 200,
+        "status": "approved",
+        "contentVersion": 2
+      },
+      "post": {
+        "status": "approved",
+        "content_version": 2,
+        "diagramCount": 1,
+        "diagramSha": "c01574e808ba150866781d4fd716348fb3331359c635ae5f1a4b46f137ef31fc",
+        "authRead": {
+          "status": 200,
+          "contentType": "image/png",
+          "sha256": "c01574e808ba150866781d4fd716348fb3331359c635ae5f1a4b46f137ef31fc",
+          "bytes": 25377
+        },
+        "effectiveReview": {
+          "id": 135,
+          "content_version": 2,
+          "content_fingerprint": "2601360d50b59c8ce2afe690885df65231f3033db5362977f02fd446aba9cad8",
+          "review_status": "passed"
+        }
+      }
+    },
+    {
+      "code": "CAND-G1B-064",
+      "itemId": "215",
+      "ok": true,
+      "panel": {
+        "contentVersion": 3,
+        "contentFingerprint": "2ab277fc2fdd34b1259f5e258f0582ed3468180eec0521a61a32ded4b40dfcb0"
+      },
+      "review": {
+        "httpStatus": 201,
+        "reviewId": "136",
+        "reviewStatus": "passed",
+        "itemStatusUnchanged": "draft"
+      },
+      "approve": {
+        "httpStatus": 200,
+        "status": "approved",
+        "contentVersion": 3
+      },
+      "post": {
+        "status": "approved",
+        "content_version": 3,
+        "diagramCount": 1,
+        "diagramSha": "a3549131d845107b4c795242013f50beb048639b056b1c302e79276dc8b4abf7",
+        "authRead": {
+          "status": 200,
+          "contentType": "image/png",
+          "sha256": "a3549131d845107b4c795242013f50beb048639b056b1c302e79276dc8b4abf7",
+          "bytes": 20372
+        },
+        "effectiveReview": {
+          "id": 136,
+          "content_version": 3,
+          "content_fingerprint": "2ab277fc2fdd34b1259f5e258f0582ed3468180eec0521a61a32ded4b40dfcb0",
+          "review_status": "passed"
+        }
+      }
+    },
+    {
+      "code": "CAND-G1B-091",
+      "itemId": "242",
+      "ok": true,
+      "panel": {
+        "contentVersion": 2,
+        "contentFingerprint": "b93e4f06c1c93e63aff702a8a2ee32aa057f4d92e366067e0a2414816cce6157"
+      },
+      "review": {
+        "httpStatus": 201,
+        "reviewId": "137",
+        "reviewStatus": "passed",
+        "itemStatusUnchanged": "draft"
+      },
+      "approve": {
+        "httpStatus": 200,
+        "status": "approved",
+        "contentVersion": 2
+      },
+      "post": {
+        "status": "approved",
+        "content_version": 2,
+        "diagramCount": 1,
+        "diagramSha": "a77867e8beb43226cd1e230b043151a00e851f560026d7882c15b0a5584f19f8",
+        "authRead": {
+          "status": 200,
+          "contentType": "image/png",
+          "sha256": "a77867e8beb43226cd1e230b043151a00e851f560026d7882c15b0a5584f19f8",
+          "bytes": 26916
+        },
+        "effectiveReview": {
+          "id": 137,
+          "content_version": 2,
+          "content_fingerprint": "b93e4f06c1c93e63aff702a8a2ee32aa057f4d92e366067e0a2414816cce6157",
+          "review_status": "passed"
+        }
+      }
+    }
+  ],
+  "post": {
+    "drawable": 113,
+    "sessions": 133,
+    "sessionItems": 357,
+    "sessionsUnchanged": true,
+    "sessionItemsUnchanged": true
+  },
+  "blockers": [],
+  "mathReviews": [
+    {
+      "code": "CAND-G1B-093",
+      "decision": "passed",
+      "reasons": [
+        "OK:draft",
+        "OK:cv=2",
+        "OK:formal/active",
+        "OK:exactly 1 diagram",
+        "OK:diagram sha matches 147",
+        "OK:stem has 正方体",
+        "OK:stem has BD",
+        "OK:stem has 平面",
+        "OK:answer has BD",
+        "OK:answer has 平面",
+        "OK:analysis has 线面垂直",
+        "OK:application answer",
+        "OK:maxScore=10",
+        "OK:rubric present",
+        "OK:analysis present",
+        "OK:KP rjb.8.6.02",
+        "OK:method classification,equiv_transform",
+        "OK:no current-cv review yet (prior stale)",
+        "CHECKLIST:正方体题干含 BD1 与平面 A1C1D",
+        "CHECKLIST:插图 SHA 匹配 093 终版；示意不写结论",
+        "CHECKLIST:标准答案/rubric/解析与既有一致",
+        "CHECKLIST:application rubric maxScore=10"
+      ]
+    },
+    {
+      "code": "CAND-G1B-080",
+      "decision": "passed",
+      "reasons": [
+        "OK:draft",
+        "OK:cv=2",
+        "OK:formal/active",
+        "OK:exactly 1 diagram",
+        "OK:diagram sha matches 147",
+        "OK:stem has 平行四边形",
+        "OK:stem has 向量",
+        "OK:answer has 中点",
+        "OK:analysis has 平分",
+        "OK:application answer",
+        "OK:maxScore=10",
+        "OK:rubric present",
+        "OK:analysis present",
+        "OK:KP rjb.6.4.04",
+        "OK:method equiv_transform",
+        "OK:no current-cv review yet (prior stale)",
+        "CHECKLIST:向量题干 AB=a AD=b",
+        "CHECKLIST:插图 SHA 匹配 080；无「互相平分」结论字样",
+        "CHECKLIST:标准答案/rubric/解析与既有一致",
+        "CHECKLIST:application rubric maxScore=10"
+      ]
+    },
+    {
+      "code": "CAND-G1B-064",
+      "decision": "passed",
+      "reasons": [
+        "OK:draft",
+        "OK:cv=3",
+        "OK:formal/active",
+        "OK:exactly 1 diagram",
+        "OK:diagram sha matches 147",
+        "OK:stem has 塔顶的仰角为",
+        "OK:stem no 顶角",
+        "OK:stem has 40",
+        "OK:stem has 30",
+        "OK:answer has 40",
+        "OK:answer has 3",
+        "OK:analysis has tan",
+        "OK:analysis has 30",
+        "OK:application answer",
+        "OK:maxScore=10",
+        "OK:rubric present",
+        "OK:064 answer 40…/3 form",
+        "OK:analysis present",
+        "OK:KP rja.5.7.03",
+        "OK:method special_value",
+        "OK:no current-cv review yet (prior stale)",
+        "CHECKLIST:题干已为仰角（非顶角歧义）",
+        "CHECKLIST:答案 40√3/3 与仰角模型一致；图注仰角30°无结果值",
+        "CHECKLIST:标准答案/rubric/解析与既有一致",
+        "CHECKLIST:插图 SHA 匹配 064"
+      ]
+    },
+    {
+      "code": "CAND-G1B-091",
+      "decision": "passed",
+      "reasons": [
+        "OK:draft",
+        "OK:cv=2",
+        "OK:formal/active",
+        "OK:exactly 1 diagram",
+        "OK:diagram sha matches 147",
+        "OK:stem has 斜二测",
+        "OK:analysis has 选 A",
+        "OK:091 answer A",
+        "OK:091 options=4",
+        "OK:091 option ids ABCD",
+        "OK:analysis present",
+        "OK:KP rjb.8.2.01",
+        "OK:method graph_symmetry",
+        "OK:no current-cv review yet (prior stale)",
+        "CHECKLIST:单选正确项 A；题干/选项未改",
+        "CHECKLIST:插图新版无 90°/45°/135° 文字、不圈选选项",
+        "CHECKLIST:解析与选项 A 一致",
+        "CHECKLIST:SHA 前缀 a77867e8beb4"
+      ]
+    }
+  ],
+  "adminUserId": "2"
+}

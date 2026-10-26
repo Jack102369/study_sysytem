@@ -1,0 +1,1063 @@
+{
+  "phase": "HS-MATH-BANK-GLOBAL-1G",
+  "authorized": true,
+  "startedAt": "2026-10-26T08:43:22.409Z",
+  "decision": "DRAFT_IMPORT_PASS",
+  "candidateSha256": "af432ba5cccf2686fdfcc568680f398aa20ebf6baf008b3d74f4858b192ea1ce",
+  "adaptedSha256": "ec6ae2e80bb729f3a34b67997ea9676b5777fa741ef29f0a119e6deb7efe35af",
+  "backup": {
+    "hs_math_train_items": {
+      "path": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\docs\\high_school_math\\_backups\\g1g_hs_math_train_items_2026-10-26T08-43-22.sql",
+      "bytes": 74575,
+      "mtime": "2026-10-26T08:43:22.500Z",
+      "sha256": "948c22feb7231d1fe328ed8d70567eefd708af10bcf50e4f49a5f736371316a2",
+      "nonEmpty": true,
+      "readableHead": "-- MySQL dump 10.13  Distrib 8.0.44, for Win64 (x86_64)\r\n--\r\n-- Host: 127.0.0.1 "
+    },
+    "hs_math_train_item_kps": {
+      "path": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\docs\\high_school_math\\_backups\\g1g_hs_math_train_item_kps_2026-10-26T08-43-22.sql",
+      "bytes": 10084,
+      "mtime": "2026-10-26T08:43:22.552Z",
+      "sha256": "afc3609c2ad2cec5ed11d478258c110b1d2273d71ba6b103a0f310a36abadcce",
+      "nonEmpty": true,
+      "readableHead": "-- MySQL dump 10.13  Distrib 8.0.44, for Win64 (x86_64)\r\n--\r\n-- Host: 127.0.0.1 "
+    },
+    "hs_math_train_item_methods": {
+      "path": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\docs\\high_school_math\\_backups\\g1g_hs_math_train_item_methods_2026-10-26T08-43-22.sql",
+      "bytes": 3634,
+      "mtime": "2026-10-26T08:43:22.603Z",
+      "sha256": "c839049f42db7deae5b9e8541e92e50afeb6403a44608522ae7957117e4ced96",
+      "nonEmpty": true,
+      "readableHead": "-- MySQL dump 10.13  Distrib 8.0.44, for Win64 (x86_64)\r\n--\r\n-- Host: 127.0.0.1 "
+    },
+    "hs_math_train_item_reviews": {
+      "path": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\docs\\high_school_math\\_backups\\g1g_hs_math_train_item_reviews_2026-10-26T08-43-22.sql",
+      "bytes": 5160,
+      "mtime": "2026-10-26T08:43:22.654Z",
+      "sha256": "6e9e23b6916ef53dddac7a20bc202081f384cb7e4a5219bedc2629fca040d9e8",
+      "nonEmpty": true,
+      "readableHead": "-- MySQL dump 10.13  Distrib 8.0.44, for Win64 (x86_64)\r\n--\r\n-- Host: 127.0.0.1 "
+    }
+  },
+  "pre": {
+    "adapt": {
+      "n": 100,
+      "qtype": {
+        "judge": 16,
+        "single": 34,
+        "numeric": 19,
+        "multi": 7,
+        "application": 24
+      },
+      "difficulty": {
+        "1": 35,
+        "2": 40,
+        "3": 25
+      },
+      "codesUnique": true
+    },
+    "db": {
+      "hitCandPrefix": 0,
+      "exactCodeHits": 0,
+      "drawable": 13,
+      "approved": 13,
+      "reviewPassed": 13,
+      "sessions": 131,
+      "sessionItems": 354,
+      "itemsN": 111
+    }
+  },
+  "preview": {
+    "httpStatus": 201,
+    "canConfirm": true,
+    "itemCount": 100,
+    "errorCount": 0,
+    "warningCount": 101,
+    "expiresAt": "2026-10-26T09:13:22.731Z",
+    "hasToken": true,
+    "failedItems": [],
+    "warnItems": [
+      {
+        "code": "CAND-G1B-001",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-002",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-003",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-004",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-005",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-006",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-007",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-008",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-009",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-010",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-011",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-012",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-013",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-014",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-015",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-016",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-017",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-018",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-019",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-020",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-021",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-022",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-023",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-024",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-025",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-026",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-027",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-028",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-029",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-030",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-031",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-032",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-033",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-034",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-035",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-036",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-037",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-038",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-039",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-040",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-041",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-042",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-043",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-044",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-045",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-046",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-047",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-048",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-049",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-050",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-051",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-052",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-053",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-054",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-055",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-056",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-057",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-058",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-059",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-060",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-061",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-062",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-063",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-064",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-065",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-066",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-067",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-068",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-069",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-070",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-071",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-072",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-073",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-074",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          },
+          {
+            "code": "BATCH_STEM_DUP",
+            "message": "本批题干与第 37 题高度相似"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-075",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-076",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-077",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-078",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-079",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-080",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-081",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-082",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-083",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-084",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-085",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-086",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-087",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-088",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-089",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-090",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-091",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-092",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-093",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-094",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-095",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-096",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-097",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-098",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-099",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      },
+      {
+        "code": "CAND-G1B-100",
+        "warnings": [
+          {
+            "code": "MATH_HUMAN_REVIEW",
+            "message": "结构合法不等于数学正确；批准前须人工核对题干/答案/解析"
+          }
+        ]
+      }
+    ]
+  },
+  "confirm": {
+    "httpStatus": 201,
+    "success": true,
+    "mode": "created",
+    "successCount": 100,
+    "failCount": 0,
+    "notice": "已全部写入 draft；未自动批准。请人工审核后批准。",
+    "itemSample": [
+      {
+        "id": "152",
+        "code": "CAND-G1B-001",
+        "status": "draft"
+      },
+      {
+        "id": "153",
+        "code": "CAND-G1B-002",
+        "status": "draft"
+      },
+      {
+        "id": "154",
+        "code": "CAND-G1B-003",
+        "status": "draft"
+      }
+    ],
+    "itemCountReturned": 100
+  },
+  "post": {
+    "candCount": 100,
+    "badStatus": [],
+    "approvedDelta": 0,
+    "reviewPassedDelta": 0,
+    "drawableNow": 13,
+    "sessionsDelta": 0,
+    "sessionItemsDelta": 0,
+    "itemsDelta": 100,
+    "kpLinks": 100,
+    "methodLinks": 109,
+    "appCount": 24,
+    "appRubricOk": 24,
+    "qtypeDist": {
+      "judge": 16,
+      "single": 34,
+      "numeric": 19,
+      "multi": 7,
+      "application": 24
+    },
+    "diffDist": {
+      "1": 35,
+      "2": 40,
+      "3": 25
+    },
+    "expectedMethodLinks": 109
+  },
+  "warnings037074": {
+    "sameNormStem": true,
+    "stem037": "正确的是（多选）",
+    "stem074": "正确的是（多选）",
+    "answer037": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    "answer074": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "note": "短题干相同但选项/知识点/答案不同；导入 BATCH_STEM_DUP 仅为 warning"
+  },
+  "errors": [],
+  "endedAt": "2026-10-26T08:43:23.824Z"
+}

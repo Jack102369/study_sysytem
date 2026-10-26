@@ -1,17 +1,31 @@
 import {
   Body,
   Controller,
+  Delete,
   Get,
+  Header,
   Param,
   Patch,
   Post,
   Put,
   Query,
+  Res,
+  StreamableFile,
+  UploadedFile,
   UseGuards,
+  UseInterceptors,
 } from '@nestjs/common'
+import { FileInterceptor } from '@nestjs/platform-express'
+import { memoryStorage } from 'multer'
+import type { Response } from 'express'
 import { AdminGuard } from '../../auth/admin.guard'
 import { CurrentUser } from '../../auth/current-user.decorator'
 import { JwtAuthGuard, JwtPayload } from '../../auth/jwt-auth.guard'
+import { HS_MATH_ITEM_DIAGRAM_MAX_BYTES } from '../hs-math.constants'
+import {
+  ReorderHsMathItemDiagramsDto,
+} from '../dto/admin-train-item-diagram.dto'
+import { HsMathAdminTrainItemDiagramsService } from './hs-math-admin-train-item-diagrams.service'
 import { ReplaceHsMathTrainItemKpsDto } from '../dto/admin-train-item-kps.dto'
 import {
   PutHsMathTrainItemContentMetaDto,
@@ -40,6 +54,7 @@ export class HsMathAdminTrainItemsController {
     private readonly service: HsMathAdminTrainItemsService,
     private readonly importService: HsMathAdminTrainItemsImportService,
     private readonly reviewsService: HsMathAdminTrainItemReviewsService,
+    private readonly diagramsService: HsMathAdminTrainItemDiagramsService,
   ) {}
 
   @Get()
@@ -73,6 +88,78 @@ export class HsMathAdminTrainItemsController {
   @Get(':id/review-panel')
   reviewPanel(@Param('id') id: string) {
     return this.reviewsService.getReviewPanel(id)
+  }
+
+  /** DIAGRAM-1B：题干插图（须在泛型 :id 前注册） */
+  @Get(':id/diagrams')
+  listDiagrams(@Param('id') id: string) {
+    return this.diagramsService.listForItem(id)
+  }
+
+  @Post(':id/diagrams')
+  @UseInterceptors(
+    FileInterceptor('file', {
+      storage: memoryStorage(),
+      limits: { fileSize: HS_MATH_ITEM_DIAGRAM_MAX_BYTES },
+    }),
+  )
+  uploadDiagram(
+    @CurrentUser() user: JwtPayload,
+    @Param('id') id: string,
+    @UploadedFile() file?: Express.Multer.File,
+    @Body('altText') altText?: string,
+  ) {
+    return this.diagramsService.upload(user.sub, id, file, altText)
+  }
+
+  @Patch(':id/diagrams/order')
+  reorderDiagrams(
+    @CurrentUser() user: JwtPayload,
+    @Param('id') id: string,
+    @Body() dto: ReorderHsMathItemDiagramsDto,
+  ) {
+    return this.diagramsService.reorder(user.sub, id, dto.orderedLinkIds)
+  }
+
+  @Post(':id/diagrams/:linkId/replace')
+  @UseInterceptors(
+    FileInterceptor('file', {
+      storage: memoryStorage(),
+      limits: { fileSize: HS_MATH_ITEM_DIAGRAM_MAX_BYTES },
+    }),
+  )
+  replaceDiagram(
+    @CurrentUser() user: JwtPayload,
+    @Param('id') id: string,
+    @Param('linkId') linkId: string,
+    @UploadedFile() file?: Express.Multer.File,
+    @Body('altText') altText?: string,
+  ) {
+    return this.diagramsService.replace(user.sub, id, linkId, file, altText)
+  }
+
+  @Delete(':id/diagrams/:linkId')
+  deleteDiagram(
+    @CurrentUser() user: JwtPayload,
+    @Param('id') id: string,
+    @Param('linkId') linkId: string,
+  ) {
+    return this.diagramsService.remove(user.sub, id, linkId)
+  }
+
+  @Get(':id/diagrams/:linkId/content')
+  @Header('Cache-Control', 'private, no-store')
+  async readDiagramContent(
+    @Param('id') id: string,
+    @Param('linkId') linkId: string,
+    @Res({ passthrough: true }) res: Response,
+  ) {
+    const { mimeType, buffer } = await this.diagramsService.readContentForAdmin(
+      id,
+      linkId,
+    )
+    res.setHeader('Content-Type', mimeType)
+    return new StreamableFile(buffer)
   }
 
   @Get(':id')

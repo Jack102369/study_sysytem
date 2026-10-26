@@ -1,0 +1,1117 @@
+[
+  {
+    "candidateCode": "CAND-G1B-049",
+    "itemId": "200",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "$\\alpha$ 终边过 $P(-3,4)$，则 $\\sin\\alpha=$",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$3/5$"
+        },
+        {
+          "id": "B",
+          "text": "$4/5$"
+        },
+        {
+          "id": "C",
+          "text": "$-4/5$"
+        },
+        {
+          "id": "D",
+          "text": "$-3/5$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "终边上点 $P(-3,4)$，半径 $r=\\sqrt{(-3)^2+4^2}=5$。按定义 $\\sin\\alpha=\\dfrac{y}{r}=\\dfrac{4}{5}$（纵坐标为正，正弦为正）。选 B。",
+    "kps": [
+      {
+        "id": "99",
+        "code": "rja.5.2.01",
+        "name": "三角函数定义",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "f85a08fe9a99f3a6c33600cd42a4101714cbd110158c8c830232b2bd63a11a11",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "56",
+      "code": "5.2",
+      "name": "三角函数的概念"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-050",
+    "itemId": "201",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "$\\sin\\theta=\\dfrac35$，$\\theta$ 在第二象限，则 $\\cos\\theta=$",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$4/5$"
+        },
+        {
+          "id": "B",
+          "text": "$-4/5$"
+        },
+        {
+          "id": "C",
+          "text": "$3/5$"
+        },
+        {
+          "id": "D",
+          "text": "$-3/5$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "由 $\\sin^2+\\cos^2=1$，$\\cos^2=1-(\\dfrac{3}{5})^2=\\dfrac{16}{25}$。第二象限余弦为负，故 $\\cos\\theta=-\\dfrac{4}{5}$。选 B。",
+    "kps": [
+      {
+        "id": "100",
+        "code": "rja.5.2.02",
+        "name": "同角关系",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "eb05bd1fad9616b6a9536877daeae85b995ae8c31ba643fc1bff120ead99c0e7",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "56",
+      "code": "5.2",
+      "name": "三角函数的概念"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-053",
+    "itemId": "204",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "$y=\\sin x$ 的最小正周期为",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$2\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$4\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "$\\pi/2$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "正弦函数 $y=\\sin x$ 的图象每隔 $2\\pi$ 重复一次，且 $2\\pi$ 是最小正周期（更小的正数如 $\\pi$ 不成立，因 $\\sin(x+\\pi)=-\\sin x$）。选 B。",
+    "kps": [
+      {
+        "id": "105",
+        "code": "rja.5.4.01",
+        "name": "正弦函数性质",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "33",
+        "code": "graph_symmetry",
+        "name": "图象对称分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "899dfdc415309c33c7222d21f88e8dfd0b83d61b008ace58e2e494eb393f65c6",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "58",
+      "code": "5.4",
+      "name": "三角函数的图象与性质"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-055",
+    "itemId": "206",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 2,
+    "stem": "$\\cos75^\\circ=$",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{\\sqrt6+\\sqrt2}{4}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{\\sqrt6-\\sqrt2}{4}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{\\sqrt2-\\sqrt6}{4}$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\frac{\\sqrt6+\\sqrt2}{4}$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "$\\cos75^\\circ=\\cos(45^\\circ+30^\\circ)=\\cos45\\cos30-\\sin45\\sin30=\\dfrac{\\sqrt2}{2}\\cdot\\dfrac{\\sqrt3}{2}-\\dfrac{\\sqrt2}{2}\\cdot\\dfrac12=\\dfrac{\\sqrt6-\\sqrt2}{4}$。选 B。",
+    "kps": [
+      {
+        "id": "108",
+        "code": "rja.5.5.01",
+        "name": "和差公式",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "711ebaac3723398feb22ea63ac461ad04ff42b56c26d4325f5e2938f1fc70977",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "59",
+      "code": "5.5",
+      "name": "三角恒等变换"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-058",
+    "itemId": "209",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 2,
+    "stem": "$y=3\\sin(2x+\\pi/3)$ 的振幅为",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$2$"
+        },
+        {
+          "id": "B",
+          "text": "$3$"
+        },
+        {
+          "id": "C",
+          "text": "$\\pi/3$"
+        },
+        {
+          "id": "D",
+          "text": "$2\\pi$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "形如 $y=A\\sin(\\omega x+\\varphi)$ 的函数，振幅是 $|A|$，周期由 $\\omega$ 决定，初相由 $\\varphi$ 决定。本题系数 $A=3$，因此振幅为 $3$，与 $2$、$\\pi/3$ 无关。选 B。",
+    "kps": [
+      {
+        "id": "112",
+        "code": "rja.5.6.01",
+        "name": "振幅周期相位",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "33",
+        "code": "graph_symmetry",
+        "name": "图象对称分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "f7836623ab6a2d3a4142d0a08fa12477cbf9ac2756ac5a8550d38566379eacab",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "60",
+      "code": "5.6",
+      "name": "函数 y=Asin(ωx+φ)"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-061",
+    "itemId": "212",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "$h=2\\sin(3t)+5$ 的最大值为",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$2$"
+        },
+        {
+          "id": "B",
+          "text": "$3$"
+        },
+        {
+          "id": "C",
+          "text": "$5$"
+        },
+        {
+          "id": "D",
+          "text": "$7$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "D"
+    },
+    "analysis": "函数 $h=2\\sin(3t)+5$ 中，$\\sin(3t)\\in[-1,1]$，从而 $2\\sin(3t)\\in[-2,2]$，再加上常数 $5$，得值域 $h\\in[3,7]$。因此最大值为 $7$，选 D。注意最大值不是振幅 $2$，也不是平衡位置 $5$；角频率 $3$ 只影响周期，不影响最值。当 $\\sin(3t)=1$ 时取到 $7$。",
+    "kps": [
+      {
+        "id": "115",
+        "code": "rja.5.7.01",
+        "name": "简谐振动",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "32",
+        "code": "special_value",
+        "name": "特殊值法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "be94d750ba6c9304c8d33a9f86865289fad2b4095765a4dd36dfdcbb4c8e2c70",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "61",
+      "code": "5.7",
+      "name": "三角函数的应用"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-063",
+    "itemId": "214",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "$\\cos(\\pi-\\alpha)=$",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\cos\\alpha$"
+        },
+        {
+          "id": "B",
+          "text": "$-\\cos\\alpha$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin\\alpha$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\sin\\alpha$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "诱导公式：$\\cos(\\pi-\\alpha)=-\\cos\\alpha$，故选 B。几何理解：$\\pi-\\alpha$ 与 $\\alpha$ 互补（或看作第二象限相关角），余弦在第二象限为负，因而带负号。常见混淆：误记成 $\\cos\\alpha$（偶次不变却忘看符号），或与 $\\sin(\\pi-\\alpha)=\\sin\\alpha$ 搞混。可用 $\\alpha=0$：$\\cos\\pi=-1=-\\cos0$ 快速核对。",
+    "kps": [
+      {
+        "id": "103",
+        "code": "rja.5.3.02",
+        "name": "互化求值",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "bcfb4bdf8e8b127a3237b88d4087f0ab39c2acbbe7670b31baa458ae46f3a231",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "57",
+      "code": "5.3",
+      "name": "诱导公式"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-069",
+    "itemId": "220",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "$\\vec a+\\vec b=\\vec b+\\vec a$ 体现",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "交换律"
+        },
+        {
+          "id": "B",
+          "text": "结合律"
+        },
+        {
+          "id": "C",
+          "text": "分配律"
+        },
+        {
+          "id": "D",
+          "text": "数乘律"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "A"
+    },
+    "analysis": "等式 $\\vec a+\\vec b=\\vec b+\\vec a$ 左右只是加项顺序互换而结果相同，这正是向量加法的交换律。选 A。对照：结合律形如 $(\\vec a+\\vec b)+\\vec c=\\vec a+(\\vec b+\\vec c)$；分配律涉及数乘。",
+    "kps": [
+      {
+        "id": "131",
+        "code": "rjb.6.2.01",
+        "name": "向量加法",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "34",
+        "code": "num_shape",
+        "name": "数形结合",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "4fcd3258c219314bfa3e9dbea5901a6d0d7974c0b91ac6d454d75f0654a9e045",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "63",
+      "code": "6.2",
+      "name": "平面向量的运算"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-071",
+    "itemId": "222",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "$\\vec a=(1,0)$，$\\vec b=(0,1)$ 夹角为",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$0^\\circ$"
+        },
+        {
+          "id": "B",
+          "text": "$45^\\circ$"
+        },
+        {
+          "id": "C",
+          "text": "$90^\\circ$"
+        },
+        {
+          "id": "D",
+          "text": "$180^\\circ$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "C"
+    },
+    "analysis": "$\\vec a=(1,0)$、$\\vec b=(0,1)$ 为坐标轴单位向量，数量积 $1\\cdot0+0\\cdot1=0$，故夹角为 $90^\\circ$。选 C。",
+    "kps": [
+      {
+        "id": "133",
+        "code": "rjb.6.2.03",
+        "name": "向量夹角",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "32",
+        "code": "special_value",
+        "name": "特殊值法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "fb3ce33d8b4d60768ff6fea9745f3a9730ce38ebc843b835060c608ea857cd8c",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "63",
+      "code": "6.2",
+      "name": "平面向量的运算"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-077",
+    "itemId": "228",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "相等向量必",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "模相等且方向相同"
+        },
+        {
+          "id": "B",
+          "text": "起点相同"
+        },
+        {
+          "id": "C",
+          "text": "共线"
+        },
+        {
+          "id": "D",
+          "text": "坐标相同"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "A"
+    },
+    "analysis": "相等向量的定义是：模长相等且方向相同（可通过平移完全重合）。起点是否相同、是否共线、坐标是否碰巧相同，都不是“相等”的充要条件。故选 A。平移后的同一有向线段仍表示相等向量，不必共起点。",
+    "kps": [
+      {
+        "id": "129",
+        "code": "rjb.6.1.03",
+        "name": "相等向量",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "ccd08bc7bfb2c0e08a9a590024491ced84c716b2f28deacd178b5884790d78a2",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "62",
+      "code": "6.1",
+      "name": "平面向量的概念"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-078",
+    "itemId": "229",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 2,
+    "stem": "$\\vec a=(2,4)$，$\\vec b=(1,k)$ 共线则 $k=$",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$1$"
+        },
+        {
+          "id": "B",
+          "text": "$2$"
+        },
+        {
+          "id": "C",
+          "text": "$3$"
+        },
+        {
+          "id": "D",
+          "text": "$4$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "平面向量共线（平行）充要条件：存在实数 $\\lambda$ 使 $\\vec b=\\lambda\\vec a$，或非零时坐标成比例。由 $\\dfrac{2}{1}=\\dfrac{4}{k}$ 得 $2k=4$，解得 $k=2$，选 B。代入核验：$(1,2)=\\dfrac12(2,4)$，确为共线。若 $k\\ne2$ 则不存在这样的 $\\lambda$。",
+    "kps": [
+      {
+        "id": "138",
+        "code": "rjb.6.3.03",
+        "name": "共线条件",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "bca60fb82a2fb6aa53b2cac332e074ce51598a7ccec9031ba2b467157c0fd41e",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "64",
+      "code": "6.3",
+      "name": "平面向量基本定理及坐标表示"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-081",
+    "itemId": "232",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "$i^2=$",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$1$"
+        },
+        {
+          "id": "B",
+          "text": "$-1$"
+        },
+        {
+          "id": "C",
+          "text": "$i$"
+        },
+        {
+          "id": "D",
+          "text": "$0$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "虚数单位 $i$ 由关系 $i^2=-1$ 引入（并取 $i\\ne\\pm1$）。因此 $i^2$ 的值就是 $-1$，选 B。常用：$i^3=-i$，$i^4=1$，周期为 $4$，本题直接用定义即可。",
+    "kps": [
+      {
+        "id": "158",
+        "code": "rjb.7.1.01",
+        "name": "虚数单位",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "cbe6b9bede95626fdd0e25226e7ab22bd3139a61aa6a9cb6f174ec86783bf4eb",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "22",
+      "code": "rjb-ch2",
+      "name": "复数"
+    },
+    "category": {
+      "id": "69",
+      "code": "7.1",
+      "name": "复数的概念"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-087",
+    "itemId": "238",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "过直线外一点与已知直线平行的直线有",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "0条"
+        },
+        {
+          "id": "B",
+          "text": "1条"
+        },
+        {
+          "id": "C",
+          "text": "2条"
+        },
+        {
+          "id": "D",
+          "text": "无数条"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "空间中平行的基本事实：过直线外一点，有且只有一条直线与已知直线平行。因此条数为 $1$，选 B。平面内同样成立。注意：“过一点与已知直线垂直的直线”可以有无数条（在垂直平面内），不要与平行情形混淆。",
+    "kps": [
+      {
+        "id": "173",
+        "code": "rjb.8.4.01",
+        "name": "平行公理",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "de63942be1cfcff30de5ae463d2b5b2d2f961ee9179e65efb2846fc9f306e6dc",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "23",
+      "code": "rjb-ch3",
+      "name": "立体几何初步"
+    },
+    "category": {
+      "id": "75",
+      "code": "8.4",
+      "name": "空间点、直线、平面之间的位置关系"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-089",
+    "itemId": "240",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 2,
+    "stem": "若 $l\\perp\\alpha$，则 $l$ 与 $\\alpha$ 内任意直线",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "平行"
+        },
+        {
+          "id": "B",
+          "text": "垂直"
+        },
+        {
+          "id": "C",
+          "text": "相交"
+        },
+        {
+          "id": "D",
+          "text": "不确定"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "线面垂直的性质定理：若直线 $l\\perp$ 平面 $\\alpha$，则 $l$ 垂直于 $\\alpha$ 内的任意一条直线。这是线面垂直定义（垂直于平面内两条相交直线）的直接推论，也是证明线线垂直、求线面角等的常用依据。故选 B（垂直）。不一定平行或相交：平面内直线可与 $l$ 异面（在空间意义下仍保持垂直关系按定义讨论）。",
+    "kps": [
+      {
+        "id": "177",
+        "code": "rjb.8.6.01",
+        "name": "线面垂直",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "c9544d79bac1f776afeb070fe29a8d393e0cf68c9389b34da6f5dd34891bfb73",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "23",
+      "code": "rjb-ch3",
+      "name": "立体几何初步"
+    },
+    "category": {
+      "id": "77",
+      "code": "8.6",
+      "name": "空间直线、平面的垂直"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-091",
+    "itemId": "242",
+    "contentVersion": 2,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "斜二测画法画水平放置的平面图形时，下列说法正确的是",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "原坐标系中 $\\angle xOy=90^\\circ$；直观图中 $\\angle x'O'y'$ 通常取 $45^\\circ$ 或 $135^\\circ$"
+        },
+        {
+          "id": "B",
+          "text": "原坐标系中 $\\angle xOy=45^\\circ$；直观图中 $\\angle x'O'y'=90^\\circ$"
+        },
+        {
+          "id": "C",
+          "text": "原坐标系与直观图中两轴夹角均为 $45^\\circ$"
+        },
+        {
+          "id": "D",
+          "text": "原坐标系与直观图中两轴夹角均为 $90^\\circ$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "A"
+    },
+    "analysis": "斜二测须区分两套角：①原水平面坐标系中 $\\angle xOy=90^\\circ$（直角）；②画成直观图后，教材约定 $\\angle x'O'y'$ 通常取 $45^\\circ$ 或 $135^\\circ$（两种摆放同属合法约定，不可与原直角混谈）。另：$O'z'$ 轴竖直；平行于 $x$、$z$ 轴的线段长度不变，平行于 $y$ 轴的线段取原来的 $\\dfrac12$。故只有 A 同时正确表述原角与直观图角。B 把两角对调；C、D 把两套角说成相同，均错。选 A。",
+    "kps": [
+      {
+        "id": "167",
+        "code": "rjb.8.2.01",
+        "name": "斜二测",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "33",
+        "code": "graph_symmetry",
+        "name": "图象对称分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [
+      {
+        "linkId": "4",
+        "objectId": "4",
+        "sortOrder": 1,
+        "altText": "斜二测两套坐标系对照示意",
+        "contentSha256": "a77867e8beb43226cd1e230b043151a00e851f560026d7882c15b0a5584f19f8",
+        "mimeType": "image/png",
+        "sizeBytes": 26916
+      }
+    ],
+    "expectedDiagramSha": "a77867e8beb43226cd1e230b043151a00e851f560026d7882c15b0a5584f19f8",
+    "diagramShaMatch": true,
+    "contentFingerprint": "b93e4f06c1c93e63aff702a8a2ee32aa057f4d92e366067e0a2414816cce6157",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "23",
+      "code": "rjb-ch3",
+      "name": "立体几何初步"
+    },
+    "category": {
+      "id": "73",
+      "code": "8.2",
+      "name": "立体图形的直观图"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-094",
+    "itemId": "245",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "简单随机抽样每个个体被抽中概率",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "不相等"
+        },
+        {
+          "id": "B",
+          "text": "相等"
+        },
+        {
+          "id": "C",
+          "text": "递增"
+        },
+        {
+          "id": "D",
+          "text": "递减"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "简单随机抽样的核心要求是：总体中每一个个体被抽中的概率都相等（等可能性）。这是它与分层抽样、系统抽样等相区别的基本特征，故选 B。若各个体抽中概率不相等，则不属于简单随机抽样范畴。",
+    "kps": [
+      {
+        "id": "180",
+        "code": "rjb.9.1.01",
+        "name": "简单随机抽样",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "86aab75a02e6c60a303589224222a2101a29115dad6258822d90fb366419558a",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "24",
+      "code": "rjb-ch4",
+      "name": "统计"
+    },
+    "category": {
+      "id": "79",
+      "code": "9.1",
+      "name": "随机抽样"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-097",
+    "itemId": "248",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "掷一枚骰子，样本空间元素个数为",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$4$"
+        },
+        {
+          "id": "B",
+          "text": "$5$"
+        },
+        {
+          "id": "C",
+          "text": "$6$"
+        },
+        {
+          "id": "D",
+          "text": "$7$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "C"
+    },
+    "analysis": "掷一枚公平骰子，可能结果为点数 $1,2,3,4,5,6$，样本空间 $\\Omega=\\{1,2,3,4,5,6\\}$，含 $6$ 个基本事件。选 C。若不考虑点数而谈朝向等，题意通常仍按六点古典概型处理。",
+    "kps": [
+      {
+        "id": "187",
+        "code": "rjb.10.1.01",
+        "name": "样本空间",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "da080b82869efa4ac9ce0fcbf4e2fe90cfec3d9bfdff36a182a2c1ad803c383c",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "25",
+      "code": "rjb-ch5",
+      "name": "概率"
+    },
+    "category": {
+      "id": "82",
+      "code": "10.1",
+      "name": "随机事件与概率"
+    }
+  }
+]

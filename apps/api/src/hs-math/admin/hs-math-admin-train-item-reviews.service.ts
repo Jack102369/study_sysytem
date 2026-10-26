@@ -15,6 +15,8 @@ import { HsMathMethod } from '../entities/hs-math-method.entity'
 import { HsMathTrainItem } from '../entities/hs-math-train-item.entity'
 import { HsMathTrainItemKp } from '../entities/hs-math-train-item-kp.entity'
 import { HsMathTrainItemMethod } from '../entities/hs-math-train-item-method.entity'
+import { HsMathTrainItemDiagram } from '../entities/hs-math-train-item-diagram.entity'
+import { HsMathTrainItemDiagramObject } from '../entities/hs-math-train-item-diagram-object.entity'
 import { HsMathTrainItemReview } from '../entities/hs-math-train-item-review.entity'
 import { User } from '../../users/user.entity'
 import {
@@ -739,6 +741,26 @@ export async function computeItemContentFingerprint(
     if (!isMysqlNoSuchTableError(e)) throw e
   }
 
+  let diagramSha256List: string[] = []
+  try {
+    const dLinks = await manager.getRepository(HsMathTrainItemDiagram).find({
+      where: { itemId: item.id },
+      order: { sortOrder: 'ASC', id: 'ASC' },
+    })
+    if (dLinks.length) {
+      const objs = await manager.getRepository(HsMathTrainItemDiagramObject).find({
+        where: { id: In(dLinks.map((l) => l.objectId)) },
+      })
+      const omap = new Map(objs.map((o) => [String(o.id), o]))
+      diagramSha256List = dLinks
+        .map((l) => omap.get(String(l.objectId))?.contentSha256 || '')
+        .filter((x) => /^[0-9a-f]{64}$/i.test(x))
+        .map((x) => x.toLowerCase())
+    }
+  } catch (e) {
+    if (!isMysqlNoSuchTableError(e)) throw e
+  }
+
   return fingerprintTrainItemContent({
     code: item.code,
     specialtyCode: specialty.code,
@@ -761,5 +783,6 @@ export async function computeItemContentFingerprint(
     sourceLicenseStatus: item.sourceLicenseStatus,
     methodCodes,
     primaryMethodCode,
+    diagramSha256List,
   })
 }

@@ -109,6 +109,20 @@
             <el-tag v-else size="small" type="info">未判</el-tag>
           </div>
           <MathStem class="stem" :text="item.stem" />
+          <HsMathStemDiagrams
+            v-if="session && (item.diagrams || []).length"
+            :items="
+              (item.diagrams || []).map((d) => ({
+                key: d.objectId,
+                contentPath: hsMathSessionItemDiagramContentUrl(
+                  session!.id,
+                  item.id,
+                  d.objectId,
+                ),
+                alt: d.altText,
+              }))
+            "
+          />
           <div class="pair">
             <div>
               <div class="lab">你的答案</div>
@@ -407,11 +421,13 @@ import {
 } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import MathStem from '@/components/hs-math/MathStem.vue'
+import HsMathStemDiagrams from '@/components/hs-math/HsMathStemDiagrams.vue'
 import MathGradeTag from '@/components/hs-math/MathGradeTag.vue'
 import MathApplicationAnswerImages from '@/components/hs-math/MathApplicationAnswerImages.vue'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import {
   getHsMathTrainSession,
+  hsMathSessionItemDiagramContentUrl,
   regradeHsMathApplicationItem,
   type HsMathSessionDetail,
   type HsMathSessionItem,

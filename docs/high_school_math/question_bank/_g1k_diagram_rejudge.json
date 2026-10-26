@@ -1,0 +1,116 @@
+[
+  {
+    "code": "CAND-G1B-086",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (application); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-090",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (application); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-087",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (single); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-088",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (judge); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-089",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (single); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-092",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (multi); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-068",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (application); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-072",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (application); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-076",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (application); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-048",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (application); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-049",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (single); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-050",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (single); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-058",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (single); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-059",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (multi); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-060",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (application); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-027",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (application); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-022",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (application); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-025",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (multi); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  },
+  {
+    "code": "CAND-G1B-098",
+    "priorTag": "RECOMMENDED",
+    "newTag": "RECOMMENDED",
+    "reason": "Stem/data self-contained (application); solvable without figure. Keep RECOMMENDED (do not upgrade to REQUIRED)."
+  }
+]

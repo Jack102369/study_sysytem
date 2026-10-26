@@ -1,0 +1,129 @@
+{
+  "phase": "HS-MATH-BANK-GLOBAL-1K-FIX-REVIEW-APPROVE",
+  "startedAt": "2026-10-26T13:49:35.237Z",
+  "endedAt": "2026-10-26T13:49:36.080Z",
+  "status": "MINOR_FIX_REVIEW_APPROVE_PASS",
+  "base": "http://127.0.0.1:3000",
+  "mathReviews": [
+    {
+      "code": "CAND-G1B-022",
+      "decision": "passed",
+      "reasons": [
+        "OK:draft/cv2",
+        "OK:fp matches 154",
+        "OK:rubric proc,m only",
+        "OK:maxScore=8",
+        "OK:3+5=8",
+        "OK:proc3 m5",
+        "OK:proc forbids copy-stem",
+        "OK:answer x=5 S=25",
+        "OK:indep: S=10x-x^2 vertex x=5 max=25",
+        "OK:alt AM-GM/complete-square allowed by proc wording",
+        "OK:no current-cv passed (stale prior)"
+      ]
+    },
+    {
+      "code": "CAND-G1B-093",
+      "decision": "passed",
+      "reasons": [
+        "OK:draft/cv3",
+        "OK:fp matches 154",
+        "OK:diagram SHA unchanged",
+        "OK:analysis has (-1,1,1)",
+        "OK:analysis has (1,1,0)",
+        "OK:analysis has (0,1,-1)",
+        "OK:analysis has -1+1+0=0",
+        "OK:analysis has 0+1-1=0",
+        "OK:analysis has 线面垂直",
+        "OK:standardAnswer unchanged shape",
+        "OK:rubric l1,l2,c unchanged",
+        "OK:indep dots: BD1·A1C1=0 BD1·A1D=0; intersect at A1 ⇒ line⊥plane"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "code": "CAND-G1B-022",
+      "itemId": "173",
+      "ok": true,
+      "panel": {
+        "contentVersion": 2,
+        "contentFingerprint": "d89ca50f9eb5c58ca844e1b3ba574b5d8b610b2bbcb4d8268f6a20f060579935"
+      },
+      "review": {
+        "httpStatus": 201,
+        "reviewId": "138",
+        "reviewStatus": "passed",
+        "itemStatusUnchanged": "draft"
+      },
+      "approve": {
+        "httpStatus": 200,
+        "status": "approved",
+        "contentVersion": 2
+      },
+      "post": {
+        "status": "approved",
+        "contentVersion": 2,
+        "fp": "d89ca50f9eb5c58ca844e1b3ba574b5d8b610b2bbcb4d8268f6a20f060579935",
+        "effectiveReview": {
+          "id": 138,
+          "content_version": 2,
+          "content_fingerprint": "d89ca50f9eb5c58ca844e1b3ba574b5d8b610b2bbcb4d8268f6a20f060579935",
+          "review_status": "passed"
+        },
+        "diagramSha": null
+      }
+    },
+    {
+      "code": "CAND-G1B-093",
+      "itemId": "244",
+      "ok": true,
+      "panel": {
+        "contentVersion": 3,
+        "contentFingerprint": "67e3fd868032e434fc75be7878ba94be7aefce2c58bf49414da2c05a341066d0"
+      },
+      "review": {
+        "httpStatus": 201,
+        "reviewId": "139",
+        "reviewStatus": "passed",
+        "itemStatusUnchanged": "draft"
+      },
+      "approve": {
+        "httpStatus": 200,
+        "status": "approved",
+        "contentVersion": 3
+      },
+      "post": {
+        "status": "approved",
+        "contentVersion": 3,
+        "fp": "67e3fd868032e434fc75be7878ba94be7aefce2c58bf49414da2c05a341066d0",
+        "effectiveReview": {
+          "id": 139,
+          "content_version": 3,
+          "content_fingerprint": "67e3fd868032e434fc75be7878ba94be7aefce2c58bf49414da2c05a341066d0",
+          "review_status": "passed"
+        },
+        "diagramSha": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1"
+      }
+    }
+  ],
+  "pre": {
+    "drawable": 111,
+    "sessions": 133,
+    "sessionItems": 357,
+    "diagramLinksFour": 4,
+    "otherCandApproved": 98
+  },
+  "post": {
+    "drawable": 113,
+    "sessions": 133,
+    "sessionItems": 357,
+    "sessionsUnchanged": true,
+    "sessionItemsUnchanged": true,
+    "diagramLinksFour": 4,
+    "diagramFourUnchanged": true,
+    "otherCandApproved": 98,
+    "otherUnchanged": true
+  },
+  "blockers": []
+}

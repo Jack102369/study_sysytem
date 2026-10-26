@@ -25,7 +25,11 @@ import { HsMathTrainItemReview } from './entities/hs-math-train-item-review.enti
 import { HsMathTrainSession } from './entities/hs-math-train-session.entity'
 import { HsMathTrainSessionItem } from './entities/hs-math-train-session-item.entity'
 import { HsMathTrainSessionItemImage } from './entities/hs-math-train-session-item-image.entity'
+import { HsMathTrainItemDiagram } from './entities/hs-math-train-item-diagram.entity'
+import { HsMathTrainItemDiagramObject } from './entities/hs-math-train-item-diagram-object.entity'
+import { HsMathTrainSessionItemDiagram } from './entities/hs-math-train-session-item-diagram.entity'
 import { HsMathDeepseekDaily } from './entities/hs-math-deepseek-daily.entity'
+import { HsMathAdminTrainItemDiagramsService } from './admin/hs-math-admin-train-item-diagrams.service'
 import { HsMathHomeController } from './home/hs-math-home.controller'
 import { HsMathKnowledgeController } from './taxonomy/hs-math-knowledge.controller'
 import { HsMathKnowledgeService } from './taxonomy/hs-math-knowledge.service'
@@ -52,6 +56,9 @@ const HS_MATH_ENTITIES = [
   HsMathTrainSession,
   HsMathTrainSessionItem,
   HsMathTrainSessionItemImage,
+  HsMathTrainItemDiagram,
+  HsMathTrainItemDiagramObject,
+  HsMathTrainSessionItemDiagram,
   HsMathDeepseekDaily,
 ]
 
@@ -83,6 +90,7 @@ const HS_MATH_ENTITIES = [
     HsMathAdminTrainItemsService,
     HsMathAdminTrainItemsImportService,
     HsMathAdminTrainItemReviewsService,
+    HsMathAdminTrainItemDiagramsService,
     HsMathTrainService,
     HsMathApplicationImagesService,
     HsMathQwenVisionClientService,

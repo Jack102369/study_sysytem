@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img">
+  <title>CAND-G1B-080 parallelogram</title>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <polygon points="180.00,480.00 620.00,480.00 740.00,220.00 300.00,220.00" fill="rgba(240,246,255,0.9)" stroke="#1c1c20" stroke-width="2.4" opacity="1.0"/>
+  <line x1="180.00" y1="480.00" x2="740.00" y2="220.00" stroke="#1c1c20" stroke-width="2" stroke-linecap="round"/>
+  <line x1="620.00" y1="480.00" x2="300.00" y2="220.00" stroke="#1c1c20" stroke-width="2" stroke-linecap="round"/>
+  <line x1="180.00" y1="480.00" x2="620.00" y2="480.00" stroke="#1c4a9e" stroke-width="2.6" stroke-linecap="round"/>
+  <polygon points="609.19,485.22 620.00,480.00 609.19,474.78" fill="#1c4a9e" stroke="#1c4a9e" stroke-width="1" opacity="1.0"/>
+  <line x1="180.00" y1="480.00" x2="300.00" y2="220.00" stroke="#1c4a9e" stroke-width="2.6" stroke-linecap="round"/>
+  <polygon points="300.21,232.00 300.00,220.00 290.73,227.62" fill="#1c4a9e" stroke="#1c4a9e" stroke-width="1" opacity="1.0"/>
+  <circle cx="460.00" cy="350.00" r="3.5" fill="#1c1c20"/>
+  <text x="158.00" y="508.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">A</text>
+  <text x="630.00" y="508.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">B</text>
+  <text x="750.00" y="212.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">C</text>
+  <text x="276.00" y="212.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">D</text>
+  <text x="468.00" y="342.00" font-size="17" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">M</text>
+  <text x="390.00" y="512.00" font-size="18" fill="#1c4a9e" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">a⃗</text>
+  <text x="204.00" y="350.00" font-size="18" fill="#1c4a9e" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">b⃗</text>
+  <text x="70.00" y="48.00" font-size="22" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">平行四边形 ABCD（已知条件示意）</text>
+  <text x="70.00" y="78.00" font-size="15" fill="#5a5a62" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">AB = a，AD = b；对角线 AC、BD 交于 M</text>
+  <text x="70.00" y="680.00" font-size="14" fill="#5a5a62" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">CAND-G1B-080 · 不标注「互相平分」结论</text>
+</svg>

@@ -147,6 +147,14 @@ export type HsMathSessionItemMethod = {
   isPrimary: boolean
 }
 
+export type HsMathSessionItemDiagram = {
+  objectId: string
+  sortOrder: number
+  altText: string | null
+  mimeType: string
+  contentSha256: string
+}
+
 export type HsMathSessionItem = {
   id: string
   sortOrder: number
@@ -154,6 +162,7 @@ export type HsMathSessionItem = {
   itemCode: string
   qtype: HsMathQtype
   stem: string
+  diagrams?: HsMathSessionItemDiagram[]
   optionsJson: HsMathOptionsJson | null
   userAnswerPayloadJson: HsMathUserAnswerPayload | null
   answeredAt: string | null
@@ -356,6 +365,15 @@ export async function getHsMathAnalytics() {
 
 function sessionItemImagesBase(sessionId: string, sessionItemId: string) {
   return `/hs-math/train/sessions/${encodeURIComponent(sessionId)}/items/${encodeURIComponent(sessionItemId)}/images`
+}
+
+/** DIAGRAM-1B：题干插图鉴权 URL（开训快照 objectId） */
+export function hsMathSessionItemDiagramContentUrl(
+  sessionId: string,
+  sessionItemId: string,
+  objectId: string,
+) {
+  return `/hs-math/train/sessions/${encodeURIComponent(sessionId)}/items/${encodeURIComponent(sessionItemId)}/diagrams/${encodeURIComponent(objectId)}`
 }
 
 export async function uploadHsMathSessionItemImage(

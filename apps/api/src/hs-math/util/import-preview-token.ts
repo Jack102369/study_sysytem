@@ -102,6 +102,14 @@ export function canonicalizeImportItem(raw: unknown): Record<string, unknown> | 
   if (meta) {
     Object.assign(base, meta)
   }
+  // DIAGRAM-1B：仅当存在插图时纳入有序 sha 列表；缺省/空数组不入指纹（旧题兼容）
+  const diagramRaw = Array.isArray(o.diagramSha256List)
+    ? o.diagramSha256List.map((x) => String(x || '').trim().toLowerCase())
+    : []
+  const diagramSha256List = diagramRaw.filter((x) => /^[0-9a-f]{64}$/.test(x))
+  if (diagramSha256List.length) {
+    base.diagramSha256List = diagramSha256List
+  }
   return base
 }
 

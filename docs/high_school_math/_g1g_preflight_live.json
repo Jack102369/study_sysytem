@@ -1,0 +1,106 @@
+{
+  "drawable": 109,
+  "items": [
+    {
+      "code": "CAND-G1B-093",
+      "status": "draft",
+      "cv": 2,
+      "qtype": "application",
+      "linkCount": 1,
+      "sha": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1",
+      "reviews": [
+        {
+          "id": 54,
+          "cv": 1,
+          "status": "passed",
+          "staleVsCurrent": true
+        }
+      ],
+      "stemHasYangjiao": null,
+      "stemHasDingjiao": null,
+      "answerPreview": "[object Object]",
+      "analysisLen": 129,
+      "source": {
+        "license": "unknown",
+        "verification": "unverified"
+      },
+      "preflightOk": true
+    },
+    {
+      "code": "CAND-G1B-080",
+      "status": "draft",
+      "cv": 2,
+      "qtype": "application",
+      "linkCount": 1,
+      "sha": "c01574e808ba150866781d4fd716348fb3331359c635ae5f1a4b46f137ef31fc",
+      "reviews": [
+        {
+          "id": 50,
+          "cv": 1,
+          "status": "passed",
+          "staleVsCurrent": true
+        }
+      ],
+      "stemHasYangjiao": null,
+      "stemHasDingjiao": null,
+      "answerPreview": "[object Object]",
+      "analysisLen": 156,
+      "source": {
+        "license": "unknown",
+        "verification": "unverified"
+      },
+      "preflightOk": true
+    },
+    {
+      "code": "CAND-G1B-064",
+      "status": "draft",
+      "cv": 3,
+      "qtype": "application",
+      "linkCount": 1,
+      "sha": "a3549131d845107b4c795242013f50beb048639b056b1c302e79276dc8b4abf7",
+      "reviews": [
+        {
+          "id": 46,
+          "cv": 1,
+          "status": "passed",
+          "staleVsCurrent": true
+        }
+      ],
+      "stemHasYangjiao": true,
+      "stemHasDingjiao": false,
+      "answerPreview": "[object Object]",
+      "analysisLen": 120,
+      "source": {
+        "license": "unknown",
+        "verification": "unverified"
+      },
+      "preflightOk": true
+    },
+    {
+      "code": "CAND-G1B-091",
+      "status": "draft",
+      "cv": 2,
+      "qtype": "single",
+      "linkCount": 1,
+      "sha": "a77867e8beb43226cd1e230b043151a00e851f560026d7882c15b0a5584f19f8",
+      "reviews": [
+        {
+          "id": 73,
+          "cv": 1,
+          "status": "passed",
+          "staleVsCurrent": true
+        }
+      ],
+      "stemHasYangjiao": null,
+      "stemHasDingjiao": null,
+      "answerPreview": "[object Object]",
+      "analysisLen": 235,
+      "source": {
+        "license": "unknown",
+        "verification": "unverified"
+      },
+      "preflightOk": true
+    }
+  ],
+  "blockers": []
+}

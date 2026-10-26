@@ -650,3 +650,114 @@ export async function publishReviewedTrainItem(id: string) {
     confirmPublish: true,
   })
 }
+
+/** DIAGRAM-1B：题干插图 */
+export type HsMathAdminDiagramLink = {
+  linkId: string
+  objectId: string
+  sortOrder: number
+  altText: string | null
+  contentSha256: string
+  mimeType: string
+  sizeBytes: number
+  widthPx: number | null
+  heightPx: number | null
+  sanitizeStatus: string
+}
+
+export async function listAdminHsMathItemDiagrams(itemId: string) {
+  const { data } = await http.get<
+    ApiSuccess<{
+      itemId: string
+      contentVersion: number
+      status: string
+      diagrams: HsMathAdminDiagramLink[]
+      migrationPending: boolean
+    }>
+  >(`/hs-math/admin/train-items/${encodeURIComponent(itemId)}/diagrams`)
+  return data.data
+}
+
+export async function uploadAdminHsMathItemDiagram(
+  itemId: string,
+  file: File,
+  altText?: string,
+) {
+  const fd = new FormData()
+  fd.append('file', file)
+  if (altText) fd.append('altText', altText)
+  const { data } = await http.post<
+    ApiSuccess<{
+      itemId: string
+      contentVersion: number
+      status: string
+      notice: string
+      diagrams: HsMathAdminDiagramLink[]
+    }>
+  >(`/hs-math/admin/train-items/${encodeURIComponent(itemId)}/diagrams`, fd)
+  return data.data
+}
+
+export async function reorderAdminHsMathItemDiagrams(
+  itemId: string,
+  orderedLinkIds: string[],
+) {
+  const { data } = await http.patch<
+    ApiSuccess<{
+      contentVersion: number
+      status: string
+      diagrams: HsMathAdminDiagramLink[]
+      notice: string
+    }>
+  >(`/hs-math/admin/train-items/${encodeURIComponent(itemId)}/diagrams/order`, {
+    orderedLinkIds,
+  })
+  return data.data
+}
+
+export async function deleteAdminHsMathItemDiagram(
+  itemId: string,
+  linkId: string,
+) {
+  const { data } = await http.delete<
+    ApiSuccess<{
+      contentVersion: number
+      status: string
+      diagrams: HsMathAdminDiagramLink[]
+      notice: string
+    }>
+  >(
+    `/hs-math/admin/train-items/${encodeURIComponent(itemId)}/diagrams/${encodeURIComponent(linkId)}`,
+  )
+  return data.data
+}
+
+export async function replaceAdminHsMathItemDiagram(
+  itemId: string,
+  linkId: string,
+  file: File,
+  altText?: string,
+) {
+  const fd = new FormData()
+  fd.append('file', file)
+  if (altText) fd.append('altText', altText)
+  const { data } = await http.post<
+    ApiSuccess<{
+      contentVersion: number
+      status: string
+      diagrams: HsMathAdminDiagramLink[]
+      notice: string
+    }>
+  >(
+    `/hs-math/admin/train-items/${encodeURIComponent(itemId)}/diagrams/${encodeURIComponent(linkId)}/replace`,
+    fd,
+  )
+  return data.data
+}
+
+export function adminHsMathItemDiagramContentUrl(
+  itemId: string,
+  linkId: string,
+) {
+  return `/hs-math/admin/train-items/${encodeURIComponent(itemId)}/diagrams/${encodeURIComponent(linkId)}/content`
+}

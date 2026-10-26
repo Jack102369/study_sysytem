@@ -1,0 +1,726 @@
+{
+  "phase": "HS-MATH-BANK-GLOBAL-1H-3",
+  "authorized": true,
+  "startedAt": "2026-10-26T09:06:14.767Z",
+  "decision": "REVIEW_REFRESH_PASS",
+  "adminUserId": "2",
+  "backup": {
+    "json": {
+      "path": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\docs\\high_school_math\\_backups\\g1h3_037_074_2026-10-26T09-06-14.json",
+      "bytes": 3107,
+      "sha256": "cbda9fd1c0fb4c69a3617f36ff4eb213770eae1b2caa93a780255bfc6444b3bc",
+      "nonEmpty": true
+    },
+    "sql": {
+      "path": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\docs\\high_school_math\\_backups\\g1h3_037_074_2026-10-26T09-06-14.sql",
+      "bytes": 3538,
+      "sha256": "236f9e83c0e70bc03269d44f6769fd56054ad111f3114f244003f698e68445bc",
+      "nonEmpty": true
+    }
+  },
+  "pre": {
+    "items": [
+      {
+        "id": "188",
+        "code": "CAND-G1B-037",
+        "pool": "formal",
+        "status": "draft",
+        "active": 1,
+        "cv": 1,
+        "stem": "正确的是（多选）"
+      },
+      {
+        "id": "225",
+        "code": "CAND-G1B-074",
+        "pool": "formal",
+        "status": "draft",
+        "active": 1,
+        "cv": 1,
+        "stem": "正确的是（多选）"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "32",
+        "item_id": "188",
+        "status": "passed",
+        "cv": 1,
+        "fp": "f841e04e6fee25cebfc9087222f854a1d76bf220a388ad481eabaa30cda08f60"
+      },
+      {
+        "id": "33",
+        "item_id": "225",
+        "status": "passed",
+        "cv": 1,
+        "fp": "c4e1a6a567fcbf0384700910ccc57d3bef8a2ef2504e8da981fdc0c6b7ce8096"
+      }
+    ],
+    "othersCount": 98,
+    "othersSnapshot": [
+      {
+        "code": "CAND-G1B-001",
+        "cv": 1,
+        "rough": "2fcf4ac4d7c7f9ea4eec69a884544ab2db7366071e91ba0c71ed8ba6fcd2cbce"
+      },
+      {
+        "code": "CAND-G1B-002",
+        "cv": 1,
+        "rough": "85b54b293ce9d4cd35b73bde6a23ffe1e98019eeb8ce46b51d948a4b2a4b8652"
+      },
+      {
+        "code": "CAND-G1B-003",
+        "cv": 1,
+        "rough": "dc3c037a81c4ee4d44c08729a7e77d41d8261f3e654685348b7b04f1c56d3310"
+      },
+      {
+        "code": "CAND-G1B-004",
+        "cv": 1,
+        "rough": "9aadf8cf8824cb781f2c47afeafc5ef5a6ef5b0ec4c4930881c03c00126b913f"
+      },
+      {
+        "code": "CAND-G1B-005",
+        "cv": 1,
+        "rough": "e29a070270e53349faba457bafe5411ddd1cca1854c2a47e592114edb17a20d7"
+      },
+      {
+        "code": "CAND-G1B-006",
+        "cv": 1,
+        "rough": "3fec38423ed25780ccfd797b6825f54de0e5389eec4c353180bdb1d144ef863c"
+      },
+      {
+        "code": "CAND-G1B-007",
+        "cv": 1,
+        "rough": "3722db3272fd8db1721470941a9b78f0abff3aa50bc341b9478a5d96a36b399e"
+      },
+      {
+        "code": "CAND-G1B-008",
+        "cv": 1,
+        "rough": "9baf9818f51e0d64c1f6e4df08c27d55deffd64e97c543a5364840c3a7e88572"
+      },
+      {
+        "code": "CAND-G1B-009",
+        "cv": 1,
+        "rough": "568e036bca57cc92cf521b46269ad5334f45d88b5e97448cd150d5c0545f19da"
+      },
+      {
+        "code": "CAND-G1B-010",
+        "cv": 1,
+        "rough": "b1ad1e75177d86200344a14f7b5b0572a4fcccb51c18185d8dbe933c01c3c5d1"
+      },
+      {
+        "code": "CAND-G1B-011",
+        "cv": 1,
+        "rough": "ef795b8ffe9d79a1fc6f8f76c2ceef4870fd027a716d36303ea97f2c5787dc6f"
+      },
+      {
+        "code": "CAND-G1B-012",
+        "cv": 1,
+        "rough": "c0f26413d556c3ddd4466edd07b9c4b559b40817caba46d75011cab49f815242"
+      },
+      {
+        "code": "CAND-G1B-013",
+        "cv": 1,
+        "rough": "0d243f3d4580d84c2397c51797189496e9d1714bd2cc5c6da43d436b2764db1a"
+      },
+      {
+        "code": "CAND-G1B-014",
+        "cv": 1,
+        "rough": "d878f5d6e26e292d29fd57d6e1e20dca40db17467a92fd83afe69e2c27439039"
+      },
+      {
+        "code": "CAND-G1B-015",
+        "cv": 1,
+        "rough": "a3c504d92c6893680e4cbef2fd55e77f596a784d690046488ea8bf7aa11c494d"
+      },
+      {
+        "code": "CAND-G1B-016",
+        "cv": 1,
+        "rough": "451831d371d1b0aea0e981bac71fa98afa584e17d65b9252b41d359f5661b2fc"
+      },
+      {
+        "code": "CAND-G1B-017",
+        "cv": 1,
+        "rough": "d0717532cd40e0fac060b15b6e4c8823211cf62ccc1e57be7a8fa6284d7b6404"
+      },
+      {
+        "code": "CAND-G1B-018",
+        "cv": 1,
+        "rough": "652696eb08b0579bd4d3c88557700d677e233381d5ebfa39740184fc13ebe740"
+      },
+      {
+        "code": "CAND-G1B-019",
+        "cv": 1,
+        "rough": "fadc5e3a4de02a0c4fbf65dc3e572ddaeece28cc9b41a2d4c6c8ec27a9fa7285"
+      },
+      {
+        "code": "CAND-G1B-020",
+        "cv": 1,
+        "rough": "d4596df123258c1479879301a539d267c32632d0bc28c58f3524d1a78d87e6df"
+      },
+      {
+        "code": "CAND-G1B-021",
+        "cv": 1,
+        "rough": "bcc026aae4859d951d828be3cab6dfc7136402e3a178736c1767d29c6f72cc94"
+      },
+      {
+        "code": "CAND-G1B-022",
+        "cv": 1,
+        "rough": "fb3a5fb6062c1fc219e2a2bee971bc7ecebcf2d476d18a4c62281ebdb14d19c9"
+      },
+      {
+        "code": "CAND-G1B-023",
+        "cv": 1,
+        "rough": "343981130b240ad3bb3e4ca04f41ba3b5f3cac767e87ebfd9ae20bf914283542"
+      },
+      {
+        "code": "CAND-G1B-024",
+        "cv": 1,
+        "rough": "214e9fb53051badc161a349e1088f178b81988b9d92400bf779c7787778a87c7"
+      },
+      {
+        "code": "CAND-G1B-025",
+        "cv": 1,
+        "rough": "a86ba869b3f14b7cdde550e08ebe46cd858db7633b11289ebb61432d1034d0f7"
+      },
+      {
+        "code": "CAND-G1B-026",
+        "cv": 1,
+        "rough": "4d9516955f010a1f06fe9c9cecef0bd811930b2c865ff2b9ba4795360de520df"
+      },
+      {
+        "code": "CAND-G1B-027",
+        "cv": 1,
+        "rough": "4b7457c04555a8b9b58bad20db287d2cb6dfd38f9588d3ea06a5188174bf4337"
+      },
+      {
+        "code": "CAND-G1B-028",
+        "cv": 1,
+        "rough": "377c051284796d4d0003c14dba3749347fe4fb8e63362059c9015cb4d4f8e546"
+      },
+      {
+        "code": "CAND-G1B-029",
+        "cv": 1,
+        "rough": "50c59db635f7a4a95fb40546a21d6a7c5a4f94cc52bf436c9e121fae9fa12431"
+      },
+      {
+        "code": "CAND-G1B-030",
+        "cv": 1,
+        "rough": "6f7ad4ac79952bddae62b29f285664288384e6e4ede3702e4d2df1bd7bd04998"
+      },
+      {
+        "code": "CAND-G1B-031",
+        "cv": 1,
+        "rough": "1d0955666ab504658ba61a89680f290a4ee34de524ee00e873f22c5c221d8586"
+      },
+      {
+        "code": "CAND-G1B-032",
+        "cv": 1,
+        "rough": "8da950d36cb9e87a686f7fc83a5f98574b54e18188e65ae8ec41adbbb8a56fb4"
+      },
+      {
+        "code": "CAND-G1B-033",
+        "cv": 1,
+        "rough": "51c6f3b857a965e328f900ec274c0b29e896ec2895068263d701e0c647ebe31e"
+      },
+      {
+        "code": "CAND-G1B-034",
+        "cv": 1,
+        "rough": "81731cdd5277caa60878c14e36b2a4825af00dd17f1dfaf9053c8fcc8765c297"
+      },
+      {
+        "code": "CAND-G1B-035",
+        "cv": 1,
+        "rough": "3dccd702a568b661613f3b6eab8dbc496c17ed44996ea0d9707e5e8780f5b65e"
+      },
+      {
+        "code": "CAND-G1B-036",
+        "cv": 1,
+        "rough": "f5d4c8c54b8c92231cf1ac381ccd9c2b3232c77d1977b987252eb66f05adb89d"
+      },
+      {
+        "code": "CAND-G1B-038",
+        "cv": 1,
+        "rough": "9b2b67c4aee6e3c3914f14cec393e7fd48058d2db3356dfbaa71b128b6439915"
+      },
+      {
+        "code": "CAND-G1B-039",
+        "cv": 1,
+        "rough": "391e9eb4ca7329a4620e5ae8bbaea76bcced3bc7b7671129ec37c96dc791570d"
+      },
+      {
+        "code": "CAND-G1B-040",
+        "cv": 1,
+        "rough": "328b5031ff47bb9df85121a6870e292b5788c4722137b51b2849d92f451efe93"
+      },
+      {
+        "code": "CAND-G1B-041",
+        "cv": 1,
+        "rough": "8a9e83005e98e4e15b7770cedc9ac575e59e1cc999a5fe7e80b63d8dd5afd080"
+      },
+      {
+        "code": "CAND-G1B-042",
+        "cv": 1,
+        "rough": "a3d2dc5d76ce3b5d3216e0ff4316745b76f079e670d478c9f2759060960268b3"
+      },
+      {
+        "code": "CAND-G1B-043",
+        "cv": 1,
+        "rough": "b42be76bed3790ba837491783c431fb8c459f6db486362cbff1c88c3363835c4"
+      },
+      {
+        "code": "CAND-G1B-044",
+        "cv": 1,
+        "rough": "e867055cc88ade2dc279173016aad17a6e6a4b58c2dcb1184eea3ca108e0d93a"
+      },
+      {
+        "code": "CAND-G1B-045",
+        "cv": 1,
+        "rough": "eaeed85a3f6da6ec4403317966dcd040aa19ad2973266aa25522c1cd91c463ba"
+      },
+      {
+        "code": "CAND-G1B-046",
+        "cv": 1,
+        "rough": "a2cd8869db8c8a08c0f480bf6dfbb67e80c2d5d6df93220b56c9f972c7efde61"
+      },
+      {
+        "code": "CAND-G1B-047",
+        "cv": 1,
+        "rough": "a22ec546e997ca4f366d410154852c2b00f110a229fd3a485bb2bd61a03e02e9"
+      },
+      {
+        "code": "CAND-G1B-048",
+        "cv": 1,
+        "rough": "7842e94777735dbe496e66e1d935d2c73447af0c9d06eadb93022749170565d6"
+      },
+      {
+        "code": "CAND-G1B-049",
+        "cv": 1,
+        "rough": "a8245894225af8746870aef5a63654a77a130af65796ff1079bf54ff61bbd361"
+      },
+      {
+        "code": "CAND-G1B-050",
+        "cv": 1,
+        "rough": "6706cad509a0dd73d03a3ec04cd0480742b257a2f9a0227e53f5479f5094fb96"
+      },
+      {
+        "code": "CAND-G1B-051",
+        "cv": 1,
+        "rough": "9674b73074b3c9b22800d4a766f3749fb221059be1124896d2a81ccbfdf83ba9"
+      },
+      {
+        "code": "CAND-G1B-052",
+        "cv": 1,
+        "rough": "7e40b0927ad951c927c862ce84f4160135e525387dcac5ea9f8f19cc569443e1"
+      },
+      {
+        "code": "CAND-G1B-053",
+        "cv": 1,
+        "rough": "f5dbda0a74730e3a8e2f8654f2db0d69e331566098c8635cd06ffd4f71f611a4"
+      },
+      {
+        "code": "CAND-G1B-054",
+        "cv": 1,
+        "rough": "ab48e90cee64ba305f70ef3a1c6fb4b3b86d4c437ac66f0da408650742627aa0"
+      },
+      {
+        "code": "CAND-G1B-055",
+        "cv": 1,
+        "rough": "b4f7a0f147427ae0f8f182005ecb40c5ddd8478af1e39fae4f663b5edb18811d"
+      },
+      {
+        "code": "CAND-G1B-056",
+        "cv": 1,
+        "rough": "08279f0f5a9f4847345702cceaf3c2b985d6598aae5d557d32a7be9f7a3fdcc2"
+      },
+      {
+        "code": "CAND-G1B-057",
+        "cv": 1,
+        "rough": "40fc4193200f17b7c1847703446f5bb9e259d1599471b60dc36e8c540f95e43b"
+      },
+      {
+        "code": "CAND-G1B-058",
+        "cv": 1,
+        "rough": "d5aa2c9b54d5fb18cc16c96b4ede76c71c7cae4c35afaffaf3d84651bff55645"
+      },
+      {
+        "code": "CAND-G1B-059",
+        "cv": 1,
+        "rough": "0cb3b07479b9dfc826141771a6cb2948b61c2e0069dc5ced8a029bdce6a0f559"
+      },
+      {
+        "code": "CAND-G1B-060",
+        "cv": 1,
+        "rough": "03e5bd54ea180a0567b6f5592eac7add0e69aa8ff9404c90f6c414ccf4a2c410"
+      },
+      {
+        "code": "CAND-G1B-061",
+        "cv": 1,
+        "rough": "af58a8f86ed678e33aab1079d15b1a0f59107b09657c26b13613a0a614af2b5e"
+      },
+      {
+        "code": "CAND-G1B-062",
+        "cv": 1,
+        "rough": "b4908e8fcb2e7e6898b2f4bf043bb34cf631b200a0c30c5a14bbec7211baffc3"
+      },
+      {
+        "code": "CAND-G1B-063",
+        "cv": 1,
+        "rough": "03ebd9cccd0afd0a21d63845afec04439564f92f7f751936c58df0eb6a3f1e7d"
+      },
+      {
+        "code": "CAND-G1B-064",
+        "cv": 1,
+        "rough": "df39d93fbd34d3bca2d7d77067bd2784e18277f81211c82e53e1f179f9e548e4"
+      },
+      {
+        "code": "CAND-G1B-065",
+        "cv": 1,
+        "rough": "b6fc65fc5ad4bf85a3f2d0c9f63e1980f5d922833adb913fe9782b6f9e3d65ce"
+      },
+      {
+        "code": "CAND-G1B-066",
+        "cv": 1,
+        "rough": "7d01420100985832326cb0e85bcad63367e3d3e4cf1a7be9fa2ff7236e88c1be"
+      },
+      {
+        "code": "CAND-G1B-067",
+        "cv": 1,
+        "rough": "d0ce7019b1477d065c6012232ec376c771d00efe303bdc24370cf9fd76e29b4a"
+      },
+      {
+        "code": "CAND-G1B-068",
+        "cv": 1,
+        "rough": "4c0f47e18955f71de73cc11129cbcb665c1d57c5fce8fc94c6d82c7bcd805e88"
+      },
+      {
+        "code": "CAND-G1B-069",
+        "cv": 1,
+        "rough": "230d054a853a5f94563fbfc0dcdafa51879b5c9800c7e9eccf083dd516aed21e"
+      },
+      {
+        "code": "CAND-G1B-070",
+        "cv": 1,
+        "rough": "2ef690e3a796b81f298ba6a4335926f33c01a9415dbf7d6ff6c83f1d73bf6b8d"
+      },
+      {
+        "code": "CAND-G1B-071",
+        "cv": 1,
+        "rough": "38e4cbf16f25c33c6ad6faa1e1ab88134024c56b2248df12b1d87cb56d7db002"
+      },
+      {
+        "code": "CAND-G1B-072",
+        "cv": 1,
+        "rough": "3e921b3dea9ccaa8ad318ddc035fa0531561d1062cea43b8b26a6070e2f89e87"
+      },
+      {
+        "code": "CAND-G1B-073",
+        "cv": 1,
+        "rough": "6dc0dd00ec9e807b79a355d80352e242398270bffbd84f9a9d4f90e867789741"
+      },
+      {
+        "code": "CAND-G1B-075",
+        "cv": 1,
+        "rough": "244c9e671252a357bbcee4d096b5ba7cbfb7811878d9841fdc897d6b180cf78d"
+      },
+      {
+        "code": "CAND-G1B-076",
+        "cv": 1,
+        "rough": "323dcea98df1d27d798d490e8df244366a762997e76a94339822e96539f7fe6b"
+      },
+      {
+        "code": "CAND-G1B-077",
+        "cv": 1,
+        "rough": "5a2649b86f9ce6d501d2c9b3a247eaac972851e6763c85c772256c123855d5ec"
+      },
+      {
+        "code": "CAND-G1B-078",
+        "cv": 1,
+        "rough": "64916613aad8af9360402317ca5128767e8e53ae9bff3a4c34bb45d9a2e4d979"
+      },
+      {
+        "code": "CAND-G1B-079",
+        "cv": 1,
+        "rough": "954d00e5a78adf8b4a4350dc0e422499b2abbb5ddd6786f18d94c2947bb419f6"
+      },
+      {
+        "code": "CAND-G1B-080",
+        "cv": 1,
+        "rough": "67c966ef2bb32de201438d62b248ed171053280cffbe0a0705074cdf67cfc582"
+      },
+      {
+        "code": "CAND-G1B-081",
+        "cv": 1,
+        "rough": "027fea9395791e9563232ef6ce7fd7d8559a9b5713bb0cd647bc6372c95e8f5c"
+      },
+      {
+        "code": "CAND-G1B-082",
+        "cv": 1,
+        "rough": "51221e619cada7d752c75ab34a7f36a2fbad398b858c232759806f56f66b9d7f"
+      },
+      {
+        "code": "CAND-G1B-083",
+        "cv": 1,
+        "rough": "eab3cb1e62f8e37b9d89e09009c6785a06534befd4da415af33bb8bcee26e5e8"
+      },
+      {
+        "code": "CAND-G1B-084",
+        "cv": 1,
+        "rough": "75a7e77bdfe6ffdd8ffcde99db28a66aaf98877ec4364994b6cfd222b6662dc6"
+      },
+      {
+        "code": "CAND-G1B-085",
+        "cv": 1,
+        "rough": "2c64bce7fa422c3b4fc7c5e0e89e1544f456256eadb0eacb919e4d480615d2a7"
+      },
+      {
+        "code": "CAND-G1B-086",
+        "cv": 1,
+        "rough": "55a9b07d2734f462cc1b852d2c0a24b1f89d3e4cbc3034380ec177a1f327436f"
+      },
+      {
+        "code": "CAND-G1B-087",
+        "cv": 1,
+        "rough": "ae8f34096e88ca1e3059263f44b2202f6c474027348b83c587aaa7446bf8d6b1"
+      },
+      {
+        "code": "CAND-G1B-088",
+        "cv": 1,
+        "rough": "509dc88fdc83587a2bf387e4ba5ad1ea44d2466bc7afbb6fd0a53158b3ea9dc7"
+      },
+      {
+        "code": "CAND-G1B-089",
+        "cv": 1,
+        "rough": "0202bf2ae5e4dd7abfdf47166804737f122a87a5dc43d3f035b4c4b0a0cb8109"
+      },
+      {
+        "code": "CAND-G1B-090",
+        "cv": 1,
+        "rough": "f08e0441d6487c962c23fc0f5b0b77752698c20ce925a70a4974af09dac4c644"
+      },
+      {
+        "code": "CAND-G1B-091",
+        "cv": 1,
+        "rough": "91090419613ade1aa8a256748821132cab9586563f54eb1cc2cc09e90efb004e"
+      },
+      {
+        "code": "CAND-G1B-092",
+        "cv": 1,
+        "rough": "c425756c9b354250550aed87bb2a352dc6e35310c9d6a40dbcc9afc036d40ec0"
+      },
+      {
+        "code": "CAND-G1B-093",
+        "cv": 1,
+        "rough": "d455ad096f6bcff47faa42adbbafc7c44793dc063c880cf85e953e8ebbc3009e"
+      },
+      {
+        "code": "CAND-G1B-094",
+        "cv": 1,
+        "rough": "b49285078adfd46aab70e175211f1d6a8849627016296b2cce60ba604ce87834"
+      },
+      {
+        "code": "CAND-G1B-095",
+        "cv": 1,
+        "rough": "1ad023cf7e51d7a5394c85a9300b1b8598073d276432174ae0ede0391c5a79c5"
+      },
+      {
+        "code": "CAND-G1B-096",
+        "cv": 1,
+        "rough": "0ac28172112fa6fc7cf2398cd4638dc48c8caac0fddd577044a62a997a5e88a6"
+      },
+      {
+        "code": "CAND-G1B-097",
+        "cv": 1,
+        "rough": "508679cd44387ae2f301274498ba5597f213d0b5ca870c69ecc823c7e5b24e2c"
+      },
+      {
+        "code": "CAND-G1B-098",
+        "cv": 1,
+        "rough": "7b7b9d04c25ea9bc8977d688598593a1fc67b80282a8f6004cf320ecb61e2b62"
+      },
+      {
+        "code": "CAND-G1B-099",
+        "cv": 1,
+        "rough": "5989f4ad53ad6d4ee2cca4ffa8a96f1e6e9617334559bc747856afb6f91b739d"
+      },
+      {
+        "code": "CAND-G1B-100",
+        "cv": 1,
+        "rough": "7910a5f8430ab77b7d0b4c98e37efa8ce5e689a00abe79ccd1384b5a30c356e3"
+      }
+    ],
+    "drawable": 13,
+    "approved": 13,
+    "sessions": 131,
+    "sessionItems": 354,
+    "panels": {
+      "CAND-G1B-037": {
+        "http": 200,
+        "cv": 1,
+        "fp": "f841e04e6fee25cebfc9087222f854a1d76bf220a388ad481eabaa30cda08f60",
+        "currentReviewStatus": "passed",
+        "fpMatchOldReview": true,
+        "canSubmit": true
+      },
+      "CAND-G1B-074": {
+        "http": 200,
+        "cv": 1,
+        "fp": "c4e1a6a567fcbf0384700910ccc57d3bef8a2ef2504e8da981fdc0c6b7ce8096",
+        "currentReviewStatus": "passed",
+        "fpMatchOldReview": true,
+        "canSubmit": true
+      }
+    }
+  },
+  "patch": {
+    "CAND-G1B-037": {
+      "http": 200,
+      "stem": "下列关于对数运算法则的说法，正确的是（多选）",
+      "cv": 2,
+      "status": "draft",
+      "pool": "formal",
+      "ok": true,
+      "error": null
+    },
+    "CAND-G1B-074": {
+      "http": 200,
+      "stem": "下列关于平面向量运算的说法，正确的是（多选）",
+      "cv": 2,
+      "status": "draft",
+      "pool": "formal",
+      "ok": true,
+      "error": null
+    }
+  },
+  "afterPatch": {
+    "db": [
+      {
+        "code": "CAND-G1B-037",
+        "stem": "下列关于对数运算法则的说法，正确的是（多选）",
+        "cv": 2,
+        "status": "draft",
+        "pool": "formal"
+      },
+      {
+        "code": "CAND-G1B-074",
+        "stem": "下列关于平面向量运算的说法，正确的是（多选）",
+        "cv": 2,
+        "status": "draft",
+        "pool": "formal"
+      }
+    ],
+    "othersChanged": [],
+    "panels": {
+      "CAND-G1B-037": {
+        "http": 200,
+        "cv": 2,
+        "fp": "8e1dc81f9b143d70192591963e92f4df54af9624d5aa0569ec3a482b1922dd26",
+        "currentReviewStatus": "stale",
+        "reviewIsStale": true,
+        "fpChanged": true,
+        "stem": "下列关于对数运算法则的说法，正确的是（多选）",
+        "optionsUnchanged": true
+      },
+      "CAND-G1B-074": {
+        "http": 200,
+        "cv": 2,
+        "fp": "15c80955185461d9746d3af5e495f149e5877cb97932485c78b990118828ca65",
+        "currentReviewStatus": "stale",
+        "reviewIsStale": true,
+        "fpChanged": true,
+        "stem": "下列关于平面向量运算的说法，正确的是（多选）",
+        "optionsUnchanged": true
+      }
+    }
+  },
+  "reviews": {
+    "CAND-G1B-037": {
+      "http": 201,
+      "ok": true,
+      "reviewId": "132",
+      "cv": 2,
+      "fp": "8e1dc81f9b143d70192591963e92f4df54af9624d5aa0569ec3a482b1922dd26",
+      "itemStatus": "draft",
+      "error": null
+    },
+    "CAND-G1B-074": {
+      "http": 201,
+      "ok": true,
+      "reviewId": "133",
+      "cv": 2,
+      "fp": "15c80955185461d9746d3af5e495f149e5877cb97932485c78b990118828ca65",
+      "itemStatus": "draft",
+      "error": null
+    }
+  },
+  "post": {
+    "items": [
+      {
+        "code": "CAND-G1B-037",
+        "stem": "下列关于对数运算法则的说法，正确的是（多选）",
+        "content_version": 2,
+        "status": "draft",
+        "pool": "formal"
+      },
+      {
+        "code": "CAND-G1B-074",
+        "stem": "下列关于平面向量运算的说法，正确的是（多选）",
+        "content_version": 2,
+        "status": "draft",
+        "pool": "formal"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 32,
+        "code": "CAND-G1B-037",
+        "review_status": "passed",
+        "content_version": 1,
+        "content_fingerprint": "f841e04e6fee25cebfc9087222f854a1d76bf220a388ad481eabaa30cda08f60"
+      },
+      {
+        "id": 132,
+        "code": "CAND-G1B-037",
+        "review_status": "passed",
+        "content_version": 2,
+        "content_fingerprint": "8e1dc81f9b143d70192591963e92f4df54af9624d5aa0569ec3a482b1922dd26"
+      },
+      {
+        "id": 33,
+        "code": "CAND-G1B-074",
+        "review_status": "passed",
+        "content_version": 1,
+        "content_fingerprint": "c4e1a6a567fcbf0384700910ccc57d3bef8a2ef2504e8da981fdc0c6b7ce8096"
+      },
+      {
+        "id": 133,
+        "code": "CAND-G1B-074",
+        "review_status": "passed",
+        "content_version": 2,
+        "content_fingerprint": "15c80955185461d9746d3af5e495f149e5877cb97932485c78b990118828ca65"
+      }
+    ],
+    "approvedDelta": 0,
+    "drawableNow": 13,
+    "sessionsDelta": 0,
+    "sessionItemsDelta": 0,
+    "panels": {
+      "CAND-G1B-037": {
+        "cv": 2,
+        "stem": "下列关于对数运算法则的说法，正确的是（多选）",
+        "currentReviewStatus": "passed",
+        "reviewIsStale": false,
+        "fp": "8e1dc81f9b143d70192591963e92f4df54af9624d5aa0569ec3a482b1922dd26"
+      },
+      "CAND-G1B-074": {
+        "cv": 2,
+        "stem": "下列关于平面向量运算的说法，正确的是（多选）",
+        "currentReviewStatus": "passed",
+        "reviewIsStale": false,
+        "fp": "15c80955185461d9746d3af5e495f149e5877cb97932485c78b990118828ca65"
+      }
+    }
+  },
+  "others98": {},
+  "errors": [],
+  "endedAt": "2026-10-26T09:06:15.347Z"
+}

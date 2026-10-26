@@ -1,0 +1,102 @@
+﻿{
+  "local": {
+    "n": 100,
+    "idUnique": true,
+    "codeFormatOk": true,
+    "idIssues": [],
+    "qtypeCounts": {
+      "judge": 16,
+      "single": 34,
+      "numeric": 19,
+      "multi": 7,
+      "application": 24
+    },
+    "missingKpSeed": [],
+    "badMethod": [],
+    "missingSection": [],
+    "numericBad": [],
+    "appRubricBad": [],
+    "sourceBad": []
+  },
+  "db": {
+    "uniqueKeys": [
+      {
+        "key": "PRIMARY",
+        "col": "id",
+        "seq": 1
+      },
+      {
+        "key": "uk_hs_math_train_item_code",
+        "col": "code",
+        "seq": 1
+      }
+    ],
+    "hasCodeUnique": true,
+    "itemsN": 111,
+    "draftN": 93,
+    "drawableN": 13,
+    "candHit": 0,
+    "existingCodes": [],
+    "specs": [
+      {
+        "code": "rja-ch1",
+        "active": 1
+      },
+      {
+        "code": "rja-ch2",
+        "active": 1
+      },
+      {
+        "code": "rja-ch3",
+        "active": 1
+      },
+      {
+        "code": "rja-ch4",
+        "active": 1
+      },
+      {
+        "code": "rja-ch5",
+        "active": 1
+      },
+      {
+        "code": "rjb-ch1",
+        "active": 1
+      },
+      {
+        "code": "rjb-ch2",
+        "active": 1
+      },
+      {
+        "code": "rjb-ch3",
+        "active": 1
+      },
+      {
+        "code": "rjb-ch4",
+        "active": 1
+      },
+      {
+        "code": "rjb-ch5",
+        "active": 1
+      }
+    ],
+    "catCount": 53,
+    "kpMissDb": [],
+    "kpInactive": [],
+    "methodMiss": [],
+    "spMiss": [],
+    "catMiss": [],
+    "kpSpMismatch": [],
+    "stemHits": [],
+    "batchStemDup": [
+      [
+        "CAND-G1B-037",
+        "CAND-G1B-074"
+      ]
+    ]
+  },
+  "importGaps": {
+    "note": "candidates use flat answer/options; import API needs answerPayload + options.options shape; application in DB/qtypes but HsMathImportItem TS type historically listed 4 qtypes 鈥?validate against HS_MATH_QTYPES at runtime",
+    "applicationCount": 24,
+    "needsAdapter": true
+  }
+}

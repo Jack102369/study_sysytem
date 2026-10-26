@@ -1,0 +1,1119 @@
+[
+  {
+    "candidateCode": "CAND-G1B-002",
+    "itemId": "153",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "集合 $\\{a,b,c\\}$ 的真子集个数为",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$6$"
+        },
+        {
+          "id": "B",
+          "text": "$7$"
+        },
+        {
+          "id": "C",
+          "text": "$8$"
+        },
+        {
+          "id": "D",
+          "text": "$9$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "三元集合有 $2^3=8$ 个子集（含空集与自身）。真子集不含集合本身，故个数为 $8-1=7$。选 B。可列举：空集、$\\{a\\}$、$\\{b\\}$、$\\{c\\}$、$\\{a,b\\}$、$\\{a,c\\}$、$\\{b,c\\}$ 共 7 个验证。",
+    "kps": [
+      {
+        "id": "4",
+        "code": "rja.1.2.01",
+        "name": "子集与真子集",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "7b9c15647abae266d657336603fcfb3c8650fd93bbfa663d58f05bb39cdfb7de",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "16",
+      "code": "rja-ch1",
+      "name": "集合与常用逻辑用语"
+    },
+    "category": {
+      "id": "32",
+      "code": "1.2",
+      "name": "集合间的基本关系"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-004",
+    "itemId": "155",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 2,
+    "stem": "“$x^2=9$”是“$x=3$”的",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "充分不必要"
+        },
+        {
+          "id": "B",
+          "text": "必要不充分"
+        },
+        {
+          "id": "C",
+          "text": "充要"
+        },
+        {
+          "id": "D",
+          "text": "既不充分也不必要"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "充分性：由 $x^2=9$ 得 $x=\\pm3$，其中 $x=-3$ 也满足前件但不满足“$x=3$”，故“$x^2=9$”推不出必有“$x=3$”，不充分。必要性：若 $x=3$，则显然 $x^2=9$，故必要。综上为必要不充分条件，选 B。可用反例 $x=-3$ 作边界检验。",
+    "kps": [
+      {
+        "id": "12",
+        "code": "rja.1.4.03",
+        "name": "充要条件",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "d11eea1629033cab3be6c915f9902832c0dbe058ea57076e02bb9f9d2c6de050",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "16",
+      "code": "rja-ch1",
+      "name": "集合与常用逻辑用语"
+    },
+    "category": {
+      "id": "34",
+      "code": "1.4",
+      "name": "充分条件与必要条件"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-007",
+    "itemId": "158",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "$M=x^2+1$，$N=2x$，则对 $\\forall x\\in\\mathbb{R}$ 有",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$M>N$"
+        },
+        {
+          "id": "B",
+          "text": "$M\\ge N$"
+        },
+        {
+          "id": "C",
+          "text": "$M<N$"
+        },
+        {
+          "id": "D",
+          "text": "不确定"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "作差比较：$M-N=x^2+1-2x=(x-1)^2$。完全平方对一切实数非负，且仅当 $x=1$ 时取 $0$。因此恒有 $M\\ge N$，不能写成严格大于，选 B。",
+    "kps": [
+      {
+        "id": "44",
+        "code": "rja.2.1.02",
+        "name": "作差比较大小",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "9c68c72efe0c55edab6ce75f57b79a90ba51c82f9e6c39bb64e68f8ed92d032e",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "17",
+      "code": "rja-ch2",
+      "name": "一元二次函数、方程和不等式"
+    },
+    "category": {
+      "id": "38",
+      "code": "2.1",
+      "name": "等式性质与不等式性质"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-009",
+    "itemId": "160",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "$x>2$ 时 $x+\\dfrac{4}{x-2}$ 的最小值为",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$4$"
+        },
+        {
+          "id": "B",
+          "text": "$5$"
+        },
+        {
+          "id": "C",
+          "text": "$6$"
+        },
+        {
+          "id": "D",
+          "text": "$8$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "C"
+    },
+    "analysis": "令 $t=x-2>0$，则原式 $=t+2+\\dfrac{4}{t}$。由基本不等式 $t+\\dfrac{4}{t}\\ge2\\sqrt{t\\cdot\\dfrac{4}{t}}=4$，等号当 $t=2$。故最小值为 $4+2=6$（$x=4$）。选 C。",
+    "kps": [
+      {
+        "id": "48",
+        "code": "rja.2.2.02",
+        "name": "配凑法求最值",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "32",
+        "code": "special_value",
+        "name": "特殊值法",
+        "isPrimary": true
+      },
+      {
+        "id": "34",
+        "code": "num_shape",
+        "name": "数形结合",
+        "isPrimary": false
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "2120578ef67b15bce12c75f66cd68bad1a6e923c2df11d3e791e4d41d6d5dc29",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "17",
+      "code": "rja-ch2",
+      "name": "一元二次函数、方程和不等式"
+    },
+    "category": {
+      "id": "39",
+      "code": "2.2",
+      "name": "基本不等式"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-010",
+    "itemId": "161",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 2,
+    "stem": "$x^2-5x+6<0$ 的解集为",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$(-\\infty,2)\\cup(3,+\\infty)$"
+        },
+        {
+          "id": "B",
+          "text": "$(2,3)$"
+        },
+        {
+          "id": "C",
+          "text": "$[2,3]$"
+        },
+        {
+          "id": "D",
+          "text": "$(-\\infty,2]\\cup[3,+\\infty)$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "先因式分解：$x^2-5x+6=(x-2)(x-3)$。二次项系数为正，抛物线开口向上，函数值仅在两根之间为负，因此不等式 $<0$ 的解集为开区间 $(2,3)$。端点 $x=2$ 或 $3$ 使式子等于 $0$，不满足严格小于，故不取闭区间。选 B。",
+    "kps": [
+      {
+        "id": "51",
+        "code": "rja.2.3.01",
+        "name": "三个二次的关系",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "33",
+        "code": "graph_symmetry",
+        "name": "图象对称分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "2b607b2ee7725e30588b4f0dc143c56278b3fa6a851bd95f16cca0845697c4af",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "17",
+      "code": "rja-ch2",
+      "name": "一元二次函数、方程和不等式"
+    },
+    "category": {
+      "id": "40",
+      "code": "2.3",
+      "name": "二次函数与一元二次方程、不等式"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-013",
+    "itemId": "164",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 2,
+    "stem": "$x^2+ax+1\\ge0$ 恒成立，则 $a\\in$",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$[-2,2]$"
+        },
+        {
+          "id": "B",
+          "text": "$(-2,2)$"
+        },
+        {
+          "id": "C",
+          "text": "$[-1,1]$"
+        },
+        {
+          "id": "D",
+          "text": "$a\\ge2$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "A"
+    },
+    "analysis": "开口向上，$x^2+ax+1\\ge0$ 恒成立 $\\Leftrightarrow\\Delta=a^2-4\\le0\\Leftrightarrow a\\in[-2,2]$。选 A。边界 $a=\\pm2$ 时有重根、最小值恰为 $0$，仍满足 $\\ge0$。",
+    "kps": [
+      {
+        "id": "53",
+        "code": "rja.2.3.03",
+        "name": "含参二次不等式",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": true
+      },
+      {
+        "id": "39",
+        "code": "undetermined_coeff",
+        "name": "待定系数法",
+        "isPrimary": false
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "e396a3fac6bee5a61857e78261410df9a37d4bada0c76c0b09b5ba15a393fd83",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "17",
+      "code": "rja-ch2",
+      "name": "一元二次函数、方程和不等式"
+    },
+    "category": {
+      "id": "40",
+      "code": "2.3",
+      "name": "二次函数与一元二次方程、不等式"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-016",
+    "itemId": "167",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "$f(x)=\\dfrac{\\sqrt{x-1}}{x-3}$ 的定义域为",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$[1,3)\\cup(3,+\\infty)$"
+        },
+        {
+          "id": "B",
+          "text": "$[1,+\\infty)$"
+        },
+        {
+          "id": "C",
+          "text": "$(1,3)\\cup(3,+\\infty)$"
+        },
+        {
+          "id": "D",
+          "text": "$[1,3)$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "A"
+    },
+    "analysis": "分子根式要求 $x-1\\ge0\\Rightarrow x\\ge1$；分母不为零要求 $x\\ne3$。两条件联立得定义域 $[1,3)\\cup(3,+\\infty)$。注意 $x=1$ 可使根式为 $0$，属于定义域。选 A。",
+    "kps": [
+      {
+        "id": "17",
+        "code": "rja.3.1.02",
+        "name": "定义域",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "f1f92c14c37c2e86adb8e154497d250154d6a97c8f6e676a0f430f8ef0b2eba4",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "41",
+      "code": "3.1",
+      "name": "函数的概念及其表示"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-019",
+    "itemId": "170",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 2,
+    "stem": "$f(x+1)=x^2-2x$，则 $f(3)=$",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$0$"
+        },
+        {
+          "id": "B",
+          "text": "$1$"
+        },
+        {
+          "id": "C",
+          "text": "$2$"
+        },
+        {
+          "id": "D",
+          "text": "$3$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "A"
+    },
+    "analysis": "已知复合表达式 $f(x+1)=x^2-2x$，要求 $f(3)$。令自变量满足 $x+1=3$，即 $x=2$，代入右端得 $f(3)=2^2-2\\cdot2=4-4=0$，选 A。换元法：令 $u=x+1$，则 $x=u-1$，$f(u)=(u-1)^2-2(u-1)=u^2-4u+3$，再代入 $u=3$ 得 $9-12+3=0$，两种途径一致。",
+    "kps": [
+      {
+        "id": "25",
+        "code": "rja.3.1.10",
+        "name": "函数求值",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "40",
+        "code": "substitution",
+        "name": "换元法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "e5122f77baf912018c39995fe073179cc8707f8bbe64d2f71bfb1bb1809445c8",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "41",
+      "code": "3.1",
+      "name": "函数的概念及其表示"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-020",
+    "itemId": "171",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 2,
+    "stem": "$f(x)=3x-7$ 在 $\\mathbb{R}$ 上",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "单调递增"
+        },
+        {
+          "id": "B",
+          "text": "单调递减"
+        },
+        {
+          "id": "C",
+          "text": "先增后减"
+        },
+        {
+          "id": "D",
+          "text": "无单调性"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "A"
+    },
+    "analysis": "一次函数 $f(x)=kx+b$ 的单调性完全由斜率 $k$ 决定。本题 $f(x)=3x-7$，一次项系数 $k=3>0$，图象从左到右上升，因此在整个实数集上单调递增。也可用定义：任意 $x_1<x_2$ 时 $f(x_1)-f(x_2)=3(x_1-x_2)<0$，即 $f(x_1)<f(x_2)$。选 A。",
+    "kps": [
+      {
+        "id": "26",
+        "code": "rja.3.2.01",
+        "name": "单调递增",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "36",
+        "code": "mono_analysis",
+        "name": "单调性分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "223fefae9ca11617da76078014edeac641f7a04a85a6fe955cda08bbc6bb763c",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "42",
+      "code": "3.2",
+      "name": "函数的基本性质"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-023",
+    "itemId": "174",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "奇函数 $f$，$f(2)=5$，则 $f(-2)=$",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$5$"
+        },
+        {
+          "id": "B",
+          "text": "$-5$"
+        },
+        {
+          "id": "C",
+          "text": "$0$"
+        },
+        {
+          "id": "D",
+          "text": "不确定"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "奇函数定义：$f(-x)=-f(x)$（定义域关于原点对称）。把 $x=2$ 代入得 $f(-2)=-f(2)$。已知 $f(2)=5$，因此 $f(-2)=-5$，选 B。对照：若是偶函数则有 $f(-2)=f(2)=5$。本题未给出其它点的信息，不能选“不确定”；奇偶性已唯一确定对称点的函数值。",
+    "kps": [
+      {
+        "id": "37",
+        "code": "rja.3.2.12",
+        "name": "奇偶性求值与综合应用",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "37",
+        "code": "parity_apply",
+        "name": "奇偶性应用",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "c20c397ec66895ea76667a6b1e84fc5f3cfe30dc26ed2ee9ce1f092b74eec44c",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "42",
+      "code": "3.2",
+      "name": "函数的基本性质"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-024",
+    "itemId": "175",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "$f$ 在 $\\mathbb{R}$ 递增，$f(a)<f(b)$ 等价于",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$a<b$"
+        },
+        {
+          "id": "B",
+          "text": "$a>b$"
+        },
+        {
+          "id": "C",
+          "text": "$a=b$"
+        },
+        {
+          "id": "D",
+          "text": "不确定"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "A"
+    },
+    "analysis": "函数在 $\\mathbb{R}$ 上严格递增意味着：对任意实数，$x_1<x_2\\Leftrightarrow f(x_1)<f(x_2)$（同向保持）。因此 $f(a)<f(b)$ 等价于 $a<b$，选 A。若改为严格递减，则应变成 $a>b$。这是用单调性解不等式、比较大小的常用依据；等号情形对应 $a=b$，本题是严格不等式故不选 C。",
+    "kps": [
+      {
+        "id": "30",
+        "code": "rja.3.2.05",
+        "name": "单调性与不等式",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "36",
+        "code": "mono_analysis",
+        "name": "单调性分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "8a436c3feb09ef79b073511dcb75c7678c3e923cdc1549394b02377dfa0431ea",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "42",
+      "code": "3.2",
+      "name": "函数的基本性质"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-026",
+    "itemId": "177",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "$y=x^{1/3}$ 在 $\\mathbb{R}$ 上",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "递增"
+        },
+        {
+          "id": "B",
+          "text": "递减"
+        },
+        {
+          "id": "C",
+          "text": "先增后减"
+        },
+        {
+          "id": "D",
+          "text": "无单调性"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "A"
+    },
+    "analysis": "函数 $y=x^{1/3}$ 即立方根函数。设 $x_1<x_2$，两边同时立方（严格增函数）仍保持不等号，得 $x_1<x_2\\Rightarrow x_1^{1/3}<x_2^{1/3}$，故在整个 $\\mathbb{R}$ 上单调递增。选 A。",
+    "kps": [
+      {
+        "id": "41",
+        "code": "rja.3.3.04",
+        "name": "幂函数单调性",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "36",
+        "code": "mono_analysis",
+        "name": "单调性分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "9998850366b51f3e31e512ae4d88f775266eafd7b50797b3ddb9fdf1495fe6e0",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "43",
+      "code": "3.3",
+      "name": "幂函数"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-031",
+    "itemId": "182",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "$\\sqrt[3]{-27}=$",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$3$"
+        },
+        {
+          "id": "B",
+          "text": "$-3$"
+        },
+        {
+          "id": "C",
+          "text": "$9$"
+        },
+        {
+          "id": "D",
+          "text": "不存在"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "求立方根 $\\sqrt[3]{-27}$，即找立方等于 $-27$ 的实数。因为 $(-3)^3=-27$，所以结果为 $-3$。奇次方根允许底数为负，不要误认为无实数解。选 B。可用 $(-3)^3=-27$ 回代验证。",
+    "kps": [
+      {
+        "id": "65",
+        "code": "rja.4.1.01",
+        "name": "n次方根",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "6fc7950e4a30aa666611e1f449f77ec74dccbfc77bab6cab6ecad8df3b10f4ab",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "48",
+      "code": "4.1",
+      "name": "指数"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-035",
+    "itemId": "186",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 2,
+    "stem": "$a=0.3^{0.5}$，$b=0.3^{0.3}$，则",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$a>b$"
+        },
+        {
+          "id": "B",
+          "text": "$a<b$"
+        },
+        {
+          "id": "C",
+          "text": "$a=b$"
+        },
+        {
+          "id": "D",
+          "text": "不确定"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "底数 $0.3\\in(0,1)$ 时，$y=0.3^x$ 单调递减：指数越大，函数值越小。比较指数 $0.5$ 与 $0.3$，因 $0.5>0.3$，故 $0.3^{0.5}<0.3^{0.3}$，即 $a<b$。选 B。若底数大于 $1$ 则结论相反。",
+    "kps": [
+      {
+        "id": "70",
+        "code": "rja.4.2.02",
+        "name": "指数函数单调性",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "36",
+        "code": "mono_analysis",
+        "name": "单调性分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "7c3b029d592ea83fd775c8870a31346fcb86294b79e9ef0dd5de64227fce8b20",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "49",
+      "code": "4.2",
+      "name": "指数函数"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-036",
+    "itemId": "187",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 2,
+    "stem": "$\\log_2 32=$",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$4$"
+        },
+        {
+          "id": "B",
+          "text": "$5$"
+        },
+        {
+          "id": "C",
+          "text": "$6$"
+        },
+        {
+          "id": "D",
+          "text": "$16$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "由对数定义：$\\log_2 32=k$ 等价于 $2^k=32$。把 $32$ 写成 $2$ 的幂：$32=2^5$，因此 $k=5$，选 B。相邻幂核对：$2^4=16$、$2^5=32$、$2^6=64$，可排除 A、C；D 的 $16$ 是真数而不是对数值。也可写 $\\log_2(2^5)=5$。",
+    "kps": [
+      {
+        "id": "73",
+        "code": "rja.4.3.01",
+        "name": "对数概念",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "50039e231c076cf468773b47a69b027d48dddd514a959c08a506186923ddda78",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "50",
+      "code": "4.3",
+      "name": "对数"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-039",
+    "itemId": "190",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "$y=\\log_{0.5}x$ 的定义域为",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\mathbb{R}$"
+        },
+        {
+          "id": "B",
+          "text": "$(0,+\\infty)$"
+        },
+        {
+          "id": "C",
+          "text": "$[0,+\\infty)$"
+        },
+        {
+          "id": "D",
+          "text": "$(-\\infty,0)$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "对数函数 $y=\\log_a x$ 要求真数 $x>0$，且底数满足 $a>0$、$a\\ne1$。本题底数 $0.5\\in(0,1)$ 只决定函数单调递减，并不改变定义域，故定义域仍为 $(0,+\\infty)$，选 B。注意不能取 $x=0$ 或负数（对数无定义），故排除 A、C、D。",
+    "kps": [
+      {
+        "id": "77",
+        "code": "rja.4.4.01",
+        "name": "对数函数概念",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "35689d7ff4c4adc6aabd1d52921913c1268cf609f755989095b5751994e7d283",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "51",
+      "code": "4.4",
+      "name": "对数函数"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-041",
+    "itemId": "192",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "single",
+    "difficulty": 1,
+    "stem": "$2^{x+1}=16$ 的解为",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$2$"
+        },
+        {
+          "id": "B",
+          "text": "$3$"
+        },
+        {
+          "id": "C",
+          "text": "$4$"
+        },
+        {
+          "id": "D",
+          "text": "$5$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "single",
+      "optionId": "B"
+    },
+    "analysis": "把右边写成同底：$16=2^4$，方程化为 $2^{x+1}=2^4$。指数函数 $y=2^x$ 一一对应，故指数相等：$x+1=4$，解得 $x=3$。选 B。回代：$2^{3+1}=2^4=16$ 成立。",
+    "kps": [
+      {
+        "id": "72",
+        "code": "rja.4.2.04",
+        "name": "指数函数图象变换",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "4d08af7b0826d576421702b80651ff70c5fe897ca6febf352d80fbf7a72cb3e1",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "49",
+      "code": "4.2",
+      "name": "指数函数"
+    }
+  }
+]

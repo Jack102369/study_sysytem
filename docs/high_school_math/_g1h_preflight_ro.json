@@ -1,0 +1,94 @@
+{
+  "candCount": 100,
+  "badPoolStatus": [],
+  "inactive": [],
+  "cvNot1": [],
+  "itemReviewedFieldsSet": [],
+  "reviewRowsOnCand": 0,
+  "approvedCand": [],
+  "missingKp": [],
+  "missingPrimary": [],
+  "missingMethod": [],
+  "kpLinkCount": 100,
+  "methodLinkCount": 109,
+  "appCount": 24,
+  "appRubricBad": [],
+  "drawable": 13,
+  "approvedAll": 13,
+  "reviewPassedAll": 13,
+  "sessions": 131,
+  "sessionItems": 354,
+  "itemsN": 211,
+  "qtypeDist": {
+    "judge": 16,
+    "single": 34,
+    "numeric": 19,
+    "multi": 7,
+    "application": 24
+  },
+  "diffDist": {
+    "1": 35,
+    "2": 40,
+    "3": 25
+  },
+  "fpUnstable": 0,
+  "fpDup": [],
+  "approvedFormalActiveCodes": [
+    "HSMA-RJA-CH03-APP-0001",
+    "HSMA-RJA-CH03-PARITY-0001",
+    "HSMA-RJA-CH03-PARITY-0002",
+    "HSMA-RJA-CH03-PARITY-0005",
+    "HSMA-RJA-CH03-PARITY-0006",
+    "HSMA-RJA-CH03-PARITY-0007",
+    "HSMA-RJA-CH03-PARITY-0010",
+    "HSMA-RJA-CH03-PARITY-0011",
+    "HSMA-RJA-CH03-PARITY-0012",
+    "HSMA-RJA-CH03-PARITY-0015",
+    "HSMA-RJA-CH03-PARITY-0019",
+    "HSMA-RJA-CH03-PARITY-0020",
+    "HSMA-RJA-CH03-PARITY-0025"
+  ],
+  "approvedFormalActiveN": 13,
+  "pair037074": {
+    "sameNormStem": true,
+    "stem": "正确的是（多选）",
+    "opt037": "A:$\\log_a(MN)=\\log_aM+\\log_aN$ | B:$\\log_a\\dfrac MN=\\log_aM-\\log_aN$ | C:$\\log_aM^2=2\\log_aM$ | D:$\\log_a1=0$",
+    "opt074": "A:$\\lambda(\\vec a+\\vec b)=\\lambda\\vec a+\\lambda\\vec b$ | B:$(\\vec a+\\vec b)+\\vec c=\\vec a+(\\vec b+\\vec c)$ | C:$\\vec a\\cdot\\vec b=\\vec b\\cdot\\vec a$ | D:$\\vec a\\times\\vec b=\\vec b\\times\\vec a$",
+    "ans037": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    "ans074": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "kp037": "rja.4.3.02",
+    "kp074": "rjb.6.3.02",
+    "chapter037": 4,
+    "chapter074": 6,
+    "specialty037": "rja-ch4",
+    "specialty074": "rjb-ch1",
+    "analysisOverlapHint": false
+  },
+  "buckets": {
+    "author": 47,
+    "d3": 25,
+    "app": 24
+  },
+  "g1gBaseline": {
+    "drawable": 13,
+    "approved": 13,
+    "reviewPassed": 13,
+    "sessions": 131,
+    "sessionItems": 354,
+    "itemsN": 211
+  }
+}

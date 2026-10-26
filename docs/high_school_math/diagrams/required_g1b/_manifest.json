@@ -1,0 +1,163 @@
+{
+  "phase": "HS-MATH-BANK-DIAGRAM-1D",
+  "wroteDb": false,
+  "uploaded": false,
+  "canvas_px": [
+    1000,
+    720
+  ],
+  "diagrams": [
+    {
+      "code": "CAND-G1B-093",
+      "elements": [
+        "cube vertices A,B,C,D,A1,B1,C1,D1",
+        "solid visible edges",
+        "dashed hidden AD,DC,DD1",
+        "segment BD1 emphasized",
+        "shaded triangle plane A1C1D"
+      ],
+      "forbidden_absent": [
+        "perp symbol",
+        "dot product",
+        "coordinates",
+        "proof steps"
+      ],
+      "svg": "CAND-G1B-093.svg",
+      "png": "CAND-G1B-093.png"
+    },
+    {
+      "code": "CAND-G1B-080",
+      "elements": [
+        "parallelogram ABCD",
+        "diagonals AC, BD",
+        "intersection M",
+        "arrows AB=a, AD=b"
+      ],
+      "forbidden_absent": [
+        "互相平分 text",
+        "vector equality derivation"
+      ],
+      "svg": "CAND-G1B-080.svg",
+      "png": "CAND-G1B-080.png"
+    },
+    {
+      "code": "CAND-G1B-064",
+      "elements": [
+        "horizontal ground",
+        "vertical tower BT",
+        "observer O",
+        "sight OT",
+        "right angle at B",
+        "labels 40m, 30°, h"
+      ],
+      "forbidden_absent": [
+        "40√3/3",
+        "tan evaluation result"
+      ],
+      "svg": "CAND-G1B-064.svg",
+      "png": "CAND-G1B-064.png",
+      "note_stem": "题干写「顶角30°」；解析明确为仰角；图按仰角绘制并标注仰角"
+    },
+    {
+      "code": "CAND-G1B-091",
+      "elements": [
+        "left original xOy with 90°",
+        "right oblique x'O'y' with 45°",
+        "axis arrows and labels",
+        "footnote 135° also valid"
+      ],
+      "forbidden_absent": [
+        "circled option A",
+        "correct/incorrect labels"
+      ],
+      "svg": "CAND-G1B-091.svg",
+      "png": "CAND-G1B-091.png"
+    }
+  ],
+  "files": [
+    {
+      "code": "CAND-G1B-093",
+      "kind": "svg",
+      "path": "docs/high_school_math/diagrams/required_g1b/CAND-G1B-093.svg",
+      "bytes": 3784,
+      "sha256": "76f599628e344ef1ba574149430dd892b20d0215ea152ee86509772932f3651c",
+      "pixel_size": null,
+      "viewBox": "0 0 1000 720"
+    },
+    {
+      "code": "CAND-G1B-093",
+      "kind": "png",
+      "path": "docs/high_school_math/diagrams/required_g1b/CAND-G1B-093.png",
+      "bytes": 26172,
+      "sha256": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1",
+      "pixel_size": [
+        1000,
+        720
+      ],
+      "viewBox": null
+    },
+    {
+      "code": "CAND-G1B-080",
+      "kind": "svg",
+      "path": "docs/high_school_math/diagrams/required_g1b/CAND-G1B-080.svg",
+      "bytes": 2815,
+      "sha256": "48d3f9fa36f47a478a616a2577e53febb6cde26307c40559fb7e3ed60896cbac",
+      "pixel_size": null,
+      "viewBox": "0 0 1000 720"
+    },
+    {
+      "code": "CAND-G1B-080",
+      "kind": "png",
+      "path": "docs/high_school_math/diagrams/required_g1b/CAND-G1B-080.png",
+      "bytes": 25377,
+      "sha256": "c01574e808ba150866781d4fd716348fb3331359c635ae5f1a4b46f137ef31fc",
+      "pixel_size": [
+        1000,
+        720
+      ],
+      "viewBox": null
+    },
+    {
+      "code": "CAND-G1B-064",
+      "kind": "svg",
+      "path": "docs/high_school_math/diagrams/required_g1b/CAND-G1B-064.svg",
+      "bytes": 6027,
+      "sha256": "d246f82e3655ce6cd0dfddbffbd19c4569c2e6ea4cbed0c600f318abb4eba9f4",
+      "pixel_size": null,
+      "viewBox": "0 0 1000 720"
+    },
+    {
+      "code": "CAND-G1B-064",
+      "kind": "png",
+      "path": "docs/high_school_math/diagrams/required_g1b/CAND-G1B-064.png",
+      "bytes": 20372,
+      "sha256": "a3549131d845107b4c795242013f50beb048639b056b1c302e79276dc8b4abf7",
+      "pixel_size": [
+        1000,
+        720
+      ],
+      "viewBox": null
+    },
+    {
+      "code": "CAND-G1B-091",
+      "kind": "svg",
+      "path": "docs/high_school_math/diagrams/required_g1b/CAND-G1B-091.svg",
+      "bytes": 9550,
+      "sha256": "0a856e473d1513553dd37ca9e1da34fbbb256df6a4b01371b3256f8ae3855ce6",
+      "pixel_size": null,
+      "viewBox": "0 0 1000 720"
+    },
+    {
+      "code": "CAND-G1B-091",
+      "kind": "png",
+      "path": "docs/high_school_math/diagrams/required_g1b/CAND-G1B-091.png",
+      "bytes": 31229,
+      "sha256": "616bf077867cdf62c1d2b3b064ee6d5e48528d585d03d4e69ce69dbbb4032a53",
+      "pixel_size": [
+        1000,
+        720
+      ],
+      "viewBox": null
+    }
+  ]
+}

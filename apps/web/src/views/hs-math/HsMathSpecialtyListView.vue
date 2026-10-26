@@ -1,5 +1,5 @@
 <template>
-  <div class="page-fill hs-list" v-loading="loading">
+  <div class="page-scroll hs-list" v-loading="loading">
     <div class="toolbar">
       <div>
         <el-button text @click="goHome">← 返回数学首页</el-button>

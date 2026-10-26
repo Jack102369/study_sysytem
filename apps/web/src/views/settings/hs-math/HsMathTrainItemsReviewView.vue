@@ -49,6 +49,7 @@
               <el-option label="多选" value="multi" />
               <el-option label="判断" value="judge" />
               <el-option label="填空" value="numeric" />
+              <el-option label="应用题" value="application" />
             </el-select>
           </el-form-item>
           <el-form-item label="难度">
@@ -164,6 +165,11 @@
           <div class="block">
             <div class="lab">题干</div>
             <MathStem :text="panel.stem" />
+          </div>
+          <div v-if="diagramPreviewItems.length" class="block">
+            <div class="lab">题干插图</div>
+            <HsMathStemDiagrams :items="diagramPreviewItems" />
+            <p class="meta-line muted">只读预览；上传/替换请前往题库管理。</p>
           </div>
           <div
             v-if="panel.optionsJson?.options?.length"
@@ -407,15 +413,19 @@ import { computed, onMounted, ref } from 'vue'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import MathOptionList from '@/components/hs-math/MathOptionList.vue'
 import MathStem from '@/components/hs-math/MathStem.vue'
+import HsMathStemDiagrams from '@/components/hs-math/HsMathStemDiagrams.vue'
 import {
+  adminHsMathItemDiagramContentUrl,
   fetchReviewPanel,
   fetchReviewQueue,
   getAdminHsMathTrainItem,
   listAdminHsMathCategories,
+  listAdminHsMathItemDiagrams,
   listAdminHsMathSpecialties,
   publishReviewedTrainItem,
   submitTrainItemReview,
   type HsMathAdminCategory,
+  type HsMathAdminDiagramLink,
   type HsMathAdminSpecialty,
   type HsMathAdminTrainItem,
   type HsMathQueueReviewStatus,
@@ -472,11 +482,23 @@ const loadingPanel = ref(false)
 const panel = ref<HsMathReviewPanel | null>(null)
 /** 审核面板不含来源/方法；并行拉 getById 只读展示 */
 const itemDetail = ref<HsMathAdminTrainItem | null>(null)
+/** 题干插图只读；与题库共用 list + content URL，审核页不做上传 */
+const diagramLinks = ref<HsMathAdminDiagramLink[]>([])
 const selectedId = ref<string | null>(null)
 const comment = ref('')
 const submitting = ref(false)
 const publishing = ref(false)
 const meLabel = ref('—')
+
+const diagramPreviewItems = computed(() => {
+  const id = selectedId.value
+  if (!id) return []
+  return diagramLinks.value.map((d) => ({
+    key: d.linkId,
+    contentPath: adminHsMathItemDiagramContentUrl(id, d.linkId),
+    alt: d.altText,
+  }))
+})
 
 const filterCategories = computed(() => {
   const sid = filters.value.specialtyId
@@ -545,13 +567,18 @@ async function loadPanel(id: string) {
   selectedId.value = id
   loadingPanel.value = true
   itemDetail.value = null
+  diagramLinks.value = []
   try {
-    const [p, detail] = await Promise.all([
+    const [p, detail, diagramsRes] = await Promise.all([
       fetchReviewPanel(id),
       getAdminHsMathTrainItem(id).catch(() => null),
+      listAdminHsMathItemDiagrams(id).catch(() => null),
     ])
     panel.value = p
     itemDetail.value = detail
+    diagramLinks.value = diagramsRes?.diagrams?.length
+      ? [...diagramsRes.diagrams].sort((a, b) => a.sortOrder - b.sortOrder)
+      : []
     comment.value = ''
     const merge = mergeReviewPanelWithDetail(p, detail)
     if (!merge.ok) {
@@ -560,6 +587,7 @@ async function loadPanel(id: string) {
   } catch (e) {
     panel.value = null
     itemDetail.value = null
+    diagramLinks.value = []
     ElMessage.error(errMsg(e, '加载审核详情失败'))
   } finally {
     loadingPanel.value = false

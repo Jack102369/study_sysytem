@@ -1,0 +1,237 @@
+{
+  "phase": "HS-MATH-BANK-DIAGRAM-1F-CONTINUE",
+  "startedAt": "2026-10-26T12:49:53.131Z",
+  "endedAt": "2026-10-26T12:49:54.153Z",
+  "status": "DIAGRAM_UPLOAD_PASS",
+  "base": "http://127.0.0.1:3000",
+  "verified093": {
+    "status": "draft",
+    "cv": 2,
+    "diagramLinkCount": 1,
+    "objectId": "1",
+    "linkId": "1",
+    "sortOrder": 1,
+    "contentSha256": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1",
+    "fingerprint": "e464af249073749161f7ebba8a4ab9f7ea7922906e7e1b8a538963598c781375",
+    "authRead": {
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 26172,
+      "sha256": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1"
+    },
+    "unauthStatus": 401,
+    "storageExists": true,
+    "storageAbs": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\apps\\api\\uploads\\hs-math\\item-diagrams\\e1\\e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1.bin",
+    "ok": true
+  },
+  "items": [
+    {
+      "code": "CAND-G1B-080",
+      "itemId": "231",
+      "ok": true,
+      "pre": {
+        "status": "approved",
+        "cv": 1,
+        "fingerprint": "b508c189e2e84ec3826a858cfdb9376534d41f1f9cfffe4b4ad9ea19662f098a"
+      },
+      "upload": {
+        "httpStatus": 201,
+        "contentVersion": 2,
+        "status": "draft",
+        "diagrams": [
+          {
+            "linkId": "2",
+            "objectId": "2",
+            "sortOrder": 1,
+            "altText": "平行四边形 ABCD 与向量 a、b",
+            "contentSha256": "c01574e808ba150866781d4fd716348fb3331359c635ae5f1a4b46f137ef31fc",
+            "mimeType": "image/png",
+            "sizeBytes": 25377,
+            "widthPx": 1000,
+            "heightPx": 720,
+            "sanitizeStatus": "passed"
+          }
+        ]
+      },
+      "post": {
+        "status": "draft",
+        "cv": 2,
+        "fingerprint": "2601360d50b59c8ce2afe690885df65231f3033db5362977f02fd446aba9cad8",
+        "objectId": "2",
+        "linkId": "2",
+        "review": {
+          "id": 50,
+          "content_version": 1,
+          "content_fingerprint": "b508c189e2e84ec3826a858cfdb9376534d41f1f9cfffe4b4ad9ea19662f098a",
+          "review_status": "passed"
+        },
+        "checks": {
+          "statusOk": true,
+          "cvOk": true,
+          "oneDiagram": true,
+          "sortOrder1": true,
+          "fpChanged": true,
+          "reviewStale": true,
+          "authReadOk": true,
+          "unauthDenied": true,
+          "studentDenied": true,
+          "storagePrivate": true,
+          "objSha": true
+        },
+        "storageAbs": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\apps\\api\\uploads\\hs-math\\item-diagrams\\c0\\c01574e808ba150866781d4fd716348fb3331359c635ae5f1a4b46f137ef31fc.bin"
+      },
+      "authRead": {
+        "status": 200,
+        "contentType": "image/png",
+        "bytes": 25377,
+        "sha256": "c01574e808ba150866781d4fd716348fb3331359c635ae5f1a4b46f137ef31fc"
+      },
+      "unauthRead": {
+        "status": 401
+      },
+      "studentRead": {
+        "status": 403
+      }
+    },
+    {
+      "code": "CAND-G1B-064",
+      "itemId": "215",
+      "ok": true,
+      "pre": {
+        "status": "draft",
+        "cv": 2,
+        "fingerprint": "cd2b5a867e078d11a81c2c5f20948c926bc77c62cfa4f622e59f6e4f48a33aa7"
+      },
+      "upload": {
+        "httpStatus": 201,
+        "contentVersion": 3,
+        "status": "draft",
+        "diagrams": [
+          {
+            "linkId": "3",
+            "objectId": "3",
+            "sortOrder": 1,
+            "altText": "塔高测量：水平距离 40m 与仰角示意",
+            "contentSha256": "a3549131d845107b4c795242013f50beb048639b056b1c302e79276dc8b4abf7",
+            "mimeType": "image/png",
+            "sizeBytes": 20372,
+            "widthPx": 1000,
+            "heightPx": 720,
+            "sanitizeStatus": "passed"
+          }
+        ]
+      },
+      "post": {
+        "status": "draft",
+        "cv": 3,
+        "fingerprint": "2ab277fc2fdd34b1259f5e258f0582ed3468180eec0521a61a32ded4b40dfcb0",
+        "objectId": "3",
+        "linkId": "3",
+        "review": {
+          "id": 46,
+          "content_version": 1,
+          "content_fingerprint": "60a0888327a2a5a1eeb5e9c5f09a43ab06d2fce1b12547f74eccbab26f19d78e",
+          "review_status": "passed"
+        },
+        "checks": {
+          "statusOk": true,
+          "cvOk": true,
+          "oneDiagram": true,
+          "sortOrder1": true,
+          "fpChanged": true,
+          "reviewStale": true,
+          "authReadOk": true,
+          "unauthDenied": true,
+          "studentDenied": true,
+          "storagePrivate": true,
+          "objSha": true
+        },
+        "storageAbs": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\apps\\api\\uploads\\hs-math\\item-diagrams\\a3\\a3549131d845107b4c795242013f50beb048639b056b1c302e79276dc8b4abf7.bin"
+      },
+      "authRead": {
+        "status": 200,
+        "contentType": "image/png",
+        "bytes": 20372,
+        "sha256": "a3549131d845107b4c795242013f50beb048639b056b1c302e79276dc8b4abf7"
+      },
+      "unauthRead": {
+        "status": 401
+      },
+      "studentRead": {
+        "status": 403
+      }
+    },
+    {
+      "code": "CAND-G1B-091",
+      "itemId": "242",
+      "ok": true,
+      "pre": {
+        "status": "approved",
+        "cv": 1,
+        "fingerprint": "5d76a476290e8877d8ae03a89db6942b100fea329dcb33687b1babe4b590b844"
+      },
+      "upload": {
+        "httpStatus": 201,
+        "contentVersion": 2,
+        "status": "draft",
+        "diagrams": [
+          {
+            "linkId": "4",
+            "objectId": "4",
+            "sortOrder": 1,
+            "altText": "斜二测两套坐标系对照示意",
+            "contentSha256": "a77867e8beb43226cd1e230b043151a00e851f560026d7882c15b0a5584f19f8",
+            "mimeType": "image/png",
+            "sizeBytes": 26916,
+            "widthPx": 1000,
+            "heightPx": 720,
+            "sanitizeStatus": "passed"
+          }
+        ]
+      },
+      "post": {
+        "status": "draft",
+        "cv": 2,
+        "fingerprint": "b93e4f06c1c93e63aff702a8a2ee32aa057f4d92e366067e0a2414816cce6157",
+        "objectId": "4",
+        "linkId": "4",
+        "review": {
+          "id": 73,
+          "content_version": 1,
+          "content_fingerprint": "5d76a476290e8877d8ae03a89db6942b100fea329dcb33687b1babe4b590b844",
+          "review_status": "passed"
+        },
+        "checks": {
+          "statusOk": true,
+          "cvOk": true,
+          "oneDiagram": true,
+          "sortOrder1": true,
+          "fpChanged": true,
+          "reviewStale": true,
+          "authReadOk": true,
+          "unauthDenied": true,
+          "studentDenied": true,
+          "storagePrivate": true,
+          "objSha": true
+        },
+        "storageAbs": "D:\\adu\\wj\\拉总\\学习系统代码\\code\\study_sysytem\\apps\\api\\uploads\\hs-math\\item-diagrams\\a7\\a77867e8beb43226cd1e230b043151a00e851f560026d7882c15b0a5584f19f8.bin"
+      },
+      "authRead": {
+        "status": 200,
+        "contentType": "image/png",
+        "bytes": 26916,
+        "sha256": "a77867e8beb43226cd1e230b043151a00e851f560026d7882c15b0a5584f19f8"
+      },
+      "unauthRead": {
+        "status": 401
+      },
+      "studentRead": {
+        "status": 403
+      }
+    }
+  ],
+  "blockers": [],
+  "adminUserId": "2",
+  "preDrawable": 111,
+  "postDrawable": 109
+}

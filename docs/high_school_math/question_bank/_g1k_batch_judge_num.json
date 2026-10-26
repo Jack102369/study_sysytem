@@ -1,0 +1,1650 @@
+[
+  {
+    "candidateCode": "CAND-G1B-001",
+    "itemId": "152",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 1,
+    "stem": "判断：$A=\\{x\\in\\mathbb{Z}\\mid -2<x<3\\}$ 时，$0\\in A$ 且 $3\\notin A$。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": true
+    },
+    "analysis": "条件：$A=\\{x\\in\\mathbb{Z}\\mid -2<x<3\\}$。整数满足 $-2<x<3$ 的有 $-1,0,1,2$，故 $A=\\{-1,0,1,2\\}$。由此 $0\\in A$，而 $3$ 不满足 $x<3$，故 $3\\notin A$。判断正确。",
+    "kps": [
+      {
+        "id": "1",
+        "code": "rja.1.1.01",
+        "name": "集合的含义与元素",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "86943d8c78b656768e3ca862d4ec78c5db6626339f8a6aab465d5f1ff007b0c7",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "16",
+      "code": "rja-ch1",
+      "name": "集合与常用逻辑用语"
+    },
+    "category": {
+      "id": "31",
+      "code": "1.1",
+      "name": "集合的概念"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-003",
+    "itemId": "154",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 2,
+    "stem": "$A=\\{1,2,4,6\\}$，$B=\\{2,3,5\\}$，则 $|A\\cup B|=$",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "6",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "并集取两集合全部元素：$A\\cup B=\\{1,2,3,4,5,6\\}$（重复元素 $2$ 只计一次），故 $|A\\cup B|=6$。也可用容斥公式复核：$|A|+|B|-|A\\cap B|=4+3-1=6$，其中 $A\\cap B=\\{2\\}$。边界核对：并集不含新元素，也不应漏掉 $1,3,4,5,6$。",
+    "kps": [
+      {
+        "id": "6",
+        "code": "rja.1.3.01",
+        "name": "并集",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "d7905676f5e20aa20f478cc9e5f1c8fd5e042f91c413b9132fcee5c64e4207c7",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "16",
+      "code": "rja-ch1",
+      "name": "集合与常用逻辑用语"
+    },
+    "category": {
+      "id": "33",
+      "code": "1.3",
+      "name": "集合的基本运算"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-006",
+    "itemId": "157",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 1,
+    "stem": "若 $a>b$，$c<0$，则 $ac<bc$。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": true
+    },
+    "analysis": "不等式两边同乘负数 $c<0$ 时不等号必须变向：由 $a>b$ 得 $ac<bc$。例如取 $a=3,b=1,c=-2$，则 $ac=-6$、$bc=-2$，确实 $-6<-2$。故命题正确。",
+    "kps": [
+      {
+        "id": "43",
+        "code": "rja.2.1.01",
+        "name": "不等式的基本性质",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "52695da53b26573f57ee89bc1fd0463f3f2e8f9cdb2be99d6ea56449b9cb1afc",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "17",
+      "code": "rja-ch2",
+      "name": "一元二次函数、方程和不等式"
+    },
+    "category": {
+      "id": "38",
+      "code": "2.1",
+      "name": "等式性质与不等式性质"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-008",
+    "itemId": "159",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 1,
+    "stem": "$x>0$ 且 $x+\\dfrac{16}{x}=8$，则 $x=$",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "4",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "由 $x>0$ 及 $x+\\dfrac{16}{x}=8$，两边乘 $x$ 得 $x^2-8x+16=0$，即 $(x-4)^2=0$，故 $x=4$。亦可用基本不等式：等号当且仅当 $x=\\dfrac{16}{x}$，即 $x=4$。",
+    "kps": [
+      {
+        "id": "47",
+        "code": "rja.2.2.01",
+        "name": "算术-几何平均不等式",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "32",
+        "code": "special_value",
+        "name": "特殊值法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "d9f013023a520cd3f9de8dd85af79578b2ac7d70d1b8b1d91cb14b33e7b0b702",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "17",
+      "code": "rja-ch2",
+      "name": "一元二次函数、方程和不等式"
+    },
+    "category": {
+      "id": "39",
+      "code": "2.2",
+      "name": "基本不等式"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-014",
+    "itemId": "165",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 2,
+    "stem": "$x,y>0$，$xy=25$，则 $x+y$ 最小值为",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "10",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "条件 $x,y>0$ 且 $xy=25$ 固定。由基本不等式 $x+y\\ge2\\sqrt{xy}=2\\sqrt{25}=10$，等号成立当且仅当 $x=y$。此时 $x=y=5$，故最小值为 $10$。也可用 $y=25/x$ 化为 $f(x)=x+25/x$（$x>0$），求导 $f'(x)=1-25/x^2=0\\Rightarrow x=5$，二阶或端点趋势可确认最小值。代入 $x=5,y=5$ 得 $10$ 复核。",
+    "kps": [
+      {
+        "id": "49",
+        "code": "rja.2.2.03",
+        "name": "基本不等式双变量",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "32",
+        "code": "special_value",
+        "name": "特殊值法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "37ee99adac432f3a95f7cd23ced877ae5946517aabf32cf91a74e900934dd7f1",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "17",
+      "code": "rja-ch2",
+      "name": "一元二次函数、方程和不等式"
+    },
+    "category": {
+      "id": "39",
+      "code": "2.2",
+      "name": "基本不等式"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-015",
+    "itemId": "166",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 3,
+    "stem": "$f(x)=-2(x-1)^2+5$ 在 $[0,3]$ 上最大值为 $5$。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": true
+    },
+    "analysis": "顶点式 $f(x)=-2(x-1)^2+5$ 开口向下，顶点为 $(1,5)$。闭区间 $[0,3]$ 包含顶点横坐标 $x=1$，因此区间上最大值即为顶点纵坐标 $5$。端点对照：$f(0)=-2(0-1)^2+5=3$，$f(3)=-2(3-1)^2+5=-3$，均小于 $5$。故命题正确。",
+    "kps": [
+      {
+        "id": "54",
+        "code": "rja.2.3.04",
+        "name": "二次函数区间最值",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "36",
+        "code": "mono_analysis",
+        "name": "单调性分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "8921f62d25d9d8397d13b8bde2237c3e9a45293b875856667c553a238a80eae6",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "17",
+      "code": "rja-ch2",
+      "name": "一元二次函数、方程和不等式"
+    },
+    "category": {
+      "id": "40",
+      "code": "2.3",
+      "name": "二次函数与一元二次方程、不等式"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-017",
+    "itemId": "168",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 1,
+    "stem": "$f(x)=x$ 与 $g(t)=t$ 是同一函数。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": true
+    },
+    "analysis": "函数是否相同取决于定义域与对应法则，与用 $x$ 还是 $t$ 作自变量字母无关。二者定义域均为 $\\mathbb{R}$，对应关系均为恒等映射，故为同一函数。命题正确。",
+    "kps": [
+      {
+        "id": "20",
+        "code": "rja.3.1.05",
+        "name": "相同函数的判断",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "8af72e12dd9d45ae094483abce30bb1c6ed849a6ad18478015097b96c980fdcd",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "41",
+      "code": "3.1",
+      "name": "函数的概念及其表示"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-021",
+    "itemId": "172",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 1,
+    "stem": "$f(x)=x^2$ 在 $(-\\infty,0)$ 上单调递减。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": true
+    },
+    "analysis": "抛物线 $y=x^2$ 对称轴为 $y$ 轴，在对称轴左侧（$-\\infty,0)$ 上：若 $x_1<x_2<0$，则 $|x_1|>|x_2|$，从而 $x_1^2>x_2^2$，即 $f(x_1)>f(x_2)$，故单调递减。命题正确。",
+    "kps": [
+      {
+        "id": "29",
+        "code": "rja.3.2.04",
+        "name": "单调性判断",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "36",
+        "code": "mono_analysis",
+        "name": "单调性分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "806e44fbc4d8415c0b2da4f3ecaa48b2f6f37d45ea440b8405c12656dd85c647",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "42",
+      "code": "3.2",
+      "name": "函数的基本性质"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-028",
+    "itemId": "179",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 2,
+    "stem": "$f(x)=\\begin{cases}2x+1,&x<0\\\\x^2,&x\\ge0\\end{cases}$，求 $f(-2)+f(2)$",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "1",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "分段函数求值先判断自变量落在哪一段。因 $-2<0$，用左支 $f(x)=2x+1$，得 $f(-2)=2(-2)+1=-3$；因 $2\\ge0$，用右支 $f(x)=x^2$，得 $f(2)=4$。于是 $f(-2)+f(2)=-3+4=1$。边界注意：$x=0$ 属于右支；若把 $-2$ 误代入 $x^2$ 会得 $4$，和就会错成 $8$。",
+    "kps": [
+      {
+        "id": "24",
+        "code": "rja.3.1.09",
+        "name": "分段函数",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "40",
+        "code": "substitution",
+        "name": "换元法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "ca29501d9d7361ce05813b3fd4de47c8c2b83ed8211b15e1ae5d0982375e00bd",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "41",
+      "code": "3.1",
+      "name": "函数的概念及其表示"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-029",
+    "itemId": "180",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 1,
+    "stem": "$y=2x^2$ 是幂函数。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": false
+    },
+    "analysis": "幂函数标准形式为 $y=x^{\\alpha}$（系数恒为 $1$）。$y=2x^2$ 可写成 $2\\cdot x^2$，前面多了系数 $2$，不符合定义，故不是幂函数。命题错误。",
+    "kps": [
+      {
+        "id": "38",
+        "code": "rja.3.3.01",
+        "name": "幂函数概念",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "6870f3900e4a81036db815286ca6077b10067347cc93735162ad8ba3a763cfbb",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "43",
+      "code": "3.3",
+      "name": "幂函数"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-030",
+    "itemId": "181",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 3,
+    "stem": "$f(x)=-x^2+4x$ 在 $[0,5]$ 上最大值为",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "4",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "配方：$f(x)=-x^2+4x=-(x-2)^2+4$，开口向下，顶点为 $(2,4)$。闭区间 $[0,5]$ 含顶点横坐标 $2$，故区间最大值为顶点纵坐标 $4$。端点对照：$f(0)=0$，$f(5)=-25+20=-5$，都小于 $4$。也可用导数 $f'(x)=-2x+4=0\\Rightarrow x=2$ 同一结论。答案 $4$。",
+    "kps": [
+      {
+        "id": "31",
+        "code": "rja.3.2.06",
+        "name": "最大值",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "36",
+        "code": "mono_analysis",
+        "name": "单调性分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "1082772b940826e3c3f4a6d478a0b02f79c609d1673dfb4ebed25abac6b5b3b8",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "42",
+      "code": "3.2",
+      "name": "函数的基本性质"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-032",
+    "itemId": "183",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 1,
+    "stem": "$8^{2/3}=$",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "4",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "分数指数幂：$8^{2/3}=(\\sqrt[3]{8})^2=2^2=4$。也可先平方再开立方：$(8^2)^{1/3}=64^{1/3}=4$。两种顺序结果一致。",
+    "kps": [
+      {
+        "id": "66",
+        "code": "rja.4.1.02",
+        "name": "分数指数幂",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "e4c5cf9feec734aaf9d3b41c397e2ff47a6ec607ad6c9a528d4ef452a074514d",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "48",
+      "code": "4.1",
+      "name": "指数"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-034",
+    "itemId": "185",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 1,
+    "stem": "$y=2^x$ 的定义域为 $\\mathbb{R}$。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": true
+    },
+    "analysis": "指数函数 $y=a^x$（$a>0$ 且 $a\\ne1$）的定义域规定为全体实数 $\\mathbb{R}$。这里底数 $2$ 满足条件，故 $y=2^x$ 定义域为 $\\mathbb{R}$。命题正确。",
+    "kps": [
+      {
+        "id": "69",
+        "code": "rja.4.2.01",
+        "name": "指数函数概念",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "1f94dd771f3e969a2550860213d7f637ac70051349ee452e953c1b8d54d43960",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "49",
+      "code": "4.2",
+      "name": "指数函数"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-040",
+    "itemId": "191",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 3,
+    "stem": "$\\log_3 81=$",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "4",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "由对数定义：$\\log_3 81=k\\Leftrightarrow3^k=81$。因为 $81=3^4$，所以 $k=4$；也可直接写 $\\log_3(3^4)=4$。相邻幂核对：$3^3=27$、$3^4=81$、$3^5=243$，可确认答案为 $4$。代入回验：$3^4=81$ 成立。",
+    "kps": [
+      {
+        "id": "78",
+        "code": "rja.4.4.02",
+        "name": "对数函数单调性",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "36",
+        "code": "mono_analysis",
+        "name": "单调性分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "e2649292b8e77bc44000908f8ee6f6f021da6159554de3eaff340e594fa00a67",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "51",
+      "code": "4.4",
+      "name": "对数函数"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-043",
+    "itemId": "194",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 1,
+    "stem": "$\\log_4 8=\\dfrac{\\log_2 8}{\\log_2 4}$。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": true
+    },
+    "analysis": "换底公式 $\\log_b a=\\dfrac{\\log_c a}{\\log_c b}$（$c>0,c\\ne1$）。取 $c=2$ 即得 $\\log_4 8=\\dfrac{\\log_2 8}{\\log_2 4}$。命题正确。",
+    "kps": [
+      {
+        "id": "75",
+        "code": "rja.4.3.03",
+        "name": "换底公式",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "c6b76dfb81e27098c2fbf17390e4b09c2249ed35376ebdfe7da376b7a59b5d33",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "50",
+      "code": "4.3",
+      "name": "对数"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-044",
+    "itemId": "195",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 3,
+    "stem": "$(\\dfrac1{27})^{-2/3}=$",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "9",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "负分数指数先化为正指数：$(\\dfrac{1}{27})^{-2/3}=27^{2/3}$。再按“先根后幂”：$27^{2/3}=(\\sqrt[3]{27})^2=3^2=9$。也可先幂后根：$(27^2)^{1/3}=729^{1/3}=9$。两种顺序一致；注意负指数表示取倒数，分数指数分母为根指数。答案 $9$。",
+    "kps": [
+      {
+        "id": "67",
+        "code": "rja.4.1.03",
+        "name": "指数幂运算",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "913b787e6d8708c23acbfa98c2cbf9a8f7623aae56b73504588b0c1c49a374ab",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "48",
+      "code": "4.1",
+      "name": "指数"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-046",
+    "itemId": "197",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 1,
+    "stem": "$-390^\\circ$ 是第四象限角。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": true
+    },
+    "analysis": "终边相同角：$-390^\\circ=-360^\\circ+(-30^\\circ)$，与 $-30^\\circ$ 终边相同。$-30^\\circ$ 在第四象限，故 $-390^\\circ$ 也是第四象限角。命题正确。",
+    "kps": [
+      {
+        "id": "96",
+        "code": "rja.5.1.01",
+        "name": "角的概念推广",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "aac82184aaa08a51182f4d083dc66c47672c89a40aff49379c15daaa3e2cbc13",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "55",
+      "code": "5.1",
+      "name": "任意角和弧度制"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-047",
+    "itemId": "198",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 1,
+    "stem": "$\\dfrac{5\\pi}{6}$ 化为度数（整数）",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "150",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "换算关系：$\\pi$ 弧度 $=180^\\circ$。因此 $\\dfrac{5\\pi}{6}=\\dfrac{5}{6}\\times180^\\circ=150^\\circ$。答案填整数 $150$。",
+    "kps": [
+      {
+        "id": "97",
+        "code": "rja.5.1.02",
+        "name": "弧度制",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "2110a453a9f78b12efc4cd23e08ba14fe69d4ecd85095526634fd5e63e0175a3",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "55",
+      "code": "5.1",
+      "name": "任意角和弧度制"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-051",
+    "itemId": "202",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 1,
+    "stem": "$\\sin\\!\\left(\\dfrac{7\\pi}{6}\\right)=$",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "-0.5",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "$\\dfrac{7\\pi}{6}=\\pi+\\dfrac{\\pi}{6}$ 落在第三象限，正弦为负：$\\sin\\dfrac{7\\pi}{6}=-\\sin\\dfrac{\\pi}{6}=-\\dfrac12=-0.5$。",
+    "kps": [
+      {
+        "id": "102",
+        "code": "rja.5.3.01",
+        "name": "诱导公式",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "c7a4f62b06df7ffbbf7a3ec51cc80e91debff25f275b4861e24ed26ae481aca0",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "57",
+      "code": "5.3",
+      "name": "诱导公式"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-054",
+    "itemId": "205",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 1,
+    "stem": "$y=\\cos x$ 为偶函数。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": true
+    },
+    "analysis": "偶函数定义要求 $f(-x)=f(x)$。对余弦：$\\cos(-x)=\\cos x$ 恒成立，故 $y=\\cos x$ 是偶函数（图象关于 $y$ 轴对称）。命题正确。",
+    "kps": [
+      {
+        "id": "106",
+        "code": "rja.5.4.02",
+        "name": "余弦函数性质",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "33",
+        "code": "graph_symmetry",
+        "name": "图象对称分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "87e434d42ead7837777dd5378b2f5291d689cf5a2f0c1f5acdff98f139a05715",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "58",
+      "code": "5.4",
+      "name": "三角函数的图象与性质"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-057",
+    "itemId": "208",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 2,
+    "stem": "$\\sin15^\\circ\\cos15^\\circ=$",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "0.25",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "二倍角：$\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha$，故 $\\sin15^\\circ\\cos15^\\circ=\\dfrac12\\sin30^\\circ=\\dfrac12\\cdot\\dfrac12=\\dfrac14=0.25$。",
+    "kps": [
+      {
+        "id": "109",
+        "code": "rja.5.5.02",
+        "name": "二倍角公式",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "a866ef6b30b18acb2da922f05376875710be52c72109097da9aec72611359cc7",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "59",
+      "code": "5.5",
+      "name": "三角恒等变换"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-062",
+    "itemId": "213",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 3,
+    "stem": "$y=\\tan x$ 在 $(-\\pi/2,\\pi/2)$ 递增。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": true
+    },
+    "analysis": "正切函数 $y=\\tan x$ 的定义域是去掉奇异点的开区间并，在每一个 $(-\\dfrac{\\pi}{2}+k\\pi,\\dfrac{\\pi}{2}+k\\pi)$ 内导数为正、严格递增。特别地，在 $(-\\pi/2,\\pi/2)$ 上单调递增。命题正确。",
+    "kps": [
+      {
+        "id": "107",
+        "code": "rja.5.4.03",
+        "name": "正切函数",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "36",
+        "code": "mono_analysis",
+        "name": "单调性分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "8fbd746f260b255d559607bf35ab90ca5d8088033c0465d5f4b6da4eff4fb40d",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "58",
+      "code": "5.4",
+      "name": "三角函数的图象与性质"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-065",
+    "itemId": "216",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 2,
+    "stem": "$\\sqrt3\\sin x+\\cos x$ 的最大值为",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "2",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "辅助角法：把 $\\sqrt3\\sin x+\\cos x$ 写成 $R\\sin(x+\\varphi)$。取 $R=\\sqrt{(\\sqrt3)^2+1^2}=2$，则 $\\dfrac{\\sqrt3}{2}\\sin x+\\dfrac12\\cos x=\\sin(x+\\dfrac{\\pi}{6})$，故原式 $=2\\sin(x+\\dfrac{\\pi}{6})$。正弦最大值为 $1$，因此原式最大值为 $2$。当 $x+\\pi/6=\\pi/2$ 即 $x=\\pi/3$ 时取到。",
+    "kps": [
+      {
+        "id": "110",
+        "code": "rja.5.5.03",
+        "name": "辅助角公式",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "b2bce598835d1336a4fe55b2b9443d27fde71517dedbbb1b1ecba50d80d28c5d",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "59",
+      "code": "5.5",
+      "name": "三角恒等变换"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-066",
+    "itemId": "217",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 1,
+    "stem": "零向量与任何向量平行。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": true
+    },
+    "analysis": "向量平行（共线）的教材约定：零向量与任意向量都平行。这是定义性规定，目的是使“共线向量”“基底”等后续命题表述简洁统一。故“零向量与任何向量平行”正确。注意零向量没有确定方向，但仍规定与任意向量平行。",
+    "kps": [
+      {
+        "id": "127",
+        "code": "rjb.6.1.01",
+        "name": "向量概念",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "772ed346373821a3e2355069a61505a87eff8c3b034eac874a52c3fa092d0392",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "62",
+      "code": "6.1",
+      "name": "平面向量的概念"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-067",
+    "itemId": "218",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 1,
+    "stem": "设 $\\vec a=(3,4)$，则 $|\\vec a|=$",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "5",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "平面向量模长公式：$|\\vec a|=\\sqrt{x^2+y^2}$。代入 $\\vec a=(3,4)$ 得 $\\sqrt{9+16}=\\sqrt{25}=5$。此即勾股数 $3$-$4$-$5$。",
+    "kps": [
+      {
+        "id": "128",
+        "code": "rjb.6.1.02",
+        "name": "向量模",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "34",
+        "code": "num_shape",
+        "name": "数形结合",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "1e8bcdafc63d32c8f8ff8fc43b23ab0c52ffeaf9ce9547cac133e82680ef9217",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "62",
+      "code": "6.1",
+      "name": "平面向量的概念"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-070",
+    "itemId": "221",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 2,
+    "stem": "$\\vec a=(1,2)$，$\\vec b=(3,-1)$，则 $\\vec a\\cdot\\vec b=$",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "1",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "用坐标求数量积：$\\vec a\\cdot\\vec b=x_1x_2+y_1y_2$。代入 $\\vec a=(1,2)$、$\\vec b=(3,-1)$，得 $1\\cdot3+2\\cdot(-1)=3-2=1$。也可用模与夹角公式，但坐标法更直接。",
+    "kps": [
+      {
+        "id": "132",
+        "code": "rjb.6.2.02",
+        "name": "数量积",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "efdb7039e1cddad7e199b7e7b01d6b2a88a3df6c787e91dce3b72640794e8481",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "63",
+      "code": "6.2",
+      "name": "平面向量的运算"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-073",
+    "itemId": "224",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 3,
+    "stem": "任意两个非零向量都可作基底。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": false
+    },
+    "analysis": "平面向量基本定理要求：作为基底的两个向量必须不共线（线性无关）。若两个非零向量共线，则存在实数 $\\lambda$ 使 $\\vec b=\\lambda\\vec a$，它们只能张成一条直线，不能张成整个平面，因此不能任意取作基底。命题“任意两个非零向量都可作基底”错误。反例：$(1,0)$ 与 $(2,0)$。",
+    "kps": [
+      {
+        "id": "136",
+        "code": "rjb.6.3.01",
+        "name": "基底",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "3c93df458e845046258f5a7d74f28da7473557616e3c1c39102dd177fd8fb019",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "64",
+      "code": "6.3",
+      "name": "平面向量基本定理及坐标表示"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-075",
+    "itemId": "226",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 3,
+    "stem": "$|\\vec a|=5$，$|\\vec b|=2$，夹角 $60^\\circ$，则 $\\vec a$ 在 $\\vec b$ 上投影数量为",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "2.5",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "向量 $\\vec a$ 在 $\\vec b$ 方向上的投影（数量）公式为 $|\\vec a|\\cos\\theta$，其中 $\\theta$ 为夹角。代入 $|\\vec a|=5$、$\\theta=60^\\circ$，得 $5\\cdot\\cos60^\\circ=5\\cdot\\dfrac12=2.5$。注意：投影数量与 $|\\vec b|$ 无关（方向由 $\\vec b$ 给出即可）；若问投影向量则还需单位化 $\\vec b$。答案 $2.5$。",
+    "kps": [
+      {
+        "id": "134",
+        "code": "rjb.6.2.04",
+        "name": "投影",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "32",
+        "code": "special_value",
+        "name": "特殊值法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "64d729491cbe3e50bf277a4a77a406fb3929fa035f6bf15ac8db8215bd081eb8",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "63",
+      "code": "6.2",
+      "name": "平面向量的运算"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-079",
+    "itemId": "230",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 2,
+    "stem": "$3(1,-2)-2(2,1)=$ 的横坐标",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "-1",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "按运算顺序先数乘再加减：$3(1,-2)=(3,-6)$，$2(2,1)=(4,2)$；再作向量减法得 $(3,-6)-(4,2)=(3-4,-6-2)=(-1,-8)$。题目只要横坐标，故答案为 $-1$。也可一次写：$3(1,-2)-2(2,1)=(3-4,-6-2)=(-1,-8)$。纵坐标为 $-8$，勿误答成纵坐标。",
+    "kps": [
+      {
+        "id": "135",
+        "code": "rjb.6.2.05",
+        "name": "数乘",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "31ab499f65a445d635e65f0bc2fa10cd39dad3b3e21c677c9b86e90552e24b7b",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "63",
+      "code": "6.2",
+      "name": "平面向量的运算"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-083",
+    "itemId": "234",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 3,
+    "stem": "$|3-4i|=$",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "5",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "复数 $z=a+bi$ 的模 $|z|=\\sqrt{a^2+b^2}$。对 $z=3-4i$，取 $a=3$、$b=-4$，得 $|3-4i|=\\sqrt{9+16}=\\sqrt{25}=5$。这与勾股数 $3$-$4$-$5$ 一致。注意虚部取 $-4$ 或写成 $3+(-4)i$，平方后同为 $16$，模不变。答案 $5$。",
+    "kps": [
+      {
+        "id": "163",
+        "code": "rjb.7.3.01",
+        "name": "复数模",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "34",
+        "code": "num_shape",
+        "name": "数形结合",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "6a990c1f084b8cc196b41a9094893f6d806333644acd9e0712d8894cbe614dc0",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "22",
+      "code": "rjb-ch2",
+      "name": "复数"
+    },
+    "category": {
+      "id": "71",
+      "code": "7.3",
+      "name": "复数的三角表示"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-084",
+    "itemId": "235",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 1,
+    "stem": "正方体是特殊的棱柱。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": true
+    },
+    "analysis": "正方体有两个互相平行且全等的正方形底面，侧棱垂直于底面且长度相等，因此它是直四棱柱，属于棱柱的特殊情形。命题“正方体是特殊的棱柱”正确；进一步也可看作特殊的长方体或直四棱柱，判断无误。",
+    "kps": [
+      {
+        "id": "165",
+        "code": "rjb.8.1.01",
+        "name": "棱柱概念",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "755599d7fbb2a388820325d4abc64966d07a0e45f8138cf1881a333fe154676d",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "23",
+      "code": "rjb-ch3",
+      "name": "立体几何初步"
+    },
+    "category": {
+      "id": "72",
+      "code": "8.1",
+      "name": "基本立体图形"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-085",
+    "itemId": "236",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 1,
+    "stem": "底面积 $6$，高 $5$ 的圆柱体积为",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "30",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "柱体体积结构公式为 $V=$ 底面积 $\\times$ 高。已知底面积 $6$、高 $5$，直接得 $V=6\\times5=30$。该公式对圆柱、棱柱均适用；本题未额外给出半径，不必再换成 $\\pi r^2 h$。",
+    "kps": [
+      {
+        "id": "169",
+        "code": "rjb.8.3.01",
+        "name": "柱体体积",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "32",
+        "code": "special_value",
+        "name": "特殊值法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "b10407a81865d5110c4e529806a96d85f1d0a9f6ef789c532b4a9f0cadcdeb7e",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "23",
+      "code": "rjb-ch3",
+      "name": "立体几何初步"
+    },
+    "category": {
+      "id": "74",
+      "code": "8.3",
+      "name": "简单几何体的表面积与体积"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-088",
+    "itemId": "239",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 2,
+    "stem": "平面外一条直线与平面内一条直线平行，则该直线与平面平行。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": true
+    },
+    "analysis": "线面平行判定定理：若直线 $l$ 不在平面 $\\alpha$ 内（即平面外直线），且 $l$ 平行于 $\\alpha$ 内的某一条直线，则可判定 $l\\parallel\\alpha$。题干“平面外一条直线与平面内一条直线平行，则该直线与平面平行”正是该判定的叙述，故命题正确。注意前提“平面外”不可少，否则直线可能就在平面内。",
+    "kps": [
+      {
+        "id": "175",
+        "code": "rjb.8.5.01",
+        "name": "线面平行判定",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "b2a2875c43271bc8a3d3b365dde898feef596fe70be665a35e5f03ce51fc93b3",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "23",
+      "code": "rjb-ch3",
+      "name": "立体几何初步"
+    },
+    "category": {
+      "id": "76",
+      "code": "8.5",
+      "name": "空间直线、平面的平行"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-096",
+    "itemId": "247",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "judge",
+    "difficulty": 3,
+    "stem": "样本相关系数 $r$ 越接近 $1$，线性相关程度一定越强。",
+    "options": null,
+    "answer": {
+      "kind": "judge",
+      "value": false
+    },
+    "analysis": "样本相关系数 $r\\in[-1,1]$。线性相关强弱应看 $|r|$ 是否接近 $1$：$r\\to1$ 表示强正相关，$r\\to-1$ 表示强负相关（同样“很强”）。命题只说“越接近 $1$ 一定越强”，忽略了接近 $-1$ 的情形，表述不准确；此外相关也不等于因果。故命题错误（false）。",
+    "kps": [
+      {
+        "id": "185",
+        "code": "rjb.9.3.01",
+        "name": "回归思想",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "8d94dded2830bf0c2a492d2ce321f39474f04465ea3c45aa45ba15ce73419db9",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "24",
+      "code": "rjb-ch4",
+      "name": "统计"
+    },
+    "category": {
+      "id": "81",
+      "code": "9.3",
+      "name": "统计分析案例"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-099",
+    "itemId": "250",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "numeric",
+    "difficulty": 2,
+    "stem": "独立事件 $A,B$，$P(A)=0.4$，$P(B)=0.5$，则 $P(AB)=$",
+    "options": null,
+    "answer": {
+      "kind": "numeric",
+      "value": "0.2",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    },
+    "analysis": "若事件 $A$、$B$ 相互独立，则积事件概率等于各自概率之积：$P(AB)=P(A)P(B)$。代入 $P(A)=0.4$、$P(B)=0.5$ 得 $0.4\\times0.5=0.2$。注意独立与互斥不同：互斥时一般有 $P(AB)=0$。",
+    "kps": [
+      {
+        "id": "190",
+        "code": "rjb.10.2.01",
+        "name": "独立事件",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "10c3d2902e5446e9ac7902ead1f3ce8b99a2250efca1f02bdd125f686104cbd4",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "25",
+      "code": "rjb-ch5",
+      "name": "概率"
+    },
+    "category": {
+      "id": "83",
+      "code": "10.2",
+      "name": "事件的相互独立性"
+    }
+  }
+]

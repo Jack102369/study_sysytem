@@ -1,0 +1,164 @@
+{
+  "phase": "HS-MATH-BANK-DIAGRAM-1C-PREFLIGHT",
+  "readonly": true,
+  "wroteDb": false,
+  "mysqlVersion": "8.0.44",
+  "database": "study_system",
+  "schemaCharset": {
+    "cs": "utf8mb4",
+    "coll": "utf8mb4_0900_ai_ci"
+  },
+  "targetTables": [
+    {
+      "name": "hs_math_train_item_diagram_objects",
+      "exists": false,
+      "meta": null
+    },
+    {
+      "name": "hs_math_train_item_diagrams",
+      "exists": false,
+      "meta": null
+    },
+    {
+      "name": "hs_math_train_session_item_diagrams",
+      "exists": false,
+      "meta": null
+    }
+  ],
+  "anyTargetExists": false,
+  "allTargetsExist": false,
+  "partialMigration": false,
+  "relatedColumns": [
+    {
+      "TABLE_NAME": "hs_math_train_items",
+      "COLUMN_NAME": "id",
+      "DATA_TYPE": "bigint",
+      "COLUMN_TYPE": "bigint unsigned",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "PRI",
+      "EXTRA": "auto_increment"
+    },
+    {
+      "TABLE_NAME": "hs_math_train_items",
+      "COLUMN_NAME": "pool",
+      "DATA_TYPE": "varchar",
+      "COLUMN_TYPE": "varchar(16)",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "MUL",
+      "EXTRA": ""
+    },
+    {
+      "TABLE_NAME": "hs_math_train_items",
+      "COLUMN_NAME": "status",
+      "DATA_TYPE": "varchar",
+      "COLUMN_TYPE": "varchar(32)",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "",
+      "EXTRA": ""
+    },
+    {
+      "TABLE_NAME": "hs_math_train_items",
+      "COLUMN_NAME": "is_active",
+      "DATA_TYPE": "tinyint",
+      "COLUMN_TYPE": "tinyint(1)",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "",
+      "EXTRA": ""
+    },
+    {
+      "TABLE_NAME": "hs_math_train_items",
+      "COLUMN_NAME": "content_version",
+      "DATA_TYPE": "int",
+      "COLUMN_TYPE": "int",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "",
+      "EXTRA": ""
+    },
+    {
+      "TABLE_NAME": "hs_math_train_session_item_images",
+      "COLUMN_NAME": "id",
+      "DATA_TYPE": "bigint",
+      "COLUMN_TYPE": "bigint unsigned",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "PRI",
+      "EXTRA": "auto_increment"
+    },
+    {
+      "TABLE_NAME": "hs_math_train_session_item_images",
+      "COLUMN_NAME": "user_id",
+      "DATA_TYPE": "bigint",
+      "COLUMN_TYPE": "bigint unsigned",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "MUL",
+      "EXTRA": ""
+    },
+    {
+      "TABLE_NAME": "hs_math_train_session_item_images",
+      "COLUMN_NAME": "status",
+      "DATA_TYPE": "varchar",
+      "COLUMN_TYPE": "varchar(16)",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "",
+      "EXTRA": ""
+    },
+    {
+      "TABLE_NAME": "hs_math_train_session_items",
+      "COLUMN_NAME": "id",
+      "DATA_TYPE": "bigint",
+      "COLUMN_TYPE": "bigint unsigned",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "PRI",
+      "EXTRA": "auto_increment"
+    },
+    {
+      "TABLE_NAME": "hs_math_train_session_items",
+      "COLUMN_NAME": "session_id",
+      "DATA_TYPE": "bigint",
+      "COLUMN_TYPE": "bigint unsigned",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "MUL",
+      "EXTRA": ""
+    },
+    {
+      "TABLE_NAME": "hs_math_train_session_items",
+      "COLUMN_NAME": "item_id",
+      "DATA_TYPE": "bigint",
+      "COLUMN_TYPE": "bigint unsigned",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "MUL",
+      "EXTRA": ""
+    },
+    {
+      "TABLE_NAME": "hs_math_train_session_items",
+      "COLUMN_NAME": "content_version",
+      "DATA_TYPE": "int",
+      "COLUMN_TYPE": "int",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "",
+      "EXTRA": ""
+    },
+    {
+      "TABLE_NAME": "users",
+      "COLUMN_NAME": "id",
+      "DATA_TYPE": "bigint",
+      "COLUMN_TYPE": "bigint unsigned",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "PRI",
+      "EXTRA": "auto_increment"
+    }
+  ],
+  "fkTypeHints": {
+    "train_items_id": "bigint unsigned",
+    "session_items_id": "bigint unsigned",
+    "users_id": "bigint unsigned"
+  },
+  "indexNameHits": [],
+  "fkNameHits": [],
+  "counts": {
+    "candApproved": 100,
+    "drawable": 113,
+    "sessions": 133,
+    "sessionItems": 357,
+    "appImages": 64
+  }
+}

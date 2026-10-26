@@ -1,0 +1,483 @@
+[
+  {
+    "candidateCode": "CAND-G1B-005",
+    "itemId": "156",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "命题否定写法正确的有（多选）",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "“$\\forall x,\\,x^2+1>0$”否定为“$\\exists x,\\,x^2+1\\le0$”"
+        },
+        {
+          "id": "B",
+          "text": "“$\\exists x\\in\\mathbb{Z},\\,x^2=10$”否定为“$\\forall x\\in\\mathbb{Z},\\,x^2\\ne10$”"
+        },
+        {
+          "id": "C",
+          "text": "“$\\forall x,\\,x>0$”否定为“$\\exists x,\\,x\\le0$”"
+        },
+        {
+          "id": "D",
+          "text": "“$\\exists x,\\,x^2<0$”否定为“$\\forall x,\\,x^2>0$”"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "analysis": "量词否定规则：$\\forall$ 与 $\\exists$ 互换，并把结论取否定。A、B、C 均符合。D 中“$\\exists x,\\,x^2<0$”的否定应为“$\\forall x,\\,x^2\\ge0$”，原选项写成 $x^2>0$，漏掉等号，故 D 错。正确为 A、B、C。",
+    "kps": [
+      {
+        "id": "15",
+        "code": "rja.1.5.03",
+        "name": "含有量词的命题否定",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "7812d9b20086c2824ceff1c224676e793e4a7fdc2e1896ef8198ab9746b9e63d",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "16",
+      "code": "rja-ch1",
+      "name": "集合与常用逻辑用语"
+    },
+    "category": {
+      "id": "35",
+      "code": "1.5",
+      "name": "全称量词与存在量词"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-011",
+    "itemId": "162",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "multi",
+    "difficulty": 2,
+    "stem": "使 $x^2+px+9>0$ 对 $\\forall x\\in\\mathbb{R}$ 恒成立的 $p$ 可以是（多选）",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$0$"
+        },
+        {
+          "id": "B",
+          "text": "$5$"
+        },
+        {
+          "id": "C",
+          "text": "$-5$"
+        },
+        {
+          "id": "D",
+          "text": "$6$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "analysis": "开口向上，要 $x^2+px+9>0$ 对一切 $x$ 成立，需判别式 $\\Delta=p^2-36<0$，即 $|p|<6$。故 $p=0,\\pm5$ 可，$p=6$ 时 $\\Delta=0$ 有重根使式子可取 $0$，不满足严格大于。选 A、B、C。",
+    "kps": [
+      {
+        "id": "52",
+        "code": "rja.2.3.02",
+        "name": "一元二次不等式解法",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "08616bb9734edb1f62b4acd683d5f274abdd38edb9ff69e3523840746061bd84",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "17",
+      "code": "rja-ch2",
+      "name": "一元二次函数、方程和不等式"
+    },
+    "category": {
+      "id": "40",
+      "code": "2.3",
+      "name": "二次函数与一元二次方程、不等式"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-025",
+    "itemId": "176",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "multi",
+    "difficulty": 2,
+    "stem": "第一象限递增的幂函数有（多选）",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$y=x^2$"
+        },
+        {
+          "id": "B",
+          "text": "$y=x^{1/2}$"
+        },
+        {
+          "id": "C",
+          "text": "$y=x^{-1}$"
+        },
+        {
+          "id": "D",
+          "text": "$y=x^3$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    "analysis": "在第一象限 $(0,+\\infty)$ 上，幂函数 $y=x^{\\alpha}$ 的单调性由指数 $\\alpha$ 决定：$\\alpha>0$ 时递增，$\\alpha<0$ 时递减。于是 $x^2$（$\\alpha=2$）、$x^{1/2}$（$\\alpha=1/2$）、$x^3$（$\\alpha=3$）均递增；而 $x^{-1}$（$\\alpha=-1$）递减。故选 A、B、D，不选 C。可取 $0<x_1<x_2$ 比较函数值作直观检验。",
+    "kps": [
+      {
+        "id": "39",
+        "code": "rja.3.3.02",
+        "name": "常见幂函数图象",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "33",
+        "code": "graph_symmetry",
+        "name": "图象对称分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "fa7b5bc9052b0151b92939d83097fa09be6fb6e55738a0d81a636fb1ff8718a4",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "43",
+      "code": "3.3",
+      "name": "幂函数"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-037",
+    "itemId": "188",
+    "contentVersion": 2,
+    "status": "approved",
+    "qtype": "multi",
+    "difficulty": 2,
+    "stem": "下列关于对数运算法则的说法，正确的是（多选）",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\log_a(MN)=\\log_aM+\\log_aN$"
+        },
+        {
+          "id": "B",
+          "text": "$\\log_a\\dfrac MN=\\log_aM-\\log_aN$"
+        },
+        {
+          "id": "C",
+          "text": "$\\log_aM^2=2\\log_aM$"
+        },
+        {
+          "id": "D",
+          "text": "$\\log_a1=0$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    "analysis": "A、B 是常用对数运算法则（在真数、底数合法时成立）；D 为 $\\log_a1=0$。C 写成 $\\log_a M^2=2\\log_a M$：一般应先保证真数为正，严格形式常写 $2\\log_a|M|$（并讨论定义域）；题干未限定 $M>0$ 时不宜直接选 C。故正确选项为 A、B、D。",
+    "kps": [
+      {
+        "id": "74",
+        "code": "rja.4.3.02",
+        "name": "对数运算法则",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "8e1dc81f9b143d70192591963e92f4df54af9624d5aa0569ec3a482b1922dd26",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "50",
+      "code": "4.3",
+      "name": "对数"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-059",
+    "itemId": "210",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "multi",
+    "difficulty": 2,
+    "stem": "$y=\\sin x$ 经何种变换得 $y=\\sin(2x)$（多选）",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "横坐标缩短为原来1/2"
+        },
+        {
+          "id": "B",
+          "text": "横坐标伸长为原来2倍"
+        },
+        {
+          "id": "C",
+          "text": "纵坐标不变"
+        },
+        {
+          "id": "D",
+          "text": "向右平移"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "C"
+      ]
+    },
+    "analysis": "比较 $y=\\sin x$ 与 $y=\\sin(2x)$：把角换成 $2x$ 后，周期由 $2\\pi$ 变为 $\\pi$，相当于横坐标（周期）缩短为原来的 $\\dfrac12$，即 A；纵坐标振幅仍为 $1$，尺度不变，即 C。题干没有 $\\varphi$ 平移项，故不向右平移（排除 D）；也不是伸长（排除 B）。因此选 A、C。",
+    "kps": [
+      {
+        "id": "113",
+        "code": "rja.5.6.02",
+        "name": "图象变换",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "33",
+        "code": "graph_symmetry",
+        "name": "图象对称分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "362a0ae0e948e0d1ca6f1f71e943ef0a236b6f28bc42d9d2a676aac11e2f0d4f",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "60",
+      "code": "5.6",
+      "name": "函数 y=Asin(ωx+φ)"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-074",
+    "itemId": "225",
+    "contentVersion": 2,
+    "status": "approved",
+    "qtype": "multi",
+    "difficulty": 2,
+    "stem": "下列关于平面向量运算的说法，正确的是（多选）",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\lambda(\\vec a+\\vec b)=\\lambda\\vec a+\\lambda\\vec b$"
+        },
+        {
+          "id": "B",
+          "text": "$(\\vec a+\\vec b)+\\vec c=\\vec a+(\\vec b+\\vec c)$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec a\\cdot\\vec b=\\vec b\\cdot\\vec a$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec a\\times\\vec b=\\vec b\\times\\vec a$"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "analysis": "A、B 分别是数乘分配律与向量加法结合律；C 是数量积交换律，均正确。D 写成叉积交换：高中平面向量一般不引入叉积，且空间叉积满足反交换 $\\vec a\\times\\vec b=-\\vec b\\times\\vec a$，故 D 错。选 A、B、C。",
+    "kps": [
+      {
+        "id": "137",
+        "code": "rjb.6.3.02",
+        "name": "坐标运算",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "15c80955185461d9746d3af5e495f149e5877cb97932485c78b990118828ca65",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "64",
+      "code": "6.3",
+      "name": "平面向量基本定理及坐标表示"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-092",
+    "itemId": "243",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "multi",
+    "difficulty": 2,
+    "stem": "面面平行判定可用（多选）",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "一面内两相交直线分别平行于另一面"
+        },
+        {
+          "id": "B",
+          "text": "两平面分别平行于同一直线"
+        },
+        {
+          "id": "C",
+          "text": "两平面平行于同一平面"
+        },
+        {
+          "id": "D",
+          "text": "一面内两直线都平行于另一面"
+        }
+      ]
+    },
+    "answer": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "C"
+      ]
+    },
+    "analysis": "面面平行常用判定：若一个平面内的两条相交直线分别平行于另一个平面，则可判定两平面平行（A）；若两平面都平行于同一平面，则由传递性也平行（C）。B 仅“分别平行于同一直线”不够；D 若两直线平行（不相交），即使都平行于另一面，也不能推出面面平行（可能相交或重合情形需另论）。故选 A、C。",
+    "kps": [
+      {
+        "id": "176",
+        "code": "rjb.8.5.02",
+        "name": "面面平行",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "48a93bcdceedf0653d307addf536dd2700d8e8301e623be0c070506ac80eae14",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "23",
+      "code": "rjb-ch3",
+      "name": "立体几何初步"
+    },
+    "category": {
+      "id": "76",
+      "code": "8.5",
+      "name": "空间直线、平面的平行"
+    }
+  }
+]

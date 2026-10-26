@@ -33,6 +33,10 @@
         </div>
 
         <MathStem class="stem" :text="current.stem" />
+        <HsMathStemDiagrams
+          v-if="session && currentDiagramItems.length"
+          :items="currentDiagramItems"
+        />
 
         <div class="ans">
           <MathOptionList
@@ -116,12 +120,14 @@ import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import MathStem from '@/components/hs-math/MathStem.vue'
+import HsMathStemDiagrams from '@/components/hs-math/HsMathStemDiagrams.vue'
 import MathOptionList from '@/components/hs-math/MathOptionList.vue'
 import MathJudgeInput from '@/components/hs-math/MathJudgeInput.vue'
 import MathNumericInput from '@/components/hs-math/MathNumericInput.vue'
 import MathApplicationInput from '@/components/hs-math/MathApplicationInput.vue'
 import {
   getHsMathTrainSession,
+  hsMathSessionItemDiagramContentUrl,
   saveHsMathTrainAnswer,
   submitHsMathTrainSession,
   type HsMathSessionDetail,
@@ -164,6 +170,16 @@ const current = computed<HsMathSessionItem | null>(() => {
 const optionList = computed(
   () => current.value?.optionsJson?.options || [],
 )
+const currentDiagramItems = computed(() => {
+  const s = session.value
+  const cur = current.value
+  if (!s || !cur) return []
+  return (cur.diagrams || []).map((d) => ({
+    key: d.objectId,
+    contentPath: hsMathSessionItemDiagramContentUrl(s.id, cur.id, d.objectId),
+    alt: d.altText,
+  }))
+})
 
 function syncDraftFromItem(item: HsMathSessionItem | null) {
   dirtySortOrder = null

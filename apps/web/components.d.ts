@@ -62,6 +62,7 @@ declare module 'vue' {
     ElTooltip: typeof import('element-plus/es')['ElTooltip']
     ElUpload: typeof import('element-plus/es')['ElUpload']
     HsMathSourceMethodFields: typeof import('./src/components/hs-math/HsMathSourceMethodFields.vue')['default']
+    HsMathStemDiagrams: typeof import('./src/components/hs-math/HsMathStemDiagrams.vue')['default']
     MathApplicationAnswerImages: typeof import('./src/components/hs-math/MathApplicationAnswerImages.vue')['default']
     MathApplicationInput: typeof import('./src/components/hs-math/MathApplicationInput.vue')['default']
     MathGradeTag: typeof import('./src/components/hs-math/MathGradeTag.vue')['default']

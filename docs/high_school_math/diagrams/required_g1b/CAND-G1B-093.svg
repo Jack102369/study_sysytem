@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img">
+  <title>CAND-G1B-093 cube diagram</title>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <polygon points="320.00,310.00 645.50,242.80 435.50,452.80" fill="rgba(70,140,210,0.28)" stroke="#2864aa" stroke-width="2" opacity="1.0"/>
+  <line x1="320.00" y1="520.00" x2="435.50" y2="452.80" stroke="#888890" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 6"/>
+  <line x1="435.50" y1="452.80" x2="645.50" y2="452.80" stroke="#888890" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 6"/>
+  <line x1="435.50" y1="452.80" x2="435.50" y2="242.80" stroke="#888890" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 6"/>
+  <line x1="320.00" y1="520.00" x2="530.00" y2="520.00" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="530.00" y1="520.00" x2="645.50" y2="452.80" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="320.00" y1="520.00" x2="320.00" y2="310.00" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="530.00" y1="520.00" x2="530.00" y2="310.00" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="645.50" y1="452.80" x2="645.50" y2="242.80" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="320.00" y1="310.00" x2="530.00" y2="310.00" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="530.00" y1="310.00" x2="645.50" y2="242.80" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="645.50" y1="242.80" x2="435.50" y2="242.80" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="435.50" y1="242.80" x2="320.00" y2="310.00" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="530.00" y1="520.00" x2="435.50" y2="242.80" stroke="#1c4a9e" stroke-width="3.2" stroke-linecap="round"/>
+  <text x="302.00" y="528.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">A</text>
+  <text x="538.00" y="528.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">B</text>
+  <text x="653.50" y="460.80" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">C</text>
+  <text x="415.50" y="456.80" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">D</text>
+  <text x="298.00" y="302.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">A₁</text>
+  <text x="538.00" y="300.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">B₁</text>
+  <text x="653.50" y="234.80" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">C₁</text>
+  <text x="413.50" y="232.80" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">D₁</text>
+  <text x="70.00" y="48.00" font-size="22" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">正方体 ABCD-A₁B₁C₁D₁（示意）</text>
+  <text x="70.00" y="78.00" font-size="15" fill="#5a5a62" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">标出 BD₁ 与平面 A₁C₁D；虚线为遮挡边</text>
+  <text x="70.00" y="680.00" font-size="14" fill="#5a5a62" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">CAND-G1B-093 · 教学示意图 · 不含证明结论标注</text>
+</svg>

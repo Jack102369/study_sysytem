@@ -62,6 +62,7 @@
     "hs-math:p1-func-core1a-selftest": "ts-node --transpile-only src/hs-math/util/hs-math-p1-func-core1a.selftest.ts",
     "hs-math:p1-func-core1a2d1-selftest": "ts-node --transpile-only src/hs-math/util/hs-math-p1-func-core1a2d1.selftest.ts",
     "hs-math:p1-func-core1a2d1a-selftest": "ts-node --transpile-only src/hs-math/util/hs-math-p1-func-core1a2d1a.selftest.ts",
+    "hs-math:diagram1b-selftest": "ts-node --transpile-only src/hs-math/util/hs-math-item-diagram.selftest.ts",
     "hs-math:schema-audit": "ts-node --transpile-only src/hs-math/integration/hs-math-schema-audit.ts",
     "hs-math:it": "ts-node --transpile-only src/hs-math/integration/hs-math-p0-3.integration.ts",
     "hs-math:it-setup": "ts-node --transpile-only src/hs-math/integration/hs-math-it-setup.ts",

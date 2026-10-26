@@ -1,0 +1,155 @@
+﻿sp	code	name	cat
+rja-ch1	rja.1.1.01	闆嗗悎鐨勫惈涔変笌鍏冪礌	1.1
+rja-ch1	rja.1.1.02	闆嗗悎鐨勮〃绀烘硶	1.1
+rja-ch1	rja.1.1.03	绌洪泦涓庡叏闆嗭紙鎻忚堪灞傞潰锛?1.1
+rja-ch1	rja.1.2.01	瀛愰泦涓庣湡瀛愰泦	1.2
+rja-ch1	rja.1.2.02	闆嗗悎鐩哥瓑	1.2
+rja-ch1	rja.1.3.01	骞堕泦	1.3
+rja-ch1	rja.1.3.02	浜ら泦	1.3
+rja-ch1	rja.1.3.03	琛ラ泦	1.3
+rja-ch1	rja.1.3.04	鏂囨皬鍥句笌缁煎悎杩愮畻	1.3
+rja-ch1	rja.1.4.01	鍏呭垎鏉′欢	1.4
+rja-ch1	rja.1.4.02	蹇呰鏉′欢	1.4
+rja-ch1	rja.1.4.03	鍏呰鏉′欢	1.4
+rja-ch1	rja.1.5.01	鍏ㄧО閲忚瘝	1.5
+rja-ch1	rja.1.5.02	瀛樺湪閲忚瘝	1.5
+rja-ch1	rja.1.5.03	鍚湁閲忚瘝鐨勫懡棰樺惁瀹?1.5
+rja-ch3	rja.3.1.01	鍑芥暟鐨勫畾涔?3.1
+rja-ch3	rja.3.1.02	瀹氫箟鍩?3.1
+rja-ch3	rja.3.1.03	鍊煎煙	3.1
+rja-ch3	rja.3.1.04	瀵瑰簲鍏崇郴	3.1
+rja-ch3	rja.3.1.05	鐩稿悓鍑芥暟鐨勫垽鏂?3.1
+rja-ch3	rja.3.1.06	瑙ｆ瀽娉?3.1
+rja-ch3	rja.3.1.07	鍥捐薄娉?3.1
+rja-ch3	rja.3.1.08	鍒楄〃娉?3.1
+rja-ch3	rja.3.1.09	鍒嗘鍑芥暟	3.1
+rja-ch3	rja.3.1.10	鍑芥暟姹傚€?3.1
+rja-ch3	rja.3.2.01	鍗曡皟閫掑	3.2
+rja-ch3	rja.3.2.02	鍗曡皟閫掑噺	3.2
+rja-ch3	rja.3.2.03	鍗曡皟鍖洪棿	3.2
+rja-ch3	rja.3.2.04	鍗曡皟鎬у垽鏂?3.2
+rja-ch3	rja.3.2.05	鍗曡皟鎬т笌涓嶇瓑寮?3.2
+rja-ch3	rja.3.2.06	鏈€澶у€?3.2
+rja-ch3	rja.3.2.07	鏈€灏忓€间笌鍖洪棿鏈€鍊?3.2
+rja-ch3	rja.3.2.08	鍗曡皟鎬т笌鏈€鍊?3.2
+rja-ch3	rja.3.2.09	濂囧伓鎬у畾涔変笌瀹氫箟鍩熷绉?3.2
+rja-ch3	rja.3.2.10	濂囧嚱鏁颁笌鍋跺嚱鏁扮殑鍒ゆ柇	3.2
+rja-ch3	rja.3.2.11	鏃㈠鍙堝伓銆侀潪濂囬潪鍋跺強鍥捐薄瀵圭О	3.2
+rja-ch3	rja.3.2.12	濂囧伓鎬ф眰鍊间笌缁煎悎搴旂敤	3.2
+rja-ch3	rja.3.3.01	骞傚嚱鏁版蹇?3.3
+rja-ch3	rja.3.3.02	甯歌骞傚嚱鏁板浘璞?3.3
+rja-ch3	rja.3.3.03	骞傚嚱鏁版€ц川姒傝	3.3
+rja-ch3	rja.3.3.04	骞傚嚱鏁板崟璋冩€?3.3
+rja-ch3	rja.3.3.05	骞傚嚱鏁板鍋舵€?3.3
+code	cat	qtype	difficulty	status	stem
+HSMA-RJA-CH01-0001	1.1	single	1	draft	涓嬪垪瀵硅薄涓紝鑳芥瀯鎴愰泦鍚堢殑鏄?
+HSMA-RJA-CH01-0002	1.1	single	1	draft	璁?$A=\\{1,2,3\\}$锛屽垯涓嬪垪姝ｇ‘鐨勬槸
+HSMA-RJA-CH01-0003	1.1	single	1	draft	鐢ㄥ垪涓炬硶琛ㄧず闆嗗悎 $\\{x\\in\\mathbb{Z}\\mid -2\\le x<2\\}$锛屾纭殑鏄紙$\\mathbb{Z}$ 琛ㄧず鏁存暟闆嗭級
+HSMA-RJA-CH01-0004	1.1	single	2	draft	涓嬪垪鐢ㄦ弿杩版硶琛ㄧず闆嗗悎姝ｇ‘鐨勬槸
+HSMA-RJA-CH01-0005	1.1	single	1	draft	鍏充簬绌洪泦 $\\varnothing$锛屾纭殑鏄?
+HSMA-RJA-CH01-0006	1.1	single	2	draft	璁?$A=\\{a,b\\}$锛屼笖 $a\\ne b$銆備笅鍒楄娉曟纭殑鏄?
+HSMA-RJA-CH01-0007	1.1	single	2	draft	甯哥敤鏁伴泦涓紝$\\mathbb{N}$銆?\\mathbb{Z}$銆?\\mathbb{Q}$銆?\\mathbb{R}$ 鍒嗗埆琛ㄧず鑷劧鏁伴泦銆佹暣鏁伴泦銆佹湁鐞嗘暟闆嗐€佸疄鏁伴泦銆備笅鍒楁纭殑鏄紙鏈绾﹀畾 $\\mathbb
+HSMA-RJA-CH01-0008	1.1	single	3	draft	璁鹃泦鍚?$A=\\{x\\mid x=2k+1,\\,k\\in\\mathbb{Z}\\}$锛堝鏁伴泦锛夈€傚垯 $-5\\in A$ 鐨勫垽鏂槸
+HSMA-RJA-CH01-0009	1.1	multi	2	draft	涓嬪垪鍙互浣滀负闆嗗悎鐨勬槸锛堝閫夛級
+HSMA-RJA-CH01-0010	1.1	multi	1	draft	鍏充簬闆嗗悎琛ㄧず娉曪紝姝ｇ‘鐨勬槸锛堝閫夛級
+HSMA-RJA-CH01-0011	1.1	multi	2	draft	璁?$A=\\{\\varnothing\\}$銆備笅鍒楁纭殑鏄紙澶氶€夛級
+HSMA-RJA-CH01-0012	1.1	judge	1	draft	闆嗗悎 $\\{1,2,3\\}$ 涓庨泦鍚?$\\{3,2,1\\}$ 鏄悓涓€涓泦鍚堛€?
+HSMA-RJA-CH01-0013	1.1	judge	2	draft	绌洪泦鏄换浣曚竴涓泦鍚堢殑鍏冪礌銆?
+HSMA-RJA-CH01-0014	1.1	judge	1	draft	鐢ㄦ弿杩版硶琛ㄧず闆嗗悎鏃讹紝蹇呴』鍐欐竻浠ｈ〃鍏冪礌鎵€灞炵殑鑼冨洿锛堟垨绾﹀畾榛樿鑼冨洿锛夈€?
+HSMA-RJA-CH01-0015	1.1	numeric	1	draft	闆嗗悎 $\\{2,4,6,8\\}$ 鐨勫厓绱犱釜鏁版槸
+HSMA-RJA-CH01-0016	1.1	numeric	2	draft	闆嗗悎 $\\{x\\in\\mathbb{Z}\\mid 0<x\\le 5\\}$ 鐨勫厓绱犱釜鏁版槸
+HSMA-RJA-CH01-0017	1.2	single	1	draft	鑻?$A\\subseteq B$锛屽垯涓嬪垪涓€瀹氭纭殑鏄?
+HSMA-RJA-CH01-0018	1.2	single	1	draft	璁?$A=\\{1,2\\}$锛?B=\\{1,2,3\\}$锛屽垯
+HSMA-RJA-CH01-0019	1.2	single	1	draft	闆嗗悎 $A=B$ 鐨勫厖瑕佹潯浠舵槸
+HSMA-RJA-CH01-0020	1.2	single	2	draft	涓嬪垪璇存硶姝ｇ‘鐨勬槸
+HSMA-RJA-CH01-0021	1.2	single	2	draft	璁鹃泦鍚?$A$ 鍚湁 $3$ 涓厓绱狅紝鍒?$A$ 鐨勫瓙闆嗕釜鏁版槸
+HSMA-RJA-CH01-0022	1.2	single	2	draft	璁鹃泦鍚?$A$ 鍚湁 $3$ 涓厓绱狅紝鍒?$A$ 鐨勭湡瀛愰泦涓暟鏄?
+HSMA-RJA-CH01-0023	1.2	single	2	draft	鑻?$\\{1,2\\}\\subseteq A\\subseteq\\{1,2,3\\}$锛屽垯闆嗗悎 $A$ 鐨勫彲鑳芥儏鍐电鏁版槸
+HSMA-RJA-CH01-0024	1.2	single	3	draft	璁?$A=\\{x\\mid x^{2}-3x+2=0\\}$锛?B=\\{1,2\\}$锛屽垯
+HSMA-RJA-CH01-0025	1.2	multi	2	draft	璁?$A=\\{a\\}$銆備笅鍒楁纭殑鏄紙澶氶€夛級
+HSMA-RJA-CH01-0026	1.2	multi	1	draft	涓嬪垪鍏崇郴姝ｇ‘鐨勬槸锛堝閫夛級
+HSMA-RJA-CH01-0027	1.2	multi	3	draft	璁?$A=\\{1,2,3\\}$銆備笅鍒楁槸 $A$ 鐨勭湡瀛愰泦鐨勬槸锛堝閫夛級
+HSMA-RJA-CH01-0028	1.2	judge	1	draft	鑻?$A\\subseteq B$ 涓?$B\\subseteq A$锛屽垯 $A=B$銆?
+HSMA-RJA-CH01-0029	1.2	judge	1	draft	绌洪泦娌℃湁鐪熷瓙闆嗐€?
+HSMA-RJA-CH01-0030	1.2	numeric	1	draft	闆嗗悎 $\\{a,b\\}$锛?a\\ne b$锛夌殑瀛愰泦涓暟鏄?
+HSMA-RJA-CH01-0031	1.2	numeric	1	draft	闆嗗悎 $\\{1,2,3,4\\}$ 鐨勭湡瀛愰泦涓暟鏄?
+HSMA-RJA-CH01-0032	1.2	numeric	3	draft	鑻ラ泦鍚?$A$ 鐨勫瓙闆嗗叡鏈?$16$ 涓紝鍒?$A$ 鐨勫厓绱犱釜鏁版槸
+HSMA-RJA-CH01-0033	1.3	single	1	draft	璁?$A=\\{1,2,3\\}$锛?B=\\{2,3,4\\}$锛屽垯 $A\\cup B=$
+HSMA-RJA-CH01-0034	1.3	single	1	draft	璁?$A=\\{1,2,3\\}$锛?B=\\{2,3,4\\}$锛屽垯 $A\\cap B=$
+HSMA-RJA-CH01-0035	1.3	single	1	draft	璁惧叏闆?$U=\\{1,2,3,4,5\\}$锛?A=\\{1,2,3\\}$锛屽垯 $\\complement_{U}A=$
+HSMA-RJA-CH01-0036	1.3	single	1	draft	璁?$A=\\{x\\mid x>1\\}$锛?B=\\{x\\mid x\\le 3\\}$锛?x\\in\\mathbb{R}$锛夛紝鍒?$A\\cap B=$
+HSMA-RJA-CH01-0037	1.3	single	1	draft	璁?$A=\\{x\\mid x<2\\}$锛?B=\\{x\\mid x\\ge 0\\}$锛?x\\in\\mathbb{R}$锛夛紝鍒?$A\\cup B=$
+HSMA-RJA-CH01-0038	1.3	single	1	draft	璁惧叏闆?$U=\\mathbb{R}$锛?A=\\{x\\mid x\\le 1\\}$锛屽垯 $\\complement_{U}A=$
+HSMA-RJA-CH01-0039	1.3	single	1	draft	璁?$A\\cap B=A$锛屽垯涓€瀹氭湁
+HSMA-RJA-CH01-0040	1.3	single	1	draft	璁?$A\\cup B=A$锛屽垯涓€瀹氭湁
+HSMA-RJA-CH01-0041	1.3	single	3	draft	璁惧叏闆?$U=\\{1,2,3,4,5,6\\}$锛?A=\\{1,3,5\\}$锛?B=\\{1,2,3\\}$锛屽垯 $\\complement_{U}(A\\cup B)=$
+HSMA-RJA-CH01-0042	1.3	single	3	draft	璁惧叏闆?$U=\\{a,b,c,d\\}$锛?A=\\{a,b\\}$锛?B=\\{b,c\\}$锛屽垯 $(\\complement_{U}A)\\cap B=$
+HSMA-RJA-CH01-0043	1.3	multi	1	draft	璁?$A=\\{1,2\\}$锛?B=\\{2,3\\}$銆傛纭殑鏄紙澶氶€夛級
+HSMA-RJA-CH01-0044	1.3	multi	2	draft	璁惧叏闆?$U=\\{1,2,3,4\\}$锛?A=\\{1,2\\}$銆傛纭殑鏄紙澶氶€夛級
+HSMA-RJA-CH01-0045	1.3	multi	1	draft	涓嬪垪杩愮畻鎭掓垚绔嬬殑鏄紙澶氶€夛紱瀵逛换鎰忛泦鍚?$A,B$锛?
+HSMA-RJA-CH01-0046	1.3	multi	3	draft	璁?$A=\\{1,2,3,4\\}$锛?B=\\{3,4,5\\}$銆傛纭殑鏄紙澶氶€夛級
+HSMA-RJA-CH01-0047	1.3	judge	1	draft	瀵逛换鎰忛泦鍚?$A$锛岄兘鏈?$A\\cup A=A$ 涓?$A\\cap A=A$銆?
+HSMA-RJA-CH01-0048	1.3	judge	1	draft	鑻ュ叏闆嗕负 $U$锛屽垯 $\\complement_{U}(\\complement_{U}A)=A$銆?
+HSMA-RJA-CH01-0049	1.3	numeric	1	draft	璁?$A=\\{1,2,3\\}$锛?B=\\{3,4\\}$锛屽垯 $A\\cup B$ 鐨勫厓绱犱釜鏁版槸
+HSMA-RJA-CH01-0050	1.3	numeric	1	draft	璁?$A=\\{1,2,3,4\\}$锛?B=\\{2,4,6\\}$锛屽垯 $A\\cap B$ 鐨勫厓绱犱釜鏁版槸
+HSMA-RJA-CH01-0051	1.3	numeric	1	draft	璁惧叏闆?$U=\\{1,2,3,4,5,6,7,8\\}$锛?A=\\{2,4,6,8\\}$锛屽垯 $\\complement_{U}A$ 鐨勫厓绱犱釜鏁版槸
+HSMA-RJA-CH01-0052	1.3	numeric	3	draft	璁?$A=\\{1,2,3,4,5\\}$锛?B=\\{4,5,6,7\\}$锛屽垯灞炰簬 $A\\cup B$ 浣嗕笉灞炰簬 $A\\cap B$ 鐨勫厓绱犱釜鏁版槸
+HSMA-RJA-CH01-0053	1.4	single	1	draft	宸茬煡 $p\\Rightarrow q$銆傚氨鈥滃厖鍒嗘潯浠垛€濊€岃█锛屾纭殑鏄?
+HSMA-RJA-CH01-0054	1.4	single	1	draft	宸茬煡 $p\\Rightarrow q$銆傚氨鈥滃繀瑕佹潯浠垛€濊€岃█锛屾纭殑鏄?
+HSMA-RJA-CH01-0055	1.4	single	1	draft	鈥?x=1$鈥濇槸鈥?x^{2}=1$鈥濈殑
+HSMA-RJA-CH01-0056	1.4	single	2	draft	鈥?x>2$鈥濇槸鈥?x>1$鈥濈殑锛?x\\in\\mathbb{R}$锛?
+HSMA-RJA-CH01-0057	1.4	single	2	draft	鈥?x>1$鈥濇槸鈥?x>2$鈥濈殑锛?x\\in\\mathbb{R}$锛?
+HSMA-RJA-CH01-0058	1.4	single	2	draft	鈥滃洓杈瑰舰鏄鏂瑰舰鈥濇槸鈥滃洓杈瑰舰鏄煩褰⑩€濈殑
+HSMA-RJA-CH01-0059	1.4	single	2	draft	璁?$x\\in\\mathbb{R}$銆傗€?x^{2}=0$鈥濇槸鈥?x=0$鈥濈殑
+HSMA-RJA-CH01-0060	1.4	single	3	draft	鈥?a>0$ 涓?$b>0$鈥濇槸鈥?ab>0$鈥濈殑锛?a,b\\in\\mathbb{R}$锛?
+HSMA-RJA-CH01-0061	1.4	multi	2	draft	涓嬪垪璇存硶姝ｇ‘鐨勬槸锛堝閫夛級
+HSMA-RJA-CH01-0062	1.4	multi	1	draft	璁?$x\\in\\mathbb{R}$銆備笅鍒椾腑锛屸€?x>0$鈥濇槸鈥?x\\ge 0$鈥濈殑锛堝閫夎〃杩版纭」锛?
+HSMA-RJA-CH01-0063	1.4	multi	2	draft	涓嬪垪鍚勭粍涓紝$p$ 鏄?$q$ 鐨勫繀瑕佹潯浠剁殑鏄紙澶氶€夛紱璁?$x\\in\\mathbb{R}$锛?
+HSMA-RJA-CH01-0064	1.4	multi	3	draft	璁?$x\\in\\mathbb{R}$銆備笅鍒椾腑 $p$ 鏄?$q$ 鐨勫厖瑕佹潯浠剁殑鏄紙澶氶€夛級
+HSMA-RJA-CH01-0065	1.4	judge	1	draft	鑻?$p$ 鏄?$q$ 鐨勫厖鍒嗘潯浠讹紝鍒?$q$ 涓€瀹氭槸 $p$ 鐨勫繀瑕佹潯浠躲€?
+HSMA-RJA-CH01-0066	1.4	judge	2	draft	鈥?a=b$鈥濇槸鈥?a^{2}=b^{2}$鈥濈殑鍏呰鏉′欢锛?a,b\\in\\mathbb{R}$锛夈€?
+HSMA-RJA-CH01-0067	1.4	judge	2	draft	鈥滀袱涓笁瑙掑舰鍏ㄧ瓑鈥濇槸鈥滀袱涓笁瑙掑舰闈㈢Н鐩哥瓑鈥濈殑鍏呭垎涓嶅繀瑕佹潯浠躲€?
+HSMA-RJA-CH01-0068	1.4	numeric	2	draft	鍦ㄥ疄鏁拌寖鍥村唴锛屼娇鍛介鈥滆嫢 $x>a$锛屽垯 $x>3$鈥濆涓€鍒囧疄鏁?$x$ 鎭掓垚绔嬨€傛弧瓒虫潯浠剁殑瀹炴暟 $a$ 鐨勬渶灏忓€兼槸
+HSMA-RJA-CH01-0069	1.5	single	1	draft	鍛介鈥?\\forall x\\in\\mathbb{R},\\,x^{2}\\ge 0$鈥濇槸
+HSMA-RJA-CH01-0070	1.5	single	1	draft	鍛介鈥?\\exists x\\in\\mathbb{R},\\,x^{2}+1=0$鈥濇槸
+HSMA-RJA-CH01-0071	1.5	single	2	draft	鍛介鈥?\\forall x\\in\\mathbb{R},\\,x>0$鈥濈殑鍚﹀畾鏄?
+HSMA-RJA-CH01-0072	1.5	single	2	draft	鍛介鈥?\\exists x\\in\\mathbb{Z},\\,x^{2}=2$鈥濈殑鍚﹀畾鏄?
+HSMA-RJA-CH01-0073	1.5	single	2	draft	涓嬪垪涓虹湡鍛介鐨勬槸
+HSMA-RJA-CH01-0074	1.5	single	3	draft	鍛介鈥?\\forall x\\in\\{1,2,3\\},\\,x\\le 3$鈥濇槸
+HSMA-RJA-CH01-0075	1.5	multi	2	draft	涓嬪垪鍛介涓虹湡鐨勬槸锛堝閫夛級
+HSMA-RJA-CH01-0076	1.5	multi	3	draft	鍏充簬鍛介鍚﹀畾锛屾纭殑鏄紙澶氶€夛級
+HSMA-RJA-CH01-0077	1.5	judge	1	draft	鍛介鈥?\\exists x\\in\\mathbb{R},\\,x^{2}=0$鈥濇槸鐪熷懡棰樸€?
+HSMA-RJA-CH01-0078	1.5	judge	2	draft	鍛介鈥?\\forall x\\in\\mathbb{R},\\,x^{2}>0$鈥濇槸鐪熷懡棰樸€?
+HSMA-RJA-CH01-0079	1.5	numeric	1	draft	鍦ㄩ泦鍚?$\\{1,2,3,4\\}$ 涓紝婊¤冻 $x>2$ 鐨勫厓绱犱釜鏁版槸锛堝彲鐢ㄤ簬鍒ゆ柇瀛樺湪閲忚瘝鍛介锛?
+HSMA-RJA-CH01-0080	1.5	numeric	2	draft	鍛介鈥?\\forall x\\in\\{2,4,6\\},\\,x$ 涓哄伓鏁扳€濅负鐪熴€傝嫢浠庤闆嗗悎涓换鍙栦竴涓厓绱犱綔涓哄弽渚嬪€欓€夛紝鍙兘鎺ㄧ炕鍏ㄧО鍛介鐨勫弽渚嬩釜鏁版槸
+HS_MATH_P0_E2E_TEST_single	default	single	1	disabled	HS_MATH_P0_E2E_TEST single 棰樺共
+HS_MATH_P0_E2E_TEST_multi	default	multi	1	disabled	HS_MATH_P0_E2E_TEST multi 棰樺共
+HS_MATH_P0_E2E_TEST_judge	default	judge	1	disabled	HS_MATH_P0_E2E_TEST judge 棰樺共
+HS_MATH_P0_E2E_TEST_numeric	default	numeric	1	disabled	HS_MATH_P0_E2E_TEST numeric 棰樺共
+HS_MATH_P0_E2E_TEST_single2	default	single	1	disabled	HS_MATH_P0_E2E_TEST single2 濉厖
+HSMA-RJA-CH03-PARITY-0001	3.2	single	1	approved	璁惧嚱鏁?$f$ 鐨勫畾涔夊煙鍏充簬鍘熺偣瀵圭О銆傝嫢瀵瑰畾涔夊煙鍐呬换鎰?$x$ 閮芥湁 $f(-x)=f(x)$锛屽垯绉?$f$ 涓?
+HSMA-RJA-CH03-PARITY-0002	3.2	judge	1	approved	鍒ゆ柇锛氳嫢鍑芥暟 $f$ 婊¤冻瀵瑰畾涔夊煙鍐呬换鎰?$x$ 閮芥湁 $f(-x)=-f(x)$锛屽垯 $f$ 涓€瀹氭槸濂囧嚱鏁帮紙鏃犻渶鍐嶆鏌ュ畾涔夊煙锛夈€?
+HSMA-RJA-CH03-PARITY-0003	3.2	single	1	draft	涓嬪垪鍏充簬鍑芥暟濂囧伓鎬у畾涔夌殑鍙欒堪锛屾纭殑鏄?
+HSMA-RJA-CH03-PARITY-0004	3.2	multi	2	draft	璁惧嚱鏁?$f$ 瀹氫箟鍩熷叧浜庡師鐐瑰绉般€備笅鍒楄娉曟纭殑鏄紙澶氶€夛級
+HSMA-RJA-CH03-PARITY-0005	3.2	single	1	approved	宸茬煡 $f(x)=x^{3}$ 鐨勫畾涔夊煙涓?$\\mathbb{R}$銆傚垽鏂叾濂囧伓鎬ф椂锛屼笅鍒楁楠ゆ纭殑鏄?
+HSMA-RJA-CH03-PARITY-0006	3.2	single	1	approved	鍑芥暟 $f(x)=\\sqrt{x-1}+\\sqrt{1-x}$ 鐨勫畾涔夊煙
+HSMA-RJA-CH03-PARITY-0007	3.2	judge	1	approved	鍒ゆ柇锛氬嚱鏁?$f(x)=\\dfrac{1}{x}$ 鐨勫畾涔夊煙涓?$(-\\infty,0)\\cup(0,+\\infty)$锛屽叧浜庡師鐐瑰绉帮紝鍥犳鍙互杩涗竴姝ョ敤瀹氫箟璁ㄨ鍏跺鍋舵€с€?
+HSMA-RJA-CH03-PARITY-0008	3.2	single	2	draft	鍑芥暟 $f(x)=\\sqrt{x^{2}-1}$ 鐨勫畾涔夊煙涓?
+HSMA-RJA-CH03-PARITY-0009	3.2	multi	2	draft	涓嬪垪鍑芥暟涓紝瀹氫箟鍩熷叧浜庡師鐐瑰绉扮殑鏄紙澶氶€夛級
+HSMA-RJA-CH03-PARITY-0010	3.2	single	1	approved	鍑芥暟 $f(x)=x^{2}+1$锛堝畾涔夊煙 $\\mathbb{R}$锛夋槸
+HSMA-RJA-CH03-PARITY-0011	3.2	single	1	approved	鍑芥暟 $f(x)=x^{3}-x$锛堝畾涔夊煙 $\\mathbb{R}$锛夋槸
+HSMA-RJA-CH03-PARITY-0012	3.2	multi	2	approved	璁?$f(x)=0$锛堝畾涔夊煙 $\\mathbb{R}$锛夈€備笅鍒楄娉曟纭殑鏄紙澶氶€夛級
+HSMA-RJA-CH03-PARITY-0013	3.2	single	2	draft	鍑芥暟 $f(x)=x+|x|$锛堝畾涔夊煙 $\\mathbb{R}$锛夌殑濂囧伓鎬ф槸
+HSMA-RJA-CH03-PARITY-0014	3.2	judge	1	draft	鍒ゆ柇锛氬嚱鏁?$f(x)=x^{2}+x$锛堝畾涔夊煙 $\\mathbb{R}$锛夋槸鍋跺嚱鏁般€?
+HSMA-RJA-CH03-PARITY-0015	3.2	numeric	1	approved	宸茬煡濂囧嚱鏁?$f$ 鐨勫畾涔夊煙鍏充簬鍘熺偣瀵圭О锛屼笖 $f(3)=5$銆傛眰 $f(-3)$ 鐨勫€笺€?
+HSMA-RJA-CH03-PARITY-0016	3.2	numeric	1	draft	宸茬煡鍋跺嚱鏁?$f$ 鐨勫畾涔夊煙鍏充簬鍘熺偣瀵圭О锛屼笖 $f(-2)=7$銆傛眰 $f(2)$ 鐨勫€笺€?
+HSMA-RJA-CH03-PARITY-0017	3.2	numeric	1	draft	宸茬煡濂囧嚱鏁?$f$ 瀹氫箟鍦?$\\mathbb{R}$ 涓婏紝$f(1)=2$锛?f(2)=5$銆傛眰 $f(-1)+f(-2)$ 鐨勫€笺€?
+HSMA-RJA-CH03-PARITY-0018	3.2	numeric	1	draft	宸茬煡鍋跺嚱鏁?$f$ 瀹氫箟鍦?$\\mathbb{R}$ 涓婏紝$f(4)=3$锛屼笖 $f(x)=ax^{2}+b$锛?a,b$ 涓哄父鏁帮級銆傝嫢杩樺凡鐭?$f(0)=1$锛屾眰 $f(-4)$ 鐨勫€笺€?
+HSMA-RJA-CH03-PARITY-0019	3.2	single	1	approved	鑻ュ嚱鏁?$y=f(x)$ 鏄伓鍑芥暟锛屽垯鍏跺浘璞?
+HSMA-RJA-CH03-PARITY-0020	3.2	single	1	approved	宸茬煡鐐?$(2,5)$ 鍦ㄥ鍑芥暟 $y=f(x)$ 鐨勫浘璞′笂锛屽垯涓嬪垪鐐逛篃鍦ㄨ鍥捐薄涓婄殑鏄?
+HSMA-RJA-CH03-PARITY-0021	3.2	multi	2	draft	宸茬煡鍋跺嚱鏁?$y=f(x)$ 鐨勫浘璞¤繃鐐?$(3,-1)$銆備笅鍒楄娉曟纭殑鏄紙澶氶€夛級
+HSMA-RJA-CH03-PARITY-0022	3.2	single	3	draft	璁?$f$ 鏄畾涔夊湪 $\\mathbb{R}$ 涓婄殑濂囧嚱鏁帮紝涓?$f$ 鍦?$[0,+\\infty)$ 涓婂崟璋冮€掑銆傚垯 $f$ 鍦?$(-\\infty,0]$ 涓?
+HSMA-RJA-CH03-PARITY-0023	3.2	multi	3	draft	璁?$f$ 鏄畾涔夊湪 $\\mathbb{R}$ 涓婄殑鍋跺嚱鏁帮紝涓?$f$ 鍦?$[0,+\\infty)$ 涓婂崟璋冮€掑噺銆備笅鍒楁纭殑鏄紙澶氶€夛級
+HSMA-RJA-CH03-PARITY-0024	3.2	judge	2	draft	鍒ゆ柇锛氫换鎰忓鍑芥暟鍦ㄥ叾鏁翠釜瀹氫箟鍩熶笂閮戒竴瀹氭槸鍗曡皟鍑芥暟銆?
+HSMA-RJA-CH03-PARITY-0025	3.2	single	1	approved	璁?$f$ 鏄畾涔夊湪 $[-2,2]$ 涓婄殑鍋跺嚱鏁帮紝涓斿綋 $x\\in[0,2]$ 鏃?$f(x)=x+1$銆傚垯 $f(-1)$ 绛変簬
+HSMA-RJA-CH03-APP-0001	3.4	application	2	approved	鏌愮ぞ鍖烘父娉抽鏆戝亣鏈熼棿璋冩暣鏃ョエ浠锋牸銆?璋冩煡琛ㄦ槑锛氬綋绁ㄤ环瀹氫负 $x$ 鍏冿紙$x$ 涓烘鏁存暟锛屼笖 $30\\le x\\le 60$锛夋椂锛岄璁℃棩鎺ュ緟浜烘暟涓?$2400-30x$ 浜恒€?璁捐棣嗘棩绁ㄥ姟鏀跺叆涓?$y$

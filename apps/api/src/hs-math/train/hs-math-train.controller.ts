@@ -113,6 +113,26 @@ export class HsMathTrainController {
     return new StreamableFile(buffer)
   }
 
+  /** DIAGRAM-1B：题干插图（开训快照；须用 objectId） */
+  @Get('sessions/:sessionId/items/:sessionItemId/diagrams/:objectId')
+  @Header('Cache-Control', 'private, no-store')
+  async readStemDiagram(
+    @CurrentUser() user: JwtPayload,
+    @Param('sessionId') sessionId: string,
+    @Param('sessionItemId') sessionItemId: string,
+    @Param('objectId') objectId: string,
+    @Res({ passthrough: true }) res: Response,
+  ) {
+    const { mimeType, buffer } = await this.service.getSessionDiagramBinary(
+      user.sub,
+      sessionId,
+      sessionItemId,
+      objectId,
+    )
+    res.setHeader('Content-Type', mimeType)
+    return new StreamableFile(buffer)
+  }
+
   @Delete('sessions/:sessionId/items/:sessionItemId/images/:imageId')
   deleteImage(
     @CurrentUser() user: JwtPayload,

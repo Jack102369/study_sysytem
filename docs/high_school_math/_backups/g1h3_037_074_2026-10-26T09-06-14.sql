@@ -1,0 +1,115 @@
+-- GLOBAL-1H-3 backup 2026-10-26T09-06-14
+-- items CAND-G1B-037,CAND-G1B-074
+-- ITEM CAND-G1B-037 id=188 cv=1 stem="正确的是（多选）"
+-- ITEM CAND-G1B-074 id=225 cv=1 stem="正确的是（多选）"
+-- REVIEW id=32 item=188 status=passed cv=1 fp=f841e04e6fee25cebfc9087222f854a1d76bf220a388ad481eabaa30cda08f60
+-- REVIEW id=33 item=225 status=passed cv=1 fp=c4e1a6a567fcbf0384700910ccc57d3bef8a2ef2504e8da981fdc0c6b7ce8096
+{
+  "items": [
+    {
+      "id": 188,
+      "code": "CAND-G1B-037",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "content_version": 1,
+      "stem": "正确的是（多选）",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\log_a(MN)=\\log_aM+\\log_aN$"
+          },
+          {
+            "id": "B",
+            "text": "$\\log_a\\dfrac MN=\\log_aM-\\log_aN$"
+          },
+          {
+            "id": "C",
+            "text": "$\\log_aM^2=2\\log_aM$"
+          },
+          {
+            "id": "D",
+            "text": "$\\log_a1=0$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "analysis": "A、B 是常用对数运算法则（在真数、底数合法时成立）；D 为 $\\log_a1=0$。C 写成 $\\log_a M^2=2\\log_a M$：一般应先保证真数为正，严格形式常写 $2\\log_a|M|$（并讨论定义域）；题干未限定 $M>0$ 时不宜直接选 C。故正确选项为 A、B、D。",
+      "difficulty": 2,
+      "qtype": "multi",
+      "source_type": "original",
+      "specialty_id": 19,
+      "category_id": 50,
+      "knowledge_point_id": 74
+    },
+    {
+      "id": 225,
+      "code": "CAND-G1B-074",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "content_version": 1,
+      "stem": "正确的是（多选）",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\lambda(\\vec a+\\vec b)=\\lambda\\vec a+\\lambda\\vec b$"
+          },
+          {
+            "id": "B",
+            "text": "$(\\vec a+\\vec b)+\\vec c=\\vec a+(\\vec b+\\vec c)$"
+          },
+          {
+            "id": "C",
+            "text": "$\\vec a\\cdot\\vec b=\\vec b\\cdot\\vec a$"
+          },
+          {
+            "id": "D",
+            "text": "$\\vec a\\times\\vec b=\\vec b\\times\\vec a$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "analysis": "A、B 分别是数乘分配律与向量加法结合律；C 是数量积交换律，均正确。D 写成叉积交换：高中平面向量一般不引入叉积，且空间叉积满足反交换 $\\vec a\\times\\vec b=-\\vec b\\times\\vec a$，故 D 错。选 A、B、C。",
+      "difficulty": 2,
+      "qtype": "multi",
+      "source_type": "original",
+      "specialty_id": 21,
+      "category_id": 64,
+      "knowledge_point_id": 137
+    }
+  ],
+  "reviews": [
+    {
+      "id": 32,
+      "item_id": 188,
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "f841e04e6fee25cebfc9087222f854a1d76bf220a388ad481eabaa30cda08f60"
+    },
+    {
+      "id": 33,
+      "item_id": 225,
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "c4e1a6a567fcbf0384700910ccc57d3bef8a2ef2504e8da981fdc0c6b7ce8096"
+    }
+  ],
+  "stamp": "2026-10-26T09-06-14"
+}

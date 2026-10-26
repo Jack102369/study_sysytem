@@ -228,3 +228,21 @@ export const HS_MATH_APPLICATION_IMAGE_STORAGE_ROOT =
 /** storage_key 相对 uploads/ 的路径前缀（不含 uploads/） */
 export const HS_MATH_APPLICATION_IMAGE_STORAGE_PREFIX =
   'hs-math/application-answers' as const
+
+/** DIAGRAM-1B：题干插图 MIME（PNG/WebP/SVG；无 JPEG） */
+export const HS_MATH_ITEM_DIAGRAM_MIMES = [
+  'image/png',
+  'image/webp',
+  'image/svg+xml',
+] as const
+export type HsMathItemDiagramMime =
+  (typeof HS_MATH_ITEM_DIAGRAM_MIMES)[number]
+
+export const HS_MATH_ITEM_DIAGRAM_MAX_BYTES = 2 * 1024 * 1024
+export const HS_MATH_ITEM_DIAGRAM_MAX_PER_ITEM = 3
+export const HS_MATH_ITEM_DIAGRAM_MAX_PX = 4096
+
+export const HS_MATH_ITEM_DIAGRAM_STORAGE_ROOT =
+  'uploads/hs-math/item-diagrams' as const
+export const HS_MATH_ITEM_DIAGRAM_STORAGE_PREFIX =
+  'hs-math/item-diagrams' as const

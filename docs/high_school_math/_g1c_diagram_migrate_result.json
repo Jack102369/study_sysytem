@@ -1,0 +1,513 @@
+{
+  "phase": "HS-MATH-BANK-DIAGRAM-1C-MIGRATION",
+  "startedAt": "2026-10-26T11:40:06.393Z",
+  "endedAt": "2026-10-26T11:40:10.128Z",
+  "status": "MIGRATION_PASS",
+  "database": "study_system",
+  "mysqlVersion": "8.0.44",
+  "sqlPath": "db/migrate_hs_math_item_diagrams.sql",
+  "sqlSha256": "940275ce2556c31af54affbce0cd17ad2ee05124cf172cbfbf95d961c5e364d6",
+  "statementCount": 3,
+  "statementsPreview": [
+    "CREATE TABLE IF NOT EXISTS hs_math_train_item_diagram_objects ( id BIGINT UNSI",
+    "CREATE TABLE IF NOT EXISTS hs_math_train_item_diagrams ( id BIGINT UNSIGNED PR",
+    "CREATE TABLE IF NOT EXISTS hs_math_train_session_item_diagrams ( id BIGINT UNS"
+  ],
+  "pre": {
+    "schemaCharset": {
+      "cs": "utf8mb4",
+      "coll": "utf8mb4_0900_ai_ci"
+    },
+    "tables": [
+      {
+        "name": "hs_math_train_item_diagram_objects",
+        "exists": false,
+        "meta": null
+      },
+      {
+        "name": "hs_math_train_item_diagrams",
+        "exists": false,
+        "meta": null
+      },
+      {
+        "name": "hs_math_train_session_item_diagrams",
+        "exists": false,
+        "meta": null
+      }
+    ],
+    "counts": {
+      "candApproved": 100,
+      "drawable": 113,
+      "reviews": 115,
+      "sessions": 133,
+      "sessionItems": 357,
+      "appImages": 64,
+      "itemsTotal": 211,
+      "itemKps": 273,
+      "itemMethods": 127
+    },
+    "fkTypes": {
+      "train_items_id": "bigint unsigned",
+      "session_items_id": "bigint unsigned",
+      "users_id": "bigint unsigned"
+    },
+    "anyExists": false,
+    "allExist": false,
+    "partial": false
+  },
+  "executed": [
+    {
+      "index": 1,
+      "ok": true,
+      "ms": 818,
+      "head": "CREATE TABLE IF NOT EXISTS hs_math_train_item_diagram_objects ( id BIGINT UNSIGNED PRIMARY KEY AUT"
+    },
+    {
+      "index": 2,
+      "ok": true,
+      "ms": 1859,
+      "head": "CREATE TABLE IF NOT EXISTS hs_math_train_item_diagrams ( id BIGINT UNSIGNED PRIMARY KEY AUTO_INCRE"
+    },
+    {
+      "index": 3,
+      "ok": true,
+      "ms": 909,
+      "head": "CREATE TABLE IF NOT EXISTS hs_math_train_session_item_diagrams ( id BIGINT UNSIGNED PRIMARY KEY AU"
+    }
+  ],
+  "post": {
+    "tables": [
+      {
+        "name": "hs_math_train_item_diagram_objects",
+        "exists": true,
+        "meta": {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "ENGINE": "InnoDB",
+          "TABLE_COLLATION": "utf8mb4_0900_ai_ci",
+          "TABLE_ROWS": 0,
+          "TABLE_COMMENT": "题干插图不可变对象；禁止原地覆盖"
+        }
+      },
+      {
+        "name": "hs_math_train_item_diagrams",
+        "exists": true,
+        "meta": {
+          "TABLE_NAME": "hs_math_train_item_diagrams",
+          "ENGINE": "InnoDB",
+          "TABLE_COLLATION": "utf8mb4_0900_ai_ci",
+          "TABLE_ROWS": 0,
+          "TABLE_COMMENT": "题目当前配图关联；每题最多3张"
+        }
+      },
+      {
+        "name": "hs_math_train_session_item_diagrams",
+        "exists": true,
+        "meta": {
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "ENGINE": "InnoDB",
+          "TABLE_COLLATION": "utf8mb4_0900_ai_ci",
+          "TABLE_ROWS": 0,
+          "TABLE_COMMENT": "开训事务内插图快照；不随当前题目关联变更"
+        }
+      }
+    ],
+    "counts": {
+      "candApproved": 100,
+      "drawable": 113,
+      "reviews": 115,
+      "sessions": 133,
+      "sessionItems": 357,
+      "appImages": 64,
+      "itemsTotal": 211,
+      "itemKps": 273,
+      "itemMethods": 127
+    },
+    "countDiffs": {},
+    "inspect": {
+      "columns": [
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "COLUMN_NAME": "id",
+          "COLUMN_TYPE": "bigint unsigned",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "PRI",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": "auto_increment"
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "COLUMN_NAME": "content_sha256",
+          "COLUMN_TYPE": "char(64)",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "UNI",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "COLUMN_NAME": "storage_key",
+          "COLUMN_TYPE": "varchar(512)",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "UNI",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "COLUMN_NAME": "mime_type",
+          "COLUMN_TYPE": "varchar(64)",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "COLUMN_NAME": "size_bytes",
+          "COLUMN_TYPE": "int unsigned",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "COLUMN_NAME": "width_px",
+          "COLUMN_TYPE": "int unsigned",
+          "IS_NULLABLE": "YES",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "COLUMN_NAME": "height_px",
+          "COLUMN_TYPE": "int unsigned",
+          "IS_NULLABLE": "YES",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "COLUMN_NAME": "sanitize_status",
+          "COLUMN_TYPE": "varchar(16)",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": "passed",
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "COLUMN_NAME": "source_mime_type",
+          "COLUMN_TYPE": "varchar(64)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "COLUMN_NAME": "uploaded_by",
+          "COLUMN_TYPE": "bigint unsigned",
+          "IS_NULLABLE": "YES",
+          "COLUMN_KEY": "MUL",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "COLUMN_NAME": "created_at",
+          "COLUMN_TYPE": "datetime(3)",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": "CURRENT_TIMESTAMP(3)",
+          "EXTRA": "DEFAULT_GENERATED"
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagrams",
+          "COLUMN_NAME": "id",
+          "COLUMN_TYPE": "bigint unsigned",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "PRI",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": "auto_increment"
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagrams",
+          "COLUMN_NAME": "item_id",
+          "COLUMN_TYPE": "bigint unsigned",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "MUL",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagrams",
+          "COLUMN_NAME": "object_id",
+          "COLUMN_TYPE": "bigint unsigned",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "MUL",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagrams",
+          "COLUMN_NAME": "sort_order",
+          "COLUMN_TYPE": "tinyint unsigned",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagrams",
+          "COLUMN_NAME": "alt_text",
+          "COLUMN_TYPE": "varchar(256)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagrams",
+          "COLUMN_NAME": "created_at",
+          "COLUMN_TYPE": "datetime(3)",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": "CURRENT_TIMESTAMP(3)",
+          "EXTRA": "DEFAULT_GENERATED"
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagrams",
+          "COLUMN_NAME": "updated_at",
+          "COLUMN_TYPE": "datetime(3)",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": "CURRENT_TIMESTAMP(3)",
+          "EXTRA": "DEFAULT_GENERATED on update CURRENT_TIMESTAMP(3)"
+        },
+        {
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "COLUMN_NAME": "id",
+          "COLUMN_TYPE": "bigint unsigned",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "PRI",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": "auto_increment"
+        },
+        {
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "COLUMN_NAME": "session_item_id",
+          "COLUMN_TYPE": "bigint unsigned",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "MUL",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "COLUMN_NAME": "object_id",
+          "COLUMN_TYPE": "bigint unsigned",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "MUL",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "COLUMN_NAME": "sort_order",
+          "COLUMN_TYPE": "tinyint unsigned",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "COLUMN_NAME": "alt_text",
+          "COLUMN_TYPE": "varchar(256)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "COLUMN_NAME": "content_sha256",
+          "COLUMN_TYPE": "char(64)",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "COLUMN_NAME": "mime_type",
+          "COLUMN_TYPE": "varchar(64)",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": null,
+          "EXTRA": ""
+        },
+        {
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "COLUMN_NAME": "created_at",
+          "COLUMN_TYPE": "datetime(3)",
+          "IS_NULLABLE": "NO",
+          "COLUMN_KEY": "",
+          "COLUMN_DEFAULT": "CURRENT_TIMESTAMP(3)",
+          "EXTRA": "DEFAULT_GENERATED"
+        }
+      ],
+      "indexes": [
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "INDEX_NAME": "idx_hs_math_diagram_obj_uploader",
+          "NON_UNIQUE": 1,
+          "COLUMN_NAME": "uploaded_by",
+          "SEQ_IN_INDEX": 1
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "INDEX_NAME": "idx_hs_math_diagram_obj_uploader",
+          "NON_UNIQUE": 1,
+          "COLUMN_NAME": "created_at",
+          "SEQ_IN_INDEX": 2
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "INDEX_NAME": "PRIMARY",
+          "NON_UNIQUE": 0,
+          "COLUMN_NAME": "id",
+          "SEQ_IN_INDEX": 1
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "INDEX_NAME": "uk_hs_math_diagram_obj_key",
+          "NON_UNIQUE": 0,
+          "COLUMN_NAME": "storage_key",
+          "SEQ_IN_INDEX": 1
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "INDEX_NAME": "uk_hs_math_diagram_obj_sha",
+          "NON_UNIQUE": 0,
+          "COLUMN_NAME": "content_sha256",
+          "SEQ_IN_INDEX": 1
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagrams",
+          "INDEX_NAME": "idx_hs_math_item_diagram_obj",
+          "NON_UNIQUE": 1,
+          "COLUMN_NAME": "object_id",
+          "SEQ_IN_INDEX": 1
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagrams",
+          "INDEX_NAME": "PRIMARY",
+          "NON_UNIQUE": 0,
+          "COLUMN_NAME": "id",
+          "SEQ_IN_INDEX": 1
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagrams",
+          "INDEX_NAME": "uk_hs_math_item_diagram_ord",
+          "NON_UNIQUE": 0,
+          "COLUMN_NAME": "item_id",
+          "SEQ_IN_INDEX": 1
+        },
+        {
+          "TABLE_NAME": "hs_math_train_item_diagrams",
+          "INDEX_NAME": "uk_hs_math_item_diagram_ord",
+          "NON_UNIQUE": 0,
+          "COLUMN_NAME": "sort_order",
+          "SEQ_IN_INDEX": 2
+        },
+        {
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "INDEX_NAME": "idx_hs_math_sess_item_diagram_obj",
+          "NON_UNIQUE": 1,
+          "COLUMN_NAME": "object_id",
+          "SEQ_IN_INDEX": 1
+        },
+        {
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "INDEX_NAME": "PRIMARY",
+          "NON_UNIQUE": 0,
+          "COLUMN_NAME": "id",
+          "SEQ_IN_INDEX": 1
+        },
+        {
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "INDEX_NAME": "uk_hs_math_sess_item_diagram_ord",
+          "NON_UNIQUE": 0,
+          "COLUMN_NAME": "session_item_id",
+          "SEQ_IN_INDEX": 1
+        },
+        {
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "INDEX_NAME": "uk_hs_math_sess_item_diagram_ord",
+          "NON_UNIQUE": 0,
+          "COLUMN_NAME": "sort_order",
+          "SEQ_IN_INDEX": 2
+        }
+      ],
+      "fks": [
+        {
+          "CONSTRAINT_NAME": "fk_hs_math_diagram_obj_user",
+          "TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "COLUMN_NAME": "uploaded_by",
+          "REFERENCED_TABLE_NAME": "users",
+          "REFERENCED_COLUMN_NAME": "id",
+          "DELETE_RULE": "SET NULL",
+          "UPDATE_RULE": "NO ACTION"
+        },
+        {
+          "CONSTRAINT_NAME": "fk_hs_math_item_diagram_item",
+          "TABLE_NAME": "hs_math_train_item_diagrams",
+          "COLUMN_NAME": "item_id",
+          "REFERENCED_TABLE_NAME": "hs_math_train_items",
+          "REFERENCED_COLUMN_NAME": "id",
+          "DELETE_RULE": "CASCADE",
+          "UPDATE_RULE": "NO ACTION"
+        },
+        {
+          "CONSTRAINT_NAME": "fk_hs_math_item_diagram_obj",
+          "TABLE_NAME": "hs_math_train_item_diagrams",
+          "COLUMN_NAME": "object_id",
+          "REFERENCED_TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "REFERENCED_COLUMN_NAME": "id",
+          "DELETE_RULE": "NO ACTION",
+          "UPDATE_RULE": "NO ACTION"
+        },
+        {
+          "CONSTRAINT_NAME": "fk_hs_math_sess_item_diagram_obj",
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "COLUMN_NAME": "object_id",
+          "REFERENCED_TABLE_NAME": "hs_math_train_item_diagram_objects",
+          "REFERENCED_COLUMN_NAME": "id",
+          "DELETE_RULE": "NO ACTION",
+          "UPDATE_RULE": "NO ACTION"
+        },
+        {
+          "CONSTRAINT_NAME": "fk_hs_math_sess_item_diagram_si",
+          "TABLE_NAME": "hs_math_train_session_item_diagrams",
+          "COLUMN_NAME": "session_item_id",
+          "REFERENCED_TABLE_NAME": "hs_math_train_session_items",
+          "REFERENCED_COLUMN_NAME": "id",
+          "DELETE_RULE": "CASCADE",
+          "UPDATE_RULE": "NO ACTION"
+        }
+      ],
+      "rowCounts": {
+        "hs_math_train_item_diagram_objects": 0,
+        "hs_math_train_item_diagrams": 0,
+        "hs_math_train_session_item_diagrams": 0
+      }
+    }
+  },
+  "blockers": [],
+  "partialMigration": false,
+  "notes": []
+}

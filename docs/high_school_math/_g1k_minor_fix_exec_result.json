@@ -1,0 +1,236 @@
+{
+  "phase": "HS-MATH-BANK-GLOBAL-1K-FIX-EXEC",
+  "startedAt": "2026-10-26T13:46:28.202Z",
+  "endedAt": "2026-10-26T13:46:28.493Z",
+  "status": "MINOR_FIX_EXEC_PASS",
+  "base": "http://127.0.0.1:3000",
+  "pre": {
+    "drawable": 113,
+    "item022": {
+      "status": "approved",
+      "cv": 1,
+      "fp": "9a8980a89318c15288587231e7703c8a3a1eac07ddff2c03ae0af785918c6ea3",
+      "rubric": [
+        {
+          "key": "s",
+          "title": "面积函数",
+          "criteria": "$x(10-x)$",
+          "maxScore": 3
+        },
+        {
+          "key": "m",
+          "title": "最大值",
+          "criteria": "25,x=5",
+          "maxScore": 5
+        }
+      ],
+      "standardAnswer": "$x=5$ 时 $S_{\\max}=25$。",
+      "analysisLen": 123
+    },
+    "item093": {
+      "status": "approved",
+      "cv": 2,
+      "fp": "e464af249073749161f7ebba8a4ab9f7ea7922906e7e1b8a538963598c781375",
+      "analysis": "在正方体中可证 $BD_1\\perp A_1C_1$（数量积为 $0$），且 $BD_1\\perp A_1D$。两相交直线 $A_1C_1$、$A_1D$ 均在平面 $A_1C_1D$ 内，由线面垂直判定得 $BD_1\\perp$ 平面 $A_1C_1D$。",
+      "standardAnswer": "$BD_1\\perp A_1C_1$ 且 $BD_1\\perp A_1D$，故 $BD_1\\perp$ 平面 $A_1C_1D$。",
+      "rubric": [
+        {
+          "key": "l1",
+          "title": "证一条",
+          "criteria": "$BD_1\\perp A_1C_1$",
+          "maxScore": 4
+        },
+        {
+          "key": "l2",
+          "title": "证另一条",
+          "criteria": "$BD_1\\perp A_1D$",
+          "maxScore": 4
+        },
+        {
+          "key": "c",
+          "title": "结论",
+          "criteria": "线面垂直",
+          "maxScore": 2
+        }
+      ],
+      "diagramSha": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1",
+      "diagramCount": 1
+    }
+  },
+  "items": {
+    "022": {
+      "patchHttp": 200,
+      "patchBody": {
+        "id": "173",
+        "code": "CAND-G1B-022",
+        "pool": "formal",
+        "qtype": "application",
+        "stem": "矩形周长 $20$，一边长 $x$，面积 $S(x)=x(10-x)$，$0<x<10$。\n（1）求 $S(x)$ 最大值及对应 $x$。",
+        "optionsJson": null,
+        "answerPayloadJson": {
+          "kind": "application",
+          "standardAnswer": "$x=5$ 时 $S_{\\max}=25$。",
+          "maxScore": 8,
+          "rubric": [
+            {
+              "key": "proc",
+              "title": "求最值过程",
+              "maxScore": 3,
+              "criteria": "开口向下且对称轴 $x=5$，或配方 $S=25-(x-5)^2$，或等价均值/导数途径得到最值点 $x=5$（禁止仅抄题干 $S(x)=x(10-x)$）"
+            },
+            {
+              "key": "m",
+              "title": "最大值结果",
+              "maxScore": 5,
+              "criteria": "$x=5$ 且 $S_{\\max}=25$"
+            }
+          ]
+        },
+        "analysis": "周长 $20$ 时半周长为 $10$，故邻边为 $10-x$，面积 $S(x)=x(10-x)=10x-x^2$。这是开口向下的二次函数，对称轴 $x=5$ 落在定义域 $(0,10)$ 内，最大值为 $S(5)=25$。几何上此时矩形为正方形。",
+        "difficulty": 2,
+        "sourceType": "original",
+        "sourceYear": null,
+        "sourceExamName": null,
+        "sourceQuestionNo": null,
+        "sourceReference": "本批原创；非高考真题",
+        "sourceAdaptationNote": null,
+        "sourceVerificationStatus": "unverified",
+        "sourceLicenseStatus": "unknown",
+        "specialtyId": "18",
+        "categoryId": "42",
+        "knowledgePointId": "33",
+        "status": "draft",
+        "isActive": true,
+        "gradeRuleVersion": "v1",
+        "contentVersion": 2,
+        "createdBy": "2",
+        "updatedBy": "2",
+        "reviewedBy": null,
+        "reviewedAt": null,
+        "createdAt": "2026-10-26T08:43:23.040Z",
+        "updatedAt": "2026-10-26T13:46:28.000Z",
+        "trainCandidate": false
+      },
+      "before": {
+        "status": "approved",
+        "cv": 1,
+        "fp": "9a8980a89318c15288587231e7703c8a3a1eac07ddff2c03ae0af785918c6ea3",
+        "rubricKeys": [
+          "s",
+          "m"
+        ]
+      },
+      "after": {
+        "status": "draft",
+        "cv": 2,
+        "fp": "d89ca50f9eb5c58ca844e1b3ba574b5d8b610b2bbcb4d8268f6a20f060579935",
+        "rubric": [
+          {
+            "key": "proc",
+            "title": "求最值过程",
+            "criteria": "开口向下且对称轴 $x=5$，或配方 $S=25-(x-5)^2$，或等价均值/导数途径得到最值点 $x=5$（禁止仅抄题干 $S(x)=x(10-x)$）",
+            "maxScore": 3
+          },
+          {
+            "key": "m",
+            "title": "最大值结果",
+            "criteria": "$x=5$ 且 $S_{\\max}=25$",
+            "maxScore": 5
+          }
+        ],
+        "standardAnswer": "$x=5$ 时 $S_{\\max}=25$。",
+        "stemUnchanged": true,
+        "analysisUnchanged": true,
+        "reviewPassedOnCurrentCv": false
+      },
+      "ok": true,
+      "drawableAfter": 112
+    },
+    "093": {
+      "patchHttp": 200,
+      "patchBody": {
+        "id": "244",
+        "code": "CAND-G1B-093",
+        "pool": "formal",
+        "qtype": "application",
+        "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 中，证明 $BD_1\\perp$ 平面 $A_1C_1D$（写出关键步骤）。",
+        "optionsJson": null,
+        "answerPayloadJson": {
+          "kind": "application",
+          "rubric": [
+            {
+              "key": "l1",
+              "title": "证一条",
+              "criteria": "$BD_1\\perp A_1C_1$",
+              "maxScore": 4
+            },
+            {
+              "key": "l2",
+              "title": "证另一条",
+              "criteria": "$BD_1\\perp A_1D$",
+              "maxScore": 4
+            },
+            {
+              "key": "c",
+              "title": "结论",
+              "criteria": "线面垂直",
+              "maxScore": 2
+            }
+          ],
+          "maxScore": 10,
+          "standardAnswer": "$BD_1\\perp A_1C_1$ 且 $BD_1\\perp A_1D$，故 $BD_1\\perp$ 平面 $A_1C_1D$。"
+        },
+        "analysis": "建立坐标系：取 $A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$，$A_1=(0,0,1)$，$C_1=(1,1,1)$，$D_1=(0,1,1)$（棱长取 $1$，由相似性不影响垂直关系）。\n\n则 $\\overrightarrow{BD_1}=D_1-B=(-1,1,1)$，$\\overrightarrow{A_1C_1}=(1,1,0)$，$\\overrightarrow{A_1D}=(0,1,-1)$。\n\n计算数量积：\n$\\overrightarrow{BD_1}\\cdot\\overrightarrow{A_1C_1}=-1+1+0=0$，故 $BD_1\\perp A_1C_1$；\n$\\overrightarrow{BD_1}\\cdot\\overrightarrow{A_1D}=0+1-1=0$，故 $BD_1\\perp A_1D$。\n\n又 $A_1C_1$ 与 $A_1D$ 交于 $A_1$，且均在平面 $A_1C_1D$ 内，由线面垂直判定定理得 $BD_1\\perp$ 平面 $A_1C_1D$。",
+        "difficulty": 3,
+        "sourceType": "original",
+        "sourceYear": null,
+        "sourceExamName": null,
+        "sourceQuestionNo": null,
+        "sourceReference": "本批原创；非高考真题",
+        "sourceAdaptationNote": null,
+        "sourceVerificationStatus": "unverified",
+        "sourceLicenseStatus": "unknown",
+        "specialtyId": "23",
+        "categoryId": "77",
+        "knowledgePointId": "178",
+        "status": "draft",
+        "isActive": true,
+        "gradeRuleVersion": "v1",
+        "contentVersion": 3,
+        "createdBy": "2",
+        "updatedBy": "2",
+        "reviewedBy": null,
+        "reviewedAt": null,
+        "createdAt": "2026-10-26T08:43:23.555Z",
+        "updatedAt": "2026-10-26T13:46:28.000Z",
+        "trainCandidate": false
+      },
+      "before": {
+        "status": "approved",
+        "cv": 2,
+        "fp": "e464af249073749161f7ebba8a4ab9f7ea7922906e7e1b8a538963598c781375",
+        "analysis": "在正方体中可证 $BD_1\\perp A_1C_1$（数量积为 $0$），且 $BD_1\\perp A_1D$。两相交直线 $A_1C_1$、$A_1D$ 均在平面 $A_1C_1D$ 内，由线面垂直判定得 $BD_1\\perp$ 平面 $A_1C_1D$。",
+        "diagramSha": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1"
+      },
+      "after": {
+        "status": "draft",
+        "cv": 3,
+        "fp": "67e3fd868032e434fc75be7878ba94be7aefce2c58bf49414da2c05a341066d0",
+        "analysis": "建立坐标系：取 $A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$，$A_1=(0,0,1)$，$C_1=(1,1,1)$，$D_1=(0,1,1)$（棱长取 $1$，由相似性不影响垂直关系）。\n\n则 $\\overrightarrow{BD_1}=D_1-B=(-1,1,1)$，$\\overrightarrow{A_1C_1}=(1,1,0)$，$\\overrightarrow{A_1D}=(0,1,-1)$。\n\n计算数量积：\n$\\overrightarrow{BD_1}\\cdot\\overrightarrow{A_1C_1}=-1+1+0=0$，故 $BD_1\\perp A_1C_1$；\n$\\overrightarrow{BD_1}\\cdot\\overrightarrow{A_1D}=0+1-1=0$，故 $BD_1\\perp A_1D$。\n\n又 $A_1C_1$ 与 $A_1D$ 交于 $A_1$，且均在平面 $A_1C_1D$ 内，由线面垂直判定定理得 $BD_1\\perp$ 平面 $A_1C_1D$。",
+        "stemUnchanged": true,
+        "answerUnchanged": true,
+        "diagramCount": 1,
+        "diagramSha": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1",
+        "diagramShaUnchanged": true,
+        "reviewPassedOnCurrentCv": false
+      },
+      "ok": true
+    }
+  },
+  "post": {
+    "drawable": 111,
+    "otherCandApproved": 98,
+    "reviewApproveNotRun": true
+  },
+  "blockers": []
+}

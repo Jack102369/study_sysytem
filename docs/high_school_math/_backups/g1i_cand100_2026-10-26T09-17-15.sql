@@ -1,0 +1,7044 @@
+-- GLOBAL-1I backup 2026-10-26T09-17-15
+-- items=100 reviews=102 kps=100 methods=109
+-- drawable=13 sessions=131
+-- JSON companion: g1i_cand100_2026-10-26T09-17-15.json
+{
+  "stamp": "2026-10-26T09-17-15",
+  "phase": "GLOBAL-1I",
+  "items": [
+    {
+      "id": 152,
+      "code": "CAND-G1B-001",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 16,
+      "category_id": 31,
+      "knowledge_point_id": 1,
+      "stem": "判断：$A=\\{x\\in\\mathbb{Z}\\mid -2<x<3\\}$ 时，$0\\in A$ 且 $3\\notin A$。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "条件：$A=\\{x\\in\\mathbb{Z}\\mid -2<x<3\\}$。整数满足 $-2<x<3$ 的有 $-1,0,1,2$，故 $A=\\{-1,0,1,2\\}$。由此 $0\\in A$，而 $3$ 不满足 $x<3$，故 $3\\notin A$。判断正确。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:22.779Z",
+      "updated_at": "2026-10-26T08:43:22.779Z"
+    },
+    {
+      "id": 153,
+      "code": "CAND-G1B-002",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 16,
+      "category_id": 32,
+      "knowledge_point_id": 4,
+      "stem": "集合 $\\{a,b,c\\}$ 的真子集个数为",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$6$"
+          },
+          {
+            "id": "B",
+            "text": "$7$"
+          },
+          {
+            "id": "C",
+            "text": "$8$"
+          },
+          {
+            "id": "D",
+            "text": "$9$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "三元集合有 $2^3=8$ 个子集（含空集与自身）。真子集不含集合本身，故个数为 $8-1=7$。选 B。可列举：空集、$\\{a\\}$、$\\{b\\}$、$\\{c\\}$、$\\{a,b\\}$、$\\{a,c\\}$、$\\{b,c\\}$ 共 7 个验证。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:22.858Z",
+      "updated_at": "2026-10-26T08:43:22.858Z"
+    },
+    {
+      "id": 154,
+      "code": "CAND-G1B-003",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 16,
+      "category_id": 33,
+      "knowledge_point_id": 6,
+      "stem": "$A=\\{1,2,4,6\\}$，$B=\\{2,3,5\\}$，则 $|A\\cup B|=$",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "6",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "并集取两集合全部元素：$A\\cup B=\\{1,2,3,4,5,6\\}$（重复元素 $2$ 只计一次），故 $|A\\cup B|=6$。也可用容斥公式复核：$|A|+|B|-|A\\cap B|=4+3-1=6$，其中 $A\\cap B=\\{2\\}$。边界核对：并集不含新元素，也不应漏掉 $1,3,4,5,6$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:22.862Z",
+      "updated_at": "2026-10-26T08:43:22.862Z"
+    },
+    {
+      "id": 155,
+      "code": "CAND-G1B-004",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 16,
+      "category_id": 34,
+      "knowledge_point_id": 12,
+      "stem": "“$x^2=9$”是“$x=3$”的",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "充分不必要"
+          },
+          {
+            "id": "B",
+            "text": "必要不充分"
+          },
+          {
+            "id": "C",
+            "text": "充要"
+          },
+          {
+            "id": "D",
+            "text": "既不充分也不必要"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "充分性：由 $x^2=9$ 得 $x=\\pm3$，其中 $x=-3$ 也满足前件但不满足“$x=3$”，故“$x^2=9$”推不出必有“$x=3$”，不充分。必要性：若 $x=3$，则显然 $x^2=9$，故必要。综上为必要不充分条件，选 B。可用反例 $x=-3$ 作边界检验。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:22.868Z",
+      "updated_at": "2026-10-26T08:43:22.868Z"
+    },
+    {
+      "id": 156,
+      "code": "CAND-G1B-005",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "multi",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 16,
+      "category_id": 35,
+      "knowledge_point_id": 15,
+      "stem": "命题否定写法正确的有（多选）",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "“$\\forall x,\\,x^2+1>0$”否定为“$\\exists x,\\,x^2+1\\le0$”"
+          },
+          {
+            "id": "B",
+            "text": "“$\\exists x\\in\\mathbb{Z},\\,x^2=10$”否定为“$\\forall x\\in\\mathbb{Z},\\,x^2\\ne10$”"
+          },
+          {
+            "id": "C",
+            "text": "“$\\forall x,\\,x>0$”否定为“$\\exists x,\\,x\\le0$”"
+          },
+          {
+            "id": "D",
+            "text": "“$\\exists x,\\,x^2<0$”否定为“$\\forall x,\\,x^2>0$”"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "analysis": "量词否定规则：$\\forall$ 与 $\\exists$ 互换，并把结论取否定。A、B、C 均符合。D 中“$\\exists x,\\,x^2<0$”的否定应为“$\\forall x,\\,x^2\\ge0$”，原选项写成 $x^2>0$，漏掉等号，故 D 错。正确为 A、B、C。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:22.914Z",
+      "updated_at": "2026-10-26T08:43:22.914Z"
+    },
+    {
+      "id": 157,
+      "code": "CAND-G1B-006",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 17,
+      "category_id": 38,
+      "knowledge_point_id": 43,
+      "stem": "若 $a>b$，$c<0$，则 $ac<bc$。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "不等式两边同乘负数 $c<0$ 时不等号必须变向：由 $a>b$ 得 $ac<bc$。例如取 $a=3,b=1,c=-2$，则 $ac=-6$、$bc=-2$，确实 $-6<-2$。故命题正确。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:22.921Z",
+      "updated_at": "2026-10-26T08:43:22.921Z"
+    },
+    {
+      "id": 158,
+      "code": "CAND-G1B-007",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 17,
+      "category_id": 38,
+      "knowledge_point_id": 44,
+      "stem": "$M=x^2+1$，$N=2x$，则对 $\\forall x\\in\\mathbb{R}$ 有",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$M>N$"
+          },
+          {
+            "id": "B",
+            "text": "$M\\ge N$"
+          },
+          {
+            "id": "C",
+            "text": "$M<N$"
+          },
+          {
+            "id": "D",
+            "text": "不确定"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "作差比较：$M-N=x^2+1-2x=(x-1)^2$。完全平方对一切实数非负，且仅当 $x=1$ 时取 $0$。因此恒有 $M\\ge N$，不能写成严格大于，选 B。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:22.925Z",
+      "updated_at": "2026-10-26T08:43:22.925Z"
+    },
+    {
+      "id": 159,
+      "code": "CAND-G1B-008",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 17,
+      "category_id": 39,
+      "knowledge_point_id": 47,
+      "stem": "$x>0$ 且 $x+\\dfrac{16}{x}=8$，则 $x=$",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "4",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "由 $x>0$ 及 $x+\\dfrac{16}{x}=8$，两边乘 $x$ 得 $x^2-8x+16=0$，即 $(x-4)^2=0$，故 $x=4$。亦可用基本不等式：等号当且仅当 $x=\\dfrac{16}{x}$，即 $x=4$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:22.929Z",
+      "updated_at": "2026-10-26T08:43:22.929Z"
+    },
+    {
+      "id": 160,
+      "code": "CAND-G1B-009",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 17,
+      "category_id": 39,
+      "knowledge_point_id": 48,
+      "stem": "$x>2$ 时 $x+\\dfrac{4}{x-2}$ 的最小值为",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$4$"
+          },
+          {
+            "id": "B",
+            "text": "$5$"
+          },
+          {
+            "id": "C",
+            "text": "$6$"
+          },
+          {
+            "id": "D",
+            "text": "$8$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "C"
+      },
+      "analysis": "令 $t=x-2>0$，则原式 $=t+2+\\dfrac{4}{t}$。由基本不等式 $t+\\dfrac{4}{t}\\ge2\\sqrt{t\\cdot\\dfrac{4}{t}}=4$，等号当 $t=2$。故最小值为 $4+2=6$（$x=4$）。选 C。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:22.933Z",
+      "updated_at": "2026-10-26T08:43:22.933Z"
+    },
+    {
+      "id": 161,
+      "code": "CAND-G1B-010",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 17,
+      "category_id": 40,
+      "knowledge_point_id": 51,
+      "stem": "$x^2-5x+6<0$ 的解集为",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$(-\\infty,2)\\cup(3,+\\infty)$"
+          },
+          {
+            "id": "B",
+            "text": "$(2,3)$"
+          },
+          {
+            "id": "C",
+            "text": "$[2,3]$"
+          },
+          {
+            "id": "D",
+            "text": "$(-\\infty,2]\\cup[3,+\\infty)$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "先因式分解：$x^2-5x+6=(x-2)(x-3)$。二次项系数为正，抛物线开口向上，函数值仅在两根之间为负，因此不等式 $<0$ 的解集为开区间 $(2,3)$。端点 $x=2$ 或 $3$ 使式子等于 $0$，不满足严格小于，故不取闭区间。选 B。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:22.940Z",
+      "updated_at": "2026-10-26T08:43:22.940Z"
+    },
+    {
+      "id": 162,
+      "code": "CAND-G1B-011",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "multi",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 17,
+      "category_id": 40,
+      "knowledge_point_id": 52,
+      "stem": "使 $x^2+px+9>0$ 对 $\\forall x\\in\\mathbb{R}$ 恒成立的 $p$ 可以是（多选）",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$0$"
+          },
+          {
+            "id": "B",
+            "text": "$5$"
+          },
+          {
+            "id": "C",
+            "text": "$-5$"
+          },
+          {
+            "id": "D",
+            "text": "$6$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "analysis": "开口向上，要 $x^2+px+9>0$ 对一切 $x$ 成立，需判别式 $\\Delta=p^2-36<0$，即 $|p|<6$。故 $p=0,\\pm5$ 可，$p=6$ 时 $\\Delta=0$ 有重根使式子可取 $0$，不满足严格大于。选 A、B、C。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:22.944Z",
+      "updated_at": "2026-10-26T08:43:22.944Z"
+    },
+    {
+      "id": 163,
+      "code": "CAND-G1B-012",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 17,
+      "category_id": 38,
+      "knowledge_point_id": 45,
+      "stem": "固定成本 $150$ 元，可变成本 $6$ 元/件，售价 $18$ 元/件，销量 $x\\in\\mathbb{N}^+$。\n（1）利润 $L(x)$；\n（2）至少几件不亏本？",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "L",
+            "title": "利润函数",
+            "criteria": "$12x-150$",
+            "maxScore": 4
+          },
+          {
+            "key": "s",
+            "title": "解不等式",
+            "criteria": "$x\\ge13$",
+            "maxScore": 4
+          },
+          {
+            "key": "w",
+            "title": "结论",
+            "criteria": "至少13件",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 10,
+        "standardAnswer": "（1）$L(x)=12x-150$；（2）$x\\ge13$。"
+      },
+      "analysis": "利润＝售价收入－成本：$L(x)=18x-(150+6x)=12x-150$。不亏本即 $L(x)\\ge0\\Rightarrow x\\ge12.5$。销量为正整数，故至少 $13$ 件。代入 $x=12$ 得 $L=-6<0$，$x=13$ 得 $L=6>0$，可验证。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:22.948Z",
+      "updated_at": "2026-10-26T08:43:22.948Z"
+    },
+    {
+      "id": 164,
+      "code": "CAND-G1B-013",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 17,
+      "category_id": 40,
+      "knowledge_point_id": 53,
+      "stem": "$x^2+ax+1\\ge0$ 恒成立，则 $a\\in$",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$[-2,2]$"
+          },
+          {
+            "id": "B",
+            "text": "$(-2,2)$"
+          },
+          {
+            "id": "C",
+            "text": "$[-1,1]$"
+          },
+          {
+            "id": "D",
+            "text": "$a\\ge2$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "开口向上，$x^2+ax+1\\ge0$ 恒成立 $\\Leftrightarrow\\Delta=a^2-4\\le0\\Leftrightarrow a\\in[-2,2]$。选 A。边界 $a=\\pm2$ 时有重根、最小值恰为 $0$，仍满足 $\\ge0$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:22.956Z",
+      "updated_at": "2026-10-26T08:43:22.956Z"
+    },
+    {
+      "id": 165,
+      "code": "CAND-G1B-014",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 17,
+      "category_id": 39,
+      "knowledge_point_id": 49,
+      "stem": "$x,y>0$，$xy=25$，则 $x+y$ 最小值为",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "10",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "条件 $x,y>0$ 且 $xy=25$ 固定。由基本不等式 $x+y\\ge2\\sqrt{xy}=2\\sqrt{25}=10$，等号成立当且仅当 $x=y$。此时 $x=y=5$，故最小值为 $10$。也可用 $y=25/x$ 化为 $f(x)=x+25/x$（$x>0$），求导 $f'(x)=1-25/x^2=0\\Rightarrow x=5$，二阶或端点趋势可确认最小值。代入 $x=5,y=5$ 得 $10$ 复核。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:22.999Z",
+      "updated_at": "2026-10-26T08:43:22.999Z"
+    },
+    {
+      "id": 166,
+      "code": "CAND-G1B-015",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 17,
+      "category_id": 40,
+      "knowledge_point_id": 54,
+      "stem": "$f(x)=-2(x-1)^2+5$ 在 $[0,3]$ 上最大值为 $5$。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "顶点式 $f(x)=-2(x-1)^2+5$ 开口向下，顶点为 $(1,5)$。闭区间 $[0,3]$ 包含顶点横坐标 $x=1$，因此区间上最大值即为顶点纵坐标 $5$。端点对照：$f(0)=-2(0-1)^2+5=3$，$f(3)=-2(3-1)^2+5=-3$，均小于 $5$。故命题正确。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.006Z",
+      "updated_at": "2026-10-26T08:43:23.006Z"
+    },
+    {
+      "id": 167,
+      "code": "CAND-G1B-016",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 41,
+      "knowledge_point_id": 17,
+      "stem": "$f(x)=\\dfrac{\\sqrt{x-1}}{x-3}$ 的定义域为",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$[1,3)\\cup(3,+\\infty)$"
+          },
+          {
+            "id": "B",
+            "text": "$[1,+\\infty)$"
+          },
+          {
+            "id": "C",
+            "text": "$(1,3)\\cup(3,+\\infty)$"
+          },
+          {
+            "id": "D",
+            "text": "$[1,3)$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "分子根式要求 $x-1\\ge0\\Rightarrow x\\ge1$；分母不为零要求 $x\\ne3$。两条件联立得定义域 $[1,3)\\cup(3,+\\infty)$。注意 $x=1$ 可使根式为 $0$，属于定义域。选 A。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.011Z",
+      "updated_at": "2026-10-26T08:43:23.011Z"
+    },
+    {
+      "id": 168,
+      "code": "CAND-G1B-017",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 41,
+      "knowledge_point_id": 20,
+      "stem": "$f(x)=x$ 与 $g(t)=t$ 是同一函数。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "函数是否相同取决于定义域与对应法则，与用 $x$ 还是 $t$ 作自变量字母无关。二者定义域均为 $\\mathbb{R}$，对应关系均为恒等映射，故为同一函数。命题正确。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.015Z",
+      "updated_at": "2026-10-26T08:43:23.015Z"
+    },
+    {
+      "id": 169,
+      "code": "CAND-G1B-018",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 41,
+      "knowledge_point_id": 24,
+      "stem": "出租车：$3\\text{km}$ 内 $10$ 元；超出每 km $2.5$ 元（$x$ 为整数 km）。\n（1）车费 $F(x)$；\n（2）$8\\text{km}$ 费用？",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "p",
+            "title": "分段表达式",
+            "criteria": "两段正确",
+            "maxScore": 5
+          },
+          {
+            "key": "c",
+            "title": "计算",
+            "criteria": "22.5",
+            "maxScore": 3
+          },
+          {
+            "key": "u",
+            "title": "单位",
+            "criteria": "元",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 10,
+        "standardAnswer": "（1）$F(x)=\\begin{cases}10,&0<x\\le3\\\\10+2.5(x-3),&x>3\\end{cases}$；（2）$22.5$ 元。"
+      },
+      "analysis": "按里程分段建模：当 $0<x\\le3$ 时只收起步价，故 $F(x)=10$；当 $x>3$ 时超出里程为 $x-3$，按每公里 $2.5$ 元加收，故 $F(x)=10+2.5(x-3)$。求 $x=8$：超出 $5$ km，得 $F(8)=10+2.5\\times5=22.5$ 元。边界核验：在 $x=3$ 处两段都得 $10$，分段连续；若误把全程按 $2.5x$ 计会偏大。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.020Z",
+      "updated_at": "2026-10-26T08:43:23.020Z"
+    },
+    {
+      "id": 170,
+      "code": "CAND-G1B-019",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 41,
+      "knowledge_point_id": 25,
+      "stem": "$f(x+1)=x^2-2x$，则 $f(3)=$",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$0$"
+          },
+          {
+            "id": "B",
+            "text": "$1$"
+          },
+          {
+            "id": "C",
+            "text": "$2$"
+          },
+          {
+            "id": "D",
+            "text": "$3$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "已知复合表达式 $f(x+1)=x^2-2x$，要求 $f(3)$。令自变量满足 $x+1=3$，即 $x=2$，代入右端得 $f(3)=2^2-2\\cdot2=4-4=0$，选 A。换元法：令 $u=x+1$，则 $x=u-1$，$f(u)=(u-1)^2-2(u-1)=u^2-4u+3$，再代入 $u=3$ 得 $9-12+3=0$，两种途径一致。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.025Z",
+      "updated_at": "2026-10-26T08:43:23.025Z"
+    },
+    {
+      "id": 171,
+      "code": "CAND-G1B-020",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 42,
+      "knowledge_point_id": 26,
+      "stem": "$f(x)=3x-7$ 在 $\\mathbb{R}$ 上",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "单调递增"
+          },
+          {
+            "id": "B",
+            "text": "单调递减"
+          },
+          {
+            "id": "C",
+            "text": "先增后减"
+          },
+          {
+            "id": "D",
+            "text": "无单调性"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "一次函数 $f(x)=kx+b$ 的单调性完全由斜率 $k$ 决定。本题 $f(x)=3x-7$，一次项系数 $k=3>0$，图象从左到右上升，因此在整个实数集上单调递增。也可用定义：任意 $x_1<x_2$ 时 $f(x_1)-f(x_2)=3(x_1-x_2)<0$，即 $f(x_1)<f(x_2)$。选 A。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.029Z",
+      "updated_at": "2026-10-26T08:43:23.029Z"
+    },
+    {
+      "id": 172,
+      "code": "CAND-G1B-021",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 42,
+      "knowledge_point_id": 29,
+      "stem": "$f(x)=x^2$ 在 $(-\\infty,0)$ 上单调递减。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "抛物线 $y=x^2$ 对称轴为 $y$ 轴，在对称轴左侧（$-\\infty,0)$ 上：若 $x_1<x_2<0$，则 $|x_1|>|x_2|$，从而 $x_1^2>x_2^2$，即 $f(x_1)>f(x_2)$，故单调递减。命题正确。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.034Z",
+      "updated_at": "2026-10-26T08:43:23.034Z"
+    },
+    {
+      "id": 173,
+      "code": "CAND-G1B-022",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 42,
+      "knowledge_point_id": 33,
+      "stem": "矩形周长 $20$，一边长 $x$，面积 $S(x)=x(10-x)$，$0<x<10$。\n（1）求 $S(x)$ 最大值及对应 $x$。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "s",
+            "title": "面积函数",
+            "criteria": "$x(10-x)$",
+            "maxScore": 3
+          },
+          {
+            "key": "m",
+            "title": "最大值",
+            "criteria": "25,x=5",
+            "maxScore": 5
+          }
+        ],
+        "maxScore": 8,
+        "standardAnswer": "$x=5$ 时 $S_{\\max}=25$。"
+      },
+      "analysis": "周长 $20$ 时半周长为 $10$，故邻边为 $10-x$，面积 $S(x)=x(10-x)=10x-x^2$。这是开口向下的二次函数，对称轴 $x=5$ 落在定义域 $(0,10)$ 内，最大值为 $S(5)=25$。几何上此时矩形为正方形。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.040Z",
+      "updated_at": "2026-10-26T08:43:23.040Z"
+    },
+    {
+      "id": 174,
+      "code": "CAND-G1B-023",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 42,
+      "knowledge_point_id": 37,
+      "stem": "奇函数 $f$，$f(2)=5$，则 $f(-2)=$",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$5$"
+          },
+          {
+            "id": "B",
+            "text": "$-5$"
+          },
+          {
+            "id": "C",
+            "text": "$0$"
+          },
+          {
+            "id": "D",
+            "text": "不确定"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "奇函数定义：$f(-x)=-f(x)$（定义域关于原点对称）。把 $x=2$ 代入得 $f(-2)=-f(2)$。已知 $f(2)=5$，因此 $f(-2)=-5$，选 B。对照：若是偶函数则有 $f(-2)=f(2)=5$。本题未给出其它点的信息，不能选“不确定”；奇偶性已唯一确定对称点的函数值。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.045Z",
+      "updated_at": "2026-10-26T08:43:23.045Z"
+    },
+    {
+      "id": 175,
+      "code": "CAND-G1B-024",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 42,
+      "knowledge_point_id": 30,
+      "stem": "$f$ 在 $\\mathbb{R}$ 递增，$f(a)<f(b)$ 等价于",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$a<b$"
+          },
+          {
+            "id": "B",
+            "text": "$a>b$"
+          },
+          {
+            "id": "C",
+            "text": "$a=b$"
+          },
+          {
+            "id": "D",
+            "text": "不确定"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "函数在 $\\mathbb{R}$ 上严格递增意味着：对任意实数，$x_1<x_2\\Leftrightarrow f(x_1)<f(x_2)$（同向保持）。因此 $f(a)<f(b)$ 等价于 $a<b$，选 A。若改为严格递减，则应变成 $a>b$。这是用单调性解不等式、比较大小的常用依据；等号情形对应 $a=b$，本题是严格不等式故不选 C。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.050Z",
+      "updated_at": "2026-10-26T08:43:23.050Z"
+    },
+    {
+      "id": 176,
+      "code": "CAND-G1B-025",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "multi",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 43,
+      "knowledge_point_id": 39,
+      "stem": "第一象限递增的幂函数有（多选）",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$y=x^2$"
+          },
+          {
+            "id": "B",
+            "text": "$y=x^{1/2}$"
+          },
+          {
+            "id": "C",
+            "text": "$y=x^{-1}$"
+          },
+          {
+            "id": "D",
+            "text": "$y=x^3$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "analysis": "在第一象限 $(0,+\\infty)$ 上，幂函数 $y=x^{\\alpha}$ 的单调性由指数 $\\alpha$ 决定：$\\alpha>0$ 时递增，$\\alpha<0$ 时递减。于是 $x^2$（$\\alpha=2$）、$x^{1/2}$（$\\alpha=1/2$）、$x^3$（$\\alpha=3$）均递增；而 $x^{-1}$（$\\alpha=-1$）递减。故选 A、B、D，不选 C。可取 $0<x_1<x_2$ 比较函数值作直观检验。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.056Z",
+      "updated_at": "2026-10-26T08:43:23.056Z"
+    },
+    {
+      "id": 177,
+      "code": "CAND-G1B-026",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 43,
+      "knowledge_point_id": 41,
+      "stem": "$y=x^{1/3}$ 在 $\\mathbb{R}$ 上",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "递增"
+          },
+          {
+            "id": "B",
+            "text": "递减"
+          },
+          {
+            "id": "C",
+            "text": "先增后减"
+          },
+          {
+            "id": "D",
+            "text": "无单调性"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "函数 $y=x^{1/3}$ 即立方根函数。设 $x_1<x_2$，两边同时立方（严格增函数）仍保持不等号，得 $x_1<x_2\\Rightarrow x_1^{1/3}<x_2^{1/3}$，故在整个 $\\mathbb{R}$ 上单调递增。选 A。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.061Z",
+      "updated_at": "2026-10-26T08:43:23.061Z"
+    },
+    {
+      "id": 178,
+      "code": "CAND-G1B-027",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 41,
+      "knowledge_point_id": 18,
+      "stem": "炮弹高度 $h(t)=-5t^2+30t$（$t$ 秒，$0\\le t\\le6$）。\n（1）求 $h$ 的最大值；\n（2）何时落地？",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "max",
+            "title": "最大高度",
+            "criteria": "45m,t=3",
+            "maxScore": 5
+          },
+          {
+            "key": "zero",
+            "title": "落地时刻",
+            "criteria": "t=6",
+            "maxScore": 3
+          },
+          {
+            "key": "u",
+            "title": "单位",
+            "criteria": "m,s",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 10,
+        "standardAnswer": "（1）$45\\text{m}$（$t=3$）；（2）$t=6$ 时 $h=0$。"
+      },
+      "analysis": "二次函数 $h(t)=-5t^2+30t$（$0\\le t\\le6$）开口向下，对称轴 $t=-b/(2a)=30/(10)=3$，且 $3$ 落在定义域内，故最大值为 $h(3)=-5\\cdot9+90=45$（米）。落地即 $h(t)=0$：$t(-5t+30)=0$，得 $t=0$ 或 $t=6$；在给定区间内起飞后落地时刻为 $t=6$。端点 $h(0)=h(6)=0$ 与题意一致。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.065Z",
+      "updated_at": "2026-10-26T08:43:23.065Z"
+    },
+    {
+      "id": 179,
+      "code": "CAND-G1B-028",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 41,
+      "knowledge_point_id": 24,
+      "stem": "$f(x)=\\begin{cases}2x+1,&x<0\\\\x^2,&x\\ge0\\end{cases}$，求 $f(-2)+f(2)$",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "1",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "分段函数求值先判断自变量落在哪一段。因 $-2<0$，用左支 $f(x)=2x+1$，得 $f(-2)=2(-2)+1=-3$；因 $2\\ge0$，用右支 $f(x)=x^2$，得 $f(2)=4$。于是 $f(-2)+f(2)=-3+4=1$。边界注意：$x=0$ 属于右支；若把 $-2$ 误代入 $x^2$ 会得 $4$，和就会错成 $8$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.073Z",
+      "updated_at": "2026-10-26T08:43:23.073Z"
+    },
+    {
+      "id": 180,
+      "code": "CAND-G1B-029",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 43,
+      "knowledge_point_id": 38,
+      "stem": "$y=2x^2$ 是幂函数。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": false
+      },
+      "analysis": "幂函数标准形式为 $y=x^{\\alpha}$（系数恒为 $1$）。$y=2x^2$ 可写成 $2\\cdot x^2$，前面多了系数 $2$，不符合定义，故不是幂函数。命题错误。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.079Z",
+      "updated_at": "2026-10-26T08:43:23.079Z"
+    },
+    {
+      "id": 181,
+      "code": "CAND-G1B-030",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 18,
+      "category_id": 42,
+      "knowledge_point_id": 31,
+      "stem": "$f(x)=-x^2+4x$ 在 $[0,5]$ 上最大值为",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "4",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "配方：$f(x)=-x^2+4x=-(x-2)^2+4$，开口向下，顶点为 $(2,4)$。闭区间 $[0,5]$ 含顶点横坐标 $2$，故区间最大值为顶点纵坐标 $4$。端点对照：$f(0)=0$，$f(5)=-25+20=-5$，都小于 $4$。也可用导数 $f'(x)=-2x+4=0\\Rightarrow x=2$ 同一结论。答案 $4$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.084Z",
+      "updated_at": "2026-10-26T08:43:23.084Z"
+    },
+    {
+      "id": 182,
+      "code": "CAND-G1B-031",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 19,
+      "category_id": 48,
+      "knowledge_point_id": 65,
+      "stem": "$\\sqrt[3]{-27}=$",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$3$"
+          },
+          {
+            "id": "B",
+            "text": "$-3$"
+          },
+          {
+            "id": "C",
+            "text": "$9$"
+          },
+          {
+            "id": "D",
+            "text": "不存在"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "求立方根 $\\sqrt[3]{-27}$，即找立方等于 $-27$ 的实数。因为 $(-3)^3=-27$，所以结果为 $-3$。奇次方根允许底数为负，不要误认为无实数解。选 B。可用 $(-3)^3=-27$ 回代验证。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.090Z",
+      "updated_at": "2026-10-26T08:43:23.090Z"
+    },
+    {
+      "id": 183,
+      "code": "CAND-G1B-032",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 19,
+      "category_id": 48,
+      "knowledge_point_id": 66,
+      "stem": "$8^{2/3}=$",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "4",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "分数指数幂：$8^{2/3}=(\\sqrt[3]{8})^2=2^2=4$。也可先平方再开立方：$(8^2)^{1/3}=64^{1/3}=4$。两种顺序结果一致。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.095Z",
+      "updated_at": "2026-10-26T08:43:23.095Z"
+    },
+    {
+      "id": 184,
+      "code": "CAND-G1B-033",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 19,
+      "category_id": 52,
+      "knowledge_point_id": 80,
+      "stem": "细菌数 $N(t)=N_0\\cdot2^{t/3}$（$t$ 小时）。$N_0=500$，求 $t=9$ 时 $N$。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "sub",
+            "title": "代入",
+            "criteria": "t=9",
+            "maxScore": 3
+          },
+          {
+            "key": "calc",
+            "title": "计算",
+            "criteria": "4000",
+            "maxScore": 5
+          }
+        ],
+        "maxScore": 8,
+        "standardAnswer": "$N=4000$。"
+      },
+      "analysis": "指数增长模型 $N(t)=500\\cdot2^{t/3}$。当 $t=9$ 时指数为 $9/3=3$，故 $N(9)=500\\cdot2^3=500\\cdot8=4000$。含义：每过 $3$ 小时数量翻一番，经 $9$ 小时共翻 $3$ 番。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.099Z",
+      "updated_at": "2026-10-26T08:43:23.099Z"
+    },
+    {
+      "id": 185,
+      "code": "CAND-G1B-034",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 19,
+      "category_id": 49,
+      "knowledge_point_id": 69,
+      "stem": "$y=2^x$ 的定义域为 $\\mathbb{R}$。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "指数函数 $y=a^x$（$a>0$ 且 $a\\ne1$）的定义域规定为全体实数 $\\mathbb{R}$。这里底数 $2$ 满足条件，故 $y=2^x$ 定义域为 $\\mathbb{R}$。命题正确。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.105Z",
+      "updated_at": "2026-10-26T08:43:23.105Z"
+    },
+    {
+      "id": 186,
+      "code": "CAND-G1B-035",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 19,
+      "category_id": 49,
+      "knowledge_point_id": 70,
+      "stem": "$a=0.3^{0.5}$，$b=0.3^{0.3}$，则",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$a>b$"
+          },
+          {
+            "id": "B",
+            "text": "$a<b$"
+          },
+          {
+            "id": "C",
+            "text": "$a=b$"
+          },
+          {
+            "id": "D",
+            "text": "不确定"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "底数 $0.3\\in(0,1)$ 时，$y=0.3^x$ 单调递减：指数越大，函数值越小。比较指数 $0.5$ 与 $0.3$，因 $0.5>0.3$，故 $0.3^{0.5}<0.3^{0.3}$，即 $a<b$。选 B。若底数大于 $1$ 则结论相反。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.109Z",
+      "updated_at": "2026-10-26T08:43:23.109Z"
+    },
+    {
+      "id": 187,
+      "code": "CAND-G1B-036",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 19,
+      "category_id": 50,
+      "knowledge_point_id": 73,
+      "stem": "$\\log_2 32=$",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$4$"
+          },
+          {
+            "id": "B",
+            "text": "$5$"
+          },
+          {
+            "id": "C",
+            "text": "$6$"
+          },
+          {
+            "id": "D",
+            "text": "$16$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "由对数定义：$\\log_2 32=k$ 等价于 $2^k=32$。把 $32$ 写成 $2$ 的幂：$32=2^5$，因此 $k=5$，选 B。相邻幂核对：$2^4=16$、$2^5=32$、$2^6=64$，可排除 A、C；D 的 $16$ 是真数而不是对数值。也可写 $\\log_2(2^5)=5$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.197Z",
+      "updated_at": "2026-10-26T08:43:23.197Z"
+    },
+    {
+      "id": 188,
+      "code": "CAND-G1B-037",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "multi",
+      "difficulty": 2,
+      "content_version": 2,
+      "specialty_id": 19,
+      "category_id": 50,
+      "knowledge_point_id": 74,
+      "stem": "下列关于对数运算法则的说法，正确的是（多选）",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\log_a(MN)=\\log_aM+\\log_aN$"
+          },
+          {
+            "id": "B",
+            "text": "$\\log_a\\dfrac MN=\\log_aM-\\log_aN$"
+          },
+          {
+            "id": "C",
+            "text": "$\\log_aM^2=2\\log_aM$"
+          },
+          {
+            "id": "D",
+            "text": "$\\log_a1=0$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "analysis": "A、B 是常用对数运算法则（在真数、底数合法时成立）；D 为 $\\log_a1=0$。C 写成 $\\log_a M^2=2\\log_a M$：一般应先保证真数为正，严格形式常写 $2\\log_a|M|$（并讨论定义域）；题干未限定 $M>0$ 时不宜直接选 C。故正确选项为 A、B、D。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.202Z",
+      "updated_at": "2026-10-26T09:06:14.000Z"
+    },
+    {
+      "id": 189,
+      "code": "CAND-G1B-038",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 19,
+      "category_id": 52,
+      "knowledge_point_id": 81,
+      "stem": "地震能量 $E$ 与里氏级 $M$ 满足 $\\lg E=4.8+1.5M$。$M=6$ 时 $\\lg E$ 为多少？",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "f",
+            "title": "公式代入",
+            "criteria": "M=6",
+            "maxScore": 3
+          },
+          {
+            "key": "r",
+            "title": "结果",
+            "criteria": "13.8",
+            "maxScore": 3
+          }
+        ],
+        "maxScore": 6,
+        "standardAnswer": "$\\lg E=13.8$。"
+      },
+      "analysis": "能量与里氏级满足 $\\lg E=4.8+1.5M$。将 $M=6$ 代入：先算 $1.5\\times6=9$，再得 $\\lg E=4.8+9=13.8$。题干只要求 $\\lg E$，不必再求 $E=10^{13.8}$。数量级核对：震级每增加 $2/3$ 约使能量增大 $10$ 倍，此处直接代入最稳妥。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.207Z",
+      "updated_at": "2026-10-26T08:43:23.207Z"
+    },
+    {
+      "id": 190,
+      "code": "CAND-G1B-039",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 19,
+      "category_id": 51,
+      "knowledge_point_id": 77,
+      "stem": "$y=\\log_{0.5}x$ 的定义域为",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\mathbb{R}$"
+          },
+          {
+            "id": "B",
+            "text": "$(0,+\\infty)$"
+          },
+          {
+            "id": "C",
+            "text": "$[0,+\\infty)$"
+          },
+          {
+            "id": "D",
+            "text": "$(-\\infty,0)$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "对数函数 $y=\\log_a x$ 要求真数 $x>0$，且底数满足 $a>0$、$a\\ne1$。本题底数 $0.5\\in(0,1)$ 只决定函数单调递减，并不改变定义域，故定义域仍为 $(0,+\\infty)$，选 B。注意不能取 $x=0$ 或负数（对数无定义），故排除 A、C、D。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.210Z",
+      "updated_at": "2026-10-26T08:43:23.210Z"
+    },
+    {
+      "id": 191,
+      "code": "CAND-G1B-040",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 19,
+      "category_id": 51,
+      "knowledge_point_id": 78,
+      "stem": "$\\log_3 81=$",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "4",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "由对数定义：$\\log_3 81=k\\Leftrightarrow3^k=81$。因为 $81=3^4$，所以 $k=4$；也可直接写 $\\log_3(3^4)=4$。相邻幂核对：$3^3=27$、$3^4=81$、$3^5=243$，可确认答案为 $4$。代入回验：$3^4=81$ 成立。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.214Z",
+      "updated_at": "2026-10-26T08:43:23.214Z"
+    },
+    {
+      "id": 192,
+      "code": "CAND-G1B-041",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 19,
+      "category_id": 49,
+      "knowledge_point_id": 72,
+      "stem": "$2^{x+1}=16$ 的解为",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$2$"
+          },
+          {
+            "id": "B",
+            "text": "$3$"
+          },
+          {
+            "id": "C",
+            "text": "$4$"
+          },
+          {
+            "id": "D",
+            "text": "$5$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "把右边写成同底：$16=2^4$，方程化为 $2^{x+1}=2^4$。指数函数 $y=2^x$ 一一对应，故指数相等：$x+1=4$，解得 $x=3$。选 B。回代：$2^{3+1}=2^4=16$ 成立。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.219Z",
+      "updated_at": "2026-10-26T08:43:23.219Z"
+    },
+    {
+      "id": 193,
+      "code": "CAND-G1B-042",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 19,
+      "category_id": 52,
+      "knowledge_point_id": 80,
+      "stem": "证明：方程 $2^x=5-x$ 在 $(1,2)$ 内有唯一实根（说明单调性与端点符号）。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "f",
+            "title": "构造函数",
+            "criteria": "$f(x)=2^x+x-5$",
+            "maxScore": 3
+          },
+          {
+            "key": "sign",
+            "title": "端点符号",
+            "criteria": "异号",
+            "maxScore": 4
+          },
+          {
+            "key": "mono",
+            "title": "单调唯一",
+            "criteria": "递增",
+            "maxScore": 3
+          }
+        ],
+        "maxScore": 10,
+        "standardAnswer": "令 $f(x)=2^x+x-5$，$f(1)=-2<0$，$f(2)=1>0$，且 $f$ 递增，故唯一根在 $(1,2)$。"
+      },
+      "analysis": "要证方程 $2^x=5-x$ 在 $(1,2)$ 内有唯一实根。令 $f(x)=2^x+x-5$，则等价于 $f(x)=0$。因 $f'(x)=2^x\\ln2+1>0$，故 $f$ 在 $\\mathbb{R}$ 严格递增，零点至多一个。又 $f(1)=2+1-5=-2<0$，$f(2)=4+2-5=1>0$，由零点存在定理，$(1,2)$ 内恰有一根。端点符号相反保证存在，单调性保证唯一。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.224Z",
+      "updated_at": "2026-10-26T08:43:23.224Z"
+    },
+    {
+      "id": 194,
+      "code": "CAND-G1B-043",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 19,
+      "category_id": 50,
+      "knowledge_point_id": 75,
+      "stem": "$\\log_4 8=\\dfrac{\\log_2 8}{\\log_2 4}$。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "换底公式 $\\log_b a=\\dfrac{\\log_c a}{\\log_c b}$（$c>0,c\\ne1$）。取 $c=2$ 即得 $\\log_4 8=\\dfrac{\\log_2 8}{\\log_2 4}$。命题正确。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.228Z",
+      "updated_at": "2026-10-26T08:43:23.228Z"
+    },
+    {
+      "id": 195,
+      "code": "CAND-G1B-044",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 19,
+      "category_id": 48,
+      "knowledge_point_id": 67,
+      "stem": "$(\\dfrac1{27})^{-2/3}=$",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "9",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "负分数指数先化为正指数：$(\\dfrac{1}{27})^{-2/3}=27^{2/3}$。再按“先根后幂”：$27^{2/3}=(\\sqrt[3]{27})^2=3^2=9$。也可先幂后根：$(27^2)^{1/3}=729^{1/3}=9$。两种顺序一致；注意负指数表示取倒数，分数指数分母为根指数。答案 $9$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.231Z",
+      "updated_at": "2026-10-26T08:43:23.231Z"
+    },
+    {
+      "id": 196,
+      "code": "CAND-G1B-045",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 19,
+      "category_id": 52,
+      "knowledge_point_id": 81,
+      "stem": "存款本金 $10000$ 元，年利率 $5\\%$ 复利，求 $3$ 年后本息和（精确到元）。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "f",
+            "title": "公式",
+            "criteria": "$10000\\times1.05^3$",
+            "maxScore": 4
+          },
+          {
+            "key": "c",
+            "title": "计算",
+            "criteria": "11576",
+            "maxScore": 4
+          },
+          {
+            "key": "u",
+            "title": "单位",
+            "criteria": "元",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 10,
+        "standardAnswer": "$11576$"
+      },
+      "analysis": "复利本息和公式 $A=P(1+r)^n$。代入 $P=10000$、$r=0.05$、$n=3$，得 $A=10000\\times(1.05)^3$。先算 $(1.05)^2=1.1025$，再乘 $1.05$ 得 $1.157625$，故 $A=11576.25$。按“精确到元”通常四舍五入得 $11576$。可用 $(1.05)^3=1.157625$ 再核一次小数。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.236Z",
+      "updated_at": "2026-10-26T08:43:23.236Z"
+    },
+    {
+      "id": 197,
+      "code": "CAND-G1B-046",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 55,
+      "knowledge_point_id": 96,
+      "stem": "$-390^\\circ$ 是第四象限角。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "终边相同角：$-390^\\circ=-360^\\circ+(-30^\\circ)$，与 $-30^\\circ$ 终边相同。$-30^\\circ$ 在第四象限，故 $-390^\\circ$ 也是第四象限角。命题正确。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.241Z",
+      "updated_at": "2026-10-26T08:43:23.241Z"
+    },
+    {
+      "id": 198,
+      "code": "CAND-G1B-047",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 55,
+      "knowledge_point_id": 97,
+      "stem": "$\\dfrac{5\\pi}{6}$ 化为度数（整数）",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "150",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "换算关系：$\\pi$ 弧度 $=180^\\circ$。因此 $\\dfrac{5\\pi}{6}=\\dfrac{5}{6}\\times180^\\circ=150^\\circ$。答案填整数 $150$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.245Z",
+      "updated_at": "2026-10-26T08:43:23.245Z"
+    },
+    {
+      "id": 199,
+      "code": "CAND-G1B-048",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 55,
+      "knowledge_point_id": 98,
+      "stem": "圆半径 $r=10\\text{cm}$，圆心角 $60^\\circ$，求弧长（$\\pi$ 形式）。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "rad",
+            "title": "化弧度",
+            "criteria": "$\\pi/3$",
+            "maxScore": 3
+          },
+          {
+            "key": "l",
+            "title": "弧长",
+            "criteria": "$10\\pi/3$",
+            "maxScore": 5
+          }
+        ],
+        "maxScore": 8,
+        "standardAnswer": "$l=\\dfrac{10\\pi}{3}\\text{cm}$。"
+      },
+      "analysis": "先把圆心角化为弧度：$60^\\circ=\\dfrac{\\pi}{3}$。弧长公式 $l=r\\theta$ 得 $l=10\\cdot\\dfrac{\\pi}{3}=\\dfrac{10\\pi}{3}\\text{cm}$。也可用 $l=\\dfrac{n\\pi r}{180}$ 得同一结果。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.248Z",
+      "updated_at": "2026-10-26T08:43:23.248Z"
+    },
+    {
+      "id": 200,
+      "code": "CAND-G1B-049",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 56,
+      "knowledge_point_id": 99,
+      "stem": "$\\alpha$ 终边过 $P(-3,4)$，则 $\\sin\\alpha=$",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$3/5$"
+          },
+          {
+            "id": "B",
+            "text": "$4/5$"
+          },
+          {
+            "id": "C",
+            "text": "$-4/5$"
+          },
+          {
+            "id": "D",
+            "text": "$-3/5$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "终边上点 $P(-3,4)$，半径 $r=\\sqrt{(-3)^2+4^2}=5$。按定义 $\\sin\\alpha=\\dfrac{y}{r}=\\dfrac{4}{5}$（纵坐标为正，正弦为正）。选 B。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.254Z",
+      "updated_at": "2026-10-26T08:43:23.254Z"
+    },
+    {
+      "id": 201,
+      "code": "CAND-G1B-050",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 56,
+      "knowledge_point_id": 100,
+      "stem": "$\\sin\\theta=\\dfrac35$，$\\theta$ 在第二象限，则 $\\cos\\theta=$",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$4/5$"
+          },
+          {
+            "id": "B",
+            "text": "$-4/5$"
+          },
+          {
+            "id": "C",
+            "text": "$3/5$"
+          },
+          {
+            "id": "D",
+            "text": "$-3/5$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "由 $\\sin^2+\\cos^2=1$，$\\cos^2=1-(\\dfrac{3}{5})^2=\\dfrac{16}{25}$。第二象限余弦为负，故 $\\cos\\theta=-\\dfrac{4}{5}$。选 B。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.258Z",
+      "updated_at": "2026-10-26T08:43:23.258Z"
+    },
+    {
+      "id": 202,
+      "code": "CAND-G1B-051",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 57,
+      "knowledge_point_id": 102,
+      "stem": "$\\sin\\!\\left(\\dfrac{7\\pi}{6}\\right)=$",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "-0.5",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "$\\dfrac{7\\pi}{6}=\\pi+\\dfrac{\\pi}{6}$ 落在第三象限，正弦为负：$\\sin\\dfrac{7\\pi}{6}=-\\sin\\dfrac{\\pi}{6}=-\\dfrac12=-0.5$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.262Z",
+      "updated_at": "2026-10-26T08:43:23.262Z"
+    },
+    {
+      "id": 203,
+      "code": "CAND-G1B-052",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 57,
+      "knowledge_point_id": 104,
+      "stem": "化简：$\\sin(\\pi-\\theta)+\\sin(\\pi+\\theta)$。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "s1",
+            "title": "第一项",
+            "criteria": "$\\sin\\theta$",
+            "maxScore": 4
+          },
+          {
+            "key": "s2",
+            "title": "第二项",
+            "criteria": "$-\\sin\\theta$",
+            "maxScore": 4
+          },
+          {
+            "key": "r",
+            "title": "结果",
+            "criteria": "0",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 10,
+        "standardAnswer": "$0$。"
+      },
+      "analysis": "用诱导公式分别化简：$\\sin(\\pi-\\theta)=\\sin\\theta$（诱导“奇变偶不变，符号看象限”中正弦在第二象限为正），$\\sin(\\pi+\\theta)=-\\sin\\theta$（第三象限正弦为负）。两式相加：$\\sin\\theta+(-\\sin\\theta)=0$。故原式恒等于 $0$（对使式子有定义的 $\\theta$）。可用特殊值 $\\theta=\\pi/6$ 代入检验。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.265Z",
+      "updated_at": "2026-10-26T08:43:23.265Z"
+    },
+    {
+      "id": 204,
+      "code": "CAND-G1B-053",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 58,
+      "knowledge_point_id": 105,
+      "stem": "$y=\\sin x$ 的最小正周期为",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\pi$"
+          },
+          {
+            "id": "B",
+            "text": "$2\\pi$"
+          },
+          {
+            "id": "C",
+            "text": "$4\\pi$"
+          },
+          {
+            "id": "D",
+            "text": "$\\pi/2$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "正弦函数 $y=\\sin x$ 的图象每隔 $2\\pi$ 重复一次，且 $2\\pi$ 是最小正周期（更小的正数如 $\\pi$ 不成立，因 $\\sin(x+\\pi)=-\\sin x$）。选 B。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.271Z",
+      "updated_at": "2026-10-26T08:43:23.271Z"
+    },
+    {
+      "id": 205,
+      "code": "CAND-G1B-054",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 58,
+      "knowledge_point_id": 106,
+      "stem": "$y=\\cos x$ 为偶函数。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "偶函数定义要求 $f(-x)=f(x)$。对余弦：$\\cos(-x)=\\cos x$ 恒成立，故 $y=\\cos x$ 是偶函数（图象关于 $y$ 轴对称）。命题正确。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.276Z",
+      "updated_at": "2026-10-26T08:43:23.276Z"
+    },
+    {
+      "id": 206,
+      "code": "CAND-G1B-055",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 59,
+      "knowledge_point_id": 108,
+      "stem": "$\\cos75^\\circ=$",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\frac{\\sqrt6+\\sqrt2}{4}$"
+          },
+          {
+            "id": "B",
+            "text": "$\\frac{\\sqrt6-\\sqrt2}{4}$"
+          },
+          {
+            "id": "C",
+            "text": "$\\frac{\\sqrt2-\\sqrt6}{4}$"
+          },
+          {
+            "id": "D",
+            "text": "$-\\frac{\\sqrt6+\\sqrt2}{4}$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "$\\cos75^\\circ=\\cos(45^\\circ+30^\\circ)=\\cos45\\cos30-\\sin45\\sin30=\\dfrac{\\sqrt2}{2}\\cdot\\dfrac{\\sqrt3}{2}-\\dfrac{\\sqrt2}{2}\\cdot\\dfrac12=\\dfrac{\\sqrt6-\\sqrt2}{4}$。选 B。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.279Z",
+      "updated_at": "2026-10-26T08:43:23.279Z"
+    },
+    {
+      "id": 207,
+      "code": "CAND-G1B-056",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 59,
+      "knowledge_point_id": 111,
+      "stem": "证明：$\\dfrac{1-\\cos2\\alpha}{\\sin2\\alpha}=\\tan\\alpha$（$\\alpha$ 使分母不为0）。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "num",
+            "title": "分子",
+            "criteria": "$2\\sin^2\\alpha$",
+            "maxScore": 4
+          },
+          {
+            "key": "den",
+            "title": "分母",
+            "criteria": "$2\\sin\\alpha\\cos\\alpha$",
+            "maxScore": 3
+          },
+          {
+            "key": "r",
+            "title": "结论",
+            "criteria": "$\\tan\\alpha$",
+            "maxScore": 3
+          }
+        ],
+        "maxScore": 10,
+        "standardAnswer": "左式 $=\\dfrac{2\\sin^2\\alpha}{2\\sin\\alpha\\cos\\alpha}=\\tan\\alpha$。"
+      },
+      "analysis": "左式用倍角：$1-\\cos2\\alpha=2\\sin^2\\alpha$，$\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha$，故 $\\dfrac{2\\sin^2\\alpha}{2\\sin\\alpha\\cos\\alpha}=\\tan\\alpha$（分母 $\\ne0$）。得证。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.283Z",
+      "updated_at": "2026-10-26T08:43:23.283Z"
+    },
+    {
+      "id": 208,
+      "code": "CAND-G1B-057",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 59,
+      "knowledge_point_id": 109,
+      "stem": "$\\sin15^\\circ\\cos15^\\circ=$",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "0.25",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "二倍角：$\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha$，故 $\\sin15^\\circ\\cos15^\\circ=\\dfrac12\\sin30^\\circ=\\dfrac12\\cdot\\dfrac12=\\dfrac14=0.25$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.289Z",
+      "updated_at": "2026-10-26T08:43:23.289Z"
+    },
+    {
+      "id": 209,
+      "code": "CAND-G1B-058",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 60,
+      "knowledge_point_id": 112,
+      "stem": "$y=3\\sin(2x+\\pi/3)$ 的振幅为",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$2$"
+          },
+          {
+            "id": "B",
+            "text": "$3$"
+          },
+          {
+            "id": "C",
+            "text": "$\\pi/3$"
+          },
+          {
+            "id": "D",
+            "text": "$2\\pi$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "形如 $y=A\\sin(\\omega x+\\varphi)$ 的函数，振幅是 $|A|$，周期由 $\\omega$ 决定，初相由 $\\varphi$ 决定。本题系数 $A=3$，因此振幅为 $3$，与 $2$、$\\pi/3$ 无关。选 B。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.294Z",
+      "updated_at": "2026-10-26T08:43:23.294Z"
+    },
+    {
+      "id": 210,
+      "code": "CAND-G1B-059",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "multi",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 60,
+      "knowledge_point_id": 113,
+      "stem": "$y=\\sin x$ 经何种变换得 $y=\\sin(2x)$（多选）",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "横坐标缩短为原来1/2"
+          },
+          {
+            "id": "B",
+            "text": "横坐标伸长为原来2倍"
+          },
+          {
+            "id": "C",
+            "text": "纵坐标不变"
+          },
+          {
+            "id": "D",
+            "text": "向右平移"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "C"
+        ]
+      },
+      "analysis": "比较 $y=\\sin x$ 与 $y=\\sin(2x)$：把角换成 $2x$ 后，周期由 $2\\pi$ 变为 $\\pi$，相当于横坐标（周期）缩短为原来的 $\\dfrac12$，即 A；纵坐标振幅仍为 $1$，尺度不变，即 C。题干没有 $\\varphi$ 平移项，故不向右平移（排除 D）；也不是伸长（排除 B）。因此选 A、C。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.358Z",
+      "updated_at": "2026-10-26T08:43:23.358Z"
+    },
+    {
+      "id": 211,
+      "code": "CAND-G1B-060",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 61,
+      "knowledge_point_id": 116,
+      "stem": "潮高 $h(t)=2\\cos(\\dfrac{\\pi t}{6})+4$（$t$ 为小时）。求最高潮高与周期。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "max",
+            "title": "最高",
+            "criteria": "6m",
+            "maxScore": 4
+          },
+          {
+            "key": "T",
+            "title": "周期",
+            "criteria": "12h",
+            "maxScore": 4
+          }
+        ],
+        "maxScore": 8,
+        "standardAnswer": "最高 $6\\text{m}$，周期 $12\\text{h}$。"
+      },
+      "analysis": "潮高 $h(t)=2\\cos(\\dfrac{\\pi t}{6})+4$。振幅为 $|2|=2$，平衡位置（竖直平移）为 $4$，故最高潮高为 $4+2=6$（米），最低为 $2$。角频率 $\\omega=\\pi/6$，周期 $T=\\dfrac{2\\pi}{\\omega}=\\dfrac{2\\pi}{\\pi/6}=12$（小时）。当 $\\cos=1$ 时取最高；例如 $t=0$ 时 $h=6$ 可作代入检验。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.362Z",
+      "updated_at": "2026-10-26T08:43:23.362Z"
+    },
+    {
+      "id": 212,
+      "code": "CAND-G1B-061",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 61,
+      "knowledge_point_id": 115,
+      "stem": "$h=2\\sin(3t)+5$ 的最大值为",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$2$"
+          },
+          {
+            "id": "B",
+            "text": "$3$"
+          },
+          {
+            "id": "C",
+            "text": "$5$"
+          },
+          {
+            "id": "D",
+            "text": "$7$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "D"
+      },
+      "analysis": "函数 $h=2\\sin(3t)+5$ 中，$\\sin(3t)\\in[-1,1]$，从而 $2\\sin(3t)\\in[-2,2]$，再加上常数 $5$，得值域 $h\\in[3,7]$。因此最大值为 $7$，选 D。注意最大值不是振幅 $2$，也不是平衡位置 $5$；角频率 $3$ 只影响周期，不影响最值。当 $\\sin(3t)=1$ 时取到 $7$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.367Z",
+      "updated_at": "2026-10-26T08:43:23.367Z"
+    },
+    {
+      "id": 213,
+      "code": "CAND-G1B-062",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 58,
+      "knowledge_point_id": 107,
+      "stem": "$y=\\tan x$ 在 $(-\\pi/2,\\pi/2)$ 递增。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "正切函数 $y=\\tan x$ 的定义域是去掉奇异点的开区间并，在每一个 $(-\\dfrac{\\pi}{2}+k\\pi,\\dfrac{\\pi}{2}+k\\pi)$ 内导数为正、严格递增。特别地，在 $(-\\pi/2,\\pi/2)$ 上单调递增。命题正确。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.372Z",
+      "updated_at": "2026-10-26T08:43:23.372Z"
+    },
+    {
+      "id": 214,
+      "code": "CAND-G1B-063",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 57,
+      "knowledge_point_id": 103,
+      "stem": "$\\cos(\\pi-\\alpha)=$",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\cos\\alpha$"
+          },
+          {
+            "id": "B",
+            "text": "$-\\cos\\alpha$"
+          },
+          {
+            "id": "C",
+            "text": "$\\sin\\alpha$"
+          },
+          {
+            "id": "D",
+            "text": "$-\\sin\\alpha$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "诱导公式：$\\cos(\\pi-\\alpha)=-\\cos\\alpha$，故选 B。几何理解：$\\pi-\\alpha$ 与 $\\alpha$ 互补（或看作第二象限相关角），余弦在第二象限为负，因而带负号。常见混淆：误记成 $\\cos\\alpha$（偶次不变却忘看符号），或与 $\\sin(\\pi-\\alpha)=\\sin\\alpha$ 搞混。可用 $\\alpha=0$：$\\cos\\pi=-1=-\\cos0$ 快速核对。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.376Z",
+      "updated_at": "2026-10-26T08:43:23.376Z"
+    },
+    {
+      "id": 215,
+      "code": "CAND-G1B-064",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 61,
+      "knowledge_point_id": 117,
+      "stem": "塔高测量：距塔底 $40\\text{m}$ 处测得顶角 $30^\\circ$，求塔高（精确值）。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "model",
+            "title": "模型",
+            "criteria": "$\\tan30^\\circ$",
+            "maxScore": 4
+          },
+          {
+            "key": "calc",
+            "title": "计算",
+            "criteria": "$40\\sqrt3/3$",
+            "maxScore": 4
+          },
+          {
+            "key": "u",
+            "title": "单位",
+            "criteria": "m",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 10,
+        "standardAnswer": "$h=\\dfrac{40\\sqrt3}{3}\\text{m}$。"
+      },
+      "analysis": "直角三角形中，仰角 $30^\\circ$，邻边（水平距离）为 $40$，对边为塔高 $h$。故 $h=40\\tan30^\\circ=40\\cdot\\dfrac{\\sqrt3}{3}=\\dfrac{40\\sqrt3}{3}\\text{m}$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.379Z",
+      "updated_at": "2026-10-26T08:43:23.379Z"
+    },
+    {
+      "id": 216,
+      "code": "CAND-G1B-065",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 20,
+      "category_id": 59,
+      "knowledge_point_id": 110,
+      "stem": "$\\sqrt3\\sin x+\\cos x$ 的最大值为",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "2",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "辅助角法：把 $\\sqrt3\\sin x+\\cos x$ 写成 $R\\sin(x+\\varphi)$。取 $R=\\sqrt{(\\sqrt3)^2+1^2}=2$，则 $\\dfrac{\\sqrt3}{2}\\sin x+\\dfrac12\\cos x=\\sin(x+\\dfrac{\\pi}{6})$，故原式 $=2\\sin(x+\\dfrac{\\pi}{6})$。正弦最大值为 $1$，因此原式最大值为 $2$。当 $x+\\pi/6=\\pi/2$ 即 $x=\\pi/3$ 时取到。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.383Z",
+      "updated_at": "2026-10-26T08:43:23.383Z"
+    },
+    {
+      "id": 217,
+      "code": "CAND-G1B-066",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 21,
+      "category_id": 62,
+      "knowledge_point_id": 127,
+      "stem": "零向量与任何向量平行。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "向量平行（共线）的教材约定：零向量与任意向量都平行。这是定义性规定，目的是使“共线向量”“基底”等后续命题表述简洁统一。故“零向量与任何向量平行”正确。注意零向量没有确定方向，但仍规定与任意向量平行。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.388Z",
+      "updated_at": "2026-10-26T08:43:23.388Z"
+    },
+    {
+      "id": 218,
+      "code": "CAND-G1B-067",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 21,
+      "category_id": 62,
+      "knowledge_point_id": 128,
+      "stem": "设 $\\vec a=(3,4)$，则 $|\\vec a|=$",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "5",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "平面向量模长公式：$|\\vec a|=\\sqrt{x^2+y^2}$。代入 $\\vec a=(3,4)$ 得 $\\sqrt{9+16}=\\sqrt{25}=5$。此即勾股数 $3$-$4$-$5$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.391Z",
+      "updated_at": "2026-10-26T08:43:23.391Z"
+    },
+    {
+      "id": 219,
+      "code": "CAND-G1B-068",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 21,
+      "category_id": 65,
+      "knowledge_point_id": 140,
+      "stem": "物体受两力 $\\vec F_1=(3,4)$，$\\vec F_2=(-1,2)$（N），求合力大小。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "add",
+            "title": "求和",
+            "criteria": "(2,6)",
+            "maxScore": 4
+          },
+          {
+            "key": "m",
+            "title": "模长",
+            "criteria": "$2\\sqrt{10}$",
+            "maxScore": 4
+          }
+        ],
+        "maxScore": 8,
+        "standardAnswer": "$|\\vec F|=\\sqrt{2^2+6^2}=\\sqrt{40}=2\\sqrt{10}$ N。"
+      },
+      "analysis": "合力按向量加法： $\\vec F=\\vec F_1+\\vec F_2=(3,4)+(-1,2)=(3-1,4+2)=(2,6)$（单位 N）。大小为模长 $|\\vec F|=\\sqrt{2^2+6^2}=\\sqrt{4+36}=\\sqrt{40}=2\\sqrt{10}$（N）。可用勾股验算：$2^2+6^2=40$。注意不要把分量各自取绝对值后再相加当合力大小。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.395Z",
+      "updated_at": "2026-10-26T08:43:23.395Z"
+    },
+    {
+      "id": 220,
+      "code": "CAND-G1B-069",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 21,
+      "category_id": 63,
+      "knowledge_point_id": 131,
+      "stem": "$\\vec a+\\vec b=\\vec b+\\vec a$ 体现",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "交换律"
+          },
+          {
+            "id": "B",
+            "text": "结合律"
+          },
+          {
+            "id": "C",
+            "text": "分配律"
+          },
+          {
+            "id": "D",
+            "text": "数乘律"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "等式 $\\vec a+\\vec b=\\vec b+\\vec a$ 左右只是加项顺序互换而结果相同，这正是向量加法的交换律。选 A。对照：结合律形如 $(\\vec a+\\vec b)+\\vec c=\\vec a+(\\vec b+\\vec c)$；分配律涉及数乘。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.398Z",
+      "updated_at": "2026-10-26T08:43:23.398Z"
+    },
+    {
+      "id": 221,
+      "code": "CAND-G1B-070",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 21,
+      "category_id": 63,
+      "knowledge_point_id": 132,
+      "stem": "$\\vec a=(1,2)$，$\\vec b=(3,-1)$，则 $\\vec a\\cdot\\vec b=$",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "1",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "用坐标求数量积：$\\vec a\\cdot\\vec b=x_1x_2+y_1y_2$。代入 $\\vec a=(1,2)$、$\\vec b=(3,-1)$，得 $1\\cdot3+2\\cdot(-1)=3-2=1$。也可用模与夹角公式，但坐标法更直接。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.405Z",
+      "updated_at": "2026-10-26T08:43:23.405Z"
+    },
+    {
+      "id": 222,
+      "code": "CAND-G1B-071",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 21,
+      "category_id": 63,
+      "knowledge_point_id": 133,
+      "stem": "$\\vec a=(1,0)$，$\\vec b=(0,1)$ 夹角为",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$0^\\circ$"
+          },
+          {
+            "id": "B",
+            "text": "$45^\\circ$"
+          },
+          {
+            "id": "C",
+            "text": "$90^\\circ$"
+          },
+          {
+            "id": "D",
+            "text": "$180^\\circ$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "C"
+      },
+      "analysis": "$\\vec a=(1,0)$、$\\vec b=(0,1)$ 为坐标轴单位向量，数量积 $1\\cdot0+0\\cdot1=0$，故夹角为 $90^\\circ$。选 C。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.409Z",
+      "updated_at": "2026-10-26T08:43:23.409Z"
+    },
+    {
+      "id": 223,
+      "code": "CAND-G1B-072",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 21,
+      "category_id": 65,
+      "knowledge_point_id": 141,
+      "stem": "船速 $\\vec v_1=(4,0)$ km/h，水流 $\\vec v_2=(0,1)$，求实际速度大小。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "v",
+            "title": "合速度",
+            "criteria": "(4,1)",
+            "maxScore": 3
+          },
+          {
+            "key": "m",
+            "title": "模",
+            "criteria": "$\\sqrt{17}$",
+            "maxScore": 3
+          }
+        ],
+        "maxScore": 6,
+        "standardAnswer": "$\\sqrt{17}$ km/h。"
+      },
+      "analysis": "船对水速度与水流速度按向量合成： $\\vec v=\\vec v_1+\\vec v_2=(4,0)+(0,1)=(4,1)$。实际航行速率为模长 $|\\vec v|=\\sqrt{4^2+1^2}=\\sqrt{16+1}=\\sqrt{17}$（km/h）。方向由 $\\tan\\theta=1/4$ 确定，但本题只求大小。核对：$16+1=17$ 不可再开成有理数，保留根式即可。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.412Z",
+      "updated_at": "2026-10-26T08:43:23.412Z"
+    },
+    {
+      "id": 224,
+      "code": "CAND-G1B-073",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 21,
+      "category_id": 64,
+      "knowledge_point_id": 136,
+      "stem": "任意两个非零向量都可作基底。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": false
+      },
+      "analysis": "平面向量基本定理要求：作为基底的两个向量必须不共线（线性无关）。若两个非零向量共线，则存在实数 $\\lambda$ 使 $\\vec b=\\lambda\\vec a$，它们只能张成一条直线，不能张成整个平面，因此不能任意取作基底。命题“任意两个非零向量都可作基底”错误。反例：$(1,0)$ 与 $(2,0)$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.416Z",
+      "updated_at": "2026-10-26T08:43:23.416Z"
+    },
+    {
+      "id": 225,
+      "code": "CAND-G1B-074",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "multi",
+      "difficulty": 2,
+      "content_version": 2,
+      "specialty_id": 21,
+      "category_id": 64,
+      "knowledge_point_id": 137,
+      "stem": "下列关于平面向量运算的说法，正确的是（多选）",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\lambda(\\vec a+\\vec b)=\\lambda\\vec a+\\lambda\\vec b$"
+          },
+          {
+            "id": "B",
+            "text": "$(\\vec a+\\vec b)+\\vec c=\\vec a+(\\vec b+\\vec c)$"
+          },
+          {
+            "id": "C",
+            "text": "$\\vec a\\cdot\\vec b=\\vec b\\cdot\\vec a$"
+          },
+          {
+            "id": "D",
+            "text": "$\\vec a\\times\\vec b=\\vec b\\times\\vec a$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "analysis": "A、B 分别是数乘分配律与向量加法结合律；C 是数量积交换律，均正确。D 写成叉积交换：高中平面向量一般不引入叉积，且空间叉积满足反交换 $\\vec a\\times\\vec b=-\\vec b\\times\\vec a$，故 D 错。选 A、B、C。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.421Z",
+      "updated_at": "2026-10-26T09:06:14.000Z"
+    },
+    {
+      "id": 226,
+      "code": "CAND-G1B-075",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 21,
+      "category_id": 63,
+      "knowledge_point_id": 134,
+      "stem": "$|\\vec a|=5$，$|\\vec b|=2$，夹角 $60^\\circ$，则 $\\vec a$ 在 $\\vec b$ 上投影数量为",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "2.5",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "向量 $\\vec a$ 在 $\\vec b$ 方向上的投影（数量）公式为 $|\\vec a|\\cos\\theta$，其中 $\\theta$ 为夹角。代入 $|\\vec a|=5$、$\\theta=60^\\circ$，得 $5\\cdot\\cos60^\\circ=5\\cdot\\dfrac12=2.5$。注意：投影数量与 $|\\vec b|$ 无关（方向由 $\\vec b$ 给出即可）；若问投影向量则还需单位化 $\\vec b$。答案 $2.5$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.425Z",
+      "updated_at": "2026-10-26T08:43:23.425Z"
+    },
+    {
+      "id": 227,
+      "code": "CAND-G1B-076",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 21,
+      "category_id": 65,
+      "knowledge_point_id": 142,
+      "stem": "力 $\\vec F=(6,8)$ N 沿位移 $\\vec s=(3,0)$ m 做功，求功 $W=\\vec F\\cdot\\vec s$。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "dot",
+            "title": "数量积",
+            "criteria": "18",
+            "maxScore": 4
+          },
+          {
+            "key": "u",
+            "title": "单位",
+            "criteria": "J",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 6,
+        "standardAnswer": "$W=18$ J。"
+      },
+      "analysis": "功的定义用数量积：$W=\\vec F\\cdot\\vec s$。坐标计算：$\\vec F=(6,8)$，$\\vec s=(3,0)$，故 $W=6\\cdot3+8\\cdot0=18+0=18$（J）。物理含义：位移只有水平分量，力的竖直分量 $8$ 对功无贡献。也可用 $W=|\\vec F||\\vec s|\\cos\\theta$，但坐标法更直接。答案 $18$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.428Z",
+      "updated_at": "2026-10-26T08:43:23.428Z"
+    },
+    {
+      "id": 228,
+      "code": "CAND-G1B-077",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 21,
+      "category_id": 62,
+      "knowledge_point_id": 129,
+      "stem": "相等向量必",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "模相等且方向相同"
+          },
+          {
+            "id": "B",
+            "text": "起点相同"
+          },
+          {
+            "id": "C",
+            "text": "共线"
+          },
+          {
+            "id": "D",
+            "text": "坐标相同"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "相等向量的定义是：模长相等且方向相同（可通过平移完全重合）。起点是否相同、是否共线、坐标是否碰巧相同，都不是“相等”的充要条件。故选 A。平移后的同一有向线段仍表示相等向量，不必共起点。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.431Z",
+      "updated_at": "2026-10-26T08:43:23.431Z"
+    },
+    {
+      "id": 229,
+      "code": "CAND-G1B-078",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 21,
+      "category_id": 64,
+      "knowledge_point_id": 138,
+      "stem": "$\\vec a=(2,4)$，$\\vec b=(1,k)$ 共线则 $k=$",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$1$"
+          },
+          {
+            "id": "B",
+            "text": "$2$"
+          },
+          {
+            "id": "C",
+            "text": "$3$"
+          },
+          {
+            "id": "D",
+            "text": "$4$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "平面向量共线（平行）充要条件：存在实数 $\\lambda$ 使 $\\vec b=\\lambda\\vec a$，或非零时坐标成比例。由 $\\dfrac{2}{1}=\\dfrac{4}{k}$ 得 $2k=4$，解得 $k=2$，选 B。代入核验：$(1,2)=\\dfrac12(2,4)$，确为共线。若 $k\\ne2$ 则不存在这样的 $\\lambda$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.436Z",
+      "updated_at": "2026-10-26T08:43:23.436Z"
+    },
+    {
+      "id": 230,
+      "code": "CAND-G1B-079",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 21,
+      "category_id": 63,
+      "knowledge_point_id": 135,
+      "stem": "$3(1,-2)-2(2,1)=$ 的横坐标",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "-1",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "按运算顺序先数乘再加减：$3(1,-2)=(3,-6)$，$2(2,1)=(4,2)$；再作向量减法得 $(3,-6)-(4,2)=(3-4,-6-2)=(-1,-8)$。题目只要横坐标，故答案为 $-1$。也可一次写：$3(1,-2)-2(2,1)=(3-4,-6-2)=(-1,-8)$。纵坐标为 $-8$，勿误答成纵坐标。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.440Z",
+      "updated_at": "2026-10-26T08:43:23.440Z"
+    },
+    {
+      "id": 231,
+      "code": "CAND-G1B-080",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 21,
+      "category_id": 65,
+      "knowledge_point_id": 143,
+      "stem": "用向量证明：平行四边形对角线互相平分（设 $\\vec{AB}=\\vec a$，$\\vec{AD}=\\vec b$）。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "diag",
+            "title": "对角线",
+            "criteria": "$\\vec a+\\vec b$",
+            "maxScore": 4
+          },
+          {
+            "key": "mid",
+            "title": "中点",
+            "criteria": "平分",
+            "maxScore": 4
+          },
+          {
+            "key": "cl",
+            "title": "表述",
+            "criteria": "清晰",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 10,
+        "standardAnswer": "对角线交点对应向量为 $\\frac{\\vec a+\\vec b}{2}$，即中点。"
+      },
+      "analysis": "设 $\\vec{AB}=\\vec a$，$\\vec{AD}=\\vec b$。对角线 $\\vec{AC}=\\vec a+\\vec b$，中点满足 $\\vec{AM}=\\dfrac12(\\vec a+\\vec b)$；另一对角线中点同样为 $\\dfrac{\\vec a+\\vec b}{2}$。交点重合，故互相平分。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.500Z",
+      "updated_at": "2026-10-26T08:43:23.500Z"
+    },
+    {
+      "id": 232,
+      "code": "CAND-G1B-081",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 22,
+      "category_id": 69,
+      "knowledge_point_id": 158,
+      "stem": "$i^2=$",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$1$"
+          },
+          {
+            "id": "B",
+            "text": "$-1$"
+          },
+          {
+            "id": "C",
+            "text": "$i$"
+          },
+          {
+            "id": "D",
+            "text": "$0$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "虚数单位 $i$ 由关系 $i^2=-1$ 引入（并取 $i\\ne\\pm1$）。因此 $i^2$ 的值就是 $-1$，选 B。常用：$i^3=-i$，$i^4=1$，周期为 $4$，本题直接用定义即可。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.506Z",
+      "updated_at": "2026-10-26T08:43:23.506Z"
+    },
+    {
+      "id": 233,
+      "code": "CAND-G1B-082",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 22,
+      "category_id": 70,
+      "knowledge_point_id": 161,
+      "stem": "计算 $(3+2i)(1-i)$ 并写为 $a+bi$。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "exp",
+            "title": "展开",
+            "criteria": "四项",
+            "maxScore": 3
+          },
+          {
+            "key": "r",
+            "title": "结果",
+            "criteria": "$5-i$",
+            "maxScore": 3
+          }
+        ],
+        "maxScore": 6,
+        "standardAnswer": "$5-i$。"
+      },
+      "analysis": "展开复数乘法：$(3+2i)(1-i)=3\\cdot1+3(-i)+2i\\cdot1+2i(-i)=3-3i+2i-2i^2$。把 $i^2=-1$ 代入，$-2i^2=+2$，合并实部虚部得 $3+2+(-3i+2i)=5-i$。故 $a=5$、$b=-1$，标准式为 $5-i$。可用模粗检：$|3+2i|=\\sqrt{13}$，$|1-i|=\\sqrt{2}$，乘积模 $\\sqrt{26}$，而 $|5-i|=\\sqrt{26}$，一致。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.510Z",
+      "updated_at": "2026-10-26T08:43:23.510Z"
+    },
+    {
+      "id": 234,
+      "code": "CAND-G1B-083",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 22,
+      "category_id": 71,
+      "knowledge_point_id": 163,
+      "stem": "$|3-4i|=$",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "5",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "复数 $z=a+bi$ 的模 $|z|=\\sqrt{a^2+b^2}$。对 $z=3-4i$，取 $a=3$、$b=-4$，得 $|3-4i|=\\sqrt{9+16}=\\sqrt{25}=5$。这与勾股数 $3$-$4$-$5$ 一致。注意虚部取 $-4$ 或写成 $3+(-4)i$，平方后同为 $16$，模不变。答案 $5$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.513Z",
+      "updated_at": "2026-10-26T08:43:23.513Z"
+    },
+    {
+      "id": 235,
+      "code": "CAND-G1B-084",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 23,
+      "category_id": 72,
+      "knowledge_point_id": 165,
+      "stem": "正方体是特殊的棱柱。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "正方体有两个互相平行且全等的正方形底面，侧棱垂直于底面且长度相等，因此它是直四棱柱，属于棱柱的特殊情形。命题“正方体是特殊的棱柱”正确；进一步也可看作特殊的长方体或直四棱柱，判断无误。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.517Z",
+      "updated_at": "2026-10-26T08:43:23.517Z"
+    },
+    {
+      "id": 236,
+      "code": "CAND-G1B-085",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 23,
+      "category_id": 74,
+      "knowledge_point_id": 169,
+      "stem": "底面积 $6$，高 $5$ 的圆柱体积为",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "30",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "柱体体积结构公式为 $V=$ 底面积 $\\times$ 高。已知底面积 $6$、高 $5$，直接得 $V=6\\times5=30$。该公式对圆柱、棱柱均适用；本题未额外给出半径，不必再换成 $\\pi r^2 h$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.523Z",
+      "updated_at": "2026-10-26T08:43:23.523Z"
+    },
+    {
+      "id": 237,
+      "code": "CAND-G1B-086",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 23,
+      "category_id": 74,
+      "knowledge_point_id": 170,
+      "stem": "正四棱锥底面边长 $6$，高 $4$，求体积。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "S",
+            "title": "底面积",
+            "criteria": "36",
+            "maxScore": 3
+          },
+          {
+            "key": "V",
+            "title": "体积",
+            "criteria": "48",
+            "maxScore": 5
+          }
+        ],
+        "maxScore": 8,
+        "standardAnswer": "$V=48$。"
+      },
+      "analysis": "正四棱锥底面为正方形，边长 $6$，底面积 $S=6^2=36$。锥体体积公式 $V=\\dfrac13 Sh$，代入高 $h=4$，得 $V=\\dfrac13\\cdot36\\cdot4=48$。常见错误是漏掉系数 $\\dfrac13$ 而算成 $144$，或把底面积误成周长。答案 $V=48$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.526Z",
+      "updated_at": "2026-10-26T08:43:23.526Z"
+    },
+    {
+      "id": 238,
+      "code": "CAND-G1B-087",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 23,
+      "category_id": 75,
+      "knowledge_point_id": 173,
+      "stem": "过直线外一点与已知直线平行的直线有",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "0条"
+          },
+          {
+            "id": "B",
+            "text": "1条"
+          },
+          {
+            "id": "C",
+            "text": "2条"
+          },
+          {
+            "id": "D",
+            "text": "无数条"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "空间中平行的基本事实：过直线外一点，有且只有一条直线与已知直线平行。因此条数为 $1$，选 B。平面内同样成立。注意：“过一点与已知直线垂直的直线”可以有无数条（在垂直平面内），不要与平行情形混淆。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.529Z",
+      "updated_at": "2026-10-26T08:43:23.529Z"
+    },
+    {
+      "id": 239,
+      "code": "CAND-G1B-088",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 23,
+      "category_id": 76,
+      "knowledge_point_id": 175,
+      "stem": "平面外一条直线与平面内一条直线平行，则该直线与平面平行。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": true
+      },
+      "analysis": "线面平行判定定理：若直线 $l$ 不在平面 $\\alpha$ 内（即平面外直线），且 $l$ 平行于 $\\alpha$ 内的某一条直线，则可判定 $l\\parallel\\alpha$。题干“平面外一条直线与平面内一条直线平行，则该直线与平面平行”正是该判定的叙述，故命题正确。注意前提“平面外”不可少，否则直线可能就在平面内。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.533Z",
+      "updated_at": "2026-10-26T08:43:23.533Z"
+    },
+    {
+      "id": 240,
+      "code": "CAND-G1B-089",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 23,
+      "category_id": 77,
+      "knowledge_point_id": 177,
+      "stem": "若 $l\\perp\\alpha$，则 $l$ 与 $\\alpha$ 内任意直线",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "平行"
+          },
+          {
+            "id": "B",
+            "text": "垂直"
+          },
+          {
+            "id": "C",
+            "text": "相交"
+          },
+          {
+            "id": "D",
+            "text": "不确定"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "线面垂直的性质定理：若直线 $l\\perp$ 平面 $\\alpha$，则 $l$ 垂直于 $\\alpha$ 内的任意一条直线。这是线面垂直定义（垂直于平面内两条相交直线）的直接推论，也是证明线线垂直、求线面角等的常用依据。故选 B（垂直）。不一定平行或相交：平面内直线可与 $l$ 异面（在空间意义下仍保持垂直关系按定义讨论）。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.539Z",
+      "updated_at": "2026-10-26T08:43:23.539Z"
+    },
+    {
+      "id": 241,
+      "code": "CAND-G1B-090",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 23,
+      "category_id": 74,
+      "knowledge_point_id": 171,
+      "stem": "圆柱（$r=2,h=5$）上放同底圆柱（$r=2,h=3$），求总体积。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "s",
+            "title": "底面积",
+            "criteria": "$4\\pi$",
+            "maxScore": 2
+          },
+          {
+            "key": "v",
+            "title": "体积",
+            "criteria": "$32\\pi$",
+            "maxScore": 6
+          }
+        ],
+        "maxScore": 8,
+        "standardAnswer": "$V=32\\pi$。"
+      },
+      "analysis": "两圆柱底面半径同为 $r=2$，高分别为 $h_1=5$、$h_2=3$。叠放后总体积等于两段体积之和，也等于同底圆柱以总高 $8$ 计算：$V=\\pi r^2(h_1+h_2)=\\pi\\cdot4\\cdot8=32\\pi$。分开算：$20\\pi+12\\pi=32\\pi$，一致。注意不要把半径当成直径。答案 $32\\pi$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.542Z",
+      "updated_at": "2026-10-26T08:43:23.542Z"
+    },
+    {
+      "id": 242,
+      "code": "CAND-G1B-091",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 23,
+      "category_id": 73,
+      "knowledge_point_id": 167,
+      "stem": "斜二测画法画水平放置的平面图形时，下列说法正确的是",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "原坐标系中 $\\angle xOy=90^\\circ$；直观图中 $\\angle x'O'y'$ 通常取 $45^\\circ$ 或 $135^\\circ$"
+          },
+          {
+            "id": "B",
+            "text": "原坐标系中 $\\angle xOy=45^\\circ$；直观图中 $\\angle x'O'y'=90^\\circ$"
+          },
+          {
+            "id": "C",
+            "text": "原坐标系与直观图中两轴夹角均为 $45^\\circ$"
+          },
+          {
+            "id": "D",
+            "text": "原坐标系与直观图中两轴夹角均为 $90^\\circ$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "斜二测须区分两套角：①原水平面坐标系中 $\\angle xOy=90^\\circ$（直角）；②画成直观图后，教材约定 $\\angle x'O'y'$ 通常取 $45^\\circ$ 或 $135^\\circ$（两种摆放同属合法约定，不可与原直角混谈）。另：$O'z'$ 轴竖直；平行于 $x$、$z$ 轴的线段长度不变，平行于 $y$ 轴的线段取原来的 $\\dfrac12$。故只有 A 同时正确表述原角与直观图角。B 把两角对调；C、D 把两套角说成相同，均错。选 A。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.545Z",
+      "updated_at": "2026-10-26T08:43:23.545Z"
+    },
+    {
+      "id": 243,
+      "code": "CAND-G1B-092",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "multi",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 23,
+      "category_id": 76,
+      "knowledge_point_id": 176,
+      "stem": "面面平行判定可用（多选）",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "一面内两相交直线分别平行于另一面"
+          },
+          {
+            "id": "B",
+            "text": "两平面分别平行于同一直线"
+          },
+          {
+            "id": "C",
+            "text": "两平面平行于同一平面"
+          },
+          {
+            "id": "D",
+            "text": "一面内两直线都平行于另一面"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "multi",
+        "optionIds": [
+          "A",
+          "C"
+        ]
+      },
+      "analysis": "面面平行常用判定：若一个平面内的两条相交直线分别平行于另一个平面，则可判定两平面平行（A）；若两平面都平行于同一平面，则由传递性也平行（C）。B 仅“分别平行于同一直线”不够；D 若两直线平行（不相交），即使都平行于另一面，也不能推出面面平行（可能相交或重合情形需另论）。故选 A、C。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.549Z",
+      "updated_at": "2026-10-26T08:43:23.549Z"
+    },
+    {
+      "id": 244,
+      "code": "CAND-G1B-093",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 23,
+      "category_id": 77,
+      "knowledge_point_id": 178,
+      "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 中，证明 $BD_1\\perp$ 平面 $A_1C_1D$（写出关键步骤）。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "l1",
+            "title": "证一条",
+            "criteria": "$BD_1\\perp A_1C_1$",
+            "maxScore": 4
+          },
+          {
+            "key": "l2",
+            "title": "证另一条",
+            "criteria": "$BD_1\\perp A_1D$",
+            "maxScore": 4
+          },
+          {
+            "key": "c",
+            "title": "结论",
+            "criteria": "线面垂直",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 10,
+        "standardAnswer": "$BD_1\\perp A_1C_1$ 且 $BD_1\\perp A_1D$，故 $BD_1\\perp$ 平面 $A_1C_1D$。"
+      },
+      "analysis": "在正方体中可证 $BD_1\\perp A_1C_1$（数量积为 $0$），且 $BD_1\\perp A_1D$。两相交直线 $A_1C_1$、$A_1D$ 均在平面 $A_1C_1D$ 内，由线面垂直判定得 $BD_1\\perp$ 平面 $A_1C_1D$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.555Z",
+      "updated_at": "2026-10-26T08:43:23.555Z"
+    },
+    {
+      "id": 245,
+      "code": "CAND-G1B-094",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 24,
+      "category_id": 79,
+      "knowledge_point_id": 180,
+      "stem": "简单随机抽样每个个体被抽中概率",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "不相等"
+          },
+          {
+            "id": "B",
+            "text": "相等"
+          },
+          {
+            "id": "C",
+            "text": "递增"
+          },
+          {
+            "id": "D",
+            "text": "递减"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "B"
+      },
+      "analysis": "简单随机抽样的核心要求是：总体中每一个个体被抽中的概率都相等（等可能性）。这是它与分层抽样、系统抽样等相区别的基本特征，故选 B。若各个体抽中概率不相等，则不属于简单随机抽样范畴。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.559Z",
+      "updated_at": "2026-10-26T08:43:23.559Z"
+    },
+    {
+      "id": 246,
+      "code": "CAND-G1B-095",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 24,
+      "category_id": 80,
+      "knowledge_point_id": 182,
+      "stem": "抛硬币 $200$ 次出现正面 $96$ 次，估计正面概率。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "f",
+            "title": "频率",
+            "criteria": "0.48",
+            "maxScore": 3
+          },
+          {
+            "key": "i",
+            "title": "解释",
+            "criteria": "估计概率",
+            "maxScore": 3
+          }
+        ],
+        "maxScore": 6,
+        "standardAnswer": "$\\hat p=0.48$。"
+      },
+      "analysis": "用频率估计概率：在 $n=200$ 次独立抛掷中，正面出现 $96$ 次，频率为 $f=\\dfrac{96}{200}=0.48$。因此取估计值 $\\hat p=0.48$。由频率稳定性（大数定律思想），试验次数较大时频率通常接近真实概率，该估计较为可信；但估计值本身仍可能有随机偏差，不必等于理论 $0.5$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.562Z",
+      "updated_at": "2026-10-26T08:43:23.562Z"
+    },
+    {
+      "id": 247,
+      "code": "CAND-G1B-096",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "judge",
+      "difficulty": 3,
+      "content_version": 1,
+      "specialty_id": 24,
+      "category_id": 81,
+      "knowledge_point_id": 185,
+      "stem": "样本相关系数 $r$ 越接近 $1$，线性相关程度一定越强。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "judge",
+        "value": false
+      },
+      "analysis": "样本相关系数 $r\\in[-1,1]$。线性相关强弱应看 $|r|$ 是否接近 $1$：$r\\to1$ 表示强正相关，$r\\to-1$ 表示强负相关（同样“很强”）。命题只说“越接近 $1$ 一定越强”，忽略了接近 $-1$ 的情形，表述不准确；此外相关也不等于因果。故命题错误（false）。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.565Z",
+      "updated_at": "2026-10-26T08:43:23.565Z"
+    },
+    {
+      "id": 248,
+      "code": "CAND-G1B-097",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "single",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 25,
+      "category_id": 82,
+      "knowledge_point_id": 187,
+      "stem": "掷一枚骰子，样本空间元素个数为",
+      "options_json": {
+        "options": [
+          {
+            "id": "A",
+            "text": "$4$"
+          },
+          {
+            "id": "B",
+            "text": "$5$"
+          },
+          {
+            "id": "C",
+            "text": "$6$"
+          },
+          {
+            "id": "D",
+            "text": "$7$"
+          }
+        ]
+      },
+      "answer_payload_json": {
+        "kind": "single",
+        "optionId": "C"
+      },
+      "analysis": "掷一枚公平骰子，可能结果为点数 $1,2,3,4,5,6$，样本空间 $\\Omega=\\{1,2,3,4,5,6\\}$，含 $6$ 个基本事件。选 C。若不考虑点数而谈朝向等，题意通常仍按六点古典概型处理。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.571Z",
+      "updated_at": "2026-10-26T08:43:23.571Z"
+    },
+    {
+      "id": 249,
+      "code": "CAND-G1B-098",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 25,
+      "category_id": 82,
+      "knowledge_point_id": 188,
+      "stem": "袋中 $3$ 红 $2$ 白，随机取 $2$ 球，求恰有一红的概率。",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "n",
+            "title": "总数",
+            "criteria": "10",
+            "maxScore": 3
+          },
+          {
+            "key": "m",
+            "title": "有利",
+            "criteria": "6",
+            "maxScore": 3
+          },
+          {
+            "key": "p",
+            "title": "概率",
+            "criteria": "3/5",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 8,
+        "standardAnswer": "$P=\\dfrac35$。"
+      },
+      "analysis": "古典概型：袋中共 $5$ 球，任取 $2$ 球，基本事件总数为 $C_5^2=10$。事件“恰有一红”（即一红一白）的取法：$C_3^1\\cdot C_2^1=3\\times2=6$。故概率 $P=\\dfrac{6}{10}=\\dfrac{3}{5}$。也可列：两红 $C_3^2=3$，两白 $C_2^2=1$，一红一白 $6$，总和 $10$，一致。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.575Z",
+      "updated_at": "2026-10-26T08:43:23.575Z"
+    },
+    {
+      "id": 250,
+      "code": "CAND-G1B-099",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "numeric",
+      "difficulty": 2,
+      "content_version": 1,
+      "specialty_id": 25,
+      "category_id": 83,
+      "knowledge_point_id": 190,
+      "stem": "独立事件 $A,B$，$P(A)=0.4$，$P(B)=0.5$，则 $P(AB)=$",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "numeric",
+        "value": "0.2",
+        "toleranceAbs": 0,
+        "toleranceRel": 0
+      },
+      "analysis": "若事件 $A$、$B$ 相互独立，则积事件概率等于各自概率之积：$P(AB)=P(A)P(B)$。代入 $P(A)=0.4$、$P(B)=0.5$ 得 $0.4\\times0.5=0.2$。注意独立与互斥不同：互斥时一般有 $P(AB)=0$。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.578Z",
+      "updated_at": "2026-10-26T08:43:23.578Z"
+    },
+    {
+      "id": 251,
+      "code": "CAND-G1B-100",
+      "pool": "formal",
+      "status": "draft",
+      "is_active": 1,
+      "qtype": "application",
+      "difficulty": 1,
+      "content_version": 1,
+      "specialty_id": 25,
+      "category_id": 84,
+      "knowledge_point_id": 192,
+      "stem": "说明：为何试验次数增大时，正面频率往往更接近 $0.5$？（简述）",
+      "options_json": null,
+      "answer_payload_json": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "p",
+            "title": "概率",
+            "criteria": "0.5",
+            "maxScore": 2
+          },
+          {
+            "key": "s",
+            "title": "稳定",
+            "criteria": "次数增大",
+            "maxScore": 2
+          },
+          {
+            "key": "l",
+            "title": "定律思想",
+            "criteria": "大数定律",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 6,
+        "standardAnswer": "试验次数增大，随机波动相对减小，频率稳定于概率 $0.5$ 附近（大数定律思想）。"
+      },
+      "analysis": "大数定律（频率稳定性）表明：在独立重复试验中，当试验次数 $n$ 充分大时，某事件发生的频率会依概率收敛到它的理论概率。抛硬币正面的理论概率为 $0.5$，因此 $n$ 增大时正面频率通常更接近 $0.5$，相对随机波动减小。这并不保证每一次实验都精确等于 $0.5$，而是“稳定于概率附近”的直观含义。",
+      "source_type": "original",
+      "source_year": null,
+      "source_exam_name": null,
+      "source_question_no": null,
+      "source_reference": "本批原创；非高考真题",
+      "source_adaptation_note": null,
+      "source_verification_status": "unverified",
+      "source_license_status": "unknown",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "created_at": "2026-10-26T08:43:23.666Z",
+      "updated_at": "2026-10-26T08:43:23.666Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "75",
+      "item_id": "152",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "86943d8c78b656768e3ca862d4ec78c5db6626339f8a6aab465d5f1ff007b0c7",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:39.677Z",
+      "comment_len": 107
+    },
+    {
+      "id": "76",
+      "item_id": "153",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "7b9c15647abae266d657336603fcfb3c8650fd93bbfa663d58f05bb39cdfb7de",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:39.816Z",
+      "comment_len": 122
+    },
+    {
+      "id": "77",
+      "item_id": "154",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "d7905676f5e20aa20f478cc9e5f1c8fd5e042f91c413b9132fcee5c64e4207c7",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:39.891Z",
+      "comment_len": 95
+    },
+    {
+      "id": "78",
+      "item_id": "155",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "d11eea1629033cab3be6c915f9902832c0dbe058ea57076e02bb9f9d2c6de050",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:40.026Z",
+      "comment_len": 122
+    },
+    {
+      "id": "58",
+      "item_id": "156",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "7812d9b20086c2824ceff1c224676e793e4a7fdc2e1896ef8198ab9746b9e63d",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:37.657Z",
+      "comment_len": 109
+    },
+    {
+      "id": "79",
+      "item_id": "157",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "52695da53b26573f57ee89bc1fd0463f3f2e8f9cdb2be99d6ea56449b9cb1afc",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:40.112Z",
+      "comment_len": 107
+    },
+    {
+      "id": "80",
+      "item_id": "158",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "9c68c72efe0c55edab6ce75f57b79a90ba51c82f9e6c39bb64e68f8ed92d032e",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:40.244Z",
+      "comment_len": 122
+    },
+    {
+      "id": "81",
+      "item_id": "159",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "d9f013023a520cd3f9de8dd85af79578b2ac7d70d1b8b1d91cb14b33e7b0b702",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:40.332Z",
+      "comment_len": 95
+    },
+    {
+      "id": "82",
+      "item_id": "160",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "2120578ef67b15bce12c75f66cd68bad1a6e923c2df11d3e791e4d41d6d5dc29",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:40.453Z",
+      "comment_len": 122
+    },
+    {
+      "id": "83",
+      "item_id": "161",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "2b607b2ee7725e30588b4f0dc143c56278b3fa6a851bd95f16cca0845697c4af",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:40.562Z",
+      "comment_len": 122
+    },
+    {
+      "id": "84",
+      "item_id": "162",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "08616bb9734edb1f62b4acd683d5f274abdd38edb9ff69e3523840746061bd84",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:40.659Z",
+      "comment_len": 105
+    },
+    {
+      "id": "34",
+      "item_id": "163",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "91ed646d35d4d20bbdaa975bddfdbe429f5b11bd58f2e21b83f583d49304b8c5",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:34.552Z",
+      "comment_len": 124
+    },
+    {
+      "id": "85",
+      "item_id": "164",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "e396a3fac6bee5a61857e78261410df9a37d4bada0c76c0b09b5ba15a393fd83",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:40.775Z",
+      "comment_len": 122
+    },
+    {
+      "id": "86",
+      "item_id": "165",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "37ee99adac432f3a95f7cd23ced877ae5946517aabf32cf91a74e900934dd7f1",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:40.884Z",
+      "comment_len": 97
+    },
+    {
+      "id": "59",
+      "item_id": "166",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "8921f62d25d9d8397d13b8bde2237c3e9a45293b875856667c553a238a80eae6",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:37.766Z",
+      "comment_len": 132
+    },
+    {
+      "id": "87",
+      "item_id": "167",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "f1f92c14c37c2e86adb8e154497d250154d6a97c8f6e676a0f430f8ef0b2eba4",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:40.995Z",
+      "comment_len": 122
+    },
+    {
+      "id": "88",
+      "item_id": "168",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "8af72e12dd9d45ae094483abce30bb1c6ed849a6ad18478015097b96c980fdcd",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:41.102Z",
+      "comment_len": 107
+    },
+    {
+      "id": "35",
+      "item_id": "169",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "c94336d4d84a4e0593a37cf7985d566e04e172143126c89343973ba9537865fe",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:34.689Z",
+      "comment_len": 131
+    },
+    {
+      "id": "89",
+      "item_id": "170",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "e5122f77baf912018c39995fe073179cc8707f8bbe64d2f71bfb1bb1809445c8",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:41.259Z",
+      "comment_len": 122
+    },
+    {
+      "id": "90",
+      "item_id": "171",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "223fefae9ca11617da76078014edeac641f7a04a85a6fe955cda08bbc6bb763c",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:41.334Z",
+      "comment_len": 122
+    },
+    {
+      "id": "91",
+      "item_id": "172",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "806e44fbc4d8415c0b2da4f3ecaa48b2f6f37d45ea440b8405c12656dd85c647",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:41.426Z",
+      "comment_len": 107
+    },
+    {
+      "id": "36",
+      "item_id": "173",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "9a8980a89318c15288587231e7703c8a3a1eac07ddff2c03ae0af785918c6ea3",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:34.832Z",
+      "comment_len": 129
+    },
+    {
+      "id": "60",
+      "item_id": "174",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "c20c397ec66895ea76667a6b1e84fc5f3cfe30dc26ed2ee9ce1f092b74eec44c",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:37.880Z",
+      "comment_len": 123
+    },
+    {
+      "id": "61",
+      "item_id": "175",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "8a436c3feb09ef79b073511dcb75c7678c3e923cdc1549394b02377dfa0431ea",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:37.981Z",
+      "comment_len": 123
+    },
+    {
+      "id": "92",
+      "item_id": "176",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "fa7b5bc9052b0151b92939d83097fa09be6fb6e55738a0d81a636fb1ff8718a4",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:41.589Z",
+      "comment_len": 118
+    },
+    {
+      "id": "62",
+      "item_id": "177",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "9998850366b51f3e31e512ae4d88f775266eafd7b50797b3ddb9fdf1495fe6e0",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:38.091Z",
+      "comment_len": 123
+    },
+    {
+      "id": "37",
+      "item_id": "178",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "8ba943e17d35e4bae369d428bb22964f9072addb7ff7f1b1ef3cd9e83363e159",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:34.911Z",
+      "comment_len": 131
+    },
+    {
+      "id": "93",
+      "item_id": "179",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "ca29501d9d7361ce05813b3fd4de47c8c2b83ed8211b15e1ae5d0982375e00bd",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:41.658Z",
+      "comment_len": 95
+    },
+    {
+      "id": "94",
+      "item_id": "180",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "6870f3900e4a81036db815286ca6077b10067347cc93735162ad8ba3a763cfbb",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:41.768Z",
+      "comment_len": 109
+    },
+    {
+      "id": "63",
+      "item_id": "181",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "1082772b940826e3c3f4a6d478a0b02f79c609d1673dfb4ebed25abac6b5b3b8",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:38.205Z",
+      "comment_len": 107
+    },
+    {
+      "id": "95",
+      "item_id": "182",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "6fc7950e4a30aa666611e1f449f77ec74dccbfc77bab6cab6ecad8df3b10f4ab",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:41.842Z",
+      "comment_len": 122
+    },
+    {
+      "id": "96",
+      "item_id": "183",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "e4c5cf9feec734aaf9d3b41c397e2ff47a6ec607ad6c9a528d4ef452a074514d",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:41.977Z",
+      "comment_len": 95
+    },
+    {
+      "id": "38",
+      "item_id": "184",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "bd61cad132f136b011072d6f543e206a8cf9794d1c912fc85c64ad89a8486b9a",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:35.070Z",
+      "comment_len": 129
+    },
+    {
+      "id": "97",
+      "item_id": "185",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "1f94dd771f3e969a2550860213d7f637ac70051349ee452e953c1b8d54d43960",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:42.061Z",
+      "comment_len": 107
+    },
+    {
+      "id": "98",
+      "item_id": "186",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "7c3b029d592ea83fd775c8870a31346fcb86294b79e9ef0dd5de64227fce8b20",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:42.197Z",
+      "comment_len": 122
+    },
+    {
+      "id": "99",
+      "item_id": "187",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "50039e231c076cf468773b47a69b027d48dddd514a959c08a506186923ddda78",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:42.276Z",
+      "comment_len": 122
+    },
+    {
+      "id": "132",
+      "item_id": "188",
+      "review_status": "passed",
+      "content_version": 2,
+      "content_fingerprint": "8e1dc81f9b143d70192591963e92f4df54af9624d5aa0569ec3a482b1922dd26",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T09:06:15.085Z",
+      "comment_len": 194
+    },
+    {
+      "id": "32",
+      "item_id": "188",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "f841e04e6fee25cebfc9087222f854a1d76bf220a388ad481eabaa30cda08f60",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:34.335Z",
+      "comment_len": 179
+    },
+    {
+      "id": "39",
+      "item_id": "189",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "b3aa628d8541ad013e4bc8bacb29523cc1f3525fd685444ba5acfefafb9b8be8",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:35.389Z",
+      "comment_len": 129
+    },
+    {
+      "id": "64",
+      "item_id": "190",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "35689d7ff4c4adc6aabd1d52921913c1268cf609f755989095b5751994e7d283",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:38.308Z",
+      "comment_len": 123
+    },
+    {
+      "id": "65",
+      "item_id": "191",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "e2649292b8e77bc44000908f8ee6f6f021da6159554de3eaff340e594fa00a67",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:38.420Z",
+      "comment_len": 94
+    },
+    {
+      "id": "100",
+      "item_id": "192",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "4d08af7b0826d576421702b80651ff70c5fe897ca6febf352d80fbf7a72cb3e1",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:42.410Z",
+      "comment_len": 122
+    },
+    {
+      "id": "40",
+      "item_id": "193",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "c79d04f645525521f06b03368351409b0aa77791ef196e4611990ceaf54b5f76",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:35.654Z",
+      "comment_len": 131
+    },
+    {
+      "id": "101",
+      "item_id": "194",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "c6b76dfb81e27098c2fbf17390e4b09c2249ed35376ebdfe7da376b7a59b5d33",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:42.495Z",
+      "comment_len": 107
+    },
+    {
+      "id": "66",
+      "item_id": "195",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "913b787e6d8708c23acbfa98c2cbf9a8f7623aae56b73504588b0c1c49a374ab",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:38.523Z",
+      "comment_len": 104
+    },
+    {
+      "id": "41",
+      "item_id": "196",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "420444820871d61e12dd8de85beeb48f24d677e0e6af2e2ac55761aad91e980f",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:35.796Z",
+      "comment_len": 119
+    },
+    {
+      "id": "102",
+      "item_id": "197",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "aac82184aaa08a51182f4d083dc66c47672c89a40aff49379c15daaa3e2cbc13",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:42.630Z",
+      "comment_len": 107
+    },
+    {
+      "id": "103",
+      "item_id": "198",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "2110a453a9f78b12efc4cd23e08ba14fe69d4ecd85095526634fd5e63e0175a3",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:42.983Z",
+      "comment_len": 99
+    },
+    {
+      "id": "42",
+      "item_id": "199",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "3b6de31cc73db648cb2b2a5070da17f46020f20e2e538c9c9f7858abbde9ad61",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:35.935Z",
+      "comment_len": 129
+    },
+    {
+      "id": "104",
+      "item_id": "200",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "f85a08fe9a99f3a6c33600cd42a4101714cbd110158c8c830232b2bd63a11a11",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:43.093Z",
+      "comment_len": 122
+    },
+    {
+      "id": "105",
+      "item_id": "201",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "eb05bd1fad9616b6a9536877daeae85b995ae8c31ba643fc1bff120ead99c0e7",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:43.168Z",
+      "comment_len": 122
+    },
+    {
+      "id": "106",
+      "item_id": "202",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "c7a4f62b06df7ffbbf7a3ec51cc80e91debff25f275b4861e24ed26ae481aca0",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:43.284Z",
+      "comment_len": 101
+    },
+    {
+      "id": "43",
+      "item_id": "203",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "830773b456b49644aba036d13e1e1c19ceffa84d3eece84ac56d6a2a50e41304",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:36.033Z",
+      "comment_len": 131
+    },
+    {
+      "id": "107",
+      "item_id": "204",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "899dfdc415309c33c7222d21f88e8dfd0b83d61b008ace58e2e494eb393f65c6",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:43.362Z",
+      "comment_len": 122
+    },
+    {
+      "id": "108",
+      "item_id": "205",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "87e434d42ead7837777dd5378b2f5291d689cf5a2f0c1f5acdff98f139a05715",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:43.493Z",
+      "comment_len": 107
+    },
+    {
+      "id": "109",
+      "item_id": "206",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "711ebaac3723398feb22ea63ac461ad04ff42b56c26d4325f5e2938f1fc70977",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:43.575Z",
+      "comment_len": 122
+    },
+    {
+      "id": "44",
+      "item_id": "207",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "5aebfce1df7dc0f61cb829ae4b1a8b3a1cd02acd85f2cc4d356a5e1119b07899",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:36.144Z",
+      "comment_len": 131
+    },
+    {
+      "id": "110",
+      "item_id": "208",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "a866ef6b30b18acb2da922f05376875710be52c72109097da9aec72611359cc7",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:43.709Z",
+      "comment_len": 101
+    },
+    {
+      "id": "111",
+      "item_id": "209",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "f7836623ab6a2d3a4142d0a08fa12477cbf9ac2756ac5a8550d38566379eacab",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:43.804Z",
+      "comment_len": 122
+    },
+    {
+      "id": "112",
+      "item_id": "210",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "362a0ae0e948e0d1ca6f1f71e943ef0a236b6f28bc42d9d2a676aac11e2f0d4f",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:43.985Z",
+      "comment_len": 116
+    },
+    {
+      "id": "45",
+      "item_id": "211",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "dafa17d9e1160ebfb437ab1d67da5ab174636958ed9969ecd8683424e81c8b9a",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:36.251Z",
+      "comment_len": 129
+    },
+    {
+      "id": "67",
+      "item_id": "212",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "be94d750ba6c9304c8d33a9f86865289fad2b4095765a4dd36dfdcbb4c8e2c70",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:38.630Z",
+      "comment_len": 123
+    },
+    {
+      "id": "68",
+      "item_id": "213",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "8fbd746f260b255d559607bf35ab90ca5d8088033c0465d5f4b6da4eff4fb40d",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:38.748Z",
+      "comment_len": 132
+    },
+    {
+      "id": "69",
+      "item_id": "214",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "bcfb4bdf8e8b127a3237b88d4087f0ab39c2acbbe7670b31baa458ae46f3a231",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:38.858Z",
+      "comment_len": 123
+    },
+    {
+      "id": "46",
+      "item_id": "215",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "60a0888327a2a5a1eeb5e9c5f09a43ab06d2fce1b12547f74eccbab26f19d78e",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:36.359Z",
+      "comment_len": 131
+    },
+    {
+      "id": "113",
+      "item_id": "216",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "b2bce598835d1336a4fe55b2b9443d27fde71517dedbbb1b1ecba50d80d28c5d",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:44.065Z",
+      "comment_len": 95
+    },
+    {
+      "id": "114",
+      "item_id": "217",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "772ed346373821a3e2355069a61505a87eff8c3b034eac874a52c3fa092d0392",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:44.168Z",
+      "comment_len": 107
+    },
+    {
+      "id": "115",
+      "item_id": "218",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "1e8bcdafc63d32c8f8ff8fc43b23ab0c52ffeaf9ce9547cac133e82680ef9217",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:44.244Z",
+      "comment_len": 95
+    },
+    {
+      "id": "47",
+      "item_id": "219",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "3cc31281c6e6c6593aa35f73111ded7586cc22665dafccb0ced0026de45db163",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:36.475Z",
+      "comment_len": 129
+    },
+    {
+      "id": "116",
+      "item_id": "220",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "4fcd3258c219314bfa3e9dbea5901a6d0d7974c0b91ac6d454d75f0654a9e045",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:44.353Z",
+      "comment_len": 122
+    },
+    {
+      "id": "117",
+      "item_id": "221",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "efdb7039e1cddad7e199b7e7b01d6b2a88a3df6c787e91dce3b72640794e8481",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:44.434Z",
+      "comment_len": 95
+    },
+    {
+      "id": "118",
+      "item_id": "222",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "fb3ce33d8b4d60768ff6fea9745f3a9730ce38ebc843b835060c608ea857cd8c",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:44.536Z",
+      "comment_len": 122
+    },
+    {
+      "id": "48",
+      "item_id": "223",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "8124824ac60f71c2105104fcf60f92b558bcb9424dd52eafb63a9d7a90b61775",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:36.576Z",
+      "comment_len": 129
+    },
+    {
+      "id": "70",
+      "item_id": "224",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "3c93df458e845046258f5a7d74f28da7473557616e3c1c39102dd177fd8fb019",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:38.964Z",
+      "comment_len": 134
+    },
+    {
+      "id": "133",
+      "item_id": "225",
+      "review_status": "passed",
+      "content_version": 2,
+      "content_fingerprint": "15c80955185461d9746d3af5e495f149e5877cb97932485c78b990118828ca65",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T09:06:15.181Z",
+      "comment_len": 193
+    },
+    {
+      "id": "33",
+      "item_id": "225",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "c4e1a6a567fcbf0384700910ccc57d3bef8a2ef2504e8da981fdc0c6b7ce8096",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:34.454Z",
+      "comment_len": 173
+    },
+    {
+      "id": "71",
+      "item_id": "226",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "64d729491cbe3e50bf277a4a77a406fb3929fa035f6bf15ac8db8215bd081eb8",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:39.199Z",
+      "comment_len": 100
+    },
+    {
+      "id": "49",
+      "item_id": "227",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "f746d5a90d92dc870380acee08747ab02d2bd70b4995a4ef234bc807bb239801",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:36.682Z",
+      "comment_len": 129
+    },
+    {
+      "id": "119",
+      "item_id": "228",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "ccd08bc7bfb2c0e08a9a590024491ced84c716b2f28deacd178b5884790d78a2",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:44.609Z",
+      "comment_len": 122
+    },
+    {
+      "id": "120",
+      "item_id": "229",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "bca60fb82a2fb6aa53b2cac332e074ce51598a7ccec9031ba2b467157c0fd41e",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:44.711Z",
+      "comment_len": 122
+    },
+    {
+      "id": "121",
+      "item_id": "230",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "31ab499f65a445d635e65f0bc2fa10cd39dad3b3e21c677c9b86e90552e24b7b",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:44.793Z",
+      "comment_len": 97
+    },
+    {
+      "id": "50",
+      "item_id": "231",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "b508c189e2e84ec3826a858cfdb9376534d41f1f9cfffe4b4ad9ea19662f098a",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:36.791Z",
+      "comment_len": 131
+    },
+    {
+      "id": "122",
+      "item_id": "232",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "cbe6b9bede95626fdd0e25226e7ab22bd3139a61aa6a9cb6f174ec86783bf4eb",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:44.891Z",
+      "comment_len": 122
+    },
+    {
+      "id": "51",
+      "item_id": "233",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "6edb1875459f44cac0dfad837f09d977c3d7b65ff4d4eb1e778eeba515011992",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:36.903Z",
+      "comment_len": 129
+    },
+    {
+      "id": "72",
+      "item_id": "234",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "6a990c1f084b8cc196b41a9094893f6d806333644acd9e0712d8894cbe614dc0",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:39.354Z",
+      "comment_len": 86
+    },
+    {
+      "id": "123",
+      "item_id": "235",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "755599d7fbb2a388820325d4abc64966d07a0e45f8138cf1881a333fe154676d",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:45.010Z",
+      "comment_len": 107
+    },
+    {
+      "id": "124",
+      "item_id": "236",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "b10407a81865d5110c4e529806a96d85f1d0a9f6ef789c532b4a9f0cadcdeb7e",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:45.084Z",
+      "comment_len": 97
+    },
+    {
+      "id": "52",
+      "item_id": "237",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "d4aaa6b011578f236d39d2a17318fc2ee74ad4ac138a9f9052390d025e8c8a81",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:37.061Z",
+      "comment_len": 129
+    },
+    {
+      "id": "125",
+      "item_id": "238",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "de63942be1cfcff30de5ae463d2b5b2d2f961ee9179e65efb2846fc9f306e6dc",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:45.182Z",
+      "comment_len": 122
+    },
+    {
+      "id": "126",
+      "item_id": "239",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "b2a2875c43271bc8a3d3b365dde898feef596fe70be665a35e5f03ce51fc93b3",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:45.256Z",
+      "comment_len": 107
+    },
+    {
+      "id": "127",
+      "item_id": "240",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "c9544d79bac1f776afeb070fe29a8d393e0cf68c9389b34da6f5dd34891bfb73",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:45.357Z",
+      "comment_len": 122
+    },
+    {
+      "id": "53",
+      "item_id": "241",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "bb32c70e337ef480e3d8533898ead781029f7340ebc5ca0a405249ffd3e03be2",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:37.139Z",
+      "comment_len": 129
+    },
+    {
+      "id": "73",
+      "item_id": "242",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "5d76a476290e8877d8ae03a89db6942b100fea329dcb33687b1babe4b590b844",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:39.500Z",
+      "comment_len": 135
+    },
+    {
+      "id": "128",
+      "item_id": "243",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "48a93bcdceedf0653d307addf536dd2700d8e8301e623be0c070506ac80eae14",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:45.445Z",
+      "comment_len": 116
+    },
+    {
+      "id": "54",
+      "item_id": "244",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "1886ab0eb13c089e30ba0f30721a655ff9f2f470de04c18f7fa2b24ca02e8f94",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:37.238Z",
+      "comment_len": 131
+    },
+    {
+      "id": "129",
+      "item_id": "245",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "86aab75a02e6c60a303589224222a2101a29115dad6258822d90fb366419558a",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:45.543Z",
+      "comment_len": 122
+    },
+    {
+      "id": "55",
+      "item_id": "246",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "7e2564a9a811c1c89e41e5cb13bd1fc5ab95f4e2d0faa9d314548fe085a9a1b1",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:37.341Z",
+      "comment_len": 129
+    },
+    {
+      "id": "74",
+      "item_id": "247",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "8d94dded2830bf0c2a492d2ce321f39474f04465ea3c45aa45ba15ce73419db9",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:39.584Z",
+      "comment_len": 134
+    },
+    {
+      "id": "130",
+      "item_id": "248",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "da080b82869efa4ac9ce0fcbf4e2fe90cfec3d9bfdff36a182a2c1ad803c383c",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:45.657Z",
+      "comment_len": 122
+    },
+    {
+      "id": "56",
+      "item_id": "249",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "82d9ff84b10bd19bf7d483c214be9bd41181737d60e405782c66fab2aa88fbe4",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:37.440Z",
+      "comment_len": 128
+    },
+    {
+      "id": "131",
+      "item_id": "250",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "10c3d2902e5446e9ac7902ead1f3ce8b99a2250efca1f02bdd125f686104cbd4",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:45.736Z",
+      "comment_len": 99
+    },
+    {
+      "id": "57",
+      "item_id": "251",
+      "review_status": "passed",
+      "content_version": 1,
+      "content_fingerprint": "1c903b367ac6ed2f2c0ca78fedea135dd9e6f22e2428f4cb4a2262b8e79ebde7",
+      "reviewer_user_id": "2",
+      "reviewed_at": "2026-10-26T08:55:37.547Z",
+      "comment_len": 129
+    }
+  ],
+  "kps": [
+    {
+      "id": 221,
+      "item_id": 152,
+      "knowledge_point_id": 1,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 222,
+      "item_id": 153,
+      "knowledge_point_id": 4,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 223,
+      "item_id": 154,
+      "knowledge_point_id": 6,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 224,
+      "item_id": 155,
+      "knowledge_point_id": 12,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 225,
+      "item_id": 156,
+      "knowledge_point_id": 15,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 226,
+      "item_id": 157,
+      "knowledge_point_id": 43,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 227,
+      "item_id": 158,
+      "knowledge_point_id": 44,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 228,
+      "item_id": 159,
+      "knowledge_point_id": 47,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 229,
+      "item_id": 160,
+      "knowledge_point_id": 48,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 230,
+      "item_id": 161,
+      "knowledge_point_id": 51,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 231,
+      "item_id": 162,
+      "knowledge_point_id": 52,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 232,
+      "item_id": 163,
+      "knowledge_point_id": 45,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 233,
+      "item_id": 164,
+      "knowledge_point_id": 53,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 234,
+      "item_id": 165,
+      "knowledge_point_id": 49,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 235,
+      "item_id": 166,
+      "knowledge_point_id": 54,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 236,
+      "item_id": 167,
+      "knowledge_point_id": 17,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 237,
+      "item_id": 168,
+      "knowledge_point_id": 20,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 238,
+      "item_id": 169,
+      "knowledge_point_id": 24,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 239,
+      "item_id": 170,
+      "knowledge_point_id": 25,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 240,
+      "item_id": 171,
+      "knowledge_point_id": 26,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 241,
+      "item_id": 172,
+      "knowledge_point_id": 29,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 242,
+      "item_id": 173,
+      "knowledge_point_id": 33,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 243,
+      "item_id": 174,
+      "knowledge_point_id": 37,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 244,
+      "item_id": 175,
+      "knowledge_point_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 245,
+      "item_id": 176,
+      "knowledge_point_id": 39,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 246,
+      "item_id": 177,
+      "knowledge_point_id": 41,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 247,
+      "item_id": 178,
+      "knowledge_point_id": 18,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 248,
+      "item_id": 179,
+      "knowledge_point_id": 24,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 249,
+      "item_id": 180,
+      "knowledge_point_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 250,
+      "item_id": 181,
+      "knowledge_point_id": 31,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 251,
+      "item_id": 182,
+      "knowledge_point_id": 65,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 252,
+      "item_id": 183,
+      "knowledge_point_id": 66,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 253,
+      "item_id": 184,
+      "knowledge_point_id": 80,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 254,
+      "item_id": 185,
+      "knowledge_point_id": 69,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 255,
+      "item_id": 186,
+      "knowledge_point_id": 70,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 256,
+      "item_id": 187,
+      "knowledge_point_id": 73,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 257,
+      "item_id": 188,
+      "knowledge_point_id": 74,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 258,
+      "item_id": 189,
+      "knowledge_point_id": 81,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 259,
+      "item_id": 190,
+      "knowledge_point_id": 77,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 260,
+      "item_id": 191,
+      "knowledge_point_id": 78,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 261,
+      "item_id": 192,
+      "knowledge_point_id": 72,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 262,
+      "item_id": 193,
+      "knowledge_point_id": 80,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 263,
+      "item_id": 194,
+      "knowledge_point_id": 75,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 264,
+      "item_id": 195,
+      "knowledge_point_id": 67,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 265,
+      "item_id": 196,
+      "knowledge_point_id": 81,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 266,
+      "item_id": 197,
+      "knowledge_point_id": 96,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 267,
+      "item_id": 198,
+      "knowledge_point_id": 97,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 268,
+      "item_id": 199,
+      "knowledge_point_id": 98,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 269,
+      "item_id": 200,
+      "knowledge_point_id": 99,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 270,
+      "item_id": 201,
+      "knowledge_point_id": 100,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 271,
+      "item_id": 202,
+      "knowledge_point_id": 102,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 272,
+      "item_id": 203,
+      "knowledge_point_id": 104,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 273,
+      "item_id": 204,
+      "knowledge_point_id": 105,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 274,
+      "item_id": 205,
+      "knowledge_point_id": 106,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 275,
+      "item_id": 206,
+      "knowledge_point_id": 108,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 276,
+      "item_id": 207,
+      "knowledge_point_id": 111,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 277,
+      "item_id": 208,
+      "knowledge_point_id": 109,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 278,
+      "item_id": 209,
+      "knowledge_point_id": 112,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 279,
+      "item_id": 210,
+      "knowledge_point_id": 113,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 280,
+      "item_id": 211,
+      "knowledge_point_id": 116,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 281,
+      "item_id": 212,
+      "knowledge_point_id": 115,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 282,
+      "item_id": 213,
+      "knowledge_point_id": 107,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 283,
+      "item_id": 214,
+      "knowledge_point_id": 103,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 284,
+      "item_id": 215,
+      "knowledge_point_id": 117,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 285,
+      "item_id": 216,
+      "knowledge_point_id": 110,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 286,
+      "item_id": 217,
+      "knowledge_point_id": 127,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 287,
+      "item_id": 218,
+      "knowledge_point_id": 128,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 288,
+      "item_id": 219,
+      "knowledge_point_id": 140,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 289,
+      "item_id": 220,
+      "knowledge_point_id": 131,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 290,
+      "item_id": 221,
+      "knowledge_point_id": 132,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 291,
+      "item_id": 222,
+      "knowledge_point_id": 133,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 292,
+      "item_id": 223,
+      "knowledge_point_id": 141,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 293,
+      "item_id": 224,
+      "knowledge_point_id": 136,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 294,
+      "item_id": 225,
+      "knowledge_point_id": 137,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 295,
+      "item_id": 226,
+      "knowledge_point_id": 134,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 296,
+      "item_id": 227,
+      "knowledge_point_id": 142,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 297,
+      "item_id": 228,
+      "knowledge_point_id": 129,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 298,
+      "item_id": 229,
+      "knowledge_point_id": 138,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 299,
+      "item_id": 230,
+      "knowledge_point_id": 135,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 300,
+      "item_id": 231,
+      "knowledge_point_id": 143,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 301,
+      "item_id": 232,
+      "knowledge_point_id": 158,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 302,
+      "item_id": 233,
+      "knowledge_point_id": 161,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 303,
+      "item_id": 234,
+      "knowledge_point_id": 163,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 304,
+      "item_id": 235,
+      "knowledge_point_id": 165,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 305,
+      "item_id": 236,
+      "knowledge_point_id": 169,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 306,
+      "item_id": 237,
+      "knowledge_point_id": 170,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 307,
+      "item_id": 238,
+      "knowledge_point_id": 173,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 308,
+      "item_id": 239,
+      "knowledge_point_id": 175,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 309,
+      "item_id": 240,
+      "knowledge_point_id": 177,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 310,
+      "item_id": 241,
+      "knowledge_point_id": 171,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 311,
+      "item_id": 242,
+      "knowledge_point_id": 167,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 312,
+      "item_id": 243,
+      "knowledge_point_id": 176,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 313,
+      "item_id": 244,
+      "knowledge_point_id": 178,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 314,
+      "item_id": 245,
+      "knowledge_point_id": 180,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 315,
+      "item_id": 246,
+      "knowledge_point_id": 182,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 316,
+      "item_id": 247,
+      "knowledge_point_id": 185,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 317,
+      "item_id": 248,
+      "knowledge_point_id": 187,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 318,
+      "item_id": 249,
+      "knowledge_point_id": 188,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 319,
+      "item_id": 250,
+      "knowledge_point_id": 190,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 320,
+      "item_id": 251,
+      "knowledge_point_id": 192,
+      "is_primary": 1,
+      "sort_order": 10
+    }
+  ],
+  "methods": [
+    {
+      "id": 93,
+      "item_id": 152,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 94,
+      "item_id": 153,
+      "method_id": 35,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 95,
+      "item_id": 154,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 96,
+      "item_id": 155,
+      "method_id": 35,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 97,
+      "item_id": 156,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 98,
+      "item_id": 157,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 99,
+      "item_id": 158,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 100,
+      "item_id": 159,
+      "method_id": 32,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 101,
+      "item_id": 160,
+      "method_id": 32,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 102,
+      "item_id": 160,
+      "method_id": 34,
+      "is_primary": 0,
+      "sort_order": 20
+    },
+    {
+      "id": 103,
+      "item_id": 161,
+      "method_id": 33,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 104,
+      "item_id": 162,
+      "method_id": 35,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 105,
+      "item_id": 163,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 106,
+      "item_id": 163,
+      "method_id": 35,
+      "is_primary": 0,
+      "sort_order": 20
+    },
+    {
+      "id": 107,
+      "item_id": 164,
+      "method_id": 35,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 108,
+      "item_id": 164,
+      "method_id": 39,
+      "is_primary": 0,
+      "sort_order": 20
+    },
+    {
+      "id": 109,
+      "item_id": 165,
+      "method_id": 32,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 110,
+      "item_id": 166,
+      "method_id": 36,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 111,
+      "item_id": 167,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 112,
+      "item_id": 168,
+      "method_id": 35,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 113,
+      "item_id": 169,
+      "method_id": 35,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 114,
+      "item_id": 169,
+      "method_id": 40,
+      "is_primary": 0,
+      "sort_order": 20
+    },
+    {
+      "id": 115,
+      "item_id": 170,
+      "method_id": 40,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 116,
+      "item_id": 171,
+      "method_id": 36,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 117,
+      "item_id": 172,
+      "method_id": 36,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 118,
+      "item_id": 173,
+      "method_id": 36,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 119,
+      "item_id": 173,
+      "method_id": 32,
+      "is_primary": 0,
+      "sort_order": 20
+    },
+    {
+      "id": 120,
+      "item_id": 174,
+      "method_id": 37,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 121,
+      "item_id": 175,
+      "method_id": 36,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 122,
+      "item_id": 176,
+      "method_id": 33,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 123,
+      "item_id": 177,
+      "method_id": 36,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 124,
+      "item_id": 178,
+      "method_id": 36,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 125,
+      "item_id": 178,
+      "method_id": 32,
+      "is_primary": 0,
+      "sort_order": 20
+    },
+    {
+      "id": 126,
+      "item_id": 179,
+      "method_id": 40,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 127,
+      "item_id": 180,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 128,
+      "item_id": 181,
+      "method_id": 36,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 129,
+      "item_id": 182,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 130,
+      "item_id": 183,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 131,
+      "item_id": 184,
+      "method_id": 40,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 132,
+      "item_id": 185,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 133,
+      "item_id": 186,
+      "method_id": 36,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 134,
+      "item_id": 187,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 135,
+      "item_id": 188,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 136,
+      "item_id": 189,
+      "method_id": 40,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 137,
+      "item_id": 190,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 138,
+      "item_id": 191,
+      "method_id": 36,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 139,
+      "item_id": 192,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 140,
+      "item_id": 193,
+      "method_id": 36,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 141,
+      "item_id": 194,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 142,
+      "item_id": 195,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 143,
+      "item_id": 196,
+      "method_id": 40,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 144,
+      "item_id": 196,
+      "method_id": 34,
+      "is_primary": 0,
+      "sort_order": 20
+    },
+    {
+      "id": 145,
+      "item_id": 197,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 146,
+      "item_id": 198,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 147,
+      "item_id": 199,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 148,
+      "item_id": 200,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 149,
+      "item_id": 201,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 150,
+      "item_id": 202,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 151,
+      "item_id": 203,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 152,
+      "item_id": 204,
+      "method_id": 33,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 153,
+      "item_id": 205,
+      "method_id": 33,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 154,
+      "item_id": 206,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 155,
+      "item_id": 207,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 156,
+      "item_id": 208,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 157,
+      "item_id": 209,
+      "method_id": 33,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 158,
+      "item_id": 210,
+      "method_id": 33,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 159,
+      "item_id": 211,
+      "method_id": 33,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 160,
+      "item_id": 211,
+      "method_id": 32,
+      "is_primary": 0,
+      "sort_order": 20
+    },
+    {
+      "id": 161,
+      "item_id": 212,
+      "method_id": 32,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 162,
+      "item_id": 213,
+      "method_id": 36,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 163,
+      "item_id": 214,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 164,
+      "item_id": 215,
+      "method_id": 32,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 165,
+      "item_id": 216,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 166,
+      "item_id": 217,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 167,
+      "item_id": 218,
+      "method_id": 34,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 168,
+      "item_id": 219,
+      "method_id": 34,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 169,
+      "item_id": 220,
+      "method_id": 34,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 170,
+      "item_id": 221,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 171,
+      "item_id": 222,
+      "method_id": 32,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 172,
+      "item_id": 223,
+      "method_id": 34,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 173,
+      "item_id": 224,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 174,
+      "item_id": 225,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 175,
+      "item_id": 226,
+      "method_id": 32,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 176,
+      "item_id": 227,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 177,
+      "item_id": 228,
+      "method_id": 35,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 178,
+      "item_id": 229,
+      "method_id": 35,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 179,
+      "item_id": 230,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 180,
+      "item_id": 231,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 181,
+      "item_id": 232,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 182,
+      "item_id": 233,
+      "method_id": 38,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 183,
+      "item_id": 234,
+      "method_id": 34,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 184,
+      "item_id": 235,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 185,
+      "item_id": 236,
+      "method_id": 32,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 186,
+      "item_id": 237,
+      "method_id": 32,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 187,
+      "item_id": 238,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 188,
+      "item_id": 239,
+      "method_id": 35,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 189,
+      "item_id": 240,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 190,
+      "item_id": 241,
+      "method_id": 32,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 191,
+      "item_id": 242,
+      "method_id": 33,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 192,
+      "item_id": 243,
+      "method_id": 35,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 193,
+      "item_id": 244,
+      "method_id": 35,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 194,
+      "item_id": 244,
+      "method_id": 38,
+      "is_primary": 0,
+      "sort_order": 20
+    },
+    {
+      "id": 195,
+      "item_id": 245,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 196,
+      "item_id": 246,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 197,
+      "item_id": 247,
+      "method_id": 35,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 198,
+      "item_id": 248,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 199,
+      "item_id": 249,
+      "method_id": 35,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 200,
+      "item_id": 250,
+      "method_id": 35,
+      "is_primary": 1,
+      "sort_order": 10
+    },
+    {
+      "id": 201,
+      "item_id": 251,
+      "method_id": 30,
+      "is_primary": 1,
+      "sort_order": 10
+    }
+  ],
+  "hist13Snapshot": [
+    {
+      "code": "HSMA-RJA-CH03-APP-0001",
+      "cv": 3,
+      "rough": "f7ea30150d0e11cba37ea324ac6db164d1120d311ff014d5ba9a2baabf03d272"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0001",
+      "cv": 2,
+      "rough": "9debe8d68f20e33b94edbfe2be8e6b4057e68d8f042719143f017d1f494eed73"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0002",
+      "cv": 2,
+      "rough": "0fff3ec58bf5db16c11e17e3d3690732cfa2bfd7b45f3dcac583d17b44408e45"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0005",
+      "cv": 2,
+      "rough": "4f4d64b895da9d9d2da5eafc144afc1bdcb7ffabb1bbe768310b18fa5c1c52dd"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0006",
+      "cv": 2,
+      "rough": "f32c02491ae05e881b4618a8f4aa888646d80a5692eab096bdcc6efbcfce54fc"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0007",
+      "cv": 2,
+      "rough": "1edf9ae333d576c2e51412b9e76699ac843055bea456cd6e70dbc8a86c666eac"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0010",
+      "cv": 2,
+      "rough": "2609416384447b703c5bdd3064a92acf63ed8112f051612f8acb8dd8c1c29241"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0011",
+      "cv": 2,
+      "rough": "1892251d52e1621e3270d64b6ac72f7b46ce57cd96053f258da6911b28871aef"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0012",
+      "cv": 2,
+      "rough": "c6ae1fa6490afd546a490721f7020e896cda233feb8b3e630064a9bed9e5a143"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0015",
+      "cv": 2,
+      "rough": "f855fadf7a63305c6c8dc6a06102e35df56bcb285beaabe442d65718e74427bf"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0019",
+      "cv": 2,
+      "rough": "d2cb70c3d8a98ac9e64c38edf7621e4467a9cce536b448f505b9ec4705bfe6c0"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0020",
+      "cv": 3,
+      "rough": "08af866b349616c6124a7bd4cb6093014e417c65eb3820f392c8ee5a7a4642f6"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0025",
+      "cv": 3,
+      "rough": "ef355cf8274dcc37b3ffba5ec3a6815a509e244350c18693f9f5efdf3f14aa90"
+    }
+  ],
+  "sessions": 131,
+  "sessionItems": 354,
+  "drawable": 13
+}

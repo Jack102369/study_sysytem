@@ -1,0 +1,1610 @@
+[
+  {
+    "candidateCode": "CAND-G1B-012",
+    "itemId": "163",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "固定成本 $150$ 元，可变成本 $6$ 元/件，售价 $18$ 元/件，销量 $x\\in\\mathbb{N}^+$。\n（1）利润 $L(x)$；\n（2）至少几件不亏本？",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "L",
+          "title": "利润函数",
+          "criteria": "$12x-150$",
+          "maxScore": 4
+        },
+        {
+          "key": "s",
+          "title": "解不等式",
+          "criteria": "$x\\ge13$",
+          "maxScore": 4
+        },
+        {
+          "key": "w",
+          "title": "结论",
+          "criteria": "至少13件",
+          "maxScore": 2
+        }
+      ],
+      "maxScore": 10,
+      "standardAnswer": "（1）$L(x)=12x-150$；（2）$x\\ge13$。"
+    },
+    "analysis": "利润＝售价收入－成本：$L(x)=18x-(150+6x)=12x-150$。不亏本即 $L(x)\\ge0\\Rightarrow x\\ge12.5$。销量为正整数，故至少 $13$ 件。代入 $x=12$ 得 $L=-6<0$，$x=13$ 得 $L=6>0$，可验证。",
+    "kps": [
+      {
+        "id": "45",
+        "code": "rja.2.1.03",
+        "name": "不等式应用建模",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      },
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": false
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "91ed646d35d4d20bbdaa975bddfdbe429f5b11bd58f2e21b83f583d49304b8c5",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "17",
+      "code": "rja-ch2",
+      "name": "一元二次函数、方程和不等式"
+    },
+    "category": {
+      "id": "38",
+      "code": "2.1",
+      "name": "等式性质与不等式性质"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-018",
+    "itemId": "169",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 2,
+    "stem": "出租车：$3\\text{km}$ 内 $10$ 元；超出每 km $2.5$ 元（$x$ 为整数 km）。\n（1）车费 $F(x)$；\n（2）$8\\text{km}$ 费用？",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "p",
+          "title": "分段表达式",
+          "criteria": "两段正确",
+          "maxScore": 5
+        },
+        {
+          "key": "c",
+          "title": "计算",
+          "criteria": "22.5",
+          "maxScore": 3
+        },
+        {
+          "key": "u",
+          "title": "单位",
+          "criteria": "元",
+          "maxScore": 2
+        }
+      ],
+      "maxScore": 10,
+      "standardAnswer": "（1）$F(x)=\\begin{cases}10,&0<x\\le3\\\\10+2.5(x-3),&x>3\\end{cases}$；（2）$22.5$ 元。"
+    },
+    "analysis": "按里程分段建模：当 $0<x\\le3$ 时只收起步价，故 $F(x)=10$；当 $x>3$ 时超出里程为 $x-3$，按每公里 $2.5$ 元加收，故 $F(x)=10+2.5(x-3)$。求 $x=8$：超出 $5$ km，得 $F(8)=10+2.5\\times5=22.5$ 元。边界核验：在 $x=3$ 处两段都得 $10$，分段连续；若误把全程按 $2.5x$ 计会偏大。",
+    "kps": [
+      {
+        "id": "24",
+        "code": "rja.3.1.09",
+        "name": "分段函数",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": true
+      },
+      {
+        "id": "40",
+        "code": "substitution",
+        "name": "换元法",
+        "isPrimary": false
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "c94336d4d84a4e0593a37cf7985d566e04e172143126c89343973ba9537865fe",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "41",
+      "code": "3.1",
+      "name": "函数的概念及其表示"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-022",
+    "itemId": "173",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 2,
+    "stem": "矩形周长 $20$，一边长 $x$，面积 $S(x)=x(10-x)$，$0<x<10$。\n（1）求 $S(x)$ 最大值及对应 $x$。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "s",
+          "title": "面积函数",
+          "criteria": "$x(10-x)$",
+          "maxScore": 3
+        },
+        {
+          "key": "m",
+          "title": "最大值",
+          "criteria": "25,x=5",
+          "maxScore": 5
+        }
+      ],
+      "maxScore": 8,
+      "standardAnswer": "$x=5$ 时 $S_{\\max}=25$。"
+    },
+    "analysis": "周长 $20$ 时半周长为 $10$，故邻边为 $10-x$，面积 $S(x)=x(10-x)=10x-x^2$。这是开口向下的二次函数，对称轴 $x=5$ 落在定义域 $(0,10)$ 内，最大值为 $S(5)=25$。几何上此时矩形为正方形。",
+    "kps": [
+      {
+        "id": "33",
+        "code": "rja.3.2.08",
+        "name": "单调性与最值",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "36",
+        "code": "mono_analysis",
+        "name": "单调性分析",
+        "isPrimary": true
+      },
+      {
+        "id": "32",
+        "code": "special_value",
+        "name": "特殊值法",
+        "isPrimary": false
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "9a8980a89318c15288587231e7703c8a3a1eac07ddff2c03ae0af785918c6ea3",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "42",
+      "code": "3.2",
+      "name": "函数的基本性质"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-027",
+    "itemId": "178",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 1,
+    "stem": "炮弹高度 $h(t)=-5t^2+30t$（$t$ 秒，$0\\le t\\le6$）。\n（1）求 $h$ 的最大值；\n（2）何时落地？",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "max",
+          "title": "最大高度",
+          "criteria": "45m,t=3",
+          "maxScore": 5
+        },
+        {
+          "key": "zero",
+          "title": "落地时刻",
+          "criteria": "t=6",
+          "maxScore": 3
+        },
+        {
+          "key": "u",
+          "title": "单位",
+          "criteria": "m,s",
+          "maxScore": 2
+        }
+      ],
+      "maxScore": 10,
+      "standardAnswer": "（1）$45\\text{m}$（$t=3$）；（2）$t=6$ 时 $h=0$。"
+    },
+    "analysis": "二次函数 $h(t)=-5t^2+30t$（$0\\le t\\le6$）开口向下，对称轴 $t=-b/(2a)=30/(10)=3$，且 $3$ 落在定义域内，故最大值为 $h(3)=-5\\cdot9+90=45$（米）。落地即 $h(t)=0$：$t(-5t+30)=0$，得 $t=0$ 或 $t=6$；在给定区间内起飞后落地时刻为 $t=6$。端点 $h(0)=h(6)=0$ 与题意一致。",
+    "kps": [
+      {
+        "id": "18",
+        "code": "rja.3.1.03",
+        "name": "值域",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "36",
+        "code": "mono_analysis",
+        "name": "单调性分析",
+        "isPrimary": true
+      },
+      {
+        "id": "32",
+        "code": "special_value",
+        "name": "特殊值法",
+        "isPrimary": false
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "8ba943e17d35e4bae369d428bb22964f9072addb7ff7f1b1ef3cd9e83363e159",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "18",
+      "code": "rja-ch3",
+      "name": "函数的概念与性质"
+    },
+    "category": {
+      "id": "41",
+      "code": "3.1",
+      "name": "函数的概念及其表示"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-033",
+    "itemId": "184",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 2,
+    "stem": "细菌数 $N(t)=N_0\\cdot2^{t/3}$（$t$ 小时）。$N_0=500$，求 $t=9$ 时 $N$。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "sub",
+          "title": "代入",
+          "criteria": "t=9",
+          "maxScore": 3
+        },
+        {
+          "key": "calc",
+          "title": "计算",
+          "criteria": "4000",
+          "maxScore": 5
+        }
+      ],
+      "maxScore": 8,
+      "standardAnswer": "$N=4000$。"
+    },
+    "analysis": "指数增长模型 $N(t)=500\\cdot2^{t/3}$。当 $t=9$ 时指数为 $9/3=3$，故 $N(9)=500\\cdot2^3=500\\cdot8=4000$。含义：每过 $3$ 小时数量翻一番，经 $9$ 小时共翻 $3$ 番。",
+    "kps": [
+      {
+        "id": "80",
+        "code": "rja.4.5.01",
+        "name": "指数增长模型",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "40",
+        "code": "substitution",
+        "name": "换元法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "bd61cad132f136b011072d6f543e206a8cf9794d1c912fc85c64ad89a8486b9a",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "52",
+      "code": "4.5",
+      "name": "函数的应用（二）"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-038",
+    "itemId": "189",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "地震能量 $E$ 与里氏级 $M$ 满足 $\\lg E=4.8+1.5M$。$M=6$ 时 $\\lg E$ 为多少？",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "f",
+          "title": "公式代入",
+          "criteria": "M=6",
+          "maxScore": 3
+        },
+        {
+          "key": "r",
+          "title": "结果",
+          "criteria": "13.8",
+          "maxScore": 3
+        }
+      ],
+      "maxScore": 6,
+      "standardAnswer": "$\\lg E=13.8$。"
+    },
+    "analysis": "能量与里氏级满足 $\\lg E=4.8+1.5M$。将 $M=6$ 代入：先算 $1.5\\times6=9$，再得 $\\lg E=4.8+9=13.8$。题干只要求 $\\lg E$，不必再求 $E=10^{13.8}$。数量级核对：震级每增加 $2/3$ 约使能量增大 $10$ 倍，此处直接代入最稳妥。",
+    "kps": [
+      {
+        "id": "81",
+        "code": "rja.4.5.02",
+        "name": "对数应用",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "40",
+        "code": "substitution",
+        "name": "换元法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "b3aa628d8541ad013e4bc8bacb29523cc1f3525fd685444ba5acfefafb9b8be8",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "52",
+      "code": "4.5",
+      "name": "函数的应用（二）"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-042",
+    "itemId": "193",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 2,
+    "stem": "证明：方程 $2^x=5-x$ 在 $(1,2)$ 内有唯一实根（说明单调性与端点符号）。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "f",
+          "title": "构造函数",
+          "criteria": "$f(x)=2^x+x-5$",
+          "maxScore": 3
+        },
+        {
+          "key": "sign",
+          "title": "端点符号",
+          "criteria": "异号",
+          "maxScore": 4
+        },
+        {
+          "key": "mono",
+          "title": "单调唯一",
+          "criteria": "递增",
+          "maxScore": 3
+        }
+      ],
+      "maxScore": 10,
+      "standardAnswer": "令 $f(x)=2^x+x-5$，$f(1)=-2<0$，$f(2)=1>0$，且 $f$ 递增，故唯一根在 $(1,2)$。"
+    },
+    "analysis": "要证方程 $2^x=5-x$ 在 $(1,2)$ 内有唯一实根。令 $f(x)=2^x+x-5$，则等价于 $f(x)=0$。因 $f'(x)=2^x\\ln2+1>0$，故 $f$ 在 $\\mathbb{R}$ 严格递增，零点至多一个。又 $f(1)=2+1-5=-2<0$，$f(2)=4+2-5=1>0$，由零点存在定理，$(1,2)$ 内恰有一根。端点符号相反保证存在，单调性保证唯一。",
+    "kps": [
+      {
+        "id": "80",
+        "code": "rja.4.5.01",
+        "name": "指数增长模型",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "36",
+        "code": "mono_analysis",
+        "name": "单调性分析",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "c79d04f645525521f06b03368351409b0aa77791ef196e4611990ceaf54b5f76",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "52",
+      "code": "4.5",
+      "name": "函数的应用（二）"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-045",
+    "itemId": "196",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 2,
+    "stem": "存款本金 $10000$ 元，年利率 $5\\%$ 复利，求 $3$ 年后本息和（精确到元）。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "f",
+          "title": "公式",
+          "criteria": "$10000\\times1.05^3$",
+          "maxScore": 4
+        },
+        {
+          "key": "c",
+          "title": "计算",
+          "criteria": "11576",
+          "maxScore": 4
+        },
+        {
+          "key": "u",
+          "title": "单位",
+          "criteria": "元",
+          "maxScore": 2
+        }
+      ],
+      "maxScore": 10,
+      "standardAnswer": "$11576$"
+    },
+    "analysis": "复利本息和公式 $A=P(1+r)^n$。代入 $P=10000$、$r=0.05$、$n=3$，得 $A=10000\\times(1.05)^3$。先算 $(1.05)^2=1.1025$，再乘 $1.05$ 得 $1.157625$，故 $A=11576.25$。按“精确到元”通常四舍五入得 $11576$。可用 $(1.05)^3=1.157625$ 再核一次小数。",
+    "kps": [
+      {
+        "id": "81",
+        "code": "rja.4.5.02",
+        "name": "对数应用",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "40",
+        "code": "substitution",
+        "name": "换元法",
+        "isPrimary": true
+      },
+      {
+        "id": "34",
+        "code": "num_shape",
+        "name": "数形结合",
+        "isPrimary": false
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "420444820871d61e12dd8de85beeb48f24d677e0e6af2e2ac55761aad91e980f",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "19",
+      "code": "rja-ch4",
+      "name": "指数函数与对数函数"
+    },
+    "category": {
+      "id": "52",
+      "code": "4.5",
+      "name": "函数的应用（二）"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-048",
+    "itemId": "199",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 2,
+    "stem": "圆半径 $r=10\\text{cm}$，圆心角 $60^\\circ$，求弧长（$\\pi$ 形式）。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "rad",
+          "title": "化弧度",
+          "criteria": "$\\pi/3$",
+          "maxScore": 3
+        },
+        {
+          "key": "l",
+          "title": "弧长",
+          "criteria": "$10\\pi/3$",
+          "maxScore": 5
+        }
+      ],
+      "maxScore": 8,
+      "standardAnswer": "$l=\\dfrac{10\\pi}{3}\\text{cm}$。"
+    },
+    "analysis": "先把圆心角化为弧度：$60^\\circ=\\dfrac{\\pi}{3}$。弧长公式 $l=r\\theta$ 得 $l=10\\cdot\\dfrac{\\pi}{3}=\\dfrac{10\\pi}{3}\\text{cm}$。也可用 $l=\\dfrac{n\\pi r}{180}$ 得同一结果。",
+    "kps": [
+      {
+        "id": "98",
+        "code": "rja.5.1.03",
+        "name": "弧长应用",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "3b6de31cc73db648cb2b2a5070da17f46020f20e2e538c9c9f7858abbde9ad61",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "55",
+      "code": "5.1",
+      "name": "任意角和弧度制"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-052",
+    "itemId": "203",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 2,
+    "stem": "化简：$\\sin(\\pi-\\theta)+\\sin(\\pi+\\theta)$。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "s1",
+          "title": "第一项",
+          "criteria": "$\\sin\\theta$",
+          "maxScore": 4
+        },
+        {
+          "key": "s2",
+          "title": "第二项",
+          "criteria": "$-\\sin\\theta$",
+          "maxScore": 4
+        },
+        {
+          "key": "r",
+          "title": "结果",
+          "criteria": "0",
+          "maxScore": 2
+        }
+      ],
+      "maxScore": 10,
+      "standardAnswer": "$0$。"
+    },
+    "analysis": "用诱导公式分别化简：$\\sin(\\pi-\\theta)=\\sin\\theta$（诱导“奇变偶不变，符号看象限”中正弦在第二象限为正），$\\sin(\\pi+\\theta)=-\\sin\\theta$（第三象限正弦为负）。两式相加：$\\sin\\theta+(-\\sin\\theta)=0$。故原式恒等于 $0$（对使式子有定义的 $\\theta$）。可用特殊值 $\\theta=\\pi/6$ 代入检验。",
+    "kps": [
+      {
+        "id": "104",
+        "code": "rja.5.3.03",
+        "name": "化简证明",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "830773b456b49644aba036d13e1e1c19ceffa84d3eece84ac56d6a2a50e41304",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "57",
+      "code": "5.3",
+      "name": "诱导公式"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-056",
+    "itemId": "207",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "证明：$\\dfrac{1-\\cos2\\alpha}{\\sin2\\alpha}=\\tan\\alpha$（$\\alpha$ 使分母不为0）。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "num",
+          "title": "分子",
+          "criteria": "$2\\sin^2\\alpha$",
+          "maxScore": 4
+        },
+        {
+          "key": "den",
+          "title": "分母",
+          "criteria": "$2\\sin\\alpha\\cos\\alpha$",
+          "maxScore": 3
+        },
+        {
+          "key": "r",
+          "title": "结论",
+          "criteria": "$\\tan\\alpha$",
+          "maxScore": 3
+        }
+      ],
+      "maxScore": 10,
+      "standardAnswer": "左式 $=\\dfrac{2\\sin^2\\alpha}{2\\sin\\alpha\\cos\\alpha}=\\tan\\alpha$。"
+    },
+    "analysis": "左式用倍角：$1-\\cos2\\alpha=2\\sin^2\\alpha$，$\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha$，故 $\\dfrac{2\\sin^2\\alpha}{2\\sin\\alpha\\cos\\alpha}=\\tan\\alpha$（分母 $\\ne0$）。得证。",
+    "kps": [
+      {
+        "id": "111",
+        "code": "rja.5.5.04",
+        "name": "恒等证明",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "5aebfce1df7dc0f61cb829ae4b1a8b3a1cd02acd85f2cc4d356a5e1119b07899",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "59",
+      "code": "5.5",
+      "name": "三角恒等变换"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-060",
+    "itemId": "211",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 2,
+    "stem": "潮高 $h(t)=2\\cos(\\dfrac{\\pi t}{6})+4$（$t$ 为小时）。求最高潮高与周期。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "max",
+          "title": "最高",
+          "criteria": "6m",
+          "maxScore": 4
+        },
+        {
+          "key": "T",
+          "title": "周期",
+          "criteria": "12h",
+          "maxScore": 4
+        }
+      ],
+      "maxScore": 8,
+      "standardAnswer": "最高 $6\\text{m}$，周期 $12\\text{h}$。"
+    },
+    "analysis": "潮高 $h(t)=2\\cos(\\dfrac{\\pi t}{6})+4$。振幅为 $|2|=2$，平衡位置（竖直平移）为 $4$，故最高潮高为 $4+2=6$（米），最低为 $2$。角频率 $\\omega=\\pi/6$，周期 $T=\\dfrac{2\\pi}{\\omega}=\\dfrac{2\\pi}{\\pi/6}=12$（小时）。当 $\\cos=1$ 时取最高；例如 $t=0$ 时 $h=6$ 可作代入检验。",
+    "kps": [
+      {
+        "id": "116",
+        "code": "rja.5.7.02",
+        "name": "潮汐模型",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "33",
+        "code": "graph_symmetry",
+        "name": "图象对称分析",
+        "isPrimary": true
+      },
+      {
+        "id": "32",
+        "code": "special_value",
+        "name": "特殊值法",
+        "isPrimary": false
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "dafa17d9e1160ebfb437ab1d67da5ab174636958ed9969ecd8683424e81c8b9a",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "61",
+      "code": "5.7",
+      "name": "三角函数的应用"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-064",
+    "itemId": "215",
+    "contentVersion": 3,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "塔高测量：距塔底 $40\\text{m}$ 处测得塔顶的仰角为 $30^\\circ$，求塔高（精确值）。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "model",
+          "title": "模型",
+          "criteria": "$\\tan30^\\circ$",
+          "maxScore": 4
+        },
+        {
+          "key": "calc",
+          "title": "计算",
+          "criteria": "$40\\sqrt3/3$",
+          "maxScore": 4
+        },
+        {
+          "key": "u",
+          "title": "单位",
+          "criteria": "m",
+          "maxScore": 2
+        }
+      ],
+      "maxScore": 10,
+      "standardAnswer": "$h=\\dfrac{40\\sqrt3}{3}\\text{m}$。"
+    },
+    "analysis": "直角三角形中，仰角 $30^\\circ$，邻边（水平距离）为 $40$，对边为塔高 $h$。故 $h=40\\tan30^\\circ=40\\cdot\\dfrac{\\sqrt3}{3}=\\dfrac{40\\sqrt3}{3}\\text{m}$。",
+    "kps": [
+      {
+        "id": "117",
+        "code": "rja.5.7.03",
+        "name": "测量应用",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "32",
+        "code": "special_value",
+        "name": "特殊值法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [
+      {
+        "linkId": "3",
+        "objectId": "3",
+        "sortOrder": 1,
+        "altText": "塔高测量：水平距离 40m 与仰角示意",
+        "contentSha256": "a3549131d845107b4c795242013f50beb048639b056b1c302e79276dc8b4abf7",
+        "mimeType": "image/png",
+        "sizeBytes": 20372
+      }
+    ],
+    "expectedDiagramSha": "a3549131d845107b4c795242013f50beb048639b056b1c302e79276dc8b4abf7",
+    "diagramShaMatch": true,
+    "contentFingerprint": "2ab277fc2fdd34b1259f5e258f0582ed3468180eec0521a61a32ded4b40dfcb0",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "20",
+      "code": "rja-ch5",
+      "name": "三角函数"
+    },
+    "category": {
+      "id": "61",
+      "code": "5.7",
+      "name": "三角函数的应用"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-068",
+    "itemId": "219",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 2,
+    "stem": "物体受两力 $\\vec F_1=(3,4)$，$\\vec F_2=(-1,2)$（N），求合力大小。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "add",
+          "title": "求和",
+          "criteria": "(2,6)",
+          "maxScore": 4
+        },
+        {
+          "key": "m",
+          "title": "模长",
+          "criteria": "$2\\sqrt{10}$",
+          "maxScore": 4
+        }
+      ],
+      "maxScore": 8,
+      "standardAnswer": "$|\\vec F|=\\sqrt{2^2+6^2}=\\sqrt{40}=2\\sqrt{10}$ N。"
+    },
+    "analysis": "合力按向量加法： $\\vec F=\\vec F_1+\\vec F_2=(3,4)+(-1,2)=(3-1,4+2)=(2,6)$（单位 N）。大小为模长 $|\\vec F|=\\sqrt{2^2+6^2}=\\sqrt{4+36}=\\sqrt{40}=2\\sqrt{10}$（N）。可用勾股验算：$2^2+6^2=40$。注意不要把分量各自取绝对值后再相加当合力大小。",
+    "kps": [
+      {
+        "id": "140",
+        "code": "rjb.6.4.01",
+        "name": "向量应用",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "34",
+        "code": "num_shape",
+        "name": "数形结合",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "3cc31281c6e6c6593aa35f73111ded7586cc22665dafccb0ced0026de45db163",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "65",
+      "code": "6.4",
+      "name": "平面向量的应用"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-072",
+    "itemId": "223",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 2,
+    "stem": "船速 $\\vec v_1=(4,0)$ km/h，水流 $\\vec v_2=(0,1)$，求实际速度大小。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "v",
+          "title": "合速度",
+          "criteria": "(4,1)",
+          "maxScore": 3
+        },
+        {
+          "key": "m",
+          "title": "模",
+          "criteria": "$\\sqrt{17}$",
+          "maxScore": 3
+        }
+      ],
+      "maxScore": 6,
+      "standardAnswer": "$\\sqrt{17}$ km/h。"
+    },
+    "analysis": "船对水速度与水流速度按向量合成： $\\vec v=\\vec v_1+\\vec v_2=(4,0)+(0,1)=(4,1)$。实际航行速率为模长 $|\\vec v|=\\sqrt{4^2+1^2}=\\sqrt{16+1}=\\sqrt{17}$（km/h）。方向由 $\\tan\\theta=1/4$ 确定，但本题只求大小。核对：$16+1=17$ 不可再开成有理数，保留根式即可。",
+    "kps": [
+      {
+        "id": "141",
+        "code": "rjb.6.4.02",
+        "name": "位移合成",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "34",
+        "code": "num_shape",
+        "name": "数形结合",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "8124824ac60f71c2105104fcf60f92b558bcb9424dd52eafb63a9d7a90b61775",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "65",
+      "code": "6.4",
+      "name": "平面向量的应用"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-076",
+    "itemId": "227",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "力 $\\vec F=(6,8)$ N 沿位移 $\\vec s=(3,0)$ m 做功，求功 $W=\\vec F\\cdot\\vec s$。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "dot",
+          "title": "数量积",
+          "criteria": "18",
+          "maxScore": 4
+        },
+        {
+          "key": "u",
+          "title": "单位",
+          "criteria": "J",
+          "maxScore": 2
+        }
+      ],
+      "maxScore": 6,
+      "standardAnswer": "$W=18$ J。"
+    },
+    "analysis": "功的定义用数量积：$W=\\vec F\\cdot\\vec s$。坐标计算：$\\vec F=(6,8)$，$\\vec s=(3,0)$，故 $W=6\\cdot3+8\\cdot0=18+0=18$（J）。物理含义：位移只有水平分量，力的竖直分量 $8$ 对功无贡献。也可用 $W=|\\vec F||\\vec s|\\cos\\theta$，但坐标法更直接。答案 $18$。",
+    "kps": [
+      {
+        "id": "142",
+        "code": "rjb.6.4.03",
+        "name": "功的计算",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "f746d5a90d92dc870380acee08747ab02d2bd70b4995a4ef234bc807bb239801",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "65",
+      "code": "6.4",
+      "name": "平面向量的应用"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-080",
+    "itemId": "231",
+    "contentVersion": 2,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "用向量证明：平行四边形对角线互相平分（设 $\\vec{AB}=\\vec a$，$\\vec{AD}=\\vec b$）。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "diag",
+          "title": "对角线",
+          "criteria": "$\\vec a+\\vec b$",
+          "maxScore": 4
+        },
+        {
+          "key": "mid",
+          "title": "中点",
+          "criteria": "平分",
+          "maxScore": 4
+        },
+        {
+          "key": "cl",
+          "title": "表述",
+          "criteria": "清晰",
+          "maxScore": 2
+        }
+      ],
+      "maxScore": 10,
+      "standardAnswer": "对角线交点对应向量为 $\\frac{\\vec a+\\vec b}{2}$，即中点。"
+    },
+    "analysis": "设 $\\vec{AB}=\\vec a$，$\\vec{AD}=\\vec b$。对角线 $\\vec{AC}=\\vec a+\\vec b$，中点满足 $\\vec{AM}=\\dfrac12(\\vec a+\\vec b)$；另一对角线中点同样为 $\\dfrac{\\vec a+\\vec b}{2}$。交点重合，故互相平分。",
+    "kps": [
+      {
+        "id": "143",
+        "code": "rjb.6.4.04",
+        "name": "几何证明",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [
+      {
+        "linkId": "2",
+        "objectId": "2",
+        "sortOrder": 1,
+        "altText": "平行四边形 ABCD 与向量 a、b",
+        "contentSha256": "c01574e808ba150866781d4fd716348fb3331359c635ae5f1a4b46f137ef31fc",
+        "mimeType": "image/png",
+        "sizeBytes": 25377
+      }
+    ],
+    "expectedDiagramSha": "c01574e808ba150866781d4fd716348fb3331359c635ae5f1a4b46f137ef31fc",
+    "diagramShaMatch": true,
+    "contentFingerprint": "2601360d50b59c8ce2afe690885df65231f3033db5362977f02fd446aba9cad8",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "21",
+      "code": "rjb-ch1",
+      "name": "平面向量及其应用"
+    },
+    "category": {
+      "id": "65",
+      "code": "6.4",
+      "name": "平面向量的应用"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-082",
+    "itemId": "233",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 2,
+    "stem": "计算 $(3+2i)(1-i)$ 并写为 $a+bi$。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "exp",
+          "title": "展开",
+          "criteria": "四项",
+          "maxScore": 3
+        },
+        {
+          "key": "r",
+          "title": "结果",
+          "criteria": "$5-i$",
+          "maxScore": 3
+        }
+      ],
+      "maxScore": 6,
+      "standardAnswer": "$5-i$。"
+    },
+    "analysis": "展开复数乘法：$(3+2i)(1-i)=3\\cdot1+3(-i)+2i\\cdot1+2i(-i)=3-3i+2i-2i^2$。把 $i^2=-1$ 代入，$-2i^2=+2$，合并实部虚部得 $3+2+(-3i+2i)=5-i$。故 $a=5$、$b=-1$，标准式为 $5-i$。可用模粗检：$|3+2i|=\\sqrt{13}$，$|1-i|=\\sqrt{2}$，乘积模 $\\sqrt{26}$，而 $|5-i|=\\sqrt{26}$，一致。",
+    "kps": [
+      {
+        "id": "161",
+        "code": "rjb.7.2.01",
+        "name": "复数运算",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "6edb1875459f44cac0dfad837f09d977c3d7b65ff4d4eb1e778eeba515011992",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "22",
+      "code": "rjb-ch2",
+      "name": "复数"
+    },
+    "category": {
+      "id": "70",
+      "code": "7.2",
+      "name": "复数的四则运算"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-086",
+    "itemId": "237",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 2,
+    "stem": "正四棱锥底面边长 $6$，高 $4$，求体积。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "S",
+          "title": "底面积",
+          "criteria": "36",
+          "maxScore": 3
+        },
+        {
+          "key": "V",
+          "title": "体积",
+          "criteria": "48",
+          "maxScore": 5
+        }
+      ],
+      "maxScore": 8,
+      "standardAnswer": "$V=48$。"
+    },
+    "analysis": "正四棱锥底面为正方形，边长 $6$，底面积 $S=6^2=36$。锥体体积公式 $V=\\dfrac13 Sh$，代入高 $h=4$，得 $V=\\dfrac13\\cdot36\\cdot4=48$。常见错误是漏掉系数 $\\dfrac13$ 而算成 $144$，或把底面积误成周长。答案 $V=48$。",
+    "kps": [
+      {
+        "id": "170",
+        "code": "rjb.8.3.02",
+        "name": "锥体应用",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "32",
+        "code": "special_value",
+        "name": "特殊值法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "d4aaa6b011578f236d39d2a17318fc2ee74ad4ac138a9f9052390d025e8c8a81",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "23",
+      "code": "rjb-ch3",
+      "name": "立体几何初步"
+    },
+    "category": {
+      "id": "74",
+      "code": "8.3",
+      "name": "简单几何体的表面积与体积"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-090",
+    "itemId": "241",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "圆柱（$r=2,h=5$）上放同底圆柱（$r=2,h=3$），求总体积。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "s",
+          "title": "底面积",
+          "criteria": "$4\\pi$",
+          "maxScore": 2
+        },
+        {
+          "key": "v",
+          "title": "体积",
+          "criteria": "$32\\pi$",
+          "maxScore": 6
+        }
+      ],
+      "maxScore": 8,
+      "standardAnswer": "$V=32\\pi$。"
+    },
+    "analysis": "两圆柱底面半径同为 $r=2$，高分别为 $h_1=5$、$h_2=3$。叠放后总体积等于两段体积之和，也等于同底圆柱以总高 $8$ 计算：$V=\\pi r^2(h_1+h_2)=\\pi\\cdot4\\cdot8=32\\pi$。分开算：$20\\pi+12\\pi=32\\pi$，一致。注意不要把半径当成直径。答案 $32\\pi$。",
+    "kps": [
+      {
+        "id": "171",
+        "code": "rjb.8.3.03",
+        "name": "组合体",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "32",
+        "code": "special_value",
+        "name": "特殊值法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "bb32c70e337ef480e3d8533898ead781029f7340ebc5ca0a405249ffd3e03be2",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "23",
+      "code": "rjb-ch3",
+      "name": "立体几何初步"
+    },
+    "category": {
+      "id": "74",
+      "code": "8.3",
+      "name": "简单几何体的表面积与体积"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-093",
+    "itemId": "244",
+    "contentVersion": 2,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 中，证明 $BD_1\\perp$ 平面 $A_1C_1D$（写出关键步骤）。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "l1",
+          "title": "证一条",
+          "criteria": "$BD_1\\perp A_1C_1$",
+          "maxScore": 4
+        },
+        {
+          "key": "l2",
+          "title": "证另一条",
+          "criteria": "$BD_1\\perp A_1D$",
+          "maxScore": 4
+        },
+        {
+          "key": "c",
+          "title": "结论",
+          "criteria": "线面垂直",
+          "maxScore": 2
+        }
+      ],
+      "maxScore": 10,
+      "standardAnswer": "$BD_1\\perp A_1C_1$ 且 $BD_1\\perp A_1D$，故 $BD_1\\perp$ 平面 $A_1C_1D$。"
+    },
+    "analysis": "在正方体中可证 $BD_1\\perp A_1C_1$（数量积为 $0$），且 $BD_1\\perp A_1D$。两相交直线 $A_1C_1$、$A_1D$ 均在平面 $A_1C_1D$ 内，由线面垂直判定得 $BD_1\\perp$ 平面 $A_1C_1D$。",
+    "kps": [
+      {
+        "id": "178",
+        "code": "rjb.8.6.02",
+        "name": "垂直证明",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": true
+      },
+      {
+        "id": "38",
+        "code": "equiv_transform",
+        "name": "等价转化",
+        "isPrimary": false
+      }
+    ],
+    "diagrams": [
+      {
+        "linkId": "1",
+        "objectId": "1",
+        "sortOrder": 1,
+        "altText": "正方体示意：标出 BD1 与平面 A1C1D",
+        "contentSha256": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1",
+        "mimeType": "image/png",
+        "sizeBytes": 26172
+      }
+    ],
+    "expectedDiagramSha": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1",
+    "diagramShaMatch": true,
+    "contentFingerprint": "e464af249073749161f7ebba8a4ab9f7ea7922906e7e1b8a538963598c781375",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "23",
+      "code": "rjb-ch3",
+      "name": "立体几何初步"
+    },
+    "category": {
+      "id": "77",
+      "code": "8.6",
+      "name": "空间直线、平面的垂直"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-095",
+    "itemId": "246",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 2,
+    "stem": "抛硬币 $200$ 次出现正面 $96$ 次，估计正面概率。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "f",
+          "title": "频率",
+          "criteria": "0.48",
+          "maxScore": 3
+        },
+        {
+          "key": "i",
+          "title": "解释",
+          "criteria": "估计概率",
+          "maxScore": 3
+        }
+      ],
+      "maxScore": 6,
+      "standardAnswer": "$\\hat p=0.48$。"
+    },
+    "analysis": "用频率估计概率：在 $n=200$ 次独立抛掷中，正面出现 $96$ 次，频率为 $f=\\dfrac{96}{200}=0.48$。因此取估计值 $\\hat p=0.48$。由频率稳定性（大数定律思想），试验次数较大时频率通常接近真实概率，该估计较为可信；但估计值本身仍可能有随机偏差，不必等于理论 $0.5$。",
+    "kps": [
+      {
+        "id": "182",
+        "code": "rjb.9.2.01",
+        "name": "频率估计概率",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "7e2564a9a811c1c89e41e5cb13bd1fc5ab95f4e2d0faa9d314548fe085a9a1b1",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "24",
+      "code": "rjb-ch4",
+      "name": "统计"
+    },
+    "category": {
+      "id": "80",
+      "code": "9.2",
+      "name": "用样本估计总体"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-098",
+    "itemId": "249",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 2,
+    "stem": "袋中 $3$ 红 $2$ 白，随机取 $2$ 球，求恰有一红的概率。",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "n",
+          "title": "总数",
+          "criteria": "10",
+          "maxScore": 3
+        },
+        {
+          "key": "m",
+          "title": "有利",
+          "criteria": "6",
+          "maxScore": 3
+        },
+        {
+          "key": "p",
+          "title": "概率",
+          "criteria": "3/5",
+          "maxScore": 2
+        }
+      ],
+      "maxScore": 8,
+      "standardAnswer": "$P=\\dfrac35$。"
+    },
+    "analysis": "古典概型：袋中共 $5$ 球，任取 $2$ 球，基本事件总数为 $C_5^2=10$。事件“恰有一红”（即一红一白）的取法：$C_3^1\\cdot C_2^1=3\\times2=6$。故概率 $P=\\dfrac{6}{10}=\\dfrac{3}{5}$。也可列：两红 $C_3^2=3$，两白 $C_2^2=1$，一红一白 $6$，总和 $10$，一致。",
+    "kps": [
+      {
+        "id": "188",
+        "code": "rjb.10.1.02",
+        "name": "古典概型",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "35",
+        "code": "classification",
+        "name": "分类讨论",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "82d9ff84b10bd19bf7d483c214be9bd41181737d60e405782c66fab2aa88fbe4",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "25",
+      "code": "rjb-ch5",
+      "name": "概率"
+    },
+    "category": {
+      "id": "82",
+      "code": "10.1",
+      "name": "随机事件与概率"
+    }
+  },
+  {
+    "candidateCode": "CAND-G1B-100",
+    "itemId": "251",
+    "contentVersion": 1,
+    "status": "approved",
+    "qtype": "application",
+    "difficulty": 1,
+    "stem": "说明：为何试验次数增大时，正面频率往往更接近 $0.5$？（简述）",
+    "options": null,
+    "answer": {
+      "kind": "application",
+      "rubric": [
+        {
+          "key": "p",
+          "title": "概率",
+          "criteria": "0.5",
+          "maxScore": 2
+        },
+        {
+          "key": "s",
+          "title": "稳定",
+          "criteria": "次数增大",
+          "maxScore": 2
+        },
+        {
+          "key": "l",
+          "title": "定律思想",
+          "criteria": "大数定律",
+          "maxScore": 2
+        }
+      ],
+      "maxScore": 6,
+      "standardAnswer": "试验次数增大，随机波动相对减小，频率稳定于概率 $0.5$ 附近（大数定律思想）。"
+    },
+    "analysis": "大数定律（频率稳定性）表明：在独立重复试验中，当试验次数 $n$ 充分大时，某事件发生的频率会依概率收敛到它的理论概率。抛硬币正面的理论概率为 $0.5$，因此 $n$ 增大时正面频率通常更接近 $0.5$，相对随机波动减小。这并不保证每一次实验都精确等于 $0.5$，而是“稳定于概率附近”的直观含义。",
+    "kps": [
+      {
+        "id": "192",
+        "code": "rjb.10.3.01",
+        "name": "大数定律思想",
+        "isPrimary": true
+      }
+    ],
+    "methods": [
+      {
+        "id": "30",
+        "code": "defn",
+        "name": "定义法",
+        "isPrimary": true
+      }
+    ],
+    "diagrams": [],
+    "expectedDiagramSha": null,
+    "diagramShaMatch": true,
+    "contentFingerprint": "1c903b367ac6ed2f2c0ca78fedea135dd9e6f22e2428f4cb4a2262b8e79ebde7",
+    "reviewEffective": true,
+    "specialty": {
+      "id": "25",
+      "code": "rjb-ch5",
+      "name": "概率"
+    },
+    "category": {
+      "id": "84",
+      "code": "10.3",
+      "name": "频率与概率"
+    }
+  }
+]

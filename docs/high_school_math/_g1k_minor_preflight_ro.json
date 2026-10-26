@@ -1,0 +1,171 @@
+{
+  "at": "2026-10-26T13:42:07.887Z",
+  "drawable": 113,
+  "items": [
+    {
+      "itemId": "173",
+      "candidateCode": "CAND-G1B-022",
+      "qtype": "application",
+      "difficulty": 2,
+      "status": "approved",
+      "pool": "formal",
+      "isActive": 1,
+      "contentVersion": 1,
+      "stem": "矩形周长 $20$，一边长 $x$，面积 $S(x)=x(10-x)$，$0<x<10$。\n（1）求 $S(x)$ 最大值及对应 $x$。",
+      "options": null,
+      "answer": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "s",
+            "title": "面积函数",
+            "criteria": "$x(10-x)$",
+            "maxScore": 3
+          },
+          {
+            "key": "m",
+            "title": "最大值",
+            "criteria": "25,x=5",
+            "maxScore": 5
+          }
+        ],
+        "maxScore": 8,
+        "standardAnswer": "$x=5$ 时 $S_{\\max}=25$。"
+      },
+      "analysis": "周长 $20$ 时半周长为 $10$，故邻边为 $10-x$，面积 $S(x)=x(10-x)=10x-x^2$。这是开口向下的二次函数，对称轴 $x=5$ 落在定义域 $(0,10)$ 内，最大值为 $S(5)=25$。几何上此时矩形为正方形。",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "kps": [
+        {
+          "code": "rja.3.2.08",
+          "name": "单调性与最值",
+          "is_primary": 1
+        }
+      ],
+      "methods": [
+        {
+          "code": "mono_analysis",
+          "name": "单调性分析",
+          "is_primary": 1
+        },
+        {
+          "code": "special_value",
+          "name": "特殊值法",
+          "is_primary": 0
+        }
+      ],
+      "diagrams": [],
+      "contentFingerprint": "9a8980a89318c15288587231e7703c8a3a1eac07ddff2c03ae0af785918c6ea3",
+      "reviews": [
+        {
+          "id": 36,
+          "content_version": 1,
+          "content_fingerprint": "9a8980a89318c15288587231e7703c8a3a1eac07ddff2c03ae0af785918c6ea3",
+          "review_status": "passed",
+          "reviewed_at": "2026-10-26T08:55:34.832Z"
+        }
+      ],
+      "reviewEffective": true,
+      "latestSameCv": {
+        "id": 36,
+        "content_version": 1,
+        "content_fingerprint": "9a8980a89318c15288587231e7703c8a3a1eac07ddff2c03ae0af785918c6ea3",
+        "review_status": "passed",
+        "reviewed_at": "2026-10-26T08:55:34.832Z"
+      }
+    },
+    {
+      "itemId": "244",
+      "candidateCode": "CAND-G1B-093",
+      "qtype": "application",
+      "difficulty": 3,
+      "status": "approved",
+      "pool": "formal",
+      "isActive": 1,
+      "contentVersion": 2,
+      "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 中，证明 $BD_1\\perp$ 平面 $A_1C_1D$（写出关键步骤）。",
+      "options": null,
+      "answer": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "l1",
+            "title": "证一条",
+            "criteria": "$BD_1\\perp A_1C_1$",
+            "maxScore": 4
+          },
+          {
+            "key": "l2",
+            "title": "证另一条",
+            "criteria": "$BD_1\\perp A_1D$",
+            "maxScore": 4
+          },
+          {
+            "key": "c",
+            "title": "结论",
+            "criteria": "线面垂直",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 10,
+        "standardAnswer": "$BD_1\\perp A_1C_1$ 且 $BD_1\\perp A_1D$，故 $BD_1\\perp$ 平面 $A_1C_1D$。"
+      },
+      "analysis": "在正方体中可证 $BD_1\\perp A_1C_1$（数量积为 $0$），且 $BD_1\\perp A_1D$。两相交直线 $A_1C_1$、$A_1D$ 均在平面 $A_1C_1D$ 内，由线面垂直判定得 $BD_1\\perp$ 平面 $A_1C_1D$。",
+      "specialtyCode": "rjb-ch3",
+      "categoryCode": "8.6",
+      "kps": [
+        {
+          "code": "rjb.8.6.02",
+          "name": "垂直证明",
+          "is_primary": 1
+        }
+      ],
+      "methods": [
+        {
+          "code": "classification",
+          "name": "分类讨论",
+          "is_primary": 1
+        },
+        {
+          "code": "equiv_transform",
+          "name": "等价转化",
+          "is_primary": 0
+        }
+      ],
+      "diagrams": [
+        {
+          "link_id": 1,
+          "object_id": 1,
+          "sort_order": 1,
+          "alt_text": "正方体示意：标出 BD1 与平面 A1C1D",
+          "content_sha256": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1"
+        }
+      ],
+      "contentFingerprint": "e464af249073749161f7ebba8a4ab9f7ea7922906e7e1b8a538963598c781375",
+      "reviews": [
+        {
+          "id": 134,
+          "content_version": 2,
+          "content_fingerprint": "e464af249073749161f7ebba8a4ab9f7ea7922906e7e1b8a538963598c781375",
+          "review_status": "passed",
+          "reviewed_at": "2026-10-26T13:01:10.626Z"
+        },
+        {
+          "id": 54,
+          "content_version": 1,
+          "content_fingerprint": "1886ab0eb13c089e30ba0f30721a655ff9f2f470de04c18f7fa2b24ca02e8f94",
+          "review_status": "passed",
+          "reviewed_at": "2026-10-26T08:55:37.238Z"
+        }
+      ],
+      "reviewEffective": true,
+      "latestSameCv": {
+        "id": 134,
+        "content_version": 2,
+        "content_fingerprint": "e464af249073749161f7ebba8a4ab9f7ea7922906e7e1b8a538963598c781375",
+        "review_status": "passed",
+        "reviewed_at": "2026-10-26T13:01:10.626Z"
+      }
+    }
+  ]
+}

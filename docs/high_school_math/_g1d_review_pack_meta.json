@@ -1,0 +1,206 @@
+{
+  "phase": "HS-MATH-BANK-DIAGRAM-1D-REVIEW-PACK",
+  "readonlyDb": true,
+  "wroteDb": false,
+  "packDir": "docs/high_school_math/diagrams/independent_review_pack",
+  "items": [
+    {
+      "candidateCode": "CAND-G1B-093",
+      "itemId": 244,
+      "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 中，证明 $BD_1\\perp$ 平面 $A_1C_1D$（写出关键步骤）。",
+      "options": null,
+      "answer": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "l1",
+            "title": "证一条",
+            "criteria": "$BD_1\\perp A_1C_1$",
+            "maxScore": 4
+          },
+          {
+            "key": "l2",
+            "title": "证另一条",
+            "criteria": "$BD_1\\perp A_1D$",
+            "maxScore": 4
+          },
+          {
+            "key": "c",
+            "title": "结论",
+            "criteria": "线面垂直",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 10,
+        "standardAnswer": "$BD_1\\perp A_1C_1$ 且 $BD_1\\perp A_1D$，故 $BD_1\\perp$ 平面 $A_1C_1D$。"
+      },
+      "analysis": "在正方体中可证 $BD_1\\perp A_1C_1$（数量积为 $0$），且 $BD_1\\perp A_1D$。两相交直线 $A_1C_1$、$A_1D$ 均在平面 $A_1C_1D$ 内，由线面垂直判定得 $BD_1\\perp$ 平面 $A_1C_1D$。",
+      "difficulty": 3,
+      "contentVersion": 1,
+      "status": "approved",
+      "pool": "formal",
+      "isActive": 1,
+      "qtype": "application"
+    },
+    {
+      "candidateCode": "CAND-G1B-080",
+      "itemId": 231,
+      "stem": "用向量证明：平行四边形对角线互相平分（设 $\\vec{AB}=\\vec a$，$\\vec{AD}=\\vec b$）。",
+      "options": null,
+      "answer": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "diag",
+            "title": "对角线",
+            "criteria": "$\\vec a+\\vec b$",
+            "maxScore": 4
+          },
+          {
+            "key": "mid",
+            "title": "中点",
+            "criteria": "平分",
+            "maxScore": 4
+          },
+          {
+            "key": "cl",
+            "title": "表述",
+            "criteria": "清晰",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 10,
+        "standardAnswer": "对角线交点对应向量为 $\\frac{\\vec a+\\vec b}{2}$，即中点。"
+      },
+      "analysis": "设 $\\vec{AB}=\\vec a$，$\\vec{AD}=\\vec b$。对角线 $\\vec{AC}=\\vec a+\\vec b$，中点满足 $\\vec{AM}=\\dfrac12(\\vec a+\\vec b)$；另一对角线中点同样为 $\\dfrac{\\vec a+\\vec b}{2}$。交点重合，故互相平分。",
+      "difficulty": 3,
+      "contentVersion": 1,
+      "status": "approved",
+      "pool": "formal",
+      "isActive": 1,
+      "qtype": "application"
+    },
+    {
+      "candidateCode": "CAND-G1B-064",
+      "itemId": 215,
+      "stem": "塔高测量：距塔底 $40\\text{m}$ 处测得塔顶的仰角为 $30^\\circ$，求塔高（精确值）。",
+      "options": null,
+      "answer": {
+        "kind": "application",
+        "rubric": [
+          {
+            "key": "model",
+            "title": "模型",
+            "criteria": "$\\tan30^\\circ$",
+            "maxScore": 4
+          },
+          {
+            "key": "calc",
+            "title": "计算",
+            "criteria": "$40\\sqrt3/3$",
+            "maxScore": 4
+          },
+          {
+            "key": "u",
+            "title": "单位",
+            "criteria": "m",
+            "maxScore": 2
+          }
+        ],
+        "maxScore": 10,
+        "standardAnswer": "$h=\\dfrac{40\\sqrt3}{3}\\text{m}$。"
+      },
+      "analysis": "直角三角形中，仰角 $30^\\circ$，邻边（水平距离）为 $40$，对边为塔高 $h$。故 $h=40\\tan30^\\circ=40\\cdot\\dfrac{\\sqrt3}{3}=\\dfrac{40\\sqrt3}{3}\\text{m}$。",
+      "difficulty": 3,
+      "contentVersion": 2,
+      "status": "draft",
+      "pool": "formal",
+      "isActive": 1,
+      "qtype": "application"
+    },
+    {
+      "candidateCode": "CAND-G1B-091",
+      "itemId": 242,
+      "stem": "斜二测画法画水平放置的平面图形时，下列说法正确的是",
+      "options": {
+        "options": [
+          {
+            "id": "A",
+            "text": "原坐标系中 $\\angle xOy=90^\\circ$；直观图中 $\\angle x'O'y'$ 通常取 $45^\\circ$ 或 $135^\\circ$"
+          },
+          {
+            "id": "B",
+            "text": "原坐标系中 $\\angle xOy=45^\\circ$；直观图中 $\\angle x'O'y'=90^\\circ$"
+          },
+          {
+            "id": "C",
+            "text": "原坐标系与直观图中两轴夹角均为 $45^\\circ$"
+          },
+          {
+            "id": "D",
+            "text": "原坐标系与直观图中两轴夹角均为 $90^\\circ$"
+          }
+        ]
+      },
+      "answer": {
+        "kind": "single",
+        "optionId": "A"
+      },
+      "analysis": "斜二测须区分两套角：①原水平面坐标系中 $\\angle xOy=90^\\circ$（直角）；②画成直观图后，教材约定 $\\angle x'O'y'$ 通常取 $45^\\circ$ 或 $135^\\circ$（两种摆放同属合法约定，不可与原直角混谈）。另：$O'z'$ 轴竖直；平行于 $x$、$z$ 轴的线段长度不变，平行于 $y$ 轴的线段取原来的 $\\dfrac12$。故只有 A 同时正确表述原角与直观图角。B 把两角对调；C、D 把两套角说成相同，均错。选 A。",
+      "difficulty": 3,
+      "contentVersion": 1,
+      "status": "approved",
+      "pool": "formal",
+      "isActive": 1,
+      "qtype": "single"
+    }
+  ],
+  "pngs": [
+    {
+      "code": "CAND-G1B-093",
+      "file": "CAND-G1B-093.png",
+      "bytes": 26172,
+      "sha256": "e12b2f2b2373d4545c6a79af55caa1f0c85c7d83f7b29d8a2cc5132671fe33f1",
+      "isPng": true,
+      "width": 1000,
+      "height": 720
+    },
+    {
+      "code": "CAND-G1B-080",
+      "file": "CAND-G1B-080.png",
+      "bytes": 25377,
+      "sha256": "c01574e808ba150866781d4fd716348fb3331359c635ae5f1a4b46f137ef31fc",
+      "isPng": true,
+      "width": 1000,
+      "height": 720
+    },
+    {
+      "code": "CAND-G1B-064",
+      "file": "CAND-G1B-064.png",
+      "bytes": 20372,
+      "sha256": "a3549131d845107b4c795242013f50beb048639b056b1c302e79276dc8b4abf7",
+      "isPng": true,
+      "width": 1000,
+      "height": 720
+    },
+    {
+      "code": "CAND-G1B-091",
+      "file": "CAND-G1B-091.png",
+      "bytes": 31229,
+      "sha256": "616bf077867cdf62c1d2b3b064ee6d5e48528d585d03d4e69ce69dbbb4032a53",
+      "isPng": true,
+      "width": 1000,
+      "height": 720
+    }
+  ],
+  "packFiles": [
+    "CAND-G1B-064.png",
+    "CAND-G1B-080.png",
+    "CAND-G1B-091.png",
+    "CAND-G1B-093.png",
+    "independent_review_instructions.md",
+    "review_questions.md"
+  ],
+  "blockers": [],
+  "status": "REVIEW_PACK_READY"
+}
