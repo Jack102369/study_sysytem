@@ -91,8 +91,8 @@
 | 项 | 值 |
 |----|-----|
 | message | `hs-math: preserve global question bank batch 1 foundations` |
-| hash | （commit 后回填） |
-| 文件数 | （commit 后回填） |
+| hash | `133ce4e391e7b576f788803d7007f1a789f58a3a`（短：`133ce4e`） |
+| 文件数 | **26**（白名单；无密钥/备份/临时脚本） |
 
 ---
 
