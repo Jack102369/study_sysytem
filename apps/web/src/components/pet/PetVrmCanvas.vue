@@ -39,6 +39,9 @@
           <el-button size="small" text type="primary" class="cam-btn" @click="openExpand">
             展开
           </el-button>
+          <el-button size="small" text class="cam-btn" @click="onHide">
+            隐藏
+          </el-button>
         </div>
       </div>
     </div>
@@ -109,6 +112,7 @@ const emit = defineEmits<{
   error: [msg: string]
   expression: [name: string]
   'camera-mode': [mode: PetCameraMode]
+  hide: []
 }>()
 
 const wrapRef = ref<HTMLElement | null>(null)
@@ -160,6 +164,11 @@ function moveCanvasTo(host: HTMLElement | null) {
 function openExpand() {
   if (celebrating.value) return
   expanded.value = true
+}
+
+function onHide() {
+  if (celebrating.value) return
+  emit('hide')
 }
 
 async function onDialogOpened() {

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img">
+  <title>CAND-G4A-124 vectors</title>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="80.00" y1="560.00" x2="920.00" y2="560.00" stroke="#888890" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="180.00" y1="80.00" x2="180.00" y2="660.00" stroke="#888890" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="180.00" y1="560.00" x2="420.00" y2="560.00" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="180.00" y1="560.00" x2="180.00" y2="560.00" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="420.00" y1="560.00" x2="180.00" y2="560.00" stroke="#1c4a9e" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="180.00" cy="560.00" r="4" fill="#1c1c20" stroke="#1c1c20" stroke-width="2.2"/>
+  <text x="158.00" y="568.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">O</text>
+  <circle cx="420.00" cy="560.00" r="4" fill="#1c1c20" stroke="#1c1c20" stroke-width="2.2"/>
+  <text x="428.00" y="568.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">A</text>
+  <circle cx="180.00" cy="560.00" r="4" fill="#1c1c20" stroke="#1c1c20" stroke-width="2.2"/>
+  <text x="188.00" y="542.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">B</text>
+  <text x="40.00" y="40.00" font-size="20" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">CAND-G4A-124 向量 OA、OB、AB 示意（不标注模长）</text>
+</svg>

@@ -39,6 +39,7 @@ import { ListHsMathReviewQueueQueryDto } from '../dto/admin-review-queue.dto'
 import { CreateHsMathTrainItemReviewDto } from '../dto/admin-train-item-review.dto'
 import {
   CreateHsMathTrainItemDto,
+  HsMathInventoryStatsQueryDto,
   ListHsMathTrainItemsQueryDto,
   PatchHsMathTrainItemStatusDto,
   UpdateHsMathTrainItemDto,
@@ -60,6 +61,12 @@ export class HsMathAdminTrainItemsController {
   @Get()
   list(@Query() query: ListHsMathTrainItemsQueryDto) {
     return this.service.list(query)
+  }
+
+  /** 题库库存结构统计（只读）；须在 :id 之前注册 */
+  @Get('inventory-stats')
+  inventoryStats(@Query() query: HsMathInventoryStatsQueryDto) {
+    return this.service.getInventoryStats(query)
   }
 
   /** 须在 :id 之前注册 */

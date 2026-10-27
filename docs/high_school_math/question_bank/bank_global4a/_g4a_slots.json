@@ -1,0 +1,7538 @@
+{
+  "n": 500,
+  "quotas": {
+    "ch": {
+      "rjb-ch4": 30,
+      "rja-ch5": 76,
+      "rja-ch4": 67,
+      "rjb-ch1": 67,
+      "rjb-ch3": 68,
+      "rja-ch2": 48,
+      "rja-ch3": 55,
+      "rja-ch1": 29,
+      "rjb-ch2": 20,
+      "rjb-ch5": 40
+    },
+    "d": {
+      "1": 175,
+      "2": 200,
+      "3": 125
+    },
+    "qt": {
+      "numeric": 100,
+      "judge": 50,
+      "single": 150,
+      "multi": 75,
+      "application": 125
+    },
+    "g": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100
+    }
+  },
+  "slots": [
+    {
+      "id": "CAND-G4A-001",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.9.1.01",
+        "name": "简单随机抽样"
+      }
+    },
+    {
+      "id": "CAND-G4A-002",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.9.1.02",
+        "name": "系统抽样与分层抽样"
+      }
+    },
+    {
+      "id": "CAND-G4A-003",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.1.03",
+        "name": "弧长应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-004",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.1.04",
+        "name": "根式与指数互化"
+      }
+    },
+    {
+      "id": "CAND-G4A-005",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.2.01",
+        "name": "向量加法"
+      }
+    },
+    {
+      "id": "CAND-G4A-006",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.2.02",
+        "name": "数量积"
+      }
+    },
+    {
+      "id": "CAND-G4A-007",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.9.3.02",
+        "name": "统计分析案例阅读"
+      }
+    },
+    {
+      "id": "CAND-G4A-008",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.8.3.04",
+        "name": "球体表面积与体积"
+      }
+    },
+    {
+      "id": "CAND-G4A-009",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.4.3.01",
+        "name": "对数概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-010",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.9.2.01",
+        "name": "频率估计概率"
+      }
+    },
+    {
+      "id": "CAND-G4A-011",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.3.03",
+        "name": "含参二次不等式"
+      }
+    },
+    {
+      "id": "CAND-G4A-012",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.5.02",
+        "name": "面面平行"
+      }
+    },
+    {
+      "id": "CAND-G4A-013",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.3.2.03",
+        "name": "单调区间"
+      }
+    },
+    {
+      "id": "CAND-G4A-014",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.5.02",
+        "name": "二倍角公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-015",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.8.6.03",
+        "name": "面面垂直"
+      }
+    },
+    {
+      "id": "CAND-G4A-016",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.4.03",
+        "name": "功的计算"
+      }
+    },
+    {
+      "id": "CAND-G4A-017",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.1.1.02",
+        "name": "集合的表示法"
+      }
+    },
+    {
+      "id": "CAND-G4A-018",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.2.01",
+        "name": "算术-几何平均不等式"
+      }
+    },
+    {
+      "id": "CAND-G4A-019",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.2.2.02",
+        "name": "配凑法求最值"
+      }
+    },
+    {
+      "id": "CAND-G4A-020",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.7.01",
+        "name": "简谐振动"
+      }
+    },
+    {
+      "id": "CAND-G4A-021",
+      "group": 1,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.1.02",
+        "name": "分数指数幂"
+      }
+    },
+    {
+      "id": "CAND-G4A-022",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.1.3.02",
+        "name": "交集"
+      }
+    },
+    {
+      "id": "CAND-G4A-023",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.8.3.04",
+        "name": "球体表面积与体积"
+      }
+    },
+    {
+      "id": "CAND-G4A-024",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.9.2.01",
+        "name": "频率估计概率"
+      }
+    },
+    {
+      "id": "CAND-G4A-025",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.9.2.02",
+        "name": "样本数字特征"
+      }
+    },
+    {
+      "id": "CAND-G4A-026",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.5.01",
+        "name": "线面平行判定"
+      }
+    },
+    {
+      "id": "CAND-G4A-027",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.1.01",
+        "name": "不等式的基本性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-028",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.2.03",
+        "name": "三角函数定义域与符号"
+      }
+    },
+    {
+      "id": "CAND-G4A-029",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.1.5.02",
+        "name": "存在量词"
+      }
+    },
+    {
+      "id": "CAND-G4A-030",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.6.3.04",
+        "name": "向量垂直的坐标条件"
+      }
+    },
+    {
+      "id": "CAND-G4A-031",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.2.2.01",
+        "name": "算术-几何平均不等式"
+      }
+    },
+    {
+      "id": "CAND-G4A-032",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.2.02",
+        "name": "配凑法求最值"
+      }
+    },
+    {
+      "id": "CAND-G4A-033",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.4.02",
+        "name": "对数函数单调性"
+      }
+    },
+    {
+      "id": "CAND-G4A-034",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.2.02",
+        "name": "直观图与原图关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-035",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.1.01",
+        "name": "向量概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-036",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.4.5.02",
+        "name": "对数应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-037",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.7.1.02",
+        "name": "复数相等"
+      }
+    },
+    {
+      "id": "CAND-G4A-038",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.1.07",
+        "name": "图象法"
+      }
+    },
+    {
+      "id": "CAND-G4A-039",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.3.05",
+        "name": "根的分布"
+      }
+    },
+    {
+      "id": "CAND-G4A-040",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.1.01",
+        "name": "不等式的基本性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-041",
+      "group": 1,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.6.03",
+        "name": "由已知求解析式"
+      }
+    },
+    {
+      "id": "CAND-G4A-042",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.1.03",
+        "name": "不等式应用建模"
+      }
+    },
+    {
+      "id": "CAND-G4A-043",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.8.6.01",
+        "name": "线面垂直"
+      }
+    },
+    {
+      "id": "CAND-G4A-044",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.2.01",
+        "name": "算术-几何平均不等式"
+      }
+    },
+    {
+      "id": "CAND-G4A-045",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.2.04",
+        "name": "单调性判断"
+      }
+    },
+    {
+      "id": "CAND-G4A-046",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.2.03",
+        "name": "基本不等式双变量"
+      }
+    },
+    {
+      "id": "CAND-G4A-047",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.10.2.02",
+        "name": "独立重复试验初步"
+      }
+    },
+    {
+      "id": "CAND-G4A-048",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.8.2.01",
+        "name": "斜二测"
+      }
+    },
+    {
+      "id": "CAND-G4A-049",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.2.02",
+        "name": "直观图与原图关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-050",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.2.03",
+        "name": "三角函数定义域与符号"
+      }
+    },
+    {
+      "id": "CAND-G4A-051",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 3,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.1.3.01",
+        "name": "并集"
+      }
+    },
+    {
+      "id": "CAND-G4A-052",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.3.02",
+        "name": "互化求值"
+      }
+    },
+    {
+      "id": "CAND-G4A-053",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.1.02",
+        "name": "向量模"
+      }
+    },
+    {
+      "id": "CAND-G4A-054",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.3.01",
+        "name": "幂函数概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-055",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.4.02",
+        "name": "余弦函数性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-056",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.3.3.03",
+        "name": "幂函数性质概览"
+      }
+    },
+    {
+      "id": "CAND-G4A-057",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.5.02",
+        "name": "面面平行"
+      }
+    },
+    {
+      "id": "CAND-G4A-058",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.5.02",
+        "name": "二倍角公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-059",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.2.03",
+        "name": "基本不等式双变量"
+      }
+    },
+    {
+      "id": "CAND-G4A-060",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.4.1.03",
+        "name": "指数幂运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-061",
+      "group": 1,
+      "batch20": 3,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.1.1.01",
+        "name": "集合的含义与元素"
+      }
+    },
+    {
+      "id": "CAND-G4A-062",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.3.02",
+        "name": "坐标运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-063",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.1.1.03",
+        "name": "空集与全集（描述层面）"
+      }
+    },
+    {
+      "id": "CAND-G4A-064",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.9.1.01",
+        "name": "简单随机抽样"
+      }
+    },
+    {
+      "id": "CAND-G4A-065",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.4.01",
+        "name": "向量应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-066",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.3.1.04",
+        "name": "对应关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-067",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.1.02",
+        "name": "作差比较大小"
+      }
+    },
+    {
+      "id": "CAND-G4A-068",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.1.06",
+        "name": "解析法"
+      }
+    },
+    {
+      "id": "CAND-G4A-069",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.4.3.04",
+        "name": "对数方程初步"
+      }
+    },
+    {
+      "id": "CAND-G4A-070",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.1.4.01",
+        "name": "充分条件"
+      }
+    },
+    {
+      "id": "CAND-G4A-071",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.1.09",
+        "name": "分段函数"
+      }
+    },
+    {
+      "id": "CAND-G4A-072",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.1.10",
+        "name": "函数求值"
+      }
+    },
+    {
+      "id": "CAND-G4A-073",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.2.2.04",
+        "name": "基本不等式应用注意"
+      }
+    },
+    {
+      "id": "CAND-G4A-074",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.2.02",
+        "name": "数量积"
+      }
+    },
+    {
+      "id": "CAND-G4A-075",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.6.03",
+        "name": "面面垂直"
+      }
+    },
+    {
+      "id": "CAND-G4A-076",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.8.1.01",
+        "name": "棱柱概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-077",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.3.2.05",
+        "name": "单调性与不等式"
+      }
+    },
+    {
+      "id": "CAND-G4A-078",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.3.01",
+        "name": "基底"
+      }
+    },
+    {
+      "id": "CAND-G4A-079",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.5.01",
+        "name": "和差公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-080",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.3.2.08",
+        "name": "单调性与最值"
+      }
+    },
+    {
+      "id": "CAND-G4A-081",
+      "group": 1,
+      "batch20": 4,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.1.3.01",
+        "name": "并集"
+      }
+    },
+    {
+      "id": "CAND-G4A-082",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.4.2.02",
+        "name": "指数函数单调性"
+      }
+    },
+    {
+      "id": "CAND-G4A-083",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.4.2.03",
+        "name": "指数方程"
+      }
+    },
+    {
+      "id": "CAND-G4A-084",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.4.03",
+        "name": "功的计算"
+      }
+    },
+    {
+      "id": "CAND-G4A-085",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.5.6.03",
+        "name": "由已知求解析式"
+      }
+    },
+    {
+      "id": "CAND-G4A-086",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.3.3.02",
+        "name": "常见幂函数图象"
+      }
+    },
+    {
+      "id": "CAND-G4A-087",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.3.3.03",
+        "name": "幂函数性质概览"
+      }
+    },
+    {
+      "id": "CAND-G4A-088",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.3.3.04",
+        "name": "幂函数单调性"
+      }
+    },
+    {
+      "id": "CAND-G4A-089",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.5.1.01",
+        "name": "角的概念推广"
+      }
+    },
+    {
+      "id": "CAND-G4A-090",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.10.3.01",
+        "name": "大数定律思想"
+      }
+    },
+    {
+      "id": "CAND-G4A-091",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.3.05",
+        "name": "根的分布"
+      }
+    },
+    {
+      "id": "CAND-G4A-092",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.5.01",
+        "name": "指数增长模型"
+      }
+    },
+    {
+      "id": "CAND-G4A-093",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.9.1.02",
+        "name": "系统抽样与分层抽样"
+      }
+    },
+    {
+      "id": "CAND-G4A-094",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.1.01",
+        "name": "函数的定义"
+      }
+    },
+    {
+      "id": "CAND-G4A-095",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.3.01",
+        "name": "基底"
+      }
+    },
+    {
+      "id": "CAND-G4A-096",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.8.3.02",
+        "name": "锥体应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-097",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.10.3.01",
+        "name": "大数定律思想"
+      }
+    },
+    {
+      "id": "CAND-G4A-098",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.3.04",
+        "name": "球体表面积与体积"
+      }
+    },
+    {
+      "id": "CAND-G4A-099",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.1.3.04",
+        "name": "文氏图与综合运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-100",
+      "group": 1,
+      "batch20": 5,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.2.01",
+        "name": "指数函数概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-101",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.3.1.08",
+        "name": "列表法"
+      }
+    },
+    {
+      "id": "CAND-G4A-102",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.7.2.01",
+        "name": "复数运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-103",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.1.5.01",
+        "name": "全称量词"
+      }
+    },
+    {
+      "id": "CAND-G4A-104",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.7.3.01",
+        "name": "复数模"
+      }
+    },
+    {
+      "id": "CAND-G4A-105",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.3.2.02",
+        "name": "单调递减"
+      }
+    },
+    {
+      "id": "CAND-G4A-106",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.10.1.01",
+        "name": "样本空间"
+      }
+    },
+    {
+      "id": "CAND-G4A-107",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.1.03",
+        "name": "不等式应用建模"
+      }
+    },
+    {
+      "id": "CAND-G4A-108",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.6.2.02",
+        "name": "数量积"
+      }
+    },
+    {
+      "id": "CAND-G4A-109",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.10.2.01",
+        "name": "独立事件"
+      }
+    },
+    {
+      "id": "CAND-G4A-110",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.1.2.02",
+        "name": "集合相等"
+      }
+    },
+    {
+      "id": "CAND-G4A-111",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.4.5.01",
+        "name": "指数增长模型"
+      }
+    },
+    {
+      "id": "CAND-G4A-112",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.3.2.09",
+        "name": "奇偶性定义与定义域对称"
+      }
+    },
+    {
+      "id": "CAND-G4A-113",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.10.1.01",
+        "name": "样本空间"
+      }
+    },
+    {
+      "id": "CAND-G4A-114",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.4.01",
+        "name": "平行公理"
+      }
+    },
+    {
+      "id": "CAND-G4A-115",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.8.4.02",
+        "name": "直线与平面位置关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-116",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.4.1.02",
+        "name": "分数指数幂"
+      }
+    },
+    {
+      "id": "CAND-G4A-117",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.3.01",
+        "name": "诱导公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-118",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.4.1.04",
+        "name": "根式与指数互化"
+      }
+    },
+    {
+      "id": "CAND-G4A-119",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.3.03",
+        "name": "化简证明"
+      }
+    },
+    {
+      "id": "CAND-G4A-120",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.4.01",
+        "name": "正弦函数性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-121",
+      "group": 2,
+      "batch20": 1,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.1.02",
+        "name": "向量模"
+      }
+    },
+    {
+      "id": "CAND-G4A-122",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.1.1.02",
+        "name": "集合的表示法"
+      }
+    },
+    {
+      "id": "CAND-G4A-123",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.3.4.03",
+        "name": "函数模型选择与比较"
+      }
+    },
+    {
+      "id": "CAND-G4A-124",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.2.01",
+        "name": "向量加法"
+      }
+    },
+    {
+      "id": "CAND-G4A-125",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.3.03",
+        "name": "换底公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-126",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.4.3.04",
+        "name": "对数方程初步"
+      }
+    },
+    {
+      "id": "CAND-G4A-127",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.2.3.02",
+        "name": "一元二次不等式解法"
+      }
+    },
+    {
+      "id": "CAND-G4A-128",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.5.6.02",
+        "name": "图象变换"
+      }
+    },
+    {
+      "id": "CAND-G4A-129",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.6.3.01",
+        "name": "基底"
+      }
+    },
+    {
+      "id": "CAND-G4A-130",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.5.7.01",
+        "name": "简谐振动"
+      }
+    },
+    {
+      "id": "CAND-G4A-131",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.6.3.03",
+        "name": "共线条件"
+      }
+    },
+    {
+      "id": "CAND-G4A-132",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.2.1.02",
+        "name": "作差比较大小"
+      }
+    },
+    {
+      "id": "CAND-G4A-133",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.6.01",
+        "name": "线面垂直"
+      }
+    },
+    {
+      "id": "CAND-G4A-134",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.1.02",
+        "name": "弧度制"
+      }
+    },
+    {
+      "id": "CAND-G4A-135",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.2.01",
+        "name": "单调递增"
+      }
+    },
+    {
+      "id": "CAND-G4A-136",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.4.1.03",
+        "name": "指数幂运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-137",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.2.03",
+        "name": "基本不等式双变量"
+      }
+    },
+    {
+      "id": "CAND-G4A-138",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.2.01",
+        "name": "斜二测"
+      }
+    },
+    {
+      "id": "CAND-G4A-139",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.2.02",
+        "name": "直观图与原图关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-140",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.8.3.01",
+        "name": "柱体体积"
+      }
+    },
+    {
+      "id": "CAND-G4A-141",
+      "group": 2,
+      "batch20": 2,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.3.03",
+        "name": "含参二次不等式"
+      }
+    },
+    {
+      "id": "CAND-G4A-142",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.5.4.01",
+        "name": "正弦函数性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-143",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.7.1.03",
+        "name": "复平面"
+      }
+    },
+    {
+      "id": "CAND-G4A-144",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.3.03",
+        "name": "换底公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-145",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.10.2.02",
+        "name": "独立重复试验初步"
+      }
+    },
+    {
+      "id": "CAND-G4A-146",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.10.3.01",
+        "name": "大数定律思想"
+      }
+    },
+    {
+      "id": "CAND-G4A-147",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.4.02",
+        "name": "对数函数单调性"
+      }
+    },
+    {
+      "id": "CAND-G4A-148",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.4.4.03",
+        "name": "对数函数图象与性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-149",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.4.5.01",
+        "name": "指数增长模型"
+      }
+    },
+    {
+      "id": "CAND-G4A-150",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.5.02",
+        "name": "对数应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-151",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.4.5.03",
+        "name": "二分法思想"
+      }
+    },
+    {
+      "id": "CAND-G4A-152",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.4.5.04",
+        "name": "复合增长模型"
+      }
+    },
+    {
+      "id": "CAND-G4A-153",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.7.02",
+        "name": "潮汐模型"
+      }
+    },
+    {
+      "id": "CAND-G4A-154",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.1.2.01",
+        "name": "子集与真子集"
+      }
+    },
+    {
+      "id": "CAND-G4A-155",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.2.3.04",
+        "name": "二次函数区间最值"
+      }
+    },
+    {
+      "id": "CAND-G4A-156",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.8.3.02",
+        "name": "锥体应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-157",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.1.04",
+        "name": "平行与共线向量"
+      }
+    },
+    {
+      "id": "CAND-G4A-158",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.7.2.01",
+        "name": "复数运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-159",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.2.02",
+        "name": "数量积"
+      }
+    },
+    {
+      "id": "CAND-G4A-160",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.7.3.01",
+        "name": "复数模"
+      }
+    },
+    {
+      "id": "CAND-G4A-161",
+      "group": 2,
+      "batch20": 3,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.4.3.01",
+        "name": "对数概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-162",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.3.02",
+        "name": "互化求值"
+      }
+    },
+    {
+      "id": "CAND-G4A-163",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.6.01",
+        "name": "线面垂直"
+      }
+    },
+    {
+      "id": "CAND-G4A-164",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.8.6.02",
+        "name": "垂直证明"
+      }
+    },
+    {
+      "id": "CAND-G4A-165",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.3.1.10",
+        "name": "函数求值"
+      }
+    },
+    {
+      "id": "CAND-G4A-166",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.6.3.04",
+        "name": "向量垂直的坐标条件"
+      }
+    },
+    {
+      "id": "CAND-G4A-167",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.4.03",
+        "name": "对数函数图象与性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-168",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.5.02",
+        "name": "二倍角公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-169",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.5.03",
+        "name": "辅助角公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-170",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.3.2.05",
+        "name": "单调性与不等式"
+      }
+    },
+    {
+      "id": "CAND-G4A-171",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.3.02",
+        "name": "锥体应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-172",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.8.3.03",
+        "name": "组合体"
+      }
+    },
+    {
+      "id": "CAND-G4A-173",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.4.1.02",
+        "name": "分数指数幂"
+      }
+    },
+    {
+      "id": "CAND-G4A-174",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.7.3.01",
+        "name": "复数模"
+      }
+    },
+    {
+      "id": "CAND-G4A-175",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.2.2.02",
+        "name": "配凑法求最值"
+      }
+    },
+    {
+      "id": "CAND-G4A-176",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.4.2.01",
+        "name": "指数函数概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-177",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.5.1.01",
+        "name": "角的概念推广"
+      }
+    },
+    {
+      "id": "CAND-G4A-178",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.5.1.02",
+        "name": "弧度制"
+      }
+    },
+    {
+      "id": "CAND-G4A-179",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.5.1.03",
+        "name": "弧长应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-180",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.6.03",
+        "name": "面面垂直"
+      }
+    },
+    {
+      "id": "CAND-G4A-181",
+      "group": 2,
+      "batch20": 4,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.3.3.04",
+        "name": "幂函数单调性"
+      }
+    },
+    {
+      "id": "CAND-G4A-182",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.5.2.03",
+        "name": "三角函数定义域与符号"
+      }
+    },
+    {
+      "id": "CAND-G4A-183",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.3.01",
+        "name": "诱导公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-184",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.2.1.02",
+        "name": "作差比较大小"
+      }
+    },
+    {
+      "id": "CAND-G4A-185",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.7.1.03",
+        "name": "复平面"
+      }
+    },
+    {
+      "id": "CAND-G4A-186",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.2.1.04",
+        "name": "等式的基本性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-187",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.10.2.02",
+        "name": "独立重复试验初步"
+      }
+    },
+    {
+      "id": "CAND-G4A-188",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.1.01",
+        "name": "向量概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-189",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.1.02",
+        "name": "向量模"
+      }
+    },
+    {
+      "id": "CAND-G4A-190",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.1.03",
+        "name": "相等向量"
+      }
+    },
+    {
+      "id": "CAND-G4A-191",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.5.01",
+        "name": "线面平行判定"
+      }
+    },
+    {
+      "id": "CAND-G4A-192",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.1.02",
+        "name": "分数指数幂"
+      }
+    },
+    {
+      "id": "CAND-G4A-193",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.3.1.07",
+        "name": "图象法"
+      }
+    },
+    {
+      "id": "CAND-G4A-194",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.2.03",
+        "name": "向量夹角"
+      }
+    },
+    {
+      "id": "CAND-G4A-195",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.6.03",
+        "name": "面面垂直"
+      }
+    },
+    {
+      "id": "CAND-G4A-196",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.7.01",
+        "name": "简谐振动"
+      }
+    },
+    {
+      "id": "CAND-G4A-197",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.4.2.03",
+        "name": "指数方程"
+      }
+    },
+    {
+      "id": "CAND-G4A-198",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.9.1.02",
+        "name": "系统抽样与分层抽样"
+      }
+    },
+    {
+      "id": "CAND-G4A-199",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.1.01",
+        "name": "角的概念推广"
+      }
+    },
+    {
+      "id": "CAND-G4A-200",
+      "group": 2,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.3.01",
+        "name": "柱体体积"
+      }
+    },
+    {
+      "id": "CAND-G4A-201",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.10.2.02",
+        "name": "独立重复试验初步"
+      }
+    },
+    {
+      "id": "CAND-G4A-202",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.2.01",
+        "name": "三角函数定义"
+      }
+    },
+    {
+      "id": "CAND-G4A-203",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.2.02",
+        "name": "同角关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-204",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.4.04",
+        "name": "几何证明"
+      }
+    },
+    {
+      "id": "CAND-G4A-205",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.3.2.09",
+        "name": "奇偶性定义与定义域对称"
+      }
+    },
+    {
+      "id": "CAND-G4A-206",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.10.1.03",
+        "name": "事件关系与运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-207",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.9.2.02",
+        "name": "样本数字特征"
+      }
+    },
+    {
+      "id": "CAND-G4A-208",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.5.4.01",
+        "name": "正弦函数性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-209",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.4.02",
+        "name": "余弦函数性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-210",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.9.3.02",
+        "name": "统计分析案例阅读"
+      }
+    },
+    {
+      "id": "CAND-G4A-211",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.10.1.01",
+        "name": "样本空间"
+      }
+    },
+    {
+      "id": "CAND-G4A-212",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.6.2.04",
+        "name": "投影"
+      }
+    },
+    {
+      "id": "CAND-G4A-213",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.3.05",
+        "name": "幂函数奇偶性"
+      }
+    },
+    {
+      "id": "CAND-G4A-214",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.7.2.01",
+        "name": "复数运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-215",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.6.3.02",
+        "name": "坐标运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-216",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.6.02",
+        "name": "图象变换"
+      }
+    },
+    {
+      "id": "CAND-G4A-217",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.2.04",
+        "name": "指数函数图象变换"
+      }
+    },
+    {
+      "id": "CAND-G4A-218",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.7.01",
+        "name": "简谐振动"
+      }
+    },
+    {
+      "id": "CAND-G4A-219",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.7.02",
+        "name": "潮汐模型"
+      }
+    },
+    {
+      "id": "CAND-G4A-220",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.3.03",
+        "name": "换底公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-221",
+      "group": 3,
+      "batch20": 1,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.1.4.02",
+        "name": "必要条件"
+      }
+    },
+    {
+      "id": "CAND-G4A-222",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.1.02",
+        "name": "弧度制"
+      }
+    },
+    {
+      "id": "CAND-G4A-223",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.1.02",
+        "name": "作差比较大小"
+      }
+    },
+    {
+      "id": "CAND-G4A-224",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.6.1.03",
+        "name": "相等向量"
+      }
+    },
+    {
+      "id": "CAND-G4A-225",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.8.6.03",
+        "name": "面面垂直"
+      }
+    },
+    {
+      "id": "CAND-G4A-226",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.8.1.01",
+        "name": "棱柱概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-227",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.3.01",
+        "name": "诱导公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-228",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.5.04",
+        "name": "复合增长模型"
+      }
+    },
+    {
+      "id": "CAND-G4A-229",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.8.2.02",
+        "name": "直观图与原图关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-230",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.4.1.02",
+        "name": "分数指数幂"
+      }
+    },
+    {
+      "id": "CAND-G4A-231",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.4.1.03",
+        "name": "指数幂运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-232",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.3.02",
+        "name": "坐标运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-233",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.3.2.06",
+        "name": "最大值"
+      }
+    },
+    {
+      "id": "CAND-G4A-234",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.3.04",
+        "name": "向量垂直的坐标条件"
+      }
+    },
+    {
+      "id": "CAND-G4A-235",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.9.2.02",
+        "name": "样本数字特征"
+      }
+    },
+    {
+      "id": "CAND-G4A-236",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 3,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.2.1.02",
+        "name": "作差比较大小"
+      }
+    },
+    {
+      "id": "CAND-G4A-237",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 3,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.9.3.01",
+        "name": "回归思想"
+      }
+    },
+    {
+      "id": "CAND-G4A-238",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.9.3.02",
+        "name": "统计分析案例阅读"
+      }
+    },
+    {
+      "id": "CAND-G4A-239",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.2.12",
+        "name": "奇偶性求值与综合应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-240",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.6.03",
+        "name": "面面垂直"
+      }
+    },
+    {
+      "id": "CAND-G4A-241",
+      "group": 3,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.7.02",
+        "name": "潮汐模型"
+      }
+    },
+    {
+      "id": "CAND-G4A-242",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.7.03",
+        "name": "测量应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-243",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.2.01",
+        "name": "斜二测"
+      }
+    },
+    {
+      "id": "CAND-G4A-244",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.1.02",
+        "name": "弧度制"
+      }
+    },
+    {
+      "id": "CAND-G4A-245",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.6.2.03",
+        "name": "向量夹角"
+      }
+    },
+    {
+      "id": "CAND-G4A-246",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.2.04",
+        "name": "投影"
+      }
+    },
+    {
+      "id": "CAND-G4A-247",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.1.3.02",
+        "name": "交集"
+      }
+    },
+    {
+      "id": "CAND-G4A-248",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.9.2.01",
+        "name": "频率估计概率"
+      }
+    },
+    {
+      "id": "CAND-G4A-249",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.5.3.01",
+        "name": "诱导公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-250",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.3.02",
+        "name": "互化求值"
+      }
+    },
+    {
+      "id": "CAND-G4A-251",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.3.1.03",
+        "name": "值域"
+      }
+    },
+    {
+      "id": "CAND-G4A-252",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.5.02",
+        "name": "面面平行"
+      }
+    },
+    {
+      "id": "CAND-G4A-253",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.3.1.05",
+        "name": "相同函数的判断"
+      }
+    },
+    {
+      "id": "CAND-G4A-254",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.4.03",
+        "name": "功的计算"
+      }
+    },
+    {
+      "id": "CAND-G4A-255",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.6.4.04",
+        "name": "几何证明"
+      }
+    },
+    {
+      "id": "CAND-G4A-256",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.1.01",
+        "name": "向量概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-257",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.6.1.02",
+        "name": "向量模"
+      }
+    },
+    {
+      "id": "CAND-G4A-258",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.1.03",
+        "name": "相等向量"
+      }
+    },
+    {
+      "id": "CAND-G4A-259",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.8.2.02",
+        "name": "直观图与原图关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-260",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.10.1.01",
+        "name": "样本空间"
+      }
+    },
+    {
+      "id": "CAND-G4A-261",
+      "group": 3,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.2.02",
+        "name": "数量积"
+      }
+    },
+    {
+      "id": "CAND-G4A-262",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.4.4.03",
+        "name": "对数函数图象与性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-263",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.10.2.01",
+        "name": "独立事件"
+      }
+    },
+    {
+      "id": "CAND-G4A-264",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.8.4.01",
+        "name": "平行公理"
+      }
+    },
+    {
+      "id": "CAND-G4A-265",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.5.03",
+        "name": "二分法思想"
+      }
+    },
+    {
+      "id": "CAND-G4A-266",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.1.02",
+        "name": "弧度制"
+      }
+    },
+    {
+      "id": "CAND-G4A-267",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.6.3.03",
+        "name": "共线条件"
+      }
+    },
+    {
+      "id": "CAND-G4A-268",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.3.04",
+        "name": "向量垂直的坐标条件"
+      }
+    },
+    {
+      "id": "CAND-G4A-269",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.1.03",
+        "name": "指数幂运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-270",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.10.2.01",
+        "name": "独立事件"
+      }
+    },
+    {
+      "id": "CAND-G4A-271",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.1.1.01",
+        "name": "集合的含义与元素"
+      }
+    },
+    {
+      "id": "CAND-G4A-272",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.1.02",
+        "name": "简单组合体"
+      }
+    },
+    {
+      "id": "CAND-G4A-273",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.3.03",
+        "name": "化简证明"
+      }
+    },
+    {
+      "id": "CAND-G4A-274",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.8.2.02",
+        "name": "直观图与原图关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-275",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.10.1.02",
+        "name": "古典概型"
+      }
+    },
+    {
+      "id": "CAND-G4A-276",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.10.1.03",
+        "name": "事件关系与运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-277",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.3.4.02",
+        "name": "分段实际模型"
+      }
+    },
+    {
+      "id": "CAND-G4A-278",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.10.2.02",
+        "name": "独立重复试验初步"
+      }
+    },
+    {
+      "id": "CAND-G4A-279",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.6.2.03",
+        "name": "向量夹角"
+      }
+    },
+    {
+      "id": "CAND-G4A-280",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.5.04",
+        "name": "恒等证明"
+      }
+    },
+    {
+      "id": "CAND-G4A-281",
+      "group": 3,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.2.05",
+        "name": "数乘"
+      }
+    },
+    {
+      "id": "CAND-G4A-282",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.4.5.01",
+        "name": "指数增长模型"
+      }
+    },
+    {
+      "id": "CAND-G4A-283",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.6.03",
+        "name": "由已知求解析式"
+      }
+    },
+    {
+      "id": "CAND-G4A-284",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.8.6.02",
+        "name": "垂直证明"
+      }
+    },
+    {
+      "id": "CAND-G4A-285",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.10.2.02",
+        "name": "独立重复试验初步"
+      }
+    },
+    {
+      "id": "CAND-G4A-286",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.2.3.05",
+        "name": "根的分布"
+      }
+    },
+    {
+      "id": "CAND-G4A-287",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.1.02",
+        "name": "简单组合体"
+      }
+    },
+    {
+      "id": "CAND-G4A-288",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.4.03",
+        "name": "功的计算"
+      }
+    },
+    {
+      "id": "CAND-G4A-289",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.1.10",
+        "name": "函数求值"
+      }
+    },
+    {
+      "id": "CAND-G4A-290",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.2.01",
+        "name": "三角函数定义"
+      }
+    },
+    {
+      "id": "CAND-G4A-291",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.2.02",
+        "name": "单调递减"
+      }
+    },
+    {
+      "id": "CAND-G4A-292",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.4.2.03",
+        "name": "指数方程"
+      }
+    },
+    {
+      "id": "CAND-G4A-293",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.4.2.04",
+        "name": "指数函数图象变换"
+      }
+    },
+    {
+      "id": "CAND-G4A-294",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.1.3.04",
+        "name": "文氏图与综合运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-295",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.3.02",
+        "name": "对数运算法则"
+      }
+    },
+    {
+      "id": "CAND-G4A-296",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.8.5.01",
+        "name": "线面平行判定"
+      }
+    },
+    {
+      "id": "CAND-G4A-297",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.1.4.03",
+        "name": "充要条件"
+      }
+    },
+    {
+      "id": "CAND-G4A-298",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.3.04",
+        "name": "二次函数区间最值"
+      }
+    },
+    {
+      "id": "CAND-G4A-299",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.3.05",
+        "name": "根的分布"
+      }
+    },
+    {
+      "id": "CAND-G4A-300",
+      "group": 3,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.6.03",
+        "name": "面面垂直"
+      }
+    },
+    {
+      "id": "CAND-G4A-301",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.5.03",
+        "name": "辅助角公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-302",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.9.1.01",
+        "name": "简单随机抽样"
+      }
+    },
+    {
+      "id": "CAND-G4A-303",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.7.1.02",
+        "name": "复数相等"
+      }
+    },
+    {
+      "id": "CAND-G4A-304",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.10.1.03",
+        "name": "事件关系与运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-305",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.4.03",
+        "name": "功的计算"
+      }
+    },
+    {
+      "id": "CAND-G4A-306",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.1.02",
+        "name": "分数指数幂"
+      }
+    },
+    {
+      "id": "CAND-G4A-307",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 3,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.2.2.04",
+        "name": "基本不等式应用注意"
+      }
+    },
+    {
+      "id": "CAND-G4A-308",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.4.1.04",
+        "name": "根式与指数互化"
+      }
+    },
+    {
+      "id": "CAND-G4A-309",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.1.3.04",
+        "name": "文氏图与综合运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-310",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.3.4.04",
+        "name": "用函数解决最值实际问题"
+      }
+    },
+    {
+      "id": "CAND-G4A-311",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.5.01",
+        "name": "线面平行判定"
+      }
+    },
+    {
+      "id": "CAND-G4A-312",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.8.5.02",
+        "name": "面面平行"
+      }
+    },
+    {
+      "id": "CAND-G4A-313",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.3.01",
+        "name": "对数概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-314",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.2.1.02",
+        "name": "作差比较大小"
+      }
+    },
+    {
+      "id": "CAND-G4A-315",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.3.1.05",
+        "name": "相同函数的判断"
+      }
+    },
+    {
+      "id": "CAND-G4A-316",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.7.1.01",
+        "name": "虚数单位"
+      }
+    },
+    {
+      "id": "CAND-G4A-317",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.3.03",
+        "name": "化简证明"
+      }
+    },
+    {
+      "id": "CAND-G4A-318",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.1.08",
+        "name": "列表法"
+      }
+    },
+    {
+      "id": "CAND-G4A-319",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.4.4.03",
+        "name": "对数函数图象与性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-320",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.3.1.10",
+        "name": "函数求值"
+      }
+    },
+    {
+      "id": "CAND-G4A-321",
+      "group": 4,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.4.5.02",
+        "name": "对数应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-322",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.4.5.03",
+        "name": "二分法思想"
+      }
+    },
+    {
+      "id": "CAND-G4A-323",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.3.2.03",
+        "name": "单调区间"
+      }
+    },
+    {
+      "id": "CAND-G4A-324",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.10.1.02",
+        "name": "古典概型"
+      }
+    },
+    {
+      "id": "CAND-G4A-325",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.1.02",
+        "name": "向量模"
+      }
+    },
+    {
+      "id": "CAND-G4A-326",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.1.03",
+        "name": "相等向量"
+      }
+    },
+    {
+      "id": "CAND-G4A-327",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.1.04",
+        "name": "根式与指数互化"
+      }
+    },
+    {
+      "id": "CAND-G4A-328",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.9.3.01",
+        "name": "回归思想"
+      }
+    },
+    {
+      "id": "CAND-G4A-329",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.3.2.09",
+        "name": "奇偶性定义与定义域对称"
+      }
+    },
+    {
+      "id": "CAND-G4A-330",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.5.7.03",
+        "name": "测量应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-331",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.8.1.01",
+        "name": "棱柱概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-332",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.10.1.03",
+        "name": "事件关系与运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-333",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.1.03",
+        "name": "弧长应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-334",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.8.2.02",
+        "name": "直观图与原图关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-335",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.9.3.01",
+        "name": "回归思想"
+      }
+    },
+    {
+      "id": "CAND-G4A-336",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.3.3.04",
+        "name": "幂函数单调性"
+      }
+    },
+    {
+      "id": "CAND-G4A-337",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.3.3.05",
+        "name": "幂函数奇偶性"
+      }
+    },
+    {
+      "id": "CAND-G4A-338",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.2.3.05",
+        "name": "根的分布"
+      }
+    },
+    {
+      "id": "CAND-G4A-339",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.10.1.03",
+        "name": "事件关系与运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-340",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.4.02",
+        "name": "直线与平面位置关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-341",
+      "group": 4,
+      "batch20": 2,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.1.4.02",
+        "name": "必要条件"
+      }
+    },
+    {
+      "id": "CAND-G4A-342",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.10.3.01",
+        "name": "大数定律思想"
+      }
+    },
+    {
+      "id": "CAND-G4A-343",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.2.2.01",
+        "name": "算术-几何平均不等式"
+      }
+    },
+    {
+      "id": "CAND-G4A-344",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 3,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.7.1.01",
+        "name": "虚数单位"
+      }
+    },
+    {
+      "id": "CAND-G4A-345",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.9.1.02",
+        "name": "系统抽样与分层抽样"
+      }
+    },
+    {
+      "id": "CAND-G4A-346",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.8.1.01",
+        "name": "棱柱概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-347",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.2.3.01",
+        "name": "三个二次的关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-348",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.9.2.03",
+        "name": "用样本估计总体分布"
+      }
+    },
+    {
+      "id": "CAND-G4A-349",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.4.2.03",
+        "name": "指数方程"
+      }
+    },
+    {
+      "id": "CAND-G4A-350",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.5.7.01",
+        "name": "简谐振动"
+      }
+    },
+    {
+      "id": "CAND-G4A-351",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.3.1.10",
+        "name": "函数求值"
+      }
+    },
+    {
+      "id": "CAND-G4A-352",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.2.1.01",
+        "name": "不等式的基本性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-353",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.10.1.03",
+        "name": "事件关系与运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-354",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.3.04",
+        "name": "对数方程初步"
+      }
+    },
+    {
+      "id": "CAND-G4A-355",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.4.01",
+        "name": "对数函数概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-356",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.10.3.01",
+        "name": "大数定律思想"
+      }
+    },
+    {
+      "id": "CAND-G4A-357",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.2.02",
+        "name": "同角关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-358",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.2.07",
+        "name": "最小值与区间最值"
+      }
+    },
+    {
+      "id": "CAND-G4A-359",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.3.01",
+        "name": "诱导公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-360",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.8.6.03",
+        "name": "面面垂直"
+      }
+    },
+    {
+      "id": "CAND-G4A-361",
+      "group": 4,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.1.04",
+        "name": "平行与共线向量"
+      }
+    },
+    {
+      "id": "CAND-G4A-362",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.9.2.03",
+        "name": "用样本估计总体分布"
+      }
+    },
+    {
+      "id": "CAND-G4A-363",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.2.02",
+        "name": "数量积"
+      }
+    },
+    {
+      "id": "CAND-G4A-364",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.2.02",
+        "name": "直观图与原图关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-365",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.1.04",
+        "name": "根式与指数互化"
+      }
+    },
+    {
+      "id": "CAND-G4A-366",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.7.1.02",
+        "name": "复数相等"
+      }
+    },
+    {
+      "id": "CAND-G4A-367",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.5.03",
+        "name": "辅助角公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-368",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.9.2.02",
+        "name": "样本数字特征"
+      }
+    },
+    {
+      "id": "CAND-G4A-369",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.6.01",
+        "name": "振幅周期相位"
+      }
+    },
+    {
+      "id": "CAND-G4A-370",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.6.02",
+        "name": "图象变换"
+      }
+    },
+    {
+      "id": "CAND-G4A-371",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.6.4.01",
+        "name": "向量应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-372",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.9.1.01",
+        "name": "简单随机抽样"
+      }
+    },
+    {
+      "id": "CAND-G4A-373",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.7.1.02",
+        "name": "复数相等"
+      }
+    },
+    {
+      "id": "CAND-G4A-374",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.4.01",
+        "name": "对数函数概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-375",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.2.3.03",
+        "name": "含参二次不等式"
+      }
+    },
+    {
+      "id": "CAND-G4A-376",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.1.02",
+        "name": "弧度制"
+      }
+    },
+    {
+      "id": "CAND-G4A-377",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.1.03",
+        "name": "相等向量"
+      }
+    },
+    {
+      "id": "CAND-G4A-378",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.8.2.01",
+        "name": "斜二测"
+      }
+    },
+    {
+      "id": "CAND-G4A-379",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.2.01",
+        "name": "向量加法"
+      }
+    },
+    {
+      "id": "CAND-G4A-380",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.10.1.02",
+        "name": "古典概型"
+      }
+    },
+    {
+      "id": "CAND-G4A-381",
+      "group": 4,
+      "batch20": 4,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 3,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.7.1.03",
+        "name": "复平面"
+      }
+    },
+    {
+      "id": "CAND-G4A-382",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.2.2.01",
+        "name": "算术-几何平均不等式"
+      }
+    },
+    {
+      "id": "CAND-G4A-383",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.3.2.01",
+        "name": "单调递增"
+      }
+    },
+    {
+      "id": "CAND-G4A-384",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.10.3.01",
+        "name": "大数定律思想"
+      }
+    },
+    {
+      "id": "CAND-G4A-385",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.10.3.02",
+        "name": "频率与概率关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-386",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.2.04",
+        "name": "单调性判断"
+      }
+    },
+    {
+      "id": "CAND-G4A-387",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.3.2.05",
+        "name": "单调性与不等式"
+      }
+    },
+    {
+      "id": "CAND-G4A-388",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.2.3.03",
+        "name": "含参二次不等式"
+      }
+    },
+    {
+      "id": "CAND-G4A-389",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.6.02",
+        "name": "垂直证明"
+      }
+    },
+    {
+      "id": "CAND-G4A-390",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.4.03",
+        "name": "功的计算"
+      }
+    },
+    {
+      "id": "CAND-G4A-391",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.3.03",
+        "name": "换底公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-392",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.1.1.02",
+        "name": "集合的表示法"
+      }
+    },
+    {
+      "id": "CAND-G4A-393",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.9.1.01",
+        "name": "简单随机抽样"
+      }
+    },
+    {
+      "id": "CAND-G4A-394",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.2.1.04",
+        "name": "等式的基本性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-395",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.7.1.03",
+        "name": "复平面"
+      }
+    },
+    {
+      "id": "CAND-G4A-396",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.9.2.02",
+        "name": "样本数字特征"
+      }
+    },
+    {
+      "id": "CAND-G4A-397",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.7.2.02",
+        "name": "共轭复数"
+      }
+    },
+    {
+      "id": "CAND-G4A-398",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.7.3.01",
+        "name": "复数模"
+      }
+    },
+    {
+      "id": "CAND-G4A-399",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.1.03",
+        "name": "弧长应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-400",
+      "group": 4,
+      "batch20": 5,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 3,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.2.3.02",
+        "name": "一元二次不等式解法"
+      }
+    },
+    {
+      "id": "CAND-G4A-401",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.1.02",
+        "name": "分数指数幂"
+      }
+    },
+    {
+      "id": "CAND-G4A-402",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.1.03",
+        "name": "指数幂运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-403",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.3.01",
+        "name": "诱导公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-404",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.2.1.01",
+        "name": "不等式的基本性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-405",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.6.03",
+        "name": "面面垂直"
+      }
+    },
+    {
+      "id": "CAND-G4A-406",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.4.02",
+        "name": "位移合成"
+      }
+    },
+    {
+      "id": "CAND-G4A-407",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.9.1.01",
+        "name": "简单随机抽样"
+      }
+    },
+    {
+      "id": "CAND-G4A-408",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.2.01",
+        "name": "斜二测"
+      }
+    },
+    {
+      "id": "CAND-G4A-409",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.8.2.02",
+        "name": "直观图与原图关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-410",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.10.2.01",
+        "name": "独立事件"
+      }
+    },
+    {
+      "id": "CAND-G4A-411",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.5.03",
+        "name": "辅助角公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-412",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.3.1.09",
+        "name": "分段函数"
+      }
+    },
+    {
+      "id": "CAND-G4A-413",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.8.3.04",
+        "name": "球体表面积与体积"
+      }
+    },
+    {
+      "id": "CAND-G4A-414",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.10.1.01",
+        "name": "样本空间"
+      }
+    },
+    {
+      "id": "CAND-G4A-415",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.5.6.03",
+        "name": "由已知求解析式"
+      }
+    },
+    {
+      "id": "CAND-G4A-416",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.10.1.03",
+        "name": "事件关系与运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-417",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.6.2.05",
+        "name": "数乘"
+      }
+    },
+    {
+      "id": "CAND-G4A-418",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.3.2.05",
+        "name": "单调性与不等式"
+      }
+    },
+    {
+      "id": "CAND-G4A-419",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.3.2.06",
+        "name": "最大值"
+      }
+    },
+    {
+      "id": "CAND-G4A-420",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.1.02",
+        "name": "弧度制"
+      }
+    },
+    {
+      "id": "CAND-G4A-421",
+      "group": 5,
+      "batch20": 1,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.1.03",
+        "name": "指数幂运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-422",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.1.02",
+        "name": "简单组合体"
+      }
+    },
+    {
+      "id": "CAND-G4A-423",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.1.1.03",
+        "name": "空集与全集（描述层面）"
+      }
+    },
+    {
+      "id": "CAND-G4A-424",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.1.2.01",
+        "name": "子集与真子集"
+      }
+    },
+    {
+      "id": "CAND-G4A-425",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.6.4.04",
+        "name": "几何证明"
+      }
+    },
+    {
+      "id": "CAND-G4A-426",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.3.01",
+        "name": "幂函数概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-427",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.8.3.03",
+        "name": "组合体"
+      }
+    },
+    {
+      "id": "CAND-G4A-428",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.4.01",
+        "name": "正弦函数性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-429",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.3.04",
+        "name": "幂函数单调性"
+      }
+    },
+    {
+      "id": "CAND-G4A-430",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.4.03",
+        "name": "正切函数"
+      }
+    },
+    {
+      "id": "CAND-G4A-431",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.4.01",
+        "name": "实际问题函数建模"
+      }
+    },
+    {
+      "id": "CAND-G4A-432",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rja.5.5.02",
+        "name": "二倍角公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-433",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.5.03",
+        "name": "辅助角公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-434",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.2.05",
+        "name": "数乘"
+      }
+    },
+    {
+      "id": "CAND-G4A-435",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.6.01",
+        "name": "振幅周期相位"
+      }
+    },
+    {
+      "id": "CAND-G4A-436",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.5.03",
+        "name": "二分法思想"
+      }
+    },
+    {
+      "id": "CAND-G4A-437",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.5.04",
+        "name": "复合增长模型"
+      }
+    },
+    {
+      "id": "CAND-G4A-438",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.2.01",
+        "name": "斜二测"
+      }
+    },
+    {
+      "id": "CAND-G4A-439",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.3.1.05",
+        "name": "相同函数的判断"
+      }
+    },
+    {
+      "id": "CAND-G4A-440",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.3.01",
+        "name": "柱体体积"
+      }
+    },
+    {
+      "id": "CAND-G4A-441",
+      "group": 5,
+      "batch20": 2,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.1.01",
+        "name": "角的概念推广"
+      }
+    },
+    {
+      "id": "CAND-G4A-442",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.4.2.01",
+        "name": "指数函数概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-443",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.2.1.01",
+        "name": "不等式的基本性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-444",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 2,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.9.2.01",
+        "name": "频率估计概率"
+      }
+    },
+    {
+      "id": "CAND-G4A-445",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.5.2.02",
+        "name": "同角关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-446",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.2.1.04",
+        "name": "等式的基本性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-447",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.2.01",
+        "name": "向量加法"
+      }
+    },
+    {
+      "id": "CAND-G4A-448",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.4.3.03",
+        "name": "换底公式"
+      }
+    },
+    {
+      "id": "CAND-G4A-449",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.6.02",
+        "name": "垂直证明"
+      }
+    },
+    {
+      "id": "CAND-G4A-450",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.2.04",
+        "name": "投影"
+      }
+    },
+    {
+      "id": "CAND-G4A-451",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.7.1.03",
+        "name": "复平面"
+      }
+    },
+    {
+      "id": "CAND-G4A-452",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.4.03",
+        "name": "正切函数"
+      }
+    },
+    {
+      "id": "CAND-G4A-453",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.3.02",
+        "name": "坐标运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-454",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.10.3.01",
+        "name": "大数定律思想"
+      }
+    },
+    {
+      "id": "CAND-G4A-455",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.3.05",
+        "name": "根的分布"
+      }
+    },
+    {
+      "id": "CAND-G4A-456",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 3,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.10.1.01",
+        "name": "样本空间"
+      }
+    },
+    {
+      "id": "CAND-G4A-457",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "judge",
+      "kpHint": {
+        "code": "rjb.6.4.02",
+        "name": "位移合成"
+      }
+    },
+    {
+      "id": "CAND-G4A-458",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.4.03",
+        "name": "功的计算"
+      }
+    },
+    {
+      "id": "CAND-G4A-459",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.10.2.01",
+        "name": "独立事件"
+      }
+    },
+    {
+      "id": "CAND-G4A-460",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.10.2.02",
+        "name": "独立重复试验初步"
+      }
+    },
+    {
+      "id": "CAND-G4A-461",
+      "group": 5,
+      "batch20": 3,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.1.4.02",
+        "name": "必要条件"
+      }
+    },
+    {
+      "id": "CAND-G4A-462",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rjb.10.3.02",
+        "name": "频率与概率关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-463",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.9.1.01",
+        "name": "简单随机抽样"
+      }
+    },
+    {
+      "id": "CAND-G4A-464",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.1.5.02",
+        "name": "存在量词"
+      }
+    },
+    {
+      "id": "CAND-G4A-465",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.8.6.03",
+        "name": "面面垂直"
+      }
+    },
+    {
+      "id": "CAND-G4A-466",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 7,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch2",
+      "chapterName": "复数",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.7.2.01",
+        "name": "复数运算"
+      }
+    },
+    {
+      "id": "CAND-G4A-467",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.3.1.02",
+        "name": "定义域"
+      }
+    },
+    {
+      "id": "CAND-G4A-468",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.3.05",
+        "name": "根的分布"
+      }
+    },
+    {
+      "id": "CAND-G4A-469",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.6.3.01",
+        "name": "基底"
+      }
+    },
+    {
+      "id": "CAND-G4A-470",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.10.1.01",
+        "name": "样本空间"
+      }
+    },
+    {
+      "id": "CAND-G4A-471",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.2.1.03",
+        "name": "不等式应用建模"
+      }
+    },
+    {
+      "id": "CAND-G4A-472",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.9.2.01",
+        "name": "频率估计概率"
+      }
+    },
+    {
+      "id": "CAND-G4A-473",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.2.2.01",
+        "name": "算术-几何平均不等式"
+      }
+    },
+    {
+      "id": "CAND-G4A-474",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.4.02",
+        "name": "位移合成"
+      }
+    },
+    {
+      "id": "CAND-G4A-475",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.4.5.04",
+        "name": "复合增长模型"
+      }
+    },
+    {
+      "id": "CAND-G4A-476",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.10.3.02",
+        "name": "频率与概率关系"
+      }
+    },
+    {
+      "id": "CAND-G4A-477",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.1.02",
+        "name": "分数指数幂"
+      }
+    },
+    {
+      "id": "CAND-G4A-478",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 9,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch4",
+      "chapterName": "统计",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.9.1.02",
+        "name": "系统抽样与分层抽样"
+      }
+    },
+    {
+      "id": "CAND-G4A-479",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.1.5.02",
+        "name": "存在量词"
+      }
+    },
+    {
+      "id": "CAND-G4A-480",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.1.04",
+        "name": "平行与共线向量"
+      }
+    },
+    {
+      "id": "CAND-G4A-481",
+      "group": 5,
+      "batch20": 4,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 1,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.1.1.01",
+        "name": "集合的含义与元素"
+      }
+    },
+    {
+      "id": "CAND-G4A-482",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.1.1.02",
+        "name": "集合的表示法"
+      }
+    },
+    {
+      "id": "CAND-G4A-483",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 3,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.8.2.01",
+        "name": "斜二测"
+      }
+    },
+    {
+      "id": "CAND-G4A-484",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.5.7.03",
+        "name": "测量应用"
+      }
+    },
+    {
+      "id": "CAND-G4A-485",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.2.05",
+        "name": "数乘"
+      }
+    },
+    {
+      "id": "CAND-G4A-486",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 1,
+      "book": "必修一",
+      "specialtyCode": "rja-ch1",
+      "chapterName": "集合与常用逻辑用语",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.1.3.01",
+        "name": "并集"
+      }
+    },
+    {
+      "id": "CAND-G4A-487",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.3.03",
+        "name": "组合体"
+      }
+    },
+    {
+      "id": "CAND-G4A-488",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 2,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rjb.6.3.03",
+        "name": "共线条件"
+      }
+    },
+    {
+      "id": "CAND-G4A-489",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.4.01",
+        "name": "平行公理"
+      }
+    },
+    {
+      "id": "CAND-G4A-490",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.4.03",
+        "name": "对数函数图象与性质"
+      }
+    },
+    {
+      "id": "CAND-G4A-491",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 6,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch1",
+      "chapterName": "平面向量及其应用",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.6.4.02",
+        "name": "位移合成"
+      }
+    },
+    {
+      "id": "CAND-G4A-492",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 3,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rja.5.3.02",
+        "name": "互化求值"
+      }
+    },
+    {
+      "id": "CAND-G4A-493",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 5,
+      "book": "必修一",
+      "specialtyCode": "rja-ch5",
+      "chapterName": "三角函数",
+      "difficulty": 1,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.5.3.03",
+        "name": "化简证明"
+      }
+    },
+    {
+      "id": "CAND-G4A-494",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 2,
+      "qtype": "numeric",
+      "kpHint": {
+        "code": "rjb.8.6.02",
+        "name": "垂直证明"
+      }
+    },
+    {
+      "id": "CAND-G4A-495",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 10,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch5",
+      "chapterName": "概率",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.10.2.02",
+        "name": "独立重复试验初步"
+      }
+    },
+    {
+      "id": "CAND-G4A-496",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 8,
+      "book": "必修二",
+      "specialtyCode": "rjb-ch3",
+      "chapterName": "立体几何初步",
+      "difficulty": 1,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rjb.8.1.01",
+        "name": "棱柱概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-497",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 2,
+      "book": "必修一",
+      "specialtyCode": "rja-ch2",
+      "chapterName": "一元二次函数、方程和不等式",
+      "difficulty": 2,
+      "qtype": "multi",
+      "kpHint": {
+        "code": "rja.2.1.03",
+        "name": "不等式应用建模"
+      }
+    },
+    {
+      "id": "CAND-G4A-498",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 1,
+      "qtype": "application",
+      "kpHint": {
+        "code": "rja.4.1.04",
+        "name": "根式与指数互化"
+      }
+    },
+    {
+      "id": "CAND-G4A-499",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 4,
+      "book": "必修一",
+      "specialtyCode": "rja-ch4",
+      "chapterName": "指数函数与对数函数",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.4.2.01",
+        "name": "指数函数概念"
+      }
+    },
+    {
+      "id": "CAND-G4A-500",
+      "group": 5,
+      "batch20": 5,
+      "chapterNo": 3,
+      "book": "必修一",
+      "specialtyCode": "rja-ch3",
+      "chapterName": "函数的概念与性质",
+      "difficulty": 2,
+      "qtype": "single",
+      "kpHint": {
+        "code": "rja.3.1.04",
+        "name": "对应关系"
+      }
+    }
+  ]
+}

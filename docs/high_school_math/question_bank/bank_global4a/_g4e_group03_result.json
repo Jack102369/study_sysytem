@@ -1,0 +1,1273 @@
+{
+  "phase": "GLOBAL-4E-GROUP",
+  "group": 3,
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "startedAt": "2026-10-27T08:08:34.634Z",
+  "ok": true,
+  "errors": [],
+  "import": {
+    "preview": {
+      "http": 201,
+      "canConfirm": true,
+      "errorCount": 0,
+      "itemCount": 100,
+      "failed": []
+    },
+    "confirm": {
+      "http": 201,
+      "success": true,
+      "mode": "created",
+      "successCount": 100,
+      "failCount": 0
+    },
+    "dbCount": 100,
+    "statuses": {
+      "draft": 100
+    }
+  },
+  "diagrams": {
+    "uploaded": [
+      "CAND-G4A-226",
+      "CAND-G4A-240",
+      "CAND-G4A-246",
+      "CAND-G4A-259",
+      "CAND-G4A-261",
+      "CAND-G4A-274",
+      "CAND-G4A-284",
+      "CAND-G4A-287"
+    ],
+    "skipped": [],
+    "failed": []
+  },
+  "review": {
+    "passed": 100,
+    "failed": 0,
+    "perItem": [
+      {
+        "code": "CAND-G4A-201",
+        "itemId": "675",
+        "cv": 1,
+        "fpPrefix": "c5aebabe411d65a4"
+      },
+      {
+        "code": "CAND-G4A-202",
+        "itemId": "676",
+        "cv": 1,
+        "fpPrefix": "bc1ed76ebb3f6292"
+      },
+      {
+        "code": "CAND-G4A-203",
+        "itemId": "677",
+        "cv": 1,
+        "fpPrefix": "60491bebf7ddf632"
+      },
+      {
+        "code": "CAND-G4A-204",
+        "itemId": "678",
+        "cv": 1,
+        "fpPrefix": "47a00bb420868f3b"
+      },
+      {
+        "code": "CAND-G4A-205",
+        "itemId": "679",
+        "cv": 1,
+        "fpPrefix": "c6773e655a20e747"
+      },
+      {
+        "code": "CAND-G4A-206",
+        "itemId": "680",
+        "cv": 1,
+        "fpPrefix": "d291aea64a898583"
+      },
+      {
+        "code": "CAND-G4A-207",
+        "itemId": "681",
+        "cv": 1,
+        "fpPrefix": "a87f321aa8db11ff"
+      },
+      {
+        "code": "CAND-G4A-208",
+        "itemId": "682",
+        "cv": 1,
+        "fpPrefix": "582921aae7ae9bcd"
+      },
+      {
+        "code": "CAND-G4A-209",
+        "itemId": "683",
+        "cv": 1,
+        "fpPrefix": "d47abde22c618a5d"
+      },
+      {
+        "code": "CAND-G4A-210",
+        "itemId": "684",
+        "cv": 1,
+        "fpPrefix": "87801aee4d56238d"
+      },
+      {
+        "code": "CAND-G4A-211",
+        "itemId": "685",
+        "cv": 1,
+        "fpPrefix": "0c75efc24294132b"
+      },
+      {
+        "code": "CAND-G4A-212",
+        "itemId": "686",
+        "cv": 1,
+        "fpPrefix": "bfa5bc9445e7f7fa"
+      },
+      {
+        "code": "CAND-G4A-213",
+        "itemId": "687",
+        "cv": 1,
+        "fpPrefix": "70cbb512a80da0a3"
+      },
+      {
+        "code": "CAND-G4A-214",
+        "itemId": "688",
+        "cv": 1,
+        "fpPrefix": "316fb8c9db3f4af8"
+      },
+      {
+        "code": "CAND-G4A-215",
+        "itemId": "689",
+        "cv": 1,
+        "fpPrefix": "b85422ed4533622f"
+      },
+      {
+        "code": "CAND-G4A-216",
+        "itemId": "690",
+        "cv": 1,
+        "fpPrefix": "8db6407407706f2b"
+      },
+      {
+        "code": "CAND-G4A-217",
+        "itemId": "691",
+        "cv": 1,
+        "fpPrefix": "c49f6e65d0aa1d56"
+      },
+      {
+        "code": "CAND-G4A-218",
+        "itemId": "692",
+        "cv": 1,
+        "fpPrefix": "c3b011587c122256"
+      },
+      {
+        "code": "CAND-G4A-219",
+        "itemId": "693",
+        "cv": 1,
+        "fpPrefix": "ae2d6d88dbdbe76c"
+      },
+      {
+        "code": "CAND-G4A-220",
+        "itemId": "694",
+        "cv": 1,
+        "fpPrefix": "6359f27fb37aef7f"
+      },
+      {
+        "code": "CAND-G4A-221",
+        "itemId": "695",
+        "cv": 1,
+        "fpPrefix": "0600a8012bb97c0f"
+      },
+      {
+        "code": "CAND-G4A-222",
+        "itemId": "696",
+        "cv": 1,
+        "fpPrefix": "1896b1f41e98ac53"
+      },
+      {
+        "code": "CAND-G4A-223",
+        "itemId": "697",
+        "cv": 1,
+        "fpPrefix": "5259cc24e513cabc"
+      },
+      {
+        "code": "CAND-G4A-224",
+        "itemId": "698",
+        "cv": 1,
+        "fpPrefix": "7888e88807c7ada0"
+      },
+      {
+        "code": "CAND-G4A-225",
+        "itemId": "699",
+        "cv": 1,
+        "fpPrefix": "0eb45e7fff05d1c6"
+      },
+      {
+        "code": "CAND-G4A-226",
+        "itemId": "700",
+        "cv": 3,
+        "fpPrefix": "e98f707a2c520b3e"
+      },
+      {
+        "code": "CAND-G4A-227",
+        "itemId": "701",
+        "cv": 1,
+        "fpPrefix": "2e13028ec6b53f00"
+      },
+      {
+        "code": "CAND-G4A-228",
+        "itemId": "702",
+        "cv": 1,
+        "fpPrefix": "eb8ae841213ea270"
+      },
+      {
+        "code": "CAND-G4A-229",
+        "itemId": "703",
+        "cv": 1,
+        "fpPrefix": "88511e89f2f90ebd"
+      },
+      {
+        "code": "CAND-G4A-230",
+        "itemId": "704",
+        "cv": 1,
+        "fpPrefix": "d3290fda3bbafb2b"
+      },
+      {
+        "code": "CAND-G4A-231",
+        "itemId": "705",
+        "cv": 1,
+        "fpPrefix": "c63e335facde1a33"
+      },
+      {
+        "code": "CAND-G4A-232",
+        "itemId": "706",
+        "cv": 1,
+        "fpPrefix": "a52491cfb00cde18"
+      },
+      {
+        "code": "CAND-G4A-233",
+        "itemId": "707",
+        "cv": 1,
+        "fpPrefix": "e3ed1ac7d22193ba"
+      },
+      {
+        "code": "CAND-G4A-234",
+        "itemId": "708",
+        "cv": 1,
+        "fpPrefix": "fd6ecdca04ad072b"
+      },
+      {
+        "code": "CAND-G4A-235",
+        "itemId": "709",
+        "cv": 1,
+        "fpPrefix": "3c962b7c8c855a35"
+      },
+      {
+        "code": "CAND-G4A-236",
+        "itemId": "710",
+        "cv": 1,
+        "fpPrefix": "bd47910e99d03df9"
+      },
+      {
+        "code": "CAND-G4A-237",
+        "itemId": "711",
+        "cv": 1,
+        "fpPrefix": "d341df8fa64f687d"
+      },
+      {
+        "code": "CAND-G4A-238",
+        "itemId": "712",
+        "cv": 1,
+        "fpPrefix": "bd0ac7d10a288d08"
+      },
+      {
+        "code": "CAND-G4A-239",
+        "itemId": "713",
+        "cv": 1,
+        "fpPrefix": "7ccdec477f8a2218"
+      },
+      {
+        "code": "CAND-G4A-240",
+        "itemId": "714",
+        "cv": 3,
+        "fpPrefix": "ee38bfd2e7e47e52"
+      },
+      {
+        "code": "CAND-G4A-241",
+        "itemId": "715",
+        "cv": 1,
+        "fpPrefix": "e5f06725f09d0b75"
+      },
+      {
+        "code": "CAND-G4A-242",
+        "itemId": "716",
+        "cv": 1,
+        "fpPrefix": "3f7db1e468a680f4"
+      },
+      {
+        "code": "CAND-G4A-243",
+        "itemId": "717",
+        "cv": 1,
+        "fpPrefix": "7570d1c8b32b6513"
+      },
+      {
+        "code": "CAND-G4A-244",
+        "itemId": "718",
+        "cv": 1,
+        "fpPrefix": "133ce3dd10bd471b"
+      },
+      {
+        "code": "CAND-G4A-245",
+        "itemId": "719",
+        "cv": 1,
+        "fpPrefix": "930b735ea8aabf83"
+      },
+      {
+        "code": "CAND-G4A-246",
+        "itemId": "720",
+        "cv": 3,
+        "fpPrefix": "c8610538fbcead1a"
+      },
+      {
+        "code": "CAND-G4A-247",
+        "itemId": "721",
+        "cv": 1,
+        "fpPrefix": "0911e52285a87cc8"
+      },
+      {
+        "code": "CAND-G4A-248",
+        "itemId": "722",
+        "cv": 1,
+        "fpPrefix": "92aaa57660356668"
+      },
+      {
+        "code": "CAND-G4A-249",
+        "itemId": "723",
+        "cv": 1,
+        "fpPrefix": "64689dcc8b8b7e38"
+      },
+      {
+        "code": "CAND-G4A-250",
+        "itemId": "724",
+        "cv": 1,
+        "fpPrefix": "266191155951632b"
+      },
+      {
+        "code": "CAND-G4A-251",
+        "itemId": "725",
+        "cv": 1,
+        "fpPrefix": "b88c596c5f7bb6ac"
+      },
+      {
+        "code": "CAND-G4A-252",
+        "itemId": "726",
+        "cv": 1,
+        "fpPrefix": "116cede8bc984f03"
+      },
+      {
+        "code": "CAND-G4A-253",
+        "itemId": "727",
+        "cv": 1,
+        "fpPrefix": "50372357d7ddb367"
+      },
+      {
+        "code": "CAND-G4A-254",
+        "itemId": "728",
+        "cv": 1,
+        "fpPrefix": "213e27085fce4f0f"
+      },
+      {
+        "code": "CAND-G4A-255",
+        "itemId": "729",
+        "cv": 1,
+        "fpPrefix": "b018ca434c34797f"
+      },
+      {
+        "code": "CAND-G4A-256",
+        "itemId": "730",
+        "cv": 1,
+        "fpPrefix": "c5954d38176bbf8c"
+      },
+      {
+        "code": "CAND-G4A-257",
+        "itemId": "731",
+        "cv": 1,
+        "fpPrefix": "98750cd6b5cf505b"
+      },
+      {
+        "code": "CAND-G4A-258",
+        "itemId": "732",
+        "cv": 1,
+        "fpPrefix": "fad40f1dbca51d85"
+      },
+      {
+        "code": "CAND-G4A-259",
+        "itemId": "733",
+        "cv": 3,
+        "fpPrefix": "d14ec3dd1f9abd50"
+      },
+      {
+        "code": "CAND-G4A-260",
+        "itemId": "734",
+        "cv": 1,
+        "fpPrefix": "51934de802b7726c"
+      },
+      {
+        "code": "CAND-G4A-261",
+        "itemId": "735",
+        "cv": 3,
+        "fpPrefix": "fa34be7721b0b499"
+      },
+      {
+        "code": "CAND-G4A-262",
+        "itemId": "736",
+        "cv": 1,
+        "fpPrefix": "087433d9e98cec7e"
+      },
+      {
+        "code": "CAND-G4A-263",
+        "itemId": "737",
+        "cv": 1,
+        "fpPrefix": "dc93178c8303b4ec"
+      },
+      {
+        "code": "CAND-G4A-264",
+        "itemId": "738",
+        "cv": 1,
+        "fpPrefix": "93e78d5e7ddd3e2e"
+      },
+      {
+        "code": "CAND-G4A-265",
+        "itemId": "739",
+        "cv": 1,
+        "fpPrefix": "7ffa231c8d6e23e2"
+      },
+      {
+        "code": "CAND-G4A-266",
+        "itemId": "740",
+        "cv": 1,
+        "fpPrefix": "06e5d6ce201d5a4c"
+      },
+      {
+        "code": "CAND-G4A-267",
+        "itemId": "741",
+        "cv": 1,
+        "fpPrefix": "748874888f1652ef"
+      },
+      {
+        "code": "CAND-G4A-268",
+        "itemId": "742",
+        "cv": 1,
+        "fpPrefix": "b3a41ef997bf5114"
+      },
+      {
+        "code": "CAND-G4A-269",
+        "itemId": "743",
+        "cv": 1,
+        "fpPrefix": "030a5b6f34182792"
+      },
+      {
+        "code": "CAND-G4A-270",
+        "itemId": "744",
+        "cv": 1,
+        "fpPrefix": "9fab5b488ed0eb50"
+      },
+      {
+        "code": "CAND-G4A-271",
+        "itemId": "745",
+        "cv": 1,
+        "fpPrefix": "ad005ab903e8e25d"
+      },
+      {
+        "code": "CAND-G4A-272",
+        "itemId": "746",
+        "cv": 1,
+        "fpPrefix": "b82df0a62dd836d9"
+      },
+      {
+        "code": "CAND-G4A-273",
+        "itemId": "747",
+        "cv": 1,
+        "fpPrefix": "506681d0ba9cb9b7"
+      },
+      {
+        "code": "CAND-G4A-274",
+        "itemId": "748",
+        "cv": 3,
+        "fpPrefix": "128ed2bb84cefe07"
+      },
+      {
+        "code": "CAND-G4A-275",
+        "itemId": "749",
+        "cv": 1,
+        "fpPrefix": "385ba5e8c5129d03"
+      },
+      {
+        "code": "CAND-G4A-276",
+        "itemId": "750",
+        "cv": 1,
+        "fpPrefix": "b4938f6c5974791d"
+      },
+      {
+        "code": "CAND-G4A-277",
+        "itemId": "751",
+        "cv": 1,
+        "fpPrefix": "5190e3d55c868cbd"
+      },
+      {
+        "code": "CAND-G4A-278",
+        "itemId": "752",
+        "cv": 1,
+        "fpPrefix": "0dc15cd71077e7fd"
+      },
+      {
+        "code": "CAND-G4A-279",
+        "itemId": "753",
+        "cv": 1,
+        "fpPrefix": "a329820182ced83c"
+      },
+      {
+        "code": "CAND-G4A-280",
+        "itemId": "754",
+        "cv": 1,
+        "fpPrefix": "decf963d29b3037f"
+      },
+      {
+        "code": "CAND-G4A-281",
+        "itemId": "755",
+        "cv": 1,
+        "fpPrefix": "f054aef2ae9a2f17"
+      },
+      {
+        "code": "CAND-G4A-282",
+        "itemId": "756",
+        "cv": 1,
+        "fpPrefix": "ac1640c0adf13390"
+      },
+      {
+        "code": "CAND-G4A-283",
+        "itemId": "757",
+        "cv": 1,
+        "fpPrefix": "6df597d10aa7213f"
+      },
+      {
+        "code": "CAND-G4A-284",
+        "itemId": "758",
+        "cv": 3,
+        "fpPrefix": "8306d1fc5474fc0e"
+      },
+      {
+        "code": "CAND-G4A-285",
+        "itemId": "759",
+        "cv": 1,
+        "fpPrefix": "0db16bf8747a6b55"
+      },
+      {
+        "code": "CAND-G4A-286",
+        "itemId": "760",
+        "cv": 1,
+        "fpPrefix": "134058692bb1c8a4"
+      },
+      {
+        "code": "CAND-G4A-287",
+        "itemId": "761",
+        "cv": 3,
+        "fpPrefix": "cc14ec20b7977766"
+      },
+      {
+        "code": "CAND-G4A-288",
+        "itemId": "762",
+        "cv": 1,
+        "fpPrefix": "545bdf568b282ba6"
+      },
+      {
+        "code": "CAND-G4A-289",
+        "itemId": "763",
+        "cv": 1,
+        "fpPrefix": "216747341517b914"
+      },
+      {
+        "code": "CAND-G4A-290",
+        "itemId": "764",
+        "cv": 1,
+        "fpPrefix": "97ddaa4e307c0ee9"
+      },
+      {
+        "code": "CAND-G4A-291",
+        "itemId": "765",
+        "cv": 1,
+        "fpPrefix": "e496442253557b0d"
+      },
+      {
+        "code": "CAND-G4A-292",
+        "itemId": "766",
+        "cv": 1,
+        "fpPrefix": "75a6308a5ceaea30"
+      },
+      {
+        "code": "CAND-G4A-293",
+        "itemId": "767",
+        "cv": 1,
+        "fpPrefix": "cca4d653a575bbef"
+      },
+      {
+        "code": "CAND-G4A-294",
+        "itemId": "768",
+        "cv": 1,
+        "fpPrefix": "4917a9111d6147d3"
+      },
+      {
+        "code": "CAND-G4A-295",
+        "itemId": "769",
+        "cv": 1,
+        "fpPrefix": "10dbf1274c6234a6"
+      },
+      {
+        "code": "CAND-G4A-296",
+        "itemId": "770",
+        "cv": 1,
+        "fpPrefix": "ad29ebdc761de966"
+      },
+      {
+        "code": "CAND-G4A-297",
+        "itemId": "771",
+        "cv": 1,
+        "fpPrefix": "7964b3e4b49c3146"
+      },
+      {
+        "code": "CAND-G4A-298",
+        "itemId": "772",
+        "cv": 1,
+        "fpPrefix": "8d390a7984c7b775"
+      },
+      {
+        "code": "CAND-G4A-299",
+        "itemId": "773",
+        "cv": 1,
+        "fpPrefix": "e0867dbb762c26f6"
+      },
+      {
+        "code": "CAND-G4A-300",
+        "itemId": "774",
+        "cv": 1,
+        "fpPrefix": "1be569ef9bb8d108"
+      }
+    ]
+  },
+  "approve": {
+    "success": 100,
+    "failed": 0,
+    "perItem": [
+      {
+        "code": "CAND-G4A-201",
+        "itemId": "675",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-202",
+        "itemId": "676",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-203",
+        "itemId": "677",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-204",
+        "itemId": "678",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-205",
+        "itemId": "679",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-206",
+        "itemId": "680",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-207",
+        "itemId": "681",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-208",
+        "itemId": "682",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-209",
+        "itemId": "683",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-210",
+        "itemId": "684",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-211",
+        "itemId": "685",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-212",
+        "itemId": "686",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-213",
+        "itemId": "687",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-214",
+        "itemId": "688",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-215",
+        "itemId": "689",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-216",
+        "itemId": "690",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-217",
+        "itemId": "691",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-218",
+        "itemId": "692",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-219",
+        "itemId": "693",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-220",
+        "itemId": "694",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-221",
+        "itemId": "695",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-222",
+        "itemId": "696",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-223",
+        "itemId": "697",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-224",
+        "itemId": "698",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-225",
+        "itemId": "699",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-226",
+        "itemId": "700",
+        "ok": true,
+        "cv": 3
+      },
+      {
+        "code": "CAND-G4A-227",
+        "itemId": "701",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-228",
+        "itemId": "702",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-229",
+        "itemId": "703",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-230",
+        "itemId": "704",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-231",
+        "itemId": "705",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-232",
+        "itemId": "706",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-233",
+        "itemId": "707",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-234",
+        "itemId": "708",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-235",
+        "itemId": "709",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-236",
+        "itemId": "710",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-237",
+        "itemId": "711",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-238",
+        "itemId": "712",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-239",
+        "itemId": "713",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-240",
+        "itemId": "714",
+        "ok": true,
+        "cv": 3
+      },
+      {
+        "code": "CAND-G4A-241",
+        "itemId": "715",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-242",
+        "itemId": "716",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-243",
+        "itemId": "717",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-244",
+        "itemId": "718",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-245",
+        "itemId": "719",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-246",
+        "itemId": "720",
+        "ok": true,
+        "cv": 3
+      },
+      {
+        "code": "CAND-G4A-247",
+        "itemId": "721",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-248",
+        "itemId": "722",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-249",
+        "itemId": "723",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-250",
+        "itemId": "724",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-251",
+        "itemId": "725",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-252",
+        "itemId": "726",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-253",
+        "itemId": "727",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-254",
+        "itemId": "728",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-255",
+        "itemId": "729",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-256",
+        "itemId": "730",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-257",
+        "itemId": "731",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-258",
+        "itemId": "732",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-259",
+        "itemId": "733",
+        "ok": true,
+        "cv": 3
+      },
+      {
+        "code": "CAND-G4A-260",
+        "itemId": "734",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-261",
+        "itemId": "735",
+        "ok": true,
+        "cv": 3
+      },
+      {
+        "code": "CAND-G4A-262",
+        "itemId": "736",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-263",
+        "itemId": "737",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-264",
+        "itemId": "738",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-265",
+        "itemId": "739",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-266",
+        "itemId": "740",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-267",
+        "itemId": "741",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-268",
+        "itemId": "742",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-269",
+        "itemId": "743",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-270",
+        "itemId": "744",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-271",
+        "itemId": "745",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-272",
+        "itemId": "746",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-273",
+        "itemId": "747",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-274",
+        "itemId": "748",
+        "ok": true,
+        "cv": 3
+      },
+      {
+        "code": "CAND-G4A-275",
+        "itemId": "749",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-276",
+        "itemId": "750",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-277",
+        "itemId": "751",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-278",
+        "itemId": "752",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-279",
+        "itemId": "753",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-280",
+        "itemId": "754",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-281",
+        "itemId": "755",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-282",
+        "itemId": "756",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-283",
+        "itemId": "757",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-284",
+        "itemId": "758",
+        "ok": true,
+        "cv": 3
+      },
+      {
+        "code": "CAND-G4A-285",
+        "itemId": "759",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-286",
+        "itemId": "760",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-287",
+        "itemId": "761",
+        "ok": true,
+        "cv": 3
+      },
+      {
+        "code": "CAND-G4A-288",
+        "itemId": "762",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-289",
+        "itemId": "763",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-290",
+        "itemId": "764",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-291",
+        "itemId": "765",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-292",
+        "itemId": "766",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-293",
+        "itemId": "767",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-294",
+        "itemId": "768",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-295",
+        "itemId": "769",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-296",
+        "itemId": "770",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-297",
+        "itemId": "771",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-298",
+        "itemId": "772",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-299",
+        "itemId": "773",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-G4A-300",
+        "itemId": "774",
+        "ok": true,
+        "cv": 1
+      }
+    ]
+  },
+  "verify": {
+    "drawable": 613,
+    "expectedDrawable": 613,
+    "groupApproved": 100,
+    "groupDraft": 0,
+    "old313": 313,
+    "old313_0": 313,
+    "sessions0": 135,
+    "sessions1": 135,
+    "sessionItems0": 359,
+    "sessionItems1": 359
+  },
+  "pre": {
+    "sessions0": 135,
+    "sessionItems0": 359,
+    "old313_0": 313,
+    "drawable0": 513
+  },
+  "endedAt": "2026-10-27T08:09:04.272Z"
+}

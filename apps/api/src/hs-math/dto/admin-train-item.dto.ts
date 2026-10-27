@@ -226,3 +226,14 @@ export class ListHsMathTrainItemsQueryDto {
   @MaxLength(128)
   q?: string
 }
+
+/** 题库库存统计口径 */
+export class HsMathInventoryStatsQueryDto {
+  /**
+   * drawable = formal+approved+is_active（默认可抽题）
+   * all_formal = pool=formal 全部状态（含 draft/disabled）
+   */
+  @IsOptional()
+  @IsIn(['drawable', 'all_formal'])
+  scope?: 'drawable' | 'all_formal'
+}

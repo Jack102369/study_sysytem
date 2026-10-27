@@ -1,5 +1,21 @@
 <template>
-  <div ref="rootEl" v-if="pet.petEnabled" class="pet-root" :style="rootStyle">
+  <!-- 隐藏后只留角落恢复钮，避免挡表格；与设置页「显示伙伴」同源 -->
+  <button
+    v-if="prefsReady && !pet.petEnabled"
+    type="button"
+    class="pet-restore"
+    title="显示学习伙伴"
+    @click="onShowPet"
+  >
+    伙伴
+  </button>
+
+  <div
+    ref="rootEl"
+    v-else-if="prefsReady && pet.petEnabled"
+    class="pet-root"
+    :style="rootStyle"
+  >
     <div class="stack">
       <PetBubble class="bubble" :text="pet.bubble?.text" />
       <div class="row" :class="chatPlacement === 'right' ? 'chat-on-right' : 'chat-on-left'">
@@ -22,6 +38,7 @@
             ref="avatarRef"
             :skin-id="pet.skinId"
             :action="pet.action"
+            @hide="onHidePet"
           />
           <div class="tools" @pointerdown.stop @click.stop @dblclick.stop @wheel.stop>
             <el-tooltip
@@ -93,6 +110,8 @@ const GAP = 10
 const MARGIN = 8
 
 const pet = usePetStore()
+/** 等 prefs 拉取后再决定显示伙伴还是恢复钮，避免闪一下 */
+const prefsReady = computed(() => pet.prefsLoaded)
 const rootEl = ref<HTMLElement | null>(null)
 const chatRef = ref<{ sendExternal: (t: string) => Promise<void> } | null>(null)
 const avatarRef = ref<{
@@ -382,6 +401,24 @@ function onCelebrate() {
   pet.requestCelebration({ line: '恭喜答对了！太棒了，继续保持！' })
 }
 
+async function onHidePet() {
+  if (pet.listening) wake.stop({ submit: false })
+  if (pet.panelOpen) pet.closePanel()
+  if (pet.celebrating) {
+    avatarRef.value?.closeCelebration()
+    pet.celebrating = false
+    stopCelebrateBgm()
+  }
+  stopPetSpeech()
+  await pet.setPetEnabled(false)
+}
+
+async function onShowPet() {
+  unlockPetSpeech()
+  await pet.setPetEnabled(true)
+  pet.emitPetEvent('welcome', { force: true })
+}
+
 watch(
   () => pet.panelOpen,
   (open) => {
@@ -428,6 +465,28 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
+.pet-restore {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 4000;
+  min-width: 52px;
+  height: 52px;
+  padding: 0 12px;
+  border: 1px solid color-mix(in srgb, var(--el-color-primary) 45%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--el-bg-color-overlay, #1a1a1a) 88%, transparent);
+  color: var(--el-color-primary);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(8px);
+}
+.pet-restore:hover {
+  background: color-mix(in srgb, var(--el-color-primary) 18%, var(--el-bg-color-overlay, #1a1a1a));
+}
 .pet-root {
   position: fixed;
   z-index: 4000;

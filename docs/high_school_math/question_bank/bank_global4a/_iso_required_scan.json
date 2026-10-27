@@ -1,0 +1,136 @@
+{
+  "n": 13,
+  "missing": [],
+  "items": [
+    {
+      "code": "CAND-G4A-034",
+      "chapterNo": 8,
+      "svg": "CAND-G4A-034.svg",
+      "png": "CAND-G4A-034.png",
+      "sha256_svg": "a34038d4b25eadce7610c95db5372c53ea7e5016d61d8eb9abbf73270563a0d7",
+      "sha256_png": "69a6c44d6cc8433ddd36dec24de7e8703a43cec49122cc2d4d1ae781a7f0152e",
+      "hasSvg": true,
+      "hasPng": true
+    },
+    {
+      "code": "CAND-G4A-075",
+      "chapterNo": 8,
+      "svg": "CAND-G4A-075.svg",
+      "png": "CAND-G4A-075.png",
+      "sha256_svg": "cf3e5dbf55f824750b73a805dcbaa4842ec20beab0b69cf7accc2a6710695457",
+      "sha256_png": "6f0b4355d048988b404ff5b65745d11de818e445f016cf9b40acc2e965139551",
+      "hasSvg": true,
+      "hasPng": true
+    },
+    {
+      "code": "CAND-G4A-124",
+      "chapterNo": 6,
+      "svg": "CAND-G4A-124.svg",
+      "png": "CAND-G4A-124.png",
+      "sha256_svg": "ccb6fcf84969c29cf2c38d37b114e4823f2e55634bb71342c29efbea2b23a693",
+      "sha256_png": "a3c9cade8a0c761dd63ab17b1ac87dda65e32ae01652c08a51433ce8bd74708e",
+      "hasSvg": true,
+      "hasPng": true
+    },
+    {
+      "code": "CAND-G4A-133",
+      "chapterNo": 8,
+      "svg": "CAND-G4A-133.svg",
+      "png": "CAND-G4A-133.png",
+      "sha256_svg": "f1c35384dce8863d26f651eb09cc8329f4644b43ac8d63ccc25efa65cbc41aba",
+      "sha256_png": "d80d6e82e5c963042bd0af98f9f037473b110bf500684b4da71da2ddc27d38e7",
+      "hasSvg": true,
+      "hasPng": true
+    },
+    {
+      "code": "CAND-G4A-180",
+      "chapterNo": 8,
+      "svg": "CAND-G4A-180.svg",
+      "png": "CAND-G4A-180.png",
+      "sha256_svg": "5379b441f125793a92343e890fe3bcd6114f650c925fad9bcc6401aff4df500a",
+      "sha256_png": "5e85367900db5a153394e8120aa396c96297cd8860ce812521d865ab97846ee4",
+      "hasSvg": true,
+      "hasPng": true
+    },
+    {
+      "code": "CAND-G4A-243",
+      "chapterNo": 8,
+      "svg": "CAND-G4A-243.svg",
+      "png": "CAND-G4A-243.png",
+      "sha256_svg": "0f36dc57778982994ae2a6e08abbea37d19901799b47c2c7269acb81cec752db",
+      "sha256_png": "858cfdf3be72272bb23c8525f8f39266cb284350297d785b65ab1c6717277397",
+      "hasSvg": true,
+      "hasPng": true
+    },
+    {
+      "code": "CAND-G4A-246",
+      "chapterNo": 6,
+      "svg": "CAND-G4A-246.svg",
+      "png": "CAND-G4A-246.png",
+      "sha256_svg": "6a13e4191afa0981858c8e197fb2d96428e4dedb8ba06358ac83ba032f5fd1cb",
+      "sha256_png": "89bf193af14193739b483b41d34edbc548167470c7cf6b976c8526cbce6e7aef",
+      "hasSvg": true,
+      "hasPng": true
+    },
+    {
+      "code": "CAND-G4A-256",
+      "chapterNo": 6,
+      "svg": "CAND-G4A-256.svg",
+      "png": "CAND-G4A-256.png",
+      "sha256_svg": "db1689a83f1ae3f7deefb97f3818b7aeaf49c754ab037ee6b423cbee6fbc232d",
+      "sha256_png": "c58845b09a76b6f5d9416145a72eee91589ecc84a8444a6df73bf69f931de6a3",
+      "hasSvg": true,
+      "hasPng": true
+    },
+    {
+      "code": "CAND-G4A-259",
+      "chapterNo": 8,
+      "svg": "CAND-G4A-259.svg",
+      "png": "CAND-G4A-259.png",
+      "sha256_svg": "23ae2a903375564ecada26aba2c33890b127cff53c348e3c3371798bf72e1446",
+      "sha256_png": "a49e24674a61f917d6649515c3f14af6b7db29744cf7837d0b2238a891086c55",
+      "hasSvg": true,
+      "hasPng": true
+    },
+    {
+      "code": "CAND-G4A-284",
+      "chapterNo": 8,
+      "svg": "CAND-G4A-284.svg",
+      "png": "CAND-G4A-284.png",
+      "sha256_svg": "3c3876adacc2f72cb7ee8f43e3c8cd56d6ef2a8ed5663a58963f58f355841df9",
+      "sha256_png": "ad9122ff44dcf493cd810d0d8fcf96d6174e3a8d91c27b89859d5877b30e95e6",
+      "hasSvg": true,
+      "hasPng": true
+    },
+    {
+      "code": "CAND-G4A-288",
+      "chapterNo": 6,
+      "svg": "CAND-G4A-288.svg",
+      "png": "CAND-G4A-288.png",
+      "sha256_svg": "7b8bf5a72ede6ded72b6aef117fa09f63fd40393f31019b6c6b3e83649a9611f",
+      "sha256_png": "48067b69128416f05c837bbc3a6d2a690900e9b326a314f437c0e36b1ae360e4",
+      "hasSvg": true,
+      "hasPng": true
+    },
+    {
+      "code": "CAND-G4A-333",
+      "chapterNo": 5,
+      "svg": "CAND-G4A-333.svg",
+      "png": "CAND-G4A-333.png",
+      "sha256_svg": "b03edc21eaf4c8f775b23852eb7b55b04098c141e6354ced13502e6d97ec72fa",
+      "sha256_png": "c6d801878ef280d86c3f4f4a01543b09da7959c6857cc5ad70687499d02e42ca",
+      "hasSvg": true,
+      "hasPng": true
+    },
+    {
+      "code": "CAND-G4A-405",
+      "chapterNo": 8,
+      "svg": "CAND-G4A-405.svg",
+      "png": "CAND-G4A-405.png",
+      "sha256_svg": "b8f45bbf88a9f5df156d9c57e58329966f1cd9c98a3cf6f4eee66501766fc024",
+      "sha256_png": "cbb8cd7c7baa926e4389bc85b440139ee8f3b98b56911d6e1b4d9014de376b21",
+      "hasSvg": true,
+      "hasPng": true
+    }
+  ]
+}

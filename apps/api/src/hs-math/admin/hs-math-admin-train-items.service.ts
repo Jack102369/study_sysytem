@@ -20,6 +20,7 @@ import {
 } from '../dto/admin-train-item-methods.dto'
 import {
   CreateHsMathTrainItemDto,
+  HsMathInventoryStatsQueryDto,
   ListHsMathTrainItemsQueryDto,
   PatchHsMathTrainItemStatusDto,
   UpdateHsMathTrainItemDto,
@@ -121,6 +122,188 @@ export class HsMathAdminTrainItemsService {
       total,
       page,
       pageSize,
+    }
+  }
+
+  /**
+   * 题库库存结构统计（ADMIN 只读）。
+   * 默认 scope=drawable：formal + approved + is_active。
+   */
+  async getInventoryStats(query: HsMathInventoryStatsQueryDto) {
+    const scope = query.scope ?? 'drawable'
+    const qbBase = this.itemsRepo
+      .createQueryBuilder('i')
+      .where('i.pool = :pool', { pool: 'formal' })
+    if (scope === 'drawable') {
+      qbBase
+        .andWhere('i.status = :status', { status: 'approved' })
+        .andWhere('i.is_active = 1')
+    }
+
+    const total = await qbBase.clone().getCount()
+
+    const byDifficultyRaw = await qbBase
+      .clone()
+      .select('i.difficulty', 'difficulty')
+      .addSelect('COUNT(1)', 'n')
+      .groupBy('i.difficulty')
+      .orderBy('i.difficulty', 'ASC')
+      .getRawMany<{ difficulty: string; n: string }>()
+
+    const byQtypeRaw = await qbBase
+      .clone()
+      .select('i.qtype', 'qtype')
+      .addSelect('COUNT(1)', 'n')
+      .groupBy('i.qtype')
+      .orderBy('i.qtype', 'ASC')
+      .getRawMany<{ qtype: string; n: string }>()
+
+    const scopedJoin = () => {
+      const qb = this.itemsRepo
+        .createQueryBuilder('i')
+        .where('i.pool = :pool', { pool: 'formal' })
+      if (scope === 'drawable') {
+        qb.andWhere('i.status = :status', { status: 'approved' }).andWhere(
+          'i.is_active = 1',
+        )
+      }
+      return qb
+    }
+
+    const bySpecialtyRaw = await scopedJoin()
+      .innerJoin(HsMathSpecialty, 's', 's.id = i.specialty_id')
+      .select('s.id', 'specialtyId')
+      .addSelect('s.code', 'specialtyCode')
+      .addSelect('s.name', 'specialtyName')
+      .addSelect('COUNT(1)', 'n')
+      .groupBy('s.id')
+      .addGroupBy('s.code')
+      .addGroupBy('s.name')
+      .addGroupBy('s.sortOrder')
+      .orderBy('s.sortOrder', 'ASC')
+      .addOrderBy('s.id', 'ASC')
+      .getRawMany<{
+        specialtyId: string
+        specialtyCode: string
+        specialtyName: string
+        n: string
+      }>()
+
+    const bySectionRaw = await scopedJoin()
+      .innerJoin(HsMathSpecialty, 's', 's.id = i.specialty_id')
+      .innerJoin(HsMathCategory, 'c', 'c.id = i.category_id')
+      .select('s.code', 'specialtyCode')
+      .addSelect('s.name', 'specialtyName')
+      .addSelect('c.id', 'categoryId')
+      .addSelect('c.code', 'sectionCode')
+      .addSelect('c.name', 'sectionName')
+      .addSelect('COUNT(1)', 'n')
+      .groupBy('s.code')
+      .addGroupBy('s.name')
+      .addGroupBy('c.id')
+      .addGroupBy('c.code')
+      .addGroupBy('c.name')
+      .addGroupBy('s.sortOrder')
+      .addGroupBy('c.sortOrder')
+      .orderBy('s.sortOrder', 'ASC')
+      .addOrderBy('c.sortOrder', 'ASC')
+      .addOrderBy('c.id', 'ASC')
+      .getRawMany<{
+        specialtyCode: string
+        specialtyName: string
+        categoryId: string
+        sectionCode: string
+        sectionName: string
+        n: string
+      }>()
+
+    const crossRaw = await qbBase
+      .clone()
+      .select('i.difficulty', 'difficulty')
+      .addSelect('i.qtype', 'qtype')
+      .addSelect('COUNT(1)', 'n')
+      .groupBy('i.difficulty')
+      .addGroupBy('i.qtype')
+      .orderBy('i.difficulty', 'ASC')
+      .addOrderBy('i.qtype', 'ASC')
+      .getRawMany<{ difficulty: string; qtype: string; n: string }>()
+
+    const specialtyByDifficultyRaw = await scopedJoin()
+      .innerJoin(HsMathSpecialty, 's', 's.id = i.specialty_id')
+      .select('s.code', 'specialtyCode')
+      .addSelect('s.name', 'specialtyName')
+      .addSelect('i.difficulty', 'difficulty')
+      .addSelect('COUNT(1)', 'n')
+      .groupBy('s.code')
+      .addGroupBy('s.name')
+      .addGroupBy('i.difficulty')
+      .addGroupBy('s.sortOrder')
+      .orderBy('s.sortOrder', 'ASC')
+      .addOrderBy('i.difficulty', 'ASC')
+      .getRawMany<{
+        specialtyCode: string
+        specialtyName: string
+        difficulty: string
+        n: string
+      }>()
+
+    const pct = (n: number) => (total > 0 ? Math.round((n / total) * 1000) / 10 : 0)
+
+    const byDifficulty = byDifficultyRaw.map((r) => {
+      const n = Number(r.n)
+      return { difficulty: Number(r.difficulty), n, percent: pct(n) }
+    })
+    const byQtype = byQtypeRaw.map((r) => {
+      const n = Number(r.n)
+      return { qtype: r.qtype, n, percent: pct(n) }
+    })
+    const bySpecialty = bySpecialtyRaw.map((r) => {
+      const n = Number(r.n)
+      return {
+        specialtyId: String(r.specialtyId),
+        specialtyCode: r.specialtyCode,
+        specialtyName: r.specialtyName,
+        n,
+        percent: pct(n),
+      }
+    })
+    const bySection = bySectionRaw.map((r) => {
+      const n = Number(r.n)
+      return {
+        specialtyCode: r.specialtyCode,
+        specialtyName: r.specialtyName,
+        categoryId: String(r.categoryId),
+        sectionCode: r.sectionCode,
+        sectionName: r.sectionName,
+        n,
+        percent: pct(n),
+      }
+    })
+    const crossDifficultyQtype = crossRaw.map((r) => ({
+      difficulty: Number(r.difficulty),
+      qtype: r.qtype,
+      n: Number(r.n),
+    }))
+    const specialtyByDifficulty = specialtyByDifficultyRaw.map((r) => ({
+      specialtyCode: r.specialtyCode,
+      specialtyName: r.specialtyName,
+      difficulty: Number(r.difficulty),
+      n: Number(r.n),
+    }))
+
+    return {
+      scope,
+      total,
+      note:
+        scope === 'drawable'
+          ? '口径：pool=formal AND status=approved AND is_active=1（可抽取正式题）'
+          : '口径：pool=formal（含 draft/disabled 等）',
+      byDifficulty,
+      byQtype,
+      bySpecialty,
+      bySection,
+      crossDifficultyQtype,
+      specialtyByDifficulty,
     }
   }
 

@@ -1,0 +1,125 @@
+{
+  "verifiedAt": "2026-10-27T02:42:25.321Z",
+  "db": "study_system",
+  "drawable": 313,
+  "g4aExisting": 0,
+  "byChapter": {
+    "rja-ch1": {
+      "now": 17,
+      "target": 180,
+      "gap": 163
+    },
+    "rja-ch2": {
+      "now": 30,
+      "target": 300,
+      "gap": 270
+    },
+    "rja-ch3": {
+      "now": 52,
+      "target": 360,
+      "gap": 308
+    },
+    "rja-ch4": {
+      "now": 43,
+      "target": 420,
+      "gap": 377
+    },
+    "rja-ch5": {
+      "now": 52,
+      "target": 480,
+      "gap": 428
+    },
+    "rjb-ch1": {
+      "now": 43,
+      "target": 420,
+      "gap": 377
+    },
+    "rjb-ch2": {
+      "now": 11,
+      "target": 120,
+      "gap": 109
+    },
+    "rjb-ch3": {
+      "now": 38,
+      "target": 420,
+      "gap": 382
+    },
+    "rjb-ch4": {
+      "now": 11,
+      "target": 180,
+      "gap": 169
+    },
+    "rjb-ch5": {
+      "now": 16,
+      "target": 240,
+      "gap": 224
+    }
+  },
+  "chapterGapSum": 2807,
+  "chapterAllocHint500": {
+    "rja-ch1": 29,
+    "rja-ch2": 48,
+    "rja-ch3": 55,
+    "rja-ch4": 67,
+    "rja-ch5": 76,
+    "rjb-ch1": 67,
+    "rjb-ch2": 20,
+    "rjb-ch3": 68,
+    "rjb-ch4": 30,
+    "rjb-ch5": 40
+  },
+  "byDifficulty": {
+    "1": {
+      "now": 116,
+      "target": 1092,
+      "gap": 976
+    },
+    "2": {
+      "now": 122,
+      "target": 1248,
+      "gap": 1126
+    },
+    "3": {
+      "now": 75,
+      "target": 780,
+      "gap": 705
+    }
+  },
+  "difficultyAllocHint500": {
+    "1": 175,
+    "2": 200,
+    "3": 125
+  },
+  "difficultyAllocByGap500": {
+    "1": 174,
+    "2": 200,
+    "3": 126
+  },
+  "suggestedDifficultyPlan": {
+    "1": 175,
+    "2": 200,
+    "3": 125
+  },
+  "byQtype": {
+    "single": 102,
+    "judge": 38,
+    "multi": 38,
+    "numeric": 60,
+    "application": 75
+  },
+  "suggestedQtypePlan": {
+    "single": 150,
+    "multi": 75,
+    "judge": 50,
+    "numeric": 100,
+    "application": 125
+  },
+  "finalQtypeTargetsApprox": {
+    "single": 936,
+    "multi": 468,
+    "judge": 312,
+    "numeric": 624,
+    "application": 780
+  },
+  "remainingTo3120": 2807
+}

@@ -1,0 +1,30 @@
+{
+  "replacedN": 67,
+  "errN": 6,
+  "errors": [
+    {
+      "id": "CAND-G4A-069",
+      "err": "NO_UNIQUE"
+    },
+    {
+      "id": "CAND-G4A-237",
+      "err": "NO_UNIQUE"
+    },
+    {
+      "id": "CAND-G4A-344",
+      "err": "NO_UNIQUE"
+    },
+    {
+      "id": "CAND-G4A-381",
+      "err": "NO_UNIQUE"
+    },
+    {
+      "id": "CAND-G4A-400",
+      "err": "NO_UNIQUE"
+    },
+    {
+      "id": "CAND-G4A-425",
+      "err": "NO_UNIQUE"
+    }
+  ]
+}

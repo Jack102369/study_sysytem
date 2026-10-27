@@ -1,0 +1,1827 @@
+{
+  "batch": "GLOBAL-4C-D3-CLASSIFY",
+  "summary": {
+    "total": 125,
+    "REWRITE_HARD": 55,
+    "ENRICH_OR_REWRITE": 55,
+    "KEEP_ATTACH_HP": 15,
+    "byQtypeRewrite": {
+      "judge": 16,
+      "single": 13,
+      "multi": 10,
+      "numeric": 16
+    }
+  },
+  "inventory": [
+    {
+      "id": "CAND-G4A-002",
+      "chapterNo": 9,
+      "qtype": "judge",
+      "kpCode": "rjb.9.1.02",
+      "oldSha": "fc6762a90ce24f1f41a00dbe42835c69bde279395562e38978c1b21b18f448e2",
+      "stemPreview": "判断：样本平均数可用于估计总体平均数。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE",
+        "SHORT_ANALYSIS",
+        "WEAK_PATTERN"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-004",
+      "chapterNo": 4,
+      "qtype": "single",
+      "kpCode": "rja.4.1.04",
+      "oldSha": "230e3f60df228bd6bcdc9872c61695006d6bf929503c4f778e4e487cb97f1a34",
+      "stemPreview": "下列选项中，二分法依据",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM",
+        "BOILERPLATE",
+        "WEAK_PATTERN"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-016",
+      "chapterNo": 6,
+      "qtype": "numeric",
+      "kpCode": "rjb.6.4.03",
+      "oldSha": "d7836563b755f346ffd2f1f7e47d43bbbb5c9eecb0e46a9ef60cf4cc74ee83db",
+      "stemPreview": "设 $|\\vec a|=4$，$|\\vec b|=4$，$\\vec a\\cdot\\vec b=4$。则 $|\\vec a+\\vec b|^{2}=$",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-021",
+      "chapterNo": 4,
+      "qtype": "single",
+      "kpCode": "rja.4.1.02",
+      "oldSha": "785358b722ec7c12b65139d1d7fdd5684e7e3d52e744f36866207dc0d82d56bd",
+      "stemPreview": "$\\log_2 2=$",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM",
+        "BOILERPLATE",
+        "WEAK_PATTERN",
+        "TRIVIAL_LOG"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-025",
+      "chapterNo": 9,
+      "qtype": "judge",
+      "kpCode": "rjb.9.2.02",
+      "oldSha": "ab97ff308327b564996db6bd7db5d868cfd76cf87a8837df25e8166885a532c4",
+      "stemPreview": "判断：线性回归方程一定经过每一个样本点。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE",
+        "SHORT_ANALYSIS",
+        "WEAK_PATTERN"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-027",
+      "chapterNo": 2,
+      "qtype": "single",
+      "kpCode": "rja.2.1.01",
+      "oldSha": "0e14357994e728187c64abf20d5bdd3944a6a755e2aac9ba7f4a43a07d3c6c03",
+      "stemPreview": "若关于 $x$ 的不等式 $x^2-(2m+1)x+m(m+1)<0$ 的解集为 $(m,m+1)$，则实数 $m$ 的值为",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-034",
+      "chapterNo": 8,
+      "qtype": "single",
+      "kpCode": "rjb.8.2.02",
+      "oldSha": "9cd4480b4269f8363e2e55c3b8f43619418672831f9b4cdb2cbef560424b992c",
+      "stemPreview": "在正方体 $ABCD-A_1B_1C_1D_1$ 中，下列结论正确的是",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-036",
+      "chapterNo": 4,
+      "qtype": "multi",
+      "kpCode": "rja.4.5.02",
+      "oldSha": "238fe40546bca74f159bfc60185b8de81a59fcd9cb434f6af55e71ff601cda22",
+      "stemPreview": "设 $0<a<1$。正确的有（多选）",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-043",
+      "chapterNo": 8,
+      "qtype": "judge",
+      "kpCode": "rjb.8.6.01",
+      "oldSha": "f427b97a7abb6b093cc95938e658c00cdd9e3f8b6a47560ccd78e8ad98cc62d7",
+      "stemPreview": "判断：若直线 $l$ 与平面 $\\alpha$ 内一条直线平行，则一定有 $l\\parallel\\alpha$。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-046",
+      "chapterNo": 2,
+      "qtype": "single",
+      "kpCode": "rja.2.2.03",
+      "oldSha": "30752c40fef15309571db7344cb0f639e83d74347e1b7237217a7a3f86cd17c1",
+      "stemPreview": "若不等式 $x^{2}-(2m+1)x+m(m+1)<0$ 的解集为 $(m,m+1)$，则",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-048",
+      "chapterNo": 8,
+      "qtype": "judge",
+      "kpCode": "rjb.8.2.01",
+      "oldSha": "23a0a9e6e6c9ce9b44338065db245844ae9fa77faa92cbd6cf474cb799b7213a",
+      "stemPreview": "判断：圆锥体积公式含系数 $\\dfrac13$。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE",
+        "SHORT_ANALYSIS",
+        "BOILERPLATE",
+        "WEAK_PATTERN"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-051",
+      "chapterNo": 1,
+      "qtype": "multi",
+      "kpCode": "rja.1.3.01",
+      "oldSha": "8661ce9a86c7e251271d80e70a5b252c26a31204eab726ed6e086a6e9c61e521",
+      "stemPreview": "设 $A,B$ 为全集 $U$ 的子集。正确的有（多选）",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-054",
+      "chapterNo": 3,
+      "qtype": "single",
+      "kpCode": "rja.3.3.01",
+      "oldSha": "ac6ca13e5a282ad6f63df5af7a4f10bf6d8bb9fa6e5265d74b06404c8f6e43f9",
+      "stemPreview": "设 $f(x)$ 是定义在 $\\mathbb{R}$ 上的奇函数，且当 $x>0$ 时 $f(x)=x+\\dfrac{5}{x}$。则 $f(-5)=$",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-066",
+      "chapterNo": 3,
+      "qtype": "application",
+      "kpCode": "rja.3.1.04",
+      "oldSha": "62b7a6d36e571b03a62f85d1a3c615fa82384b8c00ba48f0d9bb5c2f85397723",
+      "stemPreview": "已知 f 奇，$x>0$ 时 $f(x)=x+\\dfrac{2}{x}$。\n（1）说明奇偶性；（2）求 f(-a)。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-069",
+      "chapterNo": 4,
+      "qtype": "multi",
+      "kpCode": "rja.4.3.04",
+      "oldSha": "847cb6af97877627aa35babad9443ece83281a67351a9db1a3318e2a86126fba",
+      "stemPreview": "下列选项中，换底公式用于（多选）",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-071",
+      "chapterNo": 3,
+      "qtype": "single",
+      "kpCode": "rja.3.1.09",
+      "oldSha": "d61f89ebb2f150e1b13f6839de6ff2c3c941f4f3a0e22e8f84e88de7bc165aba",
+      "stemPreview": "设 $f$ 是定义在 $\\mathbb{R}$ 上的奇函数，且当 $x>0$ 时 $f(x)=x+\\dfrac{3}{x}$。则 $f(-3)=$",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-072",
+      "chapterNo": 3,
+      "qtype": "single",
+      "kpCode": "rja.3.1.10",
+      "oldSha": "f751d5568e9a57e52df6247fc7d39ff390b6e60b33215fdc94a483cee131fac0",
+      "stemPreview": "下列为奇函数的是",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-087",
+      "chapterNo": 3,
+      "qtype": "application",
+      "kpCode": "rja.3.3.03",
+      "oldSha": "ce5996a92b91c07d08a94b7890beb1e306862fdfb2b8b873b9b3654eb563307e",
+      "stemPreview": "商品进价 10，售价 x（10<x<40）时日销 (40-x)。\n（1）日利润 L(x)；（2）最大利润及售价。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-088",
+      "chapterNo": 3,
+      "qtype": "application",
+      "kpCode": "rja.3.3.04",
+      "oldSha": "969f31e9a1e42ae8f8dfc5184b7285c0638dfbb6fcc0366475c00f3e4abff3d0",
+      "stemPreview": "分段 $f(x)=\\begin{cases}2x+1,&x<1\\\\x^2-2,&x\\ge1\\end{cases}$\n（1）求 f(0)+f(3)；（2）若 f(t)=7 求 t。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-089",
+      "chapterNo": 5,
+      "qtype": "judge",
+      "kpCode": "rja.5.1.01",
+      "oldSha": "bac63d5a9d567bf9e8979e83abf283981fba2e6cf20eecff08fedf65a27fa493",
+      "stemPreview": "判断：对任意实数 $\\theta$，都有 $\\sin(\\pi-\\theta)=\\sin\\theta$。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE",
+        "WEAK_PATTERN"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-103",
+      "chapterNo": 1,
+      "qtype": "single",
+      "kpCode": "rja.1.5.01",
+      "oldSha": "d489fcba2e24d48d92e00cf081156eeecdc6f9688bd76b70515d733e5937b07b",
+      "stemPreview": "设全集 $U=\\{x\\in\\mathbb{Z}\\mid 1\\le x\\le 9\\}$，$A=\\{x\\in U\\mid x\\text{ 为偶数}\\}$，$B=\\{x\\in U\\mid x\\text{ 为",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-105",
+      "chapterNo": 3,
+      "qtype": "application",
+      "kpCode": "rja.3.2.02",
+      "oldSha": "437e7722f51dfb5f7893c7f33500932b465f48c6e74fdde2f11b405688915ee7",
+      "stemPreview": "设 $f(x)=x+\\dfrac{1}{x}$（$x\\ge 1$）。\n（1）判断单调性；（2）求最小值。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-119",
+      "chapterNo": 5,
+      "qtype": "single",
+      "kpCode": "rja.5.3.03",
+      "oldSha": "01f69250230100cb1ff7a4bce5dfe959cb019f95fc0cbd4974eb02711434d3ab",
+      "stemPreview": "函数 $y=3\\sin x+4\\cos x$ 的最大值是",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-130",
+      "chapterNo": 5,
+      "qtype": "judge",
+      "kpCode": "rja.5.7.01",
+      "oldSha": "11a181d08902fd7027103d0cb5162307a58f024230e4f50052cdd4fbd0161dab",
+      "stemPreview": "判断：$\\cos(-x)=\\cos x$。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE",
+        "SHORT_ANALYSIS",
+        "BOILERPLATE",
+        "WEAK_PATTERN"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-132",
+      "chapterNo": 2,
+      "qtype": "judge",
+      "kpCode": "rja.2.1.02",
+      "oldSha": "f2456aef76139f4c99a59debcf295bf023279728697710b75ce452cedafa7e06",
+      "stemPreview": "判断：对任意实数 $x\\ne 0$，都有 $x+\\dfrac{1}{x}\\ge 2$。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE",
+        "SHORT_ANALYSIS"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-133",
+      "chapterNo": 8,
+      "qtype": "single",
+      "kpCode": "rjb.8.6.01",
+      "oldSha": "237e9165767f92205cfa46501598f0e35982639e347f942810fb60817cf130c9",
+      "stemPreview": "在正方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$BD_{1}$ 与平面 $A_{1}C_{1}D$ 的位置关系是",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-135",
+      "chapterNo": 3,
+      "qtype": "single",
+      "kpCode": "rja.3.2.01",
+      "oldSha": "a2ee8ae0b7e8cfff8e3d189ff8c78783e01988d098b7023b08dade42aba10ec4",
+      "stemPreview": "函数在某区间单调递减意味着",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM",
+        "BOILERPLATE"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-140",
+      "chapterNo": 8,
+      "qtype": "multi",
+      "kpCode": "rjb.8.3.01",
+      "oldSha": "e15b46f2f9bec277fd3881f37bf0325a4bbe56a2a9a266a062de391cdd37a7ca",
+      "stemPreview": "下列条件中，能判定直线 $l\\parallel$ 平面 $\\alpha$ 的有（多选）",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-142",
+      "chapterNo": 5,
+      "qtype": "judge",
+      "kpCode": "rja.5.4.01",
+      "oldSha": "d6b8a89c8f5753d36a04624906fd4ee3c9a3cc2704d7a8d8d5b0e9d060e1a31c",
+      "stemPreview": "判断：振幅可为负数。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE",
+        "SHORT_ANALYSIS",
+        "WEAK_PATTERN"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-144",
+      "chapterNo": 4,
+      "qtype": "application",
+      "kpCode": "rja.4.3.03",
+      "oldSha": "2a37b07011c48344f1e6bab6eca43fb99e1c2957fed4f7716588bd6cf36412b7",
+      "stemPreview": "设 $f(x)=2^x-3$。\n（1）说明 $f$ 在 $\\mathbb{R}$ 上单调递增；\n（2）用二分法思想指出方程 $2^x=3$ 的正根所在的一个长度不超过 $0.5$ 的区间。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-152",
+      "chapterNo": 4,
+      "qtype": "judge",
+      "kpCode": "rja.4.5.04",
+      "oldSha": "652b81976c2cf78e56a3a645ede2edd3a9c9a0334b1957e0a971c9387d33557a",
+      "stemPreview": "判断：奇函数 $f$ 若在 $(0,+\\infty)$ 递增，则在 $(-\\infty,0)$ 也递增。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE",
+        "SHORT_ANALYSIS"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-155",
+      "chapterNo": 2,
+      "qtype": "numeric",
+      "kpCode": "rja.2.3.04",
+      "oldSha": "868a1abcc7c243c6ebf009475198b23f46f13d4dd161456a154b4c020023eaf1",
+      "stemPreview": "正实数 $x,y$ 满足 $x+y=8$ 且 $xy=16$。则 $x^{2}+y^{2}=$",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-157",
+      "chapterNo": 6,
+      "qtype": "single",
+      "kpCode": "rjb.6.1.04",
+      "oldSha": "6bb0e605713623cf0d13b6a434919b6f6c8f7f8d80f813846fafe66d59e5a472",
+      "stemPreview": "概念辨析：力与位移数量积表示",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM",
+        "BOILERPLATE",
+        "WEAK_PATTERN"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-171",
+      "chapterNo": 8,
+      "qtype": "single",
+      "kpCode": "rjb.8.3.02",
+      "oldSha": "f9cf563994287fc29ec325a153208af39ce338711bd2edf6dcb81f9384b97053",
+      "stemPreview": "面面平行的一个判定是",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-174",
+      "chapterNo": 7,
+      "qtype": "numeric",
+      "kpCode": "rjb.7.3.01",
+      "oldSha": "2ef837af9aff9a163d5abb4173883233d09f56bfff413af0c7b7f09c46f222d6",
+      "stemPreview": "计算 $\\dfrac{2-\\mathrm{i}}{1+\\mathrm{i}}$ 得 $a+b\\mathrm{i}$，则 $a+b=$",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-180",
+      "chapterNo": 8,
+      "qtype": "application",
+      "kpCode": "rjb.8.6.03",
+      "oldSha": "42fecba85719618d500c3a86c9e922bca6f2a276ff77b8f9c230a5d7f1be437b",
+      "stemPreview": "圆柱（底面半径 $3$，高 $5$）上叠放同底圆锥（高 $5$）。求组合体体积（含 $\\pi$）。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-191",
+      "chapterNo": 8,
+      "qtype": "application",
+      "kpCode": "rjb.8.5.01",
+      "oldSha": "c02e814ad94dc686a5b832129d0ecf0dc8306231bec3d56f4b7cdac60f01a79e",
+      "stemPreview": "在正方体 ABCD-A1B1C1D1 中证明 BD1 ⊥ 平面 A1C1D（写出关键步骤）。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-194",
+      "chapterNo": 6,
+      "qtype": "numeric",
+      "kpCode": "rjb.6.2.03",
+      "oldSha": "a5644802a556d1220a2274124b7b29b8eda647f13cf4b657f4ed050a95d7c99e",
+      "stemPreview": "F=(6,8)，s=(3,0)，W=F·s=",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-202",
+      "chapterNo": 5,
+      "qtype": "single",
+      "kpCode": "rja.5.2.01",
+      "oldSha": "d9c56ea4b83cc95722d24477c84135e583c3110afb9e68626a3cf08be4150071",
+      "stemPreview": "$y=3\\sin x+4\\cos x$ 的最大值是",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-207",
+      "chapterNo": 9,
+      "qtype": "application",
+      "kpCode": "rjb.9.2.02",
+      "oldSha": "0eeb9a7a06a58fa8584906a7d9bff1302fa932c22f0e7286259103066e3d309a",
+      "stemPreview": "样本1,3 用1/n方差。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-216",
+      "chapterNo": 5,
+      "qtype": "single",
+      "kpCode": "rja.5.6.02",
+      "oldSha": "afd5ab565dedb8daa7db40c937966d0d41a636d47c2fc7e81dac0b7f9c0ce439",
+      "stemPreview": "同角关系 $\\sin^2\\theta+\\cos^2\\theta=$",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-220",
+      "chapterNo": 4,
+      "qtype": "application",
+      "kpCode": "rja.4.3.03",
+      "oldSha": "b5d088c4a5431f57fddf56469ad37f95ebe10ff88e31da24fb3fcb4949b3e3d3",
+      "stemPreview": "某菌群 $n(t)=80\\cdot 2^{t/2}$（$t$ 为小时）。\n（1）求 $t=4$ 时的数量；（2）求使 $n(t)=640$ 的 $t$。",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-221",
+      "chapterNo": 1,
+      "qtype": "numeric",
+      "kpCode": "rja.1.4.02",
+      "oldSha": "5c81dead83968b59627795cca682f039a5fc0c40a850e3bcdc7a9bf175b77d70",
+      "stemPreview": "全集 $U=\\{1,2,\\ldots,21\\}$，$A=\\{x\\in U\\mid x\\text{ 为偶数}\\}$，$B=\\{x\\in U\\mid x\\text{ 为 }3\\text{ 的倍数}\\}$。",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-222",
+      "chapterNo": 5,
+      "qtype": "single",
+      "kpCode": "rja.5.1.02",
+      "oldSha": "c801453be362b1a38e5c926f67065f82fa5214e5914fcb0c122c5ad6455fc23f",
+      "stemPreview": "把 y=sin x 变成 y=sin(x-π/4) 需要",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-223",
+      "chapterNo": 2,
+      "qtype": "single",
+      "kpCode": "rja.2.1.02",
+      "oldSha": "0662ec4241af9b29c507e45db77f01fc588c876ffe73c92618f6f3b6f2f52e39",
+      "stemPreview": "不能直接用基本不等式的是",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-224",
+      "chapterNo": 6,
+      "qtype": "judge",
+      "kpCode": "rjb.6.1.03",
+      "oldSha": "0559924b73b7bc51c58eef7fc9f5803330b56a0074c8dad1647c42141c467f7f",
+      "stemPreview": "判断：向量 $(\\vec a+\\vec b)\\cdot(\\vec a+\\vec b)=|\\vec a|^{2}+|\\vec b|^{2}+2\\vec a\\cdot\\vec b$。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "SHORT_ANALYSIS",
+        "BOILERPLATE",
+        "WEAK_PATTERN"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-230",
+      "chapterNo": 4,
+      "qtype": "numeric",
+      "kpCode": "rja.4.1.02",
+      "oldSha": "35d1c3038a2146f0f5c0b8ca7c51919c725a5012b23e27fd20c09f02409bbbc5",
+      "stemPreview": "$\\log_{2}(x-1)+\\log_{2}(x+1)=3$（$x>1$），则 $x=$",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-233",
+      "chapterNo": 3,
+      "qtype": "application",
+      "kpCode": "rja.3.2.06",
+      "oldSha": "c78053e355d3f4e83103e887f35ddf71f9f604361ab5943079c92693e3596411",
+      "stemPreview": "设 $f$ 是定义在 $\\mathbb{R}$ 上的偶函数，且当 $x\\ge 0$ 时 $f(x)=x^{2}-3x+1$。\n（1）求 $f(-2)$；\n（2）求 $f$ 在 $[-1,2]$ 上的最",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-235",
+      "chapterNo": 9,
+      "qtype": "single",
+      "kpCode": "rjb.9.2.02",
+      "oldSha": "0f25e923a818265050758ae27668ef9fd0113bcf74f5b299db11d23295ab1ae7",
+      "stemPreview": "抽检 $200$ 件产品发现次品 $8$ 件。用频率估计次品率，并据此估计 $5000$ 件中次品约多少件？应选",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-236",
+      "chapterNo": 2,
+      "qtype": "multi",
+      "kpCode": "rja.2.1.02",
+      "oldSha": "eae02788b9795e297fe1327ae062769844565502c0905eb40ad854c5428f885a",
+      "stemPreview": "若 $p>q$，则一定成立的有（多选）",
+      "reasons": [
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-237",
+      "chapterNo": 9,
+      "qtype": "multi",
+      "kpCode": "rjb.9.3.01",
+      "oldSha": "b412b0a18b6e4e9eca88f3db72bf1d40f2b3b4a906be5203f9802647665d030e",
+      "stemPreview": "下列属于简单随机抽样的有（多选）",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-246",
+      "chapterNo": 6,
+      "qtype": "application",
+      "kpCode": "rjb.6.2.04",
+      "oldSha": "3b3f8006c21ba4cb8a4560b4910d530372fb366c9b58d07608af17ca332b9b2c",
+      "stemPreview": "在平行四边形 $ABCD$ 中，用向量方法证明：对角线 $AC$ 与 $BD$ 互相平分。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-252",
+      "chapterNo": 8,
+      "qtype": "single",
+      "kpCode": "rjb.8.5.02",
+      "oldSha": "c110e0bcd245d9ef6b1070a9f38871388cc079b3f32bb9b144033b143cb6c7c1",
+      "stemPreview": "底面边长 3 的正四棱柱高 4，体积为",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-256",
+      "chapterNo": 6,
+      "qtype": "application",
+      "kpCode": "rjb.6.1.01",
+      "oldSha": "e2030b13dd84f57fe93c4149f58c1ff19f4ba956d0084ea4c461f17cf4c54a0b",
+      "stemPreview": "在 $\\triangle ABC$ 中，$D$、$E$ 分别为 $AB$、$AC$ 中点。用向量证明 $DE\\parallel BC$ 且 $DE=\\dfrac12 BC$。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-257",
+      "chapterNo": 6,
+      "qtype": "multi",
+      "kpCode": "rjb.6.1.02",
+      "oldSha": "194b18bc21410d64e3c3fa4ab8b4cacba976dc365d114624c844c2f7ed47362a",
+      "stemPreview": "设 $\\vec a=(x_{1},y_{1})$，$\\vec b=(x_{2},y_{2})\\ne\\vec 0$。正确的有（多选）",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-259",
+      "chapterNo": 8,
+      "qtype": "numeric",
+      "kpCode": "rjb.8.2.02",
+      "oldSha": "a2c55951dc8b74fc44a001cc27c88e4ced074bdf3465115c0d0e44f44c015b7d",
+      "stemPreview": "圆柱底面半径 $3$、高 $7$，其上同底叠放高 $4$ 的圆锥。组合体体积除以 $\\pi$ 的结果为",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-263",
+      "chapterNo": 10,
+      "qtype": "judge",
+      "kpCode": "rjb.10.2.01",
+      "oldSha": "36e3a2a32308428916414ac37d44fc1576ab92f7093c97aa27f544a37306e0d5",
+      "stemPreview": "判断：互斥的非空事件一定不独立（在 $P>0$ 时通常如此，本判断取：互斥且 $P(A)P(B)>0$ 则不独立）。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE",
+        "SHORT_ANALYSIS",
+        "BOILERPLATE",
+        "WEAK_PATTERN"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-265",
+      "chapterNo": 4,
+      "qtype": "single",
+      "kpCode": "rja.4.5.03",
+      "oldSha": "2f8a6740d0372a093b420efc60b1d217ff48a54944e01f6d495086e9b51c050b",
+      "stemPreview": "奇函数 $f$，$x>0$ 时 $f(x)=x+\\dfrac{2}{x}$，则 $f(-2)=$",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-268",
+      "chapterNo": 6,
+      "qtype": "numeric",
+      "kpCode": "rjb.6.3.04",
+      "oldSha": "230cc59e78c1539a66dfe588a789bb06ce280bd9b1b1501e4f4e342065578cb0",
+      "stemPreview": "(2,4) 与 (1,k) 共线时 k是",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-275",
+      "chapterNo": 10,
+      "qtype": "single",
+      "kpCode": "rjb.10.1.02",
+      "oldSha": "a554205380f2d87d245c8bf3ff4236b8d16bd747d50dab6f0b67f6acaee5ba7d",
+      "stemPreview": "独立事件 $A,B$ 满足 $P(A)=0.4$，$P(B)=0.5$，则 $P(A\\cup B)=$",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-282",
+      "chapterNo": 4,
+      "qtype": "numeric",
+      "kpCode": "rja.4.5.01",
+      "oldSha": "f2b35a7dcf9809712c75c870c5fe2482c3e59f2bc839f88eaf832bcb109ce8ac",
+      "stemPreview": "4^x=2 的解 x 的二倍是",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-284",
+      "chapterNo": 8,
+      "qtype": "numeric",
+      "kpCode": "rjb.8.6.02",
+      "oldSha": "950e18ce5d0de6af8f888454e6256ee6b8a03420097c46f94c99eea6e3baba19",
+      "stemPreview": "圆柱半径 $3$、高 $7$ 上同底叠放高 $3$ 的圆锥。体积除以 $\\pi$ 等于",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-288",
+      "chapterNo": 6,
+      "qtype": "application",
+      "kpCode": "rjb.6.4.03",
+      "oldSha": "fc80bfa95913814355e926ab8dbe97df92dbfa49ca487ad310ec56e3f975cfd5",
+      "stemPreview": "已知 $\\overrightarrow{OA}=(5,0)$，$\\overrightarrow{OB}=(3,2)$。\n（1）求 $\\overrightarrow{AB}$；\n（2）求 $|\\over",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-289",
+      "chapterNo": 3,
+      "qtype": "single",
+      "kpCode": "rja.3.1.10",
+      "oldSha": "047202b8ecc1aad116a893051030f97f6026e71ac03e0a4cc338a03b7e83f611",
+      "stemPreview": "函数 $y=x^2$ 在 $(-\\infty,0]$ 上",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-294",
+      "chapterNo": 1,
+      "qtype": "application",
+      "kpCode": "rja.1.3.04",
+      "oldSha": "0bcd68fdb432547c76aee5f22e76935b3588448205b42f19e9b93d37e6591371",
+      "stemPreview": "真子集个数：元素 5 个的集合。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-295",
+      "chapterNo": 4,
+      "qtype": "single",
+      "kpCode": "rja.4.3.02",
+      "oldSha": "507704a370a028f5d728421d6f5a6222129942b4fdb175289d71fd3e102fdb9f",
+      "stemPreview": "方程 $9^{x}-10\\cdot 3^{x}+9=0$ 的较大根为",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-298",
+      "chapterNo": 2,
+      "qtype": "single",
+      "kpCode": "rja.2.3.04",
+      "oldSha": "92342251bfcd4cd5bc394191f05eae56e6c947b2f3919f4c1c574499854a63c7",
+      "stemPreview": "正数 $x$ 使 $x+\\dfrac{4}{x}$ 最小时，$x=$",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-300",
+      "chapterNo": 8,
+      "qtype": "application",
+      "kpCode": "rjb.8.6.03",
+      "oldSha": "a0078816ee12a41261464c0dd61b4ad7224c9d92219943df010ff01c0246a565",
+      "stemPreview": "球 r=3 体积/π。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-301",
+      "chapterNo": 5,
+      "qtype": "single",
+      "kpCode": "rja.5.5.03",
+      "oldSha": "6ed6c58b6dfa8807b99a7fc200dd5187917b873decf698a1344aaa5a5b9b80f0",
+      "stemPreview": "概念辨析：sin2α等于",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM",
+        "BOILERPLATE",
+        "WEAK_PATTERN"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-305",
+      "chapterNo": 6,
+      "qtype": "single",
+      "kpCode": "rjb.6.4.03",
+      "oldSha": "d3ef263645bb000f0ad2eba3b3dcc1eb17a9eadc6bafd64f2c8bc1c18380d273",
+      "stemPreview": "平面内一组基底要求",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-307",
+      "chapterNo": 2,
+      "qtype": "multi",
+      "kpCode": "rja.2.2.04",
+      "oldSha": "7f4090666146d86c3911aa0b5d0f668b3de1c27a5cfaa9e8bc3d0e09de26650e",
+      "stemPreview": "不等式性质正确的有（多选）",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-310",
+      "chapterNo": 3,
+      "qtype": "multi",
+      "kpCode": "rja.3.4.04",
+      "oldSha": "0274171b421261e297dc36979360219c5252646b26296254ae3af72ff5c5e889",
+      "stemPreview": "请选择正确项：幂函数一般写作（多选）",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-312",
+      "chapterNo": 8,
+      "qtype": "numeric",
+      "kpCode": "rjb.8.5.02",
+      "oldSha": "6cf49c8938d8b01d0f8a53aba83e6a9acf70665095acc9cadea197cfa124e2ae",
+      "stemPreview": "球半径 3，体积除以 π =",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-321",
+      "chapterNo": 4,
+      "qtype": "numeric",
+      "kpCode": "rja.4.5.02",
+      "oldSha": "22bead5bcdb50c9c47e16bcf2328e13f7796a520ee049515e6c02217086fc416",
+      "stemPreview": "log_3 9 + log_3 3等于",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-322",
+      "chapterNo": 4,
+      "qtype": "numeric",
+      "kpCode": "rja.4.5.03",
+      "oldSha": "52b89761e04de3dfb5191598e8bcac6cc04a7165b7668e7c352ee6f7cd55eb0d",
+      "stemPreview": "8^{2/3}计算可得",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-330",
+      "chapterNo": 5,
+      "qtype": "judge",
+      "kpCode": "rja.5.7.03",
+      "oldSha": "ef2c15b51f686679bd6e040f71749d3db0e88e9ac5cab9d8c4280ee536787f4c",
+      "stemPreview": "判断：y=sin x 是奇函数。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE",
+        "SHORT_ANALYSIS"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-333",
+      "chapterNo": 5,
+      "qtype": "application",
+      "kpCode": "rja.5.1.03",
+      "oldSha": "22ba6bb42588c96e3f0a4e985abbfab360a95a77c348e127299fb46eb7de5531",
+      "stemPreview": "在水平地面上，测得某建筑物顶端仰角为 $45^{\\circ}$，再向建筑物走近 $20\\,\\mathrm{m}$ 后仰角变为 $60^{\\circ}$。设高为 $h\\,\\mathrm{m}$。\n（1）",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-336",
+      "chapterNo": 3,
+      "qtype": "application",
+      "kpCode": "rja.3.3.04",
+      "oldSha": "34308028561eeab45f2767cc69323ded2fe24e5c058a5e5fdcc5aaedc7e056fc",
+      "stemPreview": "2x-1=7 时 x。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-338",
+      "chapterNo": 2,
+      "qtype": "numeric",
+      "kpCode": "rja.2.3.05",
+      "oldSha": "6325943a5a95cc5fab88c73ec20f6e88033d861271a0ad0edeb887f7e8550000",
+      "stemPreview": "不等式 $(x-2)(x-3)<0$ 的解集长度（有限时）为",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-340",
+      "chapterNo": 8,
+      "qtype": "application",
+      "kpCode": "rjb.8.4.02",
+      "oldSha": "7ab0aa5c18e2317669245ba67a38c213847b322fa24a828dce5d33d4e42e7655",
+      "stemPreview": "圆柱 r=2,h=5 体积/π。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-342",
+      "chapterNo": 10,
+      "qtype": "application",
+      "kpCode": "rjb.10.3.01",
+      "oldSha": "55eb190c5fa341a384aed4efae37358ae641c89db72c5c0950e1f034087dc01c",
+      "stemPreview": "3红2白摸1红，概率分子（分母5）。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-344",
+      "chapterNo": 7,
+      "qtype": "multi",
+      "kpCode": "rjb.7.1.01",
+      "oldSha": "21c7267ad6ef34e68cba0a8a834cda2cd63c37e1d83695d074fef5d166e7a34f",
+      "stemPreview": "设 $z=3+4\\mathrm{i}$。正确的有（多选）",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-349",
+      "chapterNo": 4,
+      "qtype": "numeric",
+      "kpCode": "rja.4.2.03",
+      "oldSha": "c4b8e29c7bf163a4d832a27d9f4cbc161ca0d809fc7f99a5ca1d47baec6ba55d",
+      "stemPreview": "27^{2/3}数值为",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-350",
+      "chapterNo": 5,
+      "qtype": "judge",
+      "kpCode": "rja.5.7.01",
+      "oldSha": "d961fb56160c804c587b3bc8657f0bbab4f8ee360161781bee428e15c6d299cf",
+      "stemPreview": "判断：弧度是实数，可与实数运算。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE",
+        "SHORT_ANALYSIS"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-351",
+      "chapterNo": 3,
+      "qtype": "numeric",
+      "kpCode": "rja.3.1.10",
+      "oldSha": "8a5694c622222d89451ca8dd09ef5e4f632c97d7761692a220e5d27f4e20d1ec",
+      "stemPreview": "设 $f(x)=\\begin{cases}2x+1,&x<1\\\\ x^{2},&x\\ge 1\\end{cases}$。则 $f(0)+f(1)=$",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-357",
+      "chapterNo": 5,
+      "qtype": "numeric",
+      "kpCode": "rja.5.2.02",
+      "oldSha": "209cf3a800ded5a0f12fa060faa1172490c0593d185ae78cbe5cee005105cbd8",
+      "stemPreview": "锐角 sin=3/5 时 cos 的分子（分母5）数值为",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-358",
+      "chapterNo": 3,
+      "qtype": "single",
+      "kpCode": "rja.3.2.07",
+      "oldSha": "2a6a8a9536d08426b45ced251ee791c841bbd7ba34e50ccb807d3a423a2b9d7d",
+      "stemPreview": "函数 $f(x)=2x-3$ 在 $\\mathbb{R}$ 上的单调性为",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-361",
+      "chapterNo": 6,
+      "qtype": "application",
+      "kpCode": "rjb.6.1.04",
+      "oldSha": "c994392982ca744780701c38f8844a3df638df8e8917293ee81bf1ebdd9b2306",
+      "stemPreview": "A(1,2)B(4,6)，|AB|。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-365",
+      "chapterNo": 4,
+      "qtype": "application",
+      "kpCode": "rja.4.1.04",
+      "oldSha": "f282831fcb4e4603410dabb143b5547fa9a25d2933d92827f8db9160a9b30066",
+      "stemPreview": "log_2(2^7)。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-368",
+      "chapterNo": 9,
+      "qtype": "single",
+      "kpCode": "rjb.9.2.02",
+      "oldSha": "3fe1ff309a21ee148e450d2cca55a131aff9b25632b701468555471c6d548975",
+      "stemPreview": "样本相关系数 r 接近 1 通常表示",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-369",
+      "chapterNo": 5,
+      "qtype": "application",
+      "kpCode": "rja.5.6.01",
+      "oldSha": "f4ef071d521879a54519d1729b5261b1fd931fcdcc5744656961c0b2470a17b4",
+      "stemPreview": "已知 $y=2\\sin\\left(3x+\\dfrac{\\pi}{6}\\right)$。\n（1）求振幅与最小正周期；（2）指出由 $y=\\sin x$ 到该函数的变换步骤要点。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-373",
+      "chapterNo": 7,
+      "qtype": "single",
+      "kpCode": "rjb.7.1.02",
+      "oldSha": "97db03af5cc7140872f6f067d29f64becbd33b7edc65e9a61cad1d9a243d585f",
+      "stemPreview": "计算 $\\dfrac{2-\\mathrm{i}}{1+\\mathrm{i}}$，结果化为 $a+b\\mathrm{i}$ 后，$a+b=$",
+      "reasons": [],
+      "action": "KEEP_ATTACH_HP",
+      "problemType": "KEEP_CANDIDATE",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-376",
+      "chapterNo": 5,
+      "qtype": "application",
+      "kpCode": "rja.5.1.02",
+      "oldSha": "9a6a37ed7e04e719eecc5ab1609b77c7da7ca04631c6352fa3da60ada9243d99",
+      "stemPreview": "港口水深 $h(t)=3+2\\sin\\dfrac{\\pi t}{6}$（$t$ 为小时）。\n（1）求最高水深；（2）求周期。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-381",
+      "chapterNo": 7,
+      "qtype": "multi",
+      "kpCode": "rjb.7.1.03",
+      "oldSha": "714778add9b0ff48eb79c4b2c2c7ca9a8cd448c6d99ae9cbd2d923159afe4f34",
+      "stemPreview": "模的性质有（多选）",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-384",
+      "chapterNo": 10,
+      "qtype": "application",
+      "kpCode": "rjb.10.3.01",
+      "oldSha": "ab361ce0e3246d4a1bcf9674f1a5174eb1baabdd358b4534dab911bce37bdcab",
+      "stemPreview": "抛两次恰一正概率×100。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-386",
+      "chapterNo": 3,
+      "qtype": "single",
+      "kpCode": "rja.3.2.04",
+      "oldSha": "044fbaef902bab659fd4a51a3503d96416ef7d2b588e7344c9195d9e019c65c1",
+      "stemPreview": "奇函数且 $x>0$ 时 $f(x)=x+\\dfrac{2}{x}$，则 $f(-2)$ 为",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-388",
+      "chapterNo": 2,
+      "qtype": "application",
+      "kpCode": "rja.2.3.03",
+      "oldSha": "d108b5ca35931bcb7986a4a0796ade26b1db111836c71683fd928ad383b1acd5",
+      "stemPreview": "用长为 $24\\,\\mathrm{m}$ 的篱笆围矩形花坛（四边均用篱笆）。设一边长为 $x\\,\\mathrm{m}$（$0<x<12$）。\n（1）写出面积 $S(x)$；\n（2）求 $S(x)$ 的",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-390",
+      "chapterNo": 6,
+      "qtype": "application",
+      "kpCode": "rjb.6.4.03",
+      "oldSha": "01975118f70d773880b42baf6c106675ab36b287ce66f4304046cc9c60f9a2fc",
+      "stemPreview": "(2,4) 与 (1,k) 共线时 k。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-392",
+      "chapterNo": 1,
+      "qtype": "application",
+      "kpCode": "rja.1.1.02",
+      "oldSha": "525e4adc9f6117c3894bdb8d645998aeec08b5bd251cd670ddd6af15d1e0d638",
+      "stemPreview": "全集 $U=\\{1,\\ldots,10\\}$，$A=\\{x\\in U\\mid x$ 为偶数$\\}$，$B=\\{x\\in U\\mid x\\le 5\\}$。\n（1）求 $A\\cap B$；（2）求 $|\\",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-396",
+      "chapterNo": 9,
+      "qtype": "application",
+      "kpCode": "rjb.9.2.02",
+      "oldSha": "124ec76fe87fe9bd5d72f262903a7728c714f0a9626a47c2d6cea4f6c3d22c96",
+      "stemPreview": "成绩：86,90,78,92,84。\n（1）求样本平均数；（2）求样本方差（定义 s²=1/n Σ）。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-400",
+      "chapterNo": 2,
+      "qtype": "multi",
+      "kpCode": "rja.2.3.02",
+      "oldSha": "8eabe7e1d3831be990bb623654405a56769a0ca25e9092c1081098904f305850",
+      "stemPreview": "关于平面向量，正确的有（多选）",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-409",
+      "chapterNo": 8,
+      "qtype": "numeric",
+      "kpCode": "rjb.8.2.02",
+      "oldSha": "7d86868ae56e019fa50522c990ce8549c9e7c7c34fbbc98fa13c447301f9bd85",
+      "stemPreview": "球 r=3 体积/π数值为",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-412",
+      "chapterNo": 3,
+      "qtype": "application",
+      "kpCode": "rja.3.1.09",
+      "oldSha": "a4715252ec8fb54001fa03d26e584e77ba824d381d07acbd1bf172f9929c4a38",
+      "stemPreview": "|x-2| 最小值。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-416",
+      "chapterNo": 10,
+      "qtype": "application",
+      "kpCode": "rjb.10.1.03",
+      "oldSha": "06178b99d815c4db951b35d5d209a0d7d717e05e1a1660c224b0a8c122705d55",
+      "stemPreview": "1..5取两数和为偶的无序对数。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-417",
+      "chapterNo": 6,
+      "qtype": "judge",
+      "kpCode": "rjb.6.2.05",
+      "oldSha": "5c082ac91ce484eeb83909368db4836c7a4f02f6fe091ea042dec207405bf738",
+      "stemPreview": "判断：任意两个非零向量都可作基底。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE",
+        "SHORT_ANALYSIS",
+        "WEAK_PATTERN"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-419",
+      "chapterNo": 3,
+      "qtype": "numeric",
+      "kpCode": "rja.3.2.06",
+      "oldSha": "ae196dfbce70c9fdba2305af90d5777bbe0b9a557bfe4356e706f44ec95ce36a",
+      "stemPreview": "f(x)=2x+3，则 f(2)=",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-421",
+      "chapterNo": 4,
+      "qtype": "single",
+      "kpCode": "rja.4.1.03",
+      "oldSha": "5c982281c0844f6edbf1b16765afa488eba8351750497043fac0c0bbbb6a0179",
+      "stemPreview": "$y=\\log_2 x$ 过定点",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-424",
+      "chapterNo": 1,
+      "qtype": "application",
+      "kpCode": "rja.1.2.01",
+      "oldSha": "b0ee972f63dc25747448b5d94413710a5b82153674f5d69ccf938542ab4c41fb",
+      "stemPreview": "A={1,2,3}，B={3,4}，|A∪B|。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-425",
+      "chapterNo": 6,
+      "qtype": "multi",
+      "kpCode": "rjb.6.4.04",
+      "oldSha": "2950c4e37d37350ff01d03b0aa4a0e3465170b8e6434c6dcdaf3cfe067e0a43a",
+      "stemPreview": "基础巩固：平行四边形对角线表示（多选）",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-426",
+      "chapterNo": 3,
+      "qtype": "single",
+      "kpCode": "rja.3.3.01",
+      "oldSha": "d1b01247485ae4f33b39500494dd9c9c8ef3768cce00a99aabd9df0b8cc99d45",
+      "stemPreview": "函数 $f(x)=\\dfrac{1}{x-1}$ 的定义域是",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-428",
+      "chapterNo": 5,
+      "qtype": "numeric",
+      "kpCode": "rja.5.4.01",
+      "oldSha": "c315bcf8a81b71d904e014910a7dd6ea69a43ad16c7165a398c3835709b4f603",
+      "stemPreview": "240°=kπ/3 中的 k是",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-432",
+      "chapterNo": 5,
+      "qtype": "judge",
+      "kpCode": "rja.5.5.02",
+      "oldSha": "efaf143f2ec005056c5c3464ca2dcf2bef33f4136674d0c3fc99b228b9b74580",
+      "stemPreview": "判断：sin(α+β)=sinα+sinβ。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE",
+        "SHORT_ANALYSIS"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-433",
+      "chapterNo": 5,
+      "qtype": "numeric",
+      "kpCode": "rja.5.5.03",
+      "oldSha": "2b8ecc630e67a4b471bf0f5d814aff3ca75cb77a4a4a9ab5e1dfbd20279f73ad",
+      "stemPreview": "半径 6、圆心角 π/3 的弧长求其值",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-437",
+      "chapterNo": 4,
+      "qtype": "application",
+      "kpCode": "rja.4.5.04",
+      "oldSha": "0049fc9db77b3495ab675dafd72b9044c00543aa7347ea27ff80d7ec56216d0e",
+      "stemPreview": "设 $f(x)=\\log_{1/3}x$。\n（1）求定义域；（2）判断单调性并比较 $f(2)$ 与 $f(4)$。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-439",
+      "chapterNo": 3,
+      "qtype": "multi",
+      "kpCode": "rja.3.1.05",
+      "oldSha": "44df564dbf86cfe565fab20096d37c5a0d1d7d9ac0fec7dd33ffc05e00ce710c",
+      "stemPreview": "概念辨析：函数三要素是（多选）",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-443",
+      "chapterNo": 2,
+      "qtype": "numeric",
+      "kpCode": "rja.2.1.01",
+      "oldSha": "bebc58dbbbc540ea5b2d28d97c32f082f577b851b3e8ed202304fa276962879d",
+      "stemPreview": "$x^2-5x+6=0$ 的较大根为",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-451",
+      "chapterNo": 7,
+      "qtype": "numeric",
+      "kpCode": "rjb.7.1.03",
+      "oldSha": "a7b89f3bc132a595b3ae6d2ceb4ba206ff51855490fdafc84095eabf459c46eb",
+      "stemPreview": "(1+i)(1-i)=",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-456",
+      "chapterNo": 10,
+      "qtype": "single",
+      "kpCode": "rjb.10.1.01",
+      "oldSha": "888244f29300fb1fd6d1fe8eed3ee3f7c8597eaa9e8a2405b74ef8a6b93c6444",
+      "stemPreview": "古典概型要求",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-457",
+      "chapterNo": 6,
+      "qtype": "judge",
+      "kpCode": "rjb.6.4.02",
+      "oldSha": "4a43d0eca4c3b88078eaec318c1ff700f54c3fc2abb9c5bc6dd2ab84030c6b2c",
+      "stemPreview": "判断：数量积满足结合律 (a·b)·c=a·(b·c)。",
+      "reasons": [
+        "FALSE_HARD_LIST",
+        "TRIVIAL_JUDGE",
+        "SHORT_ANALYSIS"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-464",
+      "chapterNo": 1,
+      "qtype": "application",
+      "kpCode": "rja.1.5.02",
+      "oldSha": "2532d92c7acd9af963ec8944794378da3a6cde0e3da497f28a095ce3e5af14d3",
+      "stemPreview": "U 有 10 元，A 有 8 元，|补集|。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-467",
+      "chapterNo": 3,
+      "qtype": "numeric",
+      "kpCode": "rja.3.1.02",
+      "oldSha": "544e7823d7ce7dc0d2ae0189ea846826557237649c68e0973e900e6a1acf6fbe",
+      "stemPreview": "f(x)=x²-4x+3 的最小值是",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-469",
+      "chapterNo": 6,
+      "qtype": "numeric",
+      "kpCode": "rjb.6.3.01",
+      "oldSha": "ef3e6197da84838bec90fc0aa294310192dcc7bfc393b1c3e673bae53986a984",
+      "stemPreview": "F=(6,8),s=(3,0)，功为多少",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    },
+    {
+      "id": "CAND-G4A-477",
+      "chapterNo": 4,
+      "qtype": "application",
+      "kpCode": "rja.4.1.02",
+      "oldSha": "840a06de59dea8b823f43179e41fc892f777976734366e0054c9e35d0bef8318",
+      "stemPreview": "化简并求值：$\\log_{4}16+\\log_{4}2$。\n（1）写出化简过程；（2）给出最终值。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-483",
+      "chapterNo": 8,
+      "qtype": "application",
+      "kpCode": "rjb.8.2.01",
+      "oldSha": "40c3addd518fd8e788d6cee585aa88b8dd72c13d5f563dfa63f7b60433d23894",
+      "stemPreview": "正四棱锥底边6高4体积。\n（1）写出计算过程；（2）给出最终结果。",
+      "reasons": [
+        "SHORT_ANALYSIS"
+      ],
+      "action": "ENRICH_OR_REWRITE",
+      "problemType": "EVIDENCE_GAP",
+      "proposedFix": "保留骨架，补全解析与 7 字段 hardProfile，必要时局部加强"
+    },
+    {
+      "id": "CAND-G4A-492",
+      "chapterNo": 5,
+      "qtype": "numeric",
+      "kpCode": "rja.5.3.02",
+      "oldSha": "7b4f3c23c5272108917f2d505125d75f3b83971e9dc787df50cad8e26251a73e",
+      "stemPreview": "sin(π/6)+cos(π/3)计算可得",
+      "reasons": [
+        "SHORT_ANALYSIS",
+        "TINY_STEM"
+      ],
+      "action": "REWRITE_HARD",
+      "problemType": "FALSE_OR_WEAK_D3",
+      "proposedFix": "整题重写为同章同题型真压轴并写 hardProfile"
+    }
+  ]
+}

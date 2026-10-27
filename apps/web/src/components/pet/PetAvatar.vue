@@ -7,6 +7,7 @@
       :action="action"
       @ready="onReady"
       @error="onError"
+      @hide="onHide"
     />
   </div>
 </template>
@@ -20,6 +21,10 @@ import PetVrmCanvas from './PetVrmCanvas.vue'
 const props = defineProps<{
   skinId: PetSkinId
   action: PetAction
+}>()
+
+const emit = defineEmits<{
+  hide: []
 }>()
 
 const vrmRef = ref<{
@@ -38,6 +43,10 @@ function onReady() {}
 
 function onError(msg: string) {
   console.warn('[PetAvatar] VRM error:', msg)
+}
+
+function onHide() {
+  emit('hide')
 }
 
 function cycleExpression() {

@@ -1,0 +1,60 @@
+{
+  "batch": "GLOBAL-4D-HARD-D3-REBUILD",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "status": "IMPORT_PREFLIGHT_PASS",
+  "completedAt": "2026-10-27T07:53:16.944Z",
+  "classifySummary": {
+    "A_TRUE_D3": 0,
+    "B_REBUILD_REQUIRED": 118,
+    "C_DOWNGRADE_REQUIRED": 3,
+    "D_MATH_ISSUE": 0,
+    "totalClassified": 121,
+    "weakInput": 78
+  },
+  "rebuiltN": 121,
+  "d3Total": 125,
+  "hardProfileCoverage": "125/125",
+  "weakD3HeuristicRemaining": 0,
+  "weakD3Ids": [],
+  "templateShellOrWeakVerdictN": 0,
+  "authorSideTrueOrKeptN": 125,
+  "required": {
+    "n": 27,
+    "pass": 27,
+    "issues": []
+  },
+  "quotas": {
+    "d": {
+      "1": 175,
+      "2": 200,
+      "3": 125
+    },
+    "qt": {
+      "numeric": 100,
+      "judge": 50,
+      "single": 150,
+      "multi": 75,
+      "application": 125
+    },
+    "ch": {
+      "1": 29,
+      "2": 48,
+      "3": 55,
+      "4": 67,
+      "5": 76,
+      "6": 67,
+      "7": 20,
+      "8": 68,
+      "9": 30,
+      "10": 40
+    }
+  },
+  "snapshot": {
+    "batchContentSha256": "def9b8c49ac641de72632f09c8bfd2aeb0554d945be10db853667e88d9c5ab15",
+    "mergeFileSha256": "2eab872740d3cb60d36bbb545d9900bb029ba7b624a2975b17d6f1e3975749ff",
+    "perItemCount": 500
+  },
+  "gateFailures": [],
+  "softFlags": [],
+  "note": "作者侧重建与复核；不得冒充独立终审。若仍有模板壳/弱题则 PARTIAL。"
+}

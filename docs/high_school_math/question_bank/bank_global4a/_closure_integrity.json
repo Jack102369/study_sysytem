@@ -1,0 +1,375 @@
+{
+  "ok": true,
+  "issues": [],
+  "candidatesN": 500,
+  "idsUnique": true,
+  "g1": 100,
+  "g2": 100,
+  "g3": 100,
+  "g4": 100,
+  "g5": 100,
+  "groupsMatchMerge": true,
+  "evidenceN": 500,
+  "d3incomplete": 50,
+  "has168": true,
+  "manifestN": 37,
+  "requiredInBank": 37,
+  "reqNotInManifest": [],
+  "manifestExtra": [],
+  "d3Total": 125,
+  "d3Incomplete": 50,
+  "incompleteIds": [
+    "CAND-G4A-004",
+    "CAND-G4A-016",
+    "CAND-G4A-021",
+    "CAND-G4A-036",
+    "CAND-G4A-043",
+    "CAND-G4A-046",
+    "CAND-G4A-051",
+    "CAND-G4A-069",
+    "CAND-G4A-089",
+    "CAND-G4A-132",
+    "CAND-G4A-133",
+    "CAND-G4A-140",
+    "CAND-G4A-155",
+    "CAND-G4A-174",
+    "CAND-G4A-194",
+    "CAND-G4A-221",
+    "CAND-G4A-223",
+    "CAND-G4A-230",
+    "CAND-G4A-236",
+    "CAND-G4A-237",
+    "CAND-G4A-257",
+    "CAND-G4A-259",
+    "CAND-G4A-265",
+    "CAND-G4A-268",
+    "CAND-G4A-282",
+    "CAND-G4A-284",
+    "CAND-G4A-295",
+    "CAND-G4A-298",
+    "CAND-G4A-307",
+    "CAND-G4A-310",
+    "CAND-G4A-312",
+    "CAND-G4A-321",
+    "CAND-G4A-322",
+    "CAND-G4A-338",
+    "CAND-G4A-344",
+    "CAND-G4A-349",
+    "CAND-G4A-351",
+    "CAND-G4A-358",
+    "CAND-G4A-381",
+    "CAND-G4A-386",
+    "CAND-G4A-400",
+    "CAND-G4A-409",
+    "CAND-G4A-419",
+    "CAND-G4A-425",
+    "CAND-G4A-426",
+    "CAND-G4A-439",
+    "CAND-G4A-443",
+    "CAND-G4A-451",
+    "CAND-G4A-467",
+    "CAND-G4A-469"
+  ],
+  "incomplete": [
+    {
+      "id": "CAND-G4A-004",
+      "ch": 4,
+      "qt": "single",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-016",
+      "ch": 6,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-021",
+      "ch": 4,
+      "qt": "single",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-036",
+      "ch": 4,
+      "qt": "multi",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-043",
+      "ch": 8,
+      "qt": "judge",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-046",
+      "ch": 2,
+      "qt": "single",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-051",
+      "ch": 1,
+      "qt": "multi",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-069",
+      "ch": 4,
+      "qt": "multi",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-089",
+      "ch": 5,
+      "qt": "judge",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-132",
+      "ch": 2,
+      "qt": "judge",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-133",
+      "ch": 8,
+      "qt": "single",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-140",
+      "ch": 8,
+      "qt": "multi",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-155",
+      "ch": 2,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-174",
+      "ch": 7,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-194",
+      "ch": 6,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-221",
+      "ch": 1,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-223",
+      "ch": 2,
+      "qt": "single",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-230",
+      "ch": 4,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-236",
+      "ch": 2,
+      "qt": "multi",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-237",
+      "ch": 9,
+      "qt": "multi",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-257",
+      "ch": 6,
+      "qt": "multi",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-259",
+      "ch": 8,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-265",
+      "ch": 4,
+      "qt": "single",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-268",
+      "ch": 6,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-282",
+      "ch": 4,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-284",
+      "ch": 8,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-295",
+      "ch": 4,
+      "qt": "single",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-298",
+      "ch": 2,
+      "qt": "single",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-307",
+      "ch": 2,
+      "qt": "multi",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-310",
+      "ch": 3,
+      "qt": "multi",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-312",
+      "ch": 8,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-321",
+      "ch": 4,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-322",
+      "ch": 4,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-338",
+      "ch": 2,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-344",
+      "ch": 7,
+      "qt": "multi",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-349",
+      "ch": 4,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-351",
+      "ch": 3,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-358",
+      "ch": 3,
+      "qt": "single",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-381",
+      "ch": 7,
+      "qt": "multi",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-386",
+      "ch": 3,
+      "qt": "single",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-400",
+      "ch": 2,
+      "qt": "multi",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-409",
+      "ch": 8,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-419",
+      "ch": 3,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-425",
+      "ch": 6,
+      "qt": "multi",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-426",
+      "ch": 3,
+      "qt": "single",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-439",
+      "ch": 3,
+      "qt": "multi",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-443",
+      "ch": 2,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-451",
+      "ch": 7,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-467",
+      "ch": 3,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    },
+    {
+      "id": "CAND-G4A-469",
+      "ch": 6,
+      "qt": "numeric",
+      "reason": "PRESSURE_PROFILE_INCOMPLETE"
+    }
+  ]
+}

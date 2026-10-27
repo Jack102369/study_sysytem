@@ -1,0 +1,122 @@
+{
+  "batch": "GLOBAL-4A-ISOMORPHIC-FINAL-CLEANUP",
+  "status": "BATCH500_READY_FOR_IMPORT_PREFLIGHT",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "completedAt": "2026-10-27T06:30:00.000Z",
+  "inventoryBaseline": {
+    "priorStructHits": 13,
+    "priorExactHits": 0,
+    "batchStructFamiliesGlobal": 48,
+    "batchStructMembersDistinct": 424,
+    "unionCandidatesInvolved": 427,
+    "overlapPriorAndBatch": 10,
+    "note": "48 families ≠ 48 questions; members were 424 distinct candidates under digit-stripped stem key"
+  },
+  "prior13Verdicts": {
+    "EXACT_DUPLICATE": 0,
+    "SEMANTIC_DUPLICATE": 12,
+    "LOW_VALUE_ISOMORPHIC": 0,
+    "ACCEPTABLE_VARIANT": 1,
+    "DISTINCT": 0,
+    "acceptableKept": [
+      {
+        "id": "CAND-G4A-275",
+        "reason": "既有题求独立事件交概率 P(AB)；本题求并事件 P(A∪B)=P(A)+P(B)-P(A)P(B)，考查目标与关键公式不同"
+      }
+    ],
+    "semanticReplacedIdsSample": [
+      "CAND-G4A-005",
+      "CAND-G4A-012",
+      "CAND-G4A-026",
+      "CAND-G4A-037",
+      "CAND-G4A-066",
+      "CAND-G4A-087",
+      "CAND-G4A-088",
+      "CAND-G4A-105",
+      "CAND-G4A-158",
+      "CAND-G4A-233",
+      "CAND-G4A-397",
+      "CAND-G4A-398"
+    ]
+  },
+  "batch48Families": {
+    "familyCount": 48,
+    "distinctCandidatesInvolved": 424,
+    "sizeHistogramAtInventory": {
+      "2": 2,
+      "3": 11,
+      "4": 11,
+      "5": 8,
+      "6": 4,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 2,
+      "16": 1,
+      "17": 2,
+      "25": 1,
+      "49": 1,
+      "51": 1,
+      "55": 1
+    },
+    "dominantLowValueTemplates": [
+      "参数p+q+个位数（跨章空壳单选）",
+      "多选；章X专项（空壳多选）",
+      "章X包装的 x+k/x 应用",
+      "向量 |u+v|^2 数字变体",
+      "n^2-(n-1)^2 差分数字变体"
+    ]
+  },
+  "cleanupActions": {
+    "wholeQuestionReplacementsApprox": 394,
+    "automatedRounds": 3,
+    "additionalTargetedPasses": [
+      "nonsense-kill",
+      "family-handfix",
+      "global-cross-chapter-kill"
+    ],
+    "newLowValueIsomorphAfterCleanup": 0,
+    "chapterScopedFamiliesFinal": 0,
+    "globalStructFamiliesFinal": 0
+  },
+  "acceptableVariantsFinal": [
+    {
+      "id": "CAND-G4A-275",
+      "verdict": "ACCEPTABLE_VARIANT",
+      "teachingIncrement": "独立事件下训练并集概率公式，而非仅交概率乘法公式"
+    }
+  ],
+  "finalGates": {
+    "candidates": 500,
+    "validateAllOk": true,
+    "crutchLeft": 0,
+    "batchExactDup": 0,
+    "chapterScopedLowValueFamilies": 0,
+    "globalDigitStripMultiFamilies": 0,
+    "priorStructHitsRemaining": 1,
+    "priorStructHitsAllAcceptable": true,
+    "d3Count": 125,
+    "applicationCount": 125,
+    "appRubricSumBad": 0,
+    "requiredCount": 13,
+    "requiredCoverage": "13/13",
+    "quotas": {
+      "chapters": { "1": 29, "2": 48, "3": 55, "4": 67, "5": 76, "6": 67, "7": 20, "8": 68, "9": 30, "10": 40 },
+      "difficulty": { "1": 175, "2": 200, "3": 125 },
+      "qtype": { "single": 150, "multi": 75, "judge": 50, "numeric": 100, "application": 125 }
+    }
+  },
+  "openIssues": [
+    "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED：作者侧同构清理与自检，非独立终审",
+    "application 替代解法公平性为作者侧复核",
+    "压轴 hardProfile 多为重建/替换时写入，需导入预检前抽检真实性"
+  ],
+  "notAuthorized": [
+    "MySQL write",
+    "formal import",
+    "image upload",
+    "review/approve",
+    "batch5",
+    "git commit/push"
+  ]
+}

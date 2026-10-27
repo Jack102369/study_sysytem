@@ -256,6 +256,53 @@ export async function listAdminHsMathTrainItems(params: ListHsMathTrainItemsQuer
   return data.data
 }
 
+export type HsMathInventoryScope = 'drawable' | 'all_formal'
+
+export type HsMathInventoryStats = {
+  scope: HsMathInventoryScope
+  total: number
+  note: string
+  byDifficulty: Array<{ difficulty: number; n: number; percent: number }>
+  byQtype: Array<{ qtype: string; n: number; percent: number }>
+  bySpecialty: Array<{
+    specialtyId: string
+    specialtyCode: string
+    specialtyName: string
+    n: number
+    percent: number
+  }>
+  bySection: Array<{
+    specialtyCode: string
+    specialtyName: string
+    categoryId: string
+    sectionCode: string
+    sectionName: string
+    n: number
+    percent: number
+  }>
+  crossDifficultyQtype: Array<{
+    difficulty: number
+    qtype: string
+    n: number
+  }>
+  specialtyByDifficulty: Array<{
+    specialtyCode: string
+    specialtyName: string
+    difficulty: number
+    n: number
+  }>
+}
+
+export async function getAdminHsMathInventoryStats(
+  scope: HsMathInventoryScope = 'drawable',
+) {
+  const { data } = await http.get<ApiSuccess<HsMathInventoryStats>>(
+    '/hs-math/admin/train-items/inventory-stats',
+    { params: { scope } },
+  )
+  return data.data
+}
+
 export async function getAdminHsMathTrainItem(id: string) {
   const { data } = await http.get<ApiSuccess<HsMathAdminTrainItem>>(
     `/hs-math/admin/train-items/${encodeURIComponent(id)}`,

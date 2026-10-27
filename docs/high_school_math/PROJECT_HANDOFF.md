@@ -8,10 +8,9 @@
 ## 1. 项目目标
 
 应用题多模态 + 学生训练入口；全10章题库向 **3120** 目标推进。  
-**当前执行阶段**：**HS-MATH-BANK-GLOBAL-3C**  
-**当前阶段状态**：`BATCH_IMPORT_APPROVE_PASS`  
-**正式 drawable**：**313**（213→313）  
-**第三批**：`CAND-G3A-001`…`100` 已 formal+approved  
+**当前执行阶段**：**HS-MATH-BANK-GLOBAL-4E-IMPORT-REVIEW-APPROVE**  
+**当前阶段状态**：`BATCH500_IMPORT_APPROVE_PASS`  
+**正式 drawable**：**813**（原 313 + 第四批 500）  
 **独立性：`INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED`**
 
 ---
@@ -20,28 +19,29 @@
 
 | 项 | 说明 |
 |----|------|
-| 权威候选 | `question_bank/candidates-g3a-100.mjs` |
-| REQUIRED 图 | `diagrams/required_g3a/`（7 张已上传；055=`663bc9ab…`） |
-| 报告 | **`165` PASS** · `164` 预检 · `163` · `162` |
-| 旁证 | `_g3c_import_result.json` · `_g3c_diagram_upload_result.json` · `_g3c_review_approve_result.json` · `_g3c_final_verify_ro.json` |
+| 权威候选（已入库） | `question_bank/candidates-g4a-500.mjs` → `CAND-G4A-001..500` |
+| 批 SHA | `def9b8c49ac641de72632f09c8bfd2aeb0554d945be10db853667e88d9c5ab15` |
+| REQUIRED | `diagrams/required_g4a/`（**27/27** 已关联） |
+| 证据 | `global4e_import_results.json` · `_g4e_checkpoints/` · 组结果 `_g4e_group0N_result.json` |
+| 报告 | `174` · `173` · `171` · `169` |
 
 ---
 
 ## 4. 已完成阶段（节选）
 
-- **GLOBAL-3C = BATCH_IMPORT_APPROVE_PASS**（第三批 100 导入+7 图+review+approve；drawable 313）  
-- GLOBAL-3B = IMPORT_PREFLIGHT_PASS  
-- GLOBAL-3A = BATCH_READY_FOR_IMPORT_PREFLIGHT  
-- GLOBAL-2G = BATCH_IMPORT_APPROVE_PASS（drawable 113→213）  
+- GLOBAL-4E = **BATCH500_IMPORT_APPROVE_PASS**（500 导入+review+approve；drawable 813）  
+- GLOBAL-4D = IMPORT_PREFLIGHT_PASS（作者侧）  
+- GLOBAL-4C / 4B = 预检与压轴修复（历史）  
+- GLOBAL-3C = 此前正式基线 313  
 
 ---
 
 ## 5–7. 本阶段结果
 
-见 **`165_hs_math_bank_global3c_import_review_approve.md`**。  
-preview/confirm 100 draft → 7 图 → 100 review passed → 100 approve。  
-**DB 变更**：仅新增/推进本批 G3A；旧 213 未改；session 未变。  
-**测试**：终验 drawable=313、G3A approved=100、图 SHA 一致。
+- 5×100：全部 preview/confirm → REQUIRED 图 → review passed → approve  
+- drawable：**313 → 413 → 513 → 613 → 713 → 813**  
+- 原 313 不变；sessions 135 / session_items 359 不变  
+- 映射 500 条见 `global4e_import_results.json`
 
 ---
 
@@ -49,34 +49,25 @@ preview/confirm 100 draft → 7 图 → 100 review passed → 100 approve。
 
 | 项 | 值 |
 |----|-----|
-| drawable | **313** |
-| CAND-G3A 入库 / approved / draft | **100 / 100 / 0** |
-| 旧非 G3A approved | **213** |
-| sessions / session_items | **133 / 357** |
-| LAST_VERIFIED | 2026-10-27T02:21:50Z（3C 终验只读） |
+| drawable | **813** |
+| CAND-G4A approved | **500** |
+| CAND-G4A draft | **0** |
+| 非 G4A 正式 | **313** |
 
 ---
 
 ## 10. 待授权
 
-1. 真正独立主体抽检（建议 REQUIRED 7 + 045/055/084/097 + 难度联动）  
-2. 用户网页验收第三批（可选，建议）  
-3. 第四批题库建设（**未授权**）  
+1. 独立数学抽检安排 — **未授权**  
+2. 第五批 500 候选生成 — **未授权**  
+3. Git commit/push — **未授权**  
 
 ---
 
 ## 12. 下一步
 
-1. **停止。**  
-2. 等待明确授权后再进入第四批或独立抽检。  
-
----
-
-## 13. 报告路径
-
-- `165_hs_math_bank_global3c_import_review_approve.md`  
-- `164_hs_math_bank_global3b_quality_import_preflight.md`  
-- `163` · `162` · `161` · `160` · …  
+**停止。** 等待下一阶段授权（建议：独立抽检或第五批规划）。  
+详见 `174`。
 
 ---
 
@@ -84,8 +75,7 @@ preview/confirm 100 draft → 7 图 → 100 review passed → 100 approve。
 
 | 日期 | 阶段 | 摘要 |
 |------|------|------|
-| 2026-10-27 | GLOBAL-3C | **BATCH_IMPORT_APPROVE_PASS**：drawable 213→313；7 图；100 review/approve；未 commit |
-| 2026-10-27 | GLOBAL-3B | **IMPORT_PREFLIGHT_PASS** |
-| 2026-10-27 | GLOBAL-3A | BATCH_READY_FOR_IMPORT_PREFLIGHT |
-| 2026-10-27 | GLOBAL-2G | BATCH_IMPORT_APPROVE_PASS：drawable 113→213 |
-| 2026-10-26 | GLOBAL-2F | IMPORT_PREFLIGHT_PASS |
+| 2026-10-27 | GLOBAL-4E | **PASS**：500 入库+配图+review+approve；drawable 813；停 |
+| 2026-10-27 | GLOBAL-4D | PASS（作者侧预检）；停等导入 |
+| 2026-10-27 | GLOBAL-4C | PARTIAL：弱压轴≈78 |
+| 2026-10-27 | GLOBAL-4B | PARTIAL 初检 |

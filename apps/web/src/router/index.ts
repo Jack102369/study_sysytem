@@ -51,6 +51,7 @@ import HsMathTaxonomyAdminView from '@/views/settings/hs-math/HsMathTaxonomyAdmi
 import HsMathTrainItemsAdminView from '@/views/settings/hs-math/HsMathTrainItemsAdminView.vue'
 import HsMathTrainItemsImportView from '@/views/settings/hs-math/HsMathTrainItemsImportView.vue'
 import HsMathTrainItemsReviewView from '@/views/settings/hs-math/HsMathTrainItemsReviewView.vue'
+import HsMathTrainInventoryView from '@/views/settings/hs-math/HsMathTrainInventoryView.vue'
 import HsMathKnowledgeAdminView from '@/views/settings/hs-math/HsMathKnowledgeAdminView.vue'
 import HsMathMethodsAdminView from '@/views/settings/hs-math/HsMathMethodsAdminView.vue'
 import HsMathCategoryKnowledgeView from '@/views/hs-math/HsMathCategoryKnowledgeView.vue'
@@ -295,6 +296,12 @@ const router = createRouter({
               path: 'hs-math-train-import',
               name: 'settings-hs-math-train-import',
               component: HsMathTrainItemsImportView,
+              meta: { requiresAdmin: true },
+            },
+            {
+              path: 'hs-math-train-inventory',
+              name: 'settings-hs-math-train-inventory',
+              component: HsMathTrainInventoryView,
               meta: { requiresAdmin: true },
             },
           ],

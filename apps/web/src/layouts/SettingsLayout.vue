@@ -46,6 +46,9 @@
           <el-menu-item index="/settings/hs-math-train-items">
             数学训练题库
           </el-menu-item>
+          <el-menu-item index="/settings/hs-math-train-inventory">
+            题库库存统计
+          </el-menu-item>
           <el-menu-item index="/settings/hs-math-train-review">
             题目人工审核
           </el-menu-item>

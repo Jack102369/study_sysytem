@@ -1,0 +1,2717 @@
+{
+  "batch": "GLOBAL-4A-ISOMORPHIC-FINAL-CLEANUP",
+  "phase": "INVENTORY",
+  "generatedAt": "2026-10-27T05:30:45.383Z",
+  "totals": {
+    "candidates": 500,
+    "priorStructHitCount": 2,
+    "priorExactHitCount": 0,
+    "batchStructFamilyCount": 23,
+    "batchStructMemberDistinct": 148,
+    "batchExactDupFamilies": 0,
+    "candidatesInBothPriorAndBatch": 0,
+    "unionDistinctCandidatesInvolved": 150,
+    "crutchLeft": 0,
+    "familySizeHistogram": {
+      "2": 7,
+      "3": 3,
+      "4": 3,
+      "5": 2,
+      "6": 2,
+      "7": 1,
+      "9": 1,
+      "10": 1,
+      "16": 1,
+      "22": 1,
+      "27": 1
+    }
+  },
+  "priorHits": [
+    {
+      "candidate": {
+        "id": "CAND-G4A-233",
+        "chapterNo": 3,
+        "qtype": "application",
+        "difficulty": 3,
+        "kpCode": "rja.3.2.06",
+        "methodMain": "graph_symmetry",
+        "methodAux": "substitution",
+        "stemPreview": "已知函数 $f(x)$ 对定义域内任意 $x$ 满足 $f(x)+f(-x)=0$，且当 $x>0$ 时 $f(x)=x+\\dfrac{5}{x}$。 （1）说明 $f$ 的奇偶性； （2）求 $f(-2)$。"
+      },
+      "exactPriorHit": false,
+      "struct": "已知函数f(x)对定义域内任意x满足f(x)+f(-x)=#，且当x>#时f(x)=x+#x。（#）说明f的奇偶性；（#）求f(-#)。",
+      "priorMatches": [
+        {
+          "priorIdx": 238,
+          "priorPreview": "已知函数f(x)对定义域内任意x满足f(x)+f(-x)=0，且当x>0时f(x)=x+1x。（1）说明f的奇偶性；（2）求f(-2)。"
+        }
+      ],
+      "mathModelHint": "general",
+      "solutionHint": "由 $f(x)+f(-x)=0$ 知奇函数；再求正半轴值翻号。"
+    },
+    {
+      "candidate": {
+        "id": "CAND-G4A-275",
+        "chapterNo": 10,
+        "qtype": "single",
+        "difficulty": 3,
+        "kpCode": "rjb.10.1.02",
+        "methodMain": "domain_symmetry",
+        "methodAux": "defn",
+        "stemPreview": "独立事件 $A,B$ 满足 $P(A)=0.4$，$P(B)=0.5$，则 $P(A\\cup B)=$"
+      },
+      "exactPriorHit": false,
+      "struct": "独立事件a,b满足p(a)=#.#，p(b)=#.#，则p(ab)=",
+      "priorMatches": [
+        {
+          "priorIdx": 209,
+          "priorPreview": "独立事件a,b满足p(a)=0.3，p(b)=0.6，则p(ab)="
+        }
+      ],
+      "mathModelHint": "general",
+      "solutionHint": "$P(A\\cup B)=P(A)+P(B)-P(A)P(B)=0.4+0.5-0.2=0.7$。"
+    }
+  ],
+  "families": [
+    {
+      "familyId": "BATCH-FAM-014",
+      "size": 27,
+      "structPreview": "（章#）已知正实数x满足x+#x的研究需要。（#）求x+#x在x>#时的最小值；（#）指出等号成立条件。",
+      "sameChapter": false,
+      "sameQtype": true,
+      "sameDifficulty": false,
+      "sameKp": false,
+      "chapters": [
+        5,
+        4,
+        3,
+        10,
+        2,
+        1
+      ],
+      "qtypes": [
+        "application"
+      ],
+      "difficulties": [
+        2,
+        1,
+        3
+      ],
+      "memberIds": [
+        "CAND-G4A-203",
+        "CAND-G4A-218",
+        "CAND-G4A-241",
+        "CAND-G4A-242",
+        "CAND-G4A-269",
+        "CAND-G4A-273",
+        "CAND-G4A-277",
+        "CAND-G4A-313",
+        "CAND-G4A-320",
+        "CAND-G4A-327",
+        "CAND-G4A-329",
+        "CAND-G4A-339",
+        "CAND-G4A-352",
+        "CAND-G4A-354",
+        "CAND-G4A-375",
+        "CAND-G4A-380",
+        "CAND-G4A-382",
+        "CAND-G4A-383",
+        "CAND-G4A-384",
+        "CAND-G4A-387",
+        "CAND-G4A-394",
+        "CAND-G4A-404",
+        "CAND-G4A-412",
+        "CAND-G4A-416",
+        "CAND-G4A-423",
+        "CAND-G4A-424",
+        "CAND-G4A-464"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-203",
+          "chapterNo": 5,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.5.2.02",
+          "methodMain": "num_shape",
+          "methodAux": null,
+          "stemPreview": "（章 5）已知正实数 $x$ 满足 $x+\\dfrac{7}{x}$ 的研究需要。 （1）求 $x+\\dfrac{7}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-218",
+          "chapterNo": 5,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.5.7.01",
+          "methodMain": "graph_symmetry",
+          "methodAux": null,
+          "stemPreview": "（章 5）已知正实数 $x$ 满足 $x+\\dfrac{4}{x}$ 的研究需要。 （1）求 $x+\\dfrac{4}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-241",
+          "chapterNo": 5,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.5.7.02",
+          "methodMain": "domain_symmetry",
+          "methodAux": null,
+          "stemPreview": "（章 5）已知正实数 $x$ 满足 $x+\\dfrac{9}{x}$ 的研究需要。 （1）求 $x+\\dfrac{9}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-242",
+          "chapterNo": 5,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.5.7.03",
+          "methodMain": "undetermined_coeff",
+          "methodAux": null,
+          "stemPreview": "（章 5）已知正实数 $x$ 满足 $x+\\dfrac{6}{x}$ 的研究需要。 （1）求 $x+\\dfrac{6}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-269",
+          "chapterNo": 4,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rja.4.1.03",
+          "methodMain": "equiv_transform",
+          "methodAux": null,
+          "stemPreview": "（章 4）已知正实数 $x$ 满足 $x+\\dfrac{10}{x}$ 的研究需要。 （1）求 $x+\\dfrac{10}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-273",
+          "chapterNo": 5,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rja.5.3.03",
+          "methodMain": "graph_symmetry",
+          "methodAux": null,
+          "stemPreview": "（章 5）已知正实数 $x$ 满足 $x+\\dfrac{8}{x}$ 的研究需要。 （1）求 $x+\\dfrac{8}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-277",
+          "chapterNo": 3,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rja.3.4.02",
+          "methodMain": "graph_symmetry",
+          "methodAux": null,
+          "stemPreview": "（章 3）已知正实数 $x$ 满足 $x+\\dfrac{9}{x}$ 的研究需要。 （1）求 $x+\\dfrac{9}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-313",
+          "chapterNo": 4,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.4.3.01",
+          "methodMain": "equiv_transform",
+          "methodAux": null,
+          "stemPreview": "（章 4）已知正实数 $x$ 满足 $x+\\dfrac{9}{x}$ 的研究需要。 （1）求 $x+\\dfrac{9}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-320",
+          "chapterNo": 3,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.3.1.10",
+          "methodMain": "substitution",
+          "methodAux": null,
+          "stemPreview": "（章 3）已知正实数 $x$ 满足 $x+\\dfrac{7}{x}$ 的研究需要。 （1）求 $x+\\dfrac{7}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-327",
+          "chapterNo": 4,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rja.4.1.04",
+          "methodMain": "mono_analysis",
+          "methodAux": null,
+          "stemPreview": "（章 4）已知正实数 $x$ 满足 $x+\\dfrac{8}{x}$ 的研究需要。 （1）求 $x+\\dfrac{8}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-329",
+          "chapterNo": 3,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rja.3.2.09",
+          "methodMain": "mono_analysis",
+          "methodAux": null,
+          "stemPreview": "（章 3）已知正实数 $x$ 满足 $x+\\dfrac{8}{x}$ 的研究需要。 （1）求 $x+\\dfrac{8}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-339",
+          "chapterNo": 10,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rjb.10.1.03",
+          "methodMain": "substitution",
+          "methodAux": null,
+          "stemPreview": "（章 10）已知正实数 $x$ 满足 $x+\\dfrac{9}{x}$ 的研究需要。 （1）求 $x+\\dfrac{9}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-352",
+          "chapterNo": 2,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rja.2.1.01",
+          "methodMain": "num_shape",
+          "methodAux": null,
+          "stemPreview": "（章 2）已知正实数 $x$ 满足 $x+\\dfrac{3}{x}$ 的研究需要。 （1）求 $x+\\dfrac{3}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-354",
+          "chapterNo": 4,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rja.4.3.04",
+          "methodMain": "undetermined_coeff",
+          "methodAux": null,
+          "stemPreview": "（章 4）已知正实数 $x$ 满足 $x+\\dfrac{2}{x}$ 的研究需要。 （1）求 $x+\\dfrac{2}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-375",
+          "chapterNo": 2,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rja.2.3.03",
+          "methodMain": "mono_analysis",
+          "methodAux": null,
+          "stemPreview": "（章 2）已知正实数 $x$ 满足 $x+\\dfrac{8}{x}$ 的研究需要。 （1）求 $x+\\dfrac{8}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-380",
+          "chapterNo": 10,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rjb.10.1.02",
+          "methodMain": "num_shape",
+          "methodAux": null,
+          "stemPreview": "（章 10）已知正实数 $x$ 满足 $x+\\dfrac{6}{x}$ 的研究需要。 （1）求 $x+\\dfrac{6}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-382",
+          "chapterNo": 2,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.2.2.01",
+          "methodMain": "classification",
+          "methodAux": null,
+          "stemPreview": "（章 2）已知正实数 $x$ 满足 $x+\\dfrac{2}{x}$ 的研究需要。 （1）求 $x+\\dfrac{2}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-383",
+          "chapterNo": 3,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.3.2.01",
+          "methodMain": "num_shape",
+          "methodAux": null,
+          "stemPreview": "（章 3）已知正实数 $x$ 满足 $x+\\dfrac{10}{x}$ 的研究需要。 （1）求 $x+\\dfrac{10}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-384",
+          "chapterNo": 10,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rjb.10.3.01",
+          "methodMain": "graph_symmetry",
+          "methodAux": "undetermined_coeff",
+          "stemPreview": "（章 10）已知正实数 $x$ 满足 $x+\\dfrac{10}{x}$ 的研究需要。 （1）求 $x+\\dfrac{10}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-387",
+          "chapterNo": 3,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.3.2.05",
+          "methodMain": "graph_symmetry",
+          "methodAux": null,
+          "stemPreview": "（章 3）已知正实数 $x$ 满足 $x+\\dfrac{2}{x}$ 的研究需要。 （1）求 $x+\\dfrac{2}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-394",
+          "chapterNo": 2,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rja.2.1.04",
+          "methodMain": "equiv_transform",
+          "methodAux": null,
+          "stemPreview": "（章 2）已知正实数 $x$ 满足 $x+\\dfrac{4}{x}$ 的研究需要。 （1）求 $x+\\dfrac{4}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-404",
+          "chapterNo": 2,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.2.1.01",
+          "methodMain": "classification",
+          "methodAux": null,
+          "stemPreview": "（章 2）已知正实数 $x$ 满足 $x+\\dfrac{5}{x}$ 的研究需要。 （1）求 $x+\\dfrac{5}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-412",
+          "chapterNo": 3,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rja.3.1.09",
+          "methodMain": "defn",
+          "methodAux": "substitution",
+          "stemPreview": "（章 3）已知正实数 $x$ 满足 $x+\\dfrac{3}{x}$ 的研究需要。 （1）求 $x+\\dfrac{3}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-416",
+          "chapterNo": 10,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rjb.10.1.03",
+          "methodMain": "substitution",
+          "methodAux": "classification",
+          "stemPreview": "（章 10）已知正实数 $x$ 满足 $x+\\dfrac{7}{x}$ 的研究需要。 （1）求 $x+\\dfrac{7}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-423",
+          "chapterNo": 1,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.1.1.03",
+          "methodMain": "substitution",
+          "methodAux": null,
+          "stemPreview": "（章 1）已知正实数 $x$ 满足 $x+\\dfrac{2}{x}$ 的研究需要。 （1）求 $x+\\dfrac{2}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-424",
+          "chapterNo": 1,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rja.1.2.01",
+          "methodMain": "graph_symmetry",
+          "methodAux": "equiv_transform",
+          "stemPreview": "（章 1）已知正实数 $x$ 满足 $x+\\dfrac{3}{x}$ 的研究需要。 （1）求 $x+\\dfrac{3}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        },
+        {
+          "id": "CAND-G4A-464",
+          "chapterNo": 1,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rja.1.5.02",
+          "methodMain": "num_shape",
+          "methodAux": "equiv_transform",
+          "stemPreview": "（章 1）已知正实数 $x$ 满足 $x+\\dfrac{8}{x}$ 的研究需要。 （1）求 $x+\\dfrac{8}{x}$ 在 $x>0$ 时的最小值； （2）指出等号成立条件。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方。当 k 为完全平方时最小值为整数。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-010",
+      "size": 22,
+      "structPreview": "下列说法正确的有（多选；章#专项#,#）",
+      "sameChapter": false,
+      "sameQtype": true,
+      "sameDifficulty": false,
+      "sameKp": false,
+      "chapters": [
+        4,
+        8,
+        6,
+        5,
+        3,
+        10
+      ],
+      "qtypes": [
+        "multi"
+      ],
+      "difficulties": [
+        2,
+        1
+      ],
+      "memberIds": [
+        "CAND-G4A-148",
+        "CAND-G4A-172",
+        "CAND-G4A-173",
+        "CAND-G4A-176",
+        "CAND-G4A-225",
+        "CAND-G4A-229",
+        "CAND-G4A-245",
+        "CAND-G4A-255",
+        "CAND-G4A-267",
+        "CAND-G4A-293",
+        "CAND-G4A-331",
+        "CAND-G4A-334",
+        "CAND-G4A-346",
+        "CAND-G4A-371",
+        "CAND-G4A-378",
+        "CAND-G4A-415",
+        "CAND-G4A-418",
+        "CAND-G4A-442",
+        "CAND-G4A-448",
+        "CAND-G4A-462",
+        "CAND-G4A-475",
+        "CAND-G4A-493"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-148",
+          "chapterNo": 4,
+          "qtype": "multi",
+          "difficulty": 2,
+          "kpCode": "rja.4.4.03",
+          "methodMain": "equiv_transform",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 4 专项 6,7）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-172",
+          "chapterNo": 8,
+          "qtype": "multi",
+          "difficulty": 2,
+          "kpCode": "rjb.8.3.03",
+          "methodMain": "classification",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 8 专项 3,7）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-173",
+          "chapterNo": 4,
+          "qtype": "multi",
+          "difficulty": 2,
+          "kpCode": "rja.4.1.02",
+          "methodMain": "mono_analysis",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 4 专项 4,10）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-176",
+          "chapterNo": 4,
+          "qtype": "multi",
+          "difficulty": 2,
+          "kpCode": "rja.4.2.01",
+          "methodMain": "graph_symmetry",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 4 专项 7,3）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-225",
+          "chapterNo": 8,
+          "qtype": "multi",
+          "difficulty": 2,
+          "kpCode": "rjb.8.6.03",
+          "methodMain": "undetermined_coeff",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 8 专项 2,6）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-229",
+          "chapterNo": 8,
+          "qtype": "multi",
+          "difficulty": 1,
+          "kpCode": "rjb.8.2.02",
+          "methodMain": "special_value",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 8 专项 6,10）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-245",
+          "chapterNo": 6,
+          "qtype": "multi",
+          "difficulty": 1,
+          "kpCode": "rjb.6.2.03",
+          "methodMain": "num_shape",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 6 专项 4,10）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-255",
+          "chapterNo": 6,
+          "qtype": "multi",
+          "difficulty": 1,
+          "kpCode": "rjb.6.4.04",
+          "methodMain": "special_value",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 6 专项 5,8）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-267",
+          "chapterNo": 6,
+          "qtype": "multi",
+          "difficulty": 1,
+          "kpCode": "rjb.6.3.03",
+          "methodMain": "num_shape",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 6 专项 8,4）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-293",
+          "chapterNo": 4,
+          "qtype": "multi",
+          "difficulty": 2,
+          "kpCode": "rja.4.2.04",
+          "methodMain": "num_shape",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 4 专项 7,10）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-331",
+          "chapterNo": 8,
+          "qtype": "multi",
+          "difficulty": 2,
+          "kpCode": "rjb.8.1.01",
+          "methodMain": "parity_apply",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 8 专项 9,4）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-334",
+          "chapterNo": 8,
+          "qtype": "multi",
+          "difficulty": 2,
+          "kpCode": "rjb.8.2.02",
+          "methodMain": "domain_symmetry",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 8 专项 3,5）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-346",
+          "chapterNo": 8,
+          "qtype": "multi",
+          "difficulty": 1,
+          "kpCode": "rjb.8.1.01",
+          "methodMain": "undetermined_coeff",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 8 专项 6,9）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-371",
+          "chapterNo": 6,
+          "qtype": "multi",
+          "difficulty": 2,
+          "kpCode": "rjb.6.4.01",
+          "methodMain": "domain_symmetry",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 6 专项 4,4）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-378",
+          "chapterNo": 8,
+          "qtype": "multi",
+          "difficulty": 2,
+          "kpCode": "rjb.8.2.01",
+          "methodMain": "domain_symmetry",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 8 专项 2,9）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-415",
+          "chapterNo": 5,
+          "qtype": "multi",
+          "difficulty": 1,
+          "kpCode": "rja.5.6.03",
+          "methodMain": "substitution",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 5 专项 3,8）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-418",
+          "chapterNo": 3,
+          "qtype": "multi",
+          "difficulty": 2,
+          "kpCode": "rja.3.2.05",
+          "methodMain": "parity_apply",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 3 专项 6,9）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-442",
+          "chapterNo": 4,
+          "qtype": "multi",
+          "difficulty": 2,
+          "kpCode": "rja.4.2.01",
+          "methodMain": "undetermined_coeff",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 4 专项 3,9）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-448",
+          "chapterNo": 4,
+          "qtype": "multi",
+          "difficulty": 1,
+          "kpCode": "rja.4.3.03",
+          "methodMain": "mono_analysis",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 4 专项 9,3）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-462",
+          "chapterNo": 10,
+          "qtype": "multi",
+          "difficulty": 1,
+          "kpCode": "rjb.10.3.02",
+          "methodMain": "domain_symmetry",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 10 专项 5,5）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-475",
+          "chapterNo": 4,
+          "qtype": "multi",
+          "difficulty": 2,
+          "kpCode": "rja.4.5.04",
+          "methodMain": "undetermined_coeff",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 4 专项 9,4）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        },
+        {
+          "id": "CAND-G4A-493",
+          "chapterNo": 5,
+          "qtype": "multi",
+          "difficulty": 1,
+          "kpCode": "rja.5.3.03",
+          "methodMain": "graph_symmetry",
+          "methodAux": null,
+          "stemPreview": "下列说法正确的有（多选；章 5 专项 9,10）",
+          "mathModelHint": "general",
+          "solutionHint": "B 过于绝对。A、C、D 为应试与定义层面的正确认识。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-020",
+      "size": 16,
+      "structPreview": "正实数x满足目标式x+#x。（#）求最小值；（#）求等号时的x。",
+      "sameChapter": false,
+      "sameQtype": true,
+      "sameDifficulty": false,
+      "sameKp": false,
+      "chapters": [
+        5,
+        4,
+        10
+      ],
+      "qtypes": [
+        "application"
+      ],
+      "difficulties": [
+        1,
+        2,
+        3
+      ],
+      "memberIds": [
+        "CAND-G4A-280",
+        "CAND-G4A-283",
+        "CAND-G4A-355",
+        "CAND-G4A-359",
+        "CAND-G4A-365",
+        "CAND-G4A-369",
+        "CAND-G4A-374",
+        "CAND-G4A-376",
+        "CAND-G4A-435",
+        "CAND-G4A-436",
+        "CAND-G4A-437",
+        "CAND-G4A-459",
+        "CAND-G4A-477",
+        "CAND-G4A-484",
+        "CAND-G4A-490",
+        "CAND-G4A-498"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-280",
+          "chapterNo": 5,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rja.5.5.04",
+          "methodMain": "num_shape",
+          "methodAux": null,
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{144}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-283",
+          "chapterNo": 5,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.5.6.03",
+          "methodMain": "substitution",
+          "methodAux": null,
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{225}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-355",
+          "chapterNo": 4,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.4.4.01",
+          "methodMain": "defn",
+          "methodAux": null,
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{1355}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-359",
+          "chapterNo": 5,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.5.3.01",
+          "methodMain": "parity_apply",
+          "methodAux": null,
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{256}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-365",
+          "chapterNo": 4,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rja.4.1.04",
+          "methodMain": "undetermined_coeff",
+          "methodAux": "equiv_transform",
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{49}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-369",
+          "chapterNo": 5,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rja.5.6.01",
+          "methodMain": "mono_analysis",
+          "methodAux": "undetermined_coeff",
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{121}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-374",
+          "chapterNo": 4,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.4.4.01",
+          "methodMain": "graph_symmetry",
+          "methodAux": null,
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{1374}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-376",
+          "chapterNo": 5,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rja.5.1.02",
+          "methodMain": "classification",
+          "methodAux": "substitution",
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{9}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-435",
+          "chapterNo": 5,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rja.5.6.01",
+          "methodMain": "mono_analysis",
+          "methodAux": null,
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{4}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-436",
+          "chapterNo": 4,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rja.4.5.03",
+          "methodMain": "num_shape",
+          "methodAux": null,
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{1436}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-437",
+          "chapterNo": 4,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rja.4.5.04",
+          "methodMain": "mono_analysis",
+          "methodAux": "num_shape",
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{16}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-459",
+          "chapterNo": 10,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rjb.10.2.01",
+          "methodMain": "parity_apply",
+          "methodAux": null,
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{1459}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-477",
+          "chapterNo": 4,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rja.4.1.02",
+          "methodMain": "classification",
+          "methodAux": "mono_analysis",
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{196}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-484",
+          "chapterNo": 5,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rja.5.7.03",
+          "methodMain": "undetermined_coeff",
+          "methodAux": null,
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{36}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-490",
+          "chapterNo": 4,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rja.4.4.03",
+          "methodMain": "special_value",
+          "methodAux": null,
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{1490}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        },
+        {
+          "id": "CAND-G4A-498",
+          "chapterNo": 4,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rja.4.1.04",
+          "methodMain": "defn",
+          "methodAux": null,
+          "stemPreview": "正实数 $x$ 满足目标式 $x+\\dfrac{25}{x}$。 （1）求最小值； （2）求等号时的 $x$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-017",
+      "size": 10,
+      "structPreview": "已知参数p=#，q=#，r=#。则p+q+（r的个位数）等于",
+      "sameChapter": false,
+      "sameQtype": true,
+      "sameDifficulty": false,
+      "sameKp": false,
+      "chapters": [
+        5,
+        6
+      ],
+      "qtypes": [
+        "single"
+      ],
+      "difficulties": [
+        2,
+        3,
+        1
+      ],
+      "memberIds": [
+        "CAND-G4A-244",
+        "CAND-G4A-250",
+        "CAND-G4A-301",
+        "CAND-G4A-370",
+        "CAND-G4A-403",
+        "CAND-G4A-420",
+        "CAND-G4A-430",
+        "CAND-G4A-441",
+        "CAND-G4A-445",
+        "CAND-G4A-491"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-244",
+          "chapterNo": 5,
+          "qtype": "single",
+          "difficulty": 2,
+          "kpCode": "rja.5.1.02",
+          "methodMain": "classification",
+          "methodAux": null,
+          "stemPreview": "已知参数 $p=6$，$q=7$，$r=244$。则 $p+q+$（$r$ 的个位数）等于",
+          "mathModelHint": "param_case",
+          "solutionHint": "个位数为 4，求和得选项 A。"
+        },
+        {
+          "id": "CAND-G4A-250",
+          "chapterNo": 5,
+          "qtype": "single",
+          "difficulty": 2,
+          "kpCode": "rja.5.3.02",
+          "methodMain": "substitution",
+          "methodAux": null,
+          "stemPreview": "已知参数 $p=12$，$q=13$，$r=250$。则 $p+q+$（$r$ 的个位数）等于",
+          "mathModelHint": "param_case",
+          "solutionHint": "个位数为 0，求和得选项 A。"
+        },
+        {
+          "id": "CAND-G4A-301",
+          "chapterNo": 5,
+          "qtype": "single",
+          "difficulty": 3,
+          "kpCode": "rja.5.5.03",
+          "methodMain": "special_value",
+          "methodAux": "classification",
+          "stemPreview": "已知参数 $p=3$，$q=10$，$r=301$。则 $p+q+$（$r$ 的个位数）等于",
+          "mathModelHint": "param_case",
+          "solutionHint": "个位数为 1，求和得选项 A。"
+        },
+        {
+          "id": "CAND-G4A-370",
+          "chapterNo": 5,
+          "qtype": "single",
+          "difficulty": 1,
+          "kpCode": "rja.5.6.02",
+          "methodMain": "parity_apply",
+          "methodAux": null,
+          "stemPreview": "已知参数 $p=12$，$q=13$，$r=370$。则 $p+q+$（$r$ 的个位数）等于",
+          "mathModelHint": "param_case",
+          "solutionHint": "个位数为 0，求和得选项 A。"
+        },
+        {
+          "id": "CAND-G4A-403",
+          "chapterNo": 5,
+          "qtype": "single",
+          "difficulty": 1,
+          "kpCode": "rja.5.3.01",
+          "methodMain": "parity_apply",
+          "methodAux": null,
+          "stemPreview": "已知参数 $p=15$，$q=4$，$r=403$。则 $p+q+$（$r$ 的个位数）等于",
+          "mathModelHint": "param_case",
+          "solutionHint": "个位数为 3，求和得选项 A。"
+        },
+        {
+          "id": "CAND-G4A-420",
+          "chapterNo": 5,
+          "qtype": "single",
+          "difficulty": 1,
+          "kpCode": "rja.5.1.02",
+          "methodMain": "classification",
+          "methodAux": null,
+          "stemPreview": "已知参数 $p=2$，$q=3$，$r=420$。则 $p+q+$（$r$ 的个位数）等于",
+          "mathModelHint": "param_case",
+          "solutionHint": "个位数为 0，求和得选项 A。"
+        },
+        {
+          "id": "CAND-G4A-430",
+          "chapterNo": 5,
+          "qtype": "single",
+          "difficulty": 2,
+          "kpCode": "rja.5.4.03",
+          "methodMain": "defn",
+          "methodAux": null,
+          "stemPreview": "已知参数 $p=12$，$q=13$，$r=430$。则 $p+q+$（$r$ 的个位数）等于",
+          "mathModelHint": "param_case",
+          "solutionHint": "个位数为 0，求和得选项 A。"
+        },
+        {
+          "id": "CAND-G4A-441",
+          "chapterNo": 5,
+          "qtype": "single",
+          "difficulty": 2,
+          "kpCode": "rja.5.1.01",
+          "methodMain": "defn",
+          "methodAux": null,
+          "stemPreview": "已知参数 $p=8$，$q=6$，$r=441$。则 $p+q+$（$r$ 的个位数）等于",
+          "mathModelHint": "param_case",
+          "solutionHint": "个位数为 1，求和得选项 A。"
+        },
+        {
+          "id": "CAND-G4A-445",
+          "chapterNo": 5,
+          "qtype": "single",
+          "difficulty": 1,
+          "kpCode": "rja.5.2.02",
+          "methodMain": "num_shape",
+          "methodAux": null,
+          "stemPreview": "已知参数 $p=12$，$q=10$，$r=445$。则 $p+q+$（$r$ 的个位数）等于",
+          "mathModelHint": "param_case",
+          "solutionHint": "个位数为 5，求和得选项 A。"
+        },
+        {
+          "id": "CAND-G4A-491",
+          "chapterNo": 6,
+          "qtype": "single",
+          "difficulty": 1,
+          "kpCode": "rjb.6.4.02",
+          "methodMain": "graph_symmetry",
+          "methodAux": null,
+          "stemPreview": "已知参数 $p=13$，$q=8$，$r=491$。则 $p+q+$（$r$ 的个位数）等于",
+          "mathModelHint": "param_case",
+          "solutionHint": "个位数为 1，求和得选项 A。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-006",
+      "size": 9,
+      "structPreview": "设|u|=#，|v|=#，uv=#。则|u+v|^#=",
+      "sameChapter": false,
+      "sameQtype": true,
+      "sameDifficulty": false,
+      "sameKp": false,
+      "chapters": [
+        6,
+        4,
+        5,
+        8
+      ],
+      "qtypes": [
+        "numeric"
+      ],
+      "difficulties": [
+        2,
+        1,
+        3
+      ],
+      "memberIds": [
+        "CAND-G4A-074",
+        "CAND-G4A-281",
+        "CAND-G4A-282",
+        "CAND-G4A-321",
+        "CAND-G4A-322",
+        "CAND-G4A-349",
+        "CAND-G4A-363",
+        "CAND-G4A-452",
+        "CAND-G4A-465"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-074",
+          "chapterNo": 6,
+          "qtype": "numeric",
+          "difficulty": 2,
+          "kpCode": "rjb.6.2.02",
+          "methodMain": "graph_symmetry",
+          "methodAux": null,
+          "stemPreview": "设 $|\\vec u|=5$，$|\\vec v|=8$，$\\vec u\\cdot\\vec v=5$。则 $|\\vec u+\\vec v|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "展开 $|\\vec u+\\vec v|^{2}=|\\vec u|^{2}+|\\vec v|^{2}+2\\vec u\\cdot\\vec v=99$。"
+        },
+        {
+          "id": "CAND-G4A-281",
+          "chapterNo": 6,
+          "qtype": "numeric",
+          "difficulty": 1,
+          "kpCode": "rjb.6.2.05",
+          "methodMain": "parity_apply",
+          "methodAux": null,
+          "stemPreview": "设 $|\\vec u|=8$，$|\\vec v|=5$，$\\vec u\\cdot\\vec v=8$。则 $|\\vec u+\\vec v|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "展开 $|\\vec u+\\vec v|^{2}=|\\vec u|^{2}+|\\vec v|^{2}+2\\vec u\\cdot\\vec v=105$。"
+        },
+        {
+          "id": "CAND-G4A-282",
+          "chapterNo": 4,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rja.4.5.01",
+          "methodMain": "substitution",
+          "methodAux": "graph_symmetry",
+          "stemPreview": "设 $|\\vec u|=3$，$|\\vec v|=6$，$\\vec u\\cdot\\vec v=3$。则 $|\\vec u+\\vec v|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "展开 $|\\vec u+\\vec v|^{2}=|\\vec u|^{2}+|\\vec v|^{2}+2\\vec u\\cdot\\vec v=51$。"
+        },
+        {
+          "id": "CAND-G4A-321",
+          "chapterNo": 4,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rja.4.5.02",
+          "methodMain": "equiv_transform",
+          "methodAux": "substitution",
+          "stemPreview": "设 $|\\vec u|=6$，$|\\vec v|=5$，$\\vec u\\cdot\\vec v=6$。则 $|\\vec u+\\vec v|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "展开 $|\\vec u+\\vec v|^{2}=|\\vec u|^{2}+|\\vec v|^{2}+2\\vec u\\cdot\\vec v=73$。"
+        },
+        {
+          "id": "CAND-G4A-322",
+          "chapterNo": 4,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rja.4.5.03",
+          "methodMain": "special_value",
+          "methodAux": "graph_symmetry",
+          "stemPreview": "设 $|\\vec u|=7$，$|\\vec v|=6$，$\\vec u\\cdot\\vec v=7$。则 $|\\vec u+\\vec v|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "展开 $|\\vec u+\\vec v|^{2}=|\\vec u|^{2}+|\\vec v|^{2}+2\\vec u\\cdot\\vec v=99$。"
+        },
+        {
+          "id": "CAND-G4A-349",
+          "chapterNo": 4,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rja.4.2.03",
+          "methodMain": "graph_symmetry",
+          "methodAux": "num_shape",
+          "stemPreview": "设 $|\\vec u|=4$，$|\\vec v|=8$，$\\vec u\\cdot\\vec v=4$。则 $|\\vec u+\\vec v|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "展开 $|\\vec u+\\vec v|^{2}=|\\vec u|^{2}+|\\vec v|^{2}+2\\vec u\\cdot\\vec v=88$。"
+        },
+        {
+          "id": "CAND-G4A-363",
+          "chapterNo": 6,
+          "qtype": "numeric",
+          "difficulty": 1,
+          "kpCode": "rjb.6.2.02",
+          "methodMain": "defn",
+          "methodAux": null,
+          "stemPreview": "设 $|\\vec u|=6$，$|\\vec v|=7$，$\\vec u\\cdot\\vec v=6$。则 $|\\vec u+\\vec v|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "展开 $|\\vec u+\\vec v|^{2}=|\\vec u|^{2}+|\\vec v|^{2}+2\\vec u\\cdot\\vec v=97$。"
+        },
+        {
+          "id": "CAND-G4A-452",
+          "chapterNo": 5,
+          "qtype": "numeric",
+          "difficulty": 2,
+          "kpCode": "rja.5.4.03",
+          "methodMain": "classification",
+          "methodAux": null,
+          "stemPreview": "设 $|\\vec u|=5$，$|\\vec v|=6$，$\\vec u\\cdot\\vec v=5$。则 $|\\vec u+\\vec v|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "展开 $|\\vec u+\\vec v|^{2}=|\\vec u|^{2}+|\\vec v|^{2}+2\\vec u\\cdot\\vec v=71$。"
+        },
+        {
+          "id": "CAND-G4A-465",
+          "chapterNo": 8,
+          "qtype": "numeric",
+          "difficulty": 1,
+          "kpCode": "rjb.8.6.03",
+          "methodMain": "special_value",
+          "methodAux": null,
+          "stemPreview": "设 $|\\vec u|=6$，$|\\vec v|=4$，$\\vec u\\cdot\\vec v=6$。则 $|\\vec u+\\vec v|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "展开 $|\\vec u+\\vec v|^{2}=|\\vec u|^{2}+|\\vec v|^{2}+2\\vec u\\cdot\\vec v=64$。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-013",
+      "size": 7,
+      "structPreview": "圆柱（底面半径#，高#）上叠放同底圆锥（高#）。求组合体体积（含）。",
+      "sameChapter": true,
+      "sameQtype": true,
+      "sameDifficulty": false,
+      "sameKp": false,
+      "chapters": [
+        8
+      ],
+      "qtypes": [
+        "application"
+      ],
+      "difficulties": [
+        3,
+        2
+      ],
+      "memberIds": [
+        "CAND-G4A-180",
+        "CAND-G4A-272",
+        "CAND-G4A-300",
+        "CAND-G4A-340",
+        "CAND-G4A-364",
+        "CAND-G4A-440",
+        "CAND-G4A-483"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-180",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rjb.8.6.03",
+          "methodMain": "domain_symmetry",
+          "methodAux": "undetermined_coeff",
+          "stemPreview": "圆柱（底面半径 $3$，高 $5$）上叠放同底圆锥（高 $5$）。求组合体体积（含 $\\pi$）。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "圆柱 $45\\pi$ + 圆锥 $15\\pi$。"
+        },
+        {
+          "id": "CAND-G4A-272",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rjb.8.1.02",
+          "methodMain": "equiv_transform",
+          "methodAux": null,
+          "stemPreview": "圆柱（底面半径 $2$，高 $5$）上叠放同底圆锥（高 $2$）。求组合体体积（含 $\\pi$）。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "分部件相加。"
+        },
+        {
+          "id": "CAND-G4A-300",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rjb.8.6.03",
+          "methodMain": "graph_symmetry",
+          "methodAux": "undetermined_coeff",
+          "stemPreview": "圆柱（底面半径 $4$，高 $7$）上叠放同底圆锥（高 $4$）。求组合体体积（含 $\\pi$）。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "圆柱 $112\\pi$ + 圆锥 $21.333333333333332\\pi$。"
+        },
+        {
+          "id": "CAND-G4A-340",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rjb.8.4.02",
+          "methodMain": "num_shape",
+          "methodAux": "undetermined_coeff",
+          "stemPreview": "圆柱（底面半径 $2$，高 $6$）上叠放同底圆锥（高 $2$）。求组合体体积（含 $\\pi$）。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "圆柱 $24\\pi$ + 圆锥 $2.6666666666666665\\pi$。"
+        },
+        {
+          "id": "CAND-G4A-364",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rjb.8.2.02",
+          "methodMain": "parity_apply",
+          "methodAux": null,
+          "stemPreview": "圆柱（底面半径 $2$，高 $7$）上叠放同底圆锥（高 $2$）。求组合体体积（含 $\\pi$）。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "分部件相加。"
+        },
+        {
+          "id": "CAND-G4A-440",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rjb.8.3.01",
+          "methodMain": "mono_analysis",
+          "methodAux": null,
+          "stemPreview": "圆柱（底面半径 $2$，高 $4$）上叠放同底圆锥（高 $2$）。求组合体体积（含 $\\pi$）。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "分部件相加。"
+        },
+        {
+          "id": "CAND-G4A-483",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rjb.8.2.01",
+          "methodMain": "num_shape",
+          "methodAux": "equiv_transform",
+          "stemPreview": "圆柱（底面半径 $5$，高 $6$）上叠放同底圆锥（高 $3$）。求组合体体积（含 $\\pi$）。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "圆柱 $150\\pi$ + 圆锥 $25\\pi$。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-005",
+      "size": 6,
+      "structPreview": "设k=#。正确的有（多选）",
+      "sameChapter": false,
+      "sameQtype": true,
+      "sameDifficulty": true,
+      "sameKp": false,
+      "chapters": [
+        4,
+        2,
+        3,
+        7,
+        6
+      ],
+      "qtypes": [
+        "multi"
+      ],
+      "difficulties": [
+        3
+      ],
+      "memberIds": [
+        "CAND-G4A-069",
+        "CAND-G4A-307",
+        "CAND-G4A-310",
+        "CAND-G4A-381",
+        "CAND-G4A-425",
+        "CAND-G4A-439"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-069",
+          "chapterNo": 4,
+          "qtype": "multi",
+          "difficulty": 3,
+          "kpCode": "rja.4.3.04",
+          "methodMain": "special_value",
+          "methodAux": "mono_analysis",
+          "stemPreview": "设 $k=8$。正确的有（多选）",
+          "mathModelHint": "general",
+          "solutionHint": "C 不恒成立。"
+        },
+        {
+          "id": "CAND-G4A-307",
+          "chapterNo": 2,
+          "qtype": "multi",
+          "difficulty": 3,
+          "kpCode": "rja.2.2.04",
+          "methodMain": "undetermined_coeff",
+          "methodAux": "equiv_transform",
+          "stemPreview": "设 $k=3$。正确的有（多选）",
+          "mathModelHint": "general",
+          "solutionHint": "C 不恒成立。"
+        },
+        {
+          "id": "CAND-G4A-310",
+          "chapterNo": 3,
+          "qtype": "multi",
+          "difficulty": 3,
+          "kpCode": "rja.3.4.04",
+          "methodMain": "equiv_transform",
+          "methodAux": "parity_apply",
+          "stemPreview": "设 $k=6$。正确的有（多选）",
+          "mathModelHint": "general",
+          "solutionHint": "C 不恒成立。"
+        },
+        {
+          "id": "CAND-G4A-381",
+          "chapterNo": 7,
+          "qtype": "multi",
+          "difficulty": 3,
+          "kpCode": "rjb.7.1.03",
+          "methodMain": "substitution",
+          "methodAux": "parity_apply",
+          "stemPreview": "设 $k=5$。正确的有（多选）",
+          "mathModelHint": "general",
+          "solutionHint": "C 不恒成立。"
+        },
+        {
+          "id": "CAND-G4A-425",
+          "chapterNo": 6,
+          "qtype": "multi",
+          "difficulty": 3,
+          "kpCode": "rjb.6.4.04",
+          "methodMain": "substitution",
+          "methodAux": "defn",
+          "stemPreview": "设 $k=4$。正确的有（多选）",
+          "mathModelHint": "general",
+          "solutionHint": "C 不恒成立。"
+        },
+        {
+          "id": "CAND-G4A-439",
+          "chapterNo": 3,
+          "qtype": "multi",
+          "difficulty": 3,
+          "kpCode": "rja.3.1.05",
+          "methodMain": "undetermined_coeff",
+          "methodAux": "num_shape",
+          "stemPreview": "设 $k=9$。正确的有（多选）",
+          "mathModelHint": "general",
+          "solutionHint": "C 不恒成立。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-009",
+      "size": 6,
+      "structPreview": "平面内点o,a,b满足oa=(#,#)，ob=(#,#)。（#）求ab；（#）求|ab|。",
+      "sameChapter": true,
+      "sameQtype": true,
+      "sameDifficulty": false,
+      "sameKp": false,
+      "chapters": [
+        6
+      ],
+      "qtypes": [
+        "application"
+      ],
+      "difficulties": [
+        2,
+        1
+      ],
+      "memberIds": [
+        "CAND-G4A-124",
+        "CAND-G4A-434",
+        "CAND-G4A-450",
+        "CAND-G4A-458",
+        "CAND-G4A-485",
+        "CAND-G4A-488"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-124",
+          "chapterNo": 6,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rjb.6.2.01",
+          "methodMain": "num_shape",
+          "methodAux": null,
+          "stemPreview": "平面内点 $O,A,B$ 满足 $\\overrightarrow{OA}=(6,0)$，$\\overrightarrow{OB}=(0,3)$。 （1）求 $\\overrightarrow{AB}$； （2）求 $|\\overrightarrow{AB}|$。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "$\\overrightarrow{AB}=\\overrightarrow{OB}-\\overrightarrow{OA}$。"
+        },
+        {
+          "id": "CAND-G4A-434",
+          "chapterNo": 6,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rjb.6.2.05",
+          "methodMain": "parity_apply",
+          "methodAux": null,
+          "stemPreview": "平面内点 $O,A,B$ 满足 $\\overrightarrow{OA}=(5,0)$，$\\overrightarrow{OB}=(0,3)$。 （1）求 $\\overrightarrow{AB}$； （2）求 $|\\overrightarrow{AB}|$。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "$\\overrightarrow{AB}=\\overrightarrow{OB}-\\overrightarrow{OA}$。"
+        },
+        {
+          "id": "CAND-G4A-450",
+          "chapterNo": 6,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rjb.6.2.04",
+          "methodMain": "defn",
+          "methodAux": null,
+          "stemPreview": "平面内点 $O,A,B$ 满足 $\\overrightarrow{OA}=(4,0)$，$\\overrightarrow{OB}=(0,5)$。 （1）求 $\\overrightarrow{AB}$； （2）求 $|\\overrightarrow{AB}|$。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "$\\overrightarrow{AB}=\\overrightarrow{OB}-\\overrightarrow{OA}$。"
+        },
+        {
+          "id": "CAND-G4A-458",
+          "chapterNo": 6,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rjb.6.4.03",
+          "methodMain": "graph_symmetry",
+          "methodAux": null,
+          "stemPreview": "平面内点 $O,A,B$ 满足 $\\overrightarrow{OA}=(2,0)$，$\\overrightarrow{OB}=(0,5)$。 （1）求 $\\overrightarrow{AB}$； （2）求 $|\\overrightarrow{AB}|$。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "$\\overrightarrow{AB}=\\overrightarrow{OB}-\\overrightarrow{OA}$。"
+        },
+        {
+          "id": "CAND-G4A-485",
+          "chapterNo": 6,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rjb.6.2.05",
+          "methodMain": "equiv_transform",
+          "methodAux": null,
+          "stemPreview": "平面内点 $O,A,B$ 满足 $\\overrightarrow{OA}=(6,0)$，$\\overrightarrow{OB}=(0,5)$。 （1）求 $\\overrightarrow{AB}$； （2）求 $|\\overrightarrow{AB}|$。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "$\\overrightarrow{AB}=\\overrightarrow{OB}-\\overrightarrow{OA}$。"
+        },
+        {
+          "id": "CAND-G4A-488",
+          "chapterNo": 6,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rjb.6.3.03",
+          "methodMain": "mono_analysis",
+          "methodAux": null,
+          "stemPreview": "平面内点 $O,A,B$ 满足 $\\overrightarrow{OA}=(5,0)$，$\\overrightarrow{OB}=(0,5)$。 （1）求 $\\overrightarrow{AB}$； （2）求 $|\\overrightarrow{AB}|$。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "$\\overrightarrow{AB}=\\overrightarrow{OB}-\\overrightarrow{OA}$。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-015",
+      "size": 5,
+      "structPreview": "正实数x,y满足x+y=#。（#）当xy最大时求xy；（#）此时求x^#+y^#。",
+      "sameChapter": false,
+      "sameQtype": true,
+      "sameDifficulty": true,
+      "sameKp": false,
+      "chapters": [
+        9,
+        4,
+        1,
+        3,
+        10
+      ],
+      "qtypes": [
+        "application"
+      ],
+      "difficulties": [
+        3
+      ],
+      "memberIds": [
+        "CAND-G4A-207",
+        "CAND-G4A-220",
+        "CAND-G4A-294",
+        "CAND-G4A-336",
+        "CAND-G4A-342"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-207",
+          "chapterNo": 9,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rjb.9.2.02",
+          "methodMain": "domain_symmetry",
+          "methodAux": "classification",
+          "stemPreview": "正实数 $x,y$ 满足 $x+y=10$。 （1）当 $xy$ 最大时求 $xy$； （2）此时求 $x^{2}+y^{2}$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方：$(x+y)^{2}-4xy\\ge 0$。"
+        },
+        {
+          "id": "CAND-G4A-220",
+          "chapterNo": 4,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rja.4.3.03",
+          "methodMain": "defn",
+          "methodAux": "mono_analysis",
+          "stemPreview": "正实数 $x,y$ 满足 $x+y=6$。 （1）当 $xy$ 最大时求 $xy$； （2）此时求 $x^{2}+y^{2}$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方：$(x+y)^{2}-4xy\\ge 0$。"
+        },
+        {
+          "id": "CAND-G4A-294",
+          "chapterNo": 1,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rja.1.3.04",
+          "methodMain": "graph_symmetry",
+          "methodAux": "domain_symmetry",
+          "stemPreview": "正实数 $x,y$ 满足 $x+y=14$。 （1）当 $xy$ 最大时求 $xy$； （2）此时求 $x^{2}+y^{2}$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方：$(x+y)^{2}-4xy\\ge 0$。"
+        },
+        {
+          "id": "CAND-G4A-336",
+          "chapterNo": 3,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rja.3.3.04",
+          "methodMain": "parity_apply",
+          "methodAux": "defn",
+          "stemPreview": "正实数 $x,y$ 满足 $x+y=8$。 （1）当 $xy$ 最大时求 $xy$； （2）此时求 $x^{2}+y^{2}$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方：$(x+y)^{2}-4xy\\ge 0$。"
+        },
+        {
+          "id": "CAND-G4A-342",
+          "chapterNo": 10,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rjb.10.3.01",
+          "methodMain": "classification",
+          "methodAux": "substitution",
+          "stemPreview": "正实数 $x,y$ 满足 $x+y=12$。 （1）当 $xy$ 最大时求 $xy$； （2）此时求 $x^{2}+y^{2}$。",
+          "mathModelHint": "extremum",
+          "solutionHint": "AM-GM 或配方：$(x+y)^{2}-4xy\\ge 0$。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-016",
+      "size": 5,
+      "structPreview": "圆锥底面半径#、高#。（#）求体积（含）；（#）求轴截面面积。",
+      "sameChapter": true,
+      "sameQtype": true,
+      "sameDifficulty": false,
+      "sameKp": false,
+      "chapters": [
+        8
+      ],
+      "qtypes": [
+        "application"
+      ],
+      "difficulties": [
+        1,
+        2
+      ],
+      "memberIds": [
+        "CAND-G4A-243",
+        "CAND-G4A-389",
+        "CAND-G4A-422",
+        "CAND-G4A-438",
+        "CAND-G4A-449"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-243",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rjb.8.2.01",
+          "methodMain": "parity_apply",
+          "methodAux": null,
+          "stemPreview": "圆锥底面半径 $4$、高 $7$。 （1）求体积（含 $\\pi$）； （2）求轴截面面积。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "体积公式；轴截面为等腰三角形面积 $R H$。"
+        },
+        {
+          "id": "CAND-G4A-389",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rjb.8.6.02",
+          "methodMain": "domain_symmetry",
+          "methodAux": null,
+          "stemPreview": "圆锥底面半径 $4$、高 $4$。 （1）求体积（含 $\\pi$）； （2）求轴截面面积。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "体积公式；轴截面为等腰三角形面积 $R H$。"
+        },
+        {
+          "id": "CAND-G4A-422",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rjb.8.1.02",
+          "methodMain": "domain_symmetry",
+          "methodAux": null,
+          "stemPreview": "圆锥底面半径 $4$、高 $5$。 （1）求体积（含 $\\pi$）； （2）求轴截面面积。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "体积公式；轴截面为等腰三角形面积 $R H$。"
+        },
+        {
+          "id": "CAND-G4A-438",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rjb.8.2.01",
+          "methodMain": "special_value",
+          "methodAux": null,
+          "stemPreview": "圆锥底面半径 $4$、高 $6$。 （1）求体积（含 $\\pi$）； （2）求轴截面面积。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "体积公式；轴截面为等腰三角形面积 $R H$。"
+        },
+        {
+          "id": "CAND-G4A-449",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rjb.8.6.02",
+          "methodMain": "special_value",
+          "methodAux": null,
+          "stemPreview": "圆锥底面半径 $4$、高 $3$。 （1）求体积（含 $\\pi$）； （2）求轴截面面积。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "体积公式；轴截面为等腰三角形面积 $R H$。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-018",
+      "size": 4,
+      "structPreview": "设|p|=#，|q|=#，pq=#。则|p+q|^#=",
+      "sameChapter": false,
+      "sameQtype": true,
+      "sameDifficulty": true,
+      "sameKp": false,
+      "chapters": [
+        6,
+        4,
+        8
+      ],
+      "qtypes": [
+        "numeric"
+      ],
+      "difficulties": [
+        2
+      ],
+      "memberIds": [
+        "CAND-G4A-254",
+        "CAND-G4A-308",
+        "CAND-G4A-379",
+        "CAND-G4A-494"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-254",
+          "chapterNo": 6,
+          "qtype": "numeric",
+          "difficulty": 2,
+          "kpCode": "rjb.6.4.03",
+          "methodMain": "classification",
+          "methodAux": null,
+          "stemPreview": "设 $|\\vec p|=7$，$|\\vec q|=10$，$\\vec p\\cdot\\vec q=7$。则 $|\\vec p+\\vec q|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "展开得 163。"
+        },
+        {
+          "id": "CAND-G4A-308",
+          "chapterNo": 4,
+          "qtype": "numeric",
+          "difficulty": 2,
+          "kpCode": "rja.4.1.04",
+          "methodMain": "defn",
+          "methodAux": null,
+          "stemPreview": "设 $|\\vec p|=5$，$|\\vec q|=9$，$\\vec p\\cdot\\vec q=5$。则 $|\\vec p+\\vec q|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "展开得 116。"
+        },
+        {
+          "id": "CAND-G4A-379",
+          "chapterNo": 6,
+          "qtype": "numeric",
+          "difficulty": 2,
+          "kpCode": "rjb.6.2.01",
+          "methodMain": "mono_analysis",
+          "methodAux": null,
+          "stemPreview": "设 $|\\vec p|=6$，$|\\vec q|=10$，$\\vec p\\cdot\\vec q=6$。则 $|\\vec p+\\vec q|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "展开得 148。"
+        },
+        {
+          "id": "CAND-G4A-494",
+          "chapterNo": 8,
+          "qtype": "numeric",
+          "difficulty": 2,
+          "kpCode": "rjb.8.6.02",
+          "methodMain": "undetermined_coeff",
+          "methodAux": null,
+          "stemPreview": "设 $|\\vec p|=9$，$|\\vec q|=10$，$\\vec p\\cdot\\vec q=9$。则 $|\\vec p+\\vec q|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "展开得 199。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-021",
+      "size": 4,
+      "structPreview": "圆柱半径#、高#上同底叠放高#的圆锥。体积除以等于",
+      "sameChapter": false,
+      "sameQtype": true,
+      "sameDifficulty": false,
+      "sameKp": false,
+      "chapters": [
+        8,
+        2,
+        6,
+        1
+      ],
+      "qtypes": [
+        "numeric"
+      ],
+      "difficulties": [
+        3,
+        2,
+        1
+      ],
+      "memberIds": [
+        "CAND-G4A-284",
+        "CAND-G4A-343",
+        "CAND-G4A-453",
+        "CAND-G4A-481"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-284",
+          "chapterNo": 8,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rjb.8.6.02",
+          "methodMain": "domain_symmetry",
+          "methodAux": "undetermined_coeff",
+          "stemPreview": "圆柱半径 $3$、高 $7$ 上同底叠放高 $3$ 的圆锥。体积除以 $\\pi$ 等于",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "柱 $63$ + 锥 $9$ = $72$。"
+        },
+        {
+          "id": "CAND-G4A-343",
+          "chapterNo": 2,
+          "qtype": "numeric",
+          "difficulty": 2,
+          "kpCode": "rja.2.2.01",
+          "methodMain": "equiv_transform",
+          "methodAux": null,
+          "stemPreview": "圆柱半径 $5$、高 $8$ 上同底叠放高 $3$ 的圆锥。体积除以 $\\pi$ 等于",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "$R^{2}H+R^{2}=225$（锥高3使 1/3 约尽）。"
+        },
+        {
+          "id": "CAND-G4A-453",
+          "chapterNo": 6,
+          "qtype": "numeric",
+          "difficulty": 1,
+          "kpCode": "rjb.6.3.02",
+          "methodMain": "equiv_transform",
+          "methodAux": null,
+          "stemPreview": "圆柱半径 $3$、高 $8$ 上同底叠放高 $3$ 的圆锥。体积除以 $\\pi$ 等于",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "$R^{2}H+R^{2}=81$（锥高3使 1/3 约尽）。"
+        },
+        {
+          "id": "CAND-G4A-481",
+          "chapterNo": 1,
+          "qtype": "numeric",
+          "difficulty": 1,
+          "kpCode": "rja.1.1.01",
+          "methodMain": "graph_symmetry",
+          "methodAux": null,
+          "stemPreview": "圆柱半径 $3$、高 $6$ 上同底叠放高 $3$ 的圆锥。体积除以 $\\pi$ 等于",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "$R^{2}H+R^{2}=63$（锥高3使 1/3 约尽）。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-023",
+      "size": 4,
+      "structPreview": "正实数x,y满足x+y=#，xy=#，则xy+yx=",
+      "sameChapter": true,
+      "sameQtype": true,
+      "sameDifficulty": true,
+      "sameKp": false,
+      "chapters": [
+        5
+      ],
+      "qtypes": [
+        "numeric"
+      ],
+      "difficulties": [
+        3
+      ],
+      "memberIds": [
+        "CAND-G4A-357",
+        "CAND-G4A-428",
+        "CAND-G4A-433",
+        "CAND-G4A-492"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-357",
+          "chapterNo": 5,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rja.5.2.02",
+          "methodMain": "mono_analysis",
+          "methodAux": "classification",
+          "stemPreview": "正实数 $x,y$ 满足 $x+y=10$，$xy=25$，则 $\\dfrac{x}{y}+\\dfrac{y}{x}=$",
+          "mathModelHint": "general",
+          "solutionHint": "$\\dfrac{x}{y}+\\dfrac{y}{x}=\\dfrac{x^{2}+y^{2}}{xy}=\\dfrac{(x+y)^{2}-2xy}{xy}=2$。"
+        },
+        {
+          "id": "CAND-G4A-428",
+          "chapterNo": 5,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rja.5.4.01",
+          "methodMain": "undetermined_coeff",
+          "methodAux": "equiv_transform",
+          "stemPreview": "正实数 $x,y$ 满足 $x+y=12$，$xy=36$，则 $\\dfrac{x}{y}+\\dfrac{y}{x}=$",
+          "mathModelHint": "general",
+          "solutionHint": "$\\dfrac{x}{y}+\\dfrac{y}{x}=\\dfrac{x^{2}+y^{2}}{xy}=\\dfrac{(x+y)^{2}-2xy}{xy}=2$。"
+        },
+        {
+          "id": "CAND-G4A-433",
+          "chapterNo": 5,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rja.5.5.03",
+          "methodMain": "num_shape",
+          "methodAux": "graph_symmetry",
+          "stemPreview": "正实数 $x,y$ 满足 $x+y=8$，$xy=16$，则 $\\dfrac{x}{y}+\\dfrac{y}{x}=$",
+          "mathModelHint": "general",
+          "solutionHint": "$\\dfrac{x}{y}+\\dfrac{y}{x}=\\dfrac{x^{2}+y^{2}}{xy}=\\dfrac{(x+y)^{2}-2xy}{xy}=2$。"
+        },
+        {
+          "id": "CAND-G4A-492",
+          "chapterNo": 5,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rja.5.3.02",
+          "methodMain": "graph_symmetry",
+          "methodAux": "parity_apply",
+          "stemPreview": "正实数 $x,y$ 满足 $x+y=6$，$xy=9$，则 $\\dfrac{x}{y}+\\dfrac{y}{x}=$",
+          "mathModelHint": "general",
+          "solutionHint": "$\\dfrac{x}{y}+\\dfrac{y}{x}=\\dfrac{x^{2}+y^{2}}{xy}=\\dfrac{(x+y)^{2}-2xy}{xy}=2$。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-002",
+      "size": 3,
+      "structPreview": "设|a|=#，|b|=#，ab=#。则|a+b|^#=",
+      "sameChapter": true,
+      "sameQtype": true,
+      "sameDifficulty": true,
+      "sameKp": false,
+      "chapters": [
+        6
+      ],
+      "qtypes": [
+        "numeric"
+      ],
+      "difficulties": [
+        3
+      ],
+      "memberIds": [
+        "CAND-G4A-016",
+        "CAND-G4A-268",
+        "CAND-G4A-469"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-016",
+          "chapterNo": 6,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rjb.6.4.03",
+          "methodMain": "mono_analysis",
+          "methodAux": "defn",
+          "stemPreview": "设 $|\\vec a|=4$，$|\\vec b|=4$，$\\vec a\\cdot\\vec b=4$。则 $|\\vec a+\\vec b|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "$|\\vec a+\\vec b|^{2}=|\\vec a|^{2}+|\\vec b|^{2}+2\\vec a\\cdot\\vec b=40$。"
+        },
+        {
+          "id": "CAND-G4A-268",
+          "chapterNo": 6,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rjb.6.3.04",
+          "methodMain": "num_shape",
+          "methodAux": "equiv_transform",
+          "stemPreview": "设 $|\\vec a|=5$，$|\\vec b|=5$，$\\vec a\\cdot\\vec b=5$。则 $|\\vec a+\\vec b|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "$|\\vec a+\\vec b|^{2}=|\\vec a|^{2}+|\\vec b|^{2}+2\\vec a\\cdot\\vec b=60$。"
+        },
+        {
+          "id": "CAND-G4A-469",
+          "chapterNo": 6,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rjb.6.3.01",
+          "methodMain": "substitution",
+          "methodAux": "special_value",
+          "stemPreview": "设 $|\\vec a|=4$，$|\\vec b|=5$，$\\vec a\\cdot\\vec b=4$。则 $|\\vec a+\\vec b|^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "$|\\vec a+\\vec b|^{2}=|\\vec a|^{2}+|\\vec b|^{2}+2\\vec a\\cdot\\vec b=49$。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-012",
+      "size": 3,
+      "structPreview": "y=#x+#x的最大值是",
+      "sameChapter": false,
+      "sameQtype": true,
+      "sameDifficulty": true,
+      "sameKp": false,
+      "chapters": [
+        6,
+        5,
+        9
+      ],
+      "qtypes": [
+        "single"
+      ],
+      "difficulties": [
+        3
+      ],
+      "memberIds": [
+        "CAND-G4A-157",
+        "CAND-G4A-202",
+        "CAND-G4A-368"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-157",
+          "chapterNo": 6,
+          "qtype": "single",
+          "difficulty": 3,
+          "kpCode": "rjb.6.1.04",
+          "methodMain": "special_value",
+          "methodAux": "classification",
+          "stemPreview": "$y=5\\sin x+5\\cos x$ 的最大值是",
+          "mathModelHint": "extremum",
+          "solutionHint": "辅助角：$R=\\sqrt{k^{2}+m^{2}}$。"
+        },
+        {
+          "id": "CAND-G4A-202",
+          "chapterNo": 5,
+          "qtype": "single",
+          "difficulty": 3,
+          "kpCode": "rja.5.2.01",
+          "methodMain": "num_shape",
+          "methodAux": "substitution",
+          "stemPreview": "$y=3\\sin x+4\\cos x$ 的最大值是",
+          "mathModelHint": "extremum",
+          "solutionHint": "$R=\\sqrt{3^{2}+4^{2}}=5$，最大值为 5。"
+        },
+        {
+          "id": "CAND-G4A-368",
+          "chapterNo": 9,
+          "qtype": "single",
+          "difficulty": 3,
+          "kpCode": "rjb.9.2.02",
+          "methodMain": "mono_analysis",
+          "methodAux": "equiv_transform",
+          "stemPreview": "$y=6\\sin x+4\\cos x$ 的最大值是",
+          "mathModelHint": "extremum",
+          "solutionHint": "辅助角：$R=\\sqrt{k^{2}+m^{2}}$。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-022",
+      "size": 3,
+      "structPreview": "已知oa=(#,#)，ob=(#,#)。（#）求ab；（#）求|oa|。",
+      "sameChapter": true,
+      "sameQtype": true,
+      "sameDifficulty": true,
+      "sameKp": false,
+      "chapters": [
+        6
+      ],
+      "qtypes": [
+        "application"
+      ],
+      "difficulties": [
+        3
+      ],
+      "memberIds": [
+        "CAND-G4A-288",
+        "CAND-G4A-361",
+        "CAND-G4A-390"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-288",
+          "chapterNo": 6,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rjb.6.4.03",
+          "methodMain": "special_value",
+          "methodAux": "classification",
+          "stemPreview": "已知 $\\overrightarrow{OA}=(5,0)$，$\\overrightarrow{OB}=(3,2)$。 （1）求 $\\overrightarrow{AB}$； （2）求 $|\\overrightarrow{OA}|$。",
+          "mathModelHint": "general",
+          "solutionHint": "向量减法与模。"
+        },
+        {
+          "id": "CAND-G4A-361",
+          "chapterNo": 6,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rjb.6.1.04",
+          "methodMain": "undetermined_coeff",
+          "methodAux": "num_shape",
+          "stemPreview": "已知 $\\overrightarrow{OA}=(3,0)$，$\\overrightarrow{OB}=(10,3)$。 （1）求 $\\overrightarrow{AB}$； （2）求 $|\\overrightarrow{OA}|$。",
+          "mathModelHint": "general",
+          "solutionHint": "向量减法与模。"
+        },
+        {
+          "id": "CAND-G4A-390",
+          "chapterNo": 6,
+          "qtype": "application",
+          "difficulty": 3,
+          "kpCode": "rjb.6.4.03",
+          "methodMain": "parity_apply",
+          "methodAux": "special_value",
+          "stemPreview": "已知 $\\overrightarrow{OA}=(2,0)$，$\\overrightarrow{OB}=(9,4)$。 （1）求 $\\overrightarrow{AB}$； （2）求 $|\\overrightarrow{OA}|$。",
+          "mathModelHint": "general",
+          "solutionHint": "向量减法与模。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-001",
+      "size": 2,
+      "structPreview": "奇函数f在r上，且x>#时f(x)=x+#x。则f(-#)=",
+      "sameChapter": false,
+      "sameQtype": true,
+      "sameDifficulty": true,
+      "sameKp": false,
+      "chapters": [
+        4,
+        2
+      ],
+      "qtypes": [
+        "single"
+      ],
+      "difficulties": [
+        3
+      ],
+      "memberIds": [
+        "CAND-G4A-004",
+        "CAND-G4A-223"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-004",
+          "chapterNo": 4,
+          "qtype": "single",
+          "difficulty": 3,
+          "kpCode": "rja.4.1.04",
+          "methodMain": "num_shape",
+          "methodAux": "undetermined_coeff",
+          "stemPreview": "奇函数 $f$ 在 $\\mathbb{R}$ 上，且 $x>0$ 时 $f(x)=x+\\dfrac{2}{x}$。则 $f(-2)=$",
+          "mathModelHint": "fn_property",
+          "solutionHint": "$f(2)=2+1$，奇性得负值。"
+        },
+        {
+          "id": "CAND-G4A-223",
+          "chapterNo": 2,
+          "qtype": "single",
+          "difficulty": 3,
+          "kpCode": "rja.2.1.02",
+          "methodMain": "special_value",
+          "methodAux": "domain_symmetry",
+          "stemPreview": "奇函数 $f$ 在 $\\mathbb{R}$ 上，且 $x>0$ 时 $f(x)=x+\\dfrac{5}{x}$。则 $f(-5)=$",
+          "mathModelHint": "fn_property",
+          "solutionHint": "$f(5)=5+1$，奇性得负值。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-003",
+      "size": 2,
+      "structPreview": "_##=",
+      "sameChapter": true,
+      "sameQtype": true,
+      "sameDifficulty": false,
+      "sameKp": true,
+      "chapters": [
+        4
+      ],
+      "qtypes": [
+        "single"
+      ],
+      "difficulties": [
+        3,
+        2
+      ],
+      "memberIds": [
+        "CAND-G4A-021",
+        "CAND-G4A-401"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-021",
+          "chapterNo": 4,
+          "qtype": "single",
+          "difficulty": 3,
+          "kpCode": "rja.4.1.02",
+          "methodMain": "substitution",
+          "methodAux": "domain_symmetry",
+          "stemPreview": "$\\log_2 2=$",
+          "mathModelHint": "general",
+          "solutionHint": "定义。"
+        },
+        {
+          "id": "CAND-G4A-401",
+          "chapterNo": 4,
+          "qtype": "single",
+          "difficulty": 2,
+          "kpCode": "rja.4.1.02",
+          "methodMain": "equiv_transform",
+          "methodAux": null,
+          "stemPreview": "$\\log_{2} 8=$",
+          "mathModelHint": "general",
+          "solutionHint": "对数定义。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-004",
+      "size": 2,
+      "structPreview": "正方体棱长#，内部挖去底面半径#、高#的圆柱（轴平行于棱）。求剩余体积（含）。",
+      "sameChapter": true,
+      "sameQtype": true,
+      "sameDifficulty": false,
+      "sameKp": false,
+      "chapters": [
+        8
+      ],
+      "qtypes": [
+        "application"
+      ],
+      "difficulties": [
+        1,
+        2
+      ],
+      "memberIds": [
+        "CAND-G4A-049",
+        "CAND-G4A-405"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-049",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rjb.8.2.02",
+          "methodMain": "undetermined_coeff",
+          "methodAux": null,
+          "stemPreview": "正方体棱长 $5$，内部挖去底面半径 $3$、高 $4$ 的圆柱（轴平行于棱）。求剩余体积（含 $\\pi$）。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "大正方体减圆柱。"
+        },
+        {
+          "id": "CAND-G4A-405",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rjb.8.6.03",
+          "methodMain": "special_value",
+          "methodAux": null,
+          "stemPreview": "正方体棱长 $4$，内部挖去底面半径 $2$、高 $3$ 的圆柱（轴平行于棱）。求剩余体积（含 $\\pi$）。",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "大正方体减圆柱。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-007",
+      "size": 2,
+      "structPreview": "长方体棱长分别为#,#,#。求体对角线长的平方。",
+      "sameChapter": true,
+      "sameQtype": true,
+      "sameDifficulty": true,
+      "sameKp": false,
+      "chapters": [
+        8
+      ],
+      "qtypes": [
+        "application"
+      ],
+      "difficulties": [
+        2
+      ],
+      "memberIds": [
+        "CAND-G4A-075",
+        "CAND-G4A-287"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-075",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rjb.8.6.03",
+          "methodMain": "special_value",
+          "methodAux": null,
+          "stemPreview": "长方体棱长分别为 $3,4,5$。求体对角线长的平方。",
+          "mathModelHint": "general",
+          "solutionHint": "体对角线平方等于三度平方和。"
+        },
+        {
+          "id": "CAND-G4A-287",
+          "chapterNo": 8,
+          "qtype": "application",
+          "difficulty": 2,
+          "kpCode": "rjb.8.1.02",
+          "methodMain": "parity_apply",
+          "methodAux": null,
+          "stemPreview": "长方体棱长分别为 $5,6,7$。求体对角线长的平方。",
+          "mathModelHint": "general",
+          "solutionHint": "体对角线平方等于三度平方和。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-008",
+      "size": 2,
+      "structPreview": "计算(#+i)(#-i)，并求结果的模。",
+      "sameChapter": true,
+      "sameQtype": true,
+      "sameDifficulty": true,
+      "sameKp": false,
+      "chapters": [
+        7
+      ],
+      "qtypes": [
+        "application"
+      ],
+      "difficulties": [
+        1
+      ],
+      "memberIds": [
+        "CAND-G4A-104",
+        "CAND-G4A-303"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-104",
+          "chapterNo": 7,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rjb.7.3.01",
+          "methodMain": "graph_symmetry",
+          "methodAux": null,
+          "stemPreview": "计算 $(1+\\mathrm{i})(4-\\mathrm{i})$，并求结果的模。",
+          "mathModelHint": "general",
+          "solutionHint": "展开并求模。"
+        },
+        {
+          "id": "CAND-G4A-303",
+          "chapterNo": 7,
+          "qtype": "application",
+          "difficulty": 1,
+          "kpCode": "rjb.7.1.02",
+          "methodMain": "domain_symmetry",
+          "methodAux": null,
+          "stemPreview": "计算 $(2+i)(2-i)$，并求结果的模。",
+          "mathModelHint": "general",
+          "solutionHint": "平方差。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-011",
+      "size": 2,
+      "structPreview": "正实数x,y满足x+y=#且xy=#。则x^#+y^#=",
+      "sameChapter": false,
+      "sameQtype": true,
+      "sameDifficulty": false,
+      "sameKp": false,
+      "chapters": [
+        2,
+        9
+      ],
+      "qtypes": [
+        "numeric"
+      ],
+      "difficulties": [
+        3,
+        1
+      ],
+      "memberIds": [
+        "CAND-G4A-155",
+        "CAND-G4A-463"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-155",
+          "chapterNo": 2,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rja.2.3.04",
+          "methodMain": "classification",
+          "methodAux": "undetermined_coeff",
+          "stemPreview": "正实数 $x,y$ 满足 $x+y=8$ 且 $xy=16$。则 $x^{2}+y^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "$x^{2}+y^{2}=(x+y)^{2}-2xy=64-2k^{2}=32$。"
+        },
+        {
+          "id": "CAND-G4A-463",
+          "chapterNo": 9,
+          "qtype": "numeric",
+          "difficulty": 1,
+          "kpCode": "rjb.9.1.01",
+          "methodMain": "classification",
+          "methodAux": null,
+          "stemPreview": "正实数 $x,y$ 满足 $x+y=24$ 且 $xy=144$。则 $x^{2}+y^{2}=$",
+          "mathModelHint": "general",
+          "solutionHint": "$(x+y)^{2}-2xy=288$。"
+        }
+      ]
+    },
+    {
+      "familyId": "BATCH-FAM-019",
+      "size": 2,
+      "structPreview": "圆柱底面半径#、高#，其上同底叠放高#的圆锥。组合体体积除以的结果为",
+      "sameChapter": true,
+      "sameQtype": true,
+      "sameDifficulty": true,
+      "sameKp": true,
+      "chapters": [
+        8
+      ],
+      "qtypes": [
+        "numeric"
+      ],
+      "difficulties": [
+        3
+      ],
+      "memberIds": [
+        "CAND-G4A-259",
+        "CAND-G4A-409"
+      ],
+      "members": [
+        {
+          "id": "CAND-G4A-259",
+          "chapterNo": 8,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rjb.8.2.02",
+          "methodMain": "parity_apply",
+          "methodAux": "special_value",
+          "stemPreview": "圆柱底面半径 $3$、高 $7$，其上同底叠放高 $4$ 的圆锥。组合体体积除以 $\\pi$ 的结果为",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "$R^{2}H+R^{2}h/3=75$。"
+        },
+        {
+          "id": "CAND-G4A-409",
+          "chapterNo": 8,
+          "qtype": "numeric",
+          "difficulty": 3,
+          "kpCode": "rjb.8.2.02",
+          "methodMain": "equiv_transform",
+          "methodAux": "num_shape",
+          "stemPreview": "圆柱底面半径 $3$、高 $5$，其上同底叠放高 $4$ 的圆锥。组合体体积除以 $\\pi$ 的结果为",
+          "mathModelHint": "solid_geo",
+          "solutionHint": "$R^{2}H+R^{2}h/3=57$。"
+        }
+      ]
+    }
+  ],
+  "overlap": {
+    "priorOnly": [
+      "CAND-G4A-233",
+      "CAND-G4A-275"
+    ],
+    "batchOnly": [
+      "CAND-G4A-004",
+      "CAND-G4A-016",
+      "CAND-G4A-021",
+      "CAND-G4A-049",
+      "CAND-G4A-069",
+      "CAND-G4A-074",
+      "CAND-G4A-075",
+      "CAND-G4A-104",
+      "CAND-G4A-124",
+      "CAND-G4A-148",
+      "CAND-G4A-155",
+      "CAND-G4A-157",
+      "CAND-G4A-172",
+      "CAND-G4A-173",
+      "CAND-G4A-176",
+      "CAND-G4A-180",
+      "CAND-G4A-202",
+      "CAND-G4A-203",
+      "CAND-G4A-207",
+      "CAND-G4A-218",
+      "CAND-G4A-220",
+      "CAND-G4A-223",
+      "CAND-G4A-225",
+      "CAND-G4A-229",
+      "CAND-G4A-241",
+      "CAND-G4A-242",
+      "CAND-G4A-243",
+      "CAND-G4A-244",
+      "CAND-G4A-245",
+      "CAND-G4A-250",
+      "CAND-G4A-254",
+      "CAND-G4A-255",
+      "CAND-G4A-259",
+      "CAND-G4A-267",
+      "CAND-G4A-268",
+      "CAND-G4A-269",
+      "CAND-G4A-272",
+      "CAND-G4A-273",
+      "CAND-G4A-277",
+      "CAND-G4A-280",
+      "CAND-G4A-281",
+      "CAND-G4A-282",
+      "CAND-G4A-283",
+      "CAND-G4A-284",
+      "CAND-G4A-287",
+      "CAND-G4A-288",
+      "CAND-G4A-293",
+      "CAND-G4A-294",
+      "CAND-G4A-300",
+      "CAND-G4A-301",
+      "CAND-G4A-303",
+      "CAND-G4A-307",
+      "CAND-G4A-308",
+      "CAND-G4A-310",
+      "CAND-G4A-313",
+      "CAND-G4A-320",
+      "CAND-G4A-321",
+      "CAND-G4A-322",
+      "CAND-G4A-327",
+      "CAND-G4A-329",
+      "CAND-G4A-331",
+      "CAND-G4A-334",
+      "CAND-G4A-336",
+      "CAND-G4A-339",
+      "CAND-G4A-340",
+      "CAND-G4A-342",
+      "CAND-G4A-343",
+      "CAND-G4A-346",
+      "CAND-G4A-349",
+      "CAND-G4A-352",
+      "CAND-G4A-354",
+      "CAND-G4A-355",
+      "CAND-G4A-357",
+      "CAND-G4A-359",
+      "CAND-G4A-361",
+      "CAND-G4A-363",
+      "CAND-G4A-364",
+      "CAND-G4A-365",
+      "CAND-G4A-368",
+      "CAND-G4A-369",
+      "CAND-G4A-370",
+      "CAND-G4A-371",
+      "CAND-G4A-374",
+      "CAND-G4A-375",
+      "CAND-G4A-376",
+      "CAND-G4A-378",
+      "CAND-G4A-379",
+      "CAND-G4A-380",
+      "CAND-G4A-381",
+      "CAND-G4A-382",
+      "CAND-G4A-383",
+      "CAND-G4A-384",
+      "CAND-G4A-387",
+      "CAND-G4A-389",
+      "CAND-G4A-390",
+      "CAND-G4A-394",
+      "CAND-G4A-401",
+      "CAND-G4A-403",
+      "CAND-G4A-404",
+      "CAND-G4A-405",
+      "CAND-G4A-409",
+      "CAND-G4A-412",
+      "CAND-G4A-415",
+      "CAND-G4A-416",
+      "CAND-G4A-418",
+      "CAND-G4A-420",
+      "CAND-G4A-422",
+      "CAND-G4A-423",
+      "CAND-G4A-424",
+      "CAND-G4A-425",
+      "CAND-G4A-428",
+      "CAND-G4A-430",
+      "CAND-G4A-433",
+      "CAND-G4A-434",
+      "CAND-G4A-435",
+      "CAND-G4A-436",
+      "CAND-G4A-437",
+      "CAND-G4A-438",
+      "CAND-G4A-439",
+      "CAND-G4A-440",
+      "CAND-G4A-441",
+      "CAND-G4A-442",
+      "CAND-G4A-445",
+      "CAND-G4A-448",
+      "CAND-G4A-449",
+      "CAND-G4A-450",
+      "CAND-G4A-452",
+      "CAND-G4A-453",
+      "CAND-G4A-458",
+      "CAND-G4A-459",
+      "CAND-G4A-462",
+      "CAND-G4A-463",
+      "CAND-G4A-464",
+      "CAND-G4A-465",
+      "CAND-G4A-469",
+      "CAND-G4A-475",
+      "CAND-G4A-477",
+      "CAND-G4A-481",
+      "CAND-G4A-483",
+      "CAND-G4A-484",
+      "CAND-G4A-485",
+      "CAND-G4A-488",
+      "CAND-G4A-490",
+      "CAND-G4A-491",
+      "CAND-G4A-492",
+      "CAND-G4A-493",
+      "CAND-G4A-494",
+      "CAND-G4A-498"
+    ],
+    "both": [],
+    "multiFamilyIds": []
+  },
+  "exactDupFamilies": [],
+  "crutchIds": []
+}

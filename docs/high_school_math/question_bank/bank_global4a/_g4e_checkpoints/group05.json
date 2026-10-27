@@ -1,0 +1,815 @@
+{
+  "group": 5,
+  "items": {
+    "CAND-G4A-401": {
+      "itemId": "875",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "0a9f1c94735c6dca"
+    },
+    "CAND-G4A-402": {
+      "itemId": "876",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "aa99e1eaa346ef62"
+    },
+    "CAND-G4A-403": {
+      "itemId": "877",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "5515c0e2c8773e91"
+    },
+    "CAND-G4A-404": {
+      "itemId": "878",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "993250b74c080c1d"
+    },
+    "CAND-G4A-405": {
+      "itemId": "879",
+      "status": "approved",
+      "contentVersion": 3,
+      "diagramsDone": true,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "9da261e9fc41136d"
+    },
+    "CAND-G4A-406": {
+      "itemId": "880",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "8a2f0f2157ae61b5"
+    },
+    "CAND-G4A-407": {
+      "itemId": "881",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "97a8c12cefc23de7"
+    },
+    "CAND-G4A-408": {
+      "itemId": "882",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "554d39cedec801b4"
+    },
+    "CAND-G4A-409": {
+      "itemId": "883",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "55ad6971fb0f63a9"
+    },
+    "CAND-G4A-410": {
+      "itemId": "884",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "1c974a51f40e1d7d"
+    },
+    "CAND-G4A-411": {
+      "itemId": "885",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "c458e17343294fbd"
+    },
+    "CAND-G4A-412": {
+      "itemId": "886",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "48b011e87701a41d"
+    },
+    "CAND-G4A-413": {
+      "itemId": "887",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "977e1ad67f9d6c48"
+    },
+    "CAND-G4A-414": {
+      "itemId": "888",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "6bacaec5fd027658"
+    },
+    "CAND-G4A-415": {
+      "itemId": "889",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "bd2f0a5aa2419785"
+    },
+    "CAND-G4A-416": {
+      "itemId": "890",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "55cb3685ed10db02"
+    },
+    "CAND-G4A-417": {
+      "itemId": "891",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "68c5f3b6e5df80f1"
+    },
+    "CAND-G4A-418": {
+      "itemId": "892",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "e2f797f72c4d1e47"
+    },
+    "CAND-G4A-419": {
+      "itemId": "893",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "aaf6fa3a4b61c126"
+    },
+    "CAND-G4A-420": {
+      "itemId": "894",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "01831ab7aed5a38a"
+    },
+    "CAND-G4A-421": {
+      "itemId": "895",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "2e70135d3549d4c7"
+    },
+    "CAND-G4A-422": {
+      "itemId": "896",
+      "status": "approved",
+      "contentVersion": 3,
+      "diagramsDone": true,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "9c9157e0ea44c27b"
+    },
+    "CAND-G4A-423": {
+      "itemId": "897",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "9f922fc579460f10"
+    },
+    "CAND-G4A-424": {
+      "itemId": "898",
+      "status": "approved",
+      "contentVersion": 3,
+      "diagramsDone": true,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "044e277ff523d787"
+    },
+    "CAND-G4A-425": {
+      "itemId": "899",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "05da5180a4ac1eed"
+    },
+    "CAND-G4A-426": {
+      "itemId": "900",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "aeaec1f157e4cce0"
+    },
+    "CAND-G4A-427": {
+      "itemId": "901",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "d32ed07924233c2c"
+    },
+    "CAND-G4A-428": {
+      "itemId": "902",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "e5e12e9a7cbf769d"
+    },
+    "CAND-G4A-429": {
+      "itemId": "903",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "08db5e34535ec4b5"
+    },
+    "CAND-G4A-430": {
+      "itemId": "904",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "e98f24cf1f76f905"
+    },
+    "CAND-G4A-431": {
+      "itemId": "905",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "8804183ec4597fd7"
+    },
+    "CAND-G4A-432": {
+      "itemId": "906",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "e6ed46dbfcb1e0ce"
+    },
+    "CAND-G4A-433": {
+      "itemId": "907",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "13cdd87087a9f569"
+    },
+    "CAND-G4A-434": {
+      "itemId": "908",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "f364d1518a6fa03d"
+    },
+    "CAND-G4A-435": {
+      "itemId": "909",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "c8da29529053b24e"
+    },
+    "CAND-G4A-436": {
+      "itemId": "910",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "f387940d80e9ab7f"
+    },
+    "CAND-G4A-437": {
+      "itemId": "911",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "a880259cb5875829"
+    },
+    "CAND-G4A-438": {
+      "itemId": "912",
+      "status": "approved",
+      "contentVersion": 3,
+      "diagramsDone": true,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "c62c561ab5ac7c81"
+    },
+    "CAND-G4A-439": {
+      "itemId": "913",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "9957d4d6957f638d"
+    },
+    "CAND-G4A-440": {
+      "itemId": "914",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "02596f1a46754383"
+    },
+    "CAND-G4A-441": {
+      "itemId": "915",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "e136319fd26de05c"
+    },
+    "CAND-G4A-442": {
+      "itemId": "916",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "d6307c80850a928f"
+    },
+    "CAND-G4A-443": {
+      "itemId": "917",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "ec2c98919185bf94"
+    },
+    "CAND-G4A-444": {
+      "itemId": "918",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "6394b973f9e66f73"
+    },
+    "CAND-G4A-445": {
+      "itemId": "919",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "f8af05118410a865"
+    },
+    "CAND-G4A-446": {
+      "itemId": "920",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "ecbc058c78039bb3"
+    },
+    "CAND-G4A-447": {
+      "itemId": "921",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "caf05f06e16c401c"
+    },
+    "CAND-G4A-448": {
+      "itemId": "922",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "fc09cf0f1fec9f9f"
+    },
+    "CAND-G4A-449": {
+      "itemId": "923",
+      "status": "approved",
+      "contentVersion": 3,
+      "diagramsDone": true,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "92e93ce9f169528a"
+    },
+    "CAND-G4A-450": {
+      "itemId": "924",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "d9a1a5f2860f8432"
+    },
+    "CAND-G4A-451": {
+      "itemId": "925",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "5dc3686edc77938b"
+    },
+    "CAND-G4A-452": {
+      "itemId": "926",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "1ca03e913e1d8f5b"
+    },
+    "CAND-G4A-453": {
+      "itemId": "927",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "d6458c1ae4dc7222"
+    },
+    "CAND-G4A-454": {
+      "itemId": "928",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "0ee23831fddfacc9"
+    },
+    "CAND-G4A-455": {
+      "itemId": "929",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "ca1c705b9331cd72"
+    },
+    "CAND-G4A-456": {
+      "itemId": "930",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "f816e64a18da87ea"
+    },
+    "CAND-G4A-457": {
+      "itemId": "931",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "5535ca54160afff1"
+    },
+    "CAND-G4A-458": {
+      "itemId": "932",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "7eabd2920aff261b"
+    },
+    "CAND-G4A-459": {
+      "itemId": "933",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "dc2c0fa0c17d3b84"
+    },
+    "CAND-G4A-460": {
+      "itemId": "934",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "e5457e586a34f06c"
+    },
+    "CAND-G4A-461": {
+      "itemId": "935",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "743b1597af107366"
+    },
+    "CAND-G4A-462": {
+      "itemId": "936",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "f1066effc8ac7f33"
+    },
+    "CAND-G4A-463": {
+      "itemId": "937",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "b414f24413b2ad20"
+    },
+    "CAND-G4A-464": {
+      "itemId": "938",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "9e6c7e43a133c8ad"
+    },
+    "CAND-G4A-465": {
+      "itemId": "939",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "e6610d576487f3bf"
+    },
+    "CAND-G4A-466": {
+      "itemId": "940",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "50857a8cd5ff9a36"
+    },
+    "CAND-G4A-467": {
+      "itemId": "941",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "82a7a988efb7fa57"
+    },
+    "CAND-G4A-468": {
+      "itemId": "942",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "87effeb576953c21"
+    },
+    "CAND-G4A-469": {
+      "itemId": "943",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "308b4ba7a50ebf0d"
+    },
+    "CAND-G4A-470": {
+      "itemId": "944",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "91e90a0c07fead23"
+    },
+    "CAND-G4A-471": {
+      "itemId": "945",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "b6a5cd9e7e604fb1"
+    },
+    "CAND-G4A-472": {
+      "itemId": "946",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "ba0fffb3045ce47d"
+    },
+    "CAND-G4A-473": {
+      "itemId": "947",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "4a0db19454b6d5b7"
+    },
+    "CAND-G4A-474": {
+      "itemId": "948",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "c01b0356be5115b1"
+    },
+    "CAND-G4A-475": {
+      "itemId": "949",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "def1b3b8c34eefea"
+    },
+    "CAND-G4A-476": {
+      "itemId": "950",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "9781dfbebb8ca55a"
+    },
+    "CAND-G4A-477": {
+      "itemId": "951",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "25b5d2f8abde0e87"
+    },
+    "CAND-G4A-478": {
+      "itemId": "952",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "a9cfc52df14d326c"
+    },
+    "CAND-G4A-479": {
+      "itemId": "953",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "ca7f1bee5e805194"
+    },
+    "CAND-G4A-480": {
+      "itemId": "954",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "28429b048aa5df68"
+    },
+    "CAND-G4A-481": {
+      "itemId": "955",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "0d55831221418fde"
+    },
+    "CAND-G4A-482": {
+      "itemId": "956",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "64aeb3762c3993a4"
+    },
+    "CAND-G4A-483": {
+      "itemId": "957",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "ba63745b0fd611ab"
+    },
+    "CAND-G4A-484": {
+      "itemId": "958",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "8fddb0357bc9632d"
+    },
+    "CAND-G4A-485": {
+      "itemId": "959",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "c257d0afdb57a2b0"
+    },
+    "CAND-G4A-486": {
+      "itemId": "960",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "331603d6fa11b661"
+    },
+    "CAND-G4A-487": {
+      "itemId": "961",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "8abd57e5886f368d"
+    },
+    "CAND-G4A-488": {
+      "itemId": "962",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "0c07b7f495a023f6"
+    },
+    "CAND-G4A-489": {
+      "itemId": "963",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "0bf60bf277dee0a8"
+    },
+    "CAND-G4A-490": {
+      "itemId": "964",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "190ad26216363a0f"
+    },
+    "CAND-G4A-491": {
+      "itemId": "965",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "1f0bbc0c20d0b747"
+    },
+    "CAND-G4A-492": {
+      "itemId": "966",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "5a79eb458b993f04"
+    },
+    "CAND-G4A-493": {
+      "itemId": "967",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "15bf1aa1c36acb6f"
+    },
+    "CAND-G4A-494": {
+      "itemId": "968",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "ed176b46851f4ca7"
+    },
+    "CAND-G4A-495": {
+      "itemId": "969",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "7f8be5b7b1aaea9e"
+    },
+    "CAND-G4A-496": {
+      "itemId": "970",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "d2faa1dd71c0464e"
+    },
+    "CAND-G4A-497": {
+      "itemId": "971",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "1d94640e4a75e75a"
+    },
+    "CAND-G4A-498": {
+      "itemId": "972",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "c27adcecc67be136"
+    },
+    "CAND-G4A-499": {
+      "itemId": "973",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "e11ae85fa90f05e2"
+    },
+    "CAND-G4A-500": {
+      "itemId": "974",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "61f32afe4f1829e4"
+    }
+  },
+  "importDone": true,
+  "diagramsDone": true,
+  "reviewApproveDone": true,
+  "verified": true,
+  "drawableAfter": 813
+}

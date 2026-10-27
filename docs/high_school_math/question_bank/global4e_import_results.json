@@ -1,0 +1,4596 @@
+{
+  "batch": "HS-MATH-BANK-GLOBAL-4E-IMPORT-REVIEW-APPROVE",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "expectedBatchSha256": "def9b8c49ac641de72632f09c8bfd2aeb0554d945be10db853667e88d9c5ab15",
+  "actualBatchSha256": "def9b8c49ac641de72632f09c8bfd2aeb0554d945be10db853667e88d9c5ab15",
+  "status": "BATCH500_IMPORT_APPROVE_PASS",
+  "completedAt": "2026-10-27T08:11:18.751Z",
+  "preBaseline": {
+    "drawable": 313,
+    "g4aExisting": 0,
+    "sessions": 135,
+    "sessionItems": 359
+  },
+  "groups": [
+    {
+      "group": 1,
+      "ok": true,
+      "drawableAfter": 413,
+      "reviewPassed": 100,
+      "approveOk": 100,
+      "diagramsUploaded": 3,
+      "importMode": "created",
+      "importSuccessCount": 100,
+      "errors": []
+    },
+    {
+      "group": 2,
+      "ok": true,
+      "drawableAfter": 513,
+      "reviewPassed": 100,
+      "approveOk": 100,
+      "diagramsUploaded": 8,
+      "importMode": "created",
+      "importSuccessCount": 100,
+      "errors": []
+    },
+    {
+      "group": 3,
+      "ok": true,
+      "drawableAfter": 613,
+      "reviewPassed": 100,
+      "approveOk": 100,
+      "diagramsUploaded": 8,
+      "importMode": "created",
+      "importSuccessCount": 100,
+      "errors": []
+    },
+    {
+      "group": 4,
+      "ok": true,
+      "drawableAfter": 713,
+      "reviewPassed": 100,
+      "approveOk": 100,
+      "diagramsUploaded": 3,
+      "importMode": "created",
+      "importSuccessCount": 100,
+      "errors": []
+    },
+    {
+      "group": 5,
+      "ok": true,
+      "drawableAfter": 813,
+      "reviewPassed": 100,
+      "approveOk": 100,
+      "diagramsUploaded": 5,
+      "importMode": "created",
+      "importSuccessCount": 100,
+      "errors": []
+    }
+  ],
+  "diagrams": {
+    "requiredExpected": 27,
+    "requiredWithLinks": 27,
+    "requiredMissing": [],
+    "uploadedThisRun": 27
+  },
+  "review": {
+    "passedReviewsInDb": 500
+  },
+  "final": {
+    "drawable": 813,
+    "g4aApproved": 500,
+    "g4aDraft": 0,
+    "g4aTotal": 500,
+    "old313": 313,
+    "sessions": 135,
+    "sessionItems": 359,
+    "sessionsUnchanged": true,
+    "sessionItemsUnchanged": true
+  },
+  "candidateItemMapSize": 500,
+  "candidateItemMap": {
+    "CAND-G4A-001": {
+      "itemId": "475",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-002": {
+      "itemId": "476",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-003": {
+      "itemId": "477",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-004": {
+      "itemId": "478",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-005": {
+      "itemId": "479",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-006": {
+      "itemId": "480",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-007": {
+      "itemId": "481",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-008": {
+      "itemId": "482",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-009": {
+      "itemId": "483",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-010": {
+      "itemId": "484",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-011": {
+      "itemId": "485",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-012": {
+      "itemId": "486",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-013": {
+      "itemId": "487",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-014": {
+      "itemId": "488",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-015": {
+      "itemId": "489",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-016": {
+      "itemId": "490",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-017": {
+      "itemId": "491",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-018": {
+      "itemId": "492",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-019": {
+      "itemId": "493",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-020": {
+      "itemId": "494",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-021": {
+      "itemId": "495",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-022": {
+      "itemId": "496",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-023": {
+      "itemId": "497",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-024": {
+      "itemId": "498",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-025": {
+      "itemId": "499",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-026": {
+      "itemId": "500",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-027": {
+      "itemId": "501",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-028": {
+      "itemId": "502",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-029": {
+      "itemId": "503",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-030": {
+      "itemId": "504",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-031": {
+      "itemId": "505",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-032": {
+      "itemId": "506",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-033": {
+      "itemId": "507",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-034": {
+      "itemId": "508",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 1
+    },
+    "CAND-G4A-035": {
+      "itemId": "509",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-036": {
+      "itemId": "510",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-037": {
+      "itemId": "511",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-038": {
+      "itemId": "512",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-039": {
+      "itemId": "513",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-040": {
+      "itemId": "514",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-041": {
+      "itemId": "515",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-042": {
+      "itemId": "516",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-043": {
+      "itemId": "517",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-044": {
+      "itemId": "518",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-045": {
+      "itemId": "519",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-046": {
+      "itemId": "520",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-047": {
+      "itemId": "521",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-048": {
+      "itemId": "522",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-049": {
+      "itemId": "523",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-050": {
+      "itemId": "524",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-051": {
+      "itemId": "525",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-052": {
+      "itemId": "526",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-053": {
+      "itemId": "527",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-054": {
+      "itemId": "528",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-055": {
+      "itemId": "529",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-056": {
+      "itemId": "530",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-057": {
+      "itemId": "531",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-058": {
+      "itemId": "532",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-059": {
+      "itemId": "533",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-060": {
+      "itemId": "534",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-061": {
+      "itemId": "535",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-062": {
+      "itemId": "536",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-063": {
+      "itemId": "537",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-064": {
+      "itemId": "538",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-065": {
+      "itemId": "539",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-066": {
+      "itemId": "540",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-067": {
+      "itemId": "541",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-068": {
+      "itemId": "542",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-069": {
+      "itemId": "543",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-070": {
+      "itemId": "544",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-071": {
+      "itemId": "545",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-072": {
+      "itemId": "546",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-073": {
+      "itemId": "547",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-074": {
+      "itemId": "548",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-075": {
+      "itemId": "549",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 1
+    },
+    "CAND-G4A-076": {
+      "itemId": "550",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-077": {
+      "itemId": "551",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-078": {
+      "itemId": "552",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-079": {
+      "itemId": "553",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-080": {
+      "itemId": "554",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-081": {
+      "itemId": "555",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-082": {
+      "itemId": "556",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-083": {
+      "itemId": "557",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-084": {
+      "itemId": "558",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-085": {
+      "itemId": "559",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-086": {
+      "itemId": "560",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-087": {
+      "itemId": "561",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-088": {
+      "itemId": "562",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 1
+    },
+    "CAND-G4A-089": {
+      "itemId": "563",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-090": {
+      "itemId": "564",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-091": {
+      "itemId": "565",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-092": {
+      "itemId": "566",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-093": {
+      "itemId": "567",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-094": {
+      "itemId": "568",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-095": {
+      "itemId": "569",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-096": {
+      "itemId": "570",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-097": {
+      "itemId": "571",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-098": {
+      "itemId": "572",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-099": {
+      "itemId": "573",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-100": {
+      "itemId": "574",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 1
+    },
+    "CAND-G4A-101": {
+      "itemId": "575",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-102": {
+      "itemId": "576",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-103": {
+      "itemId": "577",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-104": {
+      "itemId": "578",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-105": {
+      "itemId": "579",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-106": {
+      "itemId": "580",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-107": {
+      "itemId": "581",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-108": {
+      "itemId": "582",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-109": {
+      "itemId": "583",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-110": {
+      "itemId": "584",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-111": {
+      "itemId": "585",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-112": {
+      "itemId": "586",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-113": {
+      "itemId": "587",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-114": {
+      "itemId": "588",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-115": {
+      "itemId": "589",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 2
+    },
+    "CAND-G4A-116": {
+      "itemId": "590",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-117": {
+      "itemId": "591",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-118": {
+      "itemId": "592",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-119": {
+      "itemId": "593",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-120": {
+      "itemId": "594",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-121": {
+      "itemId": "595",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-122": {
+      "itemId": "596",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-123": {
+      "itemId": "597",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-124": {
+      "itemId": "598",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 2
+    },
+    "CAND-G4A-125": {
+      "itemId": "599",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-126": {
+      "itemId": "600",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-127": {
+      "itemId": "601",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-128": {
+      "itemId": "602",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-129": {
+      "itemId": "603",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-130": {
+      "itemId": "604",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-131": {
+      "itemId": "605",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-132": {
+      "itemId": "606",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-133": {
+      "itemId": "607",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 2
+    },
+    "CAND-G4A-134": {
+      "itemId": "608",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-135": {
+      "itemId": "609",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-136": {
+      "itemId": "610",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-137": {
+      "itemId": "611",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-138": {
+      "itemId": "612",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-139": {
+      "itemId": "613",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 2
+    },
+    "CAND-G4A-140": {
+      "itemId": "614",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-141": {
+      "itemId": "615",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-142": {
+      "itemId": "616",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-143": {
+      "itemId": "617",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-144": {
+      "itemId": "618",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-145": {
+      "itemId": "619",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-146": {
+      "itemId": "620",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-147": {
+      "itemId": "621",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-148": {
+      "itemId": "622",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-149": {
+      "itemId": "623",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-150": {
+      "itemId": "624",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-151": {
+      "itemId": "625",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-152": {
+      "itemId": "626",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-153": {
+      "itemId": "627",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-154": {
+      "itemId": "628",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-155": {
+      "itemId": "629",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-156": {
+      "itemId": "630",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-157": {
+      "itemId": "631",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-158": {
+      "itemId": "632",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-159": {
+      "itemId": "633",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-160": {
+      "itemId": "634",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-161": {
+      "itemId": "635",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-162": {
+      "itemId": "636",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-163": {
+      "itemId": "637",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 2
+    },
+    "CAND-G4A-164": {
+      "itemId": "638",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-165": {
+      "itemId": "639",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-166": {
+      "itemId": "640",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-167": {
+      "itemId": "641",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-168": {
+      "itemId": "642",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-169": {
+      "itemId": "643",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-170": {
+      "itemId": "644",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-171": {
+      "itemId": "645",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 2
+    },
+    "CAND-G4A-172": {
+      "itemId": "646",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-173": {
+      "itemId": "647",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-174": {
+      "itemId": "648",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-175": {
+      "itemId": "649",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-176": {
+      "itemId": "650",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-177": {
+      "itemId": "651",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-178": {
+      "itemId": "652",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-179": {
+      "itemId": "653",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-180": {
+      "itemId": "654",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 2
+    },
+    "CAND-G4A-181": {
+      "itemId": "655",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-182": {
+      "itemId": "656",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-183": {
+      "itemId": "657",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-184": {
+      "itemId": "658",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-185": {
+      "itemId": "659",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-186": {
+      "itemId": "660",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-187": {
+      "itemId": "661",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-188": {
+      "itemId": "662",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-189": {
+      "itemId": "663",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-190": {
+      "itemId": "664",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 2
+    },
+    "CAND-G4A-191": {
+      "itemId": "665",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-192": {
+      "itemId": "666",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-193": {
+      "itemId": "667",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-194": {
+      "itemId": "668",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-195": {
+      "itemId": "669",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-196": {
+      "itemId": "670",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-197": {
+      "itemId": "671",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-198": {
+      "itemId": "672",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-199": {
+      "itemId": "673",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-200": {
+      "itemId": "674",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 2
+    },
+    "CAND-G4A-201": {
+      "itemId": "675",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-202": {
+      "itemId": "676",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-203": {
+      "itemId": "677",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-204": {
+      "itemId": "678",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-205": {
+      "itemId": "679",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-206": {
+      "itemId": "680",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-207": {
+      "itemId": "681",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-208": {
+      "itemId": "682",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-209": {
+      "itemId": "683",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-210": {
+      "itemId": "684",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-211": {
+      "itemId": "685",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-212": {
+      "itemId": "686",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-213": {
+      "itemId": "687",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-214": {
+      "itemId": "688",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-215": {
+      "itemId": "689",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-216": {
+      "itemId": "690",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-217": {
+      "itemId": "691",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-218": {
+      "itemId": "692",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-219": {
+      "itemId": "693",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-220": {
+      "itemId": "694",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-221": {
+      "itemId": "695",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-222": {
+      "itemId": "696",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-223": {
+      "itemId": "697",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-224": {
+      "itemId": "698",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-225": {
+      "itemId": "699",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-226": {
+      "itemId": "700",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 3
+    },
+    "CAND-G4A-227": {
+      "itemId": "701",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-228": {
+      "itemId": "702",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-229": {
+      "itemId": "703",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-230": {
+      "itemId": "704",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-231": {
+      "itemId": "705",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-232": {
+      "itemId": "706",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-233": {
+      "itemId": "707",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-234": {
+      "itemId": "708",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-235": {
+      "itemId": "709",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-236": {
+      "itemId": "710",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-237": {
+      "itemId": "711",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-238": {
+      "itemId": "712",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-239": {
+      "itemId": "713",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-240": {
+      "itemId": "714",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 3
+    },
+    "CAND-G4A-241": {
+      "itemId": "715",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-242": {
+      "itemId": "716",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-243": {
+      "itemId": "717",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-244": {
+      "itemId": "718",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-245": {
+      "itemId": "719",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-246": {
+      "itemId": "720",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 3
+    },
+    "CAND-G4A-247": {
+      "itemId": "721",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-248": {
+      "itemId": "722",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-249": {
+      "itemId": "723",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-250": {
+      "itemId": "724",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-251": {
+      "itemId": "725",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-252": {
+      "itemId": "726",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-253": {
+      "itemId": "727",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-254": {
+      "itemId": "728",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-255": {
+      "itemId": "729",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-256": {
+      "itemId": "730",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-257": {
+      "itemId": "731",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-258": {
+      "itemId": "732",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-259": {
+      "itemId": "733",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 3
+    },
+    "CAND-G4A-260": {
+      "itemId": "734",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-261": {
+      "itemId": "735",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 3
+    },
+    "CAND-G4A-262": {
+      "itemId": "736",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-263": {
+      "itemId": "737",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-264": {
+      "itemId": "738",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-265": {
+      "itemId": "739",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-266": {
+      "itemId": "740",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-267": {
+      "itemId": "741",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-268": {
+      "itemId": "742",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-269": {
+      "itemId": "743",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-270": {
+      "itemId": "744",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-271": {
+      "itemId": "745",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-272": {
+      "itemId": "746",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-273": {
+      "itemId": "747",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-274": {
+      "itemId": "748",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 3
+    },
+    "CAND-G4A-275": {
+      "itemId": "749",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-276": {
+      "itemId": "750",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-277": {
+      "itemId": "751",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-278": {
+      "itemId": "752",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-279": {
+      "itemId": "753",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-280": {
+      "itemId": "754",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-281": {
+      "itemId": "755",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-282": {
+      "itemId": "756",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-283": {
+      "itemId": "757",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-284": {
+      "itemId": "758",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 3
+    },
+    "CAND-G4A-285": {
+      "itemId": "759",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-286": {
+      "itemId": "760",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-287": {
+      "itemId": "761",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 3
+    },
+    "CAND-G4A-288": {
+      "itemId": "762",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-289": {
+      "itemId": "763",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-290": {
+      "itemId": "764",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-291": {
+      "itemId": "765",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-292": {
+      "itemId": "766",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-293": {
+      "itemId": "767",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-294": {
+      "itemId": "768",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-295": {
+      "itemId": "769",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-296": {
+      "itemId": "770",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-297": {
+      "itemId": "771",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-298": {
+      "itemId": "772",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-299": {
+      "itemId": "773",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-300": {
+      "itemId": "774",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 3
+    },
+    "CAND-G4A-301": {
+      "itemId": "775",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-302": {
+      "itemId": "776",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-303": {
+      "itemId": "777",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-304": {
+      "itemId": "778",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-305": {
+      "itemId": "779",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-306": {
+      "itemId": "780",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-307": {
+      "itemId": "781",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-308": {
+      "itemId": "782",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-309": {
+      "itemId": "783",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-310": {
+      "itemId": "784",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-311": {
+      "itemId": "785",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 4
+    },
+    "CAND-G4A-312": {
+      "itemId": "786",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-313": {
+      "itemId": "787",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-314": {
+      "itemId": "788",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-315": {
+      "itemId": "789",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-316": {
+      "itemId": "790",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-317": {
+      "itemId": "791",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-318": {
+      "itemId": "792",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-319": {
+      "itemId": "793",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-320": {
+      "itemId": "794",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-321": {
+      "itemId": "795",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-322": {
+      "itemId": "796",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-323": {
+      "itemId": "797",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-324": {
+      "itemId": "798",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-325": {
+      "itemId": "799",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-326": {
+      "itemId": "800",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-327": {
+      "itemId": "801",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-328": {
+      "itemId": "802",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-329": {
+      "itemId": "803",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-330": {
+      "itemId": "804",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-331": {
+      "itemId": "805",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-332": {
+      "itemId": "806",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-333": {
+      "itemId": "807",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-334": {
+      "itemId": "808",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-335": {
+      "itemId": "809",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-336": {
+      "itemId": "810",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-337": {
+      "itemId": "811",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-338": {
+      "itemId": "812",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-339": {
+      "itemId": "813",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-340": {
+      "itemId": "814",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-341": {
+      "itemId": "815",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-342": {
+      "itemId": "816",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-343": {
+      "itemId": "817",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-344": {
+      "itemId": "818",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-345": {
+      "itemId": "819",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-346": {
+      "itemId": "820",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-347": {
+      "itemId": "821",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-348": {
+      "itemId": "822",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-349": {
+      "itemId": "823",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-350": {
+      "itemId": "824",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-351": {
+      "itemId": "825",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-352": {
+      "itemId": "826",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-353": {
+      "itemId": "827",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-354": {
+      "itemId": "828",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-355": {
+      "itemId": "829",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-356": {
+      "itemId": "830",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-357": {
+      "itemId": "831",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-358": {
+      "itemId": "832",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-359": {
+      "itemId": "833",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-360": {
+      "itemId": "834",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-361": {
+      "itemId": "835",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-362": {
+      "itemId": "836",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-363": {
+      "itemId": "837",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-364": {
+      "itemId": "838",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 4
+    },
+    "CAND-G4A-365": {
+      "itemId": "839",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-366": {
+      "itemId": "840",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-367": {
+      "itemId": "841",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-368": {
+      "itemId": "842",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-369": {
+      "itemId": "843",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-370": {
+      "itemId": "844",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-371": {
+      "itemId": "845",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-372": {
+      "itemId": "846",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-373": {
+      "itemId": "847",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-374": {
+      "itemId": "848",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-375": {
+      "itemId": "849",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-376": {
+      "itemId": "850",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-377": {
+      "itemId": "851",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-378": {
+      "itemId": "852",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-379": {
+      "itemId": "853",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-380": {
+      "itemId": "854",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-381": {
+      "itemId": "855",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-382": {
+      "itemId": "856",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-383": {
+      "itemId": "857",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-384": {
+      "itemId": "858",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-385": {
+      "itemId": "859",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-386": {
+      "itemId": "860",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-387": {
+      "itemId": "861",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-388": {
+      "itemId": "862",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-389": {
+      "itemId": "863",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 4
+    },
+    "CAND-G4A-390": {
+      "itemId": "864",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-391": {
+      "itemId": "865",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-392": {
+      "itemId": "866",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-393": {
+      "itemId": "867",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-394": {
+      "itemId": "868",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-395": {
+      "itemId": "869",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-396": {
+      "itemId": "870",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-397": {
+      "itemId": "871",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-398": {
+      "itemId": "872",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-399": {
+      "itemId": "873",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-400": {
+      "itemId": "874",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 4
+    },
+    "CAND-G4A-401": {
+      "itemId": "875",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-402": {
+      "itemId": "876",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-403": {
+      "itemId": "877",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-404": {
+      "itemId": "878",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-405": {
+      "itemId": "879",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 5
+    },
+    "CAND-G4A-406": {
+      "itemId": "880",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-407": {
+      "itemId": "881",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-408": {
+      "itemId": "882",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-409": {
+      "itemId": "883",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-410": {
+      "itemId": "884",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-411": {
+      "itemId": "885",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-412": {
+      "itemId": "886",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-413": {
+      "itemId": "887",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-414": {
+      "itemId": "888",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-415": {
+      "itemId": "889",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-416": {
+      "itemId": "890",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-417": {
+      "itemId": "891",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-418": {
+      "itemId": "892",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-419": {
+      "itemId": "893",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-420": {
+      "itemId": "894",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-421": {
+      "itemId": "895",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-422": {
+      "itemId": "896",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 5
+    },
+    "CAND-G4A-423": {
+      "itemId": "897",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-424": {
+      "itemId": "898",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 5
+    },
+    "CAND-G4A-425": {
+      "itemId": "899",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-426": {
+      "itemId": "900",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-427": {
+      "itemId": "901",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-428": {
+      "itemId": "902",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-429": {
+      "itemId": "903",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-430": {
+      "itemId": "904",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-431": {
+      "itemId": "905",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-432": {
+      "itemId": "906",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-433": {
+      "itemId": "907",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-434": {
+      "itemId": "908",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-435": {
+      "itemId": "909",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-436": {
+      "itemId": "910",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-437": {
+      "itemId": "911",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-438": {
+      "itemId": "912",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 5
+    },
+    "CAND-G4A-439": {
+      "itemId": "913",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-440": {
+      "itemId": "914",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-441": {
+      "itemId": "915",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-442": {
+      "itemId": "916",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-443": {
+      "itemId": "917",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-444": {
+      "itemId": "918",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-445": {
+      "itemId": "919",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-446": {
+      "itemId": "920",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-447": {
+      "itemId": "921",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-448": {
+      "itemId": "922",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-449": {
+      "itemId": "923",
+      "status": "approved",
+      "contentVersion": 3,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": true,
+      "group": 5
+    },
+    "CAND-G4A-450": {
+      "itemId": "924",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-451": {
+      "itemId": "925",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-452": {
+      "itemId": "926",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-453": {
+      "itemId": "927",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-454": {
+      "itemId": "928",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-455": {
+      "itemId": "929",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-456": {
+      "itemId": "930",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-457": {
+      "itemId": "931",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-458": {
+      "itemId": "932",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-459": {
+      "itemId": "933",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-460": {
+      "itemId": "934",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-461": {
+      "itemId": "935",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-462": {
+      "itemId": "936",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-463": {
+      "itemId": "937",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-464": {
+      "itemId": "938",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-465": {
+      "itemId": "939",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-466": {
+      "itemId": "940",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-467": {
+      "itemId": "941",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-468": {
+      "itemId": "942",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-469": {
+      "itemId": "943",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-470": {
+      "itemId": "944",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-471": {
+      "itemId": "945",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-472": {
+      "itemId": "946",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-473": {
+      "itemId": "947",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-474": {
+      "itemId": "948",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-475": {
+      "itemId": "949",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-476": {
+      "itemId": "950",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-477": {
+      "itemId": "951",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-478": {
+      "itemId": "952",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-479": {
+      "itemId": "953",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-480": {
+      "itemId": "954",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-481": {
+      "itemId": "955",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-482": {
+      "itemId": "956",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-483": {
+      "itemId": "957",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-484": {
+      "itemId": "958",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-485": {
+      "itemId": "959",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-486": {
+      "itemId": "960",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-487": {
+      "itemId": "961",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-488": {
+      "itemId": "962",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-489": {
+      "itemId": "963",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-490": {
+      "itemId": "964",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-491": {
+      "itemId": "965",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-492": {
+      "itemId": "966",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-493": {
+      "itemId": "967",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-494": {
+      "itemId": "968",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-495": {
+      "itemId": "969",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-496": {
+      "itemId": "970",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-497": {
+      "itemId": "971",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-498": {
+      "itemId": "972",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-499": {
+      "itemId": "973",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    },
+    "CAND-G4A-500": {
+      "itemId": "974",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "diagramsDone": false,
+      "group": 5
+    }
+  },
+  "errors": [],
+  "note": "Author-side Admin API import/review/approve. Not independent math final review."
+}

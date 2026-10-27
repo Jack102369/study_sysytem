@@ -1,0 +1,16 @@
+{
+  "group": 4,
+  "n": 100,
+  "d3": 33,
+  "required": [
+    "CAND-G4A-312",
+    "CAND-G4A-326",
+    "CAND-G4A-333",
+    "CAND-G4A-340",
+    "CAND-G4A-361",
+    "CAND-G4A-364",
+    "CAND-G4A-389",
+    "CAND-G4A-390"
+  ],
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED"
+}

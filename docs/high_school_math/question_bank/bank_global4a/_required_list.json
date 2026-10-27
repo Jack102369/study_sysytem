@@ -1,0 +1,164 @@
+[
+  {
+    "id": "CAND-G4A-034",
+    "stem": "在正方体 $ABCD-A_1B_1C_1D_1$ 中，下列结论正确的是",
+    "chapterNo": 8,
+    "qtype": "single"
+  },
+  {
+    "id": "CAND-G4A-075",
+    "stem": "长方体棱长分别为 $3,4,5$。求体对角线长的平方。",
+    "chapterNo": 8,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-088",
+    "stem": "圆锥底半径 2、高 6。\n（1）体积（含 π）；（2）母线长。",
+    "chapterNo": 3,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-115",
+    "stem": "正方体棱长 1，面对角线长的平方为",
+    "chapterNo": 8,
+    "qtype": "numeric"
+  },
+  {
+    "id": "CAND-G4A-124",
+    "stem": "平面内点 $O,A,B$ 满足 $\\overrightarrow{OA}=(6,0)$，$\\overrightarrow{OB}=(0,3)$。\n（1）求 $\\overrightarrow{AB}$；\n（2）求 $|\\overrightarrow{AB}|$。",
+    "chapterNo": 6,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-133",
+    "stem": "在正方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$BD_{1}$ 与平面 $A_{1}C_{1}D$ 的位置关系是",
+    "chapterNo": 8,
+    "qtype": "single"
+  },
+  {
+    "id": "CAND-G4A-139",
+    "stem": "长方体中 E、F 为 AA1、CC1 中点。证明 EF∥平面 ABCD。",
+    "chapterNo": 8,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-163",
+    "stem": "圆柱（半径 2，高 4）上叠放同底圆锥（高 2）。求组合体体积（含 π）。",
+    "chapterNo": 8,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-171",
+    "stem": "在正方体 $ABCD-A_1B_1C_1D_1$ 中，直线 $BD_1$ 与平面 $A_1C_1D$ 的位置关系是",
+    "chapterNo": 8,
+    "qtype": "single"
+  },
+  {
+    "id": "CAND-G4A-180",
+    "stem": "圆锥底面半径 $3$、高 $4$。\n（1）求体积（含 $\\pi$）；\n（2）求轴截面面积。",
+    "chapterNo": 8,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-190",
+    "stem": "在 △ABC 中，D、E 为 AB、AC 中点。用向量证明 DE∥BC 且 DE=1/2 BC。",
+    "chapterNo": 6,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-226",
+    "stem": "长方体 2×3×4 的体对角线平方为",
+    "chapterNo": 8,
+    "qtype": "numeric"
+  },
+  {
+    "id": "CAND-G4A-240",
+    "stem": "圆锥底面半径 3、高 4。（1）求体积（含 π）；（2）求轴截面面积。",
+    "chapterNo": 8,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-246",
+    "stem": "在 $\\triangle ABC$ 中，$D,E$ 分别为 $AB,AC$ 中点。\n（1）用向量表示 $\\overrightarrow{DE}$；\n（2）证明 $DE\\parallel BC$ 且 $DE=\\dfrac12 BC$。",
+    "chapterNo": 6,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-259",
+    "stem": "圆柱底面半径 $4$、高 $6$，其上同底叠放高 $3$ 的圆锥。组合体体积除以 $\\pi$ 的结果为",
+    "chapterNo": 8,
+    "qtype": "numeric"
+  },
+  {
+    "id": "CAND-G4A-261",
+    "stem": "用向量证中位线常用",
+    "chapterNo": 6,
+    "qtype": "single"
+  },
+  {
+    "id": "CAND-G4A-274",
+    "stem": "圆柱 r=2,h=6 上同底圆锥 h=3，组合体积除以 π =",
+    "chapterNo": 8,
+    "qtype": "numeric"
+  },
+  {
+    "id": "CAND-G4A-284",
+    "stem": "圆柱半径 $3$、高 $3$ 上同底叠放高 $3$ 的圆锥。体积除以 $\\pi$ 为",
+    "chapterNo": 8,
+    "qtype": "numeric"
+  },
+  {
+    "id": "CAND-G4A-287",
+    "stem": "棱长1正方体面对角线平方。\n（1）写出计算过程；（2）给出最终结果。",
+    "chapterNo": 8,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-311",
+    "stem": "水平放置平面图形画直观图常用",
+    "chapterNo": 8,
+    "qtype": "single"
+  },
+  {
+    "id": "CAND-G4A-364",
+    "stem": "长方体2×3×4对角线平方。\n（1）写出计算过程；（2）给出最终结果。",
+    "chapterNo": 8,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-389",
+    "stem": "圆柱底面半径 $2$、高 $6$。\n（1）求体积（含 $\\pi$）；（2）求侧面积（含 $\\pi$）。",
+    "chapterNo": 8,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-405",
+    "stem": "正方体棱长 $4$，内部挖去底面半径 $2$、高 $3$ 的圆柱（轴平行于棱）。求剩余体积（含 $\\pi$）。",
+    "chapterNo": 8,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-422",
+    "stem": "用斜二测画法说明：水平放置的正方形直观图通常变成什么形状？并指出平行于 $y$ 轴的边如何取长度。",
+    "chapterNo": 8,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-424",
+    "stem": "在边长为 1 的正方体中取体对角线长。\n（1）写出体对角线；\n（2）求其长度。",
+    "chapterNo": 1,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-438",
+    "stem": "叙述线面平行的判定定理，并在长方体中指出一组满足条件的直线与平面。",
+    "chapterNo": 8,
+    "qtype": "application"
+  },
+  {
+    "id": "CAND-G4A-449",
+    "stem": "空间两直线有哪三种位置关系？分别举正方体中棱或对角线的例子各一。",
+    "chapterNo": 8,
+    "qtype": "application"
+  }
+]

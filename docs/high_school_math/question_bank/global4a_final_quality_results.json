@@ -1,0 +1,71 @@
+{
+  "batch": "GLOBAL-4A-ISOMORPHIC-FINAL-CLEANUP",
+  "status": "BATCH500_READY_FOR_IMPORT_PREFLIGHT",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "completedAt": "2026-10-27T06:30:00.000Z",
+  "supersedes": {
+    "priorBatch": "GLOBAL-4A-FINAL-QUALITY-CLOSURE",
+    "priorStatus": "QUALITY_PARTIAL",
+    "reason": "ISOMORPHIC-FINAL-CLEANUP cleared prior13 SEMANTIC + batch48 low-value families"
+  },
+  "integrity": {
+    "candidatesImportOk": true,
+    "groupsImportOk": true,
+    "groupsMatchMerge": true,
+    "idsUnique": true,
+    "evidenceJsonOk": true,
+    "requiredDiagramsExist": true,
+    "requiredCount": 13,
+    "requiredShaAttached": 13,
+    "validateAllOk": true
+  },
+  "counts": {
+    "candidates": 500,
+    "d3": 125,
+    "application": 125,
+    "crutchLeft": 0,
+    "d3IncompleteNow": 0,
+    "exactPriorHits": 0,
+    "batchExactDup": 0,
+    "structPriorHitsRemaining": 1,
+    "structPriorHitsAllAcceptable": true,
+    "batchStructMultiFamilies": 0,
+    "chapterScopedLowValueFamilies": 0,
+    "globalDigitStripMultiFamilies": 0,
+    "appRubricSumBad": 0,
+    "wholeQuestionIsoReplacementsApprox": 394
+  },
+  "acceptableVariants": [
+    {
+      "id": "CAND-G4A-275",
+      "verdict": "ACCEPTABLE_VARIANT",
+      "reason": "既有求独立交概率；本题求并概率，教学目标不同"
+    }
+  ],
+  "quotas": {
+    "chapters": { "1": 29, "2": 48, "3": 55, "4": 67, "5": 76, "6": 67, "7": 20, "8": 68, "9": 30, "10": 40 },
+    "difficulty": { "1": 175, "2": 200, "3": 125 },
+    "qtype": { "single": 150, "multi": 75, "judge": 50, "numeric": 100, "application": 125 }
+  },
+  "openIssues": [
+    "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED：作者侧同构清理与自检，非独立终审",
+    "application 替代解法公平性为作者侧复核",
+    "压轴 hardProfile 多为重建/替换时写入，导入预检前建议抽检真实性"
+  ],
+  "readyMeaning": "可申请 GLOBAL-4B 导入预检；不表示已入库、不表示独立数学终审通过",
+  "evidenceFiles": [
+    "question_bank/global4a_isomorphic_cleanup_results.json",
+    "question_bank/bank_global4a/_iso_inventory.json",
+    "question_bank/candidates-g4a-500.mjs",
+    "diagrams/required_g4a/_manifest.json",
+    "170_hs_math_bank_global4a_isomorphic_cleanup.md"
+  ],
+  "notAuthorized": [
+    "MySQL write",
+    "formal import",
+    "image upload",
+    "review/approve",
+    "batch5",
+    "git commit/push"
+  ]
+}

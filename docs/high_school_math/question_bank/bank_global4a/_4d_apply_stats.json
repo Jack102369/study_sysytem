@@ -1,0 +1,91 @@
+{
+  "rebuiltN": 121,
+  "errN": 0,
+  "errors": [],
+  "quotas": {
+    "d": {
+      "1": 175,
+      "2": 200,
+      "3": 125
+    },
+    "qt": {
+      "numeric": 100,
+      "judge": 50,
+      "single": 150,
+      "multi": 75,
+      "application": 125
+    },
+    "ch": {
+      "1": 29,
+      "2": 48,
+      "3": 55,
+      "4": 67,
+      "5": 76,
+      "6": 67,
+      "7": 20,
+      "8": 68,
+      "9": 30,
+      "10": 40
+    }
+  },
+  "exactDups": 0,
+  "structDups": 0,
+  "sample": [
+    {
+      "id": "CAND-G4A-002",
+      "salt": 0,
+      "oldSha": "f03ccbbe0959a4d1e14f50b2eb5e2b1d23d975b926f50e21c71522e8884dee00",
+      "newSha": "889a2210f5070ee7df6819fa8ce898468a151ca1aa3f92e7912a1a87cae5cf2c",
+      "class": "B_REBUILD_REQUIRED"
+    },
+    {
+      "id": "CAND-G4A-004",
+      "salt": 0,
+      "oldSha": "c404b603ec22fe8eae1a57b65f245238617d32f801e4a8c972c8f342dcb015a4",
+      "newSha": "ef5d97d6df16cdeac270e013df610adc03913fcc3a4aabe1a6d6ac8e4a19367b",
+      "class": "C_DOWNGRADE_REQUIRED"
+    },
+    {
+      "id": "CAND-G4A-021",
+      "salt": 1,
+      "oldSha": "ed125e78179eb1e21f66885beaad9c54b39ee50c2d802cbe1eb811423e87d7d5",
+      "newSha": "6542ccf9bc9e86db82662fc51386f09b435c90a930ff13fd00714fd802924c07",
+      "class": "C_DOWNGRADE_REQUIRED"
+    },
+    {
+      "id": "CAND-G4A-025",
+      "salt": 1,
+      "oldSha": "efcdab2fe218f74b229036ded5d168a381b2213e40da33b17b9f452313930a48",
+      "newSha": "5fe3cbf1bdaa59728f6492157b07e1be266105dd0c4fda3947e44c9b4ee2767c",
+      "class": "C_DOWNGRADE_REQUIRED"
+    },
+    {
+      "id": "CAND-G4A-048",
+      "salt": 0,
+      "oldSha": "c1fc381938651613c04b71fa5039f026a27a009f09708e51a4b2c16c7e91448a",
+      "newSha": "4971e152fffaeaebb17ec554e0c59f15b885adf11ab9158fcd9e61d3dc495352",
+      "class": "B_REBUILD_REQUIRED"
+    },
+    {
+      "id": "CAND-G4A-051",
+      "salt": 0,
+      "oldSha": "3ea9f10709e180d80e6f9edc5ea490fb625a256f03d0e8164d80902d75e9436f",
+      "newSha": "90fb991f6ddc865896db0d8cc7132ef78ee7c2b5eb29249d4fde460eb78ca372",
+      "class": "B_REBUILD_REQUIRED"
+    },
+    {
+      "id": "CAND-G4A-069",
+      "salt": 0,
+      "oldSha": "6bcd3bc1cf721db8336659f72692674a2135f1446755e4b0d1e7b375b975a210",
+      "newSha": "3201f01e308e5d059776ba1fa9a9a3662cf4c8c658a6ef1c235c158902ef7f1c",
+      "class": "B_REBUILD_REQUIRED"
+    },
+    {
+      "id": "CAND-G4A-072",
+      "salt": 0,
+      "oldSha": "e0fb663537c8e3be0d05c1d2be19843dea485b6afdb11ed2ba92ce9314d3b935",
+      "newSha": "623faba2d0c8254b7b67319aa82f8c561050b273281a9e9e50dc2d273965bf3f",
+      "class": "B_REBUILD_REQUIRED"
+    }
+  ]
+}

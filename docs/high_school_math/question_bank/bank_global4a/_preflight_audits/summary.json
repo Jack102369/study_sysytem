@@ -1,0 +1,12 @@
+{
+  "status": "IMPORT_PREFLIGHT_PASS",
+  "gateFailures": [],
+  "soft": [],
+  "required": {
+    "n": 27,
+    "pass": 27,
+    "issues": []
+  },
+  "weakN": 0,
+  "batchSha": "def9b8c49ac641de72632f09c8bfd2aeb0554d945be10db853667e88d9c5ab15"
+}

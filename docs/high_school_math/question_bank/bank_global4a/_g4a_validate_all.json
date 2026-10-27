@@ -1,0 +1,41 @@
+{
+  "arg": "all",
+  "n": 500,
+  "errors": [],
+  "warnings": [],
+  "quotas": {
+    "d": {
+      "1": 175,
+      "2": 200,
+      "3": 125
+    },
+    "qt": {
+      "numeric": 100,
+      "judge": 50,
+      "single": 150,
+      "multi": 75,
+      "application": 125
+    },
+    "ch": {
+      "1": 29,
+      "2": 48,
+      "3": 55,
+      "4": 67,
+      "5": 76,
+      "6": 67,
+      "7": 20,
+      "8": 68,
+      "9": 30,
+      "10": 40
+    }
+  },
+  "numericBad": [],
+  "rubricBad": [],
+  "kpMiss": [],
+  "methodMiss": [],
+  "methodDup": [],
+  "batchDup": [],
+  "priorHits": [],
+  "idsOk": true,
+  "ok": true
+}

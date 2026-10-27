@@ -14,6 +14,9 @@
     <el-form label-width="120px" style="max-width: 560px">
       <el-form-item label="显示伙伴">
         <el-switch v-model="petEnabled" @change="onToggle" />
+        <div class="hint">
+          也可在伙伴底部栏点「隐藏」；隐藏后右下角「伙伴」可一键恢复。
+        </div>
       </el-form-item>
       <el-form-item label="语音朗读">
         <el-switch v-model="speechEnabled" @change="onSpeechToggle" />
