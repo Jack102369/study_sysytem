@@ -62,6 +62,7 @@ export async function ocrAiReference(payload: {
       sourceErrorQuestionId: string
       text: string
       confidence: number | null
+      engine?: string | null
       savedToStemText: boolean
     }>
   >('/ai-reference/ocr', payload, { timeout: 180000 })

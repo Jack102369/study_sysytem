@@ -151,6 +151,7 @@ export class AiReferenceService {
       sourceErrorQuestionId: eq.id,
       text: result.text,
       confidence: result.confidence,
+      engine: result.engine || null,
       savedToStemText: !!dto.saveToStemText,
     }
   }

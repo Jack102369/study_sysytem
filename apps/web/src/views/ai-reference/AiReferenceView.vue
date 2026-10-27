@@ -454,9 +454,13 @@ async function onOcr() {
       saveToStemText: true,
     })
     form.stemText = data.text
-    ElMessage.success('识别完成，已写入题干（可再修改）')
+    ElMessage.success(
+      data.engine
+        ? `识别完成（${data.engine}），已写入题干`
+        : '识别完成，已写入题干（可再修改）',
+    )
   } catch (e) {
-    ElMessage.error(errMsg(e, 'OCR 失败'))
+    ElMessage.error(errMsg(e, '识别失败（请检查 Qwen Vision 或 OCR_ENGINE）'))
   } finally {
     ocrLoading.value = false
   }

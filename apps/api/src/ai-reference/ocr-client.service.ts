@@ -1,5 +1,6 @@
 import {
   Injectable,
+  Logger,
   ServiceUnavailableException,
 } from '@nestjs/common'
 import { ConfigService } from '@nestjs/config'
@@ -8,14 +9,49 @@ import { basename, join } from 'node:path'
 
 export type OcrMode = 'general' | 'formula' | 'smart'
 
+/** 识别引擎策略；默认 vision（Qwen） */
+export type OcrEnginePolicy =
+  | 'vision'
+  | 'local'
+  | 'vision_then_local'
+  | 'local_then_vision'
+
 export type OcrResult = {
   text: string
   confidence: number | null
   engine?: string
 }
 
+function resolveVisionChatCompletionsUrl(rawUrl: string): string | null {
+  const t = String(rawUrl || '').trim().replace(/\/$/, '')
+  if (!t) return null
+  let u: URL
+  try {
+    u = new URL(t)
+  } catch {
+    return null
+  }
+  if (u.protocol !== 'http:' && u.protocol !== 'https:') return null
+  let path = u.pathname.replace(/\/$/, '') || ''
+  if (path.endsWith('/chat/completions')) return `${u.origin}${path}`
+  if (path.endsWith('/v1')) return `${u.origin}${path}/chat/completions`
+  if (!path || path === '/') return `${u.origin}/v1/chat/completions`
+  return `${u.origin}${path}/v1/chat/completions`
+}
+
+function guessMime(filename: string): string {
+  const n = (filename || '').toLowerCase()
+  if (n.endsWith('.png')) return 'image/png'
+  if (n.endsWith('.webp')) return 'image/webp'
+  if (n.endsWith('.gif')) return 'image/gif'
+  if (n.endsWith('.bmp')) return 'image/bmp'
+  return 'image/jpeg'
+}
+
 @Injectable()
 export class OcrClientService {
+  private readonly logger = new Logger(OcrClientService.name)
+
   constructor(private readonly config: ConfigService) {}
 
   private baseUrl() {
@@ -29,7 +65,38 @@ export class OcrClientService {
     return this.baseUrl()
   }
 
+  /**
+   * OCR_ENGINE：vision | local | vision_then_local | local_then_vision
+   * 默认 vision（Qwen）；本机 Paddle 仍可通过 local / 回退策略使用。
+   */
+  enginePolicy(): OcrEnginePolicy {
+    const raw = (this.config.get<string>('OCR_ENGINE', 'vision') || 'vision')
+      .trim()
+      .toLowerCase()
+    if (
+      raw === 'local' ||
+      raw === 'vision' ||
+      raw === 'vision_then_local' ||
+      raw === 'local_then_vision'
+    ) {
+      return raw
+    }
+    return 'vision'
+  }
+
   async health(): Promise<boolean> {
+    const policy = this.enginePolicy()
+    if (policy === 'vision') return this.isVisionConfigured()
+    if (policy === 'local') {
+      try {
+        const res = await fetch(`${this.baseUrl()}/health`)
+        return res.ok
+      } catch {
+        return false
+      }
+    }
+    // 双引擎：任一可用即 true
+    if (this.isVisionConfigured()) return true
     try {
       const res = await fetch(`${this.baseUrl()}/health`)
       return res.ok
@@ -45,38 +112,207 @@ export class OcrClientService {
     if (!existsSync(absolutePath)) {
       throw new ServiceUnavailableException(`图片不存在: ${absolutePath}`)
     }
-    if (mode === 'smart') {
-      const form = new FormData()
-      form.append('path', absolutePath)
-      return this.postOcr(form, 'smart')
-    }
-    if (mode === 'formula') {
-      return this.ocrFormulaSmartFromForms(() => {
-        const f = new FormData()
-        f.append('path', absolutePath)
-        return f
-      })
-    }
-    const form = new FormData()
-    form.append('path', absolutePath)
-    return this.postOcr(form, 'general')
+    // 统一走 buffer，便于 Vision / 本机同一路径
+    const buf = await import('node:fs/promises').then((fs) =>
+      fs.readFile(absolutePath),
+    )
+    return this.ocrByBuffer(buf, basename(absolutePath), mode)
   }
 
   async ocrByFile(
     absolutePath: string,
     mode: OcrMode = 'general',
   ): Promise<OcrResult> {
-    if (!existsSync(absolutePath)) {
-      throw new ServiceUnavailableException(`图片不存在: ${absolutePath}`)
-    }
-    const buf = await import('node:fs/promises').then((fs) => fs.readFile(absolutePath))
-    return this.ocrByBuffer(buf, basename(absolutePath), mode)
+    return this.ocrByAbsolutePath(absolutePath, mode)
   }
 
   async ocrByBuffer(
     buf: Buffer,
     filename: string,
     mode: OcrMode = 'general',
+  ): Promise<OcrResult> {
+    const policy = this.enginePolicy()
+    if (policy === 'vision') {
+      return this.visionOcrByBuffer(buf, filename, mode)
+    }
+    if (policy === 'local') {
+      return this.localOcrByBuffer(buf, filename, mode)
+    }
+    if (policy === 'vision_then_local') {
+      try {
+        const r = await this.visionOcrByBuffer(buf, filename, mode)
+        if (r.text.trim()) return r
+        this.logger.warn('vision OCR empty text → fallback local')
+      } catch (e) {
+        this.logger.warn(
+          `vision OCR fail → fallback local: ${(e as Error).message || e}`,
+        )
+      }
+      return this.localOcrByBuffer(buf, filename, mode)
+    }
+    // local_then_vision
+    try {
+      const r = await this.localOcrByBuffer(buf, filename, mode)
+      if (r.text.trim()) return r
+      this.logger.warn('local OCR empty text → fallback vision')
+    } catch (e) {
+      this.logger.warn(
+        `local OCR fail → fallback vision: ${(e as Error).message || e}`,
+      )
+    }
+    return this.visionOcrByBuffer(buf, filename, mode)
+  }
+
+  resolveUploadAbsolutePath(relativeUrl: string): string {
+    const cleaned = relativeUrl.replace(/^\//, '')
+    return join(process.cwd(), cleaned)
+  }
+
+  private isVisionConfigured(): boolean {
+    const key = this.visionApiKey()
+    const url = resolveVisionChatCompletionsUrl(this.visionApiUrlRaw())
+    return !!key && !!url
+  }
+
+  private visionApiUrlRaw(): string {
+    return (
+      this.config.get<string>('OCR_VISION_API_URL', '') ||
+      this.config.get<string>('HS_MATH_VISION_API_URL', '') ||
+      ''
+    ).trim()
+  }
+
+  private visionApiKey(): string {
+    return (
+      this.config.get<string>('OCR_VISION_API_KEY', '') ||
+      this.config.get<string>('HS_MATH_VISION_API_KEY', '') ||
+      ''
+    ).trim()
+  }
+
+  private visionModel(): string {
+    return (
+      this.config.get<string>('OCR_VISION_MODEL', '') ||
+      this.config.get<string>('HS_MATH_VISION_MODEL', '') ||
+      'qwen3.8-27b'
+    ).trim() || 'qwen3.8-27b'
+  }
+
+  private visionTimeoutMs(): number {
+    const n = Number(
+      this.config.get<string>('OCR_VISION_TIMEOUT_MS', '') || '90000',
+    )
+    return Number.isFinite(n) && n >= 5000 ? n : 90_000
+  }
+
+  private visionPrompt(mode: OcrMode): string {
+    if (mode === 'formula') {
+      return [
+        '你是 OCR 引擎。只输出图片中的数学公式，优先使用 LaTeX（可用 $...$ 包裹）。',
+        '不要解释、不要前言后语；若无法识别则输出空字符串。',
+      ].join('')
+    }
+    if (mode === 'smart') {
+      return [
+        '你是 OCR 引擎。完整识别图片中的中文、英文与数学公式。',
+        '公式用 LaTeX（$...$）；保持原有换行与题号；不要解题、不要改写。',
+        '只输出识别出的正文。',
+      ].join('')
+    }
+    return [
+      '你是 OCR 引擎。识别图片中的全部文字（含中文、英文、数字）。',
+      '若有公式可用 LaTeX；保持换行；不要解释、不要解题。',
+      '只输出识别出的正文。',
+    ].join('')
+  }
+
+  private async visionOcrByBuffer(
+    buf: Buffer,
+    filename: string,
+    mode: OcrMode,
+  ): Promise<OcrResult> {
+    const key = this.visionApiKey()
+    const endpoint = resolveVisionChatCompletionsUrl(this.visionApiUrlRaw())
+    if (!key || !endpoint) {
+      throw new ServiceUnavailableException(
+        '未配置 Qwen Vision（OCR_VISION_API_URL/KEY 或 HS_MATH_VISION_API_URL/KEY），无法识别。可设 OCR_ENGINE=local 改用本机 OCR',
+      )
+    }
+    const mime = guessMime(filename)
+    const b64 = buf.toString('base64')
+    const model = this.visionModel()
+    const timeoutMs = this.visionTimeoutMs()
+    const body = {
+      model,
+      messages: [
+        {
+          role: 'user',
+          content: [
+            { type: 'text', text: this.visionPrompt(mode) },
+            {
+              type: 'image_url',
+              image_url: { url: `data:${mime};base64,${b64}` },
+            },
+          ],
+        },
+      ],
+      max_tokens: 4096,
+      stream: false,
+    }
+
+    const ac = new AbortController()
+    const timer = setTimeout(() => ac.abort(), timeoutMs)
+    let res: Response
+    try {
+      res = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${key}`,
+        },
+        body: JSON.stringify(body),
+        signal: ac.signal,
+      })
+    } catch (e) {
+      const aborted =
+        (e instanceof Error && e.name === 'AbortError') ||
+        String(e).toLowerCase().includes('abort')
+      throw new ServiceUnavailableException(
+        aborted
+          ? `Qwen 识别超时（${timeoutMs}ms）`
+          : `Qwen 识别失败: ${(e as Error).message || e}`,
+      )
+    } finally {
+      clearTimeout(timer)
+    }
+
+    const raw = (await res.json()) as {
+      error?: { message?: string }
+      model?: string
+      choices?: Array<{ message?: { content?: string | null } }>
+    }
+    if (!res.ok) {
+      throw new ServiceUnavailableException(
+        `Qwen Vision HTTP ${res.status}: ${raw.error?.message || res.statusText}`,
+      )
+    }
+    const text = String(raw.choices?.[0]?.message?.content || '')
+      .trim()
+      .replace(/^```(?:latex|text|markdown)?\s*/i, '')
+      .replace(/\s*```$/i, '')
+      .trim()
+    const returnedModel = (raw.model || model).slice(0, 64)
+    return {
+      text,
+      confidence: null,
+      engine: `qwen-vision:${returnedModel}`,
+    }
+  }
+
+  private async localOcrByBuffer(
+    buf: Buffer,
+    filename: string,
+    mode: OcrMode,
   ): Promise<OcrResult> {
     const name = filename || 'upload.png'
     const blobPart = new Uint8Array(buf)
@@ -95,11 +331,6 @@ export class OcrClientService {
     const form = new FormData()
     form.append('file', new Blob([blobPart]), name)
     return this.postOcr(form, 'general')
-  }
-
-  resolveUploadAbsolutePath(relativeUrl: string): string {
-    const cleaned = relativeUrl.replace(/^\//, '')
-    return join(process.cwd(), cleaned)
   }
 
   /**

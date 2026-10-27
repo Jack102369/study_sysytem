@@ -415,35 +415,36 @@ async function ocrInto(
   loadingRef.value = true
   if (mode === 'smart') {
     ElMessage.info({
-      message: '智能识别中（中文用通用 OCR，分式碎片用公式模型）…',
-      duration: 3500,
+      message: '智能识别中…',
+      duration: 2500,
     })
   } else if (mode === 'formula') {
     ElMessage.info({
-      message: '纯公式识别：请确保图片主要是公式；含中文整题请用智能识别',
-      duration: 3500,
+      message: '公式识别中…',
+      duration: 2500,
     })
   }
   try {
     const data = await ocrErrorAttachment(target.id, mode)
     if (role === 'STEM') form.stemText = data.text
     else form.analysisText = data.text
+    const via = data.engine ? `（${data.engine}）` : ''
     ElMessage.success(
       mode === 'smart'
-        ? '智能识别完成，请核对分式后保存'
+        ? `智能识别完成${via}，请核对分式后保存`
         : mode === 'formula'
-          ? '纯公式识别完成，请核对（可能含 LaTeX）后保存'
-          : '识别完成，请核对后保存',
+          ? `纯公式识别完成${via}，请核对后保存`
+          : `识别完成${via}，请核对后保存`,
     )
   } catch (e) {
     ElMessage.error(
       errMsg(
         e,
         mode === 'smart'
-          ? '智能识别失败（请确认 9100/9101 OCR 均已启动）'
+          ? '智能识别失败（请检查 Qwen Vision 配置，或 OCR_ENGINE=local 启用本机 OCR）'
           : mode === 'formula'
             ? '纯公式识别失败（含中文请用智能识别，或裁切公式后再试）'
-            : 'OCR 不可用或识别失败',
+            : '识别失败（请检查 Qwen Vision 配置，或改 OCR_ENGINE=local）',
       ),
     )
   } finally {

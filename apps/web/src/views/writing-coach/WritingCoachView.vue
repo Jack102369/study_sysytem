@@ -892,9 +892,10 @@ async function onOcr(opt: UploadRequestOptions, field: 'topicText' | 'topicRequi
     }
     const prev = form[field].trim()
     form[field] = prev ? `${prev}\n\n${incoming}` : incoming
-    ElMessage.success('已识别并填入文字，请核对后保存')
+    const via = data.engine ? `（${data.engine}）` : ''
+    ElMessage.success(`已识别并填入文字${via}，请核对后保存`)
   } catch (e) {
-    ElMessage.error(errMsg(e, '识别失败，请确认 OCR 服务已启动（9100）'))
+    ElMessage.error(errMsg(e, '识别失败（请检查 Qwen Vision，或 OCR_ENGINE=local）'))
   } finally {
     ocrLoading.value = ''
   }
