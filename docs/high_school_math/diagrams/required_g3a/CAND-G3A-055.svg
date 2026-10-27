@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img">
+  <title>CAND-G3A-055 triangle SSA</title>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <polygon points="220.00,520.00 520.00,180.00 780.00,520.00" fill="rgba(70,140,210,0.12)" stroke="#1c1c20" stroke-width="2.5" opacity="1.0"/>
+  <text x="198.00" y="528.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">A</text>
+  <text x="520.00" y="158.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">B</text>
+  <text x="790.00" y="528.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">C</text>
+  <text x="678.00" y="342.00" font-size="16" fill="#1c4a9e" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">a=BC=6</text>
+  <text x="500.00" y="548.00" font-size="16" fill="#1c4a9e" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="middle">b=AC=6√2</text>
+  <text x="250.00" y="500.00" font-size="16" fill="#1c4a9e" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">A=30°</text>
+  <text x="120.00" y="60.00" font-size="20" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">△ABC · SSA 已知量示意（非测高）</text>
+  <text x="120.00" y="95.00" font-size="15" fill="#5a5a62" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">标角A与边a、b；不标注角B最终值</text>
+  <text x="120.00" y="680.00" font-size="14" fill="#5a5a62" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">CAND-G3A-055 · 教学示意图</text>
+</svg>

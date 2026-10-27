@@ -1,0 +1,203 @@
+{
+  "phase": "HS-MATH-BANK-GLOBAL-2G-DIAGRAM",
+  "startedAt": "2026-10-27T00:44:03.196Z",
+  "decision": "DIAGRAM_UPLOAD_PASS",
+  "items": [
+    {
+      "code": "CAND-G2A-045",
+      "itemId": "319",
+      "uploadHttp": 201,
+      "ok": true,
+      "linkId": "5",
+      "returnedSha": "ac818d4e899196f39e20c9f1d7a8e3cb143d04cf38d93c3e01e65bb172dd76d4",
+      "cvAfterUpload": 2,
+      "authRead": {
+        "status": 200,
+        "sha256": "ac818d4e899196f39e20c9f1d7a8e3cb143d04cf38d93c3e01e65bb172dd76d4",
+        "contentType": "image/png"
+      },
+      "noAuthStatus": 401,
+      "dbStatus": "draft",
+      "dbCv": 2,
+      "panelCv": 2,
+      "panelFpPrefix": "1973b7f3325d16ec"
+    },
+    {
+      "code": "CAND-G2A-055",
+      "itemId": "329",
+      "uploadHttp": 201,
+      "ok": true,
+      "linkId": "6",
+      "returnedSha": "a83856cae522849f89bed698ef8a4082549dad46b5bde2fc4bbd83f9ac6792bb",
+      "cvAfterUpload": 2,
+      "authRead": {
+        "status": 200,
+        "sha256": "a83856cae522849f89bed698ef8a4082549dad46b5bde2fc4bbd83f9ac6792bb",
+        "contentType": "image/png"
+      },
+      "noAuthStatus": 401,
+      "dbStatus": "draft",
+      "dbCv": 2,
+      "panelCv": 2,
+      "panelFpPrefix": "e9f010b4274088e9"
+    },
+    {
+      "code": "CAND-G2A-081",
+      "itemId": "355",
+      "uploadHttp": 201,
+      "ok": true,
+      "linkId": "7",
+      "returnedSha": "97b7c3ecc7f7d4af3c05e51fdb3563f6ac90320e8363d4e92cf99c5d982b084c",
+      "cvAfterUpload": 2,
+      "authRead": {
+        "status": 200,
+        "sha256": "97b7c3ecc7f7d4af3c05e51fdb3563f6ac90320e8363d4e92cf99c5d982b084c",
+        "contentType": "image/png"
+      },
+      "noAuthStatus": 401,
+      "dbStatus": "draft",
+      "dbCv": 2,
+      "panelCv": 2,
+      "panelFpPrefix": "8cfdb44a04bde3fb"
+    },
+    {
+      "code": "CAND-G2A-084",
+      "itemId": "358",
+      "uploadHttp": 201,
+      "ok": true,
+      "linkId": "8",
+      "returnedSha": "8da6b0ae8355630027fbe29087f46d80c05427344dc91301d8a139df16f4a449",
+      "cvAfterUpload": 2,
+      "authRead": {
+        "status": 200,
+        "sha256": "8da6b0ae8355630027fbe29087f46d80c05427344dc91301d8a139df16f4a449",
+        "contentType": "image/png"
+      },
+      "noAuthStatus": 401,
+      "dbStatus": "draft",
+      "dbCv": 2,
+      "panelCv": 2,
+      "panelFpPrefix": "c4e111c7fad3a2a3"
+    },
+    {
+      "code": "CAND-G2A-086",
+      "itemId": "360",
+      "uploadHttp": 201,
+      "ok": true,
+      "linkId": "9",
+      "returnedSha": "35583af69ab4f3793dbf73655afb755036bb9e6de1caf0fc663062ea0b3111fe",
+      "cvAfterUpload": 2,
+      "authRead": {
+        "status": 200,
+        "sha256": "35583af69ab4f3793dbf73655afb755036bb9e6de1caf0fc663062ea0b3111fe",
+        "contentType": "image/png"
+      },
+      "noAuthStatus": 401,
+      "dbStatus": "draft",
+      "dbCv": 2,
+      "panelCv": 2,
+      "panelFpPrefix": "52fe8dd6d5e18ed3"
+    },
+    {
+      "code": "CAND-G2A-088",
+      "itemId": "362",
+      "uploadHttp": 201,
+      "ok": true,
+      "linkId": "10",
+      "returnedSha": "5b88220539e26e23fccec4beabdf8e2251dc34939ad8005d572a4c123f5f8daa",
+      "cvAfterUpload": 2,
+      "authRead": {
+        "status": 200,
+        "sha256": "5b88220539e26e23fccec4beabdf8e2251dc34939ad8005d572a4c123f5f8daa",
+        "contentType": "image/png"
+      },
+      "noAuthStatus": 401,
+      "dbStatus": "draft",
+      "dbCv": 2,
+      "panelCv": 2,
+      "panelFpPrefix": "5dbd3118217da483"
+    },
+    {
+      "code": "CAND-G2A-089",
+      "itemId": "363",
+      "uploadHttp": 201,
+      "ok": true,
+      "linkId": "11",
+      "returnedSha": "ecfab27657b72f09d0b5660df26e9e014e5ff0396db1db78f17dbd81c096f62f",
+      "cvAfterUpload": 2,
+      "authRead": {
+        "status": 200,
+        "sha256": "ecfab27657b72f09d0b5660df26e9e014e5ff0396db1db78f17dbd81c096f62f",
+        "contentType": "image/png"
+      },
+      "noAuthStatus": 401,
+      "dbStatus": "draft",
+      "dbCv": 2,
+      "panelCv": 2,
+      "panelFpPrefix": "427f8e43d51ec1f8"
+    }
+  ],
+  "errors": [],
+  "pre": {
+    "drawable": 113,
+    "g2a": 100,
+    "rows": [
+      {
+        "code": "CAND-G2A-045",
+        "id": "319",
+        "status": "draft",
+        "cv": 1
+      },
+      {
+        "code": "CAND-G2A-055",
+        "id": "329",
+        "status": "draft",
+        "cv": 1
+      },
+      {
+        "code": "CAND-G2A-081",
+        "id": "355",
+        "status": "draft",
+        "cv": 1
+      },
+      {
+        "code": "CAND-G2A-084",
+        "id": "358",
+        "status": "draft",
+        "cv": 1
+      },
+      {
+        "code": "CAND-G2A-086",
+        "id": "360",
+        "status": "draft",
+        "cv": 1
+      },
+      {
+        "code": "CAND-G2A-088",
+        "id": "362",
+        "status": "draft",
+        "cv": 1
+      },
+      {
+        "code": "CAND-G2A-089",
+        "id": "363",
+        "status": "draft",
+        "cv": 1
+      }
+    ]
+  },
+  "post": {
+    "drawable": 113,
+    "diagramCounts": {
+      "CAND-G2A-045": 1,
+      "CAND-G2A-055": 1,
+      "CAND-G2A-081": 1,
+      "CAND-G2A-084": 1,
+      "CAND-G2A-086": 1,
+      "CAND-G2A-088": 1,
+      "CAND-G2A-089": 1
+    }
+  },
+  "adminUserId": "2",
+  "endedAt": "2026-10-27T00:44:04.092Z"
+}

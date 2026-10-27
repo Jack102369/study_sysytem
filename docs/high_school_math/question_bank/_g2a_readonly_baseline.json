@@ -1,0 +1,2690 @@
+{
+  "exportedAt": "2026-10-26T15:31:44.352Z",
+  "drawable": 113,
+  "kpCount": 153,
+  "methods": [
+    {
+      "code": "classification",
+      "name": "分类讨论"
+    },
+    {
+      "code": "defn",
+      "name": "定义法"
+    },
+    {
+      "code": "domain_symmetry",
+      "name": "定义域对称检验"
+    },
+    {
+      "code": "equiv_transform",
+      "name": "等价转化"
+    },
+    {
+      "code": "graph_symmetry",
+      "name": "图象对称分析"
+    },
+    {
+      "code": "mono_analysis",
+      "name": "单调性分析"
+    },
+    {
+      "code": "num_shape",
+      "name": "数形结合"
+    },
+    {
+      "code": "parity_apply",
+      "name": "奇偶性应用"
+    },
+    {
+      "code": "special_value",
+      "name": "特殊值法"
+    },
+    {
+      "code": "substitution",
+      "name": "换元法"
+    },
+    {
+      "code": "undetermined_coeff",
+      "name": "待定系数法"
+    }
+  ],
+  "kps": [
+    {
+      "code": "rja.1.1.01",
+      "name": "集合的含义与元素",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.1.1.02",
+      "name": "集合的表示法",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.1.1.03",
+      "name": "空集与全集（描述层面）",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.1.2.01",
+      "name": "子集与真子集",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.1.2.02",
+      "name": "集合相等",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.1.3.01",
+      "name": "并集",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.1.3.02",
+      "name": "交集",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.1.3.03",
+      "name": "补集",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.1.3.04",
+      "name": "文氏图与综合运算",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.1.4.01",
+      "name": "充分条件",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.1.4.02",
+      "name": "必要条件",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.1.4.03",
+      "name": "充要条件",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.1.5.01",
+      "name": "全称量词",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.1.5.02",
+      "name": "存在量词",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.1.5.03",
+      "name": "含有量词的命题否定",
+      "specialtyCode": "rja-ch1"
+    },
+    {
+      "code": "rja.2.1.01",
+      "name": "不等式的基本性质",
+      "specialtyCode": "rja-ch2"
+    },
+    {
+      "code": "rja.2.1.02",
+      "name": "作差比较大小",
+      "specialtyCode": "rja-ch2"
+    },
+    {
+      "code": "rja.2.1.03",
+      "name": "不等式应用建模",
+      "specialtyCode": "rja-ch2"
+    },
+    {
+      "code": "rja.2.1.04",
+      "name": "等式的基本性质",
+      "specialtyCode": "rja-ch2"
+    },
+    {
+      "code": "rja.2.2.01",
+      "name": "算术-几何平均不等式",
+      "specialtyCode": "rja-ch2"
+    },
+    {
+      "code": "rja.2.2.02",
+      "name": "配凑法求最值",
+      "specialtyCode": "rja-ch2"
+    },
+    {
+      "code": "rja.2.2.03",
+      "name": "基本不等式双变量",
+      "specialtyCode": "rja-ch2"
+    },
+    {
+      "code": "rja.2.2.04",
+      "name": "基本不等式应用注意",
+      "specialtyCode": "rja-ch2"
+    },
+    {
+      "code": "rja.2.3.01",
+      "name": "三个二次的关系",
+      "specialtyCode": "rja-ch2"
+    },
+    {
+      "code": "rja.2.3.02",
+      "name": "一元二次不等式解法",
+      "specialtyCode": "rja-ch2"
+    },
+    {
+      "code": "rja.2.3.03",
+      "name": "含参二次不等式",
+      "specialtyCode": "rja-ch2"
+    },
+    {
+      "code": "rja.2.3.04",
+      "name": "二次函数区间最值",
+      "specialtyCode": "rja-ch2"
+    },
+    {
+      "code": "rja.2.3.05",
+      "name": "根的分布",
+      "specialtyCode": "rja-ch2"
+    },
+    {
+      "code": "rja.3.1.01",
+      "name": "函数的定义",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.1.02",
+      "name": "定义域",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.1.03",
+      "name": "值域",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.1.04",
+      "name": "对应关系",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.1.05",
+      "name": "相同函数的判断",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.1.06",
+      "name": "解析法",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.1.07",
+      "name": "图象法",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.1.08",
+      "name": "列表法",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.1.09",
+      "name": "分段函数",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.1.10",
+      "name": "函数求值",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.2.01",
+      "name": "单调递增",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.2.02",
+      "name": "单调递减",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.2.03",
+      "name": "单调区间",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.2.04",
+      "name": "单调性判断",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.2.05",
+      "name": "单调性与不等式",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.2.06",
+      "name": "最大值",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.2.07",
+      "name": "最小值与区间最值",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.2.08",
+      "name": "单调性与最值",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.2.09",
+      "name": "奇偶性定义与定义域对称",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.2.10",
+      "name": "奇函数与偶函数的判断",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.2.11",
+      "name": "既奇又偶、非奇非偶及图象对称",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.2.12",
+      "name": "奇偶性求值与综合应用",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.3.01",
+      "name": "幂函数概念",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.3.02",
+      "name": "常见幂函数图象",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.3.03",
+      "name": "幂函数性质概览",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.3.04",
+      "name": "幂函数单调性",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.3.05",
+      "name": "幂函数奇偶性",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.4.01",
+      "name": "实际问题函数建模",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.4.02",
+      "name": "分段实际模型",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.4.03",
+      "name": "函数模型选择与比较",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.3.4.04",
+      "name": "用函数解决最值实际问题",
+      "specialtyCode": "rja-ch3"
+    },
+    {
+      "code": "rja.4.1.01",
+      "name": "n次方根",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.1.02",
+      "name": "分数指数幂",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.1.03",
+      "name": "指数幂运算",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.1.04",
+      "name": "根式与指数互化",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.2.01",
+      "name": "指数函数概念",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.2.02",
+      "name": "指数函数单调性",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.2.03",
+      "name": "指数方程",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.2.04",
+      "name": "指数函数图象变换",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.3.01",
+      "name": "对数概念",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.3.02",
+      "name": "对数运算法则",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.3.03",
+      "name": "换底公式",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.3.04",
+      "name": "对数方程初步",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.4.01",
+      "name": "对数函数概念",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.4.02",
+      "name": "对数函数单调性",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.4.03",
+      "name": "对数函数图象与性质",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.5.01",
+      "name": "指数增长模型",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.5.02",
+      "name": "对数应用",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.5.03",
+      "name": "二分法思想",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.4.5.04",
+      "name": "复合增长模型",
+      "specialtyCode": "rja-ch4"
+    },
+    {
+      "code": "rja.5.1.01",
+      "name": "角的概念推广",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.1.02",
+      "name": "弧度制",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.1.03",
+      "name": "弧长应用",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.2.01",
+      "name": "三角函数定义",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.2.02",
+      "name": "同角关系",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.2.03",
+      "name": "三角函数定义域与符号",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.3.01",
+      "name": "诱导公式",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.3.02",
+      "name": "互化求值",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.3.03",
+      "name": "化简证明",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.4.01",
+      "name": "正弦函数性质",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.4.02",
+      "name": "余弦函数性质",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.4.03",
+      "name": "正切函数",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.5.01",
+      "name": "和差公式",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.5.02",
+      "name": "二倍角公式",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.5.03",
+      "name": "辅助角公式",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.5.04",
+      "name": "恒等证明",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.6.01",
+      "name": "振幅周期相位",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.6.02",
+      "name": "图象变换",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.6.03",
+      "name": "由已知求解析式",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.7.01",
+      "name": "简谐振动",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.7.02",
+      "name": "潮汐模型",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rja.5.7.03",
+      "name": "测量应用",
+      "specialtyCode": "rja-ch5"
+    },
+    {
+      "code": "rjb.10.1.01",
+      "name": "样本空间",
+      "specialtyCode": "rjb-ch5"
+    },
+    {
+      "code": "rjb.10.1.02",
+      "name": "古典概型",
+      "specialtyCode": "rjb-ch5"
+    },
+    {
+      "code": "rjb.10.1.03",
+      "name": "事件关系与运算",
+      "specialtyCode": "rjb-ch5"
+    },
+    {
+      "code": "rjb.10.2.01",
+      "name": "独立事件",
+      "specialtyCode": "rjb-ch5"
+    },
+    {
+      "code": "rjb.10.2.02",
+      "name": "独立重复试验初步",
+      "specialtyCode": "rjb-ch5"
+    },
+    {
+      "code": "rjb.10.3.01",
+      "name": "大数定律思想",
+      "specialtyCode": "rjb-ch5"
+    },
+    {
+      "code": "rjb.10.3.02",
+      "name": "频率与概率关系",
+      "specialtyCode": "rjb-ch5"
+    },
+    {
+      "code": "rjb.6.1.01",
+      "name": "向量概念",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.1.02",
+      "name": "向量模",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.1.03",
+      "name": "相等向量",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.1.04",
+      "name": "平行与共线向量",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.2.01",
+      "name": "向量加法",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.2.02",
+      "name": "数量积",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.2.03",
+      "name": "向量夹角",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.2.04",
+      "name": "投影",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.2.05",
+      "name": "数乘",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.3.01",
+      "name": "基底",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.3.02",
+      "name": "坐标运算",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.3.03",
+      "name": "共线条件",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.3.04",
+      "name": "向量垂直的坐标条件",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.4.01",
+      "name": "向量应用",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.4.02",
+      "name": "位移合成",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.4.03",
+      "name": "功的计算",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.6.4.04",
+      "name": "几何证明",
+      "specialtyCode": "rjb-ch1"
+    },
+    {
+      "code": "rjb.7.1.01",
+      "name": "虚数单位",
+      "specialtyCode": "rjb-ch2"
+    },
+    {
+      "code": "rjb.7.1.02",
+      "name": "复数相等",
+      "specialtyCode": "rjb-ch2"
+    },
+    {
+      "code": "rjb.7.1.03",
+      "name": "复平面",
+      "specialtyCode": "rjb-ch2"
+    },
+    {
+      "code": "rjb.7.2.01",
+      "name": "复数运算",
+      "specialtyCode": "rjb-ch2"
+    },
+    {
+      "code": "rjb.7.2.02",
+      "name": "共轭复数",
+      "specialtyCode": "rjb-ch2"
+    },
+    {
+      "code": "rjb.7.3.01",
+      "name": "复数模",
+      "specialtyCode": "rjb-ch2"
+    },
+    {
+      "code": "rjb.7.3.02",
+      "name": "复数三角形式初步",
+      "specialtyCode": "rjb-ch2"
+    },
+    {
+      "code": "rjb.8.1.01",
+      "name": "棱柱概念",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.8.1.02",
+      "name": "简单组合体",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.8.2.01",
+      "name": "斜二测",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.8.2.02",
+      "name": "直观图与原图关系",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.8.3.01",
+      "name": "柱体体积",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.8.3.02",
+      "name": "锥体应用",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.8.3.03",
+      "name": "组合体",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.8.3.04",
+      "name": "球体表面积与体积",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.8.4.01",
+      "name": "平行公理",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.8.4.02",
+      "name": "直线与平面位置关系",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.8.5.01",
+      "name": "线面平行判定",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.8.5.02",
+      "name": "面面平行",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.8.6.01",
+      "name": "线面垂直",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.8.6.02",
+      "name": "垂直证明",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.8.6.03",
+      "name": "面面垂直",
+      "specialtyCode": "rjb-ch3"
+    },
+    {
+      "code": "rjb.9.1.01",
+      "name": "简单随机抽样",
+      "specialtyCode": "rjb-ch4"
+    },
+    {
+      "code": "rjb.9.1.02",
+      "name": "系统抽样与分层抽样",
+      "specialtyCode": "rjb-ch4"
+    },
+    {
+      "code": "rjb.9.2.01",
+      "name": "频率估计概率",
+      "specialtyCode": "rjb-ch4"
+    },
+    {
+      "code": "rjb.9.2.02",
+      "name": "样本数字特征",
+      "specialtyCode": "rjb-ch4"
+    },
+    {
+      "code": "rjb.9.2.03",
+      "name": "用样本估计总体分布",
+      "specialtyCode": "rjb-ch4"
+    },
+    {
+      "code": "rjb.9.3.01",
+      "name": "回归思想",
+      "specialtyCode": "rjb-ch4"
+    },
+    {
+      "code": "rjb.9.3.02",
+      "name": "统计分析案例阅读",
+      "specialtyCode": "rjb-ch4"
+    }
+  ],
+  "g1bCount": 100,
+  "g1bStems": [
+    {
+      "code": "CAND-G1B-001",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "判断：$A=\\{x\\in\\mathbb{Z}\\mid -2<x<3\\}$ 时，$0\\in A$ 且 $3\\notin A$。"
+    },
+    {
+      "code": "CAND-G1B-002",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "集合 $\\{a,b,c\\}$ 的真子集个数为"
+    },
+    {
+      "code": "CAND-G1B-003",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "$A=\\{1,2,4,6\\}$，$B=\\{2,3,5\\}$，则 $|A\\cup B|=$"
+    },
+    {
+      "code": "CAND-G1B-004",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "“$x^2=9$”是“$x=3$”的"
+    },
+    {
+      "code": "CAND-G1B-005",
+      "qtype": "multi",
+      "difficulty": 3,
+      "stemHead": "命题否定写法正确的有（多选）"
+    },
+    {
+      "code": "CAND-G1B-006",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "若 $a>b$，$c<0$，则 $ac<bc$。"
+    },
+    {
+      "code": "CAND-G1B-007",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$M=x^2+1$，$N=2x$，则对 $\\forall x\\in\\mathbb{R}$ 有"
+    },
+    {
+      "code": "CAND-G1B-008",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "$x>0$ 且 $x+\\dfrac{16}{x}=8$，则 $x=$"
+    },
+    {
+      "code": "CAND-G1B-009",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$x>2$ 时 $x+\\dfrac{4}{x-2}$ 的最小值为"
+    },
+    {
+      "code": "CAND-G1B-010",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$x^2-5x+6<0$ 的解集为"
+    },
+    {
+      "code": "CAND-G1B-011",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "使 $x^2+px+9>0$ 对 $\\forall x\\in\\mathbb{R}$ 恒成立的 $p$ 可以是（多选）"
+    },
+    {
+      "code": "CAND-G1B-012",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "固定成本 $150$ 元，可变成本 $6$ 元/件，售价 $18$ 元/件，销量 $x\\in\\mathbb{N}^+$。\n（1）利润 $L(x)$；\n（2）至少几件不亏本？"
+    },
+    {
+      "code": "CAND-G1B-013",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$x^2+ax+1\\ge0$ 恒成立，则 $a\\in$"
+    },
+    {
+      "code": "CAND-G1B-014",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "$x,y>0$，$xy=25$，则 $x+y$ 最小值为"
+    },
+    {
+      "code": "CAND-G1B-015",
+      "qtype": "judge",
+      "difficulty": 3,
+      "stemHead": "$f(x)=-2(x-1)^2+5$ 在 $[0,3]$ 上最大值为 $5$。"
+    },
+    {
+      "code": "CAND-G1B-016",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$f(x)=\\dfrac{\\sqrt{x-1}}{x-3}$ 的定义域为"
+    },
+    {
+      "code": "CAND-G1B-017",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "$f(x)=x$ 与 $g(t)=t$ 是同一函数。"
+    },
+    {
+      "code": "CAND-G1B-018",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "出租车：$3\\text{km}$ 内 $10$ 元；超出每 km $2.5$ 元（$x$ 为整数 km）。\n（1）车费 $F(x)$；\n（2）$8\\text{km}$ 费用？"
+    },
+    {
+      "code": "CAND-G1B-019",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$f(x+1)=x^2-2x$，则 $f(3)=$"
+    },
+    {
+      "code": "CAND-G1B-020",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$f(x)=3x-7$ 在 $\\mathbb{R}$ 上"
+    },
+    {
+      "code": "CAND-G1B-021",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "$f(x)=x^2$ 在 $(-\\infty,0)$ 上单调递减。"
+    },
+    {
+      "code": "CAND-G1B-022",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "矩形周长 $20$，一边长 $x$，面积 $S(x)=x(10-x)$，$0<x<10$。\n（1）求 $S(x)$ 最大值及对应 $x$。"
+    },
+    {
+      "code": "CAND-G1B-023",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "奇函数 $f$，$f(2)=5$，则 $f(-2)=$"
+    },
+    {
+      "code": "CAND-G1B-024",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "$f$ 在 $\\mathbb{R}$ 递增，$f(a)<f(b)$ 等价于"
+    },
+    {
+      "code": "CAND-G1B-025",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "第一象限递增的幂函数有（多选）"
+    },
+    {
+      "code": "CAND-G1B-026",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "$y=x^{1/3}$ 在 $\\mathbb{R}$ 上"
+    },
+    {
+      "code": "CAND-G1B-027",
+      "qtype": "application",
+      "difficulty": 1,
+      "stemHead": "炮弹高度 $h(t)=-5t^2+30t$（$t$ 秒，$0\\le t\\le6$）。\n（1）求 $h$ 的最大值；\n（2）何时落地？"
+    },
+    {
+      "code": "CAND-G1B-028",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "$f(x)=\\begin{cases}2x+1,&x<0\\\\x^2,&x\\ge0\\end{cases}$，求 $f(-2)+f(2)$"
+    },
+    {
+      "code": "CAND-G1B-029",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "$y=2x^2$ 是幂函数。"
+    },
+    {
+      "code": "CAND-G1B-030",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "stemHead": "$f(x)=-x^2+4x$ 在 $[0,5]$ 上最大值为"
+    },
+    {
+      "code": "CAND-G1B-031",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$\\sqrt[3]{-27}=$"
+    },
+    {
+      "code": "CAND-G1B-032",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "$8^{2/3}=$"
+    },
+    {
+      "code": "CAND-G1B-033",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "细菌数 $N(t)=N_0\\cdot2^{t/3}$（$t$ 小时）。$N_0=500$，求 $t=9$ 时 $N$。"
+    },
+    {
+      "code": "CAND-G1B-034",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "$y=2^x$ 的定义域为 $\\mathbb{R}$。"
+    },
+    {
+      "code": "CAND-G1B-035",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$a=0.3^{0.5}$，$b=0.3^{0.3}$，则"
+    },
+    {
+      "code": "CAND-G1B-036",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$\\log_2 32=$"
+    },
+    {
+      "code": "CAND-G1B-037",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "下列关于对数运算法则的说法，正确的是（多选）"
+    },
+    {
+      "code": "CAND-G1B-038",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "地震能量 $E$ 与里氏级 $M$ 满足 $\\lg E=4.8+1.5M$。$M=6$ 时 $\\lg E$ 为多少？"
+    },
+    {
+      "code": "CAND-G1B-039",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "$y=\\log_{0.5}x$ 的定义域为"
+    },
+    {
+      "code": "CAND-G1B-040",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "stemHead": "$\\log_3 81=$"
+    },
+    {
+      "code": "CAND-G1B-041",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$2^{x+1}=16$ 的解为"
+    },
+    {
+      "code": "CAND-G1B-042",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "证明：方程 $2^x=5-x$ 在 $(1,2)$ 内有唯一实根（说明单调性与端点符号）。"
+    },
+    {
+      "code": "CAND-G1B-043",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "$\\log_4 8=\\dfrac{\\log_2 8}{\\log_2 4}$。"
+    },
+    {
+      "code": "CAND-G1B-044",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "stemHead": "$(\\dfrac1{27})^{-2/3}=$"
+    },
+    {
+      "code": "CAND-G1B-045",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "存款本金 $10000$ 元，年利率 $5\\%$ 复利，求 $3$ 年后本息和（精确到元）。"
+    },
+    {
+      "code": "CAND-G1B-046",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "$-390^\\circ$ 是第四象限角。"
+    },
+    {
+      "code": "CAND-G1B-047",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "$\\dfrac{5\\pi}{6}$ 化为度数（整数）"
+    },
+    {
+      "code": "CAND-G1B-048",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "圆半径 $r=10\\text{cm}$，圆心角 $60^\\circ$，求弧长（$\\pi$ 形式）。"
+    },
+    {
+      "code": "CAND-G1B-049",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$\\alpha$ 终边过 $P(-3,4)$，则 $\\sin\\alpha=$"
+    },
+    {
+      "code": "CAND-G1B-050",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$\\sin\\theta=\\dfrac35$，$\\theta$ 在第二象限，则 $\\cos\\theta=$"
+    },
+    {
+      "code": "CAND-G1B-051",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "$\\sin\\!\\left(\\dfrac{7\\pi}{6}\\right)=$"
+    },
+    {
+      "code": "CAND-G1B-052",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "化简：$\\sin(\\pi-\\theta)+\\sin(\\pi+\\theta)$。"
+    },
+    {
+      "code": "CAND-G1B-053",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$y=\\sin x$ 的最小正周期为"
+    },
+    {
+      "code": "CAND-G1B-054",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "$y=\\cos x$ 为偶函数。"
+    },
+    {
+      "code": "CAND-G1B-055",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$\\cos75^\\circ=$"
+    },
+    {
+      "code": "CAND-G1B-056",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "证明：$\\dfrac{1-\\cos2\\alpha}{\\sin2\\alpha}=\\tan\\alpha$（$\\alpha$ 使分母不为0）。"
+    },
+    {
+      "code": "CAND-G1B-057",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "$\\sin15^\\circ\\cos15^\\circ=$"
+    },
+    {
+      "code": "CAND-G1B-058",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$y=3\\sin(2x+\\pi/3)$ 的振幅为"
+    },
+    {
+      "code": "CAND-G1B-059",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "$y=\\sin x$ 经何种变换得 $y=\\sin(2x)$（多选）"
+    },
+    {
+      "code": "CAND-G1B-060",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "潮高 $h(t)=2\\cos(\\dfrac{\\pi t}{6})+4$（$t$ 为小时）。求最高潮高与周期。"
+    },
+    {
+      "code": "CAND-G1B-061",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "$h=2\\sin(3t)+5$ 的最大值为"
+    },
+    {
+      "code": "CAND-G1B-062",
+      "qtype": "judge",
+      "difficulty": 3,
+      "stemHead": "$y=\\tan x$ 在 $(-\\pi/2,\\pi/2)$ 递增。"
+    },
+    {
+      "code": "CAND-G1B-063",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "$\\cos(\\pi-\\alpha)=$"
+    },
+    {
+      "code": "CAND-G1B-064",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "塔高测量：距塔底 $40\\text{m}$ 处测得塔顶的仰角为 $30^\\circ$，求塔高（精确值）。"
+    },
+    {
+      "code": "CAND-G1B-065",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "$\\sqrt3\\sin x+\\cos x$ 的最大值为"
+    },
+    {
+      "code": "CAND-G1B-066",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "零向量与任何向量平行。"
+    },
+    {
+      "code": "CAND-G1B-067",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "设 $\\vec a=(3,4)$，则 $|\\vec a|=$"
+    },
+    {
+      "code": "CAND-G1B-068",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "物体受两力 $\\vec F_1=(3,4)$，$\\vec F_2=(-1,2)$（N），求合力大小。"
+    },
+    {
+      "code": "CAND-G1B-069",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$\\vec a+\\vec b=\\vec b+\\vec a$ 体现"
+    },
+    {
+      "code": "CAND-G1B-070",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "$\\vec a=(1,2)$，$\\vec b=(3,-1)$，则 $\\vec a\\cdot\\vec b=$"
+    },
+    {
+      "code": "CAND-G1B-071",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$\\vec a=(1,0)$，$\\vec b=(0,1)$ 夹角为"
+    },
+    {
+      "code": "CAND-G1B-072",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "船速 $\\vec v_1=(4,0)$ km/h，水流 $\\vec v_2=(0,1)$，求实际速度大小。"
+    },
+    {
+      "code": "CAND-G1B-073",
+      "qtype": "judge",
+      "difficulty": 3,
+      "stemHead": "任意两个非零向量都可作基底。"
+    },
+    {
+      "code": "CAND-G1B-074",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "下列关于平面向量运算的说法，正确的是（多选）"
+    },
+    {
+      "code": "CAND-G1B-075",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "stemHead": "$|\\vec a|=5$，$|\\vec b|=2$，夹角 $60^\\circ$，则 $\\vec a$ 在 $\\vec b$ 上投影数量为"
+    },
+    {
+      "code": "CAND-G1B-076",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "力 $\\vec F=(6,8)$ N 沿位移 $\\vec s=(3,0)$ m 做功，求功 $W=\\vec F\\cdot\\vec s$。"
+    },
+    {
+      "code": "CAND-G1B-077",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "相等向量必"
+    },
+    {
+      "code": "CAND-G1B-078",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$\\vec a=(2,4)$，$\\vec b=(1,k)$ 共线则 $k=$"
+    },
+    {
+      "code": "CAND-G1B-079",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "$3(1,-2)-2(2,1)=$ 的横坐标"
+    },
+    {
+      "code": "CAND-G1B-080",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "用向量证明：平行四边形对角线互相平分（设 $\\vec{AB}=\\vec a$，$\\vec{AD}=\\vec b$）。"
+    },
+    {
+      "code": "CAND-G1B-081",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$i^2=$"
+    },
+    {
+      "code": "CAND-G1B-082",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "计算 $(3+2i)(1-i)$ 并写为 $a+bi$。"
+    },
+    {
+      "code": "CAND-G1B-083",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "stemHead": "$|3-4i|=$"
+    },
+    {
+      "code": "CAND-G1B-084",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "正方体是特殊的棱柱。"
+    },
+    {
+      "code": "CAND-G1B-085",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "底面积 $6$，高 $5$ 的圆柱体积为"
+    },
+    {
+      "code": "CAND-G1B-086",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "正四棱锥底面边长 $6$，高 $4$，求体积。"
+    },
+    {
+      "code": "CAND-G1B-087",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "过直线外一点与已知直线平行的直线有"
+    },
+    {
+      "code": "CAND-G1B-088",
+      "qtype": "judge",
+      "difficulty": 2,
+      "stemHead": "平面外一条直线与平面内一条直线平行，则该直线与平面平行。"
+    },
+    {
+      "code": "CAND-G1B-089",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "若 $l\\perp\\alpha$，则 $l$ 与 $\\alpha$ 内任意直线"
+    },
+    {
+      "code": "CAND-G1B-090",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "圆柱（$r=2,h=5$）上放同底圆柱（$r=2,h=3$），求总体积。"
+    },
+    {
+      "code": "CAND-G1B-091",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "斜二测画法画水平放置的平面图形时，下列说法正确的是"
+    },
+    {
+      "code": "CAND-G1B-092",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "面面平行判定可用（多选）"
+    },
+    {
+      "code": "CAND-G1B-093",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "正方体 $ABCD-A_1B_1C_1D_1$ 中，证明 $BD_1\\perp$ 平面 $A_1C_1D$（写出关键步骤）。"
+    },
+    {
+      "code": "CAND-G1B-094",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "简单随机抽样每个个体被抽中概率"
+    },
+    {
+      "code": "CAND-G1B-095",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "抛硬币 $200$ 次出现正面 $96$ 次，估计正面概率。"
+    },
+    {
+      "code": "CAND-G1B-096",
+      "qtype": "judge",
+      "difficulty": 3,
+      "stemHead": "样本相关系数 $r$ 越接近 $1$，线性相关程度一定越强。"
+    },
+    {
+      "code": "CAND-G1B-097",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "掷一枚骰子，样本空间元素个数为"
+    },
+    {
+      "code": "CAND-G1B-098",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "袋中 $3$ 红 $2$ 白，随机取 $2$ 球，求恰有一红的概率。"
+    },
+    {
+      "code": "CAND-G1B-099",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "独立事件 $A,B$，$P(A)=0.4$，$P(B)=0.5$，则 $P(AB)=$"
+    },
+    {
+      "code": "CAND-G1B-100",
+      "qtype": "application",
+      "difficulty": 1,
+      "stemHead": "说明：为何试验次数增大时，正面频率往往更接近 $0.5$？（简述）"
+    }
+  ],
+  "formalCount": 211,
+  "formalStems": [
+    {
+      "code": "CAND-G1B-001",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "判断：$A=\\{x\\in\\mathbb{Z}\\mid -2<x<3\\}$ 时，$0\\in A$ 且 $3\\notin A$。"
+    },
+    {
+      "code": "CAND-G1B-002",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "集合 $\\{a,b,c\\}$ 的真子集个数为"
+    },
+    {
+      "code": "CAND-G1B-003",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "$A=\\{1,2,4,6\\}$，$B=\\{2,3,5\\}$，则 $|A\\cup B|=$"
+    },
+    {
+      "code": "CAND-G1B-004",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "“$x^2=9$”是“$x=3$”的"
+    },
+    {
+      "code": "CAND-G1B-005",
+      "qtype": "multi",
+      "difficulty": 3,
+      "stemHead": "命题否定写法正确的有（多选）"
+    },
+    {
+      "code": "CAND-G1B-006",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "若 $a>b$，$c<0$，则 $ac<bc$。"
+    },
+    {
+      "code": "CAND-G1B-007",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$M=x^2+1$，$N=2x$，则对 $\\forall x\\in\\mathbb{R}$ 有"
+    },
+    {
+      "code": "CAND-G1B-008",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "$x>0$ 且 $x+\\dfrac{16}{x}=8$，则 $x=$"
+    },
+    {
+      "code": "CAND-G1B-009",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$x>2$ 时 $x+\\dfrac{4}{x-2}$ 的最小值为"
+    },
+    {
+      "code": "CAND-G1B-010",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$x^2-5x+6<0$ 的解集为"
+    },
+    {
+      "code": "CAND-G1B-011",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "使 $x^2+px+9>0$ 对 $\\forall x\\in\\mathbb{R}$ 恒成立的 $p$ 可以是（多选）"
+    },
+    {
+      "code": "CAND-G1B-012",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "固定成本 $150$ 元，可变成本 $6$ 元/件，售价 $18$ 元/件，销量 $x\\in\\mathbb{N}^+$。\n（1）利润 $L(x)$；\n（2）至少几件不亏本？"
+    },
+    {
+      "code": "CAND-G1B-013",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$x^2+ax+1\\ge0$ 恒成立，则 $a\\in$"
+    },
+    {
+      "code": "CAND-G1B-014",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "$x,y>0$，$xy=25$，则 $x+y$ 最小值为"
+    },
+    {
+      "code": "CAND-G1B-015",
+      "qtype": "judge",
+      "difficulty": 3,
+      "stemHead": "$f(x)=-2(x-1)^2+5$ 在 $[0,3]$ 上最大值为 $5$。"
+    },
+    {
+      "code": "CAND-G1B-016",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$f(x)=\\dfrac{\\sqrt{x-1}}{x-3}$ 的定义域为"
+    },
+    {
+      "code": "CAND-G1B-017",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "$f(x)=x$ 与 $g(t)=t$ 是同一函数。"
+    },
+    {
+      "code": "CAND-G1B-018",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "出租车：$3\\text{km}$ 内 $10$ 元；超出每 km $2.5$ 元（$x$ 为整数 km）。\n（1）车费 $F(x)$；\n（2）$8\\text{km}$ 费用？"
+    },
+    {
+      "code": "CAND-G1B-019",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$f(x+1)=x^2-2x$，则 $f(3)=$"
+    },
+    {
+      "code": "CAND-G1B-020",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$f(x)=3x-7$ 在 $\\mathbb{R}$ 上"
+    },
+    {
+      "code": "CAND-G1B-021",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "$f(x)=x^2$ 在 $(-\\infty,0)$ 上单调递减。"
+    },
+    {
+      "code": "CAND-G1B-022",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "矩形周长 $20$，一边长 $x$，面积 $S(x)=x(10-x)$，$0<x<10$。\n（1）求 $S(x)$ 最大值及对应 $x$。"
+    },
+    {
+      "code": "CAND-G1B-023",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "奇函数 $f$，$f(2)=5$，则 $f(-2)=$"
+    },
+    {
+      "code": "CAND-G1B-024",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "$f$ 在 $\\mathbb{R}$ 递增，$f(a)<f(b)$ 等价于"
+    },
+    {
+      "code": "CAND-G1B-025",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "第一象限递增的幂函数有（多选）"
+    },
+    {
+      "code": "CAND-G1B-026",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "$y=x^{1/3}$ 在 $\\mathbb{R}$ 上"
+    },
+    {
+      "code": "CAND-G1B-027",
+      "qtype": "application",
+      "difficulty": 1,
+      "stemHead": "炮弹高度 $h(t)=-5t^2+30t$（$t$ 秒，$0\\le t\\le6$）。\n（1）求 $h$ 的最大值；\n（2）何时落地？"
+    },
+    {
+      "code": "CAND-G1B-028",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "$f(x)=\\begin{cases}2x+1,&x<0\\\\x^2,&x\\ge0\\end{cases}$，求 $f(-2)+f(2)$"
+    },
+    {
+      "code": "CAND-G1B-029",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "$y=2x^2$ 是幂函数。"
+    },
+    {
+      "code": "CAND-G1B-030",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "stemHead": "$f(x)=-x^2+4x$ 在 $[0,5]$ 上最大值为"
+    },
+    {
+      "code": "CAND-G1B-031",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$\\sqrt[3]{-27}=$"
+    },
+    {
+      "code": "CAND-G1B-032",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "$8^{2/3}=$"
+    },
+    {
+      "code": "CAND-G1B-033",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "细菌数 $N(t)=N_0\\cdot2^{t/3}$（$t$ 小时）。$N_0=500$，求 $t=9$ 时 $N$。"
+    },
+    {
+      "code": "CAND-G1B-034",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "$y=2^x$ 的定义域为 $\\mathbb{R}$。"
+    },
+    {
+      "code": "CAND-G1B-035",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$a=0.3^{0.5}$，$b=0.3^{0.3}$，则"
+    },
+    {
+      "code": "CAND-G1B-036",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$\\log_2 32=$"
+    },
+    {
+      "code": "CAND-G1B-037",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "下列关于对数运算法则的说法，正确的是（多选）"
+    },
+    {
+      "code": "CAND-G1B-038",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "地震能量 $E$ 与里氏级 $M$ 满足 $\\lg E=4.8+1.5M$。$M=6$ 时 $\\lg E$ 为多少？"
+    },
+    {
+      "code": "CAND-G1B-039",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "$y=\\log_{0.5}x$ 的定义域为"
+    },
+    {
+      "code": "CAND-G1B-040",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "stemHead": "$\\log_3 81=$"
+    },
+    {
+      "code": "CAND-G1B-041",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$2^{x+1}=16$ 的解为"
+    },
+    {
+      "code": "CAND-G1B-042",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "证明：方程 $2^x=5-x$ 在 $(1,2)$ 内有唯一实根（说明单调性与端点符号）。"
+    },
+    {
+      "code": "CAND-G1B-043",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "$\\log_4 8=\\dfrac{\\log_2 8}{\\log_2 4}$。"
+    },
+    {
+      "code": "CAND-G1B-044",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "stemHead": "$(\\dfrac1{27})^{-2/3}=$"
+    },
+    {
+      "code": "CAND-G1B-045",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "存款本金 $10000$ 元，年利率 $5\\%$ 复利，求 $3$ 年后本息和（精确到元）。"
+    },
+    {
+      "code": "CAND-G1B-046",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "$-390^\\circ$ 是第四象限角。"
+    },
+    {
+      "code": "CAND-G1B-047",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "$\\dfrac{5\\pi}{6}$ 化为度数（整数）"
+    },
+    {
+      "code": "CAND-G1B-048",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "圆半径 $r=10\\text{cm}$，圆心角 $60^\\circ$，求弧长（$\\pi$ 形式）。"
+    },
+    {
+      "code": "CAND-G1B-049",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$\\alpha$ 终边过 $P(-3,4)$，则 $\\sin\\alpha=$"
+    },
+    {
+      "code": "CAND-G1B-050",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$\\sin\\theta=\\dfrac35$，$\\theta$ 在第二象限，则 $\\cos\\theta=$"
+    },
+    {
+      "code": "CAND-G1B-051",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "$\\sin\\!\\left(\\dfrac{7\\pi}{6}\\right)=$"
+    },
+    {
+      "code": "CAND-G1B-052",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "化简：$\\sin(\\pi-\\theta)+\\sin(\\pi+\\theta)$。"
+    },
+    {
+      "code": "CAND-G1B-053",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$y=\\sin x$ 的最小正周期为"
+    },
+    {
+      "code": "CAND-G1B-054",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "$y=\\cos x$ 为偶函数。"
+    },
+    {
+      "code": "CAND-G1B-055",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$\\cos75^\\circ=$"
+    },
+    {
+      "code": "CAND-G1B-056",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "证明：$\\dfrac{1-\\cos2\\alpha}{\\sin2\\alpha}=\\tan\\alpha$（$\\alpha$ 使分母不为0）。"
+    },
+    {
+      "code": "CAND-G1B-057",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "$\\sin15^\\circ\\cos15^\\circ=$"
+    },
+    {
+      "code": "CAND-G1B-058",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$y=3\\sin(2x+\\pi/3)$ 的振幅为"
+    },
+    {
+      "code": "CAND-G1B-059",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "$y=\\sin x$ 经何种变换得 $y=\\sin(2x)$（多选）"
+    },
+    {
+      "code": "CAND-G1B-060",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "潮高 $h(t)=2\\cos(\\dfrac{\\pi t}{6})+4$（$t$ 为小时）。求最高潮高与周期。"
+    },
+    {
+      "code": "CAND-G1B-061",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "$h=2\\sin(3t)+5$ 的最大值为"
+    },
+    {
+      "code": "CAND-G1B-062",
+      "qtype": "judge",
+      "difficulty": 3,
+      "stemHead": "$y=\\tan x$ 在 $(-\\pi/2,\\pi/2)$ 递增。"
+    },
+    {
+      "code": "CAND-G1B-063",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "$\\cos(\\pi-\\alpha)=$"
+    },
+    {
+      "code": "CAND-G1B-064",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "塔高测量：距塔底 $40\\text{m}$ 处测得塔顶的仰角为 $30^\\circ$，求塔高（精确值）。"
+    },
+    {
+      "code": "CAND-G1B-065",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "$\\sqrt3\\sin x+\\cos x$ 的最大值为"
+    },
+    {
+      "code": "CAND-G1B-066",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "零向量与任何向量平行。"
+    },
+    {
+      "code": "CAND-G1B-067",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "设 $\\vec a=(3,4)$，则 $|\\vec a|=$"
+    },
+    {
+      "code": "CAND-G1B-068",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "物体受两力 $\\vec F_1=(3,4)$，$\\vec F_2=(-1,2)$（N），求合力大小。"
+    },
+    {
+      "code": "CAND-G1B-069",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$\\vec a+\\vec b=\\vec b+\\vec a$ 体现"
+    },
+    {
+      "code": "CAND-G1B-070",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "$\\vec a=(1,2)$，$\\vec b=(3,-1)$，则 $\\vec a\\cdot\\vec b=$"
+    },
+    {
+      "code": "CAND-G1B-071",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$\\vec a=(1,0)$，$\\vec b=(0,1)$ 夹角为"
+    },
+    {
+      "code": "CAND-G1B-072",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "船速 $\\vec v_1=(4,0)$ km/h，水流 $\\vec v_2=(0,1)$，求实际速度大小。"
+    },
+    {
+      "code": "CAND-G1B-073",
+      "qtype": "judge",
+      "difficulty": 3,
+      "stemHead": "任意两个非零向量都可作基底。"
+    },
+    {
+      "code": "CAND-G1B-074",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "下列关于平面向量运算的说法，正确的是（多选）"
+    },
+    {
+      "code": "CAND-G1B-075",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "stemHead": "$|\\vec a|=5$，$|\\vec b|=2$，夹角 $60^\\circ$，则 $\\vec a$ 在 $\\vec b$ 上投影数量为"
+    },
+    {
+      "code": "CAND-G1B-076",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "力 $\\vec F=(6,8)$ N 沿位移 $\\vec s=(3,0)$ m 做功，求功 $W=\\vec F\\cdot\\vec s$。"
+    },
+    {
+      "code": "CAND-G1B-077",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "相等向量必"
+    },
+    {
+      "code": "CAND-G1B-078",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "$\\vec a=(2,4)$，$\\vec b=(1,k)$ 共线则 $k=$"
+    },
+    {
+      "code": "CAND-G1B-079",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "$3(1,-2)-2(2,1)=$ 的横坐标"
+    },
+    {
+      "code": "CAND-G1B-080",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "用向量证明：平行四边形对角线互相平分（设 $\\vec{AB}=\\vec a$，$\\vec{AD}=\\vec b$）。"
+    },
+    {
+      "code": "CAND-G1B-081",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "$i^2=$"
+    },
+    {
+      "code": "CAND-G1B-082",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "计算 $(3+2i)(1-i)$ 并写为 $a+bi$。"
+    },
+    {
+      "code": "CAND-G1B-083",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "stemHead": "$|3-4i|=$"
+    },
+    {
+      "code": "CAND-G1B-084",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "正方体是特殊的棱柱。"
+    },
+    {
+      "code": "CAND-G1B-085",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "底面积 $6$，高 $5$ 的圆柱体积为"
+    },
+    {
+      "code": "CAND-G1B-086",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "正四棱锥底面边长 $6$，高 $4$，求体积。"
+    },
+    {
+      "code": "CAND-G1B-087",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "过直线外一点与已知直线平行的直线有"
+    },
+    {
+      "code": "CAND-G1B-088",
+      "qtype": "judge",
+      "difficulty": 2,
+      "stemHead": "平面外一条直线与平面内一条直线平行，则该直线与平面平行。"
+    },
+    {
+      "code": "CAND-G1B-089",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "若 $l\\perp\\alpha$，则 $l$ 与 $\\alpha$ 内任意直线"
+    },
+    {
+      "code": "CAND-G1B-090",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "圆柱（$r=2,h=5$）上放同底圆柱（$r=2,h=3$），求总体积。"
+    },
+    {
+      "code": "CAND-G1B-091",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "斜二测画法画水平放置的平面图形时，下列说法正确的是"
+    },
+    {
+      "code": "CAND-G1B-092",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "面面平行判定可用（多选）"
+    },
+    {
+      "code": "CAND-G1B-093",
+      "qtype": "application",
+      "difficulty": 3,
+      "stemHead": "正方体 $ABCD-A_1B_1C_1D_1$ 中，证明 $BD_1\\perp$ 平面 $A_1C_1D$（写出关键步骤）。"
+    },
+    {
+      "code": "CAND-G1B-094",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "简单随机抽样每个个体被抽中概率"
+    },
+    {
+      "code": "CAND-G1B-095",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "抛硬币 $200$ 次出现正面 $96$ 次，估计正面概率。"
+    },
+    {
+      "code": "CAND-G1B-096",
+      "qtype": "judge",
+      "difficulty": 3,
+      "stemHead": "样本相关系数 $r$ 越接近 $1$，线性相关程度一定越强。"
+    },
+    {
+      "code": "CAND-G1B-097",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "掷一枚骰子，样本空间元素个数为"
+    },
+    {
+      "code": "CAND-G1B-098",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "袋中 $3$ 红 $2$ 白，随机取 $2$ 球，求恰有一红的概率。"
+    },
+    {
+      "code": "CAND-G1B-099",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "独立事件 $A,B$，$P(A)=0.4$，$P(B)=0.5$，则 $P(AB)=$"
+    },
+    {
+      "code": "CAND-G1B-100",
+      "qtype": "application",
+      "difficulty": 1,
+      "stemHead": "说明：为何试验次数增大时，正面频率往往更接近 $0.5$？（简述）"
+    },
+    {
+      "code": "HS_MATH_P0_E2E_TEST_judge",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "HS_MATH_P0_E2E_TEST judge 题干"
+    },
+    {
+      "code": "HS_MATH_P0_E2E_TEST_multi",
+      "qtype": "multi",
+      "difficulty": 1,
+      "stemHead": "HS_MATH_P0_E2E_TEST multi 题干"
+    },
+    {
+      "code": "HS_MATH_P0_E2E_TEST_numeric",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "HS_MATH_P0_E2E_TEST numeric 题干"
+    },
+    {
+      "code": "HS_MATH_P0_E2E_TEST_single",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "HS_MATH_P0_E2E_TEST single 题干"
+    },
+    {
+      "code": "HS_MATH_P0_E2E_TEST_single2",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "HS_MATH_P0_E2E_TEST single2 填充"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0001",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "下列对象中，能构成集合的是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0002",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "设 $A=\\{1,2,3\\}$，则下列正确的是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0003",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "用列举法表示集合 $\\{x\\in\\mathbb{Z}\\mid -2\\le x<2\\}$，正确的是（$\\mathbb{Z}$ 表示整数集）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0004",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "下列用描述法表示集合正确的是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0005",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "关于空集 $\\varnothing$，正确的是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0006",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "设 $A=\\{a,b\\}$，且 $a\\ne b$。下列说法正确的是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0007",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "常用数集中，$\\mathbb{N}$、$\\mathbb{Z}$、$\\mathbb{Q}$、$\\mathbb{R}$ 分别表示自然数集、整数集、有理数集、实数集。下列正确的是（本题约定 $\\mathbb{N}$ 含 $0$）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0008",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "设集合 $A=\\{x\\mid x=2k+1,\\,k\\in\\mathbb{Z}\\}$（奇数集）。则 $-5\\in A$ 的判断是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0009",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "下列可以作为集合的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0010",
+      "qtype": "multi",
+      "difficulty": 1,
+      "stemHead": "关于集合表示法，正确的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0011",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "设 $A=\\{\\varnothing\\}$。下列正确的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0012",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "集合 $\\{1,2,3\\}$ 与集合 $\\{3,2,1\\}$ 是同一个集合。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0013",
+      "qtype": "judge",
+      "difficulty": 2,
+      "stemHead": "空集是任何一个集合的元素。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0014",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "用描述法表示集合时，必须写清代表元素所属的范围（或约定默认范围）。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0015",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "集合 $\\{2,4,6,8\\}$ 的元素个数是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0016",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "集合 $\\{x\\in\\mathbb{Z}\\mid 0<x\\le 5\\}$ 的元素个数是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0017",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "若 $A\\subseteq B$，则下列一定正确的是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0018",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "设 $A=\\{1,2\\}$，$B=\\{1,2,3\\}$，则"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0019",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "集合 $A=B$ 的充要条件是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0020",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "下列说法正确的是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0021",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "设集合 $A$ 含有 $3$ 个元素，则 $A$ 的子集个数是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0022",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "设集合 $A$ 含有 $3$ 个元素，则 $A$ 的真子集个数是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0023",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "若 $\\{1,2\\}\\subseteq A\\subseteq\\{1,2,3\\}$，则集合 $A$ 的可能情况种数是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0024",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "设 $A=\\{x\\mid x^{2}-3x+2=0\\}$，$B=\\{1,2\\}$，则"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0025",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "设 $A=\\{a\\}$。下列正确的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0026",
+      "qtype": "multi",
+      "difficulty": 1,
+      "stemHead": "下列关系正确的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0027",
+      "qtype": "multi",
+      "difficulty": 3,
+      "stemHead": "设 $A=\\{1,2,3\\}$。下列是 $A$ 的真子集的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0028",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "若 $A\\subseteq B$ 且 $B\\subseteq A$，则 $A=B$。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0029",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "空集没有真子集。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0030",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "集合 $\\{a,b\\}$（$a\\ne b$）的子集个数是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0031",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "集合 $\\{1,2,3,4\\}$ 的真子集个数是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0032",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "stemHead": "若集合 $A$ 的子集共有 $16$ 个，则 $A$ 的元素个数是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0033",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "设 $A=\\{1,2,3\\}$，$B=\\{2,3,4\\}$，则 $A\\cup B=$"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0034",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "设 $A=\\{1,2,3\\}$，$B=\\{2,3,4\\}$，则 $A\\cap B=$"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0035",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "设全集 $U=\\{1,2,3,4,5\\}$，$A=\\{1,2,3\\}$，则 $\\complement_{U}A=$"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0036",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "设 $A=\\{x\\mid x>1\\}$，$B=\\{x\\mid x\\le 3\\}$（$x\\in\\mathbb{R}$），则 $A\\cap B=$"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0037",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "设 $A=\\{x\\mid x<2\\}$，$B=\\{x\\mid x\\ge 0\\}$（$x\\in\\mathbb{R}$），则 $A\\cup B=$"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0038",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "设全集 $U=\\mathbb{R}$，$A=\\{x\\mid x\\le 1\\}$，则 $\\complement_{U}A=$"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0039",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "设 $A\\cap B=A$，则一定有"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0040",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "设 $A\\cup B=A$，则一定有"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0041",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "设全集 $U=\\{1,2,3,4,5,6\\}$，$A=\\{1,3,5\\}$，$B=\\{1,2,3\\}$，则 $\\complement_{U}(A\\cup B)=$"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0042",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "设全集 $U=\\{a,b,c,d\\}$，$A=\\{a,b\\}$，$B=\\{b,c\\}$，则 $(\\complement_{U}A)\\cap B=$"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0043",
+      "qtype": "multi",
+      "difficulty": 1,
+      "stemHead": "设 $A=\\{1,2\\}$，$B=\\{2,3\\}$。正确的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0044",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "设全集 $U=\\{1,2,3,4\\}$，$A=\\{1,2\\}$。正确的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0045",
+      "qtype": "multi",
+      "difficulty": 1,
+      "stemHead": "下列运算恒成立的是（多选；对任意集合 $A,B$）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0046",
+      "qtype": "multi",
+      "difficulty": 3,
+      "stemHead": "设 $A=\\{1,2,3,4\\}$，$B=\\{3,4,5\\}$。正确的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0047",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "对任意集合 $A$，都有 $A\\cup A=A$ 且 $A\\cap A=A$。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0048",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "若全集为 $U$，则 $\\complement_{U}(\\complement_{U}A)=A$。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0049",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "设 $A=\\{1,2,3\\}$，$B=\\{3,4\\}$，则 $A\\cup B$ 的元素个数是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0050",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "设 $A=\\{1,2,3,4\\}$，$B=\\{2,4,6\\}$，则 $A\\cap B$ 的元素个数是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0051",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "设全集 $U=\\{1,2,3,4,5,6,7,8\\}$，$A=\\{2,4,6,8\\}$，则 $\\complement_{U}A$ 的元素个数是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0052",
+      "qtype": "numeric",
+      "difficulty": 3,
+      "stemHead": "设 $A=\\{1,2,3,4,5\\}$，$B=\\{4,5,6,7\\}$，则属于 $A\\cup B$ 但不属于 $A\\cap B$ 的元素个数是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0053",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "已知 $p\\Rightarrow q$。就“充分条件”而言，正确的是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0054",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "已知 $p\\Rightarrow q$。就“必要条件”而言，正确的是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0055",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "“$x=1$”是“$x^{2}=1$”的"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0056",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "“$x>2$”是“$x>1$”的（$x\\in\\mathbb{R}$）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0057",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "“$x>1$”是“$x>2$”的（$x\\in\\mathbb{R}$）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0058",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "“四边形是正方形”是“四边形是矩形”的"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0059",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "设 $x\\in\\mathbb{R}$。“$x^{2}=0$”是“$x=0$”的"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0060",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "“$a>0$ 且 $b>0$”是“$ab>0$”的（$a,b\\in\\mathbb{R}$）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0061",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "下列说法正确的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0062",
+      "qtype": "multi",
+      "difficulty": 1,
+      "stemHead": "设 $x\\in\\mathbb{R}$。下列中，“$x>0$”是“$x\\ge 0$”的（多选表述正确项）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0063",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "下列各组中，$p$ 是 $q$ 的必要条件的是（多选；设 $x\\in\\mathbb{R}$）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0064",
+      "qtype": "multi",
+      "difficulty": 3,
+      "stemHead": "设 $x\\in\\mathbb{R}$。下列中 $p$ 是 $q$ 的充要条件的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0065",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "若 $p$ 是 $q$ 的充分条件，则 $q$ 一定是 $p$ 的必要条件。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0066",
+      "qtype": "judge",
+      "difficulty": 2,
+      "stemHead": "“$a=b$”是“$a^{2}=b^{2}$”的充要条件（$a,b\\in\\mathbb{R}$）。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0067",
+      "qtype": "judge",
+      "difficulty": 2,
+      "stemHead": "“两个三角形全等”是“两个三角形面积相等”的充分不必要条件。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0068",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "在实数范围内，使命题“若 $x>a$，则 $x>3$”对一切实数 $x$ 恒成立。满足条件的实数 $a$ 的最小值是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0069",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "命题“$\\forall x\\in\\mathbb{R},\\,x^{2}\\ge 0$”是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0070",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "命题“$\\exists x\\in\\mathbb{R},\\,x^{2}+1=0$”是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0071",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "命题“$\\forall x\\in\\mathbb{R},\\,x>0$”的否定是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0072",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "命题“$\\exists x\\in\\mathbb{Z},\\,x^{2}=2$”的否定是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0073",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "下列为真命题的是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0074",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "命题“$\\forall x\\in\\{1,2,3\\},\\,x\\le 3$”是"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0075",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "下列命题为真的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0076",
+      "qtype": "multi",
+      "difficulty": 3,
+      "stemHead": "关于命题否定，正确的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0077",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "命题“$\\exists x\\in\\mathbb{R},\\,x^{2}=0$”是真命题。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0078",
+      "qtype": "judge",
+      "difficulty": 2,
+      "stemHead": "命题“$\\forall x\\in\\mathbb{R},\\,x^{2}>0$”是真命题。"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0079",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "在集合 $\\{1,2,3,4\\}$ 中，满足 $x>2$ 的元素个数是（可用于判断存在量词命题）"
+    },
+    {
+      "code": "HSMA-RJA-CH01-0080",
+      "qtype": "numeric",
+      "difficulty": 2,
+      "stemHead": "命题“$\\forall x\\in\\{2,4,6\\},\\,x$ 为偶数”为真。若从该集合中任取一个元素作为反例候选，可能推翻全称命题的反例个数是"
+    },
+    {
+      "code": "HSMA-RJA-CH03-APP-0001",
+      "qtype": "application",
+      "difficulty": 2,
+      "stemHead": "某社区游泳馆暑假期间调整日票价格。\n调查表明：当票价定为 $x$ 元（$x$ 为正整数，且 $30\\le x\\le 60$）时，预计日接待人数为 $2400-30x$ 人。\n设该馆日票务收入为 $y$ 元。\n\n（1）写出 $y$ 关于 $x$ 的函数解析式，并写出定义域；\n（2）求使日票务收入最大的票价，以及相应的最大"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0001",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "设函数 $f$ 的定义域关于原点对称。若对定义域内任意 $x$ 都有 $f(-x)=f(x)$，则称 $f$ 为"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0002",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "判断：若函数 $f$ 满足对定义域内任意 $x$ 都有 $f(-x)=-f(x)$，则 $f$ 一定是奇函数（无需再检查定义域）。"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0003",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "下列关于函数奇偶性定义的叙述，正确的是"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0004",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "设函数 $f$ 定义域关于原点对称。下列说法正确的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0005",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "已知 $f(x)=x^{3}$ 的定义域为 $\\mathbb{R}$。判断其奇偶性时，下列步骤正确的是"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0006",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "函数 $f(x)=\\sqrt{x-1}+\\sqrt{1-x}$ 的定义域"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0007",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "判断：函数 $f(x)=\\dfrac{1}{x}$ 的定义域为 $(-\\infty,0)\\cup(0,+\\infty)$，关于原点对称，因此可以进一步用定义讨论其奇偶性。"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0008",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "函数 $f(x)=\\sqrt{x^{2}-1}$ 的定义域为"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0009",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "下列函数中，定义域关于原点对称的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0010",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "函数 $f(x)=x^{2}+1$（定义域 $\\mathbb{R}$）是"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0011",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "函数 $f(x)=x^{3}-x$（定义域 $\\mathbb{R}$）是"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0012",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "设 $f(x)=0$（定义域 $\\mathbb{R}$）。下列说法正确的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0013",
+      "qtype": "single",
+      "difficulty": 2,
+      "stemHead": "函数 $f(x)=x+|x|$（定义域 $\\mathbb{R}$）的奇偶性是"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0014",
+      "qtype": "judge",
+      "difficulty": 1,
+      "stemHead": "判断：函数 $f(x)=x^{2}+x$（定义域 $\\mathbb{R}$）是偶函数。"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0015",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "已知奇函数 $f$ 的定义域关于原点对称，且 $f(3)=5$。求 $f(-3)$ 的值。"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0016",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "已知偶函数 $f$ 的定义域关于原点对称，且 $f(-2)=7$。求 $f(2)$ 的值。"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0017",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "已知奇函数 $f$ 定义在 $\\mathbb{R}$ 上，$f(1)=2$，$f(2)=5$。求 $f(-1)+f(-2)$ 的值。"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0018",
+      "qtype": "numeric",
+      "difficulty": 1,
+      "stemHead": "已知偶函数 $f$ 定义在 $\\mathbb{R}$ 上，$f(4)=3$，且 $f(x)=ax^{2}+b$（$a,b$ 为常数）。若还已知 $f(0)=1$，求 $f(-4)$ 的值。"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0019",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "若函数 $y=f(x)$ 是偶函数，则其图象"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0020",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "已知点 $(2,5)$ 在奇函数 $y=f(x)$ 的图象上，则下列点也在该图象上的是"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0021",
+      "qtype": "multi",
+      "difficulty": 2,
+      "stemHead": "已知偶函数 $y=f(x)$ 的图象过点 $(3,-1)$。下列说法正确的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0022",
+      "qtype": "single",
+      "difficulty": 3,
+      "stemHead": "设 $f$ 是定义在 $\\mathbb{R}$ 上的奇函数，且 $f$ 在 $[0,+\\infty)$ 上单调递增。则 $f$ 在 $(-\\infty,0]$ 上"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0023",
+      "qtype": "multi",
+      "difficulty": 3,
+      "stemHead": "设 $f$ 是定义在 $\\mathbb{R}$ 上的偶函数，且 $f$ 在 $[0,+\\infty)$ 上单调递减。下列正确的是（多选）"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0024",
+      "qtype": "judge",
+      "difficulty": 2,
+      "stemHead": "判断：任意奇函数在其整个定义域上都一定是单调函数。"
+    },
+    {
+      "code": "HSMA-RJA-CH03-PARITY-0025",
+      "qtype": "single",
+      "difficulty": 1,
+      "stemHead": "设 $f$ 是定义在 $[-2,2]$ 上的偶函数，且当 $x\\in[0,2]$ 时 $f(x)=x+1$。则 $f(-1)$ 等于"
+    }
+  ]
+}

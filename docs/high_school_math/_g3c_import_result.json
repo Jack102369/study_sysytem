@@ -1,0 +1,146 @@
+{
+  "phase": "HS-MATH-BANK-GLOBAL-3C-IMPORT",
+  "authorized": true,
+  "startedAt": "2026-10-27T02:20:53.456Z",
+  "decision": "DRAFT_IMPORT_PASS",
+  "candidateSha256": "a9946e233201c7a06efaf238364e1bed7fbad41f82d7e25e54ba7ea47e5707e4",
+  "adaptedSha256": "97519303dd04d0128e965f8167068de731cd20d00d6ab74b92dd501d05fcb1cc",
+  "pngSha": {
+    "CAND-G3A-048": "09cff8070df0c56b93a1214474cb537b8bf0aaf46e383f1cda5e54b1cdd7425a",
+    "CAND-G3A-055": "663bc9abcc02629ca97d75fd5011159c71274165b90555148ca0c97de1be0a66",
+    "CAND-G3A-068": "bf53651b03100790ae1356dfae8443d1689cb5a9575d1d644daeb9b4ae0b16af",
+    "CAND-G3A-080": "ddded6b9b6f0272bf99b49890dfe1b62e26d15c69ac928eb466ef57d436a6ead",
+    "CAND-G3A-081": "7ab70f1c5c885fb7d289c42233bfad135c5da28081c5c6afc59f1bc360b7c139",
+    "CAND-G3A-085": "64a58fa3945ef85aad06dc6aff04159200f5e6448ea1318a4f5d65d1b7a1efc7",
+    "CAND-G3A-086": "384efb58aeaaf1a991c699a763623d42ea332f04502201534955e059c1a09fe3"
+  },
+  "backup": {
+    "hs_math_train_items": {
+      "path": "g3c_hs_math_train_items_2026-10-27T02-20-53.sql",
+      "bytes": 229624,
+      "mtime": "2026-10-27T02:20:53.925Z",
+      "sha256": "c542bfa857ef251d874ff79e49138d30cdd79327941e5d9a5aed57acab25b877",
+      "nonEmpty": true
+    },
+    "hs_math_train_item_kps": {
+      "path": "g3c_hs_math_train_item_kps_2026-10-27T02-20-53.sql",
+      "bytes": 18981,
+      "mtime": "2026-10-27T02:20:53.974Z",
+      "sha256": "ceca4ef9bbdf5bf99a3eb1ead950b97ffc39bb545938c29216ccf6cc77987d0f",
+      "nonEmpty": true
+    },
+    "hs_math_train_item_methods": {
+      "path": "g3c_hs_math_train_item_methods_2026-10-27T02-20-53.sql",
+      "bytes": 14056,
+      "mtime": "2026-10-27T02:20:54.022Z",
+      "sha256": "e06df2a0865af614025a5f8ed001546f21138ac21369371d96b853d8aee5faca",
+      "nonEmpty": true
+    },
+    "hs_math_train_item_reviews": {
+      "path": "g3c_hs_math_train_item_reviews_2026-10-27T02-20-53.sql",
+      "bytes": 75780,
+      "mtime": "2026-10-27T02:20:54.085Z",
+      "sha256": "a2c0d9b213cf431c6bcbddaa864f5cb9a3b269157839cbbb6263213e862bc538",
+      "nonEmpty": true
+    },
+    "hs_math_train_item_diagrams": {
+      "path": "g3c_hs_math_train_item_diagrams_2026-10-27T02-20-53.sql",
+      "bytes": 4068,
+      "mtime": "2026-10-27T02:20:54.150Z",
+      "sha256": "5e1883e021935deed7096fab77436a409fbb1ed14f3c4b068a0a4c34a49edffd",
+      "nonEmpty": true
+    }
+  },
+  "pre": {
+    "adapt": {
+      "n": 100,
+      "qtype": {
+        "single": 30,
+        "multi": 15,
+        "judge": 10,
+        "numeric": 20,
+        "application": 25
+      },
+      "difficulty": {
+        "1": 35,
+        "2": 40,
+        "3": 25
+      },
+      "codesUnique": true,
+      "allG3A": true
+    },
+    "db": {
+      "hitCandPrefix": 0,
+      "exactCodeHits": 0,
+      "drawable": 213,
+      "approved": 213,
+      "sessions": 133,
+      "sessionItems": 357,
+      "itemsN": 311
+    },
+    "adminUserId": "2",
+    "apiHealth": 200
+  },
+  "preview": {
+    "httpStatus": 201,
+    "canConfirm": true,
+    "itemCount": 100,
+    "errorCount": 0,
+    "warningCount": 100,
+    "expiresAt": "2026-10-27T02:50:54.246Z",
+    "hasToken": true,
+    "failedItems": []
+  },
+  "confirm": {
+    "httpStatus": 201,
+    "success": true,
+    "mode": "created",
+    "successCount": 100,
+    "failCount": 0,
+    "notice": "已全部写入 draft；未自动批准。请人工审核后批准。",
+    "itemCountReturned": 100
+  },
+  "post": {
+    "candCount": 100,
+    "badStatus": [],
+    "approvedDelta": 0,
+    "drawableNow": 213,
+    "sessionsDelta": 0,
+    "sessionItemsDelta": 0,
+    "itemsDelta": 100,
+    "reviewOnBatch": 0,
+    "kpLinks": 100,
+    "methodLinks": 145,
+    "appCount": 25,
+    "appRubricOk": 25,
+    "expectedMethodLinks": 145,
+    "qtypeDist": {
+      "single": 30,
+      "multi": 15,
+      "judge": 10,
+      "numeric": 20,
+      "application": 25
+    },
+    "diffDist": {
+      "1": 35,
+      "2": 40,
+      "3": 25
+    },
+    "idSample": [
+      {
+        "id": "375",
+        "code": "CAND-G3A-001"
+      },
+      {
+        "id": "376",
+        "code": "CAND-G3A-002"
+      },
+      {
+        "id": "377",
+        "code": "CAND-G3A-003"
+      }
+    ]
+  },
+  "errors": [],
+  "endedAt": "2026-10-27T02:20:55.953Z"
+}

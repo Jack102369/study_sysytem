@@ -1,0 +1,117 @@
+[
+  {
+    "id": "CAND-G2A-045",
+    "stem": "半径为 $6$ 的圆中，圆心角为 $\\dfrac{2\\pi}{3}$ 的扇形。\n（1）求弧长 $l$；\n（2）求扇形面积 $S$。",
+    "answer": "（1）$l=4\\pi$；（2）$S=12\\pi$。",
+    "spec": {
+      "purpose": "给出圆与扇形，标明半径与圆心角",
+      "elements": [
+        "圆O",
+        "半径6",
+        "圆心角2π/3的两半径与弧"
+      ],
+      "mustNotReveal": "不得直接标注弧长或面积数值"
+    }
+  },
+  {
+    "id": "CAND-G2A-055",
+    "stem": "在水平地面上，测得某建筑物顶端的仰角为 $45^\\circ$，再向建筑物走近 $20\\,\\mathrm{m}$ 后，仰角变为 $60^\\circ$。设建筑物高度为 $h\\,\\mathrm{m}$。\n（1）建立关于 $h$ 的方程；\n（2）求 $h$（精确值）。",
+    "answer": "（1）$h-\\dfrac{h}{\\sqrt{3}}=20$；（2）$h=10(3+\\sqrt{3})$。",
+    "spec": {
+      "purpose": "侧面示意两次测点与仰角",
+      "elements": [
+        "竖直建筑物",
+        "地面两测点相距20m",
+        "仰角45°与60°"
+      ],
+      "mustNotReveal": "不得标注高度最终表达式"
+    }
+  },
+  {
+    "id": "CAND-G2A-081",
+    "stem": "如图，正三棱锥 $P-ABC$ 的底面是边长为 $6$ 的正三角形，高 $PO=4$（$O$ 为底面中心）。求该三棱锥的体积。",
+    "answer": "$V=12\\sqrt{3}$",
+    "spec": {
+      "purpose": "展示正三棱锥P-ABC及高PO",
+      "elements": [
+        "正三角形底ABC",
+        "顶点P",
+        "底面中心O",
+        "高PO竖直"
+      ],
+      "mustNotReveal": [
+        "底面积数值",
+        "体积结果"
+      ]
+    }
+  },
+  {
+    "id": "CAND-G2A-084",
+    "stem": "如图，在正方体 $ABCD-A_1B_1C_1D_1$ 中，下列说法正确的有（多选）",
+    "answer": "A,B,C",
+    "spec": {
+      "purpose": "标出正方体顶点以便判断平行/异面/相交",
+      "elements": [
+        "正方体ABCD-A1B1C1D1",
+        "可见棱与虚线不可见棱",
+        "可淡标AC、A1B、BD"
+      ],
+      "mustNotReveal": [
+        "异面/平行结论标注",
+        "垂直符号"
+      ]
+    }
+  },
+  {
+    "id": "CAND-G2A-086",
+    "stem": "如图，在长方体 $ABCD-A_1B_1C_1D_1$ 中，$E$、$F$ 分别为棱 $AA_1$、$CC_1$ 的中点。证明：$EF\\parallel$ 平面 $ABCD$。",
+    "answer": "$\\overrightarrow{EF}=\\overrightarrow{AC}$，故 $EF\\parallel AC$，又 $EF$ 不在平面 $ABCD$ 内，从而 $EF\\parallel$ 平面 $ABCD$。",
+    "spec": {
+      "purpose": "长方体标中点E、F证明EF∥底面",
+      "elements": [
+        "长方体",
+        "E、F中点",
+        "EF",
+        "底面ABCD可阴影"
+      ],
+      "mustNotReveal": [
+        "EF∥AC 标注",
+        "证明辅助线结论"
+      ]
+    }
+  },
+  {
+    "id": "CAND-G2A-088",
+    "stem": "如图，在直三棱柱 $ABC-A_1B_1C_1$ 中，$AB\\perp BC$，且 $AB=BC=AA_1=2$。证明：$AB_1\\perp$ 平面 $A_1BC$。",
+    "answer": "$AB_1\\perp A_1B$ 且 $AB_1\\perp BC$，又 $A_1B$ 与 $BC$ 交于 $B$ 且都在平面 $A_1BC$ 内，故 $AB_1\\perp$ 平面 $A_1BC$。",
+    "spec": {
+      "purpose": "直三棱柱中展示AB1与平面A1BC",
+      "elements": [
+        "直三棱柱",
+        "底面直角B",
+        "线段AB1",
+        "平面A1BC阴影"
+      ],
+      "mustNotReveal": [
+        "垂直标记",
+        "坐标轴"
+      ]
+    }
+  },
+  {
+    "id": "CAND-G2A-089",
+    "stem": "如图，正方体 $ABCD-A_1B_1C_1D_1$ 中，下列正确的有（多选）",
+    "answer": "A,B,D",
+    "spec": {
+      "purpose": "正方体中辨认若干平面位置",
+      "elements": [
+        "正方体",
+        "可淡标面对角线AC、A1C1等"
+      ],
+      "mustNotReveal": [
+        "面面垂直标记",
+        "法向量"
+      ]
+    }
+  }
+]

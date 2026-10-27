@@ -1,0 +1,29 @@
+{
+  "collide": [],
+  "g2aExisting": 0,
+  "drawable": 113,
+  "specs": {
+    "need": 10,
+    "found": 10,
+    "inactive": []
+  },
+  "cats": {
+    "need": 42,
+    "found": 42,
+    "inactive": []
+  },
+  "kps": {
+    "need": 96,
+    "found": 96,
+    "inactive": [],
+    "miss": []
+  },
+  "methods": {
+    "need": 11,
+    "found": 11,
+    "inactive": [],
+    "miss": []
+  },
+  "pairMiss": [],
+  "ok": true
+}

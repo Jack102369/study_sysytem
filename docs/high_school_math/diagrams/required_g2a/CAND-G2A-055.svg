@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img">
+  <title>CAND-G2A-055 elevation</title>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="80.00" y1="560.00" x2="900.00" y2="560.00" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="720.00" y1="560.00" x2="720.00" y2="180.00" stroke="#1c1c20" stroke-width="4" stroke-linecap="round"/>
+  <line x1="320.00" y1="560.00" x2="720.00" y2="180.00" stroke="#1c4a9e" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="520.00" y1="560.00" x2="720.00" y2="180.00" stroke="#1c4a9e" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M 320.00,505.00 A 55.00,55.00 0 0 1 358.89,521.11" fill="none" stroke="#1c4a9e" stroke-width="2"/>
+  <path d="M 520.00,505.00 A 55.00,55.00 0 0 1 547.50,512.37" fill="none" stroke="#1c4a9e" stroke-width="2"/>
+  <text x="310.00" y="588.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">F</text>
+  <text x="510.00" y="588.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">N</text>
+  <text x="732.00" y="568.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">B</text>
+  <text x="732.00" y="188.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">T</text>
+  <text x="410.00" y="600.00" font-size="17" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">20 m</text>
+  <line x1="320.00" y1="578.00" x2="520.00" y2="578.00" stroke="#5a5a62" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="360.00" y="490.00" font-size="16" fill="#1c4a9e" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">45°</text>
+  <text x="550.00" y="470.00" font-size="16" fill="#1c4a9e" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">60°</text>
+  <text x="70.00" y="48.00" font-size="22" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">双测点仰角测高（侧面示意）</text>
+  <text x="70.00" y="78.00" font-size="15" fill="#5a5a62" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">F 仰角 45°，走近至 N 仰角 60°，FN=20 m；不标注 h 结果</text>
+  <text x="70.00" y="680.00" font-size="14" fill="#5a5a62" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">CAND-G2A-055 · 教学示意图</text>
+</svg>

@@ -1,0 +1,170 @@
+[
+  {
+    "file": "g1e_hs_math_categories_2026-10-26T06-58-26.sql",
+    "bytes": 7036,
+    "hasPassword": false,
+    "hasJwt": false,
+    "hasApiKey": false,
+    "hasDbUrl": false,
+    "hasHwPass": false,
+    "hasUsersInsert": false,
+    "hasSessionsTable": false,
+    "hasPhone": false,
+    "tablesMentioned": [
+      "CREATE TABLE `hs_math_categories` (\r\n  `id` bigi"
+    ],
+    "head": "-- MySQL dump 10.13  Distrib 8.0.44, for Win64 (x86_64)\r\n--\r\n-- Host: 127.0.0.1    Database: study_system\r\n-- ------------------------------------------------------\r\n-- Server version\t8.0.44\r\n\r\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\r\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS"
+  },
+  {
+    "file": "g1e_hs_math_knowledge_points_2026-10-26T06-58-26.sql",
+    "bytes": 8986,
+    "hasPassword": false,
+    "hasJwt": false,
+    "hasApiKey": false,
+    "hasDbUrl": false,
+    "hasHwPass": false,
+    "hasUsersInsert": false,
+    "hasSessionsTable": false,
+    "hasPhone": false,
+    "tablesMentioned": [
+      "CREATE TABLE `hs_math_k"
+    ],
+    "head": "-- MySQL dump 10.13  Distrib 8.0.44, for Win64 (x86_64)\r\n--\r\n-- Host: 127.0.0.1    Database: study_system\r\n-- ------------------------------------------------------\r\n-- Server version\t8.0.44\r\n\r\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\r\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS"
+  },
+  {
+    "file": "g1e_hs_math_specialties_2026-10-26T06-58-26.sql",
+    "bytes": 3562,
+    "hasPassword": false,
+    "hasJwt": false,
+    "hasApiKey": false,
+    "hasDbUrl": false,
+    "hasHwPass": false,
+    "hasUsersInsert": false,
+    "hasSessionsTable": false,
+    "hasPhone": false,
+    "tablesMentioned": [
+      "CREATE TABLE `hs_math_specialties` (\r\n  `id` bigi"
+    ],
+    "head": "-- MySQL dump 10.13  Distrib 8.0.44, for Win64 (x86_64)\r\n--\r\n-- Host: 127.0.0.1    Database: study_system\r\n-- ------------------------------------------------------\r\n-- Server version\t8.0.44\r\n\r\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\r\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS"
+  },
+  {
+    "file": "g1g_hs_math_train_items_2026-10-26T08-43-22.sql",
+    "bytes": 62906,
+    "hasPassword": false,
+    "hasJwt": false,
+    "hasApiKey": false,
+    "hasDbUrl": false,
+    "hasHwPass": false,
+    "hasUsersInsert": false,
+    "hasSessionsTable": false,
+    "hasPhone": false,
+    "tablesMentioned": [
+      "CREATE TABLE `hs_math_trai"
+    ],
+    "head": "-- MySQL dump 10.13  Distrib 8.0.44, for Win64 (x86_64)\r\n--\r\n-- Host: 127.0.0.1    Database: study_system\r\n-- ------------------------------------------------------\r\n-- Server version\t8.0.44\r\n\r\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\r\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS"
+  },
+  {
+    "file": "g1g_hs_math_train_item_kps_2026-10-26T08-43-22.sql",
+    "bytes": 10048,
+    "hasPassword": false,
+    "hasJwt": false,
+    "hasApiKey": false,
+    "hasDbUrl": false,
+    "hasHwPass": false,
+    "hasUsersInsert": false,
+    "hasSessionsTable": false,
+    "hasPhone": false,
+    "tablesMentioned": [
+      "CREATE TABLE `hs_math_trai"
+    ],
+    "head": "-- MySQL dump 10.13  Distrib 8.0.44, for Win64 (x86_64)\r\n--\r\n-- Host: 127.0.0.1    Database: study_system\r\n-- ------------------------------------------------------\r\n-- Server version\t8.0.44\r\n\r\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\r\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS"
+  },
+  {
+    "file": "g1g_hs_math_train_item_methods_2026-10-26T08-43-22.sql",
+    "bytes": 3584,
+    "hasPassword": false,
+    "hasJwt": false,
+    "hasApiKey": false,
+    "hasDbUrl": false,
+    "hasHwPass": false,
+    "hasUsersInsert": false,
+    "hasSessionsTable": false,
+    "hasPhone": false,
+    "tablesMentioned": [
+      "CREATE TABLE `hs_math_trai"
+    ],
+    "head": "-- MySQL dump 10.13  Distrib 8.0.44, for Win64 (x86_64)\r\n--\r\n-- Host: 127.0.0.1    Database: study_system\r\n-- ------------------------------------------------------\r\n-- Server version\t8.0.44\r\n\r\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\r\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS"
+  },
+  {
+    "file": "g1g_hs_math_train_item_reviews_2026-10-26T08-43-22.sql",
+    "bytes": 5010,
+    "hasPassword": false,
+    "hasJwt": false,
+    "hasApiKey": false,
+    "hasDbUrl": false,
+    "hasHwPass": false,
+    "hasUsersInsert": false,
+    "hasSessionsTable": false,
+    "hasPhone": false,
+    "tablesMentioned": [
+      "CREATE TABLE `hs_math_trai"
+    ],
+    "head": "-- MySQL dump 10.13  Distrib 8.0.44, for Win64 (x86_64)\r\n--\r\n-- Host: 127.0.0.1    Database: study_system\r\n-- ------------------------------------------------------\r\n-- Server version\t8.0.44\r\n\r\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\r\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS"
+  },
+  {
+    "file": "g1h3_037_074_2026-10-26T09-06-14.json",
+    "bytes": 2785,
+    "hasPassword": false,
+    "hasJwt": false,
+    "hasApiKey": false,
+    "hasDbUrl": false,
+    "hasHwPass": false,
+    "hasUsersInsert": false,
+    "hasSessionsTable": false,
+    "hasPhone": false,
+    "tablesMentioned": [],
+    "head": "{\n  \"items\": [\n    {\n      \"id\": 188,\n      \"code\": \"CAND-G1B-037\",\n      \"pool\": \"formal\",\n      \"status\": \"draft\",\n      \"is_active\": 1,\n      \"content_version\": 1,\n      \"stem\": \"正确的是（多选）\",\n      \"options_json\": {\n        \"options\": [\n          {\n            \"id\": \"A\",\n            \"text\": \"$\\\\log"
+  },
+  {
+    "file": "g1h3_037_074_2026-10-26T09-06-14.sql",
+    "bytes": 3184,
+    "hasPassword": false,
+    "hasJwt": false,
+    "hasApiKey": false,
+    "hasDbUrl": false,
+    "hasHwPass": false,
+    "hasUsersInsert": false,
+    "hasSessionsTable": false,
+    "hasPhone": false,
+    "tablesMentioned": [],
+    "head": "-- GLOBAL-1H-3 backup 2026-10-26T09-06-14\n-- items CAND-G1B-037,CAND-G1B-074\n-- ITEM CAND-G1B-037 id=188 cv=1 stem=\"正确的是（多选）\"\n-- ITEM CAND-G1B-074 id=225 cv=1 stem=\"正确的是（多选）\"\n-- REVIEW id=32 item=188 status=passed cv=1 fp=f841e04e6fee25cebfc9087222f854a1d76bf220a388ad481eabaa30cda08f60\n-- REVIEW id="
+  },
+  {
+    "file": "g1i_cand100_2026-10-26T09-17-15.json",
+    "bytes": 195147,
+    "hasPassword": false,
+    "hasJwt": false,
+    "hasApiKey": false,
+    "hasDbUrl": false,
+    "hasHwPass": false,
+    "hasUsersInsert": false,
+    "hasSessionsTable": false,
+    "hasPhone": false,
+    "tablesMentioned": [],
+    "head": "{\n  \"stamp\": \"2026-10-26T09-17-15\",\n  \"phase\": \"GLOBAL-1I\",\n  \"items\": [\n    {\n      \"id\": 152,\n      \"code\": \"CAND-G1B-001\",\n      \"pool\": \"formal\",\n      \"status\": \"draft\",\n      \"is_active\": 1,\n      \"qtype\": \"judge\",\n      \"difficulty\": 1,\n      \"content_version\": 1,\n      \"specialty_id\": 16,\n  "
+  },
+  {
+    "file": "g1i_cand100_2026-10-26T09-17-15.sql",
+    "bytes": 195316,
+    "hasPassword": false,
+    "hasJwt": false,
+    "hasApiKey": false,
+    "hasDbUrl": false,
+    "hasHwPass": false,
+    "hasUsersInsert": false,
+    "hasSessionsTable": false,
+    "hasPhone": false,
+    "tablesMentioned": [],
+    "head": "-- GLOBAL-1I backup 2026-10-26T09-17-15\n-- items=100 reviews=102 kps=100 methods=109\n-- drawable=13 sessions=131\n-- JSON companion: g1i_cand100_2026-10-26T09-17-15.json\n{\n  \"stamp\": \"2026-10-26T09-17-15\",\n  \"phase\": \"GLOBAL-1I\",\n  \"items\": [\n    {\n      \"id\": 152,\n      \"code\": \"CAND-G1B-001\",\n     "
+  }
+]

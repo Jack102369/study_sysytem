@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img">
+  <title>CAND-G2A-045 sector</title>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <circle cx="500.00" cy="390.00" r="230" fill="none" stroke="#1c1c20" stroke-width="2.2"/>
+  <polygon points="500.00,390.00 699.19,275.00 702.84,281.58 706.28,288.27 709.50,295.08 712.49,301.98 715.26,308.98 717.79,316.07 720.10,323.23 722.16,330.47 723.99,337.77 725.58,345.13 726.93,352.53 728.03,359.98 728.89,367.46 729.51,374.96 729.88,382.47 730.00,390.00 729.88,397.53 729.51,405.04 728.89,412.54 728.03,420.02 726.93,427.47 725.58,434.87 723.99,442.23 722.16,449.53 720.10,456.77 717.79,463.93 715.26,471.02 712.49,478.02 709.50,484.92 706.28,491.73 702.84,498.42 699.19,505.00 695.32,511.46 691.24,517.78 686.95,523.97 682.47,530.02 677.79,535.91 672.92,541.65 667.87,547.23 662.63,552.63 657.23,557.87 651.65,562.92 645.91,567.79 640.02,572.47 633.97,576.95 627.78,581.24 621.46,585.32 615.00,589.19 608.42,592.84 601.73,596.28 594.92,599.50 588.02,602.49 581.02,605.26 573.93,607.79 566.77,610.10 559.53,612.16 552.23,613.99 544.87,615.58 537.47,616.93 530.02,618.03 522.54,618.89 515.04,619.51 507.53,619.88 500.00,620.00" fill="rgba(70,140,210,0.28)" stroke="#2864aa" stroke-width="2.2"/>
+  <path d="M 699.19,275.00 A 230.00,230.00 0 0 1 500.00,620.00" fill="none" stroke="#1c4a9e" stroke-width="3.4"/>
+  <line x1="500.00" y1="390.00" x2="699.19" y2="275.00" stroke="#1c4a9e" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="500.00" y1="390.00" x2="500.00" y2="620.00" stroke="#1c4a9e" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M 546.77,363.00 A 54.00,54.00 0 0 1 500.00,444.00" fill="none" stroke="#1c4a9e" stroke-width="2.0"/>
+  <text x="553.01" y="437.00" font-size="17" fill="#1c4a9e" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">2π/3</text>
+  <circle cx="500.00" cy="390.00" r="3.5" fill="#1c1c20" stroke="#1c1c20" stroke-width="2.2"/>
+  <text x="492.00" y="416.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">O</text>
+  <text x="611.59" y="328.50" font-size="18" fill="#1c4a9e" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">6</text>
+  <text x="70.00" y="48.00" font-size="22" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">圆 O，扇形圆心角 2π/3（几何角精确）</text>
+  <text x="70.00" y="78.00" font-size="15" fill="#5a5a62" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">标半径 6 与圆心角 2π/3；不标注弧长/面积数值</text>
+  <text x="70.00" y="680.00" font-size="14" fill="#5a5a62" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">CAND-G2A-045 · 教学示意图 · GLOBAL-2C 重绘</text>
+</svg>

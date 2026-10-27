@@ -1,0 +1,61 @@
+{
+  "phase": "GLOBAL-3A",
+  "items": [
+    {
+      "code": "CAND-G3A-048",
+      "svg": "CAND-G3A-048.svg",
+      "png": "CAND-G3A-048.png",
+      "sha256_svg": "9eb72a25d154b8c3724cda1917eb25fbc4094dfead33c878d6fa52f3cc2709ac",
+      "sha256_png": "09cff8070df0c56b93a1214474cb537b8bf0aaf46e383f1cda5e54b1cdd7425a",
+      "png_bytes": 22568
+    },
+    {
+      "code": "CAND-G3A-055",
+      "svg": "CAND-G3A-055.svg",
+      "png": "CAND-G3A-055.png",
+      "sha256_svg": "be010f53ec3beaacb44315f0c45811c0d85c20bae83f9cd6983175c6a6d722a1",
+      "sha256_png": "663bc9abcc02629ca97d75fd5011159c71274165b90555148ca0c97de1be0a66",
+      "png_bytes": 24267
+    },
+    {
+      "code": "CAND-G3A-068",
+      "svg": "CAND-G3A-068.svg",
+      "png": "CAND-G3A-068.png",
+      "sha256_svg": "21c14c2d99ccf6d6ba347792eb904179f7abe388f7969bfbbae7b850725e4b38",
+      "sha256_png": "bf53651b03100790ae1356dfae8443d1689cb5a9575d1d644daeb9b4ae0b16af",
+      "png_bytes": 24355
+    },
+    {
+      "code": "CAND-G3A-080",
+      "svg": "CAND-G3A-080.svg",
+      "png": "CAND-G3A-080.png",
+      "sha256_svg": "ba6100e3d7d93ba158efe6752643c4b4a757d24c726fe7050bcd85e2e2d3a5e5",
+      "sha256_png": "ddded6b9b6f0272bf99b49890dfe1b62e26d15c69ac928eb466ef57d436a6ead",
+      "png_bytes": 21288
+    },
+    {
+      "code": "CAND-G3A-081",
+      "svg": "CAND-G3A-081.svg",
+      "png": "CAND-G3A-081.png",
+      "sha256_svg": "82a1cd3de94cd643ecfec3bf71ca0e437f1179db5a29364b8848246029fe08d6",
+      "sha256_png": "7ab70f1c5c885fb7d289c42233bfad135c5da28081c5c6afc59f1bc360b7c139",
+      "png_bytes": 20691
+    },
+    {
+      "code": "CAND-G3A-085",
+      "svg": "CAND-G3A-085.svg",
+      "png": "CAND-G3A-085.png",
+      "sha256_svg": "447301042ae46213e619aeda540b0d5e3af1251ad6ea2c5a90400fc0fe8720e1",
+      "sha256_png": "64a58fa3945ef85aad06dc6aff04159200f5e6448ea1318a4f5d65d1b7a1efc7",
+      "png_bytes": 26313
+    },
+    {
+      "code": "CAND-G3A-086",
+      "svg": "CAND-G3A-086.svg",
+      "png": "CAND-G3A-086.png",
+      "sha256_svg": "79b1ae4e4ebec03ca43911ff943ecccdf7ef78e5cbfb85aef50724bd2a6ee3e2",
+      "sha256_png": "384efb58aeaaf1a991c699a763623d42ea332f04502201534955e059c1a09fe3",
+      "png_bytes": 23917
+    }
+  ]
+}

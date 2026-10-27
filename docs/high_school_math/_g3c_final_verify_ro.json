@@ -1,0 +1,49 @@
+{
+  "db": "study_system",
+  "drawable": 313,
+  "g3a": 100,
+  "g3aApproved": 100,
+  "g3aDraft": 0,
+  "oldNonBatch": 213,
+  "sessions": 133,
+  "sessionItems": 357,
+  "diag": [
+    {
+      "code": "CAND-G3A-048",
+      "content_sha256": "09cff8070df0c56b93a1214474cb537b8bf0aaf46e383f1cda5e54b1cdd7425a",
+      "mime_type": "image/png"
+    },
+    {
+      "code": "CAND-G3A-055",
+      "content_sha256": "663bc9abcc02629ca97d75fd5011159c71274165b90555148ca0c97de1be0a66",
+      "mime_type": "image/png"
+    },
+    {
+      "code": "CAND-G3A-068",
+      "content_sha256": "bf53651b03100790ae1356dfae8443d1689cb5a9575d1d644daeb9b4ae0b16af",
+      "mime_type": "image/png"
+    },
+    {
+      "code": "CAND-G3A-080",
+      "content_sha256": "ddded6b9b6f0272bf99b49890dfe1b62e26d15c69ac928eb466ef57d436a6ead",
+      "mime_type": "image/png"
+    },
+    {
+      "code": "CAND-G3A-081",
+      "content_sha256": "7ab70f1c5c885fb7d289c42233bfad135c5da28081c5c6afc59f1bc360b7c139",
+      "mime_type": "image/png"
+    },
+    {
+      "code": "CAND-G3A-085",
+      "content_sha256": "64a58fa3945ef85aad06dc6aff04159200f5e6448ea1318a4f5d65d1b7a1efc7",
+      "mime_type": "image/png"
+    },
+    {
+      "code": "CAND-G3A-086",
+      "content_sha256": "384efb58aeaaf1a991c699a763623d42ea332f04502201534955e059c1a09fe3",
+      "mime_type": "image/png"
+    }
+  ],
+  "candSha": "a9946e233201c7a06efaf238364e1bed7fbad41f82d7e25e54ba7ea47e5707e4",
+  "verifiedAt": "2026-10-27T02:21:50.025Z"
+}

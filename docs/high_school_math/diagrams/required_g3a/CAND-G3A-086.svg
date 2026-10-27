@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img">
+  <title>CAND-G3A-086 cube midpoints</title>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="300.00" y1="540.00" x2="415.50" y2="472.80" stroke="#888890" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 6"/>
+  <line x1="415.50" y1="472.80" x2="625.50" y2="472.80" stroke="#888890" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 6"/>
+  <line x1="415.50" y1="472.80" x2="415.50" y2="262.80" stroke="#888890" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 6"/>
+  <line x1="300.00" y1="540.00" x2="510.00" y2="540.00" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="510.00" y1="540.00" x2="625.50" y2="472.80" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="300.00" y1="540.00" x2="300.00" y2="330.00" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="510.00" y1="540.00" x2="510.00" y2="330.00" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="625.50" y1="472.80" x2="625.50" y2="262.80" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="300.00" y1="330.00" x2="510.00" y2="330.00" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="510.00" y1="330.00" x2="625.50" y2="262.80" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="625.50" y1="262.80" x2="415.50" y2="262.80" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="415.50" y1="262.80" x2="300.00" y2="330.00" stroke="#1c1c20" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="405.00" y1="540.00" x2="625.50" y2="367.80" stroke="#1c4a9e" stroke-width="3.2" stroke-linecap="round"/>
+  <text x="282.00" y="548.00" font-size="17" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">A</text>
+  <text x="518.00" y="548.00" font-size="17" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">B</text>
+  <text x="633.50" y="480.80" font-size="17" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">C</text>
+  <text x="395.50" y="476.80" font-size="17" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">D</text>
+  <text x="278.00" y="322.00" font-size="17" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">A1</text>
+  <text x="518.00" y="320.00" font-size="17" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">B1</text>
+  <text x="633.50" y="254.80" font-size="17" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">C1</text>
+  <text x="393.50" y="252.80" font-size="17" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">D1</text>
+  <circle cx="405.00" cy="540.00" r="5" fill="#1c4a9e" stroke="#1c1c20" stroke-width="2.2"/>
+  <circle cx="625.50" cy="367.80" r="5" fill="#1c4a9e" stroke="#1c1c20" stroke-width="2.2"/>
+  <text x="397.00" y="562.00" font-size="17" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">M</text>
+  <text x="635.50" y="367.80" font-size="17" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">N</text>
+  <text x="120.00" y="60.00" font-size="20" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">正方体中点 M、N 与线段 MN（示意）</text>
+  <text x="120.00" y="95.00" font-size="15" fill="#5a5a62" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">M 为 AB 中点，N 为 CC1 中点；不标注 MN 长度</text>
+  <text x="120.00" y="680.00" font-size="14" fill="#5a5a62" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">CAND-G3A-086 · 教学示意图</text>
+</svg>

@@ -1,0 +1,75 @@
+{
+  "ok": true,
+  "issues": [],
+  "sha98Ok": true,
+  "shaMismatch": [],
+  "diff": {
+    "1": 35,
+    "2": 40,
+    "3": 25
+  },
+  "qt": {
+    "single": 30,
+    "multi": 15,
+    "numeric": 20,
+    "judge": 10,
+    "application": 25
+  },
+  "reqCount": 7,
+  "math034": {
+    "derived": 5,
+    "match": true,
+    "steps": "t=log2(x-1); log4(x-1)=t/2; t/2+t=3 => t=2 => x-1=4 => x=5; check log4 4 + log2 4 = 1+2=3"
+  },
+  "math072": {
+    "AB": [
+      6,
+      8
+    ],
+    "mod": 10,
+    "WF": 50,
+    "G": [
+      3,
+      4
+    ],
+    "WG": 50,
+    "W": 100,
+    "match": true
+  },
+  "dedup034": {
+    "exactG1b": [],
+    "nearG1b": [
+      "CAND-G1B-043"
+    ],
+    "batch": [],
+    "vsOldLog432": true
+  },
+  "dedup072": {
+    "exactG1b": [],
+    "batch": []
+  },
+  "difficultyJudge": {
+    "034": {
+      "claimed": 3,
+      "verdict": "ACCEPT_D3",
+      "reason": "Requires change-of-base linking two logs with same argument, solve for t, then exponential; domain x>1; not single evaluation."
+    },
+    "072": {
+      "claimed": 3,
+      "verdict": "ACCEPT_D3",
+      "reason": "Requires displacement from coordinates, F·s, construct same-direction G via unit vector, then WG and sum (or (F+G)·s). Multi-step modeling beyond two cos plugs."
+    }
+  },
+  "c034": {
+    "stem": "已知 $\\log_4(x-1)+\\log_2(x-1)=3$，且 $x>1$。求 $x$ 的值。",
+    "answer": "5",
+    "d": 3,
+    "kp": "rja.4.3.03"
+  },
+  "c072": {
+    "stem": "已知力 $\\vec F=(3,4)$（单位 N）。质点从点 $A(1,2)$ 移动到点 $B(7,10)$（单位 m）。另有恒力 $\\vec G$ 与位移 $\\overrightarrow{AB}$ 方向相同，且 $|\\vec G|=5$（单位 N）。求合力 $\\vec F+\\vec G$ 对这段位移所做的总功 $W$（单位 J）。",
+    "answer": "100",
+    "d": 3,
+    "kp": "rjb.6.4.03"
+  }
+}

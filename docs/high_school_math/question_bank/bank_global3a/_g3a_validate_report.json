@@ -1,0 +1,140 @@
+{
+  "n": 100,
+  "errors": [],
+  "warnings": [],
+  "quotas": {
+    "d": {
+      "1": 35,
+      "2": 40,
+      "3": 25
+    },
+    "qt": {
+      "single": 30,
+      "multi": 15,
+      "judge": 10,
+      "numeric": 20,
+      "application": 25
+    },
+    "ch": {
+      "1": 6,
+      "2": 10,
+      "3": 12,
+      "4": 14,
+      "5": 16,
+      "6": 14,
+      "7": 4,
+      "8": 14,
+      "9": 4,
+      "10": 6
+    }
+  },
+  "dedup": {
+    "batchDup": [],
+    "priorHits": []
+  },
+  "diagrams": [
+    {
+      "id": "CAND-G3A-048",
+      "png": true,
+      "svg": true,
+      "pngBytes": 22568,
+      "pngSha": "09cff8070df0c56b93a1214474cb537b8bf0aaf46e383f1cda5e54b1cdd7425a",
+      "magicOk": true,
+      "under2MiB": true,
+      "w": 1000,
+      "h": 720,
+      "pxOk": true,
+      "svgSafe": true
+    },
+    {
+      "id": "CAND-G3A-055",
+      "png": true,
+      "svg": true,
+      "pngBytes": 24267,
+      "pngSha": "663bc9abcc02629ca97d75fd5011159c71274165b90555148ca0c97de1be0a66",
+      "magicOk": true,
+      "under2MiB": true,
+      "w": 1000,
+      "h": 720,
+      "pxOk": true,
+      "svgSafe": true
+    },
+    {
+      "id": "CAND-G3A-068",
+      "png": true,
+      "svg": true,
+      "pngBytes": 24355,
+      "pngSha": "bf53651b03100790ae1356dfae8443d1689cb5a9575d1d644daeb9b4ae0b16af",
+      "magicOk": true,
+      "under2MiB": true,
+      "w": 1000,
+      "h": 720,
+      "pxOk": true,
+      "svgSafe": true
+    },
+    {
+      "id": "CAND-G3A-080",
+      "png": true,
+      "svg": true,
+      "pngBytes": 21288,
+      "pngSha": "ddded6b9b6f0272bf99b49890dfe1b62e26d15c69ac928eb466ef57d436a6ead",
+      "magicOk": true,
+      "under2MiB": true,
+      "w": 1000,
+      "h": 720,
+      "pxOk": true,
+      "svgSafe": true
+    },
+    {
+      "id": "CAND-G3A-081",
+      "png": true,
+      "svg": true,
+      "pngBytes": 20691,
+      "pngSha": "7ab70f1c5c885fb7d289c42233bfad135c5da28081c5c6afc59f1bc360b7c139",
+      "magicOk": true,
+      "under2MiB": true,
+      "w": 1000,
+      "h": 720,
+      "pxOk": true,
+      "svgSafe": true
+    },
+    {
+      "id": "CAND-G3A-085",
+      "png": true,
+      "svg": true,
+      "pngBytes": 26313,
+      "pngSha": "64a58fa3945ef85aad06dc6aff04159200f5e6448ea1318a4f5d65d1b7a1efc7",
+      "magicOk": true,
+      "under2MiB": true,
+      "w": 1000,
+      "h": 720,
+      "pxOk": true,
+      "svgSafe": true
+    },
+    {
+      "id": "CAND-G3A-086",
+      "png": true,
+      "svg": true,
+      "pngBytes": 23917,
+      "pngSha": "384efb58aeaaf1a991c699a763623d42ea332f04502201534955e059c1a09fe3",
+      "magicOk": true,
+      "under2MiB": true,
+      "w": 1000,
+      "h": 720,
+      "pxOk": true,
+      "svgSafe": true
+    }
+  ],
+  "appRubricOk": 25,
+  "numericOk": 20,
+  "numericBad": [],
+  "kpMiss": [],
+  "methodMiss": [],
+  "methodDup": [],
+  "deepSpot": {
+    "048": "PASS cos(2π/3)=-0.5",
+    "010": "ans=B (expect B if options have 2)"
+  },
+  "ok": true,
+  "decision": "BATCH_READY_FOR_IMPORT_PREFLIGHT"
+}

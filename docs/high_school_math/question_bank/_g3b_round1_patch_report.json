@@ -1,0 +1,27 @@
+{
+  "demote": {
+    "CAND-G3A-015": 2,
+    "CAND-G3A-038": 1,
+    "CAND-G3A-054": 2,
+    "CAND-G3A-056": 2,
+    "CAND-G3A-093": 1
+  },
+  "promote": {
+    "CAND-G3A-032": 3,
+    "CAND-G3A-041": 3,
+    "CAND-G3A-027": 3,
+    "CAND-G3A-058": 3,
+    "CAND-G3A-087": 3
+  },
+  "difficultyCounts": {
+    "1": 37,
+    "2": 38,
+    "3": 25
+  },
+  "fixed": [
+    "045",
+    "084",
+    "097",
+    "042"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "ok": true,
+  "issues": [],
+  "diff": {
+    "1": 35,
+    "2": 40,
+    "3": 25
+  },
+  "qt": {
+    "single": 30,
+    "multi": 15,
+    "numeric": 20,
+    "judge": 10,
+    "application": 25
+  },
+  "ch": {
+    "1": 6,
+    "2": 10,
+    "3": 12,
+    "4": 14,
+    "5": 16,
+    "6": 14,
+    "7": 4,
+    "8": 14,
+    "9": 4,
+    "10": 6
+  },
+  "sha93Ok": true,
+  "sha93Mismatch": [],
+  "reqIds": [
+    "CAND-G2A-045",
+    "CAND-G2A-055",
+    "CAND-G2A-081",
+    "CAND-G2A-084",
+    "CAND-G2A-086",
+    "CAND-G2A-088",
+    "CAND-G2A-089"
+  ],
+  "n034": {
+    "stem": "求 $\\log_4 32$ 的值（可先化为同底指数或使用换底公式）。",
+    "answer": "$\\dfrac{5}{2}$",
+    "kp": "rja.4.3.03",
+    "difficulty": 3
+  },
+  "dedup034": {
+    "exactG1bStem": [],
+    "nearG1b": [
+      {
+        "id": "CAND-G1B-040",
+        "stem": "$\\log_3 81=$"
+      }
+    ],
+    "batchNear": [],
+    "semanticNote": "New item asks log_4 32=5/2 via same-base/change-of-base; distinct from G1B-036 log_2 32=5 and G1B-040 log_3 81=4"
+  }
+}

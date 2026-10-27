@@ -1,0 +1,62 @@
+{
+  "count": 100,
+  "ch": {
+    "1": 6,
+    "2": 10,
+    "3": 12,
+    "4": 14,
+    "5": 16,
+    "6": 14,
+    "7": 4,
+    "8": 14,
+    "9": 4,
+    "10": 6
+  },
+  "diff": {
+    "1": 35,
+    "2": 40,
+    "3": 25
+  },
+  "qt": {
+    "single": 30,
+    "multi": 15,
+    "numeric": 20,
+    "judge": 10,
+    "application": 25
+  },
+  "diag": {
+    "NOT_NEEDED": 85,
+    "RECOMMENDED": 8,
+    "REQUIRED": 7
+  },
+  "rubricOk": true,
+  "appCount": 25,
+  "req": [
+    "CAND-G2A-045",
+    "CAND-G2A-055",
+    "CAND-G2A-081",
+    "CAND-G2A-084",
+    "CAND-G2A-086",
+    "CAND-G2A-088",
+    "CAND-G2A-089"
+  ],
+  "kpDistinct": 97,
+  "methods": {
+    "defn": 31,
+    "equiv_transform": 26,
+    "classification": 18,
+    "special_value": 12,
+    "mono_analysis": 7,
+    "num_shape": 22,
+    "substitution": 3,
+    "parity_apply": 3,
+    "domain_symmetry": 2,
+    "graph_symmetry": 2,
+    "undetermined_coeff": 1
+  },
+  "unusedMethods": [],
+  "source": {
+    "original": 100,
+    "past_exam": 0
+  }
+}

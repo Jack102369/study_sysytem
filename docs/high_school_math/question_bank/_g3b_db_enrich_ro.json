@@ -1,0 +1,29 @@
+{
+  "phase": "GLOBAL-3B",
+  "collide": [],
+  "g3aExisting": 0,
+  "g2aExisting": 100,
+  "drawable": 213,
+  "specs": {
+    "need": 10,
+    "found": 10
+  },
+  "cats": {
+    "need": 43,
+    "found": 43
+  },
+  "pairMiss": [],
+  "kp": {
+    "need": 90,
+    "found": 90,
+    "miss": [],
+    "inactive": []
+  },
+  "methods": {
+    "need": 10,
+    "found": 10,
+    "miss": [],
+    "inactive": []
+  },
+  "verifiedAt": "2026-10-27T02:04:49.201Z"
+}

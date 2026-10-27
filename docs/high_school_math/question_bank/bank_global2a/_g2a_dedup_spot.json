@@ -1,0 +1,255 @@
+{
+  "stemHits": [
+    {
+      "id": "CAND-G2A-034",
+      "type": "stem_prefix"
+    }
+  ],
+  "noteHits": [],
+  "internal": [],
+  "sample": [
+    {
+      "id": "CAND-G2A-006",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "（1）$23$；（2）$5$。",
+      "stem": "某班 $40$ 人，会游泳 $A$ 有 $22$ 人，会骑车 $B$ 有 $25$ 人，两项都会的有 $12$ 人。\n（1）求只会其中一项技能的人数；\n（2）求两项都不会的人数。",
+      "diag": "RECOMMENDED",
+      "note": "容斥35；只会一项23；都不会5。验算10+13=23。"
+    },
+    {
+      "id": "CAND-G2A-012",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "（1）$m=\\dfrac{25}{4}$；（2）$x=\\dfrac{5}{2}$。",
+      "stem": "已知方程 $x^2-5x+m=0$ 有两个相等实根。\n（1）求 $m$；\n（2）求该重根。",
+      "diag": "NOT_NEEDED",
+      "note": "Δ=0⇒m=25/4；根5/2。"
+    },
+    {
+      "id": "CAND-G2A-013",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "（1）$P(x)=20x-200$；（2）$25$ 件。",
+      "stem": "某商品进价 $40$ 元/件，售价 $60$ 元/件。店铺日固定开支 $200$ 元。设日销量为 $x$ 件（$x\\in\\mathbb{N}^*$）。\n（1）写出日利润 $P(x)$；\n（2）日利润不",
+      "diag": "NOT_NEEDED",
+      "note": "P=20x-200≥300⇒x≥25。"
+    },
+    {
+      "id": "CAND-G2A-015",
+      "qtype": "application",
+      "diff": 2,
+      "answer": "（1）$S(x)=x(24-2x)=24x-2x^2$；（2）最大面积 $72\\,\\mathrm{m}^2$，此时 $x=6$。",
+      "stem": "用篱笆围一块矩形菜地，一面靠墙（该边不围篱笆）。现有篱笆长 $24\\,\\mathrm{m}$。设垂直于墙的边长为 $x\\,\\mathrm{m}$（$0<x<12$）。\n（1）表示面积 $S(x)$；\n",
+      "diag": "RECOMMENDED",
+      "note": "非周长20正方形；靠墙24篱笆，x=6时S=72。"
+    },
+    {
+      "id": "CAND-G2A-023",
+      "qtype": "application",
+      "diff": 2,
+      "answer": "（1）$8$；（2）$t=3$。",
+      "stem": "设 $f(x)=\\begin{cases} 2x+1, & x<1,\\\\ x^2-2, & x\\ge1. \\end{cases}$\n（1）求 $f(0)+f(3)$；\n（2）若 $f(t)=7$，求 ",
+      "diag": "NOT_NEEDED",
+      "note": "f(0)=1,f(3)=7；仅 t=3 满足。"
+    },
+    {
+      "id": "CAND-G2A-027",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "（1）$S(x)=x(6-x)=6x-x^2$，定义域 $(0,6)$；（2）最大面积 $9\\,\\mathrm{m}^2$。",
+      "stem": "把一段长 $12\\,\\mathrm{m}$ 的铁丝围成矩形，设一边长为 $x\\,\\mathrm{m}$。\n（1）写出面积 $S$ 关于 $x$ 的函数，并求定义域；\n（2）求面积的最大值。",
+      "diag": "NOT_NEEDED",
+      "note": "周长12⇒半周6；顶点S=9。刻意避开周长20。"
+    },
+    {
+      "id": "CAND-G2A-039",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "（1）$N(t)=100\\cdot1.5^{t}$；（2）$4$ 小时。",
+      "stem": "某菌群初始数量 $N_0=100$，每小时变为原来的 $1.5$ 倍。设 $t$ 小时后数量为 $N(t)$。\n（1）写出 $N(t)$；\n（2）经过多少小时数量达到 $100\\times1.5^4$",
+      "diag": "NOT_NEEDED",
+      "note": "直接比较指数得 t=4。"
+    },
+    {
+      "id": "CAND-G2A-040",
+      "qtype": "application",
+      "diff": 2,
+      "answer": "$L=50$（dB）。",
+      "stem": "声音强度级 $L=10\\lg\\dfrac{I}{I_0}$（单位 dB）。若某声音强度 $I=10^5 I_0$，求 $L$。",
+      "diag": "NOT_NEEDED",
+      "note": "10*5=50。"
+    },
+    {
+      "id": "CAND-G2A-045",
+      "qtype": "application",
+      "diff": 2,
+      "answer": "（1）$l=4\\pi$；（2）$S=12\\pi$。",
+      "stem": "半径为 $6$ 的圆中，圆心角为 $\\dfrac{2\\pi}{3}$ 的扇形。\n（1）求弧长 $l$；\n（2）求扇形面积 $S$。",
+      "diag": "REQUIRED",
+      "note": "l=rθ=4π；S=½r²θ=12π。"
+    },
+    {
+      "id": "CAND-G2A-051",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "（1）$\\sin\\alpha=\\dfrac{4}{5}$；（2）$\\cos 2\\alpha=-\\dfrac{7}{25}$。",
+      "stem": "已知 $\\cos\\alpha=\\dfrac{3}{5}$，且 $\\alpha$ 为锐角。\n（1）求 $\\sin\\alpha$；\n（2）求 $\\cos 2\\alpha$。",
+      "diag": "NOT_NEEDED",
+      "note": "sin=4/5；cos2α=-7/25。"
+    },
+    {
+      "id": "CAND-G2A-053",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "（1）振幅 $3$，周期 $\\pi$；（2）$-\\dfrac{3\\sqrt{3}}{2}$。",
+      "stem": "已知 $y=3\\sin\\left(2x-\\dfrac{\\pi}{3}\\right)$。\n（1）求振幅与最小正周期；\n（2）求当 $x=0$ 时的函数值。",
+      "diag": "NOT_NEEDED",
+      "note": "A=3,T=π；sin(-π/3)=-√3/2。"
+    },
+    {
+      "id": "CAND-G2A-055",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "（1）$h-\\dfrac{h}{\\sqrt{3}}=20$；（2）$h=10(3+\\sqrt{3})$。",
+      "stem": "在水平地面上，测得某建筑物顶端的仰角为 $45^\\circ$，再向建筑物走近 $20\\,\\mathrm{m}$ 后，仰角变为 $60^\\circ$。设建筑物高度为 $h\\,\\mathrm{m}$。\n（",
+      "diag": "REQUIRED",
+      "note": "h-h/√3=20 ⇒ h=20√3/(√3-1)=10(3+√3)。验算：20(√3+1)错误。"
+    },
+    {
+      "id": "CAND-G2A-058",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "（1）$\\omega=\\dfrac{\\pi}{2}$，$s=5\\sin\\dfrac{\\pi t}{2}$；（2）$s(1)=5$。",
+      "stem": "简谐振动位移 $s=A\\sin(\\omega t)$（$t$ 以秒计，$s$ 以厘米计）。已知振幅 $A=5$，周期 $T=4$。\n（1）求 $\\omega$ 并写出 $s(t)$；\n（2）求 $t=",
+      "diag": "NOT_NEEDED",
+      "note": "T=4⇒ω=π/2；t=1时sin(π/2)=1⇒s=5。"
+    },
+    {
+      "id": "CAND-G2A-066",
+      "qtype": "application",
+      "diff": 2,
+      "answer": "数量投影为 $3$；投影向量为 $(3,0)$。",
+      "stem": "已知 $\\vec a=(3,4)$，$\\vec b=(1,0)$。求 $\\vec a$ 在 $\\vec b$ 方向上的投影（数量投影）及投影向量。",
+      "diag": "NOT_NEEDED",
+      "note": "a·e=3；proj=(3,0)"
+    },
+    {
+      "id": "CAND-G2A-070",
+      "qtype": "application",
+      "diff": 2,
+      "answer": "合位移大小 $10\\,\\mathrm{km}$，方向为北偏东 $\\arctan\\dfrac{3}{4}$（或东偏北 $\\arctan\\dfrac{4}{3}$）。",
+      "stem": "小船先向东航行 $6\\,\\mathrm{km}$，再向北航行 $8\\,\\mathrm{km}$。求合位移的大小与方向（相对正东的偏角）。",
+      "diag": "RECOMMENDED",
+      "note": "sqrt(36+64)=10；tanθ=4/3"
+    },
+    {
+      "id": "CAND-G2A-071",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "$\\overrightarrow{DE}=\\dfrac12\\overrightarrow{BC}$，故 $DE\\parallel BC$ 且 $DE=\\dfrac12 BC$。",
+      "stem": "在 $\\triangle ABC$ 中，$D$、$E$ 分别是边 $AB$、$AC$ 的中点。用向量方法证明：$DE\\parallel BC$ 且 $DE=\\dfrac12 BC$。",
+      "diag": "RECOMMENDED",
+      "note": "中位线：DE=½BC，异于对角线平分"
+    },
+    {
+      "id": "CAND-G2A-074",
+      "qtype": "application",
+      "diff": 2,
+      "answer": "$\\dfrac12-\\dfrac32 i$",
+      "stem": "计算 $\\dfrac{2-i}{1+i}$，并写成 $a+bi$（$a,b\\in\\mathbb{R}$）的形式。",
+      "diag": "NOT_NEEDED",
+      "note": "(2-i)(1-i)/(2)=(1-3i)/2"
+    },
+    {
+      "id": "CAND-G2A-081",
+      "qtype": "application",
+      "diff": 2,
+      "answer": "$V=12\\sqrt{3}$",
+      "stem": "如图，正三棱锥 $P-ABC$ 的底面是边长为 $6$ 的正三角形，高 $PO=4$（$O$ 为底面中心）。求该三棱锥的体积。",
+      "diag": "REQUIRED",
+      "note": "(1/3)*9√3*4=12√3"
+    },
+    {
+      "id": "CAND-G2A-082",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "$36\\pi$",
+      "stem": "圆柱底面半径 $r=3$，高 $h=8$。在其内部挖去一个与圆柱同轴、半径为 $3$ 的球（球完全位于圆柱内）。求剩余部分的体积。",
+      "diag": "RECOMMENDED",
+      "note": "72π-36π=36π"
+    },
+    {
+      "id": "CAND-G2A-084",
+      "qtype": "multi",
+      "diff": 2,
+      "answer": "A,B,C",
+      "stem": "如图，在正方体 $ABCD-A_1B_1C_1D_1$ 中，下列说法正确的有（多选）",
+      "diag": "REQUIRED",
+      "note": "D为异面非相交"
+    },
+    {
+      "id": "CAND-G2A-086",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "$\\overrightarrow{EF}=\\overrightarrow{AC}$，故 $EF\\parallel AC$，又 $EF$ 不在平面 $ABCD$ 内，从而 $EF\\parallel$ 平面 $ABCD$。",
+      "stem": "如图，在长方体 $ABCD-A_1B_1C_1D_1$ 中，$E$、$F$ 分别为棱 $AA_1$、$CC_1$ 的中点。证明：$EF\\parallel$ 平面 $ABCD$。",
+      "diag": "REQUIRED",
+      "note": "EF=(a,b,0)=AC，线面平行"
+    },
+    {
+      "id": "CAND-G2A-088",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "$AB_1\\perp A_1B$ 且 $AB_1\\perp BC$，又 $A_1B$ 与 $BC$ 交于 $B$ 且都在平面 $A_1BC$ 内，故 $AB_1\\perp$ 平面 $A_1BC$。",
+      "stem": "如图，在直三棱柱 $ABC-A_1B_1C_1$ 中，$AB\\perp BC$，且 $AB=BC=AA_1=2$。证明：$AB_1\\perp$ 平面 $A_1BC$。",
+      "diag": "REQUIRED",
+      "note": "点积均0；异于正方体BD1题"
+    },
+    {
+      "id": "CAND-G2A-089",
+      "qtype": "multi",
+      "diff": 3,
+      "answer": "A,B,D",
+      "stem": "如图，正方体 $ABCD-A_1B_1C_1D_1$ 中，下列正确的有（多选）",
+      "diag": "REQUIRED",
+      "note": "C: n·(0,1,0)≠0"
+    },
+    {
+      "id": "CAND-G2A-093",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "$\\bar x=86$，$s^2=24$",
+      "stem": "某校抽测 $5$ 名学生数学成绩（分）：$86,90,78,92,84$。求样本平均数与样本方差（用定义 $s^2=\\dfrac1n\\sum(x_i-\\bar x)^2$）。",
+      "diag": "NOT_NEEDED",
+      "note": "mean86；sqsum120；/5=24"
+    },
+    {
+      "id": "CAND-G2A-096",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "$\\dfrac{4}{7}$",
+      "stem": "袋中有 $4$ 个红球、$3$ 个白球，从中随机取出 $2$ 个球。求两球颜色不同的概率。",
+      "diag": "NOT_NEEDED",
+      "note": "12/21=4/7"
+    },
+    {
+      "id": "CAND-G2A-098",
+      "qtype": "application",
+      "diff": 3,
+      "answer": "$0.32$",
+      "stem": "某射手每次射击命中率为 $0.8$，各次独立。求射击 $2$ 次恰命中 $1$ 次的概率。",
+      "diag": "NOT_NEEDED",
+      "note": "C(2,1)*0.8*0.2=0.32"
+    },
+    {
+      "id": "CAND-G2A-100",
+      "qtype": "application",
+      "diff": 1,
+      "answer": "由大数定律思想，试验次数足够大时，随机事件频率稳定于其概率；均匀硬币正面概率为 $0.5$，故频率接近 $0.5$。",
+      "stem": "简述：为什么在相同条件下大量重复抛掷一枚均匀硬币时，正面出现的频率往往会接近 $0.5$？",
+      "diag": "NOT_NEEDED",
+      "note": "频率→概率=0.5"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "stage": "HS-MATH-BANK-GLOBAL-2D",
+  "status": "BLOCKED",
+  "independenceEstablished": false,
+  "sha93Ok": true,
+  "protocolOk": true,
+  "items": {
+    "025": "PASS",
+    "031": "PASS",
+    "034": "BLOCKED_DIFFICULTY_MISMATCH",
+    "039": "PASS",
+    "045": "PASS",
+    "054": "PASS",
+    "072": "PASS_MATH_MINOR_DIFFICULTY"
+  },
+  "flags": [
+    "BLOCKED_DIFFICULTY_MISMATCH"
+  ],
+  "needsFix": [
+    "CAND-G2A-034"
+  ],
+  "optionalFix": [
+    "CAND-G2A-072"
+  ]
+}

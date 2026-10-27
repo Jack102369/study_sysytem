@@ -1,0 +1,59 @@
+{
+  "hits": [
+    {
+      "type": "g1b",
+      "id": "CAND-G2A-028",
+      "other": "CAND-G1B-026",
+      "mode": "head"
+    },
+    {
+      "type": "g1b",
+      "id": "CAND-G2A-034",
+      "other": "CAND-G1B-040",
+      "mode": "head"
+    }
+  ],
+  "internal": [],
+  "themeFlags": [
+    {
+      "id": "CAND-G2A-015",
+      "theme": "area_max",
+      "note": "靠墙矩形篱笆面积最大"
+    },
+    {
+      "id": "CAND-G2A-022",
+      "theme": "area_max",
+      "note": "二次函数最大值顶点"
+    },
+    {
+      "id": "CAND-G2A-045",
+      "theme": "area_max",
+      "note": "扇形弧长面积"
+    },
+    {
+      "id": "CAND-G2A-055",
+      "theme": "elevation",
+      "note": "双仰角45-60测高"
+    },
+    {
+      "id": "CAND-G2A-056",
+      "theme": "area_max",
+      "note": "3sin+4cos最大值5"
+    },
+    {
+      "id": "CAND-G2A-080",
+      "theme": "cube",
+      "note": "正方体体积27"
+    },
+    {
+      "id": "CAND-G2A-084",
+      "theme": "cube",
+      "note": "正方体线面关系多选"
+    },
+    {
+      "id": "CAND-G2A-089",
+      "theme": "cube",
+      "note": "正方体面面垂直多选"
+    }
+  ]
+}

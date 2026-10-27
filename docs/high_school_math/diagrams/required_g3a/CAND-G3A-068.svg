@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img">
+  <title>CAND-G3A-068 parallelogram</title>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <polygon points="220.00,480.00 620.00,480.00 760.00,250.00 360.00,250.00" fill="rgba(70,140,210,0.12)" stroke="#1c1c20" stroke-width="2.5" opacity="1.0"/>
+  <line x1="220.00" y1="480.00" x2="760.00" y2="250.00" stroke="#1c4a9e" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="620.00" y1="480.00" x2="360.00" y2="250.00" stroke="#1c4a9e" stroke-width="2.8" stroke-linecap="round"/>
+  <circle cx="490.00" cy="365.00" r="4" fill="#1c4a9e" stroke="#1c1c20" stroke-width="2.2"/>
+  <text x="200.00" y="488.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">A</text>
+  <text x="628.00" y="488.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">B</text>
+  <text x="768.00" y="242.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">C</text>
+  <text x="338.00" y="242.00" font-size="18" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">D</text>
+  <text x="120.00" y="60.00" font-size="20" fill="#1c1c20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">平行四边形 ABCD（示意）</text>
+  <text x="120.00" y="95.00" font-size="15" fill="#5a5a62" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">淡标对角线 AC、BD；不标注互相平分结论</text>
+  <text x="120.00" y="680.00" font-size="14" fill="#5a5a62" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" text-anchor="start">CAND-G3A-068 · 教学示意图</text>
+</svg>

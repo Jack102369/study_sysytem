@@ -1,0 +1,55 @@
+{
+  "stage": "HS-MATH-BANK-GLOBAL-2A",
+  "generated": [
+    {
+      "code": "CAND-G2A-045",
+      "svg": "CAND-G2A-045.svg",
+      "png": "CAND-G2A-045.png",
+      "sha256_svg": "d9cd84b999feb857ffb0ff5b37e14beb04563d684646024a80d6812449b2adf8",
+      "sha256_png": "ac818d4e899196f39e20c9f1d7a8e3cb143d04cf38d93c3e01e65bb172dd76d4",
+      "note": "GLOBAL-2C redraw exact 2pi/3"
+    },
+    {
+      "code": "CAND-G2A-055",
+      "svg": "CAND-G2A-055.svg",
+      "png": "CAND-G2A-055.png",
+      "sha256_svg": "50395fa1c9ce29e1f59274270501d190b5f5b7233ab062927c969d585368b16f",
+      "sha256_png": "a83856cae522849f89bed698ef8a4082549dad46b5bde2fc4bbd83f9ac6792bb"
+    },
+    {
+      "code": "CAND-G2A-081",
+      "svg": "CAND-G2A-081.svg",
+      "png": "CAND-G2A-081.png",
+      "sha256_svg": "8246d41c0018e426703bce82ee08c5a086c1da2c6f4ca32d52ce7f7765a520ca",
+      "sha256_png": "97b7c3ecc7f7d4af3c05e51fdb3563f6ac90320e8363d4e92cf99c5d982b084c"
+    },
+    {
+      "code": "CAND-G2A-084",
+      "svg": "CAND-G2A-084.svg",
+      "png": "CAND-G2A-084.png",
+      "sha256_svg": "510eac1acd755e33ec81b527d13e0658a36b029ba7f6b01eb539c0c18c93842c",
+      "sha256_png": "8da6b0ae8355630027fbe29087f46d80c05427344dc91301d8a139df16f4a449"
+    },
+    {
+      "code": "CAND-G2A-086",
+      "svg": "CAND-G2A-086.svg",
+      "png": "CAND-G2A-086.png",
+      "sha256_svg": "d9b9715b4cc21c934cc3e6f0114e270d37055a0bde8405f1b928bb7b3a98ecbd",
+      "sha256_png": "35583af69ab4f3793dbf73655afb755036bb9e6de1caf0fc663062ea0b3111fe"
+    },
+    {
+      "code": "CAND-G2A-088",
+      "svg": "CAND-G2A-088.svg",
+      "png": "CAND-G2A-088.png",
+      "sha256_svg": "2efc6f94b7261d56626da3f83dca4378a5179d313e8ede3d8d0512c596f93306",
+      "sha256_png": "5b88220539e26e23fccec4beabdf8e2251dc34939ad8005d572a4c123f5f8daa"
+    },
+    {
+      "code": "CAND-G2A-089",
+      "svg": "CAND-G2A-089.svg",
+      "png": "CAND-G2A-089.png",
+      "sha256_svg": "31f5724593d8d2538b3c615da3d6b88d27b68f486104aeee3058e0b18da2180b",
+      "sha256_png": "ecfab27657b72f09d0b5660df26e9e014e5ff0396db1db78f17dbd81c096f62f"
+    }
+  ]
+}

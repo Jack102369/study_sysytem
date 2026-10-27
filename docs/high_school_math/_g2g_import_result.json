@@ -1,0 +1,146 @@
+{
+  "phase": "HS-MATH-BANK-GLOBAL-2G-IMPORT",
+  "authorized": true,
+  "startedAt": "2026-10-27T00:43:04.557Z",
+  "decision": "DRAFT_IMPORT_PASS",
+  "candidateSha256": "bc9feb0e1d702db887e80685c9553d39154f1df856483430e2235a05a83eb25c",
+  "adaptedSha256": "a7847f18dd6ed316bd566340344db66ea2478352828395c655a7a72f53c669e2",
+  "pngSha": {
+    "CAND-G2A-045": "ac818d4e899196f39e20c9f1d7a8e3cb143d04cf38d93c3e01e65bb172dd76d4",
+    "CAND-G2A-055": "a83856cae522849f89bed698ef8a4082549dad46b5bde2fc4bbd83f9ac6792bb",
+    "CAND-G2A-081": "97b7c3ecc7f7d4af3c05e51fdb3563f6ac90320e8363d4e92cf99c5d982b084c",
+    "CAND-G2A-084": "8da6b0ae8355630027fbe29087f46d80c05427344dc91301d8a139df16f4a449",
+    "CAND-G2A-086": "35583af69ab4f3793dbf73655afb755036bb9e6de1caf0fc663062ea0b3111fe",
+    "CAND-G2A-088": "5b88220539e26e23fccec4beabdf8e2251dc34939ad8005d572a4c123f5f8daa",
+    "CAND-G2A-089": "ecfab27657b72f09d0b5660df26e9e014e5ff0396db1db78f17dbd81c096f62f"
+  },
+  "backup": {
+    "hs_math_train_items": {
+      "path": "g2g_hs_math_train_items_2026-10-27T00-43-04.sql",
+      "bytes": 153038,
+      "mtime": "2026-10-27T00:43:04.995Z",
+      "sha256": "4953054f3c66d91531cf4bcc9301c9723e8e57e4a9899fd9cca8dadd9b18626d",
+      "nonEmpty": true
+    },
+    "hs_math_train_item_kps": {
+      "path": "g2g_hs_math_train_item_kps_2026-10-27T00-43-04.sql",
+      "bytes": 14532,
+      "mtime": "2026-10-27T00:43:05.044Z",
+      "sha256": "542f178defc0f9abe3311a27d5e8b666c896a40e7a9be4022806e5a2ab6f3612",
+      "nonEmpty": true
+    },
+    "hs_math_train_item_methods": {
+      "path": "g2g_hs_math_train_item_methods_2026-10-27T00-43-04.sql",
+      "bytes": 8424,
+      "mtime": "2026-10-27T00:43:05.142Z",
+      "sha256": "7b985f9de93a2bfa4caf7557c128c7b139569de2d2fbfd01d3755037c234a494",
+      "nonEmpty": true
+    },
+    "hs_math_train_item_reviews": {
+      "path": "g2g_hs_math_train_item_reviews_2026-10-27T00-43-04.sql",
+      "bytes": 45338,
+      "mtime": "2026-10-27T00:43:05.189Z",
+      "sha256": "da3cc3b79c8e8c7abcbeac5e6327966945aec228d30f139b9845d63834aa1eb5",
+      "nonEmpty": true
+    },
+    "hs_math_train_item_diagrams": {
+      "path": "g2g_hs_math_train_item_diagrams_2026-10-27T00-43-04.sql",
+      "bytes": 3362,
+      "mtime": "2026-10-27T00:43:05.235Z",
+      "sha256": "83d013b354fe4184750584dcf698d4a0131d4229d0e17be910c2ee9c09ac497d",
+      "nonEmpty": true
+    }
+  },
+  "pre": {
+    "adapt": {
+      "n": 100,
+      "qtype": {
+        "single": 30,
+        "multi": 15,
+        "numeric": 20,
+        "judge": 10,
+        "application": 25
+      },
+      "difficulty": {
+        "1": 35,
+        "2": 40,
+        "3": 25
+      },
+      "codesUnique": true,
+      "allG2A": true
+    },
+    "db": {
+      "hitCandPrefix": 0,
+      "exactCodeHits": 0,
+      "drawable": 113,
+      "approved": 113,
+      "sessions": 133,
+      "sessionItems": 357,
+      "itemsN": 211
+    },
+    "adminUserId": "2",
+    "apiHealth": 200
+  },
+  "preview": {
+    "httpStatus": 201,
+    "canConfirm": true,
+    "itemCount": 100,
+    "errorCount": 0,
+    "warningCount": 100,
+    "expiresAt": "2026-10-27T01:13:05.329Z",
+    "hasToken": true,
+    "failedItems": []
+  },
+  "confirm": {
+    "httpStatus": 201,
+    "success": true,
+    "mode": "created",
+    "successCount": 100,
+    "failCount": 0,
+    "notice": "已全部写入 draft；未自动批准。请人工审核后批准。",
+    "itemCountReturned": 100
+  },
+  "post": {
+    "candCount": 100,
+    "badStatus": [],
+    "approvedDelta": 0,
+    "drawableNow": 113,
+    "sessionsDelta": 0,
+    "sessionItemsDelta": 0,
+    "itemsDelta": 100,
+    "reviewOnBatch": 0,
+    "kpLinks": 100,
+    "methodLinks": 128,
+    "appCount": 25,
+    "appRubricOk": 25,
+    "expectedMethodLinks": 128,
+    "qtypeDist": {
+      "single": 30,
+      "multi": 15,
+      "numeric": 20,
+      "judge": 10,
+      "application": 25
+    },
+    "diffDist": {
+      "1": 35,
+      "2": 40,
+      "3": 25
+    },
+    "idSample": [
+      {
+        "id": "275",
+        "code": "CAND-G2A-001"
+      },
+      {
+        "id": "276",
+        "code": "CAND-G2A-002"
+      },
+      {
+        "id": "277",
+        "code": "CAND-G2A-003"
+      }
+    ]
+  },
+  "errors": [],
+  "endedAt": "2026-10-27T00:43:07.110Z"
+}

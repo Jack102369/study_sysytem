@@ -1,0 +1,553 @@
+[
+  {
+    "id": "CAND-G2A-001",
+    "result": "PASS",
+    "reason": "x in Z, x^2<=4 => |x|<=2 => {-2,-1,0,1,2}; matches A",
+    "derivedAnswer": "A",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-006",
+    "result": "PASS",
+    "reason": "|Acup B|=22+25-12=35; only-one=35-12=23; neither=40-35=5. Rubric 3+3+2=8",
+    "derivedAnswer": "(1) 23; (2) 5",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-007",
+    "result": "PASS",
+    "reason": "a=b implies A-C; 1/a=1/b fails when a=b=0 (undefined). Select D",
+    "derivedAnswer": "D",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-010",
+    "result": "PASS",
+    "reason": "x>0: x+4/x >= 2*sqrt(4)=4, eq at x=2. Min=4 -> B",
+    "derivedAnswer": "B",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-012",
+    "result": "PASS",
+    "reason": "Delta=25-4m=0 => m=25/4; double root x=5/2. Rubric 3+3=6",
+    "derivedAnswer": "(1) m=25/4; (2) x=5/2",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-013",
+    "result": "PASS",
+    "reason": "P=20x-200; 20x-200>=300 => x>=25. Rubric 3+3+2=8; model derived not stem-copied",
+    "derivedAnswer": "(1) P(x)=20x-200; (2) 25 pieces",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-014",
+    "result": "PASS",
+    "reason": "f=(x-2)^2-3; vertex x=2 in [0,3] => min=-3 -> B",
+    "derivedAnswer": "B",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-015",
+    "result": "PASS",
+    "reason": "S=x(24-2x)=24x-2x^2; vertex x=6 in (0,12), S=72. Rubric 3+3+4=10",
+    "derivedAnswer": "(1) S=24x-2x^2; (2) max 72 at x=6",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-016",
+    "result": "PASS",
+    "reason": "Delta=4(k-2)(k+1)>=0; sum 2k>0; prod k+2>0 => k>=2 (k=2: root 2>0). -> B",
+    "derivedAnswer": "B",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-017",
+    "result": "PASS",
+    "reason": "x-1>=0 and x!=3 => [1,3)U(3,+inf) -> B",
+    "derivedAnswer": "B",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-021",
+    "result": "PASS",
+    "reason": "x^3 strictly increasing => f(a)>f(2) <=> a>2 -> A",
+    "derivedAnswer": "A",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-023",
+    "result": "PASS",
+    "reason": "f(0)=1,f(3)=7,sum=8; f(t)=7: t<1 gives t=3 contradiction; t>=1 => t=3. Rubric 3+2+3=8",
+    "derivedAnswer": "(1) 8; (2) t=3",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-024",
+    "result": "PASS",
+    "reason": "f(-x)=(-x)^3 cos(-x)=-x^3 cos x=-f(x); odd -> A",
+    "derivedAnswer": "A",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-026",
+    "result": "PASS",
+    "reason": "Power fn y=x^alpha (coeff 1): only C=y=x^{-1}; A has coeff 2",
+    "derivedAnswer": "C",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-027",
+    "result": "PASS",
+    "reason": "T(8)=400,T(12)=540; 45x<=500 => x<=11, T(11)=495<=500 => max 11. Rubric 3+4+3=10",
+    "derivedAnswer": "(1) 400,540; (2) 11 pieces",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-029",
+    "result": "PASS",
+    "reason": "(-2)^3=-8 => cbrt(-8)=-2 -> A",
+    "derivedAnswer": "A",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-033",
+    "result": "PASS",
+    "reason": "base 0.5 in (0,1) decreasing => 0.5^m>0.5^n <=> m<n -> B",
+    "derivedAnswer": "B",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-035",
+    "result": "PASS",
+    "reason": "log3 18 - log3 2 = log3 9 = 2 -> C",
+    "derivedAnswer": "C",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-037",
+    "result": "PASS",
+    "reason": "log requires argument >0 => (0,+inf) -> B",
+    "derivedAnswer": "B",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-039",
+    "result": "MINOR",
+    "reason": "N(t)=100*1.5^t and t=4 are correct. Rubric 4+4=8 sums OK, but part(2) stem says read the exponent and awards 4/8 for reading the given 1.5^4 — score weight rewards near-copy of stem",
+    "derivedAnswer": "(1) N(t)=100*1.5^t; (2) 4 hours",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": false,
+    "notes": "Answer correct; rubric balance for trivial read-off is polish issue"
+  },
+  {
+    "id": "CAND-G2A-040",
+    "result": "PASS",
+    "reason": "L=10 lg(10^5)=50. Rubric 2+4=6 scores substitution+calc of given dB formula",
+    "derivedAnswer": "L=50",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-041",
+    "result": "PASS",
+    "reason": "t=2^x>0: t^2-5t+4=0 => t=1,4 => x=0,2; two roots -> C",
+    "derivedAnswer": "C",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-043",
+    "result": "PASS",
+    "reason": "150*pi/180=5pi/6 -> A",
+    "derivedAnswer": "A",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-045",
+    "result": "PASS",
+    "reason": "l=r*theta=6*(2pi/3)=4pi; S=0.5*r^2*theta=12pi. Rubric 4+4=8",
+    "derivedAnswer": "(1) 4pi; (2) 12pi",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-046",
+    "result": "PASS",
+    "reason": "r=5; sin=y/r=-4/5 -> A",
+    "derivedAnswer": "A",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-049",
+    "result": "PASS",
+    "reason": "fundamental period of sin x is 2pi -> B",
+    "derivedAnswer": "B",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-051",
+    "result": "PASS",
+    "reason": "acute: sin=4/5; cos2a=2*(9/25)-1=-7/25. Rubric 3+5=8",
+    "derivedAnswer": "(1) 4/5; (2) -7/25",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-053",
+    "result": "PASS",
+    "reason": "A=3, T=2pi/2=pi; y(0)=3sin(-pi/3)=-3sqrt(3)/2. Rubric 2+4+4=10",
+    "derivedAnswer": "(1) amp 3, T=pi; (2) -3sqrt(3)/2",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-055",
+    "result": "PASS",
+    "reason": "d=h, d-20=h/sqrt(3) => h-h/sqrt(3)=20; h=20sqrt(3)/(sqrt(3)-1)=10(3+sqrt(3)). Rubric 4+4+4=12",
+    "derivedAnswer": "(1) h-h/sqrt(3)=20; (2) 10(3+sqrt(3))",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-057",
+    "result": "PASS",
+    "reason": "tan strictly increasing on (-pi/2,pi/2); no max -> A",
+    "derivedAnswer": "A",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-058",
+    "result": "PASS",
+    "reason": "omega=2pi/T=pi/2; s=5sin(pi t/2); s(1)=5. Rubric 3+3+4=10",
+    "derivedAnswer": "(1) omega=pi/2, s=5sin(pi t/2); (2) 5",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-059",
+    "result": "PASS",
+    "reason": "displacement has magnitude and direction; others scalars -> A",
+    "derivedAnswer": "A",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-062",
+    "result": "PASS",
+    "reason": "parallelogram diagonal from common origin is a+b -> A",
+    "derivedAnswer": "A",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-065",
+    "result": "PASS",
+    "reason": "cos theta=(a·b)/(|a||b|)=1/sqrt(2) => theta=45 deg -> B",
+    "derivedAnswer": "B",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-066",
+    "result": "PASS",
+    "reason": "scalar proj a·e=3; proj vec=(3,0). Rubric 4+4=8",
+    "derivedAnswer": "scalar proj 3; proj vector (3,0)",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-067",
+    "result": "PASS",
+    "reason": "plane basis: two non-collinear vectors; no need perp/equal/unit -> C",
+    "derivedAnswer": "C",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-070",
+    "result": "PASS",
+    "reason": "|s|=sqrt(36+64)=10; from east: east-by-north arctan(4/3) (=north-by-east arctan(3/4)). Rubric 4+4=8",
+    "derivedAnswer": "10 km; east-by-north arctan(4/3)",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-071",
+    "result": "PASS",
+    "reason": "DE=AE-AD=0.5(c-b)=0.5 BC => parallel and half. Rubric 3+4+3=10 requires derivation",
+    "derivedAnswer": "DE || BC and DE=1/2 BC",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-073",
+    "result": "PASS",
+    "reason": "a=3,b=-2 => a+b=1 -> A",
+    "derivedAnswer": "A",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-074",
+    "result": "PASS",
+    "reason": "(2-i)(1-i)/2=(1-3i)/2=1/2-(3/2)i. Rubric 3+3+2=8",
+    "derivedAnswer": "1/2 - (3/2)i",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-076",
+    "result": "PASS",
+    "reason": "r=sqrt(2), arg=pi/4 => sqrt(2)(cos pi/4 + i sin pi/4) -> A",
+    "derivedAnswer": "A",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-079",
+    "result": "PASS",
+    "reason": "oblique axonometric: segments || y-axis scaled to 1/2 -> B",
+    "derivedAnswer": "B",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-081",
+    "result": "PASS",
+    "reason": "S=sqrt(3)/4*36=9sqrt(3); V=1/3*9sqrt(3)*4=12sqrt(3). Rubric 4+4=8",
+    "derivedAnswer": "V=12sqrt(3)",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-082",
+    "result": "PASS",
+    "reason": "V_cyl=72pi, V_ball=36pi, rem=36pi; diam 6 < h=8 fits. Rubric 3+3+2=8",
+    "derivedAnswer": "36pi",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-083",
+    "result": "PASS",
+    "reason": "parallel-to-same => mutual parallel (parallel axiom corollary) -> C",
+    "derivedAnswer": "C",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-086",
+    "result": "PASS",
+    "reason": "E(0,0,c/2),F(a,b,c/2) => EF=AC || AC in base, E not in base => EF || plane. Rubric 4+3+3=10",
+    "derivedAnswer": "EF || plane ABCD",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-087",
+    "result": "PASS",
+    "reason": "line perp plane => perp every line in plane (intersecting or skew) -> C",
+    "derivedAnswer": "C",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-088",
+    "result": "PASS",
+    "reason": "AB1·A1B=0, AB1·BC=0 with A1B intersect BC=B in plane => AB1 perp plane. Rubric 4+4+2=10",
+    "derivedAnswer": "AB1 perp plane A1BC",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-091",
+    "result": "PASS",
+    "reason": "SRS: each individual equal selection probability -> B",
+    "derivedAnswer": "B",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-093",
+    "result": "PASS",
+    "reason": "mean=430/5=86; sum d^2=120; s^2=120/5=24 (div by n as stated). Rubric 3+5=8",
+    "derivedAnswer": "mean=86, s^2=24",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-095",
+    "result": "PASS",
+    "reason": "fair coin: {H,T}, 2 outcomes -> B",
+    "derivedAnswer": "B",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-096",
+    "result": "PASS",
+    "reason": "C(7,2)=21; C(4,1)C(3,1)=12; P=12/21=4/7. Rubric 3+3+2=8",
+    "derivedAnswer": "4/7",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-098",
+    "result": "PASS",
+    "reason": "C(2,1)*(0.8)*(0.2)=0.32. Rubric 3+5=8",
+    "derivedAnswer": "0.32",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  },
+  {
+    "id": "CAND-G2A-099",
+    "result": "PASS",
+    "reason": "large-n frequency stabilizes near probability -> B",
+    "derivedAnswer": "B",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": null
+  },
+  {
+    "id": "CAND-G2A-100",
+    "result": "PASS",
+    "reason": "fair coin P=0.5; LLN: large n => frequency near probability. Rubric 2+4=6",
+    "derivedAnswer": "LLN: frequency stabilizes at probability 0.5",
+    "authorAnswerMatch": true,
+    "scopeOk": true,
+    "kpMethodOk": true,
+    "rubricOk": true
+  }
+]

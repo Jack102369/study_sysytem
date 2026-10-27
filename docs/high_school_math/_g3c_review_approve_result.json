@@ -1,0 +1,3593 @@
+{
+  "phase": "HS-MATH-BANK-GLOBAL-3C-REVIEW-APPROVE",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "startedAt": "2026-10-27T02:21:17.406Z",
+  "decision": "BATCH_IMPORT_APPROVE_PASS",
+  "pre": {
+    "g3a": 100,
+    "drawable": 213,
+    "sessions": 133,
+    "sessionItems": 357,
+    "oldApprovedNonBatch": 213
+  },
+  "review": {
+    "passed": 100,
+    "rejected": 0,
+    "skipped": 0,
+    "perItem": [
+      {
+        "code": "CAND-G3A-001",
+        "itemId": "375",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=B",
+          "OK:KP rja.1.1.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "4ffd9b7c5fec0b3a"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "240"
+      },
+      {
+        "code": "CAND-G3A-002",
+        "itemId": "376",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,B,C",
+          "OK:KP rja.1.2.01",
+          "OK:method classification",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "e46a2cf365f6417d"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "241"
+      },
+      {
+        "code": "CAND-G3A-003",
+        "itemId": "377",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=judge",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:judge=true",
+          "OK:KP rja.1.4.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "0743faa28d1ae666"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "242"
+      },
+      {
+        "code": "CAND-G3A-004",
+        "itemId": "378",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=4",
+          "OK:KP rja.1.3.04",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "8cbd04296d0969fa"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "243"
+      },
+      {
+        "code": "CAND-G3A-005",
+        "itemId": "379",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=8",
+          "OK:rubric fields",
+          "OK:KP rja.1.3.01",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "18b8b65df49301ef"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "244"
+      },
+      {
+        "code": "CAND-G3A-006",
+        "itemId": "380",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=B",
+          "OK:KP rja.1.5.03",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "ba4035ac0750d7b5"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "245"
+      },
+      {
+        "code": "CAND-G3A-007",
+        "itemId": "381",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=C",
+          "OK:KP rja.2.1.02",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "2ff321430b1bfe72"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "246"
+      },
+      {
+        "code": "CAND-G3A-008",
+        "itemId": "382",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=judge",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:judge=false",
+          "OK:KP rja.2.1.01",
+          "OK:method classification",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "479393971e6cb2e1"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "247"
+      },
+      {
+        "code": "CAND-G3A-009",
+        "itemId": "383",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=6",
+          "OK:KP rja.2.2.01",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "c63e1345dc9b6acd"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "248"
+      },
+      {
+        "code": "CAND-G3A-010",
+        "itemId": "384",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=B",
+          "OK:KP rja.2.2.02",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "c4cf53a6cb2bdc2c"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "249"
+      },
+      {
+        "code": "CAND-G3A-011",
+        "itemId": "385",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,B,D",
+          "OK:KP rja.2.3.02",
+          "OK:method classification",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "51f6a43d74b56450"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "250"
+      },
+      {
+        "code": "CAND-G3A-012",
+        "itemId": "386",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=9",
+          "OK:KP rja.2.3.01",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "287420ff1f94ff36"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "251"
+      },
+      {
+        "code": "CAND-G3A-013",
+        "itemId": "387",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=10",
+          "OK:rubric fields",
+          "OK:KP rja.2.3.03",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "46d406a502e932ee"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "252"
+      },
+      {
+        "code": "CAND-G3A-014",
+        "itemId": "388",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=8",
+          "OK:rubric fields",
+          "OK:KP rja.2.2.04",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "08c25f3ac24597b3"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "253"
+      },
+      {
+        "code": "CAND-G3A-015",
+        "itemId": "389",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=B",
+          "OK:KP rja.2.3.04",
+          "OK:method mono_analysis",
+          "OK:source original",
+          "OK:no unexpected diag",
+          "OK:CAND-G3A-015 difficulty ok"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "0793b5965be02f2e"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "254"
+      },
+      {
+        "code": "CAND-G3A-016",
+        "itemId": "390",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=10",
+          "OK:rubric fields",
+          "OK:KP rja.2.3.05",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "c1b91baaa999b3d9"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "255"
+      },
+      {
+        "code": "CAND-G3A-017",
+        "itemId": "391",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=C",
+          "OK:KP rja.3.1.02",
+          "OK:method domain_symmetry",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "57d7594e6b757226"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "256"
+      },
+      {
+        "code": "CAND-G3A-018",
+        "itemId": "392",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=3",
+          "OK:KP rja.3.1.09",
+          "OK:method special_value",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "172c0854a2eda487"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "257"
+      },
+      {
+        "code": "CAND-G3A-019",
+        "itemId": "393",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,C",
+          "OK:KP rja.3.1.05",
+          "OK:method classification",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "01c436c259c167f4"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "258"
+      },
+      {
+        "code": "CAND-G3A-020",
+        "itemId": "394",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=judge",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:judge=true",
+          "OK:KP rja.3.2.01",
+          "OK:method mono_analysis",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "776a7a45d75c1825"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "259"
+      },
+      {
+        "code": "CAND-G3A-021",
+        "itemId": "395",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=B",
+          "OK:KP rja.3.2.03",
+          "OK:method mono_analysis",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "4b856ec874ab6b4c"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "260"
+      },
+      {
+        "code": "CAND-G3A-022",
+        "itemId": "396",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=A",
+          "OK:KP rja.3.2.10",
+          "OK:method parity_apply",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "3281dc592d8a1e16"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "261"
+      },
+      {
+        "code": "CAND-G3A-023",
+        "itemId": "397",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=-5",
+          "OK:KP rja.3.2.12",
+          "OK:method parity_apply",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "33d24e6382ce9019"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "262"
+      },
+      {
+        "code": "CAND-G3A-024",
+        "itemId": "398",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=C",
+          "OK:KP rja.3.3.04",
+          "OK:method mono_analysis",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "fc7f0bd1cd79485d"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "263"
+      },
+      {
+        "code": "CAND-G3A-025",
+        "itemId": "399",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,B,D",
+          "OK:KP rja.3.3.05",
+          "OK:method parity_apply",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "44b9fce2167c91e0"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "264"
+      },
+      {
+        "code": "CAND-G3A-026",
+        "itemId": "400",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=10",
+          "OK:rubric fields",
+          "OK:KP rja.3.2.12",
+          "OK:method parity_apply",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "ff3268087d743bdd"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "265"
+      },
+      {
+        "code": "CAND-G3A-027",
+        "itemId": "401",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=8",
+          "OK:rubric fields",
+          "OK:KP rja.3.4.04",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag",
+          "OK:CAND-G3A-027 difficulty ok"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "57f2085a234d8ec8"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "266"
+      },
+      {
+        "code": "CAND-G3A-028",
+        "itemId": "402",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=12",
+          "OK:rubric fields",
+          "OK:KP rja.3.2.08",
+          "OK:method mono_analysis",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "4dbe3dde4c5a66e5"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "267"
+      },
+      {
+        "code": "CAND-G3A-029",
+        "itemId": "403",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=C",
+          "OK:KP rja.4.1.02",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "5f1547f4105804a7"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "268"
+      },
+      {
+        "code": "CAND-G3A-030",
+        "itemId": "404",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=4",
+          "OK:KP rja.4.1.03",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "701fea23dacf682d"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "269"
+      },
+      {
+        "code": "CAND-G3A-031",
+        "itemId": "405",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=A",
+          "OK:KP rja.4.2.02",
+          "OK:method mono_analysis",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "ea73f671fd9a6367"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "270"
+      },
+      {
+        "code": "CAND-G3A-032",
+        "itemId": "406",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=2",
+          "OK:KP rja.4.2.03",
+          "OK:method substitution",
+          "OK:source original",
+          "OK:no unexpected diag",
+          "OK:CAND-G3A-032 difficulty ok"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "cca511b4056cbe46"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "271"
+      },
+      {
+        "code": "CAND-G3A-033",
+        "itemId": "407",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=judge",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:judge=true",
+          "OK:KP rja.4.3.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "67f758460cfc88e5"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "272"
+      },
+      {
+        "code": "CAND-G3A-034",
+        "itemId": "408",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=B",
+          "OK:KP rja.4.3.02",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "02ba0e43ffb52d52"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "273"
+      },
+      {
+        "code": "CAND-G3A-035",
+        "itemId": "409",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=2",
+          "OK:KP rja.4.3.03",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "9c3502796a0575eb"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "274"
+      },
+      {
+        "code": "CAND-G3A-036",
+        "itemId": "410",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,B,D",
+          "OK:KP rja.4.4.02",
+          "OK:method mono_analysis",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "9cc90b4457aa4153"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "275"
+      },
+      {
+        "code": "CAND-G3A-037",
+        "itemId": "411",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=B",
+          "OK:KP rja.4.4.03",
+          "OK:method graph_symmetry",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "bddcffe9afa384c8"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "276"
+      },
+      {
+        "code": "CAND-G3A-038",
+        "itemId": "412",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=A",
+          "OK:KP rja.4.2.04",
+          "OK:method graph_symmetry",
+          "OK:source original",
+          "OK:no unexpected diag",
+          "OK:CAND-G3A-038 difficulty ok"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "b7f896abb9ea72fb"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "277"
+      },
+      {
+        "code": "CAND-G3A-039",
+        "itemId": "413",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=10",
+          "OK:rubric fields",
+          "OK:KP rja.4.5.04",
+          "OK:method special_value",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "fc27ec181cda92ca"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "278"
+      },
+      {
+        "code": "CAND-G3A-040",
+        "itemId": "414",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=8",
+          "OK:rubric fields",
+          "OK:KP rja.4.5.02",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "7290986ef8e3e467"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "279"
+      },
+      {
+        "code": "CAND-G3A-041",
+        "itemId": "415",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=3",
+          "OK:KP rja.4.3.04",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag",
+          "OK:CAND-G3A-041 difficulty ok"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "a6ad727d9bc05907"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "280"
+      },
+      {
+        "code": "CAND-G3A-042",
+        "itemId": "416",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=10",
+          "OK:rubric fields",
+          "OK:KP rja.4.5.03",
+          "OK:method mono_analysis",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "84ea1bf8e079d51e"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "281"
+      },
+      {
+        "code": "CAND-G3A-043",
+        "itemId": "417",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=A",
+          "OK:KP rja.5.1.02",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "9bc680e4a90d71c9"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "282"
+      },
+      {
+        "code": "CAND-G3A-044",
+        "itemId": "418",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=11",
+          "OK:KP rja.5.1.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "cf71b4696c7739e3"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "283"
+      },
+      {
+        "code": "CAND-G3A-045",
+        "itemId": "419",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=8",
+          "OK:rubric fields",
+          "OK:KP rja.5.1.03",
+          "OK:method special_value",
+          "OK:source original",
+          "OK:no unexpected diag",
+          "OK:045 perimeter+area",
+          "OK:045 d=2"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "4d05c6a72faee393"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "284"
+      },
+      {
+        "code": "CAND-G3A-046",
+        "itemId": "420",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=A",
+          "OK:KP rja.5.2.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "0622f0cba9c8b597"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "285"
+      },
+      {
+        "code": "CAND-G3A-047",
+        "itemId": "421",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,B",
+          "OK:KP rja.5.2.02",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "e797d20ddaf2bcfa"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "286"
+      },
+      {
+        "code": "CAND-G3A-048",
+        "itemId": "422",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=-0.5",
+          "OK:KP rja.5.3.01",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:diag sha match",
+          "OK:cv=2"
+        ],
+        "panel": {
+          "cv": 2,
+          "fpPrefix": "90cce7cc9e4c850a"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "287"
+      },
+      {
+        "code": "CAND-G3A-049",
+        "itemId": "423",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=A",
+          "OK:KP rja.5.4.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "5067525ea2ebad78"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "288"
+      },
+      {
+        "code": "CAND-G3A-050",
+        "itemId": "424",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=judge",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:judge=true",
+          "OK:KP rja.5.4.02",
+          "OK:method parity_apply",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "2b48ec86a2df4845"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "289"
+      },
+      {
+        "code": "CAND-G3A-051",
+        "itemId": "425",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=8",
+          "OK:rubric fields",
+          "OK:KP rja.5.5.02",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "04272f6516950514"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "290"
+      },
+      {
+        "code": "CAND-G3A-052",
+        "itemId": "426",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,B,C,D",
+          "OK:KP rja.5.5.01",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "908aab64df0081b7"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "291"
+      },
+      {
+        "code": "CAND-G3A-053",
+        "itemId": "427",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=10",
+          "OK:rubric fields",
+          "OK:KP rja.5.6.01",
+          "OK:method special_value",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "8c22d95495b8aa4e"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "292"
+      },
+      {
+        "code": "CAND-G3A-054",
+        "itemId": "428",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,C",
+          "OK:KP rja.5.6.02",
+          "OK:method graph_symmetry",
+          "OK:source original",
+          "OK:no unexpected diag",
+          "OK:CAND-G3A-054 difficulty ok"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "cdca7439ac9bdd81"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "293"
+      },
+      {
+        "code": "CAND-G3A-055",
+        "itemId": "429",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=12",
+          "OK:rubric fields",
+          "OK:KP rja.5.7.03",
+          "OK:method special_value",
+          "OK:source original",
+          "OK:diag sha match",
+          "OK:cv=2",
+          "OK:055 SSA two solutions",
+          "OK:055 d=3"
+        ],
+        "panel": {
+          "cv": 2,
+          "fpPrefix": "085151da7a4f7143"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "294"
+      },
+      {
+        "code": "CAND-G3A-056",
+        "itemId": "430",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=13",
+          "OK:KP rja.5.5.03",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag",
+          "OK:CAND-G3A-056 difficulty ok"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "b9f3a60dcb32944a"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "295"
+      },
+      {
+        "code": "CAND-G3A-057",
+        "itemId": "431",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=A",
+          "OK:KP rja.5.3.02",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "f556e6f8619cd800"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "296"
+      },
+      {
+        "code": "CAND-G3A-058",
+        "itemId": "432",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=8",
+          "OK:rubric fields",
+          "OK:KP rja.5.7.02",
+          "OK:method special_value",
+          "OK:source original",
+          "OK:no unexpected diag",
+          "OK:CAND-G3A-058 difficulty ok"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "2e18063381a455f2"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "297"
+      },
+      {
+        "code": "CAND-G3A-059",
+        "itemId": "433",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=C",
+          "OK:KP rjb.6.1.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "7363e0c686e12a7b"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "298"
+      },
+      {
+        "code": "CAND-G3A-060",
+        "itemId": "434",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=judge",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:judge=true",
+          "OK:KP rjb.6.1.02",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "e37dc724de6448df"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "299"
+      },
+      {
+        "code": "CAND-G3A-061",
+        "itemId": "435",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=10",
+          "OK:KP rjb.6.1.02",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "0debd673c0554b3f"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "300"
+      },
+      {
+        "code": "CAND-G3A-062",
+        "itemId": "436",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=C",
+          "OK:KP rjb.6.2.05",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "29f60d1f0431f020"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "301"
+      },
+      {
+        "code": "CAND-G3A-063",
+        "itemId": "437",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,B,C",
+          "OK:KP rjb.6.1.03",
+          "OK:method classification",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "afa2f67320622c95"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "302"
+      },
+      {
+        "code": "CAND-G3A-064",
+        "itemId": "438",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=2",
+          "OK:KP rjb.6.2.02",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "a8e3a7828e3e4e34"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "303"
+      },
+      {
+        "code": "CAND-G3A-065",
+        "itemId": "439",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=B",
+          "OK:KP rjb.6.2.03",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "1499881066d3f081"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "304"
+      },
+      {
+        "code": "CAND-G3A-066",
+        "itemId": "440",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=3",
+          "OK:KP rjb.6.2.04",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "0ec74e97146911da"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "305"
+      },
+      {
+        "code": "CAND-G3A-067",
+        "itemId": "441",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,D",
+          "OK:KP rjb.6.3.01",
+          "OK:method classification",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "4b09a0611a25cde0"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "306"
+      },
+      {
+        "code": "CAND-G3A-068",
+        "itemId": "442",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=10",
+          "OK:rubric fields",
+          "OK:KP rjb.6.4.04",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:diag sha match",
+          "OK:cv=2"
+        ],
+        "panel": {
+          "cv": 2,
+          "fpPrefix": "d8eb88957e5c3d86"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "307"
+      },
+      {
+        "code": "CAND-G3A-069",
+        "itemId": "443",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=8",
+          "OK:rubric fields",
+          "OK:KP rjb.6.3.02",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "e20c8649cab71f79"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "308"
+      },
+      {
+        "code": "CAND-G3A-070",
+        "itemId": "444",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=judge",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:judge=true",
+          "OK:KP rjb.6.4.03",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "8a99eb9bf953ad6e"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "309"
+      },
+      {
+        "code": "CAND-G3A-071",
+        "itemId": "445",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=B",
+          "OK:KP rjb.6.3.03",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "a8e6da75ddc4c8bb"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "310"
+      },
+      {
+        "code": "CAND-G3A-072",
+        "itemId": "446",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=10",
+          "OK:rubric fields",
+          "OK:KP rjb.6.4.01",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "12c6eb3522cae2ef"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "311"
+      },
+      {
+        "code": "CAND-G3A-073",
+        "itemId": "447",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=B",
+          "OK:KP rjb.7.1.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "754d1dc0b95b7d38"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "312"
+      },
+      {
+        "code": "CAND-G3A-074",
+        "itemId": "448",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=judge",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:judge=true",
+          "OK:KP rjb.7.2.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "47e2f25b58f4c1f9"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "313"
+      },
+      {
+        "code": "CAND-G3A-075",
+        "itemId": "449",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=13",
+          "OK:KP rjb.7.3.01",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "6850e303c4ce8ece"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "314"
+      },
+      {
+        "code": "CAND-G3A-076",
+        "itemId": "450",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=8",
+          "OK:rubric fields",
+          "OK:KP rjb.7.2.01",
+          "OK:method equiv_transform",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "bdbb4f11525649de"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "315"
+      },
+      {
+        "code": "CAND-G3A-077",
+        "itemId": "451",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=C",
+          "OK:KP rjb.8.1.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "483458c726e285fe"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "316"
+      },
+      {
+        "code": "CAND-G3A-078",
+        "itemId": "452",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=B",
+          "OK:KP rjb.8.2.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "d18a1599ec8d0d0b"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "317"
+      },
+      {
+        "code": "CAND-G3A-079",
+        "itemId": "453",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=36",
+          "OK:KP rjb.8.3.01",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "225bda8f8134c68f"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "318"
+      },
+      {
+        "code": "CAND-G3A-080",
+        "itemId": "454",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=8",
+          "OK:rubric fields",
+          "OK:KP rjb.8.3.03",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:diag sha match",
+          "OK:cv=2"
+        ],
+        "panel": {
+          "cv": 2,
+          "fpPrefix": "77ae0b49b37dda00"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "319"
+      },
+      {
+        "code": "CAND-G3A-081",
+        "itemId": "455",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=10",
+          "OK:rubric fields",
+          "OK:KP rjb.8.3.02",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:diag sha match",
+          "OK:cv=2"
+        ],
+        "panel": {
+          "cv": 2,
+          "fpPrefix": "7cbce1613a464451"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "320"
+      },
+      {
+        "code": "CAND-G3A-082",
+        "itemId": "456",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,B,D",
+          "OK:KP rjb.8.1.01",
+          "OK:method classification",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "65d5c94094be279d"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "321"
+      },
+      {
+        "code": "CAND-G3A-083",
+        "itemId": "457",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=A",
+          "OK:KP rjb.8.4.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "8d418ff4098697ad"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "322"
+      },
+      {
+        "code": "CAND-G3A-084",
+        "itemId": "458",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=judge",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:judge=false",
+          "OK:KP rjb.8.5.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag",
+          "OK:084 false"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "ca4cf87240cb5314"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "323"
+      },
+      {
+        "code": "CAND-G3A-085",
+        "itemId": "459",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=10",
+          "OK:rubric fields",
+          "OK:KP rjb.8.6.02",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:diag sha match",
+          "OK:cv=2"
+        ],
+        "panel": {
+          "cv": 2,
+          "fpPrefix": "900893dbc712cff0"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "324"
+      },
+      {
+        "code": "CAND-G3A-086",
+        "itemId": "460",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=8",
+          "OK:rubric fields",
+          "OK:KP rjb.8.4.01",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:diag sha match",
+          "OK:cv=2"
+        ],
+        "panel": {
+          "cv": 2,
+          "fpPrefix": "b114e4d6d766ba68"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "325"
+      },
+      {
+        "code": "CAND-G3A-087",
+        "itemId": "461",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,C",
+          "OK:KP rjb.8.5.02",
+          "OK:method classification",
+          "OK:source original",
+          "OK:no unexpected diag",
+          "OK:CAND-G3A-087 difficulty ok"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "b0a46614a74a95d9"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "326"
+      },
+      {
+        "code": "CAND-G3A-088",
+        "itemId": "462",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=C",
+          "OK:KP rjb.8.6.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "e92b0783094e2708"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "327"
+      },
+      {
+        "code": "CAND-G3A-089",
+        "itemId": "463",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,B,D",
+          "OK:KP rjb.8.6.02",
+          "OK:method classification",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "c61c610c78eb4887"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "328"
+      },
+      {
+        "code": "CAND-G3A-090",
+        "itemId": "464",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=20",
+          "OK:KP rjb.8.3.01",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "9d53f5b9025169f2"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "329"
+      },
+      {
+        "code": "CAND-G3A-091",
+        "itemId": "465",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=C",
+          "OK:KP rjb.9.1.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "a41fc7a66a3cfdc8"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "330"
+      },
+      {
+        "code": "CAND-G3A-092",
+        "itemId": "466",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,B",
+          "OK:KP rjb.9.1.01",
+          "OK:method classification",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "9077f2aee7c61011"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "331"
+      },
+      {
+        "code": "CAND-G3A-093",
+        "itemId": "467",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=8",
+          "OK:rubric fields",
+          "OK:KP rjb.9.2.01",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag",
+          "OK:CAND-G3A-093 difficulty ok"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "5f4ab780cb98bd46"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "332"
+      },
+      {
+        "code": "CAND-G3A-094",
+        "itemId": "468",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=judge",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:judge=true",
+          "OK:KP rjb.9.3.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "f46b9bce95a9061d"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "333"
+      },
+      {
+        "code": "CAND-G3A-095",
+        "itemId": "469",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=C",
+          "OK:KP rjb.10.1.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "c57a0f5beb97ed02"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "334"
+      },
+      {
+        "code": "CAND-G3A-096",
+        "itemId": "470",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=1",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=3/5",
+          "OK:KP rjb.10.1.02",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "4a1d9e038bd39788"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "335"
+      },
+      {
+        "code": "CAND-G3A-097",
+        "itemId": "471",
+        "deep": true,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=numeric",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:numeric=1/3",
+          "OK:KP rjb.10.2.01",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag",
+          "OK:097 =1/3"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "30318f84f53e62aa"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "336"
+      },
+      {
+        "code": "CAND-G3A-098",
+        "itemId": "472",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=multi",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:multi=A,B,D",
+          "OK:KP rjb.10.2.01",
+          "OK:method classification",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "e3e8227ffc26505a"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "337"
+      },
+      {
+        "code": "CAND-G3A-099",
+        "itemId": "473",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=2",
+          "OK:qtype=single",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:single=B",
+          "OK:KP rjb.10.3.01",
+          "OK:method defn",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "8a3c6b5dc086a163"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "338"
+      },
+      {
+        "code": "CAND-G3A-100",
+        "itemId": "474",
+        "deep": false,
+        "mathDecision": "passed",
+        "reasons": [
+          "OK:formal+draft",
+          "OK:stem+analysis",
+          "OK:difficulty=3",
+          "OK:qtype=application",
+          "OK:stem matches candidate",
+          "OK:analysis matches candidate",
+          "OK:rubric ok max=8",
+          "OK:rubric fields",
+          "OK:KP rjb.10.1.02",
+          "OK:method num_shape",
+          "OK:source original",
+          "OK:no unexpected diag"
+        ],
+        "panel": {
+          "cv": 1,
+          "fpPrefix": "fb17012ebff4f8e8"
+        },
+        "reviewHttp": 201,
+        "reviewStatus": "passed",
+        "reviewId": "339"
+      }
+    ]
+  },
+  "approve": {
+    "success": 100,
+    "failed": 0,
+    "skipped": 0,
+    "perItem": [
+      {
+        "code": "CAND-G3A-001",
+        "itemId": "375",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-002",
+        "itemId": "376",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-003",
+        "itemId": "377",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-004",
+        "itemId": "378",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-005",
+        "itemId": "379",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-006",
+        "itemId": "380",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-007",
+        "itemId": "381",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-008",
+        "itemId": "382",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-009",
+        "itemId": "383",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-010",
+        "itemId": "384",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-011",
+        "itemId": "385",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-012",
+        "itemId": "386",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-013",
+        "itemId": "387",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-014",
+        "itemId": "388",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-015",
+        "itemId": "389",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-016",
+        "itemId": "390",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-017",
+        "itemId": "391",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-018",
+        "itemId": "392",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-019",
+        "itemId": "393",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-020",
+        "itemId": "394",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-021",
+        "itemId": "395",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-022",
+        "itemId": "396",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-023",
+        "itemId": "397",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-024",
+        "itemId": "398",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-025",
+        "itemId": "399",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-026",
+        "itemId": "400",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-027",
+        "itemId": "401",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-028",
+        "itemId": "402",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-029",
+        "itemId": "403",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-030",
+        "itemId": "404",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-031",
+        "itemId": "405",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-032",
+        "itemId": "406",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-033",
+        "itemId": "407",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-034",
+        "itemId": "408",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-035",
+        "itemId": "409",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-036",
+        "itemId": "410",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-037",
+        "itemId": "411",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-038",
+        "itemId": "412",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-039",
+        "itemId": "413",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-040",
+        "itemId": "414",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-041",
+        "itemId": "415",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-042",
+        "itemId": "416",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-043",
+        "itemId": "417",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-044",
+        "itemId": "418",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-045",
+        "itemId": "419",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-046",
+        "itemId": "420",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-047",
+        "itemId": "421",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-048",
+        "itemId": "422",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 2,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-049",
+        "itemId": "423",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-050",
+        "itemId": "424",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-051",
+        "itemId": "425",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-052",
+        "itemId": "426",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-053",
+        "itemId": "427",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-054",
+        "itemId": "428",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-055",
+        "itemId": "429",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 2,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-056",
+        "itemId": "430",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-057",
+        "itemId": "431",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-058",
+        "itemId": "432",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-059",
+        "itemId": "433",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-060",
+        "itemId": "434",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-061",
+        "itemId": "435",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-062",
+        "itemId": "436",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-063",
+        "itemId": "437",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-064",
+        "itemId": "438",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-065",
+        "itemId": "439",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-066",
+        "itemId": "440",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-067",
+        "itemId": "441",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-068",
+        "itemId": "442",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 2,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-069",
+        "itemId": "443",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-070",
+        "itemId": "444",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-071",
+        "itemId": "445",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-072",
+        "itemId": "446",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-073",
+        "itemId": "447",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-074",
+        "itemId": "448",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-075",
+        "itemId": "449",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-076",
+        "itemId": "450",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-077",
+        "itemId": "451",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-078",
+        "itemId": "452",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-079",
+        "itemId": "453",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-080",
+        "itemId": "454",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 2,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-081",
+        "itemId": "455",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 2,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-082",
+        "itemId": "456",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-083",
+        "itemId": "457",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-084",
+        "itemId": "458",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-085",
+        "itemId": "459",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 2,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-086",
+        "itemId": "460",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 2,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-087",
+        "itemId": "461",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-088",
+        "itemId": "462",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-089",
+        "itemId": "463",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-090",
+        "itemId": "464",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-091",
+        "itemId": "465",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-092",
+        "itemId": "466",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-093",
+        "itemId": "467",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-094",
+        "itemId": "468",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-095",
+        "itemId": "469",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-096",
+        "itemId": "470",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-097",
+        "itemId": "471",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-098",
+        "itemId": "472",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-099",
+        "itemId": "473",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      },
+      {
+        "code": "CAND-G3A-100",
+        "itemId": "474",
+        "http": 200,
+        "status": "approved",
+        "dbStatus": "approved",
+        "dbCv": 1,
+        "ok": true
+      }
+    ]
+  },
+  "post": {
+    "drawable": 313,
+    "g3aApproved": 100,
+    "g3aDraft": 0,
+    "g3aPassedReviews": 100,
+    "oldApprovedNonG2A": 213,
+    "sessions": 133,
+    "sessionItems": 357,
+    "sessionsUnchanged": true,
+    "sessionItemsUnchanged": true,
+    "diagApprovedWithLink": 7,
+    "appApproved": 25,
+    "appRubricOk": 25
+  },
+  "errors": [],
+  "majorFindings": [],
+  "adminUserId": "2",
+  "endedAt": "2026-10-27T02:21:41.489Z"
+}
