@@ -22,150 +22,154 @@
       </div>
     </div>
 
-    <el-card v-if="session" shadow="never" class="summary">
-      <p class="title">
-        <span class="title-text">{{ session.specialtyName }} · {{ session.categoryName }}</span>
-        <el-tag size="small" class="ml">{{ session.difficultyLabel }}</el-tag>
-        <el-tag
-          v-if="session.sessionKind === 'daily'"
-          size="small"
-          type="primary"
-          class="ml"
-        >
-          每日巩固
-        </el-tag>
-        <el-tag
-          v-else-if="session.sessionKind === 'advanced'"
-          size="small"
-          type="warning"
-          class="ml"
-        >
-          提高与挑战
-        </el-tag>
-        <el-tag
-          v-else-if="session.sessionKind === 'wrong_variation'"
-          size="small"
-          type="danger"
-          class="ml"
-        >
-          变式训练
-        </el-tag>
-        <el-tag
-          v-else-if="session.sessionKind === 'wrong_review'"
-          size="small"
-          type="danger"
-          effect="plain"
-          class="ml"
-        >
-          错题复练
-        </el-tag>
-        <el-tag
-          size="small"
-          :type="session.poolMode === 'test' ? 'warning' : 'success'"
-          class="ml"
-        >
-          {{
-            session.poolMode === 'test'
-              ? '试运行（不计入正式统计）'
-              : '正式训练'
-          }}
-        </el-tag>
-      </p>
-      <el-alert
-        v-if="session.sessionKind === 'daily' && session.poolMode === 'test'"
-        type="warning"
-        :closable="false"
-        show-icon
-        title="AI初审题库，尚未完成全部人工学科审核。"
-        style="margin-bottom: 12px"
-      />
-      <el-descriptions :column="2" border class="summary-grid">
-        <el-descriptions-item label="实际题量">{{ session.actualCount }}</el-descriptions-item>
-        <el-descriptions-item label="已答题数">{{ session.answeredCount }}</el-descriptions-item>
-        <el-descriptions-item label="正确">{{ session.correctCount }}</el-descriptions-item>
-        <el-descriptions-item label="错误">{{ session.wrongCount }}</el-descriptions-item>
-        <el-descriptions-item label="待复核">{{ session.pendingCount }}</el-descriptions-item>
-        <el-descriptions-item label="正确率">
-          {{
-            session.accuracyPercent == null
-              ? '—'
-              : session.accuracyPercent + '%'
-          }}
-          <span class="note">{{ session.accuracyNote }}</span>
-        </el-descriptions-item>
-        <el-descriptions-item label="用时">
-          {{ formatDuration(session.durationMs) }}
-          <span class="note">{{ session.durationNote || '开始到提交的经过时间' }}</span>
-        </el-descriptions-item>
-        <el-descriptions-item label="状态">{{ statusText(session.status) }}</el-descriptions-item>
-      </el-descriptions>
-
-      <div v-if="insight" class="insight">
-        <el-alert type="success" :closable="false" :title="insight.reviewTip" />
-        <p v-if="insight.involvedKnowledge.length" class="kp">
-          本次涉及：{{ insight.involvedKnowledge.join('；') }}
-        </p>
-        <p v-if="insight.wrongKnowledge.length" class="kp wrong">
-          本次答错相关：{{ insight.wrongKnowledge.join('；') }}
-        </p>
-      </div>
-
-      <div v-if="nextSteps.length" class="next-steps">
-        <h2>接下来建议</h2>
-        <p class="next-note">建议顺序，非强制；其他学习入口随时可用。</p>
-        <div class="next-list">
-          <el-button
-            v-for="(step, idx) in nextSteps"
-            :key="idx"
-            :type="step.type || 'default'"
-            :plain="step.plain"
-            @click="goStep(step.path)"
+    <div v-if="session" class="result-layout">
+      <el-card shadow="never" class="summary">
+        <p class="title">
+          <span class="title-text">{{ session.specialtyName }} · {{ session.categoryName }}</span>
+          <el-tag size="small" class="ml">{{ session.difficultyLabel }}</el-tag>
+          <el-tag
+            v-if="session.sessionKind === 'daily'"
+            size="small"
+            type="primary"
+            class="ml"
           >
-            {{ step.label }}
-          </el-button>
-        </div>
-      </div>
-    </el-card>
-
-    <el-card v-if="session" shadow="never" class="list">
-      <h2>逐题结果</h2>
-      <div v-for="it in session.items" :key="it.id" class="row">
-        <div class="row-head">
-          <span>第 {{ it.sortOrder }} 题 · {{ qtypeLabel(it.qtype) }}</span>
-          <el-tag size="small" :type="gradeTag(it.gradeResult)">
-            {{ gradeText(it.gradeResult) }}
+            每日巩固
           </el-tag>
-        </div>
-        <p
-          v-if="session.sessionKind === 'advanced' && itemSpecLabel(it)"
-          class="item-spec"
-        >
-          {{ itemSpecLabel(it) }}
-        </p>
-        <p class="stem">{{ displayStem(it) }}</p>
-        <p class="ans-line">
-          你的答案：
-          <span
-            class="user-answer"
-            :class="{ empty: !it.userAnswer, [gradeClass(it.gradeResult)]: !!it.userAnswer }"
+          <el-tag
+            v-else-if="session.sessionKind === 'advanced'"
+            size="small"
+            type="warning"
+            class="ml"
+          >
+            提高与挑战
+          </el-tag>
+          <el-tag
+            v-else-if="session.sessionKind === 'wrong_variation'"
+            size="small"
+            type="danger"
+            class="ml"
+          >
+            变式训练
+          </el-tag>
+          <el-tag
+            v-else-if="session.sessionKind === 'wrong_review'"
+            size="small"
+            type="danger"
+            effect="plain"
+            class="ml"
+          >
+            错题复练
+          </el-tag>
+          <el-tag
+            size="small"
+            :type="session.poolMode === 'test' ? 'warning' : 'success'"
+            class="ml"
           >
             {{
-              it.userAnswer
-                ? displayAnswer(it, it.userAnswer)
-                : '（未作答）'
+              session.poolMode === 'test'
+                ? '试运行（不计入正式统计）'
+                : '正式训练'
             }}
-          </span>
+          </el-tag>
         </p>
-        <p>
-          标准答案：{{
-            it.standardAnswer ? displayAnswer(it, it.standardAnswer) : '—'
-          }}
-        </p>
-        <p v-if="it.gradeReason" class="reason">错误原因：{{ it.gradeReason }}</p>
-        <p v-if="it.analysis" class="ana">解析：</p>
-        <pre v-if="it.analysis" class="ana-pre">{{ it.analysis }}</pre>
+        <el-alert
+          v-if="session.sessionKind === 'daily' && session.poolMode === 'test'"
+          type="warning"
+          :closable="false"
+          show-icon
+          title="AI初审题库，尚未完成全部人工学科审核。"
+          style="margin-bottom: 12px"
+        />
+        <el-descriptions :column="1" border class="summary-grid" size="small">
+          <el-descriptions-item label="实际题量">{{ session.actualCount }}</el-descriptions-item>
+          <el-descriptions-item label="已答题数">{{ session.answeredCount }}</el-descriptions-item>
+          <el-descriptions-item label="正确">{{ session.correctCount }}</el-descriptions-item>
+          <el-descriptions-item label="错误">{{ session.wrongCount }}</el-descriptions-item>
+          <el-descriptions-item label="待复核">{{ session.pendingCount }}</el-descriptions-item>
+          <el-descriptions-item label="正确率">
+            {{
+              session.accuracyPercent == null
+                ? '—'
+                : session.accuracyPercent + '%'
+            }}
+            <span class="note">{{ session.accuracyNote }}</span>
+          </el-descriptions-item>
+          <el-descriptions-item label="用时">
+            {{ formatDuration(session.durationMs) }}
+            <span class="note">{{ session.durationNote || '开始到提交的经过时间' }}</span>
+          </el-descriptions-item>
+          <el-descriptions-item label="状态">{{ statusText(session.status) }}</el-descriptions-item>
+        </el-descriptions>
+
+        <div v-if="insight" class="insight">
+          <el-alert type="success" :closable="false" :title="insight.reviewTip" />
+          <p v-if="insight.involvedKnowledge.length" class="kp">
+            本次涉及：{{ insight.involvedKnowledge.join('；') }}
+          </p>
+          <p v-if="insight.wrongKnowledge.length" class="kp wrong">
+            本次答错相关：{{ insight.wrongKnowledge.join('；') }}
+          </p>
+        </div>
+      </el-card>
+
+      <div class="result-main">
+        <el-card v-if="nextSteps.length" shadow="never" class="next-card">
+          <h2>接下来建议</h2>
+          <p class="next-note">建议顺序，非强制；其他学习入口随时可用。</p>
+          <div class="next-list">
+            <el-button
+              v-for="(step, idx) in nextSteps"
+              :key="idx"
+              :type="step.type || 'default'"
+              :plain="step.plain"
+              @click="goStep(step.path)"
+            >
+              {{ step.label }}
+            </el-button>
+          </div>
+        </el-card>
+
+        <el-card shadow="never" class="list">
+          <h2>逐题结果</h2>
+          <div v-for="it in session.items" :key="it.id" class="row">
+            <div class="row-head">
+              <span>第 {{ it.sortOrder }} 题 · {{ qtypeLabel(it.qtype) }}</span>
+              <el-tag size="small" :type="gradeTag(it.gradeResult)">
+                {{ gradeText(it.gradeResult) }}
+              </el-tag>
+            </div>
+            <p
+              v-if="session.sessionKind === 'advanced' && itemSpecLabel(it)"
+              class="item-spec"
+            >
+              {{ itemSpecLabel(it) }}
+            </p>
+            <p class="stem">{{ displayStem(it) }}</p>
+            <p class="ans-line">
+              你的答案：
+              <span
+                class="user-answer"
+                :class="{ empty: !it.userAnswer, [gradeClass(it.gradeResult)]: !!it.userAnswer }"
+              >
+                {{
+                  it.userAnswer
+                    ? displayAnswer(it, it.userAnswer)
+                    : '（未作答）'
+                }}
+              </span>
+            </p>
+            <p>
+              标准答案：{{
+                it.standardAnswer ? displayAnswer(it, it.standardAnswer) : '—'
+              }}
+            </p>
+            <p v-if="it.gradeReason" class="reason">错误原因：{{ it.gradeReason }}</p>
+            <p v-if="it.analysis" class="ana">解析：</p>
+            <pre v-if="it.analysis" class="ana-pre">{{ it.analysis }}</pre>
+          </div>
+        </el-card>
       </div>
-    </el-card>
+    </div>
   </div>
 </template>
 
@@ -462,10 +466,13 @@ onMounted(() => {
 <style scoped>
 .train-result {
   padding: 16px 20px 24px;
-  max-width: 860px;
+  max-width: 1180px;
   margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
 }
 .toolbar {
   display: flex;
@@ -480,13 +487,41 @@ onMounted(() => {
   margin: 0;
   font-size: 1.2rem;
 }
+.result-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+  gap: 16px;
+  align-items: stretch;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
 .summary {
-  margin-bottom: 16px;
-  flex-shrink: 0;
+  align-self: start;
+  max-height: 100%;
+  overflow: auto;
 }
 .summary :deep(.el-card__body) {
   padding: 16px 18px;
-  overflow: visible;
+}
+.result-main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  height: 100%;
+}
+.next-card {
+  flex-shrink: 0;
+}
+.next-card :deep(.el-card__body) {
+  padding: 14px 16px;
+}
+.next-card h2 {
+  margin: 0 0 6px;
+  font-size: 1rem;
 }
 .title {
   margin: 0 0 14px;
@@ -507,24 +542,15 @@ onMounted(() => {
   width: 100%;
 }
 .summary-grid :deep(.el-descriptions__label) {
-  width: 96px;
+  width: 88px;
   font-weight: 500;
 }
 .summary-grid :deep(.el-descriptions__cell) {
-  padding: 10px 12px;
+  padding: 8px 10px;
   vertical-align: top;
 }
 .insight {
   margin-top: 14px;
-}
-.next-steps {
-  margin-top: 18px;
-  padding-top: 14px;
-  border-top: 1px solid #ebeef5;
-}
-.next-steps h2 {
-  margin: 0 0 6px;
-  font-size: 1rem;
 }
 .next-note {
   margin: 0 0 10px;
@@ -537,17 +563,22 @@ onMounted(() => {
   gap: 8px;
 }
 .list {
-  flex: 1;
-  min-height: 180px;
+  flex: 1 1 0;
+  min-height: 0;
+  height: 100%;
+  max-height: 100%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
 .list :deep(.el-card__body) {
-  flex: 1;
+  flex: 1 1 auto;
   min-height: 0;
-  overflow: auto;
-  padding-bottom: 20px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-bottom: 24px;
+  -webkit-overflow-scrolling: touch;
 }
 .kp {
   margin: 10px 0 0;
@@ -633,6 +664,25 @@ onMounted(() => {
   color: #606266;
   background: #f5f7fa;
   border-radius: 6px;
+}
+@media (max-width: 900px) {
+  .result-layout {
+    grid-template-columns: 1fr;
+    overflow: auto;
+  }
+  .summary {
+    max-height: none;
+  }
+  .result-main {
+    height: auto;
+    overflow: visible;
+  }
+  .list {
+    overflow: visible;
+  }
+  .list :deep(.el-card__body) {
+    overflow: visible;
+  }
 }
 @media (max-width: 640px) {
   .train-result {
