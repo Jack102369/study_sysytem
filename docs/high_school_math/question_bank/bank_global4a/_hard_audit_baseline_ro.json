@@ -1,0 +1,100 @@
+{
+  "phase": "HS-MATH-BANK-HARD-DIFFICULTY-AUDIT-1A",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "exportedAt": "2026-10-28T02:39:43.072Z",
+  "drawableExpected": 813,
+  "drawableActual": 813,
+  "drawableMatch": true,
+  "byDifficulty": [
+    {
+      "difficulty": 1,
+      "n": 291
+    },
+    {
+      "difficulty": 2,
+      "n": 322
+    },
+    {
+      "difficulty": 3,
+      "n": 200
+    }
+  ],
+  "byQtype": [
+    {
+      "qtype": "application",
+      "n": 200
+    },
+    {
+      "qtype": "judge",
+      "n": 88
+    },
+    {
+      "qtype": "multi",
+      "n": 113
+    },
+    {
+      "qtype": "numeric",
+      "n": 160
+    },
+    {
+      "qtype": "single",
+      "n": 252
+    }
+  ],
+  "bySpecialty": [
+    {
+      "specialtyCode": "rja-ch1",
+      "specialtyName": "集合与常用逻辑用语",
+      "n": 46
+    },
+    {
+      "specialtyCode": "rja-ch2",
+      "specialtyName": "一元二次函数、方程和不等式",
+      "n": 78
+    },
+    {
+      "specialtyCode": "rja-ch3",
+      "specialtyName": "函数的概念与性质",
+      "n": 107
+    },
+    {
+      "specialtyCode": "rja-ch4",
+      "specialtyName": "指数函数与对数函数",
+      "n": 110
+    },
+    {
+      "specialtyCode": "rja-ch5",
+      "specialtyName": "三角函数",
+      "n": 128
+    },
+    {
+      "specialtyCode": "rjb-ch1",
+      "specialtyName": "平面向量及其应用",
+      "n": 110
+    },
+    {
+      "specialtyCode": "rjb-ch2",
+      "specialtyName": "复数",
+      "n": 31
+    },
+    {
+      "specialtyCode": "rjb-ch3",
+      "specialtyName": "立体几何初步",
+      "n": 106
+    },
+    {
+      "specialtyCode": "rjb-ch4",
+      "specialtyName": "统计",
+      "n": 41
+    },
+    {
+      "specialtyCode": "rjb-ch5",
+      "specialtyName": "概率",
+      "n": 56
+    }
+  ],
+  "d3Count": 200,
+  "g4aDrawable": 500,
+  "g4aD3": 125,
+  "d3ExportCount": 200
+}
