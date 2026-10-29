@@ -1,0 +1,131 @@
+{
+  "phase": "H3-FORMAL-IMPORT-4H-GATE0",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "ok": true,
+  "errors": [],
+  "startedAt": "2026-10-28T14:18:10.560Z",
+  "gate0": {
+    "fileSha256": "df497f16c24c0b89b06df67b895f4bbdd7e6ca5bca820f29428f2b03b789ff16",
+    "batchContentSha256": "1e51ba93a0e398766d450fbecda3784a93297c0d8c1e5a60856798c655e19635",
+    "recomputedBatch": "1e51ba93a0e398766d450fbecda3784a93297c0d8c1e5a60856798c655e19635",
+    "itemShaCheck": [
+      {
+        "id": "CAND-H3C14-006",
+        "okItem": true,
+        "in2f": true,
+        "in3g": true,
+        "sha2fMatch": true,
+        "contentSha256": "81b28f1490ad8dd8d4c05d17d38bb813da3a268a50328b002635a203a36c9ab3"
+      },
+      {
+        "id": "CAND-H3C14-013",
+        "okItem": true,
+        "in2f": true,
+        "in3g": true,
+        "sha2fMatch": true,
+        "contentSha256": "652d8c81dd66ac2c463231ce4455e81d7318056c57e1dd869507a65276b4247a"
+      },
+      {
+        "id": "CAND-H3C14-014",
+        "okItem": true,
+        "in2f": true,
+        "in3g": true,
+        "sha2fMatch": true,
+        "contentSha256": "89be21ced2dc68531ed83a648d610e6e6737be22a9e59322d1bc9d25814de638"
+      },
+      {
+        "id": "CAND-H3C14-018",
+        "okItem": true,
+        "in2f": true,
+        "in3g": true,
+        "sha2fMatch": true,
+        "contentSha256": "67530024badb41dce8f8da109144f225140a77834f65ece9fb1f23556b00977a"
+      },
+      {
+        "id": "CAND-H3C14-027",
+        "okItem": true,
+        "in2f": true,
+        "in3g": true,
+        "sha2fMatch": true,
+        "contentSha256": "d04c21b8b9312ddbb87480434e144f7d9a4e4219fb6c24078567ce0900d1d533"
+      },
+      {
+        "id": "CAND-H3C14-046",
+        "okItem": true,
+        "in2f": true,
+        "in3g": true,
+        "sha2fMatch": true,
+        "contentSha256": "55592189e50a21c1aea7f54b955f478e97edbe64770f7df70c67b6f41aee1935"
+      },
+      {
+        "id": "CAND-H3C14-047",
+        "okItem": true,
+        "in2f": true,
+        "in3g": true,
+        "sha2fMatch": true,
+        "contentSha256": "5b9b5764776861b47c2af75abfbc3b2e3bc8a8e288b3a2d60eaebc8433fedfe7"
+      },
+      {
+        "id": "CAND-H3C14-060",
+        "okItem": true,
+        "in2f": true,
+        "in3g": true,
+        "sha2fMatch": true,
+        "contentSha256": "a2da1f83cf18f435e9623bb33c7da7b72bea95c5abcaeaeba81e66b7cecad1b2"
+      },
+      {
+        "id": "CAND-H3C14-202",
+        "okItem": true,
+        "in2f": true,
+        "in3g": true,
+        "sha2fMatch": true,
+        "contentSha256": "9c90e2e79c5809ea267193a5010a4d2b32a5e5b7730408fbc152d6ebaa5ed515"
+      },
+      {
+        "id": "CAND-H3C14-211",
+        "okItem": true,
+        "in2f": true,
+        "in3g": true,
+        "sha2fMatch": true,
+        "contentSha256": "7a7d20e7242d0caf156feb4f3db1c286bf0d007311d9bbdefceef64d738d899d"
+      },
+      {
+        "id": "CAND-H3C14-213",
+        "okItem": true,
+        "in2f": true,
+        "in3g": true,
+        "sha2fMatch": true,
+        "contentSha256": "5fcdab4cc8dfdf4ccf88ca6aa553197cfaa85117cea067ad99443726e622baa4"
+      },
+      {
+        "id": "CAND-H3C14-214",
+        "okItem": true,
+        "in2f": true,
+        "in3g": true,
+        "sha2fMatch": true,
+        "contentSha256": "3bc499c5e2becaed73f7743712692454a7a101090728cb69849c5993fd5f3d11"
+      }
+    ],
+    "db": {
+      "drawable": 913,
+      "d1": 335,
+      "d2": 478,
+      "d3": 100,
+      "h3c14": 0,
+      "formalCount": 913,
+      "formalBaselineSha": "6bb9285d5d8dca9951e721e7ef4d3213975e8422b99cf7535fcdca24fa71df64",
+      "sessions": 143,
+      "sessionItems": 381,
+      "diagramLinks": 72,
+      "diagramSnap": 0
+    },
+    "payloadSha256": "df680f9df3928618d95daebf7356103f5ec1754fb6f75b2da06d421dfb8e815b",
+    "payloadCount": 12,
+    "chapter": {
+      "2": 4,
+      "3": 6,
+      "4": 2
+    }
+  },
+  "finishedAt": "2026-10-28T14:18:10.664Z"
+}

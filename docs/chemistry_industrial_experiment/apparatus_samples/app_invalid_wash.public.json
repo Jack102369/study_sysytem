@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_invalid_wash",
+  "apparatusVersion": "1.0.0",
+  "orientation": "left_to_right",
+  "title": "错误样例：洗气瓶未完整连接",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "components": [
+    {
+      "componentId": "gen1",
+      "componentType": "gas_generator",
+      "displayLabel": "发生器",
+      "ports": [
+        {
+          "portId": "reagent_in",
+          "direction": "in",
+          "media": [
+            "liquid",
+            "solid"
+          ]
+        },
+        {
+          "portId": "gas_out",
+          "direction": "out",
+          "media": [
+            "gas"
+          ]
+        }
+      ]
+    },
+    {
+      "componentId": "wash1",
+      "componentType": "gas_washing_bottle",
+      "displayLabel": "洗气瓶",
+      "ports": [
+        {
+          "portId": "gas_in",
+          "direction": "in",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        },
+        {
+          "portId": "gas_out",
+          "direction": "out",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "publicContentHash": "ed3f6505db6f9e5da4dba8ff80bbb9cfae48d4264a0414a1fd26960027319f3f"
+}

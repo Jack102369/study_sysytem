@@ -1,0 +1,16 @@
+{
+  "status": "H3_FIX_204_PASS",
+  "importReady": true,
+  "sha": {
+    "before": {
+      "batchContentSha256": "1e51ba93a0e398766d450fbecda3784a93297c0d8c1e5a60856798c655e19635",
+      "fileSha256": "df497f16c24c0b89b06df67b895f4bbdd7e6ca5bca820f29428f2b03b789ff16"
+    },
+    "after": {
+      "batchContentSha256": "0460dd64b366d2a475a19317153d727968e8b5d94f4d741ab9f67c730fded24c",
+      "fileSha256": "0ae821a5f5fb7007301980b61d2ece8420c20753b7689ab0ce5f6cb713fa9a02"
+    },
+    "only204ContentChanged": true
+  },
+  "contentSha256": "6866fc47f5f500dd2af281642c694a91a8bbfe3fe2ff3d3f609083ee165287b2"
+}

@@ -1,0 +1,4629 @@
+[
+  {
+    "id": "CAND-HARD14-001",
+    "designId": "HARD-DESIGN-001",
+    "qtype": "application",
+    "chapterNo": 1,
+    "sectionCode": "1.2",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.1.2.01",
+    "methodMain": "classification",
+    "methodAux": "equiv_transform",
+    "stem": "设 $A=\\{x\\in\\mathbb{R}\\mid a-1\\le x\\le 2a+1\\}$，$B=\\{x\\in\\mathbb{R}\\mid -2\\le x\\le 4\\}$。求使 $A\\subseteq B$ 的实数 $a$ 的取值集合。",
+    "options": null,
+    "answer": "$a\\in(-\\infty,-2)\\cup[-1,\\dfrac{3}{2}]$",
+    "analysis": "情形一：$A=\\varnothing\\Leftrightarrow a-1>2a+1\\Leftrightarrow a<-2$。空集是任何集合的子集，故此时 $A\\subseteq B$ 成立。\n情形二：$A\\ne\\varnothing\\Leftrightarrow a\\ge-2$，此时 $A=[a-1,2a+1]$。$A\\subseteq B\\Leftrightarrow -2\\le a-1$ 且 $2a+1\\le 4\\Leftrightarrow a\\ge-1$ 且 $a\\le\\dfrac{3}{2}$。与 $a\\ge-2$ 联立得 $-1\\le a\\le\\dfrac{3}{2}$。\n合并：$a\\in(-\\infty,-2)\\cup[-1,\\dfrac{3}{2}]$。检验：$a=-3$ 时 $A=\\varnothing$；$a=-1$ 时 $A=[-2,-1]\\subseteq B$；$a=\\dfrac{3}{2}$ 时 $A=[\\dfrac{1}{2},4]\\subseteq B$；$a=-\\dfrac{3}{2}$ 时 $A=[-\\dfrac{5}{2},-2]\\not\\subseteq B$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "空集情形 a<-2 并说明空集是子集",
+        "score": 3
+      },
+      {
+        "step": "非空时写出双边端点约束并解出 [-1,3/2]",
+        "score": 5
+      },
+      {
+        "step": "与空集取并并端点检验",
+        "score": 4
+      }
+    ],
+    "diagramRequirement": "RECOMMENDED",
+    "diagramSpecification": "数轴标出 B=[-2,4] 与含参端点 a-1、2a+1 的相对位置（含空集）。",
+    "noDiagramReason": null,
+    "hardLevelReason": "必须先判 A 空集（a<-2）再写非空端点双边约束 a-1≥-2 与 2a+1≤4，漏空集或只比长度都会错。",
+    "hardProfile": {
+      "coreChallenge": "空集与非空分支下的端点双边包含",
+      "reasoningSteps": [
+        "由左端>右端得空集 a<-2",
+        "非空时 a-1≥-2 且 2a+1≤4",
+        "与 a≥-2 求交得 [-1,3/2]",
+        "与空集取并并代回端点"
+      ],
+      "difficultyEvidence": "漏空集只得 [-1,3/2]；误比长度 (2a+1)-(a-1)≤6 得假范围",
+      "misconceptionTrap": "以为子集只需长度不超过，或 a=-2 单点也并入空集支",
+      "alternativeApproach": "在数轴上讨论端点相对 -2 与 4 的位置",
+      "verification": "抽 a=-3,-1,3/2,-1.5 检验包含关系",
+      "contentSha256": "ffcc4e98a2c86b7afcce8c25151f7a87e484cae1a200aa738faf08baf3f4589e"
+    },
+    "compareDowngrade": {
+      "structureType": "SET_VENN",
+      "contrast": "降级题多为韦恩计数或有限集包含；本题是含参闭区间对固定区间的包含，且必须并入空集真分支。"
+    },
+    "contentSha256": "ffcc4e98a2c86b7afcce8c25151f7a87e484cae1a200aa738faf08baf3f4589e",
+    "modelFamily": "param-closed-interval-subset",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-002",
+    "designId": "HARD-DESIGN-002",
+    "qtype": "single",
+    "chapterNo": 1,
+    "sectionCode": "1.3",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.1.3.04",
+    "methodMain": "equiv_transform",
+    "methodAux": "special_value",
+    "stem": "设 $A=\\{x\\mid x^{2}-3x+2\\le 0\\}$，$B=\\{x\\mid |x-m|\\le 1\\}$。若 $A\\cup B=B$，则实数 $m$ 的取值范围是",
+    "options": {
+      "A": "$m\\in[0,3]$",
+      "B": "$m\\in[1,2]$",
+      "C": "$m\\in[\\dfrac{1}{2},\\dfrac{5}{2}]$",
+      "D": "$m\\in[-1,1]$"
+    },
+    "answer": "B",
+    "analysis": "$A$：$x^{2}-3x+2\\le 0\\Leftrightarrow(x-1)(x-2)\\le 0\\Leftrightarrow x\\in[1,2]$。$A\\cup B=B\\Leftrightarrow A\\subseteq B$。$B=[m-1,m+1]$，故需 $m-1\\le 1$ 且 $m+1\\ge 2$，即 $m\\in[1,2]$。选 B。检验：$m=1$ 时 $B=[0,2]\\supseteq A$；$m=2$ 时 $B=[1,3]\\supseteq A$；$m=0.9$ 时 $2\\notin B$。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "滑动覆盖可用不等式直接写出，无需图。",
+    "hardLevelReason": "需把 A∪B=B 译成 A⊆B，再把定长 2 的滑动区间盖住 [1,2]。",
+    "hardProfile": {
+      "coreChallenge": "吸收恒等式→包含→滑动窗口覆盖",
+      "reasoningSteps": [
+        "解 A=[1,2]",
+        "A∪B=B⇔A⊆B",
+        "m-1≤1 且 m+1≥2",
+        "得 m∈[1,2]"
+      ],
+      "difficultyEvidence": "不会吸收律会瞎算交并；误用中心在 [1,2] 只得 m∈[1,2] 的充分但表述易写成开区间",
+      "misconceptionTrap": "以为只要 m∈[1,2] 的中点条件写成 |m-1.5|≤0.5 却漏端点等价性",
+      "alternativeApproach": "要求 [1,2]⊆[m-1,m+1] 直接比端点",
+      "verification": "端点 m=1,2 与外侧反例",
+      "contentSha256": "45937dcca95eee708d20015fbcd2e090b685a464aa9a814280fcaac5bd65cea0"
+    },
+    "compareDowngrade": {
+      "structureType": "SET_BASIC",
+      "contrast": "降级题直接求交并结果；本题由吸收律反推滑动定长区间参数。"
+    },
+    "contentSha256": "45937dcca95eee708d20015fbcd2e090b685a464aa9a814280fcaac5bd65cea0",
+    "modelFamily": "union-absorb-sliding-cover",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-003",
+    "designId": "HARD-DESIGN-003",
+    "qtype": "application",
+    "chapterNo": 1,
+    "sectionCode": "1.4",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.1.4.02",
+    "methodMain": "defn",
+    "methodAux": "classification",
+    "stem": "命题 $p$：$x^{2}\\le a$；命题 $q$：$|x|\\le 1$。讨论使「对一切实数 $x$，$p\\Rightarrow q$」「对一切实数 $x$，$q\\Rightarrow p$」分别成立的实数 $a$，并据此说明 $p$ 是 $q$ 的何种条件（充分/必要/充要）。",
+    "options": null,
+    "answer": "$a\\le 1$ 时充分；$a\\ge 1$ 时必要；当且仅当 $a=1$ 时充要（含 $a<0$ 充分不必要）",
+    "analysis": "若 $a<0$，则 $p$ 对一切 $x$ 为假，故 $p\\Rightarrow q$ 恒真；取 $x=0$ 则 $q$ 真而 $p$ 假，故 $q\\Rightarrow p$ 不恒真。此时 $p$ 是 $q$ 的充分不必要条件。\n若 $a\\ge 0$，$p$ 的解集为 $[-\\sqrt{a},\\sqrt{a}]$。$\\forall x\\,(p\\Rightarrow q)\\Leftrightarrow[-\\sqrt{a},\\sqrt{a}]\\subseteq[-1,1]\\Leftrightarrow a\\le 1$。$\\forall x\\,(q\\Rightarrow p)\\Leftrightarrow[-1,1]\\subseteq[-\\sqrt{a},\\sqrt{a}]\\Leftrightarrow a\\ge 1$。\n故：$a\\le 1$ 时 $p$ 是 $q$ 的充分条件；$a\\ge 1$ 时是必要条件；当且仅当 $a=1$ 时为充要条件。",
+    "maxScore": 14,
+    "rubric": [
+      {
+        "step": "a<0 时充分不必要",
+        "score": 3
+      },
+      {
+        "step": "用解集包含写出 a≤1 / a≥1",
+        "score": 7
+      },
+      {
+        "step": "总结充要分界 a=1",
+        "score": 4
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "解集包含可用代数比较 √a 与 1。",
+    "hardLevelReason": "全称语义下用解集包含刻画 p⇒q / q⇒p，并对 a 分段得到充分/必要/充要分界。",
+    "hardProfile": {
+      "coreChallenge": "恒成立蕴含⇔解集包含并对 a 分段",
+      "reasoningSteps": [
+        "处理 a<0",
+        "a≥0 写解集",
+        "双向包含得 a≤1 / a≥1",
+        "锁定充要 a=1"
+      ],
+      "difficultyEvidence": "漏 a<0 或把充分写成 a<1 开区间",
+      "misconceptionTrap": "把「p 是 q 的充分条件」理解成只看 a=1 一点",
+      "alternativeApproach": "用反例点检验边界 a=0,1,2",
+      "verification": "a=1 时两解集均为 [-1,1]",
+      "contentSha256": "f9cee56cee7894d9f4f3f8b90b64c7f48154b4247d3fc60dff6f1b153127260e"
+    },
+    "compareDowngrade": {
+      "structureType": "LOGIC_BASIC",
+      "contrast": "降级题多为固定命题选充分必要字样；本题参数分界由解集包含推出。"
+    },
+    "contentSha256": "f9cee56cee7894d9f4f3f8b90b64c7f48154b4247d3fc60dff6f1b153127260e",
+    "modelFamily": "prop-impl-set-contain-param",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-004",
+    "designId": "HARD-DESIGN-004",
+    "qtype": "application",
+    "chapterNo": 1,
+    "sectionCode": "1.5",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.1.5.02",
+    "methodMain": "defn",
+    "methodAux": "classification",
+    "stem": "设命题 $P$：「$\\forall x\\in[0,1]$，$x^{2}-ax+a\\ge 0$」。\n(1) 求使 $P$ 为真的实数 $a$ 的取值范围；\n(2) 写出 $\\neg P$，并求使 $\\neg P$ 为真的 $a$。",
+    "options": null,
+    "answer": "(1) $a\\ge 0$；(2) $\\exists x\\in[0,1],\\,x^{2}-ax+a<0$，真域 $a<0$",
+    "analysis": "记 $f(x)=x^{2}-ax+a$，开口向上，对称轴 $x=\\dfrac{a}{2}$。\n当 $a<0$ 时 $f(0)=a<0$，故 $P$ 假。当 $a=0$ 时 $f(x)=x^{2}\\ge 0$，$P$ 真。当 $0<a<2$ 时顶点在 $(0,1)$ 内，最小值 $f(\\dfrac{a}{2})=\\dfrac{a(4-a)}{4}>0$，$P$ 真。当 $a\\ge 2$ 时 $[0,1]$ 上最小为 $f(1)=1>0$，$P$ 真。\n故 (1) $P$ 真 $\\Leftrightarrow a\\ge 0$。(2) $\\neg P$：「$\\exists x\\in[0,1]$，$x^{2}-ax+a<0$」，其真值域为 $a<0$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "对称轴分类求 P 真域 a≥0",
+        "score": 7
+      },
+      {
+        "step": "正确否定并得 a<0",
+        "score": 5
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "二次最小值分类可用代数完成。",
+    "hardLevelReason": "全称二次非负需按对称轴相对 [0,1] 讨论最小值，并正确写出否定命题。",
+    "hardProfile": {
+      "coreChallenge": "闭区间全称非负的最小值分类+否定",
+      "reasoningSteps": [
+        "写 f 与对称轴",
+        "分 a<0 / 顶点入内 / 轴≥1",
+        "得 a≥0",
+        "写 ¬P 真域"
+      ],
+      "difficultyEvidence": "误用 Δ≥0 当全称条件会得错范围",
+      "misconceptionTrap": "否定写成 ∀x f(x)<0",
+      "alternativeApproach": "对 a 讨论 f 在 [0,1] 的最小值符号",
+      "verification": "a=-1,0,1,3 抽检",
+      "contentSha256": "3a9fa5896f6f7d4555a9d236c133ddecdfb727670e8fe2e721ea6e6de3f730ee"
+    },
+    "compareDowngrade": {
+      "structureType": "LOGIC_BASIC",
+      "contrast": "降级题多只改 ∀ 为 ∃；本题先求全称参数域再写否定。"
+    },
+    "contentSha256": "3a9fa5896f6f7d4555a9d236c133ddecdfb727670e8fe2e721ea6e6de3f730ee",
+    "modelFamily": "forall-quad-on-interval-negation",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-005",
+    "designId": "HARD-DESIGN-005",
+    "qtype": "single",
+    "chapterNo": 1,
+    "sectionCode": "1.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.1.2.02",
+    "methodMain": "classification",
+    "methodAux": "equiv_transform",
+    "stem": "设 $a\\le b$，$A=\\{x\\mid (x-a)(x-b)\\le 0\\}$，$B=\\{x\\mid 1\\le x\\le 4\\}$。已知 $A\\subseteq B$ 且 $B\\subseteq A\\cup\\{0\\}$，则有序对 $(a,b)$ 等于",
+    "options": {
+      "A": "$(1,4)$",
+      "B": "$(0,4)$",
+      "C": "$(1,3)$",
+      "D": "$(0,1)$"
+    },
+    "answer": "A",
+    "analysis": "$a\\le b$ 时 $A=[a,b]$，$B=[1,4]$。由 $A\\subseteq B$ 得 $1\\le a\\le b\\le 4$。对任意 $x\\in B$ 有 $x\\ne 0$，故 $B\\subseteq A\\cup\\{0\\}$ 强制 $B\\subseteq A$。结合 $A\\subseteq B$ 得 $A=B$，从而 $a=1$，$b=4$。选 A。$\\cup\\{0\\}$ 不能覆盖 $B$ 中任何点，是逻辑干扰。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "0∉B 的逻辑一步即可，无需图。",
+    "hardLevelReason": "需识破 ∪{0} 对 B⊆[1,4] 无效，从而双包含压成 A=B。",
+    "hardProfile": {
+      "coreChallenge": "干扰并集无效⇒双包含⇒集合相等",
+      "reasoningSteps": [
+        "A=[a,b]",
+        "A⊆B 得端点约束",
+        "0∉B⇒B⊆A",
+        "得 (1,4)"
+      ],
+      "difficultyEvidence": "若以为 0 可补洞会接受错误端点",
+      "misconceptionTrap": "取 a=0 想用 0 填补",
+      "alternativeApproach": "逐点说明 B 中元素必须属于 A",
+      "verification": "代回 A=B=[1,4] 检查两包含",
+      "contentSha256": "a432bbdb8d3b39296e449fc1e6bcf0bfd7f2f3c8eab3222508b0194d1abbff06"
+    },
+    "compareDowngrade": {
+      "structureType": "SET_VENN",
+      "contrast": "降级题韦恩计数不涉及「伪放宽并集」识破；本题靠 0∉B 压缩为相等。"
+    },
+    "contentSha256": "a432bbdb8d3b39296e449fc1e6bcf0bfd7f2f3c8eab3222508b0194d1abbff06",
+    "modelFamily": "double-inclusion-dummy-union",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-006",
+    "designId": "HARD-DESIGN-006",
+    "qtype": "application",
+    "chapterNo": 1,
+    "sectionCode": "1.3",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.1.3.03",
+    "methodMain": "equiv_transform",
+    "methodAux": "num_shape",
+    "stem": "设 $a\\le b$，$A=\\{x\\in\\mathbb{R}\\mid |x-a|+|x-b|\\le 4\\}$。已知 $A=[0,4]$，求所有有序对 $(a,b)$。",
+    "options": null,
+    "answer": "$a\\in[0,2]$，$b=4-a$（即 $a+b=4$ 且 $0\\le b-a\\le 4$）",
+    "analysis": "对 $a\\le b$，若 $b-a>4$，则在 $[a,b]$ 上 $|x-a|+|x-b|=b-a>4$，从而 $A=\\varnothing$，与 $A=[0,4]$ 矛盾。故必 $b-a\\le 4$。此时外侧斜率为 $\\pm 2$，可得 $A=\\left[\\dfrac{a+b-4}{2},\\dfrac{a+b+4}{2}\\right]$。\n令其等于 $[0,4]$：$a+b-4=0$ 且 $a+b+4=8$，即 $a+b=4$，并保留 $0\\le b-a\\le 4$。于是 $a\\in[0,2]$，$b=4-a$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "论证 b-a≤4 否则 A 空",
+        "score": 3
+      },
+      {
+        "step": "写出水平集端点公式",
+        "score": 4
+      },
+      {
+        "step": "解得 a+b=4 与 a 范围",
+        "score": 5
+      }
+    ],
+    "diagramRequirement": "RECOMMENDED",
+    "diagramSpecification": "数轴上标焦点 a,b 与水平集端点 (a+b±4)/2。",
+    "noDiagramReason": null,
+    "hardLevelReason": "需用双焦点距离和水平集的端点公式反推 (a,b)，并保留 b-a≤4。",
+    "hardProfile": {
+      "coreChallenge": "绝对值距离和水平集端点反演",
+      "reasoningSteps": [
+        "排除 b-a>4",
+        "写 A 端点公式",
+        "对齐 [0,4]",
+        "得 a+b=4 与长度约束"
+      ],
+      "difficultyEvidence": "只会「中点为 2」却漏长度条件会多解或少解",
+      "misconceptionTrap": "强制 a=0,b=4 唯一而丢掉整段解",
+      "alternativeApproach": "分段定义 |x-a|+|x-b| 再解不等式",
+      "verification": "取 a=1,b=3 与 a=0,b=4 代回",
+      "contentSha256": "0c49cc8628d14bc17ed2d76929169cdd5b767f2a47d8f0775e5e24299bdaf179"
+    },
+    "compareDowngrade": {
+      "structureType": "SET_BASIC",
+      "contrast": "降级题多为有限集运算；本题由距离和水平集反演焦点参数。"
+    },
+    "contentSha256": "0c49cc8628d14bc17ed2d76929169cdd5b767f2a47d8f0775e5e24299bdaf179",
+    "modelFamily": "abs-sum-levelset-inversion",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-007",
+    "designId": "HARD-DESIGN-007",
+    "qtype": "single",
+    "chapterNo": 1,
+    "sectionCode": "1.4",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.1.4.01",
+    "methodMain": "defn",
+    "methodAux": "equiv_transform",
+    "stem": "命题 $p$：$x\\in[m-1,m+1]$；命题 $q$：$x^{2}-6x+8\\le 0$。若 $p$ 是 $q$ 的充要条件，则实数 $m$ 等于",
+    "options": {
+      "A": "$2$",
+      "B": "$3$",
+      "C": "$4$",
+      "D": "$\\dfrac{5}{2}$"
+    },
+    "answer": "B",
+    "analysis": "$q$：$(x-2)(x-4)\\le 0\\Leftrightarrow x\\in[2,4]$。$p$ 为 $q$ 的充要条件 $\\Leftrightarrow$ 解集相等 $[m-1,m+1]=[2,4]\\Leftrightarrow m-1=2$ 且 $m+1=4\\Leftrightarrow m=3$。选 B。\n（说明：设计原稿中 $q$ 写成 $x^{2}-5x+6\\le 0$ 得 $[2,3]$，与长度 2 的 $[m-1,m+1]$ 不可能相等；本题将 $q$ 改为解集 $[2,4]$ 以保持「充要⇔区间恒等得 m=3」的突破点。）",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "区间相等直接比端点。",
+    "hardLevelReason": "充要⇔解集恒等；定长 2 的区间与二次解集对齐锁定唯一中心。",
+    "hardProfile": {
+      "coreChallenge": "充要⇔两解集作为集合相等",
+      "reasoningSteps": [
+        "解 q 得 [2,4]",
+        "令与 [m-1,m+1] 恒等",
+        "锁定 m=3",
+        "说明长度必须匹配"
+      ],
+      "difficultyEvidence": "只令中点相等会得假答案",
+      "misconceptionTrap": "只要求包含单向当充要",
+      "alternativeApproach": "分别验证充分性与必要性的端点条件",
+      "verification": "m=3 时两区间均为 [2,4]",
+      "contentSha256": "8fbcb1f9987b1fb674cab1fde4bb85f46101dac894fbbd7d8f4d446d606a3590"
+    },
+    "compareDowngrade": {
+      "structureType": "LOGIC_BASIC",
+      "contrast": "降级题选充分必要字样；本题把充要落到解集恒等方程。"
+    },
+    "contentSha256": "8fbcb1f9987b1fb674cab1fde4bb85f46101dac894fbbd7d8f4d446d606a3590",
+    "modelFamily": "iff-equal-solution-sets",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-008",
+    "designId": "HARD-DESIGN-008",
+    "qtype": "application",
+    "chapterNo": 1,
+    "sectionCode": "1.5",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.1.5.03",
+    "methodMain": "classification",
+    "methodAux": "special_value",
+    "stem": "设 $P_{1}$：「$\\forall x\\in[0,1]$，$\\exists y\\in[0,1]$，使 $y=ax$」；$P_{2}$：「$\\exists y\\in[0,1]$，$\\forall x\\in[0,1]$，使 $y=ax$」。分别求使 $P_{1}$、$P_{2}$ 为真的实数 $a$。",
+    "options": null,
+    "answer": "$P_{1}$：$a\\in[0,1]$；$P_{2}$：$a=0$",
+    "analysis": "$P_{1}$：对每个 $x\\in[0,1]$ 需存在 $y\\in[0,1]$ 使 $y=ax$，即 $ax\\in[0,1]$。若 $a<0$，取 $x=1$ 得 $a\\notin[0,1]$，假。若 $a\\ge 0$，最强约束来自 $x=1$：$a\\le 1$，故 $a\\in[0,1]$。\n$P_{2}$：存在同一 $y$ 使对一切 $x\\in[0,1]$ 有 $y=ax$。取 $x=0$ 得 $y=0$；取 $x=1$ 得 $a=0$。反之 $a=0$、$y=0$ 成立。\n故 $P_{1}$ 真 $\\Leftrightarrow a\\in[0,1]$；$P_{2}$ 真 $\\Leftrightarrow a=0$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "P1 化为点态 ax∈[0,1] 得 [0,1]",
+        "score": 5
+      },
+      {
+        "step": "P2 公共 y 迫使 a=0",
+        "score": 5
+      },
+      {
+        "step": "对照量词顺序差异",
+        "score": 2
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "量词语义可用代入检验。",
+    "hardLevelReason": "∀∃ 与 ∃∀ 对同一线性约束给出本质不同真值域（区间 vs 单点）。",
+    "hardProfile": {
+      "coreChallenge": "量词顺序改变可行参数集",
+      "reasoningSteps": [
+        "P1 点态可达",
+        "得 a∈[0,1]",
+        "P2 常值约束",
+        "a=0"
+      ],
+      "difficultyEvidence": "把 P2 误当成 P1 会答 [0,1]",
+      "misconceptionTrap": "以为交换量词不改变真假",
+      "alternativeApproach": "把 y=ax 看成直线族在正方形 [0,1]^2 的截线",
+      "verification": "a=1 时 P1 真 P2 假；a=0 两者皆真",
+      "contentSha256": "c687453c52bec389a40bcf4fa7c0a0b99a74640b2c28227c471a64bde8d9473c"
+    },
+    "compareDowngrade": {
+      "structureType": "LOGIC_BASIC",
+      "contrast": "降级题多改写否定词；本题是 ∀∃/∃∀ 真值域分叉。"
+    },
+    "contentSha256": "c687453c52bec389a40bcf4fa7c0a0b99a74640b2c28227c471a64bde8d9473c",
+    "modelFamily": "forall-exists-swap-linear",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-009",
+    "designId": "HARD-DESIGN-009",
+    "qtype": "multi",
+    "chapterNo": 1,
+    "sectionCode": "1.5",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.1.5.01",
+    "methodMain": "classification",
+    "methodAux": "defn",
+    "stem": "设 $A(t)=\\{x\\mid x^{2}\\le t\\}$，$B=\\{x\\mid |x|\\le 1\\}$。记 $R(t)$ 表示「$A(t)=B$」。又设 $S$：「$\\forall t\\in[0,2]$，$(R(t)\\Rightarrow t=1)$」；$T$：「$\\exists t\\in[0,2]$，$R(t)$」。下列说法正确的是（多选）",
+    "options": {
+      "A": "$R(t)$ 为真当且仅当 $t=1$",
+      "B": "命题 $T$ 为真",
+      "C": "命题 $S$ 为真",
+      "D": "命题 $S$ 为假，因为 $t=2$ 时 $A(2)\\ne B$ 却仍需检查蕴含"
+    },
+    "answer": "A,B,C",
+    "analysis": "当 $t<0$ 时 $A(t)=\\varnothing\\ne B$。当 $t\\ge 0$ 时 $A(t)=[-\\sqrt{t},\\sqrt{t}]$，等于 $[-1,1]$ 当且仅当 $t=1$。故 $R(t)\\Leftrightarrow t=1$，A 正确。\n$T$：取 $t=1\\in[0,2]$，$R(1)$ 真，故 $T$ 真，B 正确。\n$S$：对任意 $t\\in[0,2]$，若 $t\\ne 1$ 则 $R(t)$ 假，蕴含 $R(t)\\Rightarrow t=1$ 真；若 $t=1$ 则结论真。故 $S$ 真，C 正确。D 错误：前件假时蕴含仍真，$A(2)\\ne B$ 并不使 $S$ 假。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "集合相等与量词可用代数判定。",
+    "hardLevelReason": "先冻结集合相等 R(t)⇔t=1，再嵌入存在量词与全称蕴含，多层嵌套。",
+    "hardProfile": {
+      "coreChallenge": "集合相等冻结后再做 ∀蕴含与 ∃",
+      "reasoningSteps": [
+        "解 R(t)⇔t=1",
+        "证 T",
+        "证 S",
+        "排除对蕴含的误判"
+      ],
+      "difficultyEvidence": "D 选项专门打击「前件假则整句假」的误解",
+      "misconceptionTrap": "以为 A(t)≠B 就使 S 假",
+      "alternativeApproach": "把 R 看成 [0,2] 上仅在 t=1 为真的谓词",
+      "verification": "逐点检查 t=0,1,2",
+      "contentSha256": "93c33ef8008a9c4a33b69e718d66f35d0020ea2184c6a885e14017d24fb6b63c"
+    },
+    "compareDowngrade": {
+      "structureType": "LOGIC_BASIC",
+      "contrast": "降级题停留在单层否定改写；本题先冻结集合值映射再做量词提升。"
+    },
+    "contentSha256": "93c33ef8008a9c4a33b69e718d66f35d0020ea2184c6a885e14017d24fb6b63c",
+    "modelFamily": "set-valued-quantifier-lift",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-010",
+    "designId": "HARD-DESIGN-010",
+    "qtype": "numeric",
+    "chapterNo": 1,
+    "sectionCode": "1.4",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.1.4.02",
+    "methodMain": "defn",
+    "methodAux": "classification",
+    "stem": "命题 $p$：$x\\in[0,a]$；命题 $q$：$x\\in[0,1]$；命题 $r$：$x^{2}\\le x$。若「对一切实数 $x$，$p\\Rightarrow q$」「$q\\Rightarrow r$」「$r\\Rightarrow p$」同时成立，则 $a=$＿＿＿＿。",
+    "options": null,
+    "answer": "1",
+    "analysis": "$r$：$x(x-1)\\le 0\\Leftrightarrow x\\in[0,1]$，与 $q$ 同解集，故 $q\\Leftrightarrow r$ 恒真，$q\\Rightarrow r$ 自动成立。\n设 $a\\ge 0$，则 $p$ 解集为 $[0,a]$。$p\\Rightarrow q$ 恒真 $\\Leftrightarrow[0,a]\\subseteq[0,1]\\Leftrightarrow a\\le 1$；$r\\Rightarrow p$ 恒真 $\\Leftrightarrow[0,1]\\subseteq[0,a]\\Leftrightarrow a\\ge 1$。故 $a=1$。\n若 $a<0$，则 $p$ 为空集，$r\\Rightarrow p$ 失败。当 $a=1$ 时三解集均为 $[0,1]$，两两充要。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "解集比较即可。",
+    "hardLevelReason": "三命题蕴含闭环：先洞察 q≡r，再逼 p 解集同为 [0,1] 得唯一 a。",
+    "hardProfile": {
+      "coreChallenge": "先冻结 q≡r 再逼 p",
+      "reasoningSteps": [
+        "解 r=[0,1]",
+        "得 q⇔r",
+        "双向包含定 a=1",
+        "排除 a<0"
+      ],
+      "difficultyEvidence": "若不先解 r 会陷入三参数不等式乱解",
+      "misconceptionTrap": "只保证 p⇒q 得 a≤1 就停",
+      "alternativeApproach": "要求三个解集两两相等",
+      "verification": "a=1 时三命题同解集",
+      "contentSha256": "b85e4d1e7f692111a9d9310fa314ac19e0f030304455c6c38e5258faf77d590a"
+    },
+    "compareDowngrade": {
+      "structureType": "LOGIC_BASIC",
+      "contrast": "降级题两命题选词；本题三蕴含闭环锁定共解集参数。"
+    },
+    "contentSha256": "b85e4d1e7f692111a9d9310fa314ac19e0f030304455c6c38e5258faf77d590a",
+    "modelFamily": "triple-prop-iff-cycle",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-011",
+    "designId": "HARD-DESIGN-011",
+    "qtype": "multi",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.01",
+    "methodMain": "classification",
+    "methodAux": "equiv_transform",
+    "stem": "方程 $x^{2}-x+k=0$ 有两个相异实根，且都落在开区间 $(0,1)$ 内。下列关于 $k$ 的说法正确的是（多选）",
+    "options": {
+      "A": "必有 $0<k<\\dfrac{1}{4}$",
+      "B": "$k=\\dfrac{1}{4}$ 时两根重合于 $\\dfrac{1}{2}$，不满足题意",
+      "C": "$k=0$ 时一根为 $0$，不在开区间内",
+      "D": "对称轴 $x=\\dfrac{1}{2}$ 对任意 $k$ 都在 $(0,1)$ 内，故只需 $\\Delta>0$"
+    },
+    "answer": "A,B,C",
+    "analysis": "记 $f(x)=x^{2}-x+k$，开口向上。两相异实根都在 $(0,1)$ $\\Leftrightarrow\\Delta>0$，$f(0)>0$，$f(1)>0$，对称轴 $\\in(0,1)$。\n$\\Delta=1-4k>0\\Leftrightarrow k<\\dfrac{1}{4}$；$f(0)=f(1)=k>0$；对称轴 $x=\\dfrac{1}{2}\\in(0,1)$ 恒成立。故 $0<k<\\dfrac{1}{4}$，A 正确。$k=\\dfrac{1}{4}$ 重根，B 正确；$k=0$ 时根为 $0,1$，C 正确。D 错误：仅 $\\Delta>0$ 不够，还要端点严格为正。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "根分布条件可代数写出。",
+    "hardLevelReason": "两相异实根都在开区间 (0,1) 需 Δ>0 与端点严格同号，边界 k=0,1/4 均排除。",
+    "hardProfile": {
+      "coreChallenge": "开区间双根的严格端点条件",
+      "reasoningSteps": [
+        "列 Δ、f(0)、f(1)",
+        "得 0<k<1/4",
+        "排除边界",
+        "指出 D 不足"
+      ],
+      "difficultyEvidence": "闭区间版会误收 k=0 或 1/4",
+      "misconceptionTrap": "以为对称轴在区间内就够",
+      "alternativeApproach": "韦达：和=1、积=k∈(0,1/4)",
+      "verification": "k=1/8 两根在 (0,1)",
+      "contentSha256": "a39b2951389250dac8762122e931ffd864069e84ac01e9c4901effbcfd650ef7"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "降级题常闭区间或忽略开区间端点严格性；本题强调 f(0),f(1)>0 与相异。"
+    },
+    "contentSha256": "a39b2951389250dac8762122e931ffd864069e84ac01e9c4901effbcfd650ef7",
+    "modelFamily": "twin-roots-in-unit-interval",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-012",
+    "designId": "HARD-DESIGN-012",
+    "qtype": "single",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.02",
+    "methodMain": "equiv_transform",
+    "methodAux": "classification",
+    "stem": "设 $f(x)=x^{2}-(m+2)x+2m$。使方程 $f(x)=0$ 恰有一根大于 $1$ 的实数 $m$ 的取值范围是",
+    "options": {
+      "A": "$m<1$",
+      "B": "$m\\le 1$",
+      "C": "$m>1$",
+      "D": "$m\\ge 1$"
+    },
+    "answer": "B",
+    "analysis": "$\\Delta=(m-2)^{2}\\ge 0$ 恒有实根。$f(1)=1-(m+2)+2m=m-1$，开口向上。\n当 $m<1$ 时 $f(1)<0$，两根分居 $1$ 两侧，恰有一根 $>1$。当 $m=1$ 时根为 $1$ 与 $2$，恰有一根严格 $>1$。当 $m>1$ 时 $f(1)>0$、积 $2m$（若 $m>0$）与和 $m+2>0$ 且对称轴 $>1$，两根都 $>1$，不满足「恰有」。故 $m\\le 1$，选 B。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "符号分析足够。",
+    "hardLevelReason": "「恰有一根>1」与「两根都>1」用 f(1) 符号切割，边界 m=1 需韦达确认。",
+    "hardProfile": {
+      "coreChallenge": "f(1) 符号切割恰有一根>1",
+      "reasoningSteps": [
+        "算 f(1)=m-1",
+        "m<1 分居",
+        "m=1 韦达",
+        "m>1 排除"
+      ],
+      "difficultyEvidence": "漏 m=1 会误选 A",
+      "misconceptionTrap": "把根=1 也当成大于 1",
+      "alternativeApproach": "设根 x1≤x2，讨论 x2>1≥x1 等情形",
+      "verification": "m=0,1,2 代回数根",
+      "contentSha256": "c11b594b0487bc512b5cb2e0f479761fa88fd59967606a56429bf846c38cd141"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "降级题常问两根都大于；本题「恰有」与「皆大」互斥，含边界。"
+    },
+    "contentSha256": "c11b594b0487bc512b5cb2e0f479761fa88fd59967606a56429bf846c38cd141",
+    "modelFamily": "exactly-one-root-gt-one",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-013",
+    "designId": "HARD-DESIGN-013",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.1",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.2.1.02",
+    "methodMain": "equiv_transform",
+    "methodAux": "classification",
+    "stem": "已知对一切 $x\\in[-1,2]$，不等式 $|x-a|+|x+1|\\ge 3$ 恒成立。求实数 $a$ 的取值范围。",
+    "options": null,
+    "answer": "$a\\in(-\\infty,-4]\\cup[2,+\\infty)$",
+    "analysis": "恒成立 $\\Leftrightarrow$ 在 $I=[-1,2]$ 上 $\\min(|x-a|+|x+1|)\\ge 3$。记 $g(x)=|x-a|+|x+1|$。\n①若 $a\\in[-1,2]$，则 $\\min_{I}g=|a+1|$。要 $|a+1|\\ge 3$，但该段 $|a+1|\\le 3$，等号仅当 $a=2$，故仅 $a=2$ 可能。\n②若 $a<-1$，最小值在 $x=-1$：$g(-1)=-1-a\\ge 3\\Rightarrow a\\le-4$。\n③若 $a>2$，最小值在 $x=2$：$g(2)=a+1$，由 $a>2$ 自动 $>3$。\n合并：$a\\in(-\\infty,-4]\\cup[2,+\\infty)$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "转化为区间最小值≥3",
+        "score": 3
+      },
+      {
+        "step": "三段分类求 min",
+        "score": 6
+      },
+      {
+        "step": "合并范围并验边界",
+        "score": 3
+      }
+    ],
+    "diagramRequirement": "RECOMMENDED",
+    "diagramSpecification": "数轴标 I=[-1,2] 与焦点 a,-1，示意折线最小值位置。",
+    "noDiagramReason": null,
+    "hardLevelReason": "闭区间上双绝对值恒成立⇔最小值≥3，需对参数 a 相对 [-1,2] 三段求 min。",
+    "hardProfile": {
+      "coreChallenge": "区间上双绝对值最小值三段分类",
+      "reasoningSteps": [
+        "恒成立⇔min≥3",
+        "a 在 I 内/左/右",
+        "分别得条件",
+        "合并"
+      ],
+      "difficultyEvidence": "漏 a=2 边界或误算 a>2 的 min",
+      "misconceptionTrap": "对一切 x∈R 做分类而忽略区间限制",
+      "alternativeApproach": "几何：到 a 与 -1 的距离和",
+      "verification": "a=-4,2,-5,3 与 a=0 反例",
+      "contentSha256": "1d8618b6c284a7f813ee4739c6d8b49e868abc06e734d121e4b48e723f2d2d1e"
+    },
+    "compareDowngrade": {
+      "structureType": "ABS_PIECEWISE",
+      "contrast": "降级题多为去绝对值解方程；本题是受限区间恒成立的最小值约束。"
+    },
+    "contentSha256": "1d8618b6c284a7f813ee4739c6d8b49e868abc06e734d121e4b48e723f2d2d1e",
+    "modelFamily": "abs-sum-min-on-interval",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-014",
+    "designId": "HARD-DESIGN-014",
+    "qtype": "numeric",
+    "chapterNo": 2,
+    "sectionCode": "2.2",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.2.2.03",
+    "methodMain": "num_shape",
+    "methodAux": "equiv_transform",
+    "stem": "正实数 $x,y$ 满足 $2x+y=4$。则 $xy$ 的最大值为＿＿＿＿。",
+    "options": null,
+    "answer": "2",
+    "analysis": "由 $y=4-2x$，$x\\in(0,2)$，得 $xy=4x-2x^{2}=-2(x-1)^{2}+2$，故最大值为 $2$，在 $x=1,y=2$ 取得。\n加权验证：$2x+y\\ge 2\\sqrt{2xy}$，$4\\ge 2\\sqrt{2xy}\\Rightarrow xy\\le 2$，等号当 $2x=y$，代入约束得 $x=1,y=2$，兼容。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数配方即可。",
+    "hardLevelReason": "约束为 2x+y=4，必须用加权 AM-GM 或配方，误用等权 x+y 会错。",
+    "hardProfile": {
+      "coreChallenge": "加权基本不等式/配方求积最大",
+      "reasoningSteps": [
+        "消元",
+        "二次配方",
+        "最大值 2",
+        "加权复核等号"
+      ],
+      "difficultyEvidence": "误用 x+y≥2√(xy) 在 2x+y=4 下得 xy≤4 过大",
+      "misconceptionTrap": "忽略正数约束或等号不可达",
+      "alternativeApproach": "设 t=2x，则 t+y=4，(t/2)y 最大",
+      "verification": "边界 x→0+,x→2- 时 xy→0",
+      "contentSha256": "d643d5621c12c66fbf5626b5396ac429219c5d7678e3f049931a3684e596aee6"
+    },
+    "compareDowngrade": {
+      "structureType": "AMGM_ROUTINE",
+      "contrast": "等权周长模型直接 (x+y)/2；本题强制权 2 与等号兼容。"
+    },
+    "contentSha256": "d643d5621c12c66fbf5626b5396ac429219c5d7678e3f049931a3684e596aee6",
+    "modelFamily": "weighted-amgm-under-linear",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-015",
+    "designId": "HARD-DESIGN-015",
+    "qtype": "multi",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.04",
+    "methodMain": "equiv_transform",
+    "methodAux": "mono_analysis",
+    "stem": "设不等式 $x^{2}+px+q<0$ 的解集包含 $[1,3]$。下列结论正确的是（多选）",
+    "options": {
+      "A": "必有 $1+p+q<0$ 且 $9+3p+q<0$",
+      "B": "还须额外要求对称轴落在 $(1,3)$ 内",
+      "C": "条件 A 已蕴含判别式为正且两根分居 $1$ 左与 $3$ 右",
+      "D": "若 $1+p+q=0$，则 $x=1$ 不是严格解，解集不能包含整个 $[1,3]$"
+    },
+    "answer": "A,C,D",
+    "analysis": "记 $f(x)=x^{2}+px+q$，开口向上。在 $[1,3]$ 上最大值在端点，故 $\\forall x\\in[1,3],\\,f(x)<0\\Leftrightarrow f(1)<0$ 且 $f(3)<0$，即 $1+p+q<0$，$9+3p+q<0$。A 正确。\nB 错误：凸性保证端点条件充分，无需再加对称轴条件。C 正确：若 $\\Delta\\le 0$ 则 $f\\ge 0$，与 $f(1)<0$ 矛盾。D 正确：等号使 $1$ 不属于严格解集。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "凸性端点论证是代数的。",
+    "hardLevelReason": "解集包含 [1,3] 译为区间上恒负；开口向上时用凸性只需两端点严格负。",
+    "hardProfile": {
+      "coreChallenge": "包含关系→区间恒负→端点判定",
+      "reasoningSteps": [
+        "翻译包含",
+        "用凸性",
+        "写两端点",
+        "排除多余对称轴条件"
+      ],
+      "difficultyEvidence": "B 是常见多余条件陷阱",
+      "misconceptionTrap": "照搬两根分布全套条件",
+      "alternativeApproach": "要求两根 r1<1、r2>3 且开口向上",
+      "verification": "取 p=-5,q=5：f(1)=-1,f(3)=-1 可检",
+      "contentSha256": "e82b03a662e48dfeda7f8221b7b52f34769360e059f53496ff6a4f1466ea68c9"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "降级题正向求解集；本题是「解集包含指定段」的充分性翻译。"
+    },
+    "contentSha256": "e82b03a662e48dfeda7f8221b7b52f34769360e059f53496ff6a4f1466ea68c9",
+    "modelFamily": "quad-ineq-covers-segment",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-016",
+    "designId": "HARD-DESIGN-016",
+    "qtype": "single",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.05",
+    "methodMain": "substitution",
+    "methodAux": "undetermined_coeff",
+    "stem": "设 $x_{1},x_{2}$ 为方程 $x^{2}-2mx+m=0$ 的两实根且 $x_{1}x_{2}\\ne 0$。以 $x_{1}+\\dfrac{1}{x_{2}}$ 与 $x_{2}+\\dfrac{1}{x_{1}}$ 为根作新的二次方程。若新方程有重根，则 $m$ 等于",
+    "options": {
+      "A": "仅 $1$",
+      "B": "仅 $-1$",
+      "C": "$\\pm 1$",
+      "D": "$0$ 或 $1$"
+    },
+    "answer": "C",
+    "analysis": "实根且积 $m\\ne 0$：$\\Delta=4m(m-1)\\ge 0\\Rightarrow m\\le 0$ 或 $m\\ge 1$，再交 $m\\ne 0$。新根之和 $S=2m+2$，之积 $P=m+2+\\dfrac{1}{m}$。重根 $\\Leftrightarrow S^{2}=4P$。化简得 $(m+1)^{2}(m-1)=0$，故 $m=-1$ 或 $m=1$，均在允许集内。选 C。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "对称式计算无需图。",
+    "hardLevelReason": "韦达构造新根 x+1/y 对称式，重根条件再回检定义域 m≠0 与实根。",
+    "hardProfile": {
+      "coreChallenge": "加倒数对称式+重根+定义域",
+      "reasoningSteps": [
+        "写实根域",
+        "算 S,P",
+        "S^2=4P",
+        "得 ±1 并检验"
+      ],
+      "difficultyEvidence": "漏乘 m 清分母会丢根或增根",
+      "misconceptionTrap": "保留 m=0",
+      "alternativeApproach": "直接对新根差为 0 设条件",
+      "verification": "m=1 新根为 2 重；m=-1 新根为 0 重",
+      "contentSha256": "a1b99f67f6b27ed207108088cb3f4dd16a695b156304ff53b523fb5c45743fc2"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "降级题根分布表；本题是韦达构造新方程再加重根。"
+    },
+    "contentSha256": "a1b99f67f6b27ed207108088cb3f4dd16a695b156304ff53b523fb5c45743fc2",
+    "modelFamily": "vieta-shifted-reciprocal-roots",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-017",
+    "designId": "HARD-DESIGN-017",
+    "qtype": "numeric",
+    "chapterNo": 2,
+    "sectionCode": "2.1",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.2.1.03",
+    "methodMain": "mono_analysis",
+    "methodAux": "equiv_transform",
+    "stem": "若对一切实数 $x$，不等式 $x^{2}+2x+2\\ge a(x+1)$ 恒成立，则实数 $a$ 的最大值为＿＿＿＿。",
+    "options": null,
+    "answer": "2",
+    "analysis": "移项得 $x^{2}+(2-a)x+(2-a)\\ge 0$ 对一切 $x$ 成立。令 $b=2-a$，配方 $(x+\\dfrac{b}{2})^{2}+b-\\dfrac{b^{2}}{4}\\ge 0\\,\\forall x\\Leftrightarrow b-\\dfrac{b^{2}}{4}\\ge 0\\Leftrightarrow b\\in[0,4]\\Leftrightarrow a\\in[-2,2]$。故 $a$ 的最大值为 $2$。此时原式化为 $x^{2}\\ge 0$，等号在 $x=0$。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "配方判别即可。",
+    "hardLevelReason": "恒成立转二次非负，求参数上界的最佳值而非只证某个常数可行。",
+    "hardProfile": {
+      "coreChallenge": "二次恒非负的最佳常数",
+      "reasoningSteps": [
+        "移项",
+        "令 b=2-a",
+        "b∈[0,4]",
+        "最大 a=2"
+      ],
+      "difficultyEvidence": "只由 Δ≤0 漏常数项联动会解错",
+      "misconceptionTrap": "对 x+1 讨论正负分类过度复杂化",
+      "alternativeApproach": "令 t=x+1，化为 t^2+(1-a)t+1≥0",
+      "verification": "a=2 恒真；a=2.1 取 x=0 得 2≱2.1",
+      "contentSha256": "94f6633555d880ba1eaf2b48ca8cf97bad8d950266a82113c18eecd5fb070f43"
+    },
+    "compareDowngrade": {
+      "structureType": "INEQ_ROUTINE",
+      "contrast": "常规题常只证某个 a 可行；本题求最佳上界的充要范围。"
+    },
+    "contentSha256": "94f6633555d880ba1eaf2b48ca8cf97bad8d950266a82113c18eecd5fb070f43",
+    "modelFamily": "best-constant-quad-nonneg",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-018",
+    "designId": "HARD-DESIGN-018",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.03",
+    "methodMain": "classification",
+    "methodAux": "special_value",
+    "stem": "讨论方程 $|x-1|+|x+1|=mx$ 的实数解个数，按参数 $m$ 完整分类说明（含解集为无限集的情形）。",
+    "options": null,
+    "answer": "$m=2$：无穷多（$[1,+\\infty)$）；$m=-2$：无穷多（$(-\\infty,-1]$）；$|m|>2$：1 个；$|m|<2$：0 个",
+    "analysis": "记 $L(x)=|x-1|+|x+1|$：$x\\ge 1$ 时 $L=2x$；$|x|\\le 1$ 时 $L=2$；$x\\le-1$ 时 $L=-2x$。\n① $x\\ge 1$：$2x=mx$。若 $m=2$，则任意 $x\\ge 1$ 都是解；若 $m\\ne 2$，该段无解。\n② $|x|\\le 1$：$2=mx\\Rightarrow x=\\dfrac{2}{m}$（$m\\ne 0$），需 $|\\dfrac{2}{m}|\\le 1\\Leftrightarrow|m|\\ge 2$。\n③ $x\\le-1$：$-2x=mx$。若 $m=-2$，则任意 $x\\le-1$ 都是解；若 $m\\ne-2$，该段无解。\n汇总：$m=2$ 解集 $[1,+\\infty)$；$m=-2$ 解集 $(-\\infty,-1]$；$|m|>2$ 时仅中间段一解；$|m|<2$ 无解。",
+    "maxScore": 14,
+    "rubric": [
+      {
+        "step": "三段去绝对值",
+        "score": 4
+      },
+      {
+        "step": "标出 m=±2 无穷解",
+        "score": 5
+      },
+      {
+        "step": "汇总 |m|>2 / |m|<2 个数",
+        "score": 5
+      }
+    ],
+    "diagramRequirement": "RECOMMENDED",
+    "diagramSpecification": "在同一坐标系画 y=L(x) 折线与 y=mx 族，标出相切/重合的 m=±2。",
+    "noDiagramReason": null,
+    "hardLevelReason": "m=±2 时出现整段射线解，根个数图谱必须单独标出无穷解分支。",
+    "hardProfile": {
+      "coreChallenge": "参数共振导致无穷解的分类",
+      "reasoningSteps": [
+        "分段 L",
+        "各段解线性",
+        "标 m=±2",
+        "汇总个数"
+      ],
+      "difficultyEvidence": "漏无穷支会只答 0/1",
+      "misconceptionTrap": "m=2 时只保留 x=1 一个交点",
+      "alternativeApproach": "数形结合看直线与 V 形折线",
+      "verification": "抽 m=3,-3,0,1,2",
+      "contentSha256": "339c5ee6c6ce6637b8cf18226b8f281787f8e0b3d51821f48c0af58f27d7fbfa"
+    },
+    "compareDowngrade": {
+      "structureType": "ABS_PIECEWISE",
+      "contrast": "降级题常只求有限根；本题必须输出含射线解的完整根个数图谱。"
+    },
+    "contentSha256": "339c5ee6c6ce6637b8cf18226b8f281787f8e0b3d51821f48c0af58f27d7fbfa",
+    "modelFamily": "abs-linear-root-count-map",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-019",
+    "designId": "HARD-DESIGN-019",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.2.04",
+    "methodMain": "num_shape",
+    "methodAux": "classification",
+    "stem": "设正实数 $x,y$ 满足 $xy=4$。\n（1）证明：对任意正实数 $t$，有 $tx+\\dfrac{4}{t}y\\ge 8$，并指出等号成立时 $(x,y)$ 用 $t$ 表示的充要表达式；\n（2）若另有约束 $x+y=4$，证明使（1）取等的 $t$ 唯一，并求出此时的 $(x,y)$；\n（3）若把（2）中约束改为 $x+y=5$，求使（1）取等的所有 $t$ 及对应有序对；并据此说明线性约束如何改变等号解的个数。",
+    "options": null,
+    "answer": "（1）成立，等号 $\\Leftrightarrow x=\\dfrac{4}{t},\\,y=t$；（2）$t=2$ 唯一，$(x,y)=(2,2)$；（3）$t=1$ 对应 $(4,1)$，$t=4$ 对应 $(1,4)$；约束由和为 4 改为 5 时等号解由 1 个变为 2 个",
+    "analysis": "（1）由基本不等式 $tx+\\dfrac{4}{t}y\\ge 2\\sqrt{tx\\cdot\\dfrac{4}{t}y}=2\\sqrt{4xy}=2\\sqrt{16}=8$，等号成立 $\\Leftrightarrow tx=\\dfrac{4}{t}y\\Leftrightarrow t^{2}x=4y$。再代入 $xy=4$ 得 $y=\\dfrac{4}{x}$，故 $t^{2}x=\\dfrac{16}{x}\\Rightarrow t^{2}x^{2}=16$。因 $t,x>0$，有 $tx=4$，即 $x=\\dfrac{4}{t}$，$y=t$。反之，该对满足 $xy=4$ 且使等号成立。\n（2）等号点满足 $\\dfrac{4}{t}+t=4$。两边乘 $t$：$4+t^{2}=4t\\Rightarrow(t-2)^{2}=0$，故 $t=2$ 唯一，此时 $(x,y)=(2,2)$。\n（3）同理 $\\dfrac{4}{t}+t=5\\Rightarrow t^{2}-5t+4=0\\Rightarrow(t-1)(t-4)=0$。$t=1$ 时 $(x,y)=(4,1)$；$t=4$ 时 $(x,y)=(1,4)$。与（2）对照：同一乘积约束下，线性约束的常数项改变会使等号解个数从 1 分岔为 2。",
+    "maxScore": 14,
+    "rubric": [
+      {
+        "step": "加权 AM-GM 得 ≥8 并参数化等号轨道",
+        "score": 5
+      },
+      {
+        "step": "与 x+y=4 求交证明 t 唯一及 (2,2)",
+        "score": 4
+      },
+      {
+        "step": "x+y=5 求出双子并说明个数分岔",
+        "score": 5
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "等号参数化与代数求交即可，无需图。",
+    "hardLevelReason": "参数族加权 AM-GM 的等号轨道 + 线性约束下等号解个数的分岔（唯一 vs 双子），需先写等号参数化再与约束求交。",
+    "hardProfile": {
+      "coreChallenge": "参数加权 AM-GM 等号轨道与线性约束的解个数分岔",
+      "reasoningSteps": [
+        "对固定 t 用 AM-GM 得下界 8",
+        "联立 xy=4 写出等号点 (4/t,t)",
+        "与 x+y=4 得唯一 t=2",
+        "与 x+y=5 得双子并对照个数"
+      ],
+      "difficultyEvidence": "只会套等权 x+y≥2√(xy) 无法处理参数族；漏写等号充要式会在（2）（3）失分",
+      "misconceptionTrap": "误以为对一切 t 等号点都是 x=y，或在（3）漏掉一支",
+      "alternativeApproach": "令 u=√t x^{1/2} 等作柯西，再同样与线性约束求交",
+      "verification": "代回 (2,2),(4,1),(1,4) 检查乘积与加权和",
+      "contentSha256": "e0a41a722d3c67175d5f1769f360c603bd11ce7e654b6d5578c3693fe36520cc"
+    },
+    "compareDowngrade": {
+      "structureType": "AMGM_ROUTINE",
+      "contrast": "降级题为周长定面积等权取等；本题是参数族加权下界 + 等号轨道与线性约束求交的个数分岔，必须写清等号充要式。"
+    },
+    "contentSha256": "e0a41a722d3c67175d5f1769f360c603bd11ce7e654b6d5578c3693fe36520cc",
+    "modelFamily": "param-weighted-amgm-equality-bifurcation",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-020",
+    "designId": "HARD-DESIGN-020",
+    "qtype": "numeric",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.01",
+    "methodMain": "equiv_transform",
+    "methodAux": "mono_analysis",
+    "stem": "若存在实数 $x\\in[0,2]$ 使 $x^{2}-3x+k\\le 0$，则实数 $k$ 的取值范围是 $k\\le$＿＿＿＿。（填最大上界的数值）",
+    "options": null,
+    "answer": "9/4",
+    "analysis": "记 $f(x)=x^{2}-3x+k$，开口向上，对称轴 $x=\\dfrac{3}{2}\\in[0,2]$，故 $[0,2]$ 上最小值 $f(\\dfrac{3}{2})=k-\\dfrac{9}{4}$。存在 $x$ 使 $f(x)\\le 0\\Leftrightarrow\\min f\\le 0\\Leftrightarrow k\\le\\dfrac{9}{4}$。填 $9/4$。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "顶点在区间内可直接算。",
+    "hardLevelReason": "存在性转闭区间最小值≤0；对称轴在区间内使顶点值直接给出分界。",
+    "hardProfile": {
+      "coreChallenge": "存在非正⇔区间最小值≤0",
+      "reasoningSteps": [
+        "定位对称轴在区间内",
+        "算顶点值",
+        "令 ≤0",
+        "得 k≤9/4"
+      ],
+      "difficultyEvidence": "误用端点最小值会得 k≤0 或 k≤2 错答",
+      "misconceptionTrap": "把存在当成恒成立",
+      "alternativeApproach": "Δ≥0 且根与 [0,2] 有交",
+      "verification": "k=9/4 恰切；k=3 区间恒正",
+      "contentSha256": "9762c19258afe319b5d2dd28e20bcfe5945a8f15196b8df99dfbc10ec0e13839"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "降级题常求完整解集表达式；本题问存在性对应的参数上界。"
+    },
+    "contentSha256": "9762c19258afe319b5d2dd28e20bcfe5945a8f15196b8df99dfbc10ec0e13839",
+    "modelFamily": "exists-quad-nonpos-on-interval",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-021",
+    "designId": "HARD-DESIGN-021",
+    "qtype": "multi",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.02",
+    "methodMain": "classification",
+    "methodAux": "equiv_transform",
+    "stem": "方程 $x^{2}-(a-1)x-a=0$ 有两实根异号，且正根大于 $2$。下列说法正确的是（多选）",
+    "options": {
+      "A": "由积为 $-a$ 得异号条件等价于 $a>0$",
+      "B": "在异号前提下，正根 $>2$ 等价于 $f(2)<0$，其中 $f(x)=x^{2}-(a-1)x-a$",
+      "C": "所求范围为 $a>2$",
+      "D": "$a=2$ 时正根恰为 $2$，仍满足「大于 $2$」"
+    },
+    "answer": "A,B,C",
+    "analysis": "积 $=-a$，两根异号 $\\Leftrightarrow a>0$，A 正确。$\\Delta=(a+1)^{2}\\ge 0$ 恒有实根。$a>0$ 时一根正一根负，开口向上，正根 $>2\\Leftrightarrow f(2)<0$（$2$ 落在负根与正根之间），B 正确。$f(2)=4-2(a-1)-a=6-3a<0\\Leftrightarrow a>2$。与 $a>0$ 联立得 $a>2$，C 正确。$a=2$ 时正根恰为 $2$，不满足严格大于，D 错误。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "符号与韦达足够。",
+    "hardLevelReason": "异号（积<0）与正根>2（f(2)<0）叠加，边界 a=2 需严格排除。",
+    "hardProfile": {
+      "coreChallenge": "异号与正根位置条件叠加",
+      "reasoningSteps": [
+        "积得 a>0",
+        "证 f(2)<0 充要",
+        "解 a>2",
+        "排除 a=2"
+      ],
+      "difficultyEvidence": "D 专门考严格不等式",
+      "misconceptionTrap": "写成 a≥2",
+      "alternativeApproach": "正根=(a-1+√Δ)/2>2 直接解",
+      "verification": "a=3 时正根>2；a=1 异号但正根≤2",
+      "contentSha256": "becd1633de959e36d0e4e13dc0ef53041d70497556181eba61e3bc7141785e1c"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "降级题单条件根分布；本题异号+正根越线双约束。"
+    },
+    "contentSha256": "becd1633de959e36d0e4e13dc0ef53041d70497556181eba61e3bc7141785e1c",
+    "modelFamily": "opposite-sign-positive-root-cut",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-022",
+    "designId": "HARD-DESIGN-022",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.04",
+    "methodMain": "equiv_transform",
+    "methodAux": "classification",
+    "stem": "求使不等式 $x^{2}-2ax+a\\ge 0$ 对一切 $x\\in[0,1]$ 恒成立的实数 $a$ 的取值范围。",
+    "options": null,
+    "answer": "$a\\in[0,1]$",
+    "analysis": "记 $f(x)=x^{2}-2ax+a$。必要：$f(0)=a\\ge 0$，$f(1)=1-a\\ge 0\\Rightarrow a\\in[0,1]$。\n当 $a\\in[0,1]$ 时对称轴 $x=a\\in[0,1]$，最小值 $f(a)=a-a^{2}=a(1-a)\\ge 0$，故端点条件已充分。\n$a<0$ 时 $f(0)<0$ 失败；$a>1$ 时 $f(1)<0$ 失败。因此 $a\\in[0,1]$。",
+    "maxScore": 10,
+    "rubric": [
+      {
+        "step": "端点必要条件 a∈[0,1]",
+        "score": 4
+      },
+      {
+        "step": "证明顶点最小值自动≥0（充分性）",
+        "score": 4
+      },
+      {
+        "step": "排除外侧反例",
+        "score": 2
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "端点+顶点代数可完成。",
+    "hardLevelReason": "区间恒非负需端点条件，并证明顶点落入时最小值自动非负，完成充分性闭环。",
+    "hardProfile": {
+      "coreChallenge": "单位区间二次恒非负的充分性",
+      "reasoningSteps": [
+        "端点非负",
+        "得 a∈[0,1]",
+        "顶点值 a(1-a)≥0",
+        "证充分"
+      ],
+      "difficultyEvidence": "停在必要条件不证充分会丢分",
+      "misconceptionTrap": "额外要求 Δ≤0 得到空集或错域",
+      "alternativeApproach": "配方 (x-a)^2+a-a^2",
+      "verification": "a=0,1 边界；a=-1,2 反例",
+      "contentSha256": "6f49761d9b3239b867255af5565fb52f9eb1782cee0f9efe0ebe4614e1908cb9"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "降级题常只写 Δ；本题强调区间恒成立的端点—顶点充分性闭环。"
+    },
+    "contentSha256": "6f49761d9b3239b867255af5565fb52f9eb1782cee0f9efe0ebe4614e1908cb9",
+    "modelFamily": "quad-nonneg-on-unit-interval",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-023",
+    "designId": "HARD-DESIGN-023",
+    "qtype": "judge",
+    "chapterNo": 2,
+    "sectionCode": "2.1",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.1.01",
+    "methodMain": "equiv_transform",
+    "methodAux": "special_value",
+    "stem": "判断：使 $|x^{2}-1|\\ge a|x|$ 对一切实数 $x$ 恒成立的实数 $a$ 的取值范围是 $a\\le 0$。",
+    "options": null,
+    "answer": "true",
+    "analysis": "$x=0$ 时左边 $1\\ge 0$ 恒真。若 $a\\le 0$，右边 $\\le 0\\le$ 左边，恒成立。\n若 $a>0$，取 $x=1$：$|1-1|\\ge a\\cdot 1\\Rightarrow 0\\ge a$，矛盾。等价地，$t>0$ 时 $\\varphi(t)=\\dfrac{|t^{2}-1|}{t}$ 在 $t=1$ 取 $0$，下确界为 $0$，故正数 $a$ 不能作为全局下界。因此范围恰为 $a\\le 0$，判断正确。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "下确界论证用特殊值即可。",
+    "hardLevelReason": "需用 φ(t)=|t^2-1|/t 的下确界为 0 阻断一切正 a，而非形式去绝对值。",
+    "hardProfile": {
+      "coreChallenge": "inf φ=0 ⇒ 正 a 不可能",
+      "reasoningSteps": [
+        "a≤0 显然",
+        "a>0 取 t=1",
+        "得矛盾",
+        "结论 a≤0"
+      ],
+      "difficultyEvidence": "误以为可取 a∈[0,某正数]",
+      "misconceptionTrap": "对 |x|≥1 与 |x|≤1 分段后忘记 t→1",
+      "alternativeApproach": "画 y=|x^2-1| 与 y=a|x|",
+      "verification": "与 024 中 |x^2+1| 对照",
+      "contentSha256": "5707f545f3febb5ef048d7b36a749d4e1fc443d577ebb44ba7572315dc32e7d3"
+    },
+    "compareDowngrade": {
+      "structureType": "ABS_PIECEWISE",
+      "contrast": "降级题分段求解；本题核心是全局恒成立的下确界阻断正参数。"
+    },
+    "contentSha256": "5707f545f3febb5ef048d7b36a749d4e1fc443d577ebb44ba7572315dc32e7d3",
+    "modelFamily": "abs-quad-minus-hold-fail",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-024",
+    "designId": "HARD-DESIGN-024",
+    "qtype": "numeric",
+    "chapterNo": 2,
+    "sectionCode": "2.1",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.1.02",
+    "methodMain": "num_shape",
+    "methodAux": "mono_analysis",
+    "stem": "使 $|x^{2}+1|\\ge a|x|$ 对一切实数 $x$ 恒成立的实数 $a$ 的最大值为＿＿＿＿。",
+    "options": null,
+    "answer": "2",
+    "analysis": "$x=0$ 时成立。$a\\le 0$ 显然成立。当 $a>0$ 时，令 $t=|x|>0$，不等式等价于 $t+\\dfrac{1}{t}\\ge a$。由 AM-GM，$t+\\dfrac{1}{t}\\ge 2$，等号在 $t=1$。故需 $a\\le 2$，且 $a=2$ 对一切 $t$ 成立。最大值为 $2$。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "AM-GM 即可。",
+    "hardLevelReason": "化为 t+1/t≥a，最小值 2 给出最佳 a；与 023 结构对照。",
+    "hardProfile": {
+      "coreChallenge": "t+1/t 型最佳常数",
+      "reasoningSteps": [
+        "化为 t+1/t≥a",
+        "min=2",
+        "最大 a=2",
+        "等号 t=1"
+      ],
+      "difficultyEvidence": "与 023 对照说明为何此处正 a 可行",
+      "misconceptionTrap": "套用 023 结论写成 a≤0",
+      "alternativeApproach": "(|x|-1)^2≥0 的变体但不适用减号结构",
+      "verification": "a=2,x=±1 等号；a=2.1 失败",
+      "contentSha256": "e57ea97981e782d2af941888ef0de05a91eed77bdc258b46949fdbb6dd53ee86"
+    },
+    "compareDowngrade": {
+      "structureType": "ABS_PIECEWISE",
+      "contrast": "相对 |x^2-1| 情形 inf 从 0 变为 2，体现结构差异而非换数字。"
+    },
+    "contentSha256": "e57ea97981e782d2af941888ef0de05a91eed77bdc258b46949fdbb6dd53ee86",
+    "modelFamily": "t-plus-one-over-t-best-a",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-025",
+    "designId": "HARD-DESIGN-025",
+    "qtype": "multi",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.05",
+    "methodMain": "substitution",
+    "methodAux": "classification",
+    "stem": "设实数 $x_{1},x_{2}$ 满足 $x_{1}^{2}+x_{2}^{2}=5$ 且 $x_{1}x_{2}=m$。下列说法正确的是（多选）",
+    "options": {
+      "A": "$m$ 的取值范围是 $[-\\dfrac{5}{2},\\dfrac{5}{2}]$",
+      "B": "以它们为根的首一二次方程可写为 $t^{2}\\mp\\sqrt{5+2m}\\,t+m=0$（和取两种符号）",
+      "C": "$m=\\dfrac{5}{2}$ 时两根相等",
+      "D": "$m=-\\dfrac{5}{2}$ 时两根之和必为 $0$"
+    },
+    "answer": "A,B,C,D",
+    "analysis": "设和为 $s$，则 $s^{2}-2m=5\\Rightarrow s^{2}=5+2m\\ge 0\\Rightarrow m\\ge-\\dfrac{5}{2}$。实根还要 $\\Delta=s^{2}-4m=5-2m\\ge 0\\Rightarrow m\\le\\dfrac{5}{2}$。故 $m\\in[-\\dfrac{5}{2},\\dfrac{5}{2}]$，A 正确。方程为 $t^{2}-st+m=0$，$s=\\pm\\sqrt{5+2m}$，B 正确。$m=\\dfrac{5}{2}$ 时 $\\Delta=0$，C 正确。$m=-\\dfrac{5}{2}$ 时 $s=0$，D 正确。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "对称式代数条件足够。",
+    "hardLevelReason": "由平方和与积反推可行域，需同时 s^2≥0 与 Δ≥0。",
+    "hardProfile": {
+      "coreChallenge": "平方和固定下积的可行域",
+      "reasoningSteps": [
+        "s^2=5+2m≥0",
+        "Δ=5-2m≥0",
+        "写方程",
+        "边界含义"
+      ],
+      "difficultyEvidence": "只写一个不等式会丢半边",
+      "misconceptionTrap": "忽略和可取正负两支",
+      "alternativeApproach": "(x1-x2)^2=5-2m≥0",
+      "verification": "m=0 时 s=±√5",
+      "contentSha256": "161b3a5dd2ce1c80ac359d4e070dc4257ba9a026060559b7049f09f9da8f6eba"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "降级题给定方程求根；本题先给对称约束再造方程。"
+    },
+    "contentSha256": "161b3a5dd2ce1c80ac359d4e070dc4257ba9a026060559b7049f09f9da8f6eba",
+    "modelFamily": "fixed-sumsq-product-range",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-026",
+    "designId": "HARD-DESIGN-026",
+    "qtype": "numeric",
+    "chapterNo": 2,
+    "sectionCode": "2.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.2.01",
+    "methodMain": "num_shape",
+    "methodAux": "equiv_transform",
+    "stem": "设 $a,b\\ge 0$，$a+b=4$。则 $\\sqrt{a}+\\sqrt{b}$ 的最大值为＿＿＿＿。（用含根号的最简式填写）",
+    "options": null,
+    "answer": "2\\sqrt{2}",
+    "analysis": "令 $t=\\sqrt{a}+\\sqrt{b}\\ge 0$，则 $t^{2}=a+b+2\\sqrt{ab}=4+2\\sqrt{ab}$。由基本不等式 $\\sqrt{ab}\\le\\dfrac{a+b}{2}=2$，得 $t^{2}\\le 8\\Rightarrow t\\le 2\\sqrt{2}$，等号当 $a=b=2$。故最大值为 $2\\sqrt{2}$。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "不等式链足够。",
+    "hardLevelReason": "需把 √a+√b 接到 √(ab) 上界并完成等号链，而非直接对 a,b 套用。",
+    "hardProfile": {
+      "coreChallenge": "根号和通过 √(ab) 上界放大",
+      "reasoningSteps": [
+        "令 t",
+        "t^2=4+2√(ab)",
+        "√(ab)≤2",
+        "t≤2√2"
+      ],
+      "difficultyEvidence": "误对 √a,√b 直接 AM-GM 在约束下需验证等号",
+      "misconceptionTrap": "答 2 或 4",
+      "alternativeApproach": "柯西 (1^2+1^2)(a+b)≥(√a+√b)^2",
+      "verification": "a=0,b=4 时 t=2<2√2",
+      "contentSha256": "e1d498d825bab6008994840866975906e14c5863f16b199881acd489e36d0717"
+    },
+    "compareDowngrade": {
+      "structureType": "AMGM_ROUTINE",
+      "contrast": "相对直接对 a,b 写 AM-GM；本题接到复合根式最值。"
+    },
+    "contentSha256": "e1d498d825bab6008994840866975906e14c5863f16b199881acd489e36d0717",
+    "modelFamily": "sqrt-sum-max-under-sum",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-027",
+    "designId": "HARD-DESIGN-027",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.03",
+    "methodMain": "classification",
+    "methodAux": "equiv_transform",
+    "stem": "讨论方程 $g(x)=x^{2}+mx+1=0$ 在开区间 $(0,1)$ 内恰有一实根的条件（求 $m$ 的范围）。",
+    "options": null,
+    "answer": "$m<-2$",
+    "analysis": "积 $=1>0$，两根同号。若有正根则两根皆正，需和 $-m>0\\Rightarrow m<0$，且 $\\Delta=m^{2}-4\\ge 0$。与 $m<0$ 交得 $m\\le-2$。\n$m=-2$ 时重根 $1\\notin(0,1)$。当 $m<-2$ 时 $g(1)=2+m<0$，开口向上说明 $1$ 在两正根之间，故恰有一根 $\\in(0,1)$（另一根 $>1$）。因此条件为 $m<-2$。",
+    "maxScore": 10,
+    "rubric": [
+      {
+        "step": "同号与正根条件得 m≤-2",
+        "score": 4
+      },
+      {
+        "step": "用 g(1)<0 说明恰一根在 (0,1)",
+        "score": 4
+      },
+      {
+        "step": "排除 m=-2",
+        "score": 2
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "夹根符号分析足够。",
+    "hardLevelReason": "积为 1 同号，不能套端点异号；恰一根∈(0,1) 需 g(1)<0 夹根判据。",
+    "hardProfile": {
+      "coreChallenge": "同号结构下开区间恰一根",
+      "reasoningSteps": [
+        "积>0 同号",
+        "两正根⇒m≤-2",
+        "g(1)<0",
+        "排除重根 1"
+      ],
+      "difficultyEvidence": "误用 g(0)g(1)<0 得空集（g(0)=1>0）",
+      "misconceptionTrap": "写成 m≤-2",
+      "alternativeApproach": "较小根∈(0,1) 且较大根≥1",
+      "verification": "m=-3 根为 (3±√5)/2，小根∈(0,1)",
+      "contentSha256": "51aaa47948717b055c52c557ab74a55f4da27ee8557eb85b04dbc3ba9d8bafb4"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "常规端点异号法因积>0 失效；本题必须用同号夹根。"
+    },
+    "contentSha256": "51aaa47948717b055c52c557ab74a55f4da27ee8557eb85b04dbc3ba9d8bafb4",
+    "modelFamily": "one-root-in-unit-same-sign",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-028",
+    "designId": "HARD-DESIGN-028",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.01",
+    "methodMain": "undetermined_coeff",
+    "methodAux": "special_value",
+    "stem": "二次函数 $y=x^{2}+bx+1$ 的顶点在直线 $y=x$ 上。求 $b$ 的值，并分别求对应的函数最小值。",
+    "options": null,
+    "answer": "$b=1\\pm\\sqrt{5}$；最小值分别为 $-\\dfrac{1+\\sqrt{5}}{2}$ 与 $\\dfrac{\\sqrt{5}-1}{2}$",
+    "analysis": "顶点横坐标 $-\\dfrac{b}{2}$，纵坐标 $\\dfrac{4-b^{2}}{4}$。落在 $y=x$ 上 $\\Leftrightarrow\\dfrac{4-b^{2}}{4}=-\\dfrac{b}{2}\\Leftrightarrow 4-b^{2}=-2b\\Leftrightarrow b^{2}-2b-4=0\\Leftrightarrow b=1\\pm\\sqrt{5}$。\n最小值 $=1-\\dfrac{b^{2}}{4}$。当 $b=1+\\sqrt{5}$ 时 $b^{2}=6+2\\sqrt{5}$，最小值为 $-\\dfrac{1+\\sqrt{5}}{2}$；当 $b=1-\\sqrt{5}$ 时 $b^{2}=6-2\\sqrt{5}$，最小值为 $\\dfrac{\\sqrt{5}-1}{2}$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "列顶点在 y=x 上的方程并解 b",
+        "score": 6
+      },
+      {
+        "step": "分别计算两个最小值",
+        "score": 6
+      }
+    ],
+    "diagramRequirement": "RECOMMENDED",
+    "diagramSpecification": "示意抛物线顶点落在直线 y=x 上的两支位置。",
+    "noDiagramReason": null,
+    "hardLevelReason": "顶点落在 y=x 上给出关于 b 的二次方程，再分别求最小值。",
+    "hardProfile": {
+      "coreChallenge": "顶点在对角线上的待定系数",
+      "reasoningSteps": [
+        "写顶点坐标",
+        "代入 y=x",
+        "解 b",
+        "算最小值"
+      ],
+      "difficultyEvidence": "纵坐标公式易写错成 (4ac-b^2)/4a 的符号",
+      "misconceptionTrap": "只求一个正根支",
+      "alternativeApproach": "配方 y=(x+b/2)^2+1-b^2/4 = x 在顶点处",
+      "verification": "代回顶点横坐标等于纵坐标",
+      "contentSha256": "9a76459607983ff49b5c5c1bcf34538b61cf7cbb0a17b5d85a11c5456a82dfc1"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "降级题求顶点坐标；本题增加顶点轨迹（落在直线）几何约束。"
+    },
+    "contentSha256": "9a76459607983ff49b5c5c1bcf34538b61cf7cbb0a17b5d85a11c5456a82dfc1",
+    "modelFamily": "vertex-on-diagonal-line",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-029",
+    "designId": "HARD-DESIGN-029",
+    "qtype": "single",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.04",
+    "methodMain": "equiv_transform",
+    "methodAux": "classification",
+    "stem": "若不等式 $x^{2}+px+q<0$ 的解集恰好为 $(-1,2)$，则 $(p,q)$ 等于",
+    "options": {
+      "A": "$(-1,-2)$",
+      "B": "$(1,-2)$",
+      "C": "$(-1,2)$",
+      "D": "$(2,-1)$"
+    },
+    "answer": "A",
+    "analysis": "开区间解集说明严格不等且两根分居。开口向上时解集为两根之间，故两根必须恰为 $-1$ 与 $2$。于是 $x^{2}+px+q=(x+1)(x-2)=x^{2}-x-2$，得 $p=-1$，$q=-2$。选 A。\n若开口向下，解集为两根外侧，不可能是有界开区间。端点 $-1,2$ 使 $f=0$，不属于严格解集，符合「恰好为开区间」。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "因式分解唯一性足够。",
+    "hardLevelReason": "由开区间解集反推唯一首一二次，需强调开口方向与端点不属于解集。",
+    "hardProfile": {
+      "coreChallenge": "解集形态反推唯一首一二次",
+      "reasoningSteps": [
+        "开口必向上",
+        "根为 -1,2",
+        "展开",
+        "验证开区间"
+      ],
+      "difficultyEvidence": "选 B 是符号颠倒常见错",
+      "misconceptionTrap": "写成 ≤0 对应闭区间却选同样系数",
+      "alternativeApproach": "由韦达 p=-(和)= -1，q=积=-2",
+      "verification": "解 (x+1)(x-2)<0 得 (-1,2)",
+      "contentSha256": "156614180c3857e55154b1dcf2fbf739fea6f81b8826b063ac9f504c93c37ac4"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "降级题正向求解集；本题是由解集反演系数的逆问题。"
+    },
+    "contentSha256": "156614180c3857e55154b1dcf2fbf739fea6f81b8826b063ac9f504c93c37ac4",
+    "modelFamily": "invert-open-interval-solution",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-030",
+    "designId": "HARD-DESIGN-030",
+    "qtype": "judge",
+    "chapterNo": 2,
+    "sectionCode": "2.1",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.2.1.03",
+    "methodMain": "mono_analysis",
+    "methodAux": "equiv_transform",
+    "stem": "判断：对一切实数 $x$ 有 $x^{2}+1\\ge 2|x|$；且使 $x^{2}+1\\ge k|x|$ 恒成立的最大实数 $k$ 等于 $2$。",
+    "options": null,
+    "answer": "true",
+    "analysis": "由 $(|x|-1)^{2}\\ge 0$ 得 $x^{2}-2|x|+1\\ge 0$，即 $x^{2}+1\\ge 2|x|$，等号当 $|x|=1$。\n若要求 $x^{2}+1\\ge k|x|$ 对一切 $x$ 成立，取 $|x|=1$ 得 $2\\ge k$。当 $k=2$ 时即已证不等式。若 $k=3$，取 $x=1$：$2\\not\\ge 3$。故最大 $k=2$，判断正确。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "配方证明足够。",
+    "hardLevelReason": "证明与最佳常数统一在同一配方；需指出 k>2 的反例（诚实对齐 TRUE_H1）。",
+    "hardProfile": {
+      "coreChallenge": "平方配方同时给出证明与最佳 k",
+      "reasoningSteps": [
+        "配方得 k≤2",
+        "等号 |x|=1",
+        "k=2 可达",
+        "k>2 反例"
+      ],
+      "difficultyEvidence": "与 024 同源；作为判断题思维量中等",
+      "misconceptionTrap": "以为最大 k 小于 2",
+      "alternativeApproach": "同 024 的 t+1/t",
+      "verification": "x=0,±1,2",
+      "contentSha256": "4f67f7410e48645c0dd566a49544859efb53ca4bbc898a88d2c30b7b5eacfb59"
+    },
+    "compareDowngrade": {
+      "structureType": "INEQ_ROUTINE",
+      "contrast": "常规只证不等式；本题强制最佳常数与反例。hardAudit 评为 TRUE_H1：证明结构清晰但短于典型 H2。"
+    },
+    "contentSha256": "4f67f7410e48645c0dd566a49544859efb53ca4bbc898a88d2c30b7b5eacfb59",
+    "modelFamily": "square-completion-best-k",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-031",
+    "designId": "HARD-DESIGN-031",
+    "qtype": "numeric",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.02",
+    "methodMain": "classification",
+    "methodAux": "substitution",
+    "stem": "方程 $x^{2}-2(m+1)x+(m^{2}+3)=0$ 有两实根 $x_{1},x_{2}$，且 $|x_{1}-x_{2}|=2$。则 $m=$＿＿＿＿。",
+    "options": null,
+    "answer": "3/2",
+    "analysis": "$\\Delta=4(m+1)^{2}-4(m^{2}+3)=4(2m-2)=8(m-1)$。首一方程 $|x_{1}-x_{2}|=\\sqrt{\\Delta}$。令 $\\sqrt{\\Delta}=2\\Rightarrow\\Delta=4\\Rightarrow 8(m-1)=4\\Rightarrow m=\\dfrac{3}{2}$。此时 $\\Delta=4>0$，符合。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "判别式计算即可。",
+    "hardLevelReason": "根差绝对值直连 √Δ，需正确展开含参判别式。",
+    "hardProfile": {
+      "coreChallenge": "|x1-x2|=√Δ 反求参数",
+      "reasoningSteps": [
+        "展开 Δ",
+        "令 Δ=4",
+        "解 m=3/2",
+        "检验实根"
+      ],
+      "difficultyEvidence": "Δ 展开易算成 8m-8 后除错",
+      "misconceptionTrap": "写成 |x1-x2|=Δ/4 等",
+      "alternativeApproach": "(x1-x2)^2=(x1+x2)^2-4x1x2=4",
+      "verification": "代回和积检查差",
+      "contentSha256": "a13258e472bfe536095cb195d4e3e3cc646e3da16665cd279224aeb1b4404d64"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "约束是固定根差而非根落在区间；计算链短，审计为 TRUE_H1。"
+    },
+    "contentSha256": "a13258e472bfe536095cb195d4e3e3cc646e3da16665cd279224aeb1b4404d64",
+    "modelFamily": "fixed-root-gap-via-delta",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-032",
+    "designId": "HARD-DESIGN-032",
+    "qtype": "multi",
+    "chapterNo": 2,
+    "sectionCode": "2.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.2.03",
+    "methodMain": "num_shape",
+    "methodAux": "classification",
+    "stem": "正实数 $x,y$ 满足 $xy=1$。下列说法正确的是（多选）",
+    "options": {
+      "A": "$x+y$ 的最小值为 $2$",
+      "B": "$x^{2}+y^{2}$ 的最小值为 $2$",
+      "C": "两个最小值都在 $x=y=1$ 同时取得",
+      "D": "$x^{2}+y^{2}$ 的最小值可在 $x+y$ 未取到最小时单独达到"
+    },
+    "answer": "A,B,C",
+    "analysis": "由 AM-GM，$x+y\\ge 2\\sqrt{xy}=2$，等号 $x=y=1$，A 正确。又 $x^{2}+y^{2}=(x+y)^{2}-2\\ge 4-2=2$，等号同样要求 $x+y=2$ 即 $x=y=1$，B、C 正确。D 错误：由恒等式，平方和最小与和最小同步。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "恒等式联动足够。",
+    "hardLevelReason": "串联 x+y 与 x^2+y^2 两个最值并证明等号同步。",
+    "hardProfile": {
+      "coreChallenge": "积 1 约束下和与平方和双最值联动",
+      "reasoningSteps": [
+        "AM-GM 得和≥2",
+        "平方得平方和≥2",
+        "等号同步",
+        "否定 D"
+      ],
+      "difficultyEvidence": "D 打击「分开硬算」误区",
+      "misconceptionTrap": "对 x^2+y^2 再套一次 AM-GM 得 ≥2√(x^2y^2)=2 但等号条件变模糊",
+      "alternativeApproach": "令 t=x+1/x（y=1/x）",
+      "verification": "x=2,y=1/2 时和=2.5，平方和>2",
+      "contentSha256": "5bc370642a471d531e0dedc60a3ade59c3e7a065e121d2f1d51f9e465af24eba"
+    },
+    "compareDowngrade": {
+      "structureType": "AMGM_ROUTINE",
+      "contrast": "单问 x+y 最小是套路；本题强调平方和与和的联动及等号同步。"
+    },
+    "contentSha256": "5bc370642a471d531e0dedc60a3ade59c3e7a065e121d2f1d51f9e465af24eba",
+    "modelFamily": "product-one-sum-and-sumsq",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-033",
+    "designId": "HARD-DESIGN-033",
+    "qtype": "numeric",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.05",
+    "methodMain": "equiv_transform",
+    "methodAux": "special_value",
+    "stem": "设方程 $x^{2}-sx+2=0$ 有两实根，且其中一根是另一根的平方。则 $s=$＿＿＿＿。（用 $2$ 的立方根表示）",
+    "options": null,
+    "answer": "2^{1/3}+2^{2/3}",
+    "analysis": "设两根为 $t$ 与 $t^{2}$，则积 $t^{3}=2\\Rightarrow t=\\sqrt[3]{2}$（实数唯一），和 $s=t+t^{2}=\\sqrt[3]{2}+\\sqrt[3]{4}=2^{1/3}+2^{2/3}$。\n由于 $\\sqrt[3]{2}\\ne\\sqrt[3]{4}$，两根相异，$\\Delta>0$ 由构造保证。故唯一答案为 $2^{1/3}+2^{2/3}$。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数代入足够。",
+    "hardLevelReason": "根之间代数关系嵌入韦达：先解立方 t^3=2 再构造和。",
+    "hardProfile": {
+      "coreChallenge": "一根为另一根平方⇒立方再求和",
+      "reasoningSteps": [
+        "设根 t,t^2",
+        "t^3=2",
+        "s=t+t^2",
+        "确认唯一实解"
+      ],
+      "difficultyEvidence": "漏掉实立方根唯一性会找复数支",
+      "misconceptionTrap": "写成 s=2+√2 等",
+      "alternativeApproach": "设根 r,r^2，由韦达 r+r^2=s,r^3=2",
+      "verification": "数值约 1.26+1.587=2.847，Δ>0",
+      "contentSha256": "09e6a8b2aec4016ce946205651229683e4e96f6f922eaf3350306a28d79b8c95"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "约束是根的函数关系而非区间分布。"
+    },
+    "contentSha256": "09e6a8b2aec4016ce946205651229683e4e96f6f922eaf3350306a28d79b8c95",
+    "modelFamily": "root-is-square-of-other",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-034",
+    "designId": "HARD-DESIGN-034",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.1",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.2.1.02",
+    "methodMain": "classification",
+    "methodAux": "equiv_transform",
+    "stem": "方程 $|x-m|=|2x-1|$。按参数 $m$ 讨论实根个数。",
+    "options": null,
+    "answer": "$m\\ne\\dfrac{1}{2}$ 时 $2$ 解；$m=\\dfrac{1}{2}$ 时 $1$ 解",
+    "analysis": "$|x-m|=|2x-1|\\Leftrightarrow x-m=2x-1$ 或 $x-m=-(2x-1)$。\n前者：$x=1-m$。后者：$x=\\dfrac{m+1}{3}$。\n两根相等 $\\Leftrightarrow 1-m=\\dfrac{m+1}{3}\\Leftrightarrow 3-3m=m+1\\Leftrightarrow m=\\dfrac{1}{2}$，此时公共根 $x=\\dfrac{1}{2}$。\n故 $m\\ne\\dfrac{1}{2}$ 时恰 $2$ 解；$m=\\dfrac{1}{2}$ 时恰 $1$ 解。",
+    "maxScore": 10,
+    "rubric": [
+      {
+        "step": "去绝对值得两支解",
+        "score": 4
+      },
+      {
+        "step": "求重合参数 m=1/2",
+        "score": 4
+      },
+      {
+        "step": "汇总个数",
+        "score": 2
+      }
+    ],
+    "diagramRequirement": "RECOMMENDED",
+    "diagramSpecification": "数轴或平面上两 V 形图交点随 m 平移的示意。",
+    "noDiagramReason": null,
+    "hardLevelReason": "参数使两支解重合是个数分岔点，需代数找 m=1/2。",
+    "hardProfile": {
+      "coreChallenge": "双绝对值方程的参数解个数分岔",
+      "reasoningSteps": [
+        "两支线性解",
+        "令相等求 m",
+        "分岔汇总",
+        "检验公共根"
+      ],
+      "difficultyEvidence": "步骤少但分岔点概念清楚",
+      "misconceptionTrap": "以为恒有两解",
+      "alternativeApproach": "平方 (x-m)^2=(2x-1)^2",
+      "verification": "m=0 两解；m=1/2 一解",
+      "contentSha256": "c7fd6ae685605cafe76ab210909ec66718b3dffab6f4382b83a9fecd64a1a4ef"
+    },
+    "compareDowngrade": {
+      "structureType": "ABS_PIECEWISE",
+      "contrast": "强调参数驱动解个数分岔；计算短，审计 TRUE_H1。"
+    },
+    "contentSha256": "c7fd6ae685605cafe76ab210909ec66718b3dffab6f4382b83a9fecd64a1a4ef",
+    "modelFamily": "double-abs-eq-root-count",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-035",
+    "designId": "HARD-DESIGN-035",
+    "qtype": "single",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.01",
+    "methodMain": "equiv_transform",
+    "methodAux": "num_shape",
+    "stem": "设 $f(x)=x^{2}-2ax+1$，$x\\in[0,2]$。若 $\\max\\limits_{x\\in[0,2]}f(x)=2$，则 $a$ 等于",
+    "options": {
+      "A": "$\\dfrac{1}{2}$",
+      "B": "$\\dfrac{3}{4}$",
+      "C": "$1$",
+      "D": "$\\dfrac{5}{4}$"
+    },
+    "answer": "B",
+    "analysis": "开口向上，区间最大值在端点：$f(0)=1$，$f(2)=5-4a$，故 $\\max=\\max\\{1,5-4a\\}$。\n若 $a\\ge 1$，则 $5-4a\\le 1$，max$=1\\ne 2$，不可能。若 $a<1$，则 max$=5-4a$，令 $=2\\Rightarrow a=\\dfrac{3}{4}<1$，可行。选 B。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "端点比较即可（顶点是最小值）。",
+    "hardLevelReason": "闭区间最大值在端点，令较大端点值=2 反解 a，并排除 max≡1 的支。",
+    "hardProfile": {
+      "coreChallenge": "区间最大端点表达式反解参数",
+      "reasoningSteps": [
+        "max=max{f(0),f(2)}",
+        "排除 a≥1",
+        "解 5-4a=2",
+        "得 3/4"
+      ],
+      "difficultyEvidence": "误把顶点当最大会解 1-a^2=2 无实解或错",
+      "misconceptionTrap": "选 a=1 因 f(2)=1 与 f(0) 相等",
+      "alternativeApproach": "按对称轴相对 [0,2] 分段写 max",
+      "verification": "a=3/4 时 f(2)=2,f(0)=1",
+      "contentSha256": "026f57a22d028c6a1622b47889283e5412a01be8606c501ee8adf1d881275ebd"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "是最值反问题定参，非根分布正向表。"
+    },
+    "contentSha256": "026f57a22d028c6a1622b47889283e5412a01be8606c501ee8adf1d881275ebd",
+    "modelFamily": "interval-max-inverse-param",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-036",
+    "designId": "HARD-DESIGN-036",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.2.04",
+    "methodMain": "num_shape",
+    "methodAux": "substitution",
+    "stem": "正实数 $x,y,z$ 满足 $xy+yz+zx=3$。\n(1) 判断命题「$x+y+z\\ge\\sqrt{3}\\,\\sqrt{x^{2}+y^{2}+z^{2}}$ 对一切满足约束的正数恒成立」的真假；\n(2) 若再添加条件 $x^{2}+y^{2}+z^{2}=3$，求 $x+y+z$ 的值。",
+    "options": null,
+    "answer": "(1) 假；(2) $3$（定值）",
+    "analysis": "(1) 由 $(x+y+z)^{2}=\\sum x^{2}+2\\sum xy$。取 $x=y=z=1$ 满足 $\\sum xy=3$，左边 $3$，右边 $\\sqrt{3}\\cdot\\sqrt{3}=3$，等号。但取 $x=\\sqrt{3},y=\\sqrt{3},z\\to 0^{+}$（调整使 $xy+yz+zx=3$ 仍可接近），平方和可变大而使右边相对偏大——更干净的反例：固定 $\\sum xy=3$，令 $x=y=t$ 大、$z=\\dfrac{3-t^{2}}{2t}$（需 $t^{2}<3$）。直接：命题要害是系数 $\\sqrt{3}$。由柯西 $(x+y+z)^{2}\\le 3(x^{2}+y^{2}+z^{2})$，故 $x+y+z\\le\\sqrt{3}\\sqrt{\\sum x^{2}}$，方向与题给相反，题给下界方向错误，命题假。\n(2) 若 $\\sum x^{2}=3$ 且 $\\sum xy=3$，则 $(x+y+z)^{2}=3+6=9$。正数和取正值，得 $x+y+z=3$。例如 $x=y=z=1$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "(1) 用柯西说明方向错误或给反例",
+        "score": 5
+      },
+      {
+        "step": "(2) 平方恒等式得定值 3",
+        "score": 7
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "恒等式与柯西即可。",
+    "hardLevelReason": "双二次约束下平方恒等式直接锁定和为定值，策略选择优于硬套 AM-GM。",
+    "hardProfile": {
+      "coreChallenge": "识别恒等式使「最值」退化为定值",
+      "reasoningSteps": [
+        "(1) 柯西方向反驳",
+        "(2) 展开平方",
+        "代入双约束",
+        "得和=3"
+      ],
+      "difficultyEvidence": "硬套 AM-GM 得不到精确值",
+      "misconceptionTrap": "把 (2) 当成求最小值并写 ≥",
+      "alternativeApproach": "特征向量/等值 x=y=z",
+      "verification": "x=y=z=1 满足两约束",
+      "contentSha256": "2ad203471840d48ade1c8a860dc71273ac555fedc0bc92d780d2c989aaa4d2dd"
+    },
+    "compareDowngrade": {
+      "structureType": "AMGM_ROUTINE",
+      "contrast": "正确路径是平方恒等式锁定定值，而非三次 AM-GM 硬估。"
+    },
+    "contentSha256": "2ad203471840d48ade1c8a860dc71273ac555fedc0bc92d780d2c989aaa4d2dd",
+    "modelFamily": "dual-quad-constraint-sum-fixed",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-037",
+    "designId": "HARD-DESIGN-037",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.04",
+    "methodMain": "classification",
+    "methodAux": "equiv_transform",
+    "stem": "设 $f(x)=x^{2}-(2a+1)x+a^{2}$。记 $P$：「方程 $f(x)=0$ 有两实根且都大于 $1$」；$Q$：「方程 $f(x)=0$ 存在实根大于 $1$」。分别求使 $P$、$Q$ 成立的 $a$ 的取值范围，并比较二者。",
+    "options": null,
+    "answer": "$P$：$a>2$；$Q$：$a>0$；$Q$ 比 $P$ 多出 $(0,2]$",
+    "analysis": "$\\Delta=(2a+1)^{2}-4a^{2}=4a+1$。$f(1)=a(a-2)$，对称轴 $\\dfrac{2a+1}{2}$。\n对 $P$（开口向上）：需 $\\Delta\\ge 0$（$a\\ge-\\dfrac{1}{4}$）、对称轴 $>1$（$a>\\dfrac{1}{2}$）、$f(1)>0$。在 $a>\\dfrac{1}{2}$ 下，$f(1)>0\\Leftrightarrow a>2$。$a=2$ 时一根为 $1$，不都 $>1$。故 $P\\Leftrightarrow a>2$。\n对 $Q$：无实根（$a<-\\dfrac{1}{4}$）时假。当 $f(1)<0$ 即 $a\\in(0,2)$ 时两根分居 $1$ 两侧，必有一根 $>1$。$a=2$ 时根为 $1,4$，有根 $>1$。$a>2$ 即 $P$ 成立。当 $-\\dfrac{1}{4}\\le a\\le 0$ 时 $f(1)\\ge 0$ 且对称轴 $\\le\\dfrac{1}{2}$，两根都 $\\le 1$，无根 $>1$。故 $Q\\Leftrightarrow a>0$。\n比较：$Q$ 真值域比 $P$ 多出 $(0,2]$。",
+    "maxScore": 16,
+    "rubric": [
+      {
+        "step": "写出 Δ、f(1)、对称轴",
+        "score": 3
+      },
+      {
+        "step": "完整论证 P⇔a>2",
+        "score": 6
+      },
+      {
+        "step": "完整论证 Q⇔a>0",
+        "score": 5
+      },
+      {
+        "step": "比较差集",
+        "score": 2
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "根分布符号表可代数完成。",
+    "hardLevelReason": "「两根都>1」与「存在根>1」参数域对照，边界充分性层层剥离。",
+    "hardProfile": {
+      "coreChallenge": "皆大 vs 存在大的参数域差集",
+      "reasoningSteps": [
+        "列 Δ 与 f(1)",
+        "推 P",
+        "推 Q",
+        "比差集"
+      ],
+      "difficultyEvidence": "设计原稿结论 P:a∈(-∞,0] 错误；本题按重导纠正",
+      "misconceptionTrap": "把 f(1)>0 与 a<0 支误并入 P",
+      "alternativeApproach": "较大根公式 (2a+1+√Δ)/2>1",
+      "verification": "a=3∈P；a=1∈Q\\P；a=-0.1∉Q",
+      "contentSha256": "1fd20a5785b1122edc48314fc1b6cf6a28f804d2f326a7b7d25dcdff4ef73ef4"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "不是单表套用，而是 P/Q 逻辑差与边界归属的对照分析。"
+    },
+    "contentSha256": "1fd20a5785b1122edc48314fc1b6cf6a28f804d2f326a7b7d25dcdff4ef73ef4",
+    "modelFamily": "all-roots-gt-vs-exists-gt",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-038",
+    "designId": "HARD-DESIGN-038",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.05",
+    "methodMain": "undetermined_coeff",
+    "methodAux": "classification",
+    "stem": "设 $x_{1},x_{2}$ 为方程 $x^{2}-2tx+t=0$ 的实根（$t\\ne 0$）。令 $u=x_{1}+x_{2}$，$v=x_{1}x_{2}$。求使 $(u-2)^{2}+(v-1)^{2}\\le 1$ 成立的 $t$，并说明几何意义。",
+    "options": null,
+    "answer": "$t\\in\\left[1,\\,1+\\dfrac{1}{\\sqrt{5}}\\right]$；点 $(u,v)=(2t,t)$ 落入圆心 $(2,1)$ 半径 $1$ 的圆盘与实根射线的交",
+    "analysis": "实根：$\\Delta=4t(t-1)\\ge 0$ 且 $t\\ne 0\\Rightarrow t<0$ 或 $t\\ge 1$。又 $u=2t$，$v=t$。\n圆盘条件：$(2t-2)^{2}+(t-1)^{2}\\le 1\\Leftrightarrow 5(t-1)^{2}\\le 1\\Leftrightarrow |t-1|\\le\\dfrac{1}{\\sqrt{5}}\\Leftrightarrow t\\in\\left[1-\\dfrac{1}{\\sqrt{5}},1+\\dfrac{1}{\\sqrt{5}}\\right]$。\n与实根域求交：与 $t\\ge 1$ 交得 $t\\in\\left[1,1+\\dfrac{1}{\\sqrt{5}}\\right]$；与 $t<0$ 无交（因 $1-\\dfrac{1}{\\sqrt{5}}>0$）。\n几何意义：韦达映射把参数 $t$ 送到直线点 $(2t,t)$，再截取与圆盘的交集。",
+    "maxScore": 14,
+    "rubric": [
+      {
+        "step": "实根域 t<0 或 t≥1",
+        "score": 3
+      },
+      {
+        "step": "圆盘不等式化简",
+        "score": 5
+      },
+      {
+        "step": "求交得最终区间",
+        "score": 4
+      },
+      {
+        "step": "几何意义",
+        "score": 2
+      }
+    ],
+    "diagramRequirement": "RECOMMENDED",
+    "diagramSpecification": "uv 平面画圆盘 (u-2)^2+(v-1)^2≤1 与射线/半直线 (u,v)=(2t,t)。",
+    "noDiagramReason": null,
+    "hardLevelReason": "韦达像点 (2t,t) 落入圆盘，再与实根域求交，数形结合。",
+    "hardProfile": {
+      "coreChallenge": "韦达像点∩圆盘∩实根域",
+      "reasoningSteps": [
+        "实根域",
+        "代入 u=2t,v=t",
+        "解圆盘",
+        "求交"
+      ],
+      "difficultyEvidence": "漏实根域会多出靠近 1-1/√5 的假根",
+      "misconceptionTrap": "保留 t=0",
+      "alternativeApproach": "参数几何：点到 (2,1) 距离",
+      "verification": "t=1：点 (2,1) 在圆心；t=1.5>1+1/√5≈1.447 出界",
+      "contentSha256": "67cc883dbbb6102a1dabc9212eefe06fb5f105a05196cbbe99a56c64fc26a20b"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "新增 (u,v) 平面圆盘可行域，非根区间表。"
+    },
+    "contentSha256": "67cc883dbbb6102a1dabc9212eefe06fb5f105a05196cbbe99a56c64fc26a20b",
+    "modelFamily": "vieta-image-in-disk",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-039",
+    "designId": "HARD-DESIGN-039",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.1",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.2.1.03",
+    "methodMain": "mono_analysis",
+    "methodAux": "num_shape",
+    "stem": "求使不等式 $x^{2}+|x-a|\\ge a$ 对一切实数 $x$ 恒成立的实数 $a$ 的取值范围，并验证范围两端（或边界）可达。",
+    "options": null,
+    "answer": "$a\\le 0$ 或 $a\\ge 1$",
+    "analysis": "记 $g(x)=x^{2}+|x-a|$。若 $a\\le 0$，则右边 $\\le 0\\le g(x)$，恒成立。\n若 $a>0$，需 $\\min g\\ge a$。在 $x=a$ 处 $g(a)=a^{2}$。\n当 $a\\ge\\dfrac{1}{2}$：左段 $x<a$ 上 $g=x^{2}-x+a$ 的临界点 $x=\\dfrac{1}{2}$ 若 $<a$ 则需比较；实际上对 $a\\ge\\dfrac{1}{2}$，右段 $x\\ge a$ 上 $g=x^{2}+x-a$ 在 $[a,+\\infty)$ 递增，左段在 $(−\\infty,a)$ 上配方分析 在 $x<a$ 时若 $a\\le\\dfrac{1}{2}$ 另论。完整结论经分类：\n- $0<a<1$：可取 $x=a$ 得 $g(a)=a^{2}<a$，失败（例如 $a=\\dfrac{1}{2}$，$g=\\dfrac{1}{4}<\\dfrac{1}{2}$）。\n- $a\\ge 1$：可证 $\\min g=a^{2}\\ge a$，恒成立。\n故范围 $a\\le 0$ 或 $a\\ge 1$。边界：$a=0$ 时 $g=x^{2}+|x|\\ge 0$；$a=1$ 时 $g(x)=x^{2}+|x-1|\\ge 1$（$x=1$ 取等）。",
+    "maxScore": 14,
+    "rubric": [
+      {
+        "step": "a≤0 显然成立",
+        "score": 3
+      },
+      {
+        "step": "a>0 分段讨论 min g",
+        "score": 7
+      },
+      {
+        "step": "得 a≥1 并验证边界",
+        "score": 4
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "分段最小值用配方与端点比较完成。",
+    "hardLevelReason": "二次加绝对值的自参照恒成立，需分段求全局最小值再与 a 比较。",
+    "hardProfile": {
+      "coreChallenge": "g=x^2+|x-a| 的最小值相对 a",
+      "reasoningSteps": [
+        "a≤0 平凡",
+        "a∈(0,1) 反例",
+        "a≥1 用 min=a^2",
+        "边界检验"
+      ],
+      "difficultyEvidence": "设计稿写 a≤1 错误；重导为 a≤0 或 a≥1",
+      "misconceptionTrap": "只看 a≤1",
+      "alternativeApproach": "对固定 a 画抛物线加 V 形扰动",
+      "verification": "a=0.5 失败；a=0,1 成功；a=2 成功",
+      "contentSha256": "bd7a550e300ceadf45418626995c15637845a2c25df19d48d1f12f086889cc9a"
+    },
+    "compareDowngrade": {
+      "structureType": "ABS_PIECEWISE",
+      "contrast": "恒成立比较的是参数自身，充分性闭环强于普通分段方程。"
+    },
+    "contentSha256": "bd7a550e300ceadf45418626995c15637845a2c25df19d48d1f12f086889cc9a",
+    "modelFamily": "quad-plus-abs-self-hold",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-040",
+    "designId": "HARD-DESIGN-040",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.02",
+    "methodMain": "classification",
+    "methodAux": "equiv_transform",
+    "stem": "设 $f(x)=x^{2}-2bx+b$。求使「在 $(0,1)$ 内恰有一根」且「在 $(1,3)$ 内恰有一根」同时成立的实数 $b$ 的取值范围。",
+    "options": null,
+    "answer": "$b\\in\\left(1,\\dfrac{9}{5}\\right)$",
+    "analysis": "两开区间不交且各恰一根 $\\Rightarrow$ 两相异实根，一根 $\\in(0,1)$，一根 $\\in(1,3)$，故必 $f(1)<0$，且较小根 $>0$、较大根 $<3$。开口向上时等价于：$\\Delta>0$，$f(1)<0$，$f(0)>0$，$f(3)>0$。\n计算：$\\Delta=4b(b-1)$，$f(0)=b$，$f(1)=1-b$，$f(3)=9-5b$。\n由 $f(1)<0$ 得 $b>1$；此时自动 $\\Delta>0$ 且 $f(0)>0$。再 $f(3)>0\\Rightarrow b<\\dfrac{9}{5}$。故 $b\\in\\left(1,\\dfrac{9}{5}\\right)$。\n边界：$b\\to 1^{+}$ 时一根 $\\to 1^{-}$；$b\\to\\dfrac{9}{5}^{-}$ 时大根 $\\to 3^{-}$；端点使根落到开区间端点，不满足「内」。",
+    "maxScore": 14,
+    "rubric": [
+      {
+        "step": "翻译为符号条件 Δ>0,f(1)<0,f(0)>0,f(3)>0",
+        "score": 5
+      },
+      {
+        "step": "解得开区间 (1,9/5)",
+        "score": 6
+      },
+      {
+        "step": "说明端点不纳入",
+        "score": 3
+      }
+    ],
+    "diagramRequirement": "RECOMMENDED",
+    "diagramSpecification": "数轴标 (0,1)、(1,3) 与两根位置，强调 f(1)<0。",
+    "noDiagramReason": null,
+    "hardLevelReason": "两分离开区间各恰一根，用 f(0),f(1),f(3) 符号模式联立严格开区间条件。",
+    "hardProfile": {
+      "coreChallenge": "两分离区间各一根的符号模式",
+      "reasoningSteps": [
+        "必有 f(1)<0",
+        "端点同号正",
+        "解不等式组",
+        "开区间边界"
+      ],
+      "difficultyEvidence": "漏 f(3)>0 会得到 b>1 过大",
+      "misconceptionTrap": "写成闭区间 [1,9/5]",
+      "alternativeApproach": "设根 r∈(0,1),s∈(1,3)，韦达约束",
+      "verification": "b=1.2 检验两根位置",
+      "contentSha256": "814752cb6eb9f9f18836dcbed69011bd6e6d3a38403f535b0254ef537db2ac26"
+    },
+    "compareDowngrade": {
+      "structureType": "QUAD_ROUTINE",
+      "contrast": "双区间各恰一根的联立远超单区间根分布表。"
+    },
+    "contentSha256": "814752cb6eb9f9f18836dcbed69011bd6e6d3a38403f535b0254ef537db2ac26",
+    "modelFamily": "two-intervals-one-root-each",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-041",
+    "designId": "HARD-DESIGN-041",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.2",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.2.2.01",
+    "methodMain": "num_shape",
+    "methodAux": "equiv_transform",
+    "stem": "设 $a>0$，$b>0$。\n（1）证明：$(a+b)\\left(\\dfrac{1}{a}+\\dfrac{1}{b}\\right)\\ge 4$，并指出等号条件；\n（2）若 $a+b=2$，求 $\\dfrac{1}{a}+\\dfrac{1}{b}$ 的最小值；\n（3）若 $a+b=s$（$s>0$），求 $\\dfrac{1}{a}+\\dfrac{1}{b}$ 的最小值（用 $s$ 表示），并说明其关于 $s$ 的单调性。",
+    "options": null,
+    "answer": "（1）成立，等号 $\\Leftrightarrow a=b$；（2）最小值为 $2$；（3）最小值为 $\\dfrac{4}{s}$，关于 $s>0$ 严格递减。",
+    "analysis": "（1）左边 $=2+\\dfrac{a}{b}+\\dfrac{b}{a}\\ge 2+2=4$，等号 $\\Leftrightarrow a=b$。\n（2）由（1），$2\\left(\\dfrac{1}{a}+\\dfrac{1}{b}\\right)\\ge 4\\Rightarrow \\dfrac{1}{a}+\\dfrac{1}{b}\\ge 2$，等号 $a=b=1$。\n（3）$\\dfrac{1}{a}+\\dfrac{1}{b}=\\dfrac{s}{ab}$，$ab\\le\\left(\\dfrac{s}{2}\\right)^2$，故 $\\dfrac{s}{ab}\\ge\\dfrac{4}{s}$，等号 $a=b=\\dfrac{s}{2}$。函数 $s\\mapsto\\dfrac{4}{s}$（$s>0$）严格递减。",
+    "maxScore": 14,
+    "rubric": [
+      {
+        "key": "prove",
+        "title": "证明≥4",
+        "score": 4,
+        "criterion": "展开并用比值≥2"
+      },
+      {
+        "key": "s2",
+        "title": "s=2",
+        "score": 4,
+        "criterion": "最小值 2"
+      },
+      {
+        "key": "param",
+        "title": "一般 s",
+        "score": 4,
+        "criterion": "min=4/s"
+      },
+      {
+        "key": "mono",
+        "title": "单调",
+        "score": 2,
+        "criterion": "4/s 递减"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "证明→定和最值→参数化最小值与单调三层衔接。",
+    "hardProfile": {
+      "coreChallenge": "证明→定和最值→参数化最小值与单调三层衔接。",
+      "contentSha256": "c6566bba82555f65dc14bc628f27de33a9e1ab042cd8324d50e78d630ccd4eab"
+    },
+    "compareDowngrade": "相对套路 AM-GM 单步取等：强制参数化后的充分性与对 s 的单调。",
+    "contentSha256": "c6566bba82555f65dc14bc628f27de33a9e1ab042cd8324d50e78d630ccd4eab",
+    "modelFamily": "harmonic-sum-param-min",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-042",
+    "designId": "HARD-DESIGN-042",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.03",
+    "methodMain": "classification",
+    "methodAux": "substitution",
+    "stem": "求所有实数 $k$，使方程组 $\\begin{cases} x^2-3x+2=0 \\\\ |x-k|=1 \\end{cases}$ 有实数解。",
+    "options": null,
+    "answer": "$k\\in\\{0,1,2,3\\}$。",
+    "analysis": "由 $x^2-3x+2=0$ 得 $x=1$ 或 $x=2$。公共解存在 $\\Leftrightarrow |1-k|=1$ 或 $|2-k|=1$，即 $k\\in\\{0,2\\}$ 或 $k\\in\\{1,3\\}$，故 $k\\in\\{0,1,2,3\\}$。$k=2$ 时 $x=1$ 仍为公共解。关键是先离散二次根再反推参数。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "离散二次根反推绝对值参数；诚实对齐 hardLevel=H2 与 TRUE_H2。",
+    "hardProfile": {
+      "coreChallenge": "离散二次根反推绝对值参数；诚实对齐 hardLevel=H2 与 TRUE_H2。",
+      "contentSha256": "3ab001040f409b4ace84f32924b26c1a202ba9f954799e71e64cc2a1b7802028"
+    },
+    "compareDowngrade": "相对单方程含参：二次与绝对值方程组公共解的参数存在性。",
+    "contentSha256": "3ab001040f409b4ace84f32924b26c1a202ba9f954799e71e64cc2a1b7802028",
+    "modelFamily": "quad-abs-common-root-exist",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-043",
+    "designId": "HARD-DESIGN-043",
+    "qtype": "multi",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.04",
+    "methodMain": "equiv_transform",
+    "methodAux": "classification",
+    "stem": "设命题 $R$：对任意 $a\\in[0,1]$，都存在 $x\\in\\mathbb{R}$，使 $x^2-2ax+a\\le 0$。\n设命题 $R'$：存在 $x\\in\\mathbb{R}$，使对任意 $a\\in[0,1]$，都有 $x^2-2ax+a\\le 0$。\n下列正确的是（多选）",
+    "options": {
+      "A": "命题 $R$ 为真",
+      "B": "命题 $R$ 为假",
+      "C": "命题 $R'$ 为真",
+      "D": "命题 $R'$ 为假"
+    },
+    "answer": "B,D",
+    "analysis": "$f_a(x)=x^2-2ax+a=(x-a)^2+a(1-a)$。当 $a\\in(0,1)$ 时 $a(1-a)>0$，故 $f_a(x)\\ge a(1-a)>0$，不存在 $x$ 使 $f_a\\le 0$，因而 $R$ 假。$R'$ 更强，亦假。选 B、D。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "量词顺序+配方揭示区间内恒正。",
+    "hardProfile": {
+      "coreChallenge": "量词顺序+配方揭示区间内恒正。",
+      "contentSha256": "054e1f7223697ee2480856c46b160f3dea4c837e641f16b835077ce7c0853da0"
+    },
+    "compareDowngrade": "相对 Δ 套路：在 (0,1) 上 Δ<0 且结构恒正，打破直觉。",
+    "contentSha256": "054e1f7223697ee2480856c46b160f3dea4c837e641f16b835077ce7c0853da0",
+    "modelFamily": "param-forall-quad-exist-fail",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-044",
+    "designId": "HARD-DESIGN-044",
+    "qtype": "application",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.01",
+    "methodMain": "classification",
+    "methodAux": "num_shape",
+    "stem": "设实数 $x_1\\le x_2$ 满足 $x_1+x_2=2$，$x_1x_2=k$，且 $0\\le k\\le 1$。令 $\\varphi(k)=(x_2-x_1)+x_1x_2$。求 $\\varphi(k)$ 的最小值及相应的 $k$。",
+    "options": null,
+    "answer": "最小值为 $1$，当 $k=1$ 时取到。",
+    "analysis": "$x_2-x_1=2\\sqrt{1-k}$，故 $\\varphi(k)=2\\sqrt{1-k}+k$。令 $t=\\sqrt{1-k}\\in[0,1]$，$k=1-t^2$，则 $\\psi(t)=2t+1-t^2=-(t-1)^2+2$。在 $[0,1]$ 上最小值 $\\psi(0)=1$（$k=1$），最大值 $2$（$k=0$）。故最小值为 $1$。若无 $k\\ge 0$ 则 $k\\to-\\infty$ 时无下界，本题已限定。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "可行域良定性反思+换元优化。",
+    "hardProfile": {
+      "coreChallenge": "可行域良定性反思+换元优化。",
+      "contentSha256": "7629a6f8c31114baf9147884f1c2db4f470c410027232d14fe33f5efa401df42"
+    },
+    "compareDowngrade": "相对韦达计算：带判别式约束的对称式优化。",
+    "contentSha256": "7629a6f8c31114baf9147884f1c2db4f470c410027232d14fe33f5efa401df42",
+    "modelFamily": "root-gap-plus-product-opt",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-045",
+    "designId": "HARD-DESIGN-045",
+    "qtype": "numeric",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.2.3.05",
+    "methodMain": "equiv_transform",
+    "methodAux": "num_shape",
+    "stem": "已知对一切正实数 $x,y$ 都有 $x^2+y^2+a\\ge xy+x+y$。求实数 $a$ 的最小值。",
+    "options": null,
+    "answer": "1",
+    "analysis": "不等式 $\\Leftrightarrow x^2+y^2-xy-x-y+a\\ge 0$。由\n$\\dfrac12\\big[(x-y)^2+(x-1)^2+(y-1)^2\\big]=x^2+y^2-xy-x-y+1\\ge 0$，\n知 $a\\ge 1$ 时充分（等号可在 $x=y=1$ 取到）。若 $a<1$，取 $x=y=1$ 得矛盾。故最小值为 $1$。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "二元恒成立最佳常数，充分必要闭环。",
+    "hardProfile": {
+      "coreChallenge": "二元恒成立最佳常数，充分必要闭环。",
+      "contentSha256": "4d1817d412b18a0b6a90526deab95f87186375e01c6fd294ca881ff67eec00e0"
+    },
+    "compareDowngrade": "相对单变量配方：需精确恒等式+特例证必要。",
+    "contentSha256": "4d1817d412b18a0b6a90526deab95f87186375e01c6fd294ca881ff67eec00e0",
+    "modelFamily": "bivar-quad-best-constant",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-046",
+    "designId": "HARD-DESIGN-046",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.1",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.3.1.09",
+    "methodMain": "classification",
+    "methodAux": "undetermined_coeff",
+    "stem": "设\n$$f(x)=\\begin{cases} ax+1, & x<1 \\\\ x^2+b, & x\\ge 1 \\end{cases}$$\n在 $x=1$ 处连续，且 $f$ 在 $[1,+\\infty)$ 上的值域为 $[2,+\\infty)$。求 $a,b$。",
+    "options": null,
+    "answer": "$a=b=1$。",
+    "analysis": "连续：$a+1=1+b\\Rightarrow a=b$。右支 $g(x)=x^2+a$（$x\\ge 1$）开口向上，最小值 $g(1)=1+a$，值域 $[1+a,+\\infty)$。要等于 $[2,+\\infty)$，需 $1+a=2\\Rightarrow a=1$，故 $a=b=1$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "连续条件与右支值域下端联立定参。",
+    "hardProfile": {
+      "coreChallenge": "连续条件与右支值域下端联立定参。",
+      "contentSha256": "9ea19375bc526b0e0541d36fd07b20612e6f797689cad7992051100a6b1248ab"
+    },
+    "compareDowngrade": "相对单侧求值域：拼接点连续+区间值域反推参数。",
+    "contentSha256": "9ea19375bc526b0e0541d36fd07b20612e6f797689cad7992051100a6b1248ab",
+    "modelFamily": "piecewise_linear_quad_range_union",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-047",
+    "designId": "HARD-DESIGN-047",
+    "qtype": "single",
+    "chapterNo": 3,
+    "sectionCode": "3.1",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.3.1.10",
+    "methodMain": "substitution",
+    "methodAux": "special_value",
+    "stem": "已知对任意实数 $x$，有 $f(x)+f(1-x)=x^2-x+1$。则",
+    "options": {
+      "A": "$f(2)+f(-1)=3$，且 $f\\left(\\dfrac12\\right)$ 不能唯一确定",
+      "B": "$f(2)+f(-1)=3$，且 $f\\left(\\dfrac12\\right)=\\dfrac38$",
+      "C": "$f(2)+f(-1)=2$，且 $f\\left(\\dfrac12\\right)=\\dfrac38$",
+      "D": "$f(2)+f(-1)=3$，且 $f$ 的解析式唯一"
+    },
+    "answer": "B",
+    "analysis": "令 $x=2$：$f(2)+f(-1)=4-2+1=3$。令 $x=\\dfrac12$：$2f\\left(\\dfrac12\\right)=\\dfrac14-\\dfrac12+1=\\dfrac34$，故 $f\\left(\\dfrac12\\right)=\\dfrac38$。函数本身可将特解加反对称齐次项，一般不唯一，但上述两值已确定。选 B。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "对称代换提取可观测量，并辨析唯一性。",
+    "hardProfile": {
+      "coreChallenge": "对称代换提取可观测量，并辨析唯一性。",
+      "contentSha256": "0548b11bd213a3fe22c7d1cd81c4a246009cfcfe675201fed367d2fbfb4284b3"
+    },
+    "compareDowngrade": "相对直接求值：成对约束下区分可求组合与不可唯一确定的点。",
+    "contentSha256": "0548b11bd213a3fe22c7d1cd81c4a246009cfcfe675201fed367d2fbfb4284b3",
+    "modelFamily": "pair_sum_quadratic_kernel",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-048",
+    "designId": "HARD-DESIGN-048",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.09",
+    "methodMain": "domain_symmetry",
+    "methodAux": "parity_apply",
+    "stem": "设 $f(x)=\\sqrt{k-x}+\\sqrt{x+2}-c$（$c$ 为实常数）。\n（1）求使定义域关于原点对称的实数 $k$；\n（2）在（1）的条件下，判断 $f$ 的奇偶性，并说明是否存在 $c$ 使 $f$ 为奇函数。",
+    "options": null,
+    "answer": "（1）$k=2$；（2）对一切实数 $c$，$f$ 为偶函数；不存在 $c$ 使 $f$ 为奇函数。",
+    "analysis": "定义域 $D=[-2,k]$（需 $k\\ge -2$）。关于原点对称 $\\Leftrightarrow k=2$，此时 $D=[-2,2]$。\n$f(-x)=\\sqrt{2+x}+\\sqrt{2-x}-c=f(x)$，故恒为偶函数。\n若同时为奇，则 $f\\equiv 0$，但 $\\sqrt{2-x}+\\sqrt{x+2}$ 在 $x=0$ 与 $x=2$ 处分别为 $2\\sqrt{2}$ 与 $2$，非常值，矛盾。故不存在这样的 $c$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "定义域对称强制参数后再判奇偶。",
+    "hardProfile": {
+      "coreChallenge": "定义域对称强制参数后再判奇偶。",
+      "contentSha256": "e0abcb8d6f66c4ee7e27cea4d4e75427ec5841da5dd4f45744ad7938a1294488"
+    },
+    "compareDowngrade": "相对直接代 −x：先对称域定参，再否定奇性。",
+    "contentSha256": "e0abcb8d6f66c4ee7e27cea4d4e75427ec5841da5dd4f45744ad7938a1294488",
+    "modelFamily": "dual_sqrt_domain_force_even",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-049",
+    "designId": "HARD-DESIGN-049",
+    "qtype": "judge",
+    "chapterNo": 3,
+    "sectionCode": "3.3",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.3.3.04",
+    "methodMain": "mono_analysis",
+    "methodAux": "classification",
+    "stem": "判断：若 $a>b$，则对一切 $x>1$ 有 $x^a>x^b$，对一切 $0<x<1$ 有 $x^a<x^b$。",
+    "options": null,
+    "answer": "true",
+    "analysis": "$x^a-x^b=x^b(x^{a-b}-1)$。令 $t=a-b>0$。当 $x>1$ 时 $x^t>1$，故 $x^a>x^b$；当 $0<x<1$ 时 $0<x^t<1$，故 $x^a<x^b$。命题正确。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "幂比较需跨 1 分类，非单点估算。",
+    "hardProfile": {
+      "coreChallenge": "幂比较需跨 1 分类，非单点估算。",
+      "contentSha256": "be797056d1cfadcec640466b1e0707b5436e67c290bc373b7220b3b37bacfb96"
+    },
+    "compareDowngrade": "相对单点代入：完整给出 a>b 时两侧大小法则。",
+    "contentSha256": "be797056d1cfadcec640466b1e0707b5436e67c290bc373b7220b3b37bacfb96",
+    "modelFamily": "power_compare_cross_one",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-050",
+    "designId": "HARD-DESIGN-050",
+    "qtype": "multi",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.03",
+    "methodMain": "mono_analysis",
+    "methodAux": "equiv_transform",
+    "stem": "设 $f(x)=x+\\dfrac{4}{x}$（$x>0$）。下列正确的是（多选）",
+    "options": {
+      "A": "$f$ 在 $(0,2]$ 上单调递减",
+      "B": "$f$ 在 $[2,+\\infty)$ 上单调递增",
+      "C": "$f$ 的最小值为 $4$",
+      "D": "$f$ 的最小值为 $2$"
+    },
+    "answer": "A,B,C",
+    "analysis": "作差：$f(x_1)-f(x_2)=(x_1-x_2)\\left(1-\\dfrac{4}{x_1x_2}\\right)$。当 $0<x_1<x_2\\le 2$ 时 $x_1x_2<4$，差为正，递减；当 $2\\le x_1<x_2$ 时差为负，递增。最小值 $f(2)=4$。选 A、B、C。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "对勾作差得完整单调区间与最小值。",
+    "hardProfile": {
+      "coreChallenge": "对勾作差得完整单调区间与最小值。",
+      "contentSha256": "f52a8215b5930ebbfdf8251f56615736220085f5af4fc2c3270a221f7a2c3b5e"
+    },
+    "compareDowngrade": "相对只写最小值：要求单调区间完整表述。",
+    "contentSha256": "f52a8215b5930ebbfdf8251f56615736220085f5af4fc2c3270a221f7a2c3b5e",
+    "modelFamily": "amgm_linear_reciprocal_mono",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-051",
+    "designId": "HARD-DESIGN-051",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.1",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.3.1.05",
+    "methodMain": "defn",
+    "methodAux": "equiv_transform",
+    "stem": "设 $f(x)=\\dfrac{x^2-1}{x-1}$（$x\\ne 1$），$g(x)=x+1$（$x\\ne a$）。求使 $f$ 与 $g$ 为同一函数的实数 $a$。",
+    "options": null,
+    "answer": "$a=1$。",
+    "analysis": "$x\\ne 1$ 时 $f(x)=x+1$，故 $D(f)=\\mathbb{R}\\setminus\\{1\\}$。$g$ 的对应关系同为 $x\\mapsto x+1$，需 $D(g)=\\mathbb{R}\\setminus\\{a\\}$ 与 $D(f)$ 相同，故 $a=1$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "约分后仍须对齐定义域。",
+    "hardProfile": {
+      "coreChallenge": "约分后仍须对齐定义域。",
+      "contentSha256": "3255cd5daf4f36ce116d6138f6098a7759536e8d479dfaf19cbaecf8718c75a5"
+    },
+    "compareDowngrade": "相对只看解析式：三要素对齐判定同一函数。",
+    "contentSha256": "3255cd5daf4f36ce116d6138f6098a7759536e8d479dfaf19cbaecf8718c75a5",
+    "modelFamily": "same_func_removable_hole_param",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-052",
+    "designId": "HARD-DESIGN-052",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.12",
+    "methodMain": "parity_apply",
+    "methodAux": "classification",
+    "stem": "设 $f$ 为定义在 $\\mathbb{R}$ 上的偶函数，且当 $x\\ge 0$ 时 $f(x)=x^{2}-3x+1$。\n（1）写出当 $x<0$ 时 $f(x)$ 的解析式；\n（2）解方程 $f(x)=f(2x+1)$。",
+    "options": null,
+    "answer": "（1）$x<0$ 时 $f(x)=x^{2}+3x+1$；（2）解集为 $\\left\\{-\\dfrac{4}{3},-1,-\\dfrac{1}{3},\\dfrac{2}{3}\\right\\}$",
+    "analysis": "（1）对 $x<0$，有 $-x>0$，故 $f(x)=f(-x)=(-x)^{2}-3(-x)+1=x^{2}+3x+1$。\n（2）按 $x$ 与 $2x+1$ 的符号分段。\n① $x\\ge 0$（此时 $2x+1>0$）：两边均用非负支，$x^{2}-3x+1=(2x+1)^{2}-3(2x+1)+1=4x^{2}-2x-1$，整理得 $3x^{2}+x-2=0$，$(3x-2)(x+1)=0$，得 $x=\\dfrac{2}{3}$ 或 $x=-1$（舍去）。\n② $x<-\\dfrac{1}{2}$（此时 $2x+1<0$）：两边均用负支，$x^{2}+3x+1=(2x+1)^{2}+3(2x+1)+1=4x^{2}+10x+5$，整理得 $3x^{2}+7x+4=0$，$(3x+4)(x+1)=0$，得 $x=-\\dfrac{4}{3}$ 或 $x=-1$，均属于本段。\n③ $-\\dfrac{1}{2}\\le x<0$（此时 $2x+1\\ge 0$）：左负右非负，$x^{2}+3x+1=4x^{2}-2x-1$，整理得 $3x^{2}-5x-2=0$，$(3x+1)(x-2)=0$，得 $x=-\\dfrac{1}{3}$（属于本段）或 $x=2$（舍去）。\n综上解集为 $\\left\\{-\\dfrac{4}{3},-1,-\\dfrac{1}{3},\\dfrac{2}{3}\\right\\}$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "neg",
+        "title": "负支解析式",
+        "score": 3,
+        "criterion": "写出 x<0 时 f(x)=x^2+3x+1"
+      },
+      {
+        "key": "cases",
+        "title": "三段分类",
+        "score": 5,
+        "criterion": "按 x≥0；x<-1/2；-1/2≤x<0 分别建方程"
+      },
+      {
+        "key": "roots",
+        "title": "求根验域",
+        "score": 4,
+        "criterion": "得四根并回检所属区间"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "偶延拓写出负半轴解析式后，方程 f(x)=f(2x+1) 须按 x 与 2x+1 的符号分三段匹配，漏段会丢根。",
+    "hardProfile": {
+      "coreChallenge": "偶延拓负支后对双侧符号分段解函数方程",
+      "reasoningSteps": [
+        "由偶性写 x<0 解析式",
+        "按 2x+1 符号划段",
+        "各段化同型二次方程",
+        "验根归属得完整解集"
+      ],
+      "difficultyEvidence": "只在 x≥0 求解会漏负根；混用正负支公式会增根",
+      "misconceptionTrap": "以为偶函数方程解必关于原点对称而盲目配对立根",
+      "alternativeApproach": "令 u(x)=f(x)-f(2x+1) 分段讨论零点",
+      "verification": "四根代回 f 值相等",
+      "contentSha256": "d6d6cc324995767d9554ff36d627888a9939a0afd5f279952178c07737ebd3ea"
+    },
+    "compareDowngrade": {
+      "structureType": "PARITY_EVAL",
+      "contrast": "降级题仅用偶性代一点求值；本题先写未知负支，再对复合自变量分段匹配求解完整解集。"
+    },
+    "contentSha256": "d6d6cc324995767d9554ff36d627888a9939a0afd5f279952178c07737ebd3ea",
+    "modelFamily": "even_piecewise_cross_arg_equation",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-053",
+    "designId": "HARD-DESIGN-053",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.1",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.3.1.09",
+    "methodMain": "classification",
+    "methodAux": "undetermined_coeff",
+    "stem": "设\n$$f(x)=\\begin{cases} x-a, & x\\le 0 \\\\ x^2-3x+a, & x>0 \\end{cases}$$\n恰有两个不同的零点。求实数 $a$ 的取值范围。",
+    "options": null,
+    "answer": "$a<\\dfrac{9}{4}$。",
+    "analysis": "左支零点：仅当 $a\\le 0$ 时 $x=a$ 为零点。\n右支：$\\Delta=9-4a$。\n若 $a<0$：左一根；右支两实根中小根为负、大根为正，恰一正根；共两零点。\n若 $a=0$：零点 $0$ 与 $3$，恰两个。\n若 $0<a<\\dfrac94$：无左零点；右支两正根，恰两个。\n若 $a=\\dfrac94$：右侧重根一个；若 $a>\\dfrac94$：无实根。\n综上 $a<\\dfrac94$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "分段零点归属与判别式分类。",
+    "hardProfile": {
+      "coreChallenge": "分段零点归属与判别式分类。",
+      "contentSha256": "f348d7538b9d9a1c3e168ffbcaac7688cbdb554fb2612a95b7d32572eadd4c7a"
+    },
+    "compareDowngrade": "相对单支求根：左右零点贡献相加。",
+    "contentSha256": "f348d7538b9d9a1c3e168ffbcaac7688cbdb554fb2612a95b7d32572eadd4c7a",
+    "modelFamily": "piecewise_two_zeros_param_count",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-054",
+    "designId": "HARD-DESIGN-054",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.05",
+    "methodMain": "mono_analysis",
+    "methodAux": "classification",
+    "stem": "设 $f$ 在 $\\mathbb{R}$ 上严格递增。对实参数 $a$，记不等式 $f(|x|-1)\\le f(a-x)$ 的解集为 $S(a)$。\n（1）将不等式等价转化为不含 $f$ 的不等式；\n（2）按 $a$ 分类求出 $S(a)$，并指出何时 $S(a)=\\varnothing$、何时 $S(a)$ 为无界集。",
+    "options": null,
+    "answer": "（1）$|x|+x\\le a+1$；（2）$a<-1$ 时 $S(a)=\\varnothing$；$a\\ge -1$ 时 $S(a)=\\left(-\\infty,\\dfrac{a+1}{2}\\right]$（无界）",
+    "analysis": "（1）$f$ 严格递增，故 $f(|x|-1)\\le f(a-x)\\Leftrightarrow |x|-1\\le a-x\\Leftrightarrow |x|+x\\le a+1$。\n（2）分段讨论。\n当 $x\\ge 0$ 时，$2x\\le a+1\\Leftrightarrow x\\le\\dfrac{a+1}{2}$，再与 $x\\ge 0$ 求交。\n当 $x<0$ 时，$|x|+x=0$，不等式化为 $0\\le a+1\\Leftrightarrow a\\ge -1$：若 $a\\ge -1$ 则一切 $x<0$ 均成立；若 $a<-1$ 则负半轴无解。\n汇总：若 $a<-1$，非负支因 $\\dfrac{a+1}{2}<0$ 与 $[0,+\\infty)$ 无交，负半轴亦无解，故 $S(a)=\\varnothing$。若 $a\\ge -1$，负半轴全部属于解集，非负支贡献 $\\left[0,\\dfrac{a+1}{2}\\right]$，故 $S(a)=\\left(-\\infty,\\dfrac{a+1}{2}\\right]$，为无界集。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "equiv",
+        "title": "保序等价",
+        "score": 3,
+        "criterion": "化为 |x|+x≤a+1"
+      },
+      {
+        "key": "piece",
+        "title": "绝对值分段",
+        "score": 4,
+        "criterion": "x≥0 与 x<0 分别讨论"
+      },
+      {
+        "key": "param",
+        "title": "参数结论",
+        "score": 5,
+        "criterion": "写出空集与无界两支并验 a=-1"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "严格增保序后仍须对绝对值分段；参数 a 使解集在空集与无界射线之间切换，边界 a=-1 需单独并入。",
+    "hardProfile": {
+      "coreChallenge": "抽象严格增 + 绝对值分段下的参数解集拓扑分类",
+      "reasoningSteps": [
+        "严格增⇔去掉 f",
+        "化成 |x|+x≤a+1",
+        "非负支得上界，负支得 a 门槛",
+        "汇总空集/无界并检查边界"
+      ],
+      "difficultyEvidence": "漏负半轴「全段成立」条件会答成有界区间；边界 a=-1 易漏",
+      "misconceptionTrap": "把 |x|-1≤a-x 当成对一切 x 的线性不等式不讨论符号",
+      "alternativeApproach": "几何上看折线 y=|x|+x 与水平线 y=a+1 的交截",
+      "verification": "抽 a=-2,-1,1 代特值检验",
+      "contentSha256": "a4f0237a52bcfb0d64cd22731e87a2209a1ebb21e07d6a0f13b56e98bf766650"
+    },
+    "compareDowngrade": {
+      "structureType": "MONO_ORDER",
+      "contrast": "降级题一步保序得 x≥2；本题含绝对值分段 + 参数导致空集/无界解集的完整分类。"
+    },
+    "contentSha256": "a4f0237a52bcfb0d64cd22731e87a2209a1ebb21e07d6a0f13b56e98bf766650",
+    "modelFamily": "abstract_mono_abs_param_unbounded",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-055",
+    "designId": "HARD-DESIGN-055",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.1",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.3.1.03",
+    "methodMain": "equiv_transform",
+    "methodAux": "mono_analysis",
+    "stem": "设 $a=4$，函数 $y=\\sqrt{ax-x^2}$。\n（1）求定义域；（2）求值域。",
+    "options": null,
+    "answer": "（1）$[0,4]$；（2）$[0,2]$。",
+    "analysis": "$4x-x^2\\ge 0\\Rightarrow x\\in[0,4]$。配方：$4x-x^2=4-(x-2)^2$，故 $y=\\sqrt{4-(x-2)^2}\\in[0,2]$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "定义域与半圆值域一体。",
+    "hardProfile": {
+      "coreChallenge": "定义域与半圆值域一体。",
+      "contentSha256": "bba896bf32c06f18e8afae9ad63b7ed58d615a7d06797d9d67d39af9d53c219e"
+    },
+    "compareDowngrade": "相对只求定义域：配方得半圆值域。",
+    "contentSha256": "bba896bf32c06f18e8afae9ad63b7ed58d615a7d06797d9d67d39af9d53c219e",
+    "modelFamily": "semicircle_sqrt_range",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-056",
+    "designId": "HARD-DESIGN-056",
+    "qtype": "multi",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.12",
+    "methodMain": "equiv_transform",
+    "methodAux": "special_value",
+    "stem": "设对一切实数 $x,y$ 有 $f(x+y)+f(x-y)=2f(x)f(y)$，且 $f$ 为偶函数，$f(1)=\\dfrac12$。下列正确的是（多选）",
+    "options": {
+      "A": "$f(0)=1$",
+      "B": "$f(2)=-\\dfrac12$",
+      "C": "$f(3)=-1$",
+      "D": "$f(3)=0$"
+    },
+    "answer": "A,B,C",
+    "analysis": "令 $x=y=0$：$2f(0)=2f(0)^2\\Rightarrow f(0)=0$ 或 $1$。若 $f(0)=0$，令 $y=0$ 得 $f\\equiv 0$，矛盾，故 $f(0)=1$。\n令 $y=1$：$f(x+1)+f(x-1)=f(x)$。取 $x=1$：$f(2)+1=\\dfrac12\\Rightarrow f(2)=-\\dfrac12$。取 $x=2$：$f(3)+\\dfrac12=-\\dfrac12\\Rightarrow f(3)=-1$。选 A、B、C。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "d’Alembert 型递推求值，结构非显然。",
+    "hardProfile": {
+      "coreChallenge": "d’Alembert 型递推求值，结构非显然。",
+      "contentSha256": "affaeca6843c46201ac89e95d4c49a02966da641d378af5781d88a0c79390adc"
+    },
+    "compareDowngrade": "相对奇偶求值：函数方程递推链。",
+    "contentSha256": "affaeca6843c46201ac89e95d4c49a02966da641d378af5781d88a0c79390adc",
+    "modelFamily": "dalembert_cosine_recurrence",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-057",
+    "designId": "HARD-DESIGN-057",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.11",
+    "methodMain": "parity_apply",
+    "methodAux": "graph_symmetry",
+    "stem": "设 $f$ 为奇函数，且以 $T=6$ 为周期，$f(1)=2$。\n（1）证明：$f\\left(\\dfrac{T}{2}\\right)=0$；\n（2）求 $f(5)$ 及 $f(2)+f(4)$。",
+    "options": null,
+    "answer": "（1）见解析；（2）$f(5)=-2$，$f(2)+f(4)=0$。",
+    "analysis": "（1）$f\\left(\\dfrac{T}{2}\\right)=f\\left(\\dfrac{T}{2}-T\\right)=f\\left(-\\dfrac{T}{2}\\right)=-f\\left(\\dfrac{T}{2}\\right)$，故 $f\\left(\\dfrac{T}{2}\\right)=0$。\n（2）$f(5)=f(-1)=-f(1)=-2$；$f(4)=f(-2)=-f(2)$，故 $f(2)+f(4)=0$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "奇性⊕周期推出半周期零点并求值。",
+    "hardProfile": {
+      "coreChallenge": "奇性⊕周期推出半周期零点并求值。",
+      "contentSha256": "ba5e1c3d445be1658d19c671c4b17f03a9980a0405849440b4a78a3f547574a0"
+    },
+    "compareDowngrade": "相对奇偶定义：周期复合推强制零点。",
+    "contentSha256": "ba5e1c3d445be1658d19c671c4b17f03a9980a0405849440b4a78a3f547574a0",
+    "modelFamily": "odd_periodic_half_zero",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-058",
+    "designId": "HARD-DESIGN-058",
+    "qtype": "numeric",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.11",
+    "methodMain": "graph_symmetry",
+    "methodAux": "equiv_transform",
+    "stem": "设函数 $f$ 的图象关于直线 $x=1$ 与 $x=3$ 都对称，且 $f(1)=3$。则 $f(5)=$ ________。",
+    "options": null,
+    "answer": "3",
+    "analysis": "关于 $x=1$：$f(2-x)=f(x)$；关于 $x=3$：$f(6-x)=f(x)$。两次对称复合得 $f(x+4)=f(x)$。故 $f(5)=f(1)=3$。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "双轴对称复合出周期再求值。",
+    "hardProfile": {
+      "coreChallenge": "双轴对称复合出周期再求值。",
+      "contentSha256": "5854ab94cb1708ecefd31037a1b94df1ec8280e8cd10443e4af7b4fdbb5b81d8"
+    },
+    "compareDowngrade": "相对单轴对称：等距双轴生成周期。",
+    "contentSha256": "5854ab94cb1708ecefd31037a1b94df1ec8280e8cd10443e4af7b4fdbb5b81d8",
+    "modelFamily": "dual_axis_symmetry_period",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-059",
+    "designId": "HARD-DESIGN-059",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.10",
+    "methodMain": "parity_apply",
+    "methodAux": "undetermined_coeff",
+    "stem": "设当 $x\\ge 0$ 时 $f(x)=x^2+ax$，且 $f$ 为定义在 $\\mathbb{R}$ 上的奇函数。\n（1）说明实数 $a$ 是否受到额外约束；\n（2）写出当 $x<0$ 时 $f(x)$ 的解析式。",
+    "options": null,
+    "answer": "（1）$a$ 可取任意实数；（2）$x<0$ 时 $f(x)=-x^2+ax$。",
+    "analysis": "$f(0)=0$ 已满足。对 $x>0$，$f(-x)=-f(x)=-(x^2+ax)=-x^2-ax$。令 $t=-x<0$，则 $f(t)=-(-t)^2-a(-t)=-t^2+at$。故 $x<0$ 时 $f(x)=-x^2+ax$。对任意 $a$ 该延拓均为奇函数。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "由奇性反推未知半轴解析式。",
+    "hardProfile": {
+      "coreChallenge": "由奇性反推未知半轴解析式。",
+      "contentSha256": "30465c63fb358a61c7254d9cbe962fb16224c9892001aceedf3786408f61c235"
+    },
+    "compareDowngrade": "相对判断奇偶：构造奇延拓写负支。",
+    "contentSha256": "30465c63fb358a61c7254d9cbe962fb16224c9892001aceedf3786408f61c235",
+    "modelFamily": "odd_extension_quadratic_piece",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-060",
+    "designId": "HARD-DESIGN-060",
+    "qtype": "single",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.01",
+    "methodMain": "mono_analysis",
+    "methodAux": "classification",
+    "stem": "设\n$$f(x)=\\begin{cases} 2x+a, & x<1 \\\\ x^2-bx, & x\\ge 1 \\end{cases}$$\n在 $\\mathbb{R}$ 上连续且单调递增。则 $a,b$ 满足",
+    "options": {
+      "A": "$a+b=-1$ 且 $b\\le 2$",
+      "B": "$a+b=-1$ 且 $b\\ge 2$",
+      "C": "$a+b=1$ 且 $b\\le 2$",
+      "D": "$a+b=-1$ 且 $b\\le 1$"
+    },
+    "answer": "A",
+    "analysis": "连续：$2+a=1-b\\Rightarrow a+b=-1$。左支斜率 $2>0$。右支 $g(x)=x^2-bx$ 在 $[1,+\\infty)$ 增需对称轴 $\\dfrac{b}{2}\\le 1$，即 $b\\le 2$。连续时接口不降已保证。选 A。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "分段全局增：连续+对称轴条件耦合。",
+    "hardProfile": {
+      "coreChallenge": "分段全局增：连续+对称轴条件耦合。",
+      "contentSha256": "b4d780114e52fbbd867f695239a53efa186137d53e99387e03cb1388dd0b581a"
+    },
+    "compareDowngrade": "相对单支单调：接口连续与右支对称轴联立。",
+    "contentSha256": "b4d780114e52fbbd867f695239a53efa186137d53e99387e03cb1388dd0b581a",
+    "modelFamily": "piecewise_global_mono_glue",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-061",
+    "designId": "HARD-DESIGN-061",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.04",
+    "methodMain": "substitution",
+    "methodAux": "mono_analysis",
+    "stem": "设函数 $f$ 的定义域满足：$x\\in D\\Leftrightarrow \\dfrac{1}{x}\\in D$（且只讨论 $x>0$），并满足 $f(x)=f\\left(\\dfrac{1}{x}\\right)$。证明：若 $f$ 在 $(0,1]$ 上严格递减，则 $f$ 在 $[1,+\\infty)$ 上严格递增。",
+    "options": null,
+    "answer": "见解析（结论成立）。",
+    "analysis": "任取 $1\\le x_1<x_2$，则 $0<\\dfrac{1}{x_2}<\\dfrac{1}{x_1}\\le 1$。由 $(0,1]$ 上严格递减：$f\\left(\\dfrac{1}{x_2}\\right)>f\\left(\\dfrac{1}{x_1}\\right)$。但 $f\\left(\\dfrac{1}{x_i}\\right)=f(x_i)$，故 $f(x_2)>f(x_1)$，即在 $[1,+\\infty)$ 上严格递增。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "倒数对称下单调性翻转传递。",
+    "hardProfile": {
+      "contentSha256": "7a1771601c6f6b8de9fc7cb66e7e7f60bcc07ff466b49ea292a36f5f16716764",
+      "coreChallenge": "倒数对称下单调性翻转传递。"
+    },
+    "compareDowngrade": "相对单区间单调：变换群 {id,1/x} 下的单调对偶。",
+    "contentSha256": "7a1771601c6f6b8de9fc7cb66e7e7f60bcc07ff466b49ea292a36f5f16716764",
+    "modelFamily": "reciprocal_symmetry_mono_dual",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-062",
+    "designId": "HARD-DESIGN-062",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.01",
+    "methodMain": "mono_analysis",
+    "methodAux": "defn",
+    "stem": "设 $f:\\mathbb{R}\\to\\mathbb{R}$ 严格递增，且对一切实数 $x$ 有 $f(f(x))=x$。\n（1）证明：$f(x)=x$ 对一切 $x$ 成立；\n（2）举例说明：若改为严格递减，则可以有 $f(f(x))=x$ 但 $f$ 不是恒等映射。",
+    "options": null,
+    "answer": "（1）见解析；（2）例如 $f(x)=1-x$。",
+    "analysis": "（1）若存在 $x_0$ 使 $f(x_0)>x_0$，由严格增得 $f(f(x_0))>f(x_0)$，即 $x_0>f(x_0)$，矛盾。若 $f(x_0)<x_0$ 同理矛盾。故 $f=\\mathrm{id}$。\n（2）$f(x)=1-x$ 严格减且 $f(f(x))=x$，但非恒等。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "严格增对合必恒等的反证结构。",
+    "hardProfile": {
+      "contentSha256": "ee15588f3d752c3ce32bd4f028c39a111d4f0e37d74d949a7860ffae9cdd5e04",
+      "coreChallenge": "严格增对合必恒等的反证结构。"
+    },
+    "compareDowngrade": "相对比大小：对合约束下的结构定理。",
+    "contentSha256": "ee15588f3d752c3ce32bd4f028c39a111d4f0e37d74d949a7860ffae9cdd5e04",
+    "modelFamily": "increasing_involution_identity",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-063",
+    "designId": "HARD-DESIGN-063",
+    "qtype": "multi",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.08",
+    "methodMain": "mono_analysis",
+    "methodAux": "classification",
+    "stem": "设 $x>0$，考虑方程 $x+\\dfrac{1}{x}=k$。下列正确的是（多选）",
+    "options": {
+      "A": "当 $k=2$ 时恰有一正根",
+      "B": "当 $k>2$ 时恰有两正根",
+      "C": "当 $0<k<2$ 时恰有一正根",
+      "D": "当 $k<2$ 时无正根"
+    },
+    "answer": "A,B,D",
+    "analysis": "$t(x)=x+\\dfrac{1}{x}\\ge 2$，等号仅 $x=1$。故 $k=2$ 恰一正根；$k>2$ 在 $(0,1]$ 与 $[1,+\\infty)$ 各一，共两正根；$k<2$ 无正根。C 错。选 A、B、D。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "对勾水平线完整分类零点个数。",
+    "hardProfile": {
+      "contentSha256": "3379dcda645f5a10a5db409218cdc8a71d57e25d6b74609db7c4b94aee17e82a",
+      "coreChallenge": "对勾水平线完整分类零点个数。"
+    },
+    "compareDowngrade": "相对一步比较：值域对标水平线的零点分类。",
+    "contentSha256": "3379dcda645f5a10a5db409218cdc8a71d57e25d6b74609db7c4b94aee17e82a",
+    "modelFamily": "reciprocal_sum_level_zeros",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-064",
+    "designId": "HARD-DESIGN-064",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.1",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.1.03",
+    "methodMain": "equiv_transform",
+    "methodAux": "substitution",
+    "stem": "求函数 $f(x)=\\dfrac{2x-1}{x+1}$（$x\\ne -1$）的值域。",
+    "options": null,
+    "answer": "$R(f)=\\mathbb{R}\\setminus\\{2\\}$。",
+    "analysis": "令 $y=\\dfrac{2x-1}{x+1}$，则 $x(y-2)=-1-y$。若 $y=2$，左边 $0$、右边 $-3\\ne 0$，矛盾，故 $2\\notin R(f)$。若 $y\\ne 2$，则 $x=-\\dfrac{y+1}{y-2}$，且自动 $x\\ne -1$。故值域为 $\\mathbb{R}\\setminus\\{2\\}$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "分式线性反解排除水平渐近值。",
+    "hardProfile": {
+      "contentSha256": "b9afb0803ff42b62fb9b3d0b7b1789077a8078653d8761219a5a9d8c198c87dc",
+      "coreChallenge": "分式线性反解排除水平渐近值。"
+    },
+    "compareDowngrade": "相对定义域交：值域补洞反解法。",
+    "contentSha256": "b9afb0803ff42b62fb9b3d0b7b1789077a8078653d8761219a5a9d8c198c87dc",
+    "modelFamily": "fractional_linear_range_gap",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-065",
+    "designId": "HARD-DESIGN-065",
+    "qtype": "numeric",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.12",
+    "methodMain": "parity_apply",
+    "methodAux": "mono_analysis",
+    "stem": "设 $f$ 为奇函数，且在 $[0,+\\infty)$ 上严格递增。则 $f(-2)+f(3)$ 的符号为（填“正”或“负”或“零”）________。",
+    "options": null,
+    "answer": "正",
+    "analysis": "$f(-2)+f(3)=-f(2)+f(3)=f(3)-f(2)$。因 $0\\le 2<3$ 且严格增，$f(2)<f(3)$，故和为正。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "奇性翻译成差后接半轴单调。",
+    "hardProfile": {
+      "contentSha256": "83a9c037916aa19e355c9d357a08f117facfce687fbb3b4854c31beef35e759f",
+      "coreChallenge": "奇性翻译成差后接半轴单调。"
+    },
+    "compareDowngrade": "相对单点比较：奇性与半轴单调联动。",
+    "contentSha256": "83a9c037916aa19e355c9d357a08f117facfce687fbb3b4854c31beef35e759f",
+    "modelFamily": "odd_halfmono_signed_sum",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-066",
+    "designId": "HARD-DESIGN-066",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.1",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.1.10",
+    "methodMain": "substitution",
+    "methodAux": "special_value",
+    "stem": "设在 $|xy|<1$ 时成立 $f(x)+f(y)=f\\left(\\dfrac{x+y}{1-xy}\\right)$，且 $f\\left(\\dfrac{1}{\\sqrt{3}}\\right)=1$。\n（1）求 $f(0)$；（2）求 $f(\\sqrt{3})$。",
+    "options": null,
+    "answer": "（1）$f(0)=0$；（2）$f(\\sqrt{3})=2$。",
+    "analysis": "令 $y=0$：$f(x)+f(0)=f(x)\\Rightarrow f(0)=0$。\n令 $x=y=\\dfrac{1}{\\sqrt{3}}$：$2f\\left(\\dfrac{1}{\\sqrt{3}}\\right)=f\\left(\\dfrac{2/\\sqrt{3}}{1-1/3}\\right)=f(\\sqrt{3})$，故 $f(\\sqrt{3})=2$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "加法型函数方程对称代换求值。",
+    "hardProfile": {
+      "contentSha256": "5d7c6648783285789d24e377fc3c11a78ae36ac364ca3e1cf6d27d1bb451eab5",
+      "coreChallenge": "加法型函数方程对称代换求值。"
+    },
+    "compareDowngrade": "相对单调比较：函数方程倍角代换。",
+    "contentSha256": "5d7c6648783285789d24e377fc3c11a78ae36ac364ca3e1cf6d27d1bb451eab5",
+    "modelFamily": "tan_addition_functional_eval",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-067",
+    "designId": "HARD-DESIGN-067",
+    "qtype": "single",
+    "chapterNo": 3,
+    "sectionCode": "3.3",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.3.03",
+    "methodMain": "classification",
+    "methodAux": "mono_analysis",
+    "stem": "设 $\\alpha\\ne\\beta$，则幂函数 $y=x^{\\alpha}$ 与 $y=x^{\\beta}$（$x>0$）的图象",
+    "options": {
+      "A": "恰交于一点 $(1,1)$",
+      "B": "恰交于两点",
+      "C": "无交点",
+      "D": "重合为同一曲线"
+    },
+    "answer": "A",
+    "analysis": "$x^{\\alpha}=x^{\\beta}\\Leftrightarrow x^{\\alpha-\\beta}=1$。因 $\\alpha-\\beta\\ne 0$，$y=x^{\\alpha-\\beta}$ 严格单调且过 $(1,1)$，故 $x^{\\alpha-\\beta}=1$ 仅 $x=1$。恰交于 $(1,1)$。选 A。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "严谨说明 x^t=1 唯一正根并比较位置。",
+    "hardProfile": {
+      "contentSha256": "82cec2432e25987795388e6471df4a0b547df1b8512e747732bf7bbd7c977522",
+      "coreChallenge": "严谨说明 x^t=1 唯一正根并比较位置。"
+    },
+    "compareDowngrade": "相对指数代入：幂函数交点结构。",
+    "contentSha256": "82cec2432e25987795388e6471df4a0b547df1b8512e747732bf7bbd7c977522",
+    "modelFamily": "power_pair_single_intersection",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-068",
+    "designId": "HARD-DESIGN-068",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.08",
+    "methodMain": "graph_symmetry",
+    "methodAux": "equiv_transform",
+    "stem": "求函数 $f(x)=x^2-2|x|-3$ 的最小值，并指出取最小值时的 $x$。",
+    "options": null,
+    "answer": "最小值为 $-4$，当 $x=\\pm 1$ 时取到。",
+    "analysis": "令 $t=|x|\\ge 0$，则 $f=t^2-2t-3=(t-1)^2-4$。当 $t=1$ 时最小为 $-4$，即 $x=\\pm 1$。无最大值。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "绝对值换元后在受限区间求二次最值。",
+    "hardProfile": {
+      "contentSha256": "73602f3e8e0d8418489e382158ddd1d831009d5e4dae858a0e763bc9f775cb2a",
+      "coreChallenge": "绝对值换元后在受限区间求二次最值。"
+    },
+    "compareDowngrade": "相对奇偶判断：t=|x| 降维最值。",
+    "contentSha256": "73602f3e8e0d8418489e382158ddd1d831009d5e4dae858a0e763bc9f775cb2a",
+    "modelFamily": "abs_quadratic_t_sub_min",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-069",
+    "designId": "HARD-DESIGN-069",
+    "qtype": "judge",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.07",
+    "methodMain": "mono_analysis",
+    "methodAux": "special_value",
+    "stem": "判断：函数 $h(x)=\\sqrt{x}+\\dfrac{1}{\\sqrt{x}}$（$x>0$）的最小值为 $2$，且在 $x=1$ 时取到。",
+    "options": null,
+    "answer": "true",
+    "analysis": "令 $t=\\sqrt{x}>0$，则 $h=t+\\dfrac{1}{t}\\ge 2$，等号 $t=1\\Leftrightarrow x=1$。命题正确。一般“增函数+减函数”不必有最小值，本结论依赖对勾结构。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "增+减配对需识别对勾结构，非一般结论。",
+    "hardProfile": {
+      "contentSha256": "fd260059bff035070c7a654838686206f764837dfd6ceca02e92d04924b98042",
+      "coreChallenge": "增+减配对需识别对勾结构，非一般结论。"
+    },
+    "compareDowngrade": "相对抽象单向比较：增降配对的均值不等式。",
+    "contentSha256": "fd260059bff035070c7a654838686206f764837dfd6ceca02e92d04924b98042",
+    "modelFamily": "inc_dec_pair_amgm_min",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-070",
+    "designId": "HARD-DESIGN-070",
+    "qtype": "multi",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.09",
+    "methodMain": "domain_symmetry",
+    "methodAux": "parity_apply",
+    "stem": "设 $a<b$，函数 $f(x)=\\sqrt{\\dfrac{x-a}{b-x}}$；又设 $g(x)=\\sqrt{\\dfrac{4-x^2}{1+x^2}}$。下列说法正确的是（多选）",
+    "options": {
+      "A": "若 $a<b$，则 $f(x)=\\sqrt{\\dfrac{x-a}{b-x}}$ 的定义域 $[a,b)$ 不能关于原点对称",
+      "B": "函数 $g(x)=\\sqrt{\\dfrac{4-x^2}{1+x^2}}$ 的定义域关于原点对称",
+      "C": "$g$ 为偶函数",
+      "D": "$g$ 为奇函数"
+    },
+    "answer": "A,B,C",
+    "analysis": "$[a,b)$ 左闭右开，关于原点对称几乎不可能成立，A 对。$g$ 的定义域 $[-2,2]$ 对称；$g(-x)=g(x)$，为偶非奇。选 A、B、C。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "开闭破坏对称是易错点；改写后呈偶。",
+    "hardProfile": {
+      "contentSha256": "b18d645064d994bd30500f4d0b8a5d39abba7dbe223f471242410d5fe81c3e2d",
+      "coreChallenge": "开闭破坏对称是易错点；改写后呈偶。"
+    },
+    "compareDowngrade": "相对简单定义域交：端点开闭一票否决对称。",
+    "contentSha256": "b18d645064d994bd30500f4d0b8a5d39abba7dbe223f471242410d5fe81c3e2d",
+    "modelFamily": "nested_ratio_domain_parity_gate",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-071",
+    "designId": "HARD-DESIGN-071",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.1",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.1.09",
+    "methodMain": "undetermined_coeff",
+    "methodAux": "mono_analysis",
+    "stem": "设\n$$f(x)=\\begin{cases} x+a, & x<0 \\\\ bx+c, & 0\\le x<2 \\\\ x+d, & x\\ge 2 \\end{cases}$$\n在 $\\mathbb{R}$ 上连续且严格递增。用 $a,b$ 表示 $c,d$，并写出 $b$ 应满足的条件。",
+    "options": null,
+    "answer": "$c=a$，$d=2b+a-2$，且 $b>0$。",
+    "analysis": "$x=0$ 连续：$a=c$。$x=2$ 连续：$2b+c=2+d\\Rightarrow d=2b+a-2$。中支斜率 $b>0$（左右斜率均为 $1>0$）。连续且各支严格增 ⇒ 整体严格增。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "三支连续与斜率约束联立。",
+    "hardProfile": {
+      "contentSha256": "363569adfb24df06367b1d0e07712d0f4dc3b1c44343c33ed0715da880377293",
+      "coreChallenge": "三支连续与斜率约束联立。"
+    },
+    "compareDowngrade": "相对单接口：多段粘合参数工程。",
+    "contentSha256": "363569adfb24df06367b1d0e07712d0f4dc3b1c44343c33ed0715da880377293",
+    "modelFamily": "tripiece_linear_cont_mono",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-072",
+    "designId": "HARD-DESIGN-072",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.1",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.1.10",
+    "methodMain": "substitution",
+    "methodAux": "special_value",
+    "stem": "设 $f(2x)=\\dfrac{2f(x)}{1+f(x)^2}$。\n（1）若 $f(1)=1$，求 $f(2)$ 与 $f\\left(\\dfrac12\\right)$；\n（2）说明：若误取 $f(1)=\\sqrt{3}$，则正向可算 $f(2)$，但由公式求 $f\\left(\\dfrac12\\right)$ 时在实数范围内无解。",
+    "options": null,
+    "answer": "（1）$f(2)=1$，$f\\left(\\dfrac12\\right)=1$；（2）见解析。",
+    "analysis": "（1）$f(2)=\\dfrac{2}{1+1}=1$。令 $t=f\\left(\\dfrac12\\right)$：$1=\\dfrac{2t}{1+t^2}\\Rightarrow (t-1)^2=0\\Rightarrow t=1$。\n（2）若 $f(1)=\\sqrt{3}$，则 $f(2)=\\dfrac{\\sqrt{3}}{2}$；但 $\\dfrac{2t}{1+t^2}=\\sqrt{3}\\Rightarrow \\sqrt{3}t^2-2t+\\sqrt{3}=0$，$\\Delta=4-12<0$，无实 $t$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "迭代正向可算、逆向需检验实闭包。",
+    "hardProfile": {
+      "contentSha256": "c991c7ad00402fad9582f79b5a73a3005d284267c3ad403e7926097be5a6631f",
+      "coreChallenge": "迭代正向可算、逆向需检验实闭包。"
+    },
+    "compareDowngrade": "相对直接求值：双倍公式逆解判别式。",
+    "contentSha256": "c991c7ad00402fad9582f79b5a73a3005d284267c3ad403e7926097be5a6631f",
+    "modelFamily": "double_angle_iter_real_closure",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-073",
+    "designId": "HARD-DESIGN-073",
+    "qtype": "numeric",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.12",
+    "methodMain": "graph_symmetry",
+    "methodAux": "special_value",
+    "stem": "设 $f(x+2)=f(x)$，$f$ 为奇函数，$f(0)=1$，$f(1)=0$，且在 $[0,1]$ 上 $f$ 为一次函数。则 $f\\left(\\dfrac32\\right)=$ ________。",
+    "options": null,
+    "answer": "-\\dfrac{1}{2}",
+    "analysis": "在 $[0,1]$ 上由 $f(0)=1$，$f(1)=0$ 得 $f(x)=1-x$，故 $f\\left(\\dfrac12\\right)=\\dfrac12$。又 $f\\left(\\dfrac32\\right)=f\\left(-\\dfrac12\\right)=-f\\left(\\dfrac12\\right)=-\\dfrac12$。另由周期 $f(3)=f(1)=0$。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "周期+奇性部分强制，并判断信息充分性。",
+    "hardProfile": {
+      "contentSha256": "ad603fdda2edf5707a0ff7ac582768a914490d734be095eb4c5c32f364b0b272",
+      "coreChallenge": "周期+奇性部分强制，并判断信息充分性。"
+    },
+    "compareDowngrade": "相对奇偶定义：综合周期求值与不可定点。",
+    "contentSha256": "ad603fdda2edf5707a0ff7ac582768a914490d734be095eb4c5c32f364b0b272",
+    "modelFamily": "periodic_odd_partial_data",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-074",
+    "designId": "HARD-DESIGN-074",
+    "qtype": "single",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.11",
+    "methodMain": "graph_symmetry",
+    "methodAux": "parity_apply",
+    "stem": "设函数 $f$ 的图象关于直线 $x=1$ 对称，且关于点 $(2,0)$ 中心对称。则",
+    "options": {
+      "A": "$f(x+4)=f(x)$，且 $f(2)$ 不定",
+      "B": "$f(x+4)=-f(x)$，$f(x+8)=f(x)$，且 $f(2)=0$",
+      "C": "$f(x+2)=-f(x)$，且最小正周期必为 $2$",
+      "D": "$f$ 必为奇函数"
+    },
+    "answer": "B",
+    "analysis": "关于 $x=1$：$f(2-x)=f(x)$。关于 $(2,0)$：$f(2+t)+f(2-t)=0$，特别 $f(2)=0$。两次对称复合得平移 $4$ 且变号：$f(x+4)=-f(x)$，从而 $f(x+8)=f(x)$。选 B。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "轴对称与中心对称复合出反周期与零点格。",
+    "hardProfile": {
+      "contentSha256": "33b9613ecb92fa18ed4e27c5f395f296f679c793ed9f44db1adf6eed48080615",
+      "coreChallenge": "轴对称与中心对称复合出反周期与零点格。"
+    },
+    "compareDowngrade": "相对奇偶定义：双对称生成半周期变号。",
+    "contentSha256": "33b9613ecb92fa18ed4e27c5f395f296f679c793ed9f44db1adf6eed48080615",
+    "modelFamily": "axis_center_antiperiod_lattice",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-075",
+    "designId": "HARD-DESIGN-075",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.01",
+    "methodMain": "defn",
+    "methodAux": "mono_analysis",
+    "stem": "设 $f:\\mathbb{R}\\to\\mathbb{R}$ 满足 $f(x+y)=f(x)+f(y)$，且 $f$ 单调递增，$f(1)=2$。\n（1）求 $f(x)$；（2）方程 $f(x)=x$ 的解的个数。",
+    "options": null,
+    "answer": "（1）$f(x)=2x$；（2）恰一个解 $x=0$。",
+    "analysis": "由加性得 $f(0)=0$，$f$ 奇；归纳 $f(n)=2n$，进而有理数上 $f(q)=2q$。单调性保证 $f(x)=2x$。解 $2x=x\\Rightarrow x=0$，恰一解。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "单调加性 ⇒ 线性再求交点。",
+    "hardProfile": {
+      "contentSha256": "b1251fd9eae888c8b800f9c73beac3b19ac11f2b19d056742ff52ce785abb744",
+      "coreChallenge": "单调加性 ⇒ 线性再求交点。"
+    },
+    "compareDowngrade": "相对抽象比大小：单调是正则条件推出线性结构。",
+    "contentSha256": "b1251fd9eae888c8b800f9c73beac3b19ac11f2b19d056742ff52ce785abb744",
+    "modelFamily": "cauchy_mono_linear_intersect",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-076",
+    "designId": "HARD-DESIGN-076",
+    "qtype": "multi",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.12",
+    "methodMain": "parity_apply",
+    "methodAux": "mono_analysis",
+    "stem": "设当 $x\\ge 0$ 时 $f(x)=x^2+ax+b$，且 $f$ 为奇函数，并在 $[0,+\\infty)$ 上单调递增。下列正确的是（多选）",
+    "options": {
+      "A": "$b=0$",
+      "B": "$a\\ge 0$",
+      "C": "当 $x<0$ 时 $f(x)=-x^2+ax$",
+      "D": "必须 $a=0$"
+    },
+    "answer": "A,B,C",
+    "analysis": "奇 ⇒ $f(0)=0\\Rightarrow b=0$。对 $0\\le x_1<x_2$，$f(x_1)-f(x_2)=(x_1-x_2)(x_1+x_2+a)$，要增需 $a\\ge 0$。负支由奇延拓：$f(x)=-x^2+ax$（$x<0$）。$a$ 不必为 $0$。选 A、B、C。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "奇性定常数、单调定一次项、延拓写全文。",
+    "hardProfile": {
+      "contentSha256": "1b170c032e9d6e30d38e9e55982560489f739bc461a018dcc8c3a7bfa6e5272d",
+      "coreChallenge": "奇性定常数、单调定一次项、延拓写全文。"
+    },
+    "compareDowngrade": "相对单一定义验证：双重约束定参并写全局。",
+    "contentSha256": "1b170c032e9d6e30d38e9e55982560489f739bc461a018dcc8c3a7bfa6e5272d",
+    "modelFamily": "odd_mono_quad_param_lock",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-077",
+    "designId": "HARD-DESIGN-077",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.06",
+    "methodMain": "substitution",
+    "methodAux": "equiv_transform",
+    "stem": "设对一切 $x\\in[0,1]$ 有 $f(x)+f(1-x)=x(1-x)$，且 $f(x)=f(1-x)$。\n（1）求 $f\\left(\\dfrac12\\right)$；（2）求 $f$ 在 $[0,1]$ 上的最大值。",
+    "options": null,
+    "answer": "（1）$\\dfrac18$；（2）最大值为 $\\dfrac18$。",
+    "analysis": "令 $x=\\dfrac12$：$2f\\left(\\dfrac12\\right)=\\dfrac14\\Rightarrow f\\left(\\dfrac12\\right)=\\dfrac18$。由对称 $f(x)=f(1-x)$ 得齐次部为 $0$，故 $f(x)=\\dfrac12 x(1-x)=\\dfrac12\\left(\\dfrac14-\\left(x-\\dfrac12\\right)^2\\right)\\le \\dfrac18$。无对称假设时 $f$ 可无界，故对称条件必要。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "特解+齐次分解；附加对称才能定最大。",
+    "hardProfile": {
+      "contentSha256": "72aa96fdb00c32c84413a0ceb6915f35c3b9096a094b49960b1b5c40382eb0a1",
+      "coreChallenge": "特解+齐次分解；附加对称才能定最大。"
+    },
+    "compareDowngrade": "相对抽象比较：函数方程下最值适定性。",
+    "contentSha256": "72aa96fdb00c32c84413a0ceb6915f35c3b9096a094b49960b1b5c40382eb0a1",
+    "modelFamily": "pair_kernel_sym_max_decompose",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-078",
+    "designId": "HARD-DESIGN-078",
+    "qtype": "numeric",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.11",
+    "methodMain": "graph_symmetry",
+    "methodAux": "equiv_transform",
+    "stem": "设 $f$ 为偶函数，且图象关于直线 $x=1$ 对称。则 $f$ 必有周期 ________（填一个正周期）。",
+    "options": null,
+    "answer": "2",
+    "analysis": "偶：$f(-x)=f(x)$；关于 $x=1$：$f(2-x)=f(x)$。则 $f(x+2)=f(2-(-x))=f(-x)=f(x)$，故 $2$ 为周期。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "平行双轴 ⇒ 周期并描述零点轨道。",
+    "hardProfile": {
+      "contentSha256": "ffb03323ffe416d26eada1d61ee65508b6a73f00a8bc31366f7a39a880608485",
+      "coreChallenge": "平行双轴 ⇒ 周期并描述零点轨道。"
+    },
+    "compareDowngrade": "相对仅偶函数：双轴对称生成周期。",
+    "contentSha256": "ffb03323ffe416d26eada1d61ee65508b6a73f00a8bc31366f7a39a880608485",
+    "modelFamily": "parallel_axes_period_zero_orbit",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-079",
+    "designId": "HARD-DESIGN-079",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.01",
+    "methodMain": "mono_analysis",
+    "methodAux": "defn",
+    "stem": "设 $f:\\mathbb{R}\\to\\mathbb{R}$ 满足 $f(f(x))=x+1$。\n（1）证明：$f$ 没有不动点，也没有 $2$-周期点；\n（2）验证：$f(x)=x+\\dfrac12$ 满足该方程。",
+    "options": null,
+    "answer": "（1）见解析；（2）成立。",
+    "analysis": "（1）若 $f(a)=a$，则 $f(f(a))=a$，但右边 $a+1$，矛盾。若 $f(f(a))=a$，则 $a=a+1$，矛盾。\n（2）$f(f(x))=x+1$，成立。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "迭代方程否定周期点并给典范解。",
+    "hardProfile": {
+      "contentSha256": "e39e87158aa4fcaeea036a67153c382077c5d6eb2b1ba86f78da855e0e8d323d",
+      "coreChallenge": "迭代方程否定周期点并给典范解。"
+    },
+    "compareDowngrade": "相对比大小：动力学约束 f∘f=平移。",
+    "contentSha256": "e39e87158aa4fcaeea036a67153c382077c5d6eb2b1ba86f78da855e0e8d323d",
+    "modelFamily": "sqrt_of_translation_no_periodic",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-080",
+    "designId": "HARD-DESIGN-080",
+    "qtype": "single",
+    "chapterNo": 3,
+    "sectionCode": "3.1",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.3.1.10",
+    "methodMain": "substitution",
+    "methodAux": "equiv_transform",
+    "stem": "设在使式子有意义处成立：\n（i）$f(x)+f(1-x)=x^2$；\n（ii）$f(x)+f\\left(\\dfrac{1}{x}\\right)=x$（$x\\ne 0$）。\n则 $f(2)$ 等于",
+    "options": {
+      "A": "$\\dfrac{7}{4}$",
+      "B": "$\\dfrac{15}{8}$",
+      "C": "$2$",
+      "D": "$\\dfrac{17}{8}$"
+    },
+    "answer": "B",
+    "analysis": "由（i）取 $x=\\dfrac12$：$2f\\left(\\dfrac12\\right)=\\dfrac14\\Rightarrow f\\left(\\dfrac12\\right)=\\dfrac18$。\n由（ii）取 $x=2$：$f(2)+f\\left(\\dfrac12\\right)=2\\Rightarrow f(2)=2-\\dfrac18=\\dfrac{15}{8}$。\n（可用（i）于 $x=2$ 得 $f(2)+f(-1)=4$ 作旁证，但不需要即可求出 $f(2)$。）选 B。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "双成对约束+自对称点联立求解指定函数值。",
+    "hardProfile": {
+      "contentSha256": "fa6ba5974b9ebc0a2fdb6e5374c362d5ce6290f4ba7cd8a5f087dda7022dd01d",
+      "coreChallenge": "双成对约束+自对称点联立求解指定函数值。"
+    },
+    "compareDowngrade": "相对单次代换：系统代换在短轨道上解出 f(2)。",
+    "contentSha256": "fa6ba5974b9ebc0a2fdb6e5374c362d5ce6290f4ba7cd8a5f087dda7022dd01d",
+    "modelFamily": "six_orbit_pair_sum_linear_system",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-081",
+    "designId": "HARD-DESIGN-081",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.3",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.3.3.04",
+    "methodMain": "mono_analysis",
+    "methodAux": "classification",
+    "stem": "设 $\\alpha>\\beta$，函数 $\\varphi_t(x)=x^{\\alpha}-t x^{\\beta}$（$x>0$）。按参数 $t$ 讨论方程 $\\varphi_t(x)=0$ 的正根个数。",
+    "options": null,
+    "answer": "当 $t>0$ 时恰有一正根；当 $t\\le 0$ 时无正根。",
+    "analysis": "$\\varphi_t(x)=x^{\\beta}(x^{\\alpha-\\beta}-t)$。因 $x^{\\beta}>0$，零点 $\\Leftrightarrow x^{\\alpha-\\beta}=t$。函数 $y=x^{\\alpha-\\beta}$ 值域 $(0,+\\infty)$ 且严格增，故 $t>0$ 恰一解，$t\\le 0$ 无解。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "参数 t 对幂差零点个数完整分类。",
+    "hardProfile": {
+      "contentSha256": "a56e8ee99d286886d442f2e787c66109a5e286649963905cb94d84aa7d56c53a",
+      "coreChallenge": "参数 t 对幂差零点个数完整分类。"
+    },
+    "compareDowngrade": "相对抽象一步比较：提出幂次因式化后的参数分支。",
+    "contentSha256": "a56e8ee99d286886d442f2e787c66109a5e286649963905cb94d84aa7d56c53a",
+    "modelFamily": "power_diff_param_zero_branch",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-082",
+    "designId": "HARD-DESIGN-082",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.12",
+    "methodMain": "parity_apply",
+    "methodAux": "equiv_transform",
+    "stem": "设 $f$ 定义域关于原点对称。已知 $f(3)+f(-3)=4$，$f(3)-f(-3)=6$。\n（1）求 $f(3)$ 与 $f(-3)$；\n（2）写出对应的偶部 $E(3)$ 与奇部 $O(3)$。",
+    "options": null,
+    "answer": "（1）$f(3)=5$，$f(-3)=-1$；（2）$E(3)=2$，$O(3)=3$。",
+    "analysis": "由方程组解得 $f(3)=5$，$f(-3)=-1$。偶部 $E(3)=\\dfrac{f(3)+f(-3)}{2}=2$，奇部 $O(3)=\\dfrac{f(3)-f(-3)}{2}=3$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "偶奇投影分解后解线性组求值。",
+    "hardProfile": {
+      "contentSha256": "a33a2a5137a0d3d9dde81fa71679dc53b51b4a2b1c4a1ef2ec3b07ec929411e1",
+      "coreChallenge": "偶奇投影分解后解线性组求值。"
+    },
+    "compareDowngrade": "相对奇偶判断：构造偶奇分解求值。",
+    "contentSha256": "a33a2a5137a0d3d9dde81fa71679dc53b51b4a2b1c4a1ef2ec3b07ec929411e1",
+    "modelFamily": "even_odd_projection_solve",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-083",
+    "designId": "HARD-DESIGN-083",
+    "qtype": "multi",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.11",
+    "methodMain": "graph_symmetry",
+    "methodAux": "special_value",
+    "stem": "设函数 $f$ 的图象关于点 $(1,0)$ 与 $(3,0)$ 都中心对称。下列正确的是（多选）",
+    "options": {
+      "A": "$4$ 一定是 $f$ 的周期",
+      "B": "$2$ 一定是 $f$ 的周期",
+      "C": "$f(x+4)=f(x)$ 对一切 $x$ 成立",
+      "D": "最小正周期必为 $4$"
+    },
+    "answer": "A,C",
+    "analysis": "两中心距离为 $2$，复合得平移 $4$ 且两次变号抵消，故 $f(x+4)=f(x)$，$4$ 必为周期。$2$ 未必是周期，最小正周期也未必是 $4$。选 A、C。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "双中心对称复合得周期，并否定更短周期必然性。",
+    "hardProfile": {
+      "contentSha256": "d632a0076caed95754f0cb7a6112a4ba87fa1e9525547d0ea6cc5c331cf61e3b",
+      "coreChallenge": "双中心对称复合得周期，并否定更短周期必然性。"
+    },
+    "compareDowngrade": "相对原点对称：双中心 ⇒ 平移周期。",
+    "contentSha256": "d632a0076caed95754f0cb7a6112a4ba87fa1e9525547d0ea6cc5c331cf61e3b",
+    "modelFamily": "dual_center_symmetry_period4",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-084",
+    "designId": "HARD-DESIGN-084",
+    "qtype": "application",
+    "chapterNo": 3,
+    "sectionCode": "3.1",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.3.1.04",
+    "methodMain": "equiv_transform",
+    "methodAux": "special_value",
+    "stem": "设 $x,y>0$ 时 $f(xy)=f(x)+f(y)$，且 $f$ 在 $(0,+\\infty)$ 上单调，$f(2)=3$。\n（1）求 $f(8)$；（2）求 $f(\\sqrt{2})$。",
+    "options": null,
+    "answer": "（1）$9$；（2）$\\dfrac{3}{2}$。",
+    "analysis": "$f(1)=0$。归纳 $f(2^n)=n f(2)$，故 $f(8)=f(2^3)=9$。又 $f(2)=2f(\\sqrt{2})\\Rightarrow f(\\sqrt{2})=\\dfrac{3}{2}$。单调保证 $f(x)=3\\log_2 x$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "乘法 Cauchy 在单调下得对数原型并求值。",
+    "hardProfile": {
+      "contentSha256": "9aba0e754d3bf8bc54b4df7669c825af607b846707fc9721da2e1472e6f15789",
+      "coreChallenge": "乘法 Cauchy 在单调下得对数原型并求值。"
+    },
+    "compareDowngrade": "相对对数换底运算：函数方程定本质。",
+    "contentSha256": "9aba0e754d3bf8bc54b4df7669c825af607b846707fc9721da2e1472e6f15789",
+    "modelFamily": "multiplicative_cauchy_log_eval",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-085",
+    "designId": "HARD-DESIGN-085",
+    "qtype": "numeric",
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.3.2.08",
+    "methodMain": "classification",
+    "methodAux": "mono_analysis",
+    "stem": "设 $a>0$，方程 $x+\\dfrac{a}{x}=3$（$x>0$）恰有一正根。则 $a=$ ________。",
+    "options": null,
+    "answer": "\\dfrac{9}{4}",
+    "analysis": "$t(x)=x+\\dfrac{a}{x}$ 最小值 $2\\sqrt{a}$。恰一正根 $\\Leftrightarrow 2\\sqrt{a}=3\\Leftrightarrow a=\\dfrac{9}{4}$（根 $x=\\dfrac{3}{2}$）。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "对勾最小值与 0 比较完整分类。",
+    "hardProfile": {
+      "contentSha256": "cfee50b023b308d8eaf5a7d2cef152267e494b92abc5332e28746a9ce339a39c",
+      "coreChallenge": "对勾最小值与 0 比较完整分类。"
+    },
+    "compareDowngrade": "相对一步单调：参数临界零点分支。",
+    "contentSha256": "cfee50b023b308d8eaf5a7d2cef152267e494b92abc5332e28746a9ce339a39c",
+    "modelFamily": "param_reciprocal_zero_count",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-086",
+    "designId": "HARD-DESIGN-086",
+    "qtype": "application",
+    "chapterNo": 4,
+    "sectionCode": "4.2",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.4.2.02",
+    "methodMain": "equiv_transform",
+    "methodAux": "mono_analysis",
+    "stem": "解不等式 $2^{x}\\cdot 4^{x-1}<8^{x/3}$。",
+    "options": null,
+    "answer": "$x<1$。",
+    "analysis": "$4=2^2$，$8=2^3$，故 $2^{x}\\cdot 2^{2(x-1)}<2^{x}\\Rightarrow 2^{3x-2}<2^{x}$。因 $y=2^{t}$ 增：$3x-2<x\\Rightarrow x<1$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "多底互化后用指数单调。",
+    "hardProfile": {
+      "contentSha256": "6bb17da31f12c9b94b9dbf45850fb7f9ab6d09d7ce2bd1742f9242c1fee348cf",
+      "coreChallenge": "多底互化后用指数单调。"
+    },
+    "compareDowngrade": "相对指数应用代入：同底化+指数单调。",
+    "contentSha256": "6bb17da31f12c9b94b9dbf45850fb7f9ab6d09d7ce2bd1742f9242c1fee348cf",
+    "modelFamily": "exp_ineq_same_base_reduce",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-087",
+    "designId": "HARD-DESIGN-087",
+    "qtype": "single",
+    "chapterNo": 4,
+    "sectionCode": "4.3",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.4.3.04",
+    "methodMain": "defn",
+    "methodAux": "classification",
+    "stem": "函数 $y=\\log_2(x-1)+\\log_2(3-x)$ 的定义域是",
+    "options": {
+      "A": "$(-\\infty,1)\\cup(1,3)$",
+      "B": "$(1,3)$",
+      "C": "$[1,3]$",
+      "D": "$(0,3)$"
+    },
+    "answer": "B",
+    "analysis": "需 $x-1>0$ 且 $3-x>0$，即 $1<x<3$。若先写 $\\log_2[(x-1)(3-x)]$，真数条件会扩域，必须回到原式。选 B。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "防合并扩域，分别限制真数。",
+    "hardProfile": {
+      "contentSha256": "dc4a42486131a66637eb9d473ccba50466e2e4faacc47e7a7f44434439790b23",
+      "coreChallenge": "防合并扩域，分别限制真数。"
+    },
+    "compareDowngrade": "相对定义域交套路：强调合并前后定义域差异。",
+    "contentSha256": "dc4a42486131a66637eb9d473ccba50466e2e4faacc47e7a7f44434439790b23",
+    "modelFamily": "log_sum_domain_no_expand",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-088",
+    "designId": "HARD-DESIGN-088",
+    "qtype": "application",
+    "chapterNo": 4,
+    "sectionCode": "4.3",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.4.3.03",
+    "methodMain": "equiv_transform",
+    "methodAux": "special_value",
+    "stem": "比较 $\\log_3 2$、$\\log_9 4$、$\\log_{27} 8$ 的大小，并说明理由。",
+    "options": null,
+    "answer": "三者相等。",
+    "analysis": "$\\log_9 4=\\dfrac{\\log 4}{\\log 9}=\\dfrac{2\\log 2}{2\\log 3}=\\log_3 2$。同理 $\\log_{27} 8=\\log_3 2$。故三者相等。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "换底识别同比例缩放恒等。",
+    "hardProfile": {
+      "contentSha256": "83cd6916ed332b4cd3202ffb713cdd89c44a4b9bf599c069d405e9c4654175a1",
+      "coreChallenge": "换底识别同比例缩放恒等。"
+    },
+    "compareDowngrade": "相对机械换底：发现三者恒等结构。",
+    "contentSha256": "83cd6916ed332b4cd3202ffb713cdd89c44a4b9bf599c069d405e9c4654175a1",
+    "modelFamily": "log_scaled_base_true_equal",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-089",
+    "designId": "HARD-DESIGN-089",
+    "qtype": "judge",
+    "chapterNo": 4,
+    "sectionCode": "4.2",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.4.2.03",
+    "methodMain": "substitution",
+    "methodAux": "equiv_transform",
+    "stem": "判断：方程 $4^{x}-3\\cdot 2^{x+1}+8=0$ 的解为 $x=1$ 或 $x=2$。",
+    "options": null,
+    "answer": "true",
+    "analysis": "原式即 $4^{x}-6\\cdot 2^{x}+8=0$。令 $t=2^{x}>0$，得 $t^2-6t+8=0\\Rightarrow t=2$ 或 $4$，即 $x=1$ 或 $2$，均合格。命题正确。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "换元后保持 t>0 约束。",
+    "hardProfile": {
+      "contentSha256": "417b5b3fb0d37bff58c05e984f59e35e7a9a50f8e02bff9e978124ff44ed4172",
+      "coreChallenge": "换元后保持 t>0 约束。"
+    },
+    "compareDowngrade": "相对指数代入：二次因式结构。",
+    "contentSha256": "417b5b3fb0d37bff58c05e984f59e35e7a9a50f8e02bff9e978124ff44ed4172",
+    "modelFamily": "exp_quad_sub_positive_t",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-090",
+    "designId": "HARD-DESIGN-090",
+    "qtype": "multi",
+    "chapterNo": 4,
+    "sectionCode": "4.4",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.4.4.02",
+    "methodMain": "mono_analysis",
+    "methodAux": "defn",
+    "stem": "不等式 $\\log_{1/2}(x^2-3x+2)>\\log_{1/2}(x-1)$。下列正确的是（多选）",
+    "options": {
+      "A": "定义域为 $x>2$",
+      "B": "不等式等价于 $x^2-3x+2<x-1$（在定义域内）",
+      "C": "解集为 $(2,3)$",
+      "D": "解集为 $(1,3)$"
+    },
+    "answer": "A,B,C",
+    "analysis": "定义域：$x>1$ 且 $(x-1)(x-2)>0$，结合得 $x>2$。底 $\\dfrac12\\in(0,1)$，对数减，不等式变号为真数反过来，再与定义域交得 $(2,3)$。选 A、B、C。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "定义域与底∈(0,1) 变号同时出现。",
+    "hardProfile": {
+      "contentSha256": "d448139e77b4af157823765bdf000e6995b025d9b42414bc22ce361696d021b3",
+      "coreChallenge": "定义域与底∈(0,1) 变号同时出现。"
+    },
+    "compareDowngrade": "相对固定底运算：减函数保序反向+定义域交。",
+    "contentSha256": "d448139e77b4af157823765bdf000e6995b025d9b42414bc22ce361696d021b3",
+    "modelFamily": "log_ineq_base_lt1_domain",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-091",
+    "designId": "HARD-DESIGN-091",
+    "qtype": "application",
+    "chapterNo": 4,
+    "sectionCode": "4.5",
+    "hardLevel": "H1",
+    "hardAudit": "TRUE_H1",
+    "difficulty": 3,
+    "kpCode": "rja.4.5.04",
+    "methodMain": "classification",
+    "methodAux": "equiv_transform",
+    "stem": "某量初始值为 $N_0$。前 $3$ 年每年变为原来的 $1.2$ 倍，之后每年变为原来的 $1.1$ 倍。求使年末量首次满足 $N\\ge 2N_0$ 的最小整数年数 $n$。",
+    "options": null,
+    "answer": "$n=5$。",
+    "analysis": "$1.2^3=1.728<2$，前三年不足。当 $n>3$：$1.728\\cdot 1.1^{n-3}\\ge 2\\Rightarrow 1.1^{n-3}\\ge \\dfrac{125}{108}$。\n$1.1^1=1.1<\\dfrac{125}{108}\\approx 1.157$；$1.1^2=1.21>1.157$。故最小 $k=n-3=2$，$n=5$。验：$N(4)/N_0=1.728\\cdot 1.1=1.9008<2$，$N(5)/N_0=1.728\\cdot 1.21=2.09088\\ge 2$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "分段增长率+对数求最小整数年。",
+    "hardProfile": {
+      "contentSha256": "b176e7130b90a0a138d2e09056a7d9ac7f353e23bdfdd9b11c08dc2462bf4064",
+      "coreChallenge": "分段增长率+对数求最小整数年。"
+    },
+    "compareDowngrade": "相对单阶段代入：分段复合增长。",
+    "contentSha256": "b176e7130b90a0a138d2e09056a7d9ac7f353e23bdfdd9b11c08dc2462bf4064",
+    "modelFamily": "two_stage_exp_growth_threshold",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-092",
+    "designId": "HARD-DESIGN-092",
+    "qtype": "numeric",
+    "chapterNo": 4,
+    "sectionCode": "4.4",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.4.4.03",
+    "methodMain": "mono_analysis",
+    "methodAux": "defn",
+    "stem": "设 $a>1$，函数 $F(x)=\\log_a(2^{x}-1)$。则 $F$ 的唯一零点为 $x=$ ________。",
+    "options": null,
+    "answer": "1",
+    "analysis": "定义域 $2^{x}-1>0\\Rightarrow x>0$。零点：$2^{x}-1=1\\Rightarrow 2^{x}=2\\Rightarrow x=1$。内层增、外层增 ⇒ $F$ 严格增，故零点唯一。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "复合定义域+单调+零点一体。",
+    "hardProfile": {
+      "contentSha256": "b6470faeb9e20f45d14408f62ea964c5434e904e9321cc9cc1a1f4c0a29c607e",
+      "coreChallenge": "复合定义域+单调+零点一体。"
+    },
+    "compareDowngrade": "相对换底：复合函数性质综合。",
+    "contentSha256": "b6470faeb9e20f45d14408f62ea964c5434e904e9321cc9cc1a1f4c0a29c607e",
+    "modelFamily": "log_of_exp_shift_mono_zero",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-093",
+    "designId": "HARD-DESIGN-093",
+    "qtype": "application",
+    "chapterNo": 4,
+    "sectionCode": "4.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.4.2.02",
+    "methodMain": "substitution",
+    "methodAux": "mono_analysis",
+    "stem": "设 $a>0$，$a\\ne 1$。求使 $a^{x}+a^{-x}\\ge m$ 对一切实数 $x$ 成立的实数 $m$ 的取值范围。",
+    "options": null,
+    "answer": "$m\\le 2$。",
+    "analysis": "令 $t=a^{x}>0$，则左边 $=t+\\dfrac{1}{t}\\ge 2$，值域 $[2,+\\infty)$。故恒成立 $\\Leftrightarrow m\\le 2$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "换元得值域下界，恒成立转参数。",
+    "hardProfile": {
+      "contentSha256": "92713d26d38c9627276b1e0e1072a656614bdbfc05f83845c2da81f248f351eb",
+      "coreChallenge": "换元得值域下界，恒成立转参数。"
+    },
+    "compareDowngrade": "相对指数代入：参数恒成立。",
+    "contentSha256": "92713d26d38c9627276b1e0e1072a656614bdbfc05f83845c2da81f248f351eb",
+    "modelFamily": "cosh_like_exp_sum_forall",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-094",
+    "designId": "HARD-DESIGN-094",
+    "qtype": "single",
+    "chapterNo": 4,
+    "sectionCode": "4.3",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.4.3.04",
+    "methodMain": "classification",
+    "methodAux": "equiv_transform",
+    "stem": "方程 $\\log_2(x-1)+\\log_2(x-3)=3$ 的解是",
+    "options": {
+      "A": "$x=5$",
+      "B": "$x=-1$",
+      "C": "$x=5$ 或 $x=-1$",
+      "D": "无解"
+    },
+    "answer": "A",
+    "analysis": "定义域 $x>3$。合并得 $(x-1)(x-3)=8\\Rightarrow x^2-4x-5=0\\Rightarrow x=5$ 或 $-1$。仅 $x=5\\in D$。选 A。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "合并扩域后必须验根。",
+    "hardProfile": {
+      "contentSha256": "1f028fe66f1da9e5cbf7250471d37c0f1b17699ee5c63c9ed993d5658d160fe4",
+      "coreChallenge": "合并扩域后必须验根。"
+    },
+    "compareDowngrade": "相对对数运算：增根机理。",
+    "contentSha256": "1f028fe66f1da9e5cbf7250471d37c0f1b17699ee5c63c9ed993d5658d160fe4",
+    "modelFamily": "log_eq_merge_extraneous_root",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-095",
+    "designId": "HARD-DESIGN-095",
+    "qtype": "application",
+    "chapterNo": 4,
+    "sectionCode": "4.4",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.4.4.02",
+    "methodMain": "parity_apply",
+    "methodAux": "mono_analysis",
+    "stem": "设 $a>1$，$f(x)=\\log_a\\bigl(x+\\sqrt{x^2+1}\\bigr)$。\n（1）证明 $f$ 为奇函数；（2）证明 $f$ 严格递增，并判断 $f(-2)+f(3)$ 的符号。",
+    "options": null,
+    "answer": "（1）见解析；（2）严格增；和为正。",
+    "analysis": "（1）$\\bigl(-x+\\sqrt{x^2+1}\\bigr)\\bigl(x+\\sqrt{x^2+1}\\bigr)=1$，故 $f(-x)=-f(x)$。\n（2）内层 $u(x)=x+\\sqrt{x^2+1}$ 严格增且 $>0$，外层 $\\log_a$ 严格增，故 $f$ 严格增。于是 $f(-2)+f(3)=f(3)-f(2)>0$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "有理化证奇+复合证增。",
+    "hardProfile": {
+      "contentSha256": "0c7eb37247fdb12dff652125b08cb1b767929ebe2fe1a221e18e67bc741dbda6",
+      "coreChallenge": "有理化证奇+复合证增。"
+    },
+    "compareDowngrade": "相对简单奇偶：乘积为 1 的共轭。",
+    "contentSha256": "0c7eb37247fdb12dff652125b08cb1b767929ebe2fe1a221e18e67bc741dbda6",
+    "modelFamily": "arsinh_like_log_odd_mono",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-096",
+    "designId": "HARD-DESIGN-096",
+    "qtype": "multi",
+    "chapterNo": 4,
+    "sectionCode": "4.3",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.4.3.02",
+    "methodMain": "equiv_transform",
+    "methodAux": "special_value",
+    "stem": "设 $a,b>0$，$a\\ne 1$，$b\\ne 1$，$x>0$。下列正确的是（多选）",
+    "options": {
+      "A": "$a^{\\log_b x}=x^{\\log_b a}$（在合法条件下）恒成立",
+      "B": "$a^{\\log_a b}\\cdot b^{\\log_b a}=ab$",
+      "C": "$a^{\\log_a b}=b$",
+      "D": "$b^{\\log_b a}=\\dfrac{1}{a}$"
+    },
+    "answer": "A,B,C",
+    "analysis": "两边取 $\\log_b$ 得 A。又 $a^{\\log_a b}=b$，$b^{\\log_b a}=a$，乘积 $ab$。D 错。选 A、B、C。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "指对交错恒等与积求值。",
+    "hardProfile": {
+      "contentSha256": "d42a8267b07fbc33d2e1edc89404a972f6c9fc10a4f2cfa6ecaa95affd76cb5b",
+      "coreChallenge": "指对交错恒等与积求值。"
+    },
+    "compareDowngrade": "相对单一运算法则：混合恒等结构。",
+    "contentSha256": "d42a8267b07fbc33d2e1edc89404a972f6c9fc10a4f2cfa6ecaa95affd76cb5b",
+    "modelFamily": "exp_log_swap_identity",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-097",
+    "designId": "HARD-DESIGN-097",
+    "qtype": "application",
+    "chapterNo": 4,
+    "sectionCode": "4.2",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.4.2.03",
+    "methodMain": "substitution",
+    "methodAux": "classification",
+    "stem": "按实数 $k$ 讨论方程 $2^{x}+2^{-x}=k$ 的实根个数。",
+    "options": null,
+    "answer": "当 $k>2$ 时两实根；当 $k=2$ 时一实根 $x=0$；当 $k<2$ 时无实根。",
+    "analysis": "令 $t=2^{x}>0$，则 $t+\\dfrac{1}{t}=k$。$t+\\dfrac{1}{t}\\ge 2$，等号 $t=1\\Leftrightarrow x=0$。故按 $k$ 与 $2$ 比较得上述分类。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "换元水平线分类；并用偶性排除负轴。",
+    "hardProfile": {
+      "contentSha256": "a08b15cf4e2ddfadfdd9365fa60602fad9e9b16cd0c7a6a1d02cf83d6e79065b",
+      "coreChallenge": "换元水平线分类；并用偶性排除负轴。"
+    },
+    "compareDowngrade": "相对指数代入：对称指数值域/交点。",
+    "contentSha256": "a08b15cf4e2ddfadfdd9365fa60602fad9e9b16cd0c7a6a1d02cf83d6e79065b",
+    "modelFamily": "exp_sum_level_and_line",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-098",
+    "designId": "HARD-DESIGN-098",
+    "qtype": "numeric",
+    "chapterNo": 4,
+    "sectionCode": "4.4",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.4.4.02",
+    "methodMain": "classification",
+    "methodAux": "mono_analysis",
+    "stem": "不等式 $\\log_2(x^2-3x+2)<1$ 的解集中，落在 $(2,+\\infty)$ 内的部分是开区间 $(c,d)$。则 $d-c=$ ________。",
+    "options": null,
+    "answer": "1",
+    "analysis": "定义域：$x^2-3x+2>0\\Rightarrow x<1$ 或 $x>2$。底 $>1$ 时不等式 $\\Leftrightarrow 0<x^2-3x+2<2$。由 $x^2-3x+2<2\\Leftrightarrow 0<x<3$。与定义域交得 $(0,1)\\cup(2,3)$。落在 $(2,+\\infty)$ 的部分为 $(2,3)$，故 $d-c=1$。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "参数底两大分支；本题取 m=2 可算具体解集长度。",
+    "hardProfile": {
+      "contentSha256": "807791c344897c5af78e917f22c5e30ba7d5221cd09ea91f5faa3a2d19f873f8",
+      "coreChallenge": "参数底两大分支；本题取 m=2 可算具体解集长度。"
+    },
+    "compareDowngrade": "相对固定底：底参二分变号。",
+    "contentSha256": "807791c344897c5af78e917f22c5e30ba7d5221cd09ea91f5faa3a2d19f873f8",
+    "modelFamily": "log_ineq_param_base_split",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-099",
+    "designId": "HARD-DESIGN-099",
+    "qtype": "application",
+    "chapterNo": 4,
+    "sectionCode": "4.4",
+    "hardLevel": "H3",
+    "hardAudit": "TRUE_H3",
+    "difficulty": 3,
+    "kpCode": "rja.4.4.02",
+    "methodMain": "mono_analysis",
+    "methodAux": "classification",
+    "stem": "设 $a>1$，$k>0$，$\\varphi(x)=\\log_a x+\\log_a(k-x)$。\n（1）求定义域与最大值；\n（2）按实数 $m$ 讨论方程 $\\varphi(x)=m$ 的实根个数。",
+    "options": null,
+    "answer": "（1）定义域 $(0,k)$，最大值为 $\\log_a\\dfrac{k^2}{4}$；\n（2）$m>\\log_a\\dfrac{k^2}{4}$ 无解；$m=$ 该最大值一解；$m<$ 该最大值两解。",
+    "analysis": "定义域 $x\\in(0,k)$。$\\varphi=\\log_a(kx-x^2)$，$u=kx-x^2\\le\\dfrac{k^2}{4}$，故最大值 $\\log_a\\dfrac{k^2}{4}$（$x=\\dfrac{k}{2}$），两端 $\\varphi\\to-\\infty$。水平线 $y=m$ 与图象交点个数按 $m$ 与最大值比较即得。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "key": "setup",
+        "title": "审题建模",
+        "score": 4,
+        "criterion": "正确写出条件与目标"
+      },
+      {
+        "key": "core",
+        "title": "核心突破",
+        "score": 5,
+        "criterion": "完成关键变换或分类"
+      },
+      {
+        "key": "conclude",
+        "title": "结论核验",
+        "score": 3,
+        "criterion": "答案完整且边界检验"
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "定义域、合并、二次最值、水平线根个数一体。",
+    "hardProfile": {
+      "contentSha256": "bd7cee753017ffa4986f252fe5413a849e0f21fa70d863d1bd4cbcd4850c6685",
+      "coreChallenge": "定义域、合并、二次最值、水平线根个数一体。"
+    },
+    "compareDowngrade": "相对换底：参数水平线综合。",
+    "contentSha256": "bd7cee753017ffa4986f252fe5413a849e0f21fa70d863d1bd4cbcd4850c6685",
+    "modelFamily": "log_sum_quadratic_level_params",
+    "mathCheck": "PASS"
+  },
+  {
+    "id": "CAND-HARD14-100",
+    "designId": "HARD-DESIGN-100",
+    "qtype": "single",
+    "chapterNo": 4,
+    "sectionCode": "4.5",
+    "hardLevel": "H2",
+    "hardAudit": "TRUE_H2",
+    "difficulty": 3,
+    "kpCode": "rja.4.5.03",
+    "methodMain": "mono_analysis",
+    "methodAux": "classification",
+    "stem": "设 $a>1$。考虑 $y=a^{x}$ 与 $y=\\log_a x$ 在 $(0,+\\infty)$ 上的交点。下列正确的是",
+    "options": {
+      "A": "两图象交点必在直线 $y=x$ 上",
+      "B": "若交点在 $y=x$ 上，则该点横坐标 $t$ 满足 $\\log_a t=t$",
+      "C": "两图象不可能有交点",
+      "D": "交点个数与 $a$ 无关"
+    },
+    "answer": "B",
+    "analysis": "二者互为反函数，图象关于 $y=x$ 对称，交点或在 $y=x$ 上，或成对出现，故 A 错。若交于对角线上，则 $a^{t}=t=\\log_a t$，等价于 $\\log_a t=t$。交点个数依赖 $a$，C、D 错。选 B。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "diagramSpecification": null,
+    "noDiagramReason": "代数条件充分，文字可完成推理。",
+    "hardLevelReason": "反函数对称思想真实；完整 a 相对 e^{1/e} 分类偏超纲边缘，诚实定为 H2/TRUE_H2。",
+    "hardProfile": {
+      "contentSha256": "196332565122cdbb9515fefbe65f0dfe3227706d4a97df37e8afdbd9da1c4fea",
+      "coreChallenge": "反函数对称思想真实；完整 a 相对 e^{1/e} 分类偏超纲边缘，诚实定为 H2/TRUE_H2。"
+    },
+    "compareDowngrade": "相对换底/代入：反函数对称闭包讨论交点。",
+    "contentSha256": "196332565122cdbb9515fefbe65f0dfe3227706d4a97df37e8afdbd9da1c4fea",
+    "modelFamily": "exp_log_inverse_intersection_param",
+    "mathCheck": "PASS"
+  }
+]

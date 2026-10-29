@@ -796,6 +796,28 @@ CREATE TABLE IF NOT EXISTS chem_train_item_links (
   CONSTRAINT fk_chem_train_item_link_item FOREIGN KEY (item_id) REFERENCES chem_train_items(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- 工业实验 STEP_09 / D043：题-不可变 SVG 资源关联（方案 C）
+-- CASCADE 仅删除关联行，不删除 uploads/industrial-svg 物理文件；共享哈希可多题引用。
+CREATE TABLE IF NOT EXISTS chem_train_item_assets (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  train_item_id BIGINT UNSIGNED NOT NULL,
+  asset_type VARCHAR(32) NOT NULL COMMENT 'industrial_flow_svg|industrial_apparatus_svg',
+  asset_role VARCHAR(32) NOT NULL COMMENT 'question_diagram|supporting_diagram',
+  content_hash CHAR(64) NOT NULL COMMENT 'SVG 文件字节 SHA-256（不可变）',
+  storage_path VARCHAR(512) NOT NULL COMMENT '相对 uploads/，如 industrial-svg/<sha256>.svg',
+  mime_type VARCHAR(64) NOT NULL DEFAULT 'image/svg+xml',
+  file_size INT UNSIGNED NOT NULL,
+  diagram_version VARCHAR(32) NOT NULL DEFAULT '' COMMENT '渲染器/协议版本',
+  sort_order SMALLINT UNSIGNED NOT NULL DEFAULT 0,
+  created_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+  UNIQUE KEY uk_chem_train_item_asset (train_item_id, asset_type, asset_role, content_hash),
+  KEY idx_chem_train_item_asset_item (train_item_id, sort_order),
+  KEY idx_chem_train_item_asset_hash (content_hash),
+  CONSTRAINT fk_chem_train_item_asset_item
+    FOREIGN KEY (train_item_id) REFERENCES chem_train_items(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+  COMMENT='题图不可变资源关联；禁止以可变 URL 作为唯一版本依据';
+
 CREATE TABLE IF NOT EXISTS chem_train_test_grants (
   id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
   user_id BIGINT UNSIGNED NOT NULL,
@@ -861,6 +883,27 @@ CREATE TABLE IF NOT EXISTS chem_train_session_items (
   KEY idx_chem_train_sess_item_sess (session_id),
   CONSTRAINT fk_chem_train_sess_item_sess FOREIGN KEY (session_id) REFERENCES chem_train_sessions(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- 工业实验 STEP_10 / D045：会话题图快照（一题多图；禁止历史仅按 train_item_id 动态取当前图）
+-- 不存 storage_path；还原靠 content_hash → industrial-svg/<hash>.svg（受控 API，非公开静态）
+CREATE TABLE IF NOT EXISTS chem_train_session_item_assets (
+  id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  session_item_id BIGINT UNSIGNED NOT NULL,
+  source_item_asset_id BIGINT UNSIGNED NULL COMMENT '开训时 chem_train_item_assets.id；无 FK 以免删题库关联破坏历史',
+  asset_type VARCHAR(32) NOT NULL COMMENT 'industrial_flow_svg|industrial_apparatus_svg',
+  asset_role VARCHAR(32) NOT NULL COMMENT 'question_diagram|supporting_diagram',
+  content_hash CHAR(64) NOT NULL COMMENT '开训时固定的 SVG 内容哈希',
+  mime_type VARCHAR(64) NOT NULL DEFAULT 'image/svg+xml',
+  diagram_version VARCHAR(32) NOT NULL DEFAULT '',
+  sort_order SMALLINT UNSIGNED NOT NULL DEFAULT 0,
+  created_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+  UNIQUE KEY uk_chem_sess_item_asset (session_item_id, asset_type, asset_role, content_hash),
+  KEY idx_chem_sess_item_asset_si (session_item_id, sort_order),
+  KEY idx_chem_sess_item_asset_hash (content_hash),
+  CONSTRAINT fk_chem_sess_item_asset_si
+    FOREIGN KEY (session_item_id) REFERENCES chem_train_session_items(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+  COMMENT='训练会话题图快照；历史还原只读本表+不可变文件';
 
 CREATE TABLE IF NOT EXISTS chem_wrong_items (
   id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
@@ -985,7 +1028,7 @@ CREATE TABLE IF NOT EXISTS hs_math_train_sessions (
   session_kind VARCHAR(16) NOT NULL DEFAULT 'specialty' COMMENT 'specialty|daily|advanced|wrong_review|wrong_variation',
   daily_date DATE NULL COMMENT 'P1每日用；P0预留',
   specialty_id BIGINT UNSIGNED NOT NULL,
-  category_id BIGINT UNSIGNED NOT NULL,
+  category_id BIGINT UNSIGNED NULL COMMENT '小节；NULL=整章抽题',
   pool_mode VARCHAR(16) NOT NULL COMMENT 'formal|test',
   difficulty TINYINT UNSIGNED NOT NULL,
   planned_count INT UNSIGNED NOT NULL,

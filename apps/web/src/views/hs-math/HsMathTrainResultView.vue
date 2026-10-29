@@ -620,14 +620,18 @@ function goRetry() {
     void router.push('/hs-math/specialties')
     return
   }
+  const q: Record<string, string> = {
+    specialtyId: session.value.specialtyId,
+    specialtyName: session.value.specialtyName || '',
+    difficulty: String(session.value.difficulty || 1),
+  }
+  if (session.value.categoryId) {
+    q.categoryId = session.value.categoryId
+    q.categoryName = session.value.categoryName || ''
+  }
   void router.push({
     path: `/hs-math/specialties/${encodeURIComponent(session.value.specialtyCode)}/train`,
-    query: {
-      specialtyId: session.value.specialtyId,
-      categoryId: session.value.categoryId,
-      specialtyName: session.value.specialtyName || '',
-      categoryName: session.value.categoryName || '',
-    },
+    query: q,
   })
 }
 

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.0",
+  "caseCode": "salt_purification_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+  "internalReferences": {
+    "caseCode": "salt_purification_basic",
+    "caseVersion": "0.1.0",
+    "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3"
+  },
+  "reviewMetadata": {
+    "chemicallyReviewed": false,
+    "structureOnly": true,
+    "notes": "含未知操作①；仅结构示例"
+  },
+  "diagramId": "diag.salt_purification_basic",
+  "diagramVersion": "0.1.0",
+  "title": "粗盐提纯流程（协议示例）",
+  "orientation": "left_to_right",
+  "nodes": [
+    {
+      "id": "n_raw",
+      "type": "material",
+      "displayLabel": "粗盐",
+      "displayRole": "raw",
+      "presentation": {
+        "shapeHint": "rounded_rect",
+        "toneHint": "muted"
+      },
+      "internal": {
+        "materialId": "m_crude_salt"
+      }
+    },
+    {
+      "id": "n_dissolve",
+      "type": "process",
+      "displayLabel": "溶解",
+      "displayRole": "process",
+      "internal": {
+        "stepId": "s1_dissolve",
+        "materialId": null
+      }
+    },
+    {
+      "id": "n_brine",
+      "type": "intermediate",
+      "displayLabel": "混合液",
+      "displayRole": "intermediate",
+      "internal": {
+        "materialId": "m_brine"
+      }
+    },
+    {
+      "id": "n_filter",
+      "type": "unknown",
+      "displayLabel": "操作①",
+      "displayRole": "unknown_op",
+      "presentation": {
+        "shapeHint": "diamond",
+        "toneHint": "warning"
+      },
+      "internal": {
+        "stepId": "s2_filter",
+        "unknownKey": "op_filter",
+        "answerLabel": "过滤"
+      }
+    },
+    {
+      "id": "n_filtrate",
+      "type": "intermediate",
+      "displayLabel": "滤液",
+      "displayRole": "intermediate",
+      "internal": {
+        "materialId": "m_filtrate"
+      }
+    },
+    {
+      "id": "n_residue",
+      "type": "waste",
+      "displayLabel": "滤渣",
+      "displayRole": "waste",
+      "presentation": {
+        "toneHint": "danger"
+      },
+      "internal": {
+        "materialId": "m_residue"
+      }
+    },
+    {
+      "id": "n_evap",
+      "type": "separation",
+      "displayLabel": "蒸发结晶",
+      "displayRole": "separation",
+      "internal": {
+        "stepId": "s3_evaporate"
+      }
+    },
+    {
+      "id": "n_product",
+      "type": "product",
+      "displayLabel": "精盐",
+      "displayRole": "product",
+      "presentation": {
+        "toneHint": "success"
+      },
+      "internal": {
+        "materialId": "m_refined_nacl"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "from": "n_raw",
+      "to": "n_dissolve",
+      "type": "material_flow"
+    },
+    {
+      "id": "e2",
+      "from": "n_dissolve",
+      "to": "n_brine",
+      "type": "material_flow"
+    },
+    {
+      "id": "e3",
+      "from": "n_brine",
+      "to": "n_filter",
+      "type": "material_flow"
+    },
+    {
+      "id": "e4",
+      "from": "n_filter",
+      "to": "n_filtrate",
+      "type": "material_flow"
+    },
+    {
+      "id": "e5",
+      "from": "n_filter",
+      "to": "n_residue",
+      "type": "byproduct",
+      "displayLabel": "固渣"
+    },
+    {
+      "id": "e6",
+      "from": "n_filtrate",
+      "to": "n_evap",
+      "type": "material_flow"
+    },
+    {
+      "id": "e7",
+      "from": "n_evap",
+      "to": "n_product",
+      "type": "material_flow"
+    }
+  ],
+  "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe"
+}

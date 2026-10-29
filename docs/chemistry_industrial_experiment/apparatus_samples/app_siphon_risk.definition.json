@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_siphon_risk",
+  "caseCode": "salt_purification_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+  "apparatusVersion": "1.0.0",
+  "title": "倒吸风险示意（错误样例）",
+  "orientation": "left_to_right",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "intentionallyInvalid": true,
+  "reviewMetadata": {
+    "chemicallyReviewed": false,
+    "schematicOnly": true,
+    "notes": "invalid"
+  },
+  "components": [
+    {
+      "componentId": "gen1",
+      "componentType": "gas_generator",
+      "displayLabel": "发生器",
+      "ports": [
+        {
+          "portId": "reagent_in",
+          "direction": "in",
+          "media": [
+            "liquid",
+            "solid"
+          ]
+        },
+        {
+          "portId": "gas_out",
+          "direction": "out",
+          "media": [
+            "gas"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "abs1",
+      "componentType": "tail_gas_absorber",
+      "displayLabel": "吸收瓶",
+      "ports": [
+        {
+          "portId": "gas_in",
+          "direction": "in",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        }
+      ],
+      "internal": {}
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "bad",
+      "sourceComponentId": "gen1",
+      "sourcePortId": "gas_out",
+      "targetComponentId": "abs1",
+      "targetPortId": "gas_in",
+      "flowType": "gas"
+    }
+  ],
+  "apparatusContentHash": "6a51c6eb11052a5b8b96db7c418f149d44307941d3f11cfb8aa142923f034ae1"
+}

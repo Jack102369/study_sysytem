@@ -37,6 +37,13 @@
         </p>
         <div class="stem">{{ displayStem(current) }}</div>
 
+        <TrainSessionIndustrialDiagrams
+          v-if="session && current?.diagramAssets?.length"
+          :session-id="session.id"
+          :session-item-id="current.id"
+          :assets="current.diagramAssets"
+        />
+
         <div v-if="current.qtype === 'single'" class="opts">
           <el-radio-group
             v-model="draft"
@@ -156,6 +163,7 @@ import {
   type TrainSessionDetail,
   type TrainSessionItem,
 } from '@/api/chemistry-train'
+import TrainSessionIndustrialDiagrams from '@/components/chemistry/TrainSessionIndustrialDiagrams.vue'
 import {
   formatChemFormulaDisplay,
   formatChemTextDisplay,

@@ -1,0 +1,85 @@
+{
+  "taskId": "task_9a2e7ae75c0a4bc9",
+  "provider": "mock",
+  "model": "mock-industrial-v1",
+  "generationMode": "development_test",
+  "caseCode": "salt_purification_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+  "categoryCode": "industrial_separation_purification",
+  "difficulty": 1,
+  "qtype": "single",
+  "startedAt": "2026-10-29T02:32:08.416Z",
+  "finishedAt": "2026-10-29T02:32:08.417Z",
+  "durationMs": 1,
+  "status": "development_only",
+  "retryCount": 0,
+  "validationResults": [
+    {
+      "stage": "request",
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "stage": "case_trust",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "development_test allows draft/unverified cases; output must be development_only"
+      ]
+    },
+    {
+      "stage": "ai_schema",
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "stage": "diagram_definition",
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "stage": "diagram_case_bind",
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "stage": "stem_diagram_consistency",
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "stage": "structure_validated",
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "stage": "public_project",
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "stage": "svg_render",
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errorCode": null,
+  "errorMessage": null,
+  "tokenUsage": {
+    "promptTokens": 10,
+    "completionTokens": 20,
+    "totalTokens": 30,
+    "available": true
+  },
+  "developmentOnly": true,
+  "generationSource": "mock_generated"
+}

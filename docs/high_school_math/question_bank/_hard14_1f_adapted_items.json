@@ -1,0 +1,4518 @@
+[
+  {
+    "code": "CAND-HARD14-001",
+    "specialtyCode": "rja-ch1",
+    "categoryCode": "1.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $A_t=\\{x\\mid t\\le x\\le 2t+1\\}$，$B=\\{x\\mid 0\\le x\\le 3\\}$。求使 $A_t\\subseteq B$ 且 $A_t\\ne\\varnothing$ 的 $t$；并判断是否存在 $t$ 使 $A_t=B$。",
+    "analysis": "非空 $\\Leftrightarrow t\\ge-1$。非空且 $A_t\\subseteq B$：$0\\le t$ 且 $2t+1\\le 3\\Leftrightarrow t\\in[0,1]$。若相等则 $t=0$ 且 $2t+1=3$，矛盾。",
+    "knowledgePointCodes": [
+      "rja.1.2.01"
+    ],
+    "primaryKnowledgePointCode": "rja.1.2.01",
+    "methodCodes": [
+      "classification",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "非空包含：$t\\in[0,1]$；不存在 $t$ 使 $A_t=B$。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_非空+包含得[0,1]",
+          "title": "非空+包含得[0,1]",
+          "maxScore": 6,
+          "criteria": "非空+包含得[0,1]"
+        },
+        {
+          "key": "s2_否定相等",
+          "title": "否定相等",
+          "maxScore": 4,
+          "criteria": "否定相等"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-002",
+    "specialtyCode": "rja-ch1",
+    "categoryCode": "1.3",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "设 $A=\\{x\\mid x^{2}-3x+2\\le 0\\}$，$B=\\{x\\mid |x-m|\\le 1\\}$。若 $A\\cup B=B$，则实数 $m$ 的取值范围是",
+    "analysis": "$A$：$x^{2}-3x+2\\le 0\\Leftrightarrow(x-1)(x-2)\\le 0\\Leftrightarrow x\\in[1,2]$。$A\\cup B=B\\Leftrightarrow A\\subseteq B$。$B=[m-1,m+1]$，故需 $m-1\\le 1$ 且 $m+1\\ge 2$，即 $m\\in[1,2]$。选 B。检验：$m=1$ 时 $B=[0,2]\\supseteq A$；$m=2$ 时 $B=[1,3]\\supseteq A$；$m=0.9$ 时 $2\\notin B$。",
+    "knowledgePointCodes": [
+      "rja.1.3.04"
+    ],
+    "primaryKnowledgePointCode": "rja.1.3.04",
+    "methodCodes": [
+      "equiv_transform",
+      "special_value"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$m\\in[0,3]$"
+        },
+        {
+          "id": "B",
+          "text": "$m\\in[1,2]$"
+        },
+        {
+          "id": "C",
+          "text": "$m\\in[\\dfrac{1}{2},\\dfrac{5}{2}]$"
+        },
+        {
+          "id": "D",
+          "text": "$m\\in[-1,1]$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "single",
+      "optionId": "B"
+    }
+  },
+  {
+    "code": "CAND-HARD14-003",
+    "specialtyCode": "rja-ch1",
+    "categoryCode": "1.4",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "命题 $p$：$x^{2}\\le a$；命题 $q$：$|x|\\le 1$。讨论使「对一切实数 $x$，$p\\Rightarrow q$」「对一切实数 $x$，$q\\Rightarrow p$」分别成立的实数 $a$，并据此说明 $p$ 是 $q$ 的何种条件（充分/必要/充要）。",
+    "analysis": "若 $a<0$，则 $p$ 对一切 $x$ 为假，故 $p\\Rightarrow q$ 恒真；取 $x=0$ 则 $q$ 真而 $p$ 假，故 $q\\Rightarrow p$ 不恒真。此时 $p$ 是 $q$ 的充分不必要条件。\n若 $a\\ge 0$，$p$ 的解集为 $[-\\sqrt{a},\\sqrt{a}]$。$\\forall x\\,(p\\Rightarrow q)\\Leftrightarrow[-\\sqrt{a},\\sqrt{a}]\\subseteq[-1,1]\\Leftrightarrow a\\le 1$。$\\forall x\\,(q\\Rightarrow p)\\Leftrightarrow[-1,1]\\subseteq[-\\sqrt{a},\\sqrt{a}]\\Leftrightarrow a\\ge 1$。\n故：$a\\le 1$ 时 $p$ 是 $q$ 的充分条件；$a\\ge 1$ 时是必要条件；当且仅当 $a=1$ 时为充要条件。",
+    "knowledgePointCodes": [
+      "rja.1.4.02"
+    ],
+    "primaryKnowledgePointCode": "rja.1.4.02",
+    "methodCodes": [
+      "defn",
+      "classification"
+    ],
+    "primaryMethodCode": "defn",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$a\\le 1$ 时充分；$a\\ge 1$ 时必要；当且仅当 $a=1$ 时充要（含 $a<0$ 充分不必要）",
+      "maxScore": 14,
+      "rubric": [
+        {
+          "key": "s1_a<0_时充分不必要",
+          "title": "a<0 时充分不必要",
+          "maxScore": 3,
+          "criteria": "a<0 时充分不必要"
+        },
+        {
+          "key": "s2_用解集包含写出_a≤1_/_a≥1",
+          "title": "用解集包含写出 a≤1 / a≥1",
+          "maxScore": 7,
+          "criteria": "用解集包含写出 a≤1 / a≥1"
+        },
+        {
+          "key": "s3_总结充要分界_a=1",
+          "title": "总结充要分界 a=1",
+          "maxScore": 4,
+          "criteria": "总结充要分界 a=1"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-004",
+    "specialtyCode": "rja-ch1",
+    "categoryCode": "1.5",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设命题 $P$：「$\\forall x\\in[0,1]$，$x^{2}-ax+a\\ge 0$」。\n(1) 求使 $P$ 为真的实数 $a$ 的取值范围；\n(2) 写出 $\\neg P$，并求使 $\\neg P$ 为真的 $a$。",
+    "analysis": "记 $f(x)=x^{2}-ax+a$，开口向上，对称轴 $x=\\dfrac{a}{2}$。\n当 $a<0$ 时 $f(0)=a<0$，故 $P$ 假。当 $a=0$ 时 $f(x)=x^{2}\\ge 0$，$P$ 真。当 $0<a<2$ 时顶点在 $(0,1)$ 内，最小值 $f(\\dfrac{a}{2})=\\dfrac{a(4-a)}{4}>0$，$P$ 真。当 $a\\ge 2$ 时 $[0,1]$ 上最小为 $f(1)=1>0$，$P$ 真。\n故 (1) $P$ 真 $\\Leftrightarrow a\\ge 0$。(2) $\\neg P$：「$\\exists x\\in[0,1]$，$x^{2}-ax+a<0$」，其真值域为 $a<0$。",
+    "knowledgePointCodes": [
+      "rja.1.5.02"
+    ],
+    "primaryKnowledgePointCode": "rja.1.5.02",
+    "methodCodes": [
+      "defn",
+      "classification"
+    ],
+    "primaryMethodCode": "defn",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "(1) $a\\ge 0$；(2) $\\exists x\\in[0,1],\\,x^{2}-ax+a<0$，真域 $a<0$",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_对称轴分类求_P_真域_a≥0",
+          "title": "对称轴分类求 P 真域 a≥0",
+          "maxScore": 7,
+          "criteria": "对称轴分类求 P 真域 a≥0"
+        },
+        {
+          "key": "s2_正确否定并得_a<0",
+          "title": "正确否定并得 a<0",
+          "maxScore": 5,
+          "criteria": "正确否定并得 a<0"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-005",
+    "specialtyCode": "rja-ch1",
+    "categoryCode": "1.2",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "设 $a\\le b$，$A=\\{x\\mid (x-a)(x-b)\\le 0\\}$，$B=\\{x\\mid 1\\le x\\le 4\\}$。已知 $A\\subseteq B$ 且 $B\\subseteq A\\cup\\{0\\}$，则有序对 $(a,b)$ 等于",
+    "analysis": "$a\\le b$ 时 $A=[a,b]$，$B=[1,4]$。由 $A\\subseteq B$ 得 $1\\le a\\le b\\le 4$。对任意 $x\\in B$ 有 $x\\ne 0$，故 $B\\subseteq A\\cup\\{0\\}$ 强制 $B\\subseteq A$。结合 $A\\subseteq B$ 得 $A=B$，从而 $a=1$，$b=4$。选 A。$\\cup\\{0\\}$ 不能覆盖 $B$ 中任何点，是逻辑干扰。",
+    "knowledgePointCodes": [
+      "rja.1.2.02"
+    ],
+    "primaryKnowledgePointCode": "rja.1.2.02",
+    "methodCodes": [
+      "classification",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$(1,4)$"
+        },
+        {
+          "id": "B",
+          "text": "$(0,4)$"
+        },
+        {
+          "id": "C",
+          "text": "$(1,3)$"
+        },
+        {
+          "id": "D",
+          "text": "$(0,1)$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "single",
+      "optionId": "A"
+    }
+  },
+  {
+    "code": "CAND-HARD14-006",
+    "specialtyCode": "rja-ch1",
+    "categoryCode": "1.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $a\\le b$，$A=\\{x\\in\\mathbb{R}\\mid |x-a|+|x-b|\\le 4\\}$。已知 $A=[0,4]$，求所有有序对 $(a,b)$。",
+    "analysis": "对 $a\\le b$，若 $b-a>4$，则在 $[a,b]$ 上 $|x-a|+|x-b|=b-a>4$，从而 $A=\\varnothing$，与 $A=[0,4]$ 矛盾。故必 $b-a\\le 4$。此时外侧斜率为 $\\pm 2$，可得 $A=\\left[\\dfrac{a+b-4}{2},\\dfrac{a+b+4}{2}\\right]$。\n令其等于 $[0,4]$：$a+b-4=0$ 且 $a+b+4=8$，即 $a+b=4$，并保留 $0\\le b-a\\le 4$。于是 $a\\in[0,2]$，$b=4-a$。",
+    "knowledgePointCodes": [
+      "rja.1.3.03"
+    ],
+    "primaryKnowledgePointCode": "rja.1.3.03",
+    "methodCodes": [
+      "equiv_transform",
+      "num_shape"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$a\\in[0,2]$，$b=4-a$（即 $a+b=4$ 且 $0\\le b-a\\le 4$）",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_论证_b-a≤4_否则_A_空",
+          "title": "论证 b-a≤4 否则 A 空",
+          "maxScore": 3,
+          "criteria": "论证 b-a≤4 否则 A 空"
+        },
+        {
+          "key": "s2_写出水平集端点公式",
+          "title": "写出水平集端点公式",
+          "maxScore": 4,
+          "criteria": "写出水平集端点公式"
+        },
+        {
+          "key": "s3_解得_a+b=4_与_a_范围",
+          "title": "解得 a+b=4 与 a 范围",
+          "maxScore": 5,
+          "criteria": "解得 a+b=4 与 a 范围"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-007",
+    "specialtyCode": "rja-ch1",
+    "categoryCode": "1.4",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "命题 $p$：$x\\in[m-1,m+1]$；命题 $q$：$x^{2}-6x+8\\le 0$。若 $p$ 是 $q$ 的充要条件，则实数 $m$ 等于",
+    "analysis": "$q$：$(x-2)(x-4)\\le 0\\Leftrightarrow x\\in[2,4]$。$p$ 为 $q$ 的充要条件 $\\Leftrightarrow$ 解集相等 $[m-1,m+1]=[2,4]\\Leftrightarrow m-1=2$ 且 $m+1=4\\Leftrightarrow m=3$。选 B。\n（说明：设计原稿中 $q$ 写成 $x^{2}-5x+6\\le 0$ 得 $[2,3]$，与长度 2 的 $[m-1,m+1]$ 不可能相等；本题将 $q$ 改为解集 $[2,4]$ 以保持「充要⇔区间恒等得 m=3」的突破点。）",
+    "knowledgePointCodes": [
+      "rja.1.4.01"
+    ],
+    "primaryKnowledgePointCode": "rja.1.4.01",
+    "methodCodes": [
+      "defn",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "defn",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$2$"
+        },
+        {
+          "id": "B",
+          "text": "$3$"
+        },
+        {
+          "id": "C",
+          "text": "$4$"
+        },
+        {
+          "id": "D",
+          "text": "$\\dfrac{5}{2}$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "single",
+      "optionId": "B"
+    }
+  },
+  {
+    "code": "CAND-HARD14-008",
+    "specialtyCode": "rja-ch1",
+    "categoryCode": "1.5",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $P_{1}$：「$\\forall x\\in[0,1]$，$\\exists y\\in[0,1]$，使 $y=ax$」；$P_{2}$：「$\\exists y\\in[0,1]$，$\\forall x\\in[0,1]$，使 $y=ax$」。分别求使 $P_{1}$、$P_{2}$ 为真的实数 $a$。",
+    "analysis": "$P_{1}$：对每个 $x\\in[0,1]$ 需存在 $y\\in[0,1]$ 使 $y=ax$，即 $ax\\in[0,1]$。若 $a<0$，取 $x=1$ 得 $a\\notin[0,1]$，假。若 $a\\ge 0$，最强约束来自 $x=1$：$a\\le 1$，故 $a\\in[0,1]$。\n$P_{2}$：存在同一 $y$ 使对一切 $x\\in[0,1]$ 有 $y=ax$。取 $x=0$ 得 $y=0$；取 $x=1$ 得 $a=0$。反之 $a=0$、$y=0$ 成立。\n故 $P_{1}$ 真 $\\Leftrightarrow a\\in[0,1]$；$P_{2}$ 真 $\\Leftrightarrow a=0$。",
+    "knowledgePointCodes": [
+      "rja.1.5.03"
+    ],
+    "primaryKnowledgePointCode": "rja.1.5.03",
+    "methodCodes": [
+      "classification",
+      "special_value"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$P_{1}$：$a\\in[0,1]$；$P_{2}$：$a=0$",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_P1_化为点态_ax∈[0,1]_得_[0,1]",
+          "title": "P1 化为点态 ax∈[0,1] 得 [0,1]",
+          "maxScore": 5,
+          "criteria": "P1 化为点态 ax∈[0,1] 得 [0,1]"
+        },
+        {
+          "key": "s2_P2_公共_y_迫使_a=0",
+          "title": "P2 公共 y 迫使 a=0",
+          "maxScore": 5,
+          "criteria": "P2 公共 y 迫使 a=0"
+        },
+        {
+          "key": "s3_对照量词顺序差异",
+          "title": "对照量词顺序差异",
+          "maxScore": 2,
+          "criteria": "对照量词顺序差异"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-009",
+    "specialtyCode": "rja-ch1",
+    "categoryCode": "1.5",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "设 $A(t)=\\{x\\mid x^{2}\\le t\\}$，$B=\\{x\\mid |x|\\le 1\\}$。记 $R(t)$ 表示「$A(t)=B$」。又设 $S$：「$\\forall t\\in[0,2]$，$(R(t)\\Rightarrow t=1)$」；$T$：「$\\exists t\\in[0,2]$，$R(t)$」。下列说法正确的是（多选）",
+    "analysis": "当 $t<0$ 时 $A(t)=\\varnothing\\ne B$。当 $t\\ge 0$ 时 $A(t)=[-\\sqrt{t},\\sqrt{t}]$，等于 $[-1,1]$ 当且仅当 $t=1$。故 $R(t)\\Leftrightarrow t=1$，A 正确。\n$T$：取 $t=1\\in[0,2]$，$R(1)$ 真，故 $T$ 真，B 正确。\n$S$：对任意 $t\\in[0,2]$，若 $t\\ne 1$ 则 $R(t)$ 假，蕴含 $R(t)\\Rightarrow t=1$ 真；若 $t=1$ 则结论真。故 $S$ 真，C 正确。D 错误：前件假时蕴含仍真，$A(2)\\ne B$ 并不使 $S$ 假。",
+    "knowledgePointCodes": [
+      "rja.1.5.01"
+    ],
+    "primaryKnowledgePointCode": "rja.1.5.01",
+    "methodCodes": [
+      "classification",
+      "defn"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$R(t)$ 为真当且仅当 $t=1$"
+        },
+        {
+          "id": "B",
+          "text": "命题 $T$ 为真"
+        },
+        {
+          "id": "C",
+          "text": "命题 $S$ 为真"
+        },
+        {
+          "id": "D",
+          "text": "命题 $S$ 为假，因为 $t=2$ 时 $A(2)\\ne B$ 却仍需检查蕴含"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-010",
+    "specialtyCode": "rja-ch1",
+    "categoryCode": "1.4",
+    "qtype": "numeric",
+    "difficulty": 3,
+    "stem": "命题 $p$：$x\\in[0,a]$；命题 $q$：$x\\in[0,1]$；命题 $r$：$x^{2}\\le x$。若「对一切实数 $x$，$p\\Rightarrow q$」「$q\\Rightarrow r$」「$r\\Rightarrow p$」同时成立，则 $a=$＿＿＿＿。",
+    "analysis": "$r$：$x(x-1)\\le 0\\Leftrightarrow x\\in[0,1]$，与 $q$ 同解集，故 $q\\Leftrightarrow r$ 恒真，$q\\Rightarrow r$ 自动成立。\n设 $a\\ge 0$，则 $p$ 解集为 $[0,a]$。$p\\Rightarrow q$ 恒真 $\\Leftrightarrow[0,a]\\subseteq[0,1]\\Leftrightarrow a\\le 1$；$r\\Rightarrow p$ 恒真 $\\Leftrightarrow[0,1]\\subseteq[0,a]\\Leftrightarrow a\\ge 1$。故 $a=1$。\n若 $a<0$，则 $p$ 为空集，$r\\Rightarrow p$ 失败。当 $a=1$ 时三解集均为 $[0,1]$，两两充要。",
+    "knowledgePointCodes": [
+      "rja.1.4.02"
+    ],
+    "primaryKnowledgePointCode": "rja.1.4.02",
+    "methodCodes": [
+      "defn",
+      "classification"
+    ],
+    "primaryMethodCode": "defn",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "numeric",
+      "value": "1",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    }
+  },
+  {
+    "code": "CAND-HARD14-011",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f(x)=x^{2}-2kx+k$。求使「在 $(0,1)$ 内恰有一根」且「在 $(1,2)$ 内恰有一根」的实数 $k$ 的范围。",
+    "analysis": "$\\Delta=4k(k-1)$，$f(0)=k$，$f(1)=1-k$，$f(2)=4-3k$。需 $\\Delta>0$，$f(1)<0$，$f(0)>0$，$f(2)>0$ ⇒ $k>1$ 且 $k<4/3$。",
+    "knowledgePointCodes": [
+      "rja.2.3.02"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.02",
+    "methodCodes": [
+      "classification",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$k\\in\\left(1,\\dfrac{4}{3}\\right)$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_符号条件",
+          "title": "符号条件",
+          "maxScore": 5,
+          "criteria": "符号条件"
+        },
+        {
+          "key": "s2_解得开区间",
+          "title": "解得开区间",
+          "maxScore": 5,
+          "criteria": "解得开区间"
+        },
+        {
+          "key": "s3_边界说明",
+          "title": "边界说明",
+          "maxScore": 2,
+          "criteria": "边界说明"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-012",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "设 $f(x)=x^{2}-(m+2)x+2m$。使方程 $f(x)=0$ 恰有一根大于 $1$ 的实数 $m$ 的取值范围是",
+    "analysis": "$\\Delta=(m-2)^{2}\\ge 0$ 恒有实根。$f(1)=1-(m+2)+2m=m-1$，开口向上。\n当 $m<1$ 时 $f(1)<0$，两根分居 $1$ 两侧，恰有一根 $>1$。当 $m=1$ 时根为 $1$ 与 $2$，恰有一根严格 $>1$。当 $m>1$ 时 $f(1)>0$、积 $2m$（若 $m>0$）与和 $m+2>0$ 且对称轴 $>1$，两根都 $>1$，不满足「恰有」。故 $m\\le 1$，选 B。",
+    "knowledgePointCodes": [
+      "rja.2.3.02"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.02",
+    "methodCodes": [
+      "equiv_transform",
+      "classification"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$m<1$"
+        },
+        {
+          "id": "B",
+          "text": "$m\\le 1$"
+        },
+        {
+          "id": "C",
+          "text": "$m>1$"
+        },
+        {
+          "id": "D",
+          "text": "$m\\ge 1$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "single",
+      "optionId": "B"
+    }
+  },
+  {
+    "code": "CAND-HARD14-013",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.1",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "已知对一切 $x\\in[-1,2]$，不等式 $|x-a|+|x+1|\\ge 3$ 恒成立。求实数 $a$ 的取值范围。",
+    "analysis": "恒成立 $\\Leftrightarrow$ 在 $I=[-1,2]$ 上 $\\min(|x-a|+|x+1|)\\ge 3$。记 $g(x)=|x-a|+|x+1|$。\n①若 $a\\in[-1,2]$，则 $\\min_{I}g=|a+1|$。要 $|a+1|\\ge 3$，但该段 $|a+1|\\le 3$，等号仅当 $a=2$，故仅 $a=2$ 可能。\n②若 $a<-1$，最小值在 $x=-1$：$g(-1)=-1-a\\ge 3\\Rightarrow a\\le-4$。\n③若 $a>2$，最小值在 $x=2$：$g(2)=a+1$，由 $a>2$ 自动 $>3$。\n合并：$a\\in(-\\infty,-4]\\cup[2,+\\infty)$。",
+    "knowledgePointCodes": [
+      "rja.2.1.02"
+    ],
+    "primaryKnowledgePointCode": "rja.2.1.02",
+    "methodCodes": [
+      "equiv_transform",
+      "classification"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$a\\in(-\\infty,-4]\\cup[2,+\\infty)$",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_转化为区间最小值≥3",
+          "title": "转化为区间最小值≥3",
+          "maxScore": 3,
+          "criteria": "转化为区间最小值≥3"
+        },
+        {
+          "key": "s2_三段分类求_min",
+          "title": "三段分类求 min",
+          "maxScore": 6,
+          "criteria": "三段分类求 min"
+        },
+        {
+          "key": "s3_合并范围并验边界",
+          "title": "合并范围并验边界",
+          "maxScore": 3,
+          "criteria": "合并范围并验边界"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-014",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "正实数 $x,y$ 满足 $x+y=4$。记 $P=xy$，$Q=x+2y$。求使 $P\\ge 3$ 且 $Q\\le 7$ 同时成立的 $x$ 的范围，并求此时 $P$ 的取值范围。",
+    "analysis": "$y=4-x$（$0<x<4$）。$P=x(4-x)$，$Q=8-x$。$P\\ge 3\\Leftrightarrow x\\in[1,3]$；$Q\\le 7\\Leftrightarrow x\\ge 1$。交为 $[1,3]$。在其上 $P$ 最大 $4$（$x=2$），端点 $P=3$。",
+    "knowledgePointCodes": [
+      "rja.2.2.01"
+    ],
+    "primaryKnowledgePointCode": "rja.2.2.01",
+    "methodCodes": [
+      "num_shape",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "num_shape",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$x\\in[1,3]$；$P\\in[3,4]$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_参数化",
+          "title": "参数化",
+          "maxScore": 3,
+          "criteria": "参数化"
+        },
+        {
+          "key": "s2_求交得x",
+          "title": "求交得x",
+          "maxScore": 5,
+          "criteria": "求交得x"
+        },
+        {
+          "key": "s3_P范围",
+          "title": "P范围",
+          "maxScore": 4,
+          "criteria": "P范围"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-015",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "设不等式 $x^{2}+px+q<0$ 的解集包含 $[1,3]$。下列结论正确的是（多选）",
+    "analysis": "记 $f(x)=x^{2}+px+q$，开口向上。在 $[1,3]$ 上最大值在端点，故 $\\forall x\\in[1,3],\\,f(x)<0\\Leftrightarrow f(1)<0$ 且 $f(3)<0$，即 $1+p+q<0$，$9+3p+q<0$。A 正确。\nB 错误：凸性保证端点条件充分，无需再加对称轴条件。C 正确：若 $\\Delta\\le 0$ 则 $f\\ge 0$，与 $f(1)<0$ 矛盾。D 正确：等号使 $1$ 不属于严格解集。",
+    "knowledgePointCodes": [
+      "rja.2.3.04"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.04",
+    "methodCodes": [
+      "equiv_transform",
+      "mono_analysis"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "必有 $1+p+q<0$ 且 $9+3p+q<0$"
+        },
+        {
+          "id": "B",
+          "text": "还须额外要求对称轴落在 $(1,3)$ 内"
+        },
+        {
+          "id": "C",
+          "text": "条件 A 已蕴含判别式为正且两根分居 $1$ 左与 $3$ 右"
+        },
+        {
+          "id": "D",
+          "text": "若 $1+p+q=0$，则 $x=1$ 不是严格解，解集不能包含整个 $[1,3]$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "C",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-016",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "设 $x_{1},x_{2}$ 为方程 $x^{2}-2mx+m=0$ 的两实根且 $x_{1}x_{2}\\ne 0$。以 $x_{1}+\\dfrac{1}{x_{2}}$ 与 $x_{2}+\\dfrac{1}{x_{1}}$ 为根作新的二次方程。若新方程有重根，则 $m$ 等于",
+    "analysis": "实根且积 $m\\ne 0$：$\\Delta=4m(m-1)\\ge 0\\Rightarrow m\\le 0$ 或 $m\\ge 1$，再交 $m\\ne 0$。新根之和 $S=2m+2$，之积 $P=m+2+\\dfrac{1}{m}$。重根 $\\Leftrightarrow S^{2}=4P$。化简得 $(m+1)^{2}(m-1)=0$，故 $m=-1$ 或 $m=1$，均在允许集内。选 C。",
+    "knowledgePointCodes": [
+      "rja.2.3.05"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.05",
+    "methodCodes": [
+      "substitution",
+      "undetermined_coeff"
+    ],
+    "primaryMethodCode": "substitution",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "仅 $1$"
+        },
+        {
+          "id": "B",
+          "text": "仅 $-1$"
+        },
+        {
+          "id": "C",
+          "text": "$\\pm 1$"
+        },
+        {
+          "id": "D",
+          "text": "$0$ 或 $1$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "single",
+      "optionId": "C"
+    }
+  },
+  {
+    "code": "CAND-HARD14-017",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "对一切实数 $x$ 有 $x^{2}+2x+2\\ge a(x+1)$。求 $a$ 的最大值，并求取最大时等号成立的 $x$。",
+    "analysis": "$Delta=(2-a)^{2}-4(2-a)\\le 0\\Leftrightarrow a\\in[-2,2]$，最大 $2$。$a=2$ 时 $\\Delta=0$，$x=0$。",
+    "knowledgePointCodes": [
+      "rja.2.3.03"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.03",
+    "methodCodes": [
+      "num_shape",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "num_shape",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "最大值为 $2$；等号当且仅当 $x=0$。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_a∈[-2,2]",
+          "title": "a∈[-2,2]",
+          "maxScore": 6,
+          "criteria": "a∈[-2,2]"
+        },
+        {
+          "key": "s2_最大与等号点",
+          "title": "最大与等号点",
+          "maxScore": 4,
+          "criteria": "最大与等号点"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-018",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "讨论方程 $|x-1|+|x+1|=mx$ 的实数解个数，按参数 $m$ 完整分类说明（含解集为无限集的情形）。",
+    "analysis": "记 $L(x)=|x-1|+|x+1|$：$x\\ge 1$ 时 $L=2x$；$|x|\\le 1$ 时 $L=2$；$x\\le-1$ 时 $L=-2x$。\n① $x\\ge 1$：$2x=mx$。若 $m=2$，则任意 $x\\ge 1$ 都是解；若 $m\\ne 2$，该段无解。\n② $|x|\\le 1$：$2=mx\\Rightarrow x=\\dfrac{2}{m}$（$m\\ne 0$），需 $|\\dfrac{2}{m}|\\le 1\\Leftrightarrow|m|\\ge 2$。\n③ $x\\le-1$：$-2x=mx$。若 $m=-2$，则任意 $x\\le-1$ 都是解；若 $m\\ne-2$，该段无解。\n汇总：$m=2$ 解集 $[1,+\\infty)$；$m=-2$ 解集 $(-\\infty,-1]$；$|m|>2$ 时仅中间段一解；$|m|<2$ 无解。",
+    "knowledgePointCodes": [
+      "rja.2.3.03"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.03",
+    "methodCodes": [
+      "classification",
+      "special_value"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$m=2$：无穷多（$[1,+\\infty)$）；$m=-2$：无穷多（$(-\\infty,-1]$）；$|m|>2$：1 个；$|m|<2$：0 个",
+      "maxScore": 14,
+      "rubric": [
+        {
+          "key": "s1_三段去绝对值",
+          "title": "三段去绝对值",
+          "maxScore": 4,
+          "criteria": "三段去绝对值"
+        },
+        {
+          "key": "s2_标出_m=±2_无穷解",
+          "title": "标出 m=±2 无穷解",
+          "maxScore": 5,
+          "criteria": "标出 m=±2 无穷解"
+        },
+        {
+          "key": "s3_汇总_|m|>2_/_|m|<2_个数",
+          "title": "汇总 |m|>2 / |m|<2 个数",
+          "maxScore": 5,
+          "criteria": "汇总 |m|>2 / |m|<2 个数"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-019",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设正实数 $x,y$ 满足 $xy=4$。\n（1）证明：对任意正实数 $t$，有 $tx+\\dfrac{4}{t}y\\ge 8$，并指出等号成立时 $(x,y)$ 用 $t$ 表示的充要表达式；\n（2）若另有约束 $x+y=4$，证明使（1）取等的 $t$ 唯一，并求出此时的 $(x,y)$；\n（3）若把（2）中约束改为 $x+y=5$，求使（1）取等的所有 $t$ 及对应有序对；并据此说明线性约束如何改变等号解的个数。",
+    "analysis": "（1）由基本不等式 $tx+\\dfrac{4}{t}y\\ge 2\\sqrt{tx\\cdot\\dfrac{4}{t}y}=2\\sqrt{4xy}=2\\sqrt{16}=8$，等号成立 $\\Leftrightarrow tx=\\dfrac{4}{t}y\\Leftrightarrow t^{2}x=4y$。再代入 $xy=4$ 得 $y=\\dfrac{4}{x}$，故 $t^{2}x=\\dfrac{16}{x}\\Rightarrow t^{2}x^{2}=16$。因 $t,x>0$，有 $tx=4$，即 $x=\\dfrac{4}{t}$，$y=t$。反之，该对满足 $xy=4$ 且使等号成立。\n（2）等号点满足 $\\dfrac{4}{t}+t=4$。两边乘 $t$：$4+t^{2}=4t\\Rightarrow(t-2)^{2}=0$，故 $t=2$ 唯一，此时 $(x,y)=(2,2)$。\n（3）同理 $\\dfrac{4}{t}+t=5\\Rightarrow t^{2}-5t+4=0\\Rightarrow(t-1)(t-4)=0$。$t=1$ 时 $(x,y)=(4,1)$；$t=4$ 时 $(x,y)=(1,4)$。与（2）对照：同一乘积约束下，线性约束的常数项改变会使等号解个数从 1 分岔为 2。",
+    "knowledgePointCodes": [
+      "rja.2.2.04"
+    ],
+    "primaryKnowledgePointCode": "rja.2.2.04",
+    "methodCodes": [
+      "num_shape",
+      "classification"
+    ],
+    "primaryMethodCode": "num_shape",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）成立，等号 $\\Leftrightarrow x=\\dfrac{4}{t},\\,y=t$；（2）$t=2$ 唯一，$(x,y)=(2,2)$；（3）$t=1$ 对应 $(4,1)$，$t=4$ 对应 $(1,4)$；约束由和为 4 改为 5 时等号解由 1 个变为 2 个",
+      "maxScore": 14,
+      "rubric": [
+        {
+          "key": "s1_加权_AM-GM_得_≥8_并参数化等号轨道",
+          "title": "加权 AM-GM 得 ≥8 并参数化等号轨道",
+          "maxScore": 5,
+          "criteria": "加权 AM-GM 得 ≥8 并参数化等号轨道"
+        },
+        {
+          "key": "s2_与_x+y=4_求交证明_t_唯一及_(2,2)",
+          "title": "与 x+y=4 求交证明 t 唯一及 (2,2)",
+          "maxScore": 4,
+          "criteria": "与 x+y=4 求交证明 t 唯一及 (2,2)"
+        },
+        {
+          "key": "s3_x+y=5_求出双子并说明个数分岔",
+          "title": "x+y=5 求出双子并说明个数分岔",
+          "maxScore": 5,
+          "criteria": "x+y=5 求出双子并说明个数分岔"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-020",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $g(x)=x^{2}-3x+k$。求使「$\\exists x\\in[0,2], g(x)\\le 0$」成立但「$\\forall x\\in[0,2], g(x)\\le 0$」不成立的 $k$。",
+    "analysis": "闭区间最小 $k-9/4$，最大 $k$。存在 $\\Leftrightarrow k\\le 9/4$；全称 $\\Leftrightarrow k\\le 0$。差集 $(0,9/4]$。",
+    "knowledgePointCodes": [
+      "rja.2.3.02"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.02",
+    "methodCodes": [
+      "classification",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$k\\in\\left(0,\\dfrac{9}{4}\\right]$。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_最值",
+          "title": "最值",
+          "maxScore": 4,
+          "criteria": "最值"
+        },
+        {
+          "key": "s2_差集",
+          "title": "差集",
+          "maxScore": 6,
+          "criteria": "差集"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-021",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "方程 $x^{2}-(a-1)x-a=0$ 有两实根异号，且正根大于 $2$。下列说法正确的是（多选）",
+    "analysis": "积 $=-a$，两根异号 $\\Leftrightarrow a>0$，A 正确。$\\Delta=(a+1)^{2}\\ge 0$ 恒有实根。$a>0$ 时一根正一根负，开口向上，正根 $>2\\Leftrightarrow f(2)<0$（$2$ 落在负根与正根之间），B 正确。$f(2)=4-2(a-1)-a=6-3a<0\\Leftrightarrow a>2$。与 $a>0$ 联立得 $a>2$，C 正确。$a=2$ 时正根恰为 $2$，不满足严格大于，D 错误。",
+    "knowledgePointCodes": [
+      "rja.2.3.02"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.02",
+    "methodCodes": [
+      "classification",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "由积为 $-a$ 得异号条件等价于 $a>0$"
+        },
+        {
+          "id": "B",
+          "text": "在异号前提下，正根 $>2$ 等价于 $f(2)<0$，其中 $f(x)=x^{2}-(a-1)x-a$"
+        },
+        {
+          "id": "C",
+          "text": "所求范围为 $a>2$"
+        },
+        {
+          "id": "D",
+          "text": "$a=2$ 时正根恰为 $2$，仍满足「大于 $2$」"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-022",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "求使不等式 $x^{2}-2ax+a\\ge 0$ 对一切 $x\\in[0,1]$ 恒成立的实数 $a$ 的取值范围。",
+    "analysis": "记 $f(x)=x^{2}-2ax+a$。必要：$f(0)=a\\ge 0$，$f(1)=1-a\\ge 0\\Rightarrow a\\in[0,1]$。\n当 $a\\in[0,1]$ 时对称轴 $x=a\\in[0,1]$，最小值 $f(a)=a-a^{2}=a(1-a)\\ge 0$，故端点条件已充分。\n$a<0$ 时 $f(0)<0$ 失败；$a>1$ 时 $f(1)<0$ 失败。因此 $a\\in[0,1]$。",
+    "knowledgePointCodes": [
+      "rja.2.3.04"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.04",
+    "methodCodes": [
+      "equiv_transform",
+      "classification"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$a\\in[0,1]$",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_端点必要条件_a∈[0,1]",
+          "title": "端点必要条件 a∈[0,1]",
+          "maxScore": 4,
+          "criteria": "端点必要条件 a∈[0,1]"
+        },
+        {
+          "key": "s2_证明顶点最小值自动≥0（充分性）",
+          "title": "证明顶点最小值自动≥0（充分性）",
+          "maxScore": 4,
+          "criteria": "证明顶点最小值自动≥0（充分性）"
+        },
+        {
+          "key": "s3_排除外侧反例",
+          "title": "排除外侧反例",
+          "maxScore": 2,
+          "criteria": "排除外侧反例"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-023",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.1",
+    "qtype": "judge",
+    "difficulty": 3,
+    "stem": "判断：使 $|x^{2}-1|\\ge a|x|$ 对一切实数 $x$ 恒成立的实数 $a$ 的取值范围是 $a\\le 0$。",
+    "analysis": "$x=0$ 时左边 $1\\ge 0$ 恒真。若 $a\\le 0$，右边 $\\le 0\\le$ 左边，恒成立。\n若 $a>0$，取 $x=1$：$|1-1|\\ge a\\cdot 1\\Rightarrow 0\\ge a$，矛盾。等价地，$t>0$ 时 $\\varphi(t)=\\dfrac{|t^{2}-1|}{t}$ 在 $t=1$ 取 $0$，下确界为 $0$，故正数 $a$ 不能作为全局下界。因此范围恰为 $a\\le 0$，判断正确。",
+    "knowledgePointCodes": [
+      "rja.2.1.01"
+    ],
+    "primaryKnowledgePointCode": "rja.2.1.01",
+    "methodCodes": [
+      "equiv_transform",
+      "special_value"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "judge",
+      "value": true
+    }
+  },
+  {
+    "code": "CAND-HARD14-024",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.1",
+    "qtype": "numeric",
+    "difficulty": 3,
+    "stem": "使 $|x^{2}+1|\\ge a|x|$ 对一切实数 $x$ 恒成立的实数 $a$ 的最大值为＿＿＿＿。",
+    "analysis": "$x=0$ 时成立。$a\\le 0$ 显然成立。当 $a>0$ 时，令 $t=|x|>0$，不等式等价于 $t+\\dfrac{1}{t}\\ge a$。由 AM-GM，$t+\\dfrac{1}{t}\\ge 2$，等号在 $t=1$。故需 $a\\le 2$，且 $a=2$ 对一切 $t$ 成立。最大值为 $2$。",
+    "knowledgePointCodes": [
+      "rja.2.1.02"
+    ],
+    "primaryKnowledgePointCode": "rja.2.1.02",
+    "methodCodes": [
+      "num_shape",
+      "mono_analysis"
+    ],
+    "primaryMethodCode": "num_shape",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "numeric",
+      "value": "2",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    }
+  },
+  {
+    "code": "CAND-HARD14-025",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "设实数 $x_{1},x_{2}$ 满足 $x_{1}^{2}+x_{2}^{2}=5$ 且 $x_{1}x_{2}=m$。下列说法正确的是（多选）",
+    "analysis": "设和为 $s$，则 $s^{2}-2m=5\\Rightarrow s^{2}=5+2m\\ge 0\\Rightarrow m\\ge-\\dfrac{5}{2}$。实根还要 $\\Delta=s^{2}-4m=5-2m\\ge 0\\Rightarrow m\\le\\dfrac{5}{2}$。故 $m\\in[-\\dfrac{5}{2},\\dfrac{5}{2}]$，A 正确。方程为 $t^{2}-st+m=0$，$s=\\pm\\sqrt{5+2m}$，B 正确。$m=\\dfrac{5}{2}$ 时 $\\Delta=0$，C 正确。$m=-\\dfrac{5}{2}$ 时 $s=0$，D 正确。",
+    "knowledgePointCodes": [
+      "rja.2.3.05"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.05",
+    "methodCodes": [
+      "substitution",
+      "classification"
+    ],
+    "primaryMethodCode": "substitution",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$m$ 的取值范围是 $[-\\dfrac{5}{2},\\dfrac{5}{2}]$"
+        },
+        {
+          "id": "B",
+          "text": "以它们为根的首一二次方程可写为 $t^{2}\\mp\\sqrt{5+2m}\\,t+m=0$（和取两种符号）"
+        },
+        {
+          "id": "C",
+          "text": "$m=\\dfrac{5}{2}$ 时两根相等"
+        },
+        {
+          "id": "D",
+          "text": "$m=-\\dfrac{5}{2}$ 时两根之和必为 $0$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-026",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $a,b>0$，$a+b=4$，$ab=k$，其中参数 $k\\in(0,4]$。\n（1）用 $k$ 表示 $\\sqrt{a}+\\sqrt{b}$；\n（2）求 $k$ 使 $\\sqrt{a}+\\sqrt{b}=\\sqrt{6}$；并求当 $k$ 遍历 $(0,4]$ 时 $\\sqrt{a}+\\sqrt{b}$ 的取值范围。",
+    "analysis": "（1）$(\\sqrt{a}+\\sqrt{b})^{2}=4+2\\sqrt{k}$，故 $\\sqrt{a}+\\sqrt{b}=\\sqrt{4+2\\sqrt{k}}$。\n（2）$4+2\\sqrt{k}=6\\Rightarrow \\sqrt{k}=1\\Rightarrow k=1$。\n$k\\in(0,4]$ 时 $\\sqrt{k}\\in(0,2]$，$4+2\\sqrt{k}\\in(4,8]$，故根号和属于 $(2,2\\sqrt{2}]$；上端 $k=4$ 取到，下端 $2$ 取不到。",
+    "knowledgePointCodes": [
+      "rja.2.2.01"
+    ],
+    "primaryKnowledgePointCode": "rja.2.2.01",
+    "methodCodes": [
+      "num_shape",
+      "classification"
+    ],
+    "primaryMethodCode": "num_shape",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；QUALITY-FIX-1D 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$\\sqrt{4+2\\sqrt{k}}$；\n（2）$k=1$；取值范围 $(2,2\\sqrt{2}]$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_用_k_表出根号和",
+          "title": "用 k 表出根号和",
+          "maxScore": 4,
+          "criteria": "用 k 表出根号和"
+        },
+        {
+          "key": "s2_解得_k=1",
+          "title": "解得 k=1",
+          "maxScore": 3,
+          "criteria": "解得 k=1"
+        },
+        {
+          "key": "s3_值域_(2,2√2]",
+          "title": "值域 (2,2√2]",
+          "maxScore": 5,
+          "criteria": "值域 (2,2√2]"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-027",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "讨论方程 $g(x)=x^{2}+mx+1=0$ 在开区间 $(0,1)$ 内恰有一实根的条件（求 $m$ 的范围）。",
+    "analysis": "积 $=1>0$，两根同号。若有正根则两根皆正，需和 $-m>0\\Rightarrow m<0$，且 $\\Delta=m^{2}-4\\ge 0$。与 $m<0$ 交得 $m\\le-2$。\n$m=-2$ 时重根 $1\\notin(0,1)$。当 $m<-2$ 时 $g(1)=2+m<0$，开口向上说明 $1$ 在两正根之间，故恰有一根 $\\in(0,1)$（另一根 $>1$）。因此条件为 $m<-2$。",
+    "knowledgePointCodes": [
+      "rja.2.3.03"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.03",
+    "methodCodes": [
+      "classification",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$m<-2$",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_同号与正根条件得_m≤-2",
+          "title": "同号与正根条件得 m≤-2",
+          "maxScore": 4,
+          "criteria": "同号与正根条件得 m≤-2"
+        },
+        {
+          "key": "s2_用_g(1)<0_说明恰一根在_(0,1)",
+          "title": "用 g(1)<0 说明恰一根在 (0,1)",
+          "maxScore": 4,
+          "criteria": "用 g(1)<0 说明恰一根在 (0,1)"
+        },
+        {
+          "key": "s3_排除_m=-2",
+          "title": "排除 m=-2",
+          "maxScore": 2,
+          "criteria": "排除 m=-2"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-028",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "二次函数 $y=x^{2}+bx+1$ 的顶点在直线 $y=x$ 上。求 $b$ 的值，并分别求对应的函数最小值。",
+    "analysis": "顶点横坐标 $-\\dfrac{b}{2}$，纵坐标 $\\dfrac{4-b^{2}}{4}$。落在 $y=x$ 上 $\\Leftrightarrow\\dfrac{4-b^{2}}{4}=-\\dfrac{b}{2}\\Leftrightarrow 4-b^{2}=-2b\\Leftrightarrow b^{2}-2b-4=0\\Leftrightarrow b=1\\pm\\sqrt{5}$。\n最小值 $=1-\\dfrac{b^{2}}{4}$。当 $b=1+\\sqrt{5}$ 时 $b^{2}=6+2\\sqrt{5}$，最小值为 $-\\dfrac{1+\\sqrt{5}}{2}$；当 $b=1-\\sqrt{5}$ 时 $b^{2}=6-2\\sqrt{5}$，最小值为 $\\dfrac{\\sqrt{5}-1}{2}$。",
+    "knowledgePointCodes": [
+      "rja.2.3.01"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.01",
+    "methodCodes": [
+      "undetermined_coeff",
+      "special_value"
+    ],
+    "primaryMethodCode": "undetermined_coeff",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$b=1\\pm\\sqrt{5}$；最小值分别为 $-\\dfrac{1+\\sqrt{5}}{2}$ 与 $\\dfrac{\\sqrt{5}-1}{2}$",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_列顶点在_y=x_上的方程并解_b",
+          "title": "列顶点在 y=x 上的方程并解 b",
+          "maxScore": 6,
+          "criteria": "列顶点在 y=x 上的方程并解 b"
+        },
+        {
+          "key": "s2_分别计算两个最小值",
+          "title": "分别计算两个最小值",
+          "maxScore": 6,
+          "criteria": "分别计算两个最小值"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-029",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "若 $x^{2}+px+q<0$ 的解集恰好为 $(-1,2)$，下列正确的是（多选）",
+    "analysis": "开口向上时，严格不等式解集为两根之间的开区间，故两根必须恰为 -1 与 2，从而 x^2+px+q=(x+1)(x-2)=x^2-x-2，得 p=-1,q=-2。A、B 正确。将 < 改为 ≤ 后包含端点，解集变为[-1,2]，C 正确。若开口向下，解集为两根外侧，不可能是有界开区间，故 D 错误。",
+    "knowledgePointCodes": [
+      "rja.2.3.02"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.02",
+    "methodCodes": [
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$p=-1$，$q=-2$"
+        },
+        {
+          "id": "B",
+          "text": "对应方程两根为 $-1$ 与 $2$"
+        },
+        {
+          "id": "C",
+          "text": "改为 $\\le 0$ 后解集为 $[-1,2]$"
+        },
+        {
+          "id": "D",
+          "text": "开口向下时也可能解集恰为 $(-1,2)$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-030",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "（1）证明 $x^{2}+1\\ge 2|x|$ 对一切实数 $x$ 成立；\n（2）求使 $x^{2}+1\\ge k|x|$ 恒成立的 $k$ 的范围；\n（3）当 $k$ 最大时求等号成立的 $x$。",
+    "analysis": "$(|x|-1)^{2}\\ge 0$。令 $t=|x|$，$t^{2}-kt+1\\ge 0$（$t\\ge 0$）⇒ $k\\le 2$。$k=2$ 时 $t=1$。",
+    "knowledgePointCodes": [
+      "rja.2.2.01"
+    ],
+    "primaryKnowledgePointCode": "rja.2.2.01",
+    "methodCodes": [
+      "num_shape",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "num_shape",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）见解析；（2）$k\\le 2$；（3）$x=\\pm 1$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_证明",
+          "title": "证明",
+          "maxScore": 3,
+          "criteria": "证明"
+        },
+        {
+          "key": "s2_k≤2",
+          "title": "k≤2",
+          "maxScore": 5,
+          "criteria": "k≤2"
+        },
+        {
+          "key": "s3_±1",
+          "title": "±1",
+          "maxScore": 4,
+          "criteria": "±1"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-031",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设方程 $x^{2}-sx+p=0$ 有两实根，满足 $|x_1-x_2|=1$，且 $p=\\dfrac{s^{2}-1}{4}$。\n（1）验证该 $p$ 与 $|x_1-x_2|=1$ 相容；\n（2）若两根均为正，求 $s$ 的取值范围。",
+    "analysis": "（1）$\\Delta=s^{2}-4p=s^{2}-(s^{2}-1)=1$，故 $|x_1-x_2|=\\sqrt{\\Delta}=1$。\n（2）两正根 $\\Leftrightarrow s>0$ 且 $p>0$。$p=\\dfrac{s^{2}-1}{4}>0\\Leftrightarrow |s|>1$。结合 $s>0$ 得 $s>1$。",
+    "knowledgePointCodes": [
+      "rja.2.3.01"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.01",
+    "methodCodes": [
+      "equiv_transform",
+      "classification"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；QUALITY-FIX-1D 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$\\Delta=1$，故 $|x_1-x_2|=1$ 恒成立；\n（2）$s>1$。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_验证_Δ=1_相容",
+          "title": "验证 Δ=1 相容",
+          "maxScore": 4,
+          "criteria": "验证 Δ=1 相容"
+        },
+        {
+          "key": "s2_两正根得_s>1",
+          "title": "两正根得 s>1",
+          "maxScore": 6,
+          "criteria": "两正根得 s>1"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-032",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.2",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "正实数 $x,y$ 满足 $xy=1$。下列说法正确的是（多选）",
+    "analysis": "由 AM-GM，$x+y\\ge 2\\sqrt{xy}=2$，等号 $x=y=1$，A 正确。又 $x^{2}+y^{2}=(x+y)^{2}-2\\ge 4-2=2$，等号同样要求 $x+y=2$ 即 $x=y=1$，B、C 正确。D 错误：由恒等式，平方和最小与和最小同步。",
+    "knowledgePointCodes": [
+      "rja.2.2.03"
+    ],
+    "primaryKnowledgePointCode": "rja.2.2.03",
+    "methodCodes": [
+      "num_shape",
+      "classification"
+    ],
+    "primaryMethodCode": "num_shape",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$x+y$ 的最小值为 $2$"
+        },
+        {
+          "id": "B",
+          "text": "$x^{2}+y^{2}$ 的最小值为 $2$"
+        },
+        {
+          "id": "C",
+          "text": "两个最小值都在 $x=y=1$ 同时取得"
+        },
+        {
+          "id": "D",
+          "text": "$x^{2}+y^{2}$ 的最小值可在 $x+y$ 未取到最小时单独达到"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-033",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设方程 $x^{2}-sx+2=0$ 有两实根，且其中一根是另一根的平方。\n（1）求所有可能的 $s$；\n（2）对每个 $s$ 写出两根。",
+    "analysis": "设根为 $t$ 与 $t^{2}$。则 $t\\cdot t^{2}=t^{3}=2$，实数 $t=\\sqrt[3]{2}$；和 $s=t+t^{2}=2^{1/3}+2^{2/3}$。\n若记根为 $t^{2}$ 与 $t$（同一对）。若允许 $t^{3}=2$ 的实解唯一。检验 $\\Delta>0$：$t\\ne t^{2}$ 因 $2^{1/3}\\ne 2^{2/3}$。故唯一。\n（导入：答案含根式，用 application 承载。）",
+    "knowledgePointCodes": [
+      "rja.2.3.01"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.01",
+    "methodCodes": [
+      "substitution",
+      "classification"
+    ],
+    "primaryMethodCode": "substitution",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；QUALITY-FIX-1D 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$s=2^{1/3}+2^{2/3}$；\n（2）两根为 $2^{1/3}$ 与 $2^{2/3}$。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_设根并得_t³=2",
+          "title": "设根并得 t³=2",
+          "maxScore": 4,
+          "criteria": "设根并得 t³=2"
+        },
+        {
+          "key": "s2_求出唯一_s_与两根",
+          "title": "求出唯一 s 与两根",
+          "maxScore": 6,
+          "criteria": "求出唯一 s 与两根"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-034",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.1",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "方程 $|x-1|+|x-m|=2$。求使方程有实根的 $m$ 的范围；当 $m=1$ 时写出解集。",
+    "analysis": "最小值 $|m-1|$。有解 $\\Leftrightarrow |m-1|\\le 2$。$m=1$ 时 $|x-1|=1$，解集 $[-1,3]$。",
+    "knowledgePointCodes": [
+      "rja.2.1.03"
+    ],
+    "primaryKnowledgePointCode": "rja.2.1.03",
+    "methodCodes": [
+      "classification",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "有实根 $\\Leftrightarrow |m-1|\\le 2$，即 $m\\in[-1,3]$；当 $m=1$ 时解集 $[-1,3]$。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_最小值比较",
+          "title": "最小值比较",
+          "maxScore": 5,
+          "criteria": "最小值比较"
+        },
+        {
+          "key": "s2_m=1解集",
+          "title": "m=1解集",
+          "maxScore": 5,
+          "criteria": "m=1解集"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-035",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "设 $f(x)=x^{2}-2ax+1$，$x\\in[0,2]$。若 $\\max\\limits_{x\\in[0,2]}f(x)=2$，则 $a$ 等于",
+    "analysis": "开口向上，区间最大值在端点：$f(0)=1$，$f(2)=5-4a$，故 $\\max=\\max\\{1,5-4a\\}$。\n若 $a\\ge 1$，则 $5-4a\\le 1$，max$=1\\ne 2$，不可能。若 $a<1$，则 max$=5-4a$，令 $=2\\Rightarrow a=\\dfrac{3}{4}<1$，可行。选 B。",
+    "knowledgePointCodes": [
+      "rja.2.3.01"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.01",
+    "methodCodes": [
+      "equiv_transform",
+      "num_shape"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\dfrac{1}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\dfrac{3}{4}$"
+        },
+        {
+          "id": "C",
+          "text": "$1$"
+        },
+        {
+          "id": "D",
+          "text": "$\\dfrac{5}{4}$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "single",
+      "optionId": "B"
+    }
+  },
+  {
+    "code": "CAND-HARD14-036",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "正实数 $x,y,z$ 满足 $xy+yz+zx=3$。\n(1) 判断命题「$x+y+z\\ge\\sqrt{3}\\,\\sqrt{x^{2}+y^{2}+z^{2}}$ 对一切满足约束的正数恒成立」的真假；\n(2) 若再添加条件 $x^{2}+y^{2}+z^{2}=3$，求 $x+y+z$ 的值。",
+    "analysis": "(1) 由 $(x+y+z)^{2}=\\sum x^{2}+2\\sum xy$。取 $x=y=z=1$ 满足 $\\sum xy=3$，左边 $3$，右边 $\\sqrt{3}\\cdot\\sqrt{3}=3$，等号。但取 $x=\\sqrt{3},y=\\sqrt{3},z\\to 0^{+}$（调整使 $xy+yz+zx=3$ 仍可接近），平方和可变大而使右边相对偏大——更干净的反例：固定 $\\sum xy=3$，令 $x=y=t$ 大、$z=\\dfrac{3-t^{2}}{2t}$（需 $t^{2}<3$）。直接：命题要害是系数 $\\sqrt{3}$。由柯西 $(x+y+z)^{2}\\le 3(x^{2}+y^{2}+z^{2})$，故 $x+y+z\\le\\sqrt{3}\\sqrt{\\sum x^{2}}$，方向与题给相反，题给下界方向错误，命题假。\n(2) 若 $\\sum x^{2}=3$ 且 $\\sum xy=3$，则 $(x+y+z)^{2}=3+6=9$。正数和取正值，得 $x+y+z=3$。例如 $x=y=z=1$。",
+    "knowledgePointCodes": [
+      "rja.2.2.04"
+    ],
+    "primaryKnowledgePointCode": "rja.2.2.04",
+    "methodCodes": [
+      "num_shape",
+      "substitution"
+    ],
+    "primaryMethodCode": "num_shape",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "(1) 假；(2) $3$（定值）",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_(1)_用柯西说明方向错误或给反例",
+          "title": "(1) 用柯西说明方向错误或给反例",
+          "maxScore": 5,
+          "criteria": "(1) 用柯西说明方向错误或给反例"
+        },
+        {
+          "key": "s2_(2)_平方恒等式得定值_3",
+          "title": "(2) 平方恒等式得定值 3",
+          "maxScore": 7,
+          "criteria": "(2) 平方恒等式得定值 3"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-037",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f(x)=x^{2}-(2a+1)x+a^{2}$。记 $P$：「方程 $f(x)=0$ 有两实根且都大于 $1$」；$Q$：「方程 $f(x)=0$ 存在实根大于 $1$」。分别求使 $P$、$Q$ 成立的 $a$ 的取值范围，并比较二者。",
+    "analysis": "$\\Delta=(2a+1)^{2}-4a^{2}=4a+1$。$f(1)=a(a-2)$，对称轴 $\\dfrac{2a+1}{2}$。\n对 $P$（开口向上）：需 $\\Delta\\ge 0$（$a\\ge-\\dfrac{1}{4}$）、对称轴 $>1$（$a>\\dfrac{1}{2}$）、$f(1)>0$。在 $a>\\dfrac{1}{2}$ 下，$f(1)>0\\Leftrightarrow a>2$。$a=2$ 时一根为 $1$，不都 $>1$。故 $P\\Leftrightarrow a>2$。\n对 $Q$：无实根（$a<-\\dfrac{1}{4}$）时假。当 $f(1)<0$ 即 $a\\in(0,2)$ 时两根分居 $1$ 两侧，必有一根 $>1$。$a=2$ 时根为 $1,4$，有根 $>1$。$a>2$ 即 $P$ 成立。当 $-\\dfrac{1}{4}\\le a\\le 0$ 时 $f(1)\\ge 0$ 且对称轴 $\\le\\dfrac{1}{2}$，两根都 $\\le 1$，无根 $>1$。故 $Q\\Leftrightarrow a>0$。\n比较：$Q$ 真值域比 $P$ 多出 $(0,2]$。",
+    "knowledgePointCodes": [
+      "rja.2.3.04"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.04",
+    "methodCodes": [
+      "classification",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$P$：$a>2$；$Q$：$a>0$；$Q$ 比 $P$ 多出 $(0,2]$",
+      "maxScore": 16,
+      "rubric": [
+        {
+          "key": "s1_写出_Δ、f(1)、对称轴",
+          "title": "写出 Δ、f(1)、对称轴",
+          "maxScore": 3,
+          "criteria": "写出 Δ、f(1)、对称轴"
+        },
+        {
+          "key": "s2_完整论证_P⇔a>2",
+          "title": "完整论证 P⇔a>2",
+          "maxScore": 6,
+          "criteria": "完整论证 P⇔a>2"
+        },
+        {
+          "key": "s3_完整论证_Q⇔a>0",
+          "title": "完整论证 Q⇔a>0",
+          "maxScore": 5,
+          "criteria": "完整论证 Q⇔a>0"
+        },
+        {
+          "key": "s4_比较差集",
+          "title": "比较差集",
+          "maxScore": 2,
+          "criteria": "比较差集"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-038",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $x_{1},x_{2}$ 为方程 $x^{2}-2tx+t=0$ 的实根（$t\\ne 0$）。令 $u=x_{1}+x_{2}$，$v=x_{1}x_{2}$。求使 $(u-2)^{2}+(v-1)^{2}\\le 1$ 成立的 $t$，并说明几何意义。",
+    "analysis": "实根：$\\Delta=4t(t-1)\\ge 0$ 且 $t\\ne 0\\Rightarrow t<0$ 或 $t\\ge 1$。又 $u=2t$，$v=t$。\n圆盘条件：$(2t-2)^{2}+(t-1)^{2}\\le 1\\Leftrightarrow 5(t-1)^{2}\\le 1\\Leftrightarrow |t-1|\\le\\dfrac{1}{\\sqrt{5}}\\Leftrightarrow t\\in\\left[1-\\dfrac{1}{\\sqrt{5}},1+\\dfrac{1}{\\sqrt{5}}\\right]$。\n与实根域求交：与 $t\\ge 1$ 交得 $t\\in\\left[1,1+\\dfrac{1}{\\sqrt{5}}\\right]$；与 $t<0$ 无交（因 $1-\\dfrac{1}{\\sqrt{5}}>0$）。\n几何意义：韦达映射把参数 $t$ 送到直线点 $(2t,t)$，再截取与圆盘的交集。",
+    "knowledgePointCodes": [
+      "rja.2.3.05"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.05",
+    "methodCodes": [
+      "undetermined_coeff",
+      "classification"
+    ],
+    "primaryMethodCode": "undetermined_coeff",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$t\\in\\left[1,\\,1+\\dfrac{1}{\\sqrt{5}}\\right]$；点 $(u,v)=(2t,t)$ 落入圆心 $(2,1)$ 半径 $1$ 的圆盘与实根射线的交",
+      "maxScore": 14,
+      "rubric": [
+        {
+          "key": "s1_实根域_t<0_或_t≥1",
+          "title": "实根域 t<0 或 t≥1",
+          "maxScore": 3,
+          "criteria": "实根域 t<0 或 t≥1"
+        },
+        {
+          "key": "s2_圆盘不等式化简",
+          "title": "圆盘不等式化简",
+          "maxScore": 5,
+          "criteria": "圆盘不等式化简"
+        },
+        {
+          "key": "s3_求交得最终区间",
+          "title": "求交得最终区间",
+          "maxScore": 4,
+          "criteria": "求交得最终区间"
+        },
+        {
+          "key": "s4_几何意义",
+          "title": "几何意义",
+          "maxScore": 2,
+          "criteria": "几何意义"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-039",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.1",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $g_a(x)=x^{2}+|x-a|$，$m(a)=\\min_{x\\in\\mathbb{R}} g_a(x)$。\n（1）按实数 $a$ 分类写出 $m(a)$；\n（2）求使 $g_a(x)\\ge a$ 对一切实数 $x$ 恒成立的 $a$ 的集合，并说明边界可否取等。",
+    "analysis": "右支 $x\\ge a$：$g=x^{2}+x-a=\\left(x+\\tfrac12\\right)^{2}-a-\\tfrac14$，在 $[a,+\\infty)$ 上随 $x$ 增大而增大（二次开口向上且对称轴 $x=-\\tfrac12\\le a$ 时更在左侧）。左支 $x\\le a$：$g=x^{2}-x+a=\\left(x-\\tfrac12\\right)^{2}+a-\\tfrac14$，对称轴 $x=\\tfrac12$。\n当 $a\\ge\\tfrac12$ 时对称轴落在左支，左支最小候选为 $a-\\tfrac14$；右支端点值 $a^{2}$。因 $a-\\tfrac14<a^{2}$（$a\\ne\\tfrac12$ 时严格），故 $m(a)=a-\\tfrac14$。\n当 $a\\le\\tfrac12$ 时，左支在 $(-\\infty,a]$ 上对称轴在右侧，故在该区间递减，最小值在 $x=a$ 为 $a^{2}$；右支最小值亦在 $x=a$。若 $a<-\\tfrac12$，右支在 $x=-\\tfrac12$ 取值 $a+\\tfrac14$，但由 $\\left(a-\\tfrac12\\right)^{2}\\ge 0$ 得 $a^{2}\\le a+\\tfrac14$，故全局最小仍为 $a^{2}$。总结：$a\\le\\tfrac12$ 时 $m(a)=a^{2}$；$a\\ge\\tfrac12$ 时 $m(a)=a-\\tfrac14$。\n（2）$m(a)\\ge a$：若 $a\\le 0$，右边非正而 $g\\ge 0$，成立，$a=0$ 时 $x=0$ 取等。若 $0<a\\le\\tfrac12$，则 $a^{2}<a$。若 $a\\ge\\tfrac12$，则 $a-\\tfrac14<a$（反例 $a=1$ 时 $m=\\tfrac34<1$）。故仅 $a\\le 0$。",
+    "knowledgePointCodes": [
+      "rja.2.1.03"
+    ],
+    "primaryKnowledgePointCode": "rja.2.1.03",
+    "methodCodes": [
+      "classification",
+      "num_shape"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；QUALITY-FIX-1D 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）当 $a\\le\\dfrac12$ 时 $m(a)=a^{2}$；当 $a\\ge\\dfrac12$ 时 $m(a)=a-\\dfrac14$。\n（2）$a\\le 0$；在 $a=0$ 处 $x=0$ 取等。",
+      "maxScore": 14,
+      "rubric": [
+        {
+          "key": "s1_分类得到_m(a)_两段公式",
+          "title": "分类得到 m(a) 两段公式",
+          "maxScore": 6,
+          "criteria": "分类得到 m(a) 两段公式"
+        },
+        {
+          "key": "s2_比较_m(a)_与_a，得_a≤0",
+          "title": "比较 m(a) 与 a，得 a≤0",
+          "maxScore": 5,
+          "criteria": "比较 m(a) 与 a，得 a≤0"
+        },
+        {
+          "key": "s3_边界取等；用_a=1_说明_a≥1_不成立",
+          "title": "边界取等；用 a=1 说明 a≥1 不成立",
+          "maxScore": 3,
+          "criteria": "边界取等；用 a=1 说明 a≥1 不成立"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-040",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f(x)=x^{2}-2bx+b$。求使「在 $(0,1)$ 内恰有一根」且「在 $(1,3)$ 内恰有一根」同时成立的实数 $b$ 的取值范围。",
+    "analysis": "两开区间不交且各恰一根 $\\Rightarrow$ 两相异实根，一根 $\\in(0,1)$，一根 $\\in(1,3)$，故必 $f(1)<0$，且较小根 $>0$、较大根 $<3$。开口向上时等价于：$\\Delta>0$，$f(1)<0$，$f(0)>0$，$f(3)>0$。\n计算：$\\Delta=4b(b-1)$，$f(0)=b$，$f(1)=1-b$，$f(3)=9-5b$。\n由 $f(1)<0$ 得 $b>1$；此时自动 $\\Delta>0$ 且 $f(0)>0$。再 $f(3)>0\\Rightarrow b<\\dfrac{9}{5}$。故 $b\\in\\left(1,\\dfrac{9}{5}\\right)$。\n边界：$b\\to 1^{+}$ 时一根 $\\to 1^{-}$；$b\\to\\dfrac{9}{5}^{-}$ 时大根 $\\to 3^{-}$；端点使根落到开区间端点，不满足「内」。",
+    "knowledgePointCodes": [
+      "rja.2.3.02"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.02",
+    "methodCodes": [
+      "classification",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；由 HARD-DESIGN 转化；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$b\\in\\left(1,\\dfrac{9}{5}\\right)$",
+      "maxScore": 14,
+      "rubric": [
+        {
+          "key": "s1_翻译为符号条件_Δ>0,f(1)<0,f(0)>",
+          "title": "翻译为符号条件 Δ>0,f(1)<0,f(0)>0,f(3)>0",
+          "maxScore": 5,
+          "criteria": "翻译为符号条件 Δ>0,f(1)<0,f(0)>0,f(3)>0"
+        },
+        {
+          "key": "s2_解得开区间_(1,9/5)",
+          "title": "解得开区间 (1,9/5)",
+          "maxScore": 6,
+          "criteria": "解得开区间 (1,9/5)"
+        },
+        {
+          "key": "s3_说明端点不纳入",
+          "title": "说明端点不纳入",
+          "maxScore": 3,
+          "criteria": "说明端点不纳入"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-041",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $a>0$，$b>0$，且 $a+b+ab=1$。求 $\\dfrac{1}{a}+\\dfrac{1}{b}$ 的最小值，并求取等时的 $a,b$。",
+    "analysis": "由 $a+b+ab=1$ 得 $(1+a)(1+b)=2$，且 $0<a<1$，$b=\\dfrac{1-a}{1+a}>0$。\n$\\dfrac{1}{a}+\\dfrac{1}{b}=\\dfrac{a+b}{ab}=\\dfrac{1-ab}{ab}=\\dfrac{1}{ab}-1$。\n故最小化该式等价于最大化 $t=ab=a\\dfrac{1-a}{1+a}$，$a\\in(0,1)$。令 $u=1+a\\in(1,2)$，则 $t=\\dfrac{(u-1)(2-u)}{u}=3-u-\\dfrac{2}{u}$。由 AM-GM：$u+\\dfrac{2}{u}\\ge 2\\sqrt{2}$，故 $t\\le 3-2\\sqrt{2}$，等号 $u=\\sqrt{2}$，即 $a=\\sqrt{2}-1$，此时 $b=\\sqrt{2}-1$。\n于是最小值 $\\dfrac{1}{3-2\\sqrt{2}}-1=3+2\\sqrt{2}-1=2+2\\sqrt{2}$。",
+    "knowledgePointCodes": [
+      "rja.2.2.01"
+    ],
+    "primaryKnowledgePointCode": "rja.2.2.01",
+    "methodCodes": [
+      "num_shape",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "num_shape",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；QUALITY-FIX-1D 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "最小值为 $2+2\\sqrt{2}$，当且仅当 $a=b=\\sqrt{2}-1$ 时取到。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_变形得_1/a+1/b=1/(ab)-1",
+          "title": "变形得 1/a+1/b=1/(ab)-1",
+          "maxScore": 4,
+          "criteria": "变形得 1/a+1/b=1/(ab)-1"
+        },
+        {
+          "key": "s2_最大化_ab_得_3-2√2",
+          "title": "最大化 ab 得 3-2√2",
+          "maxScore": 5,
+          "criteria": "最大化 ab 得 3-2√2"
+        },
+        {
+          "key": "s3_最小值_2+2√2_与取等",
+          "title": "最小值 2+2√2 与取等",
+          "maxScore": 3,
+          "criteria": "最小值 2+2√2 与取等"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-042",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $x_1,x_2$ 为方程 $x^{2}-3x+2=0$ 的两根。求使 $|x_1-k|\\le 1$ 与 $|x_2-k|\\le 1$ 同时成立的实数 $k$ 的取值范围。",
+    "analysis": "根为 $1,2$。$k\\in[x_1-1,x_1+1]\\cap[x_2-1,x_2+1]=[0,2]\\cap[1,3]=[1,2]$。",
+    "knowledgePointCodes": [
+      "rja.2.3.01"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.01",
+    "methodCodes": [
+      "classification",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$k\\in[1,2]$。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_求根",
+          "title": "求根",
+          "maxScore": 3,
+          "criteria": "求根"
+        },
+        {
+          "key": "s2_区间交",
+          "title": "区间交",
+          "maxScore": 7,
+          "criteria": "区间交"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-043",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "设命题 $R$：对任意 $a\\in[0,1]$，都存在 $x\\in\\mathbb{R}$，使 $x^2-2ax+a\\le 0$。\n设命题 $R'$：存在 $x\\in\\mathbb{R}$，使对任意 $a\\in[0,1]$，都有 $x^2-2ax+a\\le 0$。\n下列正确的是（多选）",
+    "analysis": "$f_a(x)=x^2-2ax+a=(x-a)^2+a(1-a)$。当 $a\\in(0,1)$ 时 $a(1-a)>0$，故 $f_a(x)\\ge a(1-a)>0$，不存在 $x$ 使 $f_a\\le 0$，因而 $R$ 假。$R'$ 更强，亦假。选 B、D。",
+    "knowledgePointCodes": [
+      "rja.2.3.04"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.04",
+    "methodCodes": [
+      "equiv_transform",
+      "classification"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "命题 $R$ 为真"
+        },
+        {
+          "id": "B",
+          "text": "命题 $R$ 为假"
+        },
+        {
+          "id": "C",
+          "text": "命题 $R'$ 为真"
+        },
+        {
+          "id": "D",
+          "text": "命题 $R'$ 为假"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "B",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-044",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设实数 $x_1\\le x_2$ 满足 $x_1+x_2=2$，$x_1x_2=k$，且 $0\\le k\\le 1$。令 $\\varphi(k)=(x_2-x_1)+x_1x_2$。求 $\\varphi(k)$ 的最小值及相应的 $k$。",
+    "analysis": "$x_2-x_1=2\\sqrt{1-k}$，故 $\\varphi(k)=2\\sqrt{1-k}+k$。令 $t=\\sqrt{1-k}\\in[0,1]$，$k=1-t^2$，则 $\\psi(t)=2t+1-t^2=-(t-1)^2+2$。在 $[0,1]$ 上最小值 $\\psi(0)=1$（$k=1$），最大值 $2$（$k=0$）。故最小值为 $1$。若无 $k\\ge 0$ 则 $k\\to-\\infty$ 时无下界，本题已限定。",
+    "knowledgePointCodes": [
+      "rja.2.3.01"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.01",
+    "methodCodes": [
+      "classification",
+      "num_shape"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "最小值为 $1$，当 $k=1$ 时取到。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-045",
+    "specialtyCode": "rja-ch2",
+    "categoryCode": "2.3",
+    "qtype": "numeric",
+    "difficulty": 3,
+    "stem": "已知对一切正实数 $x,y$ 都有 $x^2+y^2+a\\ge xy+x+y$。求实数 $a$ 的最小值。",
+    "analysis": "不等式 $\\Leftrightarrow x^2+y^2-xy-x-y+a\\ge 0$。由\n$\\dfrac12\\big[(x-y)^2+(x-1)^2+(y-1)^2\\big]=x^2+y^2-xy-x-y+1\\ge 0$，\n知 $a\\ge 1$ 时充分（等号可在 $x=y=1$ 取到）。若 $a<1$，取 $x=y=1$ 得矛盾。故最小值为 $1$。",
+    "knowledgePointCodes": [
+      "rja.2.3.05"
+    ],
+    "primaryKnowledgePointCode": "rja.2.3.05",
+    "methodCodes": [
+      "equiv_transform",
+      "num_shape"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "numeric",
+      "value": "1",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    }
+  },
+  {
+    "code": "CAND-HARD14-046",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.1",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $$f(x)=\\begin{cases} ax+b, & x<1 \\\\ x^{2}+c, & x\\ge 1 \\end{cases}$$ 在 $x=1$ 连续，在 $(-\\infty,1)$ 上严格递增，且 $f([1,+\\infty))=[2,+\\infty)$。求 $a,b,c$。",
+    "analysis": "右支 $x^{2}+c$（$x\\ge 1$）最小 $1+c$，值域 $[1+c,+\\infty)=[2,+\\infty)\\Rightarrow c=1$。连续：$a+b=1+c=2$。左支斜率 $a>0$ 保证 $(-\\infty,1)$ 严格增。",
+    "knowledgePointCodes": [
+      "rja.3.1.02"
+    ],
+    "primaryKnowledgePointCode": "rja.3.1.02",
+    "methodCodes": [
+      "classification",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$c=1$，$a+b=2$，且 $a>0$（$b=2-a$）。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_c=1",
+          "title": "c=1",
+          "maxScore": 4,
+          "criteria": "c=1"
+        },
+        {
+          "key": "s2_连续得b",
+          "title": "连续得b",
+          "maxScore": 4,
+          "criteria": "连续得b"
+        },
+        {
+          "key": "s3_a>0",
+          "title": "a>0",
+          "maxScore": 4,
+          "criteria": "a>0"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-047",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.1",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "已知对任意实数 $x$，有 $f(x)+f(1-x)=x^2-x+1$。则",
+    "analysis": "令 $x=2$：$f(2)+f(-1)=4-2+1=3$。令 $x=\\dfrac12$：$2f\\left(\\dfrac12\\right)=\\dfrac14-\\dfrac12+1=\\dfrac34$，故 $f\\left(\\dfrac12\\right)=\\dfrac38$。函数本身可将特解加反对称齐次项，一般不唯一，但上述两值已确定。选 B。",
+    "knowledgePointCodes": [
+      "rja.3.1.10"
+    ],
+    "primaryKnowledgePointCode": "rja.3.1.10",
+    "methodCodes": [
+      "substitution",
+      "special_value"
+    ],
+    "primaryMethodCode": "substitution",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$f(2)+f(-1)=3$，且 $f\\left(\\dfrac12\\right)$ 不能唯一确定"
+        },
+        {
+          "id": "B",
+          "text": "$f(2)+f(-1)=3$，且 $f\\left(\\dfrac12\\right)=\\dfrac38$"
+        },
+        {
+          "id": "C",
+          "text": "$f(2)+f(-1)=2$，且 $f\\left(\\dfrac12\\right)=\\dfrac38$"
+        },
+        {
+          "id": "D",
+          "text": "$f(2)+f(-1)=3$，且 $f$ 的解析式唯一"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "single",
+      "optionId": "B"
+    }
+  },
+  {
+    "code": "CAND-HARD14-048",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f(x)=\\sqrt{k-x}-\\sqrt{x+2}$。\n（1）求使定义域关于原点对称的 $k$；\n（2）在（1）下判断 $f$ 奇偶性；\n（3）是否存在常数 $c$ 使 $g(x)=f(x)+c$ 为奇函数？",
+    "analysis": "定义域 $[-2,k]$ 对称 ⇒ $k=2$。$f(-x)=\\sqrt{2+x}-\\sqrt{2-x}=-f(x)$，奇。$g$ 奇 ⇔ $g(0)=0$ ⇔ $c=0$（且奇性保留）。",
+    "knowledgePointCodes": [
+      "rja.3.2.03"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.03",
+    "methodCodes": [
+      "parity_apply",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "parity_apply",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$k=2$；（2）$f$ 为奇函数；（3）仅当 $c=0$ 时 $g$ 为奇（即已是奇）。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_k=2",
+          "title": "k=2",
+          "maxScore": 3,
+          "criteria": "k=2"
+        },
+        {
+          "key": "s2_证奇",
+          "title": "证奇",
+          "maxScore": 5,
+          "criteria": "证奇"
+        },
+        {
+          "key": "s3_c=0",
+          "title": "c=0",
+          "maxScore": 4,
+          "criteria": "c=0"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-049",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $a>b>0$。求使 $x^{a}>x^{b}$ 对一切 $x>1$ 成立的结论（证明）；并求集合 $\\{x>0\\mid x^{a}<x^{b}\\}$。",
+    "analysis": "$x^{a}-x^{b}=x^{b}(x^{a-b}-1)$。$x>1\\Rightarrow x^{a-b}>1$。$0<x<1\\Rightarrow x^{a-b}<1\\Rightarrow x^{a}<x^{b}$。$x=1$ 相等不属 $<$。",
+    "knowledgePointCodes": [
+      "rja.3.3.01"
+    ],
+    "primaryKnowledgePointCode": "rja.3.3.01",
+    "methodCodes": [
+      "mono_analysis",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "mono_analysis",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "对一切 $x>1$ 确有 $x^{a}>x^{b}$；集合为 $(0,1)$。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_x>1证明",
+          "title": "x>1证明",
+          "maxScore": 5,
+          "criteria": "x>1证明"
+        },
+        {
+          "key": "s2_集合(0,1)",
+          "title": "集合(0,1)",
+          "maxScore": 5,
+          "criteria": "集合(0,1)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-050",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f(x)=x+\\dfrac{4}{x}$（$x>0$）。按实数 $m$ 讨论方程 $f(x)=m$ 的正根个数，并求使恰有一正根时的根。",
+    "analysis": "令 φ(x)=x+4/x（x>0）。由基本不等式或配方，φ(x)≥2√(x·4/x)=4，等号 x=2。故最小值 4。对水平线 y=m：m>4 时两正根；m=4 时一正根 x=2；m<4 时无正根。在 (0,2) 递减、在 (2,+∞) 递增，与分类一致。",
+    "knowledgePointCodes": [
+      "rja.3.2.01"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.01",
+    "methodCodes": [
+      "mono_analysis",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "mono_analysis",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$m>4$ 两正根；$m=4$ 一正根 $x=2$；$m<4$ 无正根。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_最小值4",
+          "title": "最小值4",
+          "maxScore": 4,
+          "criteria": "最小值4"
+        },
+        {
+          "key": "s2_分类",
+          "title": "分类",
+          "maxScore": 4,
+          "criteria": "分类"
+        },
+        {
+          "key": "s3_临界根",
+          "title": "临界根",
+          "maxScore": 2,
+          "criteria": "临界根"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-051",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.1",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f(x)=\\dfrac{x^{2}-1}{x-1}$（$x\\ne 1$），$g(x)=x+1$（$x\\ne a$），$h(x)=x+1$（$x\\in\\mathbb{R}$）。\n（1）求使 $f=g$ 的 $a$；\n（2）说明 $f$ 与 $h$ 是否为同一函数。",
+    "analysis": "法则均为 $x+1$，同一函数 ⇔ 定义域相同。$D(f)=\\mathbb{R}\\setminus\\{1\\}$，故 $a=1$。$h$ 定义域为 $\\mathbb{R}$，与 $f$ 不同。",
+    "knowledgePointCodes": [
+      "rja.3.1.01"
+    ],
+    "primaryKnowledgePointCode": "rja.3.1.01",
+    "methodCodes": [
+      "defn",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "defn",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$a=1$；（2）不是（定义域不同）。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_a=1",
+          "title": "a=1",
+          "maxScore": 5,
+          "criteria": "a=1"
+        },
+        {
+          "key": "s2_否定f=h",
+          "title": "否定f=h",
+          "maxScore": 5,
+          "criteria": "否定f=h"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-052",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f$ 为定义在 $\\mathbb{R}$ 上的偶函数，且当 $x\\ge 0$ 时 $f(x)=x^{2}-3x+1$。\n（1）写出当 $x<0$ 时 $f(x)$ 的解析式；\n（2）解方程 $f(x)=f(2x+1)$。",
+    "analysis": "（1）对 $x<0$，有 $-x>0$，故 $f(x)=f(-x)=(-x)^{2}-3(-x)+1=x^{2}+3x+1$。\n（2）按 $x$ 与 $2x+1$ 的符号分段。\n① $x\\ge 0$（此时 $2x+1>0$）：两边均用非负支，$x^{2}-3x+1=(2x+1)^{2}-3(2x+1)+1=4x^{2}-2x-1$，整理得 $3x^{2}+x-2=0$，$(3x-2)(x+1)=0$，得 $x=\\dfrac{2}{3}$ 或 $x=-1$（舍去）。\n② $x<-\\dfrac{1}{2}$（此时 $2x+1<0$）：两边均用负支，$x^{2}+3x+1=(2x+1)^{2}+3(2x+1)+1=4x^{2}+10x+5$，整理得 $3x^{2}+7x+4=0$，$(3x+4)(x+1)=0$，得 $x=-\\dfrac{4}{3}$ 或 $x=-1$，均属于本段。\n③ $-\\dfrac{1}{2}\\le x<0$（此时 $2x+1\\ge 0$）：左负右非负，$x^{2}+3x+1=4x^{2}-2x-1$，整理得 $3x^{2}-5x-2=0$，$(3x+1)(x-2)=0$，得 $x=-\\dfrac{1}{3}$（属于本段）或 $x=2$（舍去）。\n综上解集为 $\\left\\{-\\dfrac{4}{3},-1,-\\dfrac{1}{3},\\dfrac{2}{3}\\right\\}$。",
+    "knowledgePointCodes": [
+      "rja.3.2.12"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.12",
+    "methodCodes": [
+      "parity_apply",
+      "classification"
+    ],
+    "primaryMethodCode": "parity_apply",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$x<0$ 时 $f(x)=x^{2}+3x+1$；（2）解集为 $\\left\\{-\\dfrac{4}{3},-1,-\\dfrac{1}{3},\\dfrac{2}{3}\\right\\}$",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "neg",
+          "title": "负支解析式",
+          "maxScore": 3,
+          "criteria": "写出 x<0 时 f(x)=x^2+3x+1"
+        },
+        {
+          "key": "cases",
+          "title": "三段分类",
+          "maxScore": 5,
+          "criteria": "按 x≥0；x<-1/2；-1/2≤x<0 分别建方程"
+        },
+        {
+          "key": "roots",
+          "title": "求根验域",
+          "maxScore": 4,
+          "criteria": "得四根并回检所属区间"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-053",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.1",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设\n$$f(x)=\\begin{cases} x-a, & x\\le 0 \\\\ x^2-3x+a, & x>0 \\end{cases}$$\n恰有两个不同的零点。求实数 $a$ 的取值范围。",
+    "analysis": "左支零点：仅当 $a\\le 0$ 时 $x=a$ 为零点。\n右支：$\\Delta=9-4a$。\n若 $a<0$：左一根；右支两实根中小根为负、大根为正，恰一正根；共两零点。\n若 $a=0$：零点 $0$ 与 $3$，恰两个。\n若 $0<a<\\dfrac94$：无左零点；右支两正根，恰两个。\n若 $a=\\dfrac94$：右侧重根一个；若 $a>\\dfrac94$：无实根。\n综上 $a<\\dfrac94$。",
+    "knowledgePointCodes": [
+      "rja.3.1.09"
+    ],
+    "primaryKnowledgePointCode": "rja.3.1.09",
+    "methodCodes": [
+      "classification",
+      "undetermined_coeff"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$a<\\dfrac{9}{4}$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-054",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f$ 在 $\\mathbb{R}$ 上严格递增。对实参数 $a$，记不等式 $f(|x|-1)\\le f(a-x)$ 的解集为 $S(a)$。\n（1）将不等式等价转化为不含 $f$ 的不等式；\n（2）按 $a$ 分类求出 $S(a)$，并指出何时 $S(a)=\\varnothing$、何时 $S(a)$ 为无界集。",
+    "analysis": "（1）$f$ 严格递增，故 $f(|x|-1)\\le f(a-x)\\Leftrightarrow |x|-1\\le a-x\\Leftrightarrow |x|+x\\le a+1$。\n（2）分段讨论。\n当 $x\\ge 0$ 时，$2x\\le a+1\\Leftrightarrow x\\le\\dfrac{a+1}{2}$，再与 $x\\ge 0$ 求交。\n当 $x<0$ 时，$|x|+x=0$，不等式化为 $0\\le a+1\\Leftrightarrow a\\ge -1$：若 $a\\ge -1$ 则一切 $x<0$ 均成立；若 $a<-1$ 则负半轴无解。\n汇总：若 $a<-1$，非负支因 $\\dfrac{a+1}{2}<0$ 与 $[0,+\\infty)$ 无交，负半轴亦无解，故 $S(a)=\\varnothing$。若 $a\\ge -1$，负半轴全部属于解集，非负支贡献 $\\left[0,\\dfrac{a+1}{2}\\right]$，故 $S(a)=\\left(-\\infty,\\dfrac{a+1}{2}\\right]$，为无界集。",
+    "knowledgePointCodes": [
+      "rja.3.2.05"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.05",
+    "methodCodes": [
+      "mono_analysis",
+      "classification"
+    ],
+    "primaryMethodCode": "mono_analysis",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$|x|+x\\le a+1$；（2）$a<-1$ 时 $S(a)=\\varnothing$；$a\\ge -1$ 时 $S(a)=\\left(-\\infty,\\dfrac{a+1}{2}\\right]$（无界）",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "equiv",
+          "title": "保序等价",
+          "maxScore": 3,
+          "criteria": "化为 |x|+x≤a+1"
+        },
+        {
+          "key": "piece",
+          "title": "绝对值分段",
+          "maxScore": 4,
+          "criteria": "x≥0 与 x<0 分别讨论"
+        },
+        {
+          "key": "param",
+          "title": "参数结论",
+          "maxScore": 5,
+          "criteria": "写出空集与无界两支并验 a=-1"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-055",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.1",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $a>0$，$y=\\sqrt{ax-x^{2}}$。\n（1）用 $a$ 表示定义域与值域；\n（2）求使值域为 $[0,1]$ 的 $a$。",
+    "analysis": "$ax-x^{2}=x(a-x)\\ge 0\\Rightarrow x\\in[0,a]$。令 $x=\\dfrac{a}{2}+t$，最大 $\\sqrt{a^{2}/4}=a/2$。值域 $[0,1]\\Rightarrow a/2=1\\Rightarrow a=2$。",
+    "knowledgePointCodes": [
+      "rja.3.1.02"
+    ],
+    "primaryKnowledgePointCode": "rja.3.1.02",
+    "methodCodes": [
+      "classification",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）定义域 $[0,a]$，值域 $[0,a/2]$；\n（2）$a=2$。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_定义域值域",
+          "title": "定义域值域",
+          "maxScore": 6,
+          "criteria": "定义域值域"
+        },
+        {
+          "key": "s2_a=2",
+          "title": "a=2",
+          "maxScore": 4,
+          "criteria": "a=2"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-056",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "设对一切实数 $x,y$ 有 $f(x+y)+f(x-y)=2f(x)f(y)$，且 $f$ 为偶函数，$f(1)=\\dfrac12$。下列正确的是（多选）",
+    "analysis": "令 $x=y=0$：$2f(0)=2f(0)^2\\Rightarrow f(0)=0$ 或 $1$。若 $f(0)=0$，令 $y=0$ 得 $f\\equiv 0$，矛盾，故 $f(0)=1$。\n令 $y=1$：$f(x+1)+f(x-1)=f(x)$。取 $x=1$：$f(2)+1=\\dfrac12\\Rightarrow f(2)=-\\dfrac12$。取 $x=2$：$f(3)+\\dfrac12=-\\dfrac12\\Rightarrow f(3)=-1$。选 A、B、C。",
+    "knowledgePointCodes": [
+      "rja.3.2.12"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.12",
+    "methodCodes": [
+      "equiv_transform",
+      "special_value"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$f(0)=1$"
+        },
+        {
+          "id": "B",
+          "text": "$f(2)=-\\dfrac12$"
+        },
+        {
+          "id": "C",
+          "text": "$f(3)=-1$"
+        },
+        {
+          "id": "D",
+          "text": "$f(3)=0$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-057",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f$ 为奇函数，且以 $T=6$ 为周期，$f(1)=2$。\n（1）证明：$f\\left(\\dfrac{T}{2}\\right)=0$；\n（2）求 $f(5)$ 及 $f(2)+f(4)$。",
+    "analysis": "（1）$f\\left(\\dfrac{T}{2}\\right)=f\\left(\\dfrac{T}{2}-T\\right)=f\\left(-\\dfrac{T}{2}\\right)=-f\\left(\\dfrac{T}{2}\\right)$，故 $f\\left(\\dfrac{T}{2}\\right)=0$。\n（2）$f(5)=f(-1)=-f(1)=-2$；$f(4)=f(-2)=-f(2)$，故 $f(2)+f(4)=0$。",
+    "knowledgePointCodes": [
+      "rja.3.2.11"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.11",
+    "methodCodes": [
+      "parity_apply",
+      "graph_symmetry"
+    ],
+    "primaryMethodCode": "parity_apply",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）见解析；（2）$f(5)=-2$，$f(2)+f(4)=0$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-058",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "numeric",
+    "difficulty": 3,
+    "stem": "设函数 $f$ 的图象关于直线 $x=1$ 与 $x=3$ 都对称，且 $f(1)=3$。则 $f(5)=$ ________。",
+    "analysis": "关于 $x=1$：$f(2-x)=f(x)$；关于 $x=3$：$f(6-x)=f(x)$。两次对称复合得 $f(x+4)=f(x)$。故 $f(5)=f(1)=3$。",
+    "knowledgePointCodes": [
+      "rja.3.2.11"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.11",
+    "methodCodes": [
+      "graph_symmetry",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "graph_symmetry",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "numeric",
+      "value": "3",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    }
+  },
+  {
+    "code": "CAND-HARD14-059",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设当 $x\\ge 0$ 时 $f(x)=x^{2}+ax$，且 $f$ 为 $\\mathbb{R}$ 上奇函数，并在 $[0,+\\infty)$ 上严格递增。求 $a$ 的取值范围，并写出 $x<0$ 时 $f(x)$。",
+    "analysis": "奇性自动给出负支 $f(x)=-x^{2}+ax$（$x<0$），$a$ 自由于奇性。$[0,+\\infty)$ 严格增：对 $0\\le x_1<x_2$，$f(x_2)-f(x_1)=(x_2-x_1)(x_1+x_2+a)>0$ 需 $a\\ge 0$（否则在 $0$ 附近可能失败：若 $a<0$，取 $x_1=0,x_2=-a/2>0$，则差 $=x_2(x_2+a)=x_2(-a/2)<0$）。",
+    "knowledgePointCodes": [
+      "rja.3.2.03"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.03",
+    "methodCodes": [
+      "parity_apply",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "parity_apply",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$a\\ge 0$；$x<0$ 时 $f(x)=-x^{2}+ax$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_负支",
+          "title": "负支",
+          "maxScore": 4,
+          "criteria": "负支"
+        },
+        {
+          "key": "s2_a≥0证明",
+          "title": "a≥0证明",
+          "maxScore": 8,
+          "criteria": "a≥0证明"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-060",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "设\n$$f(x)=\\begin{cases} 2x+a, & x<1 \\\\ x^2-bx, & x\\ge 1 \\end{cases}$$\n在 $\\mathbb{R}$ 上连续且单调递增。则 $a,b$ 满足",
+    "analysis": "连续：$2+a=1-b\\Rightarrow a+b=-1$。左支斜率 $2>0$。右支 $g(x)=x^2-bx$ 在 $[1,+\\infty)$ 增需对称轴 $\\dfrac{b}{2}\\le 1$，即 $b\\le 2$。连续时接口不降已保证。选 A。",
+    "knowledgePointCodes": [
+      "rja.3.2.01"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.01",
+    "methodCodes": [
+      "mono_analysis",
+      "classification"
+    ],
+    "primaryMethodCode": "mono_analysis",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$a+b=-1$ 且 $b\\le 2$"
+        },
+        {
+          "id": "B",
+          "text": "$a+b=-1$ 且 $b\\ge 2$"
+        },
+        {
+          "id": "C",
+          "text": "$a+b=1$ 且 $b\\le 2$"
+        },
+        {
+          "id": "D",
+          "text": "$a+b=-1$ 且 $b\\le 1$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "single",
+      "optionId": "A"
+    }
+  },
+  {
+    "code": "CAND-HARD14-061",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设函数 $f$ 的定义域满足：$x\\in D\\Leftrightarrow \\dfrac{1}{x}\\in D$（且只讨论 $x>0$），并满足 $f(x)=f\\left(\\dfrac{1}{x}\\right)$。证明：若 $f$ 在 $(0,1]$ 上严格递减，则 $f$ 在 $[1,+\\infty)$ 上严格递增。",
+    "analysis": "任取 $1\\le x_1<x_2$，则 $0<\\dfrac{1}{x_2}<\\dfrac{1}{x_1}\\le 1$。由 $(0,1]$ 上严格递减：$f\\left(\\dfrac{1}{x_2}\\right)>f\\left(\\dfrac{1}{x_1}\\right)$。但 $f\\left(\\dfrac{1}{x_i}\\right)=f(x_i)$，故 $f(x_2)>f(x_1)$，即在 $[1,+\\infty)$ 上严格递增。",
+    "knowledgePointCodes": [
+      "rja.3.2.04"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.04",
+    "methodCodes": [
+      "substitution",
+      "mono_analysis"
+    ],
+    "primaryMethodCode": "substitution",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "见解析（结论成立）。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-062",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f:\\mathbb{R}\\to\\mathbb{R}$ 严格递增，且对一切实数 $x$ 有 $f(f(x))=x$。\n（1）证明：$f(x)=x$ 对一切 $x$ 成立；\n（2）举例说明：若改为严格递减，则可以有 $f(f(x))=x$ 但 $f$ 不是恒等映射。",
+    "analysis": "（1）若存在 $x_0$ 使 $f(x_0)>x_0$，由严格增得 $f(f(x_0))>f(x_0)$，即 $x_0>f(x_0)$，矛盾。若 $f(x_0)<x_0$ 同理矛盾。故 $f=\\mathrm{id}$。\n（2）$f(x)=1-x$ 严格减且 $f(f(x))=x$，但非恒等。",
+    "knowledgePointCodes": [
+      "rja.3.2.01"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.01",
+    "methodCodes": [
+      "mono_analysis",
+      "defn"
+    ],
+    "primaryMethodCode": "mono_analysis",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）见解析；（2）例如 $f(x)=1-x$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-063",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "设 $x>0$，方程 $x+\\dfrac{1}{x}=k$。下列正确的是（多选）",
+    "analysis": "最小 $2$。$k=2$ 一根 $1$。$k>2$ 两根积 $1$。$k=1<2$ 无根，C 错。倒数对称由积 $1$。",
+    "knowledgePointCodes": [
+      "rja.3.2.01"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.01",
+    "methodCodes": [
+      "mono_analysis",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "mono_analysis",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "若 $k=2$，则恰有一正根 $x=1$"
+        },
+        {
+          "id": "B",
+          "text": "若 $k>2$，则恰有两正根且积为 $1$"
+        },
+        {
+          "id": "C",
+          "text": "若 $k=1$，则恰有一正根"
+        },
+        {
+          "id": "D",
+          "text": "两正根（若有）关于倒数互为对称"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-064",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.1",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f(x)=\\dfrac{2x-1}{x+1}$（$x\\ne-1$）。\n（1）求值域；\n（2）求使方程 $f(x)=m$ 有解的实数 $m$；\n（3）当有解时求 $x$。",
+    "analysis": "反解 $y(x+1)=2x-1\\Rightarrow x(y-2)= -1-y\\Rightarrow x=\\dfrac{y+1}{2-y}$（$y\\ne 2$）。",
+    "knowledgePointCodes": [
+      "rja.3.1.02"
+    ],
+    "primaryKnowledgePointCode": "rja.3.1.02",
+    "methodCodes": [
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$\\mathbb{R}\\setminus\\{2}$；（2）$m\\ne 2$；（3）$x=\\dfrac{m+1}{2-m}$（$m\\ne 2$）。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_值域",
+          "title": "值域",
+          "maxScore": 4,
+          "criteria": "值域"
+        },
+        {
+          "key": "s2_m≠2",
+          "title": "m≠2",
+          "maxScore": 3,
+          "criteria": "m≠2"
+        },
+        {
+          "key": "s3_反解x",
+          "title": "反解x",
+          "maxScore": 5,
+          "criteria": "反解x"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-065",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "judge",
+    "difficulty": 3,
+    "stem": "设 $f$ 为定义在 $\\mathbb{R}$ 上的奇函数，且在 $[0,+\\infty)$ 上严格递增。判断：只要 $0\\le x<y$，就有 $f(-x)+f(y)>0$。",
+    "analysis": "奇性得 $f(-x)=-f(x)$，故 $f(-x)+f(y)=f(y)-f(x)$。由 $0\\le x<y$ 及严格增，$f(y)>f(x)$，命题为真。",
+    "knowledgePointCodes": [
+      "rja.3.2.03"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.03",
+    "methodCodes": [
+      "parity_apply",
+      "mono_analysis"
+    ],
+    "primaryMethodCode": "parity_apply",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；QUALITY-FIX-1D 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "judge",
+      "value": true
+    }
+  },
+  {
+    "code": "CAND-HARD14-066",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.1",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设在 $|xy|<1$ 时成立 $f(x)+f(y)=f\\left(\\dfrac{x+y}{1-xy}\\right)$，且 $f\\left(\\dfrac{1}{\\sqrt{3}}\\right)=1$。\n（1）求 $f(0)$；（2）求 $f(\\sqrt{3})$。",
+    "analysis": "令 $y=0$：$f(x)+f(0)=f(x)\\Rightarrow f(0)=0$。\n令 $x=y=\\dfrac{1}{\\sqrt{3}}$：$2f\\left(\\dfrac{1}{\\sqrt{3}}\\right)=f\\left(\\dfrac{2/\\sqrt{3}}{1-1/3}\\right)=f(\\sqrt{3})$，故 $f(\\sqrt{3})=2$。",
+    "knowledgePointCodes": [
+      "rja.3.1.10"
+    ],
+    "primaryKnowledgePointCode": "rja.3.1.10",
+    "methodCodes": [
+      "substitution",
+      "special_value"
+    ],
+    "primaryMethodCode": "substitution",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$f(0)=0$；（2）$f(\\sqrt{3})=2$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-067",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $\\alpha>\\beta$。求集合 $S=\\{x>0\\mid x^{\\alpha}\\ge x^{\\beta}\\}$，并说明 $x=1$ 的归属。",
+    "analysis": "$x^{\\alpha}-x^{\\beta}=x^{\\beta}(x^{\\alpha-\\beta}-1)$。$x^{\\beta}>0$。$x^{\\alpha-\\beta}\\ge 1\\Leftrightarrow x\\ge 1$（因指数为正）。",
+    "knowledgePointCodes": [
+      "rja.3.3.01"
+    ],
+    "primaryKnowledgePointCode": "rja.3.3.01",
+    "methodCodes": [
+      "mono_analysis",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "mono_analysis",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$S=[1,+\\infty)$；$x=1$ 使等号成立，属于 $S$。",
+      "maxScore": 8,
+      "rubric": [
+        {
+          "key": "s1_因式化",
+          "title": "因式化",
+          "maxScore": 4,
+          "criteria": "因式化"
+        },
+        {
+          "key": "s2_S=[1,∞)",
+          "title": "S=[1,∞)",
+          "maxScore": 4,
+          "criteria": "S=[1,∞)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-068",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "求 $f(x)=x^{2}-2|x|-3$ 在 $[-2,3]$ 上的最大值与最小值，并指出相应 $x$。",
+    "analysis": "令 $t=|x|\\ge 0$，$g(t)=t^{2}-2t-3=(t-1)^{2}-4$，最小 $-4$ 于 $t=1$。在 $[-2,3]$ 上 $t\\in[0,3]$，$g$ 在 $t=1$ 最小，在 $t=3$ 最大 $0$；对应 $x=\\pm1$ 与 $x=3$。$x=-2$ 时 $f=-3$。",
+    "knowledgePointCodes": [
+      "rja.3.2.01"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.01",
+    "methodCodes": [
+      "substitution",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "substitution",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "最小值为 $-4$（$x=\\pm 1$）；最大值为 $0$（$x=3$）（比较 $f(-2)=-3$，$f(3)=0$）。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_换元",
+          "title": "换元",
+          "maxScore": 4,
+          "criteria": "换元"
+        },
+        {
+          "key": "s2_最小",
+          "title": "最小",
+          "maxScore": 4,
+          "criteria": "最小"
+        },
+        {
+          "key": "s3_最大",
+          "title": "最大",
+          "maxScore": 4,
+          "criteria": "最大"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-069",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $h(x)=\\sqrt{x}+\\dfrac{1}{\\sqrt{x}}$（$x>0$）。\n（1）求最小值及取点；\n（2）按 $k$ 讨论 $h(x)=k$ 的正根个数。",
+    "analysis": "令 t=√x>0，则 h=t+1/t。由 (t-1)^2≥0 得 t+1/t≥2，等号 t=1 即 x=1。故最小值为 2。方程 h(x)=k 等价于 t+1/t=k：k>2 两正 t（因而两正 x）；k=2 唯一 t=1；k<2 无解。",
+    "knowledgePointCodes": [
+      "rja.3.2.01"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.01",
+    "methodCodes": [
+      "num_shape",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "num_shape",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）最小 $2$ 于 $x=1$；（2）$k>2$ 两根；$k=2$ 一根；$k<2$ 无根。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_最小2",
+          "title": "最小2",
+          "maxScore": 4,
+          "criteria": "最小2"
+        },
+        {
+          "key": "s2_分类",
+          "title": "分类",
+          "maxScore": 6,
+          "criteria": "分类"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-070",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "设 $a<b$，函数 $f(x)=\\sqrt{\\dfrac{x-a}{b-x}}$；又设 $g(x)=\\sqrt{\\dfrac{4-x^2}{1+x^2}}$。下列说法正确的是（多选）",
+    "analysis": "$[a,b)$ 左闭右开，关于原点对称几乎不可能成立，A 对。$g$ 的定义域 $[-2,2]$ 对称；$g(-x)=g(x)$，为偶非奇。选 A、B、C。",
+    "knowledgePointCodes": [
+      "rja.3.2.09"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.09",
+    "methodCodes": [
+      "domain_symmetry",
+      "parity_apply"
+    ],
+    "primaryMethodCode": "domain_symmetry",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "若 $a<b$，则 $f(x)=\\sqrt{\\dfrac{x-a}{b-x}}$ 的定义域 $[a,b)$ 不能关于原点对称"
+        },
+        {
+          "id": "B",
+          "text": "函数 $g(x)=\\sqrt{\\dfrac{4-x^2}{1+x^2}}$ 的定义域关于原点对称"
+        },
+        {
+          "id": "C",
+          "text": "$g$ 为偶函数"
+        },
+        {
+          "id": "D",
+          "text": "$g$ 为奇函数"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-071",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.1",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设\n$$f(x)=\\begin{cases} x+a, & x<0 \\\\ bx+c, & 0\\le x<2 \\\\ x+d, & x\\ge 2 \\end{cases}$$\n在 $\\mathbb{R}$ 上连续且严格递增。用 $a,b$ 表示 $c,d$，并写出 $b$ 应满足的条件。",
+    "analysis": "$x=0$ 连续：$a=c$。$x=2$ 连续：$2b+c=2+d\\Rightarrow d=2b+a-2$。中支斜率 $b>0$（左右斜率均为 $1>0$）。连续且各支严格增 ⇒ 整体严格增。",
+    "knowledgePointCodes": [
+      "rja.3.1.09"
+    ],
+    "primaryKnowledgePointCode": "rja.3.1.09",
+    "methodCodes": [
+      "undetermined_coeff",
+      "mono_analysis"
+    ],
+    "primaryMethodCode": "undetermined_coeff",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$c=a$，$d=2b+a-2$，且 $b>0$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-072",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.1",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f(2x)=\\dfrac{2f(x)}{1+f(x)^2}$。\n（1）若 $f(1)=1$，求 $f(2)$ 与 $f\\left(\\dfrac12\\right)$；\n（2）说明：若误取 $f(1)=\\sqrt{3}$，则正向可算 $f(2)$，但由公式求 $f\\left(\\dfrac12\\right)$ 时在实数范围内无解。",
+    "analysis": "（1）$f(2)=\\dfrac{2}{1+1}=1$。令 $t=f\\left(\\dfrac12\\right)$：$1=\\dfrac{2t}{1+t^2}\\Rightarrow (t-1)^2=0\\Rightarrow t=1$。\n（2）若 $f(1)=\\sqrt{3}$，则 $f(2)=\\dfrac{\\sqrt{3}}{2}$；但 $\\dfrac{2t}{1+t^2}=\\sqrt{3}\\Rightarrow \\sqrt{3}t^2-2t+\\sqrt{3}=0$，$\\Delta=4-12<0$，无实 $t$。",
+    "knowledgePointCodes": [
+      "rja.3.1.10"
+    ],
+    "primaryKnowledgePointCode": "rja.3.1.10",
+    "methodCodes": [
+      "substitution",
+      "special_value"
+    ],
+    "primaryMethodCode": "substitution",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$f(2)=1$，$f\\left(\\dfrac12\\right)=1$；（2）见解析。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-073",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "numeric",
+    "difficulty": 3,
+    "stem": "设 $f:\\mathbb{R}\\to\\mathbb{R}$ 满足 $f(x+2)=-f(x)$，且当 $x\\in[0,1]$ 时 $f(x)=2-2x$。则 $f\\left(\\dfrac52\\right)=$＿＿＿＿。",
+    "analysis": "$\\dfrac52=\\dfrac12+2$，故 $f\\left(\\dfrac52\\right)=-f\\left(\\dfrac12\\right)$。由一次式 $f\\left(\\dfrac12\\right)=2-1=1$，得答案 $-1$。由递推亦有周期 $4$。本题不假设奇性，$f(0)=2$ 与模型无矛盾。",
+    "knowledgePointCodes": [
+      "rja.3.2.02"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.02",
+    "methodCodes": [
+      "substitution",
+      "parity_apply"
+    ],
+    "primaryMethodCode": "substitution",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；QUALITY-FIX-1D 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "numeric",
+      "value": "-1",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    }
+  },
+  {
+    "code": "CAND-HARD14-074",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "设函数 $f$ 的图象关于直线 $x=1$ 对称，且关于点 $(2,0)$ 中心对称。下列结论正确的是（多选）",
+    "analysis": "轴对称 $x=1$：$f(2-x)=f(x)$。中心对称 $(2,0)$：$f(4-x)=-f(x)$，故 $f(2)=0$。A 正确。\n令 $x\\mapsto 2-x$：$f(2+x)=-f(2-x)=-f(x)$，即 $f(x+2)=-f(x)$；再得 $f(x+4)=f(x)$。B 正确。\nC 与 $f(x+4)=f(x)$ 矛盾，错误。D：反周期 $2$ 不蕴含最小正周期为 $2$（可为 $4$），错误。",
+    "knowledgePointCodes": [
+      "rja.3.2.03"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.03",
+    "methodCodes": [
+      "graph_symmetry",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "graph_symmetry",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；QUALITY-FIX-1D 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$f(2-x)=f(x)$，且 $f(4-x)=-f(x)$"
+        },
+        {
+          "id": "B",
+          "text": "$f(x+2)=-f(x)$，从而 $f(x+4)=f(x)$，且 $f(2)=0$"
+        },
+        {
+          "id": "C",
+          "text": "$f(x+4)=-f(x)$，且 $f(x+8)=f(x)$"
+        },
+        {
+          "id": "D",
+          "text": "$f$ 的最小正周期必为 $2$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-075",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f:\\mathbb{R}\\to\\mathbb{R}$ 满足 $f(x+y)=f(x)+f(y)$，且 $f$ 单调递增，$f(1)=2$。\n（1）求 $f(x)$；（2）方程 $f(x)=x$ 的解的个数。",
+    "analysis": "由加性得 $f(0)=0$，$f$ 奇；归纳 $f(n)=2n$，进而有理数上 $f(q)=2q$。单调性保证 $f(x)=2x$。解 $2x=x\\Rightarrow x=0$，恰一解。",
+    "knowledgePointCodes": [
+      "rja.3.2.01"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.01",
+    "methodCodes": [
+      "defn",
+      "mono_analysis"
+    ],
+    "primaryMethodCode": "defn",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$f(x)=2x$；（2）恰一个解 $x=0$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-076",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "设当 $x\\ge 0$ 时 $f(x)=x^2+ax+b$，且 $f$ 为奇函数，并在 $[0,+\\infty)$ 上单调递增。下列正确的是（多选）",
+    "analysis": "奇 ⇒ $f(0)=0\\Rightarrow b=0$。对 $0\\le x_1<x_2$，$f(x_1)-f(x_2)=(x_1-x_2)(x_1+x_2+a)$，要增需 $a\\ge 0$。负支由奇延拓：$f(x)=-x^2+ax$（$x<0$）。$a$ 不必为 $0$。选 A、B、C。",
+    "knowledgePointCodes": [
+      "rja.3.2.12"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.12",
+    "methodCodes": [
+      "parity_apply",
+      "mono_analysis"
+    ],
+    "primaryMethodCode": "parity_apply",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$b=0$"
+        },
+        {
+          "id": "B",
+          "text": "$a\\ge 0$"
+        },
+        {
+          "id": "C",
+          "text": "当 $x<0$ 时 $f(x)=-x^2+ax$"
+        },
+        {
+          "id": "D",
+          "text": "必须 $a=0$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-077",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设对一切 $x\\in[0,1]$ 有 $f(x)+f(1-x)=x(1-x)$，且 $f(x)=f(1-x)$。\n（1）求 $f\\left(\\dfrac12\\right)$；（2）求 $f$ 在 $[0,1]$ 上的最大值。",
+    "analysis": "令 $x=\\dfrac12$：$2f\\left(\\dfrac12\\right)=\\dfrac14\\Rightarrow f\\left(\\dfrac12\\right)=\\dfrac18$。由对称 $f(x)=f(1-x)$ 得齐次部为 $0$，故 $f(x)=\\dfrac12 x(1-x)=\\dfrac12\\left(\\dfrac14-\\left(x-\\dfrac12\\right)^2\\right)\\le \\dfrac18$。无对称假设时 $f$ 可无界，故对称条件必要。",
+    "knowledgePointCodes": [
+      "rja.3.2.06"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.06",
+    "methodCodes": [
+      "substitution",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "substitution",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$\\dfrac18$；（2）最大值为 $\\dfrac18$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-078",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "numeric",
+    "difficulty": 3,
+    "stem": "设 $f$ 为偶函数，且图象关于直线 $x=1$ 对称。则 $f$ 必有周期 ________（填一个正周期）。",
+    "analysis": "偶：$f(-x)=f(x)$；关于 $x=1$：$f(2-x)=f(x)$。则 $f(x+2)=f(2-(-x))=f(-x)=f(x)$，故 $2$ 为周期。",
+    "knowledgePointCodes": [
+      "rja.3.2.11"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.11",
+    "methodCodes": [
+      "graph_symmetry",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "graph_symmetry",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "numeric",
+      "value": "2",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    }
+  },
+  {
+    "code": "CAND-HARD14-079",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f:\\mathbb{R}\\to\\mathbb{R}$ 满足 $f(f(x))=x+1$。\n（1）证明：$f$ 没有不动点，也没有 $2$-周期点；\n（2）验证：$f(x)=x+\\dfrac12$ 满足该方程。",
+    "analysis": "（1）若 $f(a)=a$，则 $f(f(a))=a$，但右边 $a+1$，矛盾。若 $f(f(a))=a$，则 $a=a+1$，矛盾。\n（2）$f(f(x))=x+1$，成立。",
+    "knowledgePointCodes": [
+      "rja.3.2.01"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.01",
+    "methodCodes": [
+      "mono_analysis",
+      "defn"
+    ],
+    "primaryMethodCode": "mono_analysis",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）见解析；（2）成立。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-080",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.1",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "设在使式子有意义处成立：\n（i）$f(x)+f(1-x)=x^2$；\n（ii）$f(x)+f\\left(\\dfrac{1}{x}\\right)=x$（$x\\ne 0$）。\n则 $f(2)$ 等于",
+    "analysis": "由（i）取 $x=\\dfrac12$：$2f\\left(\\dfrac12\\right)=\\dfrac14\\Rightarrow f\\left(\\dfrac12\\right)=\\dfrac18$。\n由（ii）取 $x=2$：$f(2)+f\\left(\\dfrac12\\right)=2\\Rightarrow f(2)=2-\\dfrac18=\\dfrac{15}{8}$。\n（可用（i）于 $x=2$ 得 $f(2)+f(-1)=4$ 作旁证，但不需要即可求出 $f(2)$。）选 B。",
+    "knowledgePointCodes": [
+      "rja.3.1.10"
+    ],
+    "primaryKnowledgePointCode": "rja.3.1.10",
+    "methodCodes": [
+      "substitution",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "substitution",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\dfrac{7}{4}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\dfrac{15}{8}$"
+        },
+        {
+          "id": "C",
+          "text": "$2$"
+        },
+        {
+          "id": "D",
+          "text": "$\\dfrac{17}{8}$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "single",
+      "optionId": "B"
+    }
+  },
+  {
+    "code": "CAND-HARD14-081",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $\\alpha>\\beta\\ge 0$，实数 $t$。令 $h_t(x)=x^{\\alpha}-t x^{\\beta}$（$x>0$）。按 $t$ 讨论方程 $h_t(x)=1$ 的正根个数。",
+    "analysis": "先设 $\\beta>0$。令 $u=x^{\\alpha-\\beta}>0$，则 $h_t(x)=x^{\\beta}(u-t)$。\n若 $t\\le 0$，则 $u-t>0$，且 $x\\mapsto x^{\\beta}$ 与 $u$ 均随 $x$ 增大而增大，故 $h_t$ 在 $(0,+\\infty)$ 严格递增；$h_t(0^{+})=0$，$h_t\\to+\\infty$，因此与 $y=1$ 恰有一交点。\n若 $t>0$，可验证 $h_t$ 先减后增：在 $x_0=\\left(\\dfrac{\\beta t}{\\alpha}\\right)^{1/(\\alpha-\\beta)}$ 处取最小值 $m=h_t(x_0)$（由比较相邻点或配方型估值得到唯一谷点）。于是：若 $1>m$ 两正根；若 $1=m$ 一正根（谷点相切）；若 $1<m$ 无正根。\n若 $\\beta=0$，则 $h_t(x)=x^{\\alpha}-t$ 严格增，对任意实数 $t$ 恰有一正根。",
+    "knowledgePointCodes": [
+      "rja.3.3.01"
+    ],
+    "primaryKnowledgePointCode": "rja.3.3.01",
+    "methodCodes": [
+      "classification",
+      "mono_analysis"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；QUALITY-FIX-1D 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "当 $t\\le 0$ 时恰有一正根；当 $t>0$ 时：若 $1>m(t)$ 两根，若 $1=m(t)$ 一根（切），若 $1<m(t)$ 无根，其中 $m(t)$ 为 $h_t$ 在其唯一临界点处的最小值（临界点 $x=\\left(\\dfrac{\\beta t}{\\alpha}\\right)^{\\!1/(\\alpha-\\beta)}$，当 $\\beta>0$；若 $\\beta=0$ 则 $h_t(x)=x^{\\alpha}-t$，严格增，恰一正根对一切 $t$）。",
+      "maxScore": 14,
+      "rubric": [
+        {
+          "key": "s1_t≤0（或_β=0）说明恰一根",
+          "title": "t≤0（或 β=0）说明恰一根",
+          "maxScore": 5,
+          "criteria": "t≤0（或 β=0）说明恰一根"
+        },
+        {
+          "key": "s2_t>0_找临界点与最小值",
+          "title": "t>0 找临界点与最小值",
+          "maxScore": 5,
+          "criteria": "t>0 找临界点与最小值"
+        },
+        {
+          "key": "s3_按_1_与_m_比较完成分类",
+          "title": "按 1 与 m 比较完成分类",
+          "maxScore": 4,
+          "criteria": "按 1 与 m 比较完成分类"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-082",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $f$ 是定义在 $\\mathbb{R}$ 上的函数，满足：对一切 $x$，$f(x+2)=f(x)$；且 $f$ 为奇函数。已知当 $x\\in(0,1]$ 时 $f(x)=x-x^{2}$。\n（1）求 $f$ 在 $[-1,0)$ 上的解析式；\n（2）求 $f\\left(\\dfrac32\\right)$。",
+    "analysis": "奇性：$f(-x)=-f(x)$，且 $f(0)=0$。对 $x\\in(0,1]$，$f(-x)=-f(x)=-(x-x^{2})=-x+x^{2}$。令 $t=-x\\in[-1,0)$，则 $f(t)=-(-t)+(-t)^{2}=t+t^{2}$。\n（2）$\\dfrac32= -\\dfrac12+2$，周期 $2$ 得 $f\\left(\\dfrac32\\right)=f\\left(-\\dfrac12\\right)$。由（1）$f(-\\tfrac12)=-\\tfrac12+\\tfrac14=-\\tfrac14$。\n（亦可：$f(3/2)=f(3/2-2)=f(-1/2)$。）",
+    "knowledgePointCodes": [
+      "rja.3.2.03"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.03",
+    "methodCodes": [
+      "parity_apply",
+      "classification"
+    ],
+    "primaryMethodCode": "parity_apply",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；QUALITY-FIX-1D 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）当 $x\\in[-1,0)$ 时 $f(x)=x+x^{2}$；\n（2）$f\\left(\\dfrac32\\right)=-\\dfrac14$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_由奇性写负半轴公式",
+          "title": "由奇性写负半轴公式",
+          "maxScore": 5,
+          "criteria": "由奇性写负半轴公式"
+        },
+        {
+          "key": "s2_用周期求_f(3/2)",
+          "title": "用周期求 f(3/2)",
+          "maxScore": 7,
+          "criteria": "用周期求 f(3/2)"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-083",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "设函数 $f$ 的图象关于点 $(1,0)$ 与 $(3,0)$ 都中心对称。下列正确的是（多选）",
+    "analysis": "两中心距离为 $2$，复合得平移 $4$ 且两次变号抵消，故 $f(x+4)=f(x)$，$4$ 必为周期。$2$ 未必是周期，最小正周期也未必是 $4$。选 A、C。",
+    "knowledgePointCodes": [
+      "rja.3.2.11"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.11",
+    "methodCodes": [
+      "graph_symmetry",
+      "special_value"
+    ],
+    "primaryMethodCode": "graph_symmetry",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$4$ 一定是 $f$ 的周期"
+        },
+        {
+          "id": "B",
+          "text": "$2$ 一定是 $f$ 的周期"
+        },
+        {
+          "id": "C",
+          "text": "$f(x+4)=f(x)$ 对一切 $x$ 成立"
+        },
+        {
+          "id": "D",
+          "text": "最小正周期必为 $4$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-084",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.1",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $x,y>0$ 时 $f(xy)=f(x)+f(y)$，且 $f$ 在 $(0,+\\infty)$ 上单调，$f(2)=3$。\n（1）求 $f(8)$；（2）求 $f(\\sqrt{2})$。",
+    "analysis": "$f(1)=0$。归纳 $f(2^n)=n f(2)$，故 $f(8)=f(2^3)=9$。又 $f(2)=2f(\\sqrt{2})\\Rightarrow f(\\sqrt{2})=\\dfrac{3}{2}$。单调保证 $f(x)=3\\log_2 x$。",
+    "knowledgePointCodes": [
+      "rja.3.1.04"
+    ],
+    "primaryKnowledgePointCode": "rja.3.1.04",
+    "methodCodes": [
+      "equiv_transform",
+      "special_value"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$9$；（2）$\\dfrac{3}{2}$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-085",
+    "specialtyCode": "rja-ch3",
+    "categoryCode": "3.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $a>0$，方程 $x+\\dfrac{a}{x}=m$（$x>0$）的正根个数记为 $N(m)$。\n（1）求使 $N(m)=1$ 的 $m$；\n（2）求使 $N(m)=2$ 的 $m$ 的范围；\n（3）当 $N(m)=1$ 时求对应的正根。",
+    "analysis": "令 $\\varphi(x)=x+a/x$（$x>0$），$\\varphi'(x)=1-a/x^{2}$，在 $x=\\sqrt{a}$ 取最小值 $2\\sqrt{a}$，且 $x\\to 0^{+}$ 或 $+\\infty$ 时 $\\varphi\\to+\\infty$。\n故：$m<2\\sqrt{a}$ 无正根；$m=2\\sqrt{a}$ 恰一正根 $x=\\sqrt{a}$；$m>2\\sqrt{a}$ 两正根。",
+    "knowledgePointCodes": [
+      "rja.3.2.01"
+    ],
+    "primaryKnowledgePointCode": "rja.3.2.01",
+    "methodCodes": [
+      "mono_analysis",
+      "classification"
+    ],
+    "primaryMethodCode": "mono_analysis",
+    "sourceType": "original",
+    "sourceReference": "HARD14 原创；QUALITY-FIX-1D 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$m=2\\sqrt{a}$；\n（2）$m>2\\sqrt{a}$；\n（3）正根为 $\\sqrt{a}$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_求_φ_最小值_2√a",
+          "title": "求 φ 最小值 2√a",
+          "maxScore": 4,
+          "criteria": "求 φ 最小值 2√a"
+        },
+        {
+          "key": "s2_完成_N(m)_分类",
+          "title": "完成 N(m) 分类",
+          "maxScore": 5,
+          "criteria": "完成 N(m) 分类"
+        },
+        {
+          "key": "s3_临界根_√a",
+          "title": "临界根 √a",
+          "maxScore": 3,
+          "criteria": "临界根 √a"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-086",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "解关于 $x$ 的不等式 $2^{x}\\cdot 4^{x-1}<8^{t}$，其中参数 $t\\in\\mathbb{R}$；并将解集用 $t$ 表示。",
+    "analysis": "左边 $2^{x}\\cdot(2^{2})^{x-1}=2^{x+2x-2}=2^{3x-2}$，右边 $(2^{3})^{t}=2^{3t}$。故 $3x-2<3t\\Leftrightarrow x<\\dfrac{3t+2}{3}$。",
+    "knowledgePointCodes": [
+      "rja.4.2.02"
+    ],
+    "primaryKnowledgePointCode": "rja.4.2.02",
+    "methodCodes": [
+      "mono_analysis",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "mono_analysis",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$x<\\dfrac{3t+2}{3}$。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_统一底",
+          "title": "统一底",
+          "maxScore": 5,
+          "criteria": "统一底"
+        },
+        {
+          "key": "s2_解出x",
+          "title": "解出x",
+          "maxScore": 5,
+          "criteria": "解出x"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-087",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.4",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $y=\\log_{2}(x-1)+\\log_{2}(3-x)$。\n（1）求定义域；\n（2）求值域；\n（3）解方程 $y=0$。",
+    "analysis": "定义域 $(1,3)$。$y=\\log_{2}[(x-1)(3-x)]$，真数最大 $1$（$x=2$），真数范围 $(0,1]$，值域 $(-\\infty,0]$。$y=0\\Leftrightarrow$ 真数 $=1\\Leftrightarrow x=2$。",
+    "knowledgePointCodes": [
+      "rja.4.4.01"
+    ],
+    "primaryKnowledgePointCode": "rja.4.4.01",
+    "methodCodes": [
+      "domain_symmetry",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "domain_symmetry",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$(1,3)$；（2）值域 $(-\\infty,0]$；（3）若方程为 $y=0$，则 $x=2$（原误写 y=1）。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_定义域",
+          "title": "定义域",
+          "maxScore": 3,
+          "criteria": "定义域"
+        },
+        {
+          "key": "s2_值域",
+          "title": "值域",
+          "maxScore": 5,
+          "criteria": "值域"
+        },
+        {
+          "key": "s3_x=2",
+          "title": "x=2",
+          "maxScore": 4,
+          "criteria": "x=2"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-088",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.3",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "（1）证明 $\\log_{3}2=\\log_{9}4=\\log_{27}8$；\n（2）比较 $\\log_{3}2$ 与 $\\log_{3}2+\\log_{9}2$ 的大小。",
+    "analysis": "换底：后者 $=\\log_{3}2+\\dfrac{\\log_{3}2}{\\log_{3}9}=\\log_{3}2+\\dfrac12\\log_{3}2=\\dfrac32\\log_{3}2>$ 前者。三者：令 $a=\\log_{3}2$，则 $\\log_{9}4=\\dfrac{2a}{2}=a$，$\\log_{27}8=\\dfrac{3a}{3}=a$。",
+    "knowledgePointCodes": [
+      "rja.4.3.02"
+    ],
+    "primaryKnowledgePointCode": "rja.4.3.02",
+    "methodCodes": [
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）见解析；（2）前者较小。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_证相等",
+          "title": "证相等",
+          "maxScore": 5,
+          "criteria": "证相等"
+        },
+        {
+          "key": "s2_比较",
+          "title": "比较",
+          "maxScore": 5,
+          "criteria": "比较"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-089",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "解方程 $4^{x}-3\\cdot 2^{x+1}+8=0$，并说明每个根的检验过程。",
+    "analysis": "令 $t=2^{x}>0$，则 $t^{2}-6t+8=0$，$(t-2)(t-4)=0$，$t=2$ 或 $4$，即 $x=1$ 或 $2$。代回原式均成立。",
+    "knowledgePointCodes": [
+      "rja.4.2.02"
+    ],
+    "primaryKnowledgePointCode": "rja.4.2.02",
+    "methodCodes": [
+      "substitution",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "substitution",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$x=1$ 或 $x=2$。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_换元",
+          "title": "换元",
+          "maxScore": 4,
+          "criteria": "换元"
+        },
+        {
+          "key": "s2_求根验根",
+          "title": "求根验根",
+          "maxScore": 6,
+          "criteria": "求根验根"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-090",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.4",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "不等式 $\\log_{1/2}(x^2-3x+2)>\\log_{1/2}(x-1)$。下列正确的是（多选）",
+    "analysis": "定义域：$x>1$ 且 $(x-1)(x-2)>0$，结合得 $x>2$。底 $\\dfrac12\\in(0,1)$，对数减，不等式变号为真数反过来，再与定义域交得 $(2,3)$。选 A、B、C。",
+    "knowledgePointCodes": [
+      "rja.4.4.02"
+    ],
+    "primaryKnowledgePointCode": "rja.4.4.02",
+    "methodCodes": [
+      "mono_analysis",
+      "defn"
+    ],
+    "primaryMethodCode": "mono_analysis",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "定义域为 $x>2$"
+        },
+        {
+          "id": "B",
+          "text": "不等式等价于 $x^2-3x+2<x-1$（在定义域内）"
+        },
+        {
+          "id": "C",
+          "text": "解集为 $(2,3)$"
+        },
+        {
+          "id": "D",
+          "text": "解集为 $(1,3)$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-091",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.5",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "某量初始值为 $N_0$。前 $3$ 年每年变为原来的 $1.2$ 倍，之后每年变为原来的 $1.1$ 倍。求使年末量首次满足 $N\\ge 2N_0$ 的最小整数年数 $n$。",
+    "analysis": "$1.2^3=1.728<2$，前三年不足。当 $n>3$：$1.728\\cdot 1.1^{n-3}\\ge 2\\Rightarrow 1.1^{n-3}\\ge \\dfrac{125}{108}$。\n$1.1^1=1.1<\\dfrac{125}{108}\\approx 1.157$；$1.1^2=1.21>1.157$。故最小 $k=n-3=2$，$n=5$。验：$N(4)/N_0=1.728\\cdot 1.1=1.9008<2$，$N(5)/N_0=1.728\\cdot 1.21=2.09088\\ge 2$。",
+    "knowledgePointCodes": [
+      "rja.4.5.04"
+    ],
+    "primaryKnowledgePointCode": "rja.4.5.04",
+    "methodCodes": [
+      "classification",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$n=5$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-092",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.5",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $a>1$，$F(x)=\\log_{a}(2^{x}-1)$。\n（1）求定义域；\n（2）证明 $F$ 在定义域上严格增；\n（3）求零点。",
+    "analysis": "$2^{x}-1>0\\Leftrightarrow x>0$。内层严格增、外层严格增，复合严格增。$F=0\\Leftrightarrow 2^{x}-1=1\\Leftrightarrow x=1$。",
+    "knowledgePointCodes": [
+      "rja.4.5.01"
+    ],
+    "primaryKnowledgePointCode": "rja.4.5.01",
+    "methodCodes": [
+      "mono_analysis",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "mono_analysis",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）$x>0$；（2）见解析；（3）$x=1$。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "s1_定义域",
+          "title": "定义域",
+          "maxScore": 3,
+          "criteria": "定义域"
+        },
+        {
+          "key": "s2_严格增",
+          "title": "严格增",
+          "maxScore": 5,
+          "criteria": "严格增"
+        },
+        {
+          "key": "s3_零点",
+          "title": "零点",
+          "maxScore": 4,
+          "criteria": "零点"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-093",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.2",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $a>0$，$a\\ne 1$。求使 $a^{x}+a^{-x}\\ge m$ 对一切实数 $x$ 成立的 $m$ 的充要条件，并指出等号可否取到。",
+    "analysis": "令 $t=a^{x}>0$，则 $t+1/t\\ge 2$，等号 $t=1\\Leftrightarrow x=0$。故 $m\\le 2$。",
+    "knowledgePointCodes": [
+      "rja.4.2.02"
+    ],
+    "primaryKnowledgePointCode": "rja.4.2.02",
+    "methodCodes": [
+      "num_shape",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "num_shape",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$m\\le 2$；当 $m=2$ 时等号在 $x=0$ 取到。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_换元≥2",
+          "title": "换元≥2",
+          "maxScore": 6,
+          "criteria": "换元≥2"
+        },
+        {
+          "key": "s2_等号",
+          "title": "等号",
+          "maxScore": 4,
+          "criteria": "等号"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-094",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.4",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "解方程 $\\log_{2}(x-1)+\\log_{2}(x-3)=3$，写出定义域并验根。",
+    "analysis": "定义域 $x>3$。合并 $\\log_{2}[(x-1)(x-3)]=3\\Rightarrow (x-1)(x-3)=8\\Rightarrow x^{2}-4x-5=0\\Rightarrow x=5$ 或 $-1$（舍）。验 $x=5$ 成立。",
+    "knowledgePointCodes": [
+      "rja.4.4.02"
+    ],
+    "primaryKnowledgePointCode": "rja.4.4.02",
+    "methodCodes": [
+      "domain_symmetry",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "domain_symmetry",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "定义域 $x>3$；解为 $x=5$。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_定义域",
+          "title": "定义域",
+          "maxScore": 3,
+          "criteria": "定义域"
+        },
+        {
+          "key": "s2_求解",
+          "title": "求解",
+          "maxScore": 4,
+          "criteria": "求解"
+        },
+        {
+          "key": "s3_验根",
+          "title": "验根",
+          "maxScore": 3,
+          "criteria": "验根"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-095",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.4",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $a>1$，$f(x)=\\log_a\\bigl(x+\\sqrt{x^2+1}\\bigr)$。\n（1）证明 $f$ 为奇函数；（2）证明 $f$ 严格递增，并判断 $f(-2)+f(3)$ 的符号。",
+    "analysis": "（1）$\\bigl(-x+\\sqrt{x^2+1}\\bigr)\\bigl(x+\\sqrt{x^2+1}\\bigr)=1$，故 $f(-x)=-f(x)$。\n（2）内层 $u(x)=x+\\sqrt{x^2+1}$ 严格增且 $>0$，外层 $\\log_a$ 严格增，故 $f$ 严格增。于是 $f(-2)+f(3)=f(3)-f(2)>0$。",
+    "knowledgePointCodes": [
+      "rja.4.4.02"
+    ],
+    "primaryKnowledgePointCode": "rja.4.4.02",
+    "methodCodes": [
+      "parity_apply",
+      "mono_analysis"
+    ],
+    "primaryMethodCode": "parity_apply",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）见解析；（2）严格增；和为正。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-096",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.3",
+    "qtype": "multi",
+    "difficulty": 3,
+    "stem": "设 $a,b>0$，$a\\ne 1$，$b\\ne 1$，$x>0$。下列正确的是（多选）",
+    "analysis": "两边取 $\\log_b$ 得 A。又 $a^{\\log_a b}=b$，$b^{\\log_b a}=a$，乘积 $ab$。D 错。选 A、B、C。",
+    "knowledgePointCodes": [
+      "rja.4.3.02"
+    ],
+    "primaryKnowledgePointCode": "rja.4.3.02",
+    "methodCodes": [
+      "equiv_transform",
+      "special_value"
+    ],
+    "primaryMethodCode": "equiv_transform",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "$a^{\\log_b x}=x^{\\log_b a}$（在合法条件下）恒成立"
+        },
+        {
+          "id": "B",
+          "text": "$a^{\\log_a b}\\cdot b^{\\log_b a}=ab$"
+        },
+        {
+          "id": "C",
+          "text": "$a^{\\log_a b}=b$"
+        },
+        {
+          "id": "D",
+          "text": "$b^{\\log_b a}=\\dfrac{1}{a}$"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "multi",
+      "optionIds": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-097",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.5",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "按实数 $k$ 讨论方程 $2^{x}+2^{-x}=k$ 的实根个数；当恰有一实根时求该根。",
+    "analysis": "令 $t=2^{x}>0$，$t+1/t=k$。最小 $2$ 于 $t=1$（$x=0$）。分类同上。偶性说明若 $x_0$ 是根则 $-x_0$ 也是。",
+    "knowledgePointCodes": [
+      "rja.4.5.01"
+    ],
+    "primaryKnowledgePointCode": "rja.4.5.01",
+    "methodCodes": [
+      "classification",
+      "equiv_transform"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14；ADVISORY-CLOSURE-1E 重建；非高考真题",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "$k>2$ 两实根；$k=2$ 一实根 $x=0$；$k<2$ 无实根。",
+      "maxScore": 10,
+      "rubric": [
+        {
+          "key": "s1_换元最小2",
+          "title": "换元最小2",
+          "maxScore": 4,
+          "criteria": "换元最小2"
+        },
+        {
+          "key": "s2_分类",
+          "title": "分类",
+          "maxScore": 4,
+          "criteria": "分类"
+        },
+        {
+          "key": "s3_临界根0",
+          "title": "临界根0",
+          "maxScore": 2,
+          "criteria": "临界根0"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-098",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.4",
+    "qtype": "numeric",
+    "difficulty": 3,
+    "stem": "不等式 $\\log_2(x^2-3x+2)<1$ 的解集中，落在 $(2,+\\infty)$ 内的部分是开区间 $(c,d)$。则 $d-c=$ ________。",
+    "analysis": "定义域：$x^2-3x+2>0\\Rightarrow x<1$ 或 $x>2$。底 $>1$ 时不等式 $\\Leftrightarrow 0<x^2-3x+2<2$。由 $x^2-3x+2<2\\Leftrightarrow 0<x<3$。与定义域交得 $(0,1)\\cup(2,3)$。落在 $(2,+\\infty)$ 的部分为 $(2,3)$，故 $d-c=1$。",
+    "knowledgePointCodes": [
+      "rja.4.4.02"
+    ],
+    "primaryKnowledgePointCode": "rja.4.4.02",
+    "methodCodes": [
+      "classification",
+      "mono_analysis"
+    ],
+    "primaryMethodCode": "classification",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "numeric",
+      "value": "1",
+      "toleranceAbs": 0,
+      "toleranceRel": 0
+    }
+  },
+  {
+    "code": "CAND-HARD14-099",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.4",
+    "qtype": "application",
+    "difficulty": 3,
+    "stem": "设 $a>1$，$k>0$，$\\varphi(x)=\\log_a x+\\log_a(k-x)$。\n（1）求定义域与最大值；\n（2）按实数 $m$ 讨论方程 $\\varphi(x)=m$ 的实根个数。",
+    "analysis": "定义域 $x\\in(0,k)$。$\\varphi=\\log_a(kx-x^2)$，$u=kx-x^2\\le\\dfrac{k^2}{4}$，故最大值 $\\log_a\\dfrac{k^2}{4}$（$x=\\dfrac{k}{2}$），两端 $\\varphi\\to-\\infty$。水平线 $y=m$ 与图象交点个数按 $m$ 与最大值比较即得。",
+    "knowledgePointCodes": [
+      "rja.4.4.02"
+    ],
+    "primaryKnowledgePointCode": "rja.4.4.02",
+    "methodCodes": [
+      "mono_analysis",
+      "classification"
+    ],
+    "primaryMethodCode": "mono_analysis",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": null,
+    "answerPayload": {
+      "kind": "application",
+      "standardAnswer": "（1）定义域 $(0,k)$，最大值为 $\\log_a\\dfrac{k^2}{4}$；\n（2）$m>\\log_a\\dfrac{k^2}{4}$ 无解；$m=$ 该最大值一解；$m<$ 该最大值两解。",
+      "maxScore": 12,
+      "rubric": [
+        {
+          "key": "setup",
+          "title": "审题建模",
+          "maxScore": 4,
+          "criteria": "正确写出条件与目标"
+        },
+        {
+          "key": "core",
+          "title": "核心突破",
+          "maxScore": 5,
+          "criteria": "完成关键变换或分类"
+        },
+        {
+          "key": "conclude",
+          "title": "结论核验",
+          "maxScore": 3,
+          "criteria": "答案完整且边界检验"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CAND-HARD14-100",
+    "specialtyCode": "rja-ch4",
+    "categoryCode": "4.5",
+    "qtype": "single",
+    "difficulty": 3,
+    "stem": "设 $a>1$。考虑 $y=a^{x}$ 与 $y=\\log_a x$ 在 $(0,+\\infty)$ 上的交点。下列正确的是",
+    "analysis": "二者互为反函数，图象关于 $y=x$ 对称，交点或在 $y=x$ 上，或成对出现，故 A 错。若交于对角线上，则 $a^{t}=t=\\log_a t$，等价于 $\\log_a t=t$。交点个数依赖 $a$，C、D 错。选 B。",
+    "knowledgePointCodes": [
+      "rja.4.5.03"
+    ],
+    "primaryKnowledgePointCode": "rja.4.5.03",
+    "methodCodes": [
+      "mono_analysis",
+      "classification"
+    ],
+    "primaryMethodCode": "mono_analysis",
+    "sourceType": "original",
+    "sourceReference": "HARD14 设计档案落地原创；非高考真题；离线候选",
+    "sourceVerificationStatus": "unverified",
+    "sourceLicenseStatus": "unknown",
+    "options": {
+      "options": [
+        {
+          "id": "A",
+          "text": "两图象交点必在直线 $y=x$ 上"
+        },
+        {
+          "id": "B",
+          "text": "若交点在 $y=x$ 上，则该点横坐标 $t$ 满足 $\\log_a t=t$"
+        },
+        {
+          "id": "C",
+          "text": "两图象不可能有交点"
+        },
+        {
+          "id": "D",
+          "text": "交点个数与 $a$ 无关"
+        }
+      ]
+    },
+    "answerPayload": {
+      "kind": "single",
+      "optionId": "B"
+    }
+  }
+]

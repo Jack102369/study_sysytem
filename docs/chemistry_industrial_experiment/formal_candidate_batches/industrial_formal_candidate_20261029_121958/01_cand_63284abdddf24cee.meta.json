@@ -1,0 +1,121 @@
+{
+  "batchId": "industrial_formal_candidate_20261029_121958",
+  "seq": 1,
+  "candidateId": "cand_63284abdddf24cee",
+  "plannedItemCode": "ifc_20261029_121958_01",
+  "title": "粗盐提纯·过滤识读（E2-A 修订）",
+  "phase": "PHASE_E2A",
+  "revision": 7,
+  "qtype": "single",
+  "difficulty": 1,
+  "categoryCode": "flow_diagram_read",
+  "caseCode": "salt_purification_basic",
+  "caseReviewStatus": "draft",
+  "generationSource": "manual_fixture",
+  "developmentOnly": false,
+  "reviewStatus": "pending_human_review",
+  "humanDecision": null,
+  "qualityOverall": "failed_automatic_checks",
+  "qualityBlocking": 2,
+  "qualityUnknown": 12,
+  "requiresHumanReview": true,
+  "formalPublishEligible": false,
+  "readyForHumanReview": true,
+  "readyForFormalImport": false,
+  "blockerClassification": {
+    "QUALITY_BLOCKERS": [],
+    "PUBLISH_ELIGIBILITY_BLOCKERS": [
+      {
+        "checkCode": "CURR_CASE_TRUST",
+        "dimension": "curriculum",
+        "severity": "critical",
+        "message": "正式候选要求案例已审核且 publishEligible"
+      },
+      {
+        "checkCode": "CHEM_SOURCE_VERIFIED",
+        "dimension": "chemistry",
+        "severity": "critical",
+        "message": "正式模式：缺少 verified 知识来源（且无有效案例审核覆盖）"
+      }
+    ],
+    "HUMAN_REVIEW_PENDING": true,
+    "KB_BINDING_BLOCKERS": [
+      "KB_NOT_BOUND"
+    ],
+    "UNKNOWN_SCIENCE_ITEMS": [
+      "CURR_REVIEW_STATUS: 课程审核未完成，不能认定课程适配已通过",
+      "CHEM_REACTION_PENDING: 案例无反应条目；非反应类流程记 unknown（需人工确认）",
+      "CHEM_ENGINE_SCOPE: 本系统非完整化学推理引擎；未覆盖知识一律 unknown，不得自动 pass",
+      "PROCESS_DEEP_REASONING: 深层工艺合理性（收率/能耗/工业放大）未自动验证",
+      "CONS_EXPLANATION_PRESENT: 解析非空；语义正确性未自动证明",
+      "TEACH_JUDGE_COMPAT: 与正式 chem-train-grade 的完整兼容性留待 STEP_09 核对",
+      "AI_AUX_CURRICULUM: Mock AI 辅助审查：维度 curriculum 未提供科学证明（记 unknown）",
+      "AI_AUX_CHEMISTRY: Mock AI 辅助审查：维度 chemistry 未提供科学证明（记 unknown）",
+      "AI_AUX_PROCESS: Mock AI 辅助审查：维度 process 未提供科学证明（记 unknown）",
+      "AI_AUX_DIAGRAM: Mock AI 辅助审查：维度 diagram 未提供科学证明（记 unknown）",
+      "AI_AUX_CONSISTENCY: Mock AI 辅助审查：维度 consistency 未提供科学证明（记 unknown）",
+      "AI_AUX_TEACHING: Mock AI 辅助审查：维度 teaching 未提供科学证明（记 unknown）"
+    ],
+    "overallStatus": "failed_automatic_checks",
+    "formalPublishEligible": false
+  },
+  "diagramKinds": [
+    "flow"
+  ],
+  "flowSvgContentHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+  "apparatusSvgContentHash": null,
+  "auditContentHash": "83651f1b22d1844c697e4a871db90315d86417eeb74dae59f3c4e12c14c02afc",
+  "changeReasons": [
+    "澄清题干：强调除去不溶性杂质；去掉易混淆 PHASE 备注噪音",
+    "解析改写避免歧义；内容化学结论不变"
+  ],
+  "sourceVerificationStatus": "SOURCE_VERIFICATION_INCOMPLETE",
+  "kbBindingPlan": [
+    {
+      "entityType": "experiment",
+      "entityId": "20",
+      "entityName": "过滤操作",
+      "status": "published",
+      "reviewNoteFlags": [
+        "ai_trial",
+        "human_unreviewed",
+        "trial_run"
+      ],
+      "note": "本地 chem_experiments.id=20；published 但 review_note 含 human_unreviewed",
+      "currentLink": "NOT_BOUND",
+      "adminConfirmRequired": true,
+      "bindWhen": "PHASE_E2_after_human_approve_and_formal_import"
+    },
+    {
+      "entityType": "experiment",
+      "entityId": "19",
+      "entityName": "溶解与搅拌",
+      "status": "published",
+      "reviewNoteFlags": [
+        "ai_trial",
+        "human_unreviewed",
+        "trial_run"
+      ],
+      "note": "本地 chem_experiments.id=19",
+      "currentLink": "NOT_BOUND",
+      "adminConfirmRequired": true,
+      "bindWhen": "PHASE_E2_after_human_approve_and_formal_import"
+    },
+    {
+      "entityType": "substance",
+      "entityId": "2",
+      "entityName": "水",
+      "status": "published",
+      "reviewNoteFlags": [],
+      "note": "本地 chem_substances.id=2",
+      "currentLink": "NOT_BOUND",
+      "adminConfirmRequired": true,
+      "bindWhen": "PHASE_E2_after_human_approve_and_formal_import"
+    }
+  ],
+  "dbTrainItemId": "NOT_CREATED",
+  "dbAssetIds": "NOT_CREATED",
+  "dbKbLinkIds": "NOT_BOUND",
+  "pool": "NOT_WRITTEN",
+  "revisedAt": "2026-10-29T05:28:33.769Z"
+}

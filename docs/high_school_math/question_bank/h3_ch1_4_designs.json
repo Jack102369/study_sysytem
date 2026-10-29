@@ -1,0 +1,418 @@
+{
+  "phase": "HS-MATH-H3-REDESIGN-1E",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "status": "H3_DESIGN_ACCEPTED_PARTIAL_OR_FULL",
+  "builtAt": "2026-10-28T13:39:13.014Z",
+  "chapterTarget": {
+    "1": 5,
+    "2": 20,
+    "3": 20,
+    "4": 5
+  },
+  "frozenPass8": [
+    "CAND-H3C14-006",
+    "CAND-H3C14-013",
+    "CAND-H3C14-014",
+    "CAND-H3C14-018",
+    "CAND-H3C14-027",
+    "CAND-H3C14-046",
+    "CAND-H3C14-047",
+    "CAND-H3C14-060"
+  ],
+  "newAccepted": [
+    "CAND-H3C14-101",
+    "CAND-H3C14-102",
+    "CAND-H3C14-104",
+    "CAND-H3C14-108",
+    "CAND-H3C14-201",
+    "CAND-H3C14-202",
+    "CAND-H3C14-204",
+    "CAND-H3C14-211",
+    "CAND-H3C14-212",
+    "CAND-H3C14-213",
+    "CAND-H3C14-214",
+    "CAND-H3C14-215",
+    "CAND-H3C14-216"
+  ],
+  "acceptedCount": 21,
+  "designs": [
+    {
+      "designId": "H3-DESIGN-006",
+      "chapter": "rja-ch2",
+      "section": "2.3",
+      "primaryKp": "rja.2.3.05",
+      "methods": [
+        "classification",
+        "equiv_transform"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "开区间根分布与闭区间下界耦合求参",
+      "mathematicalModel": "设 $f(x)=x^{2}-2mx+m+2$。求使下列两条件同时成立的实数 $m$ 的取值集合：\n（1）方程 $f(x)=0$ 有两个不相等的实根，且两根都位于开区间 $(-1,3)$ 内；\n（2）$\\forall x\\in[-1,3]$，$f(x)\\ge -\\dfrac{1}{2}$。",
+      "breakthrough": "根全在(-1,3)仅得 m∈(2,11/5)；闭区间 f≥-1/2 在轴落入时化为顶点约束，被 (1+√11)/2 截断。",
+      "standardSolutionSketch": "$f(x)=x^{2}-2mx+(m+2)$，对称轴 $x=m$，$\\Delta=4(m-2)(m+1)$。\n（1）两不等实根均在 $(-1,3)$：$\\Delta>0$，$f(-1)>0$，$f(3)>0$，$-1<m<3$。得 $m>-1$ 与 $m>2$ 及 $m<\\dfrac{11}{5}$，故 $m\\in\\left(2,\\dfrac{11}{5}\\right)$。\n（2）此时轴在 $[-1,3]$ 内，最小值 $f(m)=-m^{2}+m+2\\ge -\\dfrac{1}{2}\\Leftrightarrow m^{2}-m-\\dfrac{5}{2}\\le 0\\Leftrightarrow m\\in\\left[\\dfrac{1-\\sqrt{11}}{2},\\dfrac{1+\\sqrt{11}}{2}\\right]$。\n相交得 $m\\in\\left(2,\\dfrac{1+\\sqrt{1",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-006",
+      "frozenFrom1D": true
+    },
+    {
+      "designId": "H3-DESIGN-013",
+      "chapter": "rja-ch2",
+      "section": "2.3",
+      "primaryKp": "rja.2.3.04",
+      "methods": [
+        "classification",
+        "equiv_transform"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "根差固定与区间最小值恰触耦合定参",
+      "mathematicalModel": "设 $f(x)=x^{2}+bx+c$。已知：\n（1）方程 $f(x)=0$ 的两根之差的绝对值为 $2$；\n（2）$\\forall x\\in[0,1]$，$f(x)\\ge\\dfrac{1}{4}$；\n（3）$\\exists x\\in[0,1]$，$f(x)=\\dfrac{1}{4}$。\n求所有有序对 $(b,c)$。",
+      "breakthrough": "Δ=4 与顶点落入时最小值恒为 −1，与触 1/4 矛盾，故轴必须在区间外。",
+      "standardSolutionSketch": "（1）$\\Delta=b^{2}-4c=4\\Leftrightarrow c=\\dfrac{b^{2}-4}{4}$。\n（2）（3）说明 $[0,1]$ 上最小值恰为 $\\dfrac{1}{4}$。\n若轴 $-\\dfrac{b}{2}\\in[0,1]$（即 $b\\in[-2,0]$），则最小值 $c-\\dfrac{b^{2}}{4}=-1\\ne\\dfrac{1}{4}$，矛盾。故最小值在端点。\n甲：$c=\\dfrac{1}{4}\\Rightarrow b=\\pm\\sqrt{5}$。仅 $b=\\sqrt{5}$ 合（轴在左侧，$f(1)>\\dfrac{1}{4}$）；$b=-\\sqrt{5}$ 时 $f(1)=\\dfrac{5}{4}-\\sqrt{5}<\\dfrac{1}{4}$，否。\n乙：$f(1)=\\dfrac{1}{4}$ 且 $c>\\dfrac{1}{4}$，得 $b^{2}+4b-",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-013",
+      "frozenFrom1D": true
+    },
+    {
+      "designId": "H3-DESIGN-014",
+      "chapter": "rja-ch2",
+      "section": "2.3",
+      "primaryKp": "rja.2.3.01",
+      "methods": [
+        "equiv_transform",
+        "classification"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "在另一方程根区间上恒非负并限制根距",
+      "mathematicalModel": "设 $f(x)=x^{2}-2tx+t$，$g(x)=x^{2}-2x+t$。求使下列条件同时成立的实数 $t$：\n（1）方程 $f(x)=0$ 有两个实根 $x_{1}\\le x_{2}$，且 $x_{2}-x_{1}\\le 1$；\n（2）$\\forall x\\in[x_{1},x_{2}]$，$g(x)\\ge 0$。",
+      "breakthrough": "对 t≥1 轴落入得 g(1)=t−1≥0；对 t<0 用 f(x2)=0 化 g(x2)=2x2(t−1)<0 排除；再根距截断。",
+      "standardSolutionSketch": "$\\Delta_{f}=4t(t-1)\\ge 0\\Leftrightarrow t\\le 0$ 或 $t\\ge 1$，且 $x_{2}-x_{1}=2\\sqrt{t(t-1)}\\le 1\\Leftrightarrow 4t(t-1)\\le 1$。\n当 $t\\ge 1$：两根非负且 $x_{1}\\le 1\\le x_{2}$，故轴 $x=1$ 落入，$\\min g=g(1)=t-1\\ge 0$ 自动。再 $4t(t-1)\\le 1\\Leftrightarrow t\\in\\left[1,\\dfrac{1+\\sqrt{2}}{2}\\right]$（取正支与 $t\\ge 1$ 之交）。\n当 $t=0$：重根 $0$，$g(0)=0$，且根距 $0\\le 1$，成立。\n当 $t<0$：两根异号，$x_{2}=t+\\sqrt{t(t-1)}\\in(0,1)$，轴不落入；区间在轴左侧，$\\min g=g",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-014",
+      "frozenFrom1D": true
+    },
+    {
+      "designId": "H3-DESIGN-018",
+      "chapter": "rja-ch2",
+      "section": "2.1",
+      "primaryKp": "rja.2.1.01",
+      "methods": [
+        "equiv_transform",
+        "special_value"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "最佳常数与等号点禁止条件耦合",
+      "mathematicalModel": "考虑不等式 $x^{2}+1\\ge \\lambda |x|$。\n（1）求使该式对一切实数 $x$ 恒成立的实数 $\\lambda$ 的最大值；\n（2）若额外要求当 $|x|=1$ 时不等式为严格大于（即排除等号），问是否仍存在最大的 $\\lambda$ 使“对一切 $x$ 成立且在 $|x|=1$ 处严格”？说明理由。",
+      "breakthrough": "由 (|x|-1)²≥0 得 x²+1≥2|x|，最佳 λ=2；禁止 |x|=1 时严格不等式使任何 λ=2 失败，故无最大 λ 而只有上确界。",
+      "standardSolutionSketch": "（1）$x=0$ 时 $1\\ge 0$ 真。对 $x\\ne 0$，令 $t=|x|>0$，需 $t+\\dfrac{1}{t}\\ge\\lambda$。由 $\\left(\\sqrt{t}-\\dfrac{1}{\\sqrt{t}}\\right)^{2}\\ge 0$ 得 $t+\\dfrac{1}{t}\\ge 2$，等号 $t=1$。故 $\\lambda\\le 2$，且 $\\lambda=2$ 恒成立。最大值为 $2$。\n（2）若要求 $|x|=1$ 时严格，则 $\\lambda=2$ 不满足。对任意 $\\lambda<2$，因 $\\inf(t+1/t)=2>\\lambda$，恒有严格 $>$（含 $t=1$）。故一切 $\\lambda<2$ 都合，但无最大元（上确界 $2$ 不可取）。",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-018",
+      "frozenFrom1D": true
+    },
+    {
+      "designId": "H3-DESIGN-027",
+      "chapter": "rja-ch3",
+      "section": "3.1",
+      "primaryKp": "rja.3.1.04",
+      "methods": [
+        "equiv_transform",
+        "classification"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "反射和方程的存在性判据与单调增解的端点约束",
+      "mathematicalModel": "设 $g:\\mathbb{R}\\to\\mathbb{R}$。\n（1）证明：存在函数 $f:\\mathbb{R}\\to\\mathbb{R}$ 使对一切实数 $x$ 有 $f(x)+f(1-x)=g(x)$，当且仅当对一切 $x$ 有 $g(x)=g(1-x)$。\n（2）取 $g(x)=x(1-x)$。设 $f:[0,1]\\to\\mathbb{R}$ 满足 $f(x)+f(1-x)=g(x)$，且 $",
+      "breakthrough": "f(x)+f(1-x)=g(x) 有解 ⇔ g(x)=g(1-x)；在 g(x)=x(1-x) 且 f 于 [0,1] 递增时，由 f(1/2)=1/8 与 f(1)=-f(0) 得 f(0)≤-1/8。",
+      "standardSolutionSketch": "（1）必要性：若存在 $f$，则 $g(1-x)=f(1-x)+f(x)=g(x)$。充分性：若 $g(x)=g(1-x)$，取 $f(x)=\\dfrac12 g(x)$ 即可（更一般可加满足 $p(x)+p(1-x)=0$ 的任意 $p$）。\n（2）$g$ 满足对称条件。令 $x=\\dfrac12$：$2f\\!\\left(\\dfrac12\\right)=\\dfrac14\\Rightarrow f\\!\\left(\\dfrac12\\right)=\\dfrac18$。又 $f(0)+f(1)=0\\Rightarrow f(1)=-f(0)$。由递增：$f(0)\\le\\dfrac18\\le -f(0)$，故 $f(0)\\le -\\dfrac18$。\n对任意 $c\\le -\\dfrac18$，在 $\\bigl[0,\\dfrac12\\bigr]$ 上取连接 $(0,c)$ 与 $\\bigl(\\dfr",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-027",
+      "frozenFrom1D": true
+    },
+    {
+      "designId": "H3-DESIGN-046",
+      "chapter": "rja-ch4",
+      "section": "4.4",
+      "primaryKp": "rja.4.4.02",
+      "methods": [
+        "classification",
+        "mono_analysis"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "定义域随 a 伸缩时存在型与全称型对数不等式联立",
+      "mathematicalModel": "设 $a\\ne 0$，函数 $f(x)=\\log_2(a^{2}-x^{2})$ 的定义域为 $D_f$。求使下列两命题同时成立的实数 $a$ 的取值集合：\n（I）$\\exists x\\in D_f$ 使 $f(x)\\ge 1$；\n（II）$\\forall x\\in D_f$ 有 $f(x)\\le 3$。",
+      "breakthrough": "D_f=(-|a|,|a|) 随 a 变；f 在中心最大、端点→−∞。存在 f≥1 要 |a|≥√2，全称 f≤3 要 |a|≤2√2，二者与定义域非空耦合。",
+      "standardSolutionSketch": "由真数 $>0$：$a^{2}-x^{2}>0\\Leftrightarrow |x|<|a|$，故 $D_f=(-|a|,|a|)$（已用 $a\\ne 0$ 保证非空）。令 $b=|a|>0$，则 $f(x)=\\log_2(b^{2}-x^{2})$。\n在 $D_f$ 上，$b^{2}-x^{2}$ 在 $x=0$ 取最大 $b^{2}$，当 $x\\to\\pm b$ 时趋于 $0^{+}$，故 $f$ 最大值为 $\\log_2 b^{2}=2\\log_2 b$，下无界为 $-\\infty$。\n（I）$\\Leftrightarrow$ 最大值 $\\ge 1\\Leftrightarrow 2\\log_2 b\\ge 1\\Leftrightarrow \\log_2 b\\ge \\tfrac12\\Leftrightarrow b\\ge\\sqrt{2}$。\n（II）$\\Leftrightarrow$ 最",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-046",
+      "frozenFrom1D": true
+    },
+    {
+      "designId": "H3-DESIGN-047",
+      "chapter": "rja-ch4",
+      "section": "4.4",
+      "primaryKp": "rja.4.4.03",
+      "methods": [
+        "classification",
+        "equiv_transform"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "二次真数恒正锁 a 后，按底分类解 f(x)≥1",
+      "mathematicalModel": "设 $f(x)=\\log_a(x^{2}-ax+1)$（$a>0,\\ a\\ne 1$）。\n（1）求使 $f$ 的定义域为 $\\mathbb{R}$ 的 $a$ 的取值集合；\n（2）在（1）的条件下，解不等式 $f(x)\\ge 1$。",
+      "breakthrough": "定义域为 ℝ 迫使 Δ<a 的开口条件得 a∈(0,2)\\{1}；再按 a>1 / 0<a<1 翻转不等式，解集从“外侧两射线”变为“中间闭区间”。",
+      "standardSolutionSketch": "（1）需 $x^{2}-ax+1>0$ 对一切实数 $x$ 成立。开口向上，故需 $\\Delta=a^{2}-4<0\\Leftrightarrow |a|<2$。结合 $a>0,a\\ne 1$，得 $a\\in(0,1)\\cup(1,2)$。\n（2）$f(x)\\ge 1\\Leftrightarrow\\log_a(x^{2}-ax+1)\\ge\\log_a a$。记 $g(x)=x^{2}-ax+1$，$h(x)=x^{2}-ax+(1-a)$。\n当 $a\\in(1,2)$（底$>1$）：等价于 $g(x)\\ge a\\Leftrightarrow h(x)\\ge 0$。$\\Delta_h=a^{2}+4a-4=(a+2)^{2}-8$，因 $a>1\\Rightarrow a+2>3>2\\sqrt{2}$，故 $\\Delta_h>0$。根 $x_{\\pm}=\\dfrac{a\\pm\\sqrt{\\De",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-047",
+      "frozenFrom1D": true
+    },
+    {
+      "designId": "H3-DESIGN-060",
+      "chapter": "rja-ch3",
+      "section": "3.1",
+      "primaryKp": "rja.3.1.03",
+      "methods": [
+        "equiv_transform",
+        "mono_analysis"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "单调 + 1/n 平移不变 ⇒ 常数（不用连续性）",
+      "mathematicalModel": "设 $f:[0,1]\\to\\mathbb{R}$ 单调递增，且对一切 $x\\in[0,1]$ 与一切正整数 $n$，只要 $x+\\dfrac{1}{n}\\in[0,1]$，就有 $f\\!\\left(x+\\dfrac{1}{n}\\right)=f(x)$。证明 $f$ 为常函数。（证明中不得假设 $f$ 连续。）",
+      "breakthrough": "",
+      "standardSolutionSketch": "对任意正整数 $n$ 与满足 $0\\le k\\le n$ 的整数 $k$，在区间内反复使用平移条件得 $f\\!\\left(\\dfrac{k}{n}\\right)=f(0)$。特别 $f(1)=f(0)$。\n任取 $x\\in(0,1)$。取充分大的正整数 $n$，令 $k=\\lfloor nx\\rfloor$，则 $0\\le k\\le nx<k+1$，且 $\\dfrac{k+1}{n}\\le 1$（因 $x<1$，可取 $n$ 使 $nx+1\\le n$）。于是 $\\dfrac{k}{n}\\le x\\le \\dfrac{k+1}{n}$。由单调性\n$f\\!\\left(\\dfrac{k}{n}\\right)\\le f(x)\\le f\\!\\left(\\dfrac{k+1}{n}\\right)$，\n两边等于 $f(0)$，故 $f(x)=f(0)$。全程未用连续性。",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-060",
+      "frozenFrom1D": true
+    },
+    {
+      "designId": "H3-DESIGN-101",
+      "chapter": "rja-ch2",
+      "section": "2.3",
+      "primaryKp": "rja.2.3.05",
+      "methods": [
+        "classification",
+        "equiv_transform"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "两根∈(0,1) 与平方和下界耦合；证明仅 s<1 时后者真正截断",
+      "mathematicalModel": "设 $f(x)=x^{2}-sx+p$。求使下列两条件同时成立的 $(s,p)$ 的集合：\n（1）$f(x)=0$ 有两个不相等实根，且都属于 $(0,1)$；\n（2）两根 $x_1,x_2$ 满足 $x_1^{2}+x_2^{2}\\ge\\dfrac12$。",
+      "breakthrough": "根分布可行域上 s²-2p≥1/2 仅在 s∈(√(1/2),1) 改变上界；s∈[1,2) 时被 Δ 边界蕴含",
+      "standardSolutionSketch": "（1）开口向上两异根∈(0,1) ⇔ $\\Delta=s^{2}-4p>0$，$p>0$，$f(1)=1-s+p>0$，$0<s<2$。即 $0<s<2$，$\\max(0,s-1)<p<\\dfrac{s^{2}}{4}$。\n（2）$s^{2}-2p\\ge\\tfrac12\\Leftrightarrow p\\le\\dfrac{s^{2}}{2}-\\dfrac14$。\n比较上界：$\\dfrac{s^{2}}{2}-\\dfrac14-\\dfrac{s^{2}}{4}=\\dfrac14(s^{2}-1)$。\n当 $s\\in\\bigl(\\sqrt{\\tfrac12},1\\bigr)$：$\\dfrac{s^{2}}{2}-\\dfrac14\\in\\bigl(0,\\dfrac{s^{2}}{4}\\bigr)$，故（2）把上界收到 $\\dfrac{s^{2}}{2}-\\dfrac14$，下界仍为 $0$。\n当",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-101",
+      "frozenFrom1D": false
+    },
+    {
+      "designId": "H3-DESIGN-102",
+      "chapter": "rja-ch2",
+      "section": "2.3",
+      "primaryKp": "rja.2.3.04",
+      "methods": [
+        "classification",
+        "equiv_transform"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "全体实根>1：Δ 与端点/轴/韦达联立；再用平方比较证明较小根>1 与候选一致",
+      "mathematicalModel": "设实数 $m$，方程 $x^{2}-2mx+(m+1)=0$ 的实根集为 $R_m$。求使 $R_m\\ne\\varnothing$ 且 $\\forall x\\in R_m\\ (x>1)$ 成立的 $m$ 的集合。",
+      "breakthrough": "必要条件给出 m∈[φ,2)；平方差 2-m>0 证明较小根>1，从而必要条件亦充分；m=2 因根=1 被开条件排除",
+      "standardSolutionSketch": "记 $f(x)=x^{2}-2mx+(m+1)$。实根需 $\\Delta=4(m^{2}-m-1)\\ge0$，即 $m\\le\\dfrac{1-\\sqrt5}{2}$ 或 $m\\ge\\dfrac{1+\\sqrt5}{2}$。\n若全体实根 $>1$（开口向上）：必须 $f(1)>0$，对称轴 $m>1$，积 $m+1>1$，和 $2m>2$。即 $m<2$，$m>1$。与 Δ 的右侧支求交得候选 $m\\in\\bigl[\\dfrac{1+\\sqrt5}{2},2\\bigr)$。\n充分性：对该区间，$\\Delta\\ge0$，且 $f(1)=2-m>0$（$m<2$）。较小根为 $m-\\sqrt{m^{2}-m-1}$（$\\Delta=0$ 时就是 $m$）。当 $\\Delta>0$ 时比较 $m-1$ 与 $\\sqrt{m^{2}-m-1}$：$(m-1)^{2}-(m^{2}-m-1)=2-m>",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-102",
+      "frozenFrom1D": false
+    },
+    {
+      "designId": "H3-DESIGN-104",
+      "chapter": "rja-ch2",
+      "section": "2.3",
+      "primaryKp": "rja.2.3.05",
+      "methods": [
+        "classification",
+        "vieta"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "一根∈(-2,0)、一根∈(1,3) 且积=-2",
+      "mathematicalModel": "设 $f(x)=x^{2}+ax+b$。方程 $f(x)=0$ 有两不等实根，一根属于 $(-2,0)$，另一根属于 $(1,3)$，且两根之积为 $-2$。求所有有序对 $(a,b)$。",
+      "breakthrough": "积锁定 b 后，四端点符号网化成 a 的开区间，端点开闭由开区间根位置决定",
+      "standardSolutionSketch": "积 $b=-2$。开口向上、一根∈(-2,0)、一根∈(1,3) 的充要：\n$f(-2)>0$，$f(0)<0$，$f(1)<0$，$f(3)>0$。\n$f(0)=-2<0$ 恒真。\n$f(-2)=4-2a-2=2-2a>0\\Leftrightarrow a<1$。\n$f(1)=1+a-2=a-1<0\\Leftrightarrow a<1$。\n$f(3)=9+3a-2=7+3a>0\\Leftrightarrow a>-\\dfrac73$。\n$\\Delta=a^{2}+8>0$ 恒真。\n端点：$a\\to1^{-}$ 时正根$\\to1^{+}$；$a\\to(-7/3)^{+}$ 时正根$\\to3^{-}$。均不含端点。\n故 $(a,b)\\in\\bigl(-7/3,1\\bigr)\\times\\{-2\\}$。",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-104",
+      "frozenFrom1D": false
+    },
+    {
+      "designId": "H3-DESIGN-108",
+      "chapter": "rja-ch2",
+      "section": "2.3",
+      "primaryKp": "rja.2.3.05",
+      "methods": [
+        "equiv_transform",
+        "classification"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "异号根+和≤0+正根≥2 的充要半平面",
+      "mathematicalModel": "设 $f(x)=x^{2}-sx+p$。求使下列条件同时成立的 $(s,p)$ 集合：\n（1）方程有两个不等实根且异号；\n（2）两根之和 $s\\le0$；\n（3）正的那个根 $\\ge2$。",
+      "breakthrough": "较大根公式平方后得 p≤2s-4，与 p<0,s≤0 合成",
+      "standardSolutionSketch": "（1）⇔$p<0$ 且 $\\Delta=s^{2}-4p>0$（$p<0$ 时 Δ 自动 $>s^{2}\\ge0$，且根不等）。\n异号时正根为较大根 $\\dfrac{s+\\sqrt{\\Delta}}{2}$。\n（3）⇔$s+\\sqrt{\\Delta}\\ge4$。在 $s\\le0$ 时 $4-s>0$，移项 $\\sqrt{\\Delta}\\ge4-s$，两边非负可平方：$s^{2}-4p\\ge16-8s+s^{2}\\Leftrightarrow p\\le2s-4$。\n反之，若 $s\\le0$ 且 $p\\le2s-4$，则 $p<0$ 自动（因 $2s-4\\le-4$），Δ$>0$，且平方步骤可逆，得正根≥2。\n故充要为 $s\\le0$ 且 $p\\le2s-4$。",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-108",
+      "frozenFrom1D": false
+    },
+    {
+      "designId": "H3-DESIGN-201",
+      "chapter": "rja-ch3",
+      "section": "3.2",
+      "primaryKp": "rja.3.2.01",
+      "methods": [
+        "parity_apply",
+        "mono_analysis"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "奇+严增 ⇒ f(x)+f(x-1)=0 恰一根 x=1/2（不用连续）",
+      "mathematicalModel": "设 $f:\\mathbb{R}\\to\\mathbb{R}$ 为奇函数且严格递增。证明方程 $f(x)+f(x-1)=0$ 有且仅有一个实根，并求出该根。",
+      "breakthrough": "奇性直接给出中点根；严增把 f(y)=f(1-y) 逼成 y=1/2",
+      "standardSolutionSketch": "奇性⇒$f(-t)=-f(t)$。取 $x=\\tfrac12$：$f(\\tfrac12)+f(-\\tfrac12)=0$，故为根。\n若 $f(y)+f(y-1)=0$，则 $f(y)=-f(y-1)=f(1-y)$。严格增⇒$y=1-y$⇒$y=\\tfrac12$。\n未使用连续性。",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-201",
+      "frozenFrom1D": false
+    },
+    {
+      "designId": "H3-DESIGN-202",
+      "chapter": "rja-ch3",
+      "section": "3.1",
+      "primaryKp": "rja.3.1.04",
+      "methods": [
+        "equiv_transform",
+        "mono_analysis"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "对合+严减锁定端点；连续假设下恰一不动点",
+      "mathematicalModel": "设 $f:[0,1]\\to[0,1]$ 满足 $f(f(x))=x$（$x\\in[0,1]$），且 $f$ 严格递减。\n（1）证明 $f(0)=1$，$f(1)=0$；\n（2）证明 $f$ 至多一个不动点；\n（3）若再设 $f$ 连续，证明恰有一个不动点。",
+      "breakthrough": "严减对合⇒f(0)=1,f(1)=0；至多一不动点；连续写入后介值",
+      "standardSolutionSketch": "（1）$f$ 为双射。由严格递减，$f(0)$ 为最大值，故 $f(0)=1$；同理 $f(1)=0$。\n（2）若 $a<b$ 均为不动点，则 $f(a)>f(b)$⇒$a>b$ 矛盾。\n（3）$g(x)=f(x)-x$ 连续，$g(0)=1>0$，$g(1)=-1<0$，介值得一根；合（2）恰一。",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-202",
+      "frozenFrom1D": false
+    },
+    {
+      "designId": "H3-DESIGN-204",
+      "chapter": "rja-ch3",
+      "section": "3.2",
+      "primaryKp": "rja.3.2.03",
+      "methods": [
+        "equiv_transform",
+        "mono_analysis"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "中点凸+严增 ⇒ 仿射（用二进有理+夹逼，不预设连续）",
+      "mathematicalModel": "设 $f:\\mathbb{R}\\to\\mathbb{R}$ 严格递增，且对一切实数 $x,y$ 满足\n$$f\\!\\left(\\dfrac{x+y}{2}\\right)=\\dfrac{f(x)+f(y)}{2}.$$\n证明：存在常数 $c$，使对一切实数 $x$ 有 $f(x)=f(0)+cx$。并求 $c$ 用 $f(1)$ 表示。",
+      "breakthrough": "严增把中点凸的病态解排除，二进有理仿射后夹逼到全实线",
+      "standardSolutionSketch": "令 $c=f(1)-f(0)$，$g(x)=f(x)-f(0)-cx$。则 $g$ 亦满足中点方程，$g(0)=g(1)=0$，且 $g$ 严格……实际上 $f$ 严增⇒若 $c\\le0$ 则 $f(1)\\le f(0)$ 矛盾，故 $c>0$，且 $g$ 在比较时可处理。\n由中点迭代：对一切二进有理 $r=k/2^{n}\\in[0,1]$，$g(r)=0$，从而 $f(r)=f(0)+cr$。平移得一切二进有理。\n任取实数 $x$，取二进有理序列 $r_n\\le x\\le s_n$，$s_n-r_n\\to0$。由 $f$ 严增：$f(r_n)\\le f(x)\\le f(s_n)$，即 $f(0)+cr_n\\le f(x)\\le f(0)+cs_n$。夹逼得 $f(x)=f(0)+cx$。\n未额外假设连续；严增提供夹逼。",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-204",
+      "frozenFrom1D": false
+    },
+    {
+      "designId": "H3-DESIGN-211",
+      "chapter": "rja-ch3",
+      "section": "3.1",
+      "primaryKp": "rja.3.1.04",
+      "methods": [
+        "equiv_transform",
+        "mono_analysis"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "倒数反射和的存在充要，与整体单调下端点可行域及构造",
+      "mathematicalModel": "设 $g:(0,+\\infty)\\to\\mathbb{R}$。\n（1）证明：存在函数 $f:(0,+\\infty)\\to\\mathbb{R}$ 使对一切 $x>0$ 有 $f(x)+f\\!\\left(\\dfrac1x\\right)=g(x)$，当且仅当对一切 $x>0$ 有 $g(x)=g\\!\\left(\\dfrac1x\\right)$。\n（2）取 $g(x)=x+\\dfrac1x$。设 $f:(",
+      "breakthrough": "存在 ⇔ g(x)=g(1/x)；整体递增迫使 f(x)≥x+1/x−1（x≥1），从而 f(2)≥3/2；用跳跃增函数构造证明上端无界可达",
+      "standardSolutionSketch": "（1）必要性：若存在 $f$，则 $g\\!\\left(\\dfrac1x\\right)=f\\!\\left(\\dfrac1x\\right)+f(x)=g(x)$。充分性：若 $g(x)=g\\!\\left(\\dfrac1x\\right)$，取 $f=\\dfrac12 g$ 即可（亦可再加满足 $p(x)+p(1/x)=0$ 的任意 $p$）。\n（2）$g$ 满足对称条件。令 $x=1$：$2f(1)=2\\Rightarrow f(1)=1$。对 $x\\ge 1$，由 $0<\\dfrac1x\\le 1\\le x$ 及递增得 $f\\!\\left(\\dfrac1x\\right)\\le f(1)\\le f(x)$。左边 $g(x)-f(x)\\le 1\\Rightarrow f(x)\\ge g(x)-1=x+\\dfrac1x-1$；右边 $f(x)\\ge 1$。因 $x+\\dfrac1x-1\\ge 1$，",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-211",
+      "frozenFrom1D": false
+    },
+    {
+      "designId": "H3-DESIGN-212",
+      "chapter": "rja-ch3",
+      "section": "3.2",
+      "primaryKp": "rja.3.2.01",
+      "methods": [
+        "equiv_transform",
+        "mono_analysis"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "等步长增量条件 + 单调夹逼 ⇒ 恒等函数（不用连续性）",
+      "mathematicalModel": "设 $f:[0,1]\\to\\mathbb{R}$ 单调递增，$f(0)=0$，且对一切正整数 $n$ 与一切满足 $x+\\dfrac1n\\in[0,1]$ 的 $x$，都有\n$$f\\!\\left(x+\\dfrac1n\\right)-f(x)=\\dfrac1n.$$\n证明：$f(x)=x$ 对一切 $x\\in[0,1]$ 成立。（证明中不得假设 $f$ 连续，不得使用导数。）",
+      "breakthrough": "先在全体有理分点得 f(k/n)=k/n，再用单调把任意 x 夹在相邻分点之间，全程不取极限定义连续性",
+      "standardSolutionSketch": "对固定正整数 $n$，由 $f(0)=0$ 与增量条件归纳得：对 $k=0,1,\\ldots,n$，$f\\!\\left(\\dfrac kn\\right)=\\dfrac kn$。特别 $f(1)=1$。\n任取 $x\\in(0,1)$。取充分大的正整数 $n$，令 $k=\\lfloor nx\\rfloor$，则 $\\dfrac kn\\le x\\le \\dfrac{k+1}n$。由单调性\n$$f\\!\\left(\\dfrac kn\\right)\\le f(x)\\le f\\!\\left(\\dfrac{k+1}n\\right),$$\n即 $\\dfrac kn\\le f(x)\\le \\dfrac{k+1}n$。又 $\\dfrac kn\\le x\\le \\dfrac{k+1}n$，故 $|f(x)-x|\\le \\dfrac1n$。因 $n$ 可任意大，必有 $f(x)=x$。全程只用分点赋值与单调夹逼，未",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-212",
+      "frozenFrom1D": false
+    },
+    {
+      "designId": "H3-DESIGN-213",
+      "chapter": "rja-ch3",
+      "section": "3.2",
+      "primaryKp": "rja.3.2.04",
+      "methods": [
+        "mono_analysis",
+        "classification"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "倍元不变 + 单调 ⇒ (0,1] 上常数；端点 0 可例外并构造反例",
+      "mathematicalModel": "设 $f:[0,1]\\to\\mathbb{R}$ 单调递增，且对一切 $x\\in\\bigl[0,\\dfrac12\\bigr]$ 有 $f(x)=f(2x)$。\n（1）证明：存在常数 $c$ 使对一切 $x\\in(0,1]$ 有 $f(x)=c$。（不得假设 $f$ 连续。）\n（2）$f(0)$ 是否必须等于 $c$？若不必，请构造反例；若在（1）的条件下再补充 $f(0)=f(1)$，结论如何？",
+      "breakthrough": "由 f(1)=f(1/2)=f(2^{-n}) 与单调，对任意 x∈(0,1] 取 2^{-n}≤x 夹逼得 f(x)=f(1)；f(0) 不受倍元链约束",
+      "standardSolutionSketch": "（1）条件改写为：对一切 $t\\in[0,1]$，$f(t)=f\\!\\left(\\dfrac t2\\right)$。于是 $f(1)=f\\!\\left(\\dfrac12\\right)=\\cdots=f(2^{-n})$。令 $c=f(1)$。任取 $x\\in(0,1]$，选取 $n$ 使 $2^{-n}\\le x$。由单调性 $f(2^{-n})\\le f(x)\\le f(1)$，但 $f(2^{-n})=f(1)$，故 $f(x)=c$。未用连续性。\n（2）取 $f(0)=-1$，$f(x)=0$（$x\\in(0,1]$）。则单调递增；对 $x\\in\\bigl[0,\\dfrac12\\bigr]$ 倍元条件成立。故 $f(0)$ 不必等于 $c$。若补充 $f(0)=f(1)=c$，则 $f$ 恒为 $c$。",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-213",
+      "frozenFrom1D": false
+    },
+    {
+      "designId": "H3-DESIGN-214",
+      "chapter": "rja-ch3",
+      "section": "3.2",
+      "primaryKp": "rja.3.2.12",
+      "methods": [
+        "equiv_transform",
+        "mono_analysis"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "奇函数 + 非负半轴可加 + 单调 ⇒ 全局一次（不用连续性）",
+      "mathematicalModel": "设 $f:\\mathbb{R}\\to\\mathbb{R}$ 为奇函数，且对一切 $x,y\\ge 0$ 有 $f(x+y)=f(x)+f(y)$，又 $f$ 在 $[0,+\\infty)$ 上单调递增。证明：存在常数 $c\\ge 0$，使得对一切实数 $x$ 有 $f(x)=cx$。（证明中不得假设 $f$ 连续。）",
+      "breakthrough": "先在非负有理点得 f(q)=qf(1)，再用单调夹逼到非负实点，最后用奇性延拓到负半轴",
+      "standardSolutionSketch": "奇函数 ⇒ $f(0)=0$。对 $x\\ge 0$ 与正整数 $n$，归纳得 $f(nx)=nf(x)$；进而对正整数 $m,n$ 有 $f\\!\\left(\\dfrac{m}{n}\\right)=\\dfrac{m}{n}f(1)$。令 $c=f(1)\\ge 0$（由递增）。\n任取 $x>0$。对正整数 $n$ 取 $k=\\lfloor nx\\rfloor$，单调性给出 $\\dfrac kn c\\le f(x)\\le \\dfrac{k+1}n c$，夹逼得 $f(x)=cx$。负半轴：$x<0$ 时 $f(x)=-f(-x)=cx$。未用连续性。",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-214",
+      "frozenFrom1D": false
+    },
+    {
+      "designId": "H3-DESIGN-215",
+      "chapter": "rja-ch3",
+      "section": "3.1",
+      "primaryKp": "rja.3.1.04",
+      "methods": [
+        "equiv_transform",
+        "mono_analysis"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "反射和为 1 + 单调增 + 点点低于恒等 ⇒ 唯一解 f(x)=x",
+      "mathematicalModel": "设 $f:[0,1]\\to\\mathbb{R}$ 满足：\n（i）对一切 $x\\in[0,1]$，$f(x)+f(1-x)=1$；\n（ii）$f$ 在 $[0,1]$ 上单调递增；\n（iii）对一切 $x\\in[0,1]$，$f(x)\\le x$。\n证明：$f(x)=x$ 对一切 $x\\in[0,1]$ 成立。",
+      "breakthrough": "端点先锁 f(0)=0,f(1)=1；左半 f≤id 与右半 f≤id（经反射化为左半 f≥id）夹出 f=id",
+      "standardSolutionSketch": "由（i），$f\\!\\left(\\dfrac12\\right)=\\dfrac12$，且 $f(0)+f(1)=1$。由（iii）$f(0)\\le 0$，$f(1)\\le 1$。结合 $f(1)=1-f(0)$ 得 $f(0)\\ge 0$，故 $f(0)=0$，$f(1)=1$。\n对 $x\\in\\bigl[0,\\dfrac12\\bigr]$，（iii）给出 $f(x)\\le x$。对 $z\\in\\bigl[\\dfrac12,1\\bigr]$，（iii）$f(z)\\le z$ 即 $f(1-z)\\ge 1-z$。令 $w=1-z\\in\\bigl[0,\\dfrac12\\bigr]$，则 $f(w)\\ge w$。于是对一切 $w\\in\\bigl[0,\\dfrac12\\bigr]$ 有 $w\\le f(w)\\le w$，故 $f(w)=w$。再由（i）得右半亦为恒等。",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-215",
+      "frozenFrom1D": false
+    },
+    {
+      "designId": "H3-DESIGN-216",
+      "chapter": "rja-ch3",
+      "section": "3.2",
+      "primaryKp": "rja.3.2.01",
+      "methods": [
+        "equiv_transform",
+        "mono_analysis"
+      ],
+      "targetHardLevel": "H3",
+      "coreObjective": "仅 2^{-k} 步长平移不变 + 单调 ⇒ 常数（条件弱于 1/n 平移）",
+      "mathematicalModel": "设 $f:[0,1]\\to\\mathbb{R}$ 单调递增，且对一切 $x\\in[0,1]$ 与一切正整数 $k$，只要 $x+2^{-k}\\in[0,1]$，就有\n$$f\\!\\left(x+2^{-k}\\right)=f(x).$$\n证明 $f$ 为常函数。（证明中不得假设 $f$ 连续。）",
+      "breakthrough": "弱假设仍能得全体 dyadic 分点同值，而 dyadic 在 [0,1] 仍足以被单调夹逼到任意点",
+      "standardSolutionSketch": "对固定正整数 $n$，令 $h=2^{-n}$。反复使用步长 $h$ 的平移不变性，得对一切整数 $m$ 满足 $0\\le m\\le 2^n$，有 $f(mh)=f(0)$。特别 $f(1)=f(0)$。\n任取 $x\\in(0,1)$。取充分大的 $n$，令 $m=\\lfloor 2^n x\\rfloor$，则 $\\dfrac{m}{2^n}\\le x\\le \\dfrac{m+1}{2^n}$。由单调性两端均为 $f(0)$，故 $f(x)=f(0)$。未用连续性。关键：假设弱于“一切 $1/n$ 平移”，但二进分点已足够密。",
+      "h3Gate": "ACCEPTED_H3",
+      "candidateCode": "CAND-H3C14-216",
+      "frozenFrom1D": false
+    }
+  ]
+}

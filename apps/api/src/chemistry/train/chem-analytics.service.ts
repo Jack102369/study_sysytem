@@ -2,6 +2,12 @@ import { Injectable } from '@nestjs/common'
 import { InjectRepository } from '@nestjs/typeorm'
 import { DataSource, Repository } from 'typeorm'
 import { ChemSpecialty } from '../chem-specialty.entity'
+import { ChemCategory } from '../chem-category.entity'
+import { INDUSTRIAL_SPECIALTY_CODE } from '../industrial/industrial-case.constants'
+import {
+  assertIndustrialSpecialtyAllowed,
+  isChemIndustrialExperimentEnabled,
+} from '../industrial/industrial-feature.config'
 import { ChemAdvancedTrainService } from './chem-advanced-train.service'
 import { ChemTrainEligibilityService } from './chem-train-eligibility.service'
 import { ChemWrongQuestionService } from './chem-wrong-question.service'
@@ -59,11 +65,21 @@ export class ChemAnalyticsService {
     private readonly wrongRepo: Repository<ChemWrongItem>,
     @InjectRepository(ChemSpecialty)
     private readonly specialtiesRepo: Repository<ChemSpecialty>,
+    @InjectRepository(ChemCategory)
+    private readonly categoriesRepo: Repository<ChemCategory>,
     private readonly dataSource: DataSource,
   ) {}
 
-  async getAnalytics(userId: string, daysRaw?: 7 | 30) {
+  async getAnalytics(
+    userId: string,
+    daysRaw?: 7 | 30,
+    specialtyCodeFilter?: string,
+  ) {
     const days: 7 | 30 = daysRaw === 7 ? 7 : 30
+    const focusCode = String(specialtyCodeFilter || '').trim() || null
+    if (focusCode === INDUSTRIAL_SPECIALTY_CODE) {
+      assertIndustrialSpecialtyAllowed(focusCode)
+    }
     const today = shanghaiDateString()
     const windowStart = shanghaiDateMinusDays(days - 1)
     const calendarStart = shanghaiDateMinusDays(29)
@@ -94,7 +110,7 @@ export class ChemAnalyticsService {
     const windowIds = inWindow.map((s) => s.id)
     const calendarIds = inCalendar.map((s) => s.id)
 
-    const [windowRows, calendarRows, specialties, wrongSummary] =
+    const [windowRows, calendarRows, specialtiesRaw, wrongSummary] =
       await Promise.all([
         this.loadItemRows(windowIds),
         this.loadItemRows(calendarIds),
@@ -104,6 +120,7 @@ export class ChemAnalyticsService {
         }),
         this.wrong.summary(userId),
       ])
+    let specialties = specialtiesRaw
 
     const sessionDateMap = new Map<string, string>()
     for (const s of allCompleted) {
@@ -111,6 +128,13 @@ export class ChemAnalyticsService {
       sessionDateMap.set(
         String(s.id),
         shanghaiDateString(new Date(s.submittedAt)),
+      )
+    }
+
+    // 停用时统计不展示工业实验专项
+    if (!isChemIndustrialExperimentEnabled()) {
+      specialties = specialties.filter(
+        (s) => s.code !== INDUSTRIAL_SPECIALTY_CODE,
       )
     }
 
@@ -129,17 +153,33 @@ export class ChemAnalyticsService {
       sessionDateMap,
     )
 
+    const focusSp = focusCode
+      ? specialties.find((s) => s.code === focusCode) || null
+      : null
+    const scopedRows = focusSp
+      ? windowRows.filter(
+          (r: { specialty_id: string | null }) =>
+            String(r.specialty_id) === String(focusSp.id),
+        )
+      : windowRows
+
     const overviewAgg = emptyAgg()
-    for (const r of windowRows) {
-      applyGrade(overviewAgg, r.user_answer, r.grade_result)
+    for (const r of scopedRows) {
+      applyGrade(overviewAgg, r.user_answer || '', r.grade_result)
     }
 
     const specialtiesStats = this.buildSpecialtyStats(
       specialties,
       windowRows,
     )
-    const difficulties = this.buildDifficultyStats(windowRows)
+    const difficulties = this.buildDifficultyStats(scopedRows)
     const topWrong = await this.buildTopWrongSpecialties(
+      userId,
+      specialties,
+      windowRows,
+    )
+
+    const industrialFocus = await this.buildIndustrialCategoryFocus(
       userId,
       specialties,
       windowRows,
@@ -161,6 +201,16 @@ export class ChemAnalyticsService {
       difficulties,
       days,
     })
+    if (industrialFocus?.recommendations?.length) {
+      suggestions.push(...(industrialFocus.recommendations as typeof suggestions))
+      suggestions.sort((a, b) => a.priority - b.priority)
+    }
+
+    const focusedSessionIds = new Set(
+      scopedRows
+        .map((r: { session_id: string }) => String(r.session_id))
+        .filter(Boolean),
+    )
 
     return {
       timezone: 'Asia/Shanghai',
@@ -179,23 +229,31 @@ export class ChemAnalyticsService {
         attributionNote,
         '仅统计已提交训练；练习题次需有作答且具可靠判题结果；正确率分母=correct+wrong，pending_review 不进分母。',
         '活跃度日历固定最近30个上海自然日；趋势/专项/难度/高频错误随 days=7|30 切换。',
+        focusSp
+          ? `当前聚焦专项：${focusSp.name}（overview/difficulty 已按该专项过滤；专项对比表仍为全量）`
+          : '未聚焦专项：overview 为窗口内全部专项。',
       ],
+      focusSpecialtyCode: focusSp?.code || null,
+      focusSpecialtyName: focusSp?.name || null,
       overview: {
-        submittedSessions: inWindow.length,
+        submittedSessions: focusSp
+          ? inWindow.filter((s) => focusedSessionIds.has(String(s.id))).length
+          : inWindow.length,
         practicedItems: overviewAgg.practiced,
         correctCount: overviewAgg.correct,
         wrongCount: overviewAgg.wrong,
         pendingReviewCount: overviewAgg.pending,
         accuracyPercent: accuracyOf(overviewAgg),
-        accuracyNote: 'correct / (correct + wrong)；无明确对错时为 null',
+        accuracyNote: 'correct / (correct + wrong)；无明确对错时为 null；无数据时为 null 不是 0%',
       },
       calendar,
       trend,
       specialties: {
         title: '各专项近期答题表现',
-        titleNote: '答题正确率 ≠ 知识点掌握度',
+        titleNote: '答题正确率 ≠ 知识点掌握度；含工业实验（第13专项）',
         items: specialtiesStats,
       },
+      industrialFocus,
       difficulties: {
         title: '基础 / 提高 / 挑战难度表现',
         items: difficulties,
@@ -211,16 +269,20 @@ export class ChemAnalyticsService {
   }
 
   private async loadItemRows(sessionIds: string[]) {
-    if (!sessionIds.length) return [] as Array<{
-      session_id: string
-      item_id: string | null
-      user_answer: string | null
-      grade_result: string | null
-      specialty_id: string | null
-      specialty_code: string | null
-      specialty_name: string | null
-      difficulty: number | null
-    }>
+    if (!sessionIds.length)
+      return [] as Array<{
+        session_id: string
+        item_id: string | null
+        user_answer: string | null
+        grade_result: string | null
+        specialty_id: string | null
+        specialty_code: string | null
+        specialty_name: string | null
+        category_id: string | null
+        category_code: string | null
+        category_name: string | null
+        difficulty: number | null
+      }>
     return this.dataSource.query(
       `SELECT si.session_id AS session_id,
               si.item_id AS item_id,
@@ -229,13 +291,111 @@ export class ChemAnalyticsService {
               i.specialty_id AS specialty_id,
               sp.code AS specialty_code,
               sp.name AS specialty_name,
+              i.category_id AS category_id,
+              c.code AS category_code,
+              c.name AS category_name,
               i.difficulty AS difficulty
        FROM chem_train_session_items si
        LEFT JOIN chem_train_items i ON i.id = si.item_id
        LEFT JOIN chem_specialties sp ON sp.id = i.specialty_id
+       LEFT JOIN chem_categories c ON c.id = i.category_id
        WHERE si.session_id IN (${sessionIds.map(() => '?').join(',')})`,
       sessionIds,
     )
+  }
+
+  /** 工业实验 12 分类表现；无数据分类 empty=true、accuracy=null（不是 0%） */
+  private async buildIndustrialCategoryFocus(
+    userId: string,
+    specialties: ChemSpecialty[],
+    rows: Array<{
+      user_answer: string | null
+      grade_result: string | null
+      specialty_id: string | null
+      category_id: string | null
+      category_code: string | null
+      category_name: string | null
+    }>,
+  ) {
+    if (!isChemIndustrialExperimentEnabled()) {
+      return {
+        specialtyCode: INDUSTRIAL_SPECIALTY_CODE,
+        available: false,
+        disabled: true,
+        note: '工业实验模块已停用（CHEM_INDUSTRIAL_EXPERIMENT_ENABLED 默认关闭）',
+        categories: [] as unknown[],
+        recommendations: [] as unknown[],
+      }
+    }
+    const ind = specialties.find((s) => s.code === INDUSTRIAL_SPECIALTY_CODE)
+    if (!ind) {
+      return {
+        specialtyCode: INDUSTRIAL_SPECIALTY_CODE,
+        available: false,
+        note: '工业实验专项尚未种子到 chem_specialties',
+        categories: [] as unknown[],
+        recommendations: [] as unknown[],
+      }
+    }
+    const cats = await this.categoriesRepo.find({
+      where: { specialtyId: ind.id, isActive: true },
+      order: { sortOrder: 'ASC' },
+    })
+    const byCat = new Map<string, GradeAgg>()
+    for (const c of cats) byCat.set(String(c.id), emptyAgg())
+
+    for (const r of rows) {
+      if (String(r.specialty_id) !== String(ind.id)) continue
+      const cid = r.category_id != null ? String(r.category_id) : null
+      if (!cid || !byCat.has(cid)) continue
+      applyGrade(byCat.get(cid)!, r.user_answer || '', r.grade_result)
+    }
+
+    const categories = cats.map((c) => {
+      const a = byCat.get(String(c.id))!
+      const graded = a.correct + a.wrong
+      const empty = a.practiced === 0 && graded === 0 && a.pending === 0
+      return {
+        categoryCode: c.code,
+        categoryName: c.name,
+        practicedItems: a.practiced,
+        correctCount: a.correct,
+        wrongCount: a.wrong,
+        pendingReviewCount: a.pending,
+        gradedItems: graded,
+        accuracyPercent: empty ? null : accuracyOf(a),
+        empty,
+        sampleLow: !empty && graded > 0 && graded < 5,
+        sampleNote: !empty && graded > 0 && graded < 5 ? '样本较少，不足以断言掌握' : null,
+      }
+    })
+
+    const weak = [...categories]
+      .filter((x) => !x.empty && x.wrongCount > 0 && x.gradedItems >= 3)
+      .sort(
+        (a, b) =>
+          (a.accuracyPercent ?? 100) - (b.accuracyPercent ?? 100) ||
+          b.wrongCount - a.wrongCount,
+      )
+      .slice(0, 3)
+
+    const recommendations = weak.map((w) => ({
+      id: `industrial_cat_${w.categoryCode}`,
+      reason: `工业实验「${w.categoryName}」近窗明确正确率 ${w.accuracyPercent}%（样本 ${w.gradedItems}），建议优先复习该分类错题。`,
+      cta: '查看工业实验错题',
+      path: `/chemistry/wrong-questions?specialtyCode=${encodeURIComponent(INDUSTRIAL_SPECIALTY_CODE)}&categoryCode=${encodeURIComponent(w.categoryCode)}`,
+      priority: 4,
+    }))
+
+    void userId
+    return {
+      specialtyCode: INDUSTRIAL_SPECIALTY_CODE,
+      specialtyName: ind.name,
+      available: true,
+      note: '仅统计已提交且明确 correct/wrong 的工业实验题次；无数据分类不显示 0% 正确率。',
+      categories,
+      recommendations,
+    }
   }
 
   private buildDailySeries(

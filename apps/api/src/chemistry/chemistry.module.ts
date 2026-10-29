@@ -28,10 +28,20 @@ import { LocalGeneratorController } from './train/generator/local-generator.cont
 import { LocalGeneratorService } from './train/generator/local-generator.service'
 import { TrainItemsAdminController } from './train/generator/train-items-admin.controller'
 import { TrainItemsAdminService } from './train/generator/train-items-admin.service'
+import { IndustrialReviewController } from './industrial/industrial-review.controller'
+import { IndustrialReviewNestService } from './industrial/industrial-review.nest'
+import { IndustrialExperimentEnabledGuard } from './industrial/industrial-experiment-enabled.guard'
+import { IndustrialFormalImportDbService } from './industrial/industrial-formal-import.db'
+import { IndustrialItemAssetQueryService } from './industrial/industrial-item-asset.query'
+import { IndustrialWrongVariationService } from './industrial/industrial-wrong-variation.service'
+import { IndustrialKbBindService } from './industrial/industrial-kb-bind.service'
 import { ChemTrainItem } from './train/entities/chem-train-item.entity'
+import { ChemTrainItemAsset } from './train/entities/chem-train-item-asset.entity'
 import { ChemTrainItemLink } from './train/entities/chem-train-item-link.entity'
 import { ChemTrainSession } from './train/entities/chem-train-session.entity'
 import { ChemTrainSessionItem } from './train/entities/chem-train-session-item.entity'
+import { ChemTrainSessionItemAsset } from './train/entities/chem-train-session-item-asset.entity'
+import { ChemTrainSessionDiagramService } from './train/chem-train-session-diagram.service'
 import { ChemTrainTestGrant } from './train/entities/chem-train-test-grant.entity'
 import { ChemWrongEvent } from './train/entities/chem-wrong-event.entity'
 import { ChemWrongItem } from './train/entities/chem-wrong-item.entity'
@@ -93,10 +103,12 @@ const KB_ENTITIES = [
 
 const TRAIN_ENTITIES = [
   ChemTrainItem,
+  ChemTrainItemAsset,
   ChemTrainItemLink,
   ChemTrainTestGrant,
   ChemTrainSession,
   ChemTrainSessionItem,
+  ChemTrainSessionItemAsset,
   ChemWrongItem,
   ChemWrongEvent,
 ]
@@ -124,12 +136,14 @@ const TRAIN_ENTITIES = [
     ChemAnalyticsController,
     LocalGeneratorController,
     TrainItemsAdminController,
+    IndustrialReviewController,
   ],
   providers: [
     ChemistryService,
     ChemKbService,
     ChemKbImportService,
     ChemTrainEligibilityService,
+    ChemTrainSessionDiagramService,
     ChemTrainService,
     ChemDailyReviewService,
     ChemAdvancedTrainService,
@@ -138,8 +152,22 @@ const TRAIN_ENTITIES = [
     ChemAnalyticsService,
     LocalGeneratorService,
     TrainItemsAdminService,
+    IndustrialReviewNestService,
+    IndustrialFormalImportDbService,
+    IndustrialItemAssetQueryService,
+    IndustrialWrongVariationService,
+    IndustrialKbBindService,
+    IndustrialExperimentEnabledGuard,
     AdminGuard,
   ],
-  exports: [ChemistryService, ChemKbService, ChemTrainService, ChemWrongQuestionService],
+  exports: [
+    ChemistryService,
+    ChemKbService,
+    ChemTrainService,
+    ChemWrongQuestionService,
+    IndustrialItemAssetQueryService,
+    IndustrialWrongVariationService,
+    IndustrialKbBindService,
+  ],
 })
 export class ChemistryModule {}

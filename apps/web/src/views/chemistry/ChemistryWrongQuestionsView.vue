@@ -57,6 +57,35 @@
           已筛选：今日建议复习
         </el-tag>
         <el-select
+          v-model="specialtyCode"
+          clearable
+          placeholder="全部专项"
+          style="width: 160px"
+          @change="onSpecialtyChange"
+        >
+          <el-option
+            v-for="s in specialties"
+            :key="s.code"
+            :label="s.name"
+            :value="s.code"
+          />
+        </el-select>
+        <el-select
+          v-model="categoryCode"
+          clearable
+          placeholder="全部分类"
+          style="width: 160px"
+          :disabled="!specialtyCode"
+          @change="reload"
+        >
+          <el-option
+            v-for="c in categories"
+            :key="c.code"
+            :label="c.name"
+            :value="c.code"
+          />
+        </el-select>
+        <el-select
           v-model="sort"
           style="width: 140px"
           @change="reload"
@@ -172,6 +201,12 @@ import {
   type ChemWrongSummary,
   type ChemWrongWeakItem,
 } from '@/api/chemistry-train'
+import {
+  getChemSpecialty,
+  listChemSpecialties,
+  type ChemCategoryItem,
+  type ChemSpecialtySummary,
+} from '@/api/chemistry'
 import errMsg from '@/utils/err-msg'
 
 const route = useRoute()
@@ -187,6 +222,10 @@ const page = ref(1)
 const pageSize = 20
 const statusFilter = ref('all')
 const sort = ref('priority')
+const specialtyCode = ref('')
+const categoryCode = ref('')
+const specialties = ref<ChemSpecialtySummary[]>([])
+const categories = ref<ChemCategoryItem[]>([])
 
 const focusDue = computed(
   () =>
@@ -197,6 +236,8 @@ function applyFocusFromRoute() {
   if (String(route.query.focus || '') === 'due') {
     statusFilter.value = 'due_today'
   }
+  specialtyCode.value = String(route.query.specialtyCode || '')
+  categoryCode.value = String(route.query.categoryCode || '')
 }
 
 function formatTime(v: string) {
@@ -229,17 +270,48 @@ async function loadSummary() {
 
 async function loadList() {
   const due = statusFilter.value === 'due_today'
-  const specialtyCode = String(route.query.specialtyCode || '') || undefined
   const data = await listChemWrongQuestions({
     status: due ? undefined : statusFilter.value,
     dueToday: due ? '1' : undefined,
-    specialtyCode,
+    specialtyCode: specialtyCode.value || undefined,
+    categoryCode: categoryCode.value || undefined,
     sort: sort.value,
     page: page.value,
     pageSize,
   })
   rows.value = data.items
   total.value = data.total
+}
+
+async function loadSpecialties() {
+  specialties.value = await listChemSpecialties()
+  if (specialtyCode.value) await loadCategories(specialtyCode.value)
+}
+
+async function loadCategories(code: string) {
+  if (!code) {
+    categories.value = []
+    return
+  }
+  const d = await getChemSpecialty(code)
+  categories.value = d.categories || []
+}
+
+async function onSpecialtyChange() {
+  categoryCode.value = ''
+  await loadCategories(specialtyCode.value)
+  syncQueryFilters()
+  reload()
+}
+
+function syncQueryFilters() {
+  const q: Record<string, string> = {}
+  if (statusFilter.value === 'due_today' || route.query.focus === 'due') {
+    q.focus = 'due'
+  }
+  if (specialtyCode.value) q.specialtyCode = specialtyCode.value
+  if (categoryCode.value) q.categoryCode = categoryCode.value
+  void router.replace({ path: '/chemistry/wrong-questions', query: q })
 }
 
 function onStatusChange() {
@@ -258,7 +330,7 @@ function onStatusChange() {
 async function load() {
   loading.value = true
   try {
-    await Promise.all([loadSummary(), loadList()])
+    await Promise.all([loadSpecialties(), loadSummary(), loadList()])
   } catch (e) {
     ElMessage.error(errMsg(e, '加载错题中心失败'))
   } finally {
@@ -305,13 +377,17 @@ async function onRebuild() {
 }
 
 watch(
-  () => route.query.focus,
+  () => [route.query.focus, route.query.specialtyCode, route.query.categoryCode],
   () => {
     applyFocusFromRoute()
     page.value = 1
     void load()
   },
 )
+
+watch(categoryCode, () => {
+  syncQueryFilters()
+})
 
 onMounted(() => {
   applyFocusFromRoute()

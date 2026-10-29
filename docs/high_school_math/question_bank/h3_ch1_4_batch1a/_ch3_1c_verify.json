@@ -1,0 +1,25 @@
+{
+  "baselineIntact": true,
+  "diffs": [],
+  "total": 44,
+  "batchContentSha256": "293f44add5373711b642593f58c61ce867f6362a0ff81314ca618ca2af02dde2",
+  "fileSha256": "68b705e7cdd79941037df8783729077187fe9198670958288259da2634fdfcc6",
+  "status": "QUALITY_PARTIAL",
+  "newIds": [
+    "CAND-H3C14-051",
+    "CAND-H3C14-052",
+    "CAND-H3C14-056",
+    "CAND-H3C14-058",
+    "CAND-H3C14-059",
+    "CAND-H3C14-060"
+  ],
+  "chapter": {
+    "1": 5,
+    "2": 20,
+    "3": 14,
+    "4": 5
+  },
+  "shaNote": "batchContentSha256=sha256(item contentShas joined by |); fileSha256=sha256(entire candidates.mjs bytes)",
+  "baselineBatchSha": "a0f1b60b8690a0e4d8fc73ab31162d4c26495d4f265ce67f40d34d0aff653415",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED"
+}

@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_distill",
+  "apparatusVersion": "1.0.0",
+  "orientation": "left_to_right",
+  "title": "蒸馏-冷凝-产品收集",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "components": [
+    {
+      "componentId": "dist1",
+      "componentType": "distillation_unit",
+      "displayLabel": "蒸馏釜",
+      "ports": [
+        {
+          "portId": "feed_in",
+          "direction": "in",
+          "media": [
+            "liquid"
+          ]
+        },
+        {
+          "portId": "vapor_out",
+          "direction": "out",
+          "media": [
+            "gas"
+          ]
+        },
+        {
+          "portId": "residue_out",
+          "direction": "out",
+          "media": [
+            "liquid"
+          ]
+        }
+      ]
+    },
+    {
+      "componentId": "cond1",
+      "componentType": "condenser",
+      "displayLabel": "冷凝器",
+      "ports": [
+        {
+          "portId": "vapor_in",
+          "direction": "in",
+          "media": [
+            "gas"
+          ]
+        },
+        {
+          "portId": "liquid_out",
+          "direction": "out",
+          "media": [
+            "liquid"
+          ]
+        },
+        {
+          "portId": "coolant_in",
+          "direction": "in",
+          "media": [
+            "coolant",
+            "liquid"
+          ]
+        },
+        {
+          "portId": "coolant_out",
+          "direction": "out",
+          "media": [
+            "coolant",
+            "liquid"
+          ]
+        }
+      ]
+    },
+    {
+      "componentId": "prod",
+      "componentType": "liquid_tank",
+      "displayLabel": "馏出液",
+      "ports": [
+        {
+          "portId": "liquid_in",
+          "direction": "in",
+          "media": [
+            "liquid"
+          ]
+        },
+        {
+          "portId": "liquid_out",
+          "direction": "out",
+          "media": [
+            "liquid"
+          ]
+        }
+      ]
+    },
+    {
+      "componentId": "coolsrc",
+      "componentType": "cooler",
+      "displayLabel": "冷却回路",
+      "ports": [
+        {
+          "portId": "coolant_in",
+          "direction": "in",
+          "media": [
+            "coolant",
+            "liquid"
+          ]
+        },
+        {
+          "portId": "coolant_out",
+          "direction": "out",
+          "media": [
+            "coolant",
+            "liquid"
+          ]
+        },
+        {
+          "portId": "process_in",
+          "direction": "in",
+          "media": [
+            "gas",
+            "liquid"
+          ]
+        },
+        {
+          "portId": "process_out",
+          "direction": "out",
+          "media": [
+            "gas",
+            "liquid"
+          ]
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "d1",
+      "sourceComponentId": "dist1",
+      "sourcePortId": "vapor_out",
+      "targetComponentId": "cond1",
+      "targetPortId": "vapor_in",
+      "flowType": "gas"
+    },
+    {
+      "connectionId": "d2",
+      "sourceComponentId": "cond1",
+      "sourcePortId": "liquid_out",
+      "targetComponentId": "prod",
+      "targetPortId": "liquid_in",
+      "flowType": "liquid"
+    },
+    {
+      "connectionId": "cw1",
+      "sourceComponentId": "coolsrc",
+      "sourcePortId": "coolant_out",
+      "targetComponentId": "cond1",
+      "targetPortId": "coolant_in",
+      "flowType": "coolant"
+    },
+    {
+      "connectionId": "cw2",
+      "sourceComponentId": "cond1",
+      "sourcePortId": "coolant_out",
+      "targetComponentId": "coolsrc",
+      "targetPortId": "coolant_in",
+      "flowType": "coolant"
+    }
+  ],
+  "publicContentHash": "0ac9b07b7f46f305079a1d1935c1deb393b83a4309668de9083803a310b221f5"
+}

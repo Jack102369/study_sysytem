@@ -1,0 +1,696 @@
+{
+  "phase": "HS-MATH-HARD-CH1-4-ADVISORY-CLOSURE-1E",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "status": "HARD_BATCH100_READY_FOR_PREFLIGHT",
+  "fix1dReplacedIds": [
+    "CAND-HARD14-039",
+    "CAND-HARD14-074",
+    "CAND-HARD14-073",
+    "CAND-HARD14-026",
+    "CAND-HARD14-031",
+    "CAND-HARD14-033",
+    "CAND-HARD14-041",
+    "CAND-HARD14-065",
+    "CAND-HARD14-081",
+    "CAND-HARD14-082",
+    "CAND-HARD14-085"
+  ],
+  "fix1eReplacedIds": [
+    "CAND-HARD14-001",
+    "CAND-HARD14-011",
+    "CAND-HARD14-014",
+    "CAND-HARD14-017",
+    "CAND-HARD14-020",
+    "CAND-HARD14-029",
+    "CAND-HARD14-030",
+    "CAND-HARD14-034",
+    "CAND-HARD14-042",
+    "CAND-HARD14-046",
+    "CAND-HARD14-048",
+    "CAND-HARD14-049",
+    "CAND-HARD14-050",
+    "CAND-HARD14-051",
+    "CAND-HARD14-055",
+    "CAND-HARD14-059",
+    "CAND-HARD14-063",
+    "CAND-HARD14-064",
+    "CAND-HARD14-067",
+    "CAND-HARD14-068",
+    "CAND-HARD14-069",
+    "CAND-HARD14-086",
+    "CAND-HARD14-087",
+    "CAND-HARD14-088",
+    "CAND-HARD14-089",
+    "CAND-HARD14-092",
+    "CAND-HARD14-093",
+    "CAND-HARD14-094",
+    "CAND-HARD14-097"
+  ],
+  "hardLevelOverrideIds": [
+    "CAND-HARD14-009",
+    "CAND-HARD14-010",
+    "CAND-HARD14-037",
+    "CAND-HARD14-038",
+    "CAND-HARD14-040",
+    "CAND-HARD14-043",
+    "CAND-HARD14-044",
+    "CAND-HARD14-045",
+    "CAND-HARD14-075",
+    "CAND-HARD14-076",
+    "CAND-HARD14-077",
+    "CAND-HARD14-078",
+    "CAND-HARD14-079",
+    "CAND-HARD14-080",
+    "CAND-HARD14-083",
+    "CAND-HARD14-084",
+    "CAND-HARD14-099"
+  ],
+  "auditedAt": "2026-10-28T08:15:20.961Z",
+  "baselineReadonly": {
+    "drawable": 813,
+    "byDifficulty": {
+      "1": 335,
+      "2": 478
+    }
+  },
+  "mapping": {
+    "count": 100,
+    "pairs": [
+      {
+        "designId": "HARD-DESIGN-001",
+        "candidateCode": "CAND-HARD14-001"
+      },
+      {
+        "designId": "HARD-DESIGN-002",
+        "candidateCode": "CAND-HARD14-002"
+      },
+      {
+        "designId": "HARD-DESIGN-003",
+        "candidateCode": "CAND-HARD14-003"
+      },
+      {
+        "designId": "HARD-DESIGN-004",
+        "candidateCode": "CAND-HARD14-004"
+      },
+      {
+        "designId": "HARD-DESIGN-005",
+        "candidateCode": "CAND-HARD14-005"
+      },
+      {
+        "designId": "HARD-DESIGN-006",
+        "candidateCode": "CAND-HARD14-006"
+      },
+      {
+        "designId": "HARD-DESIGN-007",
+        "candidateCode": "CAND-HARD14-007"
+      },
+      {
+        "designId": "HARD-DESIGN-008",
+        "candidateCode": "CAND-HARD14-008"
+      },
+      {
+        "designId": "HARD-DESIGN-009",
+        "candidateCode": "CAND-HARD14-009"
+      },
+      {
+        "designId": "HARD-DESIGN-010",
+        "candidateCode": "CAND-HARD14-010"
+      },
+      {
+        "designId": "HARD-DESIGN-011",
+        "candidateCode": "CAND-HARD14-011"
+      },
+      {
+        "designId": "HARD-DESIGN-012",
+        "candidateCode": "CAND-HARD14-012"
+      },
+      {
+        "designId": "HARD-DESIGN-013",
+        "candidateCode": "CAND-HARD14-013"
+      },
+      {
+        "designId": "HARD-DESIGN-014",
+        "candidateCode": "CAND-HARD14-014"
+      },
+      {
+        "designId": "HARD-DESIGN-015",
+        "candidateCode": "CAND-HARD14-015"
+      },
+      {
+        "designId": "HARD-DESIGN-016",
+        "candidateCode": "CAND-HARD14-016"
+      },
+      {
+        "designId": "HARD-DESIGN-017",
+        "candidateCode": "CAND-HARD14-017"
+      },
+      {
+        "designId": "HARD-DESIGN-018",
+        "candidateCode": "CAND-HARD14-018"
+      },
+      {
+        "designId": "HARD-DESIGN-019",
+        "candidateCode": "CAND-HARD14-019"
+      },
+      {
+        "designId": "HARD-DESIGN-020",
+        "candidateCode": "CAND-HARD14-020"
+      },
+      {
+        "designId": "HARD-DESIGN-021",
+        "candidateCode": "CAND-HARD14-021"
+      },
+      {
+        "designId": "HARD-DESIGN-022",
+        "candidateCode": "CAND-HARD14-022"
+      },
+      {
+        "designId": "HARD-DESIGN-023",
+        "candidateCode": "CAND-HARD14-023"
+      },
+      {
+        "designId": "HARD-DESIGN-024",
+        "candidateCode": "CAND-HARD14-024"
+      },
+      {
+        "designId": "HARD-DESIGN-025",
+        "candidateCode": "CAND-HARD14-025"
+      },
+      {
+        "designId": "HARD-DESIGN-026",
+        "candidateCode": "CAND-HARD14-026"
+      },
+      {
+        "designId": "HARD-DESIGN-027",
+        "candidateCode": "CAND-HARD14-027"
+      },
+      {
+        "designId": "HARD-DESIGN-028",
+        "candidateCode": "CAND-HARD14-028"
+      },
+      {
+        "designId": "HARD-DESIGN-029",
+        "candidateCode": "CAND-HARD14-029"
+      },
+      {
+        "designId": "HARD-DESIGN-030",
+        "candidateCode": "CAND-HARD14-030"
+      },
+      {
+        "designId": "HARD-DESIGN-031",
+        "candidateCode": "CAND-HARD14-031"
+      },
+      {
+        "designId": "HARD-DESIGN-032",
+        "candidateCode": "CAND-HARD14-032"
+      },
+      {
+        "designId": "HARD-DESIGN-033",
+        "candidateCode": "CAND-HARD14-033"
+      },
+      {
+        "designId": "HARD-DESIGN-034",
+        "candidateCode": "CAND-HARD14-034"
+      },
+      {
+        "designId": "HARD-DESIGN-035",
+        "candidateCode": "CAND-HARD14-035"
+      },
+      {
+        "designId": "HARD-DESIGN-036",
+        "candidateCode": "CAND-HARD14-036"
+      },
+      {
+        "designId": "HARD-DESIGN-037",
+        "candidateCode": "CAND-HARD14-037"
+      },
+      {
+        "designId": "HARD-DESIGN-038",
+        "candidateCode": "CAND-HARD14-038"
+      },
+      {
+        "designId": "HARD-DESIGN-039",
+        "candidateCode": "CAND-HARD14-039"
+      },
+      {
+        "designId": "HARD-DESIGN-040",
+        "candidateCode": "CAND-HARD14-040"
+      },
+      {
+        "designId": "HARD-DESIGN-041",
+        "candidateCode": "CAND-HARD14-041"
+      },
+      {
+        "designId": "HARD-DESIGN-042",
+        "candidateCode": "CAND-HARD14-042"
+      },
+      {
+        "designId": "HARD-DESIGN-043",
+        "candidateCode": "CAND-HARD14-043"
+      },
+      {
+        "designId": "HARD-DESIGN-044",
+        "candidateCode": "CAND-HARD14-044"
+      },
+      {
+        "designId": "HARD-DESIGN-045",
+        "candidateCode": "CAND-HARD14-045"
+      },
+      {
+        "designId": "HARD-DESIGN-046",
+        "candidateCode": "CAND-HARD14-046"
+      },
+      {
+        "designId": "HARD-DESIGN-047",
+        "candidateCode": "CAND-HARD14-047"
+      },
+      {
+        "designId": "HARD-DESIGN-048",
+        "candidateCode": "CAND-HARD14-048"
+      },
+      {
+        "designId": "HARD-DESIGN-049",
+        "candidateCode": "CAND-HARD14-049"
+      },
+      {
+        "designId": "HARD-DESIGN-050",
+        "candidateCode": "CAND-HARD14-050"
+      },
+      {
+        "designId": "HARD-DESIGN-051",
+        "candidateCode": "CAND-HARD14-051"
+      },
+      {
+        "designId": "HARD-DESIGN-052",
+        "candidateCode": "CAND-HARD14-052"
+      },
+      {
+        "designId": "HARD-DESIGN-053",
+        "candidateCode": "CAND-HARD14-053"
+      },
+      {
+        "designId": "HARD-DESIGN-054",
+        "candidateCode": "CAND-HARD14-054"
+      },
+      {
+        "designId": "HARD-DESIGN-055",
+        "candidateCode": "CAND-HARD14-055"
+      },
+      {
+        "designId": "HARD-DESIGN-056",
+        "candidateCode": "CAND-HARD14-056"
+      },
+      {
+        "designId": "HARD-DESIGN-057",
+        "candidateCode": "CAND-HARD14-057"
+      },
+      {
+        "designId": "HARD-DESIGN-058",
+        "candidateCode": "CAND-HARD14-058"
+      },
+      {
+        "designId": "HARD-DESIGN-059",
+        "candidateCode": "CAND-HARD14-059"
+      },
+      {
+        "designId": "HARD-DESIGN-060",
+        "candidateCode": "CAND-HARD14-060"
+      },
+      {
+        "designId": "HARD-DESIGN-061",
+        "candidateCode": "CAND-HARD14-061"
+      },
+      {
+        "designId": "HARD-DESIGN-062",
+        "candidateCode": "CAND-HARD14-062"
+      },
+      {
+        "designId": "HARD-DESIGN-063",
+        "candidateCode": "CAND-HARD14-063"
+      },
+      {
+        "designId": "HARD-DESIGN-064",
+        "candidateCode": "CAND-HARD14-064"
+      },
+      {
+        "designId": "HARD-DESIGN-065",
+        "candidateCode": "CAND-HARD14-065"
+      },
+      {
+        "designId": "HARD-DESIGN-066",
+        "candidateCode": "CAND-HARD14-066"
+      },
+      {
+        "designId": "HARD-DESIGN-067",
+        "candidateCode": "CAND-HARD14-067"
+      },
+      {
+        "designId": "HARD-DESIGN-068",
+        "candidateCode": "CAND-HARD14-068"
+      },
+      {
+        "designId": "HARD-DESIGN-069",
+        "candidateCode": "CAND-HARD14-069"
+      },
+      {
+        "designId": "HARD-DESIGN-070",
+        "candidateCode": "CAND-HARD14-070"
+      },
+      {
+        "designId": "HARD-DESIGN-071",
+        "candidateCode": "CAND-HARD14-071"
+      },
+      {
+        "designId": "HARD-DESIGN-072",
+        "candidateCode": "CAND-HARD14-072"
+      },
+      {
+        "designId": "HARD-DESIGN-073",
+        "candidateCode": "CAND-HARD14-073"
+      },
+      {
+        "designId": "HARD-DESIGN-074",
+        "candidateCode": "CAND-HARD14-074"
+      },
+      {
+        "designId": "HARD-DESIGN-075",
+        "candidateCode": "CAND-HARD14-075"
+      },
+      {
+        "designId": "HARD-DESIGN-076",
+        "candidateCode": "CAND-HARD14-076"
+      },
+      {
+        "designId": "HARD-DESIGN-077",
+        "candidateCode": "CAND-HARD14-077"
+      },
+      {
+        "designId": "HARD-DESIGN-078",
+        "candidateCode": "CAND-HARD14-078"
+      },
+      {
+        "designId": "HARD-DESIGN-079",
+        "candidateCode": "CAND-HARD14-079"
+      },
+      {
+        "designId": "HARD-DESIGN-080",
+        "candidateCode": "CAND-HARD14-080"
+      },
+      {
+        "designId": "HARD-DESIGN-081",
+        "candidateCode": "CAND-HARD14-081"
+      },
+      {
+        "designId": "HARD-DESIGN-082",
+        "candidateCode": "CAND-HARD14-082"
+      },
+      {
+        "designId": "HARD-DESIGN-083",
+        "candidateCode": "CAND-HARD14-083"
+      },
+      {
+        "designId": "HARD-DESIGN-084",
+        "candidateCode": "CAND-HARD14-084"
+      },
+      {
+        "designId": "HARD-DESIGN-085",
+        "candidateCode": "CAND-HARD14-085"
+      },
+      {
+        "designId": "HARD-DESIGN-086",
+        "candidateCode": "CAND-HARD14-086"
+      },
+      {
+        "designId": "HARD-DESIGN-087",
+        "candidateCode": "CAND-HARD14-087"
+      },
+      {
+        "designId": "HARD-DESIGN-088",
+        "candidateCode": "CAND-HARD14-088"
+      },
+      {
+        "designId": "HARD-DESIGN-089",
+        "candidateCode": "CAND-HARD14-089"
+      },
+      {
+        "designId": "HARD-DESIGN-090",
+        "candidateCode": "CAND-HARD14-090"
+      },
+      {
+        "designId": "HARD-DESIGN-091",
+        "candidateCode": "CAND-HARD14-091"
+      },
+      {
+        "designId": "HARD-DESIGN-092",
+        "candidateCode": "CAND-HARD14-092"
+      },
+      {
+        "designId": "HARD-DESIGN-093",
+        "candidateCode": "CAND-HARD14-093"
+      },
+      {
+        "designId": "HARD-DESIGN-094",
+        "candidateCode": "CAND-HARD14-094"
+      },
+      {
+        "designId": "HARD-DESIGN-095",
+        "candidateCode": "CAND-HARD14-095"
+      },
+      {
+        "designId": "HARD-DESIGN-096",
+        "candidateCode": "CAND-HARD14-096"
+      },
+      {
+        "designId": "HARD-DESIGN-097",
+        "candidateCode": "CAND-HARD14-097"
+      },
+      {
+        "designId": "HARD-DESIGN-098",
+        "candidateCode": "CAND-HARD14-098"
+      },
+      {
+        "designId": "HARD-DESIGN-099",
+        "candidateCode": "CAND-HARD14-099"
+      },
+      {
+        "designId": "HARD-DESIGN-100",
+        "candidateCode": "CAND-HARD14-100"
+      }
+    ]
+  },
+  "quotas": {
+    "chapters": {
+      "rja-ch1": 10,
+      "rja-ch2": 35,
+      "rja-ch3": 40,
+      "rja-ch4": 15
+    },
+    "hardLevelsLabeled": {
+      "H1": 53,
+      "H2": 47,
+      "H3": 0
+    },
+    "qtypes": {
+      "application": 66,
+      "single": 10,
+      "multi": 15,
+      "numeric": 7,
+      "judge": 2
+    },
+    "audits": {
+      "TRUE_H1": 53,
+      "TRUE_H2": 47
+    }
+  },
+  "trueHardCount": 100,
+  "moderateOrWorse": [],
+  "levelMismatch": [],
+  "groups": [
+    {
+      "group": 1,
+      "range": "CAND-HARD14-001..CAND-HARD14-020",
+      "size": 20,
+      "moderateOrWorse": [],
+      "issueCount": 0,
+      "issuesSample": [],
+      "status": "PASS"
+    },
+    {
+      "group": 2,
+      "range": "CAND-HARD14-021..CAND-HARD14-040",
+      "size": 20,
+      "moderateOrWorse": [],
+      "issueCount": 0,
+      "issuesSample": [],
+      "status": "PASS"
+    },
+    {
+      "group": 3,
+      "range": "CAND-HARD14-041..CAND-HARD14-060",
+      "size": 20,
+      "moderateOrWorse": [],
+      "issueCount": 9,
+      "issuesSample": [
+        "CAND-HARD14-043:weakCompare",
+        "CAND-HARD14-044:weakCompare",
+        "CAND-HARD14-045:weakCompare",
+        "CAND-HARD14-047:weakCompare",
+        "CAND-HARD14-053:weakCompare",
+        "CAND-HARD14-056:weakCompare",
+        "CAND-HARD14-057:weakCompare",
+        "CAND-HARD14-058:weakCompare",
+        "CAND-HARD14-060:weakCompare"
+      ],
+      "status": "PASS"
+    },
+    {
+      "group": 4,
+      "range": "CAND-HARD14-061..CAND-HARD14-080",
+      "size": 20,
+      "moderateOrWorse": [],
+      "issueCount": 13,
+      "issuesSample": [
+        "CAND-HARD14-061:weakCompare",
+        "CAND-HARD14-062:weakCompare",
+        "CAND-HARD14-065:weakCompare",
+        "CAND-HARD14-066:weakCompare",
+        "CAND-HARD14-070:weakCompare",
+        "CAND-HARD14-071:weakCompare",
+        "CAND-HARD14-072:weakCompare",
+        "CAND-HARD14-075:weakCompare",
+        "CAND-HARD14-076:weakCompare",
+        "CAND-HARD14-077:weakCompare",
+        "CAND-HARD14-078:weakCompare",
+        "CAND-HARD14-079:weakCompare"
+      ],
+      "status": "PASS"
+    },
+    {
+      "group": 5,
+      "range": "CAND-HARD14-081..CAND-HARD14-100",
+      "size": 20,
+      "moderateOrWorse": [],
+      "issueCount": 9,
+      "issuesSample": [
+        "CAND-HARD14-083:weakCompare",
+        "CAND-HARD14-084:weakCompare",
+        "CAND-HARD14-090:weakCompare",
+        "CAND-HARD14-091:weakCompare",
+        "CAND-HARD14-095:weakCompare",
+        "CAND-HARD14-096:weakCompare",
+        "CAND-HARD14-098:weakCompare",
+        "CAND-HARD14-099:weakCompare",
+        "CAND-HARD14-100:weakCompare"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "requiredDiagrams": {
+    "n": 0,
+    "complete": true,
+    "codes": []
+  },
+  "batchContentSha256": "d8d22ad0bcbac2dba134d417e6a3db5cd6407f256492155345330ae043025819",
+  "structIssueCount": 0,
+  "structIssuesSample": [],
+  "perItem": {
+    "CAND-HARD14-043": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-044": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-045": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-047": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-053": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-056": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-057": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-058": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-060": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-061": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-062": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-065": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-066": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-070": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-071": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-072": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-075": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-076": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-077": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-078": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-079": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-080": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-083": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-084": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-090": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-091": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-095": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-096": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-098": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-099": [
+      "weakCompare"
+    ],
+    "CAND-HARD14-100": [
+      "weakCompare"
+    ]
+  },
+  "openIssues": [
+    "作者侧审核 ≠ 独立终审。",
+    "未授权导入 / 正式配图上传 / review / approve。"
+  ],
+  "nextStage": "可申请导入预检"
+}

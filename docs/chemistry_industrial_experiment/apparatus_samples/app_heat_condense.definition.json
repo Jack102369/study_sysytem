@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_heat_condense",
+  "caseCode": "salt_purification_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+  "apparatusVersion": "1.0.0",
+  "title": "加热反应-冷凝-收集",
+  "orientation": "left_to_right",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "reviewMetadata": {
+    "chemicallyReviewed": false,
+    "schematicOnly": true
+  },
+  "components": [
+    {
+      "componentId": "heat1",
+      "componentType": "heater",
+      "displayLabel": "加热",
+      "ports": [
+        {
+          "portId": "heat_out",
+          "direction": "out",
+          "media": [
+            "heat"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "rv1",
+      "componentType": "reaction_vessel",
+      "displayLabel": "反应瓶",
+      "ports": [
+        {
+          "portId": "feed_in",
+          "direction": "in",
+          "media": [
+            "liquid",
+            "gas",
+            "solid"
+          ]
+        },
+        {
+          "portId": "heat_in",
+          "direction": "in",
+          "media": [
+            "heat"
+          ]
+        },
+        {
+          "portId": "product_out",
+          "direction": "out",
+          "media": [
+            "liquid",
+            "gas"
+          ]
+        },
+        {
+          "portId": "vent",
+          "direction": "out",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "cond1",
+      "componentType": "condenser",
+      "displayLabel": "冷凝管",
+      "ports": [
+        {
+          "portId": "vapor_in",
+          "direction": "in",
+          "media": [
+            "gas"
+          ]
+        },
+        {
+          "portId": "liquid_out",
+          "direction": "out",
+          "media": [
+            "liquid"
+          ]
+        },
+        {
+          "portId": "coolant_in",
+          "direction": "in",
+          "media": [
+            "coolant",
+            "liquid"
+          ]
+        },
+        {
+          "portId": "coolant_out",
+          "direction": "out",
+          "media": [
+            "coolant",
+            "liquid"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "tank1",
+      "componentType": "liquid_tank",
+      "displayLabel": "接收瓶",
+      "ports": [
+        {
+          "portId": "liquid_in",
+          "direction": "in",
+          "media": [
+            "liquid"
+          ]
+        },
+        {
+          "portId": "liquid_out",
+          "direction": "out",
+          "media": [
+            "liquid"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "coolsrc",
+      "componentType": "cooler",
+      "displayLabel": "冷却水入口侧",
+      "ports": [
+        {
+          "portId": "coolant_in",
+          "direction": "in",
+          "media": [
+            "coolant",
+            "liquid"
+          ]
+        },
+        {
+          "portId": "coolant_out",
+          "direction": "out",
+          "media": [
+            "coolant",
+            "liquid"
+          ]
+        },
+        {
+          "portId": "process_in",
+          "direction": "in",
+          "media": [
+            "gas",
+            "liquid"
+          ]
+        },
+        {
+          "portId": "process_out",
+          "direction": "out",
+          "media": [
+            "gas",
+            "liquid"
+          ]
+        }
+      ],
+      "internal": {}
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "h1",
+      "sourceComponentId": "heat1",
+      "sourcePortId": "heat_out",
+      "targetComponentId": "rv1",
+      "targetPortId": "heat_in",
+      "flowType": "heat"
+    },
+    {
+      "connectionId": "v1",
+      "sourceComponentId": "rv1",
+      "sourcePortId": "product_out",
+      "targetComponentId": "cond1",
+      "targetPortId": "vapor_in",
+      "flowType": "gas",
+      "displayLabel": "蒸气"
+    },
+    {
+      "connectionId": "l1",
+      "sourceComponentId": "cond1",
+      "sourcePortId": "liquid_out",
+      "targetComponentId": "tank1",
+      "targetPortId": "liquid_in",
+      "flowType": "liquid"
+    },
+    {
+      "connectionId": "cw_in",
+      "sourceComponentId": "coolsrc",
+      "sourcePortId": "coolant_out",
+      "targetComponentId": "cond1",
+      "targetPortId": "coolant_in",
+      "flowType": "coolant",
+      "displayLabel": "冷却水进"
+    },
+    {
+      "connectionId": "cw_out",
+      "sourceComponentId": "cond1",
+      "sourcePortId": "coolant_out",
+      "targetComponentId": "coolsrc",
+      "targetPortId": "coolant_in",
+      "flowType": "coolant",
+      "displayLabel": "冷却水出"
+    }
+  ],
+  "apparatusContentHash": "dca222920e9ac058a87286ae7a03a4f9409cbf35a929c5a0cb72832b8a435b96"
+}

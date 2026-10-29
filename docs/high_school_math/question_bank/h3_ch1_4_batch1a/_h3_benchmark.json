@@ -1,0 +1,55 @@
+{
+  "phase": "HS-MATH-H3-CH1-4-EXCLUSIVE-BATCH1A",
+  "gateId": "H3_EXCLUSIVE_GATE_V1",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "whyPriorHard14HadZeroH3": [
+    "作者侧曾标 23 道 H3，1C 双遍后 TRUE_H3=0：多为常规含参不等式、判别式讨论、直 AM-GM、对勾/单调模板。",
+    "参数存在 ≠ 压轴；题干变长 ≠ 压轴；多 KP 简单拼接 ≠ 压轴。",
+    "hardProfile 七字段齐全不能证明 H3；1D/1E 诚实保留 H1=53/H2=47/H3=0。",
+    "175/176：虚标 d3 常见于短题干+公式壳、韦恩模板、指对代入壳。"
+  ],
+  "h2CeilingExamplesFromHard14": [
+    "根的分布单区间 + 符号条件（可标准韦达/判别式闭环）→ 至多 H2",
+    "单一 AM-GM 等号分岔 → 至多 H2",
+    "抽象函数仅验证奇偶或单调一次 → 至多 H2",
+    "集合包含单边滑动窗口 → 至多 H1/H2"
+  ],
+  "h3MustDemonstrate": [
+    "非显然突破点（常规套路会卡死或误入错误充分条件）",
+    "相对 HARD14 已入库 H2 有明确更高分岔或更深层结构",
+    "充要分层 / 策略选择 / 耦合约束中至少一类深层推理",
+    "分类合理必要（非空堆分支）",
+    "严格限必修一前四章，无导数、无圆锥曲线"
+  ],
+  "autoRejectIf": [
+    "ordinary_parametric_inequality",
+    "routine_quadratic_extrema",
+    "simple_discriminant_cases",
+    "direct_AMGM",
+    "ordinary_hook_function",
+    "simple_parity_or_monotonicity",
+    "routine_exp_log_simplify",
+    "mere_extra_computation",
+    "digit_or_skin_swap",
+    "low_value_isomorphic_to_HARD14_H2"
+  ],
+  "examThoughtRefs": [
+    {
+      "thought": "参数不等式中‘存在/恒成立’与定义域互相咬合，需先划清定义域再谈充要",
+      "yearsHint": "近年高考常见综合结构（思想参考，非题干复制）",
+      "license": "thought_only_not_permitted_copy"
+    },
+    {
+      "thought": "抽象函数先由方程结构推出对称/奇偶，再嵌入参数零点计数",
+      "yearsHint": "函数综合压轴常见路径",
+      "license": "thought_only_not_permitted_copy"
+    },
+    {
+      "thought": "二次根分布与二次型非负在同一参数下联立，可行域非单区间",
+      "yearsHint": "不等式与二次函数综合",
+      "license": "thought_only_not_permitted_copy"
+    }
+  ],
+  "chapterTarget": { "1": 5, "2": 20, "3": 20, "4": 5 },
+  "acceptedIsNotFillQuota": true
+}

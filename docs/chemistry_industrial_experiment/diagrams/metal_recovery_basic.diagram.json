@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.0",
+  "caseCode": "metal_recovery_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "e05d575272a674b55114187718206907928554337a511f3d3a8ae59ee4f4e012",
+  "internalReferences": {
+    "caseCode": "metal_recovery_basic",
+    "caseVersion": "0.1.0",
+    "caseContentHash": "e05d575272a674b55114187718206907928554337a511f3d3a8ae59ee4f4e012"
+  },
+  "reviewMetadata": {
+    "chemicallyReviewed": false,
+    "structureOnly": true,
+    "notes": "structure protocol fixture; not chemically approved"
+  },
+  "diagramId": "diag.metal_recovery_basic",
+  "diagramVersion": "0.1.0",
+  "title": "简化金属回收（反应+试剂）",
+  "orientation": "top_to_bottom",
+  "nodes": [
+    {
+      "id": "n_sol",
+      "type": "material",
+      "displayLabel": "含Cu²⁺溶液",
+      "displayRole": "raw",
+      "internal": {
+        "materialId": "m_cu_solution"
+      }
+    },
+    {
+      "id": "n_fe",
+      "type": "material",
+      "displayLabel": "铁屑",
+      "displayRole": "reagent",
+      "presentation": {
+        "toneHint": "primary"
+      },
+      "internal": {
+        "materialId": "m_fe"
+      }
+    },
+    {
+      "id": "n_rxn",
+      "type": "reaction",
+      "displayLabel": "置换反应",
+      "displayRole": "reaction",
+      "presentation": {
+        "shapeHint": "hexagon"
+      },
+      "internal": {
+        "stepId": "s1_displace",
+        "reactionReference": "pending.fe_cu_displacement"
+      }
+    },
+    {
+      "id": "n_cu",
+      "type": "product",
+      "displayLabel": "铜",
+      "displayRole": "product",
+      "internal": {
+        "materialId": "m_cu"
+      }
+    },
+    {
+      "id": "n_fe2",
+      "type": "waste",
+      "displayLabel": "含Fe²⁺溶液",
+      "displayRole": "waste",
+      "internal": {
+        "materialId": "m_fe2_solution"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "from": "n_sol",
+      "to": "n_rxn",
+      "type": "material_flow"
+    },
+    {
+      "id": "e2",
+      "from": "n_fe",
+      "to": "n_rxn",
+      "type": "reagent_input",
+      "displayLabel": "加入"
+    },
+    {
+      "id": "e3",
+      "from": "n_rxn",
+      "to": "n_cu",
+      "type": "material_flow"
+    },
+    {
+      "id": "e4",
+      "from": "n_rxn",
+      "to": "n_fe2",
+      "type": "byproduct"
+    }
+  ],
+  "diagramContentHash": "1cdf0c8f0ae4426be1f174d4e274a43f9d988efb8097f385735f72666d2933e3"
+}

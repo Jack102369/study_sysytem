@@ -1,0 +1,1121 @@
+{
+  "phase": "HS-MATH-HARD-CH1-4-DESIGN-1A",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "builtAt": "2026-10-28T05:19:32.044Z",
+  "baseline": {
+    "drawable": 813,
+    "byDifficulty": {
+      "1": 335,
+      "2": 478
+    }
+  },
+  "taxonomy": {
+    "specialties": [
+      {
+        "code": "rja-ch1",
+        "name": "集合与常用逻辑用语"
+      },
+      {
+        "code": "rja-ch2",
+        "name": "一元二次函数、方程和不等式"
+      },
+      {
+        "code": "rja-ch3",
+        "name": "函数的概念与性质"
+      },
+      {
+        "code": "rja-ch4",
+        "name": "指数函数与对数函数"
+      }
+    ],
+    "sections": [
+      {
+        "specialtyCode": "rja-ch1",
+        "sectionCode": "1.1",
+        "sectionName": "集合的概念"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "sectionCode": "1.2",
+        "sectionName": "集合间的基本关系"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "sectionCode": "1.3",
+        "sectionName": "集合的基本运算"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "sectionCode": "1.4",
+        "sectionName": "充分条件与必要条件"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "sectionCode": "1.5",
+        "sectionName": "全称量词与存在量词"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "sectionCode": "default",
+        "sectionName": "综合练习"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "sectionCode": "2.1",
+        "sectionName": "等式性质与不等式性质"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "sectionCode": "2.2",
+        "sectionName": "基本不等式"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "sectionCode": "2.3",
+        "sectionName": "二次函数与一元二次方程、不等式"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "sectionCode": "default",
+        "sectionName": "综合练习"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "sectionCode": "3.1",
+        "sectionName": "函数的概念及其表示"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "sectionCode": "3.2",
+        "sectionName": "函数的基本性质"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "sectionCode": "3.3",
+        "sectionName": "幂函数"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "sectionCode": "3.4",
+        "sectionName": "函数的应用（一）"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "sectionCode": "default",
+        "sectionName": "综合练习"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "sectionCode": "4.1",
+        "sectionName": "指数"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "sectionCode": "4.2",
+        "sectionName": "指数函数"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "sectionCode": "4.3",
+        "sectionName": "对数"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "sectionCode": "4.4",
+        "sectionName": "对数函数"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "sectionCode": "4.5",
+        "sectionName": "函数的应用（二）"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "sectionCode": "default",
+        "sectionName": "综合练习"
+      }
+    ],
+    "knowledgePoints": [
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.1.01",
+        "name": "集合的含义与元素"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.1.02",
+        "name": "集合的表示法"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.1.03",
+        "name": "空集与全集（描述层面）"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.2.01",
+        "name": "子集与真子集"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.2.02",
+        "name": "集合相等"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.3.01",
+        "name": "并集"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.3.02",
+        "name": "交集"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.3.03",
+        "name": "补集"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.3.04",
+        "name": "文氏图与综合运算"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.4.01",
+        "name": "充分条件"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.4.02",
+        "name": "必要条件"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.4.03",
+        "name": "充要条件"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.5.01",
+        "name": "全称量词"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.5.02",
+        "name": "存在量词"
+      },
+      {
+        "specialtyCode": "rja-ch1",
+        "code": "rja.1.5.03",
+        "name": "含有量词的命题否定"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "code": "rja.2.1.01",
+        "name": "不等式的基本性质"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "code": "rja.2.1.02",
+        "name": "作差比较大小"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "code": "rja.2.1.03",
+        "name": "不等式应用建模"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "code": "rja.2.1.04",
+        "name": "等式的基本性质"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "code": "rja.2.2.01",
+        "name": "算术-几何平均不等式"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "code": "rja.2.2.02",
+        "name": "配凑法求最值"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "code": "rja.2.2.03",
+        "name": "基本不等式双变量"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "code": "rja.2.2.04",
+        "name": "基本不等式应用注意"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "code": "rja.2.3.01",
+        "name": "三个二次的关系"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "code": "rja.2.3.02",
+        "name": "一元二次不等式解法"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "code": "rja.2.3.03",
+        "name": "含参二次不等式"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "code": "rja.2.3.04",
+        "name": "二次函数区间最值"
+      },
+      {
+        "specialtyCode": "rja-ch2",
+        "code": "rja.2.3.05",
+        "name": "根的分布"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.1.01",
+        "name": "函数的定义"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.1.02",
+        "name": "定义域"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.1.03",
+        "name": "值域"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.1.04",
+        "name": "对应关系"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.1.05",
+        "name": "相同函数的判断"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.1.06",
+        "name": "解析法"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.1.07",
+        "name": "图象法"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.1.08",
+        "name": "列表法"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.1.09",
+        "name": "分段函数"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.1.10",
+        "name": "函数求值"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.2.01",
+        "name": "单调递增"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.2.02",
+        "name": "单调递减"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.2.03",
+        "name": "单调区间"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.2.04",
+        "name": "单调性判断"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.2.05",
+        "name": "单调性与不等式"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.2.06",
+        "name": "最大值"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.2.07",
+        "name": "最小值与区间最值"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.2.08",
+        "name": "单调性与最值"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.2.09",
+        "name": "奇偶性定义与定义域对称"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.2.10",
+        "name": "奇函数与偶函数的判断"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.2.11",
+        "name": "既奇又偶、非奇非偶及图象对称"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.2.12",
+        "name": "奇偶性求值与综合应用"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.3.01",
+        "name": "幂函数概念"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.3.02",
+        "name": "常见幂函数图象"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.3.03",
+        "name": "幂函数性质概览"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.3.04",
+        "name": "幂函数单调性"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.3.05",
+        "name": "幂函数奇偶性"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.4.01",
+        "name": "实际问题函数建模"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.4.02",
+        "name": "分段实际模型"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.4.03",
+        "name": "函数模型选择与比较"
+      },
+      {
+        "specialtyCode": "rja-ch3",
+        "code": "rja.3.4.04",
+        "name": "用函数解决最值实际问题"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.1.01",
+        "name": "n次方根"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.1.02",
+        "name": "分数指数幂"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.1.03",
+        "name": "指数幂运算"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.1.04",
+        "name": "根式与指数互化"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.2.01",
+        "name": "指数函数概念"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.2.02",
+        "name": "指数函数单调性"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.2.03",
+        "name": "指数方程"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.2.04",
+        "name": "指数函数图象变换"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.3.01",
+        "name": "对数概念"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.3.02",
+        "name": "对数运算法则"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.3.03",
+        "name": "换底公式"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.3.04",
+        "name": "对数方程初步"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.4.01",
+        "name": "对数函数概念"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.4.02",
+        "name": "对数函数单调性"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.4.03",
+        "name": "对数函数图象与性质"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.5.01",
+        "name": "指数增长模型"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.5.02",
+        "name": "对数应用"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.5.03",
+        "name": "二分法思想"
+      },
+      {
+        "specialtyCode": "rja-ch4",
+        "code": "rja.4.5.04",
+        "name": "复合增长模型"
+      }
+    ],
+    "methods": [
+      {
+        "code": "classification",
+        "name": "分类讨论"
+      },
+      {
+        "code": "defn",
+        "name": "定义法"
+      },
+      {
+        "code": "domain_symmetry",
+        "name": "定义域对称检验"
+      },
+      {
+        "code": "equiv_transform",
+        "name": "等价转化"
+      },
+      {
+        "code": "graph_symmetry",
+        "name": "图象对称分析"
+      },
+      {
+        "code": "mono_analysis",
+        "name": "单调性分析"
+      },
+      {
+        "code": "num_shape",
+        "name": "数形结合"
+      },
+      {
+        "code": "parity_apply",
+        "name": "奇偶性应用"
+      },
+      {
+        "code": "special_value",
+        "name": "特殊值法"
+      },
+      {
+        "code": "substitution",
+        "name": "换元法"
+      },
+      {
+        "code": "undetermined_coeff",
+        "name": "待定系数法"
+      }
+    ]
+  },
+  "counterexamples": [
+    {
+      "itemId": "898",
+      "code": "CAND-G4A-424",
+      "specialtyCode": "rja-ch1",
+      "qtype": "application",
+      "recommendedDifficulty": 1,
+      "structureType": "SET_BASIC",
+      "stemSnippet": "|A|=5。 (1)幂集个数； (2)∅与A是否属于幂集。",
+      "whyNotHard": "幂集定义，基础。",
+      "missingThinking": "缺参数讨论与逻辑层次；仅定义套用",
+      "comparisonHint": "对照用：压轴设计须明确超越「SET_BASIC」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "280",
+      "code": "CAND-G2A-006",
+      "specialtyCode": "rja-ch1",
+      "qtype": "application",
+      "recommendedDifficulty": 2,
+      "structureType": "SET_VENN",
+      "stemSnippet": "某班 $40$ 人，会游泳 $A$ 有 $22$ 人，会骑车 $B$ 有 $25$ 人，两项都会的有 $12$ 人。 （1）求只会其中一项技能的人数； （2）求两项都不会的人数。",
+      "whyNotHard": "容斥应用，明确 d2，非压轴。",
+      "missingThinking": "缺非显然集合包含/含参条件转化；仅公式计数",
+      "comparisonHint": "对照用：压轴设计须明确超越「SET_VENN」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "379",
+      "code": "CAND-G3A-005",
+      "specialtyCode": "rja-ch1",
+      "qtype": "application",
+      "recommendedDifficulty": 2,
+      "structureType": "SET_VENN",
+      "stemSnippet": "设全集 $U=\\{x\\in\\mathbb{N}^*\\mid x\\le 10\\}$，$A=\\{x\\in U\\mid x\\text{ 为偶数}\\}$，$B=\\{x\\in U\\mid x\\text{ 为 }3\\text{ 的倍数}\\}$。 （1）",
+      "whyNotHard": "容斥应用，明确 d2，非压轴。",
+      "missingThinking": "缺非显然集合包含/含参条件转化；仅公式计数",
+      "comparisonHint": "对照用：压轴设计须明确超越「SET_VENN」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "525",
+      "code": "CAND-G4A-051",
+      "specialtyCode": "rja-ch1",
+      "qtype": "multi",
+      "recommendedDifficulty": 1,
+      "structureType": "GENERIC_RAISE",
+      "stemSnippet": "正确的有（多选）",
+      "whyNotHard": "基础技能或识记辨析，维持 d1。",
+      "missingThinking": "缺非显然突破点；多步但套路化",
+      "comparisonHint": "对照用：压轴设计须明确超越「GENERIC_RAISE」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "577",
+      "code": "CAND-G4A-103",
+      "specialtyCode": "rja-ch1",
+      "qtype": "single",
+      "recommendedDifficulty": 1,
+      "structureType": "GENERIC_RAISE",
+      "stemSnippet": "设实数x，正确的是",
+      "whyNotHard": "基础技能或识记辨析，维持 d1。",
+      "missingThinking": "缺非显然突破点；多步但套路化",
+      "comparisonHint": "对照用：压轴设计须明确超越「GENERIC_RAISE」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "156",
+      "code": "CAND-G1B-005",
+      "specialtyCode": "rja-ch1",
+      "qtype": "multi",
+      "recommendedDifficulty": 1,
+      "structureType": "LOGIC_BASIC",
+      "stemSnippet": "命题否定写法正确的有（多选）",
+      "whyNotHard": "基础技能或识记辨析，维持 d1。",
+      "missingThinking": "缺多层充要与量词嵌套分析",
+      "comparisonHint": "对照用：压轴设计须明确超越「LOGIC_BASIC」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "163",
+      "code": "CAND-G1B-012",
+      "specialtyCode": "rja-ch2",
+      "qtype": "application",
+      "recommendedDifficulty": 2,
+      "structureType": "SET_VENN",
+      "stemSnippet": "固定成本 $150$ 元，可变成本 $6$ 元/件，售价 $18$ 元/件，销量 $x\\in\\mathbb{N}^+$。 （1）利润 $L(x)$； （2）至少几件不亏本？",
+      "whyNotHard": "容斥应用，明确 d2，非压轴。",
+      "missingThinking": "缺非显然集合包含/含参条件转化；仅公式计数",
+      "comparisonHint": "对照用：压轴设计须明确超越「SET_VENN」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "287",
+      "code": "CAND-G2A-013",
+      "specialtyCode": "rja-ch2",
+      "qtype": "application",
+      "recommendedDifficulty": 2,
+      "structureType": "SET_VENN",
+      "stemSnippet": "某商品进价 $40$ 元/件，售价 $60$ 元/件。店铺日固定开支 $200$ 元。设日销量为 $x$ 件（$x\\in\\mathbb{N}^*$）。 （1）写出日利润 $P(x)$； （2）日利润不少于 $300$ 元时，销量至少多少件？",
+      "whyNotHard": "容斥应用，明确 d2，非压轴。",
+      "missingThinking": "缺非显然集合包含/含参条件转化；仅公式计数",
+      "comparisonHint": "对照用：压轴设计须明确超越「SET_VENN」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "520",
+      "code": "CAND-G4A-046",
+      "specialtyCode": "rja-ch2",
+      "qtype": "single",
+      "recommendedDifficulty": 1,
+      "structureType": "GENERIC_RAISE",
+      "stemSnippet": "已知 $a>b$，$c=-3$。则",
+      "whyNotHard": "基础技能或识记辨析，维持 d1。",
+      "missingThinking": "缺非显然突破点；多步但套路化",
+      "comparisonHint": "对照用：压轴设计须明确超越「GENERIC_RAISE」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "166",
+      "code": "CAND-G1B-015",
+      "specialtyCode": "rja-ch2",
+      "qtype": "judge",
+      "recommendedDifficulty": 2,
+      "structureType": "TRIG_AUX",
+      "stemSnippet": "$f(x)=-2(x-1)^2+5$ 在 $[0,3]$ 上最大值为 $5$。",
+      "whyNotHard": "三角函数性质应用，d2。",
+      "missingThinking": "缺综合策略；一步辅助角",
+      "comparisonHint": "对照用：压轴设计须明确超越「TRIG_AUX」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "286",
+      "code": "CAND-G2A-012",
+      "specialtyCode": "rja-ch2",
+      "qtype": "application",
+      "recommendedDifficulty": 2,
+      "structureType": "GENERIC_RAISE",
+      "stemSnippet": "已知方程 $x^2-5x+m=0$ 有两个相等实根。 （1）求 $m$； （2）求该重根。",
+      "whyNotHard": "维持 d2；未达高一压轴标准。",
+      "missingThinking": "缺非显然突破点；多步但套路化",
+      "comparisonHint": "对照用：压轴设计须明确超越「GENERIC_RAISE」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "290",
+      "code": "CAND-G2A-016",
+      "specialtyCode": "rja-ch2",
+      "qtype": "single",
+      "recommendedDifficulty": 2,
+      "structureType": "GENERIC_RAISE",
+      "stemSnippet": "若方程 $x^2-2kx+k+2=0$ 有两个大于 $0$ 的实根，则 $k$ 的取值范围是",
+      "whyNotHard": "维持 d2；未达高一压轴标准。",
+      "missingThinking": "缺非显然突破点；多步但套路化",
+      "comparisonHint": "对照用：压轴设计须明确超越「GENERIC_RAISE」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "501",
+      "code": "CAND-G4A-027",
+      "specialtyCode": "rja-ch2",
+      "qtype": "single",
+      "recommendedDifficulty": 2,
+      "structureType": "TRIG_AUX",
+      "stemSnippet": "正实数 $x,y$ 满足 $x+y=5$。则 $xy$ 的最大值是",
+      "whyNotHard": "三角函数性质应用，d2。",
+      "missingThinking": "缺综合策略；一步辅助角",
+      "comparisonHint": "对照用：压轴设计须明确超越「TRIG_AUX」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "710",
+      "code": "CAND-G4A-236",
+      "specialtyCode": "rja-ch2",
+      "qtype": "multi",
+      "recommendedDifficulty": 1,
+      "structureType": "GENERIC_RAISE",
+      "stemSnippet": "关于基本不等式，正确的有（多选）",
+      "whyNotHard": "基础技能或识记辨析，维持 d1。",
+      "missingThinking": "缺非显然突破点；多步但套路化",
+      "comparisonHint": "对照用：压轴设计须明确超越「GENERIC_RAISE」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "174",
+      "code": "CAND-G1B-023",
+      "specialtyCode": "rja-ch3",
+      "qtype": "single",
+      "recommendedDifficulty": 1,
+      "structureType": "ODD_EVEN_DEF",
+      "stemSnippet": "奇函数 $f$，$f(2)=5$，则 $f(-2)=$",
+      "whyNotHard": "奇偶性定义应用，基础。",
+      "missingThinking": "缺性质综合；定义验证",
+      "comparisonHint": "对照用：压轴设计须明确超越「ODD_EVEN_DEF」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "175",
+      "code": "CAND-G1B-024",
+      "specialtyCode": "rja-ch3",
+      "qtype": "single",
+      "recommendedDifficulty": 2,
+      "structureType": "GENERIC_RAISE",
+      "stemSnippet": "$f$ 在 $\\mathbb{R}$ 递增，$f(a)<f(b)$ 等价于",
+      "whyNotHard": "维持 d2；未达高一压轴标准。",
+      "missingThinking": "缺非显然突破点；多步但套路化",
+      "comparisonHint": "对照用：压轴设计须明确超越「GENERIC_RAISE」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "181",
+      "code": "CAND-G1B-030",
+      "specialtyCode": "rja-ch3",
+      "qtype": "numeric",
+      "recommendedDifficulty": 2,
+      "structureType": "TRIG_AUX",
+      "stemSnippet": "$f(x)=-x^2+4x$ 在 $[0,5]$ 上最大值为",
+      "whyNotHard": "三角函数性质应用，d2。",
+      "missingThinking": "缺综合策略；一步辅助角",
+      "comparisonHint": "对照用：压轴设计须明确超越「TRIG_AUX」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "299",
+      "code": "CAND-G2A-025",
+      "specialtyCode": "rja-ch3",
+      "qtype": "multi",
+      "recommendedDifficulty": 1,
+      "structureType": "ODD_EVEN_DEF",
+      "stemSnippet": "下列函数在所给定义域上是奇函数的有（多选）",
+      "whyNotHard": "基础技能或识记辨析，维持 d1。",
+      "missingThinking": "缺性质综合；定义验证",
+      "comparisonHint": "对照用：压轴设计须明确超越「ODD_EVEN_DEF」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "400",
+      "code": "CAND-G3A-026",
+      "specialtyCode": "rja-ch3",
+      "qtype": "application",
+      "recommendedDifficulty": 2,
+      "structureType": "ODD_EVEN_DEF",
+      "stemSnippet": "已知函数 $f(x)$ 对定义域内任意 $x$ 满足 $f(x)+f(-x)=0$，且当 $x>0$ 时 $f(x)=x+\\dfrac{1}{x}$。 （1）说明 $f$ 的奇偶性； （2）求 $f(-2)$。",
+      "whyNotHard": "函数性质，d2。",
+      "missingThinking": "缺性质综合；定义验证",
+      "comparisonHint": "对照用：压轴设计须明确超越「ODD_EVEN_DEF」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "402",
+      "code": "CAND-G3A-028",
+      "specialtyCode": "rja-ch3",
+      "qtype": "application",
+      "recommendedDifficulty": 2,
+      "structureType": "TRIG_AUX",
+      "stemSnippet": "设 $f(x)=x+\\dfrac{1}{x}$，$x\\in[1,4]$。 （1）判断 $f$ 在 $[1,4]$ 上的单调性； （2）求 $f$ 在该区间上的最大值与最小值。",
+      "whyNotHard": "三角函数性质应用，d2。",
+      "missingThinking": "缺综合策略；一步辅助角",
+      "comparisonHint": "对照用：压轴设计须明确超越「TRIG_AUX」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "528",
+      "code": "CAND-G4A-054",
+      "specialtyCode": "rja-ch3",
+      "qtype": "single",
+      "recommendedDifficulty": 1,
+      "structureType": "GENERIC_RAISE",
+      "stemSnippet": "设 $f(x)=x^{3}-1x$。则 $f$ 是",
+      "whyNotHard": "基础技能或识记辨析，维持 d1。",
+      "missingThinking": "缺非显然突破点；多步但套路化",
+      "comparisonHint": "对照用：压轴设计须明确超越「GENERIC_RAISE」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "540",
+      "code": "CAND-G4A-066",
+      "specialtyCode": "rja-ch3",
+      "qtype": "application",
+      "recommendedDifficulty": 2,
+      "structureType": "GENERIC_RAISE",
+      "stemSnippet": "设 $f(x)=x^{2}-5x+1$（$x\\in[0,5]$）。 （1）求 $f$ 在该闭区间的最小值； （2）说明最小值是否在端点取得。",
+      "whyNotHard": "维持 d2；未达高一压轴标准。",
+      "missingThinking": "缺非显然突破点；多步但套路化",
+      "comparisonHint": "对照用：压轴设计须明确超越「GENERIC_RAISE」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "562",
+      "code": "CAND-G4A-088",
+      "specialtyCode": "rja-ch3",
+      "qtype": "application",
+      "recommendedDifficulty": 2,
+      "structureType": "DOMAIN_INTERSECT",
+      "stemSnippet": "讨论 $g(x)=\\sqrt{x-1}+\\ln(5-x)$ 的定义域，并判断其是否可能取到 $0$。",
+      "whyNotHard": "根式+对数定义域求交并讨论零点，提高题；1A UNCERTAIN 可落定为 d2。",
+      "missingThinking": "缺含参边界与充分性；仅不等式求交",
+      "comparisonHint": "对照用：压轴设计须明确超越「DOMAIN_INTERSECT」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "579",
+      "code": "CAND-G4A-105",
+      "specialtyCode": "rja-ch3",
+      "qtype": "application",
+      "recommendedDifficulty": 2,
+      "structureType": "ODD_EVEN_DEF",
+      "stemSnippet": "设 $f(x)=x^{3}+0x$。 （1）判断奇偶性并证明； （2）判断在 $\\mathbb{R}$ 上的单调性（简述）。",
+      "whyNotHard": "函数性质，d2。",
+      "missingThinking": "缺性质综合；定义验证",
+      "comparisonHint": "对照用：压轴设计须明确超越「ODD_EVEN_DEF」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "609",
+      "code": "CAND-G4A-135",
+      "specialtyCode": "rja-ch3",
+      "qtype": "single",
+      "recommendedDifficulty": 2,
+      "structureType": "ABSTRACT_MONO_ONE_STEP",
+      "stemSnippet": "连续函数满足 $f(1)=-1$，$f(2)=3$。则方程 $f(x)=0$ 在 $(1,2)$ 内",
+      "whyNotHard": "零点存在/二分，d2。",
+      "missingThinking": "缺深层结构利用；一步反证/单调",
+      "comparisonHint": "对照用：压轴设计须明确超越「ABSTRACT_MONO_ONE_STEP」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "763",
+      "code": "CAND-G4A-289",
+      "specialtyCode": "rja-ch3",
+      "qtype": "single",
+      "recommendedDifficulty": 1,
+      "structureType": "GENERIC_RAISE",
+      "stemSnippet": "$f(x)=(x-3)^{2}+1$ 的最小值是",
+      "whyNotHard": "基础技能或识记辨析，维持 d1。",
+      "missingThinking": "缺非显然突破点；多步但套路化",
+      "comparisonHint": "对照用：压轴设计须明确超越「GENERIC_RAISE」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "825",
+      "code": "CAND-G4A-351",
+      "specialtyCode": "rja-ch3",
+      "qtype": "numeric",
+      "recommendedDifficulty": 2,
+      "structureType": "QUAD_ROUTINE",
+      "stemSnippet": "【单调性定义】f(x)=x^2-2x在[0,3]上最小值",
+      "whyNotHard": "二次函数闭区间最值，上调 d2。",
+      "missingThinking": "缺非显然转化/边界充分性；套路根分布",
+      "comparisonHint": "对照用：压轴设计须明确超越「QUAD_ROUTINE」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "832",
+      "code": "CAND-G4A-358",
+      "specialtyCode": "rja-ch3",
+      "qtype": "single",
+      "recommendedDifficulty": 2,
+      "structureType": "ABSTRACT_MONO_ONE_STEP",
+      "stemSnippet": "若 $f$ 在 $\\mathbb{R}$ 递增且 $f(1)+f(2)=0$，则",
+      "whyNotHard": "零点存在/二分，d2。",
+      "missingThinking": "缺深层结构利用；一步反证/单调",
+      "comparisonHint": "对照用：压轴设计须明确超越「ABSTRACT_MONO_ONE_STEP」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "195",
+      "code": "CAND-G1B-044",
+      "specialtyCode": "rja-ch4",
+      "qtype": "numeric",
+      "recommendedDifficulty": 2,
+      "structureType": "GENERIC_RAISE",
+      "stemSnippet": "$(\\dfrac1{27})^{-2/3}=$",
+      "whyNotHard": "维持 d2；未达高一压轴标准。",
+      "missingThinking": "缺非显然突破点；多步但套路化",
+      "comparisonHint": "对照用：压轴设计须明确超越「GENERIC_RAISE」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "315",
+      "code": "CAND-G2A-041",
+      "specialtyCode": "rja-ch4",
+      "qtype": "single",
+      "recommendedDifficulty": 2,
+      "structureType": "SET_BASIC",
+      "stemSnippet": "方程 $4^x-5\\cdot2^x+4=0$ 的解的个数是",
+      "whyNotHard": "维持 d2；未达高一压轴标准。",
+      "missingThinking": "缺参数讨论与逻辑层次；仅定义套用",
+      "comparisonHint": "对照用：压轴设计须明确超越「SET_BASIC」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "406",
+      "code": "CAND-G3A-032",
+      "specialtyCode": "rja-ch4",
+      "qtype": "numeric",
+      "recommendedDifficulty": 2,
+      "structureType": "GENERIC_RAISE",
+      "stemSnippet": "方程 $9^x-10\\cdot 3^x+9=0$ 的较大根是",
+      "whyNotHard": "维持 d2；未达高一压轴标准。",
+      "missingThinking": "缺非显然突破点；多步但套路化",
+      "comparisonHint": "对照用：压轴设计须明确超越「GENERIC_RAISE」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "510",
+      "code": "CAND-G4A-036",
+      "specialtyCode": "rja-ch4",
+      "qtype": "multi",
+      "recommendedDifficulty": 1,
+      "structureType": "GENERIC_RAISE",
+      "stemSnippet": "关于 $y=a^{x}$（$a>0,a\\ne1$），正确的有（多选）",
+      "whyNotHard": "基础技能或识记辨析，维持 d1。",
+      "missingThinking": "缺非显然突破点；多步但套路化",
+      "comparisonHint": "对照用：压轴设计须明确超越「GENERIC_RAISE」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "543",
+      "code": "CAND-G4A-069",
+      "specialtyCode": "rja-ch4",
+      "qtype": "multi",
+      "recommendedDifficulty": 1,
+      "structureType": "EXP_PLUG",
+      "stemSnippet": "关于指数方程与指数函数，正确的有（多选）",
+      "whyNotHard": "基础技能或识记辨析，维持 d1。",
+      "missingThinking": "缺综合推理；指数代入求值",
+      "comparisonHint": "对照用：压轴设计须明确超越「EXP_PLUG」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "895",
+      "code": "CAND-G4A-421",
+      "specialtyCode": "rja-ch4",
+      "qtype": "single",
+      "recommendedDifficulty": 1,
+      "structureType": "SET_BASIC",
+      "stemSnippet": "方程 $4^{x}=2^{5}$ 的解是",
+      "whyNotHard": "幂集定义，基础。",
+      "missingThinking": "缺参数讨论与逻辑层次；仅定义套用",
+      "comparisonHint": "对照用：压轴设计须明确超越「SET_BASIC」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "308",
+      "code": "CAND-G2A-034",
+      "specialtyCode": "rja-ch4",
+      "qtype": "numeric",
+      "recommendedDifficulty": 2,
+      "structureType": "LOG_BASIC",
+      "stemSnippet": "已知 $\\log_4(x-1)+\\log_2(x-1)=3$，且 $x>1$。求 $x$ 的值。",
+      "whyNotHard": "维持 d2；未达高一压轴标准。",
+      "missingThinking": "缺指对综合与参数；换底/同底运算",
+      "comparisonHint": "对照用：压轴设计须明确超越「LOG_BASIC」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "415",
+      "code": "CAND-G3A-041",
+      "specialtyCode": "rja-ch4",
+      "qtype": "numeric",
+      "recommendedDifficulty": 2,
+      "structureType": "LOG_BASIC",
+      "stemSnippet": "方程 $\\log_3 x+\\log_3(x-2)=1$ 的解是",
+      "whyNotHard": "维持 d2；未达高一压轴标准。",
+      "missingThinking": "缺指对综合与参数；换底/同底运算",
+      "comparisonHint": "对照用：压轴设计须明确超越「LOG_BASIC」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "478",
+      "code": "CAND-G4A-004",
+      "specialtyCode": "rja-ch4",
+      "qtype": "single",
+      "recommendedDifficulty": 1,
+      "structureType": "LOG_BASIC",
+      "stemSnippet": "$\\log_{2}(x-1)=2$ 的解是",
+      "whyNotHard": "指对基本运算，基础。",
+      "missingThinking": "缺指对综合与参数；换底/同底运算",
+      "comparisonHint": "对照用：压轴设计须明确超越「LOG_BASIC」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "626",
+      "code": "CAND-G4A-152",
+      "specialtyCode": "rja-ch4",
+      "qtype": "judge",
+      "recommendedDifficulty": 2,
+      "structureType": "EXP_PLUG",
+      "stemSnippet": "判断：在必备条件下，“指数方程”的标准结论可以成立（需核对前提）。",
+      "whyNotHard": "维持 d2；未达高一压轴标准。",
+      "missingThinking": "缺综合推理；指数代入求值",
+      "comparisonHint": "对照用：压轴设计须明确超越「EXP_PLUG」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "704",
+      "code": "CAND-G4A-230",
+      "specialtyCode": "rja-ch4",
+      "qtype": "numeric",
+      "recommendedDifficulty": 1,
+      "structureType": "LOG_BASIC",
+      "stemSnippet": "【真数定义域】y=log_2(x-1)定义域左端点（不含）",
+      "whyNotHard": "基础技能或识记辨析，维持 d1。",
+      "missingThinking": "缺指对综合与参数；换底/同底运算",
+      "comparisonHint": "对照用：压轴设计须明确超越「LOG_BASIC」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "756",
+      "code": "CAND-G4A-282",
+      "specialtyCode": "rja-ch4",
+      "qtype": "numeric",
+      "recommendedDifficulty": 2,
+      "structureType": "EXP_PLUG",
+      "stemSnippet": "【指数不等式】(1/2)^x>4的解集右端趋势：x<？",
+      "whyNotHard": "维持 d2；未达高一压轴标准。",
+      "missingThinking": "缺综合推理；指数代入求值",
+      "comparisonHint": "对照用：压轴设计须明确超越「EXP_PLUG」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "795",
+      "code": "CAND-G4A-321",
+      "specialtyCode": "rja-ch4",
+      "qtype": "numeric",
+      "recommendedDifficulty": 1,
+      "structureType": "SET_BASIC",
+      "stemSnippet": "【指数方程】2^x=16，x=",
+      "whyNotHard": "幂集定义，基础。",
+      "missingThinking": "缺参数讨论与逻辑层次；仅定义套用",
+      "comparisonHint": "对照用：压轴设计须明确超越「SET_BASIC」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "823",
+      "code": "CAND-G4A-349",
+      "specialtyCode": "rja-ch4",
+      "qtype": "numeric",
+      "recommendedDifficulty": 2,
+      "structureType": "SET_BASIC",
+      "stemSnippet": "【同底比较】比较 $2^{0.3}$ 与 $\\log_2 3$：若前者更大填 $1$，否则填 $0$",
+      "whyNotHard": "指数增长/衰减应用，d2。",
+      "missingThinking": "缺参数讨论与逻辑层次；仅定义套用",
+      "comparisonHint": "对照用：压轴设计须明确超越「SET_BASIC」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "911",
+      "code": "CAND-G4A-437",
+      "specialtyCode": "rja-ch4",
+      "qtype": "application",
+      "recommendedDifficulty": 2,
+      "structureType": "DOMAIN_INTERSECT",
+      "stemSnippet": "讨论 $y=\\log_{a}(x-2)$（$a>0,a\\ne1$）的定义域，并说明 $a>1$ 与 $0<a<1$ 时单调性差异。",
+      "whyNotHard": "参数底数两段说明单调性，提高常规。",
+      "missingThinking": "缺含参边界与充分性；仅不等式求交",
+      "comparisonHint": "对照用：压轴设计须明确超越「DOMAIN_INTERSECT」套路，写出独立突破点与完整推导。"
+    },
+    {
+      "itemId": "190",
+      "code": "CAND-G1B-039",
+      "specialtyCode": "rja-ch4",
+      "qtype": "single",
+      "recommendedDifficulty": 1,
+      "structureType": "DOMAIN_INTERSECT",
+      "stemSnippet": "$y=\\log_{0.5}x$ 的定义域为",
+      "whyNotHard": "基础技能或识记辨析，维持 d1。",
+      "missingThinking": "缺含参边界与充分性；仅不等式求交",
+      "comparisonHint": "对照用：压轴设计须明确超越「DOMAIN_INTERSECT」套路，写出独立突破点与完整推导。"
+    }
+  ],
+  "structureTypesCovered": [
+    "ABSTRACT_MONO_ONE_STEP",
+    "DOMAIN_INTERSECT",
+    "EXP_PLUG",
+    "GENERIC_RAISE",
+    "LOGIC_BASIC",
+    "LOG_BASIC",
+    "ODD_EVEN_DEF",
+    "QUAD_ROUTINE",
+    "SET_BASIC",
+    "SET_VENN",
+    "TRIG_AUX"
+  ],
+  "note": "反例仅用于难度对照；不得修改已有题目。压轴设计须写明相对这些结构新增了何种非显然思维。"
+}

@@ -13,6 +13,7 @@ import { DataSource, Repository } from 'typeorm'
 import { ChemCategory } from '../chem-category.entity'
 import { ChemSpecialty } from '../chem-specialty.entity'
 import { ChemTrainEligibilityService } from './chem-train-eligibility.service'
+import { ChemTrainSessionDiagramService } from './chem-train-session-diagram.service'
 import { ChemWrongQuestionService } from './chem-wrong-question.service'
 import { gradeAnswer } from './chem-train-grade'
 import {
@@ -26,6 +27,7 @@ import { ChemTrainSession } from './entities/chem-train-session.entity'
 import { ChemTrainSessionItem } from './entities/chem-train-session-item.entity'
 import { CHEM_TRAIN_TEST_SEEDS } from './chem-train.seed'
 import { DIFFICULTY_LABELS } from './train.constants'
+import { assertIndustrialSpecialtyAllowed } from '../industrial/industrial-feature.config'
 
 @Injectable()
 export class ChemTrainService implements OnModuleInit {
@@ -43,6 +45,7 @@ export class ChemTrainService implements OnModuleInit {
     @InjectRepository(ChemCategory)
     private readonly categoriesRepo: Repository<ChemCategory>,
     private readonly eligibility: ChemTrainEligibilityService,
+    private readonly sessionDiagrams: ChemTrainSessionDiagramService,
     private readonly dataSource: DataSource,
     @Inject(forwardRef(() => ChemWrongQuestionService))
     private readonly wrongQuestions: ChemWrongQuestionService,
@@ -154,6 +157,10 @@ export class ChemTrainService implements OnModuleInit {
       dto.difficulty,
       poolMode,
     )
+    const diagramFilter = await this.sessionDiagrams.filterOutBrokenDiagramItems(
+      eligible,
+    )
+    eligible = diagramFilter.ok
     if (!eligible.length) {
       throw new BadRequestException(
         poolMode === 'formal'
@@ -171,52 +178,62 @@ export class ChemTrainService implements OnModuleInit {
     }
 
     const now = new Date()
-    const session = await this.sessionsRepo.save(
-      this.sessionsRepo.create({
-        userId,
-        sessionKind: 'specialty',
-        dailyDate: null,
-        specialtyId: specialty.id,
-        categoryId: category.id,
-        poolMode,
-        difficulty: dto.difficulty,
-        plannedCount: dto.count,
-        actualCount: picked.length,
-        mode: dto.mode,
-        status: 'in_progress',
-        answeredCount: 0,
-        correctCount: 0,
-        wrongCount: 0,
-        pendingCount: 0,
-        durationMs: 0,
-        startedAt: now,
-        submittedAt: null,
-        countsFormalStats: poolMode === 'formal',
-      }),
-    )
+    const sessionId = await this.dataSource.transaction(async (manager) => {
+      const session = await manager.save(
+        manager.create(ChemTrainSession, {
+          userId,
+          sessionKind: 'specialty',
+          dailyDate: null,
+          specialtyId: specialty.id,
+          categoryId: category.id,
+          poolMode,
+          difficulty: dto.difficulty,
+          plannedCount: dto.count,
+          actualCount: picked.length,
+          mode: dto.mode,
+          status: 'in_progress',
+          answeredCount: 0,
+          correctCount: 0,
+          wrongCount: 0,
+          pendingCount: 0,
+          durationMs: 0,
+          startedAt: now,
+          submittedAt: null,
+          countsFormalStats: poolMode === 'formal',
+        }),
+      )
 
-    const rows = picked.map((item, i) =>
-      this.sessionItemsRepo.create({
-        sessionId: session.id,
-        sortOrder: i + 1,
-        itemId: item.id,
-        itemCode: item.code,
-        qtype: item.qtype,
-        answerType: item.answerType || 'text',
-        stem: item.stem,
-        optionsJson: item.optionsJson,
-        answer: item.answer,
-        answerAliasesJson: item.answerAliasesJson,
-        analysis: item.analysis,
-        userAnswer: null,
-        gradeResult: null,
-        gradeReason: null,
-        answeredAt: null,
-      }),
-    )
-    await this.sessionItemsRepo.save(rows)
+      for (let i = 0; i < picked.length; i++) {
+        const item = picked[i]
+        const row = await manager.save(
+          manager.create(ChemTrainSessionItem, {
+            sessionId: session.id,
+            sortOrder: i + 1,
+            itemId: item.id,
+            itemCode: item.code,
+            qtype: item.qtype,
+            answerType: item.answerType || 'text',
+            stem: item.stem,
+            optionsJson: item.optionsJson,
+            answer: item.answer,
+            answerAliasesJson: item.answerAliasesJson,
+            analysis: item.analysis,
+            userAnswer: null,
+            gradeResult: null,
+            gradeReason: null,
+            answeredAt: null,
+          }),
+        )
+        await this.sessionDiagrams.writeSnapshotsInTx(
+          manager,
+          row.id,
+          item.id,
+        )
+      }
+      return session.id
+    })
 
-    return this.getSessionForUser(userId, session.id, { includeAnswers: false })
+    return this.getSessionForUser(userId, sessionId, { includeAnswers: false })
   }
 
   async listSessions(userId: string, query: ListTrainSessionsQueryDto) {
@@ -398,6 +415,7 @@ export class ChemTrainService implements OnModuleInit {
   // —— helpers ——
 
   private async resolveSpecCat(specialtyCode: string, categoryCode: string) {
+    assertIndustrialSpecialtyAllowed(specialtyCode)
     const specialty = await this.specialtiesRepo.findOne({
       where: { code: specialtyCode, isActive: true },
     })
@@ -491,6 +509,10 @@ export class ChemTrainService implements OnModuleInit {
     const accuracy =
       scored > 0 ? Math.round((session.correctCount / scored) * 1000) / 10 : null
 
+    const diagramMap = await this.sessionDiagrams.mapSnapshotsBySessionItemIds(
+      items.map((i) => i.id),
+    )
+
     return {
       id: session.id,
       status: session.status,
@@ -560,6 +582,7 @@ export class ChemTrainService implements OnModuleInit {
       submittedAt: session.submittedAt,
       items: items.map((it) => {
         const meta = it.itemId ? itemMeta.get(String(it.itemId)) : undefined
+        const diagrams = diagramMap.get(it.id) || []
         const base: Record<string, unknown> = {
           id: it.id,
           sortOrder: it.sortOrder,
@@ -574,6 +597,8 @@ export class ChemTrainService implements OnModuleInit {
           categoryCode: meta?.categoryCode,
           categoryName: meta?.categoryName,
           itemDifficulty: meta?.difficulty,
+          /** 会话图形快照（非当前题库关联）；无快照则为 []，不回退到最新图 */
+          diagramAssets: diagrams,
         }
         if (showKey) {
           base.gradeResult = it.gradeResult

@@ -1,0 +1,15 @@
+{
+  "fromAgent": "50dcd768-0844-411d-8951-27b64134aa18",
+  "source": "_1e_design_ch2_a.json",
+  "agentAccepted": [101, 102, 103, 104],
+  "agentRejected": [105, 106, 107, 108],
+  "merged": [],
+  "skippedAsDupPass": [
+    { "n": 101, "vs": "PASS006", "reason": "open-root×vertex-floor isomorphic" },
+    { "n": 102, "vs": "PASS013", "reason": "fixed-root-gap + interval-min-touch isomorphic" },
+    { "n": 103, "vs": "PASS014", "reason": "g-nonneg on f-root-interval+gap isomorphic" },
+    { "n": 104, "vs": "PASS018", "reason": "best-λ + forbid-eq isomorphic" }
+  ],
+  "poolUnchanged": true,
+  "note": "Unlike Ch3 wave A, no remapped keepers. Reassemble not required."
+}

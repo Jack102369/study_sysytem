@@ -6,7 +6,8 @@
         <p class="sub">人教 A 版 · 专项训练与基础学情（正确率 ≠ 掌握度）</p>
       </div>
       <div class="acts">
-        <el-button type="primary" @click="goSpecialties">开始专项训练</el-button>
+        <el-button type="primary" @click="goTrainStart">开始训练</el-button>
+        <el-button @click="goSpecialties">章节目录</el-button>
         <el-button @click="goHistory">训练历史</el-button>
         <el-button @click="goAnalytics">学情分析</el-button>
       </div>
@@ -177,6 +178,9 @@ function formatTime(v: string) {
 
 function goSpecialties() {
   void router.push('/hs-math/specialties')
+}
+function goTrainStart() {
+  void router.push('/hs-math/train/start')
 }
 function goHistory() {
   void router.push('/hs-math/train/history')

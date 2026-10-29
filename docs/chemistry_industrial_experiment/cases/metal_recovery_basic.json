@@ -1,0 +1,131 @@
+{
+  "caseCode": "metal_recovery_basic",
+  "title": "简化金属回收（铁置换铜）教学模拟",
+  "description": "教学模拟：含 Cu2+ 的酸性/中性水溶液中，用铁屑置换得铜。明确溶液前提；不声称完整工业湿法冶金流程。",
+  "caseType": "teaching_simulation",
+  "gradeScope": "high_school_1",
+  "curriculumScope": {
+    "grade": "高一",
+    "knowledgePoints": [
+      "金属活动性顺序",
+      "置换反应",
+      "氧化还原初步"
+    ],
+    "curriculumNotes": "依赖金属活动性：Fe 可置换 Cu2+；具体溶液组成须人工审核。",
+    "curriculumReviewStatus": "pending"
+  },
+  "specialtyCode": "industrial_experiment",
+  "categoryCodes": [
+    "industrial_reaction_principle",
+    "industrial_production_cases",
+    "industrial_resource_recycling"
+  ],
+  "sourceReferences": [
+    {
+      "sourceType": "textbook_knowledge",
+      "sourceTitle": "金属活动性与置换反应（教学通用）",
+      "sourceIdentifier": null,
+      "sourceDescription": "方程式与条件待与已审核 chem_reactions 对齐后可升 verified。",
+      "verificationStatus": "unverified"
+    }
+  ],
+  "materials": [
+    {
+      "materialId": "m_cu_solution",
+      "name": "含Cu2+的水溶液（教学前提）",
+      "formula": null,
+      "materialType": "raw_material",
+      "physicalState": "aqueous",
+      "knowledgeReference": "须明确阴离子与浓度范围后才能作为正式依据"
+    },
+    {
+      "materialId": "m_fe",
+      "name": "铁屑",
+      "formula": "Fe",
+      "materialType": "reagent",
+      "physicalState": "solid"
+    },
+    {
+      "materialId": "m_cu",
+      "name": "铜",
+      "formula": "Cu",
+      "materialType": "target_product",
+      "physicalState": "solid"
+    },
+    {
+      "materialId": "m_fe2_solution",
+      "name": "含Fe2+的溶液（置换后）",
+      "formula": null,
+      "materialType": "byproduct",
+      "physicalState": "aqueous"
+    }
+  ],
+  "processSteps": [
+    {
+      "stepId": "s1_displace",
+      "stepName": "铁置换铜",
+      "operationType": "displace",
+      "inputs": [
+        "m_cu_solution",
+        "m_fe"
+      ],
+      "outputs": [
+        "m_cu",
+        "m_fe2_solution"
+      ],
+      "reagents": [
+        "m_fe"
+      ],
+      "purpose": "回收铜单质（教学）",
+      "principle": "金属活动性：Fe > Cu，可发生置换（前提：溶液中存在可被置换的Cu2+）",
+      "conditions": "教学前提：适宜温度与溶液条件待审",
+      "knowledgeReferences": [
+        "金属活动性顺序"
+      ],
+      "safetyNotes": "书面题；真实溶液处理须实验室规范，禁止危险操作指导"
+    }
+  ],
+  "reactions": [
+    {
+      "reactionReference": "pending.fe_cu_displacement",
+      "equation": "Fe + Cu2+ → Fe2+ + Cu",
+      "reactants": [
+        "m_fe",
+        "m_cu_solution"
+      ],
+      "products": [
+        "m_cu",
+        "m_fe2_solution"
+      ],
+      "conditions": "教学简化离子表示；完整盐类形式待审",
+      "knowledgeReference": null,
+      "kbReactionId": null,
+      "pendingVerification": true
+    }
+  ],
+  "knowledgeLinks": [
+    {
+      "label": "置换反应",
+      "note": "待关联已发布 chem_reactions"
+    }
+  ],
+  "learningObjectives": [
+    "根据金属活动性判断置换能否发生",
+    "区分教学模拟与真实工业湿法回收流程"
+  ],
+  "difficultyRange": {
+    "min": 1,
+    "max": 3
+  },
+  "safetyNotes": "书面化学知识训练，不提供工业现场危险操作指导。",
+  "reviewStatus": "draft",
+  "version": "0.1.0",
+  "reviewedContentHash": null,
+  "createdAt": "2026-10-29T00:00:00.000Z",
+  "updatedAt": "2026-10-29T00:00:00.000Z",
+  "openIssues": [
+    "反应 pendingVerification=true；无 kbReactionId",
+    "来源 unverified；不得自动 published"
+  ],
+  "contentHash": "e05d575272a674b55114187718206907928554337a511f3d3a8ae59ee4f4e012"
+}

@@ -14,6 +14,6 @@ export class ChemAnalyticsController {
     @CurrentUser() user: JwtPayload,
     @Query() query: ChemAnalyticsQueryDto,
   ) {
-    return this.service.getAnalytics(user.sub, query.days)
+    return this.service.getAnalytics(user.sub, query.days, query.specialtyCode)
   }
 }

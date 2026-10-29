@@ -1,0 +1,10 @@
+{
+  "caseCode": "salt_purification_basic",
+  "categoryCode": "industrial_separation_purification",
+  "difficulty": 1,
+  "qtype": "single",
+  "generationMode": "development_test",
+  "provider": "mock",
+  "model": "mock-industrial-v1",
+  "note": "Full prompts omitted from public artifact for safety"
+}

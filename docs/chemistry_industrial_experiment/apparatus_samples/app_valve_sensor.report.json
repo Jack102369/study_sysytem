@@ -1,0 +1,40 @@
+{
+  "intentionallyInvalid": false,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "REQUIRED_PORT_MISSING",
+        "path": "component:v1",
+        "message": "必要端口 b 未连接",
+        "severity": "warning"
+      }
+    ],
+    "unknowns": []
+  },
+  "safety": {
+    "findings": [],
+    "blocking": [],
+    "unknowns": [],
+    "warnings": []
+  },
+  "render": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "metrics": {
+      "diagramId": "app_valve_sensor",
+      "diagramVersion": "1.0.0",
+      "publicContentHash": "098e147df6bb38bf2093519ac206f69d7da22caeabb4f8e00bcabd3291be6222",
+      "rendererVersion": "1.0.0",
+      "nodeCount": 3,
+      "edgeCount": 1,
+      "drawnNodeCount": 3,
+      "drawnEdgeCount": 1,
+      "canvasWidth": 508,
+      "canvasHeight": 276
+    }
+  },
+  "note": "教学示意；invalid 样例禁止 formal"
+}

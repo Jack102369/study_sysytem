@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_filter_wash",
+  "caseCode": "salt_purification_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+  "apparatusVersion": "1.0.0",
+  "title": "过滤-洗涤-产品",
+  "orientation": "left_to_right",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "reviewMetadata": {
+    "chemicallyReviewed": false,
+    "schematicOnly": true
+  },
+  "components": [
+    {
+      "componentId": "f1",
+      "componentType": "filter",
+      "displayLabel": "过滤器",
+      "ports": [
+        {
+          "portId": "slurry_in",
+          "direction": "in",
+          "media": [
+            "liquid",
+            "solid"
+          ]
+        },
+        {
+          "portId": "filtrate_out",
+          "direction": "out",
+          "media": [
+            "liquid"
+          ]
+        },
+        {
+          "portId": "cake_out",
+          "direction": "out",
+          "media": [
+            "solid"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "filtrate",
+      "componentType": "liquid_tank",
+      "displayLabel": "滤液",
+      "ports": [
+        {
+          "portId": "liquid_in",
+          "direction": "in",
+          "media": [
+            "liquid"
+          ]
+        },
+        {
+          "portId": "liquid_out",
+          "direction": "out",
+          "media": [
+            "liquid"
+          ]
+        }
+      ],
+      "internal": {}
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "f1c",
+      "sourceComponentId": "f1",
+      "sourcePortId": "filtrate_out",
+      "targetComponentId": "filtrate",
+      "targetPortId": "liquid_in",
+      "flowType": "liquid"
+    }
+  ],
+  "apparatusContentHash": "d87fdab1daab5c7f22a031538d9774308367df344d48f9aa475a09b9fd335239"
+}

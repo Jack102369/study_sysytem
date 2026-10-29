@@ -1,0 +1,71 @@
+{
+  "phase": "HS-MATH-H3-FORMAL-IMPORT-204-4H-MICRO",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "builtAt": "2026-10-28T14:37:35.469Z",
+  "sourceBatchContentSha256": "0460dd64b366d2a475a19317153d727968e8b5d94f4d741ab9f67c730fded24c",
+  "sourceFileSha256": "0ae821a5f5fb7007301980b61d2ece8420c20753b7689ab0ce5f6cb713fa9a02",
+  "sourceItemContentSha256": "6866fc47f5f500dd2af281642c694a91a8bbfe3fe2ff3d3f609083ee165287b2",
+  "count": 1,
+  "whitelist": [
+    "CAND-H3C14-204"
+  ],
+  "mapping": [
+    {
+      "candidateId": "CAND-H3C14-204",
+      "importCode": "CAND-H3C14-204",
+      "chapterNo": 3,
+      "contentSha256": "6866fc47f5f500dd2af281642c694a91a8bbfe3fe2ff3d3f609083ee165287b2"
+    }
+  ],
+  "items": [
+    {
+      "code": "CAND-H3C14-204",
+      "specialtyCode": "rja-ch3",
+      "categoryCode": "3.2",
+      "qtype": "application",
+      "difficulty": 3,
+      "stem": "设 $f:\\mathbb{R}\\to\\mathbb{R}$ 严格递增，且对一切实数 $x,y$ 满足\n$$f\\!\\left(\\dfrac{x+y}{2}\\right)=\\dfrac{f(x)+f(y)}{2}.$$\n证明：存在常数 $c$，使对一切实数 $x$ 有 $f(x)=f(0)+cx$。并求 $c$ 用 $f(1)$ 表示。",
+      "options": null,
+      "answerPayload": {
+        "kind": "application",
+        "standardAnswer": "$c=f(1)-f(0)$，$f(x)=f(0)+x\\bigl(f(1)-f(0)\\bigr)$",
+        "maxScore": 14,
+        "rubric": [
+          {
+            "key": "s1_normalize_c_g",
+            "title": "定义 c=f(1)-f(0) 与 g，并证 c>0、g 满足中点式且 g(0)=g(1)=0",
+            "maxScore": 3,
+            "criteria": "正确引入规范化函数；由严增得 c>0；验证中点方程遗传与端点归零"
+          },
+          {
+            "key": "s2_integer_dyadic",
+            "title": "证全体整数与全体二进有理上 f(q)=f(0)+cq",
+            "maxScore": 5,
+            "criteria": "整数归纳 + [0,1] 二进中点归纳 + 平移到 ℝ 上全体二进有理"
+          },
+          {
+            "key": "s3_strict_mono_squeeze",
+            "title": "用严增夹逼把结论从二进有理扩到任意实数，并声明未用连续",
+            "maxScore": 6,
+            "criteria": "取夹逼二进序列；由严增不等式与 c>0 得唯一极限值；明确禁连续/导数偷渡"
+          }
+        ]
+      },
+      "analysis": "令 $c=f(1)-f(0)$，$g(x)=f(x)-f(0)-cx$。因 $f$ 严格递增，$f(1)>f(0)$，故必有 $c>0$（否则 $c\\le 0$ 推出 $f(1)\\le f(0)$，矛盾）。\n先验证 $g$ 亦满足中点等式：\n$$g\\!\\left(\\dfrac{x+y}{2}\\right)=f\\!\\left(\\dfrac{x+y}{2}\\right)-f(0)-c\\dfrac{x+y}{2}=\\dfrac{f(x)+f(y)}{2}-f(0)-c\\dfrac{x+y}{2}=\\dfrac{g(x)+g(y)}{2}.$$\n且 $g(0)=0$，$g(1)=0$。\n（一）整数点。由中点式取 $x=0,y=2$：$g(1)=\\dfrac{g(0)+g(2)}{2}\\Rightarrow g(2)=0$。归纳得对一切非负整数 $n$，$g(n)=0$。再取 $x=-1,y=1$：$g(0)=\\dfrac{g(-1)+g(1)}{2}\\Rightarrow g(-1)=0$，同理一切负整数亦有 $g(m)=0$。\n（二）二进有理。对固定正整数 $n$，断言：对 $k=0,1,\\ldots,2^{n}$ 有 $g\\!\\left(\\dfrac{k}{2^{n}}\\right)=0$。$n=0$ 已含于 $g(0)=g(1)=0$。若对某 $n$ 成立，则对相邻端点取中点得 $g\\!\\left(\\dfrac{2k+1}{2^{n+1}}\\right)=0$，从而对 $n+1$ 成立。故对一切二进有理 $r\\in[0,1]$，$g(r)=0$，即 $f(r)=f(0)+cr$。\n对任意整数 $m$ 与二进有理 $r\\in[0,1]$，令 $x=m+r$。反复用中点关系（或在 $[m,m+1]$ 上对 $g(\\cdot+m)$ 重复上述归纳，并注意到 $g(m)=g(m+1)=0$）得 $g(m+r)=0$。因此对一切二进有理 $q\\in\\mathbb{R}$，$f(q)=f(0)+cq$。\n（三）任意实数。任取 $x\\in\\mathbb{R}$。因二进有理在 $\\mathbb{R}$ 上稠密，可取二进有理序列 $(r_n),(s_n)$ 使 $r_n\\le x\\le s_n$ 且 $s_n-r_n\\to 0$。由 $f$ 严格递增：\n$$f(r_n)\\le f(x)\\le f(s_n),$$\n即 $f(0)+cr_n\\le f(x)\\le f(0)+cs_n$。两边夹逼（$c>0$）得 $f(x)=f(0)+cx$。\n全程只用中点等式、整数/二进归纳与严格递增夹逼，**未假设** $f$ 连续，也未使用导数。\n结论：$c=f(1)-f(0)>0$，且 $f(x)=f(0)+x\\bigl(f(1)-f(0)\\bigr)$ 对一切实数 $x$ 成立。",
+      "knowledgePointCodes": [
+        "rja.3.2.03"
+      ],
+      "primaryKnowledgePointCode": "rja.3.2.03",
+      "methodCodes": [
+        "equiv_transform",
+        "mono_analysis"
+      ],
+      "primaryMethodCode": "equiv_transform",
+      "sourceType": "original",
+      "sourceReference": "H3C14-1E 原创；非真题复制",
+      "sourceVerificationStatus": "unverified",
+      "sourceLicenseStatus": "unknown",
+      "pool": "formal"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "intentionallyInvalid": true,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "unknowns": []
+  },
+  "safety": {
+    "findings": [
+      {
+        "ruleId": "CLOSED_HEATING",
+        "status": "fail",
+        "severity": "error",
+        "message": "加热反应容器 rv1 未见泄压路径（密闭加热风险）",
+        "scope": "密闭加热",
+        "limitation": "教学示意规则；不能证明复杂工业工艺在真实工况下完全安全。",
+        "evidence": []
+      }
+    ],
+    "blocking": [
+      "CLOSED_HEATING: 加热反应容器 rv1 未见泄压路径（密闭加热风险）"
+    ],
+    "unknowns": [],
+    "warnings": []
+  },
+  "render": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "metrics": {
+      "diagramId": "app_closed_heat",
+      "diagramVersion": "1.0.0",
+      "publicContentHash": "b353152e01abc5c653b23e526924ab1f2abb28e715dd5e8b90f6d87f3253d635",
+      "rendererVersion": "1.0.0",
+      "nodeCount": 2,
+      "edgeCount": 1,
+      "drawnNodeCount": 2,
+      "drawnEdgeCount": 1,
+      "canvasWidth": 368,
+      "canvasHeight": 276
+    }
+  },
+  "note": "教学示意；invalid 样例禁止 formal"
+}

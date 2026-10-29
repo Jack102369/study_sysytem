@@ -208,7 +208,8 @@ export type HsMathSessionDetail = {
   specialtyId: string
   specialtyCode: string | null
   specialtyName: string | null
-  categoryId: string
+  /** null = 整章抽题 */
+  categoryId: string | null
   categoryCode: string | null
   categoryName: string | null
   /** current_item_link = 题目当前关联，非答题快照 */
@@ -220,13 +221,16 @@ export type HsMathSessionDetail = {
 
 export type CreateHsMathTrainSessionBody = {
   specialtyId: string
-  categoryId: string
+  /** 省略 / null = 整章抽题 */
+  categoryId?: string | null
   difficulty: 1 | 2 | 3
   count: 5 | 10 | 20
   mode: HsMathMode
   poolMode?: HsMathPool
   /** 未传 = 全部题型；传入则只抽该题型 */
   questionType?: HsMathQtype
+  /** 仅真 H3（code LIKE CAND-H3%）；通常配合 difficulty=3 */
+  trueH3Only?: boolean
 }
 
 export type ListHsMathSessionsQuery = {

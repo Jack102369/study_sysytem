@@ -1,0 +1,86 @@
+{
+  "phase": "HS-MATH-H3-FORMAL-IMPORT-204-4H-MICRO",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "startedAt": "2026-10-28T14:37:35.436Z",
+  "status": "H3_FORMAL_IMPORT_PASS",
+  "errors": [],
+  "gate0": {
+    "fileSha": "0ae821a5f5fb7007301980b61d2ece8420c20753b7689ab0ce5f6cb713fa9a02",
+    "batchDeclared": "0460dd64b366d2a475a19317153d727968e8b5d94f4d741ab9f67c730fded24c",
+    "batchRecomputed": "0460dd64b366d2a475a19317153d727968e8b5d94f4d741ab9f67c730fded24c",
+    "itemSha": "6866fc47f5f500dd2af281642c694a91a8bbfe3fe2ff3d3f609083ee165287b2",
+    "expected": {
+      "batch": "0460dd64b366d2a475a19317153d727968e8b5d94f4d741ab9f67c730fded24c",
+      "file": "0ae821a5f5fb7007301980b61d2ece8420c20753b7689ab0ce5f6cb713fa9a02",
+      "item": "6866fc47f5f500dd2af281642c694a91a8bbfe3fe2ff3d3f609083ee165287b2"
+    },
+    "dbBefore": {
+      "drawable": 925,
+      "d1": 335,
+      "d2": 478,
+      "d3": 112,
+      "h204": 0,
+      "imported12Count": 12,
+      "sessions": 143,
+      "sessionItems": 381,
+      "diagramLinks": 72
+    },
+    "payloadSha256": "e256e94f72de6888fa8e7319aaadf0a0c3831d99aca6b645ba09a9ff1cfbaf4d"
+  },
+  "import": {
+    "existingBefore": [],
+    "preview": {
+      "http": 201,
+      "canConfirm": true,
+      "errorCount": 0,
+      "itemCount": 1,
+      "failed": []
+    },
+    "confirm": {
+      "http": 201,
+      "success": true,
+      "mode": "created",
+      "successCount": 1,
+      "failCount": 0
+    },
+    "mode": "created",
+    "successCount": 1,
+    "itemId": "1087"
+  },
+  "review": {
+    "passed": 1
+  },
+  "approve": {
+    "success": 1
+  },
+  "mapping": {
+    "candidateId": "CAND-H3C14-204",
+    "chapter": 3,
+    "itemId": "1087",
+    "contentVersion": 1,
+    "review": "passed",
+    "approve": "approved",
+    "drawable": true,
+    "blockStep": null
+  },
+  "verify": {
+    "drawableAfter": 926,
+    "d1": 335,
+    "d2": 478,
+    "d3": 113,
+    "h204": 1,
+    "h3c14Approved": 13,
+    "originalNonH3c14": 913,
+    "sessions": 143,
+    "sessionItems": 381,
+    "diagramLinks": 72,
+    "sessionsBefore": 143,
+    "sessionItemsBefore": 381,
+    "diagramLinksBefore": 72,
+    "imported12Intact": true,
+    "fileShaAfter": "0ae821a5f5fb7007301980b61d2ece8420c20753b7689ab0ce5f6cb713fa9a02",
+    "fileShaUnchanged": true,
+    "payloadSha256": "e256e94f72de6888fa8e7319aaadf0a0c3831d99aca6b645ba09a9ff1cfbaf4d"
+  },
+  "endedAt": "2026-10-28T14:37:35.884Z"
+}

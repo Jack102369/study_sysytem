@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_gas_purify_collect",
+  "caseCode": "salt_purification_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+  "apparatusVersion": "1.0.0",
+  "title": "气体发生-净化-收集",
+  "orientation": "left_to_right",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "reviewMetadata": {
+    "chemicallyReviewed": false,
+    "schematicOnly": true
+  },
+  "components": [
+    {
+      "componentId": "gen1",
+      "componentType": "gas_generator",
+      "displayLabel": "气体发生器",
+      "ports": [
+        {
+          "portId": "reagent_in",
+          "direction": "in",
+          "media": [
+            "liquid",
+            "solid"
+          ]
+        },
+        {
+          "portId": "gas_out",
+          "direction": "out",
+          "media": [
+            "gas"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "wash1",
+      "componentType": "gas_washing_bottle",
+      "displayLabel": "洗气瓶",
+      "ports": [
+        {
+          "portId": "gas_in",
+          "direction": "in",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        },
+        {
+          "portId": "gas_out",
+          "direction": "out",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "collect1",
+      "componentType": "gas_collector",
+      "displayLabel": "集气瓶",
+      "ports": [
+        {
+          "portId": "gas_in",
+          "direction": "in",
+          "media": [
+            "gas"
+          ]
+        }
+      ],
+      "internal": {}
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "c1",
+      "sourceComponentId": "gen1",
+      "sourcePortId": "gas_out",
+      "targetComponentId": "wash1",
+      "targetPortId": "gas_in",
+      "flowType": "gas",
+      "displayLabel": "粗气"
+    },
+    {
+      "connectionId": "c2",
+      "sourceComponentId": "wash1",
+      "sourcePortId": "gas_out",
+      "targetComponentId": "collect1",
+      "targetPortId": "gas_in",
+      "flowType": "gas",
+      "displayLabel": "净气"
+    }
+  ],
+  "apparatusContentHash": "b0f551a6c172498c5cd794778df78857f00642dc86e0b82faab953ae08bba44a"
+}

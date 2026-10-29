@@ -9,6 +9,7 @@ import { Repository } from 'typeorm'
 import { ChemCategory } from '../chem-category.entity'
 import { ChemSpecialty } from '../chem-specialty.entity'
 import { ChemTrainEligibilityService } from './chem-train-eligibility.service'
+import { ChemTrainSessionDiagramService } from './chem-train-session-diagram.service'
 import { ChemTrainService } from './chem-train.service'
 import {
   AdvancedAvailabilityQueryDto,
@@ -20,6 +21,11 @@ import { ChemTrainItem } from './entities/chem-train-item.entity'
 import { ChemTrainSession } from './entities/chem-train-session.entity'
 import { ChemTrainSessionItem } from './entities/chem-train-session-item.entity'
 import { DIFFICULTY_LABELS } from './train.constants'
+import { INDUSTRIAL_SPECIALTY_CODE } from '../industrial/industrial-case.constants'
+import {
+  assertIndustrialSpecialtyAllowed,
+  isChemIndustrialExperimentEnabled,
+} from '../industrial/industrial-feature.config'
 
 const MIX_RAISE_RATIO = 0.7
 
@@ -43,6 +49,7 @@ export class ChemAdvancedTrainService {
     @InjectRepository(ChemCategory)
     private readonly categoriesRepo: Repository<ChemCategory>,
     private readonly eligibility: ChemTrainEligibilityService,
+    private readonly sessionDiagrams: ChemTrainSessionDiagramService,
     private readonly trainService: ChemTrainService,
   ) {}
 
@@ -204,6 +211,12 @@ export class ChemAdvancedTrainService {
       }),
     )
     await this.sessionItemsRepo.save(rows)
+    try {
+      await this.sessionDiagrams.snapshotForSavedItems(rows)
+    } catch (e) {
+      await this.sessionsRepo.delete({ id: session.id })
+      throw e
+    }
 
     const detail = await this.trainService.getSession(userId, session.id)
     return {
@@ -267,6 +280,8 @@ export class ChemAdvancedTrainService {
       }
     }
 
+    assertIndustrialSpecialtyAllowed(code)
+
     const specialty = await this.specialtiesRepo.findOne({
       where: { code, isActive: true },
     })
@@ -327,6 +342,15 @@ export class ChemAdvancedTrainService {
 
     const rows = await qb.getMany()
     let eligible = await this.eligibility.filterEligibleItems(rows, opts.poolMode)
+    // 工业实验关闭时：跨专项抽题也排除 industrial_experiment
+    if (!isChemIndustrialExperimentEnabled()) {
+      const ind = await this.specialtiesRepo.findOne({
+        where: { code: INDUSTRIAL_SPECIALTY_CODE, isActive: true },
+      })
+      if (ind) {
+        eligible = eligible.filter((i) => String(i.specialtyId) !== String(ind.id))
+      }
+    }
     // 硬规则：提高与挑战绝不包含基础题
     eligible = eligible.filter((i) => i.difficulty === 2 || i.difficulty === 3)
     eligible = eligible.filter((i) => opts.difficulties.includes(i.difficulty))

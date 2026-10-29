@@ -1,0 +1,190 @@
+{
+  "group": 2,
+  "items": {
+    "CAND-HARD14-021": {
+      "itemId": "995",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "2537628e07bbd73b",
+      "hardLevelOffline": "H2"
+    },
+    "CAND-HARD14-022": {
+      "itemId": "996",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "110fba6d61cbab79",
+      "hardLevelOffline": "H2"
+    },
+    "CAND-HARD14-023": {
+      "itemId": "997",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "9e2eb970a6892d3e",
+      "hardLevelOffline": "H2"
+    },
+    "CAND-HARD14-024": {
+      "itemId": "998",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "6a093a3e47574eb8",
+      "hardLevelOffline": "H2"
+    },
+    "CAND-HARD14-025": {
+      "itemId": "999",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "8a871d9b76befb51",
+      "hardLevelOffline": "H2"
+    },
+    "CAND-HARD14-026": {
+      "itemId": "1000",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "eabf48dc5b5dd3bd",
+      "hardLevelOffline": "H1"
+    },
+    "CAND-HARD14-027": {
+      "itemId": "1001",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "6374609b08e2359d",
+      "hardLevelOffline": "H2"
+    },
+    "CAND-HARD14-028": {
+      "itemId": "1002",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "cb0c501b23a9aa12",
+      "hardLevelOffline": "H2"
+    },
+    "CAND-HARD14-029": {
+      "itemId": "1003",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "da32636a30156856",
+      "hardLevelOffline": "H1"
+    },
+    "CAND-HARD14-030": {
+      "itemId": "1004",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "7df464e72f0536cf",
+      "hardLevelOffline": "H1"
+    },
+    "CAND-HARD14-031": {
+      "itemId": "1005",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "1af7d85eaed6cb87",
+      "hardLevelOffline": "H1"
+    },
+    "CAND-HARD14-032": {
+      "itemId": "1006",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "4cbefbef4fd89732",
+      "hardLevelOffline": "H2"
+    },
+    "CAND-HARD14-033": {
+      "itemId": "1007",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "e865f441ac72c406",
+      "hardLevelOffline": "H2"
+    },
+    "CAND-HARD14-034": {
+      "itemId": "1008",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "64c3300e89f37f3a",
+      "hardLevelOffline": "H1"
+    },
+    "CAND-HARD14-035": {
+      "itemId": "1009",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "dab47a7b45335baf",
+      "hardLevelOffline": "H2"
+    },
+    "CAND-HARD14-036": {
+      "itemId": "1010",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "e1d608c4f5c491e3",
+      "hardLevelOffline": "H2"
+    },
+    "CAND-HARD14-037": {
+      "itemId": "1011",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "72c2816077dfba59",
+      "hardLevelOffline": "H2"
+    },
+    "CAND-HARD14-038": {
+      "itemId": "1012",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "2462ebd493d54ae2",
+      "hardLevelOffline": "H2"
+    },
+    "CAND-HARD14-039": {
+      "itemId": "1013",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "edfdcd0d7475a4fb",
+      "hardLevelOffline": "H2"
+    },
+    "CAND-HARD14-040": {
+      "itemId": "1014",
+      "status": "approved",
+      "contentVersion": 1,
+      "reviewPassed": true,
+      "approved": true,
+      "contentFingerprintPrefix": "b9a73e244cbd2a80",
+      "hardLevelOffline": "H2"
+    }
+  },
+  "importDone": true,
+  "diagramsDone": true,
+  "reviewApproveDone": true,
+  "verified": true,
+  "drawableAfter": 853
+}

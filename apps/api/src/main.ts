@@ -13,6 +13,18 @@ async function bootstrap() {
 
   const uploadDir = join(process.cwd(), 'uploads')
   if (!existsSync(uploadDir)) mkdirSync(uploadDir, { recursive: true })
+  // STEP_10：阻断公开静态访问工业 SVG（须走会话授权 API）
+  const expressForUploads = app.getHttpAdapter().getInstance()
+  expressForUploads.use(
+    '/uploads/industrial-svg',
+    (_req: Request, res: Response) => {
+      res.status(403).type('application/json').send({
+        success: false,
+        message:
+          'Forbidden: industrial SVG requires authorized chemistry train session API',
+      })
+    },
+  )
   app.useStaticAssets(uploadDir, { prefix: '/uploads' })
 
   // 前端静态页（二级目录 /study-system）

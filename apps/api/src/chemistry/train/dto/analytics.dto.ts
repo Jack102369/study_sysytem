@@ -1,5 +1,5 @@
 import { Type } from 'class-transformer'
-import { IsIn, IsInt, IsOptional } from 'class-validator'
+import { IsIn, IsInt, IsOptional, IsString, MaxLength } from 'class-validator'
 
 export class ChemAnalyticsQueryDto {
   /** 趋势/专项/难度/高频错误窗口：7 或 30；默认 30。日历固定 30 天。 */
@@ -8,4 +8,10 @@ export class ChemAnalyticsQueryDto {
   @IsInt()
   @IsIn([7, 30])
   days?: 7 | 30
+
+  /** 可选：聚焦某一专项（如 industrial_experiment） */
+  @IsOptional()
+  @IsString()
+  @MaxLength(64)
+  specialtyCode?: string
 }

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_valve_sensor",
+  "apparatusVersion": "1.0.0",
+  "orientation": "left_to_right",
+  "title": "阀门与检测仪表示意",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "components": [
+    {
+      "componentId": "tank",
+      "componentType": "liquid_tank",
+      "displayLabel": "储罐",
+      "ports": [
+        {
+          "portId": "liquid_in",
+          "direction": "in",
+          "media": [
+            "liquid"
+          ]
+        },
+        {
+          "portId": "liquid_out",
+          "direction": "out",
+          "media": [
+            "liquid"
+          ]
+        }
+      ]
+    },
+    {
+      "componentId": "v1",
+      "componentType": "valve",
+      "displayLabel": "阀门",
+      "ports": [
+        {
+          "portId": "a",
+          "direction": "bidirectional",
+          "media": [
+            "gas",
+            "liquid",
+            "coolant"
+          ]
+        },
+        {
+          "portId": "b",
+          "direction": "bidirectional",
+          "media": [
+            "gas",
+            "liquid",
+            "coolant"
+          ]
+        }
+      ]
+    },
+    {
+      "componentId": "t1",
+      "componentType": "temperature_sensor",
+      "displayLabel": "温度计",
+      "ports": [
+        {
+          "portId": "sense",
+          "direction": "in",
+          "media": [
+            "heat",
+            "liquid",
+            "gas"
+          ]
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "p1",
+      "sourceComponentId": "tank",
+      "sourcePortId": "liquid_out",
+      "targetComponentId": "v1",
+      "targetPortId": "a",
+      "flowType": "liquid"
+    }
+  ],
+  "publicContentHash": "098e147df6bb38bf2093519ac206f69d7da22caeabb4f8e00bcabd3291be6222"
+}

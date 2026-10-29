@@ -30,6 +30,7 @@ import ChemistryKbDetailView from '@/views/chemistry/ChemistryKbDetailView.vue'
 import ChemistryKbAdminView from '@/views/settings/chemistry/ChemistryKbAdminView.vue'
 import ChemistryTrainGeneratorView from '@/views/settings/chemistry/ChemistryTrainGeneratorView.vue'
 import ChemistryTrainItemsAdminView from '@/views/settings/chemistry/ChemistryTrainItemsAdminView.vue'
+import ChemistryIndustrialCandidatesView from '@/views/settings/chemistry/ChemistryIndustrialCandidatesView.vue'
 import ChemistryTrainSetupView from '@/views/chemistry/ChemistryTrainSetupView.vue'
 import ChemistryTrainSessionView from '@/views/chemistry/ChemistryTrainSessionView.vue'
 import ChemistryTrainResultView from '@/views/chemistry/ChemistryTrainResultView.vue'
@@ -157,6 +158,11 @@ const router = createRouter({
           component: HsMathSpecialtyListView,
         },
         {
+          path: 'hs-math/train/start',
+          name: 'hs-math-train-start',
+          component: HsMathTrainSetupView,
+        },
+        {
           path: 'hs-math/train/history',
           name: 'hs-math-train-history',
           component: HsMathTrainHistoryView,
@@ -263,6 +269,15 @@ const router = createRouter({
               meta: { requiresAdmin: true },
             },
             {
+              path: 'chemistry-industrial-candidates',
+              name: 'settings-chemistry-industrial-candidates',
+              component: ChemistryIndustrialCandidatesView,
+              meta: {
+                requiresAdmin: true,
+                requiresIndustrialExperiment: true,
+              },
+            },
+            {
               path: 'hs-math-taxonomy',
               name: 'settings-hs-math-taxonomy',
               component: HsMathTaxonomyAdminView,
@@ -319,7 +334,10 @@ router.beforeEach(async (to) => {
 
   const needAdmin = to.matched.some((r) => r.meta.requiresAdmin)
   const needAi = to.matched.some((r) => r.meta.requiresAi)
-  if (needAdmin || needAi) {
+  const needIndustrial = to.matched.some(
+    (r) => r.meta.requiresIndustrialExperiment,
+  )
+  if (needAdmin || needAi || needIndustrial) {
     if (!getToken()) {
       return { path: '/login', query: { redirect: to.fullPath } }
     }
@@ -330,6 +348,15 @@ router.beforeEach(async (to) => {
       }
       if (needAi && !me.aiEnabled) {
         return { path: '/' }
+      }
+      if (needIndustrial) {
+        const { fetchIndustrialExperimentFeature } = await import(
+          '@/api/chemistry-features'
+        )
+        const feat = await fetchIndustrialExperimentFeature()
+        if (!feat.enabled) {
+          return { path: '/settings/chemistry-train-items' }
+        }
       }
     } catch {
       return { path: '/login', query: { redirect: to.fullPath } }

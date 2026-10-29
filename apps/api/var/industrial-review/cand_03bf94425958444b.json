@@ -1,0 +1,1584 @@
+{
+  "candidateId": "cand_03bf94425958444b",
+  "generationTaskId": "industrial_formal_candidate_20261029_121958_03",
+  "generationSource": "manual_fixture",
+  "developmentOnly": false,
+  "specialtyCode": "industrial_experiment",
+  "categoryCode": "industrial_separation_purification",
+  "caseCode": "salt_purification_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+  "caseReviewStatus": "draft",
+  "reviewStatus": "pending_human_review",
+  "candidate": {
+    "qtype": "single",
+    "answerType": "single",
+    "stem": "同时给出粗盐提纯流程与过滤装置示意时，过滤的主要目的是？\n（双图教学候选；案例 draft）",
+    "options": [
+      "除去不溶性杂质，实现固液分离",
+      "除去全部可溶性杂质离子",
+      "直接冶炼得到金属单质",
+      "完成电解精炼"
+    ],
+    "answer": "除去不溶性杂质，实现固液分离",
+    "explanation": "过滤用于固液分离，除去泥沙等不溶固体。可溶性杂质不能靠过滤除去，需另选化学方法（本案例未覆盖）。双图各自 contentHash。",
+    "knowledgePoints": [
+      "过滤",
+      "固液分离",
+      "粗盐提纯"
+    ],
+    "difficulty": 2,
+    "requiresManualReview": true,
+    "referencedNodeIds": [
+      "n_filter"
+    ],
+    "referencedLabels": [
+      "粗盐",
+      "溶解",
+      "混合液",
+      "操作①",
+      "滤液",
+      "滤渣",
+      "蒸发结晶",
+      "精盐"
+    ]
+  },
+  "definition": {
+    "schemaVersion": "1.0",
+    "caseCode": "salt_purification_basic",
+    "caseVersion": "0.1.0",
+    "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+    "internalReferences": {
+      "caseCode": "salt_purification_basic",
+      "caseVersion": "0.1.0",
+      "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3"
+    },
+    "reviewMetadata": {
+      "chemicallyReviewed": false,
+      "structureOnly": true,
+      "notes": "含未知操作①；仅结构示例"
+    },
+    "diagramId": "diag.salt_purification_basic",
+    "diagramVersion": "0.1.0",
+    "title": "粗盐提纯流程（协议示例）",
+    "orientation": "left_to_right",
+    "nodes": [
+      {
+        "id": "n_raw",
+        "type": "material",
+        "displayLabel": "粗盐",
+        "displayRole": "raw",
+        "presentation": {
+          "shapeHint": "rounded_rect",
+          "toneHint": "muted"
+        },
+        "internal": {
+          "materialId": "m_crude_salt"
+        }
+      },
+      {
+        "id": "n_dissolve",
+        "type": "process",
+        "displayLabel": "溶解",
+        "displayRole": "process",
+        "internal": {
+          "stepId": "s1_dissolve",
+          "materialId": null
+        }
+      },
+      {
+        "id": "n_brine",
+        "type": "intermediate",
+        "displayLabel": "混合液",
+        "displayRole": "intermediate",
+        "internal": {
+          "materialId": "m_brine"
+        }
+      },
+      {
+        "id": "n_filter",
+        "type": "unknown",
+        "displayLabel": "操作①",
+        "displayRole": "unknown_op",
+        "presentation": {
+          "shapeHint": "diamond",
+          "toneHint": "warning"
+        },
+        "internal": {
+          "stepId": "s2_filter",
+          "unknownKey": "op_filter",
+          "answerLabel": "过滤"
+        }
+      },
+      {
+        "id": "n_filtrate",
+        "type": "intermediate",
+        "displayLabel": "滤液",
+        "displayRole": "intermediate",
+        "internal": {
+          "materialId": "m_filtrate"
+        }
+      },
+      {
+        "id": "n_residue",
+        "type": "waste",
+        "displayLabel": "滤渣",
+        "displayRole": "waste",
+        "presentation": {
+          "toneHint": "danger"
+        },
+        "internal": {
+          "materialId": "m_residue"
+        }
+      },
+      {
+        "id": "n_evap",
+        "type": "separation",
+        "displayLabel": "蒸发结晶",
+        "displayRole": "separation",
+        "internal": {
+          "stepId": "s3_evaporate"
+        }
+      },
+      {
+        "id": "n_product",
+        "type": "product",
+        "displayLabel": "精盐",
+        "displayRole": "product",
+        "presentation": {
+          "toneHint": "success"
+        },
+        "internal": {
+          "materialId": "m_refined_nacl"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "from": "n_raw",
+        "to": "n_dissolve",
+        "type": "material_flow"
+      },
+      {
+        "id": "e2",
+        "from": "n_dissolve",
+        "to": "n_brine",
+        "type": "material_flow"
+      },
+      {
+        "id": "e3",
+        "from": "n_brine",
+        "to": "n_filter",
+        "type": "material_flow"
+      },
+      {
+        "id": "e4",
+        "from": "n_filter",
+        "to": "n_filtrate",
+        "type": "material_flow"
+      },
+      {
+        "id": "e5",
+        "from": "n_filter",
+        "to": "n_residue",
+        "type": "byproduct",
+        "displayLabel": "固渣"
+      },
+      {
+        "id": "e6",
+        "from": "n_filtrate",
+        "to": "n_evap",
+        "type": "material_flow"
+      },
+      {
+        "id": "e7",
+        "from": "n_evap",
+        "to": "n_product",
+        "type": "material_flow"
+      }
+    ],
+    "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe"
+  },
+  "publicDiagram": {
+    "schemaVersion": "1.0",
+    "diagramId": "diag.salt_purification_basic",
+    "diagramVersion": "0.1.0",
+    "orientation": "left_to_right",
+    "title": "粗盐提纯流程（协议示例）",
+    "nodes": [
+      {
+        "id": "n_raw",
+        "type": "material",
+        "displayLabel": "粗盐",
+        "presentation": {
+          "shapeHint": "rounded_rect",
+          "toneHint": "muted"
+        }
+      },
+      {
+        "id": "n_dissolve",
+        "type": "process",
+        "displayLabel": "溶解"
+      },
+      {
+        "id": "n_brine",
+        "type": "intermediate",
+        "displayLabel": "混合液"
+      },
+      {
+        "id": "n_filter",
+        "type": "unknown",
+        "displayLabel": "操作①",
+        "presentation": {
+          "shapeHint": "diamond",
+          "toneHint": "warning"
+        }
+      },
+      {
+        "id": "n_filtrate",
+        "type": "intermediate",
+        "displayLabel": "滤液"
+      },
+      {
+        "id": "n_residue",
+        "type": "waste",
+        "displayLabel": "滤渣",
+        "presentation": {
+          "toneHint": "danger"
+        }
+      },
+      {
+        "id": "n_evap",
+        "type": "separation",
+        "displayLabel": "蒸发结晶"
+      },
+      {
+        "id": "n_product",
+        "type": "product",
+        "displayLabel": "精盐",
+        "presentation": {
+          "toneHint": "success"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "from": "n_raw",
+        "to": "n_dissolve",
+        "type": "material_flow"
+      },
+      {
+        "id": "e2",
+        "from": "n_dissolve",
+        "to": "n_brine",
+        "type": "material_flow"
+      },
+      {
+        "id": "e3",
+        "from": "n_brine",
+        "to": "n_filter",
+        "type": "material_flow"
+      },
+      {
+        "id": "e4",
+        "from": "n_filter",
+        "to": "n_filtrate",
+        "type": "material_flow"
+      },
+      {
+        "id": "e5",
+        "from": "n_filter",
+        "to": "n_residue",
+        "type": "byproduct",
+        "displayLabel": "固渣"
+      },
+      {
+        "id": "e6",
+        "from": "n_filtrate",
+        "to": "n_evap",
+        "type": "material_flow"
+      },
+      {
+        "id": "e7",
+        "from": "n_evap",
+        "to": "n_product",
+        "type": "material_flow"
+      }
+    ],
+    "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d"
+  },
+  "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1688\" height=\"186\" viewBox=\"0 0 1688 186\" role=\"img\" aria-label=\"粗盐提纯流程（协议示例）\" data-renderer=\"1.0.0\" data-diagram-id=\"diag.salt_purification_basic\" data-public-hash=\"05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d\"><defs>\n  <marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#0f172a\"/>\n  </marker>\n  <marker id=\"arrow-open\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 1 1 L 9 5 L 1 9\" fill=\"none\" stroke=\"#64748b\" stroke-width=\"1.5\"/>\n  </marker>\n  <marker id=\"arrow-blue\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#0369a1\"/>\n  </marker>\n  <marker id=\"arrow-purple\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#7c3aed\"/>\n  </marker>\n  <marker id=\"arrow-muted\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#78716c\"/>\n  </marker>\n</defs><title>粗盐提纯流程（协议示例）</title><rect x=\"0\" y=\"0\" width=\"1688\" height=\"186\" fill=\"#ffffff\"/><g data-edge-id=\"e1\" data-edge-type=\"material_flow\"><path d=\"M 120 98 L 204 98 L 204 98 L 288 98\" fill=\"none\" stroke=\"#0f172a\" stroke-width=\"1.6\" marker-end=\"url(#arrow)\"/></g><g data-edge-id=\"e2\" data-edge-type=\"material_flow\"><path d=\"M 376 98 L 460 98 L 460 98 L 544 98\" fill=\"none\" stroke=\"#0f172a\" stroke-width=\"1.6\" marker-end=\"url(#arrow)\"/></g><g data-edge-id=\"e3\" data-edge-type=\"material_flow\"><path d=\"M 632 98 L 716 98 L 716 98 L 800 98\" fill=\"none\" stroke=\"#0f172a\" stroke-width=\"1.6\" marker-end=\"url(#arrow)\"/></g><g data-edge-id=\"e4\" data-edge-type=\"material_flow\"><path d=\"M 888 98 L 972 98 L 972 66 L 1056 66\" fill=\"none\" stroke=\"#0f172a\" stroke-width=\"1.6\" marker-end=\"url(#arrow)\"/></g><g data-edge-id=\"e5\" data-edge-type=\"byproduct\"><path d=\"M 888 98 L 908 98 L 908 154 L 1036 154 L 1036 130 L 1056 130\" fill=\"none\" stroke=\"#78716c\" stroke-width=\"1.4\" marker-end=\"url(#arrow-muted)\" stroke-dasharray=\"5 2\"/><text x=\"1036\" y=\"148\" text-anchor=\"middle\" font-size=\"10\" fill=\"#475569\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\">固渣</text></g><g data-edge-id=\"e6\" data-edge-type=\"material_flow\"><path d=\"M 1144 66 L 1228 66 L 1228 98 L 1312 98\" fill=\"none\" stroke=\"#0f172a\" stroke-width=\"1.6\" marker-end=\"url(#arrow)\"/></g><g data-edge-id=\"e7\" data-edge-type=\"material_flow\"><path d=\"M 1400 98 L 1484 98 L 1484 98 L 1568 98\" fill=\"none\" stroke=\"#0f172a\" stroke-width=\"1.6\" marker-end=\"url(#arrow)\"/></g><g id=\"node-n_raw\"><rect data-node-id=\"n_raw\" data-node-type=\"material\" x=\"32\" y=\"80\" width=\"88\" height=\"36\" rx=\"2\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"1.5\"/><text x=\"76\" y=\"102\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">粗盐</text></g><g id=\"node-n_dissolve\"><rect data-node-id=\"n_dissolve\" data-node-type=\"process\" x=\"288\" y=\"80\" width=\"88\" height=\"36\" rx=\"10\" fill=\"#f8fafc\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><text x=\"332\" y=\"102\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">溶解</text></g><g id=\"node-n_brine\"><rect data-node-id=\"n_brine\" data-node-type=\"intermediate\" x=\"544\" y=\"80\" width=\"88\" height=\"36\" rx=\"2\" fill=\"#fafafa\" stroke=\"#57534e\" stroke-width=\"1.5\" stroke-dasharray=\"4 2\"/><text x=\"588\" y=\"102\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">混合液</text></g><g id=\"node-n_filter\"><rect data-node-id=\"n_filter\" data-node-type=\"unknown\" x=\"800\" y=\"80\" width=\"88\" height=\"36\" rx=\"0\" fill=\"#fffbeb\" stroke=\"#b45309\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/><text x=\"844\" y=\"102\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">操作①</text></g><g id=\"node-n_filtrate\"><rect data-node-id=\"n_filtrate\" data-node-type=\"intermediate\" x=\"1056\" y=\"48\" width=\"88\" height=\"36\" rx=\"2\" fill=\"#fafafa\" stroke=\"#57534e\" stroke-width=\"1.5\" stroke-dasharray=\"4 2\"/><text x=\"1100\" y=\"70\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">滤液</text></g><g id=\"node-n_residue\"><rect data-node-id=\"n_residue\" data-node-type=\"waste\" x=\"1056\" y=\"112\" width=\"88\" height=\"36\" rx=\"2\" fill=\"#fafafa\" stroke=\"#78716c\" stroke-width=\"1.5\" stroke-dasharray=\"6 3\"/><text x=\"1100\" y=\"134\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">滤渣</text></g><g id=\"node-n_evap\"><rect data-node-id=\"n_evap\" data-node-type=\"separation\" x=\"1312\" y=\"80\" width=\"88\" height=\"36\" rx=\"4\" fill=\"#f0f9ff\" stroke=\"#0369a1\" stroke-width=\"1.8\"/><text x=\"1356\" y=\"102\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">蒸发结晶</text></g><g id=\"node-n_product\"><rect data-node-id=\"n_product\" data-node-type=\"product\" x=\"1568\" y=\"80\" width=\"88\" height=\"36\" rx=\"2\" fill=\"#ecfdf5\" stroke=\"#166534\" stroke-width=\"2.2\"/><rect x=\"1571\" y=\"83\" width=\"82\" height=\"30\" rx=\"1\" fill=\"none\" stroke=\"#166534\" stroke-width=\"1\"/><text x=\"1612\" y=\"102\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">精盐</text></g></svg>\n",
+  "svgContentHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+  "svgRelativePath": "industrial-svg/f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292.svg",
+  "renderReport": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "metrics": {
+      "diagramId": "diag.salt_purification_basic",
+      "diagramVersion": "0.1.0",
+      "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+      "rendererVersion": "1.0.0",
+      "nodeCount": 8,
+      "edgeCount": 7,
+      "drawnNodeCount": 8,
+      "drawnEdgeCount": 7,
+      "canvasWidth": 1688,
+      "canvasHeight": 186
+    }
+  },
+  "qualityReport": {
+    "reportId": "qr_90af69c79cce49b8",
+    "candidateId": "cand_03bf94425958444b",
+    "caseCode": "salt_purification_basic",
+    "caseVersion": "0.1.0",
+    "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+    "diagramVersion": "0.1.0",
+    "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe",
+    "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+    "questionContentHash": "9085c6d6519c458c6c30a4cd889cd4cd8fc1dc7a2722b25c3a92233bb5d2a166",
+    "auditContentHash": "97114cfa68a9fb94dedf97805db5f163ed498a32149b5b19c25dcdb9d9faa99d",
+    "qualityVersion": "1.0.0",
+    "generatedAt": "2026-10-29T05:28:33.811Z",
+    "checks": [
+      {
+        "checkCode": "CURR_GRADE_SCOPE",
+        "dimension": "curriculum",
+        "status": "pass",
+        "severity": "info",
+        "message": "案例 gradeScope 为 high_school_1",
+        "evidence": [
+          "gradeScope=high_school_1"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "CURR_REVIEW_STATUS",
+        "dimension": "curriculum",
+        "status": "unknown",
+        "severity": "warning",
+        "message": "课程审核未完成，不能认定课程适配已通过",
+        "evidence": [
+          "curriculumReviewStatus=pending"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "CURR_DIFFICULTY",
+        "dimension": "curriculum",
+        "status": "pass",
+        "severity": "info",
+        "message": "难度在案例 difficultyRange 内",
+        "evidence": [
+          "q=2",
+          "range=1-2"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "CURR_KNOWLEDGE_POINTS",
+        "dimension": "curriculum",
+        "status": "pass",
+        "severity": "info",
+        "message": "知识点均在有限白名单或案例 curriculumScope 内",
+        "evidence": [
+          "过滤",
+          "固液分离",
+          "粗盐提纯"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "CURR_CATEGORY",
+        "dimension": "curriculum",
+        "status": "pass",
+        "severity": "info",
+        "message": "分类与案例一致",
+        "evidence": [
+          "industrial_separation_purification"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "CURR_CASE_TRUST",
+        "dimension": "curriculum",
+        "status": "fail",
+        "severity": "critical",
+        "message": "正式候选要求案例已审核且 publishEligible",
+        "evidence": [
+          "reviewStatus=draft",
+          "publishEligible=false",
+          "effectiveOk=false"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "CHEM_BAD_FORMULA",
+        "dimension": "chemistry",
+        "status": "pass",
+        "severity": "info",
+        "message": "未命中有限非法化学式规则（不证明全部化学式正确）",
+        "evidence": [
+          "rule=BAD_FORMULA_RE"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "CHEM_REACTION_PENDING",
+        "dimension": "chemistry",
+        "status": "unknown",
+        "severity": "info",
+        "message": "案例无反应条目；非反应类流程记 unknown（需人工确认）",
+        "evidence": [
+          "reactions=[]"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "CHEM_SOURCE_VERIFIED",
+        "dimension": "chemistry",
+        "status": "fail",
+        "severity": "critical",
+        "message": "正式模式：缺少 verified 知识来源（且无有效案例审核覆盖）",
+        "evidence": [
+          "高中化学必修实验：粗盐提纯（教学通用知识点）:unverified"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "CHEM_COMMON_FRAGMENT",
+        "dimension": "chemistry",
+        "status": "pass",
+        "severity": "info",
+        "message": "出现常见化学式片段（仅说明未触发非法模式）",
+        "evidence": [
+          "rule=COMMON_OK"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "CHEM_ENGINE_SCOPE",
+        "dimension": "chemistry",
+        "status": "unknown",
+        "severity": "info",
+        "message": "本系统非完整化学推理引擎；未覆盖知识一律 unknown，不得自动 pass",
+        "evidence": [
+          "coverage=limited_rules"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "FILTER_SOLUBLE_SALT",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "未命中禁止工艺模式：FILTER_SOLUBLE_SALT",
+        "evidence": [
+          "pattern_clear"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "PROCESS_OVERCLAIM_REAL_PLANT",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "未发现过度宣称真实完整工业生产",
+        "evidence": [
+          "textbook_simplification"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "PROCESS_MATERIAL_REFS",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "流程图物料引用均在案例中",
+        "evidence": [
+          "badMat=0"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "PROCESS_STEP_REFS",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "流程图步骤引用均在案例中",
+        "evidence": [
+          "badStep=0"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "PROCESS_PRODUCT_SOURCE",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "产品节点均有入边",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.809Z"
+      },
+      {
+        "checkCode": "PROCESS_RECYCLE_ENDS",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "recycle 边端点完整（或无 recycle）",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "PROCESS_DEEP_REASONING",
+        "dimension": "process",
+        "status": "unknown",
+        "severity": "info",
+        "message": "深层工艺合理性（收率/能耗/工业放大）未自动验证",
+        "evidence": [
+          "requires_human_or_kb"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "DIAG_DEFINITION",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "Definition 结构校验通过",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "DIAG_CASE_BIND",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "Definition 与案例绑定通过",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "DIAG_PUBLIC",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "Public 校验通过",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "DIAG_PUBLIC_LEAK",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "Public JSON 未检出内部敏感键",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "DIAG_PUBLIC_HASH_MATCH",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "Public 哈希与再投影一致",
+        "evidence": [
+          "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+          "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "DIAG_SVG_SAFE",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "SVG 未检出脚本/事件/foreignObject",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "DIAG_SVG_INTERNAL_LEAK",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "SVG 未检出内部答案字段",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "DIAG_SVG_RENDER_REPORT",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "SVG 渲染报告 valid",
+        "evidence": [
+          "nodes 8/8",
+          "edges 7/7"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "DIAG_EDGE_DIRECTION",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "连线均已绘制（方向遵循 Definition from→to）",
+        "evidence": [
+          "edgeCount=7"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "CONS_NODE_ID",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用节点存在：n_filter",
+        "evidence": [
+          "n_filter"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：粗盐",
+        "evidence": [
+          "粗盐",
+          "粗盐",
+          "溶解",
+          "混合液",
+          "操作①",
+          "滤液",
+          "滤渣",
+          "蒸发结晶",
+          "精盐"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：溶解",
+        "evidence": [
+          "溶解",
+          "粗盐",
+          "溶解",
+          "混合液",
+          "操作①",
+          "滤液",
+          "滤渣",
+          "蒸发结晶",
+          "精盐"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：混合液",
+        "evidence": [
+          "混合液",
+          "粗盐",
+          "溶解",
+          "混合液",
+          "操作①",
+          "滤液",
+          "滤渣",
+          "蒸发结晶",
+          "精盐"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：操作①",
+        "evidence": [
+          "操作①",
+          "粗盐",
+          "溶解",
+          "混合液",
+          "操作①",
+          "滤液",
+          "滤渣",
+          "蒸发结晶",
+          "精盐"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：滤液",
+        "evidence": [
+          "滤液",
+          "粗盐",
+          "溶解",
+          "混合液",
+          "操作①",
+          "滤液",
+          "滤渣",
+          "蒸发结晶",
+          "精盐"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：滤渣",
+        "evidence": [
+          "滤渣",
+          "粗盐",
+          "溶解",
+          "混合液",
+          "操作①",
+          "滤液",
+          "滤渣",
+          "蒸发结晶",
+          "精盐"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：蒸发结晶",
+        "evidence": [
+          "蒸发结晶",
+          "粗盐",
+          "溶解",
+          "混合液",
+          "操作①",
+          "滤液",
+          "滤渣",
+          "蒸发结晶",
+          "精盐"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：精盐",
+        "evidence": [
+          "精盐",
+          "粗盐",
+          "溶解",
+          "混合液",
+          "操作①",
+          "滤液",
+          "滤渣",
+          "蒸发结晶",
+          "精盐"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "CONS_UNKNOWN_ANSWER_LINK",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "未知节点 n_filter 有内部答案关联",
+        "evidence": [
+          "n_filter",
+          "操作①"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "CONS_ANSWER_OPTION",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "单选答案对应有效选项",
+        "evidence": [
+          "除去不溶性杂质，实现固液分离",
+          "options=4"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "CONS_EXPLANATION_PRESENT",
+        "dimension": "consistency",
+        "status": "unknown",
+        "severity": "info",
+        "message": "解析非空；语义正确性未自动证明",
+        "evidence": [
+          "过滤用于固液分离，除去泥沙等不溶固体。可溶性杂质不能靠过滤除去，需另选化学方法（本案例未覆盖）。双图各自 content"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "TEACH_STEM",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "题干完整",
+        "evidence": [
+          "同时给出粗盐提纯流程与过滤装置示意时，过滤的主要目的是？\n（双图教学候选；案例 "
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "TEACH_OPTIONS_COUNT",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "单选选项数量合法",
+        "evidence": [
+          "count=4"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "TEACH_OPTIONS_DUP",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "选项无重复",
+        "evidence": [
+          "除去不溶性杂质，实现固液分离",
+          "除去全部可溶性杂质离子",
+          "直接冶炼得到金属单质",
+          "完成电解精炼"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "TEACH_ANSWER_IN_STEM",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "未检测到题干直接粘贴标准答案文本",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "TEACH_QTYPE_MATCH",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "qtype 与 answerType 一致",
+        "evidence": [
+          "single",
+          "single"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "TEACH_JUDGE_COMPAT",
+        "dimension": "teaching",
+        "status": "unknown",
+        "severity": "info",
+        "message": "与正式 chem-train-grade 的完整兼容性留待 STEP_09 核对",
+        "evidence": [
+          "no_grade_service_mutation"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "APPARATUS_SCHEMA",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "装置 JSON 结构校验通过",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "APPARATUS_PUBLIC_LEAK",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "Public 白名单无泄漏",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "APPARATUS_STEM_CONSISTENCY",
+        "dimension": "consistency",
+        "status": "unknown",
+        "severity": "info",
+        "message": "题干与装置组件名的充分一致性无法完全自动证明",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.810Z"
+      },
+      {
+        "checkCode": "AI_AUX_CURRICULUM",
+        "dimension": "curriculum",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 curriculum 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.811Z"
+      },
+      {
+        "checkCode": "AI_AUX_CHEMISTRY",
+        "dimension": "chemistry",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 chemistry 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.811Z"
+      },
+      {
+        "checkCode": "AI_AUX_PROCESS",
+        "dimension": "process",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 process 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.811Z"
+      },
+      {
+        "checkCode": "AI_AUX_DIAGRAM",
+        "dimension": "diagram",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 diagram 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.811Z"
+      },
+      {
+        "checkCode": "AI_AUX_CONSISTENCY",
+        "dimension": "consistency",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 consistency 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.811Z"
+      },
+      {
+        "checkCode": "AI_AUX_TEACHING",
+        "dimension": "teaching",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 teaching 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T05:28:33.811Z"
+      }
+    ],
+    "summary": {
+      "total": 54,
+      "pass": 39,
+      "fail": 2,
+      "unknown": 13,
+      "criticalFail": 2,
+      "errorFail": 0,
+      "warningCount": 1
+    },
+    "blockingIssues": [
+      "CURR_CASE_TRUST: 正式候选要求案例已审核且 publishEligible",
+      "CHEM_SOURCE_VERIFIED: 正式模式：缺少 verified 知识来源（且无有效案例审核覆盖）"
+    ],
+    "warnings": [
+      "CURR_REVIEW_STATUS: 课程审核未完成，不能认定课程适配已通过"
+    ],
+    "unknownIssues": [
+      "CURR_REVIEW_STATUS: 课程审核未完成，不能认定课程适配已通过",
+      "CHEM_REACTION_PENDING: 案例无反应条目；非反应类流程记 unknown（需人工确认）",
+      "CHEM_ENGINE_SCOPE: 本系统非完整化学推理引擎；未覆盖知识一律 unknown，不得自动 pass",
+      "PROCESS_DEEP_REASONING: 深层工艺合理性（收率/能耗/工业放大）未自动验证",
+      "CONS_EXPLANATION_PRESENT: 解析非空；语义正确性未自动证明",
+      "TEACH_JUDGE_COMPAT: 与正式 chem-train-grade 的完整兼容性留待 STEP_09 核对",
+      "APPARATUS_STEM_CONSISTENCY: 题干与装置组件名的充分一致性无法完全自动证明",
+      "AI_AUX_CURRICULUM: Mock AI 辅助审查：维度 curriculum 未提供科学证明（记 unknown）",
+      "AI_AUX_CHEMISTRY: Mock AI 辅助审查：维度 chemistry 未提供科学证明（记 unknown）",
+      "AI_AUX_PROCESS: Mock AI 辅助审查：维度 process 未提供科学证明（记 unknown）",
+      "AI_AUX_DIAGRAM: Mock AI 辅助审查：维度 diagram 未提供科学证明（记 unknown）",
+      "AI_AUX_CONSISTENCY: Mock AI 辅助审查：维度 consistency 未提供科学证明（记 unknown）",
+      "AI_AUX_TEACHING: Mock AI 辅助审查：维度 teaching 未提供科学证明（记 unknown）"
+    ],
+    "overallStatus": "failed_automatic_checks",
+    "requiresHumanReview": true,
+    "developmentOnly": false,
+    "formalPublishEligible": false,
+    "aiReviewStatus": "mock",
+    "aiReviewProvider": "mock",
+    "aiReviewNotes": [
+      "Mock AI reviewer used; same-model dual call is not independent scientific proof"
+    ]
+  },
+  "auditContentHash": "e54861a90eefc162a6662b164f09ab742c4f21feb1462477b8ed52be3b3d79c6",
+  "humanDecision": null,
+  "humanReviewNote": null,
+  "humanReviewedBy": null,
+  "humanReviewedAt": null,
+  "humanReviewedAuditHash": null,
+  "importedItemCode": null,
+  "importedAt": null,
+  "createdAt": "2026-10-29T04:19:58.986Z",
+  "updatedAt": "2026-10-29T05:28:33.769Z",
+  "revision": 7,
+  "e1BatchId": "industrial_formal_candidate_20261029_121958",
+  "phase": "PHASE_E2A",
+  "plannedItemCode": "ifc_20261029_121958_03",
+  "formalCandidateIntent": true,
+  "formalImportBlocked": true,
+  "diagramKinds": [
+    "flow",
+    "apparatus"
+  ],
+  "sourceBasis": [
+    "本地 chem_experiments.id=20；published 但 review_note 含 human_unreviewed",
+    "CASE_SALT_PURIFICATION + APP_FILTER"
+  ],
+  "sourceVerificationStatus": "SOURCE_VERIFICATION_INCOMPLETE",
+  "sourceVerificationNote": "仅依据仓库 fixture + 本地 DB published 实体；未做外部教材页码/DOI；不得伪造 verified",
+  "apparatusDefinition": {
+    "schemaVersion": "1.0",
+    "apparatusId": "app_filter_wash",
+    "caseCode": "salt_purification_basic",
+    "caseVersion": "0.1.0",
+    "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+    "apparatusVersion": "1.0.0",
+    "title": "过滤-洗涤-产品",
+    "orientation": "left_to_right",
+    "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+    "reviewMetadata": {
+      "chemicallyReviewed": false,
+      "schematicOnly": true
+    },
+    "components": [
+      {
+        "componentId": "f1",
+        "componentType": "filter",
+        "displayLabel": "过滤器",
+        "ports": [
+          {
+            "portId": "slurry_in",
+            "direction": "in",
+            "media": [
+              "liquid",
+              "solid"
+            ]
+          },
+          {
+            "portId": "filtrate_out",
+            "direction": "out",
+            "media": [
+              "liquid"
+            ]
+          },
+          {
+            "portId": "cake_out",
+            "direction": "out",
+            "media": [
+              "solid"
+            ]
+          }
+        ],
+        "internal": {}
+      },
+      {
+        "componentId": "filtrate",
+        "componentType": "liquid_tank",
+        "displayLabel": "滤液",
+        "ports": [
+          {
+            "portId": "liquid_in",
+            "direction": "in",
+            "media": [
+              "liquid"
+            ]
+          },
+          {
+            "portId": "liquid_out",
+            "direction": "out",
+            "media": [
+              "liquid"
+            ]
+          }
+        ],
+        "internal": {}
+      }
+    ],
+    "connections": [
+      {
+        "connectionId": "f1c",
+        "sourceComponentId": "f1",
+        "sourcePortId": "filtrate_out",
+        "targetComponentId": "filtrate",
+        "targetPortId": "liquid_in",
+        "flowType": "liquid"
+      }
+    ],
+    "apparatusContentHash": "d87fdab1daab5c7f22a031538d9774308367df344d48f9aa475a09b9fd335239"
+  },
+  "apparatusPublic": {
+    "schemaVersion": "1.0",
+    "apparatusId": "app_filter_wash",
+    "apparatusVersion": "1.0.0",
+    "orientation": "left_to_right",
+    "title": "过滤-洗涤-产品",
+    "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+    "components": [
+      {
+        "componentId": "f1",
+        "componentType": "filter",
+        "displayLabel": "过滤器",
+        "ports": [
+          {
+            "portId": "slurry_in",
+            "direction": "in",
+            "media": [
+              "liquid",
+              "solid"
+            ]
+          },
+          {
+            "portId": "filtrate_out",
+            "direction": "out",
+            "media": [
+              "liquid"
+            ]
+          },
+          {
+            "portId": "cake_out",
+            "direction": "out",
+            "media": [
+              "solid"
+            ]
+          }
+        ]
+      },
+      {
+        "componentId": "filtrate",
+        "componentType": "liquid_tank",
+        "displayLabel": "滤液",
+        "ports": [
+          {
+            "portId": "liquid_in",
+            "direction": "in",
+            "media": [
+              "liquid"
+            ]
+          },
+          {
+            "portId": "liquid_out",
+            "direction": "out",
+            "media": [
+              "liquid"
+            ]
+          }
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "connectionId": "f1c",
+        "sourceComponentId": "f1",
+        "sourcePortId": "filtrate_out",
+        "targetComponentId": "filtrate",
+        "targetPortId": "liquid_in",
+        "flowType": "liquid"
+      }
+    ],
+    "publicContentHash": "db4c0e0d0911282a128c6add6238c2ebcdaad7982b3b53dbf4d6e64ab725b8db"
+  },
+  "apparatusSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"368\" height=\"276\" viewBox=\"0 0 368 276\" data-apparatus-id=\"app_filter_wash\" data-renderer=\"1.0.0\"><defs>\n  <marker id=\"app-arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#0f172a\"/>\n  </marker>\n</defs><text x=\"12\" y=\"18\" font-size=\"11\" fill=\"#64748b\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\">教学示意装置图（schematic），非工程施工图</text><text x=\"12\" y=\"36\" font-size=\"14\" font-weight=\"600\" fill=\"#0f172a\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\">过滤-洗涤-产品</text><path data-connection-id=\"f1c\" d=\"M 160 108 L 198 108\" fill=\"none\" stroke=\"#0f766e\" stroke-width=\"1.8\" marker-end=\"url(#app-arrow)\"/><g id=\"comp-f1\" data-component-type=\"filter\"><rect x=\"48\" y=\"72\" width=\"112\" height=\"72\" rx=\"4\" fill=\"#f8fafc\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><polygon points=\"64,86 144,86 104,132\" fill=\"#f0fdf4\" stroke=\"#166534\"/><text x=\"104\" y=\"158\" text-anchor=\"middle\" font-size=\"11\" fill=\"#0f172a\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\">过滤器</text></g><g id=\"comp-filtrate\" data-component-type=\"liquid_tank\"><rect x=\"198\" y=\"72\" width=\"112\" height=\"72\" rx=\"4\" fill=\"#f8fafc\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><text x=\"254\" y=\"158\" text-anchor=\"middle\" font-size=\"11\" fill=\"#0f172a\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\">滤液</text></g></svg>\n",
+  "apparatusSvgContentHash": "255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c",
+  "apparatusSvgRelativePath": "industrial-svg/255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c.svg",
+  "apparatusSafety": {
+    "findings": [],
+    "blocking": [],
+    "unknowns": [],
+    "warnings": []
+  },
+  "phaseE2aRevisedAt": "2026-10-29T05:28:33.769Z",
+  "kbBindingPlan": [
+    {
+      "entityType": "experiment",
+      "entityId": "20",
+      "entityName": "过滤操作",
+      "status": "published",
+      "reviewNoteFlags": [
+        "ai_trial",
+        "human_unreviewed",
+        "trial_run"
+      ],
+      "note": "本地 chem_experiments.id=20；published 但 review_note 含 human_unreviewed",
+      "currentLink": "NOT_BOUND",
+      "adminConfirmRequired": true,
+      "bindWhen": "PHASE_E2_after_human_approve_and_formal_import"
+    },
+    {
+      "entityType": "experiment",
+      "entityId": "19",
+      "entityName": "溶解与搅拌",
+      "status": "published",
+      "reviewNoteFlags": [
+        "ai_trial",
+        "human_unreviewed",
+        "trial_run"
+      ],
+      "note": "本地 chem_experiments.id=19",
+      "currentLink": "NOT_BOUND",
+      "adminConfirmRequired": true,
+      "bindWhen": "PHASE_E2_after_human_approve_and_formal_import"
+    }
+  ],
+  "e2aBlockerClassification": {
+    "QUALITY_BLOCKERS": [],
+    "PUBLISH_ELIGIBILITY_BLOCKERS": [
+      {
+        "checkCode": "CURR_CASE_TRUST",
+        "dimension": "curriculum",
+        "severity": "critical",
+        "message": "正式候选要求案例已审核且 publishEligible"
+      },
+      {
+        "checkCode": "CHEM_SOURCE_VERIFIED",
+        "dimension": "chemistry",
+        "severity": "critical",
+        "message": "正式模式：缺少 verified 知识来源（且无有效案例审核覆盖）"
+      }
+    ],
+    "HUMAN_REVIEW_PENDING": true,
+    "KB_BINDING_BLOCKERS": [
+      "KB_NOT_BOUND"
+    ],
+    "UNKNOWN_SCIENCE_ITEMS": [
+      "CURR_REVIEW_STATUS: 课程审核未完成，不能认定课程适配已通过",
+      "CHEM_REACTION_PENDING: 案例无反应条目；非反应类流程记 unknown（需人工确认）",
+      "CHEM_ENGINE_SCOPE: 本系统非完整化学推理引擎；未覆盖知识一律 unknown，不得自动 pass",
+      "PROCESS_DEEP_REASONING: 深层工艺合理性（收率/能耗/工业放大）未自动验证",
+      "CONS_EXPLANATION_PRESENT: 解析非空；语义正确性未自动证明",
+      "TEACH_JUDGE_COMPAT: 与正式 chem-train-grade 的完整兼容性留待 STEP_09 核对",
+      "APPARATUS_STEM_CONSISTENCY: 题干与装置组件名的充分一致性无法完全自动证明",
+      "AI_AUX_CURRICULUM: Mock AI 辅助审查：维度 curriculum 未提供科学证明（记 unknown）",
+      "AI_AUX_CHEMISTRY: Mock AI 辅助审查：维度 chemistry 未提供科学证明（记 unknown）",
+      "AI_AUX_PROCESS: Mock AI 辅助审查：维度 process 未提供科学证明（记 unknown）",
+      "AI_AUX_DIAGRAM: Mock AI 辅助审查：维度 diagram 未提供科学证明（记 unknown）",
+      "AI_AUX_CONSISTENCY: Mock AI 辅助审查：维度 consistency 未提供科学证明（记 unknown）",
+      "AI_AUX_TEACHING: Mock AI 辅助审查：维度 teaching 未提供科学证明（记 unknown）"
+    ],
+    "overallStatus": "failed_automatic_checks",
+    "formalPublishEligible": false
+  },
+  "readyForHumanReview": true,
+  "readyForFormalImport": false,
+  "revisionHistory": [
+    {
+      "at": "2026-10-29T04:39:01.738Z",
+      "fromRevision": 1,
+      "toRevision": 2,
+      "phase": "PHASE_E2A",
+      "changeReasons": [
+        "解析改写：避免触发 FILTER_SOLUBLE_SALT 误判的肯定错误模式措辞",
+        "明确过滤对象为不溶固体；可溶杂质另法（正确教学）",
+        "双图重渲染并刷新 auditContentHash"
+      ],
+      "beforeHashes": {
+        "auditContentHash": "36ed3885de5365689860394bfab83761a2e65976e16147dc6c5a377296042c15",
+        "questionContentHash": "c49ef27bed3f5c122794057a9b0f454f15fa6fa4e36c661ae9536a0df510e902",
+        "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe",
+        "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+        "flowSvgHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+        "apparatusSvgHash": "255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c",
+        "qualityOverall": "failed_automatic_checks",
+        "qualityBlocking": 3,
+        "qualityUnknown": 13,
+        "reviewStatus": "pending_human_review",
+        "humanDecision": null,
+        "caseCode": "salt_purification_basic",
+        "categoryCode": "industrial_separation_purification",
+        "revision": 1
+      },
+      "afterHashes": {
+        "auditContentHash": "e54861a90eefc162a6662b164f09ab742c4f21feb1462477b8ed52be3b3d79c6",
+        "questionContentHash": "9085c6d6519c458c6c30a4cd889cd4cd8fc1dc7a2722b25c3a92233bb5d2a166",
+        "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe",
+        "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+        "flowSvgHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+        "apparatusSvgHash": "255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c",
+        "qualityOverall": "failed_automatic_checks",
+        "qualityBlocking": 2,
+        "qualityUnknown": 13
+      }
+    },
+    {
+      "at": "2026-10-29T04:39:15.230Z",
+      "fromRevision": 2,
+      "toRevision": 3,
+      "phase": "PHASE_E2A",
+      "changeReasons": [
+        "解析改写：避免触发 FILTER_SOLUBLE_SALT 误判的肯定错误模式措辞",
+        "明确过滤对象为不溶固体；可溶杂质另法（正确教学）",
+        "双图重渲染并刷新 auditContentHash"
+      ],
+      "beforeHashes": {
+        "auditContentHash": "e54861a90eefc162a6662b164f09ab742c4f21feb1462477b8ed52be3b3d79c6",
+        "questionContentHash": "9085c6d6519c458c6c30a4cd889cd4cd8fc1dc7a2722b25c3a92233bb5d2a166",
+        "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe",
+        "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+        "flowSvgHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+        "apparatusSvgHash": "255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c",
+        "qualityOverall": "failed_automatic_checks",
+        "qualityBlocking": 2,
+        "qualityUnknown": 13,
+        "reviewStatus": "pending_human_review",
+        "humanDecision": null,
+        "caseCode": "salt_purification_basic",
+        "categoryCode": "industrial_separation_purification",
+        "revision": 2
+      },
+      "afterHashes": {
+        "auditContentHash": "e54861a90eefc162a6662b164f09ab742c4f21feb1462477b8ed52be3b3d79c6",
+        "questionContentHash": "9085c6d6519c458c6c30a4cd889cd4cd8fc1dc7a2722b25c3a92233bb5d2a166",
+        "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe",
+        "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+        "flowSvgHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+        "apparatusSvgHash": "255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c",
+        "qualityOverall": "failed_automatic_checks",
+        "qualityBlocking": 2,
+        "qualityUnknown": 13
+      }
+    },
+    {
+      "at": "2026-10-29T04:40:04.185Z",
+      "fromRevision": 3,
+      "toRevision": 4,
+      "phase": "PHASE_E2A",
+      "changeReasons": [
+        "解析改写：避免触发 FILTER_SOLUBLE_SALT 误判的肯定错误模式措辞",
+        "明确过滤对象为不溶固体；可溶杂质另法（正确教学）",
+        "双图重渲染并刷新 auditContentHash"
+      ],
+      "beforeHashes": {
+        "auditContentHash": "e54861a90eefc162a6662b164f09ab742c4f21feb1462477b8ed52be3b3d79c6",
+        "questionContentHash": "9085c6d6519c458c6c30a4cd889cd4cd8fc1dc7a2722b25c3a92233bb5d2a166",
+        "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe",
+        "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+        "flowSvgHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+        "apparatusSvgHash": "255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c",
+        "qualityOverall": "failed_automatic_checks",
+        "qualityBlocking": 2,
+        "qualityUnknown": 13,
+        "reviewStatus": "pending_human_review",
+        "humanDecision": null,
+        "caseCode": "salt_purification_basic",
+        "categoryCode": "industrial_separation_purification",
+        "revision": 3
+      },
+      "afterHashes": {
+        "auditContentHash": "e54861a90eefc162a6662b164f09ab742c4f21feb1462477b8ed52be3b3d79c6",
+        "questionContentHash": "9085c6d6519c458c6c30a4cd889cd4cd8fc1dc7a2722b25c3a92233bb5d2a166",
+        "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe",
+        "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+        "flowSvgHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+        "apparatusSvgHash": "255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c",
+        "qualityOverall": "failed_automatic_checks",
+        "qualityBlocking": 2,
+        "qualityUnknown": 13
+      }
+    },
+    {
+      "at": "2026-10-29T04:40:06.635Z",
+      "fromRevision": 4,
+      "toRevision": 5,
+      "phase": "PHASE_E2A",
+      "changeReasons": [
+        "解析改写：避免触发 FILTER_SOLUBLE_SALT 误判的肯定错误模式措辞",
+        "明确过滤对象为不溶固体；可溶杂质另法（正确教学）",
+        "双图重渲染并刷新 auditContentHash"
+      ],
+      "beforeHashes": {
+        "auditContentHash": "e54861a90eefc162a6662b164f09ab742c4f21feb1462477b8ed52be3b3d79c6",
+        "questionContentHash": "9085c6d6519c458c6c30a4cd889cd4cd8fc1dc7a2722b25c3a92233bb5d2a166",
+        "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe",
+        "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+        "flowSvgHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+        "apparatusSvgHash": "255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c",
+        "qualityOverall": "failed_automatic_checks",
+        "qualityBlocking": 2,
+        "qualityUnknown": 13,
+        "reviewStatus": "pending_human_review",
+        "humanDecision": null,
+        "caseCode": "salt_purification_basic",
+        "categoryCode": "industrial_separation_purification",
+        "revision": 4
+      },
+      "afterHashes": {
+        "auditContentHash": "e54861a90eefc162a6662b164f09ab742c4f21feb1462477b8ed52be3b3d79c6",
+        "questionContentHash": "9085c6d6519c458c6c30a4cd889cd4cd8fc1dc7a2722b25c3a92233bb5d2a166",
+        "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe",
+        "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+        "flowSvgHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+        "apparatusSvgHash": "255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c",
+        "qualityOverall": "failed_automatic_checks",
+        "qualityBlocking": 2,
+        "qualityUnknown": 13
+      }
+    },
+    {
+      "at": "2026-10-29T04:59:38.517Z",
+      "fromRevision": 5,
+      "toRevision": 6,
+      "phase": "PHASE_E2A",
+      "changeReasons": [
+        "解析改写：避免触发 FILTER_SOLUBLE_SALT 误判的肯定错误模式措辞",
+        "明确过滤对象为不溶固体；可溶杂质另法（正确教学）",
+        "双图重渲染并刷新 auditContentHash"
+      ],
+      "beforeHashes": {
+        "auditContentHash": "e54861a90eefc162a6662b164f09ab742c4f21feb1462477b8ed52be3b3d79c6",
+        "questionContentHash": "9085c6d6519c458c6c30a4cd889cd4cd8fc1dc7a2722b25c3a92233bb5d2a166",
+        "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe",
+        "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+        "flowSvgHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+        "apparatusSvgHash": "255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c",
+        "qualityOverall": "failed_automatic_checks",
+        "qualityBlocking": 2,
+        "qualityUnknown": 13,
+        "reviewStatus": "pending_human_review",
+        "humanDecision": null,
+        "caseCode": "salt_purification_basic",
+        "categoryCode": "industrial_separation_purification",
+        "revision": 5
+      },
+      "afterHashes": {
+        "auditContentHash": "e54861a90eefc162a6662b164f09ab742c4f21feb1462477b8ed52be3b3d79c6",
+        "questionContentHash": "9085c6d6519c458c6c30a4cd889cd4cd8fc1dc7a2722b25c3a92233bb5d2a166",
+        "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe",
+        "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+        "flowSvgHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+        "apparatusSvgHash": "255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c",
+        "qualityOverall": "failed_automatic_checks",
+        "qualityBlocking": 2,
+        "qualityUnknown": 13
+      }
+    },
+    {
+      "at": "2026-10-29T05:28:33.769Z",
+      "fromRevision": 6,
+      "toRevision": 7,
+      "phase": "PHASE_E2A",
+      "changeReasons": [
+        "解析改写：避免触发 FILTER_SOLUBLE_SALT 误判的肯定错误模式措辞",
+        "明确过滤对象为不溶固体；可溶杂质另法（正确教学）",
+        "双图重渲染并刷新 auditContentHash"
+      ],
+      "beforeHashes": {
+        "auditContentHash": "e54861a90eefc162a6662b164f09ab742c4f21feb1462477b8ed52be3b3d79c6",
+        "questionContentHash": "9085c6d6519c458c6c30a4cd889cd4cd8fc1dc7a2722b25c3a92233bb5d2a166",
+        "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe",
+        "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+        "flowSvgHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+        "apparatusSvgHash": "255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c",
+        "qualityOverall": "failed_automatic_checks",
+        "qualityBlocking": 2,
+        "qualityUnknown": 13,
+        "reviewStatus": "pending_human_review",
+        "humanDecision": null,
+        "caseCode": "salt_purification_basic",
+        "categoryCode": "industrial_separation_purification",
+        "revision": 6
+      },
+      "afterHashes": {
+        "auditContentHash": "e54861a90eefc162a6662b164f09ab742c4f21feb1462477b8ed52be3b3d79c6",
+        "questionContentHash": "9085c6d6519c458c6c30a4cd889cd4cd8fc1dc7a2722b25c3a92233bb5d2a166",
+        "diagramContentHash": "5bcbfce7185d21bc5cc6500ead9be703b81a3312af22d8a751be1ced0748cfbe",
+        "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+        "flowSvgHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+        "apparatusSvgHash": "255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c",
+        "qualityOverall": "failed_automatic_checks",
+        "qualityBlocking": 2,
+        "qualityUnknown": 13
+      }
+    }
+  ]
+}

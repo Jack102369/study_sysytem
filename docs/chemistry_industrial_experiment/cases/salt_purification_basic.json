@@ -1,0 +1,158 @@
+{
+  "caseCode": "salt_purification_basic",
+  "title": "粗盐提纯（基础固液分离）",
+  "description": "教学简化流程：溶解→过滤→蒸发结晶，用于理解不溶性杂质的固液分离与结晶。若含可溶性杂质盐，本流程不能完成对应除杂。",
+  "caseType": "textbook_simplification",
+  "gradeScope": "high_school_1",
+  "curriculumScope": {
+    "grade": "高一",
+    "knowledgePoints": [
+      "溶解",
+      "过滤",
+      "蒸发",
+      "结晶",
+      "固液分离"
+    ],
+    "curriculumNotes": "高一实验基础操作范围；未引入复杂可溶性杂质除杂反应。",
+    "curriculumReviewStatus": "pending"
+  },
+  "specialtyCode": "industrial_experiment",
+  "categoryCodes": [
+    "industrial_separation_purification",
+    "industrial_production_cases",
+    "flow_diagram_read"
+  ],
+  "sourceReferences": [
+    {
+      "sourceType": "textbook_knowledge",
+      "sourceTitle": "高中化学必修实验：粗盐提纯（教学通用知识点）",
+      "sourceIdentifier": null,
+      "sourceDescription": "通用教学知识点概括；未绑定具体教材版本页码（禁止虚构页码）。",
+      "verificationStatus": "unverified"
+    }
+  ],
+  "materials": [
+    {
+      "materialId": "m_crude_salt",
+      "name": "粗盐",
+      "formula": null,
+      "materialType": "raw_material",
+      "physicalState": "mixture",
+      "impurities": [
+        "不溶性泥沙等（教学前提）"
+      ],
+      "knowledgeReference": "粗盐为混合物，不编造单一化学式"
+    },
+    {
+      "materialId": "m_water",
+      "name": "水",
+      "formula": "H2O",
+      "materialType": "reagent",
+      "physicalState": "liquid"
+    },
+    {
+      "materialId": "m_brine",
+      "name": "粗盐溶液（含不溶杂质悬浮）",
+      "formula": null,
+      "materialType": "intermediate",
+      "physicalState": "mixture"
+    },
+    {
+      "materialId": "m_filtrate",
+      "name": "滤液（可溶性盐溶液）",
+      "formula": null,
+      "materialType": "intermediate",
+      "physicalState": "aqueous"
+    },
+    {
+      "materialId": "m_residue",
+      "name": "滤渣（不溶性杂质）",
+      "formula": null,
+      "materialType": "waste",
+      "physicalState": "solid"
+    },
+    {
+      "materialId": "m_refined_nacl",
+      "name": "提纯后的盐晶体（教学目标产物）",
+      "formula": "NaCl",
+      "materialType": "target_product",
+      "physicalState": "solid",
+      "knowledgeReference": "教学简化：假定主要成分为NaCl；未处理可溶性杂质盐"
+    }
+  ],
+  "processSteps": [
+    {
+      "stepId": "s1_dissolve",
+      "stepName": "溶解",
+      "operationType": "dissolve",
+      "inputs": [
+        "m_crude_salt",
+        "m_water"
+      ],
+      "outputs": [
+        "m_brine"
+      ],
+      "purpose": "使可溶成分进入溶液，不溶杂质悬浮或沉降",
+      "principle": "相似相溶；NaCl可溶于水，泥沙等不溶"
+    },
+    {
+      "stepId": "s2_filter",
+      "stepName": "过滤",
+      "operationType": "filter",
+      "inputs": [
+        "m_brine"
+      ],
+      "outputs": [
+        "m_filtrate",
+        "m_residue"
+      ],
+      "purpose": "固液分离除去不溶性杂质",
+      "principle": "过滤分离不溶固体与溶液",
+      "safetyNotes": "书面训练；实验室操作须教师指导"
+    },
+    {
+      "stepId": "s3_evaporate",
+      "stepName": "蒸发结晶",
+      "operationType": "evaporate",
+      "inputs": [
+        "m_filtrate"
+      ],
+      "outputs": [
+        "m_refined_nacl"
+      ],
+      "purpose": "得到固体盐晶体",
+      "principle": "蒸发溶剂使溶质析出（教学简化表述）"
+    }
+  ],
+  "reactions": [],
+  "knowledgeLinks": [
+    {
+      "label": "过滤",
+      "note": "固液分离"
+    },
+    {
+      "label": "蒸发",
+      "note": "溶液浓缩与结晶教学描述"
+    }
+  ],
+  "learningObjectives": [
+    "识别粗盐提纯的核心步骤顺序",
+    "理解过滤针对不溶性杂质的前提",
+    "区分本流程无法处理可溶性杂质盐"
+  ],
+  "difficultyRange": {
+    "min": 1,
+    "max": 2
+  },
+  "safetyNotes": "书面化学训练。禁止在家进行加热蒸发等危险操作。",
+  "reviewStatus": "draft",
+  "version": "0.1.0",
+  "reviewedContentHash": null,
+  "createdAt": "2026-10-29T00:00:00.000Z",
+  "updatedAt": "2026-10-29T00:00:00.000Z",
+  "openIssues": [
+    "来源 verificationStatus=unverified；未绑定已发布 KB 实体",
+    "未覆盖可溶性杂质（如 Ca2+/Mg2+/SO42-）的化学除杂"
+  ],
+  "contentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3"
+}

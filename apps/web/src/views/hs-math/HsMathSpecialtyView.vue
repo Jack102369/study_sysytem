@@ -12,14 +12,18 @@
         </p>
         <p v-if="detail?.intro" class="intro">{{ detail.intro }}</p>
       </div>
-      <el-button @click="goHistory">训练历史</el-button>
+      <div class="acts">
+        <el-button type="primary" @click="goChapterTrain">本章训练</el-button>
+        <el-button @click="goChapterH3">本章压轴（H3）</el-button>
+        <el-button @click="goHistory">训练历史</el-button>
+      </div>
     </div>
 
     <el-alert
       type="info"
       :closable="false"
       show-icon
-      title="可先浏览小节知识点，或直接进入专项训练。无已批准题目时开始训练会提示。"
+      title="可先浏览小节知识点；也可整章抽题，或按小节开始。无已批准题目时开始训练会提示。"
       style="margin-bottom: 16px"
     />
 
@@ -74,6 +78,28 @@ function goList() {
 }
 function goHistory() {
   void router.push('/hs-math/train/history')
+}
+function goChapterTrain() {
+  if (!detail.value) return
+  void router.push({
+    path: `/hs-math/specialties/${encodeURIComponent(detail.value.code)}/train`,
+    query: {
+      specialtyId: detail.value.id,
+      specialtyName: detail.value.name,
+    },
+  })
+}
+function goChapterH3() {
+  if (!detail.value) return
+  void router.push({
+    path: `/hs-math/specialties/${encodeURIComponent(detail.value.code)}/train`,
+    query: {
+      specialtyId: detail.value.id,
+      specialtyName: detail.value.name,
+      difficulty: '3',
+      trueH3: '1',
+    },
+  })
 }
 function goTrain(cat: HsMathCategoryItem) {
   if (!detail.value) return
@@ -130,6 +156,12 @@ watch(
   gap: 12px;
   margin-bottom: 12px;
   flex-wrap: wrap;
+}
+.acts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: flex-start;
 }
 .toolbar h1 {
   margin: 4px 0;

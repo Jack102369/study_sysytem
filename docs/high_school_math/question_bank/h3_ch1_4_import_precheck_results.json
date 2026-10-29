@@ -1,0 +1,640 @@
+{
+  "phase": "HS-MATH-H3-IMPORT-PRECHECK-3G",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "status": "H3_IMPORT_PRECHECK_PASS",
+  "auditedAt": "2026-10-28T14:08:33.430Z",
+  "gate0": {
+    "ok": true,
+    "nCandidates": 21,
+    "nPassScope": 12,
+    "passIds": [
+      "CAND-H3C14-006",
+      "CAND-H3C14-013",
+      "CAND-H3C14-014",
+      "CAND-H3C14-018",
+      "CAND-H3C14-027",
+      "CAND-H3C14-046",
+      "CAND-H3C14-047",
+      "CAND-H3C14-060",
+      "CAND-H3C14-202",
+      "CAND-H3C14-211",
+      "CAND-H3C14-213",
+      "CAND-H3C14-214"
+    ],
+    "batchContentSha256": "1e51ba93a0e398766d450fbecda3784a93297c0d8c1e5a60856798c655e19635",
+    "fileSha256": "df497f16c24c0b89b06df67b895f4bbdd7e6ca5bca820f29428f2b03b789ff16",
+    "frozenShaOk": true,
+    "db": {
+      "drawable": 913,
+      "byDiff": {
+        "1": 335,
+        "2": 478,
+        "3": 100
+      },
+      "h3c14": 0,
+      "codeConflicts": [],
+      "kpMiss": [],
+      "methodMiss": [],
+      "spMiss": [],
+      "catMiss": []
+    },
+    "candidatesUnmodified": true,
+    "hard14ReferenceSha": "d8d22ad0bcbac2dba134d417e6a3db5cd6407f256492155345330ae043025819"
+  },
+  "summary": {
+    "scoped": 12,
+    "importReady": 12,
+    "blocked": 0,
+    "requiredDiagrams": 0,
+    "diagramsGenerated": 0,
+    "applicationQtype": 12,
+    "numericIllegal": 0
+  },
+  "items": [
+    {
+      "id": "CAND-H3C14-006",
+      "chapterNo": 2,
+      "qtype": "application",
+      "kpCode": "rja.2.3.05",
+      "modelFamily": "h3-root-open-interval-coupled-min-floor",
+      "contentSha256": "81b28f1490ad8dd8d4c05d17d38bb813da3a268a50328b002635a203a36c9ab3",
+      "adaptOk": true,
+      "adaptErrors": [],
+      "adaptWarnings": [],
+      "adaptedPreview": {
+        "code": "CAND-H3C14-006",
+        "specialtyCode": "rja-ch2",
+        "categoryCode": "2.3",
+        "qtype": "application",
+        "difficulty": 3,
+        "maxScore": 14,
+        "rubricKeys": [
+          "s1_建立根分布的_Δ/端点/轴条件",
+          "s2_化简得_m∈(2,11/5)",
+          "s3_闭区间最小值化为顶点不等式",
+          "s4_联立截断并检验端点"
+        ],
+        "rubricSum": 14,
+        "primaryKnowledgePointCode": "rja.2.3.05",
+        "methodCodes": [
+          "classification",
+          "equiv_transform"
+        ]
+      },
+      "diagram": {
+        "declared": "NOT_NEEDED",
+        "judged": "NOT_NEEDED",
+        "ok": true,
+        "reason": "文字与符号推理自足；无强制图示要求",
+        "generateRequired": false
+      },
+      "dedup": {
+        "formal": [],
+        "hard14Exact": [],
+        "hard14SameFamilySample": [],
+        "intraExact": []
+      },
+      "contentFingerprintOffline": "4ffbea97989ee40f3ced938eec93b37e07921ad9c1cb4d16048306258984be33",
+      "contentVersionBaseline": 1,
+      "contentVersionRule": "No diagram asset change → baseline contentVersion=1 at first import; diagram add/replace must bump contentVersion+1 and refresh fingerprint with diagramSha256List",
+      "importReady": true,
+      "blockReasons": []
+    },
+    {
+      "id": "CAND-H3C14-013",
+      "chapterNo": 2,
+      "qtype": "application",
+      "kpCode": "rja.2.3.04",
+      "modelFamily": "h3-fixed-root-gap-interval-min-touch",
+      "contentSha256": "652d8c81dd66ac2c463231ce4455e81d7318056c57e1dd869507a65276b4247a",
+      "adaptOk": true,
+      "adaptErrors": [],
+      "adaptWarnings": [],
+      "adaptedPreview": {
+        "code": "CAND-H3C14-013",
+        "specialtyCode": "rja-ch2",
+        "categoryCode": "2.3",
+        "qtype": "application",
+        "difficulty": 3,
+        "maxScore": 14,
+        "rubricKeys": [
+          "s1_由根差得_Δ=4",
+          "s2_否定轴落入_[0,1]",
+          "s3_端点触碰两情形求解",
+          "s4_检验并给出全部有序对"
+        ],
+        "rubricSum": 14,
+        "primaryKnowledgePointCode": "rja.2.3.04",
+        "methodCodes": [
+          "classification",
+          "equiv_transform"
+        ]
+      },
+      "diagram": {
+        "declared": "NOT_NEEDED",
+        "judged": "NOT_NEEDED",
+        "ok": true,
+        "reason": "文字与符号推理自足；无强制图示要求",
+        "generateRequired": false
+      },
+      "dedup": {
+        "formal": [],
+        "hard14Exact": [],
+        "hard14SameFamilySample": [],
+        "intraExact": []
+      },
+      "contentFingerprintOffline": "743f9dbc6bc7993ddf12c8ca66ffb2446f2decf05854695daea28369ff587680",
+      "contentVersionBaseline": 1,
+      "contentVersionRule": "No diagram asset change → baseline contentVersion=1 at first import; diagram add/replace must bump contentVersion+1 and refresh fingerprint with diagramSha256List",
+      "importReady": true,
+      "blockReasons": []
+    },
+    {
+      "id": "CAND-H3C14-014",
+      "chapterNo": 2,
+      "qtype": "application",
+      "kpCode": "rja.2.3.01",
+      "modelFamily": "h3-g-nonneg-on-f-root-interval-with-gap",
+      "contentSha256": "89be21ced2dc68531ed83a648d610e6e6737be22a9e59322d1bc9d25814de638",
+      "adaptOk": true,
+      "adaptErrors": [],
+      "adaptWarnings": [],
+      "adaptedPreview": {
+        "code": "CAND-H3C14-014",
+        "specialtyCode": "rja-ch2",
+        "categoryCode": "2.3",
+        "qtype": "application",
+        "difficulty": 3,
+        "maxScore": 14,
+        "rubricKeys": [
+          "s1_写出_Δ_f_与根距条件",
+          "s2_处理_t≥1：轴落入与根距截断",
+          "s3_处理_t=0_与排除_t<0"
+        ],
+        "rubricSum": 14,
+        "primaryKnowledgePointCode": "rja.2.3.01",
+        "methodCodes": [
+          "equiv_transform",
+          "classification"
+        ]
+      },
+      "diagram": {
+        "declared": "NOT_NEEDED",
+        "judged": "NOT_NEEDED",
+        "ok": true,
+        "reason": "文字与符号推理自足；无强制图示要求",
+        "generateRequired": false
+      },
+      "dedup": {
+        "formal": [],
+        "hard14Exact": [],
+        "hard14SameFamilySample": [],
+        "intraExact": []
+      },
+      "contentFingerprintOffline": "d94cfd9d3168cdcf8c844c84f2cc7c997b71329bae13ddf658046936bb72c60a",
+      "contentVersionBaseline": 1,
+      "contentVersionRule": "No diagram asset change → baseline contentVersion=1 at first import; diagram add/replace must bump contentVersion+1 and refresh fingerprint with diagramSha256List",
+      "importReady": true,
+      "blockReasons": []
+    },
+    {
+      "id": "CAND-H3C14-018",
+      "chapterNo": 2,
+      "qtype": "application",
+      "kpCode": "rja.2.1.01",
+      "modelFamily": "h3-abs-quad-best-constant-with-forbidden-eq",
+      "contentSha256": "67530024badb41dce8f8da109144f225140a77834f65ece9fb1f23556b00977a",
+      "adaptOk": true,
+      "adaptErrors": [],
+      "adaptWarnings": [],
+      "adaptedPreview": {
+        "code": "CAND-H3C14-018",
+        "specialtyCode": "rja-ch2",
+        "categoryCode": "2.1",
+        "qtype": "application",
+        "difficulty": 3,
+        "maxScore": 12,
+        "rubricKeys": [
+          "s1_配方或基本不等式得_λ≤2_且_2_可取",
+          "s2_说明禁止等号后_λ=2_失败",
+          "s3_论证无最大_λ（上确界不可达）"
+        ],
+        "rubricSum": 12,
+        "primaryKnowledgePointCode": "rja.2.1.01",
+        "methodCodes": [
+          "equiv_transform",
+          "special_value"
+        ]
+      },
+      "diagram": {
+        "declared": "NOT_NEEDED",
+        "judged": "NOT_NEEDED",
+        "ok": true,
+        "reason": "文字与符号推理自足；无强制图示要求",
+        "generateRequired": false
+      },
+      "dedup": {
+        "formal": [],
+        "hard14Exact": [],
+        "hard14SameFamilySample": [],
+        "intraExact": []
+      },
+      "contentFingerprintOffline": "a290ada38f4f455f08d0fbfae58e313a2cf1a5ffa44ffe1c2ea4482573f92d46",
+      "contentVersionBaseline": 1,
+      "contentVersionRule": "No diagram asset change → baseline contentVersion=1 at first import; diagram add/replace must bump contentVersion+1 and refresh fingerprint with diagramSha256List",
+      "importReady": true,
+      "blockReasons": []
+    },
+    {
+      "id": "CAND-H3C14-027",
+      "chapterNo": 3,
+      "qtype": "application",
+      "kpCode": "rja.3.1.04",
+      "modelFamily": "h3-reflection-sum-existence-mono",
+      "contentSha256": "d04c21b8b9312ddbb87480434e144f7d9a4e4219fb6c24078567ce0900d1d533",
+      "adaptOk": true,
+      "adaptErrors": [],
+      "adaptWarnings": [],
+      "adaptedPreview": {
+        "code": "CAND-H3C14-027",
+        "specialtyCode": "rja-ch3",
+        "categoryCode": "3.1",
+        "qtype": "application",
+        "difficulty": 3,
+        "maxScore": 14,
+        "rubricKeys": [
+          "s1_证明存在性充要条件",
+          "s2_求出_f(1/2)_与_f(0)≤-1/8",
+          "s3_构造说明范围可达"
+        ],
+        "rubricSum": 14,
+        "primaryKnowledgePointCode": "rja.3.1.04",
+        "methodCodes": [
+          "equiv_transform",
+          "classification"
+        ]
+      },
+      "diagram": {
+        "declared": "NOT_NEEDED",
+        "judged": "NOT_NEEDED",
+        "ok": true,
+        "reason": "文字与符号推理自足；无强制图示要求",
+        "generateRequired": false
+      },
+      "dedup": {
+        "formal": [],
+        "hard14Exact": [],
+        "hard14SameFamilySample": [],
+        "intraExact": []
+      },
+      "contentFingerprintOffline": "ae212f084881fc46dabeb7b4c5fb3ef192377f5115b64c30014abf49e8457ced",
+      "contentVersionBaseline": 1,
+      "contentVersionRule": "No diagram asset change → baseline contentVersion=1 at first import; diagram add/replace must bump contentVersion+1 and refresh fingerprint with diagramSha256List",
+      "importReady": true,
+      "blockReasons": []
+    },
+    {
+      "id": "CAND-H3C14-046",
+      "chapterNo": 4,
+      "qtype": "application",
+      "kpCode": "rja.4.4.02",
+      "modelFamily": "h3-log-domain-exist-forall-bite",
+      "contentSha256": "55592189e50a21c1aea7f54b955f478e97edbe64770f7df70c67b6f41aee1935",
+      "adaptOk": true,
+      "adaptErrors": [],
+      "adaptWarnings": [],
+      "adaptedPreview": {
+        "code": "CAND-H3C14-046",
+        "specialtyCode": "rja-ch4",
+        "categoryCode": "4.4",
+        "qtype": "application",
+        "difficulty": 3,
+        "maxScore": 12,
+        "rubricKeys": [
+          "s1_写出_D_f=(-|a|,|a|)",
+          "s2_用最大值转化（I）（II）",
+          "s3_合并得_|a|_双闭区间"
+        ],
+        "rubricSum": 12,
+        "primaryKnowledgePointCode": "rja.4.4.02",
+        "methodCodes": [
+          "classification",
+          "mono_analysis"
+        ]
+      },
+      "diagram": {
+        "declared": "NOT_NEEDED",
+        "judged": "NOT_NEEDED",
+        "ok": true,
+        "reason": "文字与符号推理自足；无强制图示要求",
+        "generateRequired": false
+      },
+      "dedup": {
+        "formal": [],
+        "hard14Exact": [],
+        "hard14SameFamilySample": [],
+        "intraExact": []
+      },
+      "contentFingerprintOffline": "4078611706f21336034801099bf890e44bb3ed5a388d452ca3d61545b4dbbeb8",
+      "contentVersionBaseline": 1,
+      "contentVersionRule": "No diagram asset change → baseline contentVersion=1 at first import; diagram add/replace must bump contentVersion+1 and refresh fingerprint with diagramSha256List",
+      "importReady": true,
+      "blockReasons": []
+    },
+    {
+      "id": "CAND-H3C14-047",
+      "chapterNo": 4,
+      "qtype": "application",
+      "kpCode": "rja.4.4.03",
+      "modelFamily": "h3-log-quad-domain-R-base-split",
+      "contentSha256": "5b9b5764776861b47c2af75abfbc3b2e3bc8a8e288b3a2d60eaebc8433fedfe7",
+      "adaptOk": true,
+      "adaptErrors": [],
+      "adaptWarnings": [],
+      "adaptedPreview": {
+        "code": "CAND-H3C14-047",
+        "specialtyCode": "rja-ch4",
+        "categoryCode": "4.4",
+        "qtype": "application",
+        "difficulty": 3,
+        "maxScore": 16,
+        "rubricKeys": [
+          "s1_（1）Δ<0_得_a∈(0,1)∪(1,2)",
+          "s2_（2）a∈(1,2)_外侧解集",
+          "s3_（2）0<a<1_对_Δ_h_再分层",
+          "s4_汇总四类解集"
+        ],
+        "rubricSum": 16,
+        "primaryKnowledgePointCode": "rja.4.4.03",
+        "methodCodes": [
+          "classification",
+          "equiv_transform"
+        ]
+      },
+      "diagram": {
+        "declared": "NOT_NEEDED",
+        "judged": "NOT_NEEDED",
+        "ok": true,
+        "reason": "文字与符号推理自足；无强制图示要求",
+        "generateRequired": false
+      },
+      "dedup": {
+        "formal": [],
+        "hard14Exact": [],
+        "hard14SameFamilySample": [],
+        "intraExact": []
+      },
+      "contentFingerprintOffline": "a938b20d6e895ad9b802c16882445fa20a98db89c7b4f38459fe6b202f1c1bec",
+      "contentVersionBaseline": 1,
+      "contentVersionRule": "No diagram asset change → baseline contentVersion=1 at first import; diagram add/replace must bump contentVersion+1 and refresh fingerprint with diagramSha256List",
+      "importReady": true,
+      "blockReasons": []
+    },
+    {
+      "id": "CAND-H3C14-060",
+      "chapterNo": 3,
+      "qtype": "application",
+      "kpCode": "rja.3.1.03",
+      "modelFamily": "h3-dyadic-shift-mono-force-constant",
+      "contentSha256": "a2da1f83cf18f435e9623bb33c7da7b72bea95c5abcaeaeba81e66b7cecad1b2",
+      "adaptOk": true,
+      "adaptErrors": [],
+      "adaptWarnings": [],
+      "adaptedPreview": {
+        "code": "CAND-H3C14-060",
+        "specialtyCode": "rja-ch3",
+        "categoryCode": "3.1",
+        "qtype": "application",
+        "difficulty": 3,
+        "maxScore": 12,
+        "rubricKeys": [
+          "s1_分点处等于_f(0)",
+          "s2_单调夹逼",
+          "s3_说明未用连续性"
+        ],
+        "rubricSum": 12,
+        "primaryKnowledgePointCode": "rja.3.1.03",
+        "methodCodes": [
+          "equiv_transform",
+          "mono_analysis"
+        ]
+      },
+      "diagram": {
+        "declared": "NOT_NEEDED",
+        "judged": "NOT_NEEDED",
+        "ok": true,
+        "reason": "文字与符号推理自足；无强制图示要求",
+        "generateRequired": false
+      },
+      "dedup": {
+        "formal": [],
+        "hard14Exact": [],
+        "hard14SameFamilySample": [],
+        "intraExact": []
+      },
+      "contentFingerprintOffline": "08d0f2951ddeb29a26e04c7ef6b1662bdd86c3712e8e42e4e8b9198e21339dc4",
+      "contentVersionBaseline": 1,
+      "contentVersionRule": "No diagram asset change → baseline contentVersion=1 at first import; diagram add/replace must bump contentVersion+1 and refresh fingerprint with diagramSha256List",
+      "importReady": true,
+      "blockReasons": []
+    },
+    {
+      "id": "CAND-H3C14-202",
+      "chapterNo": 3,
+      "qtype": "application",
+      "kpCode": "rja.3.1.04",
+      "modelFamily": "h3-involution-strict-dec-endpoint-fixedpoint",
+      "contentSha256": "9c90e2e79c5809ea267193a5010a4d2b32a5e5b7730408fbc152d6ebaa5ed515",
+      "adaptOk": true,
+      "adaptErrors": [],
+      "adaptWarnings": [],
+      "adaptedPreview": {
+        "code": "CAND-H3C14-202",
+        "specialtyCode": "rja-ch3",
+        "categoryCode": "3.1",
+        "qtype": "application",
+        "difficulty": 3,
+        "maxScore": 12,
+        "rubricKeys": [
+          "s1_端点",
+          "s2_至多一不动点",
+          "s3_连续下存在"
+        ],
+        "rubricSum": 12,
+        "primaryKnowledgePointCode": "rja.3.1.04",
+        "methodCodes": [
+          "equiv_transform",
+          "mono_analysis"
+        ]
+      },
+      "diagram": {
+        "declared": "NOT_NEEDED",
+        "judged": "NOT_NEEDED",
+        "ok": true,
+        "reason": "文字与符号推理自足；无强制图示要求",
+        "generateRequired": false
+      },
+      "dedup": {
+        "formal": [],
+        "hard14Exact": [],
+        "hard14SameFamilySample": [],
+        "intraExact": []
+      },
+      "contentFingerprintOffline": "2f9e574bc8f2cac69f0cd0a577215c3e2bb7afd1dd1242c7be3cf6c08fc56329",
+      "contentVersionBaseline": 1,
+      "contentVersionRule": "No diagram asset change → baseline contentVersion=1 at first import; diagram add/replace must bump contentVersion+1 and refresh fingerprint with diagramSha256List",
+      "importReady": true,
+      "blockReasons": []
+    },
+    {
+      "id": "CAND-H3C14-211",
+      "chapterNo": 3,
+      "qtype": "application",
+      "kpCode": "rja.3.1.04",
+      "modelFamily": "h3-reciprocal-sum-existence-global-mono",
+      "contentSha256": "7a7d20e7242d0caf156feb4f3db1c286bf0d007311d9bbdefceef64d738d899d",
+      "adaptOk": true,
+      "adaptErrors": [],
+      "adaptWarnings": [],
+      "adaptedPreview": {
+        "code": "CAND-H3C14-211",
+        "specialtyCode": "rja-ch3",
+        "categoryCode": "3.1",
+        "qtype": "application",
+        "difficulty": 3,
+        "maxScore": 14,
+        "rubricKeys": [
+          "s1_证明存在性充要_g(x)=g(1/x)",
+          "s2_求出_f(1)=1_与_f(2)≥3/2",
+          "s3_构造说明_[3/2,+∞)_均可取到"
+        ],
+        "rubricSum": 14,
+        "primaryKnowledgePointCode": "rja.3.1.04",
+        "methodCodes": [
+          "equiv_transform",
+          "mono_analysis"
+        ]
+      },
+      "diagram": {
+        "declared": "NOT_NEEDED",
+        "judged": "NOT_NEEDED",
+        "ok": true,
+        "reason": "文字与符号推理自足；无强制图示要求",
+        "generateRequired": false
+      },
+      "dedup": {
+        "formal": [],
+        "hard14Exact": [],
+        "hard14SameFamilySample": [],
+        "intraExact": []
+      },
+      "contentFingerprintOffline": "52c4c99f0e33879a41ae57be762d64e4c1a948938357dd1032f6d2164d9eaf24",
+      "contentVersionBaseline": 1,
+      "contentVersionRule": "No diagram asset change → baseline contentVersion=1 at first import; diagram add/replace must bump contentVersion+1 and refresh fingerprint with diagramSha256List",
+      "importReady": true,
+      "blockReasons": []
+    },
+    {
+      "id": "CAND-H3C14-213",
+      "chapterNo": 3,
+      "qtype": "application",
+      "kpCode": "rja.3.2.04",
+      "modelFamily": "h3-doubling-invariance-mono-half-const",
+      "contentSha256": "5fcdab4cc8dfdf4ccf88ca6aa553197cfaa85117cea067ad99443726e622baa4",
+      "adaptOk": true,
+      "adaptErrors": [],
+      "adaptWarnings": [],
+      "adaptedPreview": {
+        "code": "CAND-H3C14-213",
+        "specialtyCode": "rja-ch3",
+        "categoryCode": "3.2",
+        "qtype": "application",
+        "difficulty": 3,
+        "maxScore": 12,
+        "rubricKeys": [
+          "s1_建立_dyadic_链_f(1)=f(2^{-n",
+          "s2_单调夹逼得_(0,1]_上为常值",
+          "s3_构造_f(0)_例外反例并讨论补条件"
+        ],
+        "rubricSum": 12,
+        "primaryKnowledgePointCode": "rja.3.2.04",
+        "methodCodes": [
+          "mono_analysis",
+          "classification"
+        ]
+      },
+      "diagram": {
+        "declared": "NOT_NEEDED",
+        "judged": "NOT_NEEDED",
+        "ok": true,
+        "reason": "文字与符号推理自足；无强制图示要求",
+        "generateRequired": false
+      },
+      "dedup": {
+        "formal": [],
+        "hard14Exact": [],
+        "hard14SameFamilySample": [],
+        "intraExact": []
+      },
+      "contentFingerprintOffline": "f75f79b5bd2fe806655687db05fc8e43ce00b800d8a8567196a250b76b7bcfb8",
+      "contentVersionBaseline": 1,
+      "contentVersionRule": "No diagram asset change → baseline contentVersion=1 at first import; diagram add/replace must bump contentVersion+1 and refresh fingerprint with diagramSha256List",
+      "importReady": true,
+      "blockReasons": []
+    },
+    {
+      "id": "CAND-H3C14-214",
+      "chapterNo": 3,
+      "qtype": "application",
+      "kpCode": "rja.3.2.12",
+      "modelFamily": "h3-odd-additive-mono-force-linear",
+      "contentSha256": "3bc499c5e2becaed73f7743712692454a7a101090728cb69849c5993fd5f3d11",
+      "adaptOk": true,
+      "adaptErrors": [],
+      "adaptWarnings": [],
+      "adaptedPreview": {
+        "code": "CAND-H3C14-214",
+        "specialtyCode": "rja-ch3",
+        "categoryCode": "3.2",
+        "qtype": "application",
+        "difficulty": 3,
+        "maxScore": 14,
+        "rubricKeys": [
+          "s1_得非负有理点_f(q)=qc",
+          "s2_单调夹逼到_[0,+∞)",
+          "s3_奇性延拓到_ℝ_并说明_c≥0"
+        ],
+        "rubricSum": 14,
+        "primaryKnowledgePointCode": "rja.3.2.12",
+        "methodCodes": [
+          "equiv_transform",
+          "mono_analysis"
+        ]
+      },
+      "diagram": {
+        "declared": "NOT_NEEDED",
+        "judged": "NOT_NEEDED",
+        "ok": true,
+        "reason": "文字与符号推理自足；无强制图示要求",
+        "generateRequired": false
+      },
+      "dedup": {
+        "formal": [],
+        "hard14Exact": [],
+        "hard14SameFamilySample": [],
+        "intraExact": []
+      },
+      "contentFingerprintOffline": "194b44e59ba2beb9b9fe9f7de608944a1b233a6492302b5b13fc35073c75ead6",
+      "contentVersionBaseline": 1,
+      "contentVersionRule": "No diagram asset change → baseline contentVersion=1 at first import; diagram add/replace must bump contentVersion+1 and refresh fingerprint with diagramSha256List",
+      "importReady": true,
+      "blockReasons": []
+    }
+  ],
+  "openIssues": [
+    "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+    "204 remains PROTOCOL_BLOCKED — out of scope",
+    "Offline fingerprint ≠ server fingerprintTrainItemContent until import-time recompute"
+  ],
+  "warnings": []
+}

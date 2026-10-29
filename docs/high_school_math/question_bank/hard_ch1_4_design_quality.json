@@ -1,0 +1,139 @@
+{
+  "phase": "HS-MATH-HARD-CH1-4-DESIGN-1A",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "status": "HARD_DESIGN100_READY_FOR_CANDIDATES",
+  "auditedAt": "2026-10-28T05:46:18.683Z",
+  "baselineReadonly": {
+    "drawable": 813,
+    "byDifficulty": {
+      "1": 335,
+      "2": 478
+    }
+  },
+  "coverage": {
+    "designs": 100,
+    "missingIds": [],
+    "duplicateIdCount": 0,
+    "counterexamplesUsed": 44
+  },
+  "levelTargetsVsActual": {
+    "target": {
+      "H1": 30,
+      "H2": 45,
+      "H3": 25
+    },
+    "labeled": {
+      "H1": 30,
+      "H2": 45,
+      "H3": 25
+    },
+    "accepted": {
+      "H1": 30,
+      "H2": 45,
+      "H3": 25
+    },
+    "note": "标签配额已满足；accepted 以 designStatus=ACCEPTED 计。不为凑数降低难度标准。"
+  },
+  "standardSolutions": {
+    "enrichedCount": 45,
+    "minLength": 220,
+    "avgLength": 400
+  },
+  "dedup": {
+    "DISTINCT": 100,
+    "ACCEPTABLE_VARIANT": 0,
+    "LOW_VALUE_ISOMORPHIC": 0,
+    "SEMANTIC_DUPLICATE": 0,
+    "EXACT_DUPLICATE": 0,
+    "modelFamilyDuplicates": [],
+    "breakthroughDuplicates": [],
+    "structFpDuplicates": []
+  },
+  "groups": [
+    {
+      "group": 1,
+      "range": "HARD-DESIGN-001..HARD-DESIGN-020",
+      "size": 20,
+      "levels": {
+        "H1": 14,
+        "H2": 4,
+        "H3": 2
+      },
+      "accepted": 20,
+      "issueCount": 0,
+      "issuesSample": [],
+      "roundsUsed": 0,
+      "status": "PASS"
+    },
+    {
+      "group": 2,
+      "range": "HARD-DESIGN-021..HARD-DESIGN-040",
+      "size": 20,
+      "levels": {
+        "H1": 0,
+        "H2": 16,
+        "H3": 4
+      },
+      "accepted": 20,
+      "issueCount": 0,
+      "issuesSample": [],
+      "roundsUsed": 0,
+      "status": "PASS"
+    },
+    {
+      "group": 3,
+      "range": "HARD-DESIGN-041..HARD-DESIGN-060",
+      "size": 20,
+      "levels": {
+        "H1": 10,
+        "H2": 5,
+        "H3": 5
+      },
+      "accepted": 20,
+      "issueCount": 0,
+      "issuesSample": [],
+      "roundsUsed": 0,
+      "status": "PASS"
+    },
+    {
+      "group": 4,
+      "range": "HARD-DESIGN-061..HARD-DESIGN-080",
+      "size": 20,
+      "levels": {
+        "H1": 0,
+        "H2": 13,
+        "H3": 7
+      },
+      "accepted": 20,
+      "issueCount": 0,
+      "issuesSample": [],
+      "roundsUsed": 0,
+      "status": "PASS"
+    },
+    {
+      "group": 5,
+      "range": "HARD-DESIGN-081..HARD-DESIGN-100",
+      "size": 20,
+      "levels": {
+        "H1": 6,
+        "H2": 7,
+        "H3": 7
+      },
+      "accepted": 20,
+      "issueCount": 0,
+      "issuesSample": [],
+      "roundsUsed": 0,
+      "status": "PASS"
+    }
+  ],
+  "perItemIssues": {},
+  "weakCompareCount": 4,
+  "gaokaoReferencePolicy": "仅 thought_only；无编造年份/卷名/题号；未复制真题。",
+  "rejectedCount": 0,
+  "needsRedesignCount": 0,
+  "openIssues": [
+    "作者侧设计与推导 ≠ 独立数学终审。",
+    "正式候选生成、导入、配图未授权。"
+  ],
+  "nextStageSuggestion": "授权 HARD-CANDIDATE-GEN 时：按 ACCEPTED 设计逐条写题干/选项/解析/rubric，禁止改突破点凑数；每 20 题 QC。"
+}

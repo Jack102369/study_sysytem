@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_closed_heat",
+  "caseCode": "salt_purification_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+  "apparatusVersion": "1.0.0",
+  "title": "密闭加热风险示意（错误样例）",
+  "orientation": "left_to_right",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "intentionallyInvalid": true,
+  "reviewMetadata": {
+    "chemicallyReviewed": false,
+    "schematicOnly": true,
+    "notes": "invalid"
+  },
+  "components": [
+    {
+      "componentId": "heat1",
+      "componentType": "heater",
+      "displayLabel": "加热",
+      "ports": [
+        {
+          "portId": "heat_out",
+          "direction": "out",
+          "media": [
+            "heat"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "rv1",
+      "componentType": "reaction_vessel",
+      "displayLabel": "密闭反应瓶",
+      "ports": [
+        {
+          "portId": "feed_in",
+          "direction": "in",
+          "media": [
+            "liquid",
+            "gas",
+            "solid"
+          ]
+        },
+        {
+          "portId": "heat_in",
+          "direction": "in",
+          "media": [
+            "heat"
+          ]
+        },
+        {
+          "portId": "product_out",
+          "direction": "out",
+          "media": [
+            "liquid",
+            "gas"
+          ]
+        },
+        {
+          "portId": "vent",
+          "direction": "out",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        }
+      ],
+      "internal": {}
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "h",
+      "sourceComponentId": "heat1",
+      "sourcePortId": "heat_out",
+      "targetComponentId": "rv1",
+      "targetPortId": "heat_in",
+      "flowType": "heat"
+    }
+  ],
+  "apparatusContentHash": "4461c9da9c1208a7e2cd218b6994ad71b0feb370dfe92e60af4ac5f7504ba930"
+}

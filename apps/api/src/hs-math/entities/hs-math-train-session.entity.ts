@@ -35,8 +35,9 @@ export class HsMathTrainSession {
   @Column({ name: 'specialty_id', type: 'bigint', unsigned: true })
   specialtyId!: string
 
-  @Column({ name: 'category_id', type: 'bigint', unsigned: true })
-  categoryId!: string
+  /** 小节；null = 整章抽题（跨小节） */
+  @Column({ name: 'category_id', type: 'bigint', unsigned: true, nullable: true })
+  categoryId!: string | null
 
   @Column({ name: 'pool_mode', type: 'varchar', length: 16 })
   poolMode!: HsMathPool

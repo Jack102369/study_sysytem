@@ -57,7 +57,8 @@ export type HsMathSessionSummary = {
   specialtyId: string
   specialtyCode: string | null
   specialtyName: string | null
-  categoryId: string
+  /** null = 整章抽题 */
+  categoryId: string | null
   categoryCode: string | null
   categoryName: string | null
   difficulty: number

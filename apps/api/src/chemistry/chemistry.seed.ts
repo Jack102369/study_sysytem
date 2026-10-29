@@ -1,4 +1,7 @@
-/** 高一化学 12 专项 + 二级分类种子（与 migrate_chemistry_phase1.sql 对齐） */
+/**
+ * 高一化学 13 个一级专项 + 二级分类种子（与 migrate_chemistry_phase1.sql 对齐）。
+ * 原有 12 专项及其二级分类保持；新增 industrial_experiment（第 13）及 12 个二级分类。
+ */
 
 export type ChemCategorySeed = { code: string; name: string; sortOrder: number }
 
@@ -255,6 +258,27 @@ export const CHEM_SPECIALTY_SEEDS: ChemSpecialtySeed[] = [
       { code: 'weak', name: '薄弱知识综合', sortOrder: 5 },
       { code: 'timed', name: '限时训练', sortOrder: 6 },
       { code: 'mock', name: '模拟测试', sortOrder: 7 },
+    ],
+  },
+  {
+    code: 'industrial_experiment',
+    name: '工业实验',
+    icon: 'OfficeBuilding',
+    intro: '学习工业生产流程、工业制备原理、工艺条件、装置分析与综合计算。',
+    sortOrder: 13,
+    categories: [
+      { code: 'flow_diagram_read', name: '工业流程图识读', sortOrder: 1 },
+      { code: 'raw_material_pretreatment', name: '工业原料与预处理', sortOrder: 2 },
+      { code: 'industrial_reaction_principle', name: '工业反应原理', sortOrder: 3 },
+      { code: 'industrial_reaction_conditions', name: '工业反应条件', sortOrder: 4 },
+      { code: 'industrial_separation_purification', name: '工业分离与提纯', sortOrder: 5 },
+      { code: 'industrial_gas_preparation', name: '工业气体制备与净化', sortOrder: 6 },
+      { code: 'industrial_apparatus_analysis', name: '工业装置分析', sortOrder: 7 },
+      { code: 'industrial_yield_calculation', name: '工业产率与计算', sortOrder: 8 },
+      { code: 'industrial_resource_recycling', name: '工业资源循环利用', sortOrder: 9 },
+      { code: 'industrial_environment_safety', name: '工业环保与安全', sortOrder: 10 },
+      { code: 'industrial_production_cases', name: '典型工业生产案例', sortOrder: 11 },
+      { code: 'flow_comprehensive', name: '工业流程综合分析', sortOrder: 12 },
     ],
   },
 ]

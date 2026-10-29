@@ -1,0 +1,869 @@
+{
+  "phase": "HS-MATH-HARD-CH1-4-QUALITY-FIX-1D",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "status": "HARD_IMPORT_PREFLIGHT_PARTIAL",
+  "auditedAt": "2026-10-28T07:52:43.017Z",
+  "batchContentSha256": "64d35ea8aaa8f09db124032890ed9f2538f90c3d1a2ccc01a38ad62b419453a0",
+  "candidateAssembleStatus": "HARD_BATCH100_READY_FOR_PREFLIGHT",
+  "rebuiltIds": [
+    "CAND-HARD14-039",
+    "CAND-HARD14-074",
+    "CAND-HARD14-073",
+    "CAND-HARD14-026",
+    "CAND-HARD14-031",
+    "CAND-HARD14-033",
+    "CAND-HARD14-041",
+    "CAND-HARD14-065",
+    "CAND-HARD14-081",
+    "CAND-HARD14-082",
+    "CAND-HARD14-085"
+  ],
+  "rebuiltCount": 11,
+  "hRelabelIds": [
+    "CAND-HARD14-009",
+    "CAND-HARD14-010",
+    "CAND-HARD14-037",
+    "CAND-HARD14-038",
+    "CAND-HARD14-040",
+    "CAND-HARD14-043",
+    "CAND-HARD14-044",
+    "CAND-HARD14-045",
+    "CAND-HARD14-075",
+    "CAND-HARD14-076",
+    "CAND-HARD14-077",
+    "CAND-HARD14-078",
+    "CAND-HARD14-079",
+    "CAND-HARD14-080",
+    "CAND-HARD14-083",
+    "CAND-HARD14-084",
+    "CAND-HARD14-099"
+  ],
+  "hardDistribution": {
+    "H1": 41,
+    "H2": 59,
+    "H3": 0
+  },
+  "qtypeDistribution": {
+    "application": 53,
+    "single": 14,
+    "multi": 16,
+    "numeric": 11,
+    "judge": 6
+  },
+  "mathIssueFixes": {
+    "039": "REBUILT: m(a) classification; answer a≤0 only; H2",
+    "073": "REBUILT: antiperiod model; answer -1; numeric OK",
+    "074": "REBUILT: multi A,B; corrected f(x+4)=f(x)"
+  },
+  "moderateRebuilds": [
+    "CAND-HARD14-026",
+    "CAND-HARD14-031",
+    "CAND-HARD14-041",
+    "CAND-HARD14-065",
+    "CAND-HARD14-081",
+    "CAND-HARD14-082",
+    "CAND-HARD14-085"
+  ],
+  "numericProtocol": {
+    "beforeBad": [
+      "CAND-HARD14-026",
+      "CAND-HARD14-033",
+      "CAND-HARD14-065",
+      "CAND-HARD14-073",
+      "CAND-HARD14-085"
+    ],
+    "afterBad": []
+  },
+  "importDryRun": {
+    "adaptOk": true,
+    "adaptedN": 100,
+    "dbOk": true,
+    "structuralOk": true
+  },
+  "advisoryResidual": {
+    "n": 40,
+    "ids": [
+      "CAND-HARD14-001",
+      "CAND-HARD14-002",
+      "CAND-HARD14-003",
+      "CAND-HARD14-004",
+      "CAND-HARD14-007",
+      "CAND-HARD14-010",
+      "CAND-HARD14-011",
+      "CAND-HARD14-014",
+      "CAND-HARD14-015",
+      "CAND-HARD14-017",
+      "CAND-HARD14-020",
+      "CAND-HARD14-022",
+      "CAND-HARD14-023",
+      "CAND-HARD14-029",
+      "CAND-HARD14-030",
+      "CAND-HARD14-032",
+      "CAND-HARD14-034",
+      "CAND-HARD14-042",
+      "CAND-HARD14-046",
+      "CAND-HARD14-048",
+      "CAND-HARD14-049",
+      "CAND-HARD14-050",
+      "CAND-HARD14-051",
+      "CAND-HARD14-053",
+      "CAND-HARD14-055",
+      "CAND-HARD14-059",
+      "CAND-HARD14-063",
+      "CAND-HARD14-064",
+      "CAND-HARD14-067",
+      "CAND-HARD14-068",
+      "CAND-HARD14-069",
+      "CAND-HARD14-080",
+      "CAND-HARD14-086",
+      "CAND-HARD14-087",
+      "CAND-HARD14-088",
+      "CAND-HARD14-089",
+      "CAND-HARD14-092",
+      "CAND-HARD14-093",
+      "CAND-HARD14-094",
+      "CAND-HARD14-097"
+    ],
+    "note": "Dual-pass MODERATE flags not fully rebuilt within rounds; UNCERTAIN for PASS gate."
+  },
+  "itemLedger": [
+    {
+      "candidateCode": "CAND-HARD14-039",
+      "newContentSha256": "1833575c8e4129fcd656d6c1964ae513684590a48c40ea74f88d7da6e898d341",
+      "problemTypes": [
+        "MATH_ISSUE"
+      ],
+      "action": "REBUILT_FULL",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-073",
+      "newContentSha256": "20f1aa36912d4a3cbc546e48c48c679ccbe3befec9b96e85789970f5939ae47e",
+      "problemTypes": [
+        "MATH_ISSUE",
+        "NUMERIC_PROTOCOL_ERROR"
+      ],
+      "action": "REBUILT_FULL",
+      "status": "FIXED",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-074",
+      "newContentSha256": "df15a638d28d6c7c7b24bb4b6183f76bd85e9278a9070c96d1f34ce3e1dc055b",
+      "problemTypes": [
+        "MATH_ISSUE"
+      ],
+      "action": "REBUILT_FULL",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-026",
+      "newContentSha256": "1698e0e2a6686605262977f9f795c8f6ad8d462d006e80bbdbc923ffadbf2b6b",
+      "problemTypes": [
+        "MODERATE_ONLY",
+        "NUMERIC_PROTOCOL_ERROR"
+      ],
+      "action": "REBUILT_FULL",
+      "status": "FIXED",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-031",
+      "newContentSha256": "d0e437bb0fe42075c4cbd1ec32e4e653a1d5326283f70c593175ce938538e2ff",
+      "problemTypes": [
+        "MODERATE_ONLY"
+      ],
+      "action": "REBUILT_FULL",
+      "status": "FIXED",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-041",
+      "newContentSha256": "756ffc0fde3281f1cae5fa6cbeaab177c42cbabc00d3fb1eba1eaf0b56995556",
+      "problemTypes": [
+        "MODERATE_ONLY"
+      ],
+      "action": "REBUILT_FULL",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-065",
+      "newContentSha256": "f155bdf920a3ee2f1b947e74c2b311bbbf117e3c94791f1861cccea3ec3ce97d",
+      "problemTypes": [
+        "MODERATE_ONLY",
+        "NUMERIC_PROTOCOL_ERROR"
+      ],
+      "action": "REBUILT_FULL",
+      "status": "FIXED",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-081",
+      "newContentSha256": "5c562d1ba9a58f81098aad6c9169108eb66fab54481f66efa279b591f772f876",
+      "problemTypes": [
+        "MODERATE_ONLY"
+      ],
+      "action": "REBUILT_FULL",
+      "status": "FIXED",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-082",
+      "newContentSha256": "1b8f23bf9652ee10542388be155794d15578ca57c671c94121201fbfb167c46d",
+      "problemTypes": [
+        "MODERATE_ONLY"
+      ],
+      "action": "REBUILT_FULL",
+      "status": "FIXED",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-085",
+      "newContentSha256": "4157f6f0f23aa0437b2a123bad2853d184fbdaffedb82027374808f0a41f4223",
+      "problemTypes": [
+        "MODERATE_ONLY",
+        "NUMERIC_PROTOCOL_ERROR"
+      ],
+      "action": "REBUILT_FULL",
+      "status": "FIXED",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-033",
+      "newContentSha256": "5c7eaab1f74375addf4650ef05f345def5214f50d524bb70bb9a4f0dc2d35ea5",
+      "problemTypes": [
+        "NUMERIC_PROTOCOL_ERROR"
+      ],
+      "action": "REBUILT_FULL",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-009",
+      "newContentSha256": "93c33ef8008a9c4a33b69e718d66f35d0020ea2184c6a885e14017d24fb6b63c",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-010",
+      "newContentSha256": "b85e4d1e7f692111a9d9310fa314ac19e0f030304455c6c38e5258faf77d590a",
+      "problemTypes": [
+        "FALSE_H3",
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-037",
+      "newContentSha256": "1fd20a5785b1122edc48314fc1b6cf6a28f804d2f326a7b7d25dcdff4ef73ef4",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-038",
+      "newContentSha256": "67cc883dbbb6102a1dabc9212eefe06fb5f105a05196cbbe99a56c64fc26a20b",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-040",
+      "newContentSha256": "814752cb6eb9f9f18836dcbed69011bd6e6d3a38403f535b0254ef537db2ac26",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-043",
+      "newContentSha256": "054e1f7223697ee2480856c46b160f3dea4c837e641f16b835077ce7c0853da0",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-044",
+      "newContentSha256": "7629a6f8c31114baf9147884f1c2db4f470c410027232d14fe33f5efa401df42",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-045",
+      "newContentSha256": "4d1817d412b18a0b6a90526deab95f87186375e01c6fd294ca881ff67eec00e0",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-075",
+      "newContentSha256": "b1251fd9eae888c8b800f9c73beac3b19ac11f2b19d056742ff52ce785abb744",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-076",
+      "newContentSha256": "1b170c032e9d6e30d38e9e55982560489f739bc461a018dcc8c3a7bfa6e5272d",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-077",
+      "newContentSha256": "72aa96fdb00c32c84413a0ceb6915f35c3b9096a094b49960b1b5c40382eb0a1",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-078",
+      "newContentSha256": "ffb03323ffe416d26eada1d61ee65508b6a73f00a8bc31366f7a39a880608485",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-079",
+      "newContentSha256": "e39e87158aa4fcaeea036a67153c382077c5d6eb2b1ba86f78da855e0e8d323d",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-080",
+      "newContentSha256": "fa6ba5974b9ebc0a2fdb6e5374c362d5ce6290f4ba7cd8a5f087dda7022dd01d",
+      "problemTypes": [
+        "FALSE_H3",
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-083",
+      "newContentSha256": "d632a0076caed95754f0cb7a6112a4ba87fa1e9525547d0ea6cc5c331cf61e3b",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-084",
+      "newContentSha256": "9aba0e754d3bf8bc54b4df7669c825af607b846707fc9721da2e1472e6f15789",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-099",
+      "newContentSha256": "bd7cee753017ffa4986f252fe5413a849e0f21fa70d863d1bd4cbcd4850c6685",
+      "problemTypes": [
+        "FALSE_H3"
+      ],
+      "action": "H_RELABEL_ONLY",
+      "status": "FIXED",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-001",
+      "newContentSha256": "ffcc4e98a2c86b7afcce8c25151f7a87e484cae1a200aa738faf08baf3f4589e",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-002",
+      "newContentSha256": "45937dcca95eee708d20015fbcd2e090b685a464aa9a814280fcaac5bd65cea0",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-003",
+      "newContentSha256": "f9cee56cee7894d9f4f3f8b90b64c7f48154b4247d3fc60dff6f1b153127260e",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-004",
+      "newContentSha256": "3a9fa5896f6f7d4555a9d236c133ddecdfb727670e8fe2e721ea6e6de3f730ee",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-007",
+      "newContentSha256": "8fbcb1f9987b1fb674cab1fde4bb85f46101dac894fbbd7d8f4d446d606a3590",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-011",
+      "newContentSha256": "a39b2951389250dac8762122e931ffd864069e84ac01e9c4901effbcfd650ef7",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-014",
+      "newContentSha256": "d643d5621c12c66fbf5626b5396ac429219c5d7678e3f049931a3684e596aee6",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-015",
+      "newContentSha256": "e82b03a662e48dfeda7f8221b7b52f34769360e059f53496ff6a4f1466ea68c9",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-017",
+      "newContentSha256": "94f6633555d880ba1eaf2b48ca8cf97bad8d950266a82113c18eecd5fb070f43",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-020",
+      "newContentSha256": "9762c19258afe319b5d2dd28e20bcfe5945a8f15196b8df99dfbc10ec0e13839",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-022",
+      "newContentSha256": "6f49761d9b3239b867255af5565fb52f9eb1782cee0f9efe0ebe4614e1908cb9",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-023",
+      "newContentSha256": "5707f545f3febb5ef048d7b36a749d4e1fc443d577ebb44ba7572315dc32e7d3",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-029",
+      "newContentSha256": "156614180c3857e55154b1dcf2fbf739fea6f81b8826b063ac9f504c93c37ac4",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-030",
+      "newContentSha256": "4f67f7410e48645c0dd566a49544859efb53ca4bbc898a88d2c30b7b5eacfb59",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-032",
+      "newContentSha256": "5bc370642a471d531e0dedc60a3ade59c3e7a065e121d2f1d51f9e465af24eba",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-034",
+      "newContentSha256": "c7fd6ae685605cafe76ab210909ec66718b3dffab6f4382b83a9fecd64a1a4ef",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-042",
+      "newContentSha256": "3ab001040f409b4ace84f32924b26c1a202ba9f954799e71e64cc2a1b7802028",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-046",
+      "newContentSha256": "9ea19375bc526b0e0541d36fd07b20612e6f797689cad7992051100a6b1248ab",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-048",
+      "newContentSha256": "e0abcb8d6f66c4ee7e27cea4d4e75427ec5841da5dd4f45744ad7938a1294488",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-049",
+      "newContentSha256": "be797056d1cfadcec640466b1e0707b5436e67c290bc373b7220b3b37bacfb96",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-050",
+      "newContentSha256": "f52a8215b5930ebbfdf8251f56615736220085f5af4fc2c3270a221f7a2c3b5e",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-051",
+      "newContentSha256": "3255cd5daf4f36ce116d6138f6098a7759536e8d479dfaf19cbaecf8718c75a5",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-053",
+      "newContentSha256": "f348d7538b9d9a1c3e168ffbcaac7688cbdb554fb2612a95b7d32572eadd4c7a",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-055",
+      "newContentSha256": "bba896bf32c06f18e8afae9ad63b7ed58d615a7d06797d9d67d39af9d53c219e",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-059",
+      "newContentSha256": "30465c63fb358a61c7254d9cbe962fb16224c9892001aceedf3786408f61c235",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-063",
+      "newContentSha256": "3379dcda645f5a10a5db409218cdc8a71d57e25d6b74609db7c4b94aee17e82a",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-064",
+      "newContentSha256": "b9afb0803ff42b62fb9b3d0b7b1789077a8078653d8761219a5a9d8c198c87dc",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-067",
+      "newContentSha256": "82cec2432e25987795388e6471df4a0b547df1b8512e747732bf7bbd7c977522",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-068",
+      "newContentSha256": "73602f3e8e0d8418489e382158ddd1d831009d5e4dae858a0e763bc9f775cb2a",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-069",
+      "newContentSha256": "fd260059bff035070c7a654838686206f764837dfd6ceca02e92d04924b98042",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-086",
+      "newContentSha256": "6bb17da31f12c9b94b9dbf45850fb7f9ab6d09d7ce2bd1742f9242c1fee348cf",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-087",
+      "newContentSha256": "dc4a42486131a66637eb9d473ccba50466e2e4faacc47e7a7f44434439790b23",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-088",
+      "newContentSha256": "83cd6916ed332b4cd3202ffb713cdd89c44a4b9bf599c069d405e9c4654175a1",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-089",
+      "newContentSha256": "417b5b3fb0d37bff58c05e984f59e35e7a9a50f8e02bff9e978124ff44ed4172",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H1",
+      "hardAuditNow": "TRUE_H1"
+    },
+    {
+      "candidateCode": "CAND-HARD14-092",
+      "newContentSha256": "b6470faeb9e20f45d14408f62ea964c5434e904e9321cc9cc1a1f4c0a29c607e",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-093",
+      "newContentSha256": "92713d26d38c9627276b1e0e1072a656614bdbfc05f83845c2da81f248f351eb",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-094",
+      "newContentSha256": "1f028fe66f1da9e5cbf7250471d37c0f1b17699ee5c63c9ed993d5658d160fe4",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    },
+    {
+      "candidateCode": "CAND-HARD14-097",
+      "newContentSha256": "a08b15cf4e2ddfadfdd9365fa60602fad9e9b16cd0c7a6a1d02cf83d6e79065b",
+      "problemTypes": [
+        "ADVISORY_MODERATE_RESIDUAL"
+      ],
+      "action": "ADVISORY_UNCERTAIN_KEEP",
+      "status": "UNCERTAIN",
+      "hardLevelNow": "H2",
+      "hardAuditNow": "TRUE_H2"
+    }
+  ],
+  "openIssues": [
+    "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+    "TRUE_H3=0 by design honesty",
+    "Formal import still unauthorized",
+    "40 advisory-MODERATE residuals remain UNCERTAIN (block full PASS)"
+  ]
+}

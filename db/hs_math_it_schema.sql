@@ -93,7 +93,7 @@ CREATE TABLE IF NOT EXISTS hs_math_train_sessions (
   session_kind VARCHAR(16) NOT NULL DEFAULT 'specialty' COMMENT 'specialty|daily|advanced|wrong_review|wrong_variation',
   daily_date DATE NULL COMMENT 'P1每日用；P0预留',
   specialty_id BIGINT UNSIGNED NOT NULL,
-  category_id BIGINT UNSIGNED NOT NULL,
+  category_id BIGINT UNSIGNED NULL COMMENT '小节；NULL=整章抽题',
   pool_mode VARCHAR(16) NOT NULL COMMENT 'formal|test',
   difficulty TINYINT UNSIGNED NOT NULL,
   planned_count INT UNSIGNED NOT NULL,

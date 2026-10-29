@@ -55,8 +55,24 @@
                 </el-dropdown-menu>
               </template>
             </el-dropdown>
+            <el-button
+              v-if="industrialEnabled && isIndustrial"
+              plain
+              :loading="candidateLoading"
+              @click="requestIndustrialCandidate"
+            >
+              申请工业 AI 变式候选
+            </el-button>
           </div>
         </div>
+        <el-alert
+          v-if="industrialEnabled && isIndustrial"
+          type="info"
+          :closable="false"
+          show-icon
+          title="「开始变式训练」仅抽取已审核正式变式；「申请工业 AI 变式候选」进入管理员审核仓，禁止直接 formal。"
+          style="margin-bottom: 12px"
+        />
 
         <el-alert
           v-if="!detail.practiceEligible"
@@ -193,6 +209,13 @@
           <p class="analysis">
             <span class="lab">当时解析：</span>{{ h.analysisSnapshot || '—' }}
           </p>
+          <p class="hint">{{ h.diagramSnapshotNote || '' }}</p>
+          <TrainSessionIndustrialDiagrams
+            v-if="h.diagramAssets?.length"
+            :session-id="h.sessionId"
+            :session-item-id="h.sessionItemId"
+            :assets="h.diagramAssets"
+          />
           <el-button link type="primary" @click="goResult(h.sessionId)">
             查看该次训练结果
           </el-button>
@@ -210,19 +233,27 @@ import {
   createChemWrongPractice,
   createChemWrongVariationPractice,
   getChemWrongDetail,
+  requestIndustrialWrongVariationCandidate,
   type ChemWrongDetail,
 } from '@/api/chemistry-train'
+import TrainSessionIndustrialDiagrams from '@/components/chemistry/TrainSessionIndustrialDiagrams.vue'
 import errMsg from '@/utils/err-msg'
+import { useIndustrialExperimentFeature } from '@/composables/useIndustrialExperimentFeature'
 
 const route = useRoute()
 const router = useRouter()
 const loading = ref(false)
 const practicing = ref(false)
 const variationLoading = ref(false)
+const candidateLoading = ref(false)
 const detail = ref<ChemWrongDetail | null>(null)
+const { enabled: industrialEnabled } = useIndustrialExperimentFeature()
 
 const canStartVariation = computed(
   () => (detail.value?.variationPreview?.candidateCount || 0) > 0,
+)
+const isIndustrial = computed(
+  () => detail.value?.specialtyCode === 'industrial_experiment',
 )
 
 function formatTime(v: string) {
@@ -301,6 +332,19 @@ async function startVariation(count: number) {
     ElMessage.error(errMsg(e, '无法开始变式训练'))
   } finally {
     variationLoading.value = false
+  }
+}
+
+async function requestIndustrialCandidate() {
+  if (!detail.value) return
+  candidateLoading.value = true
+  try {
+    const r = await requestIndustrialWrongVariationCandidate(detail.value.id)
+    ElMessage.success(r.message)
+  } catch (e) {
+    ElMessage.error(errMsg(e, '申请工业变式候选失败'))
+  } finally {
+    candidateLoading.value = false
   }
 }
 

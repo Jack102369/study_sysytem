@@ -1,0 +1,59 @@
+{
+  "intentionallyInvalid": true,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "unknowns": []
+  },
+  "safety": {
+    "findings": [
+      {
+        "ruleId": "WASH_BOTTLE_IO",
+        "status": "fail",
+        "severity": "error",
+        "message": "洗气瓶 wash1 进出气管连接异常",
+        "scope": "gas_washing_bottle 教学检查",
+        "limitation": "教学示意规则；不能证明复杂工业工艺在真实工况下完全安全。",
+        "evidence": [
+          "in=0",
+          "out=0"
+        ]
+      },
+      {
+        "ruleId": "TAIL_GAS_NEED",
+        "status": "unknown",
+        "severity": "info",
+        "message": "存在气体发生装置但无尾气吸收；是否需要取决于气体性质（无法仅凭拓扑判定）",
+        "scope": "可选尾气处理",
+        "limitation": "教学示意规则；不能证明复杂工业工艺在真实工况下完全安全。",
+        "evidence": []
+      }
+    ],
+    "blocking": [
+      "WASH_BOTTLE_IO: 洗气瓶 wash1 进出气管连接异常"
+    ],
+    "unknowns": [
+      "TAIL_GAS_NEED: 存在气体发生装置但无尾气吸收；是否需要取决于气体性质（无法仅凭拓扑判定）"
+    ],
+    "warnings": []
+  },
+  "render": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "metrics": {
+      "diagramId": "app_invalid_wash",
+      "diagramVersion": "1.0.0",
+      "publicContentHash": "ed3f6505db6f9e5da4dba8ff80bbb9cfae48d4264a0414a1fd26960027319f3f",
+      "rendererVersion": "1.0.0",
+      "nodeCount": 2,
+      "edgeCount": 0,
+      "drawnNodeCount": 2,
+      "drawnEdgeCount": 0,
+      "canvasWidth": 368,
+      "canvasHeight": 276
+    }
+  },
+  "note": "教学示意；invalid 样例禁止 formal"
+}

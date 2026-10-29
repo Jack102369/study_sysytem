@@ -1,0 +1,64 @@
+{
+  "intentionallyInvalid": false,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "unknowns": []
+  },
+  "safety": {
+    "findings": [
+      {
+        "ruleId": "CONDENSER_PORTS",
+        "status": "pass",
+        "severity": "error",
+        "message": "冷凝器 cond1 基本端口已连接",
+        "scope": "condenser",
+        "limitation": "教学示意规则；不能证明复杂工业工艺在真实工况下完全安全。",
+        "evidence": []
+      },
+      {
+        "ruleId": "CONDENSER_COUNTERFLOW",
+        "status": "unknown",
+        "severity": "info",
+        "message": "冷凝器 cond1 是否满足严格逆流换热无法仅凭示意拓扑证明",
+        "scope": "condenser coolant direction",
+        "limitation": "需要相对空间几何；本规则不自动 pass",
+        "evidence": []
+      },
+      {
+        "ruleId": "CLOSED_HEATING",
+        "status": "unknown",
+        "severity": "error",
+        "message": "加热反应容器 rv1 未见泄压路径（密闭加热风险）",
+        "scope": "密闭加热",
+        "limitation": "教学示意规则；不能证明复杂工业工艺在真实工况下完全安全。",
+        "evidence": []
+      }
+    ],
+    "blocking": [],
+    "unknowns": [
+      "CONDENSER_COUNTERFLOW: 冷凝器 cond1 是否满足严格逆流换热无法仅凭示意拓扑证明",
+      "CLOSED_HEATING: 加热反应容器 rv1 未见泄压路径（密闭加热风险）"
+    ],
+    "warnings": []
+  },
+  "render": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "metrics": {
+      "diagramId": "app_heat_condense",
+      "diagramVersion": "1.0.0",
+      "publicContentHash": "3739387398acf3772f9e118fe68029ec207513e568ba49bb6ab700aae0b86618",
+      "rendererVersion": "1.0.0",
+      "nodeCount": 5,
+      "edgeCount": 5,
+      "drawnNodeCount": 5,
+      "drawnEdgeCount": 5,
+      "canvasWidth": 808,
+      "canvasHeight": 276
+    }
+  },
+  "note": "教学示意；invalid 样例禁止 formal"
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_gas_purify_collect",
+  "apparatusVersion": "1.0.0",
+  "orientation": "left_to_right",
+  "title": "气体发生-净化-收集",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "components": [
+    {
+      "componentId": "gen1",
+      "componentType": "gas_generator",
+      "displayLabel": "气体发生器",
+      "ports": [
+        {
+          "portId": "reagent_in",
+          "direction": "in",
+          "media": [
+            "liquid",
+            "solid"
+          ]
+        },
+        {
+          "portId": "gas_out",
+          "direction": "out",
+          "media": [
+            "gas"
+          ]
+        }
+      ]
+    },
+    {
+      "componentId": "wash1",
+      "componentType": "gas_washing_bottle",
+      "displayLabel": "洗气瓶",
+      "ports": [
+        {
+          "portId": "gas_in",
+          "direction": "in",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        },
+        {
+          "portId": "gas_out",
+          "direction": "out",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        }
+      ]
+    },
+    {
+      "componentId": "collect1",
+      "componentType": "gas_collector",
+      "displayLabel": "集气瓶",
+      "ports": [
+        {
+          "portId": "gas_in",
+          "direction": "in",
+          "media": [
+            "gas"
+          ]
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "c1",
+      "sourceComponentId": "gen1",
+      "sourcePortId": "gas_out",
+      "targetComponentId": "wash1",
+      "targetPortId": "gas_in",
+      "flowType": "gas",
+      "displayLabel": "粗气"
+    },
+    {
+      "connectionId": "c2",
+      "sourceComponentId": "wash1",
+      "sourcePortId": "gas_out",
+      "targetComponentId": "collect1",
+      "targetPortId": "gas_in",
+      "flowType": "gas",
+      "displayLabel": "净气"
+    }
+  ],
+  "publicContentHash": "710f984b6c962cde419873bfabc11c138931b5a9600b6753da15ac282cb156e5"
+}

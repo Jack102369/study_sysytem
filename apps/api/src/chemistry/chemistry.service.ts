@@ -4,6 +4,10 @@ import { Repository } from 'typeorm'
 import { ChemCategory } from './chem-category.entity'
 import { ChemSpecialty } from './chem-specialty.entity'
 import { CHEM_SPECIALTY_SEEDS } from './chemistry.seed'
+import {
+  assertIndustrialSpecialtyAllowed,
+  isChemIndustrialExperimentEnabled,
+} from './industrial/industrial-feature.config'
 
 @Injectable()
 export class ChemistryService implements OnModuleInit {
@@ -28,7 +32,7 @@ export class ChemistryService implements OnModuleInit {
     }
   }
 
-  /** 幂等写入 12 专项及二级分类 */
+  /** 幂等写入全部一级专项及二级分类（当前种子含 13 专项） */
   async ensureSeeded() {
     for (const seed of CHEM_SPECIALTY_SEEDS) {
       let specialty = await this.specialtiesRepo.findOne({
@@ -89,18 +93,23 @@ export class ChemistryService implements OnModuleInit {
 
     const countMap = new Map(counts.map((x) => [String(x.specialtyId), Number(x.cnt) || 0]))
 
-    return rows.map((s) => ({
-      id: s.id,
-      code: s.code,
-      name: s.name,
-      icon: s.icon,
-      intro: s.intro,
-      sortOrder: s.sortOrder,
-      categoryCount: countMap.get(String(s.id)) ?? 0,
-    }))
+    const industrialOn = isChemIndustrialExperimentEnabled()
+
+    return rows
+      .filter((s) => industrialOn || s.code !== 'industrial_experiment')
+      .map((s) => ({
+        id: s.id,
+        code: s.code,
+        name: s.name,
+        icon: s.icon,
+        intro: s.intro,
+        sortOrder: s.sortOrder,
+        categoryCount: countMap.get(String(s.id)) ?? 0,
+      }))
   }
 
   async getSpecialtyByCode(code: string) {
+    assertIndustrialSpecialtyAllowed(code)
     const specialty = await this.specialtiesRepo.findOne({
       where: { code, isActive: true },
     })

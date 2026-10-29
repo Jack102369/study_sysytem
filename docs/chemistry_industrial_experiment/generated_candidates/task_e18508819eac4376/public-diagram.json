@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0",
+  "diagramId": "diag.salt_purification_basic",
+  "diagramVersion": "0.1.0",
+  "orientation": "left_to_right",
+  "title": "粗盐提纯流程（协议示例）",
+  "nodes": [
+    {
+      "id": "n_raw",
+      "type": "material",
+      "displayLabel": "粗盐",
+      "presentation": {
+        "shapeHint": "rounded_rect",
+        "toneHint": "muted"
+      }
+    },
+    {
+      "id": "n_dissolve",
+      "type": "process",
+      "displayLabel": "溶解"
+    },
+    {
+      "id": "n_brine",
+      "type": "intermediate",
+      "displayLabel": "混合液"
+    },
+    {
+      "id": "n_filter",
+      "type": "unknown",
+      "displayLabel": "操作①",
+      "presentation": {
+        "shapeHint": "diamond",
+        "toneHint": "warning"
+      }
+    },
+    {
+      "id": "n_filtrate",
+      "type": "intermediate",
+      "displayLabel": "滤液"
+    },
+    {
+      "id": "n_residue",
+      "type": "waste",
+      "displayLabel": "滤渣",
+      "presentation": {
+        "toneHint": "danger"
+      }
+    },
+    {
+      "id": "n_evap",
+      "type": "separation",
+      "displayLabel": "蒸发结晶"
+    },
+    {
+      "id": "n_product",
+      "type": "product",
+      "displayLabel": "精盐",
+      "presentation": {
+        "toneHint": "success"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "from": "n_raw",
+      "to": "n_dissolve",
+      "type": "material_flow"
+    },
+    {
+      "id": "e2",
+      "from": "n_dissolve",
+      "to": "n_brine",
+      "type": "material_flow"
+    },
+    {
+      "id": "e3",
+      "from": "n_brine",
+      "to": "n_filter",
+      "type": "material_flow"
+    },
+    {
+      "id": "e4",
+      "from": "n_filter",
+      "to": "n_filtrate",
+      "type": "material_flow"
+    },
+    {
+      "id": "e5",
+      "from": "n_filter",
+      "to": "n_residue",
+      "type": "byproduct",
+      "displayLabel": "固渣"
+    },
+    {
+      "id": "e6",
+      "from": "n_filtrate",
+      "to": "n_evap",
+      "type": "material_flow"
+    },
+    {
+      "id": "e7",
+      "from": "n_evap",
+      "to": "n_product",
+      "type": "material_flow"
+    }
+  ],
+  "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d"
+}

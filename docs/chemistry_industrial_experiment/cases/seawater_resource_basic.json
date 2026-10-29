@@ -1,0 +1,122 @@
+{
+  "caseCode": "seawater_resource_basic",
+  "title": "海水资源利用基础流程（教学简化）",
+  "description": "高一适用的海水→蒸发制盐教学简化链路。明确为教材简化，非完整真实海水化工生产全流程。",
+  "caseType": "textbook_simplification",
+  "gradeScope": "high_school_1",
+  "curriculumScope": {
+    "grade": "高一",
+    "knowledgePoints": [
+      "溶液",
+      "蒸发",
+      "结晶",
+      "混合物分离"
+    ],
+    "curriculumNotes": "仅保留蒸发结晶制盐基础；复杂提溴/提镁等未纳入。",
+    "curriculumReviewStatus": "pending"
+  },
+  "specialtyCode": "industrial_experiment",
+  "categoryCodes": [
+    "industrial_production_cases",
+    "industrial_resource_recycling",
+    "flow_diagram_read"
+  ],
+  "sourceReferences": [
+    {
+      "sourceType": "textbook_knowledge",
+      "sourceTitle": "海水晒盐/蒸发制盐教学描述（通用）",
+      "sourceIdentifier": null,
+      "sourceDescription": "待人工核对具体教材表述；当前不可作为正式 verified 来源。",
+      "verificationStatus": "unverified"
+    }
+  ],
+  "materials": [
+    {
+      "materialId": "m_seawater",
+      "name": "海水",
+      "formula": null,
+      "materialType": "raw_material",
+      "physicalState": "mixture",
+      "impurities": [
+        "多种可溶盐与悬浮物（教学未细分）"
+      ]
+    },
+    {
+      "materialId": "m_concentrated_brine",
+      "name": "浓缩卤水",
+      "formula": null,
+      "materialType": "intermediate",
+      "physicalState": "aqueous"
+    },
+    {
+      "materialId": "m_sea_salt",
+      "name": "粗盐（晒盐产物）",
+      "formula": null,
+      "materialType": "target_product",
+      "physicalState": "mixture",
+      "knowledgeReference": "教学目标产物为粗盐混合物，不伪称纯净工业级产品"
+    },
+    {
+      "materialId": "m_water_vapor",
+      "name": "水蒸气（蒸发离开体系）",
+      "formula": "H2O",
+      "materialType": "byproduct",
+      "physicalState": "gas"
+    }
+  ],
+  "processSteps": [
+    {
+      "stepId": "s1_evaporate_sea",
+      "stepName": "蒸发浓缩",
+      "operationType": "evaporate",
+      "inputs": [
+        "m_seawater"
+      ],
+      "outputs": [
+        "m_concentrated_brine",
+        "m_water_vapor"
+      ],
+      "purpose": "减少溶剂使盐接近饱和",
+      "conditions": "教学表述：日晒或加热（书面题）"
+    },
+    {
+      "stepId": "s2_crystallize",
+      "stepName": "结晶析出粗盐",
+      "operationType": "crystallize",
+      "inputs": [
+        "m_concentrated_brine"
+      ],
+      "outputs": [
+        "m_sea_salt"
+      ],
+      "purpose": "得到粗盐晶体",
+      "principle": "过饱和溶液中溶质析出（简化）"
+    }
+  ],
+  "reactions": [],
+  "knowledgeLinks": [
+    {
+      "label": "蒸发结晶",
+      "note": "混合物分离基础"
+    }
+  ],
+  "learningObjectives": [
+    "识别海水晒盐教学流程的主要节点",
+    "理解教材简化与真实完整海水化工的区别"
+  ],
+  "difficultyRange": {
+    "min": 1,
+    "max": 2
+  },
+  "safetyNotes": "书面训练；不提供工业现场操作指导。",
+  "reviewStatus": "draft",
+  "version": "0.1.0",
+  "reviewedContentHash": null,
+  "createdAt": "2026-10-29T00:00:00.000Z",
+  "updatedAt": "2026-10-29T00:00:00.000Z",
+  "openIssues": [
+    "知识依据 unverified；缺少已发布 chem_experiments/reaction 引用",
+    "未展开海水提溴/制碱等后续流程（避免超纲与伪完整工业）"
+  ],
+  "contentHash": "91b97169bae53a159ee72ca7a4c86b3e47efc199a19d3f64d187d6aeb1227e5c"
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_gas_purify_tail",
+  "apparatusVersion": "1.0.0",
+  "orientation": "left_to_right",
+  "title": "气体发生-净化-尾气吸收(HCl示意)",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "components": [
+    {
+      "componentId": "gen1",
+      "componentType": "gas_generator",
+      "displayLabel": "气体发生器",
+      "ports": [
+        {
+          "portId": "reagent_in",
+          "direction": "in",
+          "media": [
+            "liquid",
+            "solid"
+          ]
+        },
+        {
+          "portId": "gas_out",
+          "direction": "out",
+          "media": [
+            "gas"
+          ]
+        }
+      ]
+    },
+    {
+      "componentId": "wash1",
+      "componentType": "gas_washing_bottle",
+      "displayLabel": "洗气瓶",
+      "ports": [
+        {
+          "portId": "gas_in",
+          "direction": "in",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        },
+        {
+          "portId": "gas_out",
+          "direction": "out",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        }
+      ]
+    },
+    {
+      "componentId": "abs1",
+      "componentType": "tail_gas_absorber",
+      "displayLabel": "HCl尾气吸收",
+      "ports": [
+        {
+          "portId": "gas_in",
+          "direction": "in",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "c1",
+      "sourceComponentId": "gen1",
+      "sourcePortId": "gas_out",
+      "targetComponentId": "wash1",
+      "targetPortId": "gas_in",
+      "flowType": "gas",
+      "displayLabel": "粗气"
+    },
+    {
+      "connectionId": "c2t",
+      "sourceComponentId": "wash1",
+      "sourcePortId": "gas_out",
+      "targetComponentId": "abs1",
+      "targetPortId": "gas_in",
+      "flowType": "waste_gas",
+      "displayLabel": "HCl尾气"
+    }
+  ],
+  "publicContentHash": "05a9941cc911c739bf1ab8bbcf05be168e7969660e43616f916a2a4a7991ae3b"
+}

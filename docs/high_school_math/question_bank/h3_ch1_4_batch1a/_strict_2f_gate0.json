@@ -1,0 +1,114 @@
+{
+  "phase": "H3-STRICT-PREFLIGHT-2F-GATE0",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "startedAt": "2026-10-28T13:53:38.279Z",
+  "ok": true,
+  "errors": [],
+  "gate0": {
+    "n": 21,
+    "ids": [
+      "CAND-H3C14-006",
+      "CAND-H3C14-013",
+      "CAND-H3C14-014",
+      "CAND-H3C14-018",
+      "CAND-H3C14-027",
+      "CAND-H3C14-046",
+      "CAND-H3C14-047",
+      "CAND-H3C14-060",
+      "CAND-H3C14-101",
+      "CAND-H3C14-102",
+      "CAND-H3C14-104",
+      "CAND-H3C14-108",
+      "CAND-H3C14-201",
+      "CAND-H3C14-202",
+      "CAND-H3C14-204",
+      "CAND-H3C14-211",
+      "CAND-H3C14-212",
+      "CAND-H3C14-213",
+      "CAND-H3C14-214",
+      "CAND-H3C14-215",
+      "CAND-H3C14-216"
+    ],
+    "chapter": {
+      "1": 0,
+      "2": 8,
+      "3": 11,
+      "4": 2
+    },
+    "fileSha256": "df497f16c24c0b89b06df67b895f4bbdd7e6ca5bca820f29428f2b03b789ff16",
+    "batchContentSha256": "1e51ba93a0e398766d450fbecda3784a93297c0d8c1e5a60856798c655e19635",
+    "recomputedBatch": "1e51ba93a0e398766d450fbecda3784a93297c0d8c1e5a60856798c655e19635",
+    "itemShaOk": true,
+    "frozenSha": [
+      {
+        "id": "CAND-H3C14-006",
+        "ok": true,
+        "snap": "81b28f1490ad8dd8d4c05d17d38bb813da3a268a50328b002635a203a36c9ab3",
+        "now": "81b28f1490ad8dd8d4c05d17d38bb813da3a268a50328b002635a203a36c9ab3"
+      },
+      {
+        "id": "CAND-H3C14-013",
+        "ok": true,
+        "snap": "652d8c81dd66ac2c463231ce4455e81d7318056c57e1dd869507a65276b4247a",
+        "now": "652d8c81dd66ac2c463231ce4455e81d7318056c57e1dd869507a65276b4247a"
+      },
+      {
+        "id": "CAND-H3C14-014",
+        "ok": true,
+        "snap": "89be21ced2dc68531ed83a648d610e6e6737be22a9e59322d1bc9d25814de638",
+        "now": "89be21ced2dc68531ed83a648d610e6e6737be22a9e59322d1bc9d25814de638"
+      },
+      {
+        "id": "CAND-H3C14-018",
+        "ok": true,
+        "snap": "67530024badb41dce8f8da109144f225140a77834f65ece9fb1f23556b00977a",
+        "now": "67530024badb41dce8f8da109144f225140a77834f65ece9fb1f23556b00977a"
+      },
+      {
+        "id": "CAND-H3C14-027",
+        "ok": true,
+        "snap": "d04c21b8b9312ddbb87480434e144f7d9a4e4219fb6c24078567ce0900d1d533",
+        "now": "d04c21b8b9312ddbb87480434e144f7d9a4e4219fb6c24078567ce0900d1d533"
+      },
+      {
+        "id": "CAND-H3C14-046",
+        "ok": true,
+        "snap": "55592189e50a21c1aea7f54b955f478e97edbe64770f7df70c67b6f41aee1935",
+        "now": "55592189e50a21c1aea7f54b955f478e97edbe64770f7df70c67b6f41aee1935"
+      },
+      {
+        "id": "CAND-H3C14-047",
+        "ok": true,
+        "snap": "5b9b5764776861b47c2af75abfbc3b2e3bc8a8e288b3a2d60eaebc8433fedfe7",
+        "now": "5b9b5764776861b47c2af75abfbc3b2e3bc8a8e288b3a2d60eaebc8433fedfe7"
+      },
+      {
+        "id": "CAND-H3C14-060",
+        "ok": true,
+        "snap": "a2da1f83cf18f435e9623bb33c7da7b72bea95c5abcaeaeba81e66b7cecad1b2",
+        "now": "a2da1f83cf18f435e9623bb33c7da7b72bea95c5abcaeaeba81e66b7cecad1b2"
+      }
+    ],
+    "frozenIds": [
+      "CAND-H3C14-006",
+      "CAND-H3C14-013",
+      "CAND-H3C14-014",
+      "CAND-H3C14-018",
+      "CAND-H3C14-027",
+      "CAND-H3C14-046",
+      "CAND-H3C14-047",
+      "CAND-H3C14-060"
+    ],
+    "db": {
+      "drawable": 913,
+      "byDiff": {
+        "1": 335,
+        "2": 478,
+        "3": 100
+      },
+      "h3c14": 0
+    },
+    "candidatesUnmodified": true
+  },
+  "finishedAt": "2026-10-28T13:53:38.313Z"
+}

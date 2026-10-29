@@ -10,6 +10,7 @@ import {
 import { CurrentUser } from '../../auth/current-user.decorator'
 import { JwtAuthGuard, JwtPayload } from '../../auth/jwt-auth.guard'
 import { ChemWrongQuestionService } from './chem-wrong-question.service'
+import { IndustrialWrongVariationService } from '../industrial/industrial-wrong-variation.service'
 import {
   CreateWrongPracticeDto,
   CreateWrongVariationPracticeDto,
@@ -20,7 +21,10 @@ import {
 @Controller('chemistry/train/wrong-questions')
 @UseGuards(JwtAuthGuard)
 export class ChemWrongQuestionController {
-  constructor(private readonly service: ChemWrongQuestionService) {}
+  constructor(
+    private readonly service: ChemWrongQuestionService,
+    private readonly industrialVariation: IndustrialWrongVariationService,
+  ) {}
 
   @Get('summary')
   summary(@CurrentUser() user: JwtPayload) {
@@ -64,6 +68,18 @@ export class ChemWrongQuestionController {
     @Body() body: CreateWrongVariationPracticeDto,
   ) {
     return this.service.createVariationSession(user.sub, id, body.count)
+  }
+
+  /**
+   * 工业实验：申请 AI 变式候选进入审核仓（禁止直接 formal）。
+   * 学生「开始变式训练」仍只抽已审核题库变式。
+   */
+  @Post(':id/industrial-variation-candidate')
+  industrialVariationCandidate(
+    @CurrentUser() user: JwtPayload,
+    @Param('id') id: string,
+  ) {
+    return this.industrialVariation.requestCandidateFromWrong(user.sub, id)
   }
 
   @Get(':id')

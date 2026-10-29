@@ -1,0 +1,36 @@
+{
+  "developmentOnly": true,
+  "generationSource": "mock_generated",
+  "status": "development_only",
+  "question": {
+    "stem": "粗盐提纯流程中，操作①的主要作用是去除什么？",
+    "options": [
+      "可溶性杂质盐",
+      "不溶性杂质",
+      "全部水分",
+      "改变盐的化学式"
+    ],
+    "answerType": "single",
+    "difficulty": 1,
+    "qtype": "single",
+    "knowledgePoints": [
+      "过滤",
+      "固液分离"
+    ],
+    "referencedNodeIds": [
+      "n_filter"
+    ],
+    "referencedLabels": [
+      "操作①"
+    ],
+    "requiresManualReview": true
+  },
+  "answer": "B",
+  "explanation": "操作①对应过滤，用于分离不溶性杂质；题干与流程图中的操作①对应。",
+  "case": {
+    "caseCode": "salt_purification_basic",
+    "caseVersion": "0.1.0",
+    "contentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+    "reviewStatus": "draft"
+  }
+}

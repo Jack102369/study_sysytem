@@ -1,0 +1,40 @@
+{
+  "intentionallyInvalid": false,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "REQUIRED_PORT_MISSING",
+        "path": "component:f1",
+        "message": "必要端口 slurry_in 未连接",
+        "severity": "warning"
+      }
+    ],
+    "unknowns": []
+  },
+  "safety": {
+    "findings": [],
+    "blocking": [],
+    "unknowns": [],
+    "warnings": []
+  },
+  "render": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "metrics": {
+      "diagramId": "app_filter_wash",
+      "diagramVersion": "1.0.0",
+      "publicContentHash": "db4c0e0d0911282a128c6add6238c2ebcdaad7982b3b53dbf4d6e64ab725b8db",
+      "rendererVersion": "1.0.0",
+      "nodeCount": 2,
+      "edgeCount": 1,
+      "drawnNodeCount": 2,
+      "drawnEdgeCount": 1,
+      "canvasWidth": 368,
+      "canvasHeight": 276
+    }
+  },
+  "note": "教学示意；invalid 样例禁止 formal"
+}

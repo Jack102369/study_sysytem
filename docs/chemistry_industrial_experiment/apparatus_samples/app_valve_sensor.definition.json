@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_valve_sensor",
+  "caseCode": "salt_purification_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+  "apparatusVersion": "1.0.0",
+  "title": "阀门与检测仪表示意",
+  "orientation": "left_to_right",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "reviewMetadata": {
+    "chemicallyReviewed": false,
+    "schematicOnly": true
+  },
+  "components": [
+    {
+      "componentId": "tank",
+      "componentType": "liquid_tank",
+      "displayLabel": "储罐",
+      "ports": [
+        {
+          "portId": "liquid_in",
+          "direction": "in",
+          "media": [
+            "liquid"
+          ]
+        },
+        {
+          "portId": "liquid_out",
+          "direction": "out",
+          "media": [
+            "liquid"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "v1",
+      "componentType": "valve",
+      "displayLabel": "阀门",
+      "ports": [
+        {
+          "portId": "a",
+          "direction": "bidirectional",
+          "media": [
+            "gas",
+            "liquid",
+            "coolant"
+          ]
+        },
+        {
+          "portId": "b",
+          "direction": "bidirectional",
+          "media": [
+            "gas",
+            "liquid",
+            "coolant"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "t1",
+      "componentType": "temperature_sensor",
+      "displayLabel": "温度计",
+      "ports": [
+        {
+          "portId": "sense",
+          "direction": "in",
+          "media": [
+            "heat",
+            "liquid",
+            "gas"
+          ]
+        }
+      ],
+      "internal": {}
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "p1",
+      "sourceComponentId": "tank",
+      "sourcePortId": "liquid_out",
+      "targetComponentId": "v1",
+      "targetPortId": "a",
+      "flowType": "liquid"
+    }
+  ],
+  "apparatusContentHash": "749f98479c7344a03884eae66be636f20c629d54da747d5ce2ba97db06dbbbfe"
+}

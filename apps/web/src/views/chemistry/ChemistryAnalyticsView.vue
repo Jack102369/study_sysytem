@@ -9,10 +9,26 @@
           <span v-if="data">北京时间 {{ data.today }}</span>
         </p>
       </div>
-      <el-radio-group v-model="days" size="default" @change="reload">
-        <el-radio-button :value="7">最近7天</el-radio-button>
-        <el-radio-button :value="30">最近30天</el-radio-button>
-      </el-radio-group>
+      <div class="toolbar-acts">
+        <el-select
+          v-model="specialtyCode"
+          clearable
+          placeholder="全部专项"
+          style="width: 180px"
+          @change="reload"
+        >
+          <el-option label="全部专项" value="" />
+          <el-option
+            v-if="industrialEnabled"
+            label="工业实验"
+            value="industrial_experiment"
+          />
+        </el-select>
+        <el-radio-group v-model="days" size="default" @change="reload">
+          <el-radio-button :value="7">最近7天</el-radio-button>
+          <el-radio-button :value="30">最近30天</el-radio-button>
+        </el-radio-group>
+      </div>
     </header>
 
     <el-alert
@@ -109,6 +125,38 @@
           <el-table-column prop="correctCount" label="正确" width="70" />
           <el-table-column prop="wrongCount" label="错误" width="70" />
           <el-table-column label="正确率" width="100">
+            <template #default="{ row }">
+              <span v-if="row.empty">无数据</span>
+              <span v-else-if="row.accuracyPercent == null">—</span>
+              <span v-else>{{ row.accuracyPercent }}%</span>
+              <el-tag v-if="row.sampleLow" size="small" type="warning" class="ml">
+                样本较少
+              </el-tag>
+            </template>
+          </el-table-column>
+          <el-table-column prop="gradedItems" label="样本量" width="80" />
+        </el-table>
+      </section>
+
+      <!-- 4b 工业实验 12 分类（功能关闭时不展示） -->
+      <section
+        v-if="industrialEnabled && data.industrialFocus?.available"
+        class="sec"
+      >
+        <h2>工业实验 · 12 分类表现</h2>
+        <p class="hint">{{ data.industrialFocus.note }}</p>
+        <el-table
+          :data="data.industrialFocus.categories"
+          stripe
+          size="small"
+          class="table"
+          empty-text="暂无工业实验分类"
+        >
+          <el-table-column prop="categoryName" label="分类" min-width="140" />
+          <el-table-column prop="practicedItems" label="练习题次" width="90" />
+          <el-table-column prop="correctCount" label="正确" width="70" />
+          <el-table-column prop="wrongCount" label="错误" width="70" />
+          <el-table-column label="正确率" width="120">
             <template #default="{ row }">
               <span v-if="row.empty">无数据</span>
               <span v-else-if="row.accuracyPercent == null">—</span>
@@ -221,6 +269,7 @@ import {
   getChemAnalytics,
   type ChemAnalytics,
 } from '@/api/chemistry-train'
+import { useIndustrialExperimentFeature } from '@/composables/useIndustrialExperimentFeature'
 import { useTheme } from '@/composables/useTheme'
 import { getChartPalette } from '@/utils/chart-theme'
 import errMsg from '@/utils/err-msg'
@@ -229,8 +278,10 @@ const router = useRouter()
 const loading = ref(false)
 const loadError = ref('')
 const days = ref<7 | 30>(30)
+const specialtyCode = ref('')
 const data = ref<ChemAnalytics | null>(null)
 const { isDark } = useTheme()
+const { enabled: industrialEnabled } = useIndustrialExperimentFeature()
 
 const calRef = ref<HTMLDivElement>()
 const trendRef = ref<HTMLDivElement>()
@@ -704,7 +755,10 @@ async function reload() {
   loading.value = true
   loadError.value = ''
   try {
-    data.value = await getChemAnalytics(days.value)
+    data.value = await getChemAnalytics(
+      days.value,
+      specialtyCode.value || undefined,
+    )
     await nextTick()
     disposeAll()
     renderAll()
@@ -743,6 +797,12 @@ onBeforeUnmount(() => {
   gap: 12px;
   flex-wrap: wrap;
   margin-bottom: 12px;
+}
+.toolbar-acts {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .toolbar h1 {
   margin: 4px 0 6px;

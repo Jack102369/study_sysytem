@@ -30,6 +30,12 @@
           <el-menu-item index="/settings/chemistry-train-items">
             化学训练题库
           </el-menu-item>
+          <el-menu-item
+            v-if="industrialEnabled"
+            index="/settings/chemistry-industrial-candidates"
+          >
+            工业实验候选
+          </el-menu-item>
         </el-sub-menu>
 
         <el-sub-menu v-if="isAdmin" index="group-hs-math">
@@ -74,10 +80,13 @@ import { ElMessage } from 'element-plus'
 import { fetchMe } from '@/api/auth'
 import { seedDefaults } from '@/api/dashboard'
 import errMsg from '@/utils/err-msg'
+import { useIndustrialExperimentFeature } from '@/composables/useIndustrialExperimentFeature'
 
 const route = useRoute()
 const active = computed(() => route.path)
 const isAdmin = ref(false)
+const { enabled: industrialEnabled, refresh: refreshIndustrialFeature } =
+  useIndustrialExperimentFeature()
 
 /** 当前路由所属分组默认展开，避免二级菜单收起后看不清位置 */
 const openedMenus = computed(() => {
@@ -94,6 +103,7 @@ onMounted(async () => {
   try {
     const me = await fetchMe()
     isAdmin.value = me.role === 'ADMIN'
+    if (isAdmin.value) await refreshIndustrialFeature()
   } catch {
     isAdmin.value = false
   }

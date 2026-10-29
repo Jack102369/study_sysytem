@@ -9,11 +9,14 @@ import { In, Repository } from 'typeorm'
 import { ChemCategory } from '../chem-category.entity'
 import { ChemSpecialty } from '../chem-specialty.entity'
 import { ChemTrainEligibilityService } from './chem-train-eligibility.service'
+import { ChemTrainSessionDiagramService } from './chem-train-session-diagram.service'
 import { ChemTrainService } from './chem-train.service'
 import { ChemTrainItem } from './entities/chem-train-item.entity'
 import { ChemTrainItemLink } from './entities/chem-train-item-link.entity'
 import { ChemTrainSession } from './entities/chem-train-session.entity'
 import { ChemTrainSessionItem } from './entities/chem-train-session-item.entity'
+import { INDUSTRIAL_SPECIALTY_CODE } from '../industrial/industrial-case.constants'
+import { isChemIndustrialExperimentEnabled } from '../industrial/industrial-feature.config'
 import {
   shanghaiDateMinusDays,
   shanghaiDateString,
@@ -44,6 +47,7 @@ export class ChemDailyReviewService {
     @InjectRepository(ChemCategory)
     private readonly categoriesRepo: Repository<ChemCategory>,
     private readonly eligibility: ChemTrainEligibilityService,
+    private readonly sessionDiagrams: ChemTrainSessionDiagramService,
     private readonly trainService: ChemTrainService,
   ) {}
 
@@ -177,6 +181,12 @@ export class ChemDailyReviewService {
       }),
     )
     await this.sessionItemsRepo.save(rows)
+    try {
+      await this.sessionDiagrams.snapshotForSavedItems(rows)
+    } catch (e) {
+      await this.sessionsRepo.delete({ id: session.id })
+      throw e
+    }
 
     const detail = await this.trainService.getSession(userId, session.id)
     return {
@@ -346,7 +356,16 @@ export class ChemDailyReviewService {
       },
       order: { id: 'ASC' },
     })
-    const eligible = await this.eligibility.filterEligibleItems(rows, poolMode)
+    let eligible = await this.eligibility.filterEligibleItems(rows, poolMode)
+    // 工业实验关闭时不进入每日复习抽题
+    if (!isChemIndustrialExperimentEnabled()) {
+      const ind = await this.specialtiesRepo.findOne({
+        where: { code: INDUSTRIAL_SPECIALTY_CODE, isActive: true },
+      })
+      if (ind) {
+        eligible = eligible.filter((i) => String(i.specialtyId) !== String(ind.id))
+      }
+    }
     // 排除标记 [daily:exclude] 的提高/挑战等长时题；不硬编码批次前缀。
     return eligible.filter(
       (i) =>

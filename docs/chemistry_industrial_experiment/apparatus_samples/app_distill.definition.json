@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_distill",
+  "caseCode": "salt_purification_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+  "apparatusVersion": "1.0.0",
+  "title": "蒸馏-冷凝-产品收集",
+  "orientation": "left_to_right",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "reviewMetadata": {
+    "chemicallyReviewed": false,
+    "schematicOnly": true
+  },
+  "components": [
+    {
+      "componentId": "dist1",
+      "componentType": "distillation_unit",
+      "displayLabel": "蒸馏釜",
+      "ports": [
+        {
+          "portId": "feed_in",
+          "direction": "in",
+          "media": [
+            "liquid"
+          ]
+        },
+        {
+          "portId": "vapor_out",
+          "direction": "out",
+          "media": [
+            "gas"
+          ]
+        },
+        {
+          "portId": "residue_out",
+          "direction": "out",
+          "media": [
+            "liquid"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "cond1",
+      "componentType": "condenser",
+      "displayLabel": "冷凝器",
+      "ports": [
+        {
+          "portId": "vapor_in",
+          "direction": "in",
+          "media": [
+            "gas"
+          ]
+        },
+        {
+          "portId": "liquid_out",
+          "direction": "out",
+          "media": [
+            "liquid"
+          ]
+        },
+        {
+          "portId": "coolant_in",
+          "direction": "in",
+          "media": [
+            "coolant",
+            "liquid"
+          ]
+        },
+        {
+          "portId": "coolant_out",
+          "direction": "out",
+          "media": [
+            "coolant",
+            "liquid"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "prod",
+      "componentType": "liquid_tank",
+      "displayLabel": "馏出液",
+      "ports": [
+        {
+          "portId": "liquid_in",
+          "direction": "in",
+          "media": [
+            "liquid"
+          ]
+        },
+        {
+          "portId": "liquid_out",
+          "direction": "out",
+          "media": [
+            "liquid"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "coolsrc",
+      "componentType": "cooler",
+      "displayLabel": "冷却回路",
+      "ports": [
+        {
+          "portId": "coolant_in",
+          "direction": "in",
+          "media": [
+            "coolant",
+            "liquid"
+          ]
+        },
+        {
+          "portId": "coolant_out",
+          "direction": "out",
+          "media": [
+            "coolant",
+            "liquid"
+          ]
+        },
+        {
+          "portId": "process_in",
+          "direction": "in",
+          "media": [
+            "gas",
+            "liquid"
+          ]
+        },
+        {
+          "portId": "process_out",
+          "direction": "out",
+          "media": [
+            "gas",
+            "liquid"
+          ]
+        }
+      ],
+      "internal": {}
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "d1",
+      "sourceComponentId": "dist1",
+      "sourcePortId": "vapor_out",
+      "targetComponentId": "cond1",
+      "targetPortId": "vapor_in",
+      "flowType": "gas"
+    },
+    {
+      "connectionId": "d2",
+      "sourceComponentId": "cond1",
+      "sourcePortId": "liquid_out",
+      "targetComponentId": "prod",
+      "targetPortId": "liquid_in",
+      "flowType": "liquid"
+    },
+    {
+      "connectionId": "cw1",
+      "sourceComponentId": "coolsrc",
+      "sourcePortId": "coolant_out",
+      "targetComponentId": "cond1",
+      "targetPortId": "coolant_in",
+      "flowType": "coolant"
+    },
+    {
+      "connectionId": "cw2",
+      "sourceComponentId": "cond1",
+      "sourcePortId": "coolant_out",
+      "targetComponentId": "coolsrc",
+      "targetPortId": "coolant_in",
+      "flowType": "coolant"
+    }
+  ],
+  "apparatusContentHash": "e43dbdfe59abded40c9d415a4950e601c16c62831c8beae446d82140ed2b1d99"
+}

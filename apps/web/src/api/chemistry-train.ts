@@ -29,6 +29,17 @@ export type TrainSessionKind =
   | 'wrong_review'
   | 'wrong_variation'
 
+/** 会话题图快照（STEP_10）；不含 storage_path / 答案 */
+export type TrainSessionDiagramAsset = {
+  id: string
+  assetType: string
+  assetRole: string
+  contentHash: string
+  mimeType: string
+  diagramVersion: string
+  sortOrder: number
+}
+
 export type TrainSessionItem = {
   id: string
   sortOrder: number
@@ -48,6 +59,8 @@ export type TrainSessionItem = {
   categoryCode?: string
   categoryName?: string
   itemDifficulty?: number
+  /** 开训快照；无图为 []；禁止用当前题库图冒充历史 */
+  diagramAssets?: TrainSessionDiagramAsset[]
 }
 
 export type AdvancedDifficultyMode = 'raise' | 'challenge' | 'mix'
@@ -211,6 +224,9 @@ export type ChemWrongDetail = {
     stemSnapshot: string | null
     optionsSnapshot: unknown
     gradeResult: string | null
+    /** STEP_11：仅会话快照；无快照时 []，禁止用当前题库图冒充 */
+    diagramAssets?: TrainSessionDiagramAsset[]
+    diagramSnapshotNote?: string
   }>
   eventCount: number
   masteryRules: {
@@ -408,6 +424,19 @@ export async function getChemTrainSession(id: string) {
   return data.data
 }
 
+/** 会话授权读取工业 SVG（Blob；禁止拼公开 /uploads） */
+export async function fetchChemTrainSessionDiagramSvg(params: {
+  sessionId: string
+  sessionItemId: string
+  assetId: string
+}): Promise<Blob> {
+  const { data } = await http.get<Blob>(
+    `/chemistry/train/sessions/${encodeURIComponent(params.sessionId)}/items/${encodeURIComponent(params.sessionItemId)}/assets/${encodeURIComponent(params.assetId)}/svg`,
+    { responseType: 'blob' },
+  )
+  return data
+}
+
 export async function saveChemTrainAnswer(
   id: string,
   body: { sortOrder: number; answer: string },
@@ -578,6 +607,20 @@ export type ChemAnalyticsDifficulty = {
   sampleNote: string | null
 }
 
+export type ChemAnalyticsIndustrialCategory = {
+  categoryCode: string
+  categoryName: string
+  practicedItems: number
+  correctCount: number
+  wrongCount: number
+  pendingReviewCount: number
+  gradedItems: number
+  accuracyPercent: number | null
+  empty: boolean
+  sampleLow: boolean
+  sampleNote: string | null
+}
+
 export type ChemAnalytics = {
   timezone: string
   today: string
@@ -592,6 +635,8 @@ export type ChemAnalytics = {
     note: string
   }
   notes: string[]
+  focusSpecialtyCode?: string | null
+  focusSpecialtyName?: string | null
   overview: {
     submittedSessions: number
     practicedItems: number
@@ -608,6 +653,20 @@ export type ChemAnalytics = {
     titleNote: string
     items: ChemAnalyticsSpecialty[]
   }
+  industrialFocus?: {
+    specialtyCode: string
+    specialtyName?: string
+    available: boolean
+    note: string
+    categories: ChemAnalyticsIndustrialCategory[]
+    recommendations: Array<{
+      id: string
+      reason: string
+      cta: string
+      path: string
+      priority: number
+    }>
+  } | null
   difficulties: {
     title: string
     items: ChemAnalyticsDifficulty[]
@@ -645,10 +704,13 @@ export type ChemAnalytics = {
   }>
 }
 
-export async function getChemAnalytics(days: 7 | 30 = 30) {
+export async function getChemAnalytics(
+  days: 7 | 30 = 30,
+  specialtyCode?: string,
+) {
   const { data } = await http.get<ApiSuccess<ChemAnalytics>>(
     '/chemistry/train/analytics',
-    { params: { days } },
+    { params: { days, specialtyCode: specialtyCode || undefined } },
   )
   return data.data
 }
@@ -710,6 +772,27 @@ export async function createChemWrongVariationPractice(
   const { data } = await http.post<ApiSuccess<TrainSessionDetail>>(
     `/chemistry/train/wrong-questions/${encodeURIComponent(wrongItemId)}/variation-practice`,
     { count },
+  )
+  return data.data
+}
+
+/** 工业实验：申请 AI 变式候选进入审核仓（禁止直接 formal） */
+export async function requestIndustrialWrongVariationCandidate(
+  wrongItemId: string,
+) {
+  const { data } = await http.post<
+    ApiSuccess<{
+      ok: boolean
+      candidateId: string | null
+      message: string
+      developmentOnly: boolean
+      generationSource: string
+      formalImportBlocked: true
+      reviewPath: string
+      reusedExisting?: boolean
+    }>
+  >(
+    `/chemistry/train/wrong-questions/${encodeURIComponent(wrongItemId)}/industrial-variation-candidate`,
   )
   return data.data
 }

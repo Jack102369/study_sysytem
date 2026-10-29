@@ -11,7 +11,13 @@ import { InjectRepository } from '@nestjs/typeorm'
 import { DataSource, In, Repository } from 'typeorm'
 import { ChemCategory } from '../chem-category.entity'
 import { ChemSpecialty } from '../chem-specialty.entity'
+import { INDUSTRIAL_SPECIALTY_CODE } from '../industrial/industrial-case.constants'
+import {
+  assertIndustrialSpecialtyAllowed,
+  isChemIndustrialExperimentEnabled,
+} from '../industrial/industrial-feature.config'
 import { ChemTrainEligibilityService } from './chem-train-eligibility.service'
+import { ChemTrainSessionDiagramService } from './chem-train-session-diagram.service'
 import { ChemTrainService } from './chem-train.service'
 import { ChemTrainItem } from './entities/chem-train-item.entity'
 import { ChemTrainItemLink } from './entities/chem-train-item-link.entity'
@@ -68,6 +74,7 @@ export class ChemWrongQuestionService {
     @InjectRepository(ChemCategory)
     private readonly categoriesRepo: Repository<ChemCategory>,
     private readonly eligibility: ChemTrainEligibilityService,
+    private readonly sessionDiagrams: ChemTrainSessionDiagramService,
     @Inject(forwardRef(() => ChemTrainService))
     private readonly trainService: ChemTrainService,
     private readonly dataSource: DataSource,
@@ -457,7 +464,14 @@ export class ChemWrongQuestionService {
     })
 
     if (query.specialtyCode) {
+      assertIndustrialSpecialtyAllowed(query.specialtyCode)
       enriched = enriched.filter((x) => x.specialtyCode === query.specialtyCode)
+    }
+    // 关闭工业实验时：错题列表不展示工业专项题（历史数据仍在库中）
+    if (!isChemIndustrialExperimentEnabled()) {
+      enriched = enriched.filter(
+        (x) => x.specialtyCode !== INDUSTRIAL_SPECIALTY_CODE,
+      )
     }
     if (query.categoryCode) {
       enriched = enriched.filter((x) => x.categoryCode === query.categoryCode)
@@ -542,6 +556,9 @@ export class ChemWrongQuestionService {
 
     const wrongEvents = events.filter((e) => e.eventType === 'wrong')
     const history: Array<Record<string, unknown>> = []
+    const historySiIds = wrongEvents.map((e) => e.sessionItemId)
+    const diagramMap =
+      await this.sessionDiagrams.mapSnapshotsBySessionItemIds(historySiIds)
     for (const ev of wrongEvents) {
       const si = await this.sessionItemsRepo.findOne({
         where: { id: ev.sessionItemId },
@@ -550,6 +567,7 @@ export class ChemWrongQuestionService {
         where: { id: ev.sessionId, userId },
       })
       if (!si || !sess) continue
+      const snaps = diagramMap.get(String(si.id)) || []
       history.push({
         sessionItemId: si.id,
         sessionId: sess.id,
@@ -561,14 +579,24 @@ export class ChemWrongQuestionService {
         stemSnapshot: si.stem,
         optionsSnapshot: si.optionsJson,
         gradeResult: si.gradeResult,
+        /** STEP_11：历史错题图形仅来自会话快照，禁止用当前题库图冒充 */
+        diagramAssets: snaps,
+        diagramSnapshotNote: snaps.length
+          ? '以下为该次训练会话图形快照'
+          : '该次训练无图形快照（STEP_10 前或无图题）；不显示当前题库图',
       })
     }
 
     const links = await this.linksRepo.find({ where: { itemId: row.itemId } })
     let practiceEligible = false
     let practiceBlockReason: string | null = null
+    const industrialOff =
+      !isChemIndustrialExperimentEnabled() &&
+      sp?.code === INDUSTRIAL_SPECIALTY_CODE
     if (!item) {
       practiceBlockReason = '题目已删除，仅可查看历史快照'
+    } else if (industrialOff) {
+      practiceBlockReason = '工业实验模块已停用，暂不可复练'
     } else {
       const poolMode = item.pool === 'formal' ? 'formal' : 'test'
       if (poolMode === 'test') {
@@ -623,15 +651,23 @@ export class ChemWrongQuestionService {
         note: '已掌握仅表示该「题目」；不代表知识点已掌握',
       },
       methodSummary: this.buildMethodSummary(item, links),
-      variationPreview: item
-        ? await this.buildVariationPreview(userId, row, item, links)
-        : {
+      variationPreview: industrialOff
+        ? {
             candidateCount: 0,
-            emptyHint: '题目不可用，无法推荐变式',
+            emptyHint: '工业实验模块已停用，暂不变式训练',
             items: [],
             rulesNote: '',
             catalogLoaded: false,
-          },
+          }
+        : item
+          ? await this.buildVariationPreview(userId, row, item, links)
+          : {
+              candidateCount: 0,
+              emptyHint: '题目不可用，无法推荐变式',
+              items: [],
+              rulesNote: '',
+              catalogLoaded: false,
+            },
     }
   }
 
@@ -758,6 +794,13 @@ export class ChemWrongQuestionService {
       ),
     ]
 
+    const industrialOn = isChemIndustrialExperimentEnabled()
+    const industrialSp = industrialOn
+      ? null
+      : await this.specialtiesRepo.findOne({
+          where: { code: INDUSTRIAL_SPECIALTY_CODE, isActive: true },
+        })
+
     const picked: ChemTrainItem[] = []
     const skipped: Array<{ itemId: string; reason: string }> = []
     for (const w of ordered) {
@@ -765,6 +808,13 @@ export class ChemWrongQuestionService {
       const item = await this.itemsRepo.findOne({ where: { id: w.itemId } })
       if (!item) {
         skipped.push({ itemId: w.itemId, reason: 'missing' })
+        continue
+      }
+      if (
+        industrialSp &&
+        String(item.specialtyId) === String(industrialSp.id)
+      ) {
+        skipped.push({ itemId: w.itemId, reason: 'industrial_disabled' })
         continue
       }
       const poolMode = item.pool === 'formal' ? 'formal' : 'test'
@@ -844,6 +894,12 @@ export class ChemWrongQuestionService {
       }),
     )
     await this.sessionItemsRepo.save(rows)
+    try {
+      await this.sessionDiagrams.snapshotForSavedItems(rows)
+    } catch (e) {
+      await this.sessionsRepo.delete({ id: session.id })
+      throw e
+    }
 
     const detail = await this.trainService.getSession(userId, session.id)
     return {
@@ -1073,8 +1129,23 @@ export class ChemWrongQuestionService {
     }
     const scored: Scored[] = []
 
+    const industrialSpId =
+      !isChemIndustrialExperimentEnabled()
+        ? (
+            await this.specialtiesRepo.findOne({
+              where: { code: INDUSTRIAL_SPECIALTY_CODE, isActive: true },
+            })
+          )?.id
+        : undefined
+
     for (const cand of mergedPool) {
       if (excludeItemIds.has(String(cand.id))) continue
+      if (
+        industrialSpId != null &&
+        String(cand.specialtyId) === String(industrialSpId)
+      ) {
+        continue
+      }
       const poolMode = cand.pool === 'formal' ? 'formal' : 'test'
       if (poolMode === 'test' && !canTest) continue
       const gate = await this.eligibility.isItemEligible(cand, poolMode)
@@ -1143,6 +1214,14 @@ export class ChemWrongQuestionService {
     if (!sourceItem) {
       throw new BadRequestException('原题已不可用，无法开始变式训练')
     }
+    if (!isChemIndustrialExperimentEnabled()) {
+      const sp = await this.specialtiesRepo.findOne({
+        where: { id: sourceItem.specialtyId },
+      })
+      if (sp?.code === INDUSTRIAL_SPECIALTY_CODE) {
+        throw new NotFoundException('NOT_FOUND')
+      }
+    }
     const sourceLinks = await this.linksRepo.find({
       where: { itemId: sourceItem.id },
     })
@@ -1207,6 +1286,12 @@ export class ChemWrongQuestionService {
       }),
     )
     await this.sessionItemsRepo.save(rows)
+    try {
+      await this.sessionDiagrams.snapshotForSavedItems(rows)
+    } catch (e) {
+      await this.sessionsRepo.delete({ id: session.id })
+      throw e
+    }
 
     const detail = await this.trainService.getSession(userId, session.id)
     const tierCounts: Partial<Record<VariationTier, number>> = {}

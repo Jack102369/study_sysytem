@@ -1,0 +1,440 @@
+{
+  "batchId": "industrial_formal_candidate_20261029_121958",
+  "phase": "PHASE_E2A",
+  "e1BatchId": "industrial_formal_candidate_20261029_121958",
+  "generationSource": "manual_fixture",
+  "readyForFormalImport": false,
+  "revisedAt": "2026-10-29T05:28:33.769Z",
+  "candidateCount": 4,
+  "itemCount": 4,
+  "note": "Content/rule fixes applied; case draft + unverified source remain; no formal write; human review still pending",
+  "phaseDBatchUntouched": "industrial_acceptance_20261029_121220",
+  "sourceVerification": "SOURCE_VERIFICATION_INCOMPLETE",
+  "items": [
+    {
+      "batchId": "industrial_formal_candidate_20261029_121958",
+      "seq": 1,
+      "candidateId": "cand_63284abdddf24cee",
+      "plannedItemCode": "ifc_20261029_121958_01",
+      "title": "粗盐提纯·过滤识读（E2-A 修订）",
+      "phase": "PHASE_E2A",
+      "revision": 7,
+      "qtype": "single",
+      "difficulty": 1,
+      "categoryCode": "flow_diagram_read",
+      "caseCode": "salt_purification_basic",
+      "caseReviewStatus": "draft",
+      "generationSource": "manual_fixture",
+      "developmentOnly": false,
+      "reviewStatus": "pending_human_review",
+      "humanDecision": null,
+      "qualityOverall": "failed_automatic_checks",
+      "qualityBlocking": 2,
+      "qualityUnknown": 12,
+      "requiresHumanReview": true,
+      "formalPublishEligible": false,
+      "readyForHumanReview": true,
+      "readyForFormalImport": false,
+      "blockerClassification": {
+        "QUALITY_BLOCKERS": [],
+        "PUBLISH_ELIGIBILITY_BLOCKERS": [
+          {
+            "checkCode": "CURR_CASE_TRUST",
+            "dimension": "curriculum",
+            "severity": "critical",
+            "message": "正式候选要求案例已审核且 publishEligible"
+          },
+          {
+            "checkCode": "CHEM_SOURCE_VERIFIED",
+            "dimension": "chemistry",
+            "severity": "critical",
+            "message": "正式模式：缺少 verified 知识来源（且无有效案例审核覆盖）"
+          }
+        ],
+        "HUMAN_REVIEW_PENDING": true,
+        "KB_BINDING_BLOCKERS": [
+          "KB_NOT_BOUND"
+        ],
+        "UNKNOWN_SCIENCE_ITEMS": [
+          "CURR_REVIEW_STATUS: 课程审核未完成，不能认定课程适配已通过",
+          "CHEM_REACTION_PENDING: 案例无反应条目；非反应类流程记 unknown（需人工确认）",
+          "CHEM_ENGINE_SCOPE: 本系统非完整化学推理引擎；未覆盖知识一律 unknown，不得自动 pass",
+          "PROCESS_DEEP_REASONING: 深层工艺合理性（收率/能耗/工业放大）未自动验证",
+          "CONS_EXPLANATION_PRESENT: 解析非空；语义正确性未自动证明",
+          "TEACH_JUDGE_COMPAT: 与正式 chem-train-grade 的完整兼容性留待 STEP_09 核对",
+          "AI_AUX_CURRICULUM: Mock AI 辅助审查：维度 curriculum 未提供科学证明（记 unknown）",
+          "AI_AUX_CHEMISTRY: Mock AI 辅助审查：维度 chemistry 未提供科学证明（记 unknown）",
+          "AI_AUX_PROCESS: Mock AI 辅助审查：维度 process 未提供科学证明（记 unknown）",
+          "AI_AUX_DIAGRAM: Mock AI 辅助审查：维度 diagram 未提供科学证明（记 unknown）",
+          "AI_AUX_CONSISTENCY: Mock AI 辅助审查：维度 consistency 未提供科学证明（记 unknown）",
+          "AI_AUX_TEACHING: Mock AI 辅助审查：维度 teaching 未提供科学证明（记 unknown）"
+        ],
+        "overallStatus": "failed_automatic_checks",
+        "formalPublishEligible": false
+      },
+      "diagramKinds": [
+        "flow"
+      ],
+      "flowSvgContentHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+      "apparatusSvgContentHash": null,
+      "auditContentHash": "83651f1b22d1844c697e4a871db90315d86417eeb74dae59f3c4e12c14c02afc",
+      "changeReasons": [
+        "澄清题干：强调除去不溶性杂质；去掉易混淆 PHASE 备注噪音",
+        "解析改写避免歧义；内容化学结论不变"
+      ],
+      "sourceVerificationStatus": "SOURCE_VERIFICATION_INCOMPLETE",
+      "kbBindingPlan": [
+        {
+          "entityType": "experiment",
+          "entityId": "20",
+          "entityName": "过滤操作",
+          "status": "published",
+          "reviewNoteFlags": [
+            "ai_trial",
+            "human_unreviewed",
+            "trial_run"
+          ],
+          "note": "本地 chem_experiments.id=20；published 但 review_note 含 human_unreviewed",
+          "currentLink": "NOT_BOUND",
+          "adminConfirmRequired": true,
+          "bindWhen": "PHASE_E2_after_human_approve_and_formal_import"
+        },
+        {
+          "entityType": "experiment",
+          "entityId": "19",
+          "entityName": "溶解与搅拌",
+          "status": "published",
+          "reviewNoteFlags": [
+            "ai_trial",
+            "human_unreviewed",
+            "trial_run"
+          ],
+          "note": "本地 chem_experiments.id=19",
+          "currentLink": "NOT_BOUND",
+          "adminConfirmRequired": true,
+          "bindWhen": "PHASE_E2_after_human_approve_and_formal_import"
+        },
+        {
+          "entityType": "substance",
+          "entityId": "2",
+          "entityName": "水",
+          "status": "published",
+          "reviewNoteFlags": [],
+          "note": "本地 chem_substances.id=2",
+          "currentLink": "NOT_BOUND",
+          "adminConfirmRequired": true,
+          "bindWhen": "PHASE_E2_after_human_approve_and_formal_import"
+        }
+      ],
+      "dbTrainItemId": "NOT_CREATED",
+      "dbAssetIds": "NOT_CREATED",
+      "dbKbLinkIds": "NOT_BOUND",
+      "pool": "NOT_WRITTEN",
+      "revisedAt": "2026-10-29T05:28:33.769Z"
+    },
+    {
+      "batchId": "industrial_formal_candidate_20261029_121958",
+      "seq": 2,
+      "candidateId": "cand_8ce596acabc64f26",
+      "plannedItemCode": "ifc_20261029_121958_02",
+      "title": "气体洗涤装置流向判断（E2-A 修订）",
+      "phase": "PHASE_E2A",
+      "revision": 7,
+      "qtype": "judge",
+      "difficulty": 1,
+      "categoryCode": "industrial_apparatus_analysis",
+      "caseCode": "gas_wash_teaching_basic",
+      "caseReviewStatus": "draft",
+      "generationSource": "manual_fixture",
+      "developmentOnly": false,
+      "reviewStatus": "pending_human_review",
+      "humanDecision": null,
+      "qualityOverall": "failed_automatic_checks",
+      "qualityBlocking": 2,
+      "qualityUnknown": 14,
+      "requiresHumanReview": true,
+      "formalPublishEligible": false,
+      "readyForHumanReview": true,
+      "readyForFormalImport": false,
+      "blockerClassification": {
+        "QUALITY_BLOCKERS": [],
+        "PUBLISH_ELIGIBILITY_BLOCKERS": [
+          {
+            "checkCode": "CURR_CASE_TRUST",
+            "dimension": "curriculum",
+            "severity": "critical",
+            "message": "正式候选要求案例已审核且 publishEligible"
+          },
+          {
+            "checkCode": "CHEM_SOURCE_VERIFIED",
+            "dimension": "chemistry",
+            "severity": "critical",
+            "message": "正式模式：缺少 verified 知识来源（且无有效案例审核覆盖）"
+          }
+        ],
+        "HUMAN_REVIEW_PENDING": true,
+        "KB_BINDING_BLOCKERS": [
+          "KB_NOT_BOUND"
+        ],
+        "UNKNOWN_SCIENCE_ITEMS": [
+          "CURR_REVIEW_STATUS: 课程审核未完成，不能认定课程适配已通过",
+          "CHEM_REACTION_PENDING: 案例无反应条目；非反应类流程记 unknown（需人工确认）",
+          "CHEM_ENGINE_SCOPE: 本系统非完整化学推理引擎；未覆盖知识一律 unknown，不得自动 pass",
+          "PROCESS_DEEP_REASONING: 深层工艺合理性（收率/能耗/工业放大）未自动验证",
+          "CONS_EXPLANATION_PRESENT: 解析非空；语义正确性未自动证明",
+          "TEACH_JUDGE_COMPAT: 与正式 chem-train-grade 的完整兼容性留待 STEP_09 核对",
+          "APPARATUS_TAIL_GAS_NEED: 存在气体发生装置但无尾气吸收；是否需要取决于气体性质（无法仅凭拓扑判定）",
+          "APPARATUS_STEM_CONSISTENCY: 题干与装置组件名的充分一致性无法完全自动证明",
+          "AI_AUX_CURRICULUM: Mock AI 辅助审查：维度 curriculum 未提供科学证明（记 unknown）",
+          "AI_AUX_CHEMISTRY: Mock AI 辅助审查：维度 chemistry 未提供科学证明（记 unknown）",
+          "AI_AUX_PROCESS: Mock AI 辅助审查：维度 process 未提供科学证明（记 unknown）",
+          "AI_AUX_DIAGRAM: Mock AI 辅助审查：维度 diagram 未提供科学证明（记 unknown）",
+          "AI_AUX_CONSISTENCY: Mock AI 辅助审查：维度 consistency 未提供科学证明（记 unknown）",
+          "AI_AUX_TEACHING: Mock AI 辅助审查：维度 teaching 未提供科学证明（记 unknown）"
+        ],
+        "overallStatus": "failed_automatic_checks",
+        "formalPublishEligible": false
+      },
+      "diagramKinds": [
+        "apparatus",
+        "flow"
+      ],
+      "flowSvgContentHash": "bf825f9002649112b25b7fb3b2940ea2a66a8038bf692bb9cd77376a4a889f91",
+      "apparatusSvgContentHash": "d1e70920d636abe62dc3fedb0cbbed8005d567a2cf716ef280854bcf4a5fd5cf",
+      "auditContentHash": "5d8e06f29a79b8ecfe40d6c0914cd3290b35ba80a986099677d89fb8168ed9b6",
+      "changeReasons": [
+        "案例由粗盐改为 CASE_GAS_WASH_TEACHING，消除分类/主题错配",
+        "流程占位 stub 绑定真实 caseVersion/contentHash，修复 DIAG_CASE_BIND",
+        "装置 Definition 同步案例元数据；明确 schematic"
+      ],
+      "sourceVerificationStatus": "SOURCE_VERIFICATION_INCOMPLETE",
+      "kbBindingPlan": [
+        {
+          "entityType": "knowledge",
+          "entityId": "61",
+          "entityName": "气体的洗涤与干燥",
+          "status": "published",
+          "reviewNoteFlags": [],
+          "note": "本地 chem_knowledge_points.id=61",
+          "currentLink": "NOT_BOUND",
+          "adminConfirmRequired": true,
+          "bindWhen": "PHASE_E2_after_human_approve_and_formal_import"
+        }
+      ],
+      "dbTrainItemId": "NOT_CREATED",
+      "dbAssetIds": "NOT_CREATED",
+      "dbKbLinkIds": "NOT_BOUND",
+      "pool": "NOT_WRITTEN",
+      "revisedAt": "2026-10-29T05:28:33.769Z"
+    },
+    {
+      "batchId": "industrial_formal_candidate_20261029_121958",
+      "seq": 3,
+      "candidateId": "cand_03bf94425958444b",
+      "plannedItemCode": "ifc_20261029_121958_03",
+      "title": "提纯流程+过滤装置双图综合（E2-A 修订）",
+      "phase": "PHASE_E2A",
+      "revision": 7,
+      "qtype": "single",
+      "difficulty": 2,
+      "categoryCode": "industrial_separation_purification",
+      "caseCode": "salt_purification_basic",
+      "caseReviewStatus": "draft",
+      "generationSource": "manual_fixture",
+      "developmentOnly": false,
+      "reviewStatus": "pending_human_review",
+      "humanDecision": null,
+      "qualityOverall": "failed_automatic_checks",
+      "qualityBlocking": 2,
+      "qualityUnknown": 13,
+      "requiresHumanReview": true,
+      "formalPublishEligible": false,
+      "readyForHumanReview": true,
+      "readyForFormalImport": false,
+      "blockerClassification": {
+        "QUALITY_BLOCKERS": [],
+        "PUBLISH_ELIGIBILITY_BLOCKERS": [
+          {
+            "checkCode": "CURR_CASE_TRUST",
+            "dimension": "curriculum",
+            "severity": "critical",
+            "message": "正式候选要求案例已审核且 publishEligible"
+          },
+          {
+            "checkCode": "CHEM_SOURCE_VERIFIED",
+            "dimension": "chemistry",
+            "severity": "critical",
+            "message": "正式模式：缺少 verified 知识来源（且无有效案例审核覆盖）"
+          }
+        ],
+        "HUMAN_REVIEW_PENDING": true,
+        "KB_BINDING_BLOCKERS": [
+          "KB_NOT_BOUND"
+        ],
+        "UNKNOWN_SCIENCE_ITEMS": [
+          "CURR_REVIEW_STATUS: 课程审核未完成，不能认定课程适配已通过",
+          "CHEM_REACTION_PENDING: 案例无反应条目；非反应类流程记 unknown（需人工确认）",
+          "CHEM_ENGINE_SCOPE: 本系统非完整化学推理引擎；未覆盖知识一律 unknown，不得自动 pass",
+          "PROCESS_DEEP_REASONING: 深层工艺合理性（收率/能耗/工业放大）未自动验证",
+          "CONS_EXPLANATION_PRESENT: 解析非空；语义正确性未自动证明",
+          "TEACH_JUDGE_COMPAT: 与正式 chem-train-grade 的完整兼容性留待 STEP_09 核对",
+          "APPARATUS_STEM_CONSISTENCY: 题干与装置组件名的充分一致性无法完全自动证明",
+          "AI_AUX_CURRICULUM: Mock AI 辅助审查：维度 curriculum 未提供科学证明（记 unknown）",
+          "AI_AUX_CHEMISTRY: Mock AI 辅助审查：维度 chemistry 未提供科学证明（记 unknown）",
+          "AI_AUX_PROCESS: Mock AI 辅助审查：维度 process 未提供科学证明（记 unknown）",
+          "AI_AUX_DIAGRAM: Mock AI 辅助审查：维度 diagram 未提供科学证明（记 unknown）",
+          "AI_AUX_CONSISTENCY: Mock AI 辅助审查：维度 consistency 未提供科学证明（记 unknown）",
+          "AI_AUX_TEACHING: Mock AI 辅助审查：维度 teaching 未提供科学证明（记 unknown）"
+        ],
+        "overallStatus": "failed_automatic_checks",
+        "formalPublishEligible": false
+      },
+      "diagramKinds": [
+        "flow",
+        "apparatus"
+      ],
+      "flowSvgContentHash": "f2729bf85748da9244ac145d0bc81687e00fd379b6f470cf2aafaed0bb25c292",
+      "apparatusSvgContentHash": "255a5b54473c7d80d0c1cfb2e7629b48f253c22cb7143cd999ac9392efbaf39c",
+      "auditContentHash": "e54861a90eefc162a6662b164f09ab742c4f21feb1462477b8ed52be3b3d79c6",
+      "changeReasons": [
+        "解析改写：避免触发 FILTER_SOLUBLE_SALT 误判的肯定错误模式措辞",
+        "明确过滤对象为不溶固体；可溶杂质另法（正确教学）",
+        "双图重渲染并刷新 auditContentHash"
+      ],
+      "sourceVerificationStatus": "SOURCE_VERIFICATION_INCOMPLETE",
+      "kbBindingPlan": [
+        {
+          "entityType": "experiment",
+          "entityId": "20",
+          "entityName": "过滤操作",
+          "status": "published",
+          "reviewNoteFlags": [
+            "ai_trial",
+            "human_unreviewed",
+            "trial_run"
+          ],
+          "note": "本地 chem_experiments.id=20；published 但 review_note 含 human_unreviewed",
+          "currentLink": "NOT_BOUND",
+          "adminConfirmRequired": true,
+          "bindWhen": "PHASE_E2_after_human_approve_and_formal_import"
+        },
+        {
+          "entityType": "experiment",
+          "entityId": "19",
+          "entityName": "溶解与搅拌",
+          "status": "published",
+          "reviewNoteFlags": [
+            "ai_trial",
+            "human_unreviewed",
+            "trial_run"
+          ],
+          "note": "本地 chem_experiments.id=19",
+          "currentLink": "NOT_BOUND",
+          "adminConfirmRequired": true,
+          "bindWhen": "PHASE_E2_after_human_approve_and_formal_import"
+        }
+      ],
+      "dbTrainItemId": "NOT_CREATED",
+      "dbAssetIds": "NOT_CREATED",
+      "dbKbLinkIds": "NOT_BOUND",
+      "pool": "NOT_WRITTEN",
+      "revisedAt": "2026-10-29T05:28:33.769Z"
+    },
+    {
+      "batchId": "industrial_formal_candidate_20261029_121958",
+      "seq": 4,
+      "candidateId": "cand_312c51e0c9e249f7",
+      "plannedItemCode": "ifc_20261029_121958_04",
+      "title": "海水资源流程·固液分离填空（E2-A 修订）",
+      "phase": "PHASE_E2A",
+      "revision": 7,
+      "qtype": "blank",
+      "difficulty": 2,
+      "categoryCode": "industrial_production_cases",
+      "caseCode": "seawater_resource_basic",
+      "caseReviewStatus": "draft",
+      "generationSource": "manual_fixture",
+      "developmentOnly": false,
+      "reviewStatus": "pending_human_review",
+      "humanDecision": null,
+      "qualityOverall": "failed_automatic_checks",
+      "qualityBlocking": 2,
+      "qualityUnknown": 12,
+      "requiresHumanReview": true,
+      "formalPublishEligible": false,
+      "readyForHumanReview": true,
+      "readyForFormalImport": false,
+      "blockerClassification": {
+        "QUALITY_BLOCKERS": [],
+        "PUBLISH_ELIGIBILITY_BLOCKERS": [
+          {
+            "checkCode": "CURR_CASE_TRUST",
+            "dimension": "curriculum",
+            "severity": "critical",
+            "message": "正式候选要求案例已审核且 publishEligible"
+          },
+          {
+            "checkCode": "CHEM_SOURCE_VERIFIED",
+            "dimension": "chemistry",
+            "severity": "critical",
+            "message": "正式模式：缺少 verified 知识来源（且无有效案例审核覆盖）"
+          }
+        ],
+        "HUMAN_REVIEW_PENDING": true,
+        "KB_BINDING_BLOCKERS": [
+          "KB_NOT_BOUND"
+        ],
+        "UNKNOWN_SCIENCE_ITEMS": [
+          "CURR_REVIEW_STATUS: 课程审核未完成，不能认定课程适配已通过",
+          "CHEM_REACTION_PENDING: 案例无反应条目；非反应类流程记 unknown（需人工确认）",
+          "CHEM_ENGINE_SCOPE: 本系统非完整化学推理引擎；未覆盖知识一律 unknown，不得自动 pass",
+          "PROCESS_DEEP_REASONING: 深层工艺合理性（收率/能耗/工业放大）未自动验证",
+          "CONS_EXPLANATION_PRESENT: 解析非空；语义正确性未自动证明",
+          "TEACH_JUDGE_COMPAT: 与正式 chem-train-grade 的完整兼容性留待 STEP_09 核对",
+          "AI_AUX_CURRICULUM: Mock AI 辅助审查：维度 curriculum 未提供科学证明（记 unknown）",
+          "AI_AUX_CHEMISTRY: Mock AI 辅助审查：维度 chemistry 未提供科学证明（记 unknown）",
+          "AI_AUX_PROCESS: Mock AI 辅助审查：维度 process 未提供科学证明（记 unknown）",
+          "AI_AUX_DIAGRAM: Mock AI 辅助审查：维度 diagram 未提供科学证明（记 unknown）",
+          "AI_AUX_CONSISTENCY: Mock AI 辅助审查：维度 consistency 未提供科学证明（记 unknown）",
+          "AI_AUX_TEACHING: Mock AI 辅助审查：维度 teaching 未提供科学证明（记 unknown）"
+        ],
+        "overallStatus": "failed_automatic_checks",
+        "formalPublishEligible": false
+      },
+      "diagramKinds": [
+        "flow"
+      ],
+      "flowSvgContentHash": "a06bc63331a94b1d0e8b3b6a4f8d328b8d502564cf9d038ced710c002bf92e62",
+      "apparatusSvgContentHash": null,
+      "auditContentHash": "30c49a534627f3b1bb56443d224215eca18e1efdd912bdbad25205073c557b74",
+      "changeReasons": [
+        "难度由 3 调整为 2，落在案例 difficultyRange 内",
+        "知识点对齐案例白名单（溶液/蒸发/结晶/混合物分离 + 过滤）",
+        "题干/解析澄清考查「过滤」"
+      ],
+      "sourceVerificationStatus": "SOURCE_VERIFICATION_INCOMPLETE",
+      "kbBindingPlan": [
+        {
+          "entityType": "experiment",
+          "entityId": "20",
+          "entityName": "过滤操作",
+          "status": "published",
+          "reviewNoteFlags": [
+            "ai_trial",
+            "human_unreviewed",
+            "trial_run"
+          ],
+          "note": "本地 chem_experiments.id=20；published 但 review_note 含 human_unreviewed",
+          "currentLink": "NOT_BOUND",
+          "adminConfirmRequired": true,
+          "bindWhen": "PHASE_E2_after_human_approve_and_formal_import"
+        }
+      ],
+      "dbTrainItemId": "NOT_CREATED",
+      "dbAssetIds": "NOT_CREATED",
+      "dbKbLinkIds": "NOT_BOUND",
+      "pool": "NOT_WRITTEN",
+      "revisedAt": "2026-10-29T05:28:33.769Z"
+    }
+  ]
+}

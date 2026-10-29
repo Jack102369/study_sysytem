@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "metrics": {
+    "diagramId": "diag.metal_recovery_basic",
+    "diagramVersion": "0.1.0",
+    "publicContentHash": "0df9d023fb7c2bd01f3d89d82641242aacf317b4043b510a00ed5d32bb203e0a",
+    "rendererVersion": "1.0.0",
+    "nodeCount": 5,
+    "edgeCount": 4,
+    "drawnNodeCount": 5,
+    "drawnEdgeCount": 4,
+    "canvasWidth": 284,
+    "canvasHeight": 388
+  }
+}

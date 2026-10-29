@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0",
+  "caseCode": "seawater_resource_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "91b97169bae53a159ee72ca7a4c86b3e47efc199a19d3f64d187d6aeb1227e5c",
+  "internalReferences": {
+    "caseCode": "seawater_resource_basic",
+    "caseVersion": "0.1.0",
+    "caseContentHash": "91b97169bae53a159ee72ca7a4c86b3e47efc199a19d3f64d187d6aeb1227e5c"
+  },
+  "reviewMetadata": {
+    "chemicallyReviewed": false,
+    "structureOnly": true,
+    "notes": "structure protocol fixture; not chemically approved"
+  },
+  "diagramId": "diag.seawater_resource_basic",
+  "diagramVersion": "0.1.0",
+  "title": "海水资源基础流程（多分支示例）",
+  "orientation": "left_to_right",
+  "nodes": [
+    {
+      "id": "n_sea",
+      "type": "material",
+      "displayLabel": "海水",
+      "displayRole": "raw",
+      "internal": {
+        "materialId": "m_seawater"
+      }
+    },
+    {
+      "id": "n_evap",
+      "type": "process",
+      "displayLabel": "蒸发浓缩",
+      "displayRole": "process",
+      "internal": {
+        "stepId": "s1_evaporate_sea"
+      }
+    },
+    {
+      "id": "n_brine",
+      "type": "intermediate",
+      "displayLabel": "浓缩卤水",
+      "displayRole": "intermediate",
+      "internal": {
+        "materialId": "m_concentrated_brine"
+      }
+    },
+    {
+      "id": "n_vapor",
+      "type": "waste",
+      "displayLabel": "水蒸气",
+      "displayRole": "waste",
+      "internal": {
+        "materialId": "m_water_vapor"
+      }
+    },
+    {
+      "id": "n_cryst",
+      "type": "separation",
+      "displayLabel": "结晶",
+      "displayRole": "separation",
+      "internal": {
+        "stepId": "s2_crystallize"
+      }
+    },
+    {
+      "id": "n_salt",
+      "type": "product",
+      "displayLabel": "粗盐",
+      "displayRole": "product",
+      "internal": {
+        "materialId": "m_sea_salt"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "from": "n_sea",
+      "to": "n_evap",
+      "type": "material_flow"
+    },
+    {
+      "id": "e2",
+      "from": "n_evap",
+      "to": "n_brine",
+      "type": "material_flow"
+    },
+    {
+      "id": "e3",
+      "from": "n_evap",
+      "to": "n_vapor",
+      "type": "byproduct",
+      "displayLabel": "蒸发水"
+    },
+    {
+      "id": "e4",
+      "from": "n_brine",
+      "to": "n_cryst",
+      "type": "material_flow"
+    },
+    {
+      "id": "e5",
+      "from": "n_cryst",
+      "to": "n_salt",
+      "type": "material_flow"
+    }
+  ],
+  "diagramContentHash": "923f921ad173b9e7e75e8be05465665ad7a98f319cc385d7513973019b5c4a39"
+}

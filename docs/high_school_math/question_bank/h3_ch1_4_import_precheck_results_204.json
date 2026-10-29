@@ -1,0 +1,177 @@
+{
+  "phase": "HS-MATH-H3-FIX-204-5I",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "status": "H3_FIX_204_PASS",
+  "auditedAt": "2026-10-28T14:27:54.881Z",
+  "gate0": {
+    "ok": true,
+    "oldBatch": "1e51ba93a0e398766d450fbecda3784a93297c0d8c1e5a60856798c655e19635",
+    "oldFile": "df497f16c24c0b89b06df67b895f4bbdd7e6ca5bca820f29428f2b03b789ff16",
+    "db": {
+      "drawable": 925,
+      "d1": 335,
+      "d2": 478,
+      "d3": 112,
+      "imported12": [
+        {
+          "id": "1075",
+          "code": "CAND-H3C14-006",
+          "status": "approved",
+          "cv": 1
+        },
+        {
+          "id": "1076",
+          "code": "CAND-H3C14-013",
+          "status": "approved",
+          "cv": 1
+        },
+        {
+          "id": "1077",
+          "code": "CAND-H3C14-014",
+          "status": "approved",
+          "cv": 1
+        },
+        {
+          "id": "1078",
+          "code": "CAND-H3C14-018",
+          "status": "approved",
+          "cv": 1
+        },
+        {
+          "id": "1079",
+          "code": "CAND-H3C14-027",
+          "status": "approved",
+          "cv": 1
+        },
+        {
+          "id": "1080",
+          "code": "CAND-H3C14-046",
+          "status": "approved",
+          "cv": 1
+        },
+        {
+          "id": "1081",
+          "code": "CAND-H3C14-047",
+          "status": "approved",
+          "cv": 1
+        },
+        {
+          "id": "1082",
+          "code": "CAND-H3C14-060",
+          "status": "approved",
+          "cv": 1
+        },
+        {
+          "id": "1083",
+          "code": "CAND-H3C14-202",
+          "status": "approved",
+          "cv": 1
+        },
+        {
+          "id": "1084",
+          "code": "CAND-H3C14-211",
+          "status": "approved",
+          "cv": 1
+        },
+        {
+          "id": "1085",
+          "code": "CAND-H3C14-213",
+          "status": "approved",
+          "cv": 1
+        },
+        {
+          "id": "1086",
+          "code": "CAND-H3C14-214",
+          "status": "approved",
+          "cv": 1
+        }
+      ],
+      "h204InDb": 0
+    },
+    "imported12Readonly": true
+  },
+  "item": {
+    "id": "CAND-H3C14-204",
+    "contentSha256Before": "b16495a2d67dbe780fedc41fc33228bd872ec23176cd5d066d496cc7f633f1de",
+    "contentSha256After": "6866fc47f5f500dd2af281642c694a91a8bbfe3fe2ff3d3f609083ee165287b2",
+    "stemUnchanged": true,
+    "answerUnchanged": true,
+    "analysisFixed": true,
+    "maxScore": 14,
+    "rubricSum": 14,
+    "rubric": [
+      {
+        "key": "s1_normalize_c_g",
+        "title": "定义 c=f(1)-f(0) 与 g，并证 c>0、g 满足中点式且 g(0)=g(1)=0",
+        "score": 3,
+        "criteria": "正确引入规范化函数；由严增得 c>0；验证中点方程遗传与端点归零"
+      },
+      {
+        "key": "s2_integer_dyadic",
+        "title": "证全体整数与全体二进有理上 f(q)=f(0)+cq",
+        "score": 5,
+        "criteria": "整数归纳 + [0,1] 二进中点归纳 + 平移到 ℝ 上全体二进有理"
+      },
+      {
+        "key": "s3_strict_mono_squeeze",
+        "title": "用严增夹逼把结论从二进有理扩到任意实数，并声明未用连续",
+        "score": 6,
+        "criteria": "取夹逼二进序列；由严增不等式与 c>0 得唯一极限值；明确禁连续/导数偷渡"
+      }
+    ],
+    "adaptedPreview": {
+      "qtype": "application",
+      "difficulty": 3,
+      "rubricKeys": [
+        "s1_normalize_c_g",
+        "s2_integer_dyadic",
+        "s3_strict_mono_squeeze"
+      ],
+      "rubricSum": 14
+    },
+    "protocolOk": true,
+    "protocolErrors": [],
+    "dedup": {
+      "formalExact": [],
+      "hard14Exact": [],
+      "intraExact": [],
+      "contrast": {
+        "vs014": {
+          "id": "CAND-H3C14-014",
+          "note": "014 是“另一二次在 f 根区间上非负 + 根距”的参数求集；204 是 ℝ 上中点方程+严增⇒仿射证明。方程、结论、题型目标均不同，非换皮。",
+          "isomorphic": false
+        },
+        "vs060": {
+          "id": "CAND-H3C14-060",
+          "note": "060 是离散平移不变 + 单调⇒常数；204 是中点均值方程 + 严增⇒一次函数。假设与结论均不同，非换皮。",
+          "isomorphic": false
+        },
+        "vs212": {
+          "id": "CAND-H3C14-212",
+          "note": "212 给等步长增量推恒等；204 给中点凸性推仿射。夹逼手法同类但函数方程不同。",
+          "isomorphic": false
+        }
+      },
+      "hard14ReferenceSha": "d8d22ad0bcbac2dba134d417e6a3db5cd6407f256492155345330ae043025819"
+    },
+    "diagram": {
+      "declared": "NOT_NEEDED",
+      "judged": "NOT_NEEDED",
+      "reason": "纯证明题；题干无“如图/示意图”等强制图示用语；文字符号自足",
+      "generateRequired": false
+    },
+    "importReady": true,
+    "blockReasons": []
+  },
+  "sha": {
+    "before": {
+      "batchContentSha256": "1e51ba93a0e398766d450fbecda3784a93297c0d8c1e5a60856798c655e19635",
+      "fileSha256": "df497f16c24c0b89b06df67b895f4bbdd7e6ca5bca820f29428f2b03b789ff16"
+    },
+    "after": {
+      "batchContentSha256": "0460dd64b366d2a475a19317153d727968e8b5d94f4d741ab9f67c730fded24c",
+      "fileSha256": "0ae821a5f5fb7007301980b61d2ece8420c20753b7689ab0ce5f6cb713fa9a02"
+    },
+    "only204ContentChanged": true
+  }
+}

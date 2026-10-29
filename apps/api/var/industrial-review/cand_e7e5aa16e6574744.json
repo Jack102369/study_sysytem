@@ -1,0 +1,971 @@
+{
+  "candidateId": "cand_e7e5aa16e6574744",
+  "generationTaskId": "industrial_acceptance_20261029_120929_02",
+  "generationSource": "mock_generated",
+  "developmentOnly": true,
+  "specialtyCode": "industrial_experiment",
+  "categoryCode": "industrial_apparatus_analysis",
+  "caseCode": "salt_purification_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+  "caseReviewStatus": "draft",
+  "reviewStatus": "pending_human_review",
+  "candidate": {
+    "qtype": "single",
+    "answerType": "single",
+    "stem": "【验收B·基础】教学装置示意图中，气体经过洗气瓶后再收集。下列说法更合理的是？\n（acceptance_test_only；示意图非工程施工图）",
+    "options": [
+      "洗气与收集顺序应符合气体流向示意",
+      "可任意颠倒连接且不影响气体路径",
+      "装置比例必须等同工业现场",
+      "可忽略导管是否插入液面"
+    ],
+    "answer": "洗气与收集顺序应符合气体流向示意",
+    "explanation": "教学装置图强调流向与连接合理性；本图为 schematic，禁止当作工程施工依据。",
+    "knowledgePoints": [
+      "气体净化",
+      "洗气",
+      "收集"
+    ],
+    "difficulty": 1,
+    "requiresManualReview": true,
+    "referencedNodeIds": [],
+    "referencedLabels": [
+      "装置示意"
+    ]
+  },
+  "definition": {
+    "schemaVersion": "1.0",
+    "diagramId": "flow_stub_salt_purification_basic",
+    "caseCode": "salt_purification_basic",
+    "caseVersion": "1.0.0",
+    "caseContentHash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "diagramVersion": "1.0.0",
+    "title": "流程占位（装置主图）",
+    "orientation": "left_to_right",
+    "nodes": [
+      {
+        "id": "n1",
+        "type": "process",
+        "displayLabel": "装置示意",
+        "displayRole": "process",
+        "internal": {}
+      }
+    ],
+    "edges": [],
+    "internalReferences": {
+      "caseCode": "salt_purification_basic",
+      "caseVersion": "1.0.0",
+      "caseContentHash": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "reviewMetadata": {
+      "chemicallyReviewed": false,
+      "structureOnly": true
+    },
+    "diagramContentHash": "9ca1ad92cbce682563a44dba31791be1720678c713d34239f4265e9ba105b9a9"
+  },
+  "publicDiagram": {
+    "schemaVersion": "1.0",
+    "diagramId": "flow_stub_salt_purification_basic",
+    "diagramVersion": "1.0.0",
+    "orientation": "left_to_right",
+    "title": "流程占位（装置主图）",
+    "nodes": [
+      {
+        "id": "n1",
+        "type": "process",
+        "displayLabel": "装置示意"
+      }
+    ],
+    "edges": [],
+    "publicContentHash": "83363d39f2679af022abd6884a3891e35697af5a3d4ddf835e429b4917524b39"
+  },
+  "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"152\" height=\"116\" viewBox=\"0 0 152 116\" role=\"img\" aria-label=\"流程占位（装置主图）\" data-renderer=\"1.0.0\" data-diagram-id=\"flow_stub_salt_purification_basic\" data-public-hash=\"83363d39f2679af022abd6884a3891e35697af5a3d4ddf835e429b4917524b39\"><defs>\n  <marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#0f172a\"/>\n  </marker>\n  <marker id=\"arrow-open\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 1 1 L 9 5 L 1 9\" fill=\"none\" stroke=\"#64748b\" stroke-width=\"1.5\"/>\n  </marker>\n  <marker id=\"arrow-blue\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#0369a1\"/>\n  </marker>\n  <marker id=\"arrow-purple\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#7c3aed\"/>\n  </marker>\n  <marker id=\"arrow-muted\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#78716c\"/>\n  </marker>\n</defs><title>流程占位（装置主图）</title><rect x=\"0\" y=\"0\" width=\"152\" height=\"116\" fill=\"#ffffff\"/><g id=\"node-n1\"><rect data-node-id=\"n1\" data-node-type=\"process\" x=\"32\" y=\"48\" width=\"88\" height=\"36\" rx=\"10\" fill=\"#f8fafc\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><text x=\"76\" y=\"70\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">装置示意</text></g></svg>\n",
+  "svgContentHash": "21d7bfe65f95fe5c4b28ba4155293ca586e4e1feeb79d8bfb3f5d028df22615a",
+  "svgRelativePath": "industrial-svg/21d7bfe65f95fe5c4b28ba4155293ca586e4e1feeb79d8bfb3f5d028df22615a.svg",
+  "renderReport": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "metrics": {
+      "diagramId": "flow_stub_salt_purification_basic",
+      "diagramVersion": "1.0.0",
+      "publicContentHash": "83363d39f2679af022abd6884a3891e35697af5a3d4ddf835e429b4917524b39",
+      "rendererVersion": "1.0.0",
+      "nodeCount": 1,
+      "edgeCount": 0,
+      "drawnNodeCount": 1,
+      "drawnEdgeCount": 0,
+      "canvasWidth": 152,
+      "canvasHeight": 116
+    }
+  },
+  "qualityReport": {
+    "reportId": "qr_e5e86eb84d5749fd",
+    "candidateId": "cand_e7e5aa16e6574744",
+    "caseCode": "salt_purification_basic",
+    "caseVersion": "0.1.0",
+    "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+    "diagramVersion": "1.0.0",
+    "diagramContentHash": "9ca1ad92cbce682563a44dba31791be1720678c713d34239f4265e9ba105b9a9",
+    "publicContentHash": "83363d39f2679af022abd6884a3891e35697af5a3d4ddf835e429b4917524b39",
+    "questionContentHash": "df43f93fddb1878a9dcae1120b4709209ed34cfe887d10f676fece6bb9208511",
+    "auditContentHash": "a6c8794b60667d28fb0ff718f32071e5df944c6f214db444d15bdcb69cedf719",
+    "qualityVersion": "1.0.0",
+    "generatedAt": "2026-10-29T04:09:29.300Z",
+    "checks": [
+      {
+        "checkCode": "CURR_GRADE_SCOPE",
+        "dimension": "curriculum",
+        "status": "pass",
+        "severity": "info",
+        "message": "案例 gradeScope 为 high_school_1",
+        "evidence": [
+          "gradeScope=high_school_1"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.297Z"
+      },
+      {
+        "checkCode": "CURR_REVIEW_STATUS",
+        "dimension": "curriculum",
+        "status": "unknown",
+        "severity": "warning",
+        "message": "课程审核未完成，不能认定课程适配已通过",
+        "evidence": [
+          "curriculumReviewStatus=pending"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.297Z"
+      },
+      {
+        "checkCode": "CURR_DIFFICULTY",
+        "dimension": "curriculum",
+        "status": "pass",
+        "severity": "info",
+        "message": "难度在案例 difficultyRange 内",
+        "evidence": [
+          "q=1",
+          "range=1-2"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.297Z"
+      },
+      {
+        "checkCode": "CURR_KNOWLEDGE_POINTS",
+        "dimension": "curriculum",
+        "status": "unknown",
+        "severity": "warning",
+        "message": "部分知识点超出有限白名单，无法证明课程适配",
+        "evidence": [
+          "气体净化",
+          "洗气",
+          "收集"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.297Z"
+      },
+      {
+        "checkCode": "CURR_CATEGORY",
+        "dimension": "curriculum",
+        "status": "fail",
+        "severity": "error",
+        "message": "题目分类不在案例 categoryCodes 中",
+        "evidence": [
+          "industrial_apparatus_analysis",
+          "industrial_separation_purification",
+          "industrial_production_cases",
+          "flow_diagram_read"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.297Z"
+      },
+      {
+        "checkCode": "CURR_CASE_TRUST_DEV",
+        "dimension": "curriculum",
+        "status": "unknown",
+        "severity": "warning",
+        "message": "development_only：案例可信度不构成正式课程通过",
+        "evidence": [
+          "reviewStatus=draft",
+          "publishEligible=false"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "CHEM_BAD_FORMULA",
+        "dimension": "chemistry",
+        "status": "pass",
+        "severity": "info",
+        "message": "未命中有限非法化学式规则（不证明全部化学式正确）",
+        "evidence": [
+          "rule=BAD_FORMULA_RE"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "CHEM_REACTION_PENDING",
+        "dimension": "chemistry",
+        "status": "unknown",
+        "severity": "info",
+        "message": "案例无反应条目；非反应类流程记 unknown（需人工确认）",
+        "evidence": [
+          "reactions=[]"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "CHEM_SOURCE_VERIFIED",
+        "dimension": "chemistry",
+        "status": "unknown",
+        "severity": "warning",
+        "message": "开发模式：知识来源 unverified，化学正确性未证明",
+        "evidence": [
+          "高中化学必修实验：粗盐提纯（教学通用知识点）:unverified"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "CHEM_COMMON_FRAGMENT",
+        "dimension": "chemistry",
+        "status": "pass",
+        "severity": "info",
+        "message": "出现常见化学式片段（仅说明未触发非法模式）",
+        "evidence": [
+          "rule=COMMON_OK"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "CHEM_ENGINE_SCOPE",
+        "dimension": "chemistry",
+        "status": "unknown",
+        "severity": "info",
+        "message": "本系统非完整化学推理引擎；未覆盖知识一律 unknown，不得自动 pass",
+        "evidence": [
+          "coverage=limited_rules"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "FILTER_SOLUBLE_SALT",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "未命中禁止工艺模式：FILTER_SOLUBLE_SALT",
+        "evidence": [
+          "pattern_clear"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "PROCESS_OVERCLAIM_REAL_PLANT",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "未发现过度宣称真实完整工业生产",
+        "evidence": [
+          "textbook_simplification"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "PROCESS_MATERIAL_REFS",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "流程图物料引用均在案例中",
+        "evidence": [
+          "badMat=0"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "PROCESS_STEP_REFS",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "流程图步骤引用均在案例中",
+        "evidence": [
+          "badStep=0"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "PROCESS_PRODUCT_SOURCE",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "产品节点均有入边",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "PROCESS_RECYCLE_ENDS",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "recycle 边端点完整（或无 recycle）",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "PROCESS_DEEP_REASONING",
+        "dimension": "process",
+        "status": "unknown",
+        "severity": "info",
+        "message": "深层工艺合理性（收率/能耗/工业放大）未自动验证",
+        "evidence": [
+          "requires_human_or_kb"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "DIAG_DEFINITION",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "Definition 结构校验通过",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "DIAG_CASE_BIND",
+        "dimension": "diagram",
+        "status": "fail",
+        "severity": "error",
+        "message": "Definition 与案例绑定失败",
+        "evidence": [
+          "CASE_VERSION_MISMATCH:caseVersion mismatch",
+          "CASE_HASH_MISMATCH:caseContentHash mismatch"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "DIAG_PUBLIC",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "Public 校验通过",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "DIAG_PUBLIC_LEAK",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "Public JSON 未检出内部敏感键",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "DIAG_PUBLIC_HASH_MATCH",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "Public 哈希与再投影一致",
+        "evidence": [
+          "83363d39f2679af022abd6884a3891e35697af5a3d4ddf835e429b4917524b39",
+          "83363d39f2679af022abd6884a3891e35697af5a3d4ddf835e429b4917524b39"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "DIAG_SVG_SAFE",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "SVG 未检出脚本/事件/foreignObject",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "DIAG_SVG_INTERNAL_LEAK",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "SVG 未检出内部答案字段",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "DIAG_SVG_RENDER_REPORT",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "SVG 渲染报告 valid",
+        "evidence": [
+          "nodes 1/1",
+          "edges 0/0"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "DIAG_EDGE_DIRECTION",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "连线均已绘制（方向遵循 Definition from→to）",
+        "evidence": [
+          "edgeCount=0"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：装置示意",
+        "evidence": [
+          "装置示意",
+          "装置示意"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "CONS_ANSWER_OPTION",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "单选答案对应有效选项",
+        "evidence": [
+          "洗气与收集顺序应符合气体流向示意",
+          "options=4"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "CONS_EXPLANATION_PRESENT",
+        "dimension": "consistency",
+        "status": "unknown",
+        "severity": "info",
+        "message": "解析非空；语义正确性未自动证明",
+        "evidence": [
+          "教学装置图强调流向与连接合理性；本图为 schematic，禁止当作工程施工依据。"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "TEACH_STEM",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "题干完整",
+        "evidence": [
+          "【验收B·基础】教学装置示意图中，气体经过洗气瓶后再收集。下列说法更合理的是？\n"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "TEACH_OPTIONS_COUNT",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "单选选项数量合法",
+        "evidence": [
+          "count=4"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "TEACH_OPTIONS_DUP",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "选项无重复",
+        "evidence": [
+          "洗气与收集顺序应符合气体流向示意",
+          "可任意颠倒连接且不影响气体路径",
+          "装置比例必须等同工业现场",
+          "可忽略导管是否插入液面"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "TEACH_ANSWER_IN_STEM",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "未检测到题干直接粘贴标准答案文本",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "TEACH_QTYPE_MATCH",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "qtype 与 answerType 一致",
+        "evidence": [
+          "single",
+          "single"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "TEACH_JUDGE_COMPAT",
+        "dimension": "teaching",
+        "status": "unknown",
+        "severity": "info",
+        "message": "与正式 chem-train-grade 的完整兼容性留待 STEP_09 核对",
+        "evidence": [
+          "no_grade_service_mutation"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.298Z"
+      },
+      {
+        "checkCode": "APPARATUS_SCHEMA",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "装置 JSON 结构校验通过",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.299Z"
+      },
+      {
+        "checkCode": "APPARATUS_WASH_BOTTLE_IO",
+        "dimension": "chemistry",
+        "status": "pass",
+        "severity": "error",
+        "message": "洗气瓶 wash1 进出齐全",
+        "evidence": [
+          "in=1",
+          "out=1"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.299Z"
+      },
+      {
+        "checkCode": "APPARATUS_TAIL_GAS_NEED",
+        "dimension": "chemistry",
+        "status": "unknown",
+        "severity": "info",
+        "message": "存在气体发生装置但无尾气吸收；是否需要取决于气体性质（无法仅凭拓扑判定）",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.299Z"
+      },
+      {
+        "checkCode": "APPARATUS_PUBLIC_LEAK",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "Public 白名单无泄漏",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.299Z"
+      },
+      {
+        "checkCode": "APPARATUS_STEM_CONSISTENCY",
+        "dimension": "consistency",
+        "status": "unknown",
+        "severity": "info",
+        "message": "题干与装置组件名的充分一致性无法完全自动证明",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.299Z"
+      },
+      {
+        "checkCode": "AI_AUX_CURRICULUM",
+        "dimension": "curriculum",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 curriculum 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.300Z"
+      },
+      {
+        "checkCode": "AI_AUX_CHEMISTRY",
+        "dimension": "chemistry",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 chemistry 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.300Z"
+      },
+      {
+        "checkCode": "AI_AUX_PROCESS",
+        "dimension": "process",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 process 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.300Z"
+      },
+      {
+        "checkCode": "AI_AUX_DIAGRAM",
+        "dimension": "diagram",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 diagram 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.300Z"
+      },
+      {
+        "checkCode": "AI_AUX_CONSISTENCY",
+        "dimension": "consistency",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 consistency 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.300Z"
+      },
+      {
+        "checkCode": "AI_AUX_TEACHING",
+        "dimension": "teaching",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 teaching 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:09:29.300Z"
+      }
+    ],
+    "summary": {
+      "total": 47,
+      "pass": 28,
+      "fail": 2,
+      "unknown": 17,
+      "criticalFail": 0,
+      "errorFail": 2,
+      "warningCount": 4
+    },
+    "blockingIssues": [
+      "CURR_CATEGORY: 题目分类不在案例 categoryCodes 中",
+      "DIAG_CASE_BIND: Definition 与案例绑定失败"
+    ],
+    "warnings": [
+      "CURR_REVIEW_STATUS: 课程审核未完成，不能认定课程适配已通过",
+      "CURR_KNOWLEDGE_POINTS: 部分知识点超出有限白名单，无法证明课程适配",
+      "CURR_CASE_TRUST_DEV: development_only：案例可信度不构成正式课程通过",
+      "CHEM_SOURCE_VERIFIED: 开发模式：知识来源 unverified，化学正确性未证明"
+    ],
+    "unknownIssues": [
+      "CURR_REVIEW_STATUS: 课程审核未完成，不能认定课程适配已通过",
+      "CURR_KNOWLEDGE_POINTS: 部分知识点超出有限白名单，无法证明课程适配",
+      "CURR_CASE_TRUST_DEV: development_only：案例可信度不构成正式课程通过",
+      "CHEM_REACTION_PENDING: 案例无反应条目；非反应类流程记 unknown（需人工确认）",
+      "CHEM_SOURCE_VERIFIED: 开发模式：知识来源 unverified，化学正确性未证明",
+      "CHEM_ENGINE_SCOPE: 本系统非完整化学推理引擎；未覆盖知识一律 unknown，不得自动 pass",
+      "PROCESS_DEEP_REASONING: 深层工艺合理性（收率/能耗/工业放大）未自动验证",
+      "CONS_EXPLANATION_PRESENT: 解析非空；语义正确性未自动证明",
+      "TEACH_JUDGE_COMPAT: 与正式 chem-train-grade 的完整兼容性留待 STEP_09 核对",
+      "APPARATUS_TAIL_GAS_NEED: 存在气体发生装置但无尾气吸收；是否需要取决于气体性质（无法仅凭拓扑判定）",
+      "APPARATUS_STEM_CONSISTENCY: 题干与装置组件名的充分一致性无法完全自动证明",
+      "AI_AUX_CURRICULUM: Mock AI 辅助审查：维度 curriculum 未提供科学证明（记 unknown）",
+      "AI_AUX_CHEMISTRY: Mock AI 辅助审查：维度 chemistry 未提供科学证明（记 unknown）",
+      "AI_AUX_PROCESS: Mock AI 辅助审查：维度 process 未提供科学证明（记 unknown）",
+      "AI_AUX_DIAGRAM: Mock AI 辅助审查：维度 diagram 未提供科学证明（记 unknown）",
+      "AI_AUX_CONSISTENCY: Mock AI 辅助审查：维度 consistency 未提供科学证明（记 unknown）",
+      "AI_AUX_TEACHING: Mock AI 辅助审查：维度 teaching 未提供科学证明（记 unknown）"
+    ],
+    "overallStatus": "failed_automatic_checks",
+    "requiresHumanReview": true,
+    "developmentOnly": true,
+    "formalPublishEligible": false,
+    "aiReviewStatus": "mock",
+    "aiReviewProvider": "mock",
+    "aiReviewNotes": [
+      "Mock AI reviewer used; same-model dual call is not independent scientific proof"
+    ]
+  },
+  "auditContentHash": "05df4ca25a5df017f1632eedad2450c5b24a4c585458b58aa429f500b7293c82",
+  "humanDecision": null,
+  "humanReviewNote": null,
+  "humanReviewedBy": null,
+  "humanReviewedAt": null,
+  "humanReviewedAuditHash": null,
+  "importedItemCode": null,
+  "importedAt": null,
+  "createdAt": "2026-10-29T04:09:29.296Z",
+  "updatedAt": "2026-10-29T04:09:29.300Z",
+  "revision": 1,
+  "acceptanceBatchId": "industrial_acceptance_20261029_120929",
+  "acceptanceTestOnly": true,
+  "plannedItemCode": "iaacc_20261029_120929_02",
+  "formalImportBlocked": true,
+  "diagramKinds": [
+    "apparatus",
+    "flow"
+  ],
+  "apparatusDefinition": {
+    "schemaVersion": "1.0",
+    "apparatusId": "app_gas_purify_collect",
+    "caseCode": "salt_purification_basic",
+    "caseVersion": "0.1.0",
+    "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+    "apparatusVersion": "1.0.0",
+    "title": "气体发生-净化-收集",
+    "orientation": "left_to_right",
+    "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+    "reviewMetadata": {
+      "chemicallyReviewed": false,
+      "schematicOnly": true
+    },
+    "components": [
+      {
+        "componentId": "gen1",
+        "componentType": "gas_generator",
+        "displayLabel": "气体发生器",
+        "ports": [
+          {
+            "portId": "reagent_in",
+            "direction": "in",
+            "media": [
+              "liquid",
+              "solid"
+            ]
+          },
+          {
+            "portId": "gas_out",
+            "direction": "out",
+            "media": [
+              "gas"
+            ]
+          }
+        ],
+        "internal": {}
+      },
+      {
+        "componentId": "wash1",
+        "componentType": "gas_washing_bottle",
+        "displayLabel": "洗气瓶",
+        "ports": [
+          {
+            "portId": "gas_in",
+            "direction": "in",
+            "media": [
+              "gas",
+              "waste_gas"
+            ]
+          },
+          {
+            "portId": "gas_out",
+            "direction": "out",
+            "media": [
+              "gas",
+              "waste_gas"
+            ]
+          }
+        ],
+        "internal": {}
+      },
+      {
+        "componentId": "collect1",
+        "componentType": "gas_collector",
+        "displayLabel": "集气瓶",
+        "ports": [
+          {
+            "portId": "gas_in",
+            "direction": "in",
+            "media": [
+              "gas"
+            ]
+          }
+        ],
+        "internal": {}
+      }
+    ],
+    "connections": [
+      {
+        "connectionId": "c1",
+        "sourceComponentId": "gen1",
+        "sourcePortId": "gas_out",
+        "targetComponentId": "wash1",
+        "targetPortId": "gas_in",
+        "flowType": "gas",
+        "displayLabel": "粗气"
+      },
+      {
+        "connectionId": "c2",
+        "sourceComponentId": "wash1",
+        "sourcePortId": "gas_out",
+        "targetComponentId": "collect1",
+        "targetPortId": "gas_in",
+        "flowType": "gas",
+        "displayLabel": "净气"
+      }
+    ],
+    "apparatusContentHash": "b0f551a6c172498c5cd794778df78857f00642dc86e0b82faab953ae08bba44a"
+  },
+  "apparatusPublic": {
+    "schemaVersion": "1.0",
+    "apparatusId": "app_gas_purify_collect",
+    "apparatusVersion": "1.0.0",
+    "orientation": "left_to_right",
+    "title": "气体发生-净化-收集",
+    "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+    "components": [
+      {
+        "componentId": "gen1",
+        "componentType": "gas_generator",
+        "displayLabel": "气体发生器",
+        "ports": [
+          {
+            "portId": "reagent_in",
+            "direction": "in",
+            "media": [
+              "liquid",
+              "solid"
+            ]
+          },
+          {
+            "portId": "gas_out",
+            "direction": "out",
+            "media": [
+              "gas"
+            ]
+          }
+        ]
+      },
+      {
+        "componentId": "wash1",
+        "componentType": "gas_washing_bottle",
+        "displayLabel": "洗气瓶",
+        "ports": [
+          {
+            "portId": "gas_in",
+            "direction": "in",
+            "media": [
+              "gas",
+              "waste_gas"
+            ]
+          },
+          {
+            "portId": "gas_out",
+            "direction": "out",
+            "media": [
+              "gas",
+              "waste_gas"
+            ]
+          }
+        ]
+      },
+      {
+        "componentId": "collect1",
+        "componentType": "gas_collector",
+        "displayLabel": "集气瓶",
+        "ports": [
+          {
+            "portId": "gas_in",
+            "direction": "in",
+            "media": [
+              "gas"
+            ]
+          }
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "connectionId": "c1",
+        "sourceComponentId": "gen1",
+        "sourcePortId": "gas_out",
+        "targetComponentId": "wash1",
+        "targetPortId": "gas_in",
+        "flowType": "gas",
+        "displayLabel": "粗气"
+      },
+      {
+        "connectionId": "c2",
+        "sourceComponentId": "wash1",
+        "sourcePortId": "gas_out",
+        "targetComponentId": "collect1",
+        "targetPortId": "gas_in",
+        "flowType": "gas",
+        "displayLabel": "净气"
+      }
+    ],
+    "publicContentHash": "710f984b6c962cde419873bfabc11c138931b5a9600b6753da15ac282cb156e5"
+  },
+  "apparatusSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"508\" height=\"276\" viewBox=\"0 0 508 276\" data-apparatus-id=\"app_gas_purify_collect\" data-renderer=\"1.0.0\"><defs>\n  <marker id=\"app-arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#0f172a\"/>\n  </marker>\n</defs><text x=\"12\" y=\"18\" font-size=\"11\" fill=\"#64748b\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\">教学示意装置图（schematic），非工程施工图</text><text x=\"12\" y=\"36\" font-size=\"14\" font-weight=\"600\" fill=\"#0f172a\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\">气体发生-净化-收集</text><path data-connection-id=\"c1\" d=\"M 160 108 L 348 108\" fill=\"none\" stroke=\"#0369a1\" stroke-width=\"1.8\" marker-end=\"url(#app-arrow)\"/><text x=\"254\" y=\"102\" text-anchor=\"middle\" font-size=\"10\" fill=\"#0369a1\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\">粗气</text><path data-connection-id=\"c2\" d=\"M 460 108 L 198 108\" fill=\"none\" stroke=\"#0369a1\" stroke-width=\"1.8\" marker-end=\"url(#app-arrow)\"/><text x=\"329\" y=\"102\" text-anchor=\"middle\" font-size=\"10\" fill=\"#0369a1\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\">净气</text><g id=\"comp-gen1\" data-component-type=\"gas_generator\"><rect x=\"48\" y=\"72\" width=\"112\" height=\"72\" rx=\"4\" fill=\"#f8fafc\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><ellipse cx=\"104\" cy=\"111.6\" rx=\"33.6\" ry=\"20.16\" fill=\"#ecfdf5\" stroke=\"#166534\"/><text x=\"104\" y=\"158\" text-anchor=\"middle\" font-size=\"11\" fill=\"#0f172a\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\">气体发生器</text></g><g id=\"comp-collect1\" data-component-type=\"gas_collector\"><rect x=\"198\" y=\"72\" width=\"112\" height=\"72\" rx=\"4\" fill=\"#f8fafc\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><rect x=\"226\" y=\"84\" width=\"56\" height=\"48\" rx=\"2\" fill=\"#faf5ff\" stroke=\"#7c3aed\"/><text x=\"254\" y=\"158\" text-anchor=\"middle\" font-size=\"11\" fill=\"#0f172a\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\">集气瓶</text></g><g id=\"comp-wash1\" data-component-type=\"gas_washing_bottle\"><rect x=\"348\" y=\"72\" width=\"112\" height=\"72\" rx=\"4\" fill=\"#f8fafc\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><ellipse cx=\"404\" cy=\"123.84\" rx=\"31.36\" ry=\"12.96\" fill=\"#e0f2fe\" stroke=\"#0369a1\"/><line x1=\"387.2\" y1=\"80\" x2=\"387.2\" y2=\"126\" stroke=\"#0369a1\" stroke-width=\"2\"/><line x1=\"420.8\" y1=\"80\" x2=\"420.8\" y2=\"104.4\" stroke=\"#0369a1\" stroke-width=\"2\"/><text x=\"404\" y=\"158\" text-anchor=\"middle\" font-size=\"11\" fill=\"#0f172a\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\">洗气瓶</text></g></svg>\n",
+  "apparatusSvgContentHash": "d1e70920d636abe62dc3fedb0cbbed8005d567a2cf716ef280854bcf4a5fd5cf",
+  "apparatusSvgRelativePath": "industrial-svg/d1e70920d636abe62dc3fedb0cbbed8005d567a2cf716ef280854bcf4a5fd5cf.svg",
+  "apparatusSafety": {
+    "findings": [
+      {
+        "ruleId": "WASH_BOTTLE_IO",
+        "status": "pass",
+        "severity": "error",
+        "message": "洗气瓶 wash1 进出齐全",
+        "scope": "gas_washing_bottle 教学检查",
+        "limitation": "教学示意规则；不能证明复杂工业工艺在真实工况下完全安全。",
+        "evidence": [
+          "in=1",
+          "out=1"
+        ]
+      },
+      {
+        "ruleId": "TAIL_GAS_NEED",
+        "status": "unknown",
+        "severity": "info",
+        "message": "存在气体发生装置但无尾气吸收；是否需要取决于气体性质（无法仅凭拓扑判定）",
+        "scope": "可选尾气处理",
+        "limitation": "教学示意规则；不能证明复杂工业工艺在真实工况下完全安全。",
+        "evidence": []
+      }
+    ],
+    "blocking": [],
+    "unknowns": [
+      "TAIL_GAS_NEED: 存在气体发生装置但无尾气吸收；是否需要取决于气体性质（无法仅凭拓扑判定）"
+    ],
+    "warnings": []
+  }
+}

@@ -1,0 +1,353 @@
+[
+  {
+    "id": "CAND-H3C14-016",
+    "designId": "H3-DESIGN-016",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "kpCode": "rja.2.3.03",
+    "qtype": "single",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-uniform-hold-over-param-interval-strictness",
+    "stem": "设 $f_{m}(x)=x^{2}-mx+1$。下列命题中**不正确**的是",
+    "answer": "B",
+    "analysis": "开口向上：$f_{m}>0\\(\\forall x\\)\\Leftrightarrow\\Delta=m^{2}-4<0\\Leftrightarrow |m|<2$；$f_{m}\\ge 0\\(\\forall x\\)\\Leftrightarrow |m|\\le 2$。\nA：$m\\in[0,1]\\Rightarrow |m|\\le 1<2$，正确。\nB：$m=2\\in[0,2]$ 时 $\\Delta=0$，最小值 $0$，不能严格 $>0$，故 B 不正确。\nC：$|m|\\le 2$，正确。\nD：取 $m=0$，$\\Delta=-4<-3$，正确。\n故选 B。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "d1793a6a06a03cc0c3817552aa725edb0b51eff95cb4e8e80df58c312def3623",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "m=2 makes Δ=0 killing strict uniform hold",
+      "aboveHard14H2Contrast": "uniform-in-m vs single-m hold",
+      "deepStrategyOrLayeredNecessity": "translate quantifiers then endpoint check",
+      "routineKillCheck": "confusing > with ≥ → think B true"
+    },
+    "methodMain": "classification",
+    "methodAux": "equiv_transform"
+  },
+  {
+    "id": "CAND-H3C14-017",
+    "designId": "H3-DESIGN-017",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "kpCode": "rja.2.3.05",
+    "qtype": "multi",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-multi-root-location-necessary-tests",
+    "stem": "设 $f(x)=x^{2}-sx+p$（$s,p\\in\\mathbb{R}$）。若方程 $f(x)=0$ 有两个不相等实根且都位于 $(0,2)$ 内，则下列结论中正确的是（多选）",
+    "answer": "A,B,D",
+    "analysis": "两不等正根在 $(0,2)$：积 $p>0$，和 $s\\in(0,4)$（因 $0<x_{1}<x_{2}<2\\Rightarrow 0<s<4$），且 $f(0)>0$、$f(2)>0$，轴 $s/2\\in(0,2)$。故 A、B、D 均必要且在本题表述下正确。\nC：并非必要——若两根为 $0.1$ 与 $0.2$，则 $f(1)>0$。反例：$f(x)=(x-0.1)(x-0.2)=x^{2}-0.3x+0.02$，$f(1)>0$。故 C 不正确。\n选 A、B、D。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "8675de78a49d86a588ed6aac8cbdb32f348013fde252e34de6a48a3cddfb029e",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "f(1)<0 is straddle-1 not required for both roots in (0,2)",
+      "aboveHard14H2Contrast": "tests necessity vs common wrong strengthening",
+      "deepStrategyOrLayeredNecessity": "derive necessary set then counterexample C",
+      "routineKillCheck": "select C by habit of f(1)<0 → wrong"
+    },
+    "methodMain": "classification",
+    "methodAux": "equiv_transform"
+  },
+  {
+    "id": "CAND-H3C14-018",
+    "designId": "H3-DESIGN-018",
+    "chapterNo": 2,
+    "sectionCode": "2.1",
+    "kpCode": "rja.2.1.01",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-abs-quad-best-constant-with-forbidden-eq",
+    "stem": "考虑不等式 $x^{2}+1\\ge \\lambda |x|$。\n（1）求使该式对一切实数 $x$ 恒成立的实数 $\\lambda$ 的最大值；\n（2）若额外要求当 $|x|=1$ 时不等式为严格大于（即排除等号），问是否仍存在最大的 $\\lambda$ 使“对一切 $x$ 成立且在 $|x|=1$ 处严格”？说明理由。",
+    "answer": "（1）$\\lambda_{\\max}=2$；（2）不存在最大的 $\\lambda$，任何 $\\lambda<2$ 均可，但 $\\lambda=2$ 在 $|x|=1$ 取等号被禁止。",
+    "analysis": "（1）$x=0$ 时 $1\\ge 0$ 真。对 $x\\ne 0$，令 $t=|x|>0$，需 $t+\\dfrac{1}{t}\\ge\\lambda$。由 $\\left(\\sqrt{t}-\\dfrac{1}{\\sqrt{t}}\\right)^{2}\\ge 0$ 得 $t+\\dfrac{1}{t}\\ge 2$，等号 $t=1$。故 $\\lambda\\le 2$，且 $\\lambda=2$ 恒成立。最大值为 $2$。\n（2）若要求 $|x|=1$ 时严格，则 $\\lambda=2$ 不满足。对任意 $\\lambda<2$，因 $\\inf(t+1/t)=2>\\lambda$，恒有严格 $>$（含 $t=1$）。故一切 $\\lambda<2$ 都合，但无最大元（上确界 $2$ 不可取）。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "配方或基本不等式得 λ≤2 且 2 可取",
+        "score": 5
+      },
+      {
+        "step": "说明禁止等号后 λ=2 失败",
+        "score": 3
+      },
+      {
+        "step": "论证无最大 λ（上确界不可达）",
+        "score": 4
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "67530024badb41dce8f8da109144f225140a77834f65ece9fb1f23556b00977a",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "forbidding equality at |x|=1 removes maximizer",
+      "aboveHard14H2Contrast": "H2 stops at λ_max=2; here no maximum",
+      "deepStrategyOrLayeredNecessity": "best constant then topology of attainable set",
+      "routineKillCheck": "still answer 2 in part (2) → wrong"
+    },
+    "methodMain": "equiv_transform",
+    "methodAux": "special_value"
+  },
+  {
+    "id": "CAND-H3C14-019",
+    "designId": "H3-DESIGN-019",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "kpCode": "rja.2.3.05",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-both-roots-in-unit-plus-sum-of-squares",
+    "stem": "设方程 $x^{2}-sx+p=0$ 有两个不相等实根 $x_{1},x_{2}$，满足 $x_{1},x_{2}\\in(0,1)$，且 $x_{1}^{2}+x_{2}^{2}\\le\\dfrac{1}{2}$。求点 $(s,p)$ 满足的条件（用关于 $s,p$ 的不等式组给出）。",
+    "answer": "$\\Delta=s^{2}-4p>0,\\ 0<s<2,\\ p>0,\\ f(1)=1-s+p>0,\\ s^{2}-2p\\le\\dfrac{1}{2}$（其中开口向上已用）",
+    "analysis": "两不等根在 $(0,1)$（开口向上）：$\\Delta=s^{2}-4p>0$，$f(0)=p>0$，$f(1)=1-s+p>0$，轴 $\\dfrac{s}{2}\\in(0,1)\\Leftrightarrow 0<s<2$。\n又 $x_{1}^{2}+x_{2}^{2}=s^{2}-2p\\le\\dfrac{1}{2}$。\n以上联立即为所求。\n（完整性：由 $0<x_{1}<x_{2}<1$ 自动有 $s=x_{1}+x_{2}\\in(0,2)$，$p=x_{1}x_{2}>0$，与上述一致；反之上述条件亦充分。）",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "写出两根在(0,1)的充要条件",
+        "score": 5
+      },
+      {
+        "step": "化平方和为 s²-2p≤1/2",
+        "score": 4
+      },
+      {
+        "step": "合并为不等式组并说明充分性",
+        "score": 3
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "07e912f50d65367418ec236f782b6afc4906af129e1f7fffcfbdad7da41e5e26",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "sum-of-squares via Vieta couples to open-unit roots",
+      "aboveHard14H2Contrast": "distribution plus symmetric bound",
+      "deepStrategyOrLayeredNecessity": "location conditions then Vieta transform",
+      "routineKillCheck": "only Δ>0 and s,p>0 → insufficient"
+    },
+    "methodMain": "equiv_transform",
+    "methodAux": "classification"
+  },
+  {
+    "id": "CAND-H3C14-020",
+    "designId": "H3-DESIGN-020",
+    "chapterNo": 2,
+    "sectionCode": "2.1",
+    "kpCode": "rja.2.1.03",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-sign-preserving-chain-with-parameter-gate",
+    "stem": "设 $a>b>0$。\n（1）证明：$(a-b)\\left(\\dfrac{1}{a}-\\dfrac{1}{b}\\right)<0$；\n（2）求使 $(a-b)(a+b-\\lambda)\\ge 0$ 对一切满足 $a>b>0$ 的 $a,b$ 恒成立的实数 $\\lambda$ 的取值集合。",
+    "answer": "（1）见证明；（2）$\\lambda\\le 0$。",
+    "analysis": "（1）$a>b>0\\Rightarrow a-b>0$，且 $\\dfrac{1}{a}-\\dfrac{1}{b}=\\dfrac{b-a}{ab}<0$，故乘积 $<0$。\n（2）$a-b>0$，故 $(a-b)(a+b-\\lambda)\\ge 0\\Leftrightarrow a+b\\ge\\lambda$。要对一切 $a>b>0$ 成立，需 $\\lambda$ 不超过 $a+b$ 的下确界。令 $b\\to 0^{+}$，$a\\to 0^{+}$（保持 $a>b$），$a+b$ 可任意接近 $0^{+}$，故下确界为 $0$。从而需 $\\lambda\\le 0$。\n当 $\\lambda\\le 0$ 时，$a+b>0\\ge\\lambda$，恒成立。当 $\\lambda>0$ 时，取 $a=\\dfrac{\\lambda}{3}$，$b=\\dfrac{\\lambda}{4}$（均正且 $a>b$），则 $a+b=\\dfrac{7\\lambda}{12}<\\lambda$，失败。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "证明（1）乘积为负",
+        "score": 3
+      },
+      {
+        "step": "化为 a+b≥λ 并对一切 a>b>0",
+        "score": 4
+      },
+      {
+        "step": "用下确界与反例得 λ≤0",
+        "score": 5
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "d79758f24d33e9c31db4cc15848e66526b1b6445d9ef6adf6f0b20ed1f7808cc",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "inf(a+b) over a>b>0 equals 0",
+      "aboveHard14H2Contrast": "not a fixed pair compare; universal quantification",
+      "deepStrategyOrLayeredNecessity": "rewrite → infimum → counterexample",
+      "routineKillCheck": "answer λ≤2√(ab) or similar → wrong"
+    },
+    "methodMain": "equiv_transform",
+    "methodAux": "classification"
+  },
+  {
+    "id": "CAND-H3C14-021",
+    "designId": "H3-DESIGN-021",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "kpCode": "rja.2.3.04",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-exists-nonpos-and-floor-and-endpoint-triple",
+    "stem": "设 $f(x)=x^{2}-3x+k$。求使下列三条件同时成立的实数 $k$：\n（1）$\\exists x\\in[0,2]$，使 $f(x)\\le 0$；\n（2）$\\forall x\\in[0,2]$，$f(x)\\ge -1$；\n（3）$f(0)\\ge 1$。",
+    "answer": "$k\\in\\left[\\dfrac{5}{4},\\dfrac{9}{4}\\right]$",
+    "analysis": "对称轴 $x=\\dfrac{3}{2}\\in[0,2]$，故 $[0,2]$ 上最小值 $m=f\\left(\\dfrac{3}{2}\\right)=k-\\dfrac{9}{4}$。\n（1）$m\\le 0\\Leftrightarrow k\\le\\dfrac{9}{4}$。\n（2）$m\\ge -1\\Leftrightarrow k-\\dfrac{9}{4}\\ge -1\\Leftrightarrow k\\ge\\dfrac{5}{4}$。\n（3）$k\\ge 1$。与前两式交：下界取 $\\max\\left(1,\\dfrac{5}{4}\\right)=\\dfrac{5}{4}$。\n故 $k\\in\\left[\\dfrac{5}{4},\\dfrac{9}{4}\\right]$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "指出轴在区间内并算最小值",
+        "score": 3
+      },
+      {
+        "step": "由（1）（2）得 5/4≤k≤9/4",
+        "score": 5
+      },
+      {
+        "step": "与（3）联立并说明下界提升",
+        "score": 4
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "51c1e96852debf5d4ddc229cfb138e9ded227f0feba226a8e3767850dac2c301",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "floor k≥5/4 dominates endpoint k≥1",
+      "aboveHard14H2Contrast": "triple cut vs single exists-nonpos",
+      "deepStrategyOrLayeredNecessity": "exists + forall-floor + endpoint",
+      "routineKillCheck": "omit floor → [1,9/4] wrong; omit endpoint still luckily OK but incomplete logic"
+    },
+    "methodMain": "equiv_transform",
+    "methodAux": "classification"
+  },
+  {
+    "id": "CAND-H3C14-022",
+    "designId": "H3-DESIGN-022",
+    "chapterNo": 2,
+    "sectionCode": "2.2",
+    "kpCode": "rja.2.2.01",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-xy-minus-x-minus-y-eq3-sum-min-via-shift",
+    "stem": "设正实数 $x,y$ 满足 $xy=x+y+3$。求 $x+y$ 的最小值，并说明若直接对 $x,y$ 使用基本不等式会遇到什么障碍。",
+    "answer": "最小值为 $6$（当 $x=y=3$）。",
+    "analysis": "由 $xy-x-y=3$ 两边加 $1$ 得 $(x-1)(y-1)=4$。令 $s=x+y$，$p=xy$，则 $p=s+3$。$x,y$ 为正实数根需 $\\Delta=s^{2}-4p\\ge 0\\Leftrightarrow s^{2}-4s-12\\ge 0\\Leftrightarrow (s-6)(s+2)\\ge 0$。因 $s=x+y>0$，得 $s\\ge 6$。\n当 $s=6$ 时 $p=9$，$\\Delta=0$，故 $x=y=3>0$，等号可达。\n若直接写 $x+y\\ge 2\\sqrt{xy}=2\\sqrt{x+y+3}$，令 $s\\ge 2\\sqrt{s+3}$，平方得 $s^{2}\\ge 4s+12\\Leftrightarrow s^{2}-4s-12\\ge 0$，虽“碰巧”得到同结论，但必须先证明可平方（两边非负）且等号条件与原约束兼容；配凑法把约束化为标准韦达问题，推理更短且等号清晰。直接 AM-GM 的障碍在于：约束不是定积或定和，而是积与和的耦合，套用后仍需求解关于 $s$ 的不等式，并不能“一句话”出最小值。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "配凑得 (x-1)(y-1)=4",
+        "score": 4
+      },
+      {
+        "step": "用 Δ≥0 得 s≥6 并取等号",
+        "score": 5
+      },
+      {
+        "step": "指出直接 AM-GM 的障碍",
+        "score": 3
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "9fdb971f4274ce9d34b903fb283ac2fae64f382517232e1fac3610333c8adfd4",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "(x-1)(y-1)=4 then Vieta Δ for s",
+      "aboveHard14H2Contrast": "not direct AM-GM; shift factorization first",
+      "deepStrategyOrLayeredNecessity": "complete-product → discriminant → equality check",
+      "routineKillCheck": "blind AM-GM without justifying squaring/equality → incomplete"
+    },
+    "methodMain": "num_shape",
+    "methodAux": "equiv_transform"
+  },
+  {
+    "id": "CAND-H3C14-023",
+    "designId": "H3-DESIGN-023",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "kpCode": "rja.2.3.01",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-inverse-three-quad-from-solution-and-vertex",
+    "stem": "已知二次函数 $f(x)=ax^{2}+bx+c$（$a\\ne 0$）满足：不等式 $f(x)\\le 0$ 的解集为 $[1,3]$，且 $f$ 的顶点纵坐标为 $-1$。求 $f(x)$ 的解析式。",
+    "answer": "$f(x)=x^{2}-4x+3$",
+    "analysis": "解集为有界闭区间 $[1,3]$，故开口向上（$a>0$），两根为 $1,3$，从而 $f(x)=a(x-1)(x-3)=a(x^{2}-4x+3)$。\n顶点横坐标 $x=2$，纵坐标 $f(2)=a(2-1)(2-3)=-a$。由题 $-a=-1\\Rightarrow a=1$。\n故 $f(x)=x^{2}-4x+3$。检验：解集 $[1,3]$，顶点 $(2,-1)$。",
+    "maxScore": 10,
+    "rubric": [
+      {
+        "step": "由解集形态定开口与两根",
+        "score": 4
+      },
+      {
+        "step": "用顶点纵坐标定 a",
+        "score": 4
+      },
+      {
+        "step": "写出解析式并检验",
+        "score": 2
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "a3a75bb9a29fda9deb2817e5a52f56fc5c62e9c6303d2692aafed146ba20b4f7",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "bounded solution interval forces a>0 and roots 1,3",
+      "aboveHard14H2Contrast": "inverse of three-quadratic relationship",
+      "deepStrategyOrLayeredNecessity": "shape → roots → vertex scale",
+      "routineKillCheck": "assume a=1 without vertex → incomplete justification"
+    },
+    "methodMain": "undetermined_coeff",
+    "methodAux": "equiv_transform"
+  },
+  {
+    "id": "CAND-H3C14-024",
+    "designId": "H3-DESIGN-024",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "kpCode": "rja.2.3.02",
+    "qtype": "numeric",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-common-root-two-quadrics-sum-m",
+    "stem": "已知方程 $x^{2}-3x+m=0$ 与 $x^{2}+mx-3=0$ 有公共实根。求所有可能的 $m$ 之和。",
+    "answer": "-1",
+    "analysis": "设公共根为 $r$。则 $r^{2}-3r+m=0$，$r^{2}+mr-3=0$。相减得 $(-3-m)r+m+3=0\\Leftrightarrow (m+3)(1-r)=0$。\n故 $m=-3$ 或 $r=1$。\n若 $m=-3$，两方程同为 $x^{2}-3x-3=0$，有公共根（实根），$m=-3$ 可取。\n若 $r=1$，由第一式 $1-3+m=0\\Rightarrow m=2$；代入第二式 $1+2-3=0$ 成立。\n所有可能 $m$ 为 $-3$ 与 $2$，和为 $-1$。",
+    "maxScore": null,
+    "rubric": null,
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "dac078ea766f15bf30c2de02c36993b2e3b4f4498e9987d7f74f5bd996a1e276",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "(m+3)(1-r)=0 branching",
+      "aboveHard14H2Contrast": "two-equation coupling not single solve",
+      "deepStrategyOrLayeredNecessity": "subtract → cases → verify",
+      "routineKillCheck": "miss m=-3 identical case → sum 2 wrong"
+    },
+    "methodMain": "equiv_transform",
+    "methodAux": "special_value"
+  },
+  {
+    "id": "CAND-H3C14-025",
+    "designId": "H3-DESIGN-025",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "kpCode": "rja.2.3.03",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-solution-containment-between-two-quad-inequalities",
+    "stem": "设不等式 $x^{2}-(m+3)x+2m+2\\le 0$ 的解集包含 $[1,2]$。求实数 $m$ 的取值集合。",
+    "answer": "$m\\in(-\\infty,0]$",
+    "analysis": "记 $f(x)=x^{2}-(m+3)x+(2m+2)$。直接计算 $f(2)=4-2(m+3)+2m+2=0$，故 $x=2$ 恒为根，$f(x)=(x-2)\\bigl(x-(m+1)\\bigr)$。开口向上，解集为以 $2$ 与 $m+1$ 为端点的闭区间（若 $m+1=2$ 则为单点）。\n要 $[1,2]$ 含于解集：必须另一根 $\\le 1$，且较大根 $\\ge 2$。因一根已是 $2$，故需 $m+1\\le 1\\Leftrightarrow m\\le 0$，此时解集 $[m+1,2]\\supseteq[1,2]$。\n若 $m>0$，则 $m+1>1$：当 $m<1$ 时解集 $[m+1,2]$ 左端 $>1$，不含 $1$；当 $m\\ge 1$ 时解集落在 $[2,+\\infty)$ 侧，更不含 $[1,2]$。\n故 $m\\in(-\\infty,0]$。$m=0$ 时解集恰为 $[1,2]$；$m=-1$ 时为 $[0,2]$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "指出包含的端点必要条件",
+        "score": 3
+      },
+      {
+        "step": "发现 x=2 恒为根并因式分解",
+        "score": 5
+      },
+      {
+        "step": "化为 m≤0 并证明充分性",
+        "score": 4
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "91b842e3d4ba6983938c3d38c60c12db5a290c6f27d7133e3a253d510452d71c",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "f(2)≡0 factorization (x-2)(x-m-1)",
+      "aboveHard14H2Contrast": "solution-set containment not forward solve",
+      "deepStrategyOrLayeredNecessity": "endpoint test → identity root → interval compare",
+      "routineKillCheck": "solve f(1)≤0,f(2)≤0 getting m≤0,f(2)=0 without factorization still OK but miss structure"
+    },
+    "methodMain": "classification",
+    "methodAux": "equiv_transform"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_filter_wash",
+  "apparatusVersion": "1.0.0",
+  "orientation": "left_to_right",
+  "title": "过滤-洗涤-产品",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "components": [
+    {
+      "componentId": "f1",
+      "componentType": "filter",
+      "displayLabel": "过滤器",
+      "ports": [
+        {
+          "portId": "slurry_in",
+          "direction": "in",
+          "media": [
+            "liquid",
+            "solid"
+          ]
+        },
+        {
+          "portId": "filtrate_out",
+          "direction": "out",
+          "media": [
+            "liquid"
+          ]
+        },
+        {
+          "portId": "cake_out",
+          "direction": "out",
+          "media": [
+            "solid"
+          ]
+        }
+      ]
+    },
+    {
+      "componentId": "filtrate",
+      "componentType": "liquid_tank",
+      "displayLabel": "滤液",
+      "ports": [
+        {
+          "portId": "liquid_in",
+          "direction": "in",
+          "media": [
+            "liquid"
+          ]
+        },
+        {
+          "portId": "liquid_out",
+          "direction": "out",
+          "media": [
+            "liquid"
+          ]
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "f1c",
+      "sourceComponentId": "f1",
+      "sourcePortId": "filtrate_out",
+      "targetComponentId": "filtrate",
+      "targetPortId": "liquid_in",
+      "flowType": "liquid"
+    }
+  ],
+  "publicContentHash": "db4c0e0d0911282a128c6add6238c2ebcdaad7982b3b53dbf4d6e64ab725b8db"
+}

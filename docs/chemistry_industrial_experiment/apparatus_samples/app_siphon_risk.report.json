@@ -1,0 +1,45 @@
+{
+  "intentionallyInvalid": true,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "unknowns": []
+  },
+  "safety": {
+    "findings": [
+      {
+        "ruleId": "SIPHON_RISK",
+        "status": "fail",
+        "severity": "warning",
+        "message": "abs1 与气体发生器直连，存在倒吸风险示意",
+        "scope": "倒吸",
+        "limitation": "示意拓扑启发式，非流体力学证明",
+        "evidence": []
+      }
+    ],
+    "blocking": [],
+    "unknowns": [],
+    "warnings": [
+      "SIPHON_RISK: abs1 与气体发生器直连，存在倒吸风险示意"
+    ]
+  },
+  "render": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "metrics": {
+      "diagramId": "app_siphon_risk",
+      "diagramVersion": "1.0.0",
+      "publicContentHash": "e0adfefb2290645429a62452514aa82a2d436e832261fc9896a2d53419760a00",
+      "rendererVersion": "1.0.0",
+      "nodeCount": 2,
+      "edgeCount": 1,
+      "drawnNodeCount": 2,
+      "drawnEdgeCount": 1,
+      "canvasWidth": 368,
+      "canvasHeight": 276
+    }
+  },
+  "note": "教学示意；invalid 样例禁止 formal"
+}

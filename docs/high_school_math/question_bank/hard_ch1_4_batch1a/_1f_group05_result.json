@@ -1,0 +1,311 @@
+{
+  "phase": "HARD14-1F-GROUP",
+  "group": 5,
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "startedAt": "2026-10-28T08:33:26.752Z",
+  "ok": true,
+  "errors": [],
+  "import": {
+    "preview": {
+      "http": 201,
+      "canConfirm": true,
+      "errorCount": 0,
+      "itemCount": 20,
+      "failed": []
+    },
+    "confirm": {
+      "http": 201,
+      "success": true,
+      "mode": "created",
+      "successCount": 20,
+      "failCount": 0
+    },
+    "dbCount": 20,
+    "statuses": {
+      "draft": 20
+    }
+  },
+  "diagrams": {
+    "uploaded": [],
+    "skipped": [],
+    "failed": [],
+    "note": "REQUIRED=0 for this group; no upload"
+  },
+  "review": {
+    "passed": 20,
+    "failed": 0,
+    "perItem": [
+      {
+        "code": "CAND-HARD14-081",
+        "itemId": "1055",
+        "cv": 1,
+        "fpPrefix": "3944a8c27d56bc84"
+      },
+      {
+        "code": "CAND-HARD14-082",
+        "itemId": "1056",
+        "cv": 1,
+        "fpPrefix": "8de22ca05f668282"
+      },
+      {
+        "code": "CAND-HARD14-083",
+        "itemId": "1057",
+        "cv": 1,
+        "fpPrefix": "69faf0cb97ad1096"
+      },
+      {
+        "code": "CAND-HARD14-084",
+        "itemId": "1058",
+        "cv": 1,
+        "fpPrefix": "08d618de22fd3e94"
+      },
+      {
+        "code": "CAND-HARD14-085",
+        "itemId": "1059",
+        "cv": 1,
+        "fpPrefix": "79ad5866cfc7a4ee"
+      },
+      {
+        "code": "CAND-HARD14-086",
+        "itemId": "1060",
+        "cv": 1,
+        "fpPrefix": "5d5777b5ef5645ac"
+      },
+      {
+        "code": "CAND-HARD14-087",
+        "itemId": "1061",
+        "cv": 1,
+        "fpPrefix": "5e9935f21c7e63f6"
+      },
+      {
+        "code": "CAND-HARD14-088",
+        "itemId": "1062",
+        "cv": 1,
+        "fpPrefix": "0941a5a1a9d883ab"
+      },
+      {
+        "code": "CAND-HARD14-089",
+        "itemId": "1063",
+        "cv": 1,
+        "fpPrefix": "dc8bab4abab35e7a"
+      },
+      {
+        "code": "CAND-HARD14-090",
+        "itemId": "1064",
+        "cv": 1,
+        "fpPrefix": "7b85b2d55b76b6e4"
+      },
+      {
+        "code": "CAND-HARD14-091",
+        "itemId": "1065",
+        "cv": 1,
+        "fpPrefix": "6b7e85a755e1dd1c"
+      },
+      {
+        "code": "CAND-HARD14-092",
+        "itemId": "1066",
+        "cv": 1,
+        "fpPrefix": "8d9a51ec46dac3db"
+      },
+      {
+        "code": "CAND-HARD14-093",
+        "itemId": "1067",
+        "cv": 1,
+        "fpPrefix": "f70d6082003cdec8"
+      },
+      {
+        "code": "CAND-HARD14-094",
+        "itemId": "1068",
+        "cv": 1,
+        "fpPrefix": "aa36ed33da855827"
+      },
+      {
+        "code": "CAND-HARD14-095",
+        "itemId": "1069",
+        "cv": 1,
+        "fpPrefix": "5d6b9e6d00161a5a"
+      },
+      {
+        "code": "CAND-HARD14-096",
+        "itemId": "1070",
+        "cv": 1,
+        "fpPrefix": "7b01005af0fc08c4"
+      },
+      {
+        "code": "CAND-HARD14-097",
+        "itemId": "1071",
+        "cv": 1,
+        "fpPrefix": "fb0ad425a2a820a5"
+      },
+      {
+        "code": "CAND-HARD14-098",
+        "itemId": "1072",
+        "cv": 1,
+        "fpPrefix": "738ed446f2ffc100"
+      },
+      {
+        "code": "CAND-HARD14-099",
+        "itemId": "1073",
+        "cv": 1,
+        "fpPrefix": "e7dcbc4c8284189f"
+      },
+      {
+        "code": "CAND-HARD14-100",
+        "itemId": "1074",
+        "cv": 1,
+        "fpPrefix": "ee20fc4e0b8c43a6"
+      }
+    ]
+  },
+  "approve": {
+    "success": 20,
+    "failed": 0,
+    "perItem": [
+      {
+        "code": "CAND-HARD14-081",
+        "itemId": "1055",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-082",
+        "itemId": "1056",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-083",
+        "itemId": "1057",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-084",
+        "itemId": "1058",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-085",
+        "itemId": "1059",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-086",
+        "itemId": "1060",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-087",
+        "itemId": "1061",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-088",
+        "itemId": "1062",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-089",
+        "itemId": "1063",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-090",
+        "itemId": "1064",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-091",
+        "itemId": "1065",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-092",
+        "itemId": "1066",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-093",
+        "itemId": "1067",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-094",
+        "itemId": "1068",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-095",
+        "itemId": "1069",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-096",
+        "itemId": "1070",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-097",
+        "itemId": "1071",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-098",
+        "itemId": "1072",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-099",
+        "itemId": "1073",
+        "ok": true,
+        "cv": 1
+      },
+      {
+        "code": "CAND-HARD14-100",
+        "itemId": "1074",
+        "ok": true,
+        "cv": 1
+      }
+    ]
+  },
+  "verify": {
+    "drawable": 913,
+    "expectedDrawable": 913,
+    "groupApproved": 20,
+    "groupDraft": 0,
+    "old813": 813,
+    "old813_0": 813,
+    "sessions0": 143,
+    "sessions1": 143,
+    "sessionItems0": 381,
+    "sessionItems1": 381,
+    "diagLinks0": 72,
+    "diagLinks1": 72,
+    "d1": 335,
+    "d2": 478,
+    "d3": 100
+  },
+  "pre": {
+    "sessions0": 143,
+    "sessionItems0": 381,
+    "diagLinks0": 72,
+    "old813_0": 813,
+    "drawable0": 893
+  },
+  "endedAt": "2026-10-28T08:33:32.909Z"
+}

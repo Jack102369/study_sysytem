@@ -1,0 +1,32 @@
+{
+  "phase": "H3-REDESIGN-1E-GATE0",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "startedAt": "2026-10-28T13:25:11.014Z",
+  "ok": true,
+  "errors": [],
+  "frozenN": 8,
+  "passByChapter": {
+    "1": 0,
+    "2": 4,
+    "3": 2,
+    "4": 2
+  },
+  "targets": {
+    "ch2Add": 16,
+    "ch3Add": 18,
+    "totalAdd": 34,
+    "keepPass": 8
+  },
+  "fileSha256": "68b705e7cdd79941037df8783729077187fe9198670958288259da2634fdfcc6",
+  "batchContentSha256": "293f44add5373711b642593f58c61ce867f6362a0ff81314ca618ca2af02dde2",
+  "db": {
+    "drawable": 913,
+    "byDiff": {
+      "1": 335,
+      "2": 478,
+      "3": 100
+    },
+    "h3c14": 0
+  },
+  "endedAt": "2026-10-28T13:25:11.045Z"
+}

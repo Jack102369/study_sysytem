@@ -1,0 +1,302 @@
+{
+  "phase": "HS-MATH-H3-FORMAL-IMPORT-4H",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "startedAt": "2026-10-28T14:19:37.414Z",
+  "status": "H3_FORMAL_IMPORT_PASS",
+  "errors": [],
+  "gate0": {
+    "batchContentSha256": "1e51ba93a0e398766d450fbecda3784a93297c0d8c1e5a60856798c655e19635",
+    "fileSha256": "df497f16c24c0b89b06df67b895f4bbdd7e6ca5bca820f29428f2b03b789ff16",
+    "payloadSha256": "df680f9df3928618d95daebf7356103f5ec1754fb6f75b2da06d421dfb8e815b",
+    "dbBefore": {
+      "drawable": 913,
+      "d1": 335,
+      "d2": 478,
+      "d3": 100,
+      "h3c14": 0,
+      "formalCount": 913,
+      "formalBaselineSha": "6bb9285d5d8dca9951e721e7ef4d3213975e8422b99cf7535fcdca24fa71df64",
+      "sessions": 143,
+      "sessionItems": 381,
+      "diagramLinks": 72,
+      "diagramSnap": 0
+    }
+  },
+  "import": {
+    "health": {
+      "http": 401,
+      "note": "expect 401 without token"
+    },
+    "existingBefore": [],
+    "preview": {
+      "http": 201,
+      "canConfirm": true,
+      "errorCount": 0,
+      "itemCount": 12,
+      "failed": []
+    },
+    "confirm": {
+      "http": 201,
+      "success": true,
+      "mode": "created",
+      "successCount": 12,
+      "failCount": 0
+    },
+    "mode": "created",
+    "successCount": 12
+  },
+  "review": {
+    "passed": 12,
+    "failed": 0,
+    "perItem": []
+  },
+  "approve": {
+    "success": 12,
+    "failed": 0,
+    "perItem": []
+  },
+  "mapping": [
+    {
+      "candidateId": "CAND-H3C14-006",
+      "chapter": 2,
+      "itemId": "1075",
+      "contentVersion": 1,
+      "review": "passed",
+      "approve": "approved",
+      "drawable": true,
+      "blockStep": null
+    },
+    {
+      "candidateId": "CAND-H3C14-013",
+      "chapter": 2,
+      "itemId": "1076",
+      "contentVersion": 1,
+      "review": "passed",
+      "approve": "approved",
+      "drawable": true,
+      "blockStep": null
+    },
+    {
+      "candidateId": "CAND-H3C14-014",
+      "chapter": 2,
+      "itemId": "1077",
+      "contentVersion": 1,
+      "review": "passed",
+      "approve": "approved",
+      "drawable": true,
+      "blockStep": null
+    },
+    {
+      "candidateId": "CAND-H3C14-018",
+      "chapter": 2,
+      "itemId": "1078",
+      "contentVersion": 1,
+      "review": "passed",
+      "approve": "approved",
+      "drawable": true,
+      "blockStep": null
+    },
+    {
+      "candidateId": "CAND-H3C14-027",
+      "chapter": 3,
+      "itemId": "1079",
+      "contentVersion": 1,
+      "review": "passed",
+      "approve": "approved",
+      "drawable": true,
+      "blockStep": null
+    },
+    {
+      "candidateId": "CAND-H3C14-046",
+      "chapter": 4,
+      "itemId": "1080",
+      "contentVersion": 1,
+      "review": "passed",
+      "approve": "approved",
+      "drawable": true,
+      "blockStep": null
+    },
+    {
+      "candidateId": "CAND-H3C14-047",
+      "chapter": 4,
+      "itemId": "1081",
+      "contentVersion": 1,
+      "review": "passed",
+      "approve": "approved",
+      "drawable": true,
+      "blockStep": null
+    },
+    {
+      "candidateId": "CAND-H3C14-060",
+      "chapter": 3,
+      "itemId": "1082",
+      "contentVersion": 1,
+      "review": "passed",
+      "approve": "approved",
+      "drawable": true,
+      "blockStep": null
+    },
+    {
+      "candidateId": "CAND-H3C14-202",
+      "chapter": 3,
+      "itemId": "1083",
+      "contentVersion": 1,
+      "review": "passed",
+      "approve": "approved",
+      "drawable": true,
+      "blockStep": null
+    },
+    {
+      "candidateId": "CAND-H3C14-211",
+      "chapter": 3,
+      "itemId": "1084",
+      "contentVersion": 1,
+      "review": "passed",
+      "approve": "approved",
+      "drawable": true,
+      "blockStep": null
+    },
+    {
+      "candidateId": "CAND-H3C14-213",
+      "chapter": 3,
+      "itemId": "1085",
+      "contentVersion": 1,
+      "review": "passed",
+      "approve": "approved",
+      "drawable": true,
+      "blockStep": null
+    },
+    {
+      "candidateId": "CAND-H3C14-214",
+      "chapter": 3,
+      "itemId": "1086",
+      "contentVersion": 1,
+      "review": "passed",
+      "approve": "approved",
+      "drawable": true,
+      "blockStep": null
+    }
+  ],
+  "verify": {
+    "drawableAfter": 925,
+    "d1": 335,
+    "d2": 478,
+    "d3": 112,
+    "h3c14": 12,
+    "h204": 0,
+    "original913Still": 913,
+    "sessions": 143,
+    "sessionItems": 381,
+    "diagramLinks": 72,
+    "diagramSnap": 0,
+    "sessionsBefore": 143,
+    "sessionItemsBefore": 381,
+    "diagramLinksBefore": 72,
+    "diagramSnapBefore": 0,
+    "importedRows": [
+      {
+        "code": "CAND-H3C14-006",
+        "id": "1075",
+        "status": "approved",
+        "cv": 1,
+        "difficulty": 3,
+        "drawable": true
+      },
+      {
+        "code": "CAND-H3C14-013",
+        "id": "1076",
+        "status": "approved",
+        "cv": 1,
+        "difficulty": 3,
+        "drawable": true
+      },
+      {
+        "code": "CAND-H3C14-014",
+        "id": "1077",
+        "status": "approved",
+        "cv": 1,
+        "difficulty": 3,
+        "drawable": true
+      },
+      {
+        "code": "CAND-H3C14-018",
+        "id": "1078",
+        "status": "approved",
+        "cv": 1,
+        "difficulty": 3,
+        "drawable": true
+      },
+      {
+        "code": "CAND-H3C14-027",
+        "id": "1079",
+        "status": "approved",
+        "cv": 1,
+        "difficulty": 3,
+        "drawable": true
+      },
+      {
+        "code": "CAND-H3C14-046",
+        "id": "1080",
+        "status": "approved",
+        "cv": 1,
+        "difficulty": 3,
+        "drawable": true
+      },
+      {
+        "code": "CAND-H3C14-047",
+        "id": "1081",
+        "status": "approved",
+        "cv": 1,
+        "difficulty": 3,
+        "drawable": true
+      },
+      {
+        "code": "CAND-H3C14-060",
+        "id": "1082",
+        "status": "approved",
+        "cv": 1,
+        "difficulty": 3,
+        "drawable": true
+      },
+      {
+        "code": "CAND-H3C14-202",
+        "id": "1083",
+        "status": "approved",
+        "cv": 1,
+        "difficulty": 3,
+        "drawable": true
+      },
+      {
+        "code": "CAND-H3C14-211",
+        "id": "1084",
+        "status": "approved",
+        "cv": 1,
+        "difficulty": 3,
+        "drawable": true
+      },
+      {
+        "code": "CAND-H3C14-213",
+        "id": "1085",
+        "status": "approved",
+        "cv": 1,
+        "difficulty": 3,
+        "drawable": true
+      },
+      {
+        "code": "CAND-H3C14-214",
+        "id": "1086",
+        "status": "approved",
+        "cv": 1,
+        "difficulty": 3,
+        "drawable": true
+      }
+    ],
+    "formalBaselineShaBefore": "6bb9285d5d8dca9951e721e7ef4d3213975e8422b99cf7535fcdca24fa71df64",
+    "formalNonH3c14Note": "original913Still should remain 913",
+    "fileShaAfter": "df497f16c24c0b89b06df67b895f4bbdd7e6ca5bca820f29428f2b03b789ff16",
+    "fileShaUnchanged": true,
+    "payloadSha256": "df680f9df3928618d95daebf7356103f5ec1754fb6f75b2da06d421dfb8e815b"
+  },
+  "gitAiDeploy": false,
+  "endedAt": "2026-10-28T14:19:41.870Z"
+}

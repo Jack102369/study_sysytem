@@ -1,0 +1,164 @@
+{
+  "phase": "HS-MATH-H3-CH1-4-EXCLUSIVE-BATCH1A",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "status": "QUALITY_PARTIAL",
+  "auditedAt": "2026-10-28T09:25:39.101Z",
+  "h3Gate": {
+    "id": "H3_EXCLUSIVE_GATE_V1",
+    "mustHave": [
+      "nonObviousBreakthrough",
+      "aboveHard14H2Contrast",
+      "deepStrategyOrLayeredNecessity",
+      "reasonableMultiLayerCasesOrStructure",
+      "withinCompulsory1Ch1to4",
+      "noCalculusNoConic"
+    ],
+    "rejectPatterns": [
+      "ordinary_parametric_inequality",
+      "routine_quadratic_extrema",
+      "simple_discriminant_cases",
+      "direct_AMGM",
+      "ordinary_hook_function",
+      "simple_parity_or_monotonicity",
+      "routine_exp_log_simplify",
+      "mere_extra_computation",
+      "digit_or_skin_swap",
+      "low_value_isomorphic_to_HARD14_H2"
+    ]
+  },
+  "targetAccepted": 50,
+  "designedAttempted": 44,
+  "acceptedH3": 44,
+  "rejectedNotH3OrMath": 18,
+  "rejectedNow": [],
+  "rejectedLedgerSample": [
+    {
+      "n": 26,
+      "reason": "REJECTED_NOT_H3: forced even too short",
+      "chapterNo": 3,
+      "modelFamily": "h3-bilinear-cauchy-range-zeros"
+    },
+    {
+      "n": 29,
+      "reason": "REJECTED_NOT_H3: domain singleton H1",
+      "chapterNo": 3,
+      "modelFamily": "h3-halfopen-domain-symmetry-empty"
+    },
+    {
+      "n": 30,
+      "reason": "REJECTED_NOT_H3: ordinary hook function",
+      "chapterNo": 3,
+      "modelFamily": "h3-odd-antiperiod-nonexistence"
+    },
+    {
+      "n": 31,
+      "reason": "REJECTED_NOT_H3: odd/even decomposition H1",
+      "chapterNo": 3,
+      "modelFamily": "h3-axis-odd-forces-zero"
+    },
+    {
+      "n": 32,
+      "reason": "REJECTED_NOT_H3: zero count H2",
+      "chapterNo": 3,
+      "modelFamily": "h3-inc-shift-involution-squeeze"
+    },
+    {
+      "n": 33,
+      "reason": "REJECTED_NOT_H3: inverse compose H2",
+      "chapterNo": 3,
+      "modelFamily": "h3-odd-inc-pair-sum-unique-zero"
+    },
+    {
+      "n": 34,
+      "reason": "REJECTED_NOT_H3: finite-set mapping not H3 analysis",
+      "chapterNo": 3,
+      "modelFamily": "h3-triple-abs-level-root-count"
+    },
+    {
+      "n": 37,
+      "reason": "REJECTED_NOT_H3: abs min on interval H2",
+      "chapterNo": 3,
+      "modelFamily": "h3-even-antiperiod-mono-zero"
+    },
+    {
+      "n": 38,
+      "reason": "REJECTED_NOT_H3: odd endpoint H2",
+      "chapterNo": 3,
+      "modelFamily": "h3-power-pair-order-swap-param"
+    },
+    {
+      "n": 40,
+      "reason": "REJECTED_NOT_H3: g even from f(-x) H2",
+      "chapterNo": 3,
+      "modelFamily": "h3-power-parity-domain-force-alpha"
+    },
+    {
+      "n": 43,
+      "reason": "REJECTED_NOT_H3: power compare on (0,1) H2",
+      "chapterNo": 3,
+      "modelFamily": "h3-piecewise-cost-min-junction-lock"
+    },
+    {
+      "n": 45,
+      "reason": "REJECTED_NOT_H3: application max thin / not H3 ceiling",
+      "chapterNo": 3,
+      "modelFamily": "h3-model-compare-crossing-once"
+    },
+    {
+      "n": 53,
+      "reason": "REJECTED_NOT_H3: simple_parity_or_monotonicity / textbook period+mono",
+      "chapterNo": 3
+    },
+    {
+      "n": 54,
+      "reason": "REJECTED_NOT_H3: domain equality H1/H2",
+      "chapterNo": 3
+    },
+    {
+      "n": 55,
+      "reason": "REJECTED_NOT_H3: ordinary fractional mono",
+      "chapterNo": 3
+    },
+    {
+      "n": 57,
+      "reason": "REJECTED_NOT_H3: 3-point quadratic fit is routine algebra",
+      "chapterNo": 3
+    },
+    {
+      "n": 61,
+      "reason": "REJECTED_NOT_H3: compose mono table is textbook restatement",
+      "chapterNo": 3
+    },
+    {
+      "n": 62,
+      "reason": "REJECTED_NOT_H3: without continuity only uniqueness — H2",
+      "chapterNo": 3
+    }
+  ],
+  "chapterActual": {
+    "1": 5,
+    "2": 20,
+    "3": 14,
+    "4": 5
+  },
+  "chapterTarget": {
+    "1": 5,
+    "2": 20,
+    "3": 20,
+    "4": 5
+  },
+  "intraDup": [],
+  "vsHard14ExactStem": [],
+  "requiredDiagrams": {
+    "n": 0,
+    "note": "全部 NOT_NEEDED/文字自足"
+  },
+  "rubricOk": true,
+  "batchContentSha256": "293f44add5373711b642593f58c61ce867f6362a0ff81314ca618ca2af02dde2",
+  "hard14ReferenceSha": "d8d22ad0bcbac2dba134d417e6a3db5cd6407f256492155345330ae043025819",
+  "examThoughtRefsOnly": true,
+  "openIssues": [
+    "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+    "ACCEPTED_H3=44<50 (honest, no fill)"
+  ]
+}

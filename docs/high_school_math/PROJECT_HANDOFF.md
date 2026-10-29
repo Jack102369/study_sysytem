@@ -8,10 +8,10 @@
 ## 1. 项目目标
 
 应用题多模态 + 学生训练入口；全10章题库向 **3120** 目标推进。  
-**当前执行阶段**：**HS-MATH-BANK-HARD-DIFFICULTY-ADJUST-1C**  
-**当前阶段状态**：`DIFFICULTY_ADJUST_PASS`  
-**正式 drawable**：**813**  
-**库内难度分布**：**d1=335 / d2=478 / d3=0**  
+**当前执行阶段**：**HS-MATH-TRAIN-TRUE-H3-FILTER**  
+**当前阶段状态**：`PASS`  
+**正式 drawable**：**926**  
+**库内难度**：**d1=335 / d2=478 / d3=113**  
 **独立性：`INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED`**
 
 ---
@@ -20,20 +20,19 @@
 
 | 项 | 说明 |
 |----|------|
-| 1C 动作 | Admin API：200 题仅改 `difficulty` → 重 review → 重 approve |
-| 最终建议 | `question_bank/hard_difficulty_final_recommendations.json`（1B） |
-| 执行结果 | `question_bank/hard_difficulty_adjust_results.json` |
-| 报告 | **177**（1C）；**176**（1B）；**175**（1A） |
-| 版本 | 每题 contentVersion 相对 1B +1；数学内容未改 |
+| 真 H3 筛选 | `createSession.trueH3Only` → `code LIKE 'CAND-H3%'`（当前 13 道 `CAND-H3C14-*`） |
+| 压轴 | 全部 `difficulty=3`（含 HARD14 + 真 H3，约 113） |
+| UI | 难度四档：基础 / 提高 / 压轴 / **真 H3**；章节「本章压轴（H3）」→ `?trueH3=1` |
+| 空池 | 真 H3 仅部分章节有题；后端文案「暂无已批准的真 H3 题目」 |
+| Plan B | `hard_level` 列 **未做**；前缀约定为过渡 |
 
 ---
 
 ## 4. 已完成阶段（节选）
 
-- HARD-DIFFICULTY-ADJUST-1C = **DIFFICULTY_ADJUST_PASS**（200 题 3→2×156 / 3→1×44；drawable 813；335/478/0）  
-- HARD-DIFFICULTY-AUDIT-1B = **DIFFICULTY_RECHECK_PASS**  
-- HARD-DIFFICULTY-AUDIT-1A = **DIFFICULTY_AUDIT_PARTIAL**  
-- GLOBAL-4E = **BATCH500_IMPORT_APPROVE_PASS**  
+- TRAIN-TRUE-H3-FILTER = **PASS**  
+- TRAIN-CHAPTER-H3-PLAN-A = **PASS**（整章可空 + UI）  
+- H3-FORMAL-IMPORT-204-4H-MICRO = **PASS**（204→1087）  
 
 ---
 
@@ -41,13 +40,9 @@
 
 | 项 | 值 |
 |----|-----|
-| 3→2 | **156** |
-| 3→1 | **44** |
-| review / approve | **200 / 200** |
-| 数学内容变化 | **0** |
-| 其他 613 | 未改（仍 291+322） |
-
-详见 `177`。
+| API | `trueH3Only` 可选 boolean |
+| 题库 | **未改**（926 / d3=113；真 H3 drawable 仍 13） |
+| DB schema | **无变更** |
 
 ---
 
@@ -55,24 +50,25 @@
 
 | 项 | 值 |
 |----|-----|
-| drawable | **813** |
-| difficulty | **335 / 478 / 0** |
-| 正式压轴库存 | **0**（距长期目标 780 需专项命题） |
+| drawable | **926** |
+| d1/d2/d3 | **335 / 478 / 113** |
+| CAND-H3C14 approved | **13** |
+| session.category_id | **NULL 允许**（Plan A） |
+| LAST_VERIFIED | 2026-10-28（TRUE-H3-FILTER） |
 
 ---
 
 ## 10. 待授权
 
-1. 真压轴专项命题（冲 780）— **未授权**  
-2. 非原 d3 的 d1/d2 虚标审计 — **未授权**  
-3. 第五批 / Git commit/push — **未授权**  
+1. 继续真 H3 扩写 / 预检 / 导入  
+2. Plan B（独立 `hard_level`）— 未做  
+3. Git — **未授权**
 
 ---
 
 ## 12. 下一步
 
-**停止。** 等待用户下一阶段授权。  
-详见 `177`。
+**停止。** 可验收：训练设置选「真 H3」→ 仅 `CAND-H3*`；选「压轴」仍可抽 HARD14。
 
 ---
 
@@ -80,7 +76,6 @@
 
 | 日期 | 阶段 | 摘要 |
 |------|------|------|
-| 2026-10-28 | HARD-DIFFICULTY-ADJUST-1C | **PASS**：200 题难度调整+重审重批；335/478/0；drawable 813；停 |
-| 2026-10-28 | HARD-DIFFICULTY-AUDIT-1B | **PASS**：独立重判 keep0/d2×156/d1×44 |
-| 2026-10-28 | HARD-DIFFICULTY-AUDIT-1A | **PARTIAL**：keep0/d2×141/d1×53/U×6 |
-| 2026-10-27 | GLOBAL-4E | **PASS**：drawable 813 |
+| 2026-10-28 | TRAIN-TRUE-H3-FILTER | `trueH3Only` + UI 四档；前缀 `CAND-H3%` |
+| 2026-10-28 | TRAIN-CHAPTER-H3-PLAN-A | 会话 category 可空；选章/整章开训 |
+| 2026-10-28 | H3-FORMAL-IMPORT-204-4H-MICRO | 204→itemId **1087**；drawable 925→926 |

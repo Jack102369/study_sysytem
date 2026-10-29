@@ -1,5 +1,6 @@
-import { Type } from 'class-transformer'
+import { Transform, Type } from 'class-transformer'
 import {
+  IsBoolean,
   IsIn,
   IsInt,
   IsObject,
@@ -21,9 +22,15 @@ export class CreateHsMathTrainSessionDto {
   @MinLength(1)
   specialtyId!: string
 
+  /**
+   * 小节（分类）。未传 / null / '' = 整章抽题（仅按专项+难度筛选）。
+   * 传入时必须属于 specialtyId。
+   */
+  @IsOptional()
+  @ValidateIf((_, v) => v !== null && v !== undefined && String(v).trim() !== '')
   @IsString()
   @MinLength(1)
-  categoryId!: string
+  categoryId?: string | null
 
   @Type(() => Number)
   @IsInt()
@@ -50,6 +57,23 @@ export class CreateHsMathTrainSessionDto {
   @IsOptional()
   @IsIn([...HS_MATH_QTYPES])
   questionType?: (typeof HS_MATH_QTYPES)[number]
+
+  /**
+   * 仅抽真 H3：code LIKE 'CAND-H3%'（与「压轴=全部 difficulty=3」区分）。
+   * 通常配合 difficulty=3；未传 / false = 不按 code 前缀收窄。
+   */
+  @IsOptional()
+  @Transform(({ value }) => {
+    if (value === true || value === 'true' || value === 1 || value === '1') {
+      return true
+    }
+    if (value === false || value === 'false' || value === 0 || value === '0') {
+      return false
+    }
+    return value
+  })
+  @IsBoolean()
+  trueH3Only?: boolean
 }
 
 export class SaveHsMathTrainAnswerDto {

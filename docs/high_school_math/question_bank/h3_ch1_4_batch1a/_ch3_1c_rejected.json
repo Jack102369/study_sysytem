@@ -1,0 +1,43 @@
+{
+  "phase": "H3-CH3-COMPLETION-1C",
+  "designedAttemptedSlots": 12,
+  "acceptedN": 6,
+  "acceptedIds": [
+    "CAND-H3C14-051",
+    "CAND-H3C14-052",
+    "CAND-H3C14-056",
+    "CAND-H3C14-058",
+    "CAND-H3C14-059",
+    "CAND-H3C14-060"
+  ],
+  "rejected": [
+    {
+      "n": 53,
+      "reason": "REJECTED_NOT_H3: simple_parity_or_monotonicity / textbook period+mono"
+    },
+    {
+      "n": 54,
+      "reason": "REJECTED_NOT_H3: domain equality H1/H2"
+    },
+    {
+      "n": 55,
+      "reason": "REJECTED_NOT_H3: ordinary fractional mono"
+    },
+    {
+      "n": 57,
+      "reason": "REJECTED_NOT_H3: 3-point quadratic fit is routine algebra"
+    },
+    {
+      "n": 61,
+      "reason": "REJECTED_NOT_H3: compose mono table is textbook restatement"
+    },
+    {
+      "n": 62,
+      "reason": "REJECTED_NOT_H3: without continuity only uniqueness — H2"
+    }
+  ],
+  "withheldUnstableDrafts": [
+    "|x^2-1|=|x-a| root table — REJECTED_MATH_UNSTABLE during author check"
+  ],
+  "note": "Honest underfill: no H1/H2 padding. 51/52/56/58/59/60 shipped only after math verify."
+}

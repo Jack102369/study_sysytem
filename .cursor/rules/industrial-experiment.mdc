@@ -1,0 +1,74 @@
+---
+description: 高一化学「工业实验」专项开发规范（进度文档驱动、复用化学架构、禁止平行系统）
+globs: docs/chemistry_industrial_experiment/**,.cursor/rules/industrial-experiment.mdc,apps/**/chemistry/**/*
+alwaysApply: false
+---
+
+# 工业实验（industrial_experiment）开发规范
+
+本规则适用于工业实验开发文档任务，以及后续涉及高一化学工业实验的相关改动。  
+与根目录 `.cursorrules` 同时生效；冲突时以「最小改动接入现有化学体系」为准。
+
+文档根目录：`docs/chemistry_industrial_experiment/`
+
+## 【开发前】
+
+1. 阅读 `DEVELOPMENT_PROGRESS.md`
+2. 阅读 `DECISIONS.md`
+3. 阅读 `NEXT_SESSION.md`
+4. 阅读当前 `steps/STEP_XX.md`
+5. 确认当前步骤状态（仅执行用户明确指定的 STEP）
+6. 检查前置条件是否满足
+
+## 【开发中】
+
+7. 优先复用现有高一化学架构（题库、训练会话、错题、KB、审核）
+8. 不擅自建立平行工业训练 / 错题 / 会话系统
+9. 不擅自修改数据库；`db/init.sql` 为权威；禁止 TypeORM `synchronize=true`
+10. 不修改高一数学业务逻辑
+11. 不破坏原有 12 个化学专项
+12. 不绕过现有题库管理员审核闸门
+13. 不把 AI 生成内容直接发布到正式题库
+14. 不通过关闭校验掩盖错误
+15. 所有新目录和文件由 Cursor **自动创建**
+16. 不要求用户手动创建文件或目录
+
+## 【开发后】
+
+17. 更新当前 `steps/STEP_XX.md`
+18. 更新 `DEVELOPMENT_PROGRESS.md`
+19. 更新 `TEST_REPORT.md`
+20. 如有新架构决策，更新 `DECISIONS.md`
+21. **最后**更新 `NEXT_SESSION.md`（须含完整下一步上下文与可复制提示词）
+22. 输出实际修改文件列表
+23. 输出实际测试结果（未执行须标明）
+24. 输出遗留问题
+25. 输出下一步任务
+
+## 【完成判定】
+
+26. 未实际完成不得标记 `COMPLETED`
+27. 未执行测试不得声称通过
+28. 存在阻塞问题必须记录为 `BLOCKED` 或保持 `IN_PROGRESS` 并说明
+29. 不得编造代码路径
+30. 不得编造数据库字段
+
+## 补充硬性约束
+
+- 专项 code：`industrial_experiment`；与 `experiment` 同级但边界不同
+- 流程图：结构化 JSON → 程序生成 SVG；不信任 AI 原始 SVG
+- AI 审查 ≠ 科学正确性证明
+- 每次只执行一个明确 STEP；失败也必须更新进度文档
+- 不得 `git reset --hard` / `git clean -fd`；不得自动 git commit
+- 用户仓库中可能已有其他未提交修改：不得清理或覆盖无关文件
+- STEP_12 结论 **CONDITIONALLY_ACCEPTED**；不得因 STEP_13 / POST_STEP_13 擅自升格 ACCEPTED
+- 对业务库 `study_system`：默认只读诊断；迁移/写库须用户分阶段明确批准（见 `MAIN_DATABASE_ACCEPTANCE_PLAN.md`）
+- PHASE_B 备份在仓库外 `study-system-backups\`；逻辑备份 ≠ 真实 restore 验证；禁止擅自 restore
+- PHASE_C：`study_system` 已落地 D043/D045
+- PHASE_D：Mock；E1：正式候选；E2-A：READY_FOR_HUMAN_REVIEW；E2-B：REVIEW_WORKFLOW_READY；E2-B2：有效案例审核↔闸门；E2-B5：科学来源证据包；E2-B6 PART A：人审就绪；E2-B7：多模型审核包导出（外部 AI 意见≠人审/入库）
+- FULL_DISABLE：`CHEM_INDUSTRIAL_EXPERIMENT_ENABLED` 默认 false；代码级停用可恢复；不删数据；停用≠升格 ACCEPTED（见 D052）
+- 真实管理员操作 / PHASE_E2-C（formal/KB/训练）须另批；禁止 AI 冒充人审；禁止伪造来源/案例/verified_by_admin
+- 区分 QUALITY vs PUBLISH 阻塞；FILTER_SOLUBLE_SALT 不得误伤正确教学说明
+- 案例覆盖层 `approve_for_publish` 授予有效资格，不改写 fixture published；来源/课程字段不得写入投影（contentHash）
+- formal-import 默认 dry-run；real publish 需 env `INDUSTRIAL_FORMAL_REAL_PUBLISH` + confirmRealPublish（默认关）
+- generationSource 含 manual_fixture；正式入库支持双图；禁止任意 SVG 注入

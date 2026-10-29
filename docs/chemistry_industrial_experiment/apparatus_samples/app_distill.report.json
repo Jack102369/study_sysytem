@@ -1,0 +1,61 @@
+{
+  "intentionallyInvalid": false,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "REQUIRED_PORT_MISSING",
+        "path": "component:dist1",
+        "message": "必要端口 feed_in 未连接",
+        "severity": "warning"
+      }
+    ],
+    "unknowns": []
+  },
+  "safety": {
+    "findings": [
+      {
+        "ruleId": "CONDENSER_PORTS",
+        "status": "pass",
+        "severity": "error",
+        "message": "冷凝器 cond1 基本端口已连接",
+        "scope": "condenser",
+        "limitation": "教学示意规则；不能证明复杂工业工艺在真实工况下完全安全。",
+        "evidence": []
+      },
+      {
+        "ruleId": "CONDENSER_COUNTERFLOW",
+        "status": "unknown",
+        "severity": "info",
+        "message": "冷凝器 cond1 是否满足严格逆流换热无法仅凭示意拓扑证明",
+        "scope": "condenser coolant direction",
+        "limitation": "需要相对空间几何；本规则不自动 pass",
+        "evidence": []
+      }
+    ],
+    "blocking": [],
+    "unknowns": [
+      "CONDENSER_COUNTERFLOW: 冷凝器 cond1 是否满足严格逆流换热无法仅凭示意拓扑证明"
+    ],
+    "warnings": []
+  },
+  "render": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "metrics": {
+      "diagramId": "app_distill",
+      "diagramVersion": "1.0.0",
+      "publicContentHash": "0ac9b07b7f46f305079a1d1935c1deb393b83a4309668de9083803a310b221f5",
+      "rendererVersion": "1.0.0",
+      "nodeCount": 4,
+      "edgeCount": 4,
+      "drawnNodeCount": 4,
+      "drawnEdgeCount": 4,
+      "canvasWidth": 658,
+      "canvasHeight": 276
+    }
+  },
+  "note": "教学示意；invalid 样例禁止 formal"
+}

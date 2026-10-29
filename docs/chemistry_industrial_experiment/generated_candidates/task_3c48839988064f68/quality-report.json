@@ -1,0 +1,604 @@
+{
+  "reportId": "qr_c4a291e8c71f4066",
+  "candidateId": "task_3c48839988064f68",
+  "caseCode": "salt_purification_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+  "diagramVersion": "0.1.0",
+  "diagramContentHash": "4c71a0ae45a804781ec1e528b1b9ad86536dae6e99058968105adc74de0e9e25",
+  "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+  "questionContentHash": "4be70688db5b674e0a8a0a983af7f846c2b8fabfa03818ea8d912be35d60bf31",
+  "auditContentHash": "e3b1d0828f950a5954225eaa74544c5a86ca1e6abadc6dfb6372696f3193dc96",
+  "qualityVersion": "1.0.0",
+  "generatedAt": "2026-10-29T05:28:35.222Z",
+  "checks": [
+    {
+      "checkCode": "CURR_GRADE_SCOPE",
+      "dimension": "curriculum",
+      "status": "pass",
+      "severity": "info",
+      "message": "案例 gradeScope 为 high_school_1",
+      "evidence": [
+        "gradeScope=high_school_1"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "CURR_REVIEW_STATUS",
+      "dimension": "curriculum",
+      "status": "unknown",
+      "severity": "warning",
+      "message": "课程审核未完成，不能认定课程适配已通过",
+      "evidence": [
+        "curriculumReviewStatus=pending"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "CURR_DIFFICULTY",
+      "dimension": "curriculum",
+      "status": "pass",
+      "severity": "info",
+      "message": "难度在案例 difficultyRange 内",
+      "evidence": [
+        "q=1",
+        "range=1-2"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "CURR_KNOWLEDGE_POINTS",
+      "dimension": "curriculum",
+      "status": "pass",
+      "severity": "info",
+      "message": "知识点均在有限白名单或案例 curriculumScope 内",
+      "evidence": [
+        "过滤",
+        "固液分离"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "CURR_CATEGORY",
+      "dimension": "curriculum",
+      "status": "pass",
+      "severity": "info",
+      "message": "分类与案例一致",
+      "evidence": [
+        "industrial_separation_purification"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "CURR_CASE_TRUST_DEV",
+      "dimension": "curriculum",
+      "status": "unknown",
+      "severity": "warning",
+      "message": "development_only：案例可信度不构成正式课程通过",
+      "evidence": [
+        "reviewStatus=draft",
+        "publishEligible=false",
+        "effectiveOk=false"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "CHEM_BAD_FORMULA",
+      "dimension": "chemistry",
+      "status": "pass",
+      "severity": "info",
+      "message": "未命中有限非法化学式规则（不证明全部化学式正确）",
+      "evidence": [
+        "rule=BAD_FORMULA_RE"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "CHEM_REACTION_PENDING",
+      "dimension": "chemistry",
+      "status": "unknown",
+      "severity": "info",
+      "message": "案例无反应条目；非反应类流程记 unknown（需人工确认）",
+      "evidence": [
+        "reactions=[]"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "CHEM_SOURCE_VERIFIED",
+      "dimension": "chemistry",
+      "status": "unknown",
+      "severity": "warning",
+      "message": "开发模式：知识来源 unverified，化学正确性未证明",
+      "evidence": [
+        "高中化学必修实验：粗盐提纯（教学通用知识点）:unverified"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "CHEM_COMMON_FRAGMENT",
+      "dimension": "chemistry",
+      "status": "pass",
+      "severity": "info",
+      "message": "出现常见化学式片段（仅说明未触发非法模式）",
+      "evidence": [
+        "rule=COMMON_OK"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "CHEM_ENGINE_SCOPE",
+      "dimension": "chemistry",
+      "status": "unknown",
+      "severity": "info",
+      "message": "本系统非完整化学推理引擎；未覆盖知识一律 unknown，不得自动 pass",
+      "evidence": [
+        "coverage=limited_rules"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "FILTER_SOLUBLE_SALT",
+      "dimension": "process",
+      "status": "pass",
+      "severity": "info",
+      "message": "未命中禁止工艺模式：FILTER_SOLUBLE_SALT",
+      "evidence": [
+        "pattern_clear"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "PROCESS_OVERCLAIM_REAL_PLANT",
+      "dimension": "process",
+      "status": "pass",
+      "severity": "info",
+      "message": "未发现过度宣称真实完整工业生产",
+      "evidence": [
+        "textbook_simplification"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "PROCESS_MATERIAL_REFS",
+      "dimension": "process",
+      "status": "pass",
+      "severity": "info",
+      "message": "流程图物料引用均在案例中",
+      "evidence": [
+        "badMat=0"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "PROCESS_STEP_REFS",
+      "dimension": "process",
+      "status": "pass",
+      "severity": "info",
+      "message": "流程图步骤引用均在案例中",
+      "evidence": [
+        "badStep=0"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "PROCESS_PRODUCT_SOURCE",
+      "dimension": "process",
+      "status": "pass",
+      "severity": "info",
+      "message": "产品节点均有入边",
+      "evidence": [],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "PROCESS_RECYCLE_ENDS",
+      "dimension": "process",
+      "status": "pass",
+      "severity": "info",
+      "message": "recycle 边端点完整（或无 recycle）",
+      "evidence": [],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "PROCESS_DEEP_REASONING",
+      "dimension": "process",
+      "status": "unknown",
+      "severity": "info",
+      "message": "深层工艺合理性（收率/能耗/工业放大）未自动验证",
+      "evidence": [
+        "requires_human_or_kb"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "DIAG_DEFINITION",
+      "dimension": "diagram",
+      "status": "pass",
+      "severity": "info",
+      "message": "Definition 结构校验通过",
+      "evidence": [],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.221Z"
+    },
+    {
+      "checkCode": "DIAG_CASE_BIND",
+      "dimension": "diagram",
+      "status": "pass",
+      "severity": "info",
+      "message": "Definition 与案例绑定通过",
+      "evidence": [],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "DIAG_PUBLIC",
+      "dimension": "diagram",
+      "status": "pass",
+      "severity": "info",
+      "message": "Public 校验通过",
+      "evidence": [],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "DIAG_PUBLIC_LEAK",
+      "dimension": "diagram",
+      "status": "pass",
+      "severity": "info",
+      "message": "Public JSON 未检出内部敏感键",
+      "evidence": [],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "DIAG_PUBLIC_HASH_MATCH",
+      "dimension": "diagram",
+      "status": "pass",
+      "severity": "info",
+      "message": "Public 哈希与再投影一致",
+      "evidence": [
+        "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+        "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "DIAG_SVG_SAFE",
+      "dimension": "diagram",
+      "status": "pass",
+      "severity": "info",
+      "message": "SVG 未检出脚本/事件/foreignObject",
+      "evidence": [],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "DIAG_SVG_INTERNAL_LEAK",
+      "dimension": "diagram",
+      "status": "pass",
+      "severity": "info",
+      "message": "SVG 未检出内部答案字段",
+      "evidence": [],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "DIAG_SVG_RENDER_REPORT",
+      "dimension": "diagram",
+      "status": "pass",
+      "severity": "info",
+      "message": "SVG 渲染报告 valid",
+      "evidence": [
+        "nodes 8/8",
+        "edges 7/7"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "DIAG_EDGE_DIRECTION",
+      "dimension": "diagram",
+      "status": "pass",
+      "severity": "info",
+      "message": "连线均已绘制（方向遵循 Definition from→to）",
+      "evidence": [
+        "edgeCount=7"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "CONS_NODE_ID",
+      "dimension": "consistency",
+      "status": "pass",
+      "severity": "info",
+      "message": "引用节点存在：n_filter",
+      "evidence": [
+        "n_filter"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "CONS_LABEL",
+      "dimension": "consistency",
+      "status": "pass",
+      "severity": "info",
+      "message": "引用标签存在：操作①",
+      "evidence": [
+        "操作①",
+        "粗盐",
+        "溶解",
+        "混合液",
+        "操作①",
+        "滤液",
+        "滤渣",
+        "蒸发结晶",
+        "精盐"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "CONS_OP_IN_STEM",
+      "dimension": "consistency",
+      "status": "pass",
+      "severity": "info",
+      "message": "题干 操作① 在图中有对应标签",
+      "evidence": [
+        "操作①"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "CONS_UNKNOWN_ANSWER_LINK",
+      "dimension": "consistency",
+      "status": "pass",
+      "severity": "info",
+      "message": "未知节点 n_filter 有内部答案关联",
+      "evidence": [
+        "n_filter",
+        "操作①"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "CONS_ANSWER_OPTION",
+      "dimension": "consistency",
+      "status": "pass",
+      "severity": "info",
+      "message": "单选答案对应有效选项",
+      "evidence": [
+        "B",
+        "options=4"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "CONS_EXPLANATION_PRESENT",
+      "dimension": "consistency",
+      "status": "unknown",
+      "severity": "info",
+      "message": "解析非空；语义正确性未自动证明",
+      "evidence": [
+        "操作①对应过滤，用于分离不溶性杂质；题干与流程图中的操作①对应。"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "TEACH_STEM",
+      "dimension": "teaching",
+      "status": "pass",
+      "severity": "info",
+      "message": "题干完整",
+      "evidence": [
+        "粗盐提纯流程中，操作①的主要作用是去除什么？"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "TEACH_OPTIONS_COUNT",
+      "dimension": "teaching",
+      "status": "pass",
+      "severity": "info",
+      "message": "单选选项数量合法",
+      "evidence": [
+        "count=4"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "TEACH_OPTIONS_DUP",
+      "dimension": "teaching",
+      "status": "pass",
+      "severity": "info",
+      "message": "选项无重复",
+      "evidence": [
+        "可溶性杂质盐",
+        "不溶性杂质",
+        "全部水分",
+        "改变盐的化学式"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "TEACH_ANSWER_IN_STEM",
+      "dimension": "teaching",
+      "status": "pass",
+      "severity": "info",
+      "message": "未检测到题干直接粘贴标准答案文本",
+      "evidence": [],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "TEACH_QTYPE_MATCH",
+      "dimension": "teaching",
+      "status": "pass",
+      "severity": "info",
+      "message": "qtype 与 answerType 一致",
+      "evidence": [
+        "single",
+        "single"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "TEACH_JUDGE_COMPAT",
+      "dimension": "teaching",
+      "status": "unknown",
+      "severity": "info",
+      "message": "与正式 chem-train-grade 的完整兼容性留待 STEP_09 核对",
+      "evidence": [
+        "no_grade_service_mutation"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "AI_AUX_CURRICULUM",
+      "dimension": "curriculum",
+      "status": "unknown",
+      "severity": "info",
+      "message": "Mock AI 辅助审查：维度 curriculum 未提供科学证明（记 unknown）",
+      "evidence": [
+        "mock_reviewer",
+        "not_scientific_proof"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "AI_AUX_CHEMISTRY",
+      "dimension": "chemistry",
+      "status": "unknown",
+      "severity": "info",
+      "message": "Mock AI 辅助审查：维度 chemistry 未提供科学证明（记 unknown）",
+      "evidence": [
+        "mock_reviewer",
+        "not_scientific_proof"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "AI_AUX_PROCESS",
+      "dimension": "process",
+      "status": "unknown",
+      "severity": "info",
+      "message": "Mock AI 辅助审查：维度 process 未提供科学证明（记 unknown）",
+      "evidence": [
+        "mock_reviewer",
+        "not_scientific_proof"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "AI_AUX_DIAGRAM",
+      "dimension": "diagram",
+      "status": "unknown",
+      "severity": "info",
+      "message": "Mock AI 辅助审查：维度 diagram 未提供科学证明（记 unknown）",
+      "evidence": [
+        "mock_reviewer",
+        "not_scientific_proof"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "AI_AUX_CONSISTENCY",
+      "dimension": "consistency",
+      "status": "unknown",
+      "severity": "info",
+      "message": "Mock AI 辅助审查：维度 consistency 未提供科学证明（记 unknown）",
+      "evidence": [
+        "mock_reviewer",
+        "not_scientific_proof"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    },
+    {
+      "checkCode": "AI_AUX_TEACHING",
+      "dimension": "teaching",
+      "status": "unknown",
+      "severity": "info",
+      "message": "Mock AI 辅助审查：维度 teaching 未提供科学证明（记 unknown）",
+      "evidence": [
+        "mock_reviewer",
+        "not_scientific_proof"
+      ],
+      "checkerVersion": "1.0.0",
+      "checkedAt": "2026-10-29T05:28:35.222Z"
+    }
+  ],
+  "summary": {
+    "total": 45,
+    "pass": 31,
+    "fail": 0,
+    "unknown": 14,
+    "criticalFail": 0,
+    "errorFail": 0,
+    "warningCount": 3
+  },
+  "blockingIssues": [],
+  "warnings": [
+    "CURR_REVIEW_STATUS: 课程审核未完成，不能认定课程适配已通过",
+    "CURR_CASE_TRUST_DEV: development_only：案例可信度不构成正式课程通过",
+    "CHEM_SOURCE_VERIFIED: 开发模式：知识来源 unverified，化学正确性未证明"
+  ],
+  "unknownIssues": [
+    "CURR_REVIEW_STATUS: 课程审核未完成，不能认定课程适配已通过",
+    "CURR_CASE_TRUST_DEV: development_only：案例可信度不构成正式课程通过",
+    "CHEM_REACTION_PENDING: 案例无反应条目；非反应类流程记 unknown（需人工确认）",
+    "CHEM_SOURCE_VERIFIED: 开发模式：知识来源 unverified，化学正确性未证明",
+    "CHEM_ENGINE_SCOPE: 本系统非完整化学推理引擎；未覆盖知识一律 unknown，不得自动 pass",
+    "PROCESS_DEEP_REASONING: 深层工艺合理性（收率/能耗/工业放大）未自动验证",
+    "CONS_EXPLANATION_PRESENT: 解析非空；语义正确性未自动证明",
+    "TEACH_JUDGE_COMPAT: 与正式 chem-train-grade 的完整兼容性留待 STEP_09 核对",
+    "AI_AUX_CURRICULUM: Mock AI 辅助审查：维度 curriculum 未提供科学证明（记 unknown）",
+    "AI_AUX_CHEMISTRY: Mock AI 辅助审查：维度 chemistry 未提供科学证明（记 unknown）",
+    "AI_AUX_PROCESS: Mock AI 辅助审查：维度 process 未提供科学证明（记 unknown）",
+    "AI_AUX_DIAGRAM: Mock AI 辅助审查：维度 diagram 未提供科学证明（记 unknown）",
+    "AI_AUX_CONSISTENCY: Mock AI 辅助审查：维度 consistency 未提供科学证明（记 unknown）",
+    "AI_AUX_TEACHING: Mock AI 辅助审查：维度 teaching 未提供科学证明（记 unknown）"
+  ],
+  "overallStatus": "incomplete_verification",
+  "requiresHumanReview": true,
+  "developmentOnly": true,
+  "formalPublishEligible": false,
+  "aiReviewStatus": "mock",
+  "aiReviewProvider": "mock",
+  "aiReviewNotes": [
+    "Mock AI reviewer used; same-model dual call is not independent scientific proof"
+  ]
+}

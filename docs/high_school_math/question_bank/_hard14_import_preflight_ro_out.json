@@ -1,0 +1,798 @@
+{
+  "phase": "HS-MATH-HARD-CH1-4-IMPORT-PREFLIGHT-1C",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "candidatePhase": "HS-MATH-HARD-CH1-4-ADVISORY-CLOSURE-1E",
+  "candidateStatus": "HARD_BATCH100_READY_FOR_PREFLIGHT",
+  "auditedAt": "2026-10-28T08:16:15.335Z",
+  "snapshot": {
+    "batchContentSha256": "d8d22ad0bcbac2dba134d417e6a3db5cd6407f256492155345330ae043025819",
+    "batchRecompute": "d8d22ad0bcbac2dba134d417e6a3db5cd6407f256492155345330ae043025819",
+    "designMapSha": "49beb518f5cee97ef1c3d0a1eddcfaee611c802afa1b6cf419ca8dbd22648e45",
+    "qualityEvidenceSha": "6558cd12956dbd962f70897876e0d00198ad059be3a38aeb113d53ec5738b70e",
+    "designsFileSha": "4f0e8e8de80323c84a909cff5f6a3c101474c6d8efa789d40762c747e6b1a444",
+    "qualityFileSha": "a68f4dd566e3df68897a704f4bed1052edf2309b88409ef40cab694d7c5796a0",
+    "perItem": [
+      {
+        "id": "CAND-HARD14-001",
+        "contentSha256": "19f7ea1626d8d63ec9cb3fce3f5a8278465f7d85143e2bfc2bda234119fb8bd3"
+      },
+      {
+        "id": "CAND-HARD14-002",
+        "contentSha256": "45937dcca95eee708d20015fbcd2e090b685a464aa9a814280fcaac5bd65cea0"
+      },
+      {
+        "id": "CAND-HARD14-003",
+        "contentSha256": "f9cee56cee7894d9f4f3f8b90b64c7f48154b4247d3fc60dff6f1b153127260e"
+      },
+      {
+        "id": "CAND-HARD14-004",
+        "contentSha256": "3a9fa5896f6f7d4555a9d236c133ddecdfb727670e8fe2e721ea6e6de3f730ee"
+      },
+      {
+        "id": "CAND-HARD14-005",
+        "contentSha256": "a432bbdb8d3b39296e449fc1e6bcf0bfd7f2f3c8eab3222508b0194d1abbff06"
+      },
+      {
+        "id": "CAND-HARD14-006",
+        "contentSha256": "0c49cc8628d14bc17ed2d76929169cdd5b767f2a47d8f0775e5e24299bdaf179"
+      },
+      {
+        "id": "CAND-HARD14-007",
+        "contentSha256": "8fbcb1f9987b1fb674cab1fde4bb85f46101dac894fbbd7d8f4d446d606a3590"
+      },
+      {
+        "id": "CAND-HARD14-008",
+        "contentSha256": "c687453c52bec389a40bcf4fa7c0a0b99a74640b2c28227c471a64bde8d9473c"
+      },
+      {
+        "id": "CAND-HARD14-009",
+        "contentSha256": "93c33ef8008a9c4a33b69e718d66f35d0020ea2184c6a885e14017d24fb6b63c"
+      },
+      {
+        "id": "CAND-HARD14-010",
+        "contentSha256": "b85e4d1e7f692111a9d9310fa314ac19e0f030304455c6c38e5258faf77d590a"
+      },
+      {
+        "id": "CAND-HARD14-011",
+        "contentSha256": "7bc56f21d33ef01f52fe36883729e69e4fdffe96977ad212b76e0c11c8589a0a"
+      },
+      {
+        "id": "CAND-HARD14-012",
+        "contentSha256": "c11b594b0487bc512b5cb2e0f479761fa88fd59967606a56429bf846c38cd141"
+      },
+      {
+        "id": "CAND-HARD14-013",
+        "contentSha256": "1d8618b6c284a7f813ee4739c6d8b49e868abc06e734d121e4b48e723f2d2d1e"
+      },
+      {
+        "id": "CAND-HARD14-014",
+        "contentSha256": "611d9ba20ca0c53368900e72d5124259afd1b6576ac056816ce71a4843ca39fd"
+      },
+      {
+        "id": "CAND-HARD14-015",
+        "contentSha256": "e82b03a662e48dfeda7f8221b7b52f34769360e059f53496ff6a4f1466ea68c9"
+      },
+      {
+        "id": "CAND-HARD14-016",
+        "contentSha256": "a1b99f67f6b27ed207108088cb3f4dd16a695b156304ff53b523fb5c45743fc2"
+      },
+      {
+        "id": "CAND-HARD14-017",
+        "contentSha256": "142ebc70e2cf2b1af1a528e3f08b68723981669295071135340c8d3feb1779ba"
+      },
+      {
+        "id": "CAND-HARD14-018",
+        "contentSha256": "339c5ee6c6ce6637b8cf18226b8f281787f8e0b3d51821f48c0af58f27d7fbfa"
+      },
+      {
+        "id": "CAND-HARD14-019",
+        "contentSha256": "e0a41a722d3c67175d5f1769f360c603bd11ce7e654b6d5578c3693fe36520cc"
+      },
+      {
+        "id": "CAND-HARD14-020",
+        "contentSha256": "60e92ca9ee8ea3670156696bf837d53666fd8a63ca62236e59645903efe57553"
+      },
+      {
+        "id": "CAND-HARD14-021",
+        "contentSha256": "becd1633de959e36d0e4e13dc0ef53041d70497556181eba61e3bc7141785e1c"
+      },
+      {
+        "id": "CAND-HARD14-022",
+        "contentSha256": "6f49761d9b3239b867255af5565fb52f9eb1782cee0f9efe0ebe4614e1908cb9"
+      },
+      {
+        "id": "CAND-HARD14-023",
+        "contentSha256": "5707f545f3febb5ef048d7b36a749d4e1fc443d577ebb44ba7572315dc32e7d3"
+      },
+      {
+        "id": "CAND-HARD14-024",
+        "contentSha256": "e57ea97981e782d2af941888ef0de05a91eed77bdc258b46949fdbb6dd53ee86"
+      },
+      {
+        "id": "CAND-HARD14-025",
+        "contentSha256": "161b3a5dd2ce1c80ac359d4e070dc4257ba9a026060559b7049f09f9da8f6eba"
+      },
+      {
+        "id": "CAND-HARD14-026",
+        "contentSha256": "1698e0e2a6686605262977f9f795c8f6ad8d462d006e80bbdbc923ffadbf2b6b"
+      },
+      {
+        "id": "CAND-HARD14-027",
+        "contentSha256": "51aaa47948717b055c52c557ab74a55f4da27ee8557eb85b04dbc3ba9d8bafb4"
+      },
+      {
+        "id": "CAND-HARD14-028",
+        "contentSha256": "9a76459607983ff49b5c5c1bcf34538b61cf7cbb0a17b5d85a11c5456a82dfc1"
+      },
+      {
+        "id": "CAND-HARD14-029",
+        "contentSha256": "e38f62ec7ed42f55c53c8d96251572138bbbfae146487bc535cc86e819457680"
+      },
+      {
+        "id": "CAND-HARD14-030",
+        "contentSha256": "91bcf7550bfdd9e8111af8448d11fc829e2461e3b75858dd50eaf516a67bfb92"
+      },
+      {
+        "id": "CAND-HARD14-031",
+        "contentSha256": "d0e437bb0fe42075c4cbd1ec32e4e653a1d5326283f70c593175ce938538e2ff"
+      },
+      {
+        "id": "CAND-HARD14-032",
+        "contentSha256": "5bc370642a471d531e0dedc60a3ade59c3e7a065e121d2f1d51f9e465af24eba"
+      },
+      {
+        "id": "CAND-HARD14-033",
+        "contentSha256": "5c7eaab1f74375addf4650ef05f345def5214f50d524bb70bb9a4f0dc2d35ea5"
+      },
+      {
+        "id": "CAND-HARD14-034",
+        "contentSha256": "7575aa4a55da378efad6d2951e1c8d8f9b571f5670cf4ff244ba3d817990fb07"
+      },
+      {
+        "id": "CAND-HARD14-035",
+        "contentSha256": "026f57a22d028c6a1622b47889283e5412a01be8606c501ee8adf1d881275ebd"
+      },
+      {
+        "id": "CAND-HARD14-036",
+        "contentSha256": "2ad203471840d48ade1c8a860dc71273ac555fedc0bc92d780d2c989aaa4d2dd"
+      },
+      {
+        "id": "CAND-HARD14-037",
+        "contentSha256": "1fd20a5785b1122edc48314fc1b6cf6a28f804d2f326a7b7d25dcdff4ef73ef4"
+      },
+      {
+        "id": "CAND-HARD14-038",
+        "contentSha256": "67cc883dbbb6102a1dabc9212eefe06fb5f105a05196cbbe99a56c64fc26a20b"
+      },
+      {
+        "id": "CAND-HARD14-039",
+        "contentSha256": "1833575c8e4129fcd656d6c1964ae513684590a48c40ea74f88d7da6e898d341"
+      },
+      {
+        "id": "CAND-HARD14-040",
+        "contentSha256": "814752cb6eb9f9f18836dcbed69011bd6e6d3a38403f535b0254ef537db2ac26"
+      },
+      {
+        "id": "CAND-HARD14-041",
+        "contentSha256": "756ffc0fde3281f1cae5fa6cbeaab177c42cbabc00d3fb1eba1eaf0b56995556"
+      },
+      {
+        "id": "CAND-HARD14-042",
+        "contentSha256": "a2a3b6aea5793215a40bd59b42a4149404530dfb7780508c983ba6a370ecaf9e"
+      },
+      {
+        "id": "CAND-HARD14-043",
+        "contentSha256": "054e1f7223697ee2480856c46b160f3dea4c837e641f16b835077ce7c0853da0"
+      },
+      {
+        "id": "CAND-HARD14-044",
+        "contentSha256": "7629a6f8c31114baf9147884f1c2db4f470c410027232d14fe33f5efa401df42"
+      },
+      {
+        "id": "CAND-HARD14-045",
+        "contentSha256": "4d1817d412b18a0b6a90526deab95f87186375e01c6fd294ca881ff67eec00e0"
+      },
+      {
+        "id": "CAND-HARD14-046",
+        "contentSha256": "6e4bf74f1b1a37527de2757f874c67147edf5b685a50fc9afc0a9057b16d7dbb"
+      },
+      {
+        "id": "CAND-HARD14-047",
+        "contentSha256": "0548b11bd213a3fe22c7d1cd81c4a246009cfcfe675201fed367d2fbfb4284b3"
+      },
+      {
+        "id": "CAND-HARD14-048",
+        "contentSha256": "50a9ba49230c2f7edc48beac06c416ce938b826f9965881ee45eee807571d229"
+      },
+      {
+        "id": "CAND-HARD14-049",
+        "contentSha256": "0fde03be20ab9f612d0760e15edd3048617ab72026a877807205b36c4fe6b9f1"
+      },
+      {
+        "id": "CAND-HARD14-050",
+        "contentSha256": "8cf5ffe987295fc1718411e4979559524b12b5fa3f29d5f2a30041b4ceebd477"
+      },
+      {
+        "id": "CAND-HARD14-051",
+        "contentSha256": "099a28fe4c40880c5450a6dd00f0219adbbb2dbd644f40375a6be24f5e0d2a55"
+      },
+      {
+        "id": "CAND-HARD14-052",
+        "contentSha256": "d6d6cc324995767d9554ff36d627888a9939a0afd5f279952178c07737ebd3ea"
+      },
+      {
+        "id": "CAND-HARD14-053",
+        "contentSha256": "f348d7538b9d9a1c3e168ffbcaac7688cbdb554fb2612a95b7d32572eadd4c7a"
+      },
+      {
+        "id": "CAND-HARD14-054",
+        "contentSha256": "a4f0237a52bcfb0d64cd22731e87a2209a1ebb21e07d6a0f13b56e98bf766650"
+      },
+      {
+        "id": "CAND-HARD14-055",
+        "contentSha256": "1fa87d8384528e2e65ab750c0b08ad095309389a10816635a85b0033723615fd"
+      },
+      {
+        "id": "CAND-HARD14-056",
+        "contentSha256": "affaeca6843c46201ac89e95d4c49a02966da641d378af5781d88a0c79390adc"
+      },
+      {
+        "id": "CAND-HARD14-057",
+        "contentSha256": "ba5e1c3d445be1658d19c671c4b17f03a9980a0405849440b4a78a3f547574a0"
+      },
+      {
+        "id": "CAND-HARD14-058",
+        "contentSha256": "5854ab94cb1708ecefd31037a1b94df1ec8280e8cd10443e4af7b4fdbb5b81d8"
+      },
+      {
+        "id": "CAND-HARD14-059",
+        "contentSha256": "3805b758f93ef96d61561a5eeb597d42dfc8fc4e3c03d67ec9ede779da99896a"
+      },
+      {
+        "id": "CAND-HARD14-060",
+        "contentSha256": "b4d780114e52fbbd867f695239a53efa186137d53e99387e03cb1388dd0b581a"
+      },
+      {
+        "id": "CAND-HARD14-061",
+        "contentSha256": "7a1771601c6f6b8de9fc7cb66e7e7f60bcc07ff466b49ea292a36f5f16716764"
+      },
+      {
+        "id": "CAND-HARD14-062",
+        "contentSha256": "ee15588f3d752c3ce32bd4f028c39a111d4f0e37d74d949a7860ffae9cdd5e04"
+      },
+      {
+        "id": "CAND-HARD14-063",
+        "contentSha256": "f240b37bd3d4f0095638c65df0e1050968d2c225ef20509e29fc44da30ad2745"
+      },
+      {
+        "id": "CAND-HARD14-064",
+        "contentSha256": "d975f98923ff71882a6969d55146221db10ca807b448e10c07268dbcf1cae33b"
+      },
+      {
+        "id": "CAND-HARD14-065",
+        "contentSha256": "f155bdf920a3ee2f1b947e74c2b311bbbf117e3c94791f1861cccea3ec3ce97d"
+      },
+      {
+        "id": "CAND-HARD14-066",
+        "contentSha256": "5d7c6648783285789d24e377fc3c11a78ae36ac364ca3e1cf6d27d1bb451eab5"
+      },
+      {
+        "id": "CAND-HARD14-067",
+        "contentSha256": "f57a50bd8dac3c3df1765daff507d8a96076a9e433d9077bd98efc4bb2330a1e"
+      },
+      {
+        "id": "CAND-HARD14-068",
+        "contentSha256": "20d9e7ca879a2c82a8ddf3f1e72dff01438a6518c823aca51acbe9f647c8205b"
+      },
+      {
+        "id": "CAND-HARD14-069",
+        "contentSha256": "8967848fa72c9feaa5d062cc1dc19650e8fb4fc06bd346901d8d4376cef9ba9a"
+      },
+      {
+        "id": "CAND-HARD14-070",
+        "contentSha256": "b18d645064d994bd30500f4d0b8a5d39abba7dbe223f471242410d5fe81c3e2d"
+      },
+      {
+        "id": "CAND-HARD14-071",
+        "contentSha256": "363569adfb24df06367b1d0e07712d0f4dc3b1c44343c33ed0715da880377293"
+      },
+      {
+        "id": "CAND-HARD14-072",
+        "contentSha256": "c991c7ad00402fad9582f79b5a73a3005d284267c3ad403e7926097be5a6631f"
+      },
+      {
+        "id": "CAND-HARD14-073",
+        "contentSha256": "20f1aa36912d4a3cbc546e48c48c679ccbe3befec9b96e85789970f5939ae47e"
+      },
+      {
+        "id": "CAND-HARD14-074",
+        "contentSha256": "df15a638d28d6c7c7b24bb4b6183f76bd85e9278a9070c96d1f34ce3e1dc055b"
+      },
+      {
+        "id": "CAND-HARD14-075",
+        "contentSha256": "b1251fd9eae888c8b800f9c73beac3b19ac11f2b19d056742ff52ce785abb744"
+      },
+      {
+        "id": "CAND-HARD14-076",
+        "contentSha256": "1b170c032e9d6e30d38e9e55982560489f739bc461a018dcc8c3a7bfa6e5272d"
+      },
+      {
+        "id": "CAND-HARD14-077",
+        "contentSha256": "72aa96fdb00c32c84413a0ceb6915f35c3b9096a094b49960b1b5c40382eb0a1"
+      },
+      {
+        "id": "CAND-HARD14-078",
+        "contentSha256": "ffb03323ffe416d26eada1d61ee65508b6a73f00a8bc31366f7a39a880608485"
+      },
+      {
+        "id": "CAND-HARD14-079",
+        "contentSha256": "e39e87158aa4fcaeea036a67153c382077c5d6eb2b1ba86f78da855e0e8d323d"
+      },
+      {
+        "id": "CAND-HARD14-080",
+        "contentSha256": "fa6ba5974b9ebc0a2fdb6e5374c362d5ce6290f4ba7cd8a5f087dda7022dd01d"
+      },
+      {
+        "id": "CAND-HARD14-081",
+        "contentSha256": "5c562d1ba9a58f81098aad6c9169108eb66fab54481f66efa279b591f772f876"
+      },
+      {
+        "id": "CAND-HARD14-082",
+        "contentSha256": "1b8f23bf9652ee10542388be155794d15578ca57c671c94121201fbfb167c46d"
+      },
+      {
+        "id": "CAND-HARD14-083",
+        "contentSha256": "d632a0076caed95754f0cb7a6112a4ba87fa1e9525547d0ea6cc5c331cf61e3b"
+      },
+      {
+        "id": "CAND-HARD14-084",
+        "contentSha256": "9aba0e754d3bf8bc54b4df7669c825af607b846707fc9721da2e1472e6f15789"
+      },
+      {
+        "id": "CAND-HARD14-085",
+        "contentSha256": "4157f6f0f23aa0437b2a123bad2853d184fbdaffedb82027374808f0a41f4223"
+      },
+      {
+        "id": "CAND-HARD14-086",
+        "contentSha256": "02044f7236742336fb1ba66849a6932ac757e55afcc733c5d40313036d874bd3"
+      },
+      {
+        "id": "CAND-HARD14-087",
+        "contentSha256": "3ec45593683afcd2fbbb99c99ba3b6b6fc9298fad02d852a1752ec92c4798368"
+      },
+      {
+        "id": "CAND-HARD14-088",
+        "contentSha256": "477f16e964dd7254a57b5f8ce6404c4bf5034891e3bd71f024504b83e9b26d8e"
+      },
+      {
+        "id": "CAND-HARD14-089",
+        "contentSha256": "35a133ec6f8f470fb9820bbd129b191c70ef8cde89045fe8dc7dec502aff4140"
+      },
+      {
+        "id": "CAND-HARD14-090",
+        "contentSha256": "d448139e77b4af157823765bdf000e6995b025d9b42414bc22ce361696d021b3"
+      },
+      {
+        "id": "CAND-HARD14-091",
+        "contentSha256": "b176e7130b90a0a138d2e09056a7d9ac7f353e23bdfdd9b11c08dc2462bf4064"
+      },
+      {
+        "id": "CAND-HARD14-092",
+        "contentSha256": "51fe86e79e435f8df705d8104e2f91ea340b9c307b5378c8b4934f4784d55bd6"
+      },
+      {
+        "id": "CAND-HARD14-093",
+        "contentSha256": "c8ab582dde28261c26eeee40508e2a0f7313c8c07cafb7bf8b5c01fe7cd34999"
+      },
+      {
+        "id": "CAND-HARD14-094",
+        "contentSha256": "6c4ba0352b3539cc4d7cd617f0d5f9997f7aa366617872a2469c7b14112694fd"
+      },
+      {
+        "id": "CAND-HARD14-095",
+        "contentSha256": "0c7eb37247fdb12dff652125b08cb1b767929ebe2fe1a221e18e67bc741dbda6"
+      },
+      {
+        "id": "CAND-HARD14-096",
+        "contentSha256": "d42a8267b07fbc33d2e1edc89404a972f6c9fc10a4f2cfa6ecaa95affd76cb5b"
+      },
+      {
+        "id": "CAND-HARD14-097",
+        "contentSha256": "ee45f23b3112958737b890cd9c5d7754d54a6141638b0112d01be0b9bcacf49c"
+      },
+      {
+        "id": "CAND-HARD14-098",
+        "contentSha256": "807791c344897c5af78e917f22c5e30ba7d5221cd09ea91f5faa3a2d19f873f8"
+      },
+      {
+        "id": "CAND-HARD14-099",
+        "contentSha256": "bd7cee753017ffa4986f252fe5413a849e0f21fa70d863d1bd4cbcd4850c6685"
+      },
+      {
+        "id": "CAND-HARD14-100",
+        "contentSha256": "196332565122cdbb9515fefbe65f0dfe3227706d4a97df37e8afdbd9da1c4fea"
+      }
+    ]
+  },
+  "consistency": {
+    "count": 100,
+    "idUnique": true,
+    "chapterQuota": {
+      "1": 10,
+      "2": 35,
+      "3": 40,
+      "4": 15
+    },
+    "chapterOk": true,
+    "hardLevelQuota": {
+      "H1": 53,
+      "H2": 47,
+      "H3": 0
+    },
+    "hardLevelOk": true,
+    "qtypeCounts": {
+      "application": 66,
+      "single": 10,
+      "multi": 15,
+      "numeric": 7,
+      "judge": 2
+    },
+    "qtypeOk": true,
+    "allDifficulty3": true,
+    "hardProfile100": true,
+    "shaMismatch": [],
+    "batchContentSha256": "d8d22ad0bcbac2dba134d417e6a3db5cd6407f256492155345330ae043025819",
+    "batchRecompute": "d8d22ad0bcbac2dba134d417e6a3db5cd6407f256492155345330ae043025819",
+    "batchShaOk": true,
+    "designMapSha": "49beb518f5cee97ef1c3d0a1eddcfaee611c802afa1b6cf419ca8dbd22648e45",
+    "qualityEvidenceSha": "6558cd12956dbd962f70897876e0d00198ad059be3a38aeb113d53ec5738b70e",
+    "designsFileSha": "4f0e8e8de80323c84a909cff5f6a3c101474c6d8efa789d40762c747e6b1a444",
+    "qualityFileSha": "a68f4dd566e3df68897a704f4bed1052edf2309b88409ef40cab694d7c5796a0",
+    "designMapIssues": [],
+    "codeFormatBad": []
+  },
+  "dbBaseline": {
+    "drawable": 813,
+    "byDifficulty": {
+      "1": 335,
+      "2": 478,
+      "3": 0
+    },
+    "baselineOk": true,
+    "codeConflicts": [],
+    "kpMiss": [],
+    "kpInactive": [],
+    "methodMiss": [],
+    "catMiss": [],
+    "spMiss": [],
+    "hasHardLevelCol": false,
+    "hardLevelPersistenceNote": "Admin HsMathImportItem has no hardLevel; column absent in DB. Persist H1/H2/H3 only in offline evidence (candidates.mjs hardProfile + preflight/quality JSON). Import must strip hardLevel."
+  },
+  "adaptDryRun": {
+    "adaptedN": 100,
+    "adaptErrors": [],
+    "numericProtocolBad": [],
+    "appRubricOffline": [],
+    "hardLevelStripped": true,
+    "hasHardLevelCol": false,
+    "note": "Mapper converts rubric.step→key/title/criteria; numeric LaTeX/中文 answers fail protocol until candidate fix (forbidden this phase)."
+  },
+  "dedup": {
+    "fingerprintVs813": [],
+    "exactStemVs813": [],
+    "semanticContainVs813": [],
+    "intraBatchExact": [],
+    "modelFamilyMulti": []
+  },
+  "diagram": {
+    "requiredLabeledN": 0,
+    "recommendedLabeledN": 11,
+    "recommendedIds": [
+      "CAND-HARD14-006",
+      "CAND-HARD14-013",
+      "CAND-HARD14-018",
+      "CAND-HARD14-028",
+      "CAND-HARD14-034",
+      "CAND-HARD14-038",
+      "CAND-HARD14-039",
+      "CAND-HARD14-040",
+      "CAND-HARD14-050",
+      "CAND-HARD14-081",
+      "CAND-HARD14-085"
+    ],
+    "heuristic": [
+      {
+        "id": "CAND-HARD14-011",
+        "labeled": "NOT_NEEDED",
+        "heuristicFlags": [
+          "root_distribution"
+        ],
+        "suggestRequired": false
+      },
+      {
+        "id": "CAND-HARD14-012",
+        "labeled": "NOT_NEEDED",
+        "heuristicFlags": [
+          "root_distribution"
+        ],
+        "suggestRequired": false
+      },
+      {
+        "id": "CAND-HARD14-027",
+        "labeled": "NOT_NEEDED",
+        "heuristicFlags": [
+          "root_distribution"
+        ],
+        "suggestRequired": false
+      },
+      {
+        "id": "CAND-HARD14-031",
+        "labeled": "NOT_NEEDED",
+        "heuristicFlags": [
+          "root_distribution"
+        ],
+        "suggestRequired": false
+      },
+      {
+        "id": "CAND-HARD14-033",
+        "labeled": "NOT_NEEDED",
+        "heuristicFlags": [
+          "root_distribution"
+        ],
+        "suggestRequired": false
+      },
+      {
+        "id": "CAND-HARD14-040",
+        "labeled": "RECOMMENDED",
+        "heuristicFlags": [
+          "root_distribution"
+        ],
+        "suggestRequired": false
+      },
+      {
+        "id": "CAND-HARD14-042",
+        "labeled": "NOT_NEEDED",
+        "heuristicFlags": [
+          "root_distribution"
+        ],
+        "suggestRequired": false
+      },
+      {
+        "id": "CAND-HARD14-050",
+        "labeled": "RECOMMENDED",
+        "heuristicFlags": [
+          "root_distribution"
+        ],
+        "suggestRequired": false
+      },
+      {
+        "id": "CAND-HARD14-058",
+        "labeled": "NOT_NEEDED",
+        "heuristicFlags": [
+          "graph_language"
+        ],
+        "suggestRequired": false
+      },
+      {
+        "id": "CAND-HARD14-074",
+        "labeled": "NOT_NEEDED",
+        "heuristicFlags": [
+          "graph_language"
+        ],
+        "suggestRequired": false
+      },
+      {
+        "id": "CAND-HARD14-078",
+        "labeled": "NOT_NEEDED",
+        "heuristicFlags": [
+          "graph_language"
+        ],
+        "suggestRequired": false
+      },
+      {
+        "id": "CAND-HARD14-083",
+        "labeled": "NOT_NEEDED",
+        "heuristicFlags": [
+          "graph_language"
+        ],
+        "suggestRequired": false
+      },
+      {
+        "id": "CAND-HARD14-097",
+        "labeled": "NOT_NEEDED",
+        "heuristicFlags": [
+          "root_distribution"
+        ],
+        "suggestRequired": false
+      }
+    ]
+  },
+  "downgradeContrastPool": [
+    {
+      "itemId": "280",
+      "code": "CAND-G2A-006",
+      "specialtyCode": "rja-ch1",
+      "reason": "容斥应用，明确 d2，非压轴。"
+    },
+    {
+      "itemId": "379",
+      "code": "CAND-G3A-005",
+      "specialtyCode": "rja-ch1",
+      "reason": "容斥应用，明确 d2，非压轴。"
+    },
+    {
+      "itemId": "695",
+      "code": "CAND-G4A-221",
+      "specialtyCode": "rja-ch1",
+      "reason": "容斥应用，明确 d2，非压轴。"
+    },
+    {
+      "itemId": "768",
+      "code": "CAND-G4A-294",
+      "specialtyCode": "rja-ch1",
+      "reason": "容斥应用，明确 d2，非压轴。"
+    },
+    {
+      "itemId": "866",
+      "code": "CAND-G4A-392",
+      "specialtyCode": "rja-ch1",
+      "reason": "容斥应用，明确 d2，非压轴。"
+    },
+    {
+      "itemId": "938",
+      "code": "CAND-G4A-464",
+      "specialtyCode": "rja-ch1",
+      "reason": "容斥应用，明确 d2，非压轴。"
+    },
+    {
+      "itemId": "163",
+      "code": "CAND-G1B-012",
+      "specialtyCode": "rja-ch2",
+      "reason": "容斥应用，明确 d2，非压轴。"
+    },
+    {
+      "itemId": "287",
+      "code": "CAND-G2A-013",
+      "specialtyCode": "rja-ch2",
+      "reason": "容斥应用，明确 d2，非压轴。"
+    },
+    {
+      "itemId": "166",
+      "code": "CAND-G1B-015",
+      "specialtyCode": "rja-ch2",
+      "reason": "三角函数性质应用，d2。"
+    },
+    {
+      "itemId": "286",
+      "code": "CAND-G2A-012",
+      "specialtyCode": "rja-ch2",
+      "reason": "维持 d2；未达高一压轴标准。"
+    },
+    {
+      "itemId": "290",
+      "code": "CAND-G2A-016",
+      "specialtyCode": "rja-ch2",
+      "reason": "维持 d2；未达高一压轴标准。"
+    },
+    {
+      "itemId": "387",
+      "code": "CAND-G3A-013",
+      "specialtyCode": "rja-ch2",
+      "reason": "维持 d2；未达高一压轴标准。"
+    },
+    {
+      "itemId": "390",
+      "code": "CAND-G3A-016",
+      "specialtyCode": "rja-ch2",
+      "reason": "维持 d2；未达高一压轴标准。"
+    },
+    {
+      "itemId": "501",
+      "code": "CAND-G4A-027",
+      "specialtyCode": "rja-ch2",
+      "reason": "三角函数性质应用，d2。"
+    },
+    {
+      "itemId": "606",
+      "code": "CAND-G4A-132",
+      "specialtyCode": "rja-ch2",
+      "reason": "维持 d2；未达高一压轴标准。"
+    },
+    {
+      "itemId": "629",
+      "code": "CAND-G4A-155",
+      "specialtyCode": "rja-ch2",
+      "reason": "维持 d2；未达高一压轴标准。"
+    },
+    {
+      "itemId": "697",
+      "code": "CAND-G4A-223",
+      "specialtyCode": "rja-ch2",
+      "reason": "绝对值分段最值，1A 降 d1 偏严，上调 d2。"
+    },
+    {
+      "itemId": "772",
+      "code": "CAND-G4A-298",
+      "specialtyCode": "rja-ch2",
+      "reason": "维持 d2；未达高一压轴标准。"
+    },
+    {
+      "itemId": "812",
+      "code": "CAND-G4A-338",
+      "specialtyCode": "rja-ch2",
+      "reason": "维持 d2；未达高一压轴标准。"
+    },
+    {
+      "itemId": "862",
+      "code": "CAND-G4A-388",
+      "specialtyCode": "rja-ch2",
+      "reason": "三角函数性质应用，d2。"
+    },
+    {
+      "itemId": "917",
+      "code": "CAND-G4A-443",
+      "specialtyCode": "rja-ch2",
+      "reason": "维持 d2；未达高一压轴标准。"
+    },
+    {
+      "itemId": "175",
+      "code": "CAND-G1B-024",
+      "specialtyCode": "rja-ch3",
+      "reason": "维持 d2；未达高一压轴标准。"
+    },
+    {
+      "itemId": "181",
+      "code": "CAND-G1B-030",
+      "specialtyCode": "rja-ch3",
+      "reason": "三角函数性质应用，d2。"
+    },
+    {
+      "itemId": "400",
+      "code": "CAND-G3A-026",
+      "specialtyCode": "rja-ch3",
+      "reason": "函数性质，d2。"
+    },
+    {
+      "itemId": "402",
+      "code": "CAND-G3A-028",
+      "specialtyCode": "rja-ch3",
+      "reason": "三角函数性质应用，d2。"
+    },
+    {
+      "itemId": "540",
+      "code": "CAND-G4A-066",
+      "specialtyCode": "rja-ch3",
+      "reason": "维持 d2；未达高一压轴标准。"
+    },
+    {
+      "itemId": "546",
+      "code": "CAND-G4A-072",
+      "specialtyCode": "rja-ch3",
+      "reason": "维持 d2；未达高一压轴标准。"
+    },
+    {
+      "itemId": "561",
+      "code": "CAND-G4A-087",
+      "specialtyCode": "rja-ch3",
+      "reason": "维持 d2；未达高一压轴标准。"
+    },
+    {
+      "itemId": "562",
+      "code": "CAND-G4A-088",
+      "specialtyCode": "rja-ch3",
+      "reason": "根式+对数定义域求交并讨论零点，提高题；1A UNCERTAIN 可落定为 d2。"
+    },
+    {
+      "itemId": "579",
+      "code": "CAND-G4A-105",
+      "specialtyCode": "rja-ch3",
+      "reason": "函数性质，d2。"
+    }
+  ],
+  "gateHints": {
+    "structuralConsistencyOk": true,
+    "dbBaselineOk": true,
+    "adaptOk": true,
+    "numericProtocolOk": true
+  }
+}

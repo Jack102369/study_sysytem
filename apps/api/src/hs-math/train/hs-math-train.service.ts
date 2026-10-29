@@ -102,46 +102,87 @@ export class HsMathTrainService {
     })
     if (!specialty) throw new NotFoundException('专项不存在或未启用')
 
-    const category = await this.categoriesRepo.findOne({
-      where: { id: dto.categoryId, isActive: true },
-    })
-    if (!category) throw new NotFoundException('分类不存在或未启用')
-    if (String(category.specialtyId) !== String(specialty.id)) {
-      throw new BadRequestException('分类不属于指定专项')
+    const rawCategoryId =
+      dto.categoryId != null && String(dto.categoryId).trim() !== ''
+        ? String(dto.categoryId).trim()
+        : null
+
+    let category: { id: string; specialtyId: string } | null = null
+    if (rawCategoryId) {
+      category = await this.categoriesRepo.findOne({
+        where: { id: rawCategoryId, isActive: true },
+      })
+      if (!category) throw new NotFoundException('分类不存在或未启用')
+      if (String(category.specialtyId) !== String(specialty.id)) {
+        throw new BadRequestException('分类不属于指定专项')
+      }
     }
 
-    const where: {
-      specialtyId: string
-      categoryId: string
-      difficulty: number
-      pool: HsMathPool
-      status: 'approved'
-      isActive: boolean
-      qtype?: HsMathQtype
-    } = {
-      specialtyId: specialty.id,
-      categoryId: category.id,
-      difficulty: dto.difficulty,
-      pool: poolMode,
-      status: 'approved',
-      isActive: true,
-    }
-    // 题型筛选：仅当显式传入合法 questionType 时收窄（未传 = 全部）
-    if (dto.questionType) {
-      where.qtype = dto.questionType
-    }
+    const trueH3Only = dto.trueH3Only === true
 
-    let eligible = await this.itemsRepo.find({
-      where,
-      order: { id: 'ASC' },
-    })
+    let eligible: HsMathTrainItem[]
+    if (trueH3Only) {
+      // 真 H3：code 前缀约定 CAND-H3%（暂无 hard_level 列）
+      const qb = this.itemsRepo
+        .createQueryBuilder('i')
+        .where('i.specialty_id = :specialtyId', { specialtyId: specialty.id })
+        .andWhere('i.difficulty = :difficulty', { difficulty: dto.difficulty })
+        .andWhere('i.pool = :pool', { pool: poolMode })
+        .andWhere('i.status = :status', { status: 'approved' })
+        .andWhere('i.is_active = 1')
+        .andWhere('i.code LIKE :h3Prefix', { h3Prefix: 'CAND-H3%' })
+        .orderBy('i.id', 'ASC')
+      if (category) {
+        qb.andWhere('i.category_id = :categoryId', { categoryId: category.id })
+      }
+      if (dto.questionType) {
+        qb.andWhere('i.qtype = :qtype', { qtype: dto.questionType })
+      }
+      eligible = await qb.getMany()
+    } else {
+      const where: {
+        specialtyId: string
+        categoryId?: string
+        difficulty: number
+        pool: HsMathPool
+        status: 'approved'
+        isActive: boolean
+        qtype?: HsMathQtype
+      } = {
+        specialtyId: specialty.id,
+        difficulty: dto.difficulty,
+        pool: poolMode,
+        status: 'approved',
+        isActive: true,
+      }
+      if (category) {
+        where.categoryId = category.id
+      }
+      // 题型筛选：仅当显式传入合法 questionType 时收窄（未传 = 全部）
+      if (dto.questionType) {
+        where.qtype = dto.questionType
+      }
+
+      eligible = await this.itemsRepo.find({
+        where,
+        order: { id: 'ASC' },
+      })
+    }
     eligible = filterTrainItemsByQuestionType(eligible, dto.questionType ?? null)
 
     if (!eligible.length) {
+      const scope = category ? '该分类' : '该章节'
+      if (trueH3Only) {
+        throw new BadRequestException(
+          dto.questionType
+            ? `${scope}暂无已批准的真 H3「${dto.questionType}」题目`
+            : `${scope}暂无已批准的真 H3 题目`,
+        )
+      }
       throw new BadRequestException(
         dto.questionType
-          ? `该分类在当前难度下暂无已批准的「${dto.questionType}」题目`
-          : '该分类暂无已批准题目',
+          ? `${scope}在当前难度下暂无已批准的「${dto.questionType}」题目`
+          : `${scope}暂无已批准题目`,
       )
     }
 
@@ -205,7 +246,7 @@ export class HsMathTrainService {
           sessionKind: 'specialty',
           dailyDate: null,
           specialtyId: specialty.id,
-          categoryId: category.id,
+          categoryId: category ? category.id : null,
           poolMode,
           difficulty: dto.difficulty,
           plannedCount: dto.count,
@@ -376,7 +417,13 @@ export class HsMathTrainService {
       .getMany()
 
     const specialtyIds = [...new Set(rows.map((r) => String(r.specialtyId)))]
-    const categoryIds = [...new Set(rows.map((r) => String(r.categoryId)))]
+    const categoryIds = [
+      ...new Set(
+        rows
+          .map((r) => (r.categoryId != null ? String(r.categoryId) : ''))
+          .filter(Boolean),
+      ),
+    ]
     const specialties = specialtyIds.length
       ? await this.specialtiesRepo.find({ where: { id: In(specialtyIds) } })
       : []
@@ -388,7 +435,8 @@ export class HsMathTrainService {
 
     const items = rows.map((s) => {
       const sp = spMap.get(String(s.specialtyId))
-      const cat = catMap.get(String(s.categoryId))
+      const cat =
+        s.categoryId != null ? catMap.get(String(s.categoryId)) : undefined
       const completed = s.status === 'completed'
       return {
         sessionId: String(s.id),
@@ -397,9 +445,9 @@ export class HsMathTrainService {
         specialtyId: String(s.specialtyId),
         specialtyCode: sp?.code ?? null,
         specialtyName: sp?.name ?? null,
-        categoryId: String(s.categoryId),
+        categoryId: s.categoryId != null ? String(s.categoryId) : null,
         categoryCode: cat?.code ?? null,
-        categoryName: cat?.name ?? null,
+        categoryName: cat?.name ?? '本章全部',
         difficulty: s.difficulty,
         poolMode: s.poolMode,
         plannedCount: s.plannedCount,
@@ -904,9 +952,12 @@ export class HsMathTrainService {
     const specialty = await this.specialtiesRepo.findOne({
       where: { id: session.specialtyId },
     })
-    const category = await this.categoriesRepo.findOne({
-      where: { id: session.categoryId },
-    })
+    const category =
+      session.categoryId != null
+        ? await this.categoriesRepo.findOne({
+            where: { id: session.categoryId },
+          })
+        : null
     const items = await this.sessionItemsRepo.find({
       where: { sessionId },
       order: { sortOrder: 'ASC' },
@@ -1028,9 +1079,10 @@ export class HsMathTrainService {
       specialtyId: String(session.specialtyId),
       specialtyCode: specialty?.code ?? null,
       specialtyName: specialty?.name ?? null,
-      categoryId: String(session.categoryId),
+      categoryId:
+        session.categoryId != null ? String(session.categoryId) : null,
       categoryCode: category?.code ?? null,
-      categoryName: category?.name ?? null,
+      categoryName: category?.name ?? '本章全部',
       /** methods 语义：题目当前有效关联，非答题时快照 */
       methodsSemantics: 'current_item_link' as const,
       items: items.map((item) => {

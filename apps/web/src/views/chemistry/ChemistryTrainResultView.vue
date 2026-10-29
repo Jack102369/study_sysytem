@@ -145,6 +145,12 @@
               {{ itemSpecLabel(it) }}
             </p>
             <p class="stem">{{ displayStem(it) }}</p>
+            <TrainSessionIndustrialDiagrams
+              v-if="session && it.diagramAssets?.length"
+              :session-id="session.id"
+              :session-item-id="it.id"
+              :assets="it.diagramAssets"
+            />
             <p class="ans-line">
               你的答案：
               <span
@@ -190,6 +196,7 @@ import {
   formatChemFormulaDisplay,
   formatChemTextDisplay,
 } from '@/utils/chem-formula-display'
+import TrainSessionIndustrialDiagrams from '@/components/chemistry/TrainSessionIndustrialDiagrams.vue'
 import errMsg from '@/utils/err-msg'
 
 type NextStep = {

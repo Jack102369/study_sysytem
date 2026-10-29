@@ -1,0 +1,57 @@
+{
+  "phase": "HARD14-1F-GATE0",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "startedAt": "2026-10-28T08:32:44.327Z",
+  "ok": true,
+  "errors": [],
+  "batch": {
+    "declared": "d8d22ad0bcbac2dba134d417e6a3db5cd6407f256492155345330ae043025819",
+    "recompute": "d8d22ad0bcbac2dba134d417e6a3db5cd6407f256492155345330ae043025819",
+    "expected": "d8d22ad0bcbac2dba134d417e6a3db5cd6407f256492155345330ae043025819",
+    "shaMismatch": []
+  },
+  "required": {
+    "n": 0,
+    "ids": []
+  },
+  "qualityEvidence": {
+    "closureStatus": "HARD_IMPORT_PREFLIGHT_PASS",
+    "candStatus": "HARD_BATCH100_READY_FOR_PREFLIGHT",
+    "preflightStatus": "HARD_IMPORT_PREFLIGHT_PASS",
+    "unresolvedMath": 0,
+    "unresolvedModerate": null,
+    "mathIssueOpen": null
+  },
+  "adaptExit": 0,
+  "apiHealth": 200,
+  "db": {
+    "drawable": 813,
+    "d1": 335,
+    "d2": 478,
+    "d3": 0,
+    "hard14Existing": 0,
+    "codeConflicts": [],
+    "kpMiss": [],
+    "methodMiss": [],
+    "sessions": 143,
+    "sessionItems": 381,
+    "diagramLinks": 72,
+    "old813": 813,
+    "adminId": "2"
+  },
+  "quotas": {
+    "chapter": {
+      "1": 10,
+      "2": 35,
+      "3": 40,
+      "4": 15
+    },
+    "hardLevel": {
+      "H1": 53,
+      "H2": 47,
+      "H3": 0
+    },
+    "required": 0
+  },
+  "endedAt": "2026-10-28T08:32:44.713Z"
+}

@@ -1,0 +1,289 @@
+[
+  {
+    "n": 201,
+    "chapterNo": 3,
+    "sectionCode": "3.1",
+    "sectionName": "函数的概念及其表示",
+    "kpCode": "rja.3.1.04",
+    "kpName": "对应关系",
+    "modelFamily": "h3-reciprocal-sum-existence-global-mono",
+    "coreObjective": "倒数反射和的存在充要，与整体单调下端点可行域及构造",
+    "breakthrough": "存在 ⇔ g(x)=g(1/x)；整体递增迫使 f(x)≥x+1/x−1（x≥1），从而 f(2)≥3/2；用跳跃增函数构造证明上端无界可达",
+    "contrastH2": "只造一个特解 f=g/2 得不出 f(2) 的范围；只要求 [1,+∞) 上单调会弱成 f(2)≥1",
+    "deep": "symmetry-iff → half-value f(1)=1 → cross-1 mono 给出下界 → jump construct 证上无界",
+    "routine": "取 f=g/2 后直接猜 f(2)≥1",
+    "stem": "设 $g:(0,+\\infty)\\to\\mathbb{R}$。\n（1）证明：存在函数 $f:(0,+\\infty)\\to\\mathbb{R}$ 使对一切 $x>0$ 有 $f(x)+f\\!\\left(\\dfrac1x\\right)=g(x)$，当且仅当对一切 $x>0$ 有 $g(x)=g\\!\\left(\\dfrac1x\\right)$。\n（2）取 $g(x)=x+\\dfrac1x$。设 $f:(0,+\\infty)\\to\\mathbb{R}$ 满足上式，且 $f$ 在 $(0,+\\infty)$ 上单调递增。求 $f(1)$ 以及 $f(2)$ 的取值范围，并说明范围中每一点均可取到。",
+    "answer": "（1）见解析。\n（2）$f(1)=1$，$f(2)\\in\\left[\\dfrac32,+\\infty\\right)$。",
+    "analysis": "（1）必要性：若存在 $f$，则 $g\\!\\left(\\dfrac1x\\right)=f\\!\\left(\\dfrac1x\\right)+f(x)=g(x)$。充分性：若 $g(x)=g\\!\\left(\\dfrac1x\\right)$，取 $f=\\dfrac12 g$ 即可（亦可再加满足 $p(x)+p(1/x)=0$ 的任意 $p$）。\n（2）$g$ 满足对称条件。令 $x=1$：$2f(1)=2\\Rightarrow f(1)=1$。对 $x\\ge 1$，由 $0<\\dfrac1x\\le 1\\le x$ 及递增得 $f\\!\\left(\\dfrac1x\\right)\\le f(1)\\le f(x)$。左边 $g(x)-f(x)\\le 1\\Rightarrow f(x)\\ge g(x)-1=x+\\dfrac1x-1$；右边 $f(x)\\ge 1$。因 $x+\\dfrac1x-1\\ge 1$，故 $f(x)\\ge x+\\dfrac1x-1$。特取 $x=2$：$f(2)\\ge \\dfrac32$。\n另：对 $1\\le x<y$ 由 $\\dfrac1y<\\dfrac1x\\le 1$ 得 $f\\!\\left(\\dfrac1y\\right)\\le f\\!\\left(\\dfrac1x\\right)$，即 $f(y)-f(x)\\ge g(y)-g(x)$（递增下界）。\n可达性：$c=\\dfrac32$ 时取 $f(x)=x+\\dfrac1x-1$（$x\\ge 1$），$f(x)=1$（$0<x\\le 1$），可直接验证满足方程且整体非严增。若 $c>\\dfrac32$，在 $[1,2)$ 上取 $f=f_{\\min}:=g-1$，令 $f(2)=c$，在 $(2,+\\infty)$ 上取 $f(x)=f_{\\min}(x)+c-\\dfrac32$，再由 $f(1/x)=g(x)-f(x)$ 延拓到 $(0,1)$；单调允许在 $x=2$ 处跳跃，且增量下界与跨 $1$ 的比较均可逐段核验。故 $f(2)\\in\\left[\\dfrac32,+\\infty\\right)$。",
+    "maxScore": 14,
+    "rubric": [
+      { "step": "证明存在性充要 g(x)=g(1/x)", "score": 4 },
+      { "step": "求出 f(1)=1 与 f(2)≥3/2", "score": 5 },
+      { "step": "构造说明 [3/2,+∞) 均可取到", "score": 5 }
+    ],
+    "methodMain": "equiv_transform",
+    "methodAux": "mono_analysis",
+    "qtype": "application",
+    "round2": "ACCEPTED_H3",
+    "boundaryChecks": [
+      "仅 [1,+∞) 单调时下界退化为 f(2)≥1，整体单调才升至 3/2",
+      "c=3/2 连续特解；c>3/2 需允许跳跃或更快增长",
+      "线性插值 [1,2] 对 c∈[3/2,7/4) 不满足增量下界，不能当作唯一定义方式"
+    ],
+    "counterexampleAttempts": [
+      "f=g/2 给出 f(2)=5/4<3/2，与整体递增矛盾，故特解不在可行域",
+      "试图证明 f(2) 有上界：加速增长或跳跃可任意抬高 f(2)，上界不存在"
+    ]
+  },
+  {
+    "n": 202,
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "sectionName": "函数的基本性质",
+    "kpCode": "rja.3.2.01",
+    "kpName": "单调递增",
+    "modelFamily": "h3-equal-increment-mono-force-identity",
+    "coreObjective": "等步长增量条件 + 单调夹逼 ⇒ 恒等函数（不用连续性）",
+    "breakthrough": "先在全体有理分点得 f(k/n)=k/n，再用单调把任意 x 夹在相邻分点之间，全程不取极限定义连续性",
+    "contrastH2": "060 是平移不变推常数；本题是常速率增量推恒等，结论与方程均不同",
+    "deep": "grid-values → mono sandwich → identity；明示禁连续偷渡",
+    "routine": "默认 f 连续后对增量方程“求导”得 f'=1",
+    "stem": "设 $f:[0,1]\\to\\mathbb{R}$ 单调递增，$f(0)=0$，且对一切正整数 $n$ 与一切满足 $x+\\dfrac1n\\in[0,1]$ 的 $x$，都有\n$$f\\!\\left(x+\\dfrac1n\\right)-f(x)=\\dfrac1n.$$\n证明：$f(x)=x$ 对一切 $x\\in[0,1]$ 成立。（证明中不得假设 $f$ 连续，不得使用导数。）",
+    "answer": "$f(x)=x$（见证明）。",
+    "analysis": "对固定正整数 $n$，由 $f(0)=0$ 与增量条件归纳得：对 $k=0,1,\\ldots,n$，$f\\!\\left(\\dfrac kn\\right)=\\dfrac kn$。特别 $f(1)=1$。\n任取 $x\\in(0,1)$。取充分大的正整数 $n$ 使 $\\dfrac1n<1-x$（从而 $x+\\dfrac1n\\le 1$ 可用于邻点），令 $k=\\lfloor nx\\rfloor$，则 $\\dfrac kn\\le x\\le \\dfrac{k+1}n$ 且 $0\\le k\\le n-1$。由单调性\n$$f\\!\\left(\\dfrac kn\\right)\\le f(x)\\le f\\!\\left(\\dfrac{k+1}n\\right),$$\n即 $\\dfrac kn\\le f(x)\\le \\dfrac{k+1}n$。又 $\\dfrac kn\\le x\\le \\dfrac{k+1}n$，故\n$$|f(x)-x|\\le \\dfrac1n.$$\n因 $n$ 可任意大，必有 $f(x)=x$。当 $x=0$ 或 $1$ 已证。全程只用了分点赋值与单调夹逼，未假设 $f$ 连续。",
+    "maxScore": 12,
+    "rubric": [
+      { "step": "归纳得全体分点 f(k/n)=k/n", "score": 4 },
+      { "step": "单调夹逼得 |f(x)-x|≤1/n", "score": 5 },
+      { "step": "说明未用连续性", "score": 3 }
+    ],
+    "methodMain": "equiv_transform",
+    "methodAux": "mono_analysis",
+    "qtype": "application",
+    "round2": "ACCEPTED_H3",
+    "boundaryChecks": [
+      "n=1 时条件即 f(1)-f(0)=1，与 f(0)=0 合得 f(1)=1",
+      "无单调性时中学范围内无法定唯一（不展开选择公理反例）",
+      "若增量改为 ≤1/n，则只能得 f(x)≤x，推不出恒等"
+    ],
+    "counterexampleAttempts": [
+      "去掉单调性后试图找非常值解：高中不构造病态解；强调单调是闭合关键",
+      "用连续+差分推 f'=1：属禁术，评分应否定"
+    ]
+  },
+  {
+    "n": 203,
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "sectionName": "函数的基本性质",
+    "kpCode": "rja.3.2.04",
+    "kpName": "单调性判断",
+    "modelFamily": "h3-doubling-invariance-mono-half-const",
+    "coreObjective": "倍元不变 + 单调 ⇒ (0,1] 上常数；端点 0 可例外并构造反例",
+    "breakthrough": "由 f(1)=f(1/2)=f(2^{-n}) 与单调，对任意 x∈(0,1] 取 2^{-n}≤x 夹逼得 f(x)=f(1)；f(0) 不受倍元链约束",
+    "contrastH2": "误以为必须连续才能从 2^{-n}→0 传值；本题不传值到 0，反而证明 0 可以例外",
+    "deep": "dyadic collapse on (0,1] → optional jump at 0 with explicit counterexample",
+    "routine": "写 lim f(2^{-n})=f(0) 偷渡连续性",
+    "stem": "设 $f:[0,1]\\to\\mathbb{R}$ 单调递增，且对一切 $x\\in\\bigl[0,\\dfrac12\\bigr]$ 有 $f(x)=f(2x)$。\n（1）证明：存在常数 $c$ 使对一切 $x\\in(0,1]$ 有 $f(x)=c$。（不得假设 $f$ 连续。）\n（2）$f(0)$ 是否必须等于 $c$？若不必，请构造反例；若在（1）的条件下再补充 $f(0)=f(1)$，结论如何？",
+    "answer": "（1）$c=f(1)$，见证明。\n（2）不必。反例：$f(0)=-1$，$f(x)=0$（$x\\in(0,1]$）。若再设 $f(0)=f(1)$，则 $f$ 为常函数。",
+    "analysis": "（1）条件改写为：对一切 $t\\in[0,1]$，$f(t)=f\\!\\left(\\dfrac t2\\right)$（取 $x=t/2$）。于是 $f(1)=f\\!\\left(\\dfrac12\\right)=f\\!\\left(\\dfrac14\\right)=\\cdots=f(2^{-n})$ 对一切正整数 $n$ 成立。令 $c=f(1)$。任取 $x\\in(0,1]$，选取正整数 $n$ 使 $2^{-n}\\le x$（因 $2^{-n}\\to 0$ 可行）。由单调性 $f(2^{-n})\\le f(x)\\le f(1)$，但 $f(2^{-n})=f(1)$，故 $f(x)=c$。未用连续性。\n（2）取 $f(0)=-1$，$f(x)=0$（$x\\in(0,1]$）。则单调递增；对 $x\\in\\bigl[0,\\dfrac12\\bigr]$：$x=0$ 时 $f(0)=f(0)$；若 $x\\in\\bigl(0,\\dfrac12\\bigr]$ 则 $2x\\in(0,1]$，$f(x)=0=f(2x)$。故 $f(0)$ 不必等于 $c$。若补充 $f(0)=f(1)=c$，则结合（1）得 $f$ 恒为 $c$。",
+    "maxScore": 12,
+    "rubric": [
+      { "step": "建立 dyadic 链 f(1)=f(2^{-n})", "score": 3 },
+      { "step": "单调夹逼得 (0,1] 上为常值", "score": 4 },
+      { "step": "构造 f(0) 例外反例并讨论补条件", "score": 5 }
+    ],
+    "methodMain": "mono_analysis",
+    "methodAux": "classification",
+    "qtype": "application",
+    "round2": "ACCEPTED_H3",
+    "boundaryChecks": [
+      "非严增允许平台；严格递增与 f(x)=f(2x)（x∈(0,1/2]）直接矛盾",
+      "反例必须在 x=0 与 (0,1/2] 分别检查倍元条件",
+      "不得写 lim f(2^{-n})=f(0)"
+    ],
+    "counterexampleAttempts": [
+      "试图证明 f(0)=c：被反例否定",
+      "f(0)=1,f|(0,1]=0 递减，违反单调假设"
+    ]
+  },
+  {
+    "n": 204,
+    "chapterNo": 3,
+    "sectionCode": "3.1",
+    "sectionName": "函数的概念及其表示",
+    "kpCode": "rja.3.1.03",
+    "kpName": "值域",
+    "modelFamily": "h3-midpoint-equation-mono-force-affine",
+    "coreObjective": "中点方程 + 单调 ⇒ 一次函数（不用连续性）",
+    "breakthrough": "先在二元有理分点（dyadic）上由中点方程锁定为仿射，再借单调夹逼到任意实点",
+    "contrastH2": "教材“连续+中点凸⇒一次”依赖连续；本题用单调替代连续完成闭合",
+    "deep": "dyadic determination → mono sandwich → affine on [0,1]",
+    "routine": "默认连续后说“中点凸即凸再分类”",
+    "stem": "设 $f:[0,1]\\to\\mathbb{R}$ 满足：对任意 $x,y\\in[0,1]$，\n$$2f\\!\\left(\\dfrac{x+y}{2}\\right)=f(x)+f(y),$$\n且 $f$ 在 $[0,1]$ 上单调递增。记 $f(0)=a$，$f(1)=b$。证明：对一切 $x\\in[0,1]$ 有 $f(x)=a+(b-a)x$。（不得假设 $f$ 连续，不得使用微积分。）",
+    "answer": "$f(x)=a+(b-a)x$（见证明）。",
+    "analysis": "由中点方程得 $f\\!\\left(\\dfrac12\\right)=\\dfrac{a+b}{2}$。归纳可证：对一切正整数 $n$ 与 $k=0,1,\\ldots,2^n$，\n$$f\\!\\left(\\dfrac{k}{2^n}\\right)=a+(b-a)\\dfrac{k}{2^n}.$$\n（将区间对分，中点值恰为两端平均。）\n任取 $x\\in[0,1]$。对任意正整数 $n$，取整数 $k$ 使 $\\dfrac{k}{2^n}\\le x\\le \\dfrac{k+1}{2^n}$（端点处显然）。由单调性\n$$a+(b-a)\\dfrac{k}{2^n}\\le f(x)\\le a+(b-a)\\dfrac{k+1}{2^n}.$$\n夹逼得 $f(x)=a+(b-a)x$。未用连续性。因 $b=f(1)\\ge f(0)=a$，与递增相容。",
+    "maxScore": 12,
+    "rubric": [
+      { "step": "归纳锁定全体 dyadic 分点值", "score": 5 },
+      { "step": "单调夹逼到任意 x", "score": 5 },
+      { "step": "说明未用连续性", "score": 2 }
+    ],
+    "methodMain": "equiv_transform",
+    "methodAux": "mono_analysis",
+    "qtype": "application",
+    "round2": "ACCEPTED_H3",
+    "boundaryChecks": [
+      "a>b 与单调递增不相容，题设隐含 b≥a",
+      "无单调时中学不讨论 Hamel 基病态解",
+      "只对 x=y 的中点式不够定解"
+    ],
+    "counterexampleAttempts": [
+      "去掉单调后无法在中学课程内给出非常值反例，故强调单调是闭环条件",
+      "误用连续化归凸函数分类：属超纲偷渡"
+    ]
+  },
+  {
+    "n": 205,
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "sectionName": "函数的基本性质",
+    "kpCode": "rja.3.2.12",
+    "kpName": "奇偶性求值与综合应用",
+    "modelFamily": "h3-odd-additive-mono-force-linear",
+    "coreObjective": "奇函数 + 非负半轴可加 + 单调 ⇒ 全局一次（不用连续性）",
+    "breakthrough": "先在非负有理点得 f(q)=qf(1)，再用单调夹逼到非负实点，最后用奇性延拓到负半轴",
+    "contrastH2": "仅奇偶求值或仅整数可加是 H1/H2；三者耦合才锁死 f(x)=cx",
+    "deep": "N-homogeneity → Q-linearity on [0,+∞) → mono sandwich → odd extension",
+    "routine": "默认连续的柯西方程套结论",
+    "stem": "设 $f:\\mathbb{R}\\to\\mathbb{R}$ 为奇函数，且对一切 $x,y\\ge 0$ 有 $f(x+y)=f(x)+f(y)$，又 $f$ 在 $[0,+\\infty)$ 上单调递增。证明：存在常数 $c\\ge 0$，使得对一切实数 $x$ 有 $f(x)=cx$。（证明中不得假设 $f$ 连续。）",
+    "answer": "$f(x)=cx$，其中 $c=f(1)\\ge 0$（见证明）。",
+    "analysis": "奇函数 ⇒ $f(0)=0$。对 $x\\ge 0$ 与正整数 $n$，归纳得 $f(nx)=nf(x)$；进而对正整数 $m,n$ 有 $f\\!\\left(\\dfrac{m}{n}\\right)=\\dfrac{m}{n}f(1)$。令 $c=f(1)$。由 $[0,+\\infty)$ 上递增及 $f(0)=0$ 得 $c=f(1)\\ge 0$。\n任取 $x>0$。对正整数 $n$ 取 $k=\\lfloor nx\\rfloor$，则 $\\dfrac kn\\le x\\le \\dfrac{k+1}n$。单调性给出\n$$\\dfrac kn c\\le f(x)\\le \\dfrac{k+1}n c,$$\n与 $x$ 同夹在该区间，故 $f(x)=cx$。负半轴：若 $x<0$，则 $-x>0$，$f(x)=-f(-x)=-c(-x)=cx$。$x=0$ 已成立。未用连续性。",
+    "maxScore": 14,
+    "rubric": [
+      { "step": "得非负有理点 f(q)=qc", "score": 4 },
+      { "step": "单调夹逼到 [0,+∞)", "score": 5 },
+      { "step": "奇性延拓到 ℝ 并说明 c≥0", "score": 5 }
+    ],
+    "methodMain": "equiv_transform",
+    "methodAux": "mono_analysis",
+    "qtype": "application",
+    "round2": "ACCEPTED_H3",
+    "boundaryChecks": [
+      "c=0 时零函数既奇又增（非严），合法",
+      "若改为严格递增则 c>0",
+      "可加性只给在 [0,+∞)，负方向必须靠奇性而非直接写 f(x+y)"
+    ],
+    "counterexampleAttempts": [
+      "无单调的柯西病态解：课程内不构造，用作“为何要单调”的说明",
+      "只用奇性不用可加：远不能得线性"
+    ]
+  },
+  {
+    "n": 206,
+    "chapterNo": 3,
+    "sectionCode": "3.1",
+    "sectionName": "函数的概念及其表示",
+    "kpCode": "rja.3.1.04",
+    "kpName": "对应关系",
+    "modelFamily": "h3-reflection-sum-mono-below-id-unique",
+    "coreObjective": "反射和为 1 + 单调增 + 点点低于恒等 ⇒ 唯一解 f(x)=x",
+    "breakthrough": "端点先锁 f(0)=0,f(1)=1；左半 f≤id 与右半 f≤id（经反射化为左半 f≥id）夹出 f=id",
+    "contrastH2": "027 在同类反射和下求的是 f(0) 的可行域（解不唯一）；本题多一层 f≤id 后唯一性闭合",
+    "deep": "endpoint lock → half-interval dual inequality → identity uniqueness",
+    "routine": "只验证 f(x)=x 满足条件，不证唯一",
+    "stem": "设 $f:[0,1]\\to\\mathbb{R}$ 满足：\n（i）对一切 $x\\in[0,1]$，$f(x)+f(1-x)=1$；\n（ii）$f$ 在 $[0,1]$ 上单调递增；\n（iii）对一切 $x\\in[0,1]$，$f(x)\\le x$。\n证明：$f(x)=x$ 对一切 $x\\in[0,1]$ 成立。",
+    "answer": "$f(x)=x$（见证明）。",
+    "analysis": "由（i），$f\\!\\left(\\dfrac12\\right)=\\dfrac12$，且 $f(0)+f(1)=1$。由（iii）$f(0)\\le 0$，$f(1)\\le 1$。结合 $f(1)=1-f(0)$ 得 $1-f(0)\\le 1\\Rightarrow f(0)\\ge 0$，故 $f(0)=0$，$f(1)=1$。又由（ii）$f(0)\\le f\\!\\left(\\dfrac12\\right)\\le f(1)$ 自然成立。\n对 $x\\in\\bigl[0,\\dfrac12\\bigr]$，（iii）给出 $f(x)\\le x$。\n对 $z\\in\\bigl[\\dfrac12,1\\bigr]$，（iii）$f(z)\\le z$ 即 $1-f(1-z)\\le z$，亦即 $f(1-z)\\ge 1-z$。令 $w=1-z\\in\\bigl[0,\\dfrac12\\bigr]$，则 $f(w)\\ge w$。\n于是对一切 $w\\in\\bigl[0,\\dfrac12\\bigr]$ 有 $w\\le f(w)\\le w$，故 $f(w)=w$。再由（i），对 $z\\in\\bigl[\\dfrac12,1\\bigr]$，$f(z)=1-f(1-z)=1-(1-z)=z$。因此 $f(x)=x$。\n（充分性：恒等函数显然满足（i）（ii）（iii）。）",
+    "maxScore": 12,
+    "rubric": [
+      { "step": "锁定 f(0)=0,f(1)=1,f(1/2)=1/2", "score": 4 },
+      { "step": "左半 f≤id 与反射后的 f≥id 夹出恒等", "score": 6 },
+      { "step": "回代右半并核验充分性", "score": 2 }
+    ],
+    "methodMain": "equiv_transform",
+    "methodAux": "mono_analysis",
+    "qtype": "application",
+    "round2": "ACCEPTED_H3",
+    "boundaryChecks": [
+      "去掉（iii）则回到 027 型：f(0)≤1/2 且可构造多解",
+      "将（iii）改为 f(x)≥x 同样可对称证唯一",
+      "非严增是必须的；严格增仍唯一（恒等）"
+    ],
+    "counterexampleAttempts": [
+      "平台型 f=0 on [0,1/2), f=1 on (1/2,1] 满足（i）（ii）但破坏（iii）",
+      "f=1/2 常函数满足（i）但非增到端点且不满足（iii）于 x<1/2"
+    ]
+  },
+  {
+    "n": 207,
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "sectionName": "函数的基本性质",
+    "kpCode": "rja.3.2.01",
+    "kpName": "单调递增",
+    "modelFamily": "h3-dyadic-step-mono-force-constant",
+    "coreObjective": "仅 2^{-k} 步长平移不变 + 单调 ⇒ 常数（条件弱于 1/n 平移）",
+    "breakthrough": "弱假设仍能得全体 dyadic 分点同值，而 dyadic 在 [0,1] 仍足以被单调夹逼到任意点",
+    "contrastH2": "060 对一切 1/n；本题只给 2^{-k}，易误判“条件不够”而停步",
+    "deep": "weaker discrete invariance → dyadic grid constancy → mono sandwich",
+    "routine": "声称只有二进步长不能推常数；或用连续偷渡",
+    "stem": "设 $f:[0,1]\\to\\mathbb{R}$ 单调递增，且对一切 $x\\in[0,1]$ 与一切正整数 $k$，只要 $x+2^{-k}\\in[0,1]$，就有\n$$f\\!\\left(x+2^{-k}\\right)=f(x).$$\n证明 $f$ 为常函数。（证明中不得假设 $f$ 连续。）",
+    "answer": "$f$ 恒等于 $f(0)$（见证明）。",
+    "analysis": "对固定正整数 $n$，令 $h=2^{-n}$。反复使用步长 $h$ 的平移不变性，得对一切整数 $m$ 满足 $0\\le m\\le 2^n$，有 $f(mh)=f(0)$。特别 $f(1)=f(0)$。\n任取 $x\\in(0,1)$。取充分大的 $n$ 使 $2^{-n}<1-x$，令 $m=\\lfloor 2^n x\\rfloor$，则\n$$\\dfrac{m}{2^n}\\le x\\le \\dfrac{m+1}{2^n}\\le 1.$$\n由单调性 $f\\!\\left(\\dfrac{m}{2^n}\\right)\\le f(x)\\le f\\!\\left(\\dfrac{m+1}{2^n}\\right)$，两端均为 $f(0)$，故 $f(x)=f(0)$。未用连续性。\n关键：假设弱于“一切 $1/n$ 平移”，但二进分点已经足够密，可被单调夹逼。",
+    "maxScore": 12,
+    "rubric": [
+      { "step": "得全体 dyadic 分点等于 f(0)", "score": 4 },
+      { "step": "单调夹逼任意点", "score": 5 },
+      { "step": "说明弱假设仍充分且未用连续", "score": 3 }
+    ],
+    "methodMain": "equiv_transform",
+    "methodAux": "mono_analysis",
+    "qtype": "application",
+    "round2": "ACCEPTED_H3",
+    "boundaryChecks": [
+      "只需 k 充分大的步长，不必对小 k 逐步检查",
+      "f(1)=f(0) 由 2^n 次平移得到",
+      "与 060 不克隆：假设集真弱于 060"
+    ],
+    "counterexampleAttempts": [
+      "误以为缺少奇数分母分点会失败：被夹逼论证否定",
+      "连续化证明：禁"
+    ]
+  },
+  {
+    "n": 208,
+    "chapterNo": 3,
+    "sectionCode": "3.2",
+    "sectionName": "函数的基本性质",
+    "kpCode": "rja.3.2.04",
+    "kpName": "单调性判断",
+    "modelFamily": "h3-dual-axis-period-mono-const-textbook",
+    "coreObjective": "（拟题）双轴对称推周期再加整周期单调推常数",
+    "breakthrough": "结构恰为 1D/1C 已淘汰的教材链：双轴⇒周期，周期+单调⇒常数",
+    "contrastH2": "相对真 H3 的离散平移夹逼，本题不含非显然突破",
+    "deep": "none — textbook two-step",
+    "routine": "f(2a-x)=f(x)=f(2b-x) ⇒ T=2|b-a|；再在长为 T 的区间上单调 ⇒ 常数",
+    "stem": "设 $f:\\mathbb{R}\\to\\mathbb{R}$ 满足 $f(2-x)=f(x)$ 且 $f(4-x)=f(x)$ 对一切实数 $x$ 成立，又 $f$ 在 $[0,2]$ 上单调递增。证明 $f$ 为常函数。",
+    "answer": "REJECTED — 不作为 ACCEPTED_H3 发运。",
+    "analysis": "由两反射轴 $x=1$ 与 $x=2$ 得最小正周期 $T=2$。再在一个周期长度的区间上单调递增，故 $f$ 恒为常数。论证正确，但是双轴推周期与“周期+单调⇒常数”的教材套路串联，属于严格预检已淘汰族（dual-axis⇒period / period+mono⇒const textbook），未达 PASS_H3 的非显然突破标准。",
+    "maxScore": 10,
+    "rubric": [
+      { "step": "由双轴得周期 2", "score": 4 },
+      { "step": "周期区间上单调得常数", "score": 6 }
+    ],
+    "methodMain": "graph_symmetry",
+    "methodAux": "mono_analysis",
+    "qtype": "application",
+    "round2": "REJECTED_NOT_H3",
+    "rejectReason": "REJECTED_NOT_H3: dual-axis⇒period + period+mono⇒const textbook（与 058/053 同族，无离散夹逼或存在域构造层）",
+    "boundaryChecks": [
+      "数学结论正确但难度不达标",
+      "若删去一条轴对称，则不足以得周期，题型塌陷",
+      "不得用本题充数计入 ACCEPTED_H3"
+    ],
+    "counterexampleAttempts": [
+      "非恒值的周期 2 函数在 [0,2] 上不可能单调，故结论对但仍是套路"
+    ]
+  }
+]

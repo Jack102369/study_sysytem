@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_invalid_wash",
+  "caseCode": "salt_purification_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "114dbc140ac70a3bca7a323956abe9087670637bc51741f78017c97b5a510fa3",
+  "apparatusVersion": "1.0.0",
+  "title": "错误样例：洗气瓶未完整连接",
+  "orientation": "left_to_right",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "intentionallyInvalid": true,
+  "reviewMetadata": {
+    "chemicallyReviewed": false,
+    "schematicOnly": true,
+    "notes": "invalid teaching counterexample"
+  },
+  "components": [
+    {
+      "componentId": "gen1",
+      "componentType": "gas_generator",
+      "displayLabel": "发生器",
+      "ports": [
+        {
+          "portId": "reagent_in",
+          "direction": "in",
+          "media": [
+            "liquid",
+            "solid"
+          ]
+        },
+        {
+          "portId": "gas_out",
+          "direction": "out",
+          "media": [
+            "gas"
+          ]
+        }
+      ],
+      "internal": {}
+    },
+    {
+      "componentId": "wash1",
+      "componentType": "gas_washing_bottle",
+      "displayLabel": "洗气瓶",
+      "ports": [
+        {
+          "portId": "gas_in",
+          "direction": "in",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        },
+        {
+          "portId": "gas_out",
+          "direction": "out",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        }
+      ],
+      "internal": {}
+    }
+  ],
+  "connections": [],
+  "apparatusContentHash": "242c599266cc2b87792eafff6271b4b631b8f90f5823691e6e5879cbf195ecc8"
+}

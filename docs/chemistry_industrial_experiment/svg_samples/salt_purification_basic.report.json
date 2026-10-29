@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "metrics": {
+    "diagramId": "diag.salt_purification_basic",
+    "diagramVersion": "0.1.0",
+    "publicContentHash": "05e115e161e110db31d1390ab12d920dfb24ad52ce73efe711aa876cc8c4ba3d",
+    "rendererVersion": "1.0.0",
+    "nodeCount": 8,
+    "edgeCount": 7,
+    "drawnNodeCount": 8,
+    "drawnEdgeCount": 7,
+    "canvasWidth": 1688,
+    "canvasHeight": 186
+  }
+}

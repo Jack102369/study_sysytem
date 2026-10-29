@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_siphon_risk",
+  "apparatusVersion": "1.0.0",
+  "orientation": "left_to_right",
+  "title": "倒吸风险示意（错误样例）",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "components": [
+    {
+      "componentId": "gen1",
+      "componentType": "gas_generator",
+      "displayLabel": "发生器",
+      "ports": [
+        {
+          "portId": "reagent_in",
+          "direction": "in",
+          "media": [
+            "liquid",
+            "solid"
+          ]
+        },
+        {
+          "portId": "gas_out",
+          "direction": "out",
+          "media": [
+            "gas"
+          ]
+        }
+      ]
+    },
+    {
+      "componentId": "abs1",
+      "componentType": "tail_gas_absorber",
+      "displayLabel": "吸收瓶",
+      "ports": [
+        {
+          "portId": "gas_in",
+          "direction": "in",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "bad",
+      "sourceComponentId": "gen1",
+      "sourcePortId": "gas_out",
+      "targetComponentId": "abs1",
+      "targetPortId": "gas_in",
+      "flowType": "gas"
+    }
+  ],
+  "publicContentHash": "e0adfefb2290645429a62452514aa82a2d436e832261fc9896a2d53419760a00"
+}

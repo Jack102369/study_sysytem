@@ -1,0 +1,888 @@
+{
+  "candidateId": "cand_c4142906635b4628",
+  "generationTaskId": "industrial_acceptance_20261029_121220_04",
+  "generationSource": "mock_generated",
+  "developmentOnly": true,
+  "specialtyCode": "industrial_experiment",
+  "categoryCode": "industrial_production_cases",
+  "caseCode": "seawater_resource_basic",
+  "caseVersion": "0.1.0",
+  "caseContentHash": "91b97169bae53a159ee72ca7a4c86b3e47efc199a19d3f64d187d6aeb1227e5c",
+  "caseReviewStatus": "draft",
+  "reviewStatus": "pending_human_review",
+  "candidate": {
+    "qtype": "blank",
+    "answerType": "blank",
+    "stem": "【验收D·挑战】阅读海水资源利用教学流程图，写出图中用于「固液分离」的核心单元操作名称（填空，acceptance_test_only）。",
+    "options": null,
+    "answer": "过滤",
+    "explanation": "教学流程中固液分离常用过滤；答案以图示与课程基础操作为准。案例 draft，需人工复核科学表述。",
+    "knowledgePoints": [
+      "过滤",
+      "海水资源",
+      "分离"
+    ],
+    "difficulty": 3,
+    "requiresManualReview": true,
+    "referencedNodeIds": [],
+    "referencedLabels": [
+      "海水",
+      "蒸发浓缩",
+      "浓缩卤水",
+      "水蒸气",
+      "结晶",
+      "粗盐"
+    ]
+  },
+  "definition": {
+    "schemaVersion": "1.0",
+    "caseCode": "seawater_resource_basic",
+    "caseVersion": "0.1.0",
+    "caseContentHash": "91b97169bae53a159ee72ca7a4c86b3e47efc199a19d3f64d187d6aeb1227e5c",
+    "internalReferences": {
+      "caseCode": "seawater_resource_basic",
+      "caseVersion": "0.1.0",
+      "caseContentHash": "91b97169bae53a159ee72ca7a4c86b3e47efc199a19d3f64d187d6aeb1227e5c"
+    },
+    "reviewMetadata": {
+      "chemicallyReviewed": false,
+      "structureOnly": true,
+      "notes": "structure protocol fixture; not chemically approved"
+    },
+    "diagramId": "diag.seawater_resource_basic",
+    "diagramVersion": "0.1.0",
+    "title": "海水资源基础流程（多分支示例）",
+    "orientation": "left_to_right",
+    "nodes": [
+      {
+        "id": "n_sea",
+        "type": "material",
+        "displayLabel": "海水",
+        "displayRole": "raw",
+        "internal": {
+          "materialId": "m_seawater"
+        }
+      },
+      {
+        "id": "n_evap",
+        "type": "process",
+        "displayLabel": "蒸发浓缩",
+        "displayRole": "process",
+        "internal": {
+          "stepId": "s1_evaporate_sea"
+        }
+      },
+      {
+        "id": "n_brine",
+        "type": "intermediate",
+        "displayLabel": "浓缩卤水",
+        "displayRole": "intermediate",
+        "internal": {
+          "materialId": "m_concentrated_brine"
+        }
+      },
+      {
+        "id": "n_vapor",
+        "type": "waste",
+        "displayLabel": "水蒸气",
+        "displayRole": "waste",
+        "internal": {
+          "materialId": "m_water_vapor"
+        }
+      },
+      {
+        "id": "n_cryst",
+        "type": "separation",
+        "displayLabel": "结晶",
+        "displayRole": "separation",
+        "internal": {
+          "stepId": "s2_crystallize"
+        }
+      },
+      {
+        "id": "n_salt",
+        "type": "product",
+        "displayLabel": "粗盐",
+        "displayRole": "product",
+        "internal": {
+          "materialId": "m_sea_salt"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "from": "n_sea",
+        "to": "n_evap",
+        "type": "material_flow"
+      },
+      {
+        "id": "e2",
+        "from": "n_evap",
+        "to": "n_brine",
+        "type": "material_flow"
+      },
+      {
+        "id": "e3",
+        "from": "n_evap",
+        "to": "n_vapor",
+        "type": "byproduct",
+        "displayLabel": "蒸发水"
+      },
+      {
+        "id": "e4",
+        "from": "n_brine",
+        "to": "n_cryst",
+        "type": "material_flow"
+      },
+      {
+        "id": "e5",
+        "from": "n_cryst",
+        "to": "n_salt",
+        "type": "material_flow"
+      }
+    ],
+    "diagramContentHash": "923f921ad173b9e7e75e8be05465665ad7a98f319cc385d7513973019b5c4a39"
+  },
+  "publicDiagram": {
+    "schemaVersion": "1.0",
+    "diagramId": "diag.seawater_resource_basic",
+    "diagramVersion": "0.1.0",
+    "orientation": "left_to_right",
+    "title": "海水资源基础流程（多分支示例）",
+    "nodes": [
+      {
+        "id": "n_sea",
+        "type": "material",
+        "displayLabel": "海水"
+      },
+      {
+        "id": "n_evap",
+        "type": "process",
+        "displayLabel": "蒸发浓缩"
+      },
+      {
+        "id": "n_brine",
+        "type": "intermediate",
+        "displayLabel": "浓缩卤水"
+      },
+      {
+        "id": "n_vapor",
+        "type": "waste",
+        "displayLabel": "水蒸气"
+      },
+      {
+        "id": "n_cryst",
+        "type": "separation",
+        "displayLabel": "结晶"
+      },
+      {
+        "id": "n_salt",
+        "type": "product",
+        "displayLabel": "粗盐"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "from": "n_sea",
+        "to": "n_evap",
+        "type": "material_flow"
+      },
+      {
+        "id": "e2",
+        "from": "n_evap",
+        "to": "n_brine",
+        "type": "material_flow"
+      },
+      {
+        "id": "e3",
+        "from": "n_evap",
+        "to": "n_vapor",
+        "type": "byproduct",
+        "displayLabel": "蒸发水"
+      },
+      {
+        "id": "e4",
+        "from": "n_brine",
+        "to": "n_cryst",
+        "type": "material_flow"
+      },
+      {
+        "id": "e5",
+        "from": "n_cryst",
+        "to": "n_salt",
+        "type": "material_flow"
+      }
+    ],
+    "publicContentHash": "40693d78c6e122ea940c61af035c71e71f9c5bbb4e054bf826a791827b0d17bc"
+  },
+  "svg": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1176\" height=\"186\" viewBox=\"0 0 1176 186\" role=\"img\" aria-label=\"海水资源基础流程（多分支示例）\" data-renderer=\"1.0.0\" data-diagram-id=\"diag.seawater_resource_basic\" data-public-hash=\"40693d78c6e122ea940c61af035c71e71f9c5bbb4e054bf826a791827b0d17bc\"><defs>\n  <marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#0f172a\"/>\n  </marker>\n  <marker id=\"arrow-open\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 1 1 L 9 5 L 1 9\" fill=\"none\" stroke=\"#64748b\" stroke-width=\"1.5\"/>\n  </marker>\n  <marker id=\"arrow-blue\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#0369a1\"/>\n  </marker>\n  <marker id=\"arrow-purple\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#7c3aed\"/>\n  </marker>\n  <marker id=\"arrow-muted\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n    <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#78716c\"/>\n  </marker>\n</defs><title>海水资源基础流程（多分支示例）</title><rect x=\"0\" y=\"0\" width=\"1176\" height=\"186\" fill=\"#ffffff\"/><g data-edge-id=\"e1\" data-edge-type=\"material_flow\"><path d=\"M 120 98 L 204 98 L 204 98 L 288 98\" fill=\"none\" stroke=\"#0f172a\" stroke-width=\"1.6\" marker-end=\"url(#arrow)\"/></g><g data-edge-id=\"e2\" data-edge-type=\"material_flow\"><path d=\"M 376 98 L 460 98 L 460 66 L 544 66\" fill=\"none\" stroke=\"#0f172a\" stroke-width=\"1.6\" marker-end=\"url(#arrow)\"/></g><g data-edge-id=\"e3\" data-edge-type=\"byproduct\"><path d=\"M 376 98 L 396 98 L 396 154 L 524 154 L 524 130 L 544 130\" fill=\"none\" stroke=\"#78716c\" stroke-width=\"1.4\" marker-end=\"url(#arrow-muted)\" stroke-dasharray=\"5 2\"/><text x=\"524\" y=\"148\" text-anchor=\"middle\" font-size=\"10\" fill=\"#475569\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\">蒸发水</text></g><g data-edge-id=\"e4\" data-edge-type=\"material_flow\"><path d=\"M 632 66 L 716 66 L 716 98 L 800 98\" fill=\"none\" stroke=\"#0f172a\" stroke-width=\"1.6\" marker-end=\"url(#arrow)\"/></g><g data-edge-id=\"e5\" data-edge-type=\"material_flow\"><path d=\"M 888 98 L 972 98 L 972 98 L 1056 98\" fill=\"none\" stroke=\"#0f172a\" stroke-width=\"1.6\" marker-end=\"url(#arrow)\"/></g><g id=\"node-n_sea\"><rect data-node-id=\"n_sea\" data-node-type=\"material\" x=\"32\" y=\"80\" width=\"88\" height=\"36\" rx=\"2\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"1.5\"/><text x=\"76\" y=\"102\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">海水</text></g><g id=\"node-n_evap\"><rect data-node-id=\"n_evap\" data-node-type=\"process\" x=\"288\" y=\"80\" width=\"88\" height=\"36\" rx=\"10\" fill=\"#f8fafc\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><text x=\"332\" y=\"102\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">蒸发浓缩</text></g><g id=\"node-n_brine\"><rect data-node-id=\"n_brine\" data-node-type=\"intermediate\" x=\"544\" y=\"48\" width=\"88\" height=\"36\" rx=\"2\" fill=\"#fafafa\" stroke=\"#57534e\" stroke-width=\"1.5\" stroke-dasharray=\"4 2\"/><text x=\"588\" y=\"70\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">浓缩卤水</text></g><g id=\"node-n_vapor\"><rect data-node-id=\"n_vapor\" data-node-type=\"waste\" x=\"544\" y=\"112\" width=\"88\" height=\"36\" rx=\"2\" fill=\"#fafafa\" stroke=\"#78716c\" stroke-width=\"1.5\" stroke-dasharray=\"6 3\"/><text x=\"588\" y=\"134\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">水蒸气</text></g><g id=\"node-n_cryst\"><rect data-node-id=\"n_cryst\" data-node-type=\"separation\" x=\"800\" y=\"80\" width=\"88\" height=\"36\" rx=\"4\" fill=\"#f0f9ff\" stroke=\"#0369a1\" stroke-width=\"1.8\"/><text x=\"844\" y=\"102\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">结晶</text></g><g id=\"node-n_salt\"><rect data-node-id=\"n_salt\" data-node-type=\"product\" x=\"1056\" y=\"80\" width=\"88\" height=\"36\" rx=\"2\" fill=\"#ecfdf5\" stroke=\"#166534\" stroke-width=\"2.2\"/><rect x=\"1059\" y=\"83\" width=\"82\" height=\"30\" rx=\"1\" fill=\"none\" stroke=\"#166534\" stroke-width=\"1\"/><text x=\"1100\" y=\"102\" text-anchor=\"middle\" font-family=\"Segoe UI, PingFang SC, Microsoft YaHei, sans-serif\" font-size=\"12\" fill=\"#0f172a\">粗盐</text></g></svg>\n",
+  "svgContentHash": "a06bc63331a94b1d0e8b3b6a4f8d328b8d502564cf9d038ced710c002bf92e62",
+  "svgRelativePath": "industrial-svg/a06bc63331a94b1d0e8b3b6a4f8d328b8d502564cf9d038ced710c002bf92e62.svg",
+  "renderReport": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "metrics": {
+      "diagramId": "diag.seawater_resource_basic",
+      "diagramVersion": "0.1.0",
+      "publicContentHash": "40693d78c6e122ea940c61af035c71e71f9c5bbb4e054bf826a791827b0d17bc",
+      "rendererVersion": "1.0.0",
+      "nodeCount": 6,
+      "edgeCount": 5,
+      "drawnNodeCount": 6,
+      "drawnEdgeCount": 5,
+      "canvasWidth": 1176,
+      "canvasHeight": 186
+    }
+  },
+  "qualityReport": {
+    "reportId": "qr_dfa29bd77e9d4a4e",
+    "candidateId": "cand_c4142906635b4628",
+    "caseCode": "seawater_resource_basic",
+    "caseVersion": "0.1.0",
+    "caseContentHash": "91b97169bae53a159ee72ca7a4c86b3e47efc199a19d3f64d187d6aeb1227e5c",
+    "diagramVersion": "0.1.0",
+    "diagramContentHash": "923f921ad173b9e7e75e8be05465665ad7a98f319cc385d7513973019b5c4a39",
+    "publicContentHash": "40693d78c6e122ea940c61af035c71e71f9c5bbb4e054bf826a791827b0d17bc",
+    "questionContentHash": "19e0c63182fabe645a344d18b892112cc54a461d6379723b7feac1197813ad6d",
+    "auditContentHash": "afff16901167090af92cc3b0564ada93f3910676ff89720fd76e5fda1415cec3",
+    "qualityVersion": "1.0.0",
+    "generatedAt": "2026-10-29T04:12:20.198Z",
+    "checks": [
+      {
+        "checkCode": "CURR_GRADE_SCOPE",
+        "dimension": "curriculum",
+        "status": "pass",
+        "severity": "info",
+        "message": "案例 gradeScope 为 high_school_1",
+        "evidence": [
+          "gradeScope=high_school_1"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.197Z"
+      },
+      {
+        "checkCode": "CURR_REVIEW_STATUS",
+        "dimension": "curriculum",
+        "status": "unknown",
+        "severity": "warning",
+        "message": "课程审核未完成，不能认定课程适配已通过",
+        "evidence": [
+          "curriculumReviewStatus=pending"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.197Z"
+      },
+      {
+        "checkCode": "CURR_DIFFICULTY",
+        "dimension": "curriculum",
+        "status": "unknown",
+        "severity": "warning",
+        "message": "难度超出案例声明范围（未证明超纲，记 unknown）",
+        "evidence": [
+          "q=3",
+          "range=1-2"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.197Z"
+      },
+      {
+        "checkCode": "CURR_KNOWLEDGE_POINTS",
+        "dimension": "curriculum",
+        "status": "unknown",
+        "severity": "warning",
+        "message": "部分知识点超出有限白名单，无法证明课程适配",
+        "evidence": [
+          "海水资源",
+          "分离"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.197Z"
+      },
+      {
+        "checkCode": "CURR_CATEGORY",
+        "dimension": "curriculum",
+        "status": "pass",
+        "severity": "info",
+        "message": "分类与案例一致",
+        "evidence": [
+          "industrial_production_cases"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.197Z"
+      },
+      {
+        "checkCode": "CURR_CASE_TRUST_DEV",
+        "dimension": "curriculum",
+        "status": "unknown",
+        "severity": "warning",
+        "message": "development_only：案例可信度不构成正式课程通过",
+        "evidence": [
+          "reviewStatus=draft",
+          "publishEligible=false"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "CHEM_BAD_FORMULA",
+        "dimension": "chemistry",
+        "status": "pass",
+        "severity": "info",
+        "message": "未命中有限非法化学式规则（不证明全部化学式正确）",
+        "evidence": [
+          "rule=BAD_FORMULA_RE"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "CHEM_REACTION_PENDING",
+        "dimension": "chemistry",
+        "status": "unknown",
+        "severity": "info",
+        "message": "案例无反应条目；非反应类流程记 unknown（需人工确认）",
+        "evidence": [
+          "reactions=[]"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "CHEM_SOURCE_VERIFIED",
+        "dimension": "chemistry",
+        "status": "unknown",
+        "severity": "warning",
+        "message": "开发模式：知识来源 unverified，化学正确性未证明",
+        "evidence": [
+          "海水晒盐/蒸发制盐教学描述（通用）:unverified"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "CHEM_COMMON_FRAGMENT",
+        "dimension": "chemistry",
+        "status": "pass",
+        "severity": "info",
+        "message": "出现常见化学式片段（仅说明未触发非法模式）",
+        "evidence": [
+          "rule=COMMON_OK"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "CHEM_ENGINE_SCOPE",
+        "dimension": "chemistry",
+        "status": "unknown",
+        "severity": "info",
+        "message": "本系统非完整化学推理引擎；未覆盖知识一律 unknown，不得自动 pass",
+        "evidence": [
+          "coverage=limited_rules"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "FILTER_SOLUBLE_SALT",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "未命中禁止工艺模式：FILTER_SOLUBLE_SALT",
+        "evidence": [
+          "pattern_clear"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "PROCESS_OVERCLAIM_REAL_PLANT",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "未发现过度宣称真实完整工业生产",
+        "evidence": [
+          "textbook_simplification"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "PROCESS_MATERIAL_REFS",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "流程图物料引用均在案例中",
+        "evidence": [
+          "badMat=0"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "PROCESS_STEP_REFS",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "流程图步骤引用均在案例中",
+        "evidence": [
+          "badStep=0"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "PROCESS_PRODUCT_SOURCE",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "产品节点均有入边",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "PROCESS_RECYCLE_ENDS",
+        "dimension": "process",
+        "status": "pass",
+        "severity": "info",
+        "message": "recycle 边端点完整（或无 recycle）",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "PROCESS_DEEP_REASONING",
+        "dimension": "process",
+        "status": "unknown",
+        "severity": "info",
+        "message": "深层工艺合理性（收率/能耗/工业放大）未自动验证",
+        "evidence": [
+          "requires_human_or_kb"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "DIAG_DEFINITION",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "Definition 结构校验通过",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "DIAG_CASE_BIND",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "Definition 与案例绑定通过",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "DIAG_PUBLIC",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "Public 校验通过",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "DIAG_PUBLIC_LEAK",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "Public JSON 未检出内部敏感键",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "DIAG_PUBLIC_HASH_MATCH",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "Public 哈希与再投影一致",
+        "evidence": [
+          "40693d78c6e122ea940c61af035c71e71f9c5bbb4e054bf826a791827b0d17bc",
+          "40693d78c6e122ea940c61af035c71e71f9c5bbb4e054bf826a791827b0d17bc"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "DIAG_SVG_SAFE",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "SVG 未检出脚本/事件/foreignObject",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "DIAG_SVG_INTERNAL_LEAK",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "SVG 未检出内部答案字段",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "DIAG_SVG_RENDER_REPORT",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "SVG 渲染报告 valid",
+        "evidence": [
+          "nodes 6/6",
+          "edges 5/5"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "DIAG_EDGE_DIRECTION",
+        "dimension": "diagram",
+        "status": "pass",
+        "severity": "info",
+        "message": "连线均已绘制（方向遵循 Definition from→to）",
+        "evidence": [
+          "edgeCount=5"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：海水",
+        "evidence": [
+          "海水",
+          "海水",
+          "蒸发浓缩",
+          "浓缩卤水",
+          "水蒸气",
+          "结晶",
+          "粗盐"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：蒸发浓缩",
+        "evidence": [
+          "蒸发浓缩",
+          "海水",
+          "蒸发浓缩",
+          "浓缩卤水",
+          "水蒸气",
+          "结晶",
+          "粗盐"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：浓缩卤水",
+        "evidence": [
+          "浓缩卤水",
+          "海水",
+          "蒸发浓缩",
+          "浓缩卤水",
+          "水蒸气",
+          "结晶",
+          "粗盐"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：水蒸气",
+        "evidence": [
+          "水蒸气",
+          "海水",
+          "蒸发浓缩",
+          "浓缩卤水",
+          "水蒸气",
+          "结晶",
+          "粗盐"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：结晶",
+        "evidence": [
+          "结晶",
+          "海水",
+          "蒸发浓缩",
+          "浓缩卤水",
+          "水蒸气",
+          "结晶",
+          "粗盐"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "CONS_LABEL",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "引用标签存在：粗盐",
+        "evidence": [
+          "粗盐",
+          "海水",
+          "蒸发浓缩",
+          "浓缩卤水",
+          "水蒸气",
+          "结晶",
+          "粗盐"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "CONS_ANSWER_BLANK",
+        "dimension": "consistency",
+        "status": "pass",
+        "severity": "info",
+        "message": "填空答案非空",
+        "evidence": [
+          "过滤"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "CONS_EXPLANATION_PRESENT",
+        "dimension": "consistency",
+        "status": "unknown",
+        "severity": "info",
+        "message": "解析非空；语义正确性未自动证明",
+        "evidence": [
+          "教学流程中固液分离常用过滤；答案以图示与课程基础操作为准。案例 draft，需人工复核科学表述。"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "TEACH_STEM",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "题干完整",
+        "evidence": [
+          "【验收D·挑战】阅读海水资源利用教学流程图，写出图中用于「固液分离」的核心单元操"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "TEACH_ANSWER_IN_STEM",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "未检测到题干直接粘贴标准答案文本",
+        "evidence": [],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "TEACH_QTYPE_MATCH",
+        "dimension": "teaching",
+        "status": "pass",
+        "severity": "info",
+        "message": "qtype 与 answerType 一致",
+        "evidence": [
+          "blank",
+          "blank"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "TEACH_JUDGE_COMPAT",
+        "dimension": "teaching",
+        "status": "unknown",
+        "severity": "info",
+        "message": "与正式 chem-train-grade 的完整兼容性留待 STEP_09 核对",
+        "evidence": [
+          "no_grade_service_mutation"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "AI_AUX_CURRICULUM",
+        "dimension": "curriculum",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 curriculum 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "AI_AUX_CHEMISTRY",
+        "dimension": "chemistry",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 chemistry 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "AI_AUX_PROCESS",
+        "dimension": "process",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 process 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "AI_AUX_DIAGRAM",
+        "dimension": "diagram",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 diagram 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "AI_AUX_CONSISTENCY",
+        "dimension": "consistency",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 consistency 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      },
+      {
+        "checkCode": "AI_AUX_TEACHING",
+        "dimension": "teaching",
+        "status": "unknown",
+        "severity": "info",
+        "message": "Mock AI 辅助审查：维度 teaching 未提供科学证明（记 unknown）",
+        "evidence": [
+          "mock_reviewer",
+          "not_scientific_proof"
+        ],
+        "checkerVersion": "1.0.0",
+        "checkedAt": "2026-10-29T04:12:20.198Z"
+      }
+    ],
+    "summary": {
+      "total": 45,
+      "pass": 29,
+      "fail": 0,
+      "unknown": 16,
+      "criticalFail": 0,
+      "errorFail": 0,
+      "warningCount": 5
+    },
+    "blockingIssues": [],
+    "warnings": [
+      "CURR_REVIEW_STATUS: 课程审核未完成，不能认定课程适配已通过",
+      "CURR_DIFFICULTY: 难度超出案例声明范围（未证明超纲，记 unknown）",
+      "CURR_KNOWLEDGE_POINTS: 部分知识点超出有限白名单，无法证明课程适配",
+      "CURR_CASE_TRUST_DEV: development_only：案例可信度不构成正式课程通过",
+      "CHEM_SOURCE_VERIFIED: 开发模式：知识来源 unverified，化学正确性未证明"
+    ],
+    "unknownIssues": [
+      "CURR_REVIEW_STATUS: 课程审核未完成，不能认定课程适配已通过",
+      "CURR_DIFFICULTY: 难度超出案例声明范围（未证明超纲，记 unknown）",
+      "CURR_KNOWLEDGE_POINTS: 部分知识点超出有限白名单，无法证明课程适配",
+      "CURR_CASE_TRUST_DEV: development_only：案例可信度不构成正式课程通过",
+      "CHEM_REACTION_PENDING: 案例无反应条目；非反应类流程记 unknown（需人工确认）",
+      "CHEM_SOURCE_VERIFIED: 开发模式：知识来源 unverified，化学正确性未证明",
+      "CHEM_ENGINE_SCOPE: 本系统非完整化学推理引擎；未覆盖知识一律 unknown，不得自动 pass",
+      "PROCESS_DEEP_REASONING: 深层工艺合理性（收率/能耗/工业放大）未自动验证",
+      "CONS_EXPLANATION_PRESENT: 解析非空；语义正确性未自动证明",
+      "TEACH_JUDGE_COMPAT: 与正式 chem-train-grade 的完整兼容性留待 STEP_09 核对",
+      "AI_AUX_CURRICULUM: Mock AI 辅助审查：维度 curriculum 未提供科学证明（记 unknown）",
+      "AI_AUX_CHEMISTRY: Mock AI 辅助审查：维度 chemistry 未提供科学证明（记 unknown）",
+      "AI_AUX_PROCESS: Mock AI 辅助审查：维度 process 未提供科学证明（记 unknown）",
+      "AI_AUX_DIAGRAM: Mock AI 辅助审查：维度 diagram 未提供科学证明（记 unknown）",
+      "AI_AUX_CONSISTENCY: Mock AI 辅助审查：维度 consistency 未提供科学证明（记 unknown）",
+      "AI_AUX_TEACHING: Mock AI 辅助审查：维度 teaching 未提供科学证明（记 unknown）"
+    ],
+    "overallStatus": "incomplete_verification",
+    "requiresHumanReview": true,
+    "developmentOnly": true,
+    "formalPublishEligible": false,
+    "aiReviewStatus": "mock",
+    "aiReviewProvider": "mock",
+    "aiReviewNotes": [
+      "Mock AI reviewer used; same-model dual call is not independent scientific proof"
+    ]
+  },
+  "auditContentHash": "afff16901167090af92cc3b0564ada93f3910676ff89720fd76e5fda1415cec3",
+  "humanDecision": null,
+  "humanReviewNote": null,
+  "humanReviewedBy": null,
+  "humanReviewedAt": null,
+  "humanReviewedAuditHash": null,
+  "importedItemCode": null,
+  "importedAt": null,
+  "createdAt": "2026-10-29T04:12:20.197Z",
+  "updatedAt": "2026-10-29T04:12:20.199Z",
+  "revision": 1,
+  "acceptanceBatchId": "industrial_acceptance_20261029_121220",
+  "acceptanceTestOnly": true,
+  "plannedItemCode": "iaacc_20261029_121220_04",
+  "formalImportBlocked": true,
+  "diagramKinds": [
+    "flow"
+  ]
+}

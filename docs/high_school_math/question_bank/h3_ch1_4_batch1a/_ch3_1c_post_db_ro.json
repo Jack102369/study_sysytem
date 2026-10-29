@@ -1,0 +1,19 @@
+{
+  "phase": "H3-CH3-COMPLETION-1C-POST-RO",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "note": "Read-only DB check after offline append; no writes.",
+  "db": {
+    "drawable": 913,
+    "d1": 335,
+    "d2": 478,
+    "d3": 100,
+    "h3c14": 0
+  },
+  "offline": {
+    "acceptedH3": 44,
+    "appended": 6,
+    "batchContentSha256": "293f44add5373711b642593f58c61ce867f6362a0ff81314ca618ca2af02dde2",
+    "fileSha256": "68b705e7cdd79941037df8783729077187fe9198670958288259da2634fdfcc6",
+    "baselineIntact": true
+  }
+}

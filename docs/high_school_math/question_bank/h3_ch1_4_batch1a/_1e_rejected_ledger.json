@@ -1,0 +1,95 @@
+{
+  "phase": "HS-MATH-H3-REDESIGN-1E",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "rejected": [
+    {
+      "n": 103,
+      "reason": "REJECTED_NOT_H3: too close to PASS018 / direct_AMGM forbid-equality cosmetic"
+    },
+    {
+      "n": 105,
+      "reason": "REJECTED_MATH_UNSTABLE: stem coefficients collapse or H1"
+    },
+    {
+      "n": 106,
+      "reason": "REJECTED_NOT_H3: routine common-root like 024 H2"
+    },
+    {
+      "n": 107,
+      "reason": "REJECTED_NOT_H3: thin one-parameter check / near 013"
+    },
+    {
+      "n": 109,
+      "reason": "REJECTED_DUP_STRUCTURE: constant-reskin of PASS013 Δ-lock kill axis"
+    },
+    {
+      "n": 203,
+      "reason": "REJECTED_NOT_H3: short odd+period+shift contradiction / ledger family"
+    },
+    {
+      "n": 205,
+      "reason": "REJECTED_NOT_H3: abs sum level-set contain H2 platform"
+    },
+    {
+      "n": 206,
+      "reason": "REJECTED_NOT_H3: piecewise mono without continuity = strong H2"
+    },
+    {
+      "n": 207,
+      "reason": "REJECTED_NOT_H3: dual-axis period + mono⇒const textbook"
+    },
+    {
+      "n": 208,
+      "reason": "REJECTED_NOT_H3: isomorphic to 044 application domain-cut max"
+    },
+    {
+      "n": 209,
+      "reason": "REJECTED_DUP_FAMILY: even+antiperiod+mono→0"
+    },
+    {
+      "n": 210,
+      "reason": "REJECTED_DUP_STRUCTURE: tent-g reskin of PASS027 reflection-sum"
+    },
+    {
+      "n": "ch3_a/204",
+      "reason": "SKIP_MERGE: midpoint+mono⇒affine on [0,1] ≅ shipped 204 on ℝ (structure dup)"
+    },
+    {
+      "n": "ch3_a/208",
+      "reason": "REJECTED_NOT_H3: dual-axis⇒period + period+mono⇒const textbook"
+    },
+    {
+      "n": "ch2_a/101",
+      "reason": "REJECTED_DUP_STRUCTURE: open-root×vertex-floor ≅ PASS006 (interval/floor reskin; agent self-rejected 105 same family)"
+    },
+    {
+      "n": "ch2_a/102",
+      "reason": "REJECTED_DUP_STRUCTURE: fixed-root-gap + interval-min-touch ≅ PASS013"
+    },
+    {
+      "n": "ch2_a/103",
+      "reason": "REJECTED_DUP_STRUCTURE: g≥0 on f-root-interval with gap ≅ PASS014"
+    },
+    {
+      "n": "ch2_a/104",
+      "reason": "REJECTED_DUP_STRUCTURE: abs-quad best-λ + forbid-eq ≅ PASS018 (x²−x+1 / x=1 skin)"
+    },
+    {
+      "n": "ch2_a/105",
+      "reason": "REJECTED_NOT_H3: skin-swap of PASS006 (agent)"
+    },
+    {
+      "n": "ch2_a/106",
+      "reason": "REJECTED_NOT_H3: redundant cross-quad after gap (agent)"
+    },
+    {
+      "n": "ch2_a/107",
+      "reason": "REJECTED_NOT_H3: direct_AMGM (agent)"
+    },
+    {
+      "n": "ch2_a/108",
+      "reason": "REJECTED_NOT_H3: ordinary_hook (agent)"
+    }
+  ],
+  "note": "Many more draft ideas discarded before numbering. Honest underfill. Ch3 wave A keepers remapped to 211–216. Ch2 wave A: 0 merged after PASS8 structure dedup."
+}

@@ -1,0 +1,293 @@
+{
+  "phase": "HS-MATH-H3-STRICT-PREFLIGHT-2F",
+  "independence": "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+  "status": "QUALITY_PARTIAL",
+  "auditedAt": "2026-10-28T14:00:00.000Z",
+  "gate0": {
+    "ok": true,
+    "n": 21,
+    "chapter": { "1": 0, "2": 8, "3": 11, "4": 2 },
+    "batchContentSha256": "1e51ba93a0e398766d450fbecda3784a93297c0d8c1e5a60856798c655e19635",
+    "fileSha256": "df497f16c24c0b89b06df67b895f4bbdd7e6ca5bca820f29428f2b03b789ff16",
+    "frozenPass8Intact": true,
+    "db": { "drawable": 913, "d1": 335, "d2": 478, "d3": 100, "h3c14": 0 },
+    "candidatesUnmodified": true
+  },
+  "summary": {
+    "reviewed": 21,
+    "PASS_H3": 12,
+    "REJECTED_NOT_H3": 7,
+    "MATH_BLOCKED": 0,
+    "PROTOCOL_BLOCKED": 1,
+    "DUPLICATE_BLOCKED": 1,
+    "sumCheck": 21,
+    "mathOkApprox": 20,
+    "trueH3": 12,
+    "passH3ByChapter": { "1": 0, "2": 4, "3": 6, "4": 2 }
+  },
+  "passH3Ids": [
+    "CAND-H3C14-006",
+    "CAND-H3C14-013",
+    "CAND-H3C14-014",
+    "CAND-H3C14-018",
+    "CAND-H3C14-027",
+    "CAND-H3C14-046",
+    "CAND-H3C14-047",
+    "CAND-H3C14-060",
+    "CAND-H3C14-202",
+    "CAND-H3C14-211",
+    "CAND-H3C14-213",
+    "CAND-H3C14-214"
+  ],
+  "rejectedNotH3Ids": [
+    "CAND-H3C14-101",
+    "CAND-H3C14-102",
+    "CAND-H3C14-104",
+    "CAND-H3C14-108",
+    "CAND-H3C14-201",
+    "CAND-H3C14-212",
+    "CAND-H3C14-215"
+  ],
+  "mathBlockedIds": [],
+  "protocolBlockedIds": ["CAND-H3C14-204"],
+  "duplicateBlockedIds": ["CAND-H3C14-216"],
+  "items": [
+    {
+      "id": "CAND-H3C14-006",
+      "chapterNo": 2,
+      "frozenFrom1D": true,
+      "mathOk": true,
+      "h3Ok": true,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "PASS_H3",
+      "evidence": "Reaffirm 1D: open-root (−1,3) overshoots to (2,11/5); vertex-floor on closed interval cuts at (1+√11)/2. Heterogeneous coupling remains H3."
+    },
+    {
+      "id": "CAND-H3C14-013",
+      "chapterNo": 2,
+      "frozenFrom1D": true,
+      "mathOk": true,
+      "h3Ok": true,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "PASS_H3",
+      "evidence": "Reaffirm: |gap|=2⇒Δ=4⇒ axis-in branch min≡−1≠1/4 whole-branch kill; endpoint-touch pairs survive."
+    },
+    {
+      "id": "CAND-H3C14-014",
+      "chapterNo": 2,
+      "frozenFrom1D": true,
+      "mathOk": true,
+      "h3Ok": true,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "PASS_H3",
+      "evidence": "Reaffirm: g≥0 on f-root interval; t<0 killed via root identity; t≥1 gap-cut. Cross-quad domain is H3 hinge."
+    },
+    {
+      "id": "CAND-H3C14-018",
+      "chapterNo": 2,
+      "frozenFrom1D": true,
+      "mathOk": true,
+      "h3Ok": true,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "PASS_H3",
+      "evidence": "Reaffirm: λ_max=2; forbidding |x|=1 equality removes the max — attainable set (−∞,2) has no maximum."
+    },
+    {
+      "id": "CAND-H3C14-027",
+      "chapterNo": 3,
+      "frozenFrom1D": true,
+      "mathOk": true,
+      "h3Ok": true,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "PASS_H3",
+      "evidence": "Reaffirm: existence iff reflection symmetry; mono⇒f(0) half-line; attainability construct. Layered H3."
+    },
+    {
+      "id": "CAND-H3C14-046",
+      "chapterNo": 4,
+      "frozenFrom1D": true,
+      "mathOk": true,
+      "h3Ok": true,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "PASS_H3",
+      "evidence": "Reaffirm 1D PASS: ∃/∀ on a-dependent Df both lock via max=2log2|a|; trap is applying ∀ on fixed ℝ. Kept PASS for consistency with identical SHA 1D verdict (not overturned without new math error)."
+    },
+    {
+      "id": "CAND-H3C14-047",
+      "chapterNo": 4,
+      "frozenFrom1D": true,
+      "mathOk": true,
+      "h3Ok": true,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "PASS_H3",
+      "evidence": "Reaffirm: domain-ℝ then base flip then Δ_h tertiary split at a*=2√2−2 (empty/point/interval). Chained necessity is H3."
+    },
+    {
+      "id": "CAND-H3C14-060",
+      "chapterNo": 3,
+      "frozenFrom1D": true,
+      "mathOk": true,
+      "h3Ok": true,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "PASS_H3",
+      "evidence": "Reaffirm: all 1/n translation invariance + mono ⇒ constant without continuity. Reference discrete-invariance item."
+    },
+    {
+      "id": "CAND-H3C14-101",
+      "chapterNo": 2,
+      "frozenFrom1D": false,
+      "mathOk": true,
+      "h3Ok": false,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "REJECTED_NOT_H3",
+      "evidence": "Spot-check OK: sum-sq ceiling binds only for s∈(√(1/2),1). But core is open-unit root-distribution + one Vieta inequality + ceiling compare — hard H2, not non-obvious H3 breakthrough. Distinct from PASS006 family."
+    },
+    {
+      "id": "CAND-H3C14-102",
+      "chapterNo": 2,
+      "frozenFrom1D": false,
+      "mathOk": true,
+      "h3Ok": false,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "REJECTED_NOT_H3",
+      "evidence": "Answer [φ,2) recomputed OK; (m−1)² vs Δ/4 sufficiency seal is standard 根的分布 H2, not layered H3."
+    },
+    {
+      "id": "CAND-H3C14-104",
+      "chapterNo": 2,
+      "frozenFrom1D": false,
+      "mathOk": true,
+      "h3Ok": false,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "REJECTED_NOT_H3",
+      "evidence": "b=−2 then four open-gap endpoint signs — elementary dual-interval location H2; no deep cut."
+    },
+    {
+      "id": "CAND-H3C14-108",
+      "chapterNo": 2,
+      "frozenFrom1D": false,
+      "mathOk": true,
+      "h3Ok": false,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "REJECTED_NOT_H3",
+      "evidence": "Opposite-sign + s≤0 + pos-root≥2 reduces by one reversible square to half-plane — mechanical Vieta, H1–H2 depth."
+    },
+    {
+      "id": "CAND-H3C14-201",
+      "chapterNo": 3,
+      "frozenFrom1D": false,
+      "mathOk": true,
+      "h3Ok": false,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "REJECTED_NOT_H3",
+      "evidence": "Math valid without continuity (midpoint root + f(y)=f(1−y) + injectivity). Too thin: 3-line identity chase; anti-IVT note alone ≠ H3 layer."
+    },
+    {
+      "id": "CAND-H3C14-202",
+      "chapterNo": 3,
+      "frozenFrom1D": false,
+      "mathOk": true,
+      "h3Ok": true,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "PASS_H3",
+      "evidence": "Involution+strict dec locks endpoints and ≤1 fixed point without continuity; IVT quarantined to (3) under added continuity. Staging layer earns H3."
+    },
+    {
+      "id": "CAND-H3C14-204",
+      "chapterNo": 3,
+      "frozenFrom1D": false,
+      "mathOk": true,
+      "h3Ok": true,
+      "protocolOk": false,
+      "dupOf": null,
+      "finalVerdict": "PROTOCOL_BLOCKED",
+      "evidence": "Intended dyadic+strict-mono squeeze to affine is mathematically H3-viable, but analysis field contains unfinished author ellipsis (“g 严格……实际上”) — import-unsafe incomplete standard solution. Block protocol until rewrite (no content fix in this stage)."
+    },
+    {
+      "id": "CAND-H3C14-211",
+      "chapterNo": 3,
+      "frozenFrom1D": false,
+      "mathOk": true,
+      "h3Ok": true,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "PASS_H3",
+      "evidence": "Reciprocal-sum existence iff + global mono ⇒ f(2)≥3/2; jump/flat constructs attain [3/2,+∞). Parallel to 027 but unbounded reciprocal domain — distinct layered H3."
+    },
+    {
+      "id": "CAND-H3C14-212",
+      "chapterNo": 3,
+      "frozenFrom1D": false,
+      "mathOk": true,
+      "h3Ok": false,
+      "protocolOk": true,
+      "dupOf": "CAND-H3C14-060",
+      "finalVerdict": "REJECTED_NOT_H3",
+      "evidence": "Equal-increment 1/n + mono ⇒ identity is correct and continuity-free, but proof skeleton isomorphic to 060 (grid + sandwich); low-value twin, not new H3."
+    },
+    {
+      "id": "CAND-H3C14-213",
+      "chapterNo": 3,
+      "frozenFrom1D": false,
+      "mathOk": true,
+      "h3Ok": true,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "PASS_H3",
+      "evidence": "f(x)=f(2x) + mono ⇒ const on (0,1]; explicit jump counterexample at 0 punishes lim-smuggling. Distinct from 060 translation family."
+    },
+    {
+      "id": "CAND-H3C14-214",
+      "chapterNo": 3,
+      "frozenFrom1D": false,
+      "mathOk": true,
+      "h3Ok": true,
+      "protocolOk": true,
+      "dupOf": null,
+      "finalVerdict": "PASS_H3",
+      "evidence": "Odd + additive on [0,+∞) + mono ⇒ global linear without continuity; mono blocks Hamel. Coupling is above bare integer additivity."
+    },
+    {
+      "id": "CAND-H3C14-215",
+      "chapterNo": 3,
+      "frozenFrom1D": false,
+      "mathOk": true,
+      "h3Ok": false,
+      "protocolOk": true,
+      "dupOf": "CAND-H3C14-027",
+      "finalVerdict": "REJECTED_NOT_H3",
+      "evidence": "f=id follows from reflection-sum + f≤id alone; advertised mono (ii) is unused/redundant. Low-value uniqueness add-on to 027 family — not H3 PASS."
+    },
+    {
+      "id": "CAND-H3C14-216",
+      "chapterNo": 3,
+      "frozenFrom1D": false,
+      "mathOk": true,
+      "h3Ok": false,
+      "protocolOk": true,
+      "dupOf": "CAND-H3C14-060",
+      "finalVerdict": "DUPLICATE_BLOCKED",
+      "evidence": "Only 2^{-k}-step invariance is a strictly weaker hypothesis than 060, but solution is the same dyadic-grid+mono sandwich. Bank duplicate variant of 060 — DUPLICATE_BLOCKED."
+    }
+  ],
+  "openIssues": [
+    "INDEPENDENT_REVIEW_NOT_FULLY_ESTABLISHED",
+    "PASS_H3=12<<21 reviewed; redesign author ACCEPTED overstated H3 for Ch2 new set",
+    "204 PROTOCOL_BLOCKED needs authorized analysis rewrite before any import consideration",
+    "Candidates file SHA unchanged; no import authorized"
+  ]
+}

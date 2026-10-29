@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "metrics": {
+    "diagramId": "diag.seawater_resource_basic",
+    "diagramVersion": "0.1.0",
+    "publicContentHash": "40693d78c6e122ea940c61af035c71e71f9c5bbb4e054bf826a791827b0d17bc",
+    "rendererVersion": "1.0.0",
+    "nodeCount": 6,
+    "edgeCount": 5,
+    "drawnNodeCount": 6,
+    "drawnEdgeCount": 5,
+    "canvasWidth": 1176,
+    "canvasHeight": 186
+  }
+}

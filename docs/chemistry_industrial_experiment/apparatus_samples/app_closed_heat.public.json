@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0",
+  "apparatusId": "app_closed_heat",
+  "apparatusVersion": "1.0.0",
+  "orientation": "left_to_right",
+  "title": "密闭加热风险示意（错误样例）",
+  "schematicDisclaimer": "教学示意装置图（schematic），非工程施工图",
+  "components": [
+    {
+      "componentId": "heat1",
+      "componentType": "heater",
+      "displayLabel": "加热",
+      "ports": [
+        {
+          "portId": "heat_out",
+          "direction": "out",
+          "media": [
+            "heat"
+          ]
+        }
+      ]
+    },
+    {
+      "componentId": "rv1",
+      "componentType": "reaction_vessel",
+      "displayLabel": "密闭反应瓶",
+      "ports": [
+        {
+          "portId": "feed_in",
+          "direction": "in",
+          "media": [
+            "liquid",
+            "gas",
+            "solid"
+          ]
+        },
+        {
+          "portId": "heat_in",
+          "direction": "in",
+          "media": [
+            "heat"
+          ]
+        },
+        {
+          "portId": "product_out",
+          "direction": "out",
+          "media": [
+            "liquid",
+            "gas"
+          ]
+        },
+        {
+          "portId": "vent",
+          "direction": "out",
+          "media": [
+            "gas",
+            "waste_gas"
+          ]
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "h",
+      "sourceComponentId": "heat1",
+      "sourcePortId": "heat_out",
+      "targetComponentId": "rv1",
+      "targetPortId": "heat_in",
+      "flowType": "heat"
+    }
+  ],
+  "publicContentHash": "b353152e01abc5c653b23e526924ab1f2abb28e715dd5e8b90f6d87f3253d635"
+}

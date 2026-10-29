@@ -1,0 +1,404 @@
+[
+  {
+    "id": "CAND-H3C14-006",
+    "designId": "H3-DESIGN-006",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "kpCode": "rja.2.3.05",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-root-open-interval-coupled-min-floor",
+    "stem": "设 $f(x)=x^{2}-2mx+m+2$。求使下列两条件同时成立的实数 $m$ 的取值集合：\n（1）方程 $f(x)=0$ 有两个不相等的实根，且两根都位于开区间 $(-1,3)$ 内；\n（2）$\\forall x\\in[-1,3]$，$f(x)\\ge -\\dfrac{1}{2}$。",
+    "answer": "$m\\in\\left(2,\\dfrac{1+\\sqrt{11}}{2}\\right]$",
+    "analysis": "$f(x)=x^{2}-2mx+(m+2)$，对称轴 $x=m$，$\\Delta=4(m-2)(m+1)$。\n（1）两不等实根均在 $(-1,3)$：$\\Delta>0$，$f(-1)>0$，$f(3)>0$，$-1<m<3$。得 $m>-1$ 与 $m>2$ 及 $m<\\dfrac{11}{5}$，故 $m\\in\\left(2,\\dfrac{11}{5}\\right)$。\n（2）此时轴在 $[-1,3]$ 内，最小值 $f(m)=-m^{2}+m+2\\ge -\\dfrac{1}{2}\\Leftrightarrow m^{2}-m-\\dfrac{5}{2}\\le 0\\Leftrightarrow m\\in\\left[\\dfrac{1-\\sqrt{11}}{2},\\dfrac{1+\\sqrt{11}}{2}\\right]$。\n相交得 $m\\in\\left(2,\\dfrac{1+\\sqrt{11}}{2}\\right]$。$m\\to 2^{+}$ 时 $\\Delta\\to 0^{+}$ 不合两不等根；$m=\\dfrac{1+\\sqrt{11}}{2}$ 时最小值恰为 $-\\dfrac{1}{2}$。",
+    "maxScore": 14,
+    "rubric": [
+      {
+        "step": "建立根分布的 Δ/端点/轴条件",
+        "score": 4
+      },
+      {
+        "step": "化简得 m∈(2,11/5)",
+        "score": 3
+      },
+      {
+        "step": "闭区间最小值化为顶点不等式",
+        "score": 4
+      },
+      {
+        "step": "联立截断并检验端点",
+        "score": 3
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "81b28f1490ad8dd8d4c05d17d38bb813da3a268a50328b002635a203a36c9ab3",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "vertex-floor cuts open-root interval at (1+√11)/2",
+      "aboveHard14H2Contrast": "root-distribution alone yields oversized (2,11/5)",
+      "deepStrategyOrLayeredNecessity": "layer1 open roots → layer2 min-floor",
+      "routineKillCheck": "only Δ/f(-1)/f(3) without min → wrong set"
+    },
+    "methodMain": "classification",
+    "methodAux": "equiv_transform"
+  },
+  {
+    "id": "CAND-H3C14-007",
+    "designId": "H3-DESIGN-007",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "kpCode": "rja.2.3.05",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-straddle-one-plus-vieta-slice",
+    "stem": "设 $f(x)=x^{2}-(2a+1)x+a^{2}$。方程 $f(x)=0$ 有两实根 $x_{1}<x_{2}$，且同时满足：\n（i）$x_{1}\\in(0,1)$，$x_{2}\\in(1,3)$；\n（ii）$x_{1}+x_{2}\\ge 2$ 且 $x_{1}x_{2}\\le 1$。\n求实数 $a$ 的取值集合。",
+    "answer": "$a\\in\\left[\\dfrac{1}{2},1\\right)$",
+    "analysis": "$\\Delta=4a+1$ 需 $a>-\\dfrac{1}{4}$。\n（i）$f(0)=a^{2}>0$，$f(1)=a(a-2)<0\\Leftrightarrow a\\in(0,2)$，$f(3)=a^{2}-6a+6>0\\Leftrightarrow a<3-\\sqrt{3}$ 或 $a>3+\\sqrt{3}$，轴 $0<\\dfrac{2a+1}{2}<3$。综合得 $a\\in(0,3-\\sqrt{3})$。\n（ii）$2a+1\\ge 2\\Leftrightarrow a\\ge\\dfrac{1}{2}$，$a^{2}\\le 1\\Leftrightarrow |a|\\le 1$。相交得 $a\\in\\left[\\dfrac{1}{2},1\\right)$（$a=1$ 时 $f(1)=0$，不合严格分离）。\n$a=\\dfrac{1}{2}$ 时根为 $1\\pm\\dfrac{\\sqrt{3}}{2}$，合于（i）（ii）。",
+    "maxScore": 14,
+    "rubric": [
+      {
+        "step": "建立夹根与端点符号条件",
+        "score": 4
+      },
+      {
+        "step": "化简得 a∈(0,3-√3)",
+        "score": 3
+      },
+      {
+        "step": "韦达双边约束求交",
+        "score": 4
+      },
+      {
+        "step": "排除 a=1 并端点检验",
+        "score": 3
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "688f97f16ba5b4478f446646525da66d667b9a8554ad25ca7b0742b4ad6026d3",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "f(3)>0 forces a<3-√3 before Vieta slice",
+      "aboveHard14H2Contrast": "straddle alone insufficient; sum/product cut [1/2,1)",
+      "deepStrategyOrLayeredNecessity": "distribution layer then Vieta layer",
+      "routineKillCheck": "only f(1)<0 → (0,2) wrong"
+    },
+    "methodMain": "equiv_transform",
+    "methodAux": "classification"
+  },
+  {
+    "id": "CAND-H3C14-008",
+    "designId": "H3-DESIGN-008",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "kpCode": "rja.2.3.04",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-forall-exists-vertex-shift-half-a",
+    "stem": "设 $f_{a}(x)=(x-a)^{2}-\\dfrac{a}{2}$，$a\\in[0,1]$。判断下列命题的真假，并证明：\n（I）$\\forall a\\in[0,1],\\ \\exists x\\in[0,1]$ 使 $f_{a}(x)\\le 0$；\n（II）$\\exists x\\in[0,1],\\ \\forall a\\in[0,1]$ 使 $f_{a}(x)\\le 0$。",
+    "answer": "（I）真；（II）假。",
+    "analysis": "（I）对固定 $a\\in[0,1]$，取 $x=a$，则 $f_{a}(a)=-\\dfrac{a}{2}\\le 0$，故（I）真。\n（II）若存在 $x_{0}\\in[0,1]$ 使对一切 $a\\in[0,1]$ 有 $(x_{0}-a)^{2}\\le\\dfrac{a}{2}$，取 $a=0$ 得 $x_{0}=0$；再取 $a=1$ 得 $1\\le\\dfrac{1}{2}$，矛盾。故（II）假。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "证明（I）：构造 x=a",
+        "score": 4
+      },
+      {
+        "step": "（II）由 a=0 推出 x=0",
+        "score": 4
+      },
+      {
+        "step": "代入 a=1 得矛盾",
+        "score": 4
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "6d755ec5a3f492a7092a7f36bdbae658f356dcf5930ff1917509656a791d4247",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "a=0 forces x=0 then a=1 kills II",
+      "aboveHard14H2Contrast": "shift-square minus a/2 separates quantifiers",
+      "deepStrategyOrLayeredNecessity": "constructive I then contradiction chain for II",
+      "routineKillCheck": "claiming I⇔II by taking x=a → wrong"
+    },
+    "methodMain": "equiv_transform",
+    "methodAux": "special_value"
+  },
+  {
+    "id": "CAND-H3C14-009",
+    "designId": "H3-DESIGN-009",
+    "chapterNo": 2,
+    "sectionCode": "2.2",
+    "kpCode": "rja.2.2.04",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-ab-plus-a-plus-b-eq1-reciprocal-min",
+    "stem": "设正实数 $a,b$ 满足 $ab+a+b=1$。\n（1）求 $\\dfrac{1}{a}+\\dfrac{1}{b}$ 的最小值；\n（2）求使 $\\dfrac{1}{a}+\\dfrac{1}{b}\\ge k$ 对一切满足条件的 $a,b$ 恒成立的实数 $k$ 的最大值。",
+    "answer": "（1）$2+2\\sqrt{2}$；（2）$k_{\\max}=2+2\\sqrt{2}$。",
+    "analysis": "由 $ab+a+b=1$ 得 $(1+a)(1+b)=2$。令 $s=a+b$，$p=ab=1-s$。由 $a,b>0$ 得 $0<s<1$，且 $s^{2}-4p\\ge 0\\Leftrightarrow s\\ge 2(\\sqrt{2}-1)$，故 $s\\in\\bigl[2(\\sqrt{2}-1),1\\bigr)$。\n$\\dfrac{1}{a}+\\dfrac{1}{b}=\\dfrac{s}{1-s}$ 在该区间严格递增，最小值 $g\\bigl(2(\\sqrt{2}-1)\\bigr)=2+2\\sqrt{2}$（有理化），等号 $a=b=\\sqrt{2}-1$。\n（2）下确界可取，故 $k_{\\max}=2+2\\sqrt{2}$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "化为 (1+a)(1+b)=2 并得 s 范围",
+        "score": 4
+      },
+      {
+        "step": "写成 s/(1-s) 并求最小",
+        "score": 5
+      },
+      {
+        "step": "得出 k 的最大值与等号",
+        "score": 3
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "7a5862b8a833757311de4f8602b5e624be117e8785aaf2e937863b836be2abf6",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "(1+a)(1+b)=2 then s-domain before g(s)",
+      "aboveHard14H2Contrast": "not direct AM-GM on a,b",
+      "deepStrategyOrLayeredNecessity": "identity → discriminant domain → monotone g",
+      "routineKillCheck": "blind AM-GM without domain → wrong min"
+    },
+    "methodMain": "num_shape",
+    "methodAux": "equiv_transform"
+  },
+  {
+    "id": "CAND-H3C14-010",
+    "designId": "H3-DESIGN-010",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "kpCode": "rja.2.3.03",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-product-one-same-sign-open-root-plus-sum",
+    "stem": "设方程 $x^{2}+mx+1=0$ 有两实根 $x_{1},x_{2}$。讨论是否存在实数 $m$，使下列两条件同时成立：\n（1）开区间 $(0,1)$ 内恰有一个根；\n（2）$x_{1}+x_{2}\\le -3$。\n若存在，求所有这样的 $m$；若不存在，证明之。",
+    "answer": "不存在这样的实数 $m$。",
+    "analysis": "积为 $1>0$，两根同号。要两正根需 $m<0$ 且 $\\Delta\\ge 0$，故 $m\\le -2$。\n$m=-2$ 时重根 $1\\notin(0,1)$；$m<-2$ 时 $g(1)=2+m<0$，恰一根∈$(0,1)$。故（1）$\\Leftrightarrow m<-2$。\n（2）$-m\\le -3\\Leftrightarrow m\\ge 3$。交集为空，故不存在。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "同号分析并得（1）⇔ m<-2",
+        "score": 5
+      },
+      {
+        "step": "由韦达得（2）⇔ m≥3",
+        "score": 3
+      },
+      {
+        "step": "证明交集为空",
+        "score": 4
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "d89aa619851673294645015b7708370e56e720f05f76d6c4649029deb445c3ac",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "same-sign kills endpoint-sign habit; empty intersection",
+      "aboveHard14H2Contrast": "H2 stops at m<-2; here add sum → empty",
+      "deepStrategyOrLayeredNecessity": "feasibility after two necessary conditions",
+      "routineKillCheck": "report m<-2 only → incomplete"
+    },
+    "methodMain": "classification",
+    "methodAux": "equiv_transform"
+  },
+  {
+    "id": "CAND-H3C14-011",
+    "designId": "H3-DESIGN-011",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "kpCode": "rja.2.3.02",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-self-referential-solution-interval-match",
+    "stem": "设不等式 $x^{2}-(3m+1)x+2m(m+1)\\le 0$ 的解集恰好等于 $[m,2m+1]$。求实数 $m$。",
+    "answer": "$m=0$",
+    "analysis": "开口向上，解集为 $[m,2m+1]$ 说明两根恰为 $m$ 与 $2m+1$，且 $m\\le 2m+1\\Leftrightarrow m\\ge -1$。\n和：$m+(2m+1)=3m+1$，与系数一致（恒等）。\n积：$m(2m+1)=2m(m+1)\\Leftrightarrow 2m^{2}+m=2m^{2}+2m\\Leftrightarrow m=0$。\n回代：$x^{2}-x\\le 0\\Leftrightarrow x\\in[0,1]=[m,2m+1]$，成立。",
+    "maxScore": 10,
+    "rubric": [
+      {
+        "step": "指出两根须为 m 与 2m+1",
+        "score": 3
+      },
+      {
+        "step": "由积条件解得 m=0",
+        "score": 4
+      },
+      {
+        "step": "回代验证解集",
+        "score": 3
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "6ee0377e92f67da08ee5d16f0e92a0f40300300263b639228fdddd68eb950e8a",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "sum tautology; product forces m=0",
+      "aboveHard14H2Contrast": "self-referential endpoint inverse problem",
+      "deepStrategyOrLayeredNecessity": "structure match then product then verify",
+      "routineKillCheck": "expand inequality in m without endpoint ID → stuck"
+    },
+    "methodMain": "equiv_transform",
+    "methodAux": "undetermined_coeff"
+  },
+  {
+    "id": "CAND-H3C14-012",
+    "designId": "H3-DESIGN-012",
+    "chapterNo": 2,
+    "sectionCode": "2.1",
+    "kpCode": "rja.2.1.02",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-ratio-shift-compare-via-t-plus-1overt",
+    "stem": "设 $a>b>0$。证明：$\\dfrac{a}{b}+\\dfrac{b}{a}>\\dfrac{a+1}{b+1}+\\dfrac{b+1}{a+1}$。",
+    "answer": "不等式成立（见分析证明）。",
+    "analysis": "令 $t=\\dfrac{a}{b}>1$，$s=\\dfrac{a+1}{b+1}$。则 $s-1=\\dfrac{a-b}{b+1}$，$t-1=\\dfrac{a-b}{b}$。因 $b+1>b$，有 $1<s<t$。\n令 $\\varphi(u)=u+\\dfrac{1}{u}$（$u>1$）。对 $t>s>1$，有 $\\varphi(t)-\\varphi(s)=(t-s)\\left(1-\\dfrac{1}{ts}\\right)$，因 $ts>1$，括号为正，故 $\\varphi(t)>\\varphi(s)$，即所证不等式。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "引入 t,s 并证明 1<s<t",
+        "score": 5
+      },
+      {
+        "step": "证明 φ 在 (1,+∞) 严格增",
+        "score": 4
+      },
+      {
+        "step": "得出严格不等式",
+        "score": 3
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "38089ae8147d402a49b0116bc1460401a2328fc882ab9eab69d74cdc62e79205",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "1<s<t then φ monotone on (1,∞)",
+      "aboveHard14H2Contrast": "not one-shot difference; needs ratio shift",
+      "deepStrategyOrLayeredNecessity": "compare ratios → monotone φ",
+      "routineKillCheck": "common-denominator expand without monotone → messy"
+    },
+    "methodMain": "equiv_transform",
+    "methodAux": "mono_analysis"
+  },
+  {
+    "id": "CAND-H3C14-013",
+    "designId": "H3-DESIGN-013",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "kpCode": "rja.2.3.04",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-fixed-root-gap-interval-min-touch",
+    "stem": "设 $f(x)=x^{2}+bx+c$。已知：\n（1）方程 $f(x)=0$ 的两根之差的绝对值为 $2$；\n（2）$\\forall x\\in[0,1]$，$f(x)\\ge\\dfrac{1}{4}$；\n（3）$\\exists x\\in[0,1]$，$f(x)=\\dfrac{1}{4}$。\n求所有有序对 $(b,c)$。",
+    "answer": "$(b,c)=\\left(\\sqrt{5},\\dfrac{1}{4}\\right)$ 或 $\\left(-2-\\sqrt{5},\\dfrac{5}{4}+\\sqrt{5}\\right)$",
+    "analysis": "（1）$\\Delta=b^{2}-4c=4\\Leftrightarrow c=\\dfrac{b^{2}-4}{4}$。\n（2）（3）说明 $[0,1]$ 上最小值恰为 $\\dfrac{1}{4}$。\n若轴 $-\\dfrac{b}{2}\\in[0,1]$（即 $b\\in[-2,0]$），则最小值 $c-\\dfrac{b^{2}}{4}=-1\\ne\\dfrac{1}{4}$，矛盾。故最小值在端点。\n甲：$c=\\dfrac{1}{4}\\Rightarrow b=\\pm\\sqrt{5}$。仅 $b=\\sqrt{5}$ 合（轴在左侧，$f(1)>\\dfrac{1}{4}$）；$b=-\\sqrt{5}$ 时 $f(1)=\\dfrac{5}{4}-\\sqrt{5}<\\dfrac{1}{4}$，否。\n乙：$f(1)=\\dfrac{1}{4}$ 且 $c>\\dfrac{1}{4}$，得 $b^{2}+4b-1=0$，$b=-2\\pm\\sqrt{5}$。仅 $b=-2-\\sqrt{5}$ 合（轴在右侧），$c=\\dfrac{5}{4}+\\sqrt{5}$。",
+    "maxScore": 14,
+    "rubric": [
+      {
+        "step": "由根差得 Δ=4",
+        "score": 3
+      },
+      {
+        "step": "否定轴落入 [0,1]",
+        "score": 4
+      },
+      {
+        "step": "端点触碰两情形求解",
+        "score": 5
+      },
+      {
+        "step": "检验并给出全部有序对",
+        "score": 2
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "652d8c81dd66ac2c463231ce4455e81d7318056c57e1dd869507a65276b4247a",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "axis-in-interval ⇒ min≡-1 ≠1/4",
+      "aboveHard14H2Contrast": "root-gap couples with touch-min",
+      "deepStrategyOrLayeredNecessity": "kill interior-axis then endpoint cases",
+      "routineKillCheck": "axis trichotomy without Δ link → miss contradiction"
+    },
+    "methodMain": "classification",
+    "methodAux": "equiv_transform"
+  },
+  {
+    "id": "CAND-H3C14-014",
+    "designId": "H3-DESIGN-014",
+    "chapterNo": 2,
+    "sectionCode": "2.3",
+    "kpCode": "rja.2.3.01",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-g-nonneg-on-f-root-interval-with-gap",
+    "stem": "设 $f(x)=x^{2}-2tx+t$，$g(x)=x^{2}-2x+t$。求使下列条件同时成立的实数 $t$：\n（1）方程 $f(x)=0$ 有两个实根 $x_{1}\\le x_{2}$，且 $x_{2}-x_{1}\\le 1$；\n（2）$\\forall x\\in[x_{1},x_{2}]$，$g(x)\\ge 0$。",
+    "answer": "$t\\in\\{0\\}\\cup\\left[1,\\dfrac{1+\\sqrt{2}}{2}\\right]$",
+    "analysis": "$\\Delta_{f}=4t(t-1)\\ge 0\\Leftrightarrow t\\le 0$ 或 $t\\ge 1$，且 $x_{2}-x_{1}=2\\sqrt{t(t-1)}\\le 1\\Leftrightarrow 4t(t-1)\\le 1$。\n当 $t\\ge 1$：两根非负且 $x_{1}\\le 1\\le x_{2}$，故轴 $x=1$ 落入，$\\min g=g(1)=t-1\\ge 0$ 自动。再 $4t(t-1)\\le 1\\Leftrightarrow t\\in\\left[1,\\dfrac{1+\\sqrt{2}}{2}\\right]$（取正支与 $t\\ge 1$ 之交）。\n当 $t=0$：重根 $0$，$g(0)=0$，且根距 $0\\le 1$，成立。\n当 $t<0$：两根异号，$x_{2}=t+\\sqrt{t(t-1)}\\in(0,1)$，轴不落入；区间在轴左侧，$\\min g=g(x_{2})$。由 $f(x_{2})=0$ 得 $g(x_{2})=2x_{2}(t-1)<0$，不满足（2）。\n故 $t\\in\\{0\\}\\cup\\left[1,\\dfrac{1+\\sqrt{2}}{2}\\right]$。",
+    "maxScore": 14,
+    "rubric": [
+      {
+        "step": "写出 Δ_f 与根距条件",
+        "score": 3
+      },
+      {
+        "step": "处理 t≥1：轴落入与根距截断",
+        "score": 5
+      },
+      {
+        "step": "处理 t=0 与排除 t<0",
+        "score": 6
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "89be21ced2dc68531ed83a648d610e6e6737be22a9e59322d1bc9d25814de638",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "g(x2)=2x2(t-1) via f(x2)=0",
+      "aboveHard14H2Contrast": "domain is root-interval of another quadratic",
+      "deepStrategyOrLayeredNecessity": "sign-of-t cases plus gap cut",
+      "routineKillCheck": "require Δ_g≤0 globally → wrong"
+    },
+    "methodMain": "equiv_transform",
+    "methodAux": "classification"
+  },
+  {
+    "id": "CAND-H3C14-015",
+    "designId": "H3-DESIGN-015",
+    "chapterNo": 2,
+    "sectionCode": "2.2",
+    "kpCode": "rja.2.2.02",
+    "qtype": "application",
+    "difficulty": 3,
+    "hardLevel": "H3",
+    "modelFamily": "h3-xy-plus-x-plus-y-eq4-sumsq-min",
+    "stem": "设正实数 $x,y$ 满足 $xy+x+y=4$。令 $t=xy$。\n（1）求 $t$ 的取值范围；\n（2）求 $x^{2}+y^{2}$ 的最小值。",
+    "answer": "（1）$t\\in\\left(0,6-2\\sqrt{5}\\right]$；（2）最小值为 $12-4\\sqrt{5}$。",
+    "analysis": "由 $xy+x+y=4$ 得 $(1+x)(1+y)=5$。令 $s=x+y$，$t=xy$，则 $s+t=4$，$s=4-t$。由 $x,y>0$ 得 $0<t<4$，且 $(4-t)^{2}\\ge 4t\\Leftrightarrow t^{2}-12t+16\\ge 0$。根为 $6\\pm 2\\sqrt{5}$，结合 $t\\in(0,4)$ 得 $t\\in\\left(0,6-2\\sqrt{5}\\right]$。\n$x^{2}+y^{2}=s^{2}-2t=(4-t)^{2}-2t=t^{2}-10t+16=(t-5)^{2}-9$。抛物线开口向上、对称轴 $t=5$，而可行域在 $t\\le 6-2\\sqrt{5}<2<5$ 的左侧，故在可行域上随 $t$ 增大而减小，最小值在右端点 $t=6-2\\sqrt{5}$：$12-4\\sqrt{5}$。",
+    "maxScore": 12,
+    "rubric": [
+      {
+        "step": "化为 (1+x)(1+y)=5 并得 Δ 条件",
+        "score": 4
+      },
+      {
+        "step": "求出 t 的范围",
+        "score": 3
+      },
+      {
+        "step": "将 x²+y² 表为 t 并求最小",
+        "score": 5
+      }
+    ],
+    "diagramRequirement": "NOT_NEEDED",
+    "contentSha256": "48b1e6244382b96868b76129581050e0d3879de29d82f37ae9bc1f729e478c28",
+    "h3Evidence": {
+      "nonObviousBreakthrough": "Δ on (4-t)^2≥4t caps t before minimizing sumsq",
+      "aboveHard14H2Contrast": "not direct AM-GM; domain-endpoint optimization",
+      "deepStrategyOrLayeredNecessity": "feasibility of t then monotone sumsq",
+      "routineKillCheck": "AM-GM on x,y ignoring Δ → wrong range/min"
+    },
+    "methodMain": "num_shape",
+    "methodAux": "equiv_transform"
+  }
+]
