@@ -135,26 +135,90 @@ try {
   process.exit(1)
 }
 
-console.log('==> 3/4 copy uploads/hs-math')
-const uploadsSrc = join(root, 'apps', 'api', 'uploads', 'hs-math')
-const uploadsDest = join(out, 'api', 'uploads', 'hs-math')
-if (!existsSync(uploadsSrc)) {
-  console.warn('  WARN: missing apps/api/uploads/hs-math — diagrams may 404 on server')
-  mkdirSync(uploadsDest, { recursive: true })
+console.log('==> 3/4 copy uploads/hs-math/item-diagrams only')
+// 只打题干配图；不要打本地 application-answers（学生答题图，以免覆盖服务器历史）
+const diagramsSrc = join(
+  root,
+  'apps',
+  'api',
+  'uploads',
+  'hs-math',
+  'item-diagrams',
+)
+const diagramsDest = join(
+  out,
+  'api',
+  'uploads',
+  'hs-math',
+  'item-diagrams',
+)
+mkdirSync(join(out, 'api', 'uploads', 'hs-math'), { recursive: true })
+if (!existsSync(diagramsSrc)) {
+  console.warn(
+    '  WARN: missing apps/api/uploads/hs-math/item-diagrams — diagrams may 404 on server',
+  )
+  mkdirSync(diagramsDest, { recursive: true })
 } else {
-  mkdirSync(join(out, 'api', 'uploads'), { recursive: true })
-  cpSync(uploadsSrc, uploadsDest, { recursive: true, force: true })
-  const st = countFiles(uploadsDest)
-  console.log(`  copied uploads/hs-math files=${st.files} bytes=${st.bytes}`)
+  cpSync(diagramsSrc, diagramsDest, { recursive: true, force: true })
+  const st = countFiles(diagramsDest)
+  console.log(
+    `  copied item-diagrams files=${st.files} bytes=${st.bytes} (skipped application-answers)`,
+  )
 }
+const uploadsDest = join(out, 'api', 'uploads', 'hs-math')
 
-console.log('==> 4/4 checklist + VERSION note')
+console.log('==> 4/4 checklist + registry + VERSION note')
 const checklistSrc = join(root, 'SERVER_UPDATE_CHECKLIST_HS_MATH.md')
 if (existsSync(checklistSrc)) {
   cpSync(checklistSrc, join(out, 'SERVER_UPDATE_CHECKLIST_HS_MATH.md'))
 } else {
   console.warn('  WARN: SERVER_UPDATE_CHECKLIST_HS_MATH.md missing at repo root')
 }
+
+const registrySrc = join(
+  root,
+  'docs',
+  'high_school_math',
+  'SERVER_DEPLOYMENT_REGISTRY.md',
+)
+if (existsSync(registrySrc)) {
+  mkdirSync(join(out, 'docs', 'high_school_math'), { recursive: true })
+  cpSync(
+    registrySrc,
+    join(out, 'docs', 'high_school_math', 'SERVER_DEPLOYMENT_REGISTRY.md'),
+  )
+} else {
+  console.warn('  WARN: SERVER_DEPLOYMENT_REGISTRY.md missing')
+}
+
+// 显式再拷贝整章开训迁移，避免在众多 migrate 中被忽略
+const catNull = join(root, 'db', 'migrate_hs_math_session_category_nullable.sql')
+if (existsSync(catNull)) {
+  cpSync(catNull, join(out, 'db', 'migrate_hs_math_session_category_nullable.sql'))
+}
+
+const readmePack = join(out, 'PACK_README_HS_MATH.txt')
+writeFileSync(
+  readmePack,
+  [
+    '高一数学同步发布包（自行上传）',
+    `generatedAt=${new Date().toISOString()}`,
+    '',
+    '包含：web/ api/ db/ deploy/nginx*.conf services/ocr* 题库内容 SQL + uploads/hs-math',
+    '不含：学生训练会话表、答题图、本地 .env / 密钥',
+    '',
+    '上线顺序（摘要）：',
+    '1) 备份服务器 hs_math_*（建议全库）',
+    '2) 部署 api/dist + web + nginx（参考 deploy/nginx.conf）',
+    '3) 若 category_id 不可空：先执行 db/migrate_hs_math_session_category_nullable.sql',
+    '4) 导入 db/hs_math_content_sync.sql（题库内容；会重建内容表，不含 sessions）',
+    '5) 仅合并 api/uploads/hs-math/item-diagrams → 服务器同路径；勿动 application-answers（服务器学生答题图）',
+    '6) 按 SERVER_UPDATE_CHECKLIST_HS_MATH.md 验收；登记 docs/high_school_math/SERVER_DEPLOYMENT_REGISTRY.md',
+    '',
+    '禁止：用本包覆盖/清空 hs_math_train_sessions / session_items',
+    '',
+  ].join('\n'),
+)
 
 const verPath = join(out, 'VERSION.txt')
 const prev = existsSync(verPath) ? readFileSync(verPath, 'utf8') : ''
@@ -166,7 +230,8 @@ writeFileSync(
     `hsMathContentSql=db/hs_math_content_sync.sql\n` +
     `hsMathUploadsFiles=${up.files}\n` +
     `hsMathUploadsBytes=${up.bytes}\n` +
-    `hsMathContentTables=${CONTENT_TABLES.join(',')}\n`,
+    `hsMathContentTables=${CONTENT_TABLES.join(',')}\n` +
+    `packReadme=PACK_README_HS_MATH.txt\n`,
 )
 
 console.log('')

@@ -23,6 +23,7 @@ import ListeningView from '@/views/listening/ListeningView.vue'
 import AiReferenceView from '@/views/ai-reference/AiReferenceView.vue'
 import WritingCoachView from '@/views/writing-coach/WritingCoachView.vue'
 import KnowledgeCardsView from '@/views/knowledge-cards/KnowledgeCardsView.vue'
+import AiOcrHubView from '@/views/ai-ocr/AiOcrHubView.vue'
 import ChemistryHomeView from '@/views/chemistry/ChemistryHomeView.vue'
 import ChemistrySpecialtyView from '@/views/chemistry/ChemistrySpecialtyView.vue'
 import ChemistryKbHomeView from '@/views/chemistry/ChemistryKbHomeView.vue'
@@ -88,6 +89,12 @@ const router = createRouter({
           path: 'knowledge-cards',
           name: 'knowledge-cards',
           component: KnowledgeCardsView,
+          meta: { requiresAi: true },
+        },
+        {
+          path: 'ai-ocr',
+          name: 'ai-ocr',
+          component: AiOcrHubView,
           meta: { requiresAi: true },
         },
         { path: 'chemistry', name: 'chemistry', component: ChemistryHomeView },

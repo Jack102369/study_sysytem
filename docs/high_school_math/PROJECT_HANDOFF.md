@@ -1,7 +1,8 @@
 # 高一数学模块 · 项目交接文档
 
 > **用途**：新建对话时先读本文。  
-> **维护**：`.cursor\rules\hs-math-handoff.mdc`
+> **维护**：`.cursor\rules\hs-math-handoff.mdc`  
+> **服务器部署登记**：[`SERVER_DEPLOYMENT_REGISTRY.md`](./SERVER_DEPLOYMENT_REGISTRY.md)（自行上传部署；保留训练历史）
 
 ---
 

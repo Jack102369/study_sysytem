@@ -26,6 +26,7 @@ import { PointsModule } from './points/points.module'
 import { KnowledgeCardsModule } from './knowledge-cards/knowledge-cards.module'
 import { PetAssistantModule } from './pet-assistant/pet-assistant.module'
 import { ChemistryModule } from './chemistry/chemistry.module'
+import { AiOcrModule } from './ai-ocr/ai-ocr.module'
 import { HsMathModule } from './hs-math/hs-math.module'
 
 @Module({
@@ -73,6 +74,7 @@ import { HsMathModule } from './hs-math/hs-math.module'
     PetAssistantModule,
     ChemistryModule,
     HsMathModule,
+    AiOcrModule,
   ],
 })
 export class AppModule {}

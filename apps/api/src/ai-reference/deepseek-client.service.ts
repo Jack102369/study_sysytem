@@ -1006,6 +1006,45 @@ ${(params.keyPoints || '').slice(0, 800) || '（无）'}
     return { content, model, usage: usage ?? null }
   }
 
+  /**
+   * 通用纯文本对话（无图片字段）。供独立业务模块复用 HTTP/密钥/超时。
+   */
+  async chatText(params: {
+    system: string
+    user: string
+    temperature?: number
+    timeoutMs?: number
+    forceJson?: boolean
+  }): Promise<{ content: string; model: string }> {
+    const key = this.apiKey()
+    if (!key) {
+      throw new ServiceUnavailableException(
+        '未配置 DEEPSEEK_API_KEY，请在 apps/api/.env 中填写',
+      )
+    }
+    const model = this.model()
+    const forceJson =
+      typeof params.forceJson === 'boolean'
+        ? params.forceJson
+        : !this.isReasoningModel(model)
+    const { content } = await this.chatMessages({
+      key,
+      model,
+      messages: [
+        { role: 'system', content: params.system },
+        { role: 'user', content: params.user },
+      ],
+      temperature:
+        typeof params.temperature === 'number' ? params.temperature : 0.2,
+      forceJson,
+      timeoutMs: params.timeoutMs,
+    })
+    if (!content.trim()) {
+      throw new ServiceUnavailableException('模型未返回有效回复')
+    }
+    return { content, model }
+  }
+
   private async chat(opts: {
     key: string
     model: string
